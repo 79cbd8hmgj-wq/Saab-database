@@ -4,6 +4,7 @@
     "corrections",
     "ng93",
     "ng93_body",
+    "ng93_structure",
     "og95",
     "og95_2006_2008",
     "og95_body",
@@ -12,24 +13,24 @@
     "simulation"
   ],
   "counts": {
-    "sources": 147,
-    "facts": 310,
+    "sources": 168,
+    "facts": 340,
     "issues": 20,
-    "parts": 32,
-    "gaps": 62
+    "parts": 33,
+    "gaps": 70
   },
-  "unique_source_urls": 146,
+  "unique_source_urls": 167,
   "retrieval_statuses": {
-    "full_text": 136,
+    "full_text": 157,
     "metadata_only": 2,
     "partial": 3,
     "search_excerpt": 6
   },
   "evidence_statuses": {
-    "documented": 331,
+    "documented": 362,
     "inference": 3,
     "supplier_claim": 28
   },
   "research_date": "2026-10-12",
-  "notes": "Research record census; counts do not independently verify technical claims or imply coverage completeness. Structural and MY2006–2008 source records are scoped to retrieved evidence."
+  "notes": "Inventory counts are records, not proof of fitness, material condition or coverage completeness. NG9-3 structure is factory-document research, not a rust-frequency study."
 }
