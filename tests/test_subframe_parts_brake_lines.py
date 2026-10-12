@@ -39,7 +39,7 @@ class SubframePartsAndBrakeLinesTests(unittest.TestCase):
         self.assertNotIn("CV", item["applicability"]["body_styles"])
         self.assertEqual(item["relationships"][0]["type"], "supersedes")
         self.assertEqual(item["relationships"][0]["part_number"], "12825111")
-        self.assertIn("engine mount", " ".join(item["requirements"]).lower())
+        self.assertIn("engine mount", " ".join(item["requirements"]).lower().replace("-", " "))
 
     def test_convertible_rear_special_bushing_is_conditional(self):
         item = self.parts["12759331"]
