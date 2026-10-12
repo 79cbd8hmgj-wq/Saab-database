@@ -1,0 +1,1188 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "subframe_parts_brake_lines",
+  "sources": [
+    {
+      "id": "mountbrake-src-001",
+      "title": "2006 9-3 front floor/subframe parts diagram",
+      "url": "https://www.esaabparts.com/viewparts.php?section=582948118",
+      "publisher": "eSaabParts (retailer parts catalogue)",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "eSaabParts model/part diagram; retailer year spans and option text are supplier-catalog evidence, not VIN-confirmed factory fitment."
+    },
+    {
+      "id": "mountbrake-src-002",
+      "title": "9-3 4D/5D FWD replacement front subframe 32022623",
+      "url": "https://www.esaabparts.com/saab/parts/32022623?ss=12825111",
+      "publisher": "eSaabParts (retailer parts catalogue)",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Seller states 32022623 succeeds 12825111/12762720 and has a 2005 engine-mount condition. Another indexed presentation lists only 12825111; retain uncertainty for 12762720 mapping."
+    },
+    {
+      "id": "mountbrake-src-003",
+      "title": "9-3 CV front subframe 12825112",
+      "url": "https://www.esaabparts.com/saab/parts/12825112",
+      "publisher": "eSaabParts (retailer parts catalogue)",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "eSaabParts CV listing, associated diagram 2006–2012, no verified body/engine/VIN worksheet."
+    },
+    {
+      "id": "mountbrake-src-004",
+      "title": "9-3 XWD front subframe 12777984",
+      "url": "https://www.esaabparts.com/saab/parts/12777984",
+      "publisher": "eSaabParts (retailer parts catalogue)",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "XWD-specific part in supplier diagram; excluded from FWD recommendation."
+    },
+    {
+      "id": "mountbrake-src-005",
+      "title": "9-3 4D/5D FWD rear subframe 12761536",
+      "url": "https://www.esaabparts.com/saab/parts/12761536",
+      "publisher": "eSaabParts (retailer parts catalogue)",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "eSaabParts rear subframe listing explicitly says FWD 4D/5D MY2006–2011. It was backordered during retrieval; future stock unverified."
+    },
+    {
+      "id": "mountbrake-src-006",
+      "title": "9-3 CV rear subframe 12831642",
+      "url": "https://www.esaabparts.com/saab/parts/12831642",
+      "publisher": "eSaabParts (retailer parts catalogue)",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "eSaabParts rear subframe listing says Convertible; associated diagram 2004–2012, but exact model-year engine/option mapping is not established."
+    },
+    {
+      "id": "mountbrake-src-007",
+      "title": "2006–2009 original 9-5 front subframe 12765948",
+      "url": "https://www.esaabparts.com/saab/parts/12765948",
+      "publisher": "eSaabParts (retailer parts catalogue)",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Seller catalogue identifies 2006–2009 OG 9-5 front subframe; retailer backorder status is not permanent."
+    },
+    {
+      "id": "mountbrake-src-008",
+      "title": "Original 9-5 subframe/strut bolt 32019861",
+      "url": "https://www.esaabparts.com/saab/parts/32019861",
+      "publisher": "eSaabParts (retailer parts catalogue)",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Seller calls part a subframe/strut bolt, lists historical number chain and multiple diagram locations; exact joint/quantity is not established."
+    },
+    {
+      "id": "mountbrake-src-009",
+      "title": "MY2006 9-3 B207 front subframe procedure",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-b207",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory material hosted by independent WIS mirror; 2006 B207-specific procedure, not part interchange proof."
+    },
+    {
+      "id": "mountbrake-src-010",
+      "title": "MY2006 OG 9-5 petrol front subframe reinstallation",
+      "url": "https://saabwisonline.com/9-5-9600/2006/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-petrol-engines",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory WIS reused subframe procedure for petrol models. Do not substitute diesel or different-year torque applications."
+    },
+    {
+      "id": "mountbrake-src-011",
+      "title": "MY2006 OG 9-5 rear support arm/subframe",
+      "url": "https://saabwisonline.com/9-5-9600/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/support-arm",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory WIS rear suspension support arm removal/refitting and associated collision-protection sleeves."
+    },
+    {
+      "id": "mountbrake-src-012",
+      "title": "MY2008 OG 9-5 brake lines",
+      "url": "https://saabwisonline.com/9-5-9600/2008/5-brakes/footbrake-system/adjustment-replacement/brake-lines",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory WIS requires checks for corrosion/pitting and leakage; does not provide complete chassis routing diagram."
+    },
+    {
+      "id": "mountbrake-src-013",
+      "title": "MY2006 9-3 master cylinder and brake pipes",
+      "url": "https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/master-cylinder",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory WIS identifies circuit at master cylinder and hose/bleeding dependencies. No complete line route."
+    },
+    {
+      "id": "mountbrake-src-014",
+      "title": "MY2006 9-3 TCS/ESP module and brake pipe clips",
+      "url": "https://saabwisonline.com/9-3-9440/2006/5-brakes/tcs-esp/adjustment-replacement/control-module-tcs-382-esp-671-b207-b284-rhd-z18xe-z19",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory WIS notes brake pipes anchored at MacPherson strut tower and ECU pin safety. Specific engine/steering subprocedure title needs close reading."
+    },
+    {
+      "id": "mountbrake-src-015",
+      "title": "MY2006 9-3 rear brake disc and hydraulic body",
+      "url": "https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/brake-disc-rear",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory WIS warns to suspend caliper and avoid damage to brake pipes; not a route diagram."
+    },
+    {
+      "id": "mountbrake-src-016",
+      "title": "MY2008 OG 9-5 brake fastener technical data",
+      "url": "https://saabwisonline.com/9-5-9600/2008/5-brakes/brake-discs-and-pads/technical-data/tightening-torques",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory WIS differentiates brake pipe nipple, hose and caliper joint torques."
+    },
+    {
+      "id": "mountbrake-src-017",
+      "title": "MY2006 9-3 rear subframe mounting",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/subframe",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory rear suspension support and joint order are source-scoped; distinguish rear subframe-to-body bolts from CV reinforcement fasteners."
+    }
+  ],
+  "facts": [
+    {
+      "id": "mountbrake-fact-001",
+      "subject": "9-3:front-subframe:B207",
+      "category": "chassis_service",
+      "predicate": "front_bolts_to_body_torque_angle",
+      "value": "75 Nm plus 135 degrees",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "mountbrake-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, step 6",
+      "notes": "Source-specific torque+angle; not an instruction to reuse stretched hardware."
+    },
+    {
+      "id": "mountbrake-fact-002",
+      "subject": "9-3:front-subframe:B207",
+      "category": "chassis_service",
+      "predicate": "rear_stay_bolts_torque_angle",
+      "value": "90 Nm plus 45 degrees",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "mountbrake-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, step 7",
+      "notes": "Different fastener and procedure from subframe-to-body bolts."
+    },
+    {
+      "id": "mountbrake-fact-003",
+      "subject": "9-3:front-subframe:B207",
+      "category": "chassis_service",
+      "predicate": "suspension_arm_bush_to_subframe_torque_angle",
+      "value": "65 Nm plus 135 degrees",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "mountbrake-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, step 2",
+      "notes": "Front and rear suspension arm bush mounts, tightened with horizontal suspension arm position."
+    },
+    {
+      "id": "mountbrake-fact-004",
+      "subject": "9-3:front-subframe:B207",
+      "category": "chassis_service",
+      "predicate": "replacement_requires_alignment",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "mountbrake-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, step 20",
+      "notes": "Source says carry out four-wheel alignment after subframe replacement."
+    },
+    {
+      "id": "mountbrake-fact-005",
+      "subject": "9-5:front-subframe:petrol",
+      "category": "chassis_service",
+      "predicate": "subframe_body_bolts_torque_angle",
+      "value": "100 Nm plus 45 degrees",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "mountbrake-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, step 9",
+      "notes": "Applies to cited MY2006 petrol-engine service procedure; middle fastener hardware differs from others."
+    },
+    {
+      "id": "mountbrake-fact-006",
+      "subject": "9-5:front-subframe:petrol",
+      "category": "chassis_service",
+      "predicate": "middle_bolt_identification",
+      "value": "Middle subframe bolts have a smaller washer and 20 mm head.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "mountbrake-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, step 7, note",
+      "notes": "Do not swap positions simply because threaded bolts appear similar."
+    },
+    {
+      "id": "mountbrake-fact-007",
+      "subject": "9-5:rear-suspension-support-arm",
+      "category": "chassis_service",
+      "predicate": "rear_support_arm_bolts_torque_angle",
+      "value": "90 Nm plus 60 degrees",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "mountbrake-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, step 7",
+      "notes": "WIS calls component support arm/subframe; not identical to a 9-3 rear-subframe assembly."
+    },
+    {
+      "id": "mountbrake-fact-008",
+      "subject": "9-5:rear-suspension-support-arm",
+      "category": "collision_protection",
+      "predicate": "transverse_link_protective_sleeves",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "mountbrake-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove, warning; To fit, warning",
+      "notes": "Original protective sleeves on transverse-link bolts must be refitted as removed to protect fuel tank and filler pipe in collisions."
+    },
+    {
+      "id": "mountbrake-fact-009",
+      "subject": "9-5:brake-lines",
+      "category": "brake_safety",
+      "predicate": "body_clipped_pipe_corrosion_prohibition",
+      "value": "Brake pipes clipped to body must not show corrosion, pitting or visible damage; check fittings and leaks, replace damaged components.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "mountbrake-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To check",
+      "notes": "Explicit factory inspection criterion; does not specify allowable wall thickness or hidden condition."
+    },
+    {
+      "id": "mountbrake-fact-010",
+      "subject": "9-5:brake-lines",
+      "category": "brake_service",
+      "predicate": "brake_line_connection_torque",
+      "value": 15,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "mountbrake-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, step 2",
+      "notes": "Nuts in cited line replacement procedure only; other brake joints use different torques."
+    },
+    {
+      "id": "mountbrake-fact-011",
+      "subject": "9-5:brake-lines",
+      "category": "brake_service",
+      "predicate": "line_no_bending_after_install",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "mountbrake-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, warning",
+      "notes": "Saab warns not to bend/flex installed brake lines."
+    },
+    {
+      "id": "mountbrake-fact-012",
+      "subject": "9-3:master-cylinder",
+      "category": "brake_service",
+      "predicate": "master_cylinder_brake_pipe_torque",
+      "value": 16,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "mountbrake-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, step 3",
+      "notes": "Applies at master cylinder only; factory bleeding required after hydraulic work."
+    },
+    {
+      "id": "mountbrake-fact-013",
+      "subject": "9-3:abs-esp-pipe-retention",
+      "category": "brake_safety",
+      "predicate": "macpherson_tower_pipe_clip",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "mountbrake-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, step 4",
+      "notes": "In the specific control-module procedure; brake pipes secured to MacPherson strut tower clips."
+    },
+    {
+      "id": "mountbrake-fact-014",
+      "subject": "9-3:rear-caliper",
+      "category": "brake_safety",
+      "predicate": "caliper_suspend_without_stressing_pipe",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "mountbrake-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove, step 4",
+      "notes": "Do not let caliper damage brake pipes during rear disc work."
+    },
+    {
+      "id": "mountbrake-fact-015",
+      "subject": "9-5:brakes",
+      "category": "brake_service",
+      "predicate": "rear_wheel_brake_pipe_nipple_torque",
+      "value": 16,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "mountbrake-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Technical data, rear wheel, brake pipe nipple",
+      "notes": "Separately specified from brake hose torque 15 Nm and bleeder 6 Nm."
+    },
+    {
+      "id": "mountbrake-fact-016",
+      "subject": "9-3:rear-subframe",
+      "category": "chassis_service",
+      "predicate": "subframe_mount_alignment_and_dependencies",
+      "value": "Rear subframe fitment depends on body bolting, brake components, parking-brake cables and suspension link positions.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "mountbrake-src-017"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Rear suspension subframe, to remove/to fit",
+      "notes": "No catalogue component equivalence established from service method."
+    }
+  ],
+  "issues": [],
+  "parts": [
+    {
+      "id": "mountbrake-part-001",
+      "part_number": "32022623",
+      "title": "Replacement front subframe, 9-3 4D/5D FWD",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "supersedes",
+          "part_number": "12825111",
+          "conditions": "Seller direct reference for 4D/5D FWD; 2005 may require updated front engine mount."
+        }
+      ],
+      "requirements": [
+        "Exclude CV and XWD.",
+        "On MY2005, confirm front engine-mount design or required conversion.",
+        "Verify engine, VIN and hardware before purchase."
+      ],
+      "source_ids": [
+        "mountbrake-src-001",
+        "mountbrake-src-002"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Catalogue gives two predecessor numbers on one view; 12762720 remains a gap rather than a second accepted supersession. Supplier catalogue application and number relationship are not verified physical or software interchange."
+    },
+    {
+      "id": "mountbrake-part-002",
+      "part_number": "12825111",
+      "title": "Earlier listed 9-3 4D/5D FWD front subframe",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "superseded_by",
+          "part_number": "32022623",
+          "conditions": "Retailer lists 12825111 superseded by 32022623 for FWD 4D/5D."
+        }
+      ],
+      "requirements": [
+        "Verify which version is physically present on the car.",
+        "Exclude CV and XWD."
+      ],
+      "source_ids": [
+        "mountbrake-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Diagram lists 2006–2012; selected research targets limited to 2006–2011. Supplier catalogue application and number relationship are not verified physical or software interchange."
+    },
+    {
+      "id": "mountbrake-part-003",
+      "part_number": "12825112",
+      "title": "Convertible front subframe, FWD, 9-3",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "CV"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Do not substitute sedan/wagon version 32022623.",
+        "Check engine/transmission and exact production chassis application."
+      ],
+      "source_ids": [
+        "mountbrake-src-001",
+        "mountbrake-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Diagram identifies CV without XWD. Supplier catalogue application and number relationship are not verified physical or software interchange."
+    },
+    {
+      "id": "mountbrake-part-004",
+      "part_number": "12777984",
+      "title": "XWD front subframe, 9-3",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2008,
+          2009,
+          2010,
+          2011
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "XWD only; not a candidate for the FWD B207 shortlist.",
+        "Confirm year/body and driveline application before ordering."
+      ],
+      "source_ids": [
+        "mountbrake-src-001",
+        "mountbrake-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "The catalogue identifies XWD; its detailed option exclusions remain incomplete. Supplier catalogue application and number relationship are not verified physical or software interchange."
+    },
+    {
+      "id": "mountbrake-part-005",
+      "part_number": "12761536",
+      "title": "Rear subframe, FWD 4D/5D 9-3",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Not verified for convertible or XWD.",
+        "Check brake/suspension connections and subframe-to-body bolt condition."
+      ],
+      "source_ids": [
+        "mountbrake-src-005"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Supplier listing explicitly names FWD 4D/5D 2006–2011. Supplier catalogue application and number relationship are not verified physical or software interchange."
+    },
+    {
+      "id": "mountbrake-part-006",
+      "part_number": "12831642",
+      "title": "Rear subframe, convertible 9-3",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "CV"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Do not infer 4D/5D interchange.",
+        "Confirm chassis/engine restrictions and actual rear subframe identity."
+      ],
+      "source_ids": [
+        "mountbrake-src-006"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Broad 2004–2012 diagram association does not independently establish every variant; provisional catalog applicability. Supplier catalogue application and number relationship are not verified physical or software interchange."
+    },
+    {
+      "id": "mountbrake-part-007",
+      "part_number": "12765948",
+      "title": "Front subframe, MY2006–2009 original 9-5",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Verify market, engine/gearbox, mounting and body options against EPC and installed part."
+      ],
+      "source_ids": [
+        "mountbrake-src-007"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Supplier diagram identifies 2006–2009 original 9-5; no complete assembly bill of materials. Supplier catalogue application and number relationship are not verified physical or software interchange."
+    },
+    {
+      "id": "mountbrake-part-008",
+      "part_number": "32019861",
+      "title": "Subframe/strut bolt, original 9-5",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "relationships": [
+        {
+          "type": "supersedes",
+          "part_number": "11095961",
+          "conditions": "Supplier-number mapping; exact joint use unconfirmed."
+        },
+        {
+          "type": "supersedes",
+          "part_number": "4597985",
+          "conditions": "Supplier-number mapping; exact joint use unconfirmed."
+        },
+        {
+          "type": "supersedes",
+          "part_number": "4940219",
+          "conditions": "Supplier-number mapping; exact joint use unconfirmed."
+        }
+      ],
+      "requirements": [
+        "Multiple diagram callouts exist; do not assume it serves every subframe fastener.",
+        "Verify quantity, revision and torque-to-yield/reuse requirements."
+      ],
+      "source_ids": [
+        "mountbrake-src-008"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Retailer maps broad diagram use; not verified to be the front-subframe 100 Nm +45° bolt at all positions. Supplier catalogue application and number relationship are not verified physical or software interchange."
+    },
+    {
+      "id": "mountbrake-part-009",
+      "part_number": "13247173",
+      "title": "Front subframe bushing, 9-3 4D/5D",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Retailer marks included with front subframe assembly; do not double order without checking package.",
+        "Check dimensions and revision if repairing old subframe."
+      ],
+      "source_ids": [
+        "mountbrake-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Catalogue quantity shown as two; not a guarantee of contents in every supply SKU. Supplier catalogue application and number relationship are not verified physical or software interchange."
+    },
+    {
+      "id": "mountbrake-part-010",
+      "part_number": "13247174",
+      "title": "Rear front-subframe bushing, 9-3 4D/5D",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Need quantity/position verified for exact assembly.",
+        "Do not substitute convertible solid bushings."
+      ],
+      "source_ids": [
+        "mountbrake-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Catalogue indicates two per application. Supplier catalogue application and number relationship are not verified physical or software interchange."
+    },
+    {
+      "id": "mountbrake-part-011",
+      "part_number": "32021866",
+      "title": "Front front-subframe bushing, 9-3 CV",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "CV"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Convertible solid mount, not sedan/wagon rubber bushing.",
+        "Catalogue calls it included with frame; check supplied assembly."
+      ],
+      "source_ids": [
+        "mountbrake-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Retailer says convertible subframe bushings are solid, not rubber. Supplier catalogue application and number relationship are not verified physical or software interchange."
+    },
+    {
+      "id": "mountbrake-part-012",
+      "part_number": "32021863",
+      "title": "Rear front-subframe bushing, 9-3 CV",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "CV"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Convertible-only catalogue claim; confirm mount condition and exact chassis variant."
+      ],
+      "source_ids": [
+        "mountbrake-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Catalogue calls CV bushings solid. Supplier catalogue application and number relationship are not verified physical or software interchange."
+    },
+    {
+      "id": "mountbrake-part-013",
+      "part_number": "12759331",
+      "title": "Rear front-subframe bushing, CV without front axle stay",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "CV"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Restricted to convertible without front axle stay; verify installed equipment and VIN."
+      ],
+      "source_ids": [
+        "mountbrake-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Do not merge into generic convertible bushing application. Supplier catalogue application and number relationship are not verified physical or software interchange."
+    },
+    {
+      "id": "mountbrake-part-014",
+      "part_number": "24401525",
+      "title": "Early 9-3 sedan front frame listing, MY2003–2004",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004
+        ],
+        "body_styles": [
+          "4D"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Seller identifies supersession/discontinuation and mentions PI 08-01 2007.",
+        "Obtain full production bulletin before any later conversion."
+      ],
+      "source_ids": [
+        "mountbrake-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Retailer states NLS; no claim that current 32022623 drops into an early 9-3. Supplier catalogue application and number relationship are not verified physical or software interchange."
+    },
+    {
+      "id": "mountbrake-part-015",
+      "part_number": "12779173",
+      "title": "Additional early 9-3 frame listing, MY2003–2004",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Body/engine/gearbox details are not established by this row.",
+        "Do not infer cross-year substitution."
+      ],
+      "source_ids": [
+        "mountbrake-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Retailer description does not specify body style. Supplier catalogue application and number relationship are not verified physical or software interchange."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "mountbrake-gap-001",
+      "title": "2003–2005 9-3 front frame redesign and bulletin",
+      "missing_inputs": [
+        "Retrieve full PI 08-01 2007, VIN/build applicability and earlier subframe/engine mount hardware before mapping 24401525/12779173/32022623."
+      ],
+      "reason": "Current sources supply partial factory procedures or retailer catalogue statements. Model-year, condition and exact installed hardware still require stronger evidence.",
+      "source_ids": [
+        "mountbrake-src-001",
+        "mountbrake-src-002"
+      ]
+    },
+    {
+      "id": "mountbrake-gap-002",
+      "title": "9-3 front subframe supersession chain ambiguity",
+      "missing_inputs": [
+        "Confirm whether supplier-presented 12762720 is a genuine predecessor of 32022623 and under which engine/body/market conditions; do not assume number listing means interchange."
+      ],
+      "reason": "Current sources supply partial factory procedures or retailer catalogue statements. Model-year, condition and exact installed hardware still require stronger evidence.",
+      "source_ids": [
+        "mountbrake-src-001",
+        "mountbrake-src-002"
+      ]
+    },
+    {
+      "id": "mountbrake-gap-003",
+      "title": "9-3 convertible frame and solid-mount fitment",
+      "missing_inputs": [
+        "Obtain official EPC body/engine/transmission/option/VIN mapping and installation specifications for CV 12825112, 12831642 and 32021866/32021863/12759331."
+      ],
+      "reason": "Current sources supply partial factory procedures or retailer catalogue statements. Model-year, condition and exact installed hardware still require stronger evidence.",
+      "source_ids": [
+        "mountbrake-src-001",
+        "mountbrake-src-003",
+        "mountbrake-src-006"
+      ]
+    },
+    {
+      "id": "mountbrake-gap-004",
+      "title": "9-3 XWD versus FWD subsystem boundaries",
+      "missing_inputs": [
+        "Retrieve XWD rear and front subframe factory/EPC assemblies, suspension, AWD drivetrain and mounting maps; do not infer FWD interchange."
+      ],
+      "reason": "Current sources supply partial factory procedures or retailer catalogue statements. Model-year, condition and exact installed hardware still require stronger evidence.",
+      "source_ids": [
+        "mountbrake-src-001",
+        "mountbrake-src-004"
+      ]
+    },
+    {
+      "id": "mountbrake-gap-005",
+      "title": "9-5 rear support arm assembly part numbers",
+      "missing_inputs": [
+        "Locate original 9-5 rear support arm and fastening identities, build changes, materials and physical interchange with relevant sedans/wagons."
+      ],
+      "reason": "Current sources supply partial factory procedures or retailer catalogue statements. Model-year, condition and exact installed hardware still require stronger evidence.",
+      "source_ids": [
+        "mountbrake-src-011"
+      ]
+    },
+    {
+      "id": "mountbrake-gap-006",
+      "title": "9-5 bolt 32019861 exact joint and reuse rules",
+      "missing_inputs": [
+        "Obtain EPC diagram callout for selected MY2006–09 chassis, all positions, grade, thread, length and factory new-bolt requirement; do not identify it as every subframe bolt."
+      ],
+      "reason": "Current sources supply partial factory procedures or retailer catalogue statements. Model-year, condition and exact installed hardware still require stronger evidence.",
+      "source_ids": [
+        "mountbrake-src-008",
+        "mountbrake-src-010"
+      ]
+    },
+    {
+      "id": "mountbrake-gap-007",
+      "title": "Complete 9-3 and 9-5 brake and fuel line routing",
+      "missing_inputs": [
+        "Retrieve source diagrams, clip/union identifiers, materials, body/engine/RHD differences, replacement pre-bent line IDs and safety inspection requirements."
+      ],
+      "reason": "Current sources supply partial factory procedures or retailer catalogue statements. Model-year, condition and exact installed hardware still require stronger evidence.",
+      "source_ids": [
+        "mountbrake-src-012",
+        "mountbrake-src-013",
+        "mountbrake-src-014",
+        "mountbrake-src-015",
+        "mountbrake-src-016"
+      ]
+    },
+    {
+      "id": "mountbrake-gap-008",
+      "title": "Real vehicle mounting corrosion and verification",
+      "missing_inputs": [
+        "Obtain cleaned/illuminated photographs, physical joint and captive-nut examination, body measurement as needed and certified assessment; service data is not a structural rust-clearance threshold."
+      ],
+      "reason": "Current sources supply partial factory procedures or retailer catalogue statements. Model-year, condition and exact installed hardware still require stronger evidence.",
+      "source_ids": [
+        "mountbrake-src-009",
+        "mountbrake-src-010",
+        "mountbrake-src-011",
+        "mountbrake-src-017"
+      ]
+    },
+    {
+      "id": "mountbrake-gap-009",
+      "title": "Independent OEM supersession corroboration and stock",
+      "missing_inputs": [
+        "Verify seller cross-references through authoritative Saab/Orio EPC revisions and contemporaneous manufacture details; seller pricing/availability snapshot cannot be treated as durable."
+      ],
+      "reason": "Current sources supply partial factory procedures or retailer catalogue statements. Model-year, condition and exact installed hardware still require stronger evidence.",
+      "source_ids": [
+        "mountbrake-src-001",
+        "mountbrake-src-002",
+        "mountbrake-src-005",
+        "mountbrake-src-007"
+      ]
+    }
+  ]
+}
