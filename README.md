@@ -19,6 +19,8 @@ engines, and platforms.
   documents and what still needs measurements or engineering data.
 - [Research reports](docs/research/): detailed notes from the individual research
   domains, including contradictions and gaps.
+- [Subframe and brake-line parts research](docs/research/subframe-parts-brake-lines.md):
+  documented OEM assembly candidates, installation limits, and hydraulic safety.
 - [9-3 structural research](docs/research/ng93-structure.md): corrosion-protection scope,
   body repair rules and specific subframe/convertible differences.
 - [9-5 structural research](docs/research/og95-structure.md): factory repair boundaries,
@@ -27,8 +29,8 @@ engines, and platforms.
   North American specifications, WIS conflicts and source limits.
 - [Datasets](data/datasets/): structured JSON with source IDs and original links.
 
-As of October 12, 2026 the database contains **168 source records, 340 factual
-records, 20 issue records, 33 part records, and 70 explicit gaps** across ten
+As of October 12, 2026 the database contains **185 source records, 356 factual
+records, 20 issue records, 48 part records, and 79 explicit gaps** across eleven
 research domains. This is not a completeness score.
 See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
 
