@@ -19,10 +19,15 @@ engines, and platforms.
   documents and what still needs measurements or engineering data.
 - [Research reports](docs/research/): detailed notes from the individual research
   domains, including contradictions and gaps.
+- [9-5 structural research](docs/research/og95-structure.md): factory repair boundaries,
+  rust and inspection-relevant mounting areas.
+- [9-5 2006–2008 source supplement](docs/research/og95-2006-2008.md):
+  North American specifications, WIS conflicts and source limits.
 - [Datasets](data/datasets/): structured JSON with source IDs and original links.
 
-The initial pass contains **128 source records, 269 factual records, 20 issue
-records, 31 part records, and 51 explicit gaps** across seven research domains.
+As of October 12, 2026 the database contains **147 source records, 310 factual
+records, 20 issue records, 32 part records, and 62 explicit gaps** across nine
+research domains. This is not a completeness score.
 See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
 
 ## What this contains
