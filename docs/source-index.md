@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 168 source records with 167 distinct
+Research retrieval date: 2026-10-12. There are 185 source records with 182 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -243,3 +243,27 @@ Dataset: [ng93_structure](../data/datasets/ng93-structure.json)
 | `ng93structure-src-019` | [WIS: Inner sill, CV](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/inner-sill-cv) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
 | `ng93structure-src-020` | [WIS: Rear subframe bush removal](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/rear-subframe-bush) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
 | `ng93structure-src-021` | [WIS: Convertible chassis reinforcements](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/technical-description/chassis-reinforcements-cv) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+
+## subframe_parts_brake_lines
+
+Dataset: [subframe_parts_brake_lines](../data/datasets/subframe-parts-brake-lines.json)
+
+| Source ID | Document | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `mountbrake-src-001` | [2006 9-3 front floor/subframe parts diagram](https://www.esaabparts.com/viewparts.php?section=582948118) | eSaabParts (retailer parts catalogue) | `full_text` |
+| `mountbrake-src-002` | [9-3 4D/5D FWD replacement front subframe 32022623](https://www.esaabparts.com/saab/parts/32022623?ss=12825111) | eSaabParts (retailer parts catalogue) | `full_text` |
+| `mountbrake-src-003` | [9-3 CV front subframe 12825112](https://www.esaabparts.com/saab/parts/12825112) | eSaabParts (retailer parts catalogue) | `full_text` |
+| `mountbrake-src-004` | [9-3 XWD front subframe 12777984](https://www.esaabparts.com/saab/parts/12777984) | eSaabParts (retailer parts catalogue) | `full_text` |
+| `mountbrake-src-005` | [9-3 4D/5D FWD rear subframe 12761536](https://www.esaabparts.com/saab/parts/12761536) | eSaabParts (retailer parts catalogue) | `full_text` |
+| `mountbrake-src-006` | [9-3 CV rear subframe 12831642](https://www.esaabparts.com/saab/parts/12831642) | eSaabParts (retailer parts catalogue) | `full_text` |
+| `mountbrake-src-007` | [2006–2009 original 9-5 front subframe 12765948](https://www.esaabparts.com/saab/parts/12765948) | eSaabParts (retailer parts catalogue) | `full_text` |
+| `mountbrake-src-008` | [Original 9-5 subframe/strut bolt 32019861](https://www.esaabparts.com/saab/parts/32019861) | eSaabParts (retailer parts catalogue) | `full_text` |
+| `mountbrake-src-009` | [MY2006 9-3 B207 front subframe procedure](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-b207) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `mountbrake-src-010` | [MY2006 OG 9-5 petrol front subframe reinstallation](https://saabwisonline.com/9-5-9600/2006/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-petrol-engines) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `mountbrake-src-011` | [MY2006 OG 9-5 rear support arm/subframe](https://saabwisonline.com/9-5-9600/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/support-arm) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `mountbrake-src-012` | [MY2008 OG 9-5 brake lines](https://saabwisonline.com/9-5-9600/2008/5-brakes/footbrake-system/adjustment-replacement/brake-lines) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `mountbrake-src-013` | [MY2006 9-3 master cylinder and brake pipes](https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/master-cylinder) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `mountbrake-src-014` | [MY2006 9-3 TCS/ESP module and brake pipe clips](https://saabwisonline.com/9-3-9440/2006/5-brakes/tcs-esp/adjustment-replacement/control-module-tcs-382-esp-671-b207-b284-rhd-z18xe-z19) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `mountbrake-src-015` | [MY2006 9-3 rear brake disc and hydraulic body](https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/brake-disc-rear) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `mountbrake-src-016` | [MY2008 OG 9-5 brake fastener technical data](https://saabwisonline.com/9-5-9600/2008/5-brakes/brake-discs-and-pads/technical-data/tightening-torques) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `mountbrake-src-017` | [MY2006 9-3 rear subframe mounting](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/subframe) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
