@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 147 source records with 146 distinct
+Research retrieval date: 2026-10-12. There are 168 source records with 167 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -215,3 +215,31 @@ Dataset: [og95_2006_2008](../data/datasets/og95-2006-2008.json)
 | `og95years-src-005` | [MY2007 WIS: four-cylinder petrol general data](https://saabwisonline.com/9-5-9600/2007/2-engine/basic-engine-4-cylinder-petrol/technical-data/general-data) | Saab Automobile AB (factory content hosted by an independent third-party mirror) | `full_text` |
 | `og95years-src-006` | [MY2008 WIS: four-cylinder petrol general data](https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/technical-data/general-data) | Saab Automobile AB (factory content hosted by an independent third-party mirror) | `full_text` |
 | `og95years-src-007` | [MY2006 WIS: camshaft technical data](https://saabwisonline.com/9-5-9600/2006/2-engine/basic-engine-4-cylinder-petrol/technical-data/camshafts) | Saab Automobile AB (factory content hosted by an independent third-party mirror) | `full_text` |
+
+## ng93_structure
+
+Dataset: [ng93_structure](../data/datasets/ng93-structure.json)
+
+| Source ID | Document | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `ng93structure-src-001` | [WIS: Body construction and high-strength steel](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/technical-description/brief-description) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-002` | [WIS: Galvanized and ungalvanized body members](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/technical-description/galvanized-body-parts) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-003` | [WIS: Checking body dimensions and subframe mounts](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/checking-body-dimensions) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-004` | [WIS: Body datum dimensions, 4D and 5D](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/technical-data/body-dimensions-4d-5d) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-005` | [WIS: Permitted reinforcement joints, 4D and 5D](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/permitted-joint-locations-4d-5d) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-006` | [WIS: Outer sill repair](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/outer-sill) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-007` | [WIS: Lower A-pillar and sill, 4D](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/inner-lower-a-pillar-with-sill-4d) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-008` | [WIS: Welded front subframe bracket, CV](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/reinforcing-bracket-front-subframe-cv) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-009` | [WIS: Rear chassis reinforcement, CV](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/chassis-reinforcement-rear-subframe-cv) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-010` | [WIS: Front chassis reinforcement, B207 CV](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/front-suspension/adjustment-replacement/chassis-reinforcement-front-subframe-cv-b207) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-011` | [WIS: Rear floor assembly repair](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/rear-floor-assembly) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-012` | [WIS: Rear frame member repair](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/rear-frame-member) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-013` | [WIS: B207 front subframe](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-b207) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-014` | [WIS: Rear subframe](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/subframe) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-015` | [WIS: MIG brazing non-EU](https://saabwisonline.com/9-3-9440/2005/8-body/body/body-panel/adjustment-replacement/mig-brazing-not-eu) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-016` | [WIS: Lifting and attachment points](https://saabwisonline.com/9-3-9440/2004/0-general/general/technical-data/lifting-and-attachment-points) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-017` | [WIS: Structural adhesive restrictions](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/general-work-instructions-structural-gluing) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-018` | [WIS: Bodywork precautions around airbags](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/bodywork-on-cars-with-airbag) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-019` | [WIS: Inner sill, CV](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/inner-sill-cv) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-020` | [WIS: Rear subframe bush removal](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/rear-subframe-bush) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+| `ng93structure-src-021` | [WIS: Convertible chassis reinforcements](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/technical-description/chassis-reinforcements-cv) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
