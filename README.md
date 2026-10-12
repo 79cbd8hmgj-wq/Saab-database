@@ -1,0 +1,78 @@
+# Saab database
+
+A source-backed research database for Saab specifications, factory corrections,
+parts relationships, and the information needed to evaluate replacements.
+
+The first research pass focuses on the original-generation 9-5 (9600) and
+second-generation 9-3 (9440), especially US/Canadian four-cylinder configurations.
+It also records boundaries that matter when comparing adjacent model years,
+engines, and platforms.
+
+## Start here
+
+- [Research overview](docs/research-overview.md): scope, coverage, model-selection
+  reasoning, and the limits of the initial research.
+- [Evidence policy](docs/evidence-policy.md): what a recorded finding actually
+  establishes.
+- [Data contract](docs/data-contract.md): dataset fields and applicability rules.
+- [Simulation readiness](docs/simulation-readiness.md): what can be evaluated from
+  documents and what still needs measurements or engineering data.
+- [Research reports](docs/research/): detailed notes from the individual research
+  domains, including contradictions and gaps.
+- [Datasets](data/datasets/): structured JSON with source IDs and original links.
+
+The initial pass contains **128 source records, 269 factual records, 20 issue
+records, 31 part records, and 51 explicit gaps** across seven research domains.
+See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
+
+## What this contains
+
+- Engine, lubrication, cooling, drivetrain, chassis, and electrical specifications
+  where primary documents support them.
+- Factory bulletins/campaigns with model, engine, VIN, and component restrictions.
+- Useful part numbers and documented supersession relationships.
+- References to diagnostic and ECU-analysis resources, with reuse/license notes.
+- Explicit missing-input records for fitment, thermal, structural, performance,
+  and durability evaluation.
+
+Each finding is scoped to its evidence. A catalogued part is not automatically a
+verified substitute for a particular installed part. A supplier's thermal claim is
+not a measured lifetime improvement. A model-selection preference is not a
+statistical reliability ranking.
+
+## Inspect and validate
+
+The tools use Python's standard library and require Python 3.10 or newer.
+
+```sh
+python3 tools/validate.py
+python3 -m unittest discover -s tests -v
+python3 tools/query.py --summary
+python3 tools/query.py --engine B235R --category cooling
+python3 tools/query.py --platform 9-3-9440 --year 2006
+python3 tools/query.py --text "intake valve" --kind issues
+```
+
+Query filters help find source-scoped records. They do not issue a fitment approval.
+Unspecified applicability is treated as unknown, not as universal compatibility.
+By default an applicability filter excludes records lacking that field; use
+`--include-unknown` to inspect those records too.
+Engine-code filters are exact: a family-level `B207` entry is not silently expanded
+to `B207R`. Search by platform/year or text as well when exploring family-scoped
+records. VIN, component serial, registration-history, and installed-hardware
+conditions still require interpretation of the full record and source.
+
+## Add a particular car later
+
+Use [the vehicle-instance template](templates/vehicle-instance.json) to record
+identity, installed components, observations, and measurements. The template has
+no invented vehicle data. Do not treat factory nominal specifications as measured
+condition on an individual car.
+
+## Source material and reuse
+
+This repository contains original summaries, extracted factual records, and links.
+Original manuals, catalogues, manufacturer documentation, and referenced software
+retain their own rights and licensing terms. No third-party license is extended to
+the entire repository. Referenced software is not vendored or executed by this
+database.
