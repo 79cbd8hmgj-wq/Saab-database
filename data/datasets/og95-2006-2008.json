@@ -90,9 +90,6 @@
         ],
         "markets": [
           "US"
-        ],
-        "engine_codes": [
-          "B235R"
         ]
       },
       "source_ids": [
@@ -100,7 +97,7 @@
       ],
       "evidence_status": "documented",
       "locator": "p.264; 2.3 Turbo Ecopower; at 5000 rpm",
-      "notes": "US owner manual output label is EEC, not independently measured SAE power. Engine code requires VIN/engine confirmation.",
+      "notes": "US owner manual output label is EEC, not independently measured SAE power. Engine code is deliberately left unspecified until VIN/engine confirmation.",
       "review_status": "provisional"
     },
     {
@@ -119,9 +116,6 @@
         ],
         "markets": [
           "US"
-        ],
-        "engine_codes": [
-          "B235R"
         ]
       },
       "source_ids": [
@@ -129,7 +123,7 @@
       ],
       "evidence_status": "documented",
       "locator": "p.264; at 1900 rpm",
-      "notes": "Source says 258.0 ft.lb (350 Nm). Engine-code mapping is provisional.",
+      "notes": "Source says 258.0 ft.lb (350 Nm). Engine code is not established by this marketing label.",
       "review_status": "provisional"
     },
     {
