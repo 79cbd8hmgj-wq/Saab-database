@@ -1,0 +1,825 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "og95_2006_2008",
+  "sources": [
+    {
+      "id": "og95years-src-001",
+      "title": "US MY2006 owner manual: engine variants and oil service",
+      "url": "https://www.carmanualsonline.info/saab-9-5-2006-owners-manual/?srch=oil+capacity",
+      "publisher": "Saab Automobile AB (factory content hosted by an independent third-party mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "search_excerpt",
+      "notes": "Factory-authored 95usM06.book p.264; indexed excerpt reviewed. Entire target page could not be retrieved in this pass."
+    },
+    {
+      "id": "og95years-src-002",
+      "title": "US MY2007 owner manual: engine variants and oil service",
+      "url": "https://www.carmanualsonline.info/saab-9-5-2007-owners-manual/?srch=mileage",
+      "publisher": "Saab Automobile AB (factory content hosted by an independent third-party mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "search_excerpt",
+      "notes": "Factory-authored 95_US_M07.book p.262; indexed excerpt reviewed, but target page could not be directly retrieved."
+    },
+    {
+      "id": "og95years-src-003",
+      "title": "US MY2007 owner manual: manual gearbox data",
+      "url": "https://www.carmanualsonline.info/saab-9-5-2007-owners-manual/4/?srch=transmission",
+      "publisher": "Saab Automobile AB (factory content hosted by an independent third-party mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "search_excerpt",
+      "notes": "Factory-authored 95_US_M07.book p.264 shown in index; entire target page not independently retrieved."
+    },
+    {
+      "id": "og95years-src-004",
+      "title": "US MY2008 owner manual: specifications",
+      "url": "https://www.carmanualsonline.info/saab-9-5-2008-owners-manual/27",
+      "publisher": "Saab Automobile AB (factory content hosted by an independent third-party mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory-authored 95_US_M08.book pp.261–270 including engine, fluids, brakes, wheels, gearbox. This is a US-market document, not a universal 9-5 configuration."
+    },
+    {
+      "id": "og95years-src-005",
+      "title": "MY2007 WIS: four-cylinder petrol general data",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/basic-engine-4-cylinder-petrol/technical-data/general-data",
+      "publisher": "Saab Automobile AB (factory content hosted by an independent third-party mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Generic multi-engine WIS table. Year directory not a frozen MY2007 US/CA production certification. Explicit manufacturer rating label EEC; includes B235R 250 hp line."
+    },
+    {
+      "id": "og95years-src-006",
+      "title": "MY2008 WIS: four-cylinder petrol general data",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/technical-data/general-data",
+      "publisher": "Saab Automobile AB (factory content hosted by an independent third-party mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Generic multi-engine WIS table, not a US-specific application. Engine variant column and model-year directory must not infer sales-market fitment."
+    },
+    {
+      "id": "og95years-src-007",
+      "title": "MY2006 WIS: camshaft technical data",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/basic-engine-4-cylinder-petrol/technical-data/camshafts",
+      "publisher": "Saab Automobile AB (factory content hosted by an independent third-party mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Generic B205/B235 data; service limits may vary by particular camshaft/revision. The relevant general-data lines were reviewed."
+    }
+  ],
+  "facts": [
+    {
+      "id": "og95years-fact-001",
+      "subject": "profile:us-9-5-2006-2.3-turbo",
+      "category": "engine_output",
+      "predicate": "rated_power_eec",
+      "value": 260,
+      "unit": "hp (EEC)",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US"
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.264; 2.3 Turbo Ecopower; at 5000 rpm",
+      "notes": "US owner manual output label is EEC, not independently measured SAE power. Engine code requires VIN/engine confirmation.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95years-fact-002",
+      "subject": "profile:us-9-5-2006-2.3-turbo",
+      "category": "engine_output",
+      "predicate": "rated_torque",
+      "value": 350,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US"
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.264; at 1900 rpm",
+      "notes": "Source says 258.0 ft.lb (350 Nm). Engine-code mapping is provisional.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95years-fact-003",
+      "subject": "profile:us-9-5-2006-2.3-turbo",
+      "category": "engine_geometry",
+      "predicate": "compression_ratio",
+      "value": 9.3,
+      "unit": "ratio:1",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.264; 2.3 Turbo Ecopower",
+      "notes": "Original manual value 9.3:1; engine configuration requires identification.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95years-fact-004",
+      "subject": "profile:us-9-5-2006",
+      "category": "lubrication",
+      "predicate": "oil_service_with_filter",
+      "value": 4,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.264; 4.1 US qt on changing",
+      "notes": "Service refill, not dry/total lubrication system volume.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95years-fact-005",
+      "subject": "profile:us-9-5-2007-2.3T",
+      "category": "engine_output",
+      "predicate": "rated_power_eec",
+      "value": 220,
+      "unit": "hp (EEC)",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.262; 2.3T Ecopower at 5500 rpm",
+      "notes": "Do not map marketing grade to B235L/B235R without VIN evidence.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95years-fact-006",
+      "subject": "profile:us-9-5-2007-2.3T",
+      "category": "engine_output",
+      "predicate": "rated_torque",
+      "value": 310,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.262; 2.3T Ecopower at 1800–4500 rpm",
+      "notes": "Marketing 2.3T must not be equated to 2.3 Turbo.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95years-fact-007",
+      "subject": "profile:us-9-5-2007-2.3-turbo",
+      "category": "engine_output",
+      "predicate": "rated_power_eec",
+      "value": 260,
+      "unit": "hp (EEC)",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.262; 2.3 Turbo Ecopower at 5000 rpm",
+      "notes": "North American manual; comparison with generic WIS 250 hp requires market/calibration distinction.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95years-fact-008",
+      "subject": "profile:us-9-5-2007-2.3-turbo",
+      "category": "engine_output",
+      "predicate": "rated_torque",
+      "value": 350,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.262; 2.3 Turbo Ecopower at 1900 rpm",
+      "notes": "Do not infer a torque curve from this maximum.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95years-fact-009",
+      "subject": "profile:us-9-5-2007",
+      "category": "lubrication",
+      "predicate": "oil_service_with_filter",
+      "value": 4,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.262; 4.1 US qt on changing",
+      "notes": "Oil service refill only.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95years-fact-010",
+      "subject": "profile:us-9-5-2007-manual",
+      "category": "transmission_fluid",
+      "predicate": "manual_gearbox_oil_capacity",
+      "value": 1.8,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "markets": [
+          "US"
+        ],
+        "transmission_codes": [
+          "manual"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.264; manual gearbox oil capacity",
+      "notes": "Owner-manual capacity; not necessarily dry/total capacity and no exact gearbox code. Contrast with MY2005 generic WIS 2.0 L dry value.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95years-fact-011",
+      "subject": "profile:us-9-5-2007-manual",
+      "category": "transmission_fluid",
+      "predicate": "manual_gearbox_service_change",
+      "value": 1.5,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "markets": [
+          "US"
+        ],
+        "transmission_codes": [
+          "manual"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.264; oil volume on changing",
+      "notes": "Service oil-change quantity; not a dry-fill or specification for unknown gearbox models.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95years-fact-012",
+      "subject": "profile:us-9-5-2008-2.3-turbo",
+      "category": "engine_output",
+      "predicate": "rated_power_eec",
+      "value": 260,
+      "unit": "hp (EEC)",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.264; 2.3 Turbo Ecopower at 5000 rpm",
+      "notes": "US owner-manual reading; generic MY2008 WIS B235R figure differs.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95years-fact-013",
+      "subject": "profile:us-9-5-2008-2.3-turbo",
+      "category": "engine_output",
+      "predicate": "rated_torque",
+      "value": 350,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.264; 2.3 Turbo Ecopower at 1900 rpm",
+      "notes": "No universal torque curve inferred.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95years-fact-014",
+      "subject": "profile:us-9-5-2008",
+      "category": "lubrication",
+      "predicate": "oil_service_with_filter",
+      "value": 4,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.264; 4.1 US qt including filter on changing",
+      "notes": "Service refill only.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95years-fact-015",
+      "subject": "profile:us-9-5-2008",
+      "category": "cooling",
+      "predicate": "coolant_capacity",
+      "value": 7.4,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.262; coolant capacity",
+      "notes": "Generic US manual data; confirm installed cooling hardware.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95years-fact-016",
+      "subject": "profile:us-9-5-2008-2.3-turbo",
+      "category": "ignition",
+      "predicate": "spark_plug_model",
+      "value": "NGK PFR6H-10",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.265; 2.3 Turbo",
+      "notes": "Factory historical application; current replacement needs exact engine/ignition hardware verification.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95years-fact-017",
+      "subject": "profile:us-9-5-2008-manual",
+      "category": "transmission_fluid",
+      "predicate": "manual_gearbox_oil_capacity",
+      "value": 1.8,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US"
+        ],
+        "transmission_codes": [
+          "manual"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.266; manual gearbox oil capacity",
+      "notes": "Capacity as printed; exact gearbox identity and fill procedure remain necessary.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95years-fact-018",
+      "subject": "profile:us-9-5-2008-manual",
+      "category": "transmission_fluid",
+      "predicate": "manual_gearbox_oil_change",
+      "value": 1.5,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US"
+        ],
+        "transmission_codes": [
+          "manual"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.266; manual gearbox oil volume on changing",
+      "notes": "Service-change figure, not dry capacity.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95years-fact-019",
+      "subject": "profile:us-9-5-2008",
+      "category": "brakes",
+      "predicate": "front_ventilated_disc_diameter",
+      "value": 308,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.267; front ventilated disc",
+      "notes": "Owner-manual headline specification; actual brake package, rotor thickness and caliper/carrier still need confirmation.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95years-fact-020",
+      "subject": "profile:us-9-5-2008",
+      "category": "brakes",
+      "predicate": "rear_solid_disc_diameter",
+      "value": 286,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.267; rear solid disc",
+      "notes": "Do not turn this into an automatic purchase fitment approval.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95years-fact-021",
+      "subject": "profile:us-9-5-2008",
+      "category": "wheel_geometry",
+      "predicate": "factory_wheel_offset",
+      "value": 49,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.268; wheel offset",
+      "notes": "Check current wheel/rim configuration and load rating.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95years-fact-022",
+      "subject": "engine:B235R",
+      "category": "engine_output",
+      "predicate": "generic_wis_rated_power_eec",
+      "value": 250,
+      "unit": "hp (EEC)",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "B235R; maximum output EEC at 5300 rpm",
+      "notes": "Generic WIS source deliberately has unknown market applicability; differs from US owner-manual 260 hp.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95years-fact-023",
+      "subject": "engine:B235R",
+      "category": "engine_output",
+      "predicate": "generic_wis_rated_power_eec",
+      "value": 250,
+      "unit": "hp (EEC)",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "og95years-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "B235R; maximum output EEC at 5300 rpm",
+      "notes": "Generic WIS source deliberately has unknown market applicability; differs from US owner-manual 260 hp.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95years-fact-024",
+      "subject": "engine:petrol-4cyl",
+      "category": "engine_geometry",
+      "predicate": "camshaft_bearing_diameter_range",
+      "value": {
+        "min": 28.922,
+        "max": 28.935
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95years-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "Camshafts > General data > Bearing diameter",
+      "notes": "Unqualified multi-engine WIS table; confirm cam and bearing identity before applying measurement.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95years-fact-025",
+      "subject": "engine:petrol-4cyl",
+      "category": "engine_geometry",
+      "predicate": "camshaft_end_float_range",
+      "value": {
+        "min": 0.08,
+        "max": 0.35
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95years-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "Camshafts > General data > End float",
+      "notes": "General table, no exact B235R-specific camshaft part-number designation.",
+      "review_status": "source_scoped"
+    }
+  ],
+  "issues": [],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "og95years-gap-001",
+      "title": "2006–2008 US-market engine-code mapping",
+      "missing_inputs": [
+        "Verify factory VIN/build and engine-code mapping for each 2.3 Turbo/2.3T model-year trim, not just marketing names."
+      ],
+      "reason": "Owner manuals give marketing variants while generic WIS groups different variants; applicability must be tied to identifiable engine hardware.",
+      "source_ids": [
+        "og95years-src-001",
+        "og95years-src-002",
+        "og95years-src-004"
+      ]
+    },
+    {
+      "id": "og95years-gap-002",
+      "title": "Generic WIS vs North American power ratings",
+      "missing_inputs": [
+        "Locate matching country/ECU-calibration factory sheet, test convention and revision for B235R 250 vs US 260 EEC."
+      ],
+      "reason": "Ratings differ, and engine code alone is insufficient to choose the correct configuration record.",
+      "source_ids": [
+        "og95years-src-004",
+        "og95years-src-005",
+        "og95years-src-006"
+      ]
+    },
+    {
+      "id": "og95years-gap-003",
+      "title": "Manual gearbox service vs dry fill",
+      "missing_inputs": [
+        "Get exact FM gearbox code, VIN revision, source definitions and factory level-check/fill procedure for MY2006–08."
+      ],
+      "reason": "1.8 L owner-manual capacity, 1.5 L change and 2.0 L MY2005 WIS dry value are different concepts; do not average.",
+      "source_ids": [
+        "og95years-src-003",
+        "og95years-src-004"
+      ]
+    },
+    {
+      "id": "og95years-gap-004",
+      "title": "North American 2006/2007 complete source review",
+      "missing_inputs": [
+        "Retrieve full manufacturer-authored MY2006/2007 manual specification tables and confirm context beyond indexed excerpts."
+      ],
+      "reason": "Current record status is search_excerpt for the two manuals; these are not full-text revalidations.",
+      "source_ids": [
+        "og95years-src-001",
+        "og95years-src-002",
+        "og95years-src-003"
+      ]
+    },
+    {
+      "id": "og95years-gap-005",
+      "title": "Brake and wheel hardware distinctions",
+      "missing_inputs": [
+        "Obtain exact caliper/rotor and wheel option codes, brake disc thickness, hub and chassis identity for MY2008."
+      ],
+      "reason": "General owner-manual diameters and offsets do not prove fitment to a particular vehicle.",
+      "source_ids": [
+        "og95years-src-004"
+      ]
+    },
+    {
+      "id": "og95years-gap-006",
+      "title": "2006–2008 engineering documentation depth",
+      "missing_inputs": [
+        "Retrieve model-year-specific engine lubrication, cooling, transmission, suspension and wiring WIS sections with revision timestamps."
+      ],
+      "reason": "Adding annual owner-manual facts is an early coverage step, not a comprehensive systems dataset.",
+      "source_ids": [
+        "og95years-src-005",
+        "og95years-src-006",
+        "og95years-src-007"
+      ]
+    }
+  ]
+}
