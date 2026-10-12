@@ -1,0 +1,605 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "replacements",
+  "sources": [
+    {
+      "id": "repl-src-001",
+      "title": "eSaabParts 55564966 turbocharger listing",
+      "url": "https://www.esaabparts.com/saab/parts/55564966",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "First-party catalogue snapshot; current installed-part match and physical availability are not established."
+    },
+    {
+      "id": "repl-src-002",
+      "title": "eSaabParts 55559825 turbocharger listing",
+      "url": "https://www.esaabparts.com/saab/parts/55559825",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Generic switch-diagram years are broader than the B235R row application; use the engine-specific row in source 003."
+    },
+    {
+      "id": "repl-src-003",
+      "title": "eSaabParts OG9-5 turbocharger diagram 311045036",
+      "url": "https://www.esaabparts.com/viewparts.php?searchpart=1&section=311045036",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Rows carry engine, model-year and chassis restrictions. This is supplier application evidence, not a complete conversion kit or a manufacturer-approved interchange."
+    },
+    {
+      "id": "repl-src-004",
+      "title": "RBM KIT89.3 T8 ECM insulation kit",
+      "url": "https://www.rbmperformance.com/t8-insulation-kit-for-saab-9-3-2003-2010--_l_EN_r_151_i_4362.html",
+      "publisher": "RBM Performance",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Seller claims only. Title says 2003–2010 while description says 2003–2012. No controlled test protocol or ECU durability evidence is supplied."
+    },
+    {
+      "id": "repl-src-005",
+      "title": "KM-tronics T8 ECU relocation kit",
+      "url": "https://www.kmtronics.nl/product/14303797/saab-93-t8-ecu-herlocatie-kit",
+      "publisher": "KM-tronics",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Dutch product description translated in original summaries. Supplier-reported temperatures are not independently validated; exact SKU and all model-year applications are unstated."
+    },
+    {
+      "id": "repl-src-006",
+      "title": "Saab WIS MY2004 OG9-5 Trionic T7 ignition discharge module",
+      "url": "https://saabwisonline.com/9-5-9600/2004/2-engine/trionic-t7-4-cyl/technical-description/ignition-discharge-module",
+      "publisher": "Saab Automobile AB; republished by Saab WIS Online",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory-authored technical description, third-party mirror. Application here follows the MY2004 T7 four-cylinder document path."
+    },
+    {
+      "id": "repl-src-007",
+      "title": "Saab WIS MY2004 OG9-5 Trionic T7 knock control",
+      "url": "https://saabwisonline.com/9-5-9600/2004/2-engine/trionic-t7-4-cyl/technical-description/knock-control",
+      "publisher": "Saab Automobile AB; republished by Saab WIS Online",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Correct spark-plug selection is part of the feedback-system requirements; this page does not settle the separate plug-table discrepancies."
+    },
+    {
+      "id": "repl-src-008",
+      "title": "Saab WIS MY2011 NG9-3 bus detailed description",
+      "url": "https://saabwisonline.com/9-3-9440/2011/3-electrical-system/bus-and-diagnostics-communication/technical-description/detailed-description",
+      "publisher": "Saab Automobile AB; republished by Saab WIS Online",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory bus overview. Later example text names MIU where earlier text names CIM; no detailed immobiliser transfer/programming procedure is inferred from this mixed narrative."
+    }
+  ],
+  "facts": [
+    {
+      "id": "repl-fact-001",
+      "subject": "catalogue:OG9-5-B235R-turbo",
+      "category": "turbocharger",
+      "predicate": "separate_catalogue_application_rows",
+      "value": {
+        "2000_to_2005": "55559825",
+        "2006_to_2009": "55564966"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "repl-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Diagram callout 1, B235R HPT rows",
+      "notes": "The catalogue uses separate turbo and intake-pipe rows; it does not demonstrate a bolt-on earlier-to-later conversion."
+    },
+    {
+      "id": "repl-fact-002",
+      "subject": "product:RBM-KIT89.3",
+      "category": "electrical_thermal",
+      "predicate": "seller_temperature_claim",
+      "value": {
+        "intake_manifold_over_C": 93,
+        "ECM_approximately_C": 54,
+        "test_conditions": "Unspecified"
+      },
+      "unit": "degC",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "engine_management": [
+          "Trionic 8"
+        ],
+        "application_text": "Seller names turbocharged 1.8/2.0 and BioPower versions; 2003–2012 description conflicts with title."
+      },
+      "source_ids": [
+        "repl-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Product description",
+      "notes": "No ambient, load, sensor-placement or before/after protocol supplied. These temperatures cannot be used as a validated durability prediction.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "repl-fact-003",
+      "subject": "product:RBM-KIT89.3",
+      "category": "electrical_thermal",
+      "predicate": "hardware_description",
+      "value": {
+        "mount": "Rubber bushes and aluminium plate",
+        "insulation_locations": [
+          "Intake manifold",
+          "Radiator hose"
+        ],
+        "ground_wire_included": true,
+        "ECM_included": false
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "engine_management": [
+          "Trionic 8"
+        ],
+        "application_text": "Seller names turbocharged 1.8/2.0 and BioPower versions; 2003–2012 description conflicts with title."
+      },
+      "source_ids": [
+        "repl-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Description and supplied hardware",
+      "notes": "Seller also calls for removing the plastic cover; benefit and alternate exposure effects remain untested here."
+    },
+    {
+      "id": "repl-fact-004",
+      "subject": "product:KM-tronics-T8-relocation",
+      "category": "electrical_thermal",
+      "predicate": "offered_harness_length",
+      "value": 2,
+      "unit": "m",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_management": [
+          "Trionic 8"
+        ]
+      },
+      "source_ids": [
+        "repl-src-005"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Kit contents",
+      "notes": "Seller says taping consumes about 15–20 cm of usable length; custom lengths offered. Harness electrical characteristics and exact SKU are not published."
+    },
+    {
+      "id": "repl-fact-005",
+      "subject": "product:KM-tronics-T8-relocation",
+      "category": "electrical_thermal",
+      "predicate": "seller_temperature_claim",
+      "value": {
+        "maximum_above_ambient_C": 6,
+        "reported_test_ambient_C": 27
+      },
+      "unit": "degC",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_management": [
+          "Trionic 8"
+        ]
+      },
+      "source_ids": [
+        "repl-src-005"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Temperature paragraph",
+      "notes": "Single seller-reported condition; no ECU junction temperature, repeatability or lifetime result supplied.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "repl-fact-006",
+      "subject": "product:KM-tronics-T8-relocation",
+      "category": "electrical_thermal",
+      "predicate": "installation_environment",
+      "value": {
+        "location": "Cowl/plenum",
+        "ground_cables": 2,
+        "drainage": "Seller requires checking cowl drainage"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_management": [
+          "Trionic 8"
+        ]
+      },
+      "source_ids": [
+        "repl-src-005"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Cowl mounting text and kit contents",
+      "notes": "No model-year expansion or recommendation to modify drainage is inferred. Water ingress and grounding need evaluation."
+    },
+    {
+      "id": "repl-fact-007",
+      "subject": "system:Trionic7-ignition",
+      "category": "electrical_dependencies",
+      "predicate": "ignition_and_combustion_feedback",
+      "value": {
+        "coils": 4,
+        "combustion_feedback": "Ion current across plug gaps supplies cylinder synchronization and misfire information",
+        "ground_point": "G7"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ],
+        "engine_management": [
+          "Trionic 7 four-cylinder"
+        ]
+      },
+      "source_ids": [
+        "repl-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Ignition; combustion signals/synchronization",
+      "notes": "Ignition hardware is also part of engine feedback; a replacement must preserve these functions, beyond producing a spark."
+    },
+    {
+      "id": "repl-fact-008",
+      "subject": "system:Trionic7-ignition",
+      "category": "electrical_dependencies",
+      "predicate": "incompatible_module_warning",
+      "value": "Red ignition discharge modules must not be used for the documented T7 application.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ],
+        "engine_management": [
+          "Trionic 7 four-cylinder"
+        ]
+      },
+      "source_ids": [
+        "repl-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Final Note",
+      "notes": "Module color warning is source-specific; verify correct part and engine application rather than treating any black housing as proof of authenticity."
+    },
+    {
+      "id": "repl-fact-009",
+      "subject": "system:Trionic7-knock-control",
+      "category": "electrical_dependencies",
+      "predicate": "knock_sensing_method",
+      "value": "The ignition module analyzes ion current across each plug gap; no conventional knock sensor is used.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ],
+        "engine_management": [
+          "Trionic 7 four-cylinder"
+        ]
+      },
+      "source_ids": [
+        "repl-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "Knock control description",
+      "notes": "Factory note requires the correct spark plug for the engine. Ignition substitutions must retain this sensing function."
+    },
+    {
+      "id": "repl-fact-010",
+      "subject": "system:NG9-3-bus",
+      "category": "electrical_dependencies",
+      "predicate": "gateway_and_start_dependency",
+      "value": {
+        "gateway": "CIM links P-bus and I-bus",
+        "start_dependency": "ECM must receive immobiliser information",
+        "power_and_ground": "A module can disappear from communication if supply or ground fails"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2011
+        ]
+      },
+      "source_ids": [
+        "repl-src-008"
+      ],
+      "evidence_status": "documented",
+      "locator": "P-bus and I-bus; diagnostics communication",
+      "notes": "Document later contains inconsistent MIU/CIM examples; do not derive a programming/immobiliser-transfer method from the overview."
+    }
+  ],
+  "issues": [],
+  "parts": [
+    {
+      "id": "repl-part-001",
+      "part_number": "55564966",
+      "title": "Catalogue turbocharger, B235R MY2006–2009",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "supersedes",
+          "part_number": "55561884",
+          "conditions": "Supplier listing identifies this as the latest number; verify installed assembly and source application."
+        },
+        {
+          "type": "supersedes",
+          "part_number": "55560601",
+          "conditions": "Supplier listing identifies this as the latest number; verify installed assembly and source application."
+        }
+      ],
+      "requirements": [
+        "Confirm VIN and installed turbo/pipe interfaces."
+      ],
+      "source_ids": [
+        "repl-src-001",
+        "repl-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "notes": "Catalogue relationship only; no compressor map or measured life benefit is established."
+    },
+    {
+      "id": "repl-part-002",
+      "part_number": "55559825",
+      "title": "Catalogue turbocharger, B235R MY2000–2005",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "supersedes",
+          "part_number": "9172180",
+          "conditions": "Supplier listing latest number; B235R row supplies the narrow application."
+        }
+      ],
+      "requirements": [
+        "Confirm VIN, engine and installed assembly."
+      ],
+      "source_ids": [
+        "repl-src-002",
+        "repl-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "notes": "Generic diagram switch years do not expand the B235R application to 2007."
+    },
+    {
+      "id": "repl-part-003",
+      "part_number": "55559826",
+      "title": "Catalogue B235R intake pipe MY2004–2005",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Match turbo inlet, breather and connected interfaces."
+      ],
+      "source_ids": [
+        "repl-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "notes": "Diagram position 5; no automatic compatibility with later pipe inferred."
+    },
+    {
+      "id": "repl-part-004",
+      "part_number": "32019533",
+      "title": "Catalogue B235R intake pipe MY2006–2009",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "supersedes",
+          "part_number": "32019243",
+          "conditions": "Explicit direction in supplier diagram."
+        }
+      ],
+      "requirements": [
+        "Verify installed turbo and all connected pipe interfaces."
+      ],
+      "source_ids": [
+        "repl-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "notes": "Recycled Orio item in catalogue; live stock and condition are not recorded."
+    },
+    {
+      "id": "repl-part-005",
+      "part_number": "KIT89.3",
+      "title": "RBM T8 ECM insulation/mounting kit",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "engine_management": [
+          "Trionic 8"
+        ],
+        "application_text": "Seller names turbocharged 1.8/2.0 and BioPower versions; 2003–2012 description conflicts with title."
+      },
+      "relationships": [],
+      "requirements": [
+        "Confirm exact ECM/mounting application and seller year conflict.",
+        "Preserve grounding and assess thermal behavior, vibration and water exposure."
+      ],
+      "source_ids": [
+        "repl-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "notes": "Aftermarket product code, not a Saab OEM part number. Listed ECM reference numbers are compatibility references, not kit supersessions; no ECM included."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "repl-gap-001",
+      "title": "Earlier-to-later B235R turbo conversion is not established",
+      "missing_inputs": [
+        "Exact installed turbo identification",
+        "Compressor/turbine and wastegate characteristics",
+        "Oil/coolant plumbing and intake/exhaust interfaces",
+        "Matching software and emissions application"
+      ],
+      "reason": "Distinct catalogue numbers do not establish cross-year interchange or reliability benefit.",
+      "source_ids": [
+        "repl-src-001",
+        "repl-src-002",
+        "repl-src-003"
+      ]
+    },
+    {
+      "id": "repl-gap-002",
+      "title": "T8 heat-protection kits lack validated engineering envelope",
+      "missing_inputs": [
+        "Exact ECU/vehicle application",
+        "Temperature traces over ambient/load and shutdown heat soak",
+        "ECU junction vs case temperature",
+        "Harness/ground voltage drop and CAN integrity",
+        "Vibration, sealing and water exposure",
+        "Before/after controlled durability evidence"
+      ],
+      "reason": "Supplier temperature claims support candidate research, not Toyota-like lifetime or an approved replacement.",
+      "source_ids": [
+        "repl-src-004",
+        "repl-src-005"
+      ]
+    },
+    {
+      "id": "repl-gap-003",
+      "title": "Mixed bus overview requires stronger module-replacement documentation",
+      "missing_inputs": [
+        "Exact model/engine electrical diagrams",
+        "Hardware/software identifiers and factory replacement procedure",
+        "Module security/pairing requirements from specific documents"
+      ],
+      "reason": "The overview explains dependencies but has inconsistent module names in examples.",
+      "source_ids": [
+        "repl-src-008"
+      ]
+    }
+  ]
+}

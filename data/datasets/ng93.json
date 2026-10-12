@@ -1,0 +1,2486 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "ng93",
+  "sources": [
+    {
+      "id": "ng93-src-001",
+      "title": "General data, 2006 B207",
+      "url": "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/technical-data/general-data",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Mirrored Saab WIS; regional octane is RON. Year directory may contain later revisions."
+    },
+    {
+      "id": "ng93-src-002",
+      "title": "Lubricating system, B207",
+      "url": "https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/basic-engine/technical-data/lubricating-system",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Mirrored Saab WIS. Pressure table unit labels for later rows are absent in HTML; numerical temperature/pressure interpretation flagged."
+    },
+    {
+      "id": "ng93-src-003",
+      "title": "Saab 9-3 M2005 US/Canada Owner’s Manual",
+      "url": "https://manualzz.com/doc/53858941/saab-2005-9-3-owner-s-manual",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Original Saab manual text; copyright 2004, order 42 92 17, US/CA MY2005. Extraction limited to selected specifications; table alignment can be imperfect."
+    },
+    {
+      "id": "ng93-src-004",
+      "title": "Five-speed manual gearbox capacity",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/manual-gearbox/5-speed/technical-data/gearbox",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Dry capacity is explicit; no trim-to-gearbox assignment."
+    },
+    {
+      "id": "ng93-src-005",
+      "title": "Five-speed manual overall ratios",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/manual-gearbox/5-speed/technical-data/gear-ratio",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "FM55/FM57 labels retained. Overall ratios include final drive."
+    },
+    {
+      "id": "ng93-src-006",
+      "title": "Six-speed manual overall ratios",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/manual-gearbox/6-speed/technical-data/gear-ratio",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "B207 column is FM67; diesel columns F406. Do not equate B207 FM67 with F40 based on page hierarchy."
+    },
+    {
+      "id": "ng93-src-007",
+      "title": "Six-speed manual lubricants and sealants",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/manual-gearbox/6-speed/technical-data/summary-of-lubricants-and-sealants",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Mirrored WIS table; F40 identification from companion Gearbox table; applicability must be established on car."
+    },
+    {
+      "id": "ng93-src-008",
+      "title": "FA57 automatic type designation",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/type-designations",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Explicit adaptation to B207E/L/R and use from MY03."
+    },
+    {
+      "id": "ng93-src-009",
+      "title": "FA57 automatic overall ratios",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/gear-ratios",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Overall ratios, not isolated gearset ratios. B207R table includes intermediate ratios."
+    },
+    {
+      "id": "ng93-src-010",
+      "title": "FA57 weight, fluid capacity and grade",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/weight-fluid-capacity-and-grade-of-fluid",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Total includes torque converter and cooler; not drain/refill amount. Historical oil requirement."
+    },
+    {
+      "id": "ng93-src-011",
+      "title": "Wheel geometry, standard/sport chassis",
+      "url": "https://saabwisonline.com/9-3-9440/2005/7-suspension-wheels/front-suspension/technical-data/wheel-geometry",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Contains later 4WD rows despite 2005 URL. Exclude those rows; standard/sport values provisional until chassis and revision confirmed. Sport individual-toe tolerance differs from standard."
+    },
+    {
+      "id": "ng93-src-012",
+      "title": "Brake discs, levels 1–4",
+      "url": "https://saabwisonline.com/9-3-9440/2005/5-brakes/footbrake-system/technical-data/brake-discs",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Brake level is not mapped to trim here; confirm installed level/VIN before selecting components."
+    },
+    {
+      "id": "ng93-src-013",
+      "title": "Brake fluid",
+      "url": "https://saabwisonline.com/9-3-9440/2005/5-brakes/footbrake-system/technical-data/brake-fluid",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Capacity context is not explicit; do not treat it as a flushing quantity."
+    },
+    {
+      "id": "ng93-src-014",
+      "title": "Coolant, four-cylinder petrol",
+      "url": "https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/cooling-system/technical-data/coolant",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "7.5 L conflicts with US/CA manual’s 7.1 L. Historical filled-for-life wording is not a present service recommendation."
+    },
+    {
+      "id": "ng93-src-015",
+      "title": "Cooling system technical data",
+      "url": "https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/cooling-system/technical-data/cooling-system",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Multi-stage fan table may include configurations/revisions; actual fan hardware unselected."
+    },
+    {
+      "id": "ng93-src-016",
+      "title": "Basic charging pressure",
+      "url": "https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/turbocharger-system/technical-data/basic-charging-pressure",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Base wastegate pressure, not ECU-controlled peak boost or safe tuning limit."
+    },
+    {
+      "id": "ng93-src-017",
+      "title": "Turbo shaft play",
+      "url": "https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/turbocharger-system/technical-data/turbo-shaft-play",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Garrett-only axial measurement; no MHI radial/axial tolerance provided."
+    },
+    {
+      "id": "ng93-src-018",
+      "title": "Generator 120A, B207",
+      "url": "https://saabwisonline.com/9-3-9440/2005/3-electrical-system/charging-systems/technical-data/generator-120a-b207",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Bench specification; generator rpm differs from engine rpm."
+    },
+    {
+      "id": "ng93-src-019",
+      "title": "Alternator 140A, B207",
+      "url": "https://saabwisonline.com/9-3-9440/2005/3-electrical-system/charging-systems/technical-data/alternator-140a-b207",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Bench specification; generator rpm differs from engine rpm."
+    },
+    {
+      "id": "ng93-src-020",
+      "title": "Saab USA vehicle identification bulletins, 1999–2011",
+      "url": "https://saabparts.us/wp-content/uploads/1/2023/05/VIN-breakdown-for-1999-2011-9-3-9-5.pdf",
+      "publisher": "Saab Automobile USA / Saab Automobile AB",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Compiled factory sheets; 2005 SI 012-9047 ed.4 Aug 2004. Pages 9–10 visually checked,. MY11.5 engine boundary explicit p13. Factory Linear B207L nomenclature differs from some secondary production tables (B207S)."
+    },
+    {
+      "id": "ng93-src-021",
+      "title": "Saab Announces 2006 9-3 SportCombi Pricing",
+      "url": "https://www.theautochannel.com/news/2005/08/04/139484.html",
+      "publisher": "Saab USA (The Auto Channel mirror)",
+      "source_type": "factory_press_release",
+      "accessed_at": "2026-10-12",
+      "retrieval": "search_excerpt",
+      "notes": "Saab USA release reproduced by publisher, Aug 2005. Full open blocked; search excerpt gives USA engine/trim changes."
+    },
+    {
+      "id": "ng93-src-022",
+      "title": "2011 Saab Brand and Range, USA",
+      "url": "https://www.auto-brochures.com/makes/Saab/Saab_US%202011.pdf",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory sales brochure mirror, specifications pp80–85 (PDF pp41–43); p80–81 visually checked. B207-era specification, not MY11.5 Griffin extrapolation."
+    },
+    {
+      "id": "ng93-src-023",
+      "title": "Saab debuts all-new 2004 9-3 Convertible",
+      "url": "https://autointell.com/News-2003/March-2003/March-2003-1/March-04-03-p2.htm",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_press_release",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Saab announcement mirrored March 2003; explicit US launch as MY2004 in fall 2003."
+    },
+    {
+      "id": "ng93-src-024",
+      "title": "Recommended oil quality, Saab Service EU",
+      "url": "https://saabwisonline.com/9-3-9440/2005/1-service/saab-service-eu/service/recommended-oil-quality",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "EU service page includes later engines; retain listed B207 recommendation and EU applicability only."
+    },
+    {
+      "id": "ng93-src-025",
+      "title": "Five-speed manual lubricant summary",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/manual-gearbox/5-speed/technical-data/summary-of-lubricants-and-sealants",
+      "publisher": "Saab Automobile AB / Saab Cars USA (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MTF 0063 designation and historical Saab part number; does not certify current substitute fluids."
+    }
+  ],
+  "facts": [
+    {
+      "id": "ng93-fact-001",
+      "subject": "engine:B207",
+      "category": "geometry",
+      "predicate": "cylinder_bore",
+      "value": 86,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207S",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data: cylinder bore",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-002",
+      "subject": "engine:B207",
+      "category": "geometry",
+      "predicate": "stroke",
+      "value": 86,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207S",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data: stroke",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-003",
+      "subject": "engine:B207",
+      "category": "geometry",
+      "predicate": "displacement",
+      "value": 1998,
+      "unit": "cm3",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207S",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data: displacement",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-004",
+      "subject": "engine:B207",
+      "category": "geometry",
+      "predicate": "compression_ratio",
+      "value": 9.5,
+      "unit": "ratio:1",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207S",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data: compression ratio",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-005",
+      "subject": "engine:B207",
+      "category": "diagnostics",
+      "predicate": "minimum_compression",
+      "value": 12.4,
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207S",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data: min compression",
+      "notes": "Test method/temperature must be obtained before diagnosis; not a cold-start pass/fail rule."
+    },
+    {
+      "id": "ng93-fact-006",
+      "subject": "engine:B207",
+      "category": "architecture",
+      "predicate": "configuration",
+      "value": {
+        "cylinders": 4,
+        "valves_per_cylinder": 4,
+        "overhead_camshafts": 2,
+        "balance_shafts": 2,
+        "mounting": "transverse"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207S",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data: type",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-007",
+      "subject": "engine:B207",
+      "category": "ignition",
+      "predicate": "firing_order",
+      "value": [
+        1,
+        3,
+        4,
+        2
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207S",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data: firing order",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-008",
+      "subject": "engine:B207",
+      "category": "engine_management",
+      "predicate": "control_system",
+      "value": "Trionic 8",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207S",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data: management",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-009",
+      "subject": "engine:B207",
+      "category": "geometry",
+      "predicate": "listed_mass",
+      "value": 149,
+      "unit": "kg",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207S",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data: weight",
+      "notes": "Ancillary inclusion unspecified."
+    },
+    {
+      "id": "ng93-fact-010",
+      "subject": "engine:B207R",
+      "category": "fuel",
+      "predicate": "recommended_octane",
+      "value": 98,
+      "unit": "RON",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data: fuel",
+      "notes": "Regional WIS value; not 98 US pump AKI."
+    },
+    {
+      "id": "ng93-fact-011",
+      "subject": "engine:B207E/B207L",
+      "category": "fuel",
+      "predicate": "recommended_octane",
+      "value": 95,
+      "unit": "RON",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data: fuel",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-012",
+      "subject": "engine:B207R",
+      "category": "operating_parameters",
+      "predicate": "warm_idle",
+      "value": {
+        "automatic_drive": 720,
+        "automatic_neutral": 720,
+        "manual": 850
+      },
+      "unit": "rpm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data: warm idle",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-013",
+      "subject": "engine:B207",
+      "category": "lubrication",
+      "predicate": "service_oil_fill_with_filter",
+      "value": 6,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Oil volume: when servicing",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-014",
+      "subject": "engine:B207",
+      "category": "lubrication",
+      "predicate": "listed_total_oil_with_filter_and_cooler",
+      "value": 6.75,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Oil volume: with cooler",
+      "notes": "Source does not explicitly call this a dry-fill amount."
+    },
+    {
+      "id": "ng93-fact-015",
+      "subject": "engine:B207",
+      "category": "lubrication",
+      "predicate": "dipstick_min_max_difference",
+      "value": 0.75,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Difference max-min",
+      "notes": "US manual p202 says 1.0 L; unresolved discrepancy."
+    },
+    {
+      "id": "ng93-fact-016",
+      "subject": "engine:B207",
+      "category": "lubrication",
+      "predicate": "oil_pump_relief_opening",
+      "value": {
+        "nominal": 5,
+        "tolerance": 1
+      },
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Oil pressure: reducing valve",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-017",
+      "subject": "engine:B207",
+      "category": "lubrication",
+      "predicate": "oil_warning_threshold",
+      "value": 0.3,
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-002"
+      ],
+      "evidence_status": "inference",
+      "locator": "Indicator lamp row",
+      "notes": "Unit inferred from table section; HTML row omits unit.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "ng93-fact-018",
+      "subject": "engine:B207",
+      "category": "lubrication",
+      "predicate": "oil_pressure_at_1000rpm_5W30",
+      "value": {
+        "crankcase_minimum": 2,
+        "cylinder_head": 0.8
+      },
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-002"
+      ],
+      "evidence_status": "inference",
+      "locator": "1000 rpm oil-pressure rows",
+      "notes": "Temperature not specified on retrieved page; unit inferred from section.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "ng93-fact-019",
+      "subject": "engine:B207",
+      "category": "lubrication",
+      "predicate": "oil_cooler_thermostat",
+      "value": {
+        "begins_opening": 107,
+        "opening_tolerance": 2,
+        "fully_open": 120
+      },
+      "unit": "degC",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-002"
+      ],
+      "evidence_status": "inference",
+      "locator": "Oil cooler thermostat rows",
+      "notes": "Temperature unit absent from rendered table; interpret provisionally.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "ng93-fact-020",
+      "subject": "vehicle:9-3_US_2005",
+      "category": "lubrication",
+      "predicate": "historical_oil_requirement",
+      "value": {
+        "quality": "fully synthetic GM-LL-A-025",
+        "viscosities": [
+          "0W-30",
+          "5W-30",
+          "0W-40"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "Convertible"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "p270–271",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-021",
+      "subject": "engine:B207_EU",
+      "category": "lubrication",
+      "predicate": "historical_oil_requirement",
+      "value": {
+        "quality": "GM-LL-A-025",
+        "viscosities": [
+          "0W-30",
+          "0W-40",
+          "5W-30",
+          "5W-40"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "markets": [
+          "EU"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-024"
+      ],
+      "evidence_status": "documented",
+      "locator": "Recommendation petrol row",
+      "notes": "Historical recommendation, not proof of a current substitute’s approval."
+    },
+    {
+      "id": "ng93-fact-022",
+      "subject": "vehicle:9-3_US_2005",
+      "category": "cooling",
+      "predicate": "manual_coolant_capacity",
+      "value": 7.1,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "Convertible"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "p270",
+      "notes": "WIS gives 7.5 L; do not collapse values.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "ng93-fact-023",
+      "subject": "vehicle:9-3_US_2005",
+      "category": "fuel",
+      "predicate": "octane_requirement",
+      "value": {
+        "recommended": 90,
+        "minimum": 87
+      },
+      "unit": "US AON",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "Convertible"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "p155, p271",
+      "notes": "AON is US posted anti-knock octane; preserve factory label. No RON conversion used."
+    },
+    {
+      "id": "ng93-fact-024",
+      "subject": "vehicle:9-3_US_2005",
+      "category": "fuel",
+      "predicate": "tank_capacity",
+      "value": 61,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "Convertible"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "p271",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-025",
+      "subject": "vehicle:9-3_US_2005",
+      "category": "performance",
+      "predicate": "listed_EEC_outputs",
+      "value": {
+        "2.0t": {
+          "hp": 175,
+          "kW": 129,
+          "power_rpm": 5500,
+          "torque_Nm": 265,
+          "torque_rpm": 2500
+        },
+        "2.0T": {
+          "hp": 210,
+          "kW": 155,
+          "power_rpm": 5300,
+          "torque_Nm": 300,
+          "torque_rpm": 2500
+        }
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "Convertible"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "p271",
+      "notes": "Retain factory EEC/hp wording; do not silently relabel as SAE hp or PS."
+    },
+    {
+      "id": "ng93-fact-026",
+      "subject": "transmission:5MT",
+      "category": "fluids",
+      "predicate": "dry_capacity",
+      "value": 1.9,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "transmission_codes": [
+          "5MT"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "Oil capacity",
+      "notes": "Dry gearbox; distinct from manual’s level-plug amount."
+    },
+    {
+      "id": "ng93-fact-027",
+      "subject": "vehicle:9-3_US_2005",
+      "category": "transmission",
+      "predicate": "five_speed_to_level_plug",
+      "value": 1.8,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "Convertible"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "p272",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-028",
+      "subject": "transmission:5MT",
+      "category": "fluids",
+      "predicate": "historical_oil",
+      "value": {
+        "designation": "MTF 0063",
+        "Saab_part": "93165290",
+        "mixing": "do not mix"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "transmission_codes": [
+          "5MT"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-025"
+      ],
+      "evidence_status": "documented",
+      "locator": "Manual gearbox row",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-029",
+      "subject": "transmission:FM55/FM57",
+      "category": "ratios",
+      "predicate": "overall_ratios",
+      "value": {
+        "FM55": {
+          "forward": [
+            13.7,
+            7.12,
+            4.77,
+            3.62,
+            2.67
+          ],
+          "reverse": 12.82,
+          "final_drive": 4.05
+        },
+        "FM57": {
+          "forward": [
+            13.68,
+            7.16,
+            4.5,
+            3.41,
+            2.52
+          ],
+          "reverse": 13.1,
+          "final_drive": 3.82
+        }
+      },
+      "unit": "ratio:1",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "transmission_codes": [
+          "FM55",
+          "FM57"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Gear ratio table",
+      "notes": "Engine/trim mapping absent; overall values already incorporate final drive."
+    },
+    {
+      "id": "ng93-fact-030",
+      "subject": "transmission:FM67",
+      "category": "ratios",
+      "predicate": "B207_overall_ratios",
+      "value": {
+        "forward": [
+          13.36,
+          7.23,
+          4.84,
+          3.72,
+          3.0,
+          2.51
+        ],
+        "reverse": 12.55,
+        "final_drive": 3.55
+      },
+      "unit": "ratio:1",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "transmission_codes": [
+          "FM67"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "FM67 B207 column",
+      "notes": "Literal code retained. Do not apply F406 diesel ratios to petrol."
+    },
+    {
+      "id": "ng93-fact-031",
+      "subject": "vehicle:9-3_US_2005",
+      "category": "transmission",
+      "predicate": "six_speed_2_0_Turbo_oil_capacity",
+      "value": 3,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "Convertible"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "p272",
+      "notes": "Distinct from WIS 2.4/2.2 L six-speed table; gearbox identification required.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "ng93-fact-032",
+      "subject": "transmission:6MT_WIS",
+      "category": "fluids",
+      "predicate": "capacity_and_historical_oil",
+      "value": {
+        "total_L": 2.4,
+        "filling_replacement_L": 2.2,
+        "oil": "MTF 0063",
+        "Saab_part": "12799117"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "transmission_codes": [
+          "6MT"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "Manual gearbox / Oil capacity",
+      "notes": "Companion table identifies F40; not established for B207 FM67. Provisional application.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "ng93-fact-033",
+      "subject": "transmission:FA57",
+      "category": "identification",
+      "predicate": "factory_designation_and_engine_adaptation",
+      "value": {
+        "designation": "FA57",
+        "forward_gears": 5,
+        "drive": "FWD",
+        "adapted_to": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "introduced_model_year": 2003
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-008"
+      ],
+      "evidence_status": "documented",
+      "locator": "Gearbox first/second group",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-034",
+      "subject": "transmission:FA57",
+      "category": "ratios",
+      "predicate": "overall_ratios",
+      "value": {
+        "forward": [
+          11.36,
+          7.4,
+          4.84,
+          3.27,
+          2.48
+        ],
+        "reverse": 12.48,
+        "differential": 2.44,
+        "B207R_intermediate": {
+          "2.5": 5.62,
+          "3.5": 3.67
+        }
+      },
+      "unit": "ratio:1",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-009"
+      ],
+      "evidence_status": "documented",
+      "locator": "B207E/L and B207R columns",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-035",
+      "subject": "transmission:FA57",
+      "category": "fluids",
+      "predicate": "total_capacity_grade_and_mass",
+      "value": {
+        "capacity_L": 7.2,
+        "oil": "Saab 3309",
+        "mass_with_fluid_kg": 90
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-010"
+      ],
+      "evidence_status": "documented",
+      "locator": "Weight / fluid capacity / grade",
+      "notes": "Includes torque converter/cooler; not routine drain quantity."
+    },
+    {
+      "id": "ng93-fact-036",
+      "subject": "chassis:standard_FWD",
+      "category": "alignment",
+      "predicate": "angular_targets",
+      "value": {
+        "rear_total_toe": {
+          "target": 0.24,
+          "tolerance": 0.08
+        },
+        "rear_camber": {
+          "target": -0.7,
+          "tolerance": 0.3
+        },
+        "front_total_toe": {
+          "target": 0.28,
+          "tolerance": 0.08
+        },
+        "front_camber": {
+          "target": -0.8,
+          "tolerance": 0.5
+        },
+        "caster": {
+          "target": 2.9,
+          "tolerance": 0.5
+        }
+      },
+      "unit": "degree",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-011"
+      ],
+      "evidence_status": "documented",
+      "locator": "Standard chassis",
+      "notes": "Provisional: revised mirror; verify chassis and procedure."
+    },
+    {
+      "id": "ng93-fact-037",
+      "subject": "chassis:sport_FWD",
+      "category": "alignment",
+      "predicate": "angular_targets",
+      "value": {
+        "rear_total_toe": {
+          "target": 0.24,
+          "tolerance": 0.08
+        },
+        "rear_camber": {
+          "target": -1.0,
+          "tolerance": 0.3
+        },
+        "front_total_toe": {
+          "target": 0.28,
+          "tolerance": 0.08
+        },
+        "front_camber": {
+          "target": -0.9,
+          "tolerance": 0.5
+        },
+        "caster": {
+          "target": 2.9,
+          "tolerance": 0.5
+        }
+      },
+      "unit": "degree",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-011"
+      ],
+      "evidence_status": "documented",
+      "locator": "Sport chassis",
+      "notes": "Provisional; no trim-to-sport-chassis inference."
+    },
+    {
+      "id": "ng93-fact-038",
+      "subject": "chassis:FWD",
+      "category": "alignment",
+      "predicate": "after_adjustment_requirement",
+      "value": "calibrate steering angle sensor",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-011"
+      ],
+      "evidence_status": "documented",
+      "locator": "Note standard/sport tables",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-039",
+      "subject": "brakes:front",
+      "category": "dimensions",
+      "predicate": "disc_levels",
+      "value": {
+        "1": {
+          "diameter": 285,
+          "new_thickness": 25,
+          "minimum": 22,
+          "type": "ventilated"
+        },
+        "2": {
+          "diameter": 302,
+          "new_thickness": 28,
+          "minimum": 25,
+          "type": "ventilated"
+        },
+        "3": {
+          "diameter": 314,
+          "new_thickness": 28,
+          "minimum": 25,
+          "type": "ventilated"
+        },
+        "4": {
+          "diameter": 302,
+          "new_thickness": 28,
+          "minimum": 25,
+          "type": "ventilated"
+        }
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-012"
+      ],
+      "evidence_status": "documented",
+      "locator": "Front levels 1–4",
+      "notes": "Confirm brake level; no trim mapping."
+    },
+    {
+      "id": "ng93-fact-040",
+      "subject": "brakes:rear",
+      "category": "dimensions",
+      "predicate": "disc_levels",
+      "value": {
+        "1": {
+          "diameter": 278,
+          "new_thickness": 12,
+          "minimum": 10,
+          "type": "solid"
+        },
+        "2": {
+          "diameter": 292,
+          "new_thickness": 20,
+          "minimum": 18,
+          "type": "ventilated"
+        },
+        "3": {
+          "diameter": 292,
+          "new_thickness": 20,
+          "minimum": 18,
+          "type": "ventilated"
+        },
+        "4": {
+          "diameter": 278,
+          "new_thickness": 12,
+          "minimum": 10,
+          "type": "solid"
+        }
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-012"
+      ],
+      "evidence_status": "documented",
+      "locator": "Rear levels 1–4",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-041",
+      "subject": "brakes:discs",
+      "category": "diagnostics",
+      "predicate": "fitted_tolerances",
+      "value": {
+        "maximum_runout": 0.08,
+        "maximum_thickness_variation": 0.015
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-012"
+      ],
+      "evidence_status": "documented",
+      "locator": "Front/rear runout/variation rows",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-042",
+      "subject": "brakes:hydraulics",
+      "category": "fluids",
+      "predicate": "historical_type_and_listed_capacity",
+      "value": {
+        "type": "DOT 4",
+        "LHD_ml": 371,
+        "RHD_ml": 432
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-013"
+      ],
+      "evidence_status": "documented",
+      "locator": "Type / Capacity",
+      "notes": "Not a flush amount; total/reservoir distinction not specified."
+    },
+    {
+      "id": "ng93-fact-043",
+      "subject": "engine:B207",
+      "category": "cooling",
+      "predicate": "WIS_listed_capacity",
+      "value": 7.5,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-014"
+      ],
+      "evidence_status": "documented",
+      "locator": "Volume",
+      "notes": "Conflicts with US manual 7.1 L; exact configuration/fill method unresolved.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "ng93-fact-044",
+      "subject": "engine:B207",
+      "category": "cooling",
+      "predicate": "historical_coolant",
+      "value": {
+        "type": "Saab Original Coolant",
+        "water_fraction_percent": 50,
+        "part_numbers": [
+          "93170402",
+          "93165162"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-014"
+      ],
+      "evidence_status": "documented",
+      "locator": "Type",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-045",
+      "subject": "engine:B207",
+      "category": "cooling",
+      "predicate": "expansion_cap_opening_range",
+      "value": [
+        1.4,
+        1.5
+      ],
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-015"
+      ],
+      "evidence_status": "documented",
+      "locator": "Expansion tank pressure valve",
+      "notes": "Pressure datum unspecified in retrieved table."
+    },
+    {
+      "id": "ng93-fact-046",
+      "subject": "engine:B207",
+      "category": "cooling",
+      "predicate": "thermostat_opening",
+      "value": {
+        "target": 82,
+        "tolerance": 2
+      },
+      "unit": "degC",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-015"
+      ],
+      "evidence_status": "documented",
+      "locator": "Thermostat opening",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-047",
+      "subject": "engine:B207",
+      "category": "cooling",
+      "predicate": "listed_boiling_point_at_1_4bar",
+      "value": 131,
+      "unit": "degC",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-015"
+      ],
+      "evidence_status": "documented",
+      "locator": "System boiling point",
+      "notes": "Not a permitted operating temperature."
+    },
+    {
+      "id": "ng93-fact-048",
+      "subject": "engine:B207",
+      "category": "cooling",
+      "predicate": "gauge_red_zone_threshold",
+      "value": 125,
+      "unit": "degC",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-015"
+      ],
+      "evidence_status": "documented",
+      "locator": "Temperature gauge row",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-049",
+      "subject": "engine:B207",
+      "category": "cooling",
+      "predicate": "fan_stage_start_temperatures",
+      "value": [
+        100,
+        108,
+        114,
+        120
+      ],
+      "unit": "degC",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-015"
+      ],
+      "evidence_status": "documented",
+      "locator": "Ignition-on fan start",
+      "notes": "Provisional fan configuration; not a universal hardware-stage guarantee."
+    },
+    {
+      "id": "ng93-fact-050",
+      "subject": "engine:B207",
+      "category": "cooling",
+      "predicate": "fan_afterrun",
+      "value": {
+        "temperature_above_degC": 100,
+        "duration_seconds": [
+          30,
+          270
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-015"
+      ],
+      "evidence_status": "documented",
+      "locator": "Ignition-off fan start",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-051",
+      "subject": "engine:B207",
+      "category": "cooling",
+      "predicate": "AC_temperature_control",
+      "value": {
+        "disengage": 123,
+        "reengage": 122
+      },
+      "unit": "degC",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-015"
+      ],
+      "evidence_status": "documented",
+      "locator": "A/C disengage/engage",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-052",
+      "subject": "engine:B207R",
+      "category": "turbocharger",
+      "predicate": "base_pressure_and_turbo",
+      "value": {
+        "pressure_bar": 0.45,
+        "tolerance_bar": 0.03,
+        "turbo": "MHI TD04L-14T",
+        "wastegate_pretension_mm": 1.5
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-016"
+      ],
+      "evidence_status": "documented",
+      "locator": "B207R row",
+      "notes": "Base pressure, not maximum boost."
+    },
+    {
+      "id": "ng93-fact-053",
+      "subject": "engine:B207E/B207L",
+      "category": "turbocharger",
+      "predicate": "base_pressure_and_turbo",
+      "value": {
+        "pressure_bar": 0.4,
+        "tolerance_bar": 0.03,
+        "turbo": "Garrett GT2052s",
+        "wastegate_pretension_mm": 1.5
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-016"
+      ],
+      "evidence_status": "documented",
+      "locator": "B207E/L rows",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-054",
+      "subject": "turbocharger:Garrett",
+      "category": "diagnostics",
+      "predicate": "axial_shaft_play",
+      "value": [
+        0.036,
+        0.091
+      ],
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-017"
+      ],
+      "evidence_status": "documented",
+      "locator": "Garrett-only row",
+      "notes": "Not an MHI specification."
+    },
+    {
+      "id": "ng93-fact-055",
+      "subject": "alternator:B207_120A",
+      "category": "electrical",
+      "predicate": "bench_specification",
+      "value": {
+        "type": "Bosch E6-14V 65-120A",
+        "rated_voltage_V": 14,
+        "output_A_at_generator_rpm": {
+          "1800": 65,
+          "6000": 120
+        },
+        "pulley_ratio": "1:2.75"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-018"
+      ],
+      "evidence_status": "documented",
+      "locator": "Type / ratio / test values",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-056",
+      "subject": "alternator:B207_140A",
+      "category": "electrical",
+      "predicate": "bench_specification",
+      "value": {
+        "type": "Bosch E8-14V 75-140A",
+        "rated_voltage_V": 14,
+        "output_A_at_generator_rpm": {
+          "1800": 75,
+          "6000": 140
+        },
+        "pulley_ratio": "1:2.70"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-019"
+      ],
+      "evidence_status": "documented",
+      "locator": "Type / ratio / test values",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-057",
+      "subject": "vehicle:9-3_US_2005",
+      "category": "electrical",
+      "predicate": "system_rating",
+      "value": {
+        "voltage_V": 12,
+        "battery_Ah": 60,
+        "starter_kW": 1.8,
+        "manual_alternator_A": 120,
+        "automatic_alternator_A": 140
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "Convertible"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "p272",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-058",
+      "subject": "vehicle:9-3_US_2005",
+      "category": "identification",
+      "predicate": "trim_to_engine",
+      "value": {
+        "Linear": "B207L",
+        "Arc": "B207R",
+        "Aero": "B207R"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "Convertible"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-020"
+      ],
+      "evidence_status": "documented",
+      "locator": "PDF p9: 2005 position 8",
+      "notes": "Factory nomenclature; B207S emission variant mapping not established."
+    },
+    {
+      "id": "ng93-fact-059",
+      "subject": "vehicle:9-3_US_2006",
+      "category": "identification",
+      "predicate": "VIN_trim_codes",
+      "value": {
+        "D": "2.0T",
+        "H": "Aero"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-020"
+      ],
+      "evidence_status": "documented",
+      "locator": "PDF p10: position 5",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-060",
+      "subject": "vehicle:9-3_US_2006",
+      "category": "identification",
+      "predicate": "VIN_engine_codes",
+      "value": {
+        "Y": "B207R 2.0L turbo",
+        "U": "B284L 2.8L V6 turbo"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-020"
+      ],
+      "evidence_status": "documented",
+      "locator": "PDF p10: position 8",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-061",
+      "subject": "vehicle:9-3_US_2006",
+      "category": "identification",
+      "predicate": "VIN_transmission_codes",
+      "value": {
+        "1": "6-speed automatic",
+        "5": "5-speed manual",
+        "6": "6-speed manual",
+        "9": "5-speed automatic"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-020"
+      ],
+      "evidence_status": "documented",
+      "locator": "PDF p10: position 7",
+      "notes": "Codes do not establish which trim received each gearbox."
+    },
+    {
+      "id": "ng93-fact-062",
+      "subject": "vehicle:9-3_US_2003",
+      "category": "identification",
+      "predicate": "sedan_convertible_boundary",
+      "value": {
+        "Sport_Sedan_car_line": "F",
+        "older_9_3_car_line": "D",
+        "Sport_Sedan_automatic_speeds": 5,
+        "older_9_3_automatic_speeds": 4,
+        "Convertible_assembly": "Nystad Finland"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440",
+          "9-3-9400"
+        ],
+        "model_years": [
+          2003
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-020"
+      ],
+      "evidence_status": "documented",
+      "locator": "PDF p7: 2003 positions 4, 7, 11",
+      "notes": "2003 sedan and convertible are different families; do not interchange specifications."
+    },
+    {
+      "id": "ng93-fact-063",
+      "subject": "vehicle:9-3_US_MY11_5",
+      "category": "identification",
+      "predicate": "engine_boundary",
+      "value": {
+        "FWD": "A20NFT/BP",
+        "AWD": "A20NFT",
+        "earlier_9_3_4cyl_turbo": "B207R"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2011
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-020"
+      ],
+      "evidence_status": "documented",
+      "locator": "PDF p13: position 8",
+      "notes": "Sheet explicitly says MY11.5 for A20NFT; build/VIN confirmation essential."
+    },
+    {
+      "id": "ng93-fact-064",
+      "subject": "vehicle:9-3_US_2006",
+      "category": "lineup",
+      "predicate": "base_trim_engine_change",
+      "value": {
+        "new_base": "2.0T",
+        "replaced_trims": [
+          "Linear",
+          "Arc"
+        ],
+        "four_cylinder_hp": 210,
+        "previous_base_hp": 175
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "SportCombi",
+          "Convertible"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-021"
+      ],
+      "evidence_status": "documented",
+      "locator": "USA lineup / 2.0T changes",
+      "notes": "Factory release available as search excerpt only."
+    },
+    {
+      "id": "ng93-fact-065",
+      "subject": "vehicle:9-3_US_2006_Aero",
+      "category": "lineup",
+      "predicate": "engine_and_transmission",
+      "value": {
+        "engine": "2.8L turbo V6",
+        "power_hp": 250,
+        "torque_lb_ft": 258,
+        "manual_speeds": 6,
+        "automatic_speeds": 6
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B284L"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "SportCombi",
+          "Convertible"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-020",
+        "ng93-src-021"
+      ],
+      "evidence_status": "documented",
+      "locator": "Aero changes",
+      "notes": "USA release establishes Aero V6; USA VIN sheet supplies B284L code. Do not apply 2005 Aero B207R specifications."
+    },
+    {
+      "id": "ng93-fact-066",
+      "subject": "vehicle:9-3_US_2011_B207",
+      "category": "performance",
+      "predicate": "engine_available_in_Turbo4_and_Aero",
+      "value": {
+        "cylinders": 4,
+        "displacement_cm3": 1998,
+        "power_hp": 210,
+        "power_rpm": 5500,
+        "torque_Nm": 300,
+        "torque_rpm": 2500
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2011
+        ],
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "SportCombi",
+          "Convertible"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-022"
+      ],
+      "evidence_status": "documented",
+      "locator": "Printed pp80–85 specifications",
+      "notes": "Brochure B207-era range; excludes MY11.5 A20NFT extrapolation."
+    },
+    {
+      "id": "ng93-fact-067",
+      "subject": "vehicle:9-3_US_2011_FWD",
+      "category": "transmission",
+      "predicate": "listed_transmission_options",
+      "value": {
+        "Turbo4": "6MT standard; 5AT optional",
+        "Aero": "5AT standard; 6MT no-cost option"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2011
+        ],
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "SportCombi",
+          "Convertible"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-022"
+      ],
+      "evidence_status": "documented",
+      "locator": "Printed pp80–85 transmission rows",
+      "notes": ""
+    },
+    {
+      "id": "ng93-fact-068",
+      "subject": "vehicle:9-3_US_2011_FWD",
+      "category": "suspension",
+      "predicate": "layout",
+      "value": {
+        "front": "MacPherson strut, anti-roll bar, hydroformed subframe",
+        "rear": "independent four-link, toe-link, coil springs, anti-roll bar, Re-Axs"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2011
+        ],
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "SportCombi",
+          "Convertible"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-022"
+      ],
+      "evidence_status": "documented",
+      "locator": "Printed pp80–85 chassis rows",
+      "notes": "Do not infer dimensions/interchange across all years."
+    },
+    {
+      "id": "ng93-fact-069",
+      "subject": "vehicle:9-3_US_2011_FWD",
+      "category": "wheels",
+      "predicate": "standard_wheel_sizes",
+      "value": {
+        "Turbo4_sedan_combi": "16x6.5",
+        "Aero_sedan_combi": "17x7.5",
+        "Convertible": "17x7.5"
+      },
+      "unit": "inch",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2011
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-022"
+      ],
+      "evidence_status": "documented",
+      "locator": "Printed pp80–85 wheel rows",
+      "notes": "Early-model minimum-wheel clearance not inferred."
+    },
+    {
+      "id": "ng93-fact-070",
+      "subject": "vehicle:9-3_US_2004_Convertible",
+      "category": "platform",
+      "predicate": "new_generation_launch",
+      "value": {
+        "US_model_year": 2004,
+        "US_arrival": "fall 2003",
+        "architecture": "developed in parallel with new Sport Sedan"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004
+        ],
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "Convertible"
+        ]
+      },
+      "source_ids": [
+        "ng93-src-023"
+      ],
+      "evidence_status": "documented",
+      "locator": "Announcement paragraphs 6 and final",
+      "notes": ""
+    }
+  ],
+  "issues": [],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "ng93-gap-001",
+      "title": "Selected vehicle configuration",
+      "missing_inputs": [
+        "VIN",
+        "engine stamp",
+        "gearbox code",
+        "body style",
+        "brake level",
+        "chassis option"
+      ],
+      "reason": "No car selected; specifications alone cannot establish replacement compatibility.",
+      "source_ids": []
+    },
+    {
+      "id": "ng93-gap-002",
+      "title": "Cooling volume conflict",
+      "missing_inputs": [
+        "market manual",
+        "cooling configuration",
+        "drain/fill procedure"
+      ],
+      "reason": "US/CA manual 7.1 L and mirrored WIS 7.5 L remain separate.",
+      "source_ids": [
+        "ng93-src-003",
+        "ng93-src-014",
+        "ng93-src-015"
+      ]
+    },
+    {
+      "id": "ng93-gap-003",
+      "title": "Six-speed capacity/code conflict",
+      "missing_inputs": [
+        "FM67 versus F40 identification",
+        "gearbox serial",
+        "period service bulletin"
+      ],
+      "reason": "B207 FM67 ratios, US 3.0 L capacity and F40-associated 2.4/2.2 L table must not be combined.",
+      "source_ids": [
+        "ng93-src-003",
+        "ng93-src-006",
+        "ng93-src-007"
+      ]
+    },
+    {
+      "id": "ng93-gap-004",
+      "title": "Later revisions in year paths",
+      "missing_inputs": [
+        "WIS release/version",
+        "period US manual cross-check"
+      ],
+      "reason": "2005 alignment includes later 4WD; 2006 general-data/plug context contains later variants. Generic mechanical facts carry no inferred model-year range.",
+      "source_ids": [
+        "ng93-src-001",
+        "ng93-src-011"
+      ]
+    },
+    {
+      "id": "ng93-gap-005",
+      "title": "B207L versus B207S US emissions mapping",
+      "missing_inputs": [
+        "underhood emissions label",
+        "factory engine option/emissions specification"
+      ],
+      "reason": "USA VIN sheet calls Linear B207L; other catalogs distinguish B207S. No B207S-to-trim assertion made.",
+      "source_ids": [
+        "ng93-src-001",
+        "ng93-src-020"
+      ]
+    },
+    {
+      "id": "ng93-gap-006",
+      "title": "MY11.5 Griffin boundary",
+      "missing_inputs": [
+        "build date",
+        "VIN engine position",
+        "engine code"
+      ],
+      "reason": "Factory 2011 VIN sheet explicitly introduces A20NFT variants; B207 tables do not apply automatically.",
+      "source_ids": [
+        "ng93-src-020",
+        "ng93-src-022"
+      ]
+    },
+    {
+      "id": "ng93-gap-007",
+      "title": "Diagnostic procedure context",
+      "missing_inputs": [
+        "compression test temperature/speed",
+        "oil test temperature",
+        "cap pressure datum"
+      ],
+      "reason": "Thresholds require factory test procedure and condition; no selected-car diagnostic verdict.",
+      "source_ids": [
+        "ng93-src-001",
+        "ng93-src-002",
+        "ng93-src-015"
+      ]
+    },
+    {
+      "id": "ng93-gap-008",
+      "title": "Hardware and substitution validation",
+      "missing_inputs": [
+        "fan configuration",
+        "brake level",
+        "oil supplier approval",
+        "EPC supersessions"
+      ],
+      "reason": "No universal oil substitute, brake trim mapping, peak-boost rating, tuning limit or parts compatibility established.",
+      "source_ids": [
+        "ng93-src-007",
+        "ng93-src-010",
+        "ng93-src-012",
+        "ng93-src-015",
+        "ng93-src-016",
+        "ng93-src-024"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,908 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "ng93_body",
+  "sources": [
+    {
+      "id": "ng93body-src-001",
+      "title": "Saab 9-3 M2006 US/Canada owner manual, early printing",
+      "url": "https://manuals.plus/m/12689d9f620dd9388bef92a063d3cdfd590132971b0da03bd2bfad9d44bd3342",
+      "publisher": "Saab Automobile AB (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Saab US/CA MY2006, 2005-02-18 printing; Combi xx fields. Mirrors agree. Retrieval:, /6,,."
+    },
+    {
+      "id": "ng93body-src-002",
+      "title": "Wheels technical data",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/wheels-and-tyres/technical-data/wheels",
+      "publisher": "Saab Automobile AB (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Mirrored factory WIS; includes 18-inch wheels despite early USA manual’s 17-inch limit. Year URL is not a frozen-period edition."
+    },
+    {
+      "id": "ng93body-src-003",
+      "title": "Wheels technical description",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/wheels-and-tyres/technical-description/wheels",
+      "publisher": "Saab Automobile AB (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory WIS states thread/count and hub centering; no numeric PCD/hub-bore measurement here."
+    },
+    {
+      "id": "ng93body-src-004",
+      "title": "771-2460 edition 2: tightening wheel bolts",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/wheels-and-tyres/bulletins-si-mi/771-2460-utg-2-tightening-wheel-bolts",
+      "publisher": "Saab Automobile AB (mirrored)",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Saab bulletin April 2004, all markets, 9440 MY03 onward. Factory procedure differs for alloy and steel."
+    },
+    {
+      "id": "ng93body-src-005",
+      "title": "Front assembly description",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/front-suspension/technical-description/front-assembly",
+      "publisher": "Saab Automobile AB (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Mirrored factory WIS. Standard versus Sport chassis is not mapped to trim; no blanket Aero assumption."
+    },
+    {
+      "id": "ng93body-src-006",
+      "title": "Rear suspension description",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/technical-description/rear-suspension",
+      "publisher": "Saab Automobile AB (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Mirrored factory WIS; FWD multi-link architecture. Exact later-XWD applicability not asserted."
+    },
+    {
+      "id": "ng93body-src-007",
+      "title": "Power steering system brief description",
+      "url": "https://saabwisonline.com/9-3-9440/2006/6-steering-assembly/power-steering-system/technical-description/brief-description",
+      "publisher": "Saab Automobile AB (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory WIS explicitly distinguishes B207/Z19 from B284 sections; both hydraulic rack-pinion descriptions."
+    },
+    {
+      "id": "ng93body-src-008",
+      "title": "Power steering pump B207",
+      "url": "https://saabwisonline.com/9-3-9440/2006/6-steering-assembly/power-steering-system/technical-data/power-steering-pump-b207-engine",
+      "publisher": "Saab Automobile AB (mirrored)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory WIS B207-specific pump limits; does not assign EHPS specifications to B207."
+    }
+  ],
+  "facts": [
+    {
+      "id": "ng93body-fact-001",
+      "subject": "vehicle:9-3_US_2006",
+      "category": "dimensions",
+      "predicate": "overall_length_including_bumpers",
+      "value": {
+        "Sport_Sedan": 4635,
+        "Convertible": 4635,
+        "SportCombi": 4654
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "SportCombi",
+          "Convertible"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "p294: overall length",
+      "notes": ""
+    },
+    {
+      "id": "ng93body-fact-002",
+      "subject": "vehicle:9-3_US_2006",
+      "category": "dimensions",
+      "predicate": "width_including_mirrors",
+      "value": 2038,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "SportCombi",
+          "Convertible"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "p294: width",
+      "notes": ""
+    },
+    {
+      "id": "ng93body-fact-003",
+      "subject": "vehicle:9-3_US_2006",
+      "category": "dimensions",
+      "predicate": "wheelbase",
+      "value": 2675,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "SportCombi",
+          "Convertible"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "p294: wheelbase",
+      "notes": ""
+    },
+    {
+      "id": "ng93body-fact-004",
+      "subject": "vehicle:9-3_US_2006",
+      "category": "dimensions",
+      "predicate": "track",
+      "value": {
+        "front": 1524,
+        "rear": 1506
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "SportCombi",
+          "Convertible"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "p294: track",
+      "notes": "Metric/inch mismatch."
+    },
+    {
+      "id": "ng93body-fact-005",
+      "subject": "vehicle:9-3_US_2006",
+      "category": "dimensions",
+      "predicate": "maximum_height_row",
+      "value": 1539,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "SportCombi",
+          "Convertible"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "p294: maximum height",
+      "notes": "Body assignment unspecified."
+    },
+    {
+      "id": "ng93body-fact-006",
+      "subject": "vehicle:9-3_US_2006",
+      "category": "weights",
+      "predicate": "curb_ranges",
+      "value": {
+        "Sport_Sedan": [
+          1450,
+          1550
+        ],
+        "Convertible": [
+          1620,
+          1680
+        ]
+      },
+      "unit": "kg",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "Convertible"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "p295: curb weight",
+      "notes": "Provisional; trim split absent; Combi xx. Full fuel/washer/tools/spare."
+    },
+    {
+      "id": "ng93body-fact-007",
+      "subject": "vehicle:9-3_US_2006",
+      "category": "weights",
+      "predicate": "gross_vehicle_ranges",
+      "value": {
+        "Sport_Sedan": [
+          1870,
+          1970
+        ],
+        "Convertible": [
+          2025,
+          2050
+        ]
+      },
+      "unit": "kg",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "Convertible"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "p295: GVW",
+      "notes": "Provisional; label governs; Combi xx."
+    },
+    {
+      "id": "ng93body-fact-008",
+      "subject": "vehicle:9-3_US_2006",
+      "category": "weights",
+      "predicate": "maximum_axle_loads",
+      "value": {
+        "Sport_Sedan": {
+          "front": 1125,
+          "rear": 1010
+        },
+        "Convertible": {
+          "front": 1150,
+          "rear": 1050
+        }
+      },
+      "unit": "kg",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "Convertible"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "p295: maximum axle loads",
+      "notes": ""
+    },
+    {
+      "id": "ng93body-fact-009",
+      "subject": "vehicle:9-3_US_2006",
+      "category": "weights",
+      "predicate": "listed_load_limits",
+      "value": {
+        "occupants_and_cargo": {
+          "Sport_Sedan_SportCombi": 420,
+          "Convertible": 352
+        },
+        "roof_Sedan_Combi": 100,
+        "trunk_all_bodies": 80
+      },
+      "unit": "kg",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "SportCombi",
+          "Convertible"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "p295: loads",
+      "notes": "Confirm placard."
+    },
+    {
+      "id": "ng93body-fact-010",
+      "subject": "vehicle:9-3_US_2006",
+      "category": "capacity",
+      "predicate": "seats_including_driver",
+      "value": {
+        "Sport_Sedan": 5,
+        "SportCombi": 5,
+        "Convertible": 4
+      },
+      "unit": "seat",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "SportCombi",
+          "Convertible"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "p294: seats",
+      "notes": ""
+    },
+    {
+      "id": "ng93body-fact-011",
+      "subject": "vehicle:9-3_US_2006",
+      "category": "steering",
+      "predicate": "turning_circle_at_vehicle_extremities",
+      "value": {
+        "ordinary_row": 11.4,
+        "V6_row": 12.2
+      },
+      "unit": "m",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "body_styles": [
+          "Sport Sedan",
+          "SportCombi",
+          "Convertible"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "p294: turning circle",
+      "notes": "At extremities."
+    },
+    {
+      "id": "ng93body-fact-012",
+      "subject": "wheel:9440",
+      "category": "dimensions",
+      "predicate": "factory_offset",
+      "value": 41,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Offset row",
+      "notes": ""
+    },
+    {
+      "id": "ng93body-fact-013",
+      "subject": "wheel:9440",
+      "category": "fasteners",
+      "predicate": "wheel_bolt_specification",
+      "value": {
+        "diameter_mm": 12,
+        "pitch_mm": 1.5,
+        "count_per_wheel": 5
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "Wheel bolts",
+      "notes": "Same bolts specified for alloy/steel."
+    },
+    {
+      "id": "ng93body-fact-014",
+      "subject": "wheel:9440",
+      "category": "architecture",
+      "predicate": "centering",
+      "value": "direct hub centering with tapered bolt guides",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "First paragraph",
+      "notes": ""
+    },
+    {
+      "id": "ng93body-fact-015",
+      "subject": "wheel:alloy_9440",
+      "category": "fasteners",
+      "predicate": "factory_tightening_torque",
+      "value": 110,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "markets": [
+          "all"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "Procedure step 5",
+      "notes": "Factory method oils threads/conical seats; preserve procedure context."
+    },
+    {
+      "id": "ng93body-fact-016",
+      "subject": "wheel:steel_9440",
+      "category": "fasteners",
+      "predicate": "factory_tightening_sequence",
+      "value": {
+        "initial_Nm": 50,
+        "angles_deg": [
+          90,
+          90
+        ],
+        "maximum_Nm": 110
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "markets": [
+          "all"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "Procedure step 5 and note",
+      "notes": "Stop angle tightening if torque wrench reaches maximum."
+    },
+    {
+      "id": "ng93body-fact-017",
+      "subject": "suspension:front_FWD",
+      "category": "architecture",
+      "predicate": "layout",
+      "value": {
+        "type": "MacPherson strut",
+        "knuckle": "aluminium",
+        "lower_arm": "aluminium",
+        "arm_attachment_count": 3
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Wheel suspension paragraphs 1–2",
+      "notes": ""
+    },
+    {
+      "id": "ng93body-fact-018",
+      "subject": "suspension:front_FWD",
+      "category": "alignment",
+      "predicate": "factory_adjustability",
+      "value": {
+        "toe": "track rod ends",
+        "camber": "fixed",
+        "caster": "fixed"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Toe paragraph; camber/caster row",
+      "notes": ""
+    },
+    {
+      "id": "ng93body-fact-019",
+      "subject": "suspension:rear_FWD",
+      "category": "architecture",
+      "predicate": "link_layout",
+      "value": {
+        "independent": true,
+        "links_per_wheel": 4,
+        "links": [
+          "upper transverse",
+          "lower transverse",
+          "toe-in",
+          "longitudinal"
+        ],
+        "mounting": "subframe"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Function first paragraph",
+      "notes": ""
+    },
+    {
+      "id": "ng93body-fact-020",
+      "subject": "suspension:rear_FWD",
+      "category": "alignment",
+      "predicate": "factory_adjustability",
+      "value": {
+        "toe": "eccentric bolts",
+        "camber": "eccentric bolts"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Function: toe/camber",
+      "notes": ""
+    },
+    {
+      "id": "ng93body-fact-021",
+      "subject": "chassis:sport_FWD",
+      "category": "suspension",
+      "predicate": "difference_from_standard",
+      "value": {
+        "lowering_mm": 10,
+        "antiroll_bar_diameter_increase_mm": 1,
+        "springs_and_dampers": "harder"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-005",
+        "ng93body-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Standard/Sport final paragraphs",
+      "notes": "No trim assignment; actual chassis option must be identified."
+    },
+    {
+      "id": "ng93body-fact-022",
+      "subject": "steering:B207",
+      "category": "architecture",
+      "predicate": "assist_system",
+      "value": "hydraulic rack-and-pinion, control valve and servo cylinder in shared housing",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "B207/Z19 section",
+      "notes": ""
+    },
+    {
+      "id": "ng93body-fact-023",
+      "subject": "steering:B207",
+      "category": "operating_limits",
+      "predicate": "pump_maximums",
+      "value": {
+        "pressure_bar": 120,
+        "flow_L_per_min": 7.2
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-008"
+      ],
+      "evidence_status": "documented",
+      "locator": "Maximum pressure / flow",
+      "notes": ""
+    },
+    {
+      "id": "ng93body-fact-024",
+      "subject": "wheel:alloy_9440",
+      "category": "diagnostics",
+      "predicate": "maximum_runout",
+      "value": {
+        "radial": 0.5,
+        "runout": 0.5
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Light alloy wheels",
+      "notes": ""
+    },
+    {
+      "id": "ng93body-fact-025",
+      "subject": "wheel:steel_9440",
+      "category": "diagnostics",
+      "predicate": "maximum_runout",
+      "value": {
+        "radial": 0.6,
+        "runout": 0.8
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "ng93body-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Pressed steel wheels",
+      "notes": ""
+    }
+  ],
+  "issues": [],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "ng93body-gap-001",
+      "title": "Exact selected-car weights",
+      "missing_inputs": [
+        "VIN",
+        "engine/gearbox",
+        "options",
+        "certification label",
+        "actual measured weight"
+      ],
+      "reason": "No trim-specific, test or measured weight established.",
+      "source_ids": [
+        "ng93body-src-001"
+      ]
+    },
+    {
+      "id": "ng93body-gap-002",
+      "title": "SportCombi early-manual missing weights",
+      "missing_inputs": [
+        "final US MY2006 specification",
+        "Combi certification label"
+      ],
+      "reason": "Combi mass fields are xx.",
+      "source_ids": [
+        "ng93body-src-001"
+      ]
+    },
+    {
+      "id": "ng93body-gap-003",
+      "title": "PCD and numeric hub bore",
+      "missing_inputs": [
+        "factory drawing or supplier homologation document"
+      ],
+      "reason": "Factory pages verify five bolts, thread and direct hub centering but do not state 110 mm PCD or 65.1 mm bore. Secondary wheel websites not promoted to factory fact.",
+      "source_ids": [
+        "ng93body-src-003"
+      ]
+    },
+    {
+      "id": "ng93body-gap-004",
+      "title": "Wheel diameter approval conflict",
+      "missing_inputs": [
+        "period market wheel approval",
+        "brake/chassis option",
+        "VIN"
+      ],
+      "reason": "Early US manual’s 17-inch ceiling conflicts with WIS 18-inch matrix.",
+      "source_ids": [
+        "ng93body-src-001",
+        "ng93body-src-002"
+      ]
+    },
+    {
+      "id": "ng93body-gap-005",
+      "title": "Height/track presentation limits",
+      "missing_inputs": [
+        "body-specific height drawing",
+        "period metric-track confirmation"
+      ],
+      "reason": "Height body assignment absent; front track units conflict.",
+      "source_ids": [
+        "ng93body-src-001"
+      ]
+    },
+    {
+      "id": "ng93body-gap-006",
+      "title": "WIS revision and chassis applicability",
+      "missing_inputs": [
+        "period WIS version",
+        "FWD chassis option",
+        "body-specific chassis data"
+      ],
+      "reason": "Directory year does not prove unchanged architecture/specification for all years, trims or XWD; Sport lowering does not establish Aero fitment.",
+      "source_ids": [
+        "ng93body-src-002",
+        "ng93body-src-005",
+        "ng93body-src-006"
+      ]
+    }
+  ]
+}

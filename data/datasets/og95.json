@@ -1,0 +1,2923 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "og95",
+  "sources": [
+    {
+      "id": "og95-src-001",
+      "title": "MY2005 WIS: petrol engine general data",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/technical-data/general-data",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Generic WIS engine table; markets are not explicitly assigned. EEC hp is retained as labeled, not SAE hp."
+    },
+    {
+      "id": "og95-src-002",
+      "title": "MY2004 WIS: petrol engine general data",
+      "url": "https://saabwisonline.com/9-5-9600/2004/2-engine/basic-engine-4-cylinder-petrol/technical-data/general-data",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95-src-003",
+      "title": "MY2009 WIS: petrol engine general data",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/technical-data/general-data",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Contains 250 hp EEC B235R entry, unlike US owner manual SAE entry."
+    },
+    {
+      "id": "og95-src-004",
+      "title": "MY2005 WIS: lubricating system",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95-src-005",
+      "title": "MY2009 WIS: lubricating system",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95-src-006",
+      "title": "MY2005 WIS: engine oil and oil filter service",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/service/engine-oil-and-oil-filter",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Capacity and drain-plug torque explicitly name B205E and B235E only."
+    },
+    {
+      "id": "og95-src-007",
+      "title": "MY2005 WIS Saab Service EU: recommended oil quality",
+      "url": "https://saabwisonline.com/9-5-9600/2005/1-service/saab-service-eu/service/recommended-oil-quality",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "European service branch; does not establish a North American service interval."
+    },
+    {
+      "id": "og95-src-008",
+      "title": "MY2005 WIS: coolant",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/cooling-system/technical-data/coolant",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95-src-009",
+      "title": "MY2005 WIS: cooling temperature and pressure limits",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/cooling-system/technical-data/temperature-pressure-limits",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95-src-010",
+      "title": "MY2005 WIS: manual gearbox type designation",
+      "url": "https://saabwisonline.com/9-5-9600/2005/4-transmission/manual-gearbox/technical-data/type-designation",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Example text switches FM55/FM57 labels; identity requires actual gearbox marking."
+    },
+    {
+      "id": "og95-src-011",
+      "title": "MY2005 WIS: manual gearbox capacity and weight",
+      "url": "https://saabwisonline.com/9-5-9600/2005/4-transmission/manual-gearbox/technical-data/gearbox",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95-src-012",
+      "title": "MY2005 WIS: manual gearbox overall gear ratios",
+      "url": "https://saabwisonline.com/9-5-9600/2005/4-transmission/manual-gearbox/technical-data/gear-ratio",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Ratios are explicitly overall ratios; not individual internal gear ratios."
+    },
+    {
+      "id": "og95-src-013",
+      "title": "MY2005 WIS: automatic transmission type designation",
+      "url": "https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/technical-data/type-designation",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "States FA57 designation from MY2002; no assumption of later-year ratios."
+    },
+    {
+      "id": "og95-src-014",
+      "title": "MY2005 WIS: automatic transmission overall ratios",
+      "url": "https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/technical-data/general",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95-src-015",
+      "title": "MY2005 WIS: automatic transmission fluid and capacity",
+      "url": "https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/technical-data/weight-fluid-capacity-and-grade-of-fluid",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Historical Saab fluid prescription; does not independently certify a modern substitute."
+    },
+    {
+      "id": "og95-src-016",
+      "title": "MY2005 WIS: manual gearbox lubricants",
+      "url": "https://saabwisonline.com/9-5-9600/2005/4-transmission/manual-gearbox/technical-data/summary-of-lubricants-and-sealants",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95-src-017",
+      "title": "MY2005 WIS: fuel pump",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/fuel-system-petrol/technical-data/fuel-pump",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95-src-018",
+      "title": "MY2005 WIS: fuel pressure regulator test data",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/fuel-system-petrol/technical-data/fuel-pressure-regulator-test-readings",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Static table does not state vacuum/reference test condition."
+    },
+    {
+      "id": "og95-src-019",
+      "title": "MY2005 WIS: injector flow capacity",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/fuel-system-petrol/technical-data/injectors-flow-capacity",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Do not treat test delivery as unrestricted injector sizing rating; test conditions must be checked."
+    },
+    {
+      "id": "og95-src-020",
+      "title": "MY2005 WIS: turbocharger basic data",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/turbocharger-system/technical-data/basic-data",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Table is basic pressure/wastegate setup, not maximum commanded boost; B235L omitted."
+    },
+    {
+      "id": "og95-src-021",
+      "title": "MY2005 WIS: turbocharger axial shaft play",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/turbocharger-system/technical-data/turbo-shaft-play",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Table lacks turbo-model column; resolve turbo identity and measurement method before condemning unit."
+    },
+    {
+      "id": "og95-src-022",
+      "title": "MY2005 WIS: brake configuration matrix",
+      "url": "https://saabwisonline.com/9-5-9600/2005/5-brakes/brake-discs-and-pads/technical-data/brake-configurations",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "This page explicitly includes MY2001–2009 rows and US-specific MY2005 entries. Some detail-page dimensions disagree."
+    },
+    {
+      "id": "og95-src-023",
+      "title": "MY2005 WIS: rear brake-disc limits",
+      "url": "https://saabwisonline.com/9-5-9600/2005/5-brakes/brake-discs-and-pads/technical-data/brake-disc-rear-wheel",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Standard diameter 278 mm differs from 286 mm configuration matrix. Unit transcription also contains errors; mm limits retained provisionally."
+    },
+    {
+      "id": "og95-src-024",
+      "title": "MY2006 WIS: front brake-disc limits",
+      "url": "https://saabwisonline.com/9-5-9600/2006/5-brakes/brake-discs-and-pads/technical-data/brake-disc-front-wheel",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Standard 285 mm diameter and heavy 28 mm new thickness conflict with configuration matrix; no automatic fitment decision."
+    },
+    {
+      "id": "og95-src-025",
+      "title": "MY2007 factory service manual: wheel alignment",
+      "url": "https://workshop-manuals.com/saab/9-5_(9600)/l4-2.3l_turbo/steering_and_suspension/alignment/system_information/specifications/",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Mirror text includes malformed minutes and inconsistent 15-inch linear toe; only degree targets retained."
+    },
+    {
+      "id": "og95-src-026",
+      "title": "MY2004 WIS: redesigned four-cylinder crankcase ventilation",
+      "url": "https://saabwisonline.com/9-5-9600/2004/2-engine/exhaust-emission-control-system/technical-description/crankcase-ventilation-4-cyl",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95-src-027",
+      "title": "MY2009 WIS Saab Service US/CA: lubricants",
+      "url": "https://saabwisonline.com/9-5-9600/2009/1-service/saab-service-us-ca/adjustment-replacement/lubricant",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95-src-028",
+      "title": "MY2005 US/CA owner manual: specifications pp.254–257",
+      "url": "https://www.carmanualsonline.info/saab-9-5-2005-owners-manual/26",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "North American AON ratings retained literally. Power is labeled EEC in this edition; B235E plug differs from WIS."
+    },
+    {
+      "id": "og95-src-029",
+      "title": "MY2005 US/CA owner manual: specifications pp.259–263",
+      "url": "https://www.carmanualsonline.info/saab-9-5-2005-owners-manual/27",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Same original manual as source 028; aggregate extraction kept brief. Brake diameter differs from WIS."
+    },
+    {
+      "id": "og95-src-030",
+      "title": "MY2009 US/CA owner manual: specifications and severe service",
+      "url": "https://www.carmanualsonline.info/saab-9-5-2009-owners-manual/26",
+      "publisher": "Saab Automobile AB (factory material reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "US/CA context explicit. Rating retained as printed SAE 260 hp (191 kW); not reconciled to generic WIS EEC."
+    }
+  ],
+  "facts": [
+    {
+      "id": "og95-fact-001",
+      "subject": "engine:B235 petrol",
+      "category": "engine_geometry",
+      "predicate": "cylinder_bore",
+      "value": 90,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235L",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data / B235E,L,R columns",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-002",
+      "subject": "engine:B235 petrol",
+      "category": "engine_geometry",
+      "predicate": "stroke",
+      "value": 90,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235L",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data / B235E,L,R columns",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-003",
+      "subject": "engine:B235 petrol",
+      "category": "engine_geometry",
+      "predicate": "swept_volume",
+      "value": 2290,
+      "unit": "cm3",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235L",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data / B235E,L,R columns",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-004",
+      "subject": "engine:B235 petrol",
+      "category": "engine_geometry",
+      "predicate": "compression_ratio",
+      "value": 9.3,
+      "unit": "ratio",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235L",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data / B235E,L,R columns",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-005",
+      "subject": "engine:B235 petrol",
+      "category": "engine_geometry",
+      "predicate": "firing_order",
+      "value": [
+        1,
+        3,
+        4,
+        2
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235L",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data / B235E,L,R columns",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-006",
+      "subject": "engine:B205E petrol",
+      "category": "engine_geometry",
+      "predicate": "cylinder_bore",
+      "value": 90,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B205E"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data / B205E column",
+      "notes": "Base petrol variant only; no BioPower substitution."
+    },
+    {
+      "id": "og95-fact-007",
+      "subject": "engine:B205E petrol",
+      "category": "engine_geometry",
+      "predicate": "stroke",
+      "value": 78,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B205E"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data / B205E column",
+      "notes": "Base petrol variant only; no BioPower substitution."
+    },
+    {
+      "id": "og95-fact-008",
+      "subject": "engine:B205E petrol",
+      "category": "engine_geometry",
+      "predicate": "swept_volume",
+      "value": 1985,
+      "unit": "cm3",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B205E"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data / B205E column",
+      "notes": "Base petrol variant only; no BioPower substitution."
+    },
+    {
+      "id": "og95-fact-009",
+      "subject": "engine:B205E petrol",
+      "category": "engine_geometry",
+      "predicate": "compression_ratio",
+      "value": 8.8,
+      "unit": "ratio",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B205E"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data / B205E column",
+      "notes": "Base petrol variant only; no BioPower substitution."
+    },
+    {
+      "id": "og95-fact-010",
+      "subject": "engine:B235 petrol",
+      "category": "engine_management",
+      "predicate": "management_system",
+      "value": "Trionic 7",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235L",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Engine management system",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-011",
+      "subject": "engine:B235R",
+      "category": "engine_output",
+      "predicate": "rated_power_EEC",
+      "value": {
+        "hp_as_printed": 250,
+        "kW": 184,
+        "rpm": 5300
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002",
+        "og95-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "Maximum output / B235R",
+      "notes": "Generic WIS entry; does not establish North American SAE rating."
+    },
+    {
+      "id": "og95-fact-012",
+      "subject": "engine:B235R",
+      "category": "engine_output",
+      "predicate": "rated_torque_EEC",
+      "value": {
+        "normal": 350,
+        "manual_overboost": 370
+      },
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002",
+        "og95-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "Maximum torque / B235R",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-013",
+      "subject": "engine:B235L",
+      "category": "engine_output",
+      "predicate": "rated_power_EEC",
+      "value": {
+        "hp_as_printed": 220,
+        "kW": 162,
+        "rpm": 5500
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235L"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Maximum output / B235L",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-014",
+      "subject": "engine:B235E",
+      "category": "engine_output",
+      "predicate": "rated_power_EEC",
+      "value": {
+        "hp_as_printed": 185,
+        "kW": 136,
+        "rpm": 5500
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2009
+        ],
+        "engine_codes": [
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002",
+        "og95-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "Maximum output / B235E",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-015",
+      "subject": "engine:B235 petrol",
+      "category": "ignition",
+      "predicate": "spark_plug_WIS",
+      "value": "NGK PFR6H-10",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235L",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Spark plugs / B235E,L,R",
+      "notes": "B235E US fitment provisional: owner manual gives different plug; see gap 002.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95-fact-016",
+      "subject": "engine:B235 petrol",
+      "category": "ignition",
+      "predicate": "spark_plug_gap_WIS",
+      "value": {
+        "nominal": 0.95,
+        "tolerance": 0.05
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235L",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Electrode gap / B235E,L,R",
+      "notes": "",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95-fact-017",
+      "subject": "engine:B235 petrol",
+      "category": "fuel",
+      "predicate": "recommended_octane_RON",
+      "value": {
+        "B235E": 95,
+        "B235L": 98,
+        "B235R": 98
+      },
+      "unit": "RON",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235L",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Recommended fuel / RON",
+      "notes": "RON is not North American AON/AKI."
+    },
+    {
+      "id": "og95-fact-018",
+      "subject": "engine:four-cylinder petrol",
+      "category": "lubrication",
+      "predicate": "oil_volume_with_cooler_including_filter",
+      "value": 5.4,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95-src-004",
+        "og95-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Oil volume / with oil cooler",
+      "notes": "Not stated as dry fill; must not be substituted for service refill."
+    },
+    {
+      "id": "og95-fact-019",
+      "subject": "engine:four-cylinder petrol",
+      "category": "lubrication",
+      "predicate": "oil_service_refill_including_filter",
+      "value": 4.0,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95-src-004",
+        "og95-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Oil volume / when servicing",
+      "notes": "Final level must be checked."
+    },
+    {
+      "id": "og95-fact-020",
+      "subject": "engine:four-cylinder petrol",
+      "category": "lubrication",
+      "predicate": "dipstick_max_min_volume",
+      "value": 1.0,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95-src-004",
+        "og95-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Difference in volume max-min",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-021",
+      "subject": "engine:four-cylinder petrol",
+      "category": "lubrication",
+      "predicate": "oil_relief_valve_opening_pressure",
+      "value": 3.8,
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95-src-004",
+        "og95-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Pressure-reducing valve",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-022",
+      "subject": "engine:four-cylinder petrol",
+      "category": "lubrication",
+      "predicate": "oil_warning_lamp_threshold",
+      "value": [
+        0.3,
+        0.55
+      ],
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95-src-004",
+        "og95-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Warning lamp threshold",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-023",
+      "subject": "engine:four-cylinder petrol",
+      "category": "lubrication",
+      "predicate": "minimum_oil_pressure_test",
+      "value": {
+        "minimum_bar": 2.5,
+        "engine_rpm": 2000,
+        "oil_temperature_C": 105,
+        "temperature_tolerance_C": 2,
+        "test_oil_viscosity": "10W-30"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95-src-004",
+        "og95-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Minimum pressure / warm engine",
+      "notes": "10W-30 is the test condition, not a universal service-oil recommendation."
+    },
+    {
+      "id": "og95-fact-024",
+      "subject": "engine:four-cylinder petrol",
+      "category": "lubrication",
+      "predicate": "oil_pump_rotor_end_float",
+      "value": [
+        0.03,
+        0.08
+      ],
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95-src-004",
+        "og95-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Rotor/housing end float",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-025",
+      "subject": "engine:four-cylinder petrol",
+      "category": "lubrication",
+      "predicate": "oil_cooler_thermostat_opening",
+      "value": {
+        "nominal": 105,
+        "tolerance": 2
+      },
+      "unit": "degC",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95-src-004",
+        "og95-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Oil cooler thermostat",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-026",
+      "subject": "engine:B205E/B235E",
+      "category": "service",
+      "predicate": "oil_drain_plug_torque",
+      "value": 25,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "og95-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Drain plug tightening torque",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-027",
+      "subject": "engine:four-cylinder petrol",
+      "category": "service",
+      "predicate": "oil_level_check_delay",
+      "value": [
+        2,
+        5
+      ],
+      "unit": "minutes",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Engine oil level check",
+      "notes": "Engine warm; measured after shutdown."
+    },
+    {
+      "id": "og95-fact-028",
+      "subject": "engine:B205/B235 petrol",
+      "category": "lubrication",
+      "predicate": "oil_quality_and_viscosities_EU",
+      "value": {
+        "approval": "GM-LL-A-025",
+        "SAE": [
+          "0W-30",
+          "0W-40",
+          "5W-30",
+          "5W-40"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E",
+          "B235L",
+          "B235R"
+        ],
+        "markets": [
+          "EU"
+        ]
+      },
+      "source_ids": [
+        "og95-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "Recommendation / petrol and E85 row",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-029",
+      "subject": "engine:four-cylinder",
+      "category": "cooling",
+      "predicate": "coolant_capacity",
+      "value": 7.4,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-008"
+      ],
+      "evidence_status": "documented",
+      "locator": "Volume / 4-cylinder",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-030",
+      "subject": "engine:four-cylinder",
+      "category": "cooling",
+      "predicate": "coolant_type",
+      "value": {
+        "type": "Saab Original Coolant",
+        "water_fraction_percent": 50
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-008"
+      ],
+      "evidence_status": "documented",
+      "locator": "Coolant type",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-031",
+      "subject": "engine:four-cylinder",
+      "category": "cooling",
+      "predicate": "thermostat_opening",
+      "value": {
+        "nominal": 89,
+        "tolerance": 2
+      },
+      "unit": "degC",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-009"
+      ],
+      "evidence_status": "documented",
+      "locator": "Thermostat opening",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-032",
+      "subject": "engine:four-cylinder",
+      "category": "cooling",
+      "predicate": "coolant_boiling_point_at_pressure",
+      "value": {
+        "temperature_C": 131,
+        "pressure_bar_as_printed": 1.4
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-009"
+      ],
+      "evidence_status": "documented",
+      "locator": "System boiling point",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-033",
+      "subject": "engine:four-cylinder",
+      "category": "cooling",
+      "predicate": "temperature_gauge_red_zone",
+      "value": {
+        "nominal": 129,
+        "tolerance": 2.5
+      },
+      "unit": "degC",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-009"
+      ],
+      "evidence_status": "documented",
+      "locator": "Temperature gauge red zone",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-034",
+      "subject": "engine:four-cylinder",
+      "category": "cooling",
+      "predicate": "expansion_cap_valve_opening",
+      "value": [
+        140,
+        150
+      ],
+      "unit": "kPa",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-009"
+      ],
+      "evidence_status": "documented",
+      "locator": "Expansion tank pressure valve",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-035",
+      "subject": "engine:four-cylinder",
+      "category": "cooling",
+      "predicate": "fan_on_temperatures",
+      "value": {
+        "low_speed": 100,
+        "high_speed": 113,
+        "tolerance": 2
+      },
+      "unit": "degC",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-009"
+      ],
+      "evidence_status": "documented",
+      "locator": "4-cylinder fan turn-on",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-036",
+      "subject": "engine:four-cylinder",
+      "category": "cooling",
+      "predicate": "fan_off_temperatures",
+      "value": {
+        "low_speed": 96,
+        "high_speed": 109,
+        "tolerance": 1
+      },
+      "unit": "degC",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-009"
+      ],
+      "evidence_status": "documented",
+      "locator": "4-cylinder fan turn-off",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-037",
+      "subject": "transmission:manual",
+      "category": "transmission_identity",
+      "predicate": "forward_gear_count",
+      "value": 5,
+      "unit": "count",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-010"
+      ],
+      "evidence_status": "documented",
+      "locator": "Type designation / first group",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-038",
+      "subject": "transmission:manual",
+      "category": "transmission_fluid",
+      "predicate": "dry_gearbox_capacity",
+      "value": 2.0,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-011"
+      ],
+      "evidence_status": "documented",
+      "locator": "Oil capacity",
+      "notes": "Dry gearbox, not a guaranteed drain/refill volume."
+    },
+    {
+      "id": "og95-fact-039",
+      "subject": "transmission:manual",
+      "category": "transmission_geometry",
+      "predicate": "weight_including_oil",
+      "value": 45,
+      "unit": "kg",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-011"
+      ],
+      "evidence_status": "documented",
+      "locator": "Weight including oil",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-040",
+      "subject": "transmission:FM55 B05",
+      "category": "transmission_ratios",
+      "predicate": "overall_ratios",
+      "value": {
+        "first": 13.7,
+        "second": 7.12,
+        "third": 4.77,
+        "fourth": 3.62,
+        "fifth": 2.67,
+        "reverse": 12.82
+      },
+      "unit": "ratio",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FM55 B05"
+        ]
+      },
+      "source_ids": [
+        "og95-src-012"
+      ],
+      "evidence_status": "documented",
+      "locator": "Gear ratio / FM55 B05",
+      "notes": "Overall ratios include final-drive reduction; engine/market fitment not established."
+    },
+    {
+      "id": "og95-fact-041",
+      "subject": "transmission:FM55 B05",
+      "category": "transmission_ratios",
+      "predicate": "final_drive_ratio",
+      "value": 4.05,
+      "unit": "ratio",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FM55 B05"
+        ]
+      },
+      "source_ids": [
+        "og95-src-012"
+      ],
+      "evidence_status": "documented",
+      "locator": "Final drive gear ratio",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-042",
+      "subject": "transmission:FM55 B06",
+      "category": "transmission_ratios",
+      "predicate": "overall_ratios",
+      "value": {
+        "first": 14.5,
+        "second": 7.59,
+        "third": 4.77,
+        "fourth": 3.62,
+        "fifth": 2.67,
+        "reverse": 13.88
+      },
+      "unit": "ratio",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FM55 B06"
+        ]
+      },
+      "source_ids": [
+        "og95-src-012"
+      ],
+      "evidence_status": "documented",
+      "locator": "Gear ratio / FM55 B06",
+      "notes": "Overall ratios include final-drive reduction; engine/market fitment not established."
+    },
+    {
+      "id": "og95-fact-043",
+      "subject": "transmission:FM55 B06",
+      "category": "transmission_ratios",
+      "predicate": "final_drive_ratio",
+      "value": 4.05,
+      "unit": "ratio",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FM55 B06"
+        ]
+      },
+      "source_ids": [
+        "og95-src-012"
+      ],
+      "evidence_status": "documented",
+      "locator": "Final drive gear ratio",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-044",
+      "subject": "transmission:FM57",
+      "category": "transmission_ratios",
+      "predicate": "overall_ratios",
+      "value": {
+        "first": 12.92,
+        "second": 6.72,
+        "third": 4.5,
+        "fourth": 3.41,
+        "fifth": 2.52,
+        "reverse": 12.09
+      },
+      "unit": "ratio",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FM57"
+        ]
+      },
+      "source_ids": [
+        "og95-src-012"
+      ],
+      "evidence_status": "documented",
+      "locator": "Gear ratio / FM57",
+      "notes": "Overall ratios include final-drive reduction; engine/market fitment not established."
+    },
+    {
+      "id": "og95-fact-045",
+      "subject": "transmission:FM57",
+      "category": "transmission_ratios",
+      "predicate": "final_drive_ratio",
+      "value": 3.82,
+      "unit": "ratio",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FM57"
+        ]
+      },
+      "source_ids": [
+        "og95-src-012"
+      ],
+      "evidence_status": "documented",
+      "locator": "Final drive gear ratio",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-046",
+      "subject": "transmission:manual",
+      "category": "transmission_fluid",
+      "predicate": "factory_fluid",
+      "value": {
+        "fluid": "Saab MTF 0063",
+        "part_number": "12799117"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-016"
+      ],
+      "evidence_status": "documented",
+      "locator": "Manual gearbox lubricant",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-047",
+      "subject": "transmission:automatic",
+      "category": "transmission_identity",
+      "predicate": "factory_designation_from_MY2002",
+      "value": "FA57",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "og95-src-013"
+      ],
+      "evidence_status": "documented",
+      "locator": "General",
+      "notes": "Source explicitly states from MY02; later production not automatically scoped."
+    },
+    {
+      "id": "og95-fact-048",
+      "subject": "transmission:FA57",
+      "category": "transmission_ratios",
+      "predicate": "overall_ratios",
+      "value": {
+        "first": 11.36,
+        "second": 7.4,
+        "third": 4.83,
+        "fourth": 3.27,
+        "fifth": 2.48,
+        "reverse": 12.48
+      },
+      "unit": "ratio",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E",
+          "B235R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "og95-src-014"
+      ],
+      "evidence_status": "documented",
+      "locator": "General / overall ratio",
+      "notes": "Overall ratios, not internal gear ratios."
+    },
+    {
+      "id": "og95-fact-049",
+      "subject": "transmission:FA57",
+      "category": "transmission_ratios",
+      "predicate": "differential_ratio",
+      "value": 2.44,
+      "unit": "ratio",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "og95-src-014"
+      ],
+      "evidence_status": "documented",
+      "locator": "Differential",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-050",
+      "subject": "transmission:FA57",
+      "category": "transmission_fluid",
+      "predicate": "capacity_including_converter_and_cooler",
+      "value": 7.0,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "og95-src-015"
+      ],
+      "evidence_status": "documented",
+      "locator": "Fluid capacity",
+      "notes": "Total including converter/cooler; not a routine drain volume."
+    },
+    {
+      "id": "og95-fact-051",
+      "subject": "transmission:FA57",
+      "category": "transmission_fluid",
+      "predicate": "factory_fluid",
+      "value": {
+        "fluid": "Saab 3309",
+        "part_number": "8792731",
+        "base": "mineral"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "og95-src-015"
+      ],
+      "evidence_status": "documented",
+      "locator": "Grade of fluid",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-052",
+      "subject": "transmission:FA57",
+      "category": "transmission_geometry",
+      "predicate": "weight_including_fluid",
+      "value": 90,
+      "unit": "kg",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "og95-src-015"
+      ],
+      "evidence_status": "documented",
+      "locator": "Transmission including fluid",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-053",
+      "subject": "fuel_system:petrol",
+      "category": "fuel_delivery",
+      "predicate": "pump_minimum_delivery",
+      "value": {
+        "litres": 0.7,
+        "time_seconds": 30,
+        "backpressure_bar": 3.0
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-017"
+      ],
+      "evidence_status": "documented",
+      "locator": "Capacity at 3.0 bar backpressure",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-054",
+      "subject": "fuel_system:petrol",
+      "category": "fuel_delivery",
+      "predicate": "fuel_level_sender_resistance",
+      "value": {
+        "full_nominal": 425,
+        "full_tolerance": 6.5,
+        "empty_nominal": 50,
+        "empty_tolerance": 1.5
+      },
+      "unit": "ohm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-017"
+      ],
+      "evidence_status": "documented",
+      "locator": "Resistance fuel level sensor",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-055",
+      "subject": "fuel_system:petrol",
+      "category": "fuel_delivery",
+      "predicate": "regulator_system_pressure",
+      "value": 3.0,
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-018"
+      ],
+      "evidence_status": "documented",
+      "locator": "System pressure",
+      "notes": "Reference/vacuum condition absent from this table; test procedure needed."
+    },
+    {
+      "id": "og95-fact-056",
+      "subject": "fuel_system:four-cylinder",
+      "category": "fuel_delivery",
+      "predicate": "injector_test_delivery",
+      "value": {
+        "nominal_ml": 176,
+        "tolerance_ml": 7,
+        "interval_seconds": 30
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-019"
+      ],
+      "evidence_status": "documented",
+      "locator": "Flow capacity",
+      "notes": "Measurement/test procedure required before comparing modern injector ratings."
+    },
+    {
+      "id": "og95-fact-057",
+      "subject": "fuel_system:four-cylinder",
+      "category": "fuel_delivery",
+      "predicate": "maximum_injector_delivery_difference",
+      "value": 14,
+      "unit": "mL",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-019"
+      ],
+      "evidence_status": "documented",
+      "locator": "Maximum permissible difference",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-058",
+      "subject": "engine:B205E",
+      "category": "turbocharger",
+      "predicate": "factory_turbo_basic_setup",
+      "value": {
+        "turbocharger": "Garrett GT17",
+        "basic_pressure_bar": 0.4,
+        "pressure_tolerance_bar": 0.03,
+        "wastegate_preload_mm": 2
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "B205E"
+        ]
+      },
+      "source_ids": [
+        "og95-src-020"
+      ],
+      "evidence_status": "documented",
+      "locator": "Basic data / B205E",
+      "notes": "Basic pressure is not peak commanded boost; physical turbo identification still required."
+    },
+    {
+      "id": "og95-fact-059",
+      "subject": "engine:B235E",
+      "category": "turbocharger",
+      "predicate": "factory_turbo_basic_setup",
+      "value": {
+        "turbocharger": "Garrett GT17",
+        "basic_pressure_bar": 0.4,
+        "pressure_tolerance_bar": 0.03,
+        "wastegate_preload_mm": 2
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "og95-src-020"
+      ],
+      "evidence_status": "documented",
+      "locator": "Basic data / B235E",
+      "notes": "Basic pressure is not peak commanded boost; physical turbo identification still required."
+    },
+    {
+      "id": "og95-fact-060",
+      "subject": "engine:B235R",
+      "category": "turbocharger",
+      "predicate": "factory_turbo_basic_setup",
+      "value": {
+        "turbocharger": "Mitsubishi TD04HL-15T-5",
+        "basic_pressure_bar": 0.45,
+        "pressure_tolerance_bar": 0.03,
+        "wastegate_preload_mm": 2
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "og95-src-020"
+      ],
+      "evidence_status": "documented",
+      "locator": "Basic data / B235R",
+      "notes": "Basic pressure is not peak commanded boost; physical turbo identification still required."
+    },
+    {
+      "id": "og95-fact-061",
+      "subject": "turbocharger:unspecified",
+      "category": "turbocharger",
+      "predicate": "axial_shaft_play",
+      "value": [
+        0.036,
+        0.091
+      ],
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-021"
+      ],
+      "evidence_status": "documented",
+      "locator": "Turbo shaft play axial",
+      "notes": "Applicability to an individual turbo remains provisional: table omits turbo code."
+    },
+    {
+      "id": "og95-fact-062",
+      "subject": "brakes:B1",
+      "category": "brakes",
+      "predicate": "configuration_disc_dimensions",
+      "value": {
+        "front_diameter": 288,
+        "front_new_thickness": 25,
+        "rear_diameter": 286,
+        "rear_new_thickness": 10
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-022"
+      ],
+      "evidence_status": "documented",
+      "locator": "Brake configuration dimension table",
+      "notes": "Provisional fitment; dimensions disagree with rotor-detail pages and owner manual.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95-fact-063",
+      "subject": "brakes:B2",
+      "category": "brakes",
+      "predicate": "configuration_disc_dimensions",
+      "value": {
+        "front_diameter": 308,
+        "front_new_thickness": 25,
+        "rear_diameter": 300,
+        "rear_new_thickness": 20
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-022"
+      ],
+      "evidence_status": "documented",
+      "locator": "Brake configuration dimension table",
+      "notes": "Provisional fitment; dimensions disagree with rotor-detail pages and owner manual.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95-fact-064",
+      "subject": "brakes:B3",
+      "category": "brakes",
+      "predicate": "configuration_disc_dimensions",
+      "value": {
+        "front_diameter": 308,
+        "front_new_thickness": 25,
+        "rear_diameter": 286,
+        "rear_new_thickness": 10
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-022"
+      ],
+      "evidence_status": "documented",
+      "locator": "Brake configuration dimension table",
+      "notes": "Provisional fitment; dimensions disagree with rotor-detail pages and owner manual.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95-fact-065",
+      "subject": "engine:B235R US",
+      "category": "brakes",
+      "predicate": "MY2005_US_configuration",
+      "value": "B3",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "og95-src-022"
+      ],
+      "evidence_status": "documented",
+      "locator": "M05 / B3 / B235R X(US)",
+      "notes": "US-specific row; do not assume Canada or other years; inspect actual brakes.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95-fact-066",
+      "subject": "brakes:rear",
+      "category": "brakes",
+      "predicate": "rotor_detail_diameters",
+      "value": {
+        "standard": 278,
+        "heavy": 300
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-023"
+      ],
+      "evidence_status": "documented",
+      "locator": "Outside diameter",
+      "notes": "Unresolved standard-size discrepancy versus 286 mm configuration page; do not order from this fact.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95-fact-067",
+      "subject": "brakes:rear",
+      "category": "brakes",
+      "predicate": "rotor_minimum_thickness",
+      "value": {
+        "standard": 8.0,
+        "heavy": 18.0
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95-src-023"
+      ],
+      "evidence_status": "documented",
+      "locator": "Minimum permissible thickness",
+      "notes": "Resolve installed rotor identity first.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95-fact-068",
+      "subject": "brakes:front",
+      "category": "brakes",
+      "predicate": "rotor_detail_diameters",
+      "value": {
+        "standard": 285,
+        "heavy": 308
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95-src-024"
+      ],
+      "evidence_status": "documented",
+      "locator": "Outside diameter",
+      "notes": "Standard-size discrepancy versus configuration matrix; provisional.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95-fact-069",
+      "subject": "brakes:front",
+      "category": "brakes",
+      "predicate": "rotor_detail_new_thickness",
+      "value": {
+        "standard": 25,
+        "heavy": 28
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95-src-024"
+      ],
+      "evidence_status": "documented",
+      "locator": "Thickness new",
+      "notes": "Heavy thickness differs from configuration matrix 25 mm; provisional.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95-fact-070",
+      "subject": "brakes:front",
+      "category": "brakes",
+      "predicate": "rotor_runout_and_thickness_variation_limits",
+      "value": {
+        "maximum_fitted_runout": 0.08,
+        "maximum_thickness_variation": 0.015
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95-src-024"
+      ],
+      "evidence_status": "documented",
+      "locator": "Runout / variation",
+      "notes": "",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95-fact-071",
+      "subject": "chassis:rear",
+      "category": "alignment",
+      "predicate": "toe_degree_targets",
+      "value": {
+        "total_nominal": 0.42,
+        "total_tolerance": 0.2,
+        "per_side_nominal": 0.21,
+        "per_side_tolerance": 0.1
+      },
+      "unit": "degree",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "og95-src-025"
+      ],
+      "evidence_status": "documented",
+      "locator": "Rear wheels toe",
+      "notes": "Height/chassis verification required before alignment; malformed minute values omitted."
+    },
+    {
+      "id": "og95-fact-072",
+      "subject": "chassis:rear",
+      "category": "alignment",
+      "predicate": "camber_degree_targets",
+      "value": {
+        "standard_nominal": -0.8,
+        "sport_nominal": -1.1,
+        "tolerance": 0.25
+      },
+      "unit": "degree",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "og95-src-025"
+      ],
+      "evidence_status": "documented",
+      "locator": "Rear camber",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-073",
+      "subject": "chassis:front",
+      "category": "alignment",
+      "predicate": "toe_degree_targets",
+      "value": {
+        "total_nominal": 0.28,
+        "total_tolerance": 0.08,
+        "per_side_nominal": 0.14,
+        "per_side_tolerance": 0.04
+      },
+      "unit": "degree",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "og95-src-025"
+      ],
+      "evidence_status": "documented",
+      "locator": "Front wheels toe",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-074",
+      "subject": "engine:four-cylinder",
+      "category": "crankcase_ventilation",
+      "predicate": "MY2004_design_change",
+      "value": {
+        "new_system_for_model_year": true,
+        "external_oil_trap": true,
+        "improved_oil_separation_claim": true
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "og95-src-026"
+      ],
+      "evidence_status": "documented",
+      "locator": "General",
+      "notes": "Factory design description, not a measured reliability or failure-rate claim."
+    },
+    {
+      "id": "og95-fact-075",
+      "subject": "service:US_CA",
+      "category": "fluids",
+      "predicate": "MY2009_hydraulic_fluid_specifications",
+      "value": {
+        "automatic": "Saab 3309 mineral",
+        "brake_and_clutch": "DOT 4",
+        "power_steering_part_number": "93160548"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95-src-027"
+      ],
+      "evidence_status": "documented",
+      "locator": "Lubricant rows 4,7,9,18",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-076",
+      "subject": "engine:2.3t US_CA",
+      "category": "ignition",
+      "predicate": "owner_manual_spark_plug",
+      "value": "NGK BCPR6ES-11",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95-src-028"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.257 spark plugs / 2.3t",
+      "notes": "Different from generic WIS B235E table; provisional until label/VIN/service documentation resolves.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95-fact-077",
+      "subject": "engine:2.3T/2.3Turbo US_CA",
+      "category": "ignition",
+      "predicate": "owner_manual_spark_plug",
+      "value": "NGK PFR6H-10",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95-src-028"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.257 spark plugs",
+      "notes": "",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95-fact-078",
+      "subject": "engine:US_CA",
+      "category": "fuel",
+      "predicate": "MY2005_optimum_octane",
+      "value": {
+        "2.3t_Linear": 90,
+        "2.3T_Arc": 93,
+        "2.3Turbo_Aero": 93
+      },
+      "unit": "AON",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95-src-028"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.254 fuel",
+      "notes": "AON as printed; no RON conversion."
+    },
+    {
+      "id": "og95-fact-079",
+      "subject": "engine:US_CA",
+      "category": "lubrication",
+      "predicate": "MY2005_oil_approval_and_viscosities",
+      "value": {
+        "type": "fully synthetic",
+        "approval": "GM-LL-A-025",
+        "SAE": [
+          "0W-30",
+          "5W-30",
+          "0W-40"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95-src-028"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.255 approved oils and viscosity",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-080",
+      "subject": "fuel_tank:US_CA",
+      "category": "capacities",
+      "predicate": "MY2005_fuel_tank",
+      "value": 70,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95-src-028"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.254 fuel tank capacity",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-081",
+      "subject": "wheels:US_CA",
+      "category": "wheels",
+      "predicate": "MY2005_wheel_offset",
+      "value": 49,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95-src-029"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.260 wheel offset",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-082",
+      "subject": "wheels:US_CA",
+      "category": "wheels",
+      "predicate": "MY2005_tire_recommendations",
+      "value": {
+        "all_season": [
+          "215/55 R16 93H",
+          "225/45 R17 94V XL/RF"
+        ],
+        "summer": [
+          "225/45 R17 94W XL/RF"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95-src-029"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.260 recommended dimensions",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-083",
+      "subject": "wheels:US_CA",
+      "category": "wheels",
+      "predicate": "MY2005_all_season_cold_pressures",
+      "value": {
+        "215/55_R16_93H": {
+          "front_kPa": 240,
+          "rear_kPa": 220
+        },
+        "225/45_R17_94V_XL_RF": {
+          "front_kPa": 250,
+          "rear_kPa": 240
+        }
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95-src-029"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.261 all-season / 1–5 people / 0–160 km/h",
+      "notes": "For listed tires and speed/load scope; confirm vehicle label."
+    },
+    {
+      "id": "og95-fact-084",
+      "subject": "engine:2.3Turbo US_CA",
+      "category": "engine_output",
+      "predicate": "MY2009_power_SAE",
+      "value": {
+        "hp_as_printed": 260,
+        "kW_as_printed": 191,
+        "rpm": 5000
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95-src-030"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.260 engine variants",
+      "notes": "Owner manual preserves SAE label and both printed units; generic WIS differs. Engine code not stated here."
+    },
+    {
+      "id": "og95-fact-085",
+      "subject": "engine:2.3Turbo US_CA",
+      "category": "engine_output",
+      "predicate": "MY2009_torque_SAE",
+      "value": {
+        "Nm_as_printed": 350,
+        "lb_ft_as_printed": 258.0,
+        "rpm": 1900
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95-src-030"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.260 engine variants",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-086",
+      "subject": "engine:2.3Turbo US_CA",
+      "category": "engine_geometry",
+      "predicate": "MY2009_geometry",
+      "value": {
+        "bore_mm": 90,
+        "stroke_mm": 90,
+        "displacement_L": 2.29
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95-src-030"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.260 engine",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-087",
+      "subject": "engine:2.3Turbo US_CA",
+      "category": "lubrication",
+      "predicate": "MY2009_oil_change_volume_including_filter",
+      "value": 4.0,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95-src-030"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.260 oil capacity on changing",
+      "notes": ""
+    },
+    {
+      "id": "og95-fact-088",
+      "subject": "fuel_tank:US_CA",
+      "category": "capacities",
+      "predicate": "MY2009_fuel_tank",
+      "value": 68,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95-src-030"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.260 fuel tank",
+      "notes": "Different from MY2005 70 L manual; no extrapolation."
+    },
+    {
+      "id": "og95-fact-089",
+      "subject": "engine:US_CA",
+      "category": "fuel",
+      "predicate": "MY2009_octane",
+      "value": {
+        "minimum_posted": 87,
+        "optimum_posted": 93
+      },
+      "unit": "posted_octane",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95-src-030"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.260 gasoline octane",
+      "notes": "Posted North American pump rating retained; no RON conversion."
+    },
+    {
+      "id": "og95-fact-090",
+      "subject": "service:US_CA",
+      "category": "maintenance",
+      "predicate": "MY2009_severe_use_oil_interval",
+      "value": {
+        "miles": 5000,
+        "km_as_printed": 8000
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95-src-030"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.252 additional oil/filter changes",
+      "notes": "For repeated short trips, cold short trips, extensive idling, dust, towing/roof carrier or commercial use; factory interval, not universal present-day advice."
+    }
+  ],
+  "issues": [],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "og95-gap-001",
+      "title": "Market and rating mismatch for B235R power",
+      "missing_inputs": [
+        "actual model year",
+        "market",
+        "VIN",
+        "engine calibration/label"
+      ],
+      "reason": "MY2009 generic WIS lists 250 hp EEC at 5300 rpm; US/CA owner manual lists 260 hp SAE at 5000 rpm. Keep both scoped; do not infer identical test standards or calibration.",
+      "source_ids": [
+        "og95-src-003",
+        "og95-src-030"
+      ]
+    },
+    {
+      "id": "og95-gap-002",
+      "title": "B235E spark-plug applicability disagreement",
+      "missing_inputs": [
+        "VIN",
+        "emission label",
+        "factory market-specific service instruction"
+      ],
+      "reason": "MY2005 generic WIS prescribes PFR6H-10 for B235E; US/CA owner manual 2.3t prescribes BCPR6ES-11. Owner text also has implausible inch/mm gap pairing; that pairing is not extracted.",
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-028"
+      ]
+    },
+    {
+      "id": "og95-gap-003",
+      "title": "Brake dimension and fitment discrepancies",
+      "missing_inputs": [
+        "VIN",
+        "brake option/configuration",
+        "installed rotor diameter and thickness",
+        "caliper/carrier identifiers"
+      ],
+      "reason": "Configuration matrix says 288/308 mm front and 286/300 mm rear; detailed WIS pages report 285/308 mm front and 278/300 mm rear, with heavy front thickness 28 versus 25 mm. MY2005 owner manual uses 306 mm large front. No automatic fitment selection.",
+      "source_ids": [
+        "og95-src-022",
+        "og95-src-023",
+        "og95-src-024",
+        "og95-src-029"
+      ]
+    },
+    {
+      "id": "og95-gap-004",
+      "title": "Transmission identity and refill method",
+      "missing_inputs": [
+        "gearbox casing code",
+        "model year",
+        "current fluid",
+        "drain/refill or dry rebuild"
+      ],
+      "reason": "Ratios are gearbox-code-specific. Automatic 7 L includes converter and cooler; manual 2 L is dry. Actual drain/refill amounts and checking temperatures require procedure.",
+      "source_ids": [
+        "og95-src-011",
+        "og95-src-012",
+        "og95-src-014",
+        "og95-src-015",
+        "og95-src-027"
+      ]
+    },
+    {
+      "id": "og95-gap-005",
+      "title": "Incomplete 2004–2009 year coverage",
+      "missing_inputs": [
+        "chosen model year",
+        "market",
+        "engine code"
+      ],
+      "reason": "Core WIS facts are scoped to 2004, 2005 and/or 2009. No claim that every intervening year shares every number; MY2006–2008 market brochures and calibration details remain to obtain.",
+      "source_ids": [
+        "og95-src-001",
+        "og95-src-002",
+        "og95-src-003",
+        "og95-src-030"
+      ]
+    },
+    {
+      "id": "og95-gap-006",
+      "title": "Fuel/turbo bench data needs measurement conditions",
+      "missing_inputs": [
+        "fuel-pressure reference connection",
+        "injector procedure",
+        "physical turbo model",
+        "measurement method"
+      ],
+      "reason": "Short WIS tables omit some test conditions. Basic turbo pressure is not maximum boost; axial-play table omits model-specific identification.",
+      "source_ids": [
+        "og95-src-018",
+        "og95-src-019",
+        "og95-src-020",
+        "og95-src-021"
+      ]
+    },
+    {
+      "id": "og95-gap-007",
+      "title": "Reliability-first vehicle selection needs actual-condition evidence",
+      "missing_inputs": [
+        "maintenance invoices",
+        "oil-change history",
+        "PCV condition",
+        "oil-pressure test",
+        "compression/leakdown results",
+        "rust and cooling inspection"
+      ],
+      "reason": "MY2004 factory PCV redesign is documented, but specifications do not establish condition or a statistical model-year reliability ranking.",
+      "source_ids": [
+        "og95-src-026",
+        "og95-src-004",
+        "og95-src-005",
+        "og95-src-030"
+      ]
+    }
+  ]
+}

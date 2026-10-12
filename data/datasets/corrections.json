@@ -1,0 +1,2951 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "corrections",
+  "sources": [
+    {
+      "id": "corrections-src-001",
+      "title": "210-2554 ed.3: Noise from timing chain and oil sludge (June 2006)",
+      "url": "https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2554-ed-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine",
+      "publisher": "Saab Automobile AB (original bulletin mirrored by SaabWISOnline)",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "US/CA; original bulletin mirror."
+    },
+    {
+      "id": "corrections-src-002",
+      "title": "210-2496: Replacing oil trap; CSP 15433",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2496-replacing-the-oil-trap",
+      "publisher": "Saab Automobile AB (original bulletin mirrored by SaabWISOnline)",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "January 2005; market given as separate list, unavailable here."
+    },
+    {
+      "id": "corrections-src-003",
+      "title": "210-2508: Securing crankcase ventilation hose; CSP 15435",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2508-securing-the-crankcase-ventilation-hose",
+      "publisher": "Saab Automobile AB (original bulletin mirrored by SaabWISOnline)",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "January 2005, all markets."
+    },
+    {
+      "id": "corrections-src-004",
+      "title": "TA440-0702: Coolant in ATF oil",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/bulletins-si-mi/ta440-0702-coolant-in-atf-oil",
+      "publisher": "Saab Automobile AB (original bulletin mirrored by SaabWISOnline)",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "January 2007; scope broader than campaign 15446."
+    },
+    {
+      "id": "corrections-src-005",
+      "title": "248-2611 edition 3: IDM check/replacement; Recall 15021",
+      "url": "https://saabwisonline.com/9-5-9600/2000/2-engine/trionic-t7-lev-4-cyl-b235e-r/bulletins-si-mi/248-2611-utg-3-check-replacement-of-ignition-discharge-module",
+      "publisher": "Saab Automobile AB (original bulletin mirrored by SaabWISOnline)",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "November 2006; original mirror."
+    },
+    {
+      "id": "corrections-src-006",
+      "title": "DCS1686: Recall 15021 IDM reissue",
+      "url": "https://static.nhtsa.gov/odi/rcl/2006/RCMN-06V410-7676.pdf",
+      "publisher": "GM Service and Parts Operations",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "December 6, 2006; regulator-hosted GM/Saab original."
+    },
+    {
+      "id": "corrections-src-007",
+      "title": "365-2568: Electronic problems",
+      "url": "https://saabwisonline.com/9-3-9440/2003/3-electrical-system/bus-and-diagnostics-communication/bulletins-si-mi/365-2568-electronic-problems",
+      "publisher": "Saab Automobile AB (original bulletin mirrored by SaabWISOnline)",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "July 2005, all markets. Scope and corrections vary by numbered item."
+    },
+    {
+      "id": "corrections-src-008",
+      "title": "731-2726: Front spring failure; Special Coverage 15917",
+      "url": "https://saabwisonline.com/9-3-9440/2003/7-suspension-wheels/front-suspension/bulletins-si-mi/731-2726-front-spring-failure",
+      "publisher": "Saab Automobile AB (original bulletin mirrored by SaabWISOnline)",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "January 2010; US/CA salt-region coverage, not described as a safety recall."
+    },
+    {
+      "id": "corrections-src-009",
+      "title": "TA340-0921: Start difficulties, Battery, CIM, SCL, ISM and Remote",
+      "url": "https://saabwisonline.com/9-3-9440/2008/3-electrical-system/starting-system/bulletins-si-mi/ta340-0921-start-difficulties-battery-cim-scl-ism-remote",
+      "publisher": "Saab Automobile AB (original bulletin mirrored by SaabWISOnline)",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "December 2009, all markets."
+    },
+    {
+      "id": "corrections-src-010",
+      "title": "Hard starting cold, stall/misfire and low compression; intake valve advisory",
+      "url": "https://saabparts.us/wp-content/uploads/1/2023/05/Hard-Starting-Cold-With-Engine-Stall-Misfire-and-Low-Compression-Starts-and-Runs-Normally-When-Hot-07-11-9-3-11-9-5.pdf",
+      "publisher": "Saab Parts North America / Hedin Parts Technical Assistance",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Official revised reference-library PDF. Its mileage example differs from older copies; use this version. No dated header in retrieved PDF."
+    },
+    {
+      "id": "corrections-src-011",
+      "title": "ISM 32021815 kit, formerly 12801010: instructions",
+      "url": "https://saabparts.us/wp-content/uploads/1/2023/06/Saab-93-2003_11-Ignition-Switch-Module-ISM-32021815-Kit-Saabparts-Reference-Library-version.pdf",
+      "publisher": "Saab Parts North America",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Six-page official instructions."
+    },
+    {
+      "id": "corrections-src-012",
+      "title": "Low coolant message without visible leak: B207",
+      "url": "https://saabparts.us/wp-content/uploads/1/2023/05/Low-Coolant-Message-With-No-Evidence-of-Leak-Found-9-3-B207.pdf",
+      "publisher": "Saab Parts North America / Hedin Parts Technical Assistance",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Official updated PI includes later years; casting change reduces likelihood, does not eliminate it."
+    },
+    {
+      "id": "corrections-src-013",
+      "title": "232-2682: Diagnosing oil consumption (B207)",
+      "url": "https://saabwisonline.com/9-3-9440/2008/2-engine/4-cyl-petrol-e85/basic-engine/bulletins-si-mi/232-2682-diagnosing-oil-consumption",
+      "publisher": "Saab Automobile AB (original bulletin mirrored by SaabWISOnline)",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "corrections-src-014",
+      "title": "248-2502: Correct choice of ignition discharge module",
+      "url": "https://saabwisonline.com/9-5-9600/2004/2-engine/trionic-t7-4-cyl/bulletins-si-mi/248-2502-correct-choice-of-ignition-discharge-module",
+      "publisher": "Saab Automobile AB (original bulletin mirrored by SaabWISOnline)",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "November 2004; T5/T7 selection restriction."
+    },
+    {
+      "id": "corrections-src-015",
+      "title": "32022255 T7 ignition cassette catalogue",
+      "url": "https://www.esaabparts.com/saab/parts/32022255?section=323308273",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Flat superseded-number list; no chronological chain established. Stock and price not recorded."
+    },
+    {
+      "id": "corrections-src-016",
+      "title": "55554444 complete PCV kit catalogue",
+      "url": "https://www.esaabparts.com/saab/parts/55554444",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Kit contents differ from older diagram excerpt; retrieved item page lists three components."
+    },
+    {
+      "id": "corrections-src-017",
+      "title": "21341200 PROPARTS PCV kit catalogue (reference 55561200)",
+      "url": "https://www.esaabparts.com/saab/parts/21341200?ss=55561200",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Aftermarket replacement listing, not OEM engineering supersession or proof of durability."
+    },
+    {
+      "id": "corrections-src-018",
+      "title": "55560463 PCV breather hose catalogue",
+      "url": "https://www.esaabparts.com/saab/parts/55560463",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "corrections-src-019",
+      "title": "7779973 ESAABKITS hose/check valve catalogue (reference 9399973)",
+      "url": "https://www.esaabparts.com/saab/parts/7779973?ss=9399973",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Aftermarket reference mapping, not OEM engineering supersession."
+    },
+    {
+      "id": "corrections-src-020",
+      "title": "TA855-0706: Water leak right front/rear floor",
+      "url": "https://saabwisonline.com/9-3-9440/2007/8-body/interior-equipment/bulletins-si-mi/ta855-0706-water-leak-front-rear-floor-on-right-side-of-the-passenger",
+      "publisher": "Saab Automobile AB (original bulletin mirrored by SaabWISOnline)",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "February 2007, all markets, no VIN/model-year limits stated."
+    },
+    {
+      "id": "corrections-src-021",
+      "title": "260-2634 ed.2: Oil cooler quick couplings; CSP15446, page 1",
+      "url": "https://workshop-manuals.com/saab/9-3_arc/aero_(9440)/l4-2.0l_turbo_(2.0_t)/transmission_and_drivetrain/automatic_transmission/transaxle/transmission_cooler_a/t/component_information/technical_service_bulletins/all_technical_service_bulletins_for_transmission_cooler/260-2634/sep/06/campaign_154_46_a/t_cooler_coupling_leakage/",
+      "publisher": "Saab Automobile AB (mirrored by Workshop-Manuals)",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "partial",
+      "notes": "Original Saab MI, mirrored; only first page recorded here."
+    },
+    {
+      "id": "corrections-src-022",
+      "title": "260-2634 ed.2: Radiator date decision, page 2",
+      "url": "https://workshop-manuals.com/saab/9-3_arc/aero_(9440)/l4-2.0l_turbo_(2.0_t)/transmission_and_drivetrain/automatic_transmission/transaxle/transmission_cooler_a/t/component_information/technical_service_bulletins/all_technical_service_bulletins_for_transmission_cooler/260-2634/sep/06/campaign_154_46_a/t_cooler_coupling_leakage/page_7156/",
+      "publisher": "Saab Automobile AB (mirrored by Workshop-Manuals)",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "partial",
+      "notes": "Read with page 1"
+    },
+    {
+      "id": "corrections-src-023",
+      "title": "Part 573 Safety Recall Report 16V-063 / 28810",
+      "url": "https://static.nhtsa.gov/odi/rcl/2016/RCLRPT-16V063-5196.PDF",
+      "publisher": "General Motors LLC / NHTSA",
+      "source_type": "regulator_record",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "February 3, 2016; 9-5 scope in this report is 2010–11, not 9600."
+    },
+    {
+      "id": "corrections-src-024",
+      "title": "15043-03: Driver airbag replacement",
+      "url": "https://static.nhtsa.gov/odi/rcl/2016/RCSB-16V063-3605.pdf",
+      "publisher": "General Motors",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "February 2018; specific geography and later repair implementation. Use VIN involvement system rather than conflating scopes."
+    },
+    {
+      "id": "corrections-src-025",
+      "title": "NHTSA acknowledgement: 11V-015 defective fuel pumps",
+      "url": "https://static.nhtsa.gov/odi/rcl/2011/RCAK-11V015-8798.pdf",
+      "publisher": "NHTSA",
+      "source_type": "regulator_record",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "January 20, 2011."
+    },
+    {
+      "id": "corrections-src-026",
+      "title": "Recall15017 front belts / 853-2479",
+      "url": "https://static.nhtsa.gov/odi/rcl/2004/RCRIT-04V226-5904.PDF",
+      "publisher": "Saab Automobile AB / NHTSA",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "search_excerpt",
+      "notes": "Original text available through indexed search; open returned no text. Marked excerpt-only."
+    },
+    {
+      "id": "corrections-src-027",
+      "title": "10V-043: Front seatbelt retractor safety defect",
+      "url": "https://static.nhtsa.gov/odi/rcl/2010/RCDNN-10V043-5936.pdf",
+      "publisher": "General Motors LLC / NHTSA",
+      "source_type": "regulator_record",
+      "accessed_at": "2026-10-12",
+      "retrieval": "search_excerpt",
+      "notes": "Search extraction provides letter text, opened PDF lacks text. No detailed VIN limits retrieved."
+    }
+  ],
+  "facts": [
+    {
+      "id": "corrections-fact-001",
+      "subject": "Timing-chain tensioner",
+      "category": "diagnostic_threshold",
+      "predicate": "replacement_threshold",
+      "value": 15,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "corrections-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Checking step3",
+      "notes": "Greater than this extension requires chain work, after damage assessment."
+    },
+    {
+      "id": "corrections-fact-002",
+      "subject": "PCV renovation kit",
+      "category": "installation_requirement",
+      "predicate": "hose_55560463_nipple",
+      "value": "Use kit nipple, not nipple supplied with hose.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "corrections-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Fitting kit steps12,16",
+      "notes": "Check-valve arrow faces throttle body."
+    },
+    {
+      "id": "corrections-fact-003",
+      "subject": "CSP15433",
+      "category": "factory_correction",
+      "predicate": "additional_hose_engine_numbers",
+      "value": "4000000–4017590",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235"
+        ],
+        "transmission_codes": [
+          "manual"
+        ]
+      },
+      "source_ids": [
+        "corrections-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Parts and procedure21",
+      "notes": ""
+    },
+    {
+      "id": "corrections-fact-004",
+      "subject": "CSP15446",
+      "category": "factory_correction",
+      "predicate": "radiator_date_test",
+      "value": "Before 2003-11-08: replace quick couplings; otherwise do not.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "source_ids": [
+        "corrections-src-021",
+        "corrections-src-022"
+      ],
+      "evidence_status": "documented",
+      "locator": "Page1 procedure1 /page2 decision",
+      "notes": ""
+    },
+    {
+      "id": "corrections-fact-005",
+      "subject": "Trionic ignition module",
+      "category": "replacement_restriction",
+      "predicate": "families",
+      "value": "T5 red/blue; T7 black/green. Mixing may damage ECU and IDM even during testing.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "corrections-src-014"
+      ],
+      "evidence_status": "documented",
+      "locator": "Colour table and background",
+      "notes": "B207 T8 coil applicability is separate."
+    },
+    {
+      "id": "corrections-fact-006",
+      "subject": "Intake-valve advisory",
+      "category": "scope",
+      "predicate": "model_engine_groups",
+      "value": [
+        {
+          "model_years": [
+            2007,
+            2008
+          ],
+          "engine_codes": [
+            "B207R"
+          ],
+          "platform": "9-3 (9440)"
+        },
+        {
+          "model_years": [
+            2009,
+            2010,
+            2011
+          ],
+          "engine_codes": [
+            "B207"
+          ],
+          "platform": "9-3 (9440)"
+        },
+        {
+          "model_years": [
+            2011
+          ],
+          "engine_codes": [
+            "A20NFT"
+          ],
+          "platform": "9-5 (9650)"
+        }
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440",
+          "9-5-9650"
+        ],
+        "model_years": [
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207R",
+          "B207",
+          "A20NFT"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2007,
+              2008
+            ],
+            "engine_codes": [
+              "B207R"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2009,
+              2010,
+              2011
+            ],
+            "engine_codes": [
+              "B207"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9650"
+            ],
+            "model_years": [
+              2011
+            ],
+            "engine_codes": [
+              "A20NFT"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "corrections-src-010"
+      ],
+      "evidence_status": "documented",
+      "locator": "MODELS /UPDATE",
+      "notes": "PDF lists eight BioPower inlet valves as repair parts, without confirming different-year head interchange."
+    },
+    {
+      "id": "corrections-fact-007",
+      "subject": "B207 reinforced block",
+      "category": "factory_change",
+      "predicate": "prior_casting_boundaries",
+      "value": [
+        {
+          "body_style": "CV",
+          "last_chassis_suffix": "66007190"
+        },
+        {
+          "body_style": "sedan/combi",
+          "last_chassis_suffix": "61111931"
+        }
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "corrections-src-012"
+      ],
+      "evidence_status": "documented",
+      "locator": "Reinforced block paragraph",
+      "notes": "PDF's heading says production from VINs below, but its next lines say 'up to'; preserve boundary ambiguity rather than manufacture an inclusive/exclusive claim."
+    },
+    {
+      "id": "corrections-fact-008",
+      "subject": "CIM DTC C0544 00 /ESP",
+      "category": "factory_change",
+      "predicate": "improved_CIM_from_suffix",
+      "value": [
+        {
+          "body_style": "4D",
+          "suffix": "41032379"
+        },
+        {
+          "body_style": "CV",
+          "suffix": "46009782"
+        }
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "corrections-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "CIM/ISM/SCL item10",
+      "notes": "Faulty ESP with this DTC calls for CIM replacement."
+    },
+    {
+      "id": "corrections-fact-009",
+      "subject": "ISM early catch",
+      "category": "factory_change",
+      "predicate": "improved_ISM_from_suffix",
+      "value": "31007202",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "corrections-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "CIM/ISM/SCL item6",
+      "notes": "Broken LOCK/OFF catch on earlier units is a separate material fault."
+    }
+  ],
+  "issues": [
+    {
+      "id": "corrections-issue-001",
+      "title": "Early B205/B235 sludge and chain diagnosis",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "cause": "Multiple sludge/chain-noise causes.",
+      "symptoms": [
+        "chain rattle",
+        "lower-end noise",
+        "oil-pressure warning"
+      ],
+      "diagnosis_summary": "Measure pressure; inspect strainer and bearings as indicated. Tensioner extension over 15 mm requires chain work.",
+      "correction_summary": "Clean oil system, repair measured damage, fit ventilation kit and specified oil.",
+      "source_ids": [
+        "corrections-src-001"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Symptom-led procedure; PCV update does not certify prior damage absent."
+      ]
+    },
+    {
+      "id": "corrections-issue-002",
+      "title": "2004–05 B235 manual oil-trap correction",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235"
+        ],
+        "transmission_codes": [
+          "manual"
+        ],
+        "vin_ranges": [
+          {
+            "start": "43000003",
+            "end": "53502479",
+            "format": "8-character chassis suffix"
+          }
+        ]
+      },
+      "cause": "Revised ventilation can increase oil consumption at high rpm/low load.",
+      "symptoms": [
+        "high oil consumption",
+        "reduced performance"
+      ],
+      "diagnosis_summary": "Confirm campaign involvement; not every VIN in range qualifies.",
+      "correction_summary": "Fit oil trap 55558696; specified early engine numbers also need hose 5961610; secure hoses.",
+      "source_ids": [
+        "corrections-src-002"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Market list not retrieved.",
+        "Additional hose applies to engine numbers 4000000–4017590."
+      ]
+    },
+    {
+      "id": "corrections-issue-003",
+      "title": "2004–05 ventilation hose retention",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "all"
+        ],
+        "vin_ranges": [
+          {
+            "start": "43000003",
+            "end": "53502893",
+            "format": "8-character chassis suffix"
+          }
+        ]
+      },
+      "cause": "Hose can detach from throttle body at certain loads.",
+      "symptoms": [
+        "reduced performance"
+      ],
+      "diagnosis_summary": "Check CSP15435 completion and hose retention.",
+      "correction_summary": "Fit clip 90490543 and cable tie 7971864.",
+      "source_ids": [
+        "corrections-src-003"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Not every car in VIN interval affected."
+      ]
+    },
+    {
+      "id": "corrections-issue-004",
+      "title": "T7 IDM overload recall15021",
+      "applicability": {
+        "platforms": [
+          "9-5-9600",
+          "9-3-9400"
+        ],
+        "model_years": [
+          2000,
+          2001,
+          2002
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "US",
+          "CA",
+          "JP",
+          "TW"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2000,
+              2001,
+              2002
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ],
+            "markets": [
+              "US",
+              "CA",
+              "JP",
+              "TW"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9400"
+            ],
+            "model_years": [
+              2000,
+              2001,
+              2002
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ],
+            "markets": [
+              "US",
+              "CA",
+              "JP",
+              "TW"
+            ]
+          }
+        ]
+      },
+      "cause": "Electrical overload can fail the ignition module.",
+      "symptoms": [
+        "no start",
+        "stall while driving"
+      ],
+      "diagnosis_summary": "Inspect module serial: D000000–D336210 or B083821–B096117.",
+      "correction_summary": "Replace affected module with specified T7 unit; other serials are not replaced under this MI.",
+      "source_ids": [
+        "corrections-src-005",
+        "corrections-src-006"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Also covers 9400 B205/B235 and separate B308 population; does not cover 9440 B207.",
+        "Verify actual VIN/recall completion.",
+        "Factory source also covers a separately restricted B308 9-5 application; this record retains only the four-cylinder groups."
+      ]
+    },
+    {
+      "id": "corrections-issue-005",
+      "title": "Early 9440 automatic cooler coupling campaign",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "all"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ],
+        "vin_ranges": [
+          {
+            "start": "31000003",
+            "end": "41025886",
+            "body_style": "4D",
+            "format": "8-character chassis suffix"
+          },
+          {
+            "start": "46000003",
+            "end": "46008365",
+            "body_style": "CV",
+            "format": "8-character chassis suffix"
+          }
+        ],
+        "body_styles": [
+          "4D",
+          "CV"
+        ]
+      },
+      "cause": "Quick-coupling O-ring can move and be damaged during fitting, admitting coolant to ATF.",
+      "symptoms": [
+        "coolant contamination of ATF"
+      ],
+      "diagnosis_summary": "Check CSP15446 and radiator date; replace couplings only if radiator predates 2003-11-08.",
+      "correction_summary": "Install kit 93190331 per MI.",
+      "source_ids": [
+        "corrections-src-021",
+        "corrections-src-022"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Campaign VIN limits are narrower than TA440-0702.",
+        "Radiator replacement history matters."
+      ]
+    },
+    {
+      "id": "corrections-issue-006",
+      "title": "2003–05 coolant-contaminated FA57 ATF diagnosis",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "all"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "body_styles": [
+          "SS",
+          "CV"
+        ],
+        "vin_ranges": [
+          {
+            "end": "51002378",
+            "body_style": "SS",
+            "format": "8-character chassis suffix"
+          },
+          {
+            "end": "56001058",
+            "body_style": "CV",
+            "format": "8-character chassis suffix"
+          }
+        ]
+      },
+      "cause": "Insufficient sealing at oil-cooler nipples.",
+      "symptoms": [
+        "gearbox warning",
+        "P0715 00",
+        "P0720 00",
+        "poor shift points",
+        "shift noise"
+      ],
+      "diagnosis_summary": "Test ATF for coolant; symptoms alone are insufficient.",
+      "correction_summary": "Confirmed contamination calls for complete transmission replacement plus coupling repair, cooler/hose cleaning and fresh TCM adaptation.",
+      "source_ids": [
+        "corrections-src-004"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "This is technical advice, not a recall expansion.",
+        "TiD limit 51000001 is outside B207 scope.",
+        "Especially relevant to avoiding transmission replacement."
+      ]
+    },
+    {
+      "id": "corrections-issue-007",
+      "title": "Early CIM remote software defect",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "all"
+        ],
+        "vin_ranges": [
+          {
+            "end": "41021535",
+            "body_style": "4D",
+            "format": "8-character chassis suffix"
+          },
+          {
+            "end": "46006859",
+            "body_style": "CV",
+            "format": "8-character chassis suffix"
+          }
+        ]
+      },
+      "cause": "CIM software defect.",
+      "symptoms": [
+        "all remotes fail",
+        "starting remains possible",
+        "no DTC"
+      ],
+      "diagnosis_summary": "Distinguish all-remotes condition.",
+      "correction_summary": "Update CIM software.",
+      "source_ids": [
+        "corrections-src-007"
+      ],
+      "evidence_status": "documented",
+      "limits": []
+    },
+    {
+      "id": "corrections-issue-008",
+      "title": "Early remote/key acceptance correction",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "all"
+        ],
+        "vin_ranges": [
+          {
+            "end": "41063612",
+            "body_style": "4D",
+            "format": "8-character chassis suffix"
+          },
+          {
+            "end": "46019650",
+            "body_style": "CV",
+            "format": "8-character chassis suffix"
+          }
+        ]
+      },
+      "cause": "Faulty key/remote.",
+      "symptoms": [
+        "key rejected",
+        "no start",
+        "B3935",
+        "B3055"
+      ],
+      "diagnosis_summary": "Follow item3 diagnostics.",
+      "correction_summary": "Replace faulty remote.",
+      "source_ids": [
+        "corrections-src-007"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Do not infer every no-start requires CIM."
+      ]
+    },
+    {
+      "id": "corrections-issue-009",
+      "title": "Early ISM key detector sticks",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "all"
+        ],
+        "vin_ranges": [
+          {
+            "end": "41033107",
+            "body_style": "4D",
+            "format": "8-character chassis suffix"
+          },
+          {
+            "end": "46011569",
+            "body_style": "CV",
+            "format": "8-character chassis suffix"
+          }
+        ]
+      },
+      "cause": "Material defect prevents key detector rising.",
+      "symptoms": [
+        "radio remains on",
+        "cannot lock",
+        "key warning after removal"
+      ],
+      "diagnosis_summary": "Check detector operation.",
+      "correction_summary": "Replace defective ISM.",
+      "source_ids": [
+        "corrections-src-007"
+      ],
+      "evidence_status": "documented",
+      "limits": []
+    },
+    {
+      "id": "corrections-issue-010",
+      "title": "Start blocking and steering-lock message diagnosis",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "all"
+        ]
+      },
+      "cause": "Low prior-cycle voltage is a leading documented cause; grounds/wiring may contribute.",
+      "symptoms": [
+        "key cannot turn",
+        "steering lock warning",
+        "key not accepted"
+      ],
+      "diagnosis_summary": "Record/clear/recheck DTCs; use Tech2 blocking reasons and updated WIS. Test battery/connections/charging and parked current draw.",
+      "correction_summary": "Correct diagnosed voltage/wiring fault; recharge below 80% SOC.",
+      "source_ids": [
+        "corrections-src-009"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Returned replacement modules frequently had no fault; diagnose before replacement.",
+        "No accessory wiring between CIM, ISM and SCL."
+      ]
+    },
+    {
+      "id": "corrections-issue-011",
+      "title": "B207 cold compression loss from intake-valve wear",
+      "applicability": {
+        "platforms": [
+          "9-3-9440",
+          "9-5-9650"
+        ],
+        "model_years": [
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207R",
+          "B207",
+          "A20NFT"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2007,
+              2008
+            ],
+            "engine_codes": [
+              "B207R"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2009,
+              2010,
+              2011
+            ],
+            "engine_codes": [
+              "B207"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9650"
+            ],
+            "model_years": [
+              2011
+            ],
+            "engine_codes": [
+              "A20NFT"
+            ]
+          }
+        ]
+      },
+      "cause": "Accelerated valve seat-face wear causes cold compression loss.",
+      "symptoms": [
+        "cold hard/no start",
+        "cold start then stall",
+        "P0300–P0304",
+        "normal hot running"
+      ],
+      "diagnosis_summary": "Overnight-cold compression and leak-down testing; hot testing can miss concern.",
+      "correction_summary": "TAC-directed repair; advisory lists eight 55563529 intake valves.",
+      "source_ids": [
+        "corrections-src-010"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "2007–08 coverage explicitly B207R; 2009–11 update says B207.",
+        "B284 excluded; 2011 NG9-5 A20NFT also included.",
+        "40,000 miles is descriptive, not a failure threshold or prevalence estimate.",
+        "No head interchange permission established."
+      ]
+    },
+    {
+      "id": "corrections-issue-012",
+      "title": "B207 unexplained coolant loss / suspected casting porosity",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "cause": "Engineering suspects block casting porosity; investigate other causes first.",
+      "symptoms": [
+        "coolant loss without visible leak"
+      ],
+      "diagnosis_summary": "Dye/pressure test and track loss; exclude radiator-to-ATF leakage, trapped machining debris, head gasket/head defects.",
+      "correction_summary": "Short block may require replacement if documented loss remains unexplained; TAC authorization specified.",
+      "source_ids": [
+        "corrections-src-012"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "CV coverage starts 2004.",
+        "Reinforced-block boundary: CV suffix66007190; sedan/combi61111931. Later castings reduce likelihood, not eliminate it.",
+        "Source boundary wording is inconsistent; no automated safe/unsafe VIN decision is supported. See corrections-gap records."
+      ],
+      "review_status": "provisional"
+    },
+    {
+      "id": "corrections-issue-013",
+      "title": "B207 PCV check valve before turbo diagnosis",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207R",
+          "B207"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2003,
+              2004
+            ],
+            "engine_codes": [
+              "B207R"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2005,
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011
+            ],
+            "engine_codes": [
+              "B207"
+            ]
+          }
+        ]
+      },
+      "cause": "Intake-manifold check-valve fault can be mistaken for turbo-related oil consumption.",
+      "symptoms": [
+        "oil consumption"
+      ],
+      "diagnosis_summary": "Pressure-test valve before replacing turbo.",
+      "correction_summary": "Replace failed valve 55557180 with manifold gasket; model-specific removal methods.",
+      "source_ids": [
+        "corrections-src-013"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "2003–04 explicitly B207R; 2005 onward B207.",
+        "Do not transfer B205/B235 PCV6 kit to B207."
+      ]
+    },
+    {
+      "id": "corrections-issue-014",
+      "title": "Front spring corrosion / fracture special coverage15917",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "CA",
+          "US-CT",
+          "US-DE",
+          "US-IL",
+          "US-IN",
+          "US-IA",
+          "US-ME",
+          "US-MD",
+          "US-MA",
+          "US-MI",
+          "US-MN",
+          "US-MO",
+          "US-NH",
+          "US-NJ",
+          "US-NY",
+          "US-OH",
+          "US-PA",
+          "US-RI",
+          "US-DC",
+          "US-VT",
+          "US-WV",
+          "US-WI"
+        ],
+        "body_styles": [
+          "4D",
+          "5D",
+          "CV"
+        ]
+      },
+      "cause": "Gravel at lower seat damages coating and promotes corrosion.",
+      "symptoms": [
+        "front-end noise",
+        "reduced ride height",
+        "changed steering/handling"
+      ],
+      "diagnosis_summary": "Inspect both springs for fracture.",
+      "correction_summary": "Replace both springs using EPC selection and fit two 12794486 zinc plates; omit protective hose.",
+      "source_ids": [
+        "corrections-src-008"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Historical coverage limited to 10 years/120,000 miles; not current free-repair assurance.",
+        "Special coverage, not represented here as a safety recall."
+      ]
+    },
+    {
+      "id": "corrections-issue-015",
+      "title": "Right-side carpet water ingress at A-pillar seam",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "markets": [
+          "all"
+        ]
+      },
+      "cause": "Poor seam sealant where firewall, RH A-pillar and fender meet.",
+      "symptoms": [
+        "wet right front/rear carpet"
+      ],
+      "diagnosis_summary": "Inspect engine-bay rear-right corner and interior A-pillar seam.",
+      "correction_summary": "Remove bad sealant, clean and reseal.",
+      "source_ids": [
+        "corrections-src-020"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Bulletin gives platform scope without narrower production limits.",
+        "It does not establish BCM failure or pollen-filter housing as this cause."
+      ]
+    },
+    {
+      "id": "corrections-issue-016",
+      "title": "Takata driver-inflator recall16V-063 report scope",
+      "applicability": {
+        "platforms": [
+          "9-3-9440",
+          "9-5-9650"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "markets": [
+          "US"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2003,
+              2004,
+              2005,
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011
+            ],
+            "markets": [
+              "US"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9650"
+            ],
+            "model_years": [
+              2010,
+              2011
+            ],
+            "markets": [
+              "US"
+            ]
+          }
+        ]
+      },
+      "cause": "Inflator rupture can send fragments through cushion.",
+      "symptoms": [
+        "potential injury during deployment"
+      ],
+      "diagnosis_summary": "Use VIN-specific involvement and completion record.",
+      "correction_summary": "VIN-specific replacement of affected driver inflator/module under the applicable campaign; the report is not a parts interchange approval.",
+      "source_ids": [
+        "corrections-src-023"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "This report lists 9-3 MY2003–11 and NG9-5 MY2010–11.",
+        "The separate15043 implementation bulletin has different model/year and registration-history restrictions.",
+        "VIN-specific involvement and completion still need current verification."
+      ]
+    },
+    {
+      "id": "corrections-issue-017",
+      "title": "2010–11 original-equipment fuel-pump recall15029 /11V015",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "cause": "Incorrect internal specifications can seize pump.",
+      "symptoms": [
+        "unannounced engine stall"
+      ],
+      "diagnosis_summary": "Verify VIN involvement; affected production June–October2010.",
+      "correction_summary": "Replace defective pump under campaign.",
+      "source_ids": [
+        "corrections-src-025"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Not all 2010–11 cars affected; pump number/serial checks not retrieved."
+      ]
+    },
+    {
+      "id": "corrections-issue-018",
+      "title": "Early sedan front-belt ATS cable recall15017 /04V226",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004
+        ],
+        "markets": [
+          "US",
+          "CA",
+          "MX"
+        ],
+        "body_styles": [
+          "4D"
+        ],
+        "vin_ranges": [
+          {
+            "start": "31000001",
+            "end": "41016379",
+            "format": "8-character chassis suffix"
+          }
+        ]
+      },
+      "cause": "Manufacturing damage can break retractor wire.",
+      "symptoms": [
+        "belt fails to retract"
+      ],
+      "diagnosis_summary": "Verify recall history.",
+      "correction_summary": "Replace both front belts per campaign.",
+      "source_ids": [
+        "corrections-src-026"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Excerpt-only source."
+      ]
+    },
+    {
+      "id": "corrections-issue-019",
+      "title": "Later 2004 sedan driver-belt recall10V043",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004
+        ],
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "4D"
+        ]
+      },
+      "cause": "ATS cable can break with time.",
+      "symptoms": [
+        "webbing does not retract"
+      ],
+      "diagnosis_summary": "Confirm VIN involvement.",
+      "correction_summary": "Replace driver retractor; passenger side had separate 10-year coverage.",
+      "source_ids": [
+        "corrections-src-027"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Excerpt-only; detailed VIN boundaries not retrieved.",
+        "Passenger coverage is historical."
+      ]
+    },
+    {
+      "id": "corrections-issue-020",
+      "title": "15043-03 driver-airbag replacement implementation",
+      "applicability": {
+        "platforms": [
+          "9-3-9440",
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "markets": [
+          "US"
+        ],
+        "registration_history_regions": [
+          "Alabama",
+          "California",
+          "Florida",
+          "Georgia",
+          "Hawaii",
+          "Louisiana",
+          "Mississippi",
+          "South Carolina",
+          "Texas",
+          "Guam",
+          "Puerto Rico",
+          "Saipan",
+          "U.S. Samoa",
+          "U.S. Virgin Islands"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011
+            ],
+            "markets": [
+              "US"
+            ],
+            "registration_history_regions": [
+              "Alabama",
+              "California",
+              "Florida",
+              "Georgia",
+              "Hawaii",
+              "Louisiana",
+              "Mississippi",
+              "South Carolina",
+              "Texas",
+              "Guam",
+              "Puerto Rico",
+              "Saipan",
+              "U.S. Samoa",
+              "U.S. Virgin Islands"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009
+            ],
+            "markets": [
+              "US"
+            ],
+            "registration_history_regions": [
+              "Alabama",
+              "California",
+              "Florida",
+              "Georgia",
+              "Hawaii",
+              "Louisiana",
+              "Mississippi",
+              "South Carolina",
+              "Texas",
+              "Guam",
+              "Puerto Rico",
+              "Saipan",
+              "U.S. Samoa",
+              "U.S. Virgin Islands"
+            ]
+          }
+        ]
+      },
+      "cause": "The bulletin describes driver inflators that can rupture on deployment.",
+      "symptoms": [
+        "potential injury during deployment"
+      ],
+      "diagnosis_summary": "Confirm VIN involvement and campaign completion through the applicable authorized service system.",
+      "correction_summary": "The February2018 bulletin specifies authorized replacement of driver airbag module assembly39095647.",
+      "source_ids": [
+        "corrections-src-024"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "The stated regions concern current or previous registration, not just present residence.",
+        "This implementation document is distinct from the16V-063 Part573 report.",
+        "Historical dealer bonus and transportation provisions are not presented as current benefits.",
+        "The database is a selected inventory, not a complete or current VIN recall check."
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "corrections-part-001",
+      "part_number": "55561200",
+      "title": "PCV renovation kit",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Follow complete kit routing/insulation instructions."
+      ],
+      "source_ids": [
+        "corrections-src-001"
+      ],
+      "evidence_status": "documented",
+      "notes": "Historical factory kit."
+    },
+    {
+      "id": "corrections-part-002",
+      "part_number": "9186156",
+      "title": "Oil pickup tube/strainer",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "New tube required on sludge-cleanup reassembly."
+      ],
+      "source_ids": [
+        "corrections-src-001"
+      ],
+      "evidence_status": "documented",
+      "notes": "Regional CA identifier55557225."
+    },
+    {
+      "id": "corrections-part-003",
+      "part_number": "9138009",
+      "title": "Oil pickup O-ring",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "New ring required on sludge-cleanup reassembly."
+      ],
+      "source_ids": [
+        "corrections-src-001"
+      ],
+      "evidence_status": "documented",
+      "notes": "Regional CA identifier30544347."
+    },
+    {
+      "id": "corrections-part-004",
+      "part_number": "55560445",
+      "title": "Hose to oil pan",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Replace if condition requires."
+      ],
+      "source_ids": [
+        "corrections-src-001"
+      ],
+      "evidence_status": "documented",
+      "notes": ""
+    },
+    {
+      "id": "corrections-part-005",
+      "part_number": "55560463",
+      "title": "PCV breather hose",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "supersedes",
+          "part_number": "30588567",
+          "conditions": "Supplier catalogue mapping; chronology not established."
+        },
+        {
+          "type": "supersedes",
+          "part_number": "55560443",
+          "conditions": "Supplier catalogue mapping; chronology not established."
+        },
+        {
+          "type": "supersedes",
+          "part_number": "9187816",
+          "conditions": "Supplier catalogue mapping; chronology not established."
+        },
+        {
+          "type": "supersedes",
+          "part_number": "9188806",
+          "conditions": "Supplier catalogue mapping; chronology not established."
+        },
+        {
+          "type": "supersedes",
+          "part_number": "9192949",
+          "conditions": "Supplier catalogue mapping; chronology not established."
+        }
+      ],
+      "requirements": [
+        "For PCV kit installation use kit nipple."
+      ],
+      "source_ids": [
+        "corrections-src-018",
+        "corrections-src-001"
+      ],
+      "evidence_status": "documented",
+      "notes": "Catalogue also maps OG9400; no B207 fitment."
+    },
+    {
+      "id": "corrections-part-006",
+      "part_number": "9399973",
+      "title": "PCV hose with check valve",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Inspect/check valve before reuse."
+      ],
+      "source_ids": [
+        "corrections-src-001"
+      ],
+      "evidence_status": "documented",
+      "notes": ""
+    },
+    {
+      "id": "corrections-part-007",
+      "part_number": "55558696",
+      "title": "CSP15433 replacement oil trap",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235"
+        ],
+        "transmission_codes": [
+          "manual"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Apply campaign VIN and engine restrictions."
+      ],
+      "source_ids": [
+        "corrections-src-002"
+      ],
+      "evidence_status": "documented",
+      "notes": ""
+    },
+    {
+      "id": "corrections-part-008",
+      "part_number": "5961610",
+      "title": "CSP15433 additional hose",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235"
+        ],
+        "transmission_codes": [
+          "manual"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Engine number4000000–4017590."
+      ],
+      "source_ids": [
+        "corrections-src-002"
+      ],
+      "evidence_status": "documented",
+      "notes": ""
+    },
+    {
+      "id": "corrections-part-009",
+      "part_number": "90490543",
+      "title": "Ventilation hose clip",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Fit at throttle-body hose per campaign."
+      ],
+      "source_ids": [
+        "corrections-src-002",
+        "corrections-src-003"
+      ],
+      "evidence_status": "documented",
+      "notes": ""
+    },
+    {
+      "id": "corrections-part-010",
+      "part_number": "7971864",
+      "title": "Ventilation hose cable tie",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Fit at check-valve hose per campaign."
+      ],
+      "source_ids": [
+        "corrections-src-002",
+        "corrections-src-003"
+      ],
+      "evidence_status": "documented",
+      "notes": ""
+    },
+    {
+      "id": "corrections-part-011",
+      "part_number": "55562588",
+      "title": "Recall15021 four-cylinder IDM",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000,
+          2001,
+          2002
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "T7 unit; inspect serial applicability."
+      ],
+      "source_ids": [
+        "corrections-src-005",
+        "corrections-src-006"
+      ],
+      "evidence_status": "documented",
+      "notes": ""
+    },
+    {
+      "id": "corrections-part-012",
+      "part_number": "32022255",
+      "title": "Current catalogue T7 ignition cassette",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "supersedes",
+          "part_number": "55559955",
+          "conditions": "eSaabParts flat superseded-number list; no chronology."
+        },
+        {
+          "type": "supersedes",
+          "part_number": "55562588",
+          "conditions": "eSaabParts flat superseded-number list; no chronology."
+        },
+        {
+          "type": "supersedes",
+          "part_number": "30583218",
+          "conditions": "eSaabParts flat superseded-number list; no chronology."
+        },
+        {
+          "type": "supersedes",
+          "part_number": "9188640",
+          "conditions": "eSaabParts flat superseded-number list; no chronology."
+        },
+        {
+          "type": "supersedes",
+          "part_number": "9197559",
+          "conditions": "eSaabParts flat superseded-number list; no chronology."
+        },
+        {
+          "type": "supersedes",
+          "part_number": "9187980",
+          "conditions": "eSaabParts flat superseded-number list; no chronology."
+        },
+        {
+          "type": "supersedes",
+          "part_number": "9179649",
+          "conditions": "eSaabParts flat superseded-number list; no chronology."
+        }
+      ],
+      "requirements": [
+        "Correct T7 family; catalogue listing alone does not verify VIN fit."
+      ],
+      "source_ids": [
+        "corrections-src-015",
+        "corrections-src-014"
+      ],
+      "evidence_status": "supplier_claim",
+      "notes": "Supplier lists OG9400 as well; not 9440 B207."
+    },
+    {
+      "id": "corrections-part-013",
+      "part_number": "55559955",
+      "title": "Alternate four-cylinder recall IDM",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000,
+          2001,
+          2002
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Permitted by DCS1686 recall instructions."
+      ],
+      "source_ids": [
+        "corrections-src-006"
+      ],
+      "evidence_status": "documented",
+      "notes": ""
+    },
+    {
+      "id": "corrections-part-014",
+      "part_number": "93190331",
+      "title": "Oil-cooler quick-coupling kit",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "CSP15446 VIN/body and radiator-date checks."
+      ],
+      "source_ids": [
+        "corrections-src-021",
+        "corrections-src-022"
+      ],
+      "evidence_status": "documented",
+      "notes": ""
+    },
+    {
+      "id": "corrections-part-015",
+      "part_number": "55563529",
+      "title": "BioPower inlet valve (advisory repair)",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207R",
+          "B207"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2007,
+              2008
+            ],
+            "engine_codes": [
+              "B207R"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2009,
+              2010,
+              2011
+            ],
+            "engine_codes": [
+              "B207"
+            ]
+          }
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Eight required; TAC supplies full repair instructions."
+      ],
+      "source_ids": [
+        "corrections-src-010"
+      ],
+      "evidence_status": "documented",
+      "notes": "Also listed for2011 A20NFT advisory; not general head interchange proof. The shared advisory also mentions A20NFT; no automated cross-engine valve interchange is established here."
+    },
+    {
+      "id": "corrections-part-016",
+      "part_number": "32021815",
+      "title": "ISM repair kit",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "supersedes",
+          "part_number": "12801010",
+          "conditions": "Official replacement is a rebuild kit, not complete identical switch."
+        }
+      ],
+      "requirements": [
+        "Reuse salvageable black sliding housing.",
+        "Confirm clean/dry/free movement and contacts; another donor switch if unsalvageable.",
+        "Align plunger/key guide and lock retainer per illustrated instructions."
+      ],
+      "source_ids": [
+        "corrections-src-011"
+      ],
+      "evidence_status": "documented",
+      "notes": ""
+    },
+    {
+      "id": "corrections-part-017",
+      "part_number": "55557180",
+      "title": "B207 intake-manifold PCV check valve",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207R",
+          "B207"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2003,
+              2004
+            ],
+            "engine_codes": [
+              "B207R"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2005,
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011
+            ],
+            "engine_codes": [
+              "B207"
+            ]
+          }
+        ]
+      },
+      "relationships": [
+        {
+          "type": "requires",
+          "part_number": "12786262",
+          "conditions": "Manifold removal for valve replacement."
+        }
+      ],
+      "requirements": [
+        "2003–04 B207R;2005+ B207.",
+        "Diagnose by pressure before turbo replacement."
+      ],
+      "source_ids": [
+        "corrections-src-013"
+      ],
+      "evidence_status": "documented",
+      "notes": ""
+    },
+    {
+      "id": "corrections-part-018",
+      "part_number": "12786262",
+      "title": "B207 intake-manifold gasket",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207R",
+          "B207"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2003,
+              2004
+            ],
+            "engine_codes": [
+              "B207R"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2005,
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011
+            ],
+            "engine_codes": [
+              "B207"
+            ]
+          }
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Required in specified valve replacement."
+      ],
+      "source_ids": [
+        "corrections-src-013"
+      ],
+      "evidence_status": "documented",
+      "notes": ""
+    },
+    {
+      "id": "corrections-part-019",
+      "part_number": "90537718",
+      "title": "B207 throttle-body gasket",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207R",
+          "B207"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2003,
+              2004
+            ],
+            "engine_codes": [
+              "B207R"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2005,
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011
+            ],
+            "engine_codes": [
+              "B207"
+            ]
+          }
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Listed for check-valve testing/removal."
+      ],
+      "source_ids": [
+        "corrections-src-013"
+      ],
+      "evidence_status": "documented",
+      "notes": ""
+    },
+    {
+      "id": "corrections-part-020",
+      "part_number": "12794486",
+      "title": "Front spring zinc plate",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "CA",
+          "US-CT",
+          "US-DE",
+          "US-IL",
+          "US-IN",
+          "US-IA",
+          "US-ME",
+          "US-MD",
+          "US-MA",
+          "US-MI",
+          "US-MN",
+          "US-MO",
+          "US-NH",
+          "US-NJ",
+          "US-NY",
+          "US-OH",
+          "US-PA",
+          "US-RI",
+          "US-DC",
+          "US-VT",
+          "US-WV",
+          "US-WI"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Two per car; select springs separately in EPC.",
+        "Protective hose omitted in correction."
+      ],
+      "source_ids": [
+        "corrections-src-008"
+      ],
+      "evidence_status": "documented",
+      "notes": ""
+    },
+    {
+      "id": "corrections-part-021",
+      "part_number": "55554444",
+      "title": "Supplier complete PCV6 package",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "contains",
+          "part_number": "55561200",
+          "conditions": "Listed kit component."
+        },
+        {
+          "type": "contains",
+          "part_number": "55560463",
+          "conditions": "Listed kit component."
+        },
+        {
+          "type": "contains",
+          "part_number": "9399973",
+          "conditions": "Listed kit component."
+        }
+      ],
+      "requirements": [
+        "Verify actual supplied contents."
+      ],
+      "source_ids": [
+        "corrections-src-016"
+      ],
+      "evidence_status": "supplier_claim",
+      "notes": "Package composition listing, not proof of stock or OEM identifier status."
+    },
+    {
+      "id": "corrections-part-022",
+      "part_number": "21341200",
+      "title": "PROPARTS replacement PCV kit",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "aftermarket_reference",
+          "part_number": "55561200",
+          "conditions": "Supplier aftermarket reference mapping only, not OEM supersession."
+        }
+      ],
+      "requirements": [
+        "Verify kit contents and factory routing."
+      ],
+      "source_ids": [
+        "corrections-src-017"
+      ],
+      "evidence_status": "supplier_claim",
+      "notes": "No durability improvement established."
+    },
+    {
+      "id": "corrections-part-023",
+      "part_number": "7779973",
+      "title": "ESAABKITS PCV hose/check valve",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "aftermarket_reference",
+          "part_number": "9399973",
+          "conditions": "Supplier aftermarket mapping only."
+        }
+      ],
+      "requirements": [
+        "Verify valve/routing against factory procedure."
+      ],
+      "source_ids": [
+        "corrections-src-019"
+      ],
+      "evidence_status": "supplier_claim",
+      "notes": "No OEM engineering supersession or improved durability established."
+    },
+    {
+      "id": "corrections-part-024",
+      "part_number": "39095647",
+      "title": "Driver airbag module assembly for15043",
+      "applicability": {
+        "platforms": [
+          "9-3-9440",
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "markets": [
+          "US"
+        ],
+        "registration_history_regions": [
+          "Alabama",
+          "California",
+          "Florida",
+          "Georgia",
+          "Hawaii",
+          "Louisiana",
+          "Mississippi",
+          "South Carolina",
+          "Texas",
+          "Guam",
+          "Puerto Rico",
+          "Saipan",
+          "U.S. Samoa",
+          "U.S. Virgin Islands"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011
+            ],
+            "markets": [
+              "US"
+            ],
+            "registration_history_regions": [
+              "Alabama",
+              "California",
+              "Florida",
+              "Georgia",
+              "Hawaii",
+              "Louisiana",
+              "Mississippi",
+              "South Carolina",
+              "Texas",
+              "Guam",
+              "Puerto Rico",
+              "Saipan",
+              "U.S. Samoa",
+              "U.S. Virgin Islands"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009
+            ],
+            "markets": [
+              "US"
+            ],
+            "registration_history_regions": [
+              "Alabama",
+              "California",
+              "Florida",
+              "Georgia",
+              "Hawaii",
+              "Louisiana",
+              "Mississippi",
+              "South Carolina",
+              "Texas",
+              "Guam",
+              "Puerto Rico",
+              "Saipan",
+              "U.S. Samoa",
+              "U.S. Virgin Islands"
+            ]
+          }
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "VIN-specific recall confirmation and authorized workshop.",
+        "9-5 model years2006–09;9-3 2006–11; geography per bulletin."
+      ],
+      "source_ids": [
+        "corrections-src-024"
+      ],
+      "evidence_status": "documented",
+      "notes": "Campaign-specific assembly listing is not universal platform compatibility."
+    },
+    {
+      "id": "corrections-part-025",
+      "part_number": "12760074",
+      "title": "Front left belt, recall15017",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004
+        ],
+        "markets": [
+          "US",
+          "CA",
+          "MX"
+        ],
+        "body_styles": [
+          "4D"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Recall VIN interval applies."
+      ],
+      "source_ids": [
+        "corrections-src-026"
+      ],
+      "evidence_status": "documented",
+      "notes": "Excerpt-only."
+    },
+    {
+      "id": "corrections-part-026",
+      "part_number": "12760075",
+      "title": "Front right belt, recall15017",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004
+        ],
+        "markets": [
+          "US",
+          "CA",
+          "MX"
+        ],
+        "body_styles": [
+          "4D"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Recall VIN interval applies."
+      ],
+      "source_ids": [
+        "corrections-src-026"
+      ],
+      "evidence_status": "documented",
+      "notes": "Excerpt-only."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "corrections-gap-001",
+      "title": "Individual-car recall completion",
+      "missing_inputs": [
+        "17-character VIN",
+        "market",
+        "dealer/regulator completion record"
+      ],
+      "reason": "Model-year and bulletin scope cannot confirm an individual car's open campaigns.",
+      "source_ids": [
+        "corrections-src-005",
+        "corrections-src-021",
+        "corrections-src-023",
+        "corrections-src-024",
+        "corrections-src-025",
+        "corrections-src-026",
+        "corrections-src-027"
+      ]
+    },
+    {
+      "id": "corrections-gap-002",
+      "title": "Prior damage and rebuild avoidance",
+      "missing_inputs": [
+        "cold compression/leak-down",
+        "oil-pressure/engine history",
+        "ATF contamination inspection",
+        "PCV installation evidence"
+      ],
+      "reason": "Factory corrections do not certify that an aged car avoided earlier damage.",
+      "source_ids": [
+        "corrections-src-001",
+        "corrections-src-004",
+        "corrections-src-010",
+        "corrections-src-012"
+      ]
+    },
+    {
+      "id": "corrections-gap-003",
+      "title": "Part orderability and fit",
+      "missing_inputs": [
+        "VIN EPC lookup",
+        "supplier written fit confirmation",
+        "live availability"
+      ],
+      "reason": "Catalogue mappings and kit listings do not establish stock, cross-platform fit or durability.",
+      "source_ids": [
+        "corrections-src-015",
+        "corrections-src-016",
+        "corrections-src-017",
+        "corrections-src-018",
+        "corrections-src-019"
+      ]
+    },
+    {
+      "id": "corrections-gap-004",
+      "title": "CSP15433 market list",
+      "missing_inputs": [
+        "separate importer market list",
+        "campaign involvement record"
+      ],
+      "reason": "Bulletin references a separate market list not retrieved.",
+      "source_ids": [
+        "corrections-src-002"
+      ]
+    },
+    {
+      "id": "corrections-gap-005",
+      "title": "B207 reinforced-block inclusive boundary",
+      "missing_inputs": [
+        "original dated PI revision",
+        "VIN/engine-number production change record"
+      ],
+      "reason": "PDF uses both production-from and up-to wording; only boundary suffixes preserved.",
+      "source_ids": [
+        "corrections-src-012"
+      ]
+    },
+    {
+      "id": "corrections-gap-006",
+      "title": "Complete recall inventory",
+      "missing_inputs": [
+        "VIN",
+        "market-specific complete recall lookup"
+      ],
+      "reason": "This initial pass records selected primary campaigns, not every campaign ever issued.",
+      "source_ids": []
+    },
+    {
+      "id": "corrections-gap-007",
+      "title": "Later 2004 belt recall VIN limits",
+      "missing_inputs": [
+        "full readable10V043 attached population sheet"
+      ],
+      "reason": "Indexed letter establishes sedan/year/driver remedy but no exact VIN boundaries.",
+      "source_ids": [
+        "corrections-src-027"
+      ]
+    }
+  ]
+}

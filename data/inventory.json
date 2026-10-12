@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "domains": [
+    "corrections",
+    "ng93_body",
+    "ng93",
+    "og95_body",
+    "og95",
+    "replacements",
+    "simulation"
+  ],
+  "counts": {
+    "sources": 128,
+    "facts": 269,
+    "issues": 20,
+    "parts": 31,
+    "gaps": 51
+  },
+  "unique_source_urls": 127,
+  "retrieval_statuses": {
+    "full_text": 120,
+    "metadata_only": 2,
+    "partial": 3,
+    "search_excerpt": 3
+  },
+  "evidence_statuses": {
+    "documented": 289,
+    "inference": 3,
+    "supplier_claim": 28
+  },
+  "research_date": "2026-10-12",
+  "notes": "Generated inventory of the initial research; counts do not imply independent certification of every technical value."
+}

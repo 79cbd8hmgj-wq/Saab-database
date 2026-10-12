@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "record_status": "template_not_a_vehicle",
+  "vehicle_id": null,
+  "identity": {
+    "vin": null,
+    "market": null,
+    "model_year": null,
+    "build_date": null,
+    "platform": null,
+    "body_style": null,
+    "engine_code": null,
+    "engine_serial": null,
+    "gearbox_code": null,
+    "gearbox_serial": null,
+    "ecu_hardware_id": null,
+    "ecu_software_id": null
+  },
+  "installed_components": [],
+  "modifications": [],
+  "maintenance_records": [],
+  "observations": [],
+  "measurements": [],
+  "diagnostic_logs": [],
+  "unresolved_identification": [],
+  "notes": "Populate only with observed or documented information. Factory nominal values are not measurements of this vehicle."
+}

@@ -1,0 +1,1196 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "simulation",
+  "sources": [
+    {
+      "id": "simulation-src-001",
+      "title": "TuningSuites README",
+      "url": "https://github.com/mattiasclaesson/TuningSuites/blob/master/README.md",
+      "publisher": "TxSuite contributors",
+      "source_type": "open_source_project",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Read using raw GitHub API; project documentation, not factory calibration validation."
+    },
+    {
+      "id": "simulation-src-002",
+      "title": "TuningSuites repository metadata and LICENSE",
+      "url": "https://api.github.com/repos/mattiasclaesson/TuningSuites",
+      "publisher": "GitHub / mattiasclaesson",
+      "source_type": "open_source_project",
+      "accessed_at": "2026-10-12",
+      "retrieval": "metadata_only",
+      "notes": "API retrieved directly. LICENSE inspected at https://github.com/mattiasclaesson/TuningSuites/blob/master/LICENSE; Apache-2.0."
+    },
+    {
+      "id": "simulation-src-003",
+      "title": "Trionic CAN Flasher README",
+      "url": "https://github.com/mattiasclaesson/Trionic/blob/master/README.md",
+      "publisher": "TxSuite contributors",
+      "source_type": "open_source_project",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Read-only summary; operational flash instructions deliberately excluded."
+    },
+    {
+      "id": "simulation-src-004",
+      "title": "Trionic repository metadata",
+      "url": "https://api.github.com/repos/mattiasclaesson/Trionic",
+      "publisher": "GitHub / mattiasclaesson",
+      "source_type": "open_source_project",
+      "accessed_at": "2026-10-12",
+      "retrieval": "metadata_only",
+      "notes": "Root contents inspected: no LICENSE at root; license API field null is not proof that every file lacks licensing."
+    },
+    {
+      "id": "simulation-src-005",
+      "title": "txlogger README, metadata and custom license",
+      "url": "https://github.com/roffe/txlogger",
+      "publisher": "Joakim Karlsson / roffe",
+      "source_type": "open_source_project",
+      "accessed_at": "2026-10-12",
+      "retrieval": "partial",
+      "notes": "Inspected README.md, LICENSE.md and repository API. Public source code; custom license, not verified OSI open source. LICENSE.md labels PUSU-1.0; GitHub SPDX NOASSERTION."
+    },
+    {
+      "id": "simulation-src-006",
+      "title": "MY2000 9-5 B235E/R Trionic T7 LEV Read Values",
+      "url": "https://saabwisonline.com/9-5-9600/2000/2-engine/trionic-t7-lev-4-cyl-b235e-r/fault-diagnosis-general/menu-read-values",
+      "publisher": "Saab Automobile; republished by Saab WIS Online",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory-derived text on third-party host; preserve republication provenance. Diagnostic display limits are not safe mechanical limits."
+    },
+    {
+      "id": "simulation-src-007",
+      "title": "MY2007 9-3 Tech 2 Read Values",
+      "url": "https://saabwisonline.com/9-3-9440/2007/0-general/tech-2/technical-description/read-values",
+      "publisher": "Saab Automobile; republished by Saab WIS Online",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Examples explicitly display T8."
+    },
+    {
+      "id": "simulation-src-008",
+      "title": "LAWICEL CANUSB product documentation",
+      "url": "https://www.canusb.com/products/canusb/",
+      "publisher": "LAWICEL / ELMICRO",
+      "source_type": "manufacturer_datasheet",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Manufacturer throughput statements depend on driver and workload."
+    },
+    {
+      "id": "simulation-src-009",
+      "title": "OBDLink SX manufacturer specifications",
+      "url": "https://www.scantool.net/obdlink-sx/",
+      "publisher": "OBD Solutions / ScanTool.net",
+      "source_type": "manufacturer_datasheet",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Manufacturer maximum PID-rate claim is not per-channel logging performance on a Saab."
+    },
+    {
+      "id": "simulation-src-010",
+      "title": "Gates 24826 GS DURION straight silicone coolant hose",
+      "url": "https://www.gates.com/us/en/fluid-power/engine-hose/coolant-hose.p.4171-000000-000001.v.4171-01909.html",
+      "publisher": "Gates Corporation",
+      "source_type": "manufacturer_datasheet",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Illustrative SKU; no Saab fitment verified. Working-pressure temperature derating not retrieved."
+    },
+    {
+      "id": "simulation-src-011",
+      "title": "Gates GB PVC/EEC fuel hose family",
+      "url": "https://www.gates.com/gb/en/fluid-power/engine-hose/fuel-line-hose.p.3225-000000-000000.html",
+      "publisher": "Gates Corporation",
+      "source_type": "manufacturer_datasheet",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Family data only; page title spells PVC while application text says PCV. Exact SKU required. Conflicting US family text inspected at https://www.gates.com/us/en/fluid-power/engine-hose/fuel-line-hose.p.3225-000000-000000.3225-04798.html; do not merge contradictory application limits."
+    },
+    {
+      "id": "simulation-src-012",
+      "title": "Engine Calibration Maps",
+      "url": "https://www.mathworks.com/help/vdynblks/ug/engine-calibration-maps.html",
+      "publisher": "MathWorks",
+      "source_type": "technical_reference",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "R2026b documentation describes reference maps and need for application-specific calibration."
+    },
+    {
+      "id": "simulation-src-013",
+      "title": "Calibrate Mapped SI Engine Using Data",
+      "url": "https://www.mathworks.com/help/autoblks/ug/calibrate-mapped-si-engine-using-data.html",
+      "publisher": "MathWorks",
+      "source_type": "technical_reference",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Tool workflow/input contract, not a Saab parameter dataset."
+    },
+    {
+      "id": "simulation-src-014",
+      "title": "Model a Radiator as a Heat Exchanger",
+      "url": "https://uk.mathworks.com/help/hydro/ug/modeling-heat-exchangers.html",
+      "publisher": "MathWorks",
+      "source_type": "technical_reference",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Example dimensions/material properties are generic and excluded from Saab facts."
+    },
+    {
+      "id": "simulation-src-015",
+      "title": "Tire (Magic Formula)",
+      "url": "https://www.mathworks.com/help/sdl/ref/tiremagicformula.html",
+      "publisher": "MathWorks",
+      "source_type": "technical_reference",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Longitudinal model documentation; no Saab tire fitting coefficients retrieved."
+    },
+    {
+      "id": "simulation-src-016",
+      "title": "COMSOL Stress Life Models",
+      "url": "https://doc.comsol.com/6.3/doc/com.comsol.help.fatigue/fatigue_ug_sme.4.20.html",
+      "publisher": "COMSOL",
+      "source_type": "technical_reference",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Model scope and material input limitations."
+    },
+    {
+      "id": "simulation-src-017",
+      "title": "How to Obtain Fatigue Model Parameters",
+      "url": "https://www.comsol.com/blogs/how-to-obtain-fatigue-model-parameters/",
+      "publisher": "COMSOL",
+      "source_type": "technical_reference",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "First-party discussion of tests and statistical material scatter."
+    },
+    {
+      "id": "simulation-src-018",
+      "title": "txlogger Estimated Output documentation",
+      "url": "https://txlogger.com/docs/estimated-output/",
+      "publisher": "Joakim Karlsson",
+      "source_type": "open_source_project",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Estimator explanations are author documentation and remain unvalidated by this research."
+    },
+    {
+      "id": "simulation-src-019",
+      "title": "txlogger Cam Timing documentation",
+      "url": "https://txlogger.com/docs/cam-timing/",
+      "publisher": "Joakim Karlsson",
+      "source_type": "open_source_project",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Only tool limitations/signal names extracted; secondary cam tables not imported as factory specs."
+    },
+    {
+      "id": "simulation-src-020",
+      "title": "txlogger Supported CANbus Adapters",
+      "url": "https://txlogger.com/docs/canbus-adapters/",
+      "publisher": "Joakim Karlsson",
+      "source_type": "open_source_project",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Support claims belong to txlogger and cannot be generalized to TxSuite/flasher."
+    }
+  ],
+  "facts": [
+    {
+      "id": "simulation-fact-001",
+      "subject": "T7Suite/T8Suite",
+      "category": "diagnostic_resources",
+      "predicate": "listed_interfaces",
+      "value": [
+        "Lawicel CANUSB",
+        "CombiAdapter",
+        "OBDLink SX",
+        "Just4Tronic",
+        "Kvaser HS",
+        "J2534 (Beta)"
+      ],
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "README > T7Suite/T8Suite interface lists",
+      "notes": ""
+    },
+    {
+      "id": "simulation-fact-002",
+      "subject": "TxSuites",
+      "category": "diagnostic_resources",
+      "predicate": "supports",
+      "value": "Real-time view and airmass viewer",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "README opening paragraphs",
+      "notes": "Prediction feature is a software estimate."
+    },
+    {
+      "id": "simulation-fact-003",
+      "subject": "TuningSuites",
+      "category": "software_provenance",
+      "predicate": "repository_license",
+      "value": "Apache-2.0",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "LICENSE header and API license.spdx_id",
+      "notes": "Scope of dependencies/bundled assets needs separate review."
+    },
+    {
+      "id": "simulation-fact-004",
+      "subject": "TuningSuites",
+      "category": "software_provenance",
+      "predicate": "repository_snapshot",
+      "value": {
+        "default_branch": "master",
+        "archived": false,
+        "pushed_at": "2025-07-03T20:10:48Z"
+      },
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "GitHub repository API fields",
+      "notes": "Snapshot does not guarantee support."
+    },
+    {
+      "id": "simulation-fact-005",
+      "subject": "Trionic CAN Flasher",
+      "category": "diagnostic_resources",
+      "predicate": "documented_ecu_families",
+      "value": [
+        "Trionic 5",
+        "Trionic 7",
+        "Trionic 8",
+        "Motronic 9.6"
+      ],
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "README opening paragraph",
+      "notes": "Read/write feature scope differs by family; no operational instructions included."
+    },
+    {
+      "id": "simulation-fact-006",
+      "subject": "Trionic CAN Flasher",
+      "category": "diagnostic_resources",
+      "predicate": "has_read_only_identification_function",
+      "value": "Get ECU Info displays vehicle/software information",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "README > Quick start guide",
+      "notes": "Specific returned fields not enumerated here."
+    },
+    {
+      "id": "simulation-fact-007",
+      "subject": "Trionic CAN Flasher",
+      "category": "diagnostic_resources",
+      "predicate": "documented_connection_constraint",
+      "value": "Cable required; Bluetooth/WiFi unsupported",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "README > Quick start guide",
+      "notes": ""
+    },
+    {
+      "id": "simulation-fact-008",
+      "subject": "Trionic",
+      "category": "software_provenance",
+      "predicate": "repository_snapshot",
+      "value": {
+        "default_branch": "master",
+        "archived": false,
+        "pushed_at": "2025-07-03T20:40:28Z",
+        "license_metadata": null
+      },
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "GitHub API and root contents",
+      "notes": "No root LICENSE observed; file-level licensing not exhaustively audited."
+    },
+    {
+      "id": "simulation-fact-009",
+      "subject": "txlogger",
+      "category": "diagnostic_resources",
+      "predicate": "README_platform_mapping",
+      "value": {
+        "Trionic 7": [
+          "OG9-3",
+          "OG9-5"
+        ],
+        "Trionic 8": [
+          "NG9-3"
+        ]
+      },
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "README opening bullets",
+      "notes": ""
+    },
+    {
+      "id": "simulation-fact-010",
+      "subject": "txlogger",
+      "category": "software_provenance",
+      "predicate": "repository_snapshot",
+      "value": {
+        "default_branch": "master",
+        "archived": false,
+        "pushed_at": "2026-10-10T15:49:43Z",
+        "license_label": "PUSU-1.0",
+        "github_spdx": "NOASSERTION"
+      },
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "LICENSE.md heading and GitHub API",
+      "notes": "Custom terms require review before code reuse."
+    },
+    {
+      "id": "simulation-fact-011",
+      "subject": "T7 read values",
+      "category": "measurement_semantics",
+      "predicate": "airmass_modes",
+      "value": "MAF-derived airmass and pressure/temperature/RPM-calculated airmass are distinct",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "simulation-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Rows Airmass/Combustion and Airmass/Comb. Calculated",
+      "notes": ""
+    },
+    {
+      "id": "simulation-fact-012",
+      "subject": "T7 read values",
+      "category": "measurement_semantics",
+      "predicate": "displayed_torque_power_origin",
+      "value": "Airmass converted to torque/power",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "simulation-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Rows Engine Torque / Engine Power",
+      "notes": "Not an independent dynamometer measurement."
+    },
+    {
+      "id": "simulation-fact-013",
+      "subject": "T7 read values",
+      "category": "measurement_semantics",
+      "predicate": "requested_airmass_deviation_interpretation",
+      "value": "Stable constant-load readings; displayed deviation is strongly damped",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "simulation-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Row Airmass Deviation from Requested",
+      "notes": "Transient deviations can be normal."
+    },
+    {
+      "id": "simulation-fact-014",
+      "subject": "T7 read values",
+      "category": "measurement_semantics",
+      "predicate": "automatic_transmission_torque_limit_source",
+      "value": "TCM bus",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "simulation-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Rows Torque Limit (Bus from TCM) / Automatic Transmission (Bus from TCM)",
+      "notes": ""
+    },
+    {
+      "id": "simulation-fact-015",
+      "subject": "Tech 2 read values",
+      "category": "diagnostic_resources",
+      "predicate": "graphical_display",
+      "value": "Line graph with English/metric units",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "simulation-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "Read Values; lines 7-24",
+      "notes": ""
+    },
+    {
+      "id": "simulation-fact-016",
+      "subject": "Tech 2 read values",
+      "category": "measurement_semantics",
+      "predicate": "example_channels",
+      "value": [
+        "Engine RPM",
+        "Airmass/Combustion",
+        "Engine Coolant Temperature"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "simulation-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "Engine Control examples",
+      "notes": "Examples do not prove every firmware exports all channels through every adapter."
+    },
+    {
+      "id": "simulation-fact-017",
+      "subject": "LAWICEL CANUSB",
+      "category": "adapter_envelope",
+      "predicate": "usb_supply",
+      "value": {
+        "voltage": 5,
+        "current": 100
+      },
+      "unit": "V / mA",
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-008"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "How to connect",
+      "notes": "Manufacturer supply specification."
+    },
+    {
+      "id": "simulation-fact-018",
+      "subject": "LAWICEL CANUSB",
+      "category": "adapter_envelope",
+      "predicate": "driver_throughput_claim",
+      "value": "5000+ received frames/s; approximately 1000 request-response messages/s",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-008"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Sample Programs and Drivers",
+      "notes": "Driver workload claim; not Saab channel sampling rate."
+    },
+    {
+      "id": "simulation-fact-019",
+      "subject": "OBDLink SX",
+      "category": "adapter_envelope",
+      "predicate": "supported_bus_limits",
+      "value": {
+        "all_obd_ii_protocols": true,
+        "single_wire_gmlan": false,
+        "ford_ms_can": false
+      },
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-009"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Additional Info and Protocols",
+      "notes": "Generic OBD support does not establish enhanced Saab coverage."
+    },
+    {
+      "id": "simulation-fact-020",
+      "subject": "OBDLink SX",
+      "category": "adapter_envelope",
+      "predicate": "operating_voltage_range",
+      "value": [
+        8,
+        18
+      ],
+      "unit": "V DC",
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-009"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Additional Info > Operating voltage",
+      "notes": ""
+    },
+    {
+      "id": "simulation-fact-021",
+      "subject": "OBDLink SX",
+      "category": "adapter_envelope",
+      "predicate": "operating_temperature_range",
+      "value": [
+        -20,
+        55
+      ],
+      "unit": "degC",
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-009"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Additional Info > Operating temperature",
+      "notes": ""
+    },
+    {
+      "id": "simulation-fact-022",
+      "subject": "OBDLink SX",
+      "category": "adapter_envelope",
+      "predicate": "maximum_pid_rate_claim",
+      "value": 200,
+      "unit": "PIDs/s",
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-009"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Additional Info > Maximum PID rate",
+      "notes": "Approximate aggregate maximum; actual vehicle throughput may be lower."
+    },
+    {
+      "id": "simulation-fact-023",
+      "subject": "Gates 24826 silicone coolant hose",
+      "category": "material_compatibility",
+      "predicate": "temperature_range",
+      "value": [
+        -56,
+        177
+      ],
+      "unit": "degC",
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-010"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Product features",
+      "notes": "No Saab fitment established."
+    },
+    {
+      "id": "simulation-fact-024",
+      "subject": "Gates 24826 silicone coolant hose",
+      "category": "material_compatibility",
+      "predicate": "working_pressure",
+      "value": 80,
+      "unit": "psi",
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-010"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Specifications > Working Pressure",
+      "notes": "Temperature derating not provided in retrieved text."
+    },
+    {
+      "id": "simulation-fact-025",
+      "subject": "Gates 24826 silicone coolant hose",
+      "category": "material_compatibility",
+      "predicate": "service_exclusion",
+      "value": "Fuel/oil transfer prohibited",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-010"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Notes > Caution",
+      "notes": ""
+    },
+    {
+      "id": "simulation-fact-026",
+      "subject": "Gates straight silicone coolant hose",
+      "category": "material_compatibility",
+      "predicate": "water_permeation_relative_claim",
+      "value": [
+        10,
+        15
+      ],
+      "unit": "times Straight 2-Ply Coolant Hose",
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-010"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Product feature note",
+      "notes": "Relative claim is specific to manufacturer's comparison."
+    },
+    {
+      "id": "simulation-fact-027",
+      "subject": "Gates GB PCV/EEC fuel hose family",
+      "category": "material_compatibility",
+      "predicate": "construction",
+      "value": "Nitrile tube, modified nitrile cover, synthetic fibre reinforcement",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-011"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Features and Benefits",
+      "notes": ""
+    },
+    {
+      "id": "simulation-fact-028",
+      "subject": "Gates GB PCV/EEC fuel hose family",
+      "category": "material_compatibility",
+      "predicate": "temperature_range",
+      "value": [
+        -40,
+        125
+      ],
+      "unit": "degC",
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-011"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Product description > Temperature",
+      "notes": ""
+    },
+    {
+      "id": "simulation-fact-029",
+      "subject": "Gates GB PCV/EEC fuel hose family",
+      "category": "material_compatibility",
+      "predicate": "service_exclusions",
+      "value": [
+        "Pressure lines on fuel-injected engines",
+        "Cooling systems"
+      ],
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-011"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Product description > Caution",
+      "notes": "Exact SKU/assembly validation required."
+    },
+    {
+      "id": "simulation-fact-030",
+      "subject": "MathWorks engine reference maps",
+      "category": "simulation_requirements",
+      "predicate": "reference_origin",
+      "value": "1.5 L SI/CI Gamma Technologies reference engines",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-012"
+      ],
+      "evidence_status": "documented",
+      "locator": "Engine Calibration Maps introduction",
+      "notes": "These are not Saab B235/B207 maps."
+    },
+    {
+      "id": "simulation-fact-031",
+      "subject": "Application-specific engine calibration",
+      "category": "simulation_requirements",
+      "predicate": "typical_data_origin",
+      "value": "Engine dynamometer tests or engine hardware design models",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-012"
+      ],
+      "evidence_status": "documented",
+      "locator": "Introduction > application-specific behavior",
+      "notes": ""
+    },
+    {
+      "id": "simulation-fact-032",
+      "subject": "Mapped SI engine calibration workflow",
+      "category": "simulation_requirements",
+      "predicate": "required_table_axes",
+      "value": [
+        "Torque command (N m)",
+        "Engine speed (rpm)"
+      ],
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-013"
+      ],
+      "evidence_status": "documented",
+      "locator": "Firing/Nonfiring Data tables",
+      "notes": "Additional performance outputs require supporting measurements."
+    },
+    {
+      "id": "simulation-fact-033",
+      "subject": "Mapped SI engine calibration workflow",
+      "category": "simulation_requirements",
+      "predicate": "optional_dataset_fields",
+      "value": [
+        "Air mass flow",
+        "Fuel mass flow",
+        "Exhaust temperature",
+        "BSFC",
+        "Emission mass flows"
+      ],
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-013"
+      ],
+      "evidence_status": "documented",
+      "locator": "Firing Data table",
+      "notes": "Optional in software input contract does not mean inferable from factory peak power."
+    },
+    {
+      "id": "simulation-fact-034",
+      "subject": "Radiator heat exchanger model",
+      "category": "simulation_requirements",
+      "predicate": "inputs",
+      "value": "Physical radiator measurements, fluid thermodynamics and heat-transfer material properties",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-014"
+      ],
+      "evidence_status": "documented",
+      "locator": "Introduction and measurements table",
+      "notes": "Generic example values excluded."
+    },
+    {
+      "id": "simulation-fact-035",
+      "subject": "Magic Formula tire model",
+      "category": "simulation_requirements",
+      "predicate": "parameterization",
+      "value": "Empirical coefficients or peak force/slip, normal load and rolling radius",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-015"
+      ],
+      "evidence_status": "documented",
+      "locator": "Description; Main; Geometry",
+      "notes": "Tire size alone does not supply friction coefficients."
+    },
+    {
+      "id": "simulation-fact-036",
+      "subject": "Magic Formula tire block",
+      "category": "simulation_requirements",
+      "predicate": "scope_limit",
+      "value": "Longitudinal only; no camber, turning or lateral motion",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-015"
+      ],
+      "evidence_status": "documented",
+      "locator": "Assumptions and Limitations",
+      "notes": ""
+    },
+    {
+      "id": "simulation-fact-037",
+      "subject": "Stress-life fatigue model",
+      "category": "simulation_requirements",
+      "predicate": "requires",
+      "value": "Material S-N relation and relevant stress cycle; environmental/surface/size corrections may matter",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-016"
+      ],
+      "evidence_status": "documented",
+      "locator": "S-N Curve Model",
+      "notes": "High stresses outside supplied S-N range yield no fatigue result."
+    },
+    {
+      "id": "simulation-fact-038",
+      "subject": "Fatigue material calibration",
+      "category": "simulation_requirements",
+      "predicate": "statistical_requirements",
+      "value": "Multiple tests; consistent reliability level and matched test/operating conditions",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-017"
+      ],
+      "evidence_status": "documented",
+      "locator": "Advice for obtaining parameters via S-N curve",
+      "notes": "Material scatter limits lifetime certainty."
+    },
+    {
+      "id": "simulation-fact-039",
+      "subject": "txlogger output estimator",
+      "category": "simulation_requirements",
+      "predicate": "estimator_modes",
+      "value": "Firmware request/limiter estimate and acceleration-derived street dyno are separate",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-018"
+      ],
+      "evidence_status": "documented",
+      "locator": "Estimated Output introduction",
+      "notes": "No independent validation performed."
+    },
+    {
+      "id": "simulation-fact-040",
+      "subject": "txlogger cam-timing display",
+      "category": "simulation_requirements",
+      "predicate": "model_geometry_limit",
+      "value": "Lobe between advertised events is a modelled sin-squared shape, not a measured profile",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "simulation-src-019"
+      ],
+      "evidence_status": "documented",
+      "locator": "What is derived, and how",
+      "notes": "Do not treat render as actual CAD/valve-motion data."
+    }
+  ],
+  "issues": [],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "simulation-gap-001",
+      "title": "Vehicle and ECU identity",
+      "missing_inputs": [
+        "VIN/chassis and model year",
+        "market/emissions variant",
+        "exact B235/B207 suffix and installed transmission code",
+        "ECU hardware/software IDs and calibration hash",
+        "stock/modification history"
+      ],
+      "reason": "Platform/engine family does not uniquely identify installed software or hardware; join every model input to the actual vehicle configuration.",
+      "source_ids": [
+        "simulation-src-003",
+        "simulation-src-006",
+        "simulation-src-007",
+        "simulation-src-018"
+      ]
+    },
+    {
+      "id": "simulation-gap-002",
+      "title": "Traceable logging acquisition",
+      "missing_inputs": [
+        "channel definitions, units and ECU addresses",
+        "measured aggregate/per-channel sample rates",
+        "timestamps, clock alignment and dropped-frame statistics",
+        "sensor calibration, range, uncertainty and lag",
+        "measured versus ECU-estimated flags"
+      ],
+      "reason": "Adapter maxima and diagnostic labels cannot establish trustworthy synchronized measurements; validate channels against independent instrumentation.",
+      "source_ids": [
+        "simulation-src-001",
+        "simulation-src-008",
+        "simulation-src-009",
+        "simulation-src-019",
+        "simulation-src-020"
+      ]
+    },
+    {
+      "id": "simulation-gap-003",
+      "title": "Measured engine operating maps",
+      "missing_inputs": [
+        "brake torque over RPM/load",
+        "fuel and air mass flow maps",
+        "BSFC and nonfiring losses",
+        "temperature/fuel/ambient conditions",
+        "repeatability and hold-out test data"
+      ],
+      "reason": "Factory peak output and ECU-request maps are insufficient for a calibrated performance/economy model; use traceable dynamometer measurements.",
+      "source_ids": [
+        "simulation-src-006",
+        "simulation-src-012",
+        "simulation-src-013",
+        "simulation-src-018"
+      ]
+    },
+    {
+      "id": "simulation-gap-004",
+      "title": "Detailed combustion and gas-exchange model",
+      "missing_inputs": [
+        "bore/stroke/clearance volume",
+        "measured valve-lift curves and valve-flow coefficients",
+        "port/manifold geometry",
+        "friction/heat-transfer laws",
+        "combustion/knock model calibration"
+      ],
+      "reason": "Advertised events or a synthetic cam plot do not supply measured flow/lift geometry. A detailed B235/B207 engine model needs additional experimental and geometric inputs.",
+      "source_ids": [
+        "simulation-src-012",
+        "simulation-src-019"
+      ]
+    },
+    {
+      "id": "simulation-gap-005",
+      "title": "Turbo, charge-air and injector changes",
+      "missing_inputs": [
+        "exact turbo compressor/turbine maps and shaft limits",
+        "wastegate/control response",
+        "intercooler pressure loss and heat-transfer maps",
+        "injector flow/deadtime versus voltage/pressure/fuel",
+        "fuel-system pressure and lambda/EGT measurement"
+      ],
+      "reason": "Calibration request/limit maps describe ECU intent; they do not prove physical airflow, fueling capacity or safe component operating margins.",
+      "source_ids": [
+        "simulation-src-001",
+        "simulation-src-006",
+        "simulation-src-012",
+        "simulation-src-018"
+      ]
+    },
+    {
+      "id": "simulation-gap-006",
+      "title": "Gearbox and longitudinal drivetrain",
+      "missing_inputs": [
+        "exact ratios and final drive",
+        "rotating inertia and efficiency/loss map",
+        "clutch capacity/slip or converter characteristics",
+        "shift/control logic",
+        "test vehicle mass and payload"
+      ],
+      "reason": "Factory ratios may support kinematic screening, but acceleration and transmission durability need measured torque, losses and dynamics.",
+      "source_ids": [
+        "simulation-src-006",
+        "simulation-src-012",
+        "simulation-src-015"
+      ]
+    },
+    {
+      "id": "simulation-gap-007",
+      "title": "Tires, road load and vehicle dynamics",
+      "missing_inputs": [
+        "measured loaded rolling radius",
+        "tire force-slip/load data and pressure/temperature",
+        "mass distribution/CG and suspension geometry for lateral studies",
+        "coastdown road-load coefficients and aerodynamic area",
+        "road grade/wind"
+      ],
+      "reason": "Tire dimensions cannot substitute for empirical friction parameters; a longitudinal-only block cannot support handling predictions.",
+      "source_ids": [
+        "simulation-src-015"
+      ]
+    },
+    {
+      "id": "simulation-gap-008",
+      "title": "Cooling and underhood heat soak",
+      "missing_inputs": [
+        "engine/oil heat-rejection maps",
+        "coolant/oil pump flow and pressure-loss data",
+        "radiator/intercooler geometry or measured UA maps",
+        "thermostat/fan characteristics",
+        "airflow, thermal masses and contact conductance"
+      ],
+      "reason": "A Saab cooling model requires matched geometry and measured thermal behavior; generic demonstration radiator values are not Saab data.",
+      "source_ids": [
+        "simulation-src-014"
+      ]
+    },
+    {
+      "id": "simulation-gap-009",
+      "title": "ECU thermal/electrical reliability",
+      "missing_inputs": [
+        "ECU housing/board geometry and thermal paths",
+        "component temperature limits and power dissipation",
+        "measured harness voltages/ground drops/impedance",
+        "mount vibration and thermal cycles",
+        "failure history with exposure and control-group comparison"
+      ],
+      "reason": "Diagnostic temperatures do not reveal ECU junction temperature or full harness stresses; relocation/replacement reliability gains require representative tests and failure evidence.",
+      "source_ids": [
+        "simulation-src-007",
+        "simulation-src-008",
+        "simulation-src-009",
+        "simulation-src-014",
+        "simulation-src-017"
+      ]
+    },
+    {
+      "id": "simulation-gap-010",
+      "title": "Hose, clamp and fitting suitability",
+      "missing_inputs": [
+        "exact supplier SKU and compound/liner",
+        "required hot pressure/vacuum/chemical envelope",
+        "diameters, bends, wall thickness and retention geometry",
+        "clamp load/specification",
+        "permeation, aging, burst and hot-cycle test results"
+      ],
+      "reason": "Temperature alone does not establish suitability. Silicone coolant and nitrile fuel/PCV families have different exclusions; no Saab replacement fitment was verified.",
+      "source_ids": [
+        "simulation-src-010",
+        "simulation-src-011"
+      ]
+    },
+    {
+      "id": "simulation-gap-011",
+      "title": "Structural geometry and material fidelity",
+      "missing_inputs": [
+        "part CAD or measured geometry with tolerances",
+        "exact alloy/polymer and heat treatment",
+        "elastic/plastic/temperature-dependent properties",
+        "joint/preload/contact conditions",
+        "mesh convergence and validated loads"
+      ],
+      "reason": "Repair illustrations and diagnostic signals do not contain a structural finite-element model. Measure representative parts and validate boundary conditions.",
+      "source_ids": [
+        "simulation-src-014",
+        "simulation-src-016"
+      ]
+    },
+    {
+      "id": "simulation-gap-012",
+      "title": "Fatigue and quantitative reliability",
+      "missing_inputs": [
+        "S-N/strain-life data at operating temperature and mean stress",
+        "scatter/reliability target",
+        "duty-cycle load spectra",
+        "surface/process/corrosion/defect effects",
+        "component/fleet failures and exposure denominator"
+      ],
+      "reason": "A stress solution is not a life or failure-probability prediction. Fit and validate against coupon/component tests and representative service data; preserve uncertainty.",
+      "source_ids": [
+        "simulation-src-016",
+        "simulation-src-017"
+      ]
+    },
+    {
+      "id": "simulation-gap-013",
+      "title": "Before/after validation and uncertainty",
+      "missing_inputs": [
+        "controlled baseline/replacement test protocol",
+        "independent torque/pressure/temperature/fuel measurements",
+        "matched ambient/fuel/load conditions",
+        "parameter uncertainty and sensitivity analysis",
+        "hold-out data and validation residuals"
+      ],
+      "reason": "A numerical change in a generic or fitted model cannot prove a real improvement outside its tested range.",
+      "source_ids": [
+        "simulation-src-012",
+        "simulation-src-013",
+        "simulation-src-014",
+        "simulation-src-015",
+        "simulation-src-017",
+        "simulation-src-018"
+      ]
+    },
+    {
+      "id": "simulation-gap-014",
+      "title": "Software and source reuse permissions",
+      "missing_inputs": [
+        "Trionic file-level license audit",
+        "txlogger custom-license review/permission",
+        "third-party dependency licenses",
+        "separate rights for ECU firmware and bundled factory documents"
+      ],
+      "reason": "Public readability and repository license metadata do not establish blanket permission to redistribute all code, binaries, manuals or datasets.",
+      "source_ids": [
+        "simulation-src-002",
+        "simulation-src-004",
+        "simulation-src-005"
+      ]
+    },
+    {
+      "id": "simulation-gap-015",
+      "title": "Conflicting family catalog text and SKU verification",
+      "missing_inputs": [
+        "current exact-SKU Gates PCV datasheet",
+        "intended region and revision",
+        "documented oil/blow-by/coolant/fuel exposure approval",
+        "temperature-pressure derating"
+      ],
+      "reason": "Retrieved US PCV/EEC family page contains MIL-DTL-6000/coolant text while GB family excludes cooling service. Preserve conflict and prefer SKU-level manufacturer confirmation.",
+      "source_ids": [
+        "simulation-src-011"
+      ]
+    }
+  ]
+}

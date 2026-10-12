@@ -1,0 +1,183 @@
+# Source index
+
+Research retrieval date: 2026-10-12. There are 128 source records with 127 distinct
+URLs. Repeated documents retain their domain provenance. Retrieval strength is
+defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
+a vehicle-fitment approval. Individual finding locators remain in the JSON.
+
+## corrections
+
+Dataset: [corrections](../data/datasets/corrections.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `corrections-src-001` | [210-2554 ed.3: Noise from timing chain and oil sludge (June 2006)](https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2554-ed-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine) | Saab Automobile AB (original bulletin mirrored by SaabWISOnline) | `full_text` |
+| `corrections-src-002` | [210-2496: Replacing oil trap; CSP 15433](https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2496-replacing-the-oil-trap) | Saab Automobile AB (original bulletin mirrored by SaabWISOnline) | `full_text` |
+| `corrections-src-003` | [210-2508: Securing crankcase ventilation hose; CSP 15435](https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2508-securing-the-crankcase-ventilation-hose) | Saab Automobile AB (original bulletin mirrored by SaabWISOnline) | `full_text` |
+| `corrections-src-004` | [TA440-0702: Coolant in ATF oil](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/bulletins-si-mi/ta440-0702-coolant-in-atf-oil) | Saab Automobile AB (original bulletin mirrored by SaabWISOnline) | `full_text` |
+| `corrections-src-005` | [248-2611 edition 3: IDM check/replacement; Recall 15021](https://saabwisonline.com/9-5-9600/2000/2-engine/trionic-t7-lev-4-cyl-b235e-r/bulletins-si-mi/248-2611-utg-3-check-replacement-of-ignition-discharge-module) | Saab Automobile AB (original bulletin mirrored by SaabWISOnline) | `full_text` |
+| `corrections-src-006` | [DCS1686: Recall 15021 IDM reissue](https://static.nhtsa.gov/odi/rcl/2006/RCMN-06V410-7676.pdf) | GM Service and Parts Operations | `full_text` |
+| `corrections-src-007` | [365-2568: Electronic problems](https://saabwisonline.com/9-3-9440/2003/3-electrical-system/bus-and-diagnostics-communication/bulletins-si-mi/365-2568-electronic-problems) | Saab Automobile AB (original bulletin mirrored by SaabWISOnline) | `full_text` |
+| `corrections-src-008` | [731-2726: Front spring failure; Special Coverage 15917](https://saabwisonline.com/9-3-9440/2003/7-suspension-wheels/front-suspension/bulletins-si-mi/731-2726-front-spring-failure) | Saab Automobile AB (original bulletin mirrored by SaabWISOnline) | `full_text` |
+| `corrections-src-009` | [TA340-0921: Start difficulties, Battery, CIM, SCL, ISM and Remote](https://saabwisonline.com/9-3-9440/2008/3-electrical-system/starting-system/bulletins-si-mi/ta340-0921-start-difficulties-battery-cim-scl-ism-remote) | Saab Automobile AB (original bulletin mirrored by SaabWISOnline) | `full_text` |
+| `corrections-src-010` | [Hard starting cold, stall/misfire and low compression; intake valve advisory](https://saabparts.us/wp-content/uploads/1/2023/05/Hard-Starting-Cold-With-Engine-Stall-Misfire-and-Low-Compression-Starts-and-Runs-Normally-When-Hot-07-11-9-3-11-9-5.pdf) | Saab Parts North America / Hedin Parts Technical Assistance | `full_text` |
+| `corrections-src-011` | [ISM 32021815 kit, formerly 12801010: instructions](https://saabparts.us/wp-content/uploads/1/2023/06/Saab-93-2003_11-Ignition-Switch-Module-ISM-32021815-Kit-Saabparts-Reference-Library-version.pdf) | Saab Parts North America | `full_text` |
+| `corrections-src-012` | [Low coolant message without visible leak: B207](https://saabparts.us/wp-content/uploads/1/2023/05/Low-Coolant-Message-With-No-Evidence-of-Leak-Found-9-3-B207.pdf) | Saab Parts North America / Hedin Parts Technical Assistance | `full_text` |
+| `corrections-src-013` | [232-2682: Diagnosing oil consumption (B207)](https://saabwisonline.com/9-3-9440/2008/2-engine/4-cyl-petrol-e85/basic-engine/bulletins-si-mi/232-2682-diagnosing-oil-consumption) | Saab Automobile AB (original bulletin mirrored by SaabWISOnline) | `full_text` |
+| `corrections-src-014` | [248-2502: Correct choice of ignition discharge module](https://saabwisonline.com/9-5-9600/2004/2-engine/trionic-t7-4-cyl/bulletins-si-mi/248-2502-correct-choice-of-ignition-discharge-module) | Saab Automobile AB (original bulletin mirrored by SaabWISOnline) | `full_text` |
+| `corrections-src-015` | [32022255 T7 ignition cassette catalogue](https://www.esaabparts.com/saab/parts/32022255?section=323308273) | eSaabParts | `full_text` |
+| `corrections-src-016` | [55554444 complete PCV kit catalogue](https://www.esaabparts.com/saab/parts/55554444) | eSaabParts | `full_text` |
+| `corrections-src-017` | [21341200 PROPARTS PCV kit catalogue (reference 55561200)](https://www.esaabparts.com/saab/parts/21341200?ss=55561200) | eSaabParts | `full_text` |
+| `corrections-src-018` | [55560463 PCV breather hose catalogue](https://www.esaabparts.com/saab/parts/55560463) | eSaabParts | `full_text` |
+| `corrections-src-019` | [7779973 ESAABKITS hose/check valve catalogue (reference 9399973)](https://www.esaabparts.com/saab/parts/7779973?ss=9399973) | eSaabParts | `full_text` |
+| `corrections-src-020` | [TA855-0706: Water leak right front/rear floor](https://saabwisonline.com/9-3-9440/2007/8-body/interior-equipment/bulletins-si-mi/ta855-0706-water-leak-front-rear-floor-on-right-side-of-the-passenger) | Saab Automobile AB (original bulletin mirrored by SaabWISOnline) | `full_text` |
+| `corrections-src-021` | [260-2634 ed.2: Oil cooler quick couplings; CSP15446, page 1](https://workshop-manuals.com/saab/9-3_arc/aero_(9440)/l4-2.0l_turbo_(2.0_t)/transmission_and_drivetrain/automatic_transmission/transaxle/transmission_cooler_a/t/component_information/technical_service_bulletins/all_technical_service_bulletins_for_transmission_cooler/260-2634/sep/06/campaign_154_46_a/t_cooler_coupling_leakage/) | Saab Automobile AB (mirrored by Workshop-Manuals) | `partial` |
+| `corrections-src-022` | [260-2634 ed.2: Radiator date decision, page 2](https://workshop-manuals.com/saab/9-3_arc/aero_(9440)/l4-2.0l_turbo_(2.0_t)/transmission_and_drivetrain/automatic_transmission/transaxle/transmission_cooler_a/t/component_information/technical_service_bulletins/all_technical_service_bulletins_for_transmission_cooler/260-2634/sep/06/campaign_154_46_a/t_cooler_coupling_leakage/page_7156/) | Saab Automobile AB (mirrored by Workshop-Manuals) | `partial` |
+| `corrections-src-023` | [Part 573 Safety Recall Report 16V-063 / 28810](https://static.nhtsa.gov/odi/rcl/2016/RCLRPT-16V063-5196.PDF) | General Motors LLC / NHTSA | `full_text` |
+| `corrections-src-024` | [15043-03: Driver airbag replacement](https://static.nhtsa.gov/odi/rcl/2016/RCSB-16V063-3605.pdf) | General Motors | `full_text` |
+| `corrections-src-025` | [NHTSA acknowledgement: 11V-015 defective fuel pumps](https://static.nhtsa.gov/odi/rcl/2011/RCAK-11V015-8798.pdf) | NHTSA | `full_text` |
+| `corrections-src-026` | [Recall15017 front belts / 853-2479](https://static.nhtsa.gov/odi/rcl/2004/RCRIT-04V226-5904.PDF) | Saab Automobile AB / NHTSA | `search_excerpt` |
+| `corrections-src-027` | [10V-043: Front seatbelt retractor safety defect](https://static.nhtsa.gov/odi/rcl/2010/RCDNN-10V043-5936.pdf) | General Motors LLC / NHTSA | `search_excerpt` |
+
+## ng93_body
+
+Dataset: [ng93_body](../data/datasets/ng93-body.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `ng93body-src-001` | [Saab 9-3 M2006 US/Canada owner manual, early printing](https://manuals.plus/m/12689d9f620dd9388bef92a063d3cdfd590132971b0da03bd2bfad9d44bd3342) | Saab Automobile AB (mirrored) | `full_text` |
+| `ng93body-src-002` | [Wheels technical data](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/wheels-and-tyres/technical-data/wheels) | Saab Automobile AB (mirrored) | `full_text` |
+| `ng93body-src-003` | [Wheels technical description](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/wheels-and-tyres/technical-description/wheels) | Saab Automobile AB (mirrored) | `full_text` |
+| `ng93body-src-004` | [771-2460 edition 2: tightening wheel bolts](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/wheels-and-tyres/bulletins-si-mi/771-2460-utg-2-tightening-wheel-bolts) | Saab Automobile AB (mirrored) | `full_text` |
+| `ng93body-src-005` | [Front assembly description](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/front-suspension/technical-description/front-assembly) | Saab Automobile AB (mirrored) | `full_text` |
+| `ng93body-src-006` | [Rear suspension description](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/technical-description/rear-suspension) | Saab Automobile AB (mirrored) | `full_text` |
+| `ng93body-src-007` | [Power steering system brief description](https://saabwisonline.com/9-3-9440/2006/6-steering-assembly/power-steering-system/technical-description/brief-description) | Saab Automobile AB (mirrored) | `full_text` |
+| `ng93body-src-008` | [Power steering pump B207](https://saabwisonline.com/9-3-9440/2006/6-steering-assembly/power-steering-system/technical-data/power-steering-pump-b207-engine) | Saab Automobile AB (mirrored) | `full_text` |
+
+## ng93
+
+Dataset: [ng93](../data/datasets/ng93.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `ng93-src-001` | [General data, 2006 B207](https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/technical-data/general-data) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-002` | [Lubricating system, B207](https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/basic-engine/technical-data/lubricating-system) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-003` | [Saab 9-3 M2005 US/Canada Owner’s Manual](https://manualzz.com/doc/53858941/saab-2005-9-3-owner-s-manual) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-004` | [Five-speed manual gearbox capacity](https://saabwisonline.com/9-3-9440/2005/4-transmission/manual-gearbox/5-speed/technical-data/gearbox) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-005` | [Five-speed manual overall ratios](https://saabwisonline.com/9-3-9440/2005/4-transmission/manual-gearbox/5-speed/technical-data/gear-ratio) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-006` | [Six-speed manual overall ratios](https://saabwisonline.com/9-3-9440/2005/4-transmission/manual-gearbox/6-speed/technical-data/gear-ratio) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-007` | [Six-speed manual lubricants and sealants](https://saabwisonline.com/9-3-9440/2005/4-transmission/manual-gearbox/6-speed/technical-data/summary-of-lubricants-and-sealants) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-008` | [FA57 automatic type designation](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/type-designations) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-009` | [FA57 automatic overall ratios](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/gear-ratios) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-010` | [FA57 weight, fluid capacity and grade](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/weight-fluid-capacity-and-grade-of-fluid) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-011` | [Wheel geometry, standard/sport chassis](https://saabwisonline.com/9-3-9440/2005/7-suspension-wheels/front-suspension/technical-data/wheel-geometry) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-012` | [Brake discs, levels 1–4](https://saabwisonline.com/9-3-9440/2005/5-brakes/footbrake-system/technical-data/brake-discs) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-013` | [Brake fluid](https://saabwisonline.com/9-3-9440/2005/5-brakes/footbrake-system/technical-data/brake-fluid) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-014` | [Coolant, four-cylinder petrol](https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/cooling-system/technical-data/coolant) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-015` | [Cooling system technical data](https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/cooling-system/technical-data/cooling-system) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-016` | [Basic charging pressure](https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/turbocharger-system/technical-data/basic-charging-pressure) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-017` | [Turbo shaft play](https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/turbocharger-system/technical-data/turbo-shaft-play) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-018` | [Generator 120A, B207](https://saabwisonline.com/9-3-9440/2005/3-electrical-system/charging-systems/technical-data/generator-120a-b207) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-019` | [Alternator 140A, B207](https://saabwisonline.com/9-3-9440/2005/3-electrical-system/charging-systems/technical-data/alternator-140a-b207) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-020` | [Saab USA vehicle identification bulletins, 1999–2011](https://saabparts.us/wp-content/uploads/1/2023/05/VIN-breakdown-for-1999-2011-9-3-9-5.pdf) | Saab Automobile USA / Saab Automobile AB | `full_text` |
+| `ng93-src-021` | [Saab Announces 2006 9-3 SportCombi Pricing](https://www.theautochannel.com/news/2005/08/04/139484.html) | Saab USA (The Auto Channel mirror) | `search_excerpt` |
+| `ng93-src-022` | [2011 Saab Brand and Range, USA](https://www.auto-brochures.com/makes/Saab/Saab_US%202011.pdf) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-023` | [Saab debuts all-new 2004 9-3 Convertible](https://autointell.com/News-2003/March-2003/March-2003-1/March-04-03-p2.htm) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-024` | [Recommended oil quality, Saab Service EU](https://saabwisonline.com/9-3-9440/2005/1-service/saab-service-eu/service/recommended-oil-quality) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+| `ng93-src-025` | [Five-speed manual lubricant summary](https://saabwisonline.com/9-3-9440/2005/4-transmission/manual-gearbox/5-speed/technical-data/summary-of-lubricants-and-sealants) | Saab Automobile AB / Saab Cars USA (mirrored) | `full_text` |
+
+## og95_body
+
+Dataset: [og95_body](../data/datasets/og95-body.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `og95body-src-001` | [MY2005 WIS: general vehicle dimensions and weights](https://saabwisonline.com/9-5-9600/2005/0-general/general/technical-data/general-data) | Saab Automobile AB (factory content reproduced by independent mirror) | `full_text` |
+| `og95body-src-002` | [MY2009 WIS: general vehicle dimensions and weights](https://saabwisonline.com/9-5-9600/2009/0-general/general/technical-data/general-data) | Saab Automobile AB (factory content reproduced by independent mirror) | `full_text` |
+| `og95body-src-003` | [MY2009 US/CA owner manual: general specifications p.258](https://www.carmanualsonline.info/saab-9-5-2009-owners-manual/26) | Saab Automobile AB (factory content reproduced by independent mirror) | `full_text` |
+| `og95body-src-004` | [MY2005 WIS: rim dimensions and runout](https://saabwisonline.com/9-5-9600/2005/7-suspension-wheels/wheels-and-tyres/technical-data/rim) | Saab Automobile AB (factory content reproduced by independent mirror) | `full_text` |
+| `og95body-src-005` | [MY2005 WIS: wheel attachment and bolt size](https://saabwisonline.com/9-5-9600/2005/7-suspension-wheels/wheels-and-tyres/technical-description/wheels) | Saab Automobile AB (factory content reproduced by independent mirror) | `full_text` |
+| `og95body-src-006` | [MY2005 WIS: wheel-bolt tightening](https://saabwisonline.com/9-5-9600/2005/7-suspension-wheels/wheels-and-tyres/technical-data/tightening-torque) | Saab Automobile AB (factory content reproduced by independent mirror) | `full_text` |
+| `og95body-src-007` | [MY2005 WIS: front suspension overview](https://saabwisonline.com/9-5-9600/2005/7-suspension-wheels/front-suspension/technical-description/system-overview) | Saab Automobile AB (factory content reproduced by independent mirror) | `full_text` |
+| `og95body-src-008` | [MY2005 WIS: rear suspension overview](https://saabwisonline.com/9-5-9600/2005/7-suspension-wheels/rear-suspension/technical-description/system-overview) | Saab Automobile AB (factory content reproduced by independent mirror) | `full_text` |
+| `og95body-src-009` | [MY2005 WIS: steering linkage overview](https://saabwisonline.com/9-5-9600/2005/6-steering-assembly/steering-linkage/technical-description/system-overview) | Saab Automobile AB (factory content reproduced by independent mirror) | `full_text` |
+| `og95body-src-010` | [MY2005 WIS: chassis spring/damper identification](https://saabwisonline.com/9-5-9600/2005/0-general/general/technical-data/springs-and-dampers) | Saab Automobile AB (factory content reproduced by independent mirror) | `full_text` |
+
+## og95
+
+Dataset: [og95](../data/datasets/og95.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `og95-src-001` | [MY2005 WIS: petrol engine general data](https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/technical-data/general-data) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-002` | [MY2004 WIS: petrol engine general data](https://saabwisonline.com/9-5-9600/2004/2-engine/basic-engine-4-cylinder-petrol/technical-data/general-data) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-003` | [MY2009 WIS: petrol engine general data](https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/technical-data/general-data) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-004` | [MY2005 WIS: lubricating system](https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-005` | [MY2009 WIS: lubricating system](https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-006` | [MY2005 WIS: engine oil and oil filter service](https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/service/engine-oil-and-oil-filter) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-007` | [MY2005 WIS Saab Service EU: recommended oil quality](https://saabwisonline.com/9-5-9600/2005/1-service/saab-service-eu/service/recommended-oil-quality) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-008` | [MY2005 WIS: coolant](https://saabwisonline.com/9-5-9600/2005/2-engine/cooling-system/technical-data/coolant) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-009` | [MY2005 WIS: cooling temperature and pressure limits](https://saabwisonline.com/9-5-9600/2005/2-engine/cooling-system/technical-data/temperature-pressure-limits) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-010` | [MY2005 WIS: manual gearbox type designation](https://saabwisonline.com/9-5-9600/2005/4-transmission/manual-gearbox/technical-data/type-designation) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-011` | [MY2005 WIS: manual gearbox capacity and weight](https://saabwisonline.com/9-5-9600/2005/4-transmission/manual-gearbox/technical-data/gearbox) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-012` | [MY2005 WIS: manual gearbox overall gear ratios](https://saabwisonline.com/9-5-9600/2005/4-transmission/manual-gearbox/technical-data/gear-ratio) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-013` | [MY2005 WIS: automatic transmission type designation](https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/technical-data/type-designation) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-014` | [MY2005 WIS: automatic transmission overall ratios](https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/technical-data/general) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-015` | [MY2005 WIS: automatic transmission fluid and capacity](https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/technical-data/weight-fluid-capacity-and-grade-of-fluid) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-016` | [MY2005 WIS: manual gearbox lubricants](https://saabwisonline.com/9-5-9600/2005/4-transmission/manual-gearbox/technical-data/summary-of-lubricants-and-sealants) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-017` | [MY2005 WIS: fuel pump](https://saabwisonline.com/9-5-9600/2005/2-engine/fuel-system-petrol/technical-data/fuel-pump) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-018` | [MY2005 WIS: fuel pressure regulator test data](https://saabwisonline.com/9-5-9600/2005/2-engine/fuel-system-petrol/technical-data/fuel-pressure-regulator-test-readings) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-019` | [MY2005 WIS: injector flow capacity](https://saabwisonline.com/9-5-9600/2005/2-engine/fuel-system-petrol/technical-data/injectors-flow-capacity) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-020` | [MY2005 WIS: turbocharger basic data](https://saabwisonline.com/9-5-9600/2005/2-engine/turbocharger-system/technical-data/basic-data) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-021` | [MY2005 WIS: turbocharger axial shaft play](https://saabwisonline.com/9-5-9600/2005/2-engine/turbocharger-system/technical-data/turbo-shaft-play) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-022` | [MY2005 WIS: brake configuration matrix](https://saabwisonline.com/9-5-9600/2005/5-brakes/brake-discs-and-pads/technical-data/brake-configurations) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-023` | [MY2005 WIS: rear brake-disc limits](https://saabwisonline.com/9-5-9600/2005/5-brakes/brake-discs-and-pads/technical-data/brake-disc-rear-wheel) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-024` | [MY2006 WIS: front brake-disc limits](https://saabwisonline.com/9-5-9600/2006/5-brakes/brake-discs-and-pads/technical-data/brake-disc-front-wheel) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-025` | [MY2007 factory service manual: wheel alignment](https://workshop-manuals.com/saab/9-5_(9600)/l4-2.3l_turbo/steering_and_suspension/alignment/system_information/specifications/) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-026` | [MY2004 WIS: redesigned four-cylinder crankcase ventilation](https://saabwisonline.com/9-5-9600/2004/2-engine/exhaust-emission-control-system/technical-description/crankcase-ventilation-4-cyl) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-027` | [MY2009 WIS Saab Service US/CA: lubricants](https://saabwisonline.com/9-5-9600/2009/1-service/saab-service-us-ca/adjustment-replacement/lubricant) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-028` | [MY2005 US/CA owner manual: specifications pp.254–257](https://www.carmanualsonline.info/saab-9-5-2005-owners-manual/26) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-029` | [MY2005 US/CA owner manual: specifications pp.259–263](https://www.carmanualsonline.info/saab-9-5-2005-owners-manual/27) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+| `og95-src-030` | [MY2009 US/CA owner manual: specifications and severe service](https://www.carmanualsonline.info/saab-9-5-2009-owners-manual/26) | Saab Automobile AB (factory material reproduced by independent mirror) | `full_text` |
+
+## replacements
+
+Dataset: [replacements](../data/datasets/replacements.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `repl-src-001` | [eSaabParts 55564966 turbocharger listing](https://www.esaabparts.com/saab/parts/55564966) | eSaabParts | `full_text` |
+| `repl-src-002` | [eSaabParts 55559825 turbocharger listing](https://www.esaabparts.com/saab/parts/55559825) | eSaabParts | `full_text` |
+| `repl-src-003` | [eSaabParts OG9-5 turbocharger diagram 311045036](https://www.esaabparts.com/viewparts.php?searchpart=1&section=311045036) | eSaabParts | `full_text` |
+| `repl-src-004` | [RBM KIT89.3 T8 ECM insulation kit](https://www.rbmperformance.com/t8-insulation-kit-for-saab-9-3-2003-2010--_l_EN_r_151_i_4362.html) | RBM Performance | `full_text` |
+| `repl-src-005` | [KM-tronics T8 ECU relocation kit](https://www.kmtronics.nl/product/14303797/saab-93-t8-ecu-herlocatie-kit) | KM-tronics | `full_text` |
+| `repl-src-006` | [Saab WIS MY2004 OG9-5 Trionic T7 ignition discharge module](https://saabwisonline.com/9-5-9600/2004/2-engine/trionic-t7-4-cyl/technical-description/ignition-discharge-module) | Saab Automobile AB; republished by Saab WIS Online | `full_text` |
+| `repl-src-007` | [Saab WIS MY2004 OG9-5 Trionic T7 knock control](https://saabwisonline.com/9-5-9600/2004/2-engine/trionic-t7-4-cyl/technical-description/knock-control) | Saab Automobile AB; republished by Saab WIS Online | `full_text` |
+| `repl-src-008` | [Saab WIS MY2011 NG9-3 bus detailed description](https://saabwisonline.com/9-3-9440/2011/3-electrical-system/bus-and-diagnostics-communication/technical-description/detailed-description) | Saab Automobile AB; republished by Saab WIS Online | `full_text` |
+
+## simulation
+
+Dataset: [simulation](../data/datasets/simulation.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `simulation-src-001` | [TuningSuites README](https://github.com/mattiasclaesson/TuningSuites/blob/master/README.md) | TxSuite contributors | `full_text` |
+| `simulation-src-002` | [TuningSuites repository metadata and LICENSE](https://api.github.com/repos/mattiasclaesson/TuningSuites) | GitHub / mattiasclaesson | `metadata_only` |
+| `simulation-src-003` | [Trionic CAN Flasher README](https://github.com/mattiasclaesson/Trionic/blob/master/README.md) | TxSuite contributors | `full_text` |
+| `simulation-src-004` | [Trionic repository metadata](https://api.github.com/repos/mattiasclaesson/Trionic) | GitHub / mattiasclaesson | `metadata_only` |
+| `simulation-src-005` | [txlogger README, metadata and custom license](https://github.com/roffe/txlogger) | Joakim Karlsson / roffe | `partial` |
+| `simulation-src-006` | [MY2000 9-5 B235E/R Trionic T7 LEV Read Values](https://saabwisonline.com/9-5-9600/2000/2-engine/trionic-t7-lev-4-cyl-b235e-r/fault-diagnosis-general/menu-read-values) | Saab Automobile; republished by Saab WIS Online | `full_text` |
+| `simulation-src-007` | [MY2007 9-3 Tech 2 Read Values](https://saabwisonline.com/9-3-9440/2007/0-general/tech-2/technical-description/read-values) | Saab Automobile; republished by Saab WIS Online | `full_text` |
+| `simulation-src-008` | [LAWICEL CANUSB product documentation](https://www.canusb.com/products/canusb/) | LAWICEL / ELMICRO | `full_text` |
+| `simulation-src-009` | [OBDLink SX manufacturer specifications](https://www.scantool.net/obdlink-sx/) | OBD Solutions / ScanTool.net | `full_text` |
+| `simulation-src-010` | [Gates 24826 GS DURION straight silicone coolant hose](https://www.gates.com/us/en/fluid-power/engine-hose/coolant-hose.p.4171-000000-000001.v.4171-01909.html) | Gates Corporation | `full_text` |
+| `simulation-src-011` | [Gates GB PVC/EEC fuel hose family](https://www.gates.com/gb/en/fluid-power/engine-hose/fuel-line-hose.p.3225-000000-000000.html) | Gates Corporation | `full_text` |
+| `simulation-src-012` | [Engine Calibration Maps](https://www.mathworks.com/help/vdynblks/ug/engine-calibration-maps.html) | MathWorks | `full_text` |
+| `simulation-src-013` | [Calibrate Mapped SI Engine Using Data](https://www.mathworks.com/help/autoblks/ug/calibrate-mapped-si-engine-using-data.html) | MathWorks | `full_text` |
+| `simulation-src-014` | [Model a Radiator as a Heat Exchanger](https://uk.mathworks.com/help/hydro/ug/modeling-heat-exchangers.html) | MathWorks | `full_text` |
+| `simulation-src-015` | [Tire (Magic Formula)](https://www.mathworks.com/help/sdl/ref/tiremagicformula.html) | MathWorks | `full_text` |
+| `simulation-src-016` | [COMSOL Stress Life Models](https://doc.comsol.com/6.3/doc/com.comsol.help.fatigue/fatigue_ug_sme.4.20.html) | COMSOL | `full_text` |
+| `simulation-src-017` | [How to Obtain Fatigue Model Parameters](https://www.comsol.com/blogs/how-to-obtain-fatigue-model-parameters/) | COMSOL | `full_text` |
+| `simulation-src-018` | [txlogger Estimated Output documentation](https://txlogger.com/docs/estimated-output/) | Joakim Karlsson | `full_text` |
+| `simulation-src-019` | [txlogger Cam Timing documentation](https://txlogger.com/docs/cam-timing/) | Joakim Karlsson | `full_text` |
+| `simulation-src-020` | [txlogger Supported CANbus Adapters](https://txlogger.com/docs/canbus-adapters/) | Joakim Karlsson | `full_text` |

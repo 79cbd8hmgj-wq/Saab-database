@@ -1,0 +1,870 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "og95_body",
+  "sources": [
+    {
+      "id": "og95body-src-001",
+      "title": "MY2005 WIS: general vehicle dimensions and weights",
+      "url": "https://saabwisonline.com/9-5-9600/2005/0-general/general/technical-data/general-data",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Generic table does not map weights to engine, transmission, options or market."
+    },
+    {
+      "id": "og95body-src-002",
+      "title": "MY2009 WIS: general vehicle dimensions and weights",
+      "url": "https://saabwisonline.com/9-5-9600/2009/0-general/general/technical-data/general-data",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Same figures as MY2005 general table; geometry differs from MY2009 North American owner manual. Retained as provisional source reading."
+    },
+    {
+      "id": "og95body-src-003",
+      "title": "MY2009 US/CA owner manual: general specifications p.258",
+      "url": "https://www.carmanualsonline.info/saab-9-5-2009-owners-manual/26",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Same source document as og95-src-030; this supplement adds limited body data. No market-independent weight assigned."
+    },
+    {
+      "id": "og95body-src-004",
+      "title": "MY2005 WIS: rim dimensions and runout",
+      "url": "https://saabwisonline.com/9-5-9600/2005/7-suspension-wheels/wheels-and-tyres/technical-data/rim",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95body-src-005",
+      "title": "MY2005 WIS: wheel attachment and bolt size",
+      "url": "https://saabwisonline.com/9-5-9600/2005/7-suspension-wheels/wheels-and-tyres/technical-description/wheels",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95body-src-006",
+      "title": "MY2005 WIS: wheel-bolt tightening",
+      "url": "https://saabwisonline.com/9-5-9600/2005/7-suspension-wheels/wheels-and-tyres/technical-data/tightening-torque",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95body-src-007",
+      "title": "MY2005 WIS: front suspension overview",
+      "url": "https://saabwisonline.com/9-5-9600/2005/7-suspension-wheels/front-suspension/technical-description/system-overview",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95body-src-008",
+      "title": "MY2005 WIS: rear suspension overview",
+      "url": "https://saabwisonline.com/9-5-9600/2005/7-suspension-wheels/rear-suspension/technical-description/system-overview",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95body-src-009",
+      "title": "MY2005 WIS: steering linkage overview",
+      "url": "https://saabwisonline.com/9-5-9600/2005/6-steering-assembly/steering-linkage/technical-description/system-overview",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "og95body-src-010",
+      "title": "MY2005 WIS: chassis spring/damper identification",
+      "url": "https://saabwisonline.com/9-5-9600/2005/0-general/general/technical-data/springs-and-dampers",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Six vehicle-identification code positions identify front/rear springs, anti-roll bars, front strut insert and rear damper; mapping refers to EPC."
+    }
+  ],
+  "facts": [
+    {
+      "id": "og95body-fact-001",
+      "subject": "body:sedan",
+      "category": "body_geometry",
+      "predicate": "MY2005_bounding_dimensions",
+      "value": {
+        "length": 4827,
+        "maximum_height": 1475
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "body_styles": [
+          "sedan"
+        ]
+      },
+      "source_ids": [
+        "og95body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Overall length / greatest height / 4D",
+      "notes": ""
+    },
+    {
+      "id": "og95body-fact-002",
+      "subject": "body:wagon",
+      "category": "body_geometry",
+      "predicate": "MY2005_bounding_dimensions",
+      "value": {
+        "length": 4828,
+        "maximum_height": 1501
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "body_styles": [
+          "wagon"
+        ]
+      },
+      "source_ids": [
+        "og95body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Overall length / greatest height / 5D",
+      "notes": ""
+    },
+    {
+      "id": "og95body-fact-003",
+      "subject": "body:OG95",
+      "category": "body_geometry",
+      "predicate": "MY2005_width",
+      "value": {
+        "body": 1792,
+        "including_mirrors": 2042
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Overall breadth",
+      "notes": ""
+    },
+    {
+      "id": "og95body-fact-004",
+      "subject": "chassis:OG95",
+      "category": "body_geometry",
+      "predicate": "MY2005_wheelbase",
+      "value": 2703,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Wheelbase",
+      "notes": ""
+    },
+    {
+      "id": "og95body-fact-005",
+      "subject": "chassis:OG95",
+      "category": "body_geometry",
+      "predicate": "MY2005_track",
+      "value": {
+        "front": 1522,
+        "rear": 1522
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Track front/rear",
+      "notes": "Wheel dimensions are not identified by this WIS row; no universal track for arbitrary offset."
+    },
+    {
+      "id": "og95body-fact-006",
+      "subject": "body:OG95",
+      "category": "body_geometry",
+      "predicate": "MY2005_overhangs",
+      "value": {
+        "front": 1016,
+        "rear_sedan": 1108,
+        "rear_wagon": 1109
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Overhang front/rear",
+      "notes": ""
+    },
+    {
+      "id": "og95body-fact-007",
+      "subject": "chassis:OG95",
+      "category": "body_geometry",
+      "predicate": "MY2005_ground_clearance_at_GVW_approximate",
+      "value": 116,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Ground clearance at GVW",
+      "notes": "Approximate, at gross vehicle weight; not unloaded clearance."
+    },
+    {
+      "id": "og95body-fact-008",
+      "subject": "chassis:OG95",
+      "category": "steering",
+      "predicate": "MY2005_turning_circles",
+      "value": {
+        "kerb_to_kerb": 11.3,
+        "vehicle_extremities": 11.9
+      },
+      "unit": "m",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Turning circles",
+      "notes": ""
+    },
+    {
+      "id": "og95body-fact-009",
+      "subject": "vehicle:OG95",
+      "category": "vehicle_mass",
+      "predicate": "MY2005_generic_kerb_weight_ranges",
+      "value": {
+        "sedan": [
+          1525,
+          1685
+        ],
+        "wagon": [
+          1590,
+          1760
+        ]
+      },
+      "unit": "kg",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Kerb weight / 4D and 5D",
+      "notes": "Published ranges only; engine, gearbox, options and market unassigned."
+    },
+    {
+      "id": "og95body-fact-010",
+      "subject": "vehicle:OG95",
+      "category": "vehicle_mass",
+      "predicate": "MY2005_generic_GVW_ranges",
+      "value": {
+        "sedan": [
+          2050,
+          2130
+        ],
+        "wagon": [
+          2130,
+          2210
+        ]
+      },
+      "unit": "kg",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Gross vehicle weight",
+      "notes": "Ranges, not a selected vehicle certification limit."
+    },
+    {
+      "id": "og95body-fact-011",
+      "subject": "vehicle:OG95",
+      "category": "vehicle_mass",
+      "predicate": "MY2005_maximum_axle_loads",
+      "value": {
+        "front": 1175,
+        "rear_sedan": 1050,
+        "rear_wagon": 1125
+      },
+      "unit": "kg",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Maximum axle load",
+      "notes": ""
+    },
+    {
+      "id": "og95body-fact-012",
+      "subject": "vehicle:OG95",
+      "category": "vehicle_mass",
+      "predicate": "MY2005_maximum_roof_load",
+      "value": 100,
+      "unit": "kg",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Maximum roof load",
+      "notes": ""
+    },
+    {
+      "id": "og95body-fact-013",
+      "subject": "body:OG95 WIS snapshot",
+      "category": "body_geometry",
+      "predicate": "MY2009_generic_WIS_dimensions",
+      "value": {
+        "length_sedan": 4827,
+        "length_wagon": 4828,
+        "height_sedan": 1475,
+        "height_wagon": 1501,
+        "front_track": 1522,
+        "rear_track": 1522
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95body-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "General data / 4D,5D length,height,track",
+      "notes": "Source-scoped reading; unresolved against US/CA manual. Not a ready simulation profile.",
+      "review_status": "provisional"
+    },
+    {
+      "id": "og95body-fact-014",
+      "subject": "body:US_CA OG95",
+      "category": "body_geometry",
+      "predicate": "MY2009_owner_manual_dimensions",
+      "value": {
+        "sedan_length": 4836,
+        "wagon_length": 4841,
+        "sedan_maximum_height": 1454,
+        "wagon_maximum_height": 1465,
+        "wheelbase": 2703
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95body-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.258 General",
+      "notes": ""
+    },
+    {
+      "id": "og95body-fact-015",
+      "subject": "chassis:US_CA OG95",
+      "category": "body_geometry",
+      "predicate": "MY2009_owner_manual_track",
+      "value": {
+        "front": 1522,
+        "rear": 1528
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95body-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.258 Track / footnote",
+      "notes": "For 6.5×16 wheels."
+    },
+    {
+      "id": "og95body-fact-016",
+      "subject": "vehicle:US_CA OG95",
+      "category": "vehicle_mass",
+      "predicate": "MY2009_owner_manual_weight_ranges",
+      "value": {
+        "ready_for_driving": [
+          1565,
+          1705
+        ],
+        "GVW": [
+          1990,
+          2130
+        ]
+      },
+      "unit": "kg",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95body-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.258 Weight / GVW",
+      "notes": "Ready weight includes fuel, washer fluid, tools and spare. No trim mapping."
+    },
+    {
+      "id": "og95body-fact-017",
+      "subject": "vehicle:US_CA OG95",
+      "category": "vehicle_mass",
+      "predicate": "MY2009_owner_manual_axle_limits",
+      "value": {
+        "front": 1175,
+        "rear_sedan": 1050,
+        "rear_wagon": 1125
+      },
+      "unit": "kg",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95body-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.258 Maximum axle load",
+      "notes": ""
+    },
+    {
+      "id": "og95body-fact-018",
+      "subject": "vehicle:US_CA OG95",
+      "category": "vehicle_mass",
+      "predicate": "MY2009_owner_manual_weight_distribution",
+      "value": {
+        "curb_front": 60,
+        "curb_rear": 40,
+        "GVW_front": 50,
+        "GVW_rear": 50
+      },
+      "unit": "percent",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "og95body-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "p.258 Weight distribution",
+      "notes": "Generic brochure-style distribution, not measured corner weights."
+    },
+    {
+      "id": "og95body-fact-019",
+      "subject": "wheels:OG95",
+      "category": "wheel_geometry",
+      "predicate": "MY2005_factory_offset",
+      "value": 49,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-004",
+        "og95body-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Rim offset / ET49",
+      "notes": ""
+    },
+    {
+      "id": "og95body-fact-020",
+      "subject": "wheels:OG95",
+      "category": "wheel_attachment",
+      "predicate": "MY2005_bolt_count_per_wheel",
+      "value": 5,
+      "unit": "count",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Wheel bolts",
+      "notes": ""
+    },
+    {
+      "id": "og95body-fact-021",
+      "subject": "wheels:OG95",
+      "category": "wheel_attachment",
+      "predicate": "MY2005_attachment_description",
+      "value": {
+        "thread": "M12 × 1.5",
+        "centering": "directly on hub",
+        "seat": "tapered wheel bolts",
+        "same_bolts_steel_and_alloy": true
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Wheel centering and bolts",
+      "notes": "PCD, hub diameter and taper angle are not stated."
+    },
+    {
+      "id": "og95body-fact-022",
+      "subject": "wheels:alloy",
+      "category": "wheel_attachment",
+      "predicate": "MY2005_wheel_bolt_torque",
+      "value": 110,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Wheel bolts aluminium wheels",
+      "notes": "Wheel suspended freely when tightened; steel-wheel sequence differs."
+    },
+    {
+      "id": "og95body-fact-023",
+      "subject": "chassis:front",
+      "category": "suspension_architecture",
+      "predicate": "MY2005_front_suspension",
+      "value": {
+        "architecture": "MacPherson strut",
+        "spring": "cylindrical coil",
+        "damper": "double-action gas",
+        "anti_roll_bar": true,
+        "subframe": true
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "System overview",
+      "notes": ""
+    },
+    {
+      "id": "og95body-fact-024",
+      "subject": "chassis:rear",
+      "category": "suspension_architecture",
+      "predicate": "MY2005_rear_suspension",
+      "value": {
+        "independent": true,
+        "links_per_wheel": [
+          "upper transverse",
+          "lower transverse",
+          "longitudinal"
+        ],
+        "subframe": true,
+        "coil_springs": true,
+        "double_acting_gas_dampers": true,
+        "anti_roll_bar": true
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-008"
+      ],
+      "evidence_status": "documented",
+      "locator": "System overview",
+      "notes": ""
+    },
+    {
+      "id": "og95body-fact-025",
+      "subject": "steering:OG95",
+      "category": "steering",
+      "predicate": "MY2005_steering_architecture",
+      "value": "power-assisted rack and pinion",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "og95body-src-009"
+      ],
+      "evidence_status": "documented",
+      "locator": "System overview",
+      "notes": ""
+    }
+  ],
+  "issues": [],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "og95body-gap-001",
+      "title": "MY2009 generic WIS geometry disagrees with North American manual",
+      "missing_inputs": [
+        "actual year and market",
+        "body style",
+        "factory model-specific dimensions"
+      ],
+      "reason": "The year-labelled WIS page repeats the MY2005 general figures, while North American manual differs in length, height and rear track. Keep generic reading provisional.",
+      "source_ids": [
+        "og95body-src-001",
+        "og95body-src-002",
+        "og95body-src-003"
+      ]
+    },
+    {
+      "id": "og95body-gap-002",
+      "title": "Actual mass and corner loads are unavailable",
+      "missing_inputs": [
+        "VIN",
+        "engine/gearbox",
+        "options",
+        "certification label",
+        "scale weights",
+        "fuel/load condition"
+      ],
+      "reason": "Published kerb and GVW ranges do not identify a single car; generic distributions cannot supply exact axle or corner masses.",
+      "source_ids": [
+        "og95body-src-001",
+        "og95body-src-003"
+      ]
+    },
+    {
+      "id": "og95body-gap-003",
+      "title": "Wheel bolt circle and wheel structural rating unverified",
+      "missing_inputs": [
+        "wheel part number",
+        "manufacturer wheel drawing or approval",
+        "PCD",
+        "hub bore",
+        "wheel load rating"
+      ],
+      "reason": "WIS confirms count, thread and offset but these pages do not state PCD, hub bore, seat angle or rated wheel load. Do not infer wheel load from axle limits.",
+      "source_ids": [
+        "og95body-src-004",
+        "og95body-src-005"
+      ]
+    },
+    {
+      "id": "og95body-gap-004",
+      "title": "Chassis calibration and geometry beyond architecture unavailable",
+      "missing_inputs": [
+        "six-position chassis identification code",
+        "EPC mapping",
+        "spring rates",
+        "damper curves",
+        "hard-point coordinates",
+        "steering ratio"
+      ],
+      "reason": "WIS chassis codes identify spring/anti-roll-bar/damper applications through EPC. Architecture alone does not yield simulation rates or linkage geometry.",
+      "source_ids": [
+        "og95body-src-007",
+        "og95body-src-008",
+        "og95body-src-009",
+        "og95body-src-010"
+      ]
+    },
+    {
+      "id": "og95body-gap-005",
+      "title": "Tire and aerodynamics simulation parameters unavailable",
+      "missing_inputs": [
+        "actual tire make and model",
+        "inflation/load",
+        "measured loaded rolling radius",
+        "manufacturer tire data",
+        "verified drag and frontal-area data"
+      ],
+      "reason": "No loaded radius, universal tire stiffness, drag area or body aerodynamic coefficient was inferred from dimensions or tire nomenclature.",
+      "source_ids": [
+        "og95body-src-001",
+        "og95body-src-004"
+      ]
+    }
+  ]
+}
