@@ -93,10 +93,10 @@ model-year row. Year-path names do not prove a given production revision.
 
 | Part-record metric | Count |
 | --- | ---: |
-| Records in research database | 76 |
-| Have at least one recorded part relationship | 18 |
-| Supported as a supplier claim | 48 |
-| Explicitly marked as needing vehicle verification | 45 |
+| Records in research database | 79 |
+| Have at least one recorded part relationship | 21 |
+| Supported as a supplier claim | 51 |
+| Explicitly marked as needing vehicle verification | 48 |
 
 A relationship can be an aftermarket cross-reference, kit contents, or a
 conditional supersession. Its existence does **not** make the replacement
