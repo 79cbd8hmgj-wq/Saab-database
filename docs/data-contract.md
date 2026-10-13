@@ -124,3 +124,15 @@ mark an option approved from a supplier cross-reference alone. Source IDs must
 resolve to stored provenance; tests reject accidental status promotion of early
 catalogue candidates. Any claim of validated fitment or durability requires
 stronger supporting test and application evidence beyond structure validation.
+
+## Embedded cross-manufacturer part-candidate metadata
+
+The companion `cross_manufacturer_interchange_pilot` dataset has optional
+`parts[*].interchange_candidate` records containing a supplier cross-reference
+strategy, named donor marques, Saab reference numbers, unresolved verification
+requirements and three independent booleans: `fitment_approved`,
+`vehicle_verified` and `durability_validated`. These stay false for unverified
+supplier references. Original Saab/GM donor assemblies are **not** declared
+identical from a shared aftermarket SKU; later engineering proofs remain
+vehicle- and option-specific. These records complement the separate
+`data/interchange-candidates/phase0.json` matrix rather than overriding it.
