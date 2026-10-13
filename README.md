@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- [9-3 B207 vs 9-5 B235 electrical sourcing and model-choice evidence](docs/research/cross-manufacturer-electrics-model-choice.md): manufacturer alternator/starter catalogues plus unresolved reliability and purchase decisions.
+
 - [GM Genuine / Saab Original B207 water-pump 12630084](docs/research/cross-manufacturer-gm-saab-b207-water-pump.md): identical official numbered service offering with unresolved VIN, kit, donor and durability verification; not an OG 9-5 B235 replacement.
 
 - [Expanded cross-manufacturer candidate research](docs/research/cross-manufacturer-interchange-pilot.md): PFI hub, SKF, Saab/Opel brake-pad references, and correctly separated Saab-specific radiator and older-PCV options; donor hardware and durability unverified.
