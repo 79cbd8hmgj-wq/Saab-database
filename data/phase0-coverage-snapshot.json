@@ -2,27 +2,27 @@
   "schema_version": "1.0.0",
   "meaning": "Record coverage and evidence provenance, NOT completeness, fitment, or reliability",
   "counts": {
-    "sources": 521,
-    "facts": 1027,
+    "sources": 524,
+    "facts": 1032,
     "issues": 85,
-    "parts": 79,
-    "gaps": 256
+    "parts": 80,
+    "gaps": 258
   },
-  "unique_source_urls": 458,
+  "unique_source_urls": 461,
   "retrieval_statuses": {
-    "full_text": 491,
+    "full_text": 494,
     "metadata_only": 8,
     "partial": 3,
     "search_excerpt": 19
   },
   "evidence_statuses": {
-    "documented": 1090,
+    "documented": 1091,
     "inference": 9,
-    "supplier_claim": 92
+    "supplier_claim": 97
   },
   "explicit_scope_counts": {
-    "platforms": 1133,
-    "model_years": 1042,
+    "platforms": 1139,
+    "model_years": 1043,
     "markets": 204,
     "engine_codes": 341,
     "transmission_codes": 167,
@@ -109,7 +109,7 @@
         "parts": 21
       },
       "2006": {
-        "facts": 113,
+        "facts": 114,
         "issues": 18,
         "parts": 26
       },
@@ -163,11 +163,11 @@
       "gaps": 7
     },
     "cross_manufacturer_interchange_pilot": {
-      "sources": 11,
-      "facts": 14,
+      "sources": 14,
+      "facts": 19,
       "issues": 3,
-      "parts": 3,
-      "gaps": 6
+      "parts": 4,
+      "gaps": 8
     },
     "epc_provenance": {
       "sources": 10,
@@ -381,9 +381,9 @@
     }
   },
   "parts_provenance": {
-    "total": 79,
-    "with_relationships": 21,
-    "supplier_claim": 51,
-    "needs_vehicle_verification": 48
+    "total": 80,
+    "with_relationships": 22,
+    "supplier_claim": 52,
+    "needs_vehicle_verification": 49
   }
 }
