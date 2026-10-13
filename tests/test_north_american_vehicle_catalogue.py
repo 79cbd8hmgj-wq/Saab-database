@@ -162,5 +162,39 @@ class NorthAmericanVehicleCatalogueTests(unittest.TestCase):
         self.assertTrue(all(row["coverage_complete"] is False for row in self.rows))
 
 
+    def test_canadian_2009_aero_automatic_fwd_requires_factory_proof(self):
+        # The 2009 CA editorial overview combines FWD Aero and an Aero AT
+        # option, but exact CA FWD Aero trim pages show manual gearbox.
+        # Do not construct an unproven FWD automatic via cross-product.
+        self.assertFalse(any(
+            x["model"] == "9-3" and x["model_year"] == 2009
+            and "CA" in x["market_evidence"]
+            and "aero" in x["id"].lower()
+            for x in self.examples
+        ))
+        exclusions = {x["id"]: x for x in self.catalogue["explicit_exclusions"]}
+        self.assertIn("na-ex-16", exclusions)
+        self.assertEqual(exclusions["na-ex-16"]["market"], "CA")
+        self.assertTrue(
+            {"na-cat-s62", "na-cat-s63", "na-cat-s64"}.issubset(
+                set(exclusions["na-ex-16"]["source_ids"])
+            )
+        )
+
+    def test_canadian_2003_sedan_excludes_outgoing_9400_convertible(self):
+        included = [
+            x for x in self.examples
+            if x["model"] == "9-3" and x["model_year"] == 2003
+            and "CA" in x["market_evidence"]
+        ]
+        self.assertEqual(
+            {x["id"] for x in included},
+            {"na-2003-93-linear-sedan-at-ca", "na-2003-93-arc-sedan-at-ca"}
+        )
+        self.assertTrue(all(x["platform"] == "9440" for x in included))
+        self.assertTrue(all(x["body_style"] == "sedan" for x in included))
+
+
+
 if __name__ == "__main__":
     unittest.main()
