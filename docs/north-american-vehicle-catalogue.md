@@ -2,7 +2,7 @@
 
 **Scope:** Saab 9-3 and 9-5, MY1998–2011 inclusive, original US/Canadian market only, **factory automatic only**, **FWD only**, **nonconvertibles**. European-only models, manual-only variants, XWD/AWD and 9-3X are not eligible. This is a **partial** research catalogue; it does not claim exhaustive model-year or trim completeness.
 
-The machine-readable companion [initial NA model-year screening and evidence records](../data/vehicle-catalogue/north-america-1998-2011.json) contains **28 model/year screening rows**, **93 sourced example configurations**, **57 source references** and **15 source-grounded exclusions/cautions**. Screening rows with missing evidence remain `unassessed`; there is no invented availability or reliability score. US and Canada are checked separately.
+The machine-readable companion [initial NA model-year screening and evidence records](../data/vehicle-catalogue/north-america-1998-2011.json) contains **28 model/year screening rows**, **100 sourced example configurations**, **64 source references** and **16 source-grounded exclusions/cautions**. Screening rows with missing evidence remain `unassessed`; there is no invented availability or reliability score. US and Canada are checked separately.
 
 ## Confirmed candidate examples (NOT a complete trim list)
 
@@ -75,6 +75,21 @@ Original year/market distinctions remain central. The additional sources support
 **2009 US Aero exception (new exclusion `na-ex-14`):** 2008 original U.S. 9-3 Aero **255-hp V6 FWD** was eligible with a six-speed automatic, but the **2009 U.S. Aero 280-hp V6** sedan and SportCombi were **XWD**, therefore excluded. The 2009 `1SC` 2.0T XWD package is separately excluded (`na-ex-15`); `1SA`, `1SB` and `1SD` FWD 2.0T packages have five-speed automatic options or standard equipment. We must not infer a Canadian exclusion from a U.S. year-specific option matrix.
 
 Canadian 2004/05/06 data add market-specific evidence, not copied U.S. conclusions. **Canada 1998 model-year status and many Canadian original 9-5 combinations remain unknown.** Automotive source aggregators contain mistakes; manufacturer brochure and model-year VIN corroboration is still required for exact fitment and exhaustive completeness.
+
+## Research batch 5: Canadian production-specific confirmation and conflict triage
+
+New Canadian-only sources establish additional configurations **without copying U.S.-market trim availability**:
+
+| Canada MY | Model/platform | Qualifying configuration(s) recorded | Evidence limitation |
+| --- | --- | --- | --- |
+| 2002 | Original 9-3 / 9400 | SE Anniversary five-door hatch, 205-hp 2.0L turbo automatic FWD | Canadian AutoTrader SE Auto Anniversary trim and 5-seat hatch cargo; factory Canada original automatic gearbox code pending (`na-cat-s59`) |
+| 2003 | New 9-3 / 9440 | Linear sedan 175-hp automatic FWD; Arc sedan 210-hp automatic FWD | Canadian explicit *Auto* / FWD 5-seat sedan trims. The same listing contains the carried-over **9400 SE convertible**—which must not be added (`na-cat-s58`) |
+| 2008 | Original 9-5 / 9600 | 260-hp 2.3L turbo sedan five-speed automatic FWD; SportCombi automatic FWD | Canadian 9-5 year-specific 4dr sedan Auto specification explicitly lists five-speed FWD and alternative wagon Auto trim; wagon original gearbox-code / detailed trim page still pending (`na-cat-s60`, `na-cat-s61`) |
+| 2009 | 9-3 / 9440 | 210-hp 2.0T sedan and SportCombi five-speed automatic FWD | Original-year Canadian review explicitly differentiates 5AT FWD from 6AT XWD (`na-cat-s62`) |
+
+**Canadian 2009 Aero conflict — research HOLD (`na-ex-16`):** AutoTrader Canada's year review says Aero sedan and SportCombi were offered in FWD and XWD and describes a six-speed Aero automatic option. Separate Canadian Aero FWD **exact sedan and wagon trim listings** state **six-speed manual**. This does **not** establish that an automatic and FWD were paired on a Canadian nonconvertible 2009 Aero. No 2009 Canadian FWD Aero automatic is recorded in the eligible catalogue until a factory Canada option/order table confirms one (`na-cat-s62`, `na-cat-s63`, `na-cat-s64`). The U.S. 2009 Aero XWD-only restriction does not independently determine Canadian availability.
+
+**Coverage interpretation:** The catalogue retains 28 model/year rows, with separate market statuses. New Canadian rows are a useful step but not completed factory full trim/motor/transmission coverage. No real-world vehicle has been inspected.
 
 ## Verified pitfalls / exclusions
 
