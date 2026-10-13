@@ -1092,15 +1092,16 @@
   "gaps": [
     {
       "id": "vinfit-gap-001",
-      "title": "Correct 9-5 MY2005–09 VIN code tables",
+      "title": "Original US-market 9-5 MY2008–09 complete VIN code tables and Canadian cross-check remain missing",
       "missing_inputs": [
-        "Find independently year-correct official VIN bulletins, US/CA owner manuals or dated Saab manufacturer VIN guides for MY2005–09; the existing WIS 2005/2007 mirror table contents lag or lead their directory year."
+        "Original Saab Automobile USA 2004–07 year tables were independently recovered (source gate5-src-001); 2008 and 2009 original year pages are absent from the 13-page official Saab Parts USA compilation. Obtain those dated original USA/CAN year bulletins, exact factory position 5/7/8 options, verified full-VIN decode and WebEPC physical part/build record. Do not reuse 2010 table found in WIS 2009 folder."
       ],
-      "reason": "Factory directory code table or label example is not a vehicle-level fitment authorization; missing data must remain unresolved.",
+      "reason": "Original MY2005–07 USA VIN position references are now recovered, but a generic bulletin year table cannot establish an actual installed drivetrain or 2008–09 original manufacturer/OEM part fitment.",
       "source_ids": [
         "vinfit-src-003",
         "vinfit-src-004",
-        "vinfit-src-005"
+        "vinfit-src-005",
+        "gate5-src-001"
       ]
     },
     {
@@ -1116,14 +1117,15 @@
     },
     {
       "id": "vinfit-gap-003",
-      "title": "2006 9-3 VIN source unverified",
+      "title": "Canadian MY2006 9-3 VIN option mapping and physical build confirmation still pending",
       "missing_inputs": [
-        "Retrieve independent MY2006 source including B207 engine marketing mapping, SportCombi body code and manual/automatic labels."
+        "Original Saab Automobile USA MY2006 VIN position 4/6/7/8/10/11 table is now recovered (gate5-src-001), closing the US original-year-document gap; validate Canadian equipment variations and actual car VIN/gearbox/engine before parts selection."
       ],
-      "reason": "Factory directory code table or label example is not a vehicle-level fitment authorization; missing data must remain unresolved.",
+      "reason": "Year-specific original USA code labels alone do not authorize a Canadian VIN equipment list or certify installed components of an individual used Saab.",
       "source_ids": [
         "vinfit-src-001",
-        "vinfit-src-002"
+        "vinfit-src-002",
+        "gate5-src-001"
       ]
     },
     {
