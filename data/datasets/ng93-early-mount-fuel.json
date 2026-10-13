@@ -1,0 +1,899 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "ng93_early_mount_fuel",
+  "sources": [
+    {
+      "id": "early9three-src-001",
+      "title": "MY2003 NG9-3 front subframe replacement procedure",
+      "url": "https://saabwisonline.com/9-3-9440/2003/7-suspension-wheels/front-suspension/adjustment-replacement/subframe",
+      "publisher": "Saab Automobile AB (original technical content mirrored by Saab WIS Online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Source directory MY2003; generic standard subframe procedure. Does not prove individual factory subframe part-number identity."
+    },
+    {
+      "id": "early9three-src-002",
+      "title": "MY2004 NG9-3 front subframe procedure",
+      "url": "https://saabwisonline.com/9-3-9440/2004/7-suspension-wheels/front-suspension/adjustment-replacement/subframe",
+      "publisher": "Saab Automobile AB (original technical content mirrored by Saab WIS Online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Source directory MY2004; generic procedure. Z18XE has a separate procedure and cannot be inferred to use these service instructions."
+    },
+    {
+      "id": "early9three-src-003",
+      "title": "MY2005 NG9-3 B207 subframe procedure",
+      "url": "https://saabwisonline.com/9-3-9440/2005/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-b207",
+      "publisher": "Saab Automobile AB (original technical content mirrored by Saab WIS Online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Explicit 2005 B207 heading; contains M05-only anti-roll bush direction and different torque-rod procedures from MY2004."
+    },
+    {
+      "id": "early9three-src-004",
+      "title": "MY2004 NG9-3 right engine mounting, petrol",
+      "url": "https://saabwisonline.com/9-3-9440/2004/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/engine-mounting-right",
+      "publisher": "Saab Automobile AB (original technical content mirrored by Saab WIS Online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Right-hand mounting; historical document not enough to identify 2005 frame retrofit kit. Source has a conflict in metric versus parenthetical imperial degree text for rear torque arm; do not use that line as installation approval."
+    },
+    {
+      "id": "early9three-src-005",
+      "title": "MY2005 NG9-3 right engine mounting, petrol",
+      "url": "https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/engine-mounting-right",
+      "publisher": "Saab Automobile AB (original technical content mirrored by Saab WIS Online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory centering and mount alignment instructions; no explicit 32022623 or MY2005 retrofit kit in document."
+    },
+    {
+      "id": "early9three-src-006",
+      "title": "MY2004 NG9-3 petrol fuel tank and lines inspection",
+      "url": "https://saabwisonline.com/9-3-9440/2004/2-engine/4-cylinder-petrol/fuel-system/adjustment-replacement/fuel-tank-and-fuel-lines-check",
+      "publisher": "Saab Automobile AB (original technical content mirrored by Saab WIS Online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory inspection targets both underbody and engine bay for leaks and securing of fuel lines; original scope MY2004 four-cylinder petrol."
+    },
+    {
+      "id": "early9three-src-007",
+      "title": "MY2005 NG9-3 petrol fuel tank and lines inspection",
+      "url": "https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/fuel-system/adjustment-replacement/fuel-tank-and-fuel-lines-check",
+      "publisher": "Saab Automobile AB (original technical content mirrored by Saab WIS Online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Same inspection text on MY2005 factory manual; separately sourced year, no inference beyond."
+    },
+    {
+      "id": "early9three-src-008",
+      "title": "MY2005 NG9-3 petrol fuel system detailed description",
+      "url": "https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/fuel-system/technical-description/detailed-description",
+      "publisher": "Saab Automobile AB (original technical content mirrored by Saab WIS Online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "B207 petrol fuel pump/fuel rail detail; manufacturer schematic context but not an underside routing drawing."
+    },
+    {
+      "id": "early9three-src-009",
+      "title": "MY2005 NG9-3 fuel lines from tank to engine bay",
+      "url": "https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-diesel/fuel-system/adjustment-replacement/fuel-lines-tank-engine-bay",
+      "publisher": "Saab Automobile AB (original technical content mirrored by Saab WIS Online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Despite its diesel directory placement, procedure explicitly names B207, petrol, CV and market/steering distinctions. Do not import diesel engine fuel pressure or injectors into B207 facts."
+    },
+    {
+      "id": "early9three-src-010",
+      "title": "NG9-3 front floor and subframe eSaabParts diagram",
+      "url": "https://www.esaabparts.com/viewparts.php?section=582948118",
+      "publisher": "eSaabParts retailer catalogue",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Retailer parts diagram lists early frames, CV stays and VIN suffix limits; part existence and mapping are seller claims, not factory interchange approval."
+    },
+    {
+      "id": "early9three-src-011",
+      "title": "eSaabParts current 32022623 replacement subframe page",
+      "url": "https://www.esaabparts.com/saab/parts/32022623?ss=12825111",
+      "publisher": "eSaabParts retailer catalogue",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Retailer listing inconsistently displays predecessor 12762720 across indexed variants; visible current page and search result may differ. Document the discrepancy without treating views as independent corroboration."
+    },
+    {
+      "id": "early9three-src-012",
+      "title": "eSaabParts 12805522 CV front axle stay page",
+      "url": "https://www.esaabparts.com/saab/parts/12805522",
+      "publisher": "eSaabParts retailer catalogue",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Supplier lists chassis suffix from 56000013 and specific CV engines/trim conditions."
+    },
+    {
+      "id": "early9three-src-013",
+      "title": "eSaabParts 12831387 CV early front axle stay page",
+      "url": "https://www.esaabparts.com/saab/parts/12831387",
+      "publisher": "eSaabParts retailer catalogue",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Direct product page lists 2003–2005; diagram provides chassis boundary to 56000012. No generic CV applicability."
+    },
+    {
+      "id": "early9three-src-014",
+      "title": "MY2004 NG9-3 front subframe replacement Z18XE",
+      "url": "https://saabwisonline.com/9-3-9440/2004/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-replacement-z18xe",
+      "publisher": "Saab Automobile AB (original technical content mirrored by Saab WIS Online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Separate Z18XE procedure with different mechanical layout/fastener values from B207; preserve engine scope."
+    },
+    {
+      "id": "early9three-src-015",
+      "title": "MY2004 NG9-3 four-wheel alignment",
+      "url": "https://saabwisonline.com/9-3-9440/2004/7-suspension-wheels/front-suspension/adjustment-replacement/four-wheel-alignment",
+      "publisher": "Saab Automobile AB (original technical content mirrored by Saab WIS Online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "WIS specifies rear geometry before front and ESP steering-angle recalibration after alignment; requires actual service references for tolerances."
+    }
+  ],
+  "facts": [
+    {
+      "id": "early9three-fact-001",
+      "subject": "subframe:front:9440-2003",
+      "category": "chassis_service",
+      "predicate": "body_attachment_torque_angle",
+      "value": "75 Nm plus 135 degrees",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003
+        ]
+      },
+      "source_ids": [
+        "early9three-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit steps 5–6",
+      "notes": "MY2003 generic WIS front subframe; distinct from torque arm and steering gear fasteners."
+    },
+    {
+      "id": "early9three-fact-002",
+      "subject": "subframe:front:9440-2004",
+      "category": "chassis_service",
+      "predicate": "body_attachment_torque_angle",
+      "value": "75 Nm plus 135 degrees",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "early9three-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit steps 5–6",
+      "notes": "Generic WIS subframe section; Z18XE has separate procedure not covered."
+    },
+    {
+      "id": "early9three-fact-003",
+      "subject": "subframe:front:9440-2004",
+      "category": "chassis_service",
+      "predicate": "engine_torque_rod_torque_angle",
+      "value": "70 Nm plus 90 degrees",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "early9three-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 8",
+      "notes": "Do not transfer MY2004 torque rod value to B207 MY2005 source."
+    },
+    {
+      "id": "early9three-fact-004",
+      "subject": "subframe:front:B207-2005",
+      "category": "chassis_service",
+      "predicate": "engine_torque_rod_front_torque_angle",
+      "value": "60 Nm plus 90 degrees",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "early9three-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 9",
+      "notes": "Factory front torque rod value as labeled; differs from generic MY2004 engine torque rod."
+    },
+    {
+      "id": "early9three-fact-005",
+      "subject": "subframe:front:B207-2005",
+      "category": "chassis_service",
+      "predicate": "engine_torque_rod_rear_torque",
+      "value": 80,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "early9three-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 9",
+      "notes": "Different joint from front torque rod and rear stay bolts."
+    },
+    {
+      "id": "early9three-fact-006",
+      "subject": "subframe:front:B207-2005",
+      "category": "suspension",
+      "predicate": "antiroll_rubber_opening_forwards_m05",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "early9three-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 3: opening of rubber bushes should face forward (M05 only)",
+      "notes": "Explicit M05 only instruction; no claim about MY2006–11."
+    },
+    {
+      "id": "early9three-fact-007",
+      "subject": "subframe:front:B207-2005",
+      "category": "chassis_service",
+      "predicate": "replacement_four_wheel_alignment",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "early9three-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 20",
+      "notes": "Replacement-specific alignment rather than evidence of interchange between frame designs."
+    },
+    {
+      "id": "early9three-fact-008",
+      "subject": "engine_mount:right:9440-2004",
+      "category": "mounting",
+      "predicate": "engine_pad_alignment",
+      "value": "Engine pad and bracket are fitted together with the pad not bearing incorrectly against the bracket.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "early9three-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 1",
+      "notes": "General petrol WIS source. Does not list later style engine mount part number."
+    },
+    {
+      "id": "early9three-fact-009",
+      "subject": "engine_mount:right:9440-2005",
+      "category": "mounting",
+      "predicate": "engine_pad_alignment",
+      "value": "Engine pad and bracket must be correctly aligned; engine mountings must not lie against engine brackets.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "early9three-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 1; Important",
+      "notes": "Factory adjustment procedure does not identify retrofit mount for 32022623."
+    },
+    {
+      "id": "early9three-fact-010",
+      "subject": "fuel:9440-petrol-2004",
+      "category": "fuel_line_inspection",
+      "predicate": "tank_line_connections_underbody_enginebay_inspection",
+      "value": "Check tank, lines, quick-release couplings and connections for damage/leaks both under the car and in engine bay.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "early9three-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Checks",
+      "notes": "Source requires checking mounting retention separately."
+    },
+    {
+      "id": "early9three-fact-011",
+      "subject": "fuel:9440-petrol-2004",
+      "category": "fuel_line_inspection",
+      "predicate": "retain_lines_in_mountings",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "early9three-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Important",
+      "notes": "Unsecured fuel lines are called out as at risk of damage and leakage."
+    },
+    {
+      "id": "early9three-fact-012",
+      "subject": "fuel:9440-petrol-2005",
+      "category": "fuel_line_inspection",
+      "predicate": "tank_line_connections_underbody_enginebay_inspection",
+      "value": "Check tank, lines, quick-release couplings and connections for damage/leaks both under the car and in engine bay.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "early9three-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Checks",
+      "notes": "B207-specific line length and material specification not provided."
+    },
+    {
+      "id": "early9three-fact-013",
+      "subject": "fuel:9440-petrol-2005",
+      "category": "fuel_line_inspection",
+      "predicate": "retain_lines_in_mountings",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "early9three-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Important",
+      "notes": "Retention is factory inspection requirement, not measured frequency of clip failure."
+    },
+    {
+      "id": "early9three-fact-014",
+      "subject": "fuel:9440-petrol-2005",
+      "category": "fuel_system",
+      "predicate": "fuel_rail_regulator_differential_pressure",
+      "value": 3,
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "early9three-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Pressure regulator; preset differential pressure",
+      "notes": "Factory generic 4-cylinder petrol section, not Z19 diesel common-rail pressure."
+    },
+    {
+      "id": "early9three-fact-015",
+      "subject": "fuel:9440-2005",
+      "category": "fuel_line_routing",
+      "predicate": "tank_to_enginebay_front_brake_line_clips",
+      "value": "During fuel-line service the rear of the front subframe is lowered to free fuel-line holders and front brake-pipe clips.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "early9three-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "provisional",
+      "locator": "To remove steps 8–13",
+      "notes": "Source is filed under 4-cylinder diesel, but explicitly references B207/petrol/CV in procedure; this entry does not assert complete B207 routing."
+    },
+    {
+      "id": "early9three-fact-016",
+      "subject": "fuel:9440-2005",
+      "category": "fuel_line_safety",
+      "predicate": "protect_brake_pipes_during_fuel_line_work",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "early9three-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove step 12, Important",
+      "notes": "The WIS specifically warns against damaging brake pipes near front line holders; exact route needs inspection."
+    },
+    {
+      "id": "early9three-fact-017",
+      "subject": "subframe:front:Z18XE-2004",
+      "category": "chassis_service",
+      "predicate": "z18xe_requires_distinct_replacement_steps",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004
+        ],
+        "engine_codes": [
+          "Z18XE"
+        ]
+      },
+      "source_ids": [
+        "early9three-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Subframe, replacement Z18XE; To remove/To fit",
+      "notes": "No universal B207/Z18XE subframe interchange claim."
+    },
+    {
+      "id": "early9three-fact-018",
+      "subject": "alignment:9440-2004",
+      "category": "chassis_service",
+      "predicate": "rear_alignment_precedes_front",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "early9three-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Four wheel alignment; Rear wheels",
+      "notes": "WIS describes camber and toe adjustments as coupled."
+    },
+    {
+      "id": "early9three-fact-019",
+      "subject": "alignment:9440-2004-ESP",
+      "category": "electrical_dependencies",
+      "predicate": "esp_angle_sensor_recalibration_after_alignment",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "early9three-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Four wheel alignment; Note",
+      "notes": "Only if ESP fitted. This is not a universal hardware replacement requirement."
+    },
+    {
+      "id": "early9three-fact-020",
+      "subject": "subframe:front:32022623",
+      "category": "supplier_relationship",
+      "predicate": "reported_predecessor_part_numbers",
+      "value": [
+        "12825111",
+        "12762720"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "early9three-src-011"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Superseded Part Numbers; indexed variation of product page",
+      "notes": "Two versions of the same retailer URL differ on whether 12762720 appears. Do not call this independently verified or assign other year fitment."
+    }
+  ],
+  "issues": [],
+  "parts": [
+    {
+      "id": "early9three-part-001",
+      "part_number": "12762720",
+      "title": "Reported predecessor of 32022623 NG9-3 front subframe",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "superseded_by",
+          "part_number": "32022623",
+          "conditions": "One version of the eSaabParts product page lists this predecessor; other retrieved presentation omits it. No distinct OEM corroboration found."
+        }
+      ],
+      "requirements": [
+        "Do not infer universal MY2003–2011 compatibility, including Z18XE.",
+        "Require VIN and 2005 engine mount configuration verification."
+      ],
+      "source_ids": [
+        "early9three-src-011"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Predecessor identifier only, not a confirmed physical-interchange mapping or primary part application."
+    },
+    {
+      "id": "early9three-part-002",
+      "part_number": "12831387",
+      "title": "Early NG9-3 convertible front axle stay",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005
+        ],
+        "body_styles": [
+          "CV"
+        ],
+        "vin_ranges": [
+          {
+            "end": "56000012",
+            "format": "8-character chassis suffix"
+          }
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Verify exact CV chassis-suffix interpretation; supplier diagram only.",
+        "Compare installation and chassis bracing before attempting replacement."
+      ],
+      "source_ids": [
+        "early9three-src-010",
+        "early9three-src-013"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Diagram says up to chassis --56000012 and years 2003–2005; CV launched during this period and broader catalogue year range must not be taken as definitive availability."
+    },
+    {
+      "id": "early9three-part-003",
+      "part_number": "12805522",
+      "title": "Later NG9-3 convertible front axle stay",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "CV"
+        ],
+        "vin_ranges": [
+          {
+            "start": "56000013",
+            "format": "8-character chassis suffix"
+          }
+        ],
+        "engine_codes": [
+          "B284",
+          "B207R",
+          "B207E",
+          "B207L"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Seller says Arc/Vector/Aero and Linear with sport chassis only.",
+        "Confirm 8-character suffix, engine and sport chassis; not a universal CV substitute."
+      ],
+      "source_ids": [
+        "early9three-src-010",
+        "early9three-src-012"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Supplier specifies chassis from 56000013 and engine/trim restrictions. No proof this directly replaces 12831387."
+    },
+    {
+      "id": "early9three-part-004",
+      "part_number": "92150086",
+      "title": "Front-floor hexagon screw, early NG9-3 chassis limit",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004
+        ],
+        "vin_ranges": [
+          {
+            "end": "41009387",
+            "format": "8-character chassis suffix"
+          }
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Section drawing callout 25; joint to be confirmed.",
+        "Do not substitute as a front subframe body bolt without factory callout and spec."
+      ],
+      "source_ids": [
+        "early9three-src-010"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Supplier lists a chassis-boundary screw in the front-floor diagram; not a verified subframe mounting bolt."
+    },
+    {
+      "id": "early9three-part-005",
+      "part_number": "24435780",
+      "title": "Jack support listed in NG9-3 front-floor diagram",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Retailer lists quantity 4; inspection of attached body steel is required.",
+        "Not proof a corroded lift point is safe to use."
+      ],
+      "source_ids": [
+        "early9three-src-010"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Retailer catalogue part identity only. Source does not establish standalone repair sufficiency for corroded sill."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "early9three-gap-001",
+      "title": "PI 08-01 (2007) early NG9-3 frame update",
+      "missing_inputs": [
+        "Obtain complete factory PI 08-01 2007 from authorized Saab service documentation, including chassis/market applicability and retrofit components."
+      ],
+      "reason": "Catalogue footnote names a document not retrieved; no upgrade pathway can be certified.",
+      "source_ids": [
+        "early9three-src-010"
+      ]
+    },
+    {
+      "id": "early9three-gap-002",
+      "title": "2005 front engine mount conversion kit",
+      "missing_inputs": [
+        "Identify exact pre- and post-change mount and bracket part numbers, production changepoint, required fasteners and hardware, and authorized service instructions."
+      ],
+      "reason": "Retailer flags 2005 conversions but neither retrieved WIS mount page defines needed newer-style kit.",
+      "source_ids": [
+        "early9three-src-004",
+        "early9three-src-005",
+        "early9three-src-011"
+      ]
+    },
+    {
+      "id": "early9three-gap-003",
+      "title": "12762720 supersession confirmation",
+      "missing_inputs": [
+        "Retrieve dated manufacturer EPC supersession ledger or authorized retailer documentation resolving the differing product-page views."
+      ],
+      "reason": "Single-retailer displays differ; not independent confirmation of full 12762720->32022623 substitution.",
+      "source_ids": [
+        "early9three-src-010",
+        "early9three-src-011"
+      ]
+    },
+    {
+      "id": "early9three-gap-004",
+      "title": "Early 2003–2004 subframe and Z18XE identity",
+      "missing_inputs": [
+        "Map 24401525 and 12779173 to precise early chassis/engine/gearbox variant and PI; retain Z18XE special procedure."
+      ],
+      "reason": "Shared workshop removal pattern does not establish physical interchangeable frame assembly.",
+      "source_ids": [
+        "early9three-src-001",
+        "early9three-src-002",
+        "early9three-src-014"
+      ]
+    },
+    {
+      "id": "early9three-gap-005",
+      "title": "CV chassis suffix 56000012/56000013 boundary",
+      "missing_inputs": [
+        "Retrieve exact factory bulletin/EPC chassis interpretation and sport-chassis options for stays 12831387 and 12805522."
+      ],
+      "reason": "Supplier diagram gives a useful split but not an independent factory VIN applicability confirmation.",
+      "source_ids": [
+        "early9three-src-010",
+        "early9three-src-012",
+        "early9three-src-013"
+      ]
+    },
+    {
+      "id": "early9three-gap-006",
+      "title": "Complete petrol fuel and hydraulic brake underbody routing",
+      "missing_inputs": [
+        "Find original 2004/2005 B207 petrol diagrams identifying line positions, protection panels, unions, clip part numbers, material and model-year variation."
+      ],
+      "reason": "Factory inspection and multi-engine line service pages establish only partial routing and safe-handling points.",
+      "source_ids": [
+        "early9three-src-006",
+        "early9three-src-007",
+        "early9three-src-009"
+      ]
+    },
+    {
+      "id": "early9three-gap-007",
+      "title": "MY2004 engine-mount conflicting torque annotation",
+      "missing_inputs": [
+        "Check later WIS revision or original illustration of right engine mounting rear torque arm angle, which displays metric +90 degrees and imperial +60 degrees."
+      ],
+      "reason": "Internal document inconsistency must remain open; no torque instruction or inferred repair fitment should use the disputed joint.",
+      "source_ids": [
+        "early9three-src-004"
+      ]
+    }
+  ]
+}
