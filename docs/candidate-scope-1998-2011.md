@@ -28,4 +28,6 @@ Only original US- and Canadian-market factory configurations qualify; other-mark
 4. Do not equate supplier cross-references with approved swaps, source counts with reliability, or eligibility with a buying recommendation.
 5. Existing Phase 0 gate status remains **A partial; B and C unmet**. This decision expands the candidate denominator, not the research completeness census.
 
-The [North American model/year evidence catalogue](north-american-vehicle-catalogue.md) records the first partial factory/trim-backed screening batch, with explicit unknowns and US/Canada boundaries. Its JSON is `data/vehicle-catalogue/north-america-1998-2011.json`.\n\nThe machine-readable companion is `data/audits/candidate-scope-1998-2011.json`.
+The [North American model/year evidence catalogue](north-american-vehicle-catalogue.md) records the first partial factory/trim-backed screening batch, with explicit unknowns and US/Canada boundaries. Its JSON is `data/vehicle-catalogue/north-america-1998-2011.json`.
+
+The machine-readable companion is `data/audits/candidate-scope-1998-2011.json`.
