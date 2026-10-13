@@ -1,9 +1,24 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 489 source records with 431 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 497 source records with 438 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
+
+## og95_north_american_exhaust_fuel_wp6
+
+Dataset: [og95_north_american_exhaust_fuel_wp6](../data/datasets/og95-north-american-exhaust-fuel-wp6.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `wp6-src-001` | [Factory 2008 9-5 Trionic four-cylinder intake turbo exhaust system diagram](https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/technical-description/system-diagram-intake-turbo-exhaust-4-cyl) | Saab Automobile AB (original WIS, mirrored by SaabWISOnline) | `full_text` |
+| `wp6-src-002` | [Factory 2008 9-5 B235E/R front exhaust system with catalytic converters](https://saabwisonline.com/9-5-9600/2008/2-engine/exhaust-system/adjustment-replacement/front-exhaust-system-with-catalytic-converters-b235e-r) | Saab Automobile AB (original WIS, mirrored by SaabWISOnline) | `full_text` |
+| `wp6-src-003` | [Factory 2008 9-5 four-cylinder T7 oxygen sensor wiring locations](https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/wiring-diagram/trionic-t7-engine-management-system-4-cyl-part-4-4) | Saab Automobile AB (original WIS, mirrored by SaabWISOnline) | `full_text` |
+| `wp6-src-004` | [Factory 2008 9-5 heated oxygen sensor 2 technical data](https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/technical-data/heated-oxygen-sensor-2-after-catalytic-converter-592ra) | Saab Automobile AB (original WIS, mirrored by SaabWISOnline) | `search_excerpt` |
+| `wp6-src-005` | [Factory 2008 9-5 Trionic 7 tank vapor purging and leak diagnosis](https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/technical-description/purging) | Saab Automobile AB (original WIS, mirrored by SaabWISOnline) | `full_text` |
+| `wp6-src-006` | [Factory 2008 9-5 fuel pressure, intake integrity and adaptation diagnostic checklist](https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/adjustment-replacement/leak-check-fuel-pressure-flow-capacity-and-adaptation-procedures) | Saab Automobile AB (original WIS, mirrored by SaabWISOnline) | `full_text` |
+| `wp6-src-007` | [NYSDEC New York catalytic converter compliance and replacement guidance](https://dec.ny.gov/environmental-protection/air-quality/controlling-motor-vehicle-pollution) | New York State Department of Environmental Conservation | `full_text` |
+| `wp6-src-008` | [Factory 2008 9-5 Trionic 7 DTC P0138 sensor 2 electrical diagnosis](https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/fault-diagnosis-diagnostic-trouble-codes/p0138) | Saab Automobile AB (original WIS, mirrored by SaabWISOnline) | `full_text` |
 
 ## corrections
 
