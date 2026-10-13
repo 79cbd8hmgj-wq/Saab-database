@@ -1,6 +1,6 @@
-# Phase 0 research coverage audit — 28-domain refresh
+# Phase 0 research coverage audit — 29-domain refresh
 
-**Audit basis:** October 13, 2026, 28 datasets including Gate A/C vehicle identity and Gate A structural corrosion inspection. Earlier 26/27-domain baselines are preserved in merged pull requests. The earlier 26-domain baseline remains preserved in PR #20. This is a census of saved records, **not** an independent rereading of every original Saab source, an estimate of percent complete, or an engineering safety certification. The previous 7-domain baseline is historical and is superseded by this current audit.
+**Audit basis:** October 13, 2026, 29 datasets including Gate A/C vehicle identity, Gate A corrosion, and Gate A/B brakes/line safety. Earlier audit baselines remain in merged PR history. Earlier 26/27-domain baselines are preserved in merged pull requests. The earlier 26-domain baseline remains preserved in PR #20. This is a census of saved records, **not** an independent rereading of every original Saab source, an estimate of percent complete, or an engineering safety certification. The previous 7-domain baseline is historical and is superseded by this current audit.
 
 **Living guardrail:** `tools/phase0_audit.py` recalculates all numeric tables from `data/datasets/*.json`. Its checked-in companion `data/phase0-coverage-snapshot.json` is verified by unit tests and `python3 tools/phase0_audit.py --check`. A new research PR must refresh these numbers when datasets change; otherwise CI should fail.
 
@@ -9,13 +9,13 @@
 
 | Measure | Current records |
 | --- | ---: |
-| Research domains | 28 |
-| Source records | 450 |
-| Unique source URLs | 404 |
-| Technical facts | 912 |
-| Diagnostic/correction issues | 62 |
+| Research domains | 29 |
+| Source records | 469 |
+| Unique source URLs | 420 |
+| Technical facts | 937 |
+| Diagnostic/correction issues | 66 |
 | Part records | 74 |
-| Explicit open research gaps | 215 |
+| Explicit open research gaps | 223 |
 
 A repeated URL is not independent corroboration. These are stored record counts,
 **not** estimates of system completeness, part fitment confidence, failure rates,
@@ -25,14 +25,14 @@ or the probability that an individual vehicle is repairable.
 
 | Source retrieval | Records |
 | --- | ---: |
-| `full_text` | 426 |
+| `full_text` | 444 |
 | `partial` | 3 |
-| `search_excerpt` | 13 |
+| `search_excerpt` | 14 |
 | `metadata_only` | 8 |
 
 | Technical evidence | Facts + issues + parts |
 | --- | ---: |
-| `documented` | 965 |
+| `documented` | 994 |
 | `supplier_claim` | 78 |
 | `inference` | 5 |
 
@@ -44,13 +44,13 @@ is counted from individual groups, not from a misleading top-level union.
 
 | Scope field explicitly present | Records out of facts + issues + parts |
 | --- | ---: |
-| `platforms` | 999 / 1048 |
-| `model_years` | 912 / 1048 |
-| `markets` | 150 / 1048 |
-| `engine_codes` | 306 / 1048 |
-| `transmission_codes` | 161 / 1048 |
-| `body_styles` | 79 / 1048 |
-| `vin_ranges` | 24 / 1048 |
+| `platforms` | 1028 / 1077 |
+| `model_years` | 941 / 1077 |
+| `markets` | 150 / 1077 |
+| `engine_codes` | 306 / 1077 |
+| `transmission_codes` | 161 / 1077 |
+| `body_styles` | 79 / 1077 |
+| `vin_ranges` | 24 / 1077 |
 
 ### Technical record coverage by original Saab model year
 
@@ -70,10 +70,10 @@ model-year row. Year-path names do not prove a given production revision.
 | 2003 | 27 | 3 | 17 |
 | 2004 | 55 | 6 | 20 |
 | 2005 | 151 | 8 | 21 |
-| 2006 | 133 | 9 | 20 |
+| 2006 | 138 | 11 | 20 |
 | 2007 | 114 | 14 | 19 |
-| 2008 | 139 | 15 | 19 |
-| 2009 | 113 | 11 | 19 |
+| 2008 | 143 | 16 | 19 |
+| 2009 | 115 | 12 | 19 |
 
 #### Second-generation 9-3, platform 9440
 
@@ -82,7 +82,7 @@ model-year row. Year-path names do not prove a given production revision.
 | 2003 | 18 | 14 | 16 |
 | 2004 | 28 | 15 | 19 |
 | 2005 | 58 | 11 | 16 |
-| 2006 | 74 | 9 | 21 |
+| 2006 | 88 | 11 | 21 |
 | 2007 | 15 | 8 | 20 |
 | 2008 | 18 | 8 | 21 |
 | 2009 | 11 | 8 | 21 |
@@ -127,6 +127,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 | `og95_t7_electrical` | 22 | 43 | 4 | 0 | 7 |
 | `og95_turbo_oil_feed_solenoids` | 14 | 39 | 3 | 0 | 9 |
 | `og95_turbo_tsb_2912494_fa57_triage` | 13 | 31 | 3 | 0 | 9 |
+| `priority_brake_hydraulic_safety` | 19 | 25 | 4 | 0 | 8 |
 | `priority_structural_corrosion_inspection` | 14 | 21 | 3 | 0 | 8 |
 | `priority_vehicle_identity_gates` | 13 | 15 | 2 | 0 | 6 |
 | `repair_vs_replace_troubleshooting` | 17 | 31 | 4 | 0 | 9 |
@@ -197,7 +198,7 @@ For any proposed substitution, preserve installed OE part ID, VIN/engine/gearbox
 
 ## What this milestone changes
 
-Work package 2 now adds source-linked 9-5 wagon underbody structure, NG9-3 CV sill/brace dependencies and NY DMV minimum safety checks; individual vehicle structural health and 2008 revision proof are still blocked. Work package 1 has now added scoped 9-5 and 9-3 physical identity worksheets, but the missing 2005–09/2006 VIN decoding and VIN-filtered WebEPC records remain explicit blockers. We should **stop** making consecutive micro-PRs solely to increase fact count. Each future research batch should reference a named Phase 0 gate and inspection- or interchange-blocking missing evidence, supply a real source outcome, and update the systematic audit. No release-quality parts recommendation, purchase score, or simulation claim follows from the current inventory.
+Work package 3 now maps 9-3 four brake hardware levels and identifies a dangerous 9-5 front-caliper torque discrepancy plus unresolved rotor-dimension conflict. Those conflicts block part/torque approval until authoritative verification. Work package 2 now adds source-linked 9-5 wagon underbody structure, NG9-3 CV sill/brace dependencies and NY DMV minimum safety checks; individual vehicle structural health and 2008 revision proof are still blocked. Work package 1 has now added scoped 9-5 and 9-3 physical identity worksheets, but the missing 2005–09/2006 VIN decoding and VIN-filtered WebEPC records remain explicit blockers. We should **stop** making consecutive micro-PRs solely to increase fact count. Each future research batch should reference a named Phase 0 gate and inspection- or interchange-blocking missing evidence, supply a real source outcome, and update the systematic audit. No release-quality parts recommendation, purchase score, or simulation claim follows from the current inventory.
 
 The next work queue is in [the prioritized gap-closure plan](gap-closure-plan.md). Structural safety, vehicle identity and current OEM part applicability precede optional deeper boost/TCM numeric research.
 

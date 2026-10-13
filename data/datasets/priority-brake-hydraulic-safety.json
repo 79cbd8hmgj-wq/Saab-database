@@ -1,0 +1,1174 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "priority_brake_hydraulic_safety",
+  "sources": [
+    {
+      "id": "hydbrake-src-001",
+      "title": "MY2006 NG9-3 VIN option plate brakes positions 7–10",
+      "url": "https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/technical-data/vin-plate-brake-caliper-and-brake-discs",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Source is only scoped to original listed model/year/procedure and not to a measured vehicle or replacement part."
+    },
+    {
+      "id": "hydbrake-src-002",
+      "title": "MY2006 NG9-3 front and rear rotor dimension levels",
+      "url": "https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/technical-data/brake-discs",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Source is only scoped to original listed model/year/procedure and not to a measured vehicle or replacement part."
+    },
+    {
+      "id": "hydbrake-src-003",
+      "title": "MY2006 NG9-3 brake caliper piston/type levels",
+      "url": "https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/technical-data/brake-caliper",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Source is only scoped to original listed model/year/procedure and not to a measured vehicle or replacement part."
+    },
+    {
+      "id": "hydbrake-src-004",
+      "title": "MY2006 NG9-3 rear caliper holder and guide pins service",
+      "url": "https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/brake-caliper-holder-rear",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Source is only scoped to original listed model/year/procedure and not to a measured vehicle or replacement part."
+    },
+    {
+      "id": "hydbrake-src-005",
+      "title": "MY2006 NG9-3 front rotor assembly carrier vs disc fastener",
+      "url": "https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/front-brake-disc",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Source is only scoped to original listed model/year/procedure and not to a measured vehicle or replacement part."
+    },
+    {
+      "id": "hydbrake-src-006",
+      "title": "MY2006 NG9-3 integral rear caliper handbrake mechanism",
+      "url": "https://saabwisonline.com/9-3-9440/2006/5-brakes/handbrake/technical-description/handbrake",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Source is only scoped to original listed model/year/procedure and not to a measured vehicle or replacement part."
+    },
+    {
+      "id": "hydbrake-src-007",
+      "title": "MY2006 NG9-3 brake flex hose fitting/bleeding and sweep clearance",
+      "url": "https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/brake-hose",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Source is only scoped to original listed model/year/procedure and not to a measured vehicle or replacement part."
+    },
+    {
+      "id": "hydbrake-src-008",
+      "title": "MY2009 OG9-5 2001–2009 B1/B2/B3 factory brake configuration summary",
+      "url": "https://saabwisonline.com/9-5-9600/2009/5-brakes/brake-discs-and-pads/technical-data/brake-configurations",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "The chart under MY2009 includes M01–M09 production/year categories; original vehicle option and hardware must be verified, chart alone is NOT OEM parts order approval."
+    },
+    {
+      "id": "hydbrake-src-009",
+      "title": "MY2006 OG9-5 alternative front disc detail with 285x25 vs 308x28",
+      "url": "https://saabwisonline.com/9-5-9600/2006/5-brakes/brake-discs-and-pads/technical-data/brake-disc-front-wheel",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Independent 2006 technical-data page conflicts with a separate 2009 brake-configuration page; comparison does not resolve exact fitment."
+    },
+    {
+      "id": "hydbrake-src-010",
+      "title": "MY2008 OG9-5 front rotor procedure conflicting 4 Nm carrier bolt instruction",
+      "url": "https://saabwisonline.com/9-5-9600/2008/5-brakes/brake-discs-and-pads/adjustment-replacement/brake-disc-front-wheel",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Source's front-caliper 4 Nm instruction contradicts separate 2008 torque table 140 Nm+45 degrees; do NOT use this line as a tightening specification."
+    },
+    {
+      "id": "hydbrake-src-011",
+      "title": "MY2008 OG9-5 dedicated front and rear joint torque table",
+      "url": "https://saabwisonline.com/9-5-9600/2008/5-brakes/brake-discs-and-pads/technical-data/tightening-torques",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Source is only scoped to original listed model/year/procedure and not to a measured vehicle or replacement part."
+    },
+    {
+      "id": "hydbrake-src-012",
+      "title": "MY2006 OG9-5 rear rotor and parking shoe adjustment",
+      "url": "https://saabwisonline.com/9-5-9600/2006/5-brakes/brake-discs-and-pads/adjustment-replacement/brake-disc-rear-wheel-swinging-caliper",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Source is only scoped to original listed model/year/procedure and not to a measured vehicle or replacement part."
+    },
+    {
+      "id": "hydbrake-src-013",
+      "title": "MY2006 OG9-5 parking brake shoe-first cable adjustment",
+      "url": "https://saabwisonline.com/9-5-9600/2006/5-brakes/handbrake/adjustment-replacement/adjusting-the-handbrake-cable",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Source is only scoped to original listed model/year/procedure and not to a measured vehicle or replacement part."
+    },
+    {
+      "id": "hydbrake-src-014",
+      "title": "MY2006 OG9-5 parking cable routing past exhaust shield and fuel tank straps",
+      "url": "https://saabwisonline.com/9-5-9600/2006/5-brakes/handbrake/adjustment-replacement/handbrake-cable",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Source is only scoped to original listed model/year/procedure and not to a measured vehicle or replacement part."
+    },
+    {
+      "id": "hydbrake-src-015",
+      "title": "MY2006 OG9-5 corroded hardlines and safe flexible hose routing",
+      "url": "https://saabwisonline.com/9-5-9600/2006/5-brakes/footbrake-system/adjustment-replacement/brake-hoses",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Source is only scoped to original listed model/year/procedure and not to a measured vehicle or replacement part."
+    },
+    {
+      "id": "hydbrake-src-016",
+      "title": "MY2008 OG9-5 pad wear minimum for front caliper",
+      "url": "https://saabwisonline.com/9-5-9600/2008/5-brakes/brake-discs-and-pads/adjustment-replacement/brake-pads-front-wheel",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Source is only scoped to original listed model/year/procedure and not to a measured vehicle or replacement part."
+    },
+    {
+      "id": "hydbrake-src-017",
+      "title": "MY2006 NG9-3 front pad level 1/2/4 and directional inner insert",
+      "url": "https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/brake-pads-front-levels-1-2-and-4",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Source is only scoped to original listed model/year/procedure and not to a measured vehicle or replacement part."
+    },
+    {
+      "id": "hydbrake-src-018",
+      "title": "MY2008 OG9-5 brake hardline corrosion, leak and no post-install bending",
+      "url": "https://saabwisonline.com/9-5-9600/2008/5-brakes/footbrake-system/adjustment-replacement/brake-lines",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Source is only scoped to original listed model/year/procedure and not to a measured vehicle or replacement part."
+    },
+    {
+      "id": "hydbrake-src-019",
+      "title": "MY2006 NG9-3 specialist pad service front level 3",
+      "url": "https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/brake-pads-front-level-3",
+      "publisher": "Saab Automobile AB original workshop information via SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "search_excerpt",
+      "notes": "Source is only scoped to original listed model/year/procedure and not to a measured vehicle or replacement part."
+    }
+  ],
+  "facts": [
+    {
+      "id": "hydbrake-fact-001",
+      "subject": "VIN plate chassis option row",
+      "category": "brake_system",
+      "predicate": "MY2006_NG93_VINplate_brake_slots",
+      "value": {
+        "7": "front brake disc option",
+        "8": "rear brake disc option",
+        "9": "front caliper option",
+        "10": "rear caliper option",
+        "lookup": "original Saab EPC"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 NG93 VINplate brake slots",
+      "notes": "A code is a classification for manufacturer lookup, not a part number or a proof the original caliper remains installed."
+    },
+    {
+      "id": "hydbrake-fact-002",
+      "subject": "VIN plate chassis option row",
+      "category": "brake_system",
+      "predicate": "MY2006_NG93_missing_brake_code_process",
+      "value": "Saab directs an importer to Product Improvement Process or Parts Assistance Centre if brake codes are missing.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 NG93 missing brake code process",
+      "notes": "Historical dealer workflow, not a promise this Saab support route still operates in 2026."
+    },
+    {
+      "id": "hydbrake-fact-003",
+      "subject": "9-3 9440 brake classification Level 1",
+      "category": "brake_system",
+      "predicate": "MY2006_NG93_level1_rotor_caliper_matrix",
+      "value": {
+        "front_diameter_mm": 285,
+        "front_new_thickness_mm": 25,
+        "front_min_mm": 22,
+        "rear_diameter_mm": 278,
+        "rear_new_thickness_mm": 12,
+        "rear_min_mm": 10,
+        "rear_type": "solid",
+        "front_caliper": "FNG57",
+        "front_piston_mm": 57,
+        "rear_caliper": "FNC38",
+        "rear_piston_mm": 38
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-002",
+        "hydbrake-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 NG93 level1 rotor caliper matrix",
+      "notes": "Source table defines distinct rotor and piston types by factory brake level; do not infer that level from Aero/Linear trim or issue a SKU/swap approval."
+    },
+    {
+      "id": "hydbrake-fact-004",
+      "subject": "9-3 9440 brake classification Level 2",
+      "category": "brake_system",
+      "predicate": "MY2006_NG93_level2_rotor_caliper_matrix",
+      "value": {
+        "front_diameter_mm": 302,
+        "front_new_thickness_mm": 28,
+        "front_min_mm": 25,
+        "rear_diameter_mm": 292,
+        "rear_new_thickness_mm": 20,
+        "rear_min_mm": 18,
+        "rear_type": "ventilated",
+        "front_caliper": "FNG60",
+        "front_piston_mm": 60,
+        "rear_caliper": "FNC40",
+        "rear_piston_mm": 40
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-002",
+        "hydbrake-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 NG93 level2 rotor caliper matrix",
+      "notes": "Source table defines distinct rotor and piston types by factory brake level; do not infer that level from Aero/Linear trim or issue a SKU/swap approval."
+    },
+    {
+      "id": "hydbrake-fact-005",
+      "subject": "9-3 9440 brake classification Level 3",
+      "category": "brake_system",
+      "predicate": "MY2006_NG93_level3_rotor_caliper_matrix",
+      "value": {
+        "front_diameter_mm": 314,
+        "front_new_thickness_mm": 28,
+        "front_min_mm": 25,
+        "rear_diameter_mm": 292,
+        "rear_new_thickness_mm": 20,
+        "rear_min_mm": 18,
+        "rear_type": "ventilated",
+        "front_caliper": "FNRG60",
+        "front_piston_mm": 60,
+        "rear_caliper": "FNC40",
+        "rear_piston_mm": 40
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-002",
+        "hydbrake-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 NG93 level3 rotor caliper matrix",
+      "notes": "Source table defines distinct rotor and piston types by factory brake level; do not infer that level from Aero/Linear trim or issue a SKU/swap approval."
+    },
+    {
+      "id": "hydbrake-fact-006",
+      "subject": "9-3 9440 brake classification Level 4",
+      "category": "brake_system",
+      "predicate": "MY2006_NG93_level4_rotor_caliper_matrix",
+      "value": {
+        "front_diameter_mm": 302,
+        "front_new_thickness_mm": 28,
+        "front_min_mm": 25,
+        "rear_diameter_mm": 278,
+        "rear_new_thickness_mm": 12,
+        "rear_min_mm": 10,
+        "rear_type": "solid",
+        "front_caliper": "FNG60",
+        "front_piston_mm": 60,
+        "rear_caliper": "FNC38",
+        "rear_piston_mm": 38
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-002",
+        "hydbrake-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 NG93 level4 rotor caliper matrix",
+      "notes": "Source table defines distinct rotor and piston types by factory brake level; do not infer that level from Aero/Linear trim or issue a SKU/swap approval."
+    },
+    {
+      "id": "hydbrake-fact-007",
+      "subject": "9-3 measured brake disc",
+      "category": "brake_system",
+      "predicate": "MY2006_NG93_rotor_runout_variation",
+      "value": {
+        "max_fitted_runout_mm": 0.08,
+        "max_thickness_variation_mm": 0.015
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 NG93 rotor runout variation",
+      "notes": "Applies to assembled rotor tolerance with factory dial gauge procedure, not a corrosion-thickness safety limit."
+    },
+    {
+      "id": "hydbrake-fact-008",
+      "subject": "9-3 front brakes",
+      "category": "brake_system",
+      "predicate": "MY2006_NG93_front_pad_assembly_variants",
+      "value": {
+        "separate_service_procedures": [
+          "levels 1,2,4",
+          "level 3 FNRG 60"
+        ],
+        "directional_pad": "level 1/2/4 inner pad arrow points disc rotation during forward drive"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-017",
+        "hydbrake-src-019"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 NG93 front pad assembly variants",
+      "notes": "Only classified pad family and installation logic, not a validated replacement part number."
+    },
+    {
+      "id": "hydbrake-fact-009",
+      "subject": "9-3 rear caliper/holder",
+      "category": "brake_system",
+      "predicate": "MY2006_NG93_rear_carrier_fastener_vs_guide_pin",
+      "value": {
+        "carrier_bolts": "130 Nm +45 degrees with specified locking compound",
+        "guide_pins_Nm": 28,
+        "piston_service": "threaded screw-in reset tool and adapter"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 NG93 rear carrier fastener vs guide pin",
+      "notes": "Carrier hardware is not the sliding hydraulic body's guide pins. Match actual caliper/level and procedure before torque service."
+    },
+    {
+      "id": "hydbrake-fact-010",
+      "subject": "9-3 front brake caliper",
+      "category": "brake_system",
+      "predicate": "MY2006_NG93_front_carrier_vs_disc_locking_screw",
+      "value": {
+        "carrier_bolts": "210 Nm +30 degrees with locking compound",
+        "rotor_locking_screw_Nm": 7
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 NG93 front carrier vs disc locking screw",
+      "notes": "These apply to different joints: NEVER use 7 Nm for large carrier-to-knuckle fasteners."
+    },
+    {
+      "id": "hydbrake-fact-011",
+      "subject": "9-3 parking brake",
+      "category": "brake_system",
+      "predicate": "MY2006_NG93_integrated_parking_caliper",
+      "value": "Cable pulls levers on rear hydraulic caliper pistons; pads clamp the service brake discs (not OG9-5 separate parking shoes).",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 NG93 integrated parking caliper",
+      "notes": "Identifies different repair parts and maintenance approach; cross-platform parking hardware is not interchangeable."
+    },
+    {
+      "id": "hydbrake-fact-012",
+      "subject": "9-3 brake flex hose",
+      "category": "brake_system",
+      "predicate": "MY2006_NG93_flex_hose_clearance_bleeding",
+      "value": {
+        "hardline_connector_Nm": 15,
+        "hose_to_caliper_banjo_Nm": 40,
+        "new_seals": true,
+        "requires_bleeding_and_leak_test": true,
+        "installation": "no twist or steering/suspension contact"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 NG93 flex hose clearance bleeding",
+      "notes": "Hose fit must remain clear at full steering/suspension travel; don't drive before professional leak/functional test."
+    },
+    {
+      "id": "hydbrake-fact-013",
+      "subject": "9-3 rear caliper",
+      "category": "brake_system",
+      "predicate": "MY2006_NG93_rear_piston_threaded_handbrake_automatic_adjuster",
+      "value": {
+        "rewind_tool": "factory 89 96 969 with adapter 89 96 977",
+        "check": "depress pedal then verify handbrake self-adjustment"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 NG93 rear piston threaded handbrake automatic adjuster",
+      "notes": "A rear brake piston requiring screw-in reset is not automatically a fault. Do not force it straight inward as on 9-5 front."
+    },
+    {
+      "id": "hydbrake-fact-014",
+      "subject": "9-5 original brake configurations",
+      "category": "source_quality",
+      "predicate": "OG95_B1_B2_B3_printed_brake_configurations",
+      "value": {
+        "B1": {
+          "front_d_mm": 288,
+          "front_new_mm": 25,
+          "rear_d_mm": 286,
+          "rear_new_mm": 10
+        },
+        "B2": {
+          "front_d_mm": 308,
+          "front_new_mm": 25,
+          "rear_d_mm": 300,
+          "rear_new_mm": 20
+        },
+        "B3": {
+          "front_d_mm": 308,
+          "front_new_mm": 25,
+          "rear_d_mm": 286,
+          "rear_new_mm": 10
+        }
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "OG95 B1 B2 B3 printed brake configurations",
+      "notes": "One 2009-indexed factory chart spanning 2001–09. Its 288/25 B1 and 308/25 B2 values conflict with separate MY2006 standard 285/25 and heavy 308/28, so no variant or actual installed disc approved from chart alone."
+    },
+    {
+      "id": "hydbrake-fact-015",
+      "subject": "9-5 original brake configurations",
+      "category": "source_quality",
+      "predicate": "OG95_2009_chart_B1_B2_B3_market_engine_rows",
+      "value": {
+        "MY2008": {
+          "B1": "B205E/B235E rows where marked in printed model chart",
+          "B2": "B235R row",
+          "B3": "B235E BioPower (market-specific)"
+        },
+        "source_caveat": "table title MY2009 and flattened column alignment require original matrix verification"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "OG95 2009 chart B1 B2 B3 market engine rows",
+      "notes": "Do not assert precise US/Canada 2008 donor compatibility from flattened 2009 WIS chart. Candidate needs VIN, installed disc and caliper measurement."
+    },
+    {
+      "id": "hydbrake-fact-016",
+      "subject": "9-5 original front brake rotor 2006",
+      "category": "brake_system",
+      "predicate": "MY2006_OG95_front_rotor_alt_standard",
+      "value": {
+        "standard_diameter_mm": 285,
+        "standard_new_thickness_mm": 25,
+        "heavy_diameter_mm": 308,
+        "heavy_new_thickness_mm": 28
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 OG95 front rotor alt standard",
+      "notes": "Conflict with 2009 B1/B2 chart is unresolved; manufacturer year and hardware variant need checking."
+    },
+    {
+      "id": "hydbrake-fact-017",
+      "subject": "9-5 2006 rotor engineering data",
+      "category": "source_quality",
+      "predicate": "MY2006_OG95_front_minimum_conflict",
+      "value": {
+        "standard_min_mm": 22,
+        "heavy_min_mm": 22,
+        "heavy_new_mm": 28
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 OG95 front minimum conflict",
+      "notes": "Heavily laden disc new 28 mm but same min 22 as standard in this WIS detail. Do not assume typo corrected or use alone without revision validation."
+    },
+    {
+      "id": "hydbrake-fact-018",
+      "subject": "9-5 2008 front brake service",
+      "category": "source_quality",
+      "predicate": "MY2008_OG95_front_carrier_unsafe_torque_conflict",
+      "value": {
+        "disc_procedure_caliper_bolt_Nm": 4,
+        "dedicated_torque_table_caliper_bolt": "140 Nm +45 degrees",
+        "dedicated_torque_table_rotor_lock_screw_Nm": 4,
+        "status": "MATERIAL SAFETY CONFLICT"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-010",
+        "hydbrake-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2008 OG95 front carrier unsafe torque conflict",
+      "notes": "Do not use 4 Nm on carrier bolts. The replacement procedure appears to copy rotor locking-screw torque into the caliper bolt line. Check exact fastener source, VIN, revision and competent workshop guidance; never silently resolve an inconsistency in a safety-critical repair."
+    },
+    {
+      "id": "hydbrake-fact-019",
+      "subject": "9-5 2008 front brake torque table",
+      "category": "brake_system",
+      "predicate": "MY2008_OG95_front_carrier_joint_independent_table",
+      "value": {
+        "caliper_retaining": "140 Nm +45 degrees",
+        "guide_pins_Nm": 28,
+        "rotor_retaining_screw_Nm": 4,
+        "caliper_hose_Nm": 40
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2008 OG95 front carrier joint independent table",
+      "notes": "Exact joint table is distinct from suspect replacement prose. Value documented, but discrepancy must be flagged to a human technician before use."
+    },
+    {
+      "id": "hydbrake-fact-020",
+      "subject": "9-5 2008 rear brake torque table",
+      "category": "brake_system",
+      "predicate": "MY2008_OG95_rear_brake_joint_torque",
+      "value": {
+        "caliper_retaining_Nm": 80,
+        "guide_pins_Nm": 28,
+        "rear_rotor_lock_screw_Nm": 10,
+        "brake_line_nipple_Nm": 16
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2008 OG95 rear brake joint torque",
+      "notes": "Year and fastener scoped. Rear rotor screw is NOT 4 Nm front value or 140Nm+45 front carrier bolt."
+    },
+    {
+      "id": "hydbrake-fact-021",
+      "subject": "9-5 2006 parking brake",
+      "category": "brake_system",
+      "predicate": "MY2006_OG95_park_shoes_first",
+      "value": {
+        "parking_brake_type": "separate rear drum-in-hat shoes plus cables",
+        "adjust_sequence": "adjust shoes before lever cable",
+        "target_wheel_lock_lever_notch": "2nd to 3rd"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-012",
+        "hydbrake-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 OG95 park shoes first",
+      "notes": "Do not apply NG9-3 integral rear hydraulic caliper/handbrake adjustment to OG9-5 shoe setup."
+    },
+    {
+      "id": "hydbrake-fact-022",
+      "subject": "9-5 parking cable routing",
+      "category": "brake_system",
+      "predicate": "MY2006_OG95_park_cable_under_tank",
+      "value": [
+        "rear exhaust joint and mounts",
+        "rear exhaust heat shield",
+        "under fuel tank straps",
+        "cable equalizer"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 OG95 park cable under tank",
+      "notes": "Underbody rust/cable replacement budget may involve exhaust and supported fuel tank; check for fuel leak/fire risks."
+    },
+    {
+      "id": "hydbrake-fact-023",
+      "subject": "9-5 2006 brake pipes/hoses",
+      "category": "brake_system",
+      "predicate": "MY2006_OG95_brake_line_corrosion_source",
+      "value": {
+        "prohibition": "no corrosion, pitting or other visible damage on clipped brake pipes",
+        "hose_install": "un-twisted, no sweep interference during suspension/steering",
+        "after_work": "bleed and check for leaks"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 OG95 brake line corrosion source",
+      "notes": "Do not treat a temporary dry-looking line as safe if crusting/pitting or insecure supports exist."
+    },
+    {
+      "id": "hydbrake-fact-024",
+      "subject": "9-5 2008 front friction lining",
+      "category": "brake_system",
+      "predicate": "MY2008_OG95_front_pad_replacement_guide",
+      "value": {
+        "replace_below_friction_mm": 5,
+        "audible_warning_below_mm": 3
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2008 OG95 front pad replacement guide",
+      "notes": "Manufacturer guidance specifically describes front pads: no pedal-travel-based pad wear assurance."
+    },
+    {
+      "id": "hydbrake-fact-025",
+      "subject": "9-3 front brake discs",
+      "category": "brake_system",
+      "predicate": "MY2006_NG93_front_rotor_pairwise_replacement",
+      "value": "WIS says change both front discs together to preserve braking performance; clean hub mating surfaces and inspect ABS wheel-speed sensor cable during service.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "hydbrake-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 NG93 front rotor pairwise replacement",
+      "notes": "Does not establish supplier brand, wear grade or rotor interchange."
+    }
+  ],
+  "issues": [
+    {
+      "id": "hydbrake-issue-001",
+      "title": "Original 9-5 front caliper bolt dangerously misprinted as rotor-screw torque in replacement prose",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "cause": "2008 rotor removal/refit page states 4 Nm both for rotor lock screw and caliper retaining fastener; 2008 dedicated brake joint table specifies 140 Nm+45° for front caliper and 4 Nm only for small rotor screw.",
+      "symptoms": [
+        "service page or aftermarket guide quotes 4 Nm front caliper carrier bolts",
+        "replacement procedure and separate technical table disagree"
+      ],
+      "diagnosis_summary": "Stop torque service if the joint cannot be positively identified. Match physical fastener and manufacturer torque table, review safety-critical discrepancy with knowledgeable specialist and original source before fastening.",
+      "correction_summary": "Database blocks promoting 4 Nm as a front caliper carrier bolt torque. Preserve both readings with explicit cross-source conflict until authoritative revision confirms procedure.",
+      "source_ids": [
+        "hydbrake-src-010",
+        "hydbrake-src-011"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "No assumption that any vehicle was actually incorrectly torqued.",
+        "Only MY2008 original 9-5 procedure independently sourced.",
+        "4 Nm is the actual small rotor screw specification; never label both joints the same."
+      ]
+    },
+    {
+      "id": "hydbrake-issue-002",
+      "title": "9-5 rotor configuration matrix versus individual year technical details disagree",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2009
+        ]
+      },
+      "cause": "9-5 MY2009 brake-configuration chart lists B1 front 288x25 and B2 308x25; MY2006 front rotor technical page lists standard 285x25 and heavily laden 308x28, and heavy min 22 despite new 28.",
+      "symptoms": [
+        "two factory pages give different rotor diameter or new thickness",
+        "seller/parts listing assumes any 9-5 Aero rotor fits based on badge"
+      ],
+      "diagnosis_summary": "Inspect actual hub rotor diameter/thickness and installed caliper carrier, identify original B1/B2/B3 configuration and year/market/engine using Saab EPC before ordering; preserve original source conflict.",
+      "correction_summary": "No OEM approval from dimensions or generalized trim alone. Obtain Saab part-build record/revision or in situ documented compatibility before safety-critical parts purchase.",
+      "source_ids": [
+        "hydbrake-src-008",
+        "hydbrake-src-009"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "2006 and 2009 figures are not demonstrated interchangeable or necessarily for identical original options.",
+        "No original Saab EPC VIN-specific brake part ID accessed.",
+        "Do not silently choose or average conflicting safety-critical numbers."
+      ]
+    },
+    {
+      "id": "hydbrake-issue-003",
+      "title": "NG9-3 brake level and caliper carrier are an assembly, not a rotor-only swap",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "cause": "MY2006 level 1–4 rotor sizes and caliper piston types are paired with VIN plate positions 7–10 and multiple different pads and holders; parts vary even within the same market/year.",
+      "symptoms": [
+        "shopping for rotors or calipers without VIN plate option row",
+        "larger rotor kit proposed without matching carrier and wheel clearance evidence"
+      ],
+      "diagnosis_summary": "Photograph bottom VIN option row 7–10, compare front/rear rotor diameter, thickness, rear venting, caliper type FNG/FNRG/FNC and holder, with actual vehicle condition; check wheel and brake pipe routing.",
+      "correction_summary": "Replace only proven level-compatible original hardware, manufacturer-approved kit or professionally engineered solution; document all dependencies before fitment.",
+      "source_ids": [
+        "hydbrake-src-001",
+        "hydbrake-src-002",
+        "hydbrake-src-003",
+        "hydbrake-src-004",
+        "hydbrake-src-017"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Source does not include current OEM part numbers or approved cross-level upgrades.",
+        "Painted calipers or an Aero badge aren't sufficient classification.",
+        "VIN options may not represent swapped hardware."
+      ]
+    },
+    {
+      "id": "hydbrake-issue-004",
+      "title": "OG9-5 rear parking shoes differ from 9-3 integrated rear caliper and hydraulic hose safety",
+      "applicability": {
+        "groups": [
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2006
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2006
+            ]
+          }
+        ]
+      },
+      "cause": "OG9-5 has independent parking shoes/adjuster accessed via rear discs, NG9-3 handbrake lever operates rear hydraulic caliper pad/piston; hydraulic lines need clear supported routing and bleeding after opening.",
+      "symptoms": [
+        "handbrake adjustment or rear caliper part selected from wrong Saab family",
+        "twisted/fouled brake hoses",
+        "unconfirmed leak or unresolved pedal after line work"
+      ],
+      "diagnosis_summary": "Identify platform and exact rear brake type, verify mechanical parking action and hose routing from factory source, assess rusted line support/condition and wheel travel.",
+      "correction_summary": "Follow exact system procedure, bleed/inspect hydraulic integrity after opening, and test service plus parking brakes only when vehicle is safe to road-test.",
+      "source_ids": [
+        "hydbrake-src-006",
+        "hydbrake-src-007",
+        "hydbrake-src-012",
+        "hydbrake-src-013",
+        "hydbrake-src-015"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "No generic 9-3 parking shoe kit can be transferred to OG9-5.",
+        "A brake pedal feel observation cannot certify hydraulic safety.",
+        "Vehicle condition remains unmeasured."
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "hydbrake-gap-001",
+      "title": "Original 9-5 B1/B2/B3 source conflict and year/engine market fitment",
+      "missing_inputs": [
+        "MY2006 285x25/308x28 versus 2009 matrix 288x25/308x25, heavy min22/new28 conflict; obtain original revised OEM engineering or VIN-filtered Saab parts and exact installed measurements."
+      ],
+      "reason": "Disagreeing source tables, classification codes or a service procedure do not prove an exact car's installed hardware, hydraulic safety or original approved OE interchange.",
+      "source_ids": [
+        "hydbrake-src-008",
+        "hydbrake-src-009"
+      ]
+    },
+    {
+      "id": "hydbrake-gap-002",
+      "title": "2008 9-5 front caliper retaining bolt torque authoritative erratum",
+      "missing_inputs": [
+        "4 Nm refit text contradicts dedicated 140Nm+45° table; retrieve original authoritative factory revision or bulletin confirming valid joint, update service warning and never silently use 4 Nm."
+      ],
+      "reason": "Disagreeing source tables, classification codes or a service procedure do not prove an exact car's installed hardware, hydraulic safety or original approved OE interchange.",
+      "source_ids": [
+        "hydbrake-src-010",
+        "hydbrake-src-011"
+      ]
+    },
+    {
+      "id": "hydbrake-gap-003",
+      "title": "Original Saab WebEPC VIN-filtered 9-3 brake level/SKU and side-specific carriers",
+      "missing_inputs": [
+        "Plate slots 7–10 classify options; need exact per-vehicle VIN/build plus current OE rotor, pads, carrier, caliper, lines and one-way supersessions."
+      ],
+      "reason": "Disagreeing source tables, classification codes or a service procedure do not prove an exact car's installed hardware, hydraulic safety or original approved OE interchange.",
+      "source_ids": [
+        "hydbrake-src-001",
+        "hydbrake-src-002",
+        "hydbrake-src-003",
+        "hydbrake-src-004"
+      ]
+    },
+    {
+      "id": "hydbrake-gap-004",
+      "title": "Complete original 9-5 2004–09 9-3 2005–06 brake option matrix",
+      "missing_inputs": [
+        "Source tables studied MY2006 9-3, MY2009 9-5 and MY2006 OG9-5 detail; independently validate each priority MY US/CA, 9-5 sedan vs wagon, 9-3 4D/5D/CV."
+      ],
+      "reason": "Disagreeing source tables, classification codes or a service procedure do not prove an exact car's installed hardware, hydraulic safety or original approved OE interchange.",
+      "source_ids": [
+        "hydbrake-src-001",
+        "hydbrake-src-002",
+        "hydbrake-src-008",
+        "hydbrake-src-009"
+      ]
+    },
+    {
+      "id": "hydbrake-gap-005",
+      "title": "Braking line corrosion and flexible hose year-by-year application",
+      "missing_inputs": [
+        "MY2006 9-5 brake hose and NG9-3 2006 hose scoped, but complete OE pipe route, material, line flare/clip and hose dimensions not recovered by exact US/CA VIN."
+      ],
+      "reason": "Disagreeing source tables, classification codes or a service procedure do not prove an exact car's installed hardware, hydraulic safety or original approved OE interchange.",
+      "source_ids": [
+        "hydbrake-src-007",
+        "hydbrake-src-015",
+        "hydbrake-src-018"
+      ]
+    },
+    {
+      "id": "hydbrake-gap-006",
+      "title": "Rear parking brake family and year specific fault/cable compatibility",
+      "missing_inputs": [
+        "OG9-5 separate rear shoes and cable; NG9-3 integral caliper. Need 2005–09/2006 hardware ID, rear caliper lever wear criteria and individual park brake inspection data."
+      ],
+      "reason": "Disagreeing source tables, classification codes or a service procedure do not prove an exact car's installed hardware, hydraulic safety or original approved OE interchange.",
+      "source_ids": [
+        "hydbrake-src-006",
+        "hydbrake-src-012",
+        "hydbrake-src-013",
+        "hydbrake-src-014"
+      ]
+    },
+    {
+      "id": "hydbrake-gap-007",
+      "title": "Service ABS/ESP hydraulic modulator purge after system air entry",
+      "missing_inputs": [
+        "Factory year-correct WIS bleeding workflow, Tech2 ABS pump if required, DOT4 approval and fluid age for installed vehicle are missing from current package."
+      ],
+      "reason": "Disagreeing source tables, classification codes or a service procedure do not prove an exact car's installed hardware, hydraulic safety or original approved OE interchange.",
+      "source_ids": [
+        "hydbrake-src-007",
+        "hydbrake-src-015",
+        "hydbrake-src-018"
+      ]
+    },
+    {
+      "id": "hydbrake-gap-008",
+      "title": "Actual used Saab installed brake system and roadworthiness",
+      "missing_inputs": [
+        "Require private VIN/plate bottom codes, installed disc dimensions, caliper/casting, pad thickness, corrosion under clips, flexible hose sweep, leak/pedal/brake balance, qualified NYS inspection and safe test result."
+      ],
+      "reason": "Disagreeing source tables, classification codes or a service procedure do not prove an exact car's installed hardware, hydraulic safety or original approved OE interchange.",
+      "source_ids": [
+        "hydbrake-src-001",
+        "hydbrake-src-002",
+        "hydbrake-src-003",
+        "hydbrake-src-008",
+        "hydbrake-src-009",
+        "hydbrake-src-015"
+      ]
+    }
+  ]
+}

@@ -23,6 +23,8 @@ engines, and platforms.
   documents and what still needs measurements or engineering data.
 - [Research reports](docs/research/): detailed notes from the individual research
   domains, including contradictions and gaps.
+- [Brakes and hydraulic-safety identification matrix](docs/research/priority-brake-hydraulic-safety.md):
+  9-3 2006 brake levels and VIN option-row codes; 9-5 rotor dimensions and front caliper torque conflicts; parking brake and brake-line service boundaries.
 - [Structural rust and underbody-safety inspection zones](docs/research/priority-structural-corrosion-inspection.md):
   original 9-5 SportCombi rear floor/subframe body mounts, 9-3 CV structural sill, NY inspection criteria and critical brake/fuel line dependencies.
 - [Priority 9-5 / 9-3 identity and chassis worksheets](docs/research/priority-vehicle-identity-gates.md):
@@ -67,8 +69,8 @@ engines, and platforms.
   North American specifications, WIS conflicts and source limits.
 - [Datasets](data/datasets/): structured JSON with source IDs and original links.
 
-As of October 13, 2026 the database contains **450 source records, 912 factual
-records, 62 issue records, 74 part records, and 215 explicit gaps** across twenty-eight
+As of October 13, 2026 the database contains **469 source records, 937 factual
+records, 66 issue records, 74 part records, and 223 explicit gaps** across twenty-nine
 research domains. This is not a completeness score.
 See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
 
