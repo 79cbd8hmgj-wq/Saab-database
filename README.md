@@ -23,6 +23,8 @@ engines, and platforms.
   domains, including contradictions and gaps.
 - [High-cost powertrain diagnosis](docs/research/high-cost-powertrain-diagnostics.md):
   original 9-5 B205/B235 oil-pressure, pickup and bearing-damage screening; 9-3 B207 cold compression; early FA57 coolant-in-ATF.
+- [MY2006/08 B235R oil and PCV revision evidence](docs/research/b235r-oil-pcv-2006-2008.md):
+  oil-pressure thresholds, 2008 US severe-service, B235R manual sump variants and cautious PCV supplier fitment research.
 - [B235 MY2004–09 lubrication/PCV and FA57 identity](docs/research/b235-maintenance-fa57-identity.md):
   year-scoped oil pressure, PCV flow, preventive service limits, gearbox/TCM codes and transmission bulletin boundaries.
 - [2007–09 9-5 factory ground and power distribution](docs/research/og95-ground-power-0709.md):
@@ -45,8 +47,8 @@ engines, and platforms.
   North American specifications, WIS conflicts and source limits.
 - [Datasets](data/datasets/): structured JSON with source IDs and original links.
 
-As of October 12, 2026 the database contains **303 source records, 626 factual
-records, 34 issue records, 57 part records, and 129 explicit gaps** across eighteen
+As of October 12, 2026 the database contains **320 source records, 657 factual
+records, 36 issue records, 64 part records, and 138 explicit gaps** across nineteen
 research domains. This is not a completeness score.
 See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
 

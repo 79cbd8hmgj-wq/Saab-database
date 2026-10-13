@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 303 source records with 284 distinct
+Research retrieval date: 2026-10-12. There are 320 source records with 300 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -434,3 +434,27 @@ Dataset: [b235_maintenance_fa57_identity](../data/datasets/b235-maintenance-fa57
 | `maint-src-011` | [MY2009 WIS EU recommended petrol oil specification and short-trip caution](https://saabwisonline.com/9-5-9600/2009/1-service/saab-service-eu/service/recommended-oil-quality) | Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline) | `full_text` |
 | `maint-src-012` | [MY2005 WIS 9-3 FA57 gearbox and TCM identity decoding](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/type-designations) | Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline) | `full_text` |
 | `maint-src-013` | [Saab TA440-0702 early 9-3 coolant in FA57 ATF and vehicle scope](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/bulletins-si-mi/ta440-0702-coolant-in-atf-oil) | Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline) | `full_text` |
+
+## b235r_oil_pcv_2006_2008
+
+Dataset: [b235r_oil_pcv_2006_2008](../data/datasets/b235r-oil-pcv-2006-2008.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `b235rev-src-001` | [MY2006 WIS four-cylinder petrol lubrication technical data](https://saabwisonline.com/9-5-9600/2006/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system) | Saab Automobile AB (factory-authored information mirrored online) | `full_text` |
+| `b235rev-src-002` | [MY2006 WIS four-cylinder petrol mechanical oil pressure procedure](https://saabwisonline.com/9-5-9600/2006/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/measuring-oil-pressure) | Saab Automobile AB (factory-authored information mirrored online) | `full_text` |
+| `b235rev-src-003` | [MY2008 US/Canada Saab 9-5 owner's manual, pages 194 and 254, 263–264](https://manualzz.com/doc/53326799/saab-2008-9-5-owner-s-manual) | Saab Automobile AB (factory-authored information mirrored online) | `full_text` |
+| `b235rev-src-004` | [MY2006 WIS engine serial identification scheme](https://saabwisonline.com/9-5-9600/2006/2-engine/basic-engine-4-cylinder-petrol/technical-data/engine-serial-no) | Saab Automobile AB (factory-authored information mirrored online) | `full_text` |
+| `b235rev-src-005` | [MY2007 WIS B235R manual gearbox oil sump procedure](https://saabwisonline.com/9-5-9600/2007/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/oil-sump-in-car-b235r-manual) | Saab Automobile AB (factory-authored information mirrored online) | `full_text` |
+| `b235rev-src-006` | [MY2008 WIS B235R manual gearbox oil sump procedure](https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/oil-sump-in-car-b235r-manual) | Saab Automobile AB (factory-authored information mirrored online) | `search_excerpt` |
+| `b235rev-src-007` | [MY2008 WIS four-cylinder petrol technical data directory index](https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/technical-data/) | Saab Automobile AB (factory-authored information mirrored online) | `metadata_only` |
+| `b235rev-src-008` | [MY2008 WIS engine oil/filter service explicitly B205E and B235E](https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/service/engine-oil-and-oil-filter) | Saab Automobile AB (factory-authored information mirrored online) | `full_text` |
+| `b235rev-src-009` | [eSaabParts PCV parts exploded catalogue (2004–2009 9-5)](https://www.esaabparts.com/viewparts.php?section=314781123) | eSaabParts (independent supplier catalogue) | `full_text` |
+| `b235rev-src-010` | [eSaabParts 55558696 oil trap supplier part description and superseded-number field](https://www.esaabparts.com/saab/parts/55558696) | eSaabParts (independent supplier catalogue) | `full_text` |
+| `b235rev-src-011` | [eSaabParts 32019651 ProParts oil trap reference 12755243](https://www.esaabparts.com/saab/parts/32019651) | eSaabParts (independent supplier catalogue) | `full_text` |
+| `b235rev-src-012` | [eSaabParts 55355330 oil trap to valve cover hose listing](https://www.esaabparts.com/saab/parts/55355330) | eSaabParts (independent supplier catalogue) | `full_text` |
+| `b235rev-src-013` | [eSaabParts 5955927 breather hose and check valve listing](https://www.esaabparts.com/saab/parts/5955927) | eSaabParts (independent supplier catalogue) | `full_text` |
+| `b235rev-src-014` | [eSaabParts 5961610 oil trap to intake pipe hose listing](https://www.esaabparts.com/saab/parts/5961610) | eSaabParts (independent supplier catalogue) | `full_text` |
+| `b235rev-src-015` | [eSaabParts 55557709 oil trap hose listing](https://www.esaabparts.com/saab/parts/55557709) | eSaabParts (independent supplier catalogue) | `full_text` |
+| `b235rev-src-016` | [eSaabParts 213452433 complete aftermarket PCV kit bill of materials](https://www.esaabparts.com/saab/parts/213452433) | eSaabParts (independent supplier catalogue) | `full_text` |
+| `b235rev-src-017` | [MY2008 US/Canada manual page 254 maintenance schedule](https://www.manualsdir.com/manuals/746387/saab-2008-9-5.html?page=254) | Saab Automobile AB (factory-authored information mirrored online) | `full_text` |

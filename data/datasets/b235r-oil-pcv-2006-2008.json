@@ -1,0 +1,1461 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "b235r_oil_pcv_2006_2008",
+  "sources": [
+    {
+      "id": "b235rev-src-001",
+      "title": "MY2006 WIS four-cylinder petrol lubrication technical data",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system",
+      "publisher": "Saab Automobile AB (factory-authored information mirrored online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory source restricted to the exact model-year, engine, market, or procedure context stated; not a vehicle condition finding."
+    },
+    {
+      "id": "b235rev-src-002",
+      "title": "MY2006 WIS four-cylinder petrol mechanical oil pressure procedure",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/measuring-oil-pressure",
+      "publisher": "Saab Automobile AB (factory-authored information mirrored online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory source restricted to the exact model-year, engine, market, or procedure context stated; not a vehicle condition finding."
+    },
+    {
+      "id": "b235rev-src-003",
+      "title": "MY2008 US/Canada Saab 9-5 owner's manual, pages 194 and 254, 263–264",
+      "url": "https://manualzz.com/doc/53326799/saab-2008-9-5-owner-s-manual",
+      "publisher": "Saab Automobile AB (factory-authored information mirrored online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory source restricted to the exact model-year, engine, market, or procedure context stated; not a vehicle condition finding."
+    },
+    {
+      "id": "b235rev-src-004",
+      "title": "MY2006 WIS engine serial identification scheme",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/basic-engine-4-cylinder-petrol/technical-data/engine-serial-no",
+      "publisher": "Saab Automobile AB (factory-authored information mirrored online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory source restricted to the exact model-year, engine, market, or procedure context stated; not a vehicle condition finding."
+    },
+    {
+      "id": "b235rev-src-005",
+      "title": "MY2007 WIS B235R manual gearbox oil sump procedure",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/oil-sump-in-car-b235r-manual",
+      "publisher": "Saab Automobile AB (factory-authored information mirrored online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory source restricted to the exact model-year, engine, market, or procedure context stated; not a vehicle condition finding."
+    },
+    {
+      "id": "b235rev-src-006",
+      "title": "MY2008 WIS B235R manual gearbox oil sump procedure",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/oil-sump-in-car-b235r-manual",
+      "publisher": "Saab Automobile AB (factory-authored information mirrored online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "search_excerpt",
+      "notes": "Search index text examined, not a complete independent original rendering; service operations are engine/gearbox-specific."
+    },
+    {
+      "id": "b235rev-src-007",
+      "title": "MY2008 WIS four-cylinder petrol technical data directory index",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/technical-data/",
+      "publisher": "Saab Automobile AB (factory-authored information mirrored online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "metadata_only",
+      "notes": "Directory confirms a page exists but the MY2008 petrol lubrication data page was not readable. No technical values inferred."
+    },
+    {
+      "id": "b235rev-src-008",
+      "title": "MY2008 WIS engine oil/filter service explicitly B205E and B235E",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/service/engine-oil-and-oil-filter",
+      "publisher": "Saab Automobile AB (factory-authored information mirrored online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory source restricted to the exact model-year, engine, market, or procedure context stated; not a vehicle condition finding."
+    },
+    {
+      "id": "b235rev-src-009",
+      "title": "eSaabParts PCV parts exploded catalogue (2004–2009 9-5)",
+      "url": "https://www.esaabparts.com/viewparts.php?section=314781123",
+      "publisher": "eSaabParts (independent supplier catalogue)",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Supplier claims are not official Saab/Orio WebEPC, manufacturer supersessions, fitment approval or current stock guarantees."
+    },
+    {
+      "id": "b235rev-src-010",
+      "title": "eSaabParts 55558696 oil trap supplier part description and superseded-number field",
+      "url": "https://www.esaabparts.com/saab/parts/55558696",
+      "publisher": "eSaabParts (independent supplier catalogue)",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Supplier claims are not official Saab/Orio WebEPC, manufacturer supersessions, fitment approval or current stock guarantees."
+    },
+    {
+      "id": "b235rev-src-011",
+      "title": "eSaabParts 32019651 ProParts oil trap reference 12755243",
+      "url": "https://www.esaabparts.com/saab/parts/32019651",
+      "publisher": "eSaabParts (independent supplier catalogue)",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Supplier claims are not official Saab/Orio WebEPC, manufacturer supersessions, fitment approval or current stock guarantees."
+    },
+    {
+      "id": "b235rev-src-012",
+      "title": "eSaabParts 55355330 oil trap to valve cover hose listing",
+      "url": "https://www.esaabparts.com/saab/parts/55355330",
+      "publisher": "eSaabParts (independent supplier catalogue)",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Supplier claims are not official Saab/Orio WebEPC, manufacturer supersessions, fitment approval or current stock guarantees."
+    },
+    {
+      "id": "b235rev-src-013",
+      "title": "eSaabParts 5955927 breather hose and check valve listing",
+      "url": "https://www.esaabparts.com/saab/parts/5955927",
+      "publisher": "eSaabParts (independent supplier catalogue)",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Supplier claims are not official Saab/Orio WebEPC, manufacturer supersessions, fitment approval or current stock guarantees."
+    },
+    {
+      "id": "b235rev-src-014",
+      "title": "eSaabParts 5961610 oil trap to intake pipe hose listing",
+      "url": "https://www.esaabparts.com/saab/parts/5961610",
+      "publisher": "eSaabParts (independent supplier catalogue)",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Supplier claims are not official Saab/Orio WebEPC, manufacturer supersessions, fitment approval or current stock guarantees."
+    },
+    {
+      "id": "b235rev-src-015",
+      "title": "eSaabParts 55557709 oil trap hose listing",
+      "url": "https://www.esaabparts.com/saab/parts/55557709",
+      "publisher": "eSaabParts (independent supplier catalogue)",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Supplier claims are not official Saab/Orio WebEPC, manufacturer supersessions, fitment approval or current stock guarantees."
+    },
+    {
+      "id": "b235rev-src-016",
+      "title": "eSaabParts 213452433 complete aftermarket PCV kit bill of materials",
+      "url": "https://www.esaabparts.com/saab/parts/213452433",
+      "publisher": "eSaabParts (independent supplier catalogue)",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Supplier claims are not official Saab/Orio WebEPC, manufacturer supersessions, fitment approval or current stock guarantees."
+    },
+    {
+      "id": "b235rev-src-017",
+      "title": "MY2008 US/Canada manual page 254 maintenance schedule",
+      "url": "https://www.manualsdir.com/manuals/746387/saab-2008-9-5.html?page=254",
+      "publisher": "Saab Automobile AB (factory-authored information mirrored online)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory source restricted to the exact model-year, engine, market, or procedure context stated; not a vehicle condition finding."
+    }
+  ],
+  "facts": [
+    {
+      "id": "b235rev-fact-001",
+      "subject": "engine:four-cylinder-petrol",
+      "category": "lubrication",
+      "predicate": "oil_system_total_with_cooler_L",
+      "value": 5.4,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "General data > Oil volume, with oil cooler",
+      "notes": "Complete system including cooler/filter. Not the amount to pour after oil and filter service."
+    },
+    {
+      "id": "b235rev-fact-002",
+      "subject": "engine:four-cylinder-petrol",
+      "category": "lubrication",
+      "predicate": "oil_change_service_refill_L",
+      "value": 4,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "General data > Oil volume, when servicing",
+      "notes": "Check actual level before adding oil; does not authorize filling with total 5.4 L."
+    },
+    {
+      "id": "b235rev-fact-003",
+      "subject": "engine:four-cylinder-petrol",
+      "category": "lubrication",
+      "predicate": "oil_dipstick_interval_L",
+      "value": 1,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "General data > Difference max/min",
+      "notes": "Difference between marks, not an instruction to add 1 L without inspection."
+    },
+    {
+      "id": "b235rev-fact-004",
+      "subject": "engine:four-cylinder-petrol",
+      "category": "lubrication",
+      "predicate": "oil_pressure_minimum_test",
+      "value": {
+        "minimum_bar": 2.5,
+        "engine_rpm": 2000,
+        "oil_temperature_C": 105,
+        "temperature_tolerance_C": 2,
+        "test_grade": "10W-30"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil pressures > Minimum oil pressure",
+      "notes": "Special hot-test criterion. Not an idle requirement and not equivalent to dashboard oil warning threshold."
+    },
+    {
+      "id": "b235rev-fact-005",
+      "subject": "engine:four-cylinder-petrol",
+      "category": "lubrication",
+      "predicate": "oil_warning_switch_band",
+      "value": {
+        "minimum": 0.3,
+        "maximum": 0.55
+      },
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil pressures > Warning lamp threshold",
+      "notes": "Lamp off does not establish adequate hot oil pressure at 2000 rpm."
+    },
+    {
+      "id": "b235rev-fact-006",
+      "subject": "engine:four-cylinder-petrol",
+      "category": "lubrication",
+      "predicate": "oil_pump_relief_opening",
+      "value": 3.8,
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil pressures > Oil pump pressure reducing valve",
+      "notes": "Valve opening, not normal hot oil pressure reading."
+    },
+    {
+      "id": "b235rev-fact-007",
+      "subject": "engine:four-cylinder-petrol",
+      "category": "lubrication",
+      "predicate": "oil_pump_rotor_axial_float",
+      "value": {
+        "minimum": 0.03,
+        "maximum": 0.08
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil pressures > End float",
+      "notes": "Internal measurement requiring disassembly; not pre-purchase check."
+    },
+    {
+      "id": "b235rev-fact-008",
+      "subject": "engine:four-cylinder-petrol",
+      "category": "lubrication",
+      "predicate": "oil_cooler_thermostat_open",
+      "value": {
+        "nominal": 105,
+        "tolerance": 2
+      },
+      "unit": "°C",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil pressures > Oil cooler thermostat",
+      "notes": "Not the water thermostat or recommended fan setpoint."
+    },
+    {
+      "id": "b235rev-fact-009",
+      "subject": "engine:four-cylinder-petrol",
+      "category": "lubrication",
+      "predicate": "oil_pressure_test_port_and_special_tools",
+      "value": {
+        "test_port": "lower banjo at turbo oil feed near oil filter adapter",
+        "banjo": "8395576",
+        "pressure_test_equipment": "8393852"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Measuring oil pressure, steps 2–6",
+      "notes": "Procedure includes hot engine risks and new sealing washers. Use qualified personnel with factory procedure."
+    },
+    {
+      "id": "b235rev-fact-010",
+      "subject": "engine:B235",
+      "category": "identity",
+      "predicate": "engine_version_code_letters",
+      "value": {
+        "R": "high-pressure turbo with charge air cooler stage 2",
+        "E": "light-pressure turbo with charge air cooler stage 2",
+        "L": "turbo with charge air cooler stage 1"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Engine serial number > Pos.5",
+      "notes": "Letter describes engine version as encoded in stamping, not VIN decoding or proof of installed hardware on particular car."
+    },
+    {
+      "id": "b235rev-fact-011",
+      "subject": "engine:B235",
+      "category": "identity",
+      "predicate": "engine_installation_code",
+      "value": {
+        "E": "9-5",
+        "D": "9-3",
+        "A": "automatic gearbox",
+        "M": "manual gearbox"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Engine serial number > Pos.6–7",
+      "notes": "Position 6 car compliance; position 7 transmission. Do not confuse with engine variant letter position 5."
+    },
+    {
+      "id": "b235rev-fact-012",
+      "subject": "engine:B235",
+      "category": "identity",
+      "predicate": "engine_serial_example_year_warning",
+      "value": "2006 WIS contains an example coded with model-year digit 4 meaning 2004; example is illustrative, not evidence the source page applies only to MY2004.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Engine serial number > Example and Pos.10",
+      "notes": "Manufacturer example text must not be parsed into a genuine VIN or actual engine installation."
+    },
+    {
+      "id": "b235rev-fact-013",
+      "subject": "vehicle:9-5-USCA:2.3-Turbo-Ecopower",
+      "category": "lubrication",
+      "predicate": "MY2008_USCA_2_3_turbo_change_fill",
+      "value": 4,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Owner's manual p.264, Engine variants > Oil capacity incl. filter on changing",
+      "notes": "The owner's manual names 2.3 Turbo Ecopower 260 hp, not the engine-code designation B235R. Record the vehicle configuration without inferring VIN-specific engine code."
+    },
+    {
+      "id": "b235rev-fact-014",
+      "subject": "vehicle:9-5-USCA:2.3-Turbo-Ecopower",
+      "category": "identity",
+      "predicate": "MY2008_USCA_engine_marketing_rating",
+      "value": 260,
+      "unit": "hp EEC",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Owner's manual p.264, Engine variants",
+      "notes": "Rating is an owner-manual claim tied to the US/CA 2.3 Turbo Ecopower listing, not proof of a B235R-specific calibrator or supersession."
+    },
+    {
+      "id": "b235rev-fact-015",
+      "subject": "vehicle:9-5-USCA:petrol",
+      "category": "lubrication",
+      "predicate": "MY2008_USCA_historical_oil_approval",
+      "value": {
+        "approval": "GM-LL-A-025",
+        "base": "synthetic",
+        "sae": [
+          "0W-30",
+          "0W-40",
+          "5W-30",
+          "5W-40"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Owner's manual p.263",
+      "notes": "Historical 2008 North-American manufacturer approval. Current equivalents and product label evidence not established."
+    },
+    {
+      "id": "b235rev-fact-016",
+      "subject": "vehicle:9-5-USCA",
+      "category": "lubrication",
+      "predicate": "MY2008_USCA_short_trip_service_interval",
+      "value": {
+        "additional_interval_miles": 5000,
+        "additional_interval_km": 8000,
+        "triggers": [
+          "frequent trips below 5–10 miles",
+          "long idling",
+          "dusty roads",
+          "towing or roof carrier",
+          "commercial delivery, taxi, police"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-003",
+        "b235rev-src-017"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Owner's manual p.254 > Engine oil/filter changes",
+      "notes": "Additional oil and filter changes between scheduled services for these driving conditions; not a universal 5000-mile interval for all climates/driving."
+    },
+    {
+      "id": "b235rev-fact-017",
+      "subject": "vehicle:9-5-USCA",
+      "category": "lubrication",
+      "predicate": "MY2008_USCA_oil_level_check",
+      "value": {
+        "standing": "level ground",
+        "warm_engine_shutdown_delay_min": [
+          2,
+          5
+        ],
+        "do_not_fill_above": "MAX",
+        "do_not_run_below": "MIN"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Owner's manual p.194 > Engine oil",
+      "notes": "Follow dipstick; no extrapolation to a defective pressure sender or existing bearing damage."
+    },
+    {
+      "id": "b235rev-fact-018",
+      "subject": "vehicle:9-5-USCA",
+      "category": "lubrication",
+      "predicate": "MY2008_USCA_oil_and_additives",
+      "value": "Use recommended approved synthetic engine oil and do not add supplemental oil additives",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Owner's manual p.263 > Engine oil",
+      "notes": "Manufacturer historical advice, not validation of present-day oil brands or additive durability."
+    },
+    {
+      "id": "b235rev-fact-019",
+      "subject": "engine:B235R",
+      "category": "lubrication",
+      "predicate": "MY2007_B235R_manual_sump_variant",
+      "value": {
+        "distinct_from_generic_sump": true,
+        "access_panel": "special B235R-manual procedure",
+        "access_requires_engine_specific_procedure": true
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "transmission_codes": [
+          "manual"
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Title; To remove > hidden bolts",
+      "notes": "Not an instruction to drill a customer's vehicle using text alone; requires actual variant identification, drawings, qualified mechanic."
+    },
+    {
+      "id": "b235rev-fact-020",
+      "subject": "engine:B235R",
+      "category": "identity",
+      "predicate": "MY2007_B235R_manual_sump_notched_boundary",
+      "value": "Source says from engine number Y062148- oil sump has knock-outs/notchings for access; it does not provide numeric VIN mapping.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "transmission_codes": [
+          "manual"
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove, step10",
+      "notes": "Keep alphanumeric engine number and original comparison notation, not a decoded VIN threshold."
+    },
+    {
+      "id": "b235rev-fact-021",
+      "subject": "engine:B235R",
+      "category": "lubrication",
+      "predicate": "MY2007_B235R_manual_sump_torque_references",
+      "value": {
+        "sump_Nm": 22,
+        "gearbox_joint_Nm": 47,
+        "access_panel_Nm": 7
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "transmission_codes": [
+          "manual"
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, steps 7–8",
+      "notes": "Joint-specific only. Not equivalent to engine oil drain plug torque and not universally valid for all gearboxes."
+    },
+    {
+      "id": "b235rev-fact-022",
+      "subject": "engine:B235R",
+      "category": "lubrication",
+      "predicate": "MY2008_B235R_manual_sump_dedicated_procedure",
+      "value": "MY2008 WIS catalogues and search indexes a distinct 'Oil sump (in car) B235R manual' procedure",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "transmission_codes": [
+          "manual"
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Page title and procedural search excerpt",
+      "notes": "Search-excerpt evidence of dedicated procedure; full visual service drawings and present engine version must be inspected before repair."
+    },
+    {
+      "id": "b235rev-fact-023",
+      "subject": "engine:B205E/B235E",
+      "category": "lubrication",
+      "predicate": "MY2008_B205E_B235E_service_page_scope",
+      "value": "Factory oil/filter service webpage explicitly names B205E/B235E for 4.0 L and 25 Nm, not B235R",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil capacity; Drain plug tightening",
+      "notes": "Do NOT present as B235R factory drain plug torque or vehicle-specific applicability."
+    },
+    {
+      "id": "b235rev-fact-024",
+      "subject": "PCV:oil-trap",
+      "category": "parts",
+      "predicate": "PCV_supplier_2004_engine_split",
+      "value": "Supplier diagram gives early 2004 engine ending 4017590 for hose 5961552 and 4017591 onward for hose 5961610",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "PCV diagram, callout 7",
+      "notes": "Retailer-only production boundary; engine number must be verified on actual car. No maker EPC VIN fitment approval."
+    },
+    {
+      "id": "b235rev-fact-025",
+      "subject": "PCV:oil-trap",
+      "category": "parts",
+      "predicate": "PCV_supplier_valve_cover_hose_year_distinction",
+      "value": {
+        "listed_2004_2005": "5955919 (supplier labels ORIO version as SKU 33457831)",
+        "listed_2006_2009": "55355330"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "PCV diagram, callout 1",
+      "notes": "Retailer year split; no claim that hoses are physically incompatible or interchangeable across revisions."
+    },
+    {
+      "id": "b235rev-fact-026",
+      "subject": "PCV:oil-trap",
+      "category": "parts",
+      "predicate": "PCV_supplier_separator_conflicting_crossreference",
+      "value": {
+        "supplier_55558696_description": "2004–05 with early-2004 engine-number qualifier",
+        "supplier_55558696_superseded_reference": "12755243",
+        "supplier_32019651_description": "2004–09 aftermarket separator with Saab 12755243 reference"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-009",
+        "b235rev-src-010",
+        "b235rev-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Supplier product pages > title, superseded part numbers; exploded diagram callout 4",
+      "notes": "Do not promote supplier conflicting fitment/supersession presentation to manufacturer OEM supersession, or assume 55558696 fits every 2008 B235R."
+    },
+    {
+      "id": "b235rev-fact-027",
+      "subject": "PCV:oil-trap",
+      "category": "parts",
+      "predicate": "PCV_supplier_2004_2009_check_valve_assembly",
+      "value": {
+        "supplier_oem_reference": "5955927",
+        "function": "breather hose with PCV check valve",
+        "aftermarket_variants": [
+          "9995927",
+          "21345927"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-009",
+        "b235rev-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "PCV diagram, callout 3",
+      "notes": "Aftermarket variants are not tested durability upgrades nor OEM-approved physical fit."
+    },
+    {
+      "id": "b235rev-fact-028",
+      "subject": "PCV:oil-trap",
+      "category": "parts",
+      "predicate": "PCV_supplier_2004_2009_lower_hose",
+      "value": "55560445 supplier-listed lower breather hose from trap to oil pan",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "PCV diagram, callout 6",
+      "notes": "Catalog application claim only; any O-ring/installation verification pending."
+    },
+    {
+      "id": "b235rev-fact-029",
+      "subject": "PCV:oil-trap",
+      "category": "parts",
+      "predicate": "PCV_supplier_2004_2009_intake_hose",
+      "value": "5961610 supplier-listed intake hose for engine number 4017591 onward and 2004–09 broad catalogue section",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-009",
+        "b235rev-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "PCV diagram, callout 7",
+      "notes": "Engine-number boundary is essential; catalogue headline 2004–09 is not proof of unqualified fitment."
+    },
+    {
+      "id": "b235rev-fact-030",
+      "subject": "PCV:oil-trap",
+      "category": "parts",
+      "predicate": "PCV_supplier_2004_2009_throttle_hose",
+      "value": "55557709 supplier-listed oil trap hose, diagram callout 8",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-009",
+        "b235rev-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "PCV diagram, callout 8",
+      "notes": "No vehicle identification or current manufacturer EPC approval."
+    },
+    {
+      "id": "b235rev-fact-031",
+      "subject": "PCV:oil-trap",
+      "category": "parts",
+      "predicate": "PCV_aftermarket_complete_kit_components",
+      "value": {
+        "sku": "213452433",
+        "brand": "ProParts",
+        "components": [
+          "21345330",
+          "21345927",
+          "32019651",
+          "23340445",
+          "21341610",
+          "32021234"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "source_ids": [
+        "b235rev-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Kit contents table",
+      "notes": "Aftermarket complete kit marketed 2004–09; no tested outcome, engine-specific VIN verification or approval as an OEM kit."
+    }
+  ],
+  "issues": [
+    {
+      "id": "b235rev-issue-001",
+      "title": "2008 US/CA 2.3 Turbo severe-duty oil interval cannot be inferred from dashboard service prompt alone",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "cause": "The original manual prescribes interim 5,000-mile oil and filter changes for specified severe-use patterns, alongside service indicator normal reminders.",
+      "symptoms": [
+        "service records show extended oil interval despite repeated short drives",
+        "maintenance or oil grade history is unknown"
+      ],
+      "diagnosis_summary": "Compare dated mileage records, driving use, appropriate original factory oil grade and physical car condition; do not infer healthy bearings from a current clean dipstick.",
+      "correction_summary": "Create a conservative, vehicle-specific maintenance plan grounded in original service recommendation; actual lubricant product equivalence requires current approval evidence.",
+      "source_ids": [
+        "b235rev-src-003",
+        "b235rev-src-017"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Factory recommendation is not proof that 5,000-mile servicing guarantees a Toyota-level lifespan.",
+        "Applicable to 2008 US/CA manual conditions, not an all-years maximum or universal oil standard.",
+        "Existing internal sludge or bearing damage cannot be reversed by changing oil."
+      ]
+    },
+    {
+      "id": "b235rev-issue-002",
+      "title": "B235R manual sump, engine identity and PCV catalogue revisions complicate preventative inspection",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007,
+          2008
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "transmission_codes": [
+          "manual"
+        ]
+      },
+      "cause": "Factory describes a dedicated sump procedure for B235R with manual gearbox, while independent parts catalogue reports overlapping PCV numbering and engine-number-specific hoses.",
+      "symptoms": [
+        "unknown engine serial or vehicle option history",
+        "unknown PCV replacement history",
+        "seller suggests generic B235 sump removal or PCV kit interchange"
+      ],
+      "diagnosis_summary": "Record installed engine stamping and transmission, preserve dedicated B235R manual service access, confirm PCV hardware by manufacturer EPC and physical dimensions before disassembly or ordering.",
+      "correction_summary": "Use factory year/engine/gearbox-specific repair procedures, not generic sump instructions or a vendor claim alone.",
+      "source_ids": [
+        "b235rev-src-004",
+        "b235rev-src-005",
+        "b235rev-src-006",
+        "b235rev-src-009"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "A factory repair procedure does not establish that the vehicle needs invasive inspection.",
+        "No ECU calibration or unrelated engine retrofit endorsed.",
+        "Supplier references and kit bundles do not approve interchange."
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "b235rev-part-001",
+      "part_number": "55558696",
+      "title": "Oil-trap separator; supplier lists 2004–05, and early-2004 engine qualifier",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Verify vehicle VIN, installed engine and engine serial/build number in official manufacturer WebEPC before ordering.",
+        "Inspect existing installed system and component connections; supplier catalogue is not evidence of interchangeable fitment."
+      ],
+      "source_ids": [
+        "b235rev-src-009",
+        "b235rev-src-010"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Supplier page separately associates 12755243 under 'superseded part numbers' but conflicts with broad aftermarket 12755243 year presentation."
+    },
+    {
+      "id": "b235rev-part-002",
+      "part_number": "32019651",
+      "title": "ProParts aftermarket oil trap separator; supplier cross-references Saab 12755243",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Verify vehicle VIN, installed engine and engine serial/build number in official manufacturer WebEPC before ordering.",
+        "Inspect existing installed system and component connections; supplier catalogue is not evidence of interchangeable fitment."
+      ],
+      "source_ids": [
+        "b235rev-src-009",
+        "b235rev-src-011"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Manufacturer identifier 12755243 and aftermarket stock SKU 32019651 are separate objects. Supplier 2004–09 statement not approved fitment."
+    },
+    {
+      "id": "b235rev-part-003",
+      "part_number": "55355330",
+      "title": "Oil trap to valve-cover hose; supplier lists 2006–09",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Verify vehicle VIN, installed engine and engine serial/build number in official manufacturer WebEPC before ordering.",
+        "Inspect existing installed system and component connections; supplier catalogue is not evidence of interchangeable fitment."
+      ],
+      "source_ids": [
+        "b235rev-src-009",
+        "b235rev-src-012"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Supplier distinguishes 2004–05 hose 5955919. No manufacturer confirmation."
+    },
+    {
+      "id": "b235rev-part-004",
+      "part_number": "5955927",
+      "title": "Oil-trap breather hose with PCV check valve; supplier lists 2004–09",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Verify vehicle VIN, installed engine and engine serial/build number in official manufacturer WebEPC before ordering.",
+        "Inspect existing installed system and component connections; supplier catalogue is not evidence of interchangeable fitment."
+      ],
+      "source_ids": [
+        "b235rev-src-009",
+        "b235rev-src-013"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Aftermarket 9995927 and 21345927 are distinct merchant SKUs. No evidence their valve behavior is OEM certified."
+    },
+    {
+      "id": "b235rev-part-005",
+      "part_number": "5961610",
+      "title": "Oil-trap to intake pipe hose; supplier says engine number 4017591 onward",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Verify vehicle VIN, installed engine and engine serial/build number in official manufacturer WebEPC before ordering.",
+        "Inspect existing installed system and component connections; supplier catalogue is not evidence of interchangeable fitment."
+      ],
+      "source_ids": [
+        "b235rev-src-009",
+        "b235rev-src-014"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "2004 engine split is a seller claim; no VIN approval."
+    },
+    {
+      "id": "b235rev-part-006",
+      "part_number": "55557709",
+      "title": "Oil-trap hose; independent parts catalogue",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Verify vehicle VIN, installed engine and engine serial/build number in official manufacturer WebEPC before ordering.",
+        "Inspect existing installed system and component connections; supplier catalogue is not evidence of interchangeable fitment."
+      ],
+      "source_ids": [
+        "b235rev-src-009",
+        "b235rev-src-015"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Original OEM fitment/supersession remains unverified."
+    },
+    {
+      "id": "b235rev-part-007",
+      "part_number": "213452433",
+      "title": "ProParts complete PCV service kit (supplier-bundled components)",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Verify vehicle VIN, installed engine and engine serial/build number in official manufacturer WebEPC before ordering.",
+        "Inspect existing installed system and component connections; supplier catalogue is not evidence of interchangeable fitment."
+      ],
+      "source_ids": [
+        "b235rev-src-016"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Merchant kit, not an official Saab kit, engineering interchange confirmation, or measured reliability improvement."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "b235rev-gap-001",
+      "title": "MY2008 petrol lubricating system table still not independently readable",
+      "missing_inputs": [
+        "Fetch complete MY2008 petrol WIS Lubricating system table with exact source locator. Do not use diesel version or interpolate MY2006/07/09 readings."
+      ],
+      "reason": "A year-scoped factory number, supplier reference or static document cannot establish actual condition, safety of a repair operation or approved manufacturer fitment.",
+      "source_ids": [
+        "b235rev-src-007"
+      ]
+    },
+    {
+      "id": "b235rev-gap-002",
+      "title": "Exact B235R oil drain plug torque and filter procedure unresolved",
+      "missing_inputs": [
+        "Retrieve page/section that explicitly scopes oil-change drain plug to B235R, rather than incorrectly extending B205E/B235E named service procedure."
+      ],
+      "reason": "A year-scoped factory number, supplier reference or static document cannot establish actual condition, safety of a repair operation or approved manufacturer fitment.",
+      "source_ids": [
+        "b235rev-src-008",
+        "b235rev-src-003"
+      ]
+    },
+    {
+      "id": "b235rev-gap-003",
+      "title": "PCV OEM supersession 55558696/12755243 is supplier-conflicted",
+      "missing_inputs": [
+        "Obtain genuine Saab/Orio VIN-specific WebEPC diagram, effective engine/build date, OEM supersession direction and installation requirements."
+      ],
+      "reason": "A year-scoped factory number, supplier reference or static document cannot establish actual condition, safety of a repair operation or approved manufacturer fitment.",
+      "source_ids": [
+        "b235rev-src-009",
+        "b235rev-src-010",
+        "b235rev-src-011"
+      ]
+    },
+    {
+      "id": "b235rev-gap-004",
+      "title": "PCV mechanical hardware validation missing",
+      "missing_inputs": [
+        "Verify 2004 engine number transition, original oil trap and valve cover hoses, check valve cracking direction/function, actual hose materials/dimensions/clearances."
+      ],
+      "reason": "A year-scoped factory number, supplier reference or static document cannot establish actual condition, safety of a repair operation or approved manufacturer fitment.",
+      "source_ids": [
+        "b235rev-src-009",
+        "b235rev-src-012",
+        "b235rev-src-013",
+        "b235rev-src-014"
+      ]
+    },
+    {
+      "id": "b235rev-gap-005",
+      "title": "Aftermarket kit performance not established",
+      "missing_inputs": [
+        "No thermal-life, contamination rate, mechanical durability, interchange or reliable 2026 stock-price guarantee established for ProParts bundle or 'upgraded' silicone hose."
+      ],
+      "reason": "A year-scoped factory number, supplier reference or static document cannot establish actual condition, safety of a repair operation or approved manufacturer fitment.",
+      "source_ids": [
+        "b235rev-src-016"
+      ]
+    },
+    {
+      "id": "b235rev-gap-006",
+      "title": "B235R manual sump procedure variant must be physically checked",
+      "missing_inputs": [
+        "Confirm B235R manual vs automatic hardware, exact sump/gearbox interfaces, engine-number suffix and current stamped unit before invoking drill/punch operation."
+      ],
+      "reason": "A year-scoped factory number, supplier reference or static document cannot establish actual condition, safety of a repair operation or approved manufacturer fitment.",
+      "source_ids": [
+        "b235rev-src-005",
+        "b235rev-src-006",
+        "b235rev-src-004"
+      ]
+    },
+    {
+      "id": "b235rev-gap-007",
+      "title": "Current oil approval equivalence to historical GM-LL-A-025",
+      "missing_inputs": [
+        "Identify current original manufacturer/Orio acceptable substitution and authoritative standards for 2008 US/CA 2.3 Turbo; viscosity number alone is insufficient."
+      ],
+      "reason": "A year-scoped factory number, supplier reference or static document cannot establish actual condition, safety of a repair operation or approved manufacturer fitment.",
+      "source_ids": [
+        "b235rev-src-003"
+      ]
+    },
+    {
+      "id": "b235rev-gap-008",
+      "title": "Factory severe-duty intervals in all 2004–2009 years",
+      "missing_inputs": [
+        "Obtain 2004/05/06/07/09 US/CA owner manuals independently rather than extrapolating 2008 severe duty 5000 mi to all years."
+      ],
+      "reason": "A year-scoped factory number, supplier reference or static document cannot establish actual condition, safety of a repair operation or approved manufacturer fitment.",
+      "source_ids": [
+        "b235rev-src-003"
+      ]
+    },
+    {
+      "id": "b235rev-gap-009",
+      "title": "Used-engine condition cannot be estimated from nominal oil table",
+      "missing_inputs": [
+        "Require actual oil pressure gauge results, bearing/coolant/oil observations, PCV history and dated maintenance for individual non-running vehicles."
+      ],
+      "reason": "A year-scoped factory number, supplier reference or static document cannot establish actual condition, safety of a repair operation or approved manufacturer fitment.",
+      "source_ids": [
+        "b235rev-src-001",
+        "b235rev-src-002"
+      ]
+    }
+  ]
+}
