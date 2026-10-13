@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 504 source records with 445 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 509 source records with 450 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -639,6 +639,11 @@ Dataset: [priority US/CA service and recall baseline](../data/datasets/priority-
 | `wp7-src-005` | [MY2008 original 9-5 Saab Service US/CA annual service checklist](https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/annual-service) | Saab Automobile AB (original WIS mirrored by SaabWISOnline) | `full_text` |
 | `wp7-src-006` | [MY2008 Saab 9-5 petrol SID service-message activation and reset](https://saabwisonline.com/9-5-9600/2008/3-electrical-system/saab-information-display-sid/service/service-message-petrol-driven-cars) | Saab Automobile AB (original WIS mirrored by SaabWISOnline) | `full_text` |
 | `wp7-src-007` | [MY2006 second-generation Saab 9-3 service programmes and oil-life distinctions](https://saabwisonline.com/9-3-9440/2006/1-service/saab-service-ww/technical-description/service-programme) | Saab Automobile AB (original WIS mirrored by SaabWISOnline) | `full_text` |
+| `wp7-src-008` | [2008 NHTSA acknowledgement 08V160 Saab 9-5 upper occupant protection trim](https://static.nhtsa.gov/odi/rcl/2008/RCAK-08V160-6768.pdf) | NHTSA | `full_text` |
+| `wp7-src-009` | [GM Product Safety Recall 15041 / NHTSA 16V063 Saab driver airbag module](https://static.nhtsa.gov/odi/rcl/2016/RCSB-16V063-8347.pdf) | General Motors LLC | `full_text` |
+| `wp7-src-010` | [GM Saab 15043 customer reminder / NHTSA 16V063](https://static.nhtsa.gov/odi/rcl/2016/RCRN-16V063-9564.pdf) | General Motors LLC | `full_text` |
+| `wp7-src-011` | [GM safety defect notification 14V318 Saab 9-3 convertibles](https://static.nhtsa.gov/odi/rcl/2014/RCDNN-14V318-3795P.pdf) | General Motors LLC filed with NHTSA | `full_text` |
+| `wp7-src-012` | [Transport Canada recall 2014228 Saab 9-3 convertibles](https://recalls-rappels.canada.ca/en/alert-recall/transport-canada-recall-2014228-general-motors) | Transport Canada | `full_text` |
 
 ## priority_vehicle_identity_gates
 
