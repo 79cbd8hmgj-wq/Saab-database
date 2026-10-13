@@ -23,6 +23,8 @@ engines, and platforms.
   domains, including contradictions and gaps.
 - [Source-audited VIN, gearbox and WebEPC provenance](docs/research/vin-gearbox-provenance.md):
   independent MY2005/08 9-3 VIN codes, 9-5 WIS year-table conflicts, 9-5 vs 9-3 FA57 and TCM adaptation, and VIN-specific part-fitment evidence gates.
+- [Original Saab turbo misdiagnosis bulletin 291-2494 and FA57 MY2005/09 safeguards](docs/research/og95-turbo-tsb2912494-fa57-triage.md):
+  year-correct diagnostics, misleading shaft-play wording, TCM adaptation requirements, and non-DIY stall-test restrictions.
 - [9-5 turbo oil-feed installation, FA57 solenoid bands and old bulletin identification](docs/research/og95-turbo-oil-feed-solenoids.md):
   factory MY2005/06/08 turbo service and MY2007–09 AT shift versus pressure-solenoid diagnosis without extrapolating early Dexron III bulletins.
 - [9-5 ATF temperature protection and original turbo clip bulletin correction](docs/research/og95-atf-thermal-turbo-bulletin.md):
@@ -59,8 +61,8 @@ engines, and platforms.
   North American specifications, WIS conflicts and source limits.
 - [Datasets](data/datasets/): structured JSON with source IDs and original links.
 
-As of October 12, 2026 the database contains **410 source records, 845 factual
-records, 54 issue records, 74 part records, and 192 explicit gaps** across twenty-five
+As of October 12, 2026 the database contains **423 source records, 876 factual
+records, 57 issue records, 74 part records, and 201 explicit gaps** across twenty-six
 research domains. This is not a completeness score.
 See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
 
