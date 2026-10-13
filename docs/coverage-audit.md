@@ -10,12 +10,12 @@
 | Measure | Current records |
 | --- | ---: |
 | Research domains | 35 |
-| Source records | 528 |
+| Source records | 525 |
 | Unique source URLs | 461 |
-| Technical facts | 1039 |
+| Technical facts | 1034 |
 | Diagnostic/correction issues | 85 |
-| Part records | 81 |
-| Explicit open research gaps | 263 |
+| Part records | 80 |
+| Explicit open research gaps | 261 |
 
 A repeated URL is not independent corroboration. These are stored record counts,
 **not** estimates of system completeness, part fitment confidence, failure rates,
@@ -25,15 +25,15 @@ or the probability that an individual vehicle is repairable.
 
 | Source retrieval | Records |
 | --- | ---: |
-| `full_text` | 498 |
+| `full_text` | 495 |
 | `partial` | 3 |
 | `search_excerpt` | 19 |
 | `metadata_only` | 8 |
 
 | Technical evidence | Facts + issues + parts |
 | --- | ---: |
-| `documented` | 1093 |
-| `supplier_claim` | 103 |
+| `documented` | 1092 |
+| `supplier_claim` | 98 |
 | `inference` | 9 |
 
 ### Explicit application dimensions
@@ -44,13 +44,13 @@ is counted from individual groups, not from a misleading top-level union.
 
 | Scope field explicitly present | Records out of facts + issues + parts |
 | --- | ---: |
-| `platforms` | 1147 / 1205 |
-| `model_years` | 1045 / 1205 |
-| `markets` | 204 / 1205 |
-| `engine_codes` | 341 / 1205 |
-| `transmission_codes` | 167 / 1205 |
-| `body_styles` | 83 / 1205 |
-| `vin_ranges` | 24 / 1205 |
+| `platforms` | 1141 / 1199 |
+| `model_years` | 1044 / 1199 |
+| `markets` | 204 / 1199 |
+| `engine_codes` | 341 / 1199 |
+| `transmission_codes` | 167 / 1199 |
+| `body_styles` | 83 / 1199 |
+| `vin_ranges` | 24 / 1199 |
 
 ### Technical record coverage by original Saab model year
 
@@ -82,7 +82,7 @@ model-year row. Year-path names do not prove a given production revision.
 | 2003 | 20 | 15 | 18 |
 | 2004 | 34 | 17 | 21 |
 | 2005 | 75 | 16 | 21 |
-| 2006 | 116 | 18 | 26 |
+| 2006 | 115 | 18 | 26 |
 | 2007 | 26 | 11 | 22 |
 | 2008 | 28 | 11 | 23 |
 | 2009 | 21 | 11 | 23 |
@@ -93,10 +93,10 @@ model-year row. Year-path names do not prove a given production revision.
 
 | Part-record metric | Count |
 | --- | ---: |
-| Records in research database | 81 |
-| Have at least one recorded part relationship | 23 |
-| Supported as a supplier claim | 53 |
-| Explicitly marked as needing vehicle verification | 50 |
+| Records in research database | 80 |
+| Have at least one recorded part relationship | 22 |
+| Supported as a supplier claim | 52 |
+| Explicitly marked as needing vehicle verification | 49 |
 
 A relationship can be an aftermarket cross-reference, kit contents, or a
 conditional supersession. Its existence does **not** make the replacement
@@ -110,7 +110,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 | `b235r_oil_pcv_2006_2008` | 17 | 31 | 2 | 7 | 9 |
 | `corrections` | 27 | 9 | 20 | 26 | 7 |
 | `cross_manufacturer_front_hub_pilot` | 4 | 7 | 0 | 1 | 5 |
-| `cross_manufacturer_interchange_pilot` | 14 | 19 | 3 | 4 | 8 |
+| `cross_manufacturer_interchange_pilot` | 11 | 14 | 3 | 3 | 6 |
 | `epc_provenance` | 10 | 12 | 0 | 2 | 5 |
 | `high_cost_powertrain_diagnostics` | 17 | 35 | 3 | 2 | 9 |
 | `ng93` | 25 | 70 | 0 | 0 | 8 |
