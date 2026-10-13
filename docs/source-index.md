@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 210 source records with 203 distinct
+Research retrieval date: 2026-10-12. There are 232 source records with 225 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -306,3 +306,32 @@ Dataset: [epc_provenance](../data/datasets/epc-provenance.json)
 | `epcverify-src-008` | [Klokkerholm 5078004 aftermarket frame/OE cross-references](https://plenty.parts/parts/klokkerholm/body/klokkerholm-5078004-support-frame-subframe-t3595659) | plenty.parts aftermarket aggregator | `full_text` |
 | `epcverify-src-009` | [2005 Saab B207 right engine mounting WIS](https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/engine-mounting-right) | Saab Automobile AB (factory material on independent WIS mirror) | `full_text` |
 | `epcverify-src-010` | [2005 Saab B207 power-train installation WIS](https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/fitting-the-power-train) | Saab Automobile AB (factory material on independent WIS mirror) | `full_text` |
+
+## og95_t7_electrical
+
+Dataset: [og95_t7_electrical](../data/datasets/og95-t7-electrical.json)
+
+| Source ID | Factory technical document | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `og95t7-src-001` | [MY2006 WIS: Trionic T7 4-cylinder control module](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/control-module) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-002` | [MY2006 WIS: ECU power supply and fuses](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/control-module-power-supply) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-003` | [MY2006 WIS: Shared 5V sensor supply](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/5v-supply) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-004` | [MY2006 WIS: ECU ground circuits](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/ground) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-005` | [MY2006 WIS: Crankshaft sensor operating description](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/crankshaft-position-sensor) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-006` | [MY2006 WIS: Crankshaft position sensor test specifications](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-data/crankshaft-position-sensor-345) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-007` | [MY2006 WIS: Main relay logic and no-run diagnosis](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/main-relay) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-008` | [MY2006 WIS: Fuel-pump relay priming and DTCs](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/fuel-pump-relay) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-009` | [MY2006 WIS: Ignition discharge module and combustion feedback](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/ignition-discharge-module) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-010` | [MY2006 WIS: Ignition discharge module hardware specifications](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-data/ignition-discharge-module-346) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-011` | [MY2006 WIS: MAF signal and substitution strategy](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/mass-air-flow-sensor) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-012` | [MY2006 WIS: Dual pedal sensor and limp-home](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/pedal-position-sensor) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-013` | [MY2006 WIS: Throttle limp-home mechanical design](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/throttle-control) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-014` | [MY2006 WIS: Fuel shut-off and immobilizer trigger](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/fuel-shut-off) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-015` | [MY2006 WIS: Trionic bus and module dependencies](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/bus-messages-trionic-t7) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-016` | [MY2006 WIS: TWICE bus and immobilizer authorization](https://saabwisonline.com/9-5-9600/2006/3-electrical-system/bus-and-diagnostics-communication/technical-description/bus-messages-twice) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-017` | [MY2007 WIS: 2007 T7 4-cylinder grounding](https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/technical-description/ground) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-018` | [MY2008 WIS: 2008 T7 4-cylinder grounding](https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/technical-description/ground) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-019` | [MY2009 WIS: 2009 T7 4-cylinder ECU supply](https://saabwisonline.com/9-5-9600/2009/2-engine/trionic-t7-4-cyl/technical-description/control-module-power-supply) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-020` | [MY2006 WIS: Coolant temperature sensor resistance curve](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-data/coolant-temperature-sensor-202) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-021` | [MY2006 WIS: Intake-air sensor data with inconsistent location](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-data/intake-air-temperature-sensor-407) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95t7-src-022` | [MY2005 WIS: 2005 control-module Tech2 immobilizer pairing](https://saabwisonline.com/9-5-9600/2005/2-engine/trionic-t7-4-cyl/adjustment-replacement/control-module) | Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror) | `full_text` |
