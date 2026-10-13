@@ -128,5 +128,39 @@ class NorthAmericanVehicleCatalogueTests(unittest.TestCase):
 
 
 
+    def test_2009_us_aero_xwd_is_not_2008_fwd_aero(self):
+        by_id = {item["id"]: item for item in self.examples}
+        self.assertIn("na-2008-93-aero-sedan-at", by_id)
+        self.assertIn("na-2009-93-20t-sedan-at-us", by_id)
+        self.assertIn("na-2009-93-20t-wagon-at-us", by_id)
+        self.assertFalse(any(
+            item["model"] == "9-3" and item["model_year"] == 2009 and
+            "US" in item["market_evidence"] and "aero" in item["id"].lower()
+            for item in self.examples
+        ))
+        excluded = {x["id"] for x in self.catalogue["explicit_exclusions"]}
+        self.assertIn("na-ex-14", excluded)
+        self.assertIn("na-ex-15", excluded)
+
+    def test_us_and_canada_model_year_progress_independent(self):
+        for row in self.rows:
+            for market, status_key in (("US", "us_status"), ("CA", "canada_status")):
+                matched = [
+                    x for x in self.examples
+                    if x["model"] == row["model"] and x["model_year"] == row["model_year"]
+                    and market in x["market_evidence"]
+                ]
+                self.assertEqual(
+                    row[status_key] == "at_least_one_candidate_documented",
+                    bool(matched)
+                )
+        # This is intentional: partial country-specific coverage is not completeness.
+        self.assertLess(
+            sum(row["canada_status"] == "at_least_one_candidate_documented" for row in self.rows),
+            len(self.rows)
+        )
+        self.assertTrue(all(row["coverage_complete"] is False for row in self.rows))
+
+
 if __name__ == "__main__":
     unittest.main()
