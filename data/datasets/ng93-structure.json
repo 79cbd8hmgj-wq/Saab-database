@@ -1,0 +1,1094 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "ng93_structure",
+  "sources": [
+    {
+      "id": "ng93structure-src-001",
+      "title": "WIS: Body construction and high-strength steel",
+      "url": "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/technical-description/brief-description",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-002",
+      "title": "WIS: Galvanized and ungalvanized body members",
+      "url": "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/technical-description/galvanized-body-parts",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-003",
+      "title": "WIS: Checking body dimensions and subframe mounts",
+      "url": "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/checking-body-dimensions",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-004",
+      "title": "WIS: Body datum dimensions, 4D and 5D",
+      "url": "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/technical-data/body-dimensions-4d-5d",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-005",
+      "title": "WIS: Permitted reinforcement joints, 4D and 5D",
+      "url": "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/permitted-joint-locations-4d-5d",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-006",
+      "title": "WIS: Outer sill repair",
+      "url": "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/outer-sill",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-007",
+      "title": "WIS: Lower A-pillar and sill, 4D",
+      "url": "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/inner-lower-a-pillar-with-sill-4d",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-008",
+      "title": "WIS: Welded front subframe bracket, CV",
+      "url": "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/reinforcing-bracket-front-subframe-cv",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-009",
+      "title": "WIS: Rear chassis reinforcement, CV",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/chassis-reinforcement-rear-subframe-cv",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-010",
+      "title": "WIS: Front chassis reinforcement, B207 CV",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/front-suspension/adjustment-replacement/chassis-reinforcement-front-subframe-cv-b207",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-011",
+      "title": "WIS: Rear floor assembly repair",
+      "url": "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/rear-floor-assembly",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-012",
+      "title": "WIS: Rear frame member repair",
+      "url": "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/rear-frame-member",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-013",
+      "title": "WIS: B207 front subframe",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-b207",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-014",
+      "title": "WIS: Rear subframe",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/subframe",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-015",
+      "title": "WIS: MIG brazing non-EU",
+      "url": "https://saabwisonline.com/9-3-9440/2005/8-body/body/body-panel/adjustment-replacement/mig-brazing-not-eu",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2005 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-016",
+      "title": "WIS: Lifting and attachment points",
+      "url": "https://saabwisonline.com/9-3-9440/2004/0-general/general/technical-data/lifting-and-attachment-points",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2004 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-017",
+      "title": "WIS: Structural adhesive restrictions",
+      "url": "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/general-work-instructions-structural-gluing",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-018",
+      "title": "WIS: Bodywork precautions around airbags",
+      "url": "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/bodywork-on-cars-with-airbag",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-019",
+      "title": "WIS: Inner sill, CV",
+      "url": "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/inner-sill-cv",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-020",
+      "title": "WIS: Rear subframe bush removal",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/rear-subframe-bush",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    },
+    {
+      "id": "ng93structure-src-021",
+      "title": "WIS: Convertible chassis reinforcements",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/technical-description/chassis-reinforcements-cv",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 document directory. Factory statement, not proof of unchanged production-year scope, fleet failure rate or actual-car condition."
+    }
+  ],
+  "facts": [
+    {
+      "id": "ng93structure-fact-001",
+      "subject": "body:9440-4d",
+      "category": "structure",
+      "predicate": "high_strength_reinforcements",
+      "value": "Cabin reinforcements include high-strength and some ultra-high-strength steel.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "4D"
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Body design / High-strength steel",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-002",
+      "subject": "body:9440",
+      "category": "corrosion_protection",
+      "predicate": "galvanization_scope",
+      "value": "Most outer body panels and many inner panels are zinc plated.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Galvanized body parts",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-003",
+      "subject": "body:9440",
+      "category": "corrosion_protection",
+      "predicate": "nongalvanized_exceptions",
+      "value": "Some seat and roof members, the member between rear wheel housings and certain reinforcements are not galvanized.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Galvanized body parts",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-004",
+      "subject": "body:9440",
+      "category": "structure",
+      "predicate": "mounting_geometry",
+      "value": "Subframe attachment points and body apertures require correct geometry after structural repair.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Checking body dimensions",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-005",
+      "subject": "body:9440",
+      "category": "structure",
+      "predicate": "serious_damage_jig",
+      "value": "Serious body-member distortion requires an alignment jig and diagonal measurements.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Checking body dimensions",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-006",
+      "subject": "body:9440-4d5d",
+      "category": "structure",
+      "predicate": "strut_mount_center_spacing",
+      "value": 1145,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Measurements above, position 5",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-007",
+      "subject": "body:9440-4d5d",
+      "category": "structure",
+      "predicate": "front_subframe_mount_diagonals",
+      "value": {
+        "LH_bolt_to_RH_floor_hole": 1346,
+        "RH_bolt_to_LH_floor_hole": 1350
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Measurements below, positions 24–25",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-008",
+      "subject": "body:9440-4d5d",
+      "category": "structure",
+      "predicate": "reinforcement_joint_rule",
+      "value": "Reinforcement may be cut/joined only where a specific factory method permits; otherwise renew damaged reinforcement.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Important; Permitted joint locations",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-009",
+      "subject": "body:9440",
+      "category": "structure",
+      "predicate": "sill_lower_b_pillar_cut_rule",
+      "value": "One outer-sill procedure allows cutting only through the B-pillar outer panel, not the underlying structure.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Outer sill, middle-section method",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-010",
+      "subject": "body:9440",
+      "category": "corrosion_protection",
+      "predicate": "sill_seam_protection",
+      "value": "Outer sill replacement restores protective primer, seam sealing and anti-corrosion agent after painting.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Outer sill; both methods",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-011",
+      "subject": "body:9440-4d",
+      "category": "structure",
+      "predicate": "a_pillar_braze_repair",
+      "value": "Factory MIG-brazed joints on a 4D A-pillar/sill repair must not be substituted with regular weld and filler.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "4D"
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Replacement, warning",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-012",
+      "subject": "body:9440-cv",
+      "category": "structure",
+      "predicate": "cv_welded_front_bracket",
+      "value": "Convertible front subframe reinforcing bracket requires jig alignment, controlled welding and restored protection.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "CV"
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Reinforcing bracket, front subframe, CV",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-013",
+      "subject": "body:9440-cv",
+      "category": "fasteners",
+      "predicate": "rear_cv_chassis_reinforcement_front_torque",
+      "value": 110,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "CV"
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, front fasteners",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-014",
+      "subject": "body:9440-cv",
+      "category": "fasteners",
+      "predicate": "rear_cv_chassis_reinforcement_rear_torque_angle",
+      "value": "75 Nm plus 135 degrees",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "CV"
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, rear fasteners",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-015",
+      "subject": "body:9440-cv-b207",
+      "category": "structure",
+      "predicate": "front_reinforcement_short_bolts",
+      "value": "Convertible B207 bolted front chassis reinforcement uses shorter front bolts at rear attachment.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "CV"
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove and To fit; Important",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-016",
+      "subject": "body:9440-cv-b207",
+      "category": "fasteners",
+      "predicate": "front_reinforcement_torque",
+      "value": 50,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "CV"
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, torque",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-017",
+      "subject": "body:9440",
+      "category": "corrosion_protection",
+      "predicate": "rear_floor_repair_treatment",
+      "value": "Rear floor repairs restore primer, seam sealer, PVC underside coating and cavity rust inhibitor.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Rear floor assembly; To fit",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-018",
+      "subject": "body:9440",
+      "category": "structure",
+      "predicate": "rear_member_cut_limit",
+      "value": "Rear frame member may not be cut farther forward than the factory-illustrated mark and is positioned using an alignment jig.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Rear frame member; To remove and To fit",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-019",
+      "subject": "chassis:9440-b207",
+      "category": "suspension",
+      "predicate": "b207_front_subframe_support",
+      "value": "B207 front subframe removal/installation needs dedicated support/centering tools and four-wheel alignment after replacement.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Subframe B207; To remove and To fit",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-020",
+      "subject": "chassis:9440",
+      "category": "suspension",
+      "predicate": "rear_subframe_dependencies",
+      "value": "Rear subframe replacement interacts with springs, brake pipes, wiring, handbrake cables, exhaust and body mounts.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Subframe; To remove and To fit",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-021",
+      "subject": "chassis:9440",
+      "category": "fasteners",
+      "predicate": "rear_subframe_body_torque_angle",
+      "value": "75 Nm plus 135 degrees",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Subframe; To fit, body bolts",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-022",
+      "subject": "body:9440",
+      "category": "structure",
+      "predicate": "non_eu_mig_brazing",
+      "value": "MIG-brazed body joins must not be replaced with ordinary welds and normal filler.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "not EU"
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MIG brazing (not EU); warning",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-023",
+      "subject": "body:9440",
+      "category": "lifting",
+      "predicate": "front_lift_point",
+      "value": "Centered under front subframe with inspection for damage and axle stands for under-car work.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Lifting points A; Important",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-024",
+      "subject": "body:9440",
+      "category": "lifting",
+      "predicate": "side_and_rear_lift_points",
+      "value": "Sill jacking brackets and rear towbar-mount/towing-eye points appear in factory lifting diagram.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Lifting points C/D",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-025",
+      "subject": "body:9440",
+      "category": "lifting",
+      "predicate": "rear_prohibited_lift_points",
+      "value": "MY2004 guidance excludes lifting at spare wheel well or rear axle.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Lifting points; Important",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-026",
+      "subject": "body:9440",
+      "category": "service",
+      "predicate": "adhesive_surface_and_heat_limits",
+      "value": "Structural glue requires specific compatible preparation and a heat exclusion zone for welding and brazing.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-017"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Structural gluing; Important",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-027",
+      "subject": "body:9440",
+      "category": "electrical_safety",
+      "predicate": "body_repair_airbag_grounding",
+      "value": "Factory body repair instructions require airbag precautions and preserving module earth connections when welding and painting.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-018"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Bodywork on cars with airbag",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-028",
+      "subject": "body:9440-cv",
+      "category": "structure",
+      "predicate": "inner_cv_sill_repair_complexity",
+      "value": "Inner convertible sill repair requires removing adjoining panels and alignment checks where needed.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "CV"
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-019"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Inner sill CV; removal",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-029",
+      "subject": "chassis:9440",
+      "category": "service",
+      "predicate": "rear_subframe_bush_disassembly",
+      "value": "Old rear subframe bush is destroyed during factory removal and cannot be reinstalled.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-020"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Rear subframe bush; Note",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    },
+    {
+      "id": "ng93structure-fact-030",
+      "subject": "body:9440-cv",
+      "category": "structure",
+      "predicate": "roofless_chassis_reinforcement",
+      "value": "Convertible uses bolted front, rear and tunnel reinforcements to compensate for absent fixed roof.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "CV"
+        ]
+      },
+      "source_ids": [
+        "ng93structure-src-021"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Chassis reinforcements CV, Description",
+      "notes": "Applies only to the cited factory document and stated configuration; no rust frequency, current car safety, alternative fitment or DIY structural repair approval is inferred."
+    }
+  ],
+  "issues": [],
+  "parts": [
+    {
+      "id": "ng93structure-part-001",
+      "part_number": "93 160 535",
+      "title": "Factory structural adhesive kit reference in body repair method",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Check exact repair joint and manufacturer material approval",
+        "No live stock, supersession, alternate chemical compatibility or universal fitment established"
+      ],
+      "source_ids": [
+        "ng93structure-src-017"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Historical body repair supply reference only, not a recommendation to purchase."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "ng93structure-gap-001",
+      "title": "Year, market and body variant boundaries",
+      "missing_inputs": [
+        "Confirm 2003–2011 4D/5D/CV year-specific body revisions, build codes, body grades and WIS procedure changes."
+      ],
+      "reason": "Factory documentation establishes construction or repair constraints, not complete service applicability, durability or acceptance of a particular corroded car.",
+      "source_ids": [
+        "ng93structure-src-001",
+        "ng93structure-src-002",
+        "ng93structure-src-003",
+        "ng93structure-src-004",
+        "ng93structure-src-005"
+      ]
+    },
+    {
+      "id": "ng93structure-gap-002",
+      "title": "Real-car structural corrosion acceptance",
+      "missing_inputs": [
+        "Obtain structural thickness/damage criteria, current jurisdictional inspection rules and measured body condition; no universal safe rust threshold found."
+      ],
+      "reason": "Factory documentation establishes construction or repair constraints, not complete service applicability, durability or acceptance of a particular corroded car.",
+      "source_ids": [
+        "ng93structure-src-002",
+        "ng93structure-src-003",
+        "ng93structure-src-006"
+      ]
+    },
+    {
+      "id": "ng93structure-gap-003",
+      "title": "Front and rear subframe assembly fitment",
+      "missing_inputs": [
+        "Obtain EPC assembly IDs, fastener revisions, dimensions and year/engine/gearbox/body compatibility; installation procedure is not interchange proof."
+      ],
+      "reason": "Factory documentation establishes construction or repair constraints, not complete service applicability, durability or acceptance of a particular corroded car.",
+      "source_ids": [
+        "ng93structure-src-009",
+        "ng93structure-src-010",
+        "ng93structure-src-013",
+        "ng93structure-src-014"
+      ]
+    },
+    {
+      "id": "ng93structure-gap-004",
+      "title": "Brake, fuel and other underbody lines",
+      "missing_inputs": [
+        "Locate factory line-routing, retention clips and corrosion inspection procedures; no corrosion prevalence inferred."
+      ],
+      "reason": "Factory documentation establishes construction or repair constraints, not complete service applicability, durability or acceptance of a particular corroded car.",
+      "source_ids": [
+        "ng93structure-src-011",
+        "ng93structure-src-014"
+      ]
+    },
+    {
+      "id": "ng93structure-gap-005",
+      "title": "Approved structural repair economics",
+      "missing_inputs": [
+        "Identify jig, joining processes, replacement components, qualified labor and costs for individual damage; no automatic DIY recommendation."
+      ],
+      "reason": "Factory documentation establishes construction or repair constraints, not complete service applicability, durability or acceptance of a particular corroded car.",
+      "source_ids": [
+        "ng93structure-src-005",
+        "ng93structure-src-007",
+        "ng93structure-src-012",
+        "ng93structure-src-017"
+      ]
+    },
+    {
+      "id": "ng93structure-gap-006",
+      "title": "Lifting point revision by model year",
+      "missing_inputs": [
+        "Retrieve 2005–2011 lifting diagrams and ensure CV/5D differences; current source is explicitly MY2004."
+      ],
+      "reason": "Factory documentation establishes construction or repair constraints, not complete service applicability, durability or acceptance of a particular corroded car.",
+      "source_ids": [
+        "ng93structure-src-016"
+      ]
+    },
+    {
+      "id": "ng93structure-gap-007",
+      "title": "Body datum tolerances and measurement diagrams",
+      "missing_inputs": [
+        "Obtain tolerance and reference illustrations, aligned jig data and installed-car geometry rather than relying on a few nominal values."
+      ],
+      "reason": "Factory documentation establishes construction or repair constraints, not complete service applicability, durability or acceptance of a particular corroded car.",
+      "source_ids": [
+        "ng93structure-src-003",
+        "ng93structure-src-004"
+      ]
+    },
+    {
+      "id": "ng93structure-gap-008",
+      "title": "Replacement repair materials and adhesives",
+      "missing_inputs": [
+        "Confirm current material product approval, exact joint/market requirements, availability and handling precautions."
+      ],
+      "reason": "Factory documentation establishes construction or repair constraints, not complete service applicability, durability or acceptance of a particular corroded car.",
+      "source_ids": [
+        "ng93structure-src-017",
+        "ng93structure-src-019"
+      ]
+    }
+  ]
+}
