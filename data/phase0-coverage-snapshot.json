@@ -381,9 +381,9 @@
     }
   },
   "parts_provenance": {
-    "total": 76,
-    "with_relationships": 18,
-    "supplier_claim": 48,
-    "needs_vehicle_verification": 45
+    "total": 79,
+    "with_relationships": 21,
+    "supplier_claim": 51,
+    "needs_vehicle_verification": 48
   }
 }
