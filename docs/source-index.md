@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 382 source records with 347 distinct
+Research retrieval date: 2026-10-12. There are 396 source records with 361 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -548,3 +548,24 @@ Dataset: [repair_vs_replace_troubleshooting](../data/datasets/repair-vs-replace-
 | `rrtriage-src-015` | [MY2008 petrol coolant thermostat/cap temperature and pressure](https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-data/temperature-pressure-limits) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
 | `rrtriage-src-016` | [MY2007 petrol thermostat service including seal and ground](https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/adjustment-replacement/thermostat-4-cyl) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
 | `rrtriage-src-017` | [MY2007 OG9-5 auto replacement flush contaminated cooling fluid circuit](https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/adjustment-replacement/complete-automatic-transmission) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
+
+## og95_atf_thermal_turbo_bulletin
+
+Dataset: [og95_atf_thermal_turbo_bulletin](../data/datasets/og95-atf-thermal-turbo-bulletin.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `afdiag-src-001` | [Saab TSB 291-2317 January 2002 low output rattle wastegate clip B205E/B235E non US/CA](https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/bulletins-si-mi/291-2317-low-output-and-rattling-from-turbocharger) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `full_text` |
+| `afdiag-src-002` | [MY2008 9-5 automatic fluid temperature sensor and overheating programs](https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-description/transmission-fluid-temperature-sensor) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `full_text` |
+| `afdiag-src-003` | [MY2008 9-5 P0705 transmission range switch input](https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0705) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `full_text` |
+| `afdiag-src-004` | [MY2009 9-5 P0722 output speed sensor missing](https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0722) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `full_text` |
+| `afdiag-src-005` | [MY2009 9-5 automatic transmission Read values menu](https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/fault-diagnosis-general/menu-read-values) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `full_text` |
+| `afdiag-src-006` | [MY2005 9-5 automatic gearbox replacement preparation checklist](https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/adjustment-replacement/checklist-complete-before-changing-gearbox) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `full_text` |
+| `afdiag-src-007` | [MY2005 9-5 TCM connector electrical measured conditions](https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/technical-data/test-readings-control-module-connections) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `full_text` |
+| `afdiag-src-008` | [MY2006 9-5 TCM Activate menu and solenoid/adaptation instructions](https://saabwisonline.com/9-5-9600/2006/4-transmission/automatic-transmission/fault-diagnosis-general/activate-menu) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `full_text` |
+| `afdiag-src-009` | [MY2008 9-5 T7 turbo electronic wastegate PWM controls](https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/technical-description/turbo-control) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `full_text` |
+| `afdiag-src-010` | [MY2008 9-5 turbocharger technical data directory showing turbo shaft play page](https://saabwisonline.com/9-5-9600/2008/2-engine/turbocharger-system/technical-data/) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `metadata_only` |
+| `afdiag-src-011` | [MY2005 9-5 automatic hydraulic settings controlled pressure and dangerous short stall test](https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/technical-data/settings) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `search_excerpt` |
+| `afdiag-src-012` | [MY2009 9-5 automatic gearbox joint torque reference](https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/technical-data/tightening-torques) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `full_text` |
+| `afdiag-src-013` | [MY2009 9-5 automatic transmission electronics system overview](https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/technical-description/system-overview) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `full_text` |
+| `afdiag-src-014` | [MY2008 9-5 turbo system technical data and shaft page index](https://saabwisonline.com/9-5-9600/2008/2-engine/turbocharger-system/) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `metadata_only` |
