@@ -2,7 +2,7 @@
 
 **Scope:** Saab 9-3 and 9-5, MY1998–2011 inclusive, original US/Canadian market only, **factory automatic only**, **FWD only**, **nonconvertibles**. European-only models, manual-only variants, XWD/AWD and 9-3X are not eligible. This is a **partial** research catalogue; it does not claim exhaustive model-year or trim completeness.
 
-The machine-readable companion [initial NA model-year screening and evidence records](../data/vehicle-catalogue/north-america-1998-2011.json) contains **28 model/year screening rows**, **100 sourced example configurations**, **64 source references** and **16 source-grounded exclusions/cautions**. Screening rows with missing evidence remain `unassessed`; there is no invented availability or reliability score. US and Canada are checked separately.
+The machine-readable companion [initial NA model-year screening and evidence records](../data/vehicle-catalogue/north-america-1998-2011.json) contains **28 model/year screening rows**, **104 sourced example configurations**, **68 source references** and **16 source-grounded exclusions/cautions**. Screening rows with missing evidence remain `unassessed`; there is no invented availability or reliability score. US and Canada are checked separately.
 
 ## Confirmed candidate examples (NOT a complete trim list)
 
@@ -90,6 +90,27 @@ New Canadian-only sources establish additional configurations **without copying 
 **Canadian 2009 Aero conflict — research HOLD (`na-ex-16`):** AutoTrader Canada's year review says Aero sedan and SportCombi were offered in FWD and XWD and describes a six-speed Aero automatic option. Separate Canadian Aero FWD **exact sedan and wagon trim listings** state **six-speed manual**. This does **not** establish that an automatic and FWD were paired on a Canadian nonconvertible 2009 Aero. No 2009 Canadian FWD Aero automatic is recorded in the eligible catalogue until a factory Canada option/order table confirms one (`na-cat-s62`, `na-cat-s63`, `na-cat-s64`). The U.S. 2009 Aero XWD-only restriction does not independently determine Canadian availability.
 
 **Coverage interpretation:** The catalogue retains 28 model/year rows, with separate market statuses. New Canadian rows are a useful step but not completed factory full trim/motor/transmission coverage. No real-world vehicle has been inspected.
+
+## U.S.-first research decision and production-register pilot
+
+**Research priority changed:** Complete the **United States factory configuration inventory first**. Canadian records are preserved and remain useful when a specific imported/Canadian-market car appears, but Canadian gap closure will not hold up U.S. work. This is a research priority, **not** an assertion that Canadian cars cannot be purchased or a deletion of the Canada eligibility rule.
+
+A Saab-specialist, compiled **U.S. production register** provides year, model generation, trim, body, transmission, drivetrain, engine code and sometimes paint-level production counts. The register is useful for identifying *observed* configurations. It is **not** original Saab factory documentation or individual VIN authentication. At this stage we have added only a small batch of directly identified rows, not bulk-imported speculative combinations:
+
+- 1999 9-3 (9400), B204L, four-speed automatic: Base three-door and SE three-/five-door hatchbacks (production register `na-cat-usprod-9400`).
+- 2003 9-3 (9440), B207R, five-speed automatic: Vector sedan; initial Linear/Arc 2003 sedan records now have source-linked B207L/B207R codes (`na-cat-usprod-9440`).
+- 2004 9-3 Aero FWD automatic B207R engine code corroborated against the same compiled register.
+- Original 9-5 (9600) and second-generation 9-5 (650) U.S. production register URLs are recorded as leads **only** until their detailed year/trim/gearbox rows are inspected (`na-cat-usprod-9600`, `na-cat-usprod-650`).
+
+**Completeness remains blocked.** Most source summaries to date establish at least one U.S. automatic/FWD car per 1999–2011 model-year row. They do *not* establish every factory trim/body/engine/automatic variant, production count, engine code or valid option restriction. A 1998 U.S. model-year exclusion and 2010 new 9-5 XWD-only launch need the same manufacturer-grade verification discipline as any positive combination.
+
+### U.S. catalogue completion acceptance criteria
+
+1. Reconcile every 1999–2011 **US** 9-3 and 9-5 year and generation with the production register and original year-specific factory brochure or dealer guide.
+2. Normalize every eligible **automatic + FWD + nonconvertible** engine/trim/body combination into one canonical configuration; avoid double counting duplicates from paint rows, badges or trim-level aggregations.
+3. For each configuration, retain provenance, original engine code, actual automatic transmission family/code where factory-supported, body and drivetrain, manufacturer year-code/VIN restrictions and production-count evidence if obtainable.
+4. Explicitly document manual-only, convertible, AWD/XWD and never-produced combinations, with source-based rationale; preserve unknowns instead of asserting negatives.
+5. Run JSON/ID/market coverage regression tests and existing project-wide validator before declaring a particular year complete. No model is yet considered reliability-ranked or purchase-certified.
 
 ## Verified pitfalls / exclusions
 
