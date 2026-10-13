@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 547 source records with 482 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 554 source records with 487 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -370,6 +370,20 @@ Dataset: [og95_shared_electrics_countercheck](../data/datasets/og95-shared-elect
 | `ogex-src-003` | [AS-PL A0219 120A alternator product record](https://as-pl.com/en/p/A0219) | AS-PL | `full_text` |
 | `ogex-src-004` | [AS-PL A0219 applications for 9-5 B235R through 2009](https://as-pl.com/sr/tpu/A0219/2) | AS-PL | `full_text` |
 | `ogex-src-005` | [AS-PL A0319 distinct original 9-5 alternator product and specifications](https://as-pl.com/en/p/A0319) | AS-PL | `full_text` |
+
+## us_retail_parts_supply_snapshot
+
+Dataset: [us_retail_parts_supply_snapshot](../data/datasets/us-retail-parts-supply-snapshot.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `usparts-src-001` | [eSaabParts Saab 12630084 original 9-3 B207 / later 9-5 650 water pump](https://www.esaabparts.com/saab/parts/12630084) | eSaabParts U.S.-facing independent Saab parts retailer | `full_text` |
+| `usparts-src-002` | [eSaabParts HEPU 32020290 aftermarket B207 pump option](https://www.esaabparts.com/saab/parts/32020290) | eSaabParts U.S.-facing independent Saab parts retailer | `full_text` |
+| `usparts-src-003` | [eSaabParts Saab Genuine T7 direct ignition cassette 32022255](https://www.esaabparts.com/saab/parts/32022255) | eSaabParts U.S.-facing independent Saab parts retailer | `full_text` |
+| `usparts-src-004` | [eSaabParts Nissens 32019620 original 9-5 automatic radiator](https://www.esaabparts.com/saab/parts/32019620) | eSaabParts U.S.-facing independent Saab parts retailer | `full_text` |
+| `usparts-src-005` | [eSaabParts original 9-5 starter exploded diagram including Bosch remanufactured alternative](https://www.esaabparts.com/viewparts.php?searchpart=1&section=323308856) | eSaabParts U.S.-facing independent Saab parts retailer | `full_text` |
+| `usparts-src-006` | [Saab Parts U.S. official authorized online retailer list](https://saabparts.com/us/affiliated-retail-parts-websites/) | Saab Parts / Hedin / SPG North America manufacturer-support channel | `full_text` |
+| `usparts-src-007` | [Saab Parts U.S. manufacturer-channel service warranty statement](https://saabparts.com/us/why-book-with-us/) | Saab Parts / Hedin manufacturer-support channel | `full_text` |
 
 ## epc_provenance
 
