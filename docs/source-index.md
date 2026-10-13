@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 497 source records with 438 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 504 source records with 445 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -625,6 +625,20 @@ Dataset: [og95_turbo_tsb_2912494_fa57_triage](../data/datasets/og95-turbo-tsb291
 | `prebuy-src-011` | [2008 OG9-5 factory turbo shaft-play directory, numeric content not available](https://saabwisonline.com/9-5-9600/2008/2-engine/turbocharger-system/technical-data/) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `metadata_only` |
 | `prebuy-src-012` | [2009 OG9-5 FA57 TCM requested versus actual speed/pressure Read values](https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/fault-diagnosis-general/menu-read-values) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
 | `prebuy-src-013` | [2008 OG9-5 5AT maximum permissible torque TCM-to-engine request](https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-description/maximum-permissible-torque) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
+
+## priority_usca_service_recall_baseline_wp7
+
+Dataset: [priority US/CA service and recall baseline](../data/datasets/priority-usca-service-recall-baseline-wp7.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `wp7-src-001` | [NHTSA official VIN safety-recall lookup and limitations](https://www.nhtsa.gov/recalls) | United States National Highway Traffic Safety Administration | `full_text` |
+| `wp7-src-002` | [NHTSA defects and recalls explanatory resource](https://www.nhtsa.gov/resources-investigations-recalls) | United States National Highway Traffic Safety Administration | `full_text` |
+| `wp7-src-003` | [MY2008 original 9-5 Saab Service US/CA schedule index](https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/) | Saab Automobile AB (original WIS mirrored by SaabWISOnline) | `full_text` |
+| `wp7-src-004` | [MY2008 original 9-5 Saab Service US/CA 10,000-mile checklist](https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/10-000-miles-us-ca) | Saab Automobile AB (original WIS mirrored by SaabWISOnline) | `full_text` |
+| `wp7-src-005` | [MY2008 original 9-5 Saab Service US/CA annual service checklist](https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/annual-service) | Saab Automobile AB (original WIS mirrored by SaabWISOnline) | `full_text` |
+| `wp7-src-006` | [MY2008 Saab 9-5 petrol SID service-message activation and reset](https://saabwisonline.com/9-5-9600/2008/3-electrical-system/saab-information-display-sid/service/service-message-petrol-driven-cars) | Saab Automobile AB (original WIS mirrored by SaabWISOnline) | `full_text` |
+| `wp7-src-007` | [MY2006 second-generation Saab 9-3 service programmes and oil-life distinctions](https://saabwisonline.com/9-3-9440/2006/1-service/saab-service-ww/technical-description/service-programme) | Saab Automobile AB (original WIS mirrored by SaabWISOnline) | `full_text` |
 
 ## priority_vehicle_identity_gates
 
