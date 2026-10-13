@@ -1,0 +1,945 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "official_us_vin_and_service_kit_provenance",
+  "sources": [
+    {
+      "id": "gate5-src-001",
+      "title": "Saab Automobile USA original 1999–2011 9-3/9-5 model-year VIN reference compilation",
+      "url": "https://saabparts.us/wp-content/uploads/1/2023/05/VIN-breakdown-for-1999-2011-9-3-9-5.pdf",
+      "source_type": "factory_bulletin",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "publisher": "Saab Automobile AB / Saab Automobile USA (republished by Saab Parts North America)",
+      "notes": "Saab Automobile AB dated original US service information plus Saab Automobile USA 2006/2007 position tables, republished by Saab Parts North America. Document skips separate 2008 and 2009 pages; model-year lookup for those remains incomplete."
+    },
+    {
+      "id": "gate5-src-002",
+      "title": "Official Saab Parts US owner resource guide listing 9-3 and 9-5 VIN references and service brochures",
+      "url": "https://saabparts.us/reference-library/",
+      "source_type": "technical_reference",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "publisher": "Saab Parts / Hedin Parts official North American manufacturer-support channel",
+      "notes": "Saab Parts US official resource library includes a factory bulletin PDF linked under both priority platforms; not a VIN-filtered WebEPC parts result."
+    },
+    {
+      "id": "gate5-src-003",
+      "title": "Official Saab Parts 9-3 ignition-switch replacement kit 32021815 previously 12801010 assembly instructions",
+      "url": "https://saabparts.us/wp-content/uploads/1/2023/06/Saab-93-2003_11-Ignition-Switch-Module-ISM-32021815-Kit-Saabparts-Reference-Library-version.pdf",
+      "source_type": "technical_reference",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "publisher": "Saab Parts / Hedin Parts official North American manufacturer-support channel",
+      "notes": "Manufacturer parts-support channel repair instruction says the kit requires the reusable original black switch sliding mechanism; not a complete switch drop-in on broken mechanism."
+    },
+    {
+      "id": "gate5-src-004",
+      "title": "Official Saab Parts US key-loss and early/late 9-5 key service guide",
+      "url": "https://saabparts.com/us/wp-content/uploads/sites/10/2023/09/What-happens-if-I-lose-all-the-keys-to-my-Saab-Sept-2023.pdf",
+      "source_type": "technical_reference",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "publisher": "Saab Parts / Hedin Parts official North American manufacturer-support channel",
+      "notes": "Official Saab Parts US document says 9-5 early separate key/remote superseded with late combined style; TWICE and Tech2 pairing rules limit even official product form supersessions."
+    },
+    {
+      "id": "gate5-src-005",
+      "title": "2008 original 9-5 engine mounting left joint VIN production cutoff and manual/automatic difference",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/engine-mounting-left",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "publisher": "Saab Automobile AB original WIS (SaabWISOnline mirror)",
+      "notes": "Original WIS describes left mount bolts and centre nut torque changing at printed vehicle identification suffix 73514478 / 73514479; not itself an OE mount part-number supersession."
+    },
+    {
+      "id": "gate5-src-006",
+      "title": "Saab WebEPC official manufacturer VIN-filter, illustrations and directed NLS supersessions",
+      "url": "https://saabparts.com/saab-subscription-services",
+      "source_type": "technical_reference",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "publisher": "Saab Parts / Hedin Parts official North American manufacturer-support channel",
+      "notes": "Manufacturer subscription documentation says WebEPC filters by VIN/build and has approved directed supersession chains, but no actual subscriber vehicle lookup was performed."
+    },
+    {
+      "id": "gate5-src-007",
+      "title": "Saab Parts USA owner portal describes original VIN option decoder",
+      "url": "https://saabparts.com/us/",
+      "source_type": "technical_reference",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "publisher": "Saab Parts / Hedin Parts official North American manufacturer-support channel",
+      "notes": "Official US owner portal advertises VIN decoder and vehicle equipment information in MySaabCar, but requires owner access; no submitted VIN or decoded installed vehicle in this research."
+    }
+  ],
+  "facts": [
+    {
+      "id": "gate5-fact-001",
+      "subject": "Saab original US-market vehicle identity and original replacement provenance",
+      "predicate": "US_original_Saab_VIN_position_keys",
+      "category": "vin_code",
+      "value": {
+        "4": {
+          "E": "9-5",
+          "F": "9-3"
+        },
+        "6": {
+          "4": "sedan 4-door",
+          "5": "wagon or 5-door",
+          "7": "convertible 2-door"
+        },
+        "7": "original gearbox class by dated year",
+        "8": "marketing engine variant by dated year",
+        "9": "checksum",
+        "10": "model-year character",
+        "11": "assembly plant",
+        "1-3": "YS3 Saab Automobile AB",
+        "12-17": "serial sequence"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600",
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "gate5-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "US_original_Saab_VIN_position_keys",
+      "notes": "Use the exact factory year-specific code table; combined row alone does not decode an actual VIN, engine serial, installed gearbox, market revision or valid check digit."
+    },
+    {
+      "id": "gate5-fact-002",
+      "subject": "Saab original US-market vehicle identity and original replacement provenance",
+      "predicate": "US_original_2004_VIN_engine_gear",
+      "category": "vin_code",
+      "value": {
+        "MY_code": "4",
+        "9-5_gearbox_7": {
+          "5": "5MT",
+          "9": "5AT"
+        },
+        "9-5_engine_8": {
+          "E": "B235E",
+          "A": "B235L",
+          "G": "B235R"
+        },
+        "9-3_engine_8": {
+          "S": "B207L",
+          "Y": "B207R"
+        },
+        "assembly_11": {
+          "1": "9-3 Trollhattan",
+          "3": "9-5 Trollhattan",
+          "6": "9-3 convertible Graz"
+        }
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600",
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "gate5-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "2004 VIN bulletin, original page 8 (zero-index page 7)",
+      "notes": "Original Saab 2004 bulletin table includes exact code mapping; body and TCM not independently certified. The engine-letter meanings differ in subsequent years."
+    },
+    {
+      "id": "gate5-fact-003",
+      "subject": "Saab original US-market vehicle identity and original replacement provenance",
+      "predicate": "US_original_2005_VIN_engine_gear",
+      "category": "vin_code",
+      "value": {
+        "MY_code": "5",
+        "gearbox_7": {
+          "5": "5MT",
+          "6": "6MT",
+          "9": "5AT"
+        },
+        "9-5_engine_8": {
+          "E": "B235E",
+          "A": "B235L",
+          "G": "B235R"
+        },
+        "9-3_engine_8": {
+          "S": "B207L",
+          "Y": "B207R"
+        },
+        "assembly_11": {
+          "1": "9-3 Trollhattan",
+          "3": "9-5 Trollhattan",
+          "6": "9-3 CV Graz"
+        }
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600",
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "gate5-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "2005 VIN bulletin, original page 9 (zero-index page 8)",
+      "notes": "Original 2005 source is August 2004 dated bulletin, distinct from the 2005 workshop mirror where an example VIN printed 2004 year code. Do not infer B235L is B235E or universal interchange."
+    },
+    {
+      "id": "gate5-fact-004",
+      "subject": "Saab original US-market vehicle identity and original replacement provenance",
+      "predicate": "US_original_2006_VIN_engine_gear",
+      "category": "vin_code",
+      "value": {
+        "MY_code": "6",
+        "gearbox_7": {
+          "1": "6AT",
+          "5": "5MT",
+          "6": "6MT",
+          "9": "5AT"
+        },
+        "engine_8_listed": {
+          "U": "9-3 B284L V6",
+          "Y": "9-3 B207R",
+          "G": "9-5 B235R"
+        },
+        "assembly_11": {
+          "1": "9-3 Trollhattan",
+          "3": "9-5 Trollhattan",
+          "6": "9-3 convertible Graz"
+        }
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600",
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "gate5-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "US MY2006 factory VIN page zero-index 9",
+      "notes": "The factory US table lists only U,Y,G engine values; missing B207L or B235E is NOT proof those types are physically impossible in other markets or variants. Official model/year scope needed."
+    },
+    {
+      "id": "gate5-fact-005",
+      "subject": "Saab original US-market vehicle identity and original replacement provenance",
+      "predicate": "US_original_2007_VIN_engine_gear",
+      "category": "vin_code",
+      "value": {
+        "MY_code": "7",
+        "gearbox_7": {
+          "1": "6AT",
+          "5": "5MT",
+          "6": "6MT",
+          "9": "5AT"
+        },
+        "engine_8_listed": {
+          "U": "9-3 B284L V6",
+          "Y": "9-3 B207R",
+          "G": "9-5 B235R"
+        },
+        "assembly_11": {
+          "1": "9-3 Trollhattan",
+          "3": "9-5 Trollhattan",
+          "6": "9-3 convertible Graz"
+        }
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600",
+          "9-3-9440"
+        ],
+        "model_years": [
+          2007
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "gate5-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "US MY2007 factory VIN page zero-index 10",
+      "notes": "The 2007 factory table is another dated original VIN sheet in the same compiled PDF; not evidence actual car or donor is original."
+    },
+    {
+      "id": "gate5-fact-006",
+      "subject": "Saab original US-market vehicle identity and original replacement provenance",
+      "predicate": "US_original_pdf_missing_MY2008_2009_VIN_complete",
+      "category": "source_quality",
+      "value": {
+        "source_pages_for_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2011
+        ],
+        "missing_in_this_compilation": [
+          2008,
+          2009
+        ],
+        "2011_is_next_gen_95": true
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600",
+          "9-3-9440"
+        ],
+        "model_years": [
+          2008,
+          2009
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "gate5-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "US_original_pdf_missing_MY2008_2009_VIN_complete",
+      "notes": "The US compilation jumps from 2007 to 2011; absence in this document alone does not imply 2008/09 VINs nonexistent. Prior WIS 2009 folder displays 2010 VIN sheet. Remains explicit gap."
+    },
+    {
+      "id": "gate5-fact-007",
+      "subject": "Saab original US-market vehicle identity and original replacement provenance",
+      "predicate": "US_original_2005_example_modelyear_contradiction",
+      "category": "source_quality",
+      "value": {
+        "2005_page_tenth_code_table": "5",
+        "example_tenth_character": "4",
+        "example_matches_previous_year": true
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "gate5-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "2005 VIN bulletin page 9, sample vs table",
+      "notes": "Saab USA 2005 page uses a previous-year example VIN but explicitly states MY2005 tenth code 5. Trust titled code table and flag example inconsistency, do not auto-accept demonstration string."
+    },
+    {
+      "id": "gate5-fact-008",
+      "subject": "Saab original US-market vehicle identity and original replacement provenance",
+      "predicate": "official_93_2003_11_ISM_replacement_kit",
+      "category": "parts_provenance",
+      "value": {
+        "formerly": "12801010",
+        "kit": "32021815",
+        "applies": "9-3 9440 MY2003–11 (as official service sheet title)",
+        "type": "conditional service/rebuild kit rather than complete swap"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "gate5-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "official_93_2003_11_ISM_replacement_kit",
+      "notes": "A real vehicle must still verify installed module and software/anti-theft state. This is official Saab Parts servicing documentation but not a full VIN-filtered EPC supersession record."
+    },
+    {
+      "id": "gate5-fact-009",
+      "subject": "Saab original US-market vehicle identity and original replacement provenance",
+      "predicate": "official_ISM_32021815_retains_original_black_slider",
+      "category": "parts_provenance",
+      "value": {
+        "required_existing": "black lower original rotating/sliding mechanism",
+        "reuse_only_if": "undamaged, clean, dry, free-moving; replacement switch required if unsalvageable",
+        "replace": "upper white part, electronics, plunger/spring per kit",
+        "critical": "verify steel key retainer lock to prevent ejecting key"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "gate5-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "official_ISM_32021815_retains_original_black_slider",
+      "notes": "Replacement is not self-contained; this is a manufacturer-support repair process with required original subassembly and alignment, not proof of drop-in fitment."
+    },
+    {
+      "id": "gate5-fact-010",
+      "subject": "Saab original US-market vehicle identity and original replacement provenance",
+      "predicate": "official_95_early_key_to_late_style_guidance",
+      "category": "parts_provenance",
+      "value": {
+        "source_early_years": [
+          1999,
+          2000,
+          2001,
+          2002
+        ],
+        "late_style": "integrated one-piece key and remote",
+        "old_separate_style": "no longer available according to US source",
+        "requires": "Tech 2 learn to vehicle"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "gate5-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "official_95_early_key_to_late_style_guidance",
+      "notes": "Historic early-to-late style supersession concerns key form and security programming, NOT mechanical part drop-in or any named current key number."
+    },
+    {
+      "id": "gate5-fact-011",
+      "subject": "Saab original US-market vehicle identity and original replacement provenance",
+      "predicate": "official_95_TWICE_all_keys_lost_condition",
+      "category": "service_prerequisite",
+      "value": {
+        "one_working_key": "required for Tech 2 learning new key",
+        "all_keys_lost": "replace TWICE + supply/learn two new style keys",
+        "TWICE_location": "beneath driver seat"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "gate5-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "official_95_TWICE_all_keys_lost_condition",
+      "notes": "Saab Parts USA owner guidance; historic procedure availability should be checked with current Saab service center; no donor module pairing or SID validity asserted for every production variation."
+    },
+    {
+      "id": "gate5-fact-012",
+      "subject": "Saab original US-market vehicle identity and original replacement provenance",
+      "predicate": "og95_2008_left_engine_mount_manual_auto_distinct_joint",
+      "category": "repair_procedure",
+      "value": {
+        "manual_torque_Nm": 47,
+        "automatic_torque_Nm": 84,
+        "steering_or_brace_Nm": 63
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US"
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "gate5-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "og95_2008_left_engine_mount_manual_auto_distinct_joint",
+      "notes": "Separate fasteners and gearbox types in service procedure. NOT a replacement mount interchange statement."
+    },
+    {
+      "id": "gate5-fact-013",
+      "subject": "Saab original US-market vehicle identity and original replacement provenance",
+      "predicate": "og95_2008_left_engine_mount_VIN_cutover_nut",
+      "category": "repair_procedure",
+      "value": {
+        "through_printed_VIN": "73514478",
+        "from_printed_VIN": "73514479",
+        "earlier_centre_nut_Nm": 84,
+        "later_centre_nut_Nm": 74,
+        "bolts": "40 Nm +45 degrees"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US"
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "gate5-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "og95_2008_left_engine_mount_VIN_cutover_nut",
+      "notes": "WIS prints short chassis VIN threshold, not whole 17-digit VIN; original complete VIN, market and joint must be matched before wrenching. Do not infer mount P/N change at the same point."
+    },
+    {
+      "id": "gate5-fact-014",
+      "subject": "Saab original US-market vehicle identity and original replacement provenance",
+      "predicate": "official_WebEPC_source_authority",
+      "category": "parts_provenance",
+      "value": {
+        "filters": [
+          "VIN",
+          "build options",
+          "model",
+          "model year"
+        ],
+        "relations": [
+          "original part",
+          "No Longer Serviced (NLS) forward supersession",
+          "manufacturer applicability comments"
+        ],
+        "licensed_lookup_performed": false
+      },
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "gate5-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "official_WebEPC_source_authority",
+      "notes": "Manufacturer WebEPC is subscription-gated. We did NOT open any subscriber VIN record and do not claim new OEM fitment for 9-3 subframe/radiator/brakes."
+    },
+    {
+      "id": "gate5-fact-015",
+      "subject": "Saab original US-market vehicle identity and original replacement provenance",
+      "predicate": "US_MySaabCar_VIN_option_lookup_advertised",
+      "category": "identity_workflow",
+      "value": {
+        "service": "original Saab VIN decoder and original equipment features/options via account",
+        "actual_VIN_queried": false
+      },
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "gate5-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "US_MySaabCar_VIN_option_lookup_advertised",
+      "notes": "Saab official US owner service requires a user-initiated account; cannot replace year-specific original table without a real vehicle query."
+    }
+  ],
+  "issues": [
+    {
+      "id": "gate5-issue-001",
+      "title": "Official US MY2005/MY2006 Saab VIN tables resolve prior WIS-year folder ambiguities",
+      "applicability": {
+        "groups": [
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2005,
+              2006
+            ],
+            "markets": [
+              "US"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2005,
+              2006
+            ],
+            "markets": [
+              "US"
+            ]
+          }
+        ]
+      },
+      "cause": "Original dated Saab Automobile USA reference archive has explicitly titled MY2005 and MY2006 tables while several WIS mirror year directories previously held contradictory model-year text or sample characters.",
+      "symptoms": [
+        "vehicle year, market or engine guessed from wrong WIS folder",
+        "old sample VIN year digit interpreted as target year",
+        "5AT versus 6AT donor proposed based on 'automatic' description"
+      ],
+      "diagnosis_summary": "Use the US-market original factory VIN table corresponding to tenth-character MY code and physically verify stamped VIN, engine, gearbox and full TCM/ECU. Check actual vehicle data against WebEPC for parts.",
+      "correction_summary": "Treat 2005 year code 5, 2006 code 6, gearbox position 7 and engine position 8 as source-scoped identity candidates, not a replacement approval. Original 2008/09 complete tables remain unverified.",
+      "source_ids": [
+        "gate5-src-001",
+        "gate5-src-002",
+        "gate5-src-006"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "The PDF still lacks separately dated 2008 and 2009 original-year pages.",
+        "A VIN engine code denotes original equipment and does not prove a swapped engine's actual identity.",
+        "The 2005 sample VIN uses a 2004 character despite 2005 table, so don't trust examples as actual cars."
+      ]
+    },
+    {
+      "id": "gate5-issue-002",
+      "title": "9-3 ignition switch formerly 12801010 cannot be replaced by 32021815 without serviceable reused mechanism",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "cause": "Saab Parts USA issued a conditional parts-service kit requiring salvage and inspection of black lower switch sliding mechanism from original ISM; new electronics alone are insufficient if the mechanical section is damaged.",
+      "symptoms": [
+        "key does not rotate or key pop-out",
+        "seller markets kit 32021815 as fully complete replacement",
+        "original ISM mechanical slider cracked, fouled or lost"
+      ],
+      "diagnosis_summary": "Physically inspect actual original old ISM and black sliding assembly, confirm moving freely and retaining tabs intact, consult Saab-specific service instructions before any electronic/key/security work.",
+      "correction_summary": "Only consider the manufacturer-supported kit process when the old mechanism can be reused; otherwise obtain a suitable complete alternative switch with proper VIN/part selection. No general drop-in or VIN approval claimed.",
+      "source_ids": [
+        "gate5-src-003",
+        "gate5-src-006"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Kit page specifies original 9-3 MY2003–2011 only; do not apply to OG9-5 TWICE and key system.",
+        "Not a VIN-specific current availability guarantee.",
+        "Requires retaining serviceable original black housing, not a complete direct replacement."
+      ]
+    },
+    {
+      "id": "gate5-issue-003",
+      "title": "9-5 engine-mount service torque changes at factory VIN cutoff without proving a different mount part number",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US"
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "cause": "Saab original 2008 9-5 mount-left WIS requires different centre nut tightening torque through 73514478 versus from 73514479, with separate manual/automatic mounting torques.",
+      "symptoms": [
+        "seller assumes any MY2008 engine mount fastener/torque interchangeable",
+        "donor mount fastener from a different gearbox or cutoff applied blindly"
+      ],
+      "diagnosis_summary": "Confirm actual original 17-digit VIN/build, stamped hardware and full service-joint identity; apply only matching factory repair revision with competent repair procedure.",
+      "correction_summary": "Capture production cutoff as a service distinction, not a claimed new mount SKU, successor part or direction of interchange.",
+      "source_ids": [
+        "gate5-src-005",
+        "gate5-src-006"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Printed VIN value is abbreviated threshold and not a full VIN.",
+        "No original mount part number change verified at this cutoff.",
+        "Service fastener specification is not a structural-rust/jacking clearance criterion."
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "gate5-part-001",
+      "part_number": "12801010",
+      "title": "Earlier Saab 9-3 (9440) ignition switch module addressed by 32021815 service kit",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "replaced_by_service_kit",
+          "part_number": "32021815",
+          "conditions": "Official Saab Parts USA MY2003–11 9-3 ISM instruction: MUST reuse undamaged original black lower rotating/sliding mechanism; kit is NOT drop-in complete switch and lost/broken mechanism needs another switch."
+        }
+      ],
+      "requirements": [
+        "Inspect original installed ignition switch component and VIN/model build.",
+        "Retain serviceable original black sliding/rotating housing; ensure clean and free-moving.",
+        "Follow official key retainer/tab and aligned spring/plunger assembly procedure.",
+        "Use original Saab parts catalogue/technician for security system compatibility; no donor plug-and-play approval."
+      ],
+      "source_ids": [
+        "gate5-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Documented manufacturer-support service-kit conversion with material reuse; not a paid VIN-filtered WebEPC chain or available-stock proof."
+    },
+    {
+      "id": "gate5-part-002",
+      "part_number": "32021815",
+      "title": "Saab 9-3 (9440) ignition switch module repair service kit (formerly 12801010)",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "kit_for_earlier_part",
+          "part_number": "12801010",
+          "conditions": "Manufacturer Saab Parts US says ISM 12801010 now kit 32021815, requiring old black slide housing reuse; cannot serve as fully interchangeable complete module."
+        }
+      ],
+      "requirements": [
+        "Must have functioning original black lower sliding mechanism from 12801010 or another intact switch.",
+        "Check locking metal key retainer and moving electrical contacts as documented; no assumed mechanical housing in kit.",
+        "Confirm model-year/installed ignition system and obtain latest Saab WebEPC/supplier detail before ordering."
+      ],
+      "source_ids": [
+        "gate5-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "notes": "A documented conditional service kit, not a full module supersession/donor interchange. No source verifying in-stock retail purchase or exact current VIN application."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gate5-gap-001",
+      "title": "2008 and 2009 9-5 US vehicle VIN original complete position tables still missing",
+      "missing_inputs": [
+        "Saab USA compiled PDF explicitly includes 2004–07 and 2011, but no 2008/2009 year-specific sheets. Check dated original Saab USA 2008–09 bulletin or authenticated Saab VIN decoder for US/Canadian variant."
+      ],
+      "reason": "Official general Saab identity/kit guidance closes a class of error but cannot certify physical installed hardware, full direct interchange or later MY exact US/CA part compatibility without VIN-filtered OEM EPC.",
+      "source_ids": [
+        "gate5-src-001",
+        "gate5-src-002",
+        "gate5-src-007"
+      ]
+    },
+    {
+      "id": "gate5-gap-002",
+      "title": "Actual US or Canadian Saab VIN lookup and original equipment confirmation",
+      "missing_inputs": [
+        "No real car VIN authorized by user; no official MySaabCar lookup, no physical transmission/ECU/engine tags, and no licensed per-VIN EPC screen captured."
+      ],
+      "reason": "Official general Saab identity/kit guidance closes a class of error but cannot certify physical installed hardware, full direct interchange or later MY exact US/CA part compatibility without VIN-filtered OEM EPC.",
+      "source_ids": [
+        "gate5-src-002",
+        "gate5-src-006",
+        "gate5-src-007"
+      ]
+    },
+    {
+      "id": "gate5-gap-003",
+      "title": "WebEPC exact OE 9-3 2003–11 ignition switch service-kit VIN exclusions",
+      "missing_inputs": [
+        "Manufacturer-channel kit instructions cover 2003–11 but no per-VIN installed supplier/revision exclusions, part list, current availability or reverse interchange proof."
+      ],
+      "reason": "Official general Saab identity/kit guidance closes a class of error but cannot certify physical installed hardware, full direct interchange or later MY exact US/CA part compatibility without VIN-filtered OEM EPC.",
+      "source_ids": [
+        "gate5-src-003",
+        "gate5-src-006"
+      ]
+    },
+    {
+      "id": "gate5-gap-004",
+      "title": "Saab 9-5 rear subframe, 9-3 front subframe and brake assemblies licensed VIN parts",
+      "missing_inputs": [
+        "Existing retail part-number chains and brake option codes still require original WebEPC VIN/build/market/side verification, drawings and accompanying fasteners."
+      ],
+      "reason": "Official general Saab identity/kit guidance closes a class of error but cannot certify physical installed hardware, full direct interchange or later MY exact US/CA part compatibility without VIN-filtered OEM EPC.",
+      "source_ids": [
+        "gate5-src-006"
+      ]
+    },
+    {
+      "id": "gate5-gap-005",
+      "title": "MY2008 9-5 left engine mount production cutoff and part identity relation",
+      "missing_inputs": [
+        "Mount centre nut torque changes at printed 73514478/73514479; missing original full VIN applicability proof and original mount/fastener part number revision. Do not assume new OEM mount."
+      ],
+      "reason": "Official general Saab identity/kit guidance closes a class of error but cannot certify physical installed hardware, full direct interchange or later MY exact US/CA part compatibility without VIN-filtered OEM EPC.",
+      "source_ids": [
+        "gate5-src-005",
+        "gate5-src-006"
+      ]
+    },
+    {
+      "id": "gate5-gap-006",
+      "title": "Saab original US 9-5 key/TWICE condition and current service support",
+      "missing_inputs": [
+        "Early/late replacement key format and TWICE security programming in official Saab Parts USA document; current parts availability, module pairing and correct VIN key codes not obtained."
+      ],
+      "reason": "Official general Saab identity/kit guidance closes a class of error but cannot certify physical installed hardware, full direct interchange or later MY exact US/CA part compatibility without VIN-filtered OEM EPC.",
+      "source_ids": [
+        "gate5-src-004",
+        "gate5-src-006"
+      ]
+    }
+  ]
+}
