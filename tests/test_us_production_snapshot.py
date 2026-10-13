@@ -59,6 +59,8 @@ class USProductionSnapshotTests(unittest.TestCase):
                     "sedan", "3-door hatchback", "5-door hatchback", "wagon"))
                 self.assertGreater(x["reported_production_count"], 0)
                 self.assertGreater(x["paint_row_count"], 0)
+                self.assertEqual(x["low_volume_manual_review"],
+                                 x["reported_production_count"] <= 12)
                 if x["platform"] == "9400" and x["body_code"] == "5D":
                     self.assertEqual(x["body_style"], "5-door hatchback")
                 if x["platform"] in ("9440", "9600") and x["body_code"] == "5D":
