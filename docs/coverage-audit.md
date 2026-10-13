@@ -11,7 +11,7 @@
 | --- | ---: |
 | Research domains | 40 |
 | Source records | 554 |
-| Unique source URLs | 487 |
+| Unique source URLs | 488 |
 | Technical facts | 1086 |
 | Diagnostic/correction issues | 91 |
 | Part records | 86 |
