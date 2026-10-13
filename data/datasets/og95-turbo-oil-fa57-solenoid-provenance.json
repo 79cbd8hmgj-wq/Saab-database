@@ -1,0 +1,1205 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "og95_turbo_oil_fa57_solenoid_provenance",
+  "sources": [
+    {
+      "id": "safety-src-001",
+      "title": "MY2006 factory turbo replacement oil priming and hoses",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/turbocharger-system/adjustment-replacement/turbo-4-cyl",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory authored workshop information on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Preserve original model year, engine, fastener, component and source context; no actual vehicle measured."
+    },
+    {
+      "id": "safety-src-002",
+      "title": "MY2005 factory turbo replacement oil priming",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/turbocharger-system/adjustment-replacement/turbo-4-cyl",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory authored workshop information on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Preserve original model year, engine, fastener, component and source context; no actual vehicle measured."
+    },
+    {
+      "id": "safety-src-003",
+      "title": "MY2006 turbocharger installation tightening torque",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/turbocharger-system/technical-data/tightening-torques",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory authored workshop information on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Preserve original model year, engine, fastener, component and source context; no actual vehicle measured."
+    },
+    {
+      "id": "safety-src-004",
+      "title": "MY2009 oil filter adapter housing turbo oil feed interface",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/oil-filter-adapter-housing",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory authored workshop information on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Preserve original model year, engine, fastener, component and source context; no actual vehicle measured."
+    },
+    {
+      "id": "safety-src-005",
+      "title": "MY2008 shift solenoid S1–S5 measured resistance 20°C",
+      "url": "https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-data/gearshift-solenoid-valve-s1-s2-s3-s4-and-s5",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory authored workshop information on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Preserve original model year, engine, fastener, component and source context; no actual vehicle measured."
+    },
+    {
+      "id": "safety-src-006",
+      "title": "MY2007 SLS/SLT pressure-regulation solenoid resistance table",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/technical-data/solenoid-valves-pressure-regulation-slt-and-sls",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory authored workshop information on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Preserve original model year, engine, fastener, component and source context; no actual vehicle measured."
+    },
+    {
+      "id": "safety-src-007",
+      "title": "MY2008 SLS/SLT pressure solenoid description, current-direction and electrical",
+      "url": "https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-description/solenoid-valves-sls-and-slt-for-system-pressure",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory authored workshop information on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Preserve original model year, engine, fastener, component and source context; no actual vehicle measured."
+    },
+    {
+      "id": "safety-src-008",
+      "title": "MY2008 9-5 P0785 pressure-regulation SLS solenoid open short",
+      "url": "https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0785",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory authored workshop information on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Preserve original model year, engine, fastener, component and source context; no actual vehicle measured."
+    },
+    {
+      "id": "safety-src-009",
+      "title": "MY2007 9-5 before changing control module SPS and power-ground",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/fault-diagnosis-general/before-changing-a-control-module",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory authored workshop information on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Preserve original model year, engine, fastener, component and source context; no actual vehicle measured."
+    },
+    {
+      "id": "safety-src-010",
+      "title": "MY2007 9-5 TCM control module engine-specific programmed variant",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/technical-description/control-module",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory authored workshop information on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Preserve original model year, engine, fastener, component and source context; no actual vehicle measured."
+    },
+    {
+      "id": "safety-src-011",
+      "title": "MY2007 electrical testing avoid ohmmeter on semiconductors",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/fault-diagnosis-general/testing-for-open-short-circuits",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory authored workshop information on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Preserve original model year, engine, fastener, component and source context; no actual vehicle measured."
+    },
+    {
+      "id": "safety-src-012",
+      "title": "2006 common automatic failures service bulletin indexed under 9-5 but 9-3 M98–99 only",
+      "url": "https://saabwisonline.com/9-5-9600/2007/1-service/saab-service-eu/bulletins-si-mi/100-2512-utg-3-common-faults-on-automatic-transmissions",
+      "source_type": "factory_bulletin",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory authored workshop information on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "CRITICAL: despite being in 9-5 WIS service mirror, Cars affected reads Saab 9-3 M98-99 automatic, and specifies Dexron III for that application; NOT a 9-5 FA57 service bulletin."
+    },
+    {
+      "id": "safety-src-013",
+      "title": "MY2006 WIS turbo shaft play directory, numerical page not retrieved",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/turbocharger-system/technical-data/",
+      "source_type": "factory_manual",
+      "retrieval": "metadata_only",
+      "publisher": "Saab Automobile AB (factory authored workshop information on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Source directory confirms an original shaft-play page exists, but its numerical tolerance cannot be recovered; no measurement accepted or inferred."
+    },
+    {
+      "id": "safety-src-014",
+      "title": "MY2008 WIS turbo shaft play directory, numerical page not retrieved",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/turbocharger-system/technical-data/",
+      "source_type": "factory_manual",
+      "retrieval": "metadata_only",
+      "publisher": "Saab Automobile AB (factory authored workshop information on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Source directory confirms an original shaft-play page exists, but its numerical tolerance cannot be recovered; no measurement accepted or inferred."
+    },
+    {
+      "id": "safety-src-015",
+      "title": "MY2009 charge air bypass diaphragm vacuum procedure",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/turbocharger-system/adjustment-replacement/checking-the-charge-air-bypass-valve-4-cyl",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory authored workshop information on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Preserve original model year, engine, fastener, component and source context; no actual vehicle measured."
+    }
+  ],
+  "facts": [
+    {
+      "id": "safety-fact-001",
+      "subject": "Saab 9-5 (9600)",
+      "category": "lubrication",
+      "predicate": "turbo_bearing_housing_prime_before_start",
+      "value": {
+        "fill_port": "turbo oil inlet",
+        "action": "fill bearing housing with engine oil before engine start",
+        "mechanical": "rotate compressor wheel manually repeatedly to distribute oil"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "safety-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_bearing_housing_prime_before_start",
+      "notes": "Manufacturer says oil in turbo bearing housing is essential before engine startup, particularly a new unit. Not a pre-purchase instruction to rotate an installed, connected hot turbo."
+    },
+    {
+      "id": "safety-fact-002",
+      "subject": "Saab 9-5 (9600)",
+      "category": "lubrication",
+      "predicate": "turbo_bearing_housing_prime_before_start",
+      "value": {
+        "fill_port": "turbo oil inlet",
+        "action": "fill bearing housing with engine oil before engine start",
+        "mechanical": "rotate compressor wheel manually repeatedly to distribute oil"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "safety-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_bearing_housing_prime_before_start",
+      "notes": "Manufacturer says oil in turbo bearing housing is essential before engine startup, particularly a new unit. Not a pre-purchase instruction to rotate an installed, connected hot turbo."
+    },
+    {
+      "id": "safety-fact-003",
+      "subject": "Saab 9-5 (9600)",
+      "category": "service",
+      "predicate": "turbo_oil_pipe_to_turbo_banjo_Nm",
+      "value": 20,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "safety-src-001",
+        "safety-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_oil_pipe_to_turbo_banjo_Nm",
+      "notes": "Turbo oil-feed union at turbo, new copper sealing washers; NOT oil filter adapter union."
+    },
+    {
+      "id": "safety-fact-004",
+      "subject": "Saab 9-5 (9600)",
+      "category": "service",
+      "predicate": "turbo_oil_pipe_adapter_banjo_Nm",
+      "value": 25,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "safety-src-001",
+        "safety-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_oil_pipe_adapter_banjo_Nm",
+      "notes": "Turbo oil-feed union at oil-filter adapter, distinct from turbo end and gearbox cooler."
+    },
+    {
+      "id": "safety-fact-005",
+      "subject": "Saab 9-5 (9600)",
+      "category": "service",
+      "predicate": "turbo_oil_return_M6_bolts_Nm",
+      "value": 14,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "safety-src-001",
+        "safety-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_oil_return_M6_bolts_Nm",
+      "notes": "Two bolts securing oil-return pipe at turbo; return flow passage must be unobstructed before operation."
+    },
+    {
+      "id": "safety-fact-006",
+      "subject": "Saab 9-5 (9600)",
+      "category": "service",
+      "predicate": "turbo_coolant_banjo_at_turbo_Nm",
+      "value": 25,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "safety-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_coolant_banjo_at_turbo_Nm",
+      "notes": "Turbo-coolant pipe joint only; new copper washers used, not a gearbox hydraulic line."
+    },
+    {
+      "id": "safety-fact-007",
+      "subject": "Saab 9-5 (9600)",
+      "category": "service",
+      "predicate": "turbo_bypass_inlet_V_clamp_Nm",
+      "value": 3,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "safety-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_bypass_inlet_V_clamp_Nm",
+      "notes": "Intake pipe V clamp, not front exhaust flange or high-boost hose clamp."
+    },
+    {
+      "id": "safety-fact-008",
+      "subject": "Saab 9-5 (9600)",
+      "category": "service",
+      "predicate": "turbo_charge_air_hose_clamp_Nm",
+      "value": 8,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "safety-src-001",
+        "safety-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_charge_air_hose_clamp_Nm",
+      "notes": "Factory tells technician to thoroughly clean hose interior and coupling ends to reduce disconnection under charge pressure."
+    },
+    {
+      "id": "safety-fact-009",
+      "subject": "Saab 9-5 (9600)",
+      "category": "lubrication",
+      "predicate": "turbo_oil_supply_and_return_interfaces",
+      "value": {
+        "feed": "oil filter adapter housing through pipe/banjo to turbo bearing housing",
+        "return": "turbo drain pipe to cylinder block",
+        "service": "renew copper washers at feed joint and ensure connection sealed"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "safety-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_oil_supply_and_return_interfaces",
+      "notes": "Service diagram/procedure specifies feed and return, not confirmation of internal oil flow on a given car."
+    },
+    {
+      "id": "safety-fact-010",
+      "subject": "Saab 9-5 (9600)",
+      "category": "service",
+      "predicate": "turbo_new_seal_bypass_pipe",
+      "value": {
+        "part": "O-ring",
+        "place": "bypass pipe/compressor inlet union",
+        "seal_lube": "non-acidic vaseline"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "safety-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_new_seal_bypass_pipe",
+      "notes": "Not manufacturer part number or universally interchangeable O-ring; verify by original EPC."
+    },
+    {
+      "id": "safety-fact-011",
+      "subject": "Saab 9-5 (9600)",
+      "category": "lubrication",
+      "predicate": "turbo_oil_filter_adapter_service_seal",
+      "value": {
+        "action": "replace oil filter adapter O-ring, lubricate, use Loctite 518",
+        "turbo": "disconnect/reconnect turbo oil pipe"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "safety-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_oil_filter_adapter_service_seal",
+      "notes": "Adapter O-ring is not the turbo oil inlet copper washer. Original sealing compound named historically."
+    },
+    {
+      "id": "safety-fact-012",
+      "subject": "Saab 9-5 (9600)",
+      "category": "electrical",
+      "predicate": "S1_to_S5_resistance_20C_ohm",
+      "value": {
+        "S1": [
+          11,
+          16
+        ],
+        "S2": [
+          11,
+          16
+        ],
+        "S3": [
+          11,
+          16
+        ],
+        "S4": [
+          11,
+          16
+        ],
+        "S5": [
+          11,
+          16
+        ]
+      },
+      "unit": "ohm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "safety-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "S1_to_S5_resistance_20C_ohm",
+      "notes": "Resistance is for each gearshift on/off solenoid, measured cold 20°C; not SLT/SLS pressure solenoid test."
+    },
+    {
+      "id": "safety-fact-013",
+      "subject": "Saab 9-5 (9600)",
+      "category": "electrical",
+      "predicate": "S1_S5_deenergized_valve_behavior",
+      "value": {
+        "open_without_current": [
+          "S1",
+          "S2",
+          "S4"
+        ],
+        "closed_without_current": [
+          "S3",
+          "S5"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "safety-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "S1_S5_deenergized_valve_behavior",
+      "notes": "Do not equate solenoid mechanical default with actual command or clutch actuation."
+    },
+    {
+      "id": "safety-fact-014",
+      "subject": "Saab 9-5 (9600)",
+      "category": "electrical",
+      "predicate": "SLS_SLT_2007_tech_table_ohm_range_20C",
+      "value": {
+        "min": 5,
+        "max": 5.6,
+        "PWM_Hz": 300
+      },
+      "unit": "ohm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "safety-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "SLS_SLT_2007_tech_table_ohm_range_20C",
+      "notes": "2007 *technical data table* 5.0–5.6 Ω; separately 2008 narrative gives nominal 5.1–5.5 Ω. Do not silently declare exact equality."
+    },
+    {
+      "id": "safety-fact-015",
+      "subject": "Saab 9-5 (9600)",
+      "category": "electrical",
+      "predicate": "SLS_SLT_2008_description_resistance_20C",
+      "value": {
+        "min": 5.1,
+        "max": 5.5
+      },
+      "unit": "ohm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "safety-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "SLS_SLT_2008_description_resistance_20C",
+      "notes": "2008 technical *description* says 'normally 5.1–5.5 Ω', narrower than MY2007 technical data 5.0–5.6 Ω; year/section both preserved."
+    },
+    {
+      "id": "safety-fact-016",
+      "subject": "Saab 9-5 (9600)",
+      "category": "electrical",
+      "predicate": "SLS_SLT_PWM_ground_and_pins",
+      "value": {
+        "frequency_Hz": 300,
+        "SLS": {
+          "TCM_positive_B": 26,
+          "TCM_ground_B": 36
+        },
+        "SLT": {
+          "TCM_positive_B": 35,
+          "TCM_ground_B": 15
+        }
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "safety-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "SLS_SLT_PWM_ground_and_pins",
+      "notes": "Connector B; do not back-feed PWM outputs or measure energized module resistance."
+    },
+    {
+      "id": "safety-fact-017",
+      "subject": "Saab 9-5 (9600)",
+      "category": "hydraulics",
+      "predicate": "SLS_SLT_inverse_current_pressure_logic",
+      "value": {
+        "high_current_about_A": 1,
+        "high_current_effect": "low hydraulic line pressure",
+        "open_circuit_effect": "maximum commanded hydraulic pressure",
+        "SLS_function": "clutch-disc pressure",
+        "SLT_function": "system line pressure"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "safety-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "SLS_SLT_inverse_current_pressure_logic",
+      "notes": "Open circuit can cause harsh shifts via high pressure rather than worn clutch; this is factory functional description, not proof an individual valve was electrically defective."
+    },
+    {
+      "id": "safety-fact-018",
+      "subject": "Saab 9-5 (9600)",
+      "category": "diagnostic",
+      "predicate": "SLS_SLT_DTC_distinctions",
+      "value": {
+        "P0748": "SLT pressure regulation electrical current anomaly",
+        "P0785": "SLS pressure regulation electrical current anomaly"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "safety-src-007",
+        "safety-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "SLS_SLT_DTC_distinctions",
+      "notes": "DTC P0785 described in separate year-specific fault page. Either can trigger CHECK GEARBOX/limp home; a fault code alone cannot determine the component is serviceable."
+    },
+    {
+      "id": "safety-fact-019",
+      "subject": "Saab 9-5 (9600)",
+      "category": "diagnostic",
+      "predicate": "P0785_electrical_test_enabling_conditions",
+      "value": {
+        "fluid_temperature_C_gt": 20,
+        "battery_voltage_V_between": [
+          11,
+          16
+        ],
+        "observed": "SLS current outside limits",
+        "response": "limp-home and CHECK GEARBOX"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "safety-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "P0785_electrical_test_enabling_conditions",
+      "notes": "Do not run the transmission to unsafe temperature merely to reproduce DTC. Use actual stored data."
+    },
+    {
+      "id": "safety-fact-020",
+      "subject": "Saab 9-5 (9600)",
+      "category": "diagnostic",
+      "predicate": "TCM_control_module_before_replacement_checks",
+      "value": [
+        "check year/variant software service info before considering authorized update",
+        "confirm grounds and power feed",
+        "plausibility of input scan data",
+        "safe controlled output activation only when required",
+        "avoid unnecessary SPS because wrong procedure may damage module"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "safety-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "TCM_control_module_before_replacement_checks",
+      "notes": "Saab says many returned modules had no fault. TIS2000 era programming is not proven accessible/current in 2026."
+    },
+    {
+      "id": "safety-fact-021",
+      "subject": "Saab 9-5 (9600)",
+      "category": "identity",
+      "predicate": "TCM_engine_specific_programming_required",
+      "value": {
+        "variants": [
+          "B205E",
+          "B235E/R",
+          "D223L",
+          "B308E"
+        ],
+        "spare_module": "unprogrammed",
+        "initialisation": "Tech2/SPS and reset adaptation after appropriate repair"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "safety-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "TCM_engine_specific_programming_required",
+      "notes": "Unit not interchangeable just because connector and box match; factory expressly states engine-specific software. No present-day SPS availability asserted."
+    },
+    {
+      "id": "safety-fact-022",
+      "subject": "Saab 9-5 (9600)",
+      "category": "electrical",
+      "predicate": "TCM_battery_off_does_not_erase_learned_faults",
+      "value": "TCM DTC and adaptation stored in nonvolatile memory, so battery disconnection does not erase them.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "safety-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "TCM_battery_off_does_not_erase_learned_faults",
+      "notes": "Disconnecting battery is not substitute for correct adaptation and programming after repairs."
+    },
+    {
+      "id": "safety-fact-023",
+      "subject": "Saab 9-5 (9600)",
+      "category": "safety",
+      "predicate": "TCM_resistance_meter_safety",
+      "value": "Never apply an ohmmeter to semiconductors such as TCM; disconnect power to circuit before testing passive resistance.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "safety-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "TCM_resistance_meter_safety",
+      "notes": "Factory WIS electrical test rules; never probe powered electronic modules with resistance mode."
+    },
+    {
+      "id": "safety-fact-024",
+      "subject": "Saab 9-5 (9600)",
+      "category": "source_quality",
+      "predicate": "misfiled_100_2512_not_OG95",
+      "value": {
+        "bulletin": "100-2512 utg.3",
+        "dated": "2006-05",
+        "market": [
+          "SE",
+          "NO"
+        ],
+        "printed_cars_affected": "Saab 9-3 M98-99 automatic",
+        "printed_fluid": "Dexron III",
+        "folder": "9-5 (9600) 2007 Saab Service EU"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "safety-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "misfiled_100_2512_not_OG95",
+      "notes": "Factory TSB Cars affected is definitive against misleading folder. DO NOT prescribe Dexron III to MY2005–09 FA57 due to this index entry."
+    },
+    {
+      "id": "safety-fact-025",
+      "subject": "Saab 9-5 (9600)",
+      "category": "source_quality",
+      "predicate": "turbo_shaft_spec_2006_index_only",
+      "value": {
+        "listed_page": "Turbo shaft play",
+        "radial_mm": null,
+        "axial_mm": null,
+        "document_retrieval": "metadata_only"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "safety-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_shaft_spec_2006_index_only",
+      "notes": "Directory title only; actual measured/acceptance data unavailable."
+    },
+    {
+      "id": "safety-fact-026",
+      "subject": "Saab 9-5 (9600)",
+      "category": "source_quality",
+      "predicate": "turbo_shaft_spec_2008_index_only",
+      "value": {
+        "listed_page": "Turbo shaft play",
+        "radial_mm": null,
+        "axial_mm": null,
+        "document_retrieval": "metadata_only"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "safety-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_shaft_spec_2008_index_only",
+      "notes": "Directory title only; do not import diesel, B207 or 2005 turbo value."
+    },
+    {
+      "id": "safety-fact-027",
+      "subject": "Saab 9-5 (9600)",
+      "category": "diagnostic",
+      "predicate": "charge_air_bypass_diaphragm_test_MY2009",
+      "value": {
+        "factory_tool": "30 14 883",
+        "method": "vacuum, then positive pressure, inspect diaphragm integrity",
+        "failed_diaphragm": "vacuum cannot be developed"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "safety-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "charge_air_bypass_diaphragm_test_MY2009",
+      "notes": "Defective diaphragm is a plausible specific repair, not proof that shaft play or oil feed is good."
+    }
+  ],
+  "issues": [
+    {
+      "id": "safety-issue-001",
+      "title": "Original 9-5 MY2005/06 turbo failure after replacement: unprimed bearings or leaking oil feed/return",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "cause": "Original WIS requires oil priming before first start and service of oil feed/return pipe with correct gaskets/banjo torques; lubrication faults can damage a replacement turbo.",
+      "symptoms": [
+        "newly replaced turbo noisy soon after repair",
+        "oil seep at turbo oil-line union",
+        "unexplained smoke and depleted engine oil"
+      ],
+      "diagnosis_summary": "Determine oil feed/return routing, visible leaks and service history with engine safely off/cold; verify OEM port seals and oil-pressure test if qualified. Do not claim internal turbo condition from noise alone.",
+      "correction_summary": "If replacement genuinely justified, follow full factory priming, O-ring/copper washer and oil/coolant pipe procedure with leak verification; inspect blocked oil feed and unrelated engine pressure faults.",
+      "source_ids": [
+        "safety-src-001",
+        "safety-src-002",
+        "safety-src-003",
+        "safety-src-004"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Turbo bearing shaft-play specification still unavailable for MY2008.",
+        "Priming prevents a known installation hazard but cannot reverse existing bearing/compressor damage.",
+        "Specifications of MY2006 joints not automatically valid for MY2009."
+      ]
+    },
+    {
+      "id": "safety-issue-002",
+      "title": "2008 FA57 harsh shifts with SLS/SLT control-circuit faults versus costly clutch damage",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "cause": "SLS/SLT normally vary hydraulic line pressure with controlled 300Hz current; loss of energization causes maximum pressure. WIS distinguishes P0748 SLT and P0785 SLS.",
+      "symptoms": [
+        "hard shifts under some conditions",
+        "CHECK GEARBOX",
+        "limp-home",
+        "P0748 or P0785"
+      ],
+      "diagnosis_summary": "Read true TCM codes/sensor values; confirm battery and grounds, circuit and harness condition, inspect resistance safely at 20°C with power disconnected; do not extrapolate gearshift solenoid S1-5 limits to linear SLS/SLT.",
+      "correction_summary": "Repair a positively identified circuit/connector/solenoid fault before condemning complete gearbox; internal wear or pressure faults may coexist and still need specialized repair.",
+      "source_ids": [
+        "safety-src-005",
+        "safety-src-006",
+        "safety-src-007",
+        "safety-src-008",
+        "safety-src-011"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "No approved valve body replacement part or manufacturer supersession obtained.",
+        "Electrical resistance in range cannot verify hydraulic pressure or healthy clutch discs.",
+        "2007 technical table and 2008 description have different ranges and must remain separate."
+      ]
+    },
+    {
+      "id": "safety-issue-003",
+      "title": "Misfiled 9-3 M98–99 Dexron III bulletin cannot be used for original 9-5 FA57",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "cause": "Bulletin 100-2512 edition 3 appears under OG9-5 WIS service tree but text lists 9-3 M98–99 cars affected and Dexron III grade.",
+      "symptoms": [
+        "incorrect fluid recommended solely from Saab WIS folder",
+        "technician assumes bulletin later than model year applies"
+      ],
+      "diagnosis_summary": "Always check actual Cars affected/market/model-year/gearbox before using a TSB or fluid claim. Compare MY2005–09 9-5 FA57 year-specific original Saab 3309 fluid grade.",
+      "correction_summary": "Reject 9-3-only bulletin as OG9-5 fitment or service advice; obtain vehicle-specific Saab WIS transmission fluid grade and qualified product approval.",
+      "source_ids": [
+        "safety-src-012"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "A 2007 9-5 folder does not establish 2007 model-year bulletin scope.",
+        "Do not treat Dexron III from 9-3 M98–99 as replacement for OG9-5 FA57 Saab 3309.",
+        "No current ATF product certification from the misfiled bulletin."
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "safety-gap-001",
+      "title": "Recover authentic MY2005–09 turbo shaft-play table values",
+      "missing_inputs": [
+        "Obtain full original WIS MY2005/06/07/08/09 axial/radial specifications per B235E GT17 and B235R TD04, including measurement method and test temperature."
+      ],
+      "reason": "The document and model-year index do not supply measured vehicle condition, genuine part fitment, safe repair conditions or statistical failure forecasts.",
+      "source_ids": [
+        "safety-src-013",
+        "safety-src-014"
+      ]
+    },
+    {
+      "id": "safety-gap-002",
+      "title": "Oil feed/return OEM pipes banjo hardware and turbos by VIN",
+      "missing_inputs": [
+        "Manufacturer VIN-filtered EPC, original part revisions, and oil-feed/return geometry and seals for each turbo and year, not just WIS torque."
+      ],
+      "reason": "The document and model-year index do not supply measured vehicle condition, genuine part fitment, safe repair conditions or statistical failure forecasts.",
+      "source_ids": [
+        "safety-src-001",
+        "safety-src-002",
+        "safety-src-003",
+        "safety-src-004"
+      ]
+    },
+    {
+      "id": "safety-gap-003",
+      "title": "Confirm turbo oil-supply blocked pipe noninvasive diagnosis",
+      "missing_inputs": [
+        "Original pressure/flow test with tooling that doesn't risk dry-run; mechanical oil pressure by year at controlled oil temperature is a distinct metric."
+      ],
+      "reason": "The document and model-year index do not supply measured vehicle condition, genuine part fitment, safe repair conditions or statistical failure forecasts.",
+      "source_ids": [
+        "safety-src-001",
+        "safety-src-003",
+        "safety-src-004"
+      ]
+    },
+    {
+      "id": "safety-gap-004",
+      "title": "2008 pressure solenoid tech table source unretrieved",
+      "missing_inputs": [
+        "Retrieve MY2008 separate technical data tab (rather than descriptive 5.1–5.5Ω), reconcile with MY2007 full technical data 5.0–5.6Ω without inventing revisions."
+      ],
+      "reason": "The document and model-year index do not supply measured vehicle condition, genuine part fitment, safe repair conditions or statistical failure forecasts.",
+      "source_ids": [
+        "safety-src-006",
+        "safety-src-007"
+      ]
+    },
+    {
+      "id": "safety-gap-005",
+      "title": "Solenoid resistance diagnostic location and TCM connector build variant",
+      "missing_inputs": [
+        "Original electrical diagram, physically installed TCM code/hardware and year-specific connector safety before measuring any gearbox harness."
+      ],
+      "reason": "The document and model-year index do not supply measured vehicle condition, genuine part fitment, safe repair conditions or statistical failure forecasts.",
+      "source_ids": [
+        "safety-src-005",
+        "safety-src-006",
+        "safety-src-007",
+        "safety-src-011"
+      ]
+    },
+    {
+      "id": "safety-gap-006",
+      "title": "MY2005/06/09 independent SLT/SLS and S1–S5 resistance versions",
+      "missing_inputs": [
+        "Year independent original WIS electrical limits; MY2007 and 2008 cannot automatically be extended."
+      ],
+      "reason": "The document and model-year index do not supply measured vehicle condition, genuine part fitment, safe repair conditions or statistical failure forecasts.",
+      "source_ids": [
+        "safety-src-005",
+        "safety-src-006",
+        "safety-src-007"
+      ]
+    },
+    {
+      "id": "safety-gap-007",
+      "title": "TCM and full gearbox pairing for donor modules",
+      "missing_inputs": [
+        "Genuine Saab WebEPC and supported 2026 legal SPS/Tech2 availability for VIN/engine-specific TCM programming, not arbitrary used control module swapping."
+      ],
+      "reason": "The document and model-year index do not supply measured vehicle condition, genuine part fitment, safe repair conditions or statistical failure forecasts.",
+      "source_ids": [
+        "safety-src-009",
+        "safety-src-010"
+      ]
+    },
+    {
+      "id": "safety-gap-008",
+      "title": "Misfiled service bulletins index audit",
+      "missing_inputs": [
+        "Independently check 100-2500 / 100-2512 variants and other service items for Cars affected, region and fluid; directory matching is not qualification."
+      ],
+      "reason": "The document and model-year index do not supply measured vehicle condition, genuine part fitment, safe repair conditions or statistical failure forecasts.",
+      "source_ids": [
+        "safety-src-012"
+      ]
+    },
+    {
+      "id": "safety-gap-009",
+      "title": "Non-running project car pressure and gearbox observations",
+      "missing_inputs": [
+        "Real VIN, stamped turbo and gearbox, oil level/quality, leak, engine pressure and scan DTCs; no rebuilt-engine/gearbox avoided merely by reading manual."
+      ],
+      "reason": "The document and model-year index do not supply measured vehicle condition, genuine part fitment, safe repair conditions or statistical failure forecasts.",
+      "source_ids": [
+        "safety-src-001",
+        "safety-src-002",
+        "safety-src-009"
+      ]
+    }
+  ]
+}
