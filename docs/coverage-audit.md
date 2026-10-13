@@ -10,12 +10,12 @@
 | Measure | Current records |
 | --- | ---: |
 | Research domains | 34 |
-| Source records | 521 |
-| Unique source URLs | 458 |
-| Technical facts | 1027 |
+| Source records | 524 |
+| Unique source URLs | 461 |
+| Technical facts | 1032 |
 | Diagnostic/correction issues | 85 |
-| Part records | 79 |
-| Explicit open research gaps | 256 |
+| Part records | 80 |
+| Explicit open research gaps | 258 |
 
 A repeated URL is not independent corroboration. These are stored record counts,
 **not** estimates of system completeness, part fitment confidence, failure rates,
@@ -25,15 +25,15 @@ or the probability that an individual vehicle is repairable.
 
 | Source retrieval | Records |
 | --- | ---: |
-| `full_text` | 491 |
+| `full_text` | 494 |
 | `partial` | 3 |
 | `search_excerpt` | 19 |
 | `metadata_only` | 8 |
 
 | Technical evidence | Facts + issues + parts |
 | --- | ---: |
-| `documented` | 1090 |
-| `supplier_claim` | 92 |
+| `documented` | 1091 |
+| `supplier_claim` | 97 |
 | `inference` | 9 |
 
 ### Explicit application dimensions
@@ -44,13 +44,13 @@ is counted from individual groups, not from a misleading top-level union.
 
 | Scope field explicitly present | Records out of facts + issues + parts |
 | --- | ---: |
-| `platforms` | 1133 / 1191 |
-| `model_years` | 1042 / 1191 |
-| `markets` | 204 / 1191 |
-| `engine_codes` | 341 / 1191 |
-| `transmission_codes` | 167 / 1191 |
-| `body_styles` | 83 / 1191 |
-| `vin_ranges` | 24 / 1191 |
+| `platforms` | 1139 / 1197 |
+| `model_years` | 1043 / 1197 |
+| `markets` | 204 / 1197 |
+| `engine_codes` | 341 / 1197 |
+| `transmission_codes` | 167 / 1197 |
+| `body_styles` | 83 / 1197 |
+| `vin_ranges` | 24 / 1197 |
 
 ### Technical record coverage by original Saab model year
 
@@ -82,7 +82,7 @@ model-year row. Year-path names do not prove a given production revision.
 | 2003 | 20 | 15 | 18 |
 | 2004 | 34 | 17 | 21 |
 | 2005 | 75 | 16 | 21 |
-| 2006 | 113 | 18 | 26 |
+| 2006 | 114 | 18 | 26 |
 | 2007 | 26 | 11 | 22 |
 | 2008 | 28 | 11 | 23 |
 | 2009 | 21 | 11 | 23 |
@@ -93,10 +93,10 @@ model-year row. Year-path names do not prove a given production revision.
 
 | Part-record metric | Count |
 | --- | ---: |
-| Records in research database | 79 |
-| Have at least one recorded part relationship | 21 |
-| Supported as a supplier claim | 51 |
-| Explicitly marked as needing vehicle verification | 48 |
+| Records in research database | 80 |
+| Have at least one recorded part relationship | 22 |
+| Supported as a supplier claim | 52 |
+| Explicitly marked as needing vehicle verification | 49 |
 
 A relationship can be an aftermarket cross-reference, kit contents, or a
 conditional supersession. Its existence does **not** make the replacement
@@ -109,7 +109,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 | `b235_maintenance_fa57_identity` | 13 | 44 | 2 | 0 | 9 |
 | `b235r_oil_pcv_2006_2008` | 17 | 31 | 2 | 7 | 9 |
 | `corrections` | 27 | 9 | 20 | 26 | 7 |
-| `cross_manufacturer_interchange_pilot` | 11 | 14 | 3 | 3 | 6 |
+| `cross_manufacturer_interchange_pilot` | 14 | 19 | 3 | 4 | 8 |
 | `epc_provenance` | 10 | 12 | 0 | 2 | 5 |
 | `high_cost_powertrain_diagnostics` | 17 | 35 | 3 | 2 | 9 |
 | `ng93` | 25 | 70 | 0 | 0 | 8 |
@@ -202,6 +202,8 @@ Every priority subsystem must have an explicit component and connection inventor
 For any proposed substitution, preserve installed OE part ID, VIN/engine/gearbox/market/option restrictions, genuine manufacturer-approved supersession direction **where evidenced**, dimensions/interfaces, safety and loading requirements, firmware/pairing/dependencies and installation tests. Supplier cross-references must remain supplier claims. If original manufacturer support cannot be obtained, mark **not approved / evidence pending**; do not assume bidirectional interchange.
 
 ## What this milestone changes
+
+The consolidated cross-maker pilot now adds Schaeffler's first-party FAG 713644090 9-3 front hub OE-number catalogue. The original Schaeffler Interchangeable matches to SAAB/GM/Opel must not be conflated with its weaker Fiat/Opel reference-only entries; no actual used donor is VIN-approved. Structural inspection and durability-validation gates remain unchanged.
 
 The distinct cross-manufacturer pilot records PFI PHU3191 shared Saab/Opel/Fiat front hub catalogue references and 93188111 9-3 AA/AB front brake-pad cross references, with 3 unapproved supplier-part leads and explicit original-equipment/ABS/geometry/brake-option blockers. It distinguishes Saab-specific Nissens radiators and early PCV kits from true Opel donor replacements; market-specific supplier applicability remains unproven. This work adds research candidates, **not** validated vehicle fitment or better durability.
 
