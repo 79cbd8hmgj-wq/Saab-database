@@ -13,6 +13,7 @@
     "og95",
     "og95_2006_2008",
     "og95_body",
+    "og95_cooling_service_2006_2009",
     "og95_ground_power_0709",
     "og95_pcv_radiator_mount_provenance",
     "og95_structure",
@@ -24,24 +25,24 @@
     "vin_gearbox_provenance"
   ],
   "counts": {
-    "sources": 350,
-    "facts": 717,
-    "issues": 41,
+    "sources": 365,
+    "facts": 747,
+    "issues": 44,
     "parts": 72,
-    "gaps": 156
+    "gaps": 165
   },
-  "unique_source_urls": 323,
+  "unique_source_urls": 333,
   "retrieval_statuses": {
-    "full_text": 335,
+    "full_text": 350,
     "metadata_only": 3,
     "partial": 3,
     "search_excerpt": 9
   },
   "evidence_statuses": {
-    "documented": 747,
+    "documented": 780,
     "inference": 5,
     "supplier_claim": 78
   },
   "research_date": "2026-10-12",
-  "notes": "Added distinct Saab CSP15433/15435 PCV scope, factory 9-5 MY2006 radiator automatic oil-cooler connections, 2008 9-5 LH mount/torque-arm VIN-specific torque boundaries, and supplier radiator references separated by gearbox. No original WebEPC VIN-filtered interchange/modern reliability approval. Saab 9-3 FA57 coolant contamination campaign not generalized to OG9-5."
+  "notes": "MY2007/08 9-5 petrol coolant full capacity 7.4 L and original max three-year interval are year-limited, not partial fill. Separately sourced 2006/07 oil-cooler union VIN 73514907/73514908 differs from LH mount 73514478/73514479; the latter appears even on 2005 WIS directory, which is not a 2005 change date. Petrol automatic coolant-diagram oil cooler is distinct from engine oil cooler; 2009 original glycol protection not 2026 part approval."
 }
