@@ -23,8 +23,8 @@
   "explicit_scope_counts": {
     "platforms": 1133,
     "model_years": 1042,
-    "markets": 223,
-    "engine_codes": 349,
+    "markets": 204,
+    "engine_codes": 341,
     "transmission_codes": 167,
     "body_styles": 83,
     "vin_ranges": 24
