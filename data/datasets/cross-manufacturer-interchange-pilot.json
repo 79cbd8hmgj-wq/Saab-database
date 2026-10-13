@@ -1,0 +1,978 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "cross_manufacturer_interchange_pilot",
+  "sources": [
+    {
+      "id": "xint-src-001",
+      "title": "PFI Automotive Bearings catalogue front wheel hub PHU3191, cross-platform listing",
+      "url": "https://7000765.fs1.hubspotusercontent-na1.net/hubfs/7000765/Knowledge%20Base/PFI/PFI%20Automotive%20Bearings.pdf",
+      "source_type": "manufacturer_datasheet",
+      "publisher": "PFI (manufacturer catalogue, PDF hosted by PFI distributor)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Full manufacturer-origin interchange chart names PHU3191 for Saab 9-3 2003-11, Opel Signum/Vectra C, Fiat Croma and Cadillac BLS, with OE and brand references; a catalogue cross is not an individual VIN fit or original supplier contract."
+    },
+    {
+      "id": "xint-src-002",
+      "title": "Saab MY2006 9-3 9440 front wheel hub replacement",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/front-suspension/adjustment-replacement/wheel-hub-front",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB original WIS (SaabWISOnline mirror)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Three hub bolts, integrated wheel-speed cable, new hub-centre nut and joint-specific torque; Saab procedure, no GM or Opel donor interchange authority."
+    },
+    {
+      "id": "xint-src-003",
+      "title": "Saab MY2004 9-3 front hub/bearing and integrated wheel speed sensor design",
+      "url": "https://saabwisonline.com/9-3-9440/2004/7-suspension-wheels/front-suspension/technical-description/front-assembly",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB original WIS (SaabWISOnline mirror)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory says the hub and bearing are single pre-stressed unit with integrated wheel speed sensor; year path alone does not establish 2005/06 supplier number."
+    },
+    {
+      "id": "xint-src-004",
+      "title": "Saab Parts/Hedin North American replacement brake-pad catalogue",
+      "url": "https://saabparts.com/us/wp-content/uploads/sites/10/2022/02/BrakePadsRetail.pdf",
+      "source_type": "technical_reference",
+      "publisher": "Saab Parts/Hedin Parts manufacturer-support channel",
+      "accessed_at": "2026-10-13",
+      "retrieval": "search_excerpt",
+      "notes": "Search-visible catalogue row identifies Saab 93188111 as front brake pads for 2003-2011 9-3 15-inch brake setup. Full PDF page not individually inspected; restrict retrieval strength."
+    },
+    {
+      "id": "xint-src-005",
+      "title": "eSaabParts Saab 93188111 front pad option and VIN restriction",
+      "url": "https://www.esaabparts.com/saab/parts/93188111",
+      "source_type": "supplier_catalog",
+      "publisher": "eSaabParts",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Retailer 93188111: 9-3 front 285/302 mm brake variants AA/AB and printed chassis suffix up to 81002994; does not include 314 mm AC or 345 mm AD."
+    },
+    {
+      "id": "xint-src-006",
+      "title": "Spareto 93188111 cross-reference brake pad catalogue",
+      "url": "https://spareto.com/oe/93188111",
+      "source_type": "supplier_catalog",
+      "publisher": "Spareto",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Merchant groups 93188111 as Saab and Opel/GM OE-number reference; offers Delphi LP1723, Bosch 0986494044 and ATE 13.0470-7172.2. Aggregator listing not a vehicle-install verification or an OEM design sign-off."
+    },
+    {
+      "id": "xint-src-007",
+      "title": "Saab MY2006 9-3 VIN plate brake caliper and rotor code description",
+      "url": "https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/technical-data/vin-plate-brake-caliper-and-brake-discs",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB original WIS (SaabWISOnline mirror)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Bottom VIN plate row brake codes positions 7-10 identify front/rear discs and calipers. Individual car must be read, not guessed from engine/year."
+    },
+    {
+      "id": "xint-src-008",
+      "title": "eSaabParts 2002-09 original 9-5 Nissens automatic radiator",
+      "url": "https://www.esaabparts.com/saab/parts/32019620",
+      "source_type": "supplier_catalog",
+      "publisher": "eSaabParts",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Saab-specific aftermarket Nissens 32019620 catalogue candidate to 5193388 for MY2002-09 automatic B205/B235; original brand/VIN and cooler fitting must be verified."
+    },
+    {
+      "id": "xint-src-009",
+      "title": "eSaabParts ProParts PCV 21341200 cross-reference to Saab 55561200",
+      "url": "https://www.esaabparts.com/saab/parts/21341200?ss=55561200",
+      "source_type": "supplier_catalog",
+      "publisher": "eSaabParts",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Seller shows 21341200 ProParts as cross-reference to 55561200 but its explicit diagrams cover 1998-2003 9-5 / old 9-3 9400. Never claim it fits 2008 9-5 B235R."
+    },
+    {
+      "id": "xint-src-010",
+      "title": "Saab MY2006 petrol 9-5 four-cylinder radiator service gearbox variant",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/radiator-4-cyl",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB original WIS (SaabWISOnline mirror)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory automatic radiator service requires AT oil-cooler line removal and ATF verification; variant geometry is not generic manual/automatic interchangeable."
+    },
+    {
+      "id": "xint-src-011",
+      "title": "eSaabParts brake 9-3 9440 option matrix separate 15, 16, 16+ pad codes",
+      "url": "https://www.esaabparts.com/viewparts.php?searchpart=1&section=551473252",
+      "source_type": "supplier_catalog",
+      "publisher": "eSaabParts",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Lists 93188111 for AA/AB early 15-inch reference, but separate 302mm later AB and 314mm AC pads; reinforces that retail fitment is not a year-only assertion."
+    }
+  ],
+  "facts": [
+    {
+      "id": "xint-fact-001",
+      "subject": "part-family:ng93-front-wheel-hub",
+      "category": "interchange",
+      "predicate": "catalogued_alternative_platforms",
+      "value": [
+        "Saab 9-3 2003–2011",
+        "Opel Vectra C",
+        "Opel Signum",
+        "Fiat Croma 2005–2011",
+        "Cadillac BLS 2006–2010"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "xint-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "PFI catalogue PHU3191 application row",
+      "notes": "PFI aftermarket chart: shared component *catalogue application*, not proof a used Opel/Fiat hub is genuine Saab-approved donor."
+    },
+    {
+      "id": "xint-fact-002",
+      "subject": "part-family:ng93-front-wheel-hub",
+      "category": "interchange",
+      "predicate": "catalogued_pfi_hub_sku",
+      "value": "PHU3191",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "xint-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "PFI PHU3191 hub row",
+      "notes": "Manufacturer aftermarket cross; FWD B207 MY2005–06 represented only as research target, no actual VIN or part verified."
+    },
+    {
+      "id": "xint-fact-003",
+      "subject": "part-family:ng93-front-wheel-hub",
+      "category": "interchange",
+      "predicate": "catalogued_skf_cross_reference",
+      "value": "VKBA3620",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "xint-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "PFI PHU3191 interchange row",
+      "notes": "PFI asserts SKF SKU interchange; SKF first-party current application/drawing remains to retrieve."
+    },
+    {
+      "id": "xint-fact-004",
+      "subject": "part-family:ng93-front-wheel-hub",
+      "category": "factory_hardware",
+      "predicate": "original_factory_hub_assembly_properties",
+      "value": [
+        "integral hub and bearing",
+        "pre-stressed unit",
+        "integrated wheel speed sensing"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "xint-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Front assembly > wheel bearings",
+      "notes": "MY2004 WIS design description; explicit testing/geometry on MY2005–06 still needed."
+    },
+    {
+      "id": "xint-fact-005",
+      "subject": "part-family:ng93-front-wheel-hub",
+      "category": "factory_hardware",
+      "predicate": "original_factory_installation_dependencies",
+      "value": [
+        "three hub-to-knuckle bolts",
+        "integrated wheel-speed connector orientation",
+        "new hub-centre nut after removal"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "xint-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "To fit > steps 1–2",
+      "notes": "Original MY2006 procedure, not a safety approval for catalogue donor hardware."
+    },
+    {
+      "id": "xint-fact-006",
+      "subject": "part-family:ng93-front-brake-pad",
+      "category": "interchange",
+      "predicate": "saab_service_reference_for_15_inch_front_pads",
+      "value": "93188111",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "xint-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Saab Parts PDF, front disc pads 9-3 2003–11 / 15-inch",
+      "notes": "Original support-channel catalogue indexed excerpt only; actual installed brake level and VIN must be identified."
+    },
+    {
+      "id": "xint-fact-007",
+      "subject": "part-family:ng93-front-brake-pad",
+      "category": "interchange",
+      "predicate": "retailer_variant_restriction",
+      "value": {
+        "front_disc_diameters_mm": [
+          285,
+          302
+        ],
+        "codes": [
+          "AA",
+          "AB"
+        ],
+        "printed_chassis_cutoff": "through 81002994"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "xint-src-005",
+        "xint-src-011"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "eSaabParts front pads description and diagram",
+      "notes": "Chassis suffix is retailer-supplied and not an exact whole VIN; separate 314/345 mm pad families are not this candidate."
+    },
+    {
+      "id": "xint-fact-008",
+      "subject": "part-family:ng93-front-brake-pad",
+      "category": "interchange",
+      "predicate": "catalogued_GM_Opel_cross_reference",
+      "value": "93188111",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "xint-src-006"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Spareto OEM number by brand table",
+      "notes": "Same numbered OE reference appears under Saab and Opel/GM in a third-party cross; no factory interchange letter recovered."
+    },
+    {
+      "id": "xint-fact-009",
+      "subject": "part-family:ng93-front-brake-pad",
+      "category": "interchange",
+      "predicate": "catalogued_delphi_aftermarket_sku",
+      "value": "LP1723",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "xint-src-006"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Spareto alternatives list",
+      "notes": "Seller catalogue cross; no installed-caliper or effectiveness test."
+    },
+    {
+      "id": "xint-fact-010",
+      "subject": "part-family:ng93-front-brake-pad",
+      "category": "interchange",
+      "predicate": "catalogued_bosch_aftermarket_sku",
+      "value": "0 986 494 044",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "xint-src-006"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Spareto alternatives list",
+      "notes": "Seller catalogue cross; no installed-caliper or effectiveness test."
+    },
+    {
+      "id": "xint-fact-011",
+      "subject": "part-family:ng93-front-brake-pad",
+      "category": "factory_hardware",
+      "predicate": "factory_brake_code_locations",
+      "value": {
+        "7": "front rotor",
+        "8": "rear rotor",
+        "9": "front caliper",
+        "10": "rear caliper"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "xint-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "VIN plate codes pos 7–10",
+      "notes": "Factory assigns hardware option positions, which must be matched before choosing front pads."
+    },
+    {
+      "id": "xint-fact-012",
+      "subject": "part-family:og95-automatic-radiator",
+      "category": "interchange",
+      "predicate": "supplier_aftermarket_cross_reference",
+      "value": {
+        "saab_reference": "5193388",
+        "saab_specific_nissens_catalogue_sku": "32019620"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "source_ids": [
+        "xint-src-008"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "eSaabParts automatic radiator",
+      "notes": "This is a non-Saab brand producing a Saab-specific radiator, NOT a proof of compatible Opel or GM donor radiator."
+    },
+    {
+      "id": "xint-fact-013",
+      "subject": "part-family:og95-automatic-radiator",
+      "category": "factory_hardware",
+      "predicate": "factory_transmission_oil_cooler_interface_present",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "source_ids": [
+        "xint-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Radiator 4-cyl > To remove/to fit automatic",
+      "notes": "WIS MY2006 gearbox-specific interface; automatic/manual interchange and MY2008 fittings not verified."
+    },
+    {
+      "id": "xint-fact-014",
+      "subject": "part-family:og95-old-pcv",
+      "category": "interchange",
+      "predicate": "retailer_older_model_pcv_kit_application",
+      "value": {
+        "aftermarket_sku": "21341200",
+        "claimed_oe_reference": "55561200",
+        "listed_9_5_years": "1998–2003"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ]
+      },
+      "source_ids": [
+        "xint-src-009"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "eSaabParts kit diagrams and alternate reference",
+      "notes": "DO NOT apply this 1998–2003 Saab 9-5 PCV kit to target 2008 B235R solely because both engines are named B235; existing repo tracks separate revisions."
+    }
+  ],
+  "issues": [
+    {
+      "id": "xint-issue-001",
+      "title": "9-3 front hub shared SKU must not be treated as an approved used Opel/Fiat donor",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "cause": "Aftermarket PFI interchange combines multiple marques under a product family.",
+      "symptoms": [
+        "Catalogue associates Saab 9-3 with Vectra/Signum and Croma",
+        "Unknown donor wheel-sensor signal, spline geometry and installed Saab part"
+      ],
+      "diagnosis_summary": "Read Saab VIN and original hub; obtain OEM approved configuration, dimensioned comparison, ABS signal/connections and installation requirements.",
+      "correction_summary": "Mark as catalogue candidate only; no ordering or salvage substitution approval.",
+      "source_ids": [
+        "xint-src-001",
+        "xint-src-002",
+        "xint-src-003"
+      ],
+      "evidence_status": "inference",
+      "limits": [
+        "Donor OE units may vary even if a supplier bundles them under a universal aftermarket part.",
+        "Wheel-bearing and ABS faults are safety critical."
+      ]
+    },
+    {
+      "id": "xint-issue-002",
+      "title": "9-3 pad catalogue cross risks misfit between factory brake levels",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "cause": "Saab original 9-3 option codes select different front caliper/disc families; 93188111 catalogue row is 15-inch/AA AB.",
+      "symptoms": [
+        "Retailer shows multiple pad families for one model year",
+        "Unknown brake disc and caliper code on actual car"
+      ],
+      "diagnosis_summary": "Identify plate codes 7 and 9, measure disc/caliper, confirm certified pad part/kit components with current manufacturer catalogue.",
+      "correction_summary": "Only select the exact proven brake level; never assume an Opel pad fits every 9-3.",
+      "source_ids": [
+        "xint-src-004",
+        "xint-src-005",
+        "xint-src-006",
+        "xint-src-007",
+        "xint-src-011"
+      ],
+      "evidence_status": "inference",
+      "limits": [
+        "Brakes are safety critical; no performance or fitment verification performed.",
+        "Even same OE number in a merchant cross does not guarantee option-level vehicle fit."
+      ]
+    },
+    {
+      "id": "xint-issue-003",
+      "title": "Older B235 PCV aftermarket listing cannot be applied to 2008 9-5",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "cause": "Retailer listing for ProParts 21341200 / Saab 55561200 covers old 1998–2003 9-5 and earlier OG 9-3 in selected diagrams.",
+      "symptoms": [
+        "Both early and later vehicles carry B235-family name",
+        "PCV line routing and engine serial revisions may differ"
+      ],
+      "diagnosis_summary": "Match exact engine year/serial, hoses, check valves and manufacturer campaigns against current original and later 9-5 EPC diagrams.",
+      "correction_summary": "Do not order earlier kit for 2008 wagon without actual compatible OE application.",
+      "source_ids": [
+        "xint-src-009"
+      ],
+      "evidence_status": "supplier_claim",
+      "limits": [
+        "Specific old kit remains a legitimate catalogue lead for older cars.",
+        "This source does not support MY2008 B235R fitment."
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "xint-part-001",
+      "part_number": "PHU3191",
+      "title": "PFI cross-platform front hub assembly; 9-3/Opel/Fiat catalogue family",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "aftermarket_reference",
+          "part_number": "12799815",
+          "conditions": "PFI catalogue cross only; no factory Saab supersession established."
+        }
+      ],
+      "requirements": [
+        "Actual MY2005–06 9-3 FWD B207 VIN and installed hub stamp",
+        "Authoritative hub bore/flange/spline dimensions, bolt circle and sensor specifications for donor and Saab",
+        "PFI latest catalogue application notes and SKF/GM OE number direction",
+        "Hub-centre single-use nut, fastener quality, safe assembly and ABS functional checks"
+      ],
+      "source_ids": [
+        "xint-src-001",
+        "xint-src-002"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "PFI catalogue is a promising multi-brand SKU shared application, not a certification that a junkyard Opel hub will physically or electronically work.",
+      "interchange_candidate": {
+        "strategy": "shared_platform_aftermarket_sku",
+        "donor_makes": [
+          "Opel",
+          "Fiat",
+          "Cadillac"
+        ],
+        "saab_reference_numbers": [
+          "12799815",
+          "93175327",
+          "93186387"
+        ],
+        "fitment_approved": false,
+        "vehicle_verified": false,
+        "durability_validated": false,
+        "verification_required": [
+          "Actual MY2005–06 9-3 FWD B207 VIN and installed hub stamp",
+          "Authoritative hub bore/flange/spline dimensions, bolt circle and sensor specifications for donor and Saab",
+          "PFI latest catalogue application notes and SKF/GM OE number direction",
+          "Hub-centre single-use nut, fastener quality, safe assembly and ABS functional checks"
+        ]
+      }
+    },
+    {
+      "id": "xint-part-002",
+      "part_number": "VKBA3620",
+      "title": "SKF cross-reference candidate for Opel/Fiat/Saab NG9-3 front hub",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "aftermarket_reference",
+          "part_number": "93186387",
+          "conditions": "PFI indexed interchange only, not Saab EPC confirmation."
+        }
+      ],
+      "requirements": [
+        "Current first-party SKF part listing and kit contents",
+        "Wheel-speed sensor electrical and ABS coding confirmation",
+        "Installed vehicle VIN, axle, part and geometry matching"
+      ],
+      "source_ids": [
+        "xint-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "PFI interchange mentions SKF VKBA3620; SKF itself has not yet been asked to certify applicability.",
+      "interchange_candidate": {
+        "strategy": "cross_catalogue_aftermarket_reference",
+        "donor_makes": [
+          "Opel",
+          "Fiat"
+        ],
+        "saab_reference_numbers": [
+          "93186387"
+        ],
+        "fitment_approved": false,
+        "vehicle_verified": false,
+        "durability_validated": false,
+        "verification_required": [
+          "Current first-party SKF part listing and kit contents",
+          "Wheel-speed sensor electrical and ABS coding confirmation",
+          "Installed vehicle VIN, axle, part and geometry matching"
+        ]
+      }
+    },
+    {
+      "id": "xint-part-003",
+      "part_number": "LP1723",
+      "title": "Delphi front brake pad set in Saab/Opel 93188111 cross-list",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "aftermarket_reference",
+          "part_number": "93188111",
+          "conditions": "Seller cross for 15-inch/AA-AB front brake only, not entire 9-3 model range."
+        }
+      ],
+      "requirements": [
+        "Actual factory front disc and caliper code on VIN plate (positions 7, 9)",
+        "Confirm front 285/302mm AA/AB hardware, pad outline/thickness, retaining clips and wear sensor",
+        "Obtain current Delphi first-party application and friction/approval data",
+        "Professional brake inspection and replacement according to correct factory procedure"
+      ],
+      "source_ids": [
+        "xint-src-004",
+        "xint-src-005",
+        "xint-src-006",
+        "xint-src-007"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "This is a catalogue lead only and excludes unverified 314/345mm front brake variants. An identical OE number in merchant listings does not prove all donor pads interchange.",
+      "interchange_candidate": {
+        "strategy": "shared_oe_reference_aftermarket_sku",
+        "donor_makes": [
+          "Opel",
+          "Vauxhall"
+        ],
+        "saab_reference_numbers": [
+          "93188111"
+        ],
+        "fitment_approved": false,
+        "vehicle_verified": false,
+        "durability_validated": false,
+        "verification_required": [
+          "Actual factory front disc and caliper code on VIN plate (positions 7, 9)",
+          "Confirm front 285/302mm AA/AB hardware, pad outline/thickness, retaining clips and wear sensor",
+          "Obtain current Delphi first-party application and friction/approval data",
+          "Professional brake inspection and replacement according to correct factory procedure"
+        ]
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "id": "xint-gap-001",
+      "title": "Saab-vs-Opel/Fiat front hub original identity and sensor interface",
+      "missing_inputs": [
+        "Actual NG9-3 2005–06 VIN/hub OE number",
+        "Original Opel Vectra C/Signum and Fiat Croma OEM hub OE numbers and year/axle/engine",
+        "Physical spline, hub mount bolt pattern, sensor signalling/connector/encoding",
+        "Saab WebEPC and donor OEM parts application plus current PFI/SKF datasheets"
+      ],
+      "reason": "PFI cross-marque aftermarket application does not establish used-donor OEM mechanical/electrical interchange.",
+      "source_ids": [
+        "xint-src-001",
+        "xint-src-002",
+        "xint-src-003"
+      ]
+    },
+    {
+      "id": "xint-gap-002",
+      "title": "NG9-3 brake level and cross-platform front pad exact specification",
+      "missing_inputs": [
+        "Actual Saab brake VIN codes for positions 7/9",
+        "Delphi LP1723 first-party brake-pad drawing and SAE/ECE performance approvals",
+        "Opel/Vauxhall actual factory OE number and brake hardware",
+        "Current Saab WebEPC matching 93188111"
+      ],
+      "reason": "Shared seller reference is an unverified safety-critical brake pad fitment claim.",
+      "source_ids": [
+        "xint-src-004",
+        "xint-src-005",
+        "xint-src-006",
+        "xint-src-007",
+        "xint-src-011"
+      ]
+    },
+    {
+      "id": "xint-gap-003",
+      "title": "9-5 B235 MY2006–09 cross-manufacturer donor inventory",
+      "missing_inputs": [
+        "Original Saab WebEPC radiator/thermostat/PCV/alternator identifiers",
+        "GM/Opel/Bosch supplier issued cross numbers by installed-year and hardware",
+        "Mechanical, temperature, electrical and pressure comparisons",
+        "Actual candidate VIN/engine/gearbox"
+      ],
+      "reason": "No primary document found authorizing Opel radiator or B235 PCV swap on 2008 Saab 9-5; Nissens is Saab-specific candidate only.",
+      "source_ids": [
+        "xint-src-008",
+        "xint-src-009",
+        "xint-src-010"
+      ]
+    },
+    {
+      "id": "xint-gap-004",
+      "title": "Current replacement prices and physical stock by market",
+      "missing_inputs": [
+        "Dated US vendor quotes for the candidate SKU and Saab OE",
+        "shipping and parts return terms",
+        "stock verification",
+        "comparable pricing including tools/adaptation"
+      ],
+      "reason": "Research catalogues are not guaranteed US stock, enduring price, or installed total cost.",
+      "source_ids": [
+        "xint-src-001",
+        "xint-src-006",
+        "xint-src-008"
+      ]
+    },
+    {
+      "id": "xint-gap-005",
+      "title": "Reliability gain and lifespan of non-Saab components",
+      "missing_inputs": [
+        "Actual failure-rate data by same installation cohort",
+        "environmental/vibration/thermal load tests",
+        "material standards and rated component life",
+        "repeated before/after operation and maintenance evidence"
+      ],
+      "reason": "Cross-fit and availability do not demonstrate longer service life or Toyota-class dependability.",
+      "source_ids": [
+        "xint-src-001",
+        "xint-src-004",
+        "xint-src-008"
+      ]
+    },
+    {
+      "id": "xint-gap-006",
+      "title": "Cross-manufacturer engineering conversions need separate validation",
+      "missing_inputs": [
+        "Donor OEM design drawing",
+        "Saab component functional constraints and safety margins",
+        "controlled prototype/bench measurements",
+        "legal/emissions certification",
+        "software/security pairing when electronically controlled"
+      ],
+      "reason": "This tranche has no approved bracket/harness/ECU/transmission conversion and does not advance simulation or a parts-order engine.",
+      "source_ids": [
+        "xint-src-002",
+        "xint-src-007",
+        "xint-src-010"
+      ]
+    }
+  ]
+}
