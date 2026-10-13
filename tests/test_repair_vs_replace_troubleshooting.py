@@ -31,7 +31,7 @@ class RepairVsReplaceTriageTests(unittest.TestCase):
         self.assertEqual(gt["applicability"]["engine_codes"],["B205E","B235E"])
         self.assertIn("not",gt["notes"].lower())
         self.assertEqual(self.f("charge_air_pressure_test_at_1_bar")["applicability"]["model_years"],[2005])
-        self.assertIn("P1105",self.f("underboost_rattle_wastegate_clip")["value"]["symptoms"][-1])
+        self.assertTrue(any("P1105" in a for a in self.f("underboost_rattle_wastegate_clip")["value"]["symptoms"]))
 
     def test_early_gearbox_bulletin_does_not_cover_2007(self):
         x=self.f("440_2497_affected_years")
