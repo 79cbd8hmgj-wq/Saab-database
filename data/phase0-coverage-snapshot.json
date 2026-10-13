@@ -2,27 +2,27 @@
   "schema_version": "1.0.0",
   "meaning": "Record coverage and evidence provenance, NOT completeness, fitment, or reliability",
   "counts": {
-    "sources": 510,
-    "facts": 1013,
+    "sources": 514,
+    "facts": 1020,
     "issues": 82,
-    "parts": 76,
-    "gaps": 250
+    "parts": 77,
+    "gaps": 255
   },
-  "unique_source_urls": 451,
+  "unique_source_urls": 455,
   "retrieval_statuses": {
-    "full_text": 481,
+    "full_text": 485,
     "metadata_only": 8,
     "partial": 3,
     "search_excerpt": 18
   },
   "evidence_statuses": {
-    "documented": 1086,
+    "documented": 1088,
     "inference": 7,
-    "supplier_claim": 78
+    "supplier_claim": 84
   },
   "explicit_scope_counts": {
-    "platforms": 1113,
-    "model_years": 1022,
+    "platforms": 1121,
+    "model_years": 1024,
     "markets": 204,
     "engine_codes": 338,
     "transmission_codes": 164,
@@ -109,7 +109,7 @@
         "parts": 18
       },
       "2006": {
-        "facts": 102,
+        "facts": 104,
         "issues": 16,
         "parts": 23
       },
@@ -161,6 +161,13 @@
       "issues": 20,
       "parts": 26,
       "gaps": 7
+    },
+    "cross_manufacturer_front_hub_pilot": {
+      "sources": 4,
+      "facts": 7,
+      "issues": 0,
+      "parts": 1,
+      "gaps": 5
     },
     "epc_provenance": {
       "sources": 10,
@@ -374,9 +381,9 @@
     }
   },
   "parts_provenance": {
-    "total": 76,
-    "with_relationships": 18,
-    "supplier_claim": 48,
-    "needs_vehicle_verification": 45
+    "total": 77,
+    "with_relationships": 19,
+    "supplier_claim": 49,
+    "needs_vehicle_verification": 46
   }
 }
