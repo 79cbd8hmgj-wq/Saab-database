@@ -105,3 +105,22 @@ The validator checks structure, identifiers, references, dates, units, and
 applicability representation. Passing validation does not prove the underlying
 engineering claim. Source review, vehicle identification, and appropriate testing
 remain separate checks.
+
+## Cross-manufacturer interchange candidates (research-only)
+
+The separate `data/interchange-candidates/phase0.json` matrix preserves manufacturer,
+exact aftermarket SKU, *candidate* donor brands and the difference between
+manufacturer-labelled `Interchangeable` and weaker `Reference corresponds to a
+component` catalogue relationships. It also distinguishes the **research scope**
+(e.g., priority MY2005–06 B207 Saab 9-3) from **verified fitment**. Neither a
+common aftermarket SKU nor a shared platform name proves that actual original
+Opel/GM/Fiat donor assemblies are identical, VIN-approved, or durable on Saab.
+
+Each candidate must explicitly record the physical and electrical unknowns,
+OEM/factory application verification, installation dependencies, and **separate**
+flags for verified drop-in, original donor, physical vehicle test, availability,
+price benefit and reliability improvement. False flags are meaningful: do not
+mark an option approved from a supplier cross-reference alone. Source IDs must
+resolve to stored provenance; tests reject accidental status promotion of early
+catalogue candidates. Any claim of validated fitment or durability requires
+stronger supporting test and application evidence beyond structure validation.
