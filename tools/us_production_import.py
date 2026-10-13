@@ -118,7 +118,7 @@ def read_table(html: str, spec: tuple) -> dict:
         year = item["year"]
         if not 1998 <= year <= 2011:
             raise ValueError(f"{filename}: year out of candidate scope: {year}")
-        normalized_body = "wagon" if platform == "9600" and raw_body == "5D" else BODY[raw_body]
+        normalized_body = "wagon" if platform in ("9440", "9600") and raw_body == "5D" else BODY[raw_body]
         key = (year, item["trim"], raw_body, drive, trans, item["engine"])
         if key not in grouped:
             canonical = "|".join(map(str, (platform, *key)))
