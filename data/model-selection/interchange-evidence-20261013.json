@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0.0",
+  "assessment_date": "2026-10-13",
+  "meaning": "Evidence inventory only; not an empirical failure rate, weighted model score or buy recommendation.",
+  "decision": "insufficient_evidence_to_rank",
+  "profiles": [
+    {
+      "key": "ng93-b207-2005-06",
+      "platform": "9-3-9440",
+      "engine": "B207",
+      "market": "US/CA",
+      "identified_replacement_families": [
+        {
+          "component": "front hub",
+          "evidence": "shared aftermarket product",
+          "source_ids": [
+            "cross-src-001",
+            "xint-src-001"
+          ]
+        },
+        {
+          "component": "water pump",
+          "evidence": "same service part number in official GM and Saab sales channels",
+          "source_ids": [
+            "gmwp-src-001",
+            "gmwp-src-002"
+          ]
+        },
+        {
+          "component": "alternator",
+          "evidence": "multi-brand aftermarket catalogue",
+          "source_ids": [
+            "sel-src-001",
+            "sel-src-002"
+          ]
+        },
+        {
+          "component": "starter",
+          "evidence": "multi-brand aftermarket catalogue",
+          "source_ids": [
+            "sel-src-003",
+            "sel-src-004"
+          ]
+        }
+      ],
+      "unresolved": [
+        "T8 ECU and security pairing",
+        "transmission and engine condition",
+        "corrosion, suspension and brakes",
+        "US price/stock and warranty",
+        "real supplier durability",
+        "VIN fitment"
+      ]
+    },
+    {
+      "key": "og95-b235-2006-09",
+      "platform": "9-5-9600",
+      "engine": "B235",
+      "market": "US/CA",
+      "identified_replacement_families": [
+        {
+          "component": "alternator",
+          "evidence": "Saab-specific aftermarket supplier",
+          "source_ids": [
+            "sel-src-005",
+            "sel-src-006"
+          ]
+        },
+        {
+          "component": "automatic radiator",
+          "evidence": "Saab-specific aftermarket supplier",
+          "source_ids": [
+            "xint-src-008"
+          ]
+        },
+        {
+          "component": "PCV",
+          "evidence": "factory correction and limited aftermarket references",
+          "source_ids": [
+            "gate5-src-006"
+          ]
+        }
+      ],
+      "unresolved": [
+        "Trionic 7 ignition and modules",
+        "FA57 transmission condition",
+        "body and rear subframe structural rust",
+        "US price/stock and warranty",
+        "broader matching donor research",
+        "VIN fitment"
+      ]
+    }
+  ],
+  "assessment": "9-3 B207 has more identified multi-brand sourcing leads in this limited set, not proven higher reliability or lower ownership cost.",
+  "biases": [
+    "unequal research depth",
+    "no comparative annual failure rates",
+    "no VIN inspection",
+    "no landed US parts quotes",
+    "expensive rust or drivetrain faults can dominate any small-parts benefits"
+  ]
+}
