@@ -134,13 +134,6 @@
         "model_years": [
           2005,
           2006
-        ],
-        "engine_codes": [
-          "B207"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -165,13 +158,6 @@
         "model_years": [
           2005,
           2006
-        ],
-        "engine_codes": [
-          "B207"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -196,13 +182,6 @@
         "model_years": [
           2005,
           2006
-        ],
-        "engine_codes": [
-          "B207"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -231,13 +210,6 @@
         "model_years": [
           2005,
           2006
-        ],
-        "engine_codes": [
-          "B207"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -266,13 +238,6 @@
         "model_years": [
           2005,
           2006
-        ],
-        "engine_codes": [
-          "B207"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -297,10 +262,6 @@
         "model_years": [
           2005,
           2006
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -335,10 +296,6 @@
         "model_years": [
           2005,
           2006
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -364,10 +321,6 @@
         "model_years": [
           2005,
           2006
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -392,10 +345,6 @@
         "model_years": [
           2005,
           2006
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -420,10 +369,6 @@
         "model_years": [
           2005,
           2006
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -453,10 +398,6 @@
         "model_years": [
           2005,
           2006
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -491,10 +432,6 @@
           "B235E",
           "B235R"
         ],
-        "markets": [
-          "US",
-          "CA"
-        ],
         "transmission_codes": [
           "automatic"
         ]
@@ -527,10 +464,6 @@
         "engine_codes": [
           "B235E",
           "B235R"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ],
         "transmission_codes": [
           "automatic"
@@ -588,13 +521,6 @@
         "model_years": [
           2005,
           2006
-        ],
-        "engine_codes": [
-          "B207"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "cause": "Aftermarket PFI interchange combines multiple marques under a product family.",
@@ -625,10 +551,6 @@
         "model_years": [
           2005,
           2006
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "cause": "Saab original 9-3 option codes select different front caliper/disc families; 93188111 catalogue row is 15-inch/AA AB.",
@@ -668,10 +590,6 @@
           "B235E",
           "B235R"
         ],
-        "markets": [
-          "US",
-          "CA"
-        ],
         "transmission_codes": [
           "automatic"
         ]
@@ -705,13 +623,6 @@
         "model_years": [
           2005,
           2006
-        ],
-        "engine_codes": [
-          "B207"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "relationships": [
@@ -768,13 +679,6 @@
         "model_years": [
           2005,
           2006
-        ],
-        "engine_codes": [
-          "B207"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "relationships": [
@@ -825,10 +729,6 @@
         "model_years": [
           2005,
           2006
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "relationships": [
