@@ -48,16 +48,16 @@ class USGearboxEvidenceTests(unittest.TestCase):
             ("9600", 5, "FA57"): 42,
             ("9440", 5, "FA57"): 28,
             ("9440", 6, "AF40 / TF-80SC"): 6,
-            ("650", 6, None): 1,
+            ("650", 6, "AF40"): 1,
         }))
         states = Counter(x["evidence_state"] for x in self.committed["annotations"])
-        self.assertEqual(states["factory_family_platform_supported"], 98)
+        self.assertEqual(states["factory_family_platform_supported"], 99)
         self.assertEqual(states["alternative_families_not_vehicle_resolved"], 11)
-        self.assertEqual(states["factory_family_unresolved"], 1)
+        self.assertEqual(states["factory_family_unresolved"], 0)
 
     def test_source_ids_and_diagnostic_claims_are_scoped(self):
         ids = {s["id"] for s in self.committed["research_sources"]}
-        self.assertEqual(len(ids), 8)
+        self.assertEqual(len(ids), 10)
         for item in self.committed["annotations"]:
             self.assertTrue(set(item["source_ids"]) <= ids)
             self.assertEqual(bool(item["source_ids"]),
@@ -65,7 +65,7 @@ class USGearboxEvidenceTests(unittest.TestCase):
         for caution in self.committed["diagnostic_cautions"]:
             self.assertTrue(caution["source_ids"])
             self.assertTrue(set(caution["source_ids"]) <= ids)
-        self.assertEqual(len(self.committed["diagnostic_cautions"]), 4)
+        self.assertEqual(len(self.committed["diagnostic_cautions"]), 5)
 
     def test_false_interchange_inference_rejected(self):
         items = self.committed["annotations"]
@@ -81,8 +81,10 @@ class USGearboxEvidenceTests(unittest.TestCase):
         ng = [x for x in self.committed["annotations"]
               if x["platform"] == "650"]
         self.assertEqual(len(ng), 1)
-        self.assertIsNone(ng[0]["gearbox_family"])
-        self.assertEqual(ng[0]["source_ids"], [])
+        self.assertEqual(ng[0]["gearbox_family"], "AF40")
+        self.assertEqual(ng[0]["source_ids"], ["wis-9650-2011-af40-id"])
+        self.assertFalse(ng[0]["vehicle_vin_verified"])
+        self.assertFalse(ng[0]["oem_interchange_approved"])
         original = {x["id"]: x for x in self.production["configurations"]}
         rare = {x["production_configuration_id"] for x in self.committed["annotations"]
                 if original[x["production_configuration_id"]]["low_volume_manual_review"]}
