@@ -1,6 +1,6 @@
-# Phase 0 research coverage audit — 30-domain refresh
+# Phase 0 research coverage audit — 31-domain refresh
 
-**Audit basis:** October 13, 2026, 30 datasets including Gate A/C vehicle identity, Gate A corrosion, Gate A/B brakes/line safety and work package 4 non-running purchase screening. Earlier audit baselines remain in merged PR history. Earlier 26/27-domain baselines are preserved in merged pull requests. The earlier 26-domain baseline remains preserved in PR #20. This is a census of saved records, **not** an independent rereading of every original Saab source, an estimate of percent complete, or an engineering safety certification. The previous 7-domain baseline is historical and is superseded by this current audit.
+**Audit basis:** October 13, 2026, 31 datasets including the original Saab USA MY2004–07 VIN and official manufacturer-channel service-kit provenance package. Prior audit baselines are preserved in merged PR history. Earlier audit baselines remain in merged PR history. Earlier 26/27-domain baselines are preserved in merged pull requests. The earlier 26-domain baseline remains preserved in PR #20. This is a census of saved records, **not** an independent rereading of every original Saab source, an estimate of percent complete, or an engineering safety certification. The previous 7-domain baseline is historical and is superseded by this current audit.
 
 **Living guardrail:** `tools/phase0_audit.py` recalculates all numeric tables from `data/datasets/*.json`. Its checked-in companion `data/phase0-coverage-snapshot.json` is verified by unit tests and `python3 tools/phase0_audit.py --check`. A new research PR must refresh these numbers when datasets change; otherwise CI should fail.
 
@@ -9,13 +9,13 @@
 
 | Measure | Current records |
 | --- | ---: |
-| Research domains | 30 |
-| Source records | 482 |
-| Unique source URLs | 428 |
-| Technical facts | 957 |
-| Diagnostic/correction issues | 70 |
-| Part records | 74 |
-| Explicit open research gaps | 231 |
+| Research domains | 31 |
+| Source records | 489 |
+| Unique source URLs | 431 |
+| Technical facts | 972 |
+| Diagnostic/correction issues | 73 |
+| Part records | 76 |
+| Explicit open research gaps | 237 |
 
 A repeated URL is not independent corroboration. These are stored record counts,
 **not** estimates of system completeness, part fitment confidence, failure rates,
@@ -25,14 +25,14 @@ or the probability that an individual vehicle is repairable.
 
 | Source retrieval | Records |
 | --- | ---: |
-| `full_text` | 454 |
+| `full_text` | 461 |
 | `partial` | 3 |
 | `search_excerpt` | 17 |
 | `metadata_only` | 8 |
 
 | Technical evidence | Facts + issues + parts |
 | --- | ---: |
-| `documented` | 1018 |
+| `documented` | 1038 |
 | `supplier_claim` | 78 |
 | `inference` | 5 |
 
@@ -44,13 +44,13 @@ is counted from individual groups, not from a misleading top-level union.
 
 | Scope field explicitly present | Records out of facts + issues + parts |
 | --- | ---: |
-| `platforms` | 1052 / 1101 |
-| `model_years` | 961 / 1101 |
-| `markets` | 154 / 1101 |
-| `engine_codes` | 330 / 1101 |
-| `transmission_codes` | 161 / 1101 |
-| `body_styles` | 80 / 1101 |
-| `vin_ranges` | 24 / 1101 |
+| `platforms` | 1070 / 1121 |
+| `model_years` | 979 / 1121 |
+| `markets` | 172 / 1121 |
+| `engine_codes` | 333 / 1121 |
+| `transmission_codes` | 161 / 1121 |
+| `body_styles` | 80 / 1121 |
+| `vin_ranges` | 24 / 1121 |
 
 ### Technical record coverage by original Saab model year
 
@@ -63,40 +63,40 @@ model-year row. Year-path names do not prove a given production revision.
 | Model year | Facts | Issues | Parts |
 | ---: | ---: | ---: | ---: |
 | 1998 | 15 | 3 | 8 |
-| 1999 | 15 | 3 | 11 |
-| 2000 | 19 | 3 | 14 |
-| 2001 | 14 | 3 | 14 |
-| 2002 | 24 | 4 | 19 |
-| 2003 | 27 | 3 | 17 |
-| 2004 | 55 | 6 | 20 |
-| 2005 | 152 | 9 | 21 |
-| 2006 | 141 | 12 | 20 |
-| 2007 | 122 | 15 | 19 |
-| 2008 | 143 | 17 | 19 |
-| 2009 | 117 | 13 | 19 |
+| 1999 | 17 | 3 | 11 |
+| 2000 | 21 | 3 | 14 |
+| 2001 | 16 | 3 | 14 |
+| 2002 | 26 | 4 | 19 |
+| 2003 | 28 | 3 | 17 |
+| 2004 | 58 | 6 | 20 |
+| 2005 | 156 | 10 | 21 |
+| 2006 | 144 | 13 | 20 |
+| 2007 | 125 | 15 | 19 |
+| 2008 | 147 | 18 | 19 |
+| 2009 | 119 | 13 | 19 |
 
 #### Second-generation 9-3, platform 9440
 
 | Model year | Facts | Issues | Parts |
 | ---: | ---: | ---: | ---: |
-| 2003 | 18 | 14 | 16 |
-| 2004 | 28 | 15 | 19 |
-| 2005 | 58 | 11 | 16 |
-| 2006 | 90 | 12 | 21 |
-| 2007 | 15 | 8 | 20 |
-| 2008 | 18 | 8 | 21 |
-| 2009 | 11 | 8 | 21 |
-| 2010 | 11 | 9 | 21 |
-| 2011 | 15 | 9 | 20 |
+| 2003 | 20 | 15 | 18 |
+| 2004 | 32 | 16 | 21 |
+| 2005 | 62 | 13 | 18 |
+| 2006 | 94 | 14 | 23 |
+| 2007 | 19 | 9 | 22 |
+| 2008 | 21 | 9 | 23 |
+| 2009 | 14 | 9 | 23 |
+| 2010 | 13 | 10 | 23 |
+| 2011 | 17 | 10 | 22 |
 
 ### Parts evidence does not equal approved interchange
 
 | Part-record metric | Count |
 | --- | ---: |
-| Records in research database | 74 |
-| Have at least one recorded part relationship | 16 |
+| Records in research database | 76 |
+| Have at least one recorded part relationship | 18 |
 | Supported as a supplier claim | 48 |
-| Explicitly marked as needing vehicle verification | 43 |
+| Explicitly marked as needing vehicle verification | 45 |
 
 A relationship can be an aftermarket cross-reference, kit contents, or a
 conditional supersession. Its existence does **not** make the replacement
@@ -115,6 +115,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 | `ng93_body` | 8 | 25 | 0 | 0 | 6 |
 | `ng93_early_mount_fuel` | 15 | 20 | 0 | 5 | 7 |
 | `ng93_structure` | 21 | 30 | 0 | 1 | 8 |
+| `official_us_vin_and_service_kit_provenance` | 7 | 15 | 3 | 2 | 6 |
 | `og95` | 30 | 90 | 0 | 0 | 7 |
 | `og95_2006_2008` | 7 | 25 | 0 | 0 | 6 |
 | `og95_atf_thermal_turbo_bulletin` | 14 | 28 | 3 | 2 | 9 |
@@ -199,7 +200,7 @@ For any proposed substitution, preserve installed OE part ID, VIN/engine/gearbox
 
 ## What this milestone changes
 
-Work package 4 adds a blank non-running pre-purchase evidence intake and records the explicit US/Canada exclusion of Saab's historic catalyst diagnostic bulletin; the latter cannot authorize US-market procedures. No real car has been assessed. Work package 3 now maps 9-3 four brake hardware levels and identifies a dangerous 9-5 front-caliper torque discrepancy plus unresolved rotor-dimension conflict. Those conflicts block part/torque approval until authoritative verification. Work package 2 now adds source-linked 9-5 wagon underbody structure, NG9-3 CV sill/brace dependencies and NY DMV minimum safety checks; individual vehicle structural health and 2008 revision proof are still blocked. Work package 1 has now added scoped 9-5 and 9-3 physical identity worksheets, but the missing 2005–09/2006 VIN decoding and VIN-filtered WebEPC records remain explicit blockers. We should **stop** making consecutive micro-PRs solely to increase fact count. Each future research batch should reference a named Phase 0 gate and inspection- or interchange-blocking missing evidence, supply a real source outcome, and update the systematic audit. No release-quality parts recommendation, purchase score, or simulation claim follows from the current inventory.
+Work package 5 recovers dated USA 2004–07 9-5/9-3 VIN reference bulletins and a genuine conditionally serviced 9-3 ISM kit with mandatory original mechanism reuse. The original 2008–09 US VIN year pages and licensed VIN-specific EPC approval remain open. Work package 4 adds a blank non-running pre-purchase evidence intake and records the explicit US/Canada exclusion of Saab's historic catalyst diagnostic bulletin; the latter cannot authorize US-market procedures. No real car has been assessed. Work package 3 now maps 9-3 four brake hardware levels and identifies a dangerous 9-5 front-caliper torque discrepancy plus unresolved rotor-dimension conflict. Those conflicts block part/torque approval until authoritative verification. Work package 2 now adds source-linked 9-5 wagon underbody structure, NG9-3 CV sill/brace dependencies and NY DMV minimum safety checks; individual vehicle structural health and 2008 revision proof are still blocked. Work package 1 has now added scoped 9-5 and 9-3 physical identity worksheets, but the missing 2005–09/2006 VIN decoding and VIN-filtered WebEPC records remain explicit blockers. We should **stop** making consecutive micro-PRs solely to increase fact count. Each future research batch should reference a named Phase 0 gate and inspection- or interchange-blocking missing evidence, supply a real source outcome, and update the systematic audit. No release-quality parts recommendation, purchase score, or simulation claim follows from the current inventory.
 
 The next work queue is in [the prioritized gap-closure plan](gap-closure-plan.md). Structural safety, vehicle identity and current OEM part applicability precede optional deeper boost/TCM numeric research.
 
