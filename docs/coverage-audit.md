@@ -1,6 +1,6 @@
-# Phase 0 research coverage audit — 39-domain refresh
+# Phase 0 research coverage audit — 40-domain refresh
 
-**Audit basis:** October 13, 2026, 39 research datasets. This release adds original Saab Automobile USA MY2004–07 VIN documents and manufacturer-channel conditional service-kit provenance; earlier Phase 0 audit baselines remain in merged pull-request history. This is a census of saved records, **not** an independent recertification of every original Saab source, an estimate of percent complete, or an engineering safety certification. The earlier seven-domain baseline is superseded.
+**Audit basis:** October 13, 2026, 40 research datasets. This release adds original Saab Automobile USA MY2004–07 VIN documents and manufacturer-channel conditional service-kit provenance; earlier Phase 0 audit baselines remain in merged pull-request history. This is a census of saved records, **not** an independent recertification of every original Saab source, an estimate of percent complete, or an engineering safety certification. The earlier seven-domain baseline is superseded.
 
 **Living guardrail:** `tools/phase0_audit.py` recalculates all numeric tables from `data/datasets/*.json`. Its checked-in companion `data/phase0-coverage-snapshot.json` is verified by unit tests and `python3 tools/phase0_audit.py --check`. A new research PR must refresh these numbers when datasets change; otherwise CI should fail.
 
@@ -9,13 +9,13 @@
 
 | Measure | Current records |
 | --- | ---: |
-| Research domains | 39 |
-| Source records | 547 |
-| Unique source URLs | 482 |
-| Technical facts | 1073 |
-| Diagnostic/correction issues | 90 |
+| Research domains | 40 |
+| Source records | 554 |
+| Unique source URLs | 487 |
+| Technical facts | 1086 |
+| Diagnostic/correction issues | 91 |
 | Part records | 86 |
-| Explicit open research gaps | 277 |
+| Explicit open research gaps | 280 |
 
 A repeated URL is not independent corroboration. These are stored record counts,
 **not** estimates of system completeness, part fitment confidence, failure rates,
@@ -25,7 +25,7 @@ or the probability that an individual vehicle is repairable.
 
 | Source retrieval | Records |
 | --- | ---: |
-| `full_text` | 517 |
+| `full_text` | 524 |
 | `partial` | 3 |
 | `search_excerpt` | 19 |
 | `metadata_only` | 8 |
@@ -33,8 +33,8 @@ or the probability that an individual vehicle is repairable.
 | Technical evidence | Facts + issues + parts |
 | --- | ---: |
 | `documented` | 1110 |
-| `supplier_claim` | 129 |
-| `inference` | 10 |
+| `supplier_claim` | 142 |
+| `inference` | 11 |
 
 ### Explicit application dimensions
 
@@ -44,13 +44,13 @@ is counted from individual groups, not from a misleading top-level union.
 
 | Scope field explicitly present | Records out of facts + issues + parts |
 | --- | ---: |
-| `platforms` | 1190 / 1249 |
-| `model_years` | 1093 / 1249 |
-| `markets` | 205 / 1249 |
-| `engine_codes` | 390 / 1249 |
-| `transmission_codes` | 167 / 1249 |
-| `body_styles` | 83 / 1249 |
-| `vin_ranges` | 24 / 1249 |
+| `platforms` | 1204 / 1263 |
+| `model_years` | 1105 / 1263 |
+| `markets` | 205 / 1263 |
+| `engine_codes` | 402 / 1263 |
+| `transmission_codes` | 170 / 1263 |
+| `body_styles` | 83 / 1263 |
+| `vin_ranges` | 24 / 1263 |
 
 ### Technical record coverage by original Saab model year
 
@@ -70,10 +70,10 @@ model-year row. Year-path names do not prove a given production revision.
 | 2003 | 31 | 4 | 17 |
 | 2004 | 60 | 7 | 20 |
 | 2005 | 158 | 11 | 21 |
-| 2006 | 165 | 18 | 23 |
-| 2007 | 146 | 20 | 22 |
-| 2008 | 197 | 29 | 22 |
-| 2009 | 138 | 17 | 22 |
+| 2006 | 172 | 19 | 23 |
+| 2007 | 153 | 21 | 22 |
+| 2008 | 204 | 30 | 22 |
+| 2009 | 145 | 18 | 22 |
 
 #### Second-generation 9-3, platform 9440
 
@@ -81,8 +81,8 @@ model-year row. Year-path names do not prove a given production revision.
 | ---: | ---: | ---: | ---: |
 | 2003 | 20 | 15 | 18 |
 | 2004 | 34 | 17 | 21 |
-| 2005 | 97 | 19 | 24 |
-| 2006 | 137 | 21 | 29 |
+| 2005 | 101 | 20 | 24 |
+| 2006 | 141 | 22 | 29 |
 | 2007 | 26 | 11 | 22 |
 | 2008 | 28 | 11 | 23 |
 | 2009 | 21 | 11 | 23 |
@@ -144,6 +144,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 | `simulation` | 20 | 40 | 0 | 0 | 15 |
 | `subframe_parts_brake_lines` | 17 | 16 | 0 | 15 | 9 |
 | `t7_t8_repair_support_model_choice` | 6 | 9 | 2 | 0 | 4 |
+| `us_retail_parts_supply_snapshot` | 7 | 13 | 1 | 0 | 3 |
 | `vin_gearbox_provenance` | 14 | 29 | 2 | 0 | 9 |
 
 <!-- END AUTO-GENERATED PHASE0 CENSUS -->
