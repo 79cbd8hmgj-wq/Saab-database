@@ -1,0 +1,2333 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "og95_t7_cooling_0709",
+  "sources": [
+    {
+      "id": "t7cool-src-001",
+      "title": "MY2007 WIS: Trionic 7 ECU +30/+15 and relay supply",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/technical-description/control-module-power-supply",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2007 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-002",
+      "title": "MY2008 WIS: Trionic 7 ECU +30/+15 and relay supply",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/technical-description/control-module-power-supply",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2008 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-003",
+      "title": "MY2009 WIS: Trionic 7 ECU +30/+15 and relay supply",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/trionic-t7-4-cyl/technical-description/control-module-power-supply",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2009 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-004",
+      "title": "MY2007 WIS: Trionic 7 shared sensor 5V supply",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/technical-description/5v-supply",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2007 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-005",
+      "title": "MY2008 WIS: Trionic 7 shared sensor 5V supply",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/technical-description/5v-supply",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2008 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-006",
+      "title": "MY2009 WIS: Trionic 7 shared sensor 5V supply",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/trionic-t7-4-cyl/technical-description/5v-supply",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2009 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-007",
+      "title": "MY2007 WIS: Crank position sensor 345 technical data",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/technical-data/crankshaft-position-sensor-345",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2007 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-008",
+      "title": "MY2008 WIS: Crank position sensor 345 technical data",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/technical-data/crankshaft-position-sensor-345",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2008 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-009",
+      "title": "MY2009 WIS: Crank position sensor 345 technical data",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/trionic-t7-4-cyl/technical-data/crankshaft-position-sensor-345",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2009 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-010",
+      "title": "MY2007 WIS: Coolant sensor 202 operating logic",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/technical-description/coolant-temperature-sensor",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2007 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-011",
+      "title": "MY2008 WIS: Coolant sensor 202 operating logic",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/technical-description/coolant-temperature-sensor",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2008 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-012",
+      "title": "MY2009 WIS: Coolant sensor 202 operating logic",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/trionic-t7-4-cyl/technical-description/coolant-temperature-sensor",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2009 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-013",
+      "title": "MY2007 WIS: Coolant sensor 202 data table",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/technical-data/coolant-temperature-sensor-202",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2007 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-014",
+      "title": "MY2009 WIS: Coolant sensor 202 data table",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/trionic-t7-4-cyl/technical-data/coolant-temperature-sensor-202",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2009 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-015",
+      "title": "MY2008 WIS: 4-cylinder coolant pressure, thermostat and fan limits",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-data/temperature-pressure-limits",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2008 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-016",
+      "title": "MY2007 WIS: 4-cylinder petrol radiator fan DICE controls",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/technical-description/radiator-fans-4-cyl",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2007 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-017",
+      "title": "MY2008 WIS: 4-cylinder petrol radiator fan DICE controls",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-description/radiator-fans-4-cyl",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2008 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-018",
+      "title": "MY2009 WIS: 4-cylinder petrol radiator fan DICE controls",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/cooling-system/technical-description/radiator-fans-4-cyl",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2009 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-019",
+      "title": "MY2008 WIS: 4-cylinder thermostat bypass and radiator flow",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-description/coolant-4-cyl",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2008 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-020",
+      "title": "MY2008 WIS: 4-cylinder thermostat service and top mark",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/thermostat-4-cyl",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2008 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-021",
+      "title": "MY2007 WIS: Coolant service interval, quantity and bleeding",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/adjustment-replacement/coolant-changing",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2007 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-022",
+      "title": "MY2008 WIS: Coolant service interval, quantity and bleeding",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/coolant-changing",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2008 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-023",
+      "title": "MY2008 WIS: Cooling system pressure test with dedicated tools",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/cooling-system-pressure-testing",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2008 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-024",
+      "title": "MY2009 WIS: Cooling system pressure test with dedicated tools",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/cooling-system/adjustment-replacement/cooling-system-pressure-testing",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2009 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-025",
+      "title": "MY2008 WIS: Four-cylinder coolant pump replacement and seals",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/coolant-pump-4-cyl",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2008 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-026",
+      "title": "MY2008 WIS: Expansion tank level sensor and connector",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/coolant-level-sensor",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2008 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-027",
+      "title": "MY2008 WIS: Four-cylinder coolant circuit component list",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-description/cooling-system-diagram-4-cyl",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2008 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    },
+    {
+      "id": "t7cool-src-028",
+      "title": "MY2009 WIS: 2009 Trionic 7 fuel-pump relay electrical behavior",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/trionic-t7-4-cyl/technical-description/fuel-pump-relay",
+      "publisher": "Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Factory text in MY2009 WIS directory, not evidence of all markets, production calibration revisions or measured car condition. Petrol 4-cylinder context only, unless explicitly qualified."
+    }
+  ],
+  "facts": [
+    {
+      "id": "t7cool-fact-001",
+      "subject": "ECU:Trionic7",
+      "category": "electrical",
+      "predicate": "battery_30_supply_path",
+      "value": {
+        "maxifuse": 2,
+        "fuse": 17,
+        "ecu_pin": 23
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "+30",
+      "notes": "Memory feed; requires measured source and actual wiring verification."
+    },
+    {
+      "id": "t7cool-fact-002",
+      "subject": "ECU:Trionic7",
+      "category": "electrical",
+      "predicate": "ignition_15_supply_path",
+      "value": {
+        "fuse": 27,
+        "ecu_pin": 43
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "+15",
+      "notes": "Source names no-start/no diagnostic communication with absent feed."
+    },
+    {
+      "id": "t7cool-fact-003",
+      "subject": "ECU:Trionic7",
+      "category": "electrical",
+      "predicate": "main_relay_throttle_supply",
+      "value": {
+        "main_relay_pin": 87,
+        "fuse": 14,
+        "ecu_pin": 1
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Main relay",
+      "notes": "P1640 and engine-stop behavior relate to absent main relay supply."
+    },
+    {
+      "id": "t7cool-fact-004",
+      "subject": "ECU:Trionic7",
+      "category": "electrical",
+      "predicate": "battery_30_supply_path",
+      "value": {
+        "maxifuse": 2,
+        "fuse": 17,
+        "ecu_pin": 23
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "+30",
+      "notes": "Memory feed; requires measured source and actual wiring verification."
+    },
+    {
+      "id": "t7cool-fact-005",
+      "subject": "ECU:Trionic7",
+      "category": "electrical",
+      "predicate": "ignition_15_supply_path",
+      "value": {
+        "fuse": 27,
+        "ecu_pin": 43
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "+15",
+      "notes": "Source names no-start/no diagnostic communication with absent feed."
+    },
+    {
+      "id": "t7cool-fact-006",
+      "subject": "ECU:Trionic7",
+      "category": "electrical",
+      "predicate": "main_relay_throttle_supply",
+      "value": {
+        "main_relay_pin": 87,
+        "fuse": 14,
+        "ecu_pin": 1
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Main relay",
+      "notes": "P1640 and engine-stop behavior relate to absent main relay supply."
+    },
+    {
+      "id": "t7cool-fact-007",
+      "subject": "ECU:Trionic7",
+      "category": "electrical",
+      "predicate": "battery_30_supply_path",
+      "value": {
+        "maxifuse": 2,
+        "fuse": 17,
+        "ecu_pin": 23
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "+30",
+      "notes": "Memory feed; requires measured source and actual wiring verification."
+    },
+    {
+      "id": "t7cool-fact-008",
+      "subject": "ECU:Trionic7",
+      "category": "electrical",
+      "predicate": "ignition_15_supply_path",
+      "value": {
+        "fuse": 27,
+        "ecu_pin": 43
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "+15",
+      "notes": "Source names no-start/no diagnostic communication with absent feed."
+    },
+    {
+      "id": "t7cool-fact-009",
+      "subject": "ECU:Trionic7",
+      "category": "electrical",
+      "predicate": "main_relay_throttle_supply",
+      "value": {
+        "main_relay_pin": 87,
+        "fuse": 14,
+        "ecu_pin": 1
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Main relay",
+      "notes": "P1640 and engine-stop behavior relate to absent main relay supply."
+    },
+    {
+      "id": "t7cool-fact-010",
+      "subject": "ECU:Trionic7",
+      "category": "sensor_power",
+      "predicate": "shared_5V_supply_pins",
+      "value": [
+        69,
+        46
+      ],
+      "unit": "ECU pins",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "5V supply",
+      "notes": "Two supplies coupled internally in throttle body; not a stand-alone voltage test for an arbitrary sensor."
+    },
+    {
+      "id": "t7cool-fact-011",
+      "subject": "ECU:Trionic7",
+      "category": "sensor_power",
+      "predicate": "shared_5V_short_limp_home",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics",
+      "notes": "Wiring or shared powered sensor may short feed; do not diagnose throttle body alone."
+    },
+    {
+      "id": "t7cool-fact-012",
+      "subject": "ECU:Trionic7",
+      "category": "sensor_power",
+      "predicate": "shared_5V_supply_pins",
+      "value": [
+        69,
+        46
+      ],
+      "unit": "ECU pins",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "5V supply",
+      "notes": "Two supplies coupled internally in throttle body; not a stand-alone voltage test for an arbitrary sensor."
+    },
+    {
+      "id": "t7cool-fact-013",
+      "subject": "ECU:Trionic7",
+      "category": "sensor_power",
+      "predicate": "shared_5V_short_limp_home",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics",
+      "notes": "Wiring or shared powered sensor may short feed; do not diagnose throttle body alone."
+    },
+    {
+      "id": "t7cool-fact-014",
+      "subject": "ECU:Trionic7",
+      "category": "sensor_power",
+      "predicate": "shared_5V_supply_pins",
+      "value": [
+        69,
+        46
+      ],
+      "unit": "ECU pins",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "5V supply",
+      "notes": "Two supplies coupled internally in throttle body; not a stand-alone voltage test for an arbitrary sensor."
+    },
+    {
+      "id": "t7cool-fact-015",
+      "subject": "ECU:Trionic7",
+      "category": "sensor_power",
+      "predicate": "shared_5V_short_limp_home",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics",
+      "notes": "Wiring or shared powered sensor may short feed; do not diagnose throttle body alone."
+    },
+    {
+      "id": "t7cool-fact-016",
+      "subject": "sensor:crankshaft:Trionic7",
+      "category": "diagnostic_threshold",
+      "predicate": "cps_resistance_20C",
+      "value": {
+        "nominal": 860,
+        "tolerance": 90
+      },
+      "unit": "ohm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Resistance, pins 1-2 at 20°C",
+      "notes": "Inductive signal cannot be diagnosed definitively by resistance alone, especially temperature-related failures."
+    },
+    {
+      "id": "t7cool-fact-017",
+      "subject": "sensor:crankshaft:Trionic7",
+      "category": "engine_geometry",
+      "predicate": "cps_nonadjustable_air_gap",
+      "value": {
+        "min": 0.4,
+        "max": 1.3
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Distance sensor/slotted ring",
+      "notes": "Factory gap, not user adjustable."
+    },
+    {
+      "id": "t7cool-fact-018",
+      "subject": "sensor:crankshaft:Trionic7",
+      "category": "diagnostic_threshold",
+      "predicate": "cps_resistance_20C",
+      "value": {
+        "nominal": 860,
+        "tolerance": 90
+      },
+      "unit": "ohm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Resistance, pins 1-2 at 20°C",
+      "notes": "Inductive signal cannot be diagnosed definitively by resistance alone, especially temperature-related failures."
+    },
+    {
+      "id": "t7cool-fact-019",
+      "subject": "sensor:crankshaft:Trionic7",
+      "category": "engine_geometry",
+      "predicate": "cps_nonadjustable_air_gap",
+      "value": {
+        "min": 0.4,
+        "max": 1.3
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Distance sensor/slotted ring",
+      "notes": "Factory gap, not user adjustable."
+    },
+    {
+      "id": "t7cool-fact-020",
+      "subject": "sensor:crankshaft:Trionic7",
+      "category": "diagnostic_threshold",
+      "predicate": "cps_resistance_20C",
+      "value": {
+        "nominal": 860,
+        "tolerance": 90
+      },
+      "unit": "ohm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Resistance, pins 1-2 at 20°C",
+      "notes": "Inductive signal cannot be diagnosed definitively by resistance alone, especially temperature-related failures."
+    },
+    {
+      "id": "t7cool-fact-021",
+      "subject": "sensor:crankshaft:Trionic7",
+      "category": "engine_geometry",
+      "predicate": "cps_nonadjustable_air_gap",
+      "value": {
+        "min": 0.4,
+        "max": 1.3
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Distance sensor/slotted ring",
+      "notes": "Factory gap, not user adjustable."
+    },
+    {
+      "id": "t7cool-fact-022",
+      "subject": "sensor:coolant:Trionic7",
+      "category": "electrical",
+      "predicate": "coolant_NTC_5V_bias_and_return",
+      "value": {
+        "supply": 5,
+        "bias_resistor_kohm": 1,
+        "ecu_supply_pin": 39,
+        "ecu_ground_pin": 22
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Sensor description",
+      "notes": "Engine coolant sensor situated at left-hand end of cylinder head."
+    },
+    {
+      "id": "t7cool-fact-023",
+      "subject": "sensor:coolant:Trionic7",
+      "category": "diagnostic_codes",
+      "predicate": "coolant_sensor_fault_DTCs",
+      "value": [
+        "P0116",
+        "P0117",
+        "P0118",
+        "P0119"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics",
+      "notes": "DTC types: plausibility, low, high, intermittent; individual causes not diagnosed by code alone."
+    },
+    {
+      "id": "t7cool-fact-024",
+      "subject": "sensor:coolant:Trionic7",
+      "category": "failsafe",
+      "predicate": "coolant_temperature_substitution_max",
+      "value": 90,
+      "unit": "°C",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "System reaction to fault",
+      "notes": "Substitute begins at intake-air temp at start and increases 1°C per 60 g MAF air; may mask failed coolant sensing."
+    },
+    {
+      "id": "t7cool-fact-025",
+      "subject": "sensor:coolant:Trionic7",
+      "category": "electrical",
+      "predicate": "coolant_NTC_5V_bias_and_return",
+      "value": {
+        "supply": 5,
+        "bias_resistor_kohm": 1,
+        "ecu_supply_pin": 39,
+        "ecu_ground_pin": 22
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Sensor description",
+      "notes": "Engine coolant sensor situated at left-hand end of cylinder head."
+    },
+    {
+      "id": "t7cool-fact-026",
+      "subject": "sensor:coolant:Trionic7",
+      "category": "diagnostic_codes",
+      "predicate": "coolant_sensor_fault_DTCs",
+      "value": [
+        "P0116",
+        "P0117",
+        "P0118",
+        "P0119"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics",
+      "notes": "DTC types: plausibility, low, high, intermittent; individual causes not diagnosed by code alone."
+    },
+    {
+      "id": "t7cool-fact-027",
+      "subject": "sensor:coolant:Trionic7",
+      "category": "failsafe",
+      "predicate": "coolant_temperature_substitution_max",
+      "value": 90,
+      "unit": "°C",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "System reaction to fault",
+      "notes": "Substitute begins at intake-air temp at start and increases 1°C per 60 g MAF air; may mask failed coolant sensing."
+    },
+    {
+      "id": "t7cool-fact-028",
+      "subject": "sensor:coolant:Trionic7",
+      "category": "electrical",
+      "predicate": "coolant_NTC_5V_bias_and_return",
+      "value": {
+        "supply": 5,
+        "bias_resistor_kohm": 1,
+        "ecu_supply_pin": 39,
+        "ecu_ground_pin": 22
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Sensor description",
+      "notes": "Engine coolant sensor situated at left-hand end of cylinder head."
+    },
+    {
+      "id": "t7cool-fact-029",
+      "subject": "sensor:coolant:Trionic7",
+      "category": "diagnostic_codes",
+      "predicate": "coolant_sensor_fault_DTCs",
+      "value": [
+        "P0116",
+        "P0117",
+        "P0118",
+        "P0119"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics",
+      "notes": "DTC types: plausibility, low, high, intermittent; individual causes not diagnosed by code alone."
+    },
+    {
+      "id": "t7cool-fact-030",
+      "subject": "sensor:coolant:Trionic7",
+      "category": "failsafe",
+      "predicate": "coolant_temperature_substitution_max",
+      "value": 90,
+      "unit": "°C",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "System reaction to fault",
+      "notes": "Substitute begins at intake-air temp at start and increases 1°C per 60 g MAF air; may mask failed coolant sensing."
+    },
+    {
+      "id": "t7cool-fact-031",
+      "subject": "sensor:coolant:Trionic7",
+      "category": "diagnostic_threshold",
+      "predicate": "coolant_sensor_resistance_20C",
+      "value": {
+        "min": 2.1,
+        "max": 2.9
+      },
+      "unit": "kOhm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Coolant sensor (202), row 20°C",
+      "notes": "Same calibration range in separate MY2007 and MY2009 documents; different from ECU input bias."
+    },
+    {
+      "id": "t7cool-fact-032",
+      "subject": "sensor:coolant:Trionic7",
+      "category": "diagnostic_threshold",
+      "predicate": "coolant_sensor_resistance_20C",
+      "value": {
+        "min": 2.1,
+        "max": 2.9
+      },
+      "unit": "kOhm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Coolant sensor (202), row 20°C",
+      "notes": "Same calibration range in separate MY2007 and MY2009 documents; different from ECU input bias."
+    },
+    {
+      "id": "t7cool-fact-033",
+      "subject": "thermostat:9-5-petrol4",
+      "category": "cooling",
+      "predicate": "thermostat_opening_temperature",
+      "value": {
+        "nominal": 89,
+        "tolerance": 2
+      },
+      "unit": "°C",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Thermostat, opening temperature",
+      "notes": "Generic 2008 4-cylinder workshop spec, not permission to fit lower temperature thermostat."
+    },
+    {
+      "id": "t7cool-fact-034",
+      "subject": "expansion_tank:9-5",
+      "category": "cooling",
+      "predicate": "cap_pressure_valve_opening",
+      "value": {
+        "min": 140,
+        "max": 150
+      },
+      "unit": "kPa",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Expansion tank pressure valve",
+      "notes": "This cap relief range is different from minimum system pressure-test command."
+    },
+    {
+      "id": "t7cool-fact-035",
+      "subject": "cooling:9-5-petrol4",
+      "category": "cooling",
+      "predicate": "boiling_point_at_pressure",
+      "value": {
+        "temperature": 131,
+        "system_pressure": 1.4
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "System boiling point",
+      "notes": "Temperature in °C and stated system pressure in bar; coolant mix and ambient differences matter."
+    },
+    {
+      "id": "t7cool-fact-036",
+      "subject": "cooling:9-5-petrol4",
+      "category": "cooling",
+      "predicate": "fan_switch_temperature_overview",
+      "value": {
+        "low_on": 100,
+        "low_on_tolerance": 2,
+        "high_on": 113,
+        "high_on_tolerance": 2,
+        "low_off": 96,
+        "high_off": 109
+      },
+      "unit": "°C",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fan, coolant temperature",
+      "notes": "Technical-data summary conflicts slightly with detailed 99°C low-speed activation below; retain both original contexts."
+    },
+    {
+      "id": "t7cool-fact-037",
+      "subject": "fans:9-5-petrol4",
+      "category": "electrical",
+      "predicate": "fan_control_module",
+      "value": "DICE",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans 4-cylinder, description",
+      "notes": "NOT equivalent to 2008 diesel radiator fan ECM/UEC four-speed module control."
+    },
+    {
+      "id": "t7cool-fact-038",
+      "subject": "fans:9-5-petrol4",
+      "category": "cooling",
+      "predicate": "fan_coolant_hysteresis",
+      "value": {
+        "low_on": 99,
+        "low_off": 96,
+        "high_on": 113,
+        "high_off": 109
+      },
+      "unit": "°C",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics / fan activated thresholds",
+      "notes": "Detailed section says low-on 99°C but opening overview rounds to 100°C. Do not reinterpret as a software tuning request."
+    },
+    {
+      "id": "t7cool-fact-039",
+      "subject": "fans:9-5-petrol4",
+      "category": "failsafe",
+      "predicate": "missing_coolant_temperature_fan_behavior",
+      "value": {
+        "speed": "low",
+        "delay_seconds": 5
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics",
+      "notes": "Applies if coolant temperature outside valid limit or missing via bus; monitor actual cooling response."
+    },
+    {
+      "id": "t7cool-fact-040",
+      "subject": "fans:9-5-petrol4",
+      "category": "electrical",
+      "predicate": "fan_count_by_air_conditioning",
+      "value": {
+        "without_AC": 1,
+        "with_AC": 2
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "One fan; Two fans",
+      "notes": "AC equipment variant, not all 9-5 cars are two-fan."
+    },
+    {
+      "id": "t7cool-fact-041",
+      "subject": "fans:9-5-petrol4",
+      "category": "electrical",
+      "predicate": "two_fan_relays",
+      "value": [
+        155,
+        81,
+        396
+      ],
+      "unit": "relay identifiers",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Operation, two radiator fans",
+      "notes": "Single-fan arrangement uses 155 and 81; distinct physical power and relay configuration."
+    },
+    {
+      "id": "t7cool-fact-042",
+      "subject": "fans:9-5-petrol4",
+      "category": "cooling",
+      "predicate": "ignition_off_afterrun",
+      "value": {
+        "temperatures_C": [
+          103,
+          107
+        ],
+        "max_runtime_minutes": 3.5,
+        "speed": "low"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Operation with ignition OFF",
+      "notes": "Run-on depends on recent operating state, sensor data and DICE/MIU logic, not automatic operation on every shutdown."
+    },
+    {
+      "id": "t7cool-fact-043",
+      "subject": "fans:9-5-petrol4",
+      "category": "electrical",
+      "predicate": "fan_control_module",
+      "value": "DICE",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-017"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans 4-cylinder, description",
+      "notes": "NOT equivalent to 2008 diesel radiator fan ECM/UEC four-speed module control."
+    },
+    {
+      "id": "t7cool-fact-044",
+      "subject": "fans:9-5-petrol4",
+      "category": "cooling",
+      "predicate": "fan_coolant_hysteresis",
+      "value": {
+        "low_on": 99,
+        "low_off": 96,
+        "high_on": 113,
+        "high_off": 109
+      },
+      "unit": "°C",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-017"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics / fan activated thresholds",
+      "notes": "Detailed section says low-on 99°C but opening overview rounds to 100°C. Do not reinterpret as a software tuning request."
+    },
+    {
+      "id": "t7cool-fact-045",
+      "subject": "fans:9-5-petrol4",
+      "category": "failsafe",
+      "predicate": "missing_coolant_temperature_fan_behavior",
+      "value": {
+        "speed": "low",
+        "delay_seconds": 5
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-017"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics",
+      "notes": "Applies if coolant temperature outside valid limit or missing via bus; monitor actual cooling response."
+    },
+    {
+      "id": "t7cool-fact-046",
+      "subject": "fans:9-5-petrol4",
+      "category": "electrical",
+      "predicate": "fan_count_by_air_conditioning",
+      "value": {
+        "without_AC": 1,
+        "with_AC": 2
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-017"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "One fan; Two fans",
+      "notes": "AC equipment variant, not all 9-5 cars are two-fan."
+    },
+    {
+      "id": "t7cool-fact-047",
+      "subject": "fans:9-5-petrol4",
+      "category": "electrical",
+      "predicate": "two_fan_relays",
+      "value": [
+        155,
+        81,
+        396
+      ],
+      "unit": "relay identifiers",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-017"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Operation, two radiator fans",
+      "notes": "Single-fan arrangement uses 155 and 81; distinct physical power and relay configuration."
+    },
+    {
+      "id": "t7cool-fact-048",
+      "subject": "fans:9-5-petrol4",
+      "category": "cooling",
+      "predicate": "ignition_off_afterrun",
+      "value": {
+        "temperatures_C": [
+          103,
+          107
+        ],
+        "max_runtime_minutes": 3.5,
+        "speed": "low"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-017"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Operation with ignition OFF",
+      "notes": "Run-on depends on recent operating state, sensor data and DICE/MIU logic, not automatic operation on every shutdown."
+    },
+    {
+      "id": "t7cool-fact-049",
+      "subject": "fans:9-5-petrol4",
+      "category": "electrical",
+      "predicate": "fan_control_module",
+      "value": "DICE",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-018"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans 4-cylinder, description",
+      "notes": "NOT equivalent to 2008 diesel radiator fan ECM/UEC four-speed module control."
+    },
+    {
+      "id": "t7cool-fact-050",
+      "subject": "fans:9-5-petrol4",
+      "category": "cooling",
+      "predicate": "fan_coolant_hysteresis",
+      "value": {
+        "low_on": 99,
+        "low_off": 96,
+        "high_on": 113,
+        "high_off": 109
+      },
+      "unit": "°C",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-018"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics / fan activated thresholds",
+      "notes": "Detailed section says low-on 99°C but opening overview rounds to 100°C. Do not reinterpret as a software tuning request."
+    },
+    {
+      "id": "t7cool-fact-051",
+      "subject": "fans:9-5-petrol4",
+      "category": "failsafe",
+      "predicate": "missing_coolant_temperature_fan_behavior",
+      "value": {
+        "speed": "low",
+        "delay_seconds": 5
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-018"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics",
+      "notes": "Applies if coolant temperature outside valid limit or missing via bus; monitor actual cooling response."
+    },
+    {
+      "id": "t7cool-fact-052",
+      "subject": "fans:9-5-petrol4",
+      "category": "electrical",
+      "predicate": "fan_count_by_air_conditioning",
+      "value": {
+        "without_AC": 1,
+        "with_AC": 2
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-018"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "One fan; Two fans",
+      "notes": "AC equipment variant, not all 9-5 cars are two-fan."
+    },
+    {
+      "id": "t7cool-fact-053",
+      "subject": "fans:9-5-petrol4",
+      "category": "electrical",
+      "predicate": "two_fan_relays",
+      "value": [
+        155,
+        81,
+        396
+      ],
+      "unit": "relay identifiers",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-018"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Operation, two radiator fans",
+      "notes": "Single-fan arrangement uses 155 and 81; distinct physical power and relay configuration."
+    },
+    {
+      "id": "t7cool-fact-054",
+      "subject": "fans:9-5-petrol4",
+      "category": "cooling",
+      "predicate": "ignition_off_afterrun",
+      "value": {
+        "temperatures_C": [
+          103,
+          107
+        ],
+        "max_runtime_minutes": 3.5,
+        "speed": "low"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-018"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Operation with ignition OFF",
+      "notes": "Run-on depends on recent operating state, sensor data and DICE/MIU logic, not automatic operation on every shutdown."
+    },
+    {
+      "id": "t7cool-fact-055",
+      "subject": "cooling:9-5-petrol4",
+      "category": "cooling",
+      "predicate": "thermostat_circulation_strategy",
+      "value": [
+        "closed: block/cylinder head/heater bypass to pump",
+        "open: radiator path and heater bypass",
+        "fully open: lower bypass closes, radiator flow predominates"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-019"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Thermostat closed/normally open/fully open",
+      "notes": "Description of three valve stages; do not treat full opening as equal to initial 89°C cracking temperature."
+    },
+    {
+      "id": "t7cool-fact-056",
+      "subject": "thermostat:9-5-petrol4",
+      "category": "service",
+      "predicate": "thermostat_vent_orientation",
+      "value": "TOP vent hole at top",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-020"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 2",
+      "notes": "Housing torque 22 Nm; drain and cool system first."
+    },
+    {
+      "id": "t7cool-fact-057",
+      "subject": "thermostat:9-5-petrol4",
+      "category": "service",
+      "predicate": "thermostat_housing_torque",
+      "value": 22,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-020"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 3",
+      "notes": "Housing fasteners only."
+    },
+    {
+      "id": "t7cool-fact-058",
+      "subject": "coolant:9-5-petrol4",
+      "category": "maintenance",
+      "predicate": "coolant_change_maximum_interval",
+      "value": 3,
+      "unit": "years",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-021"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Coolant changing / Change max 3-year interval",
+      "notes": "WIS maintenance interval; confirm correct coolant chemistry and real vehicle service history."
+    },
+    {
+      "id": "t7cool-fact-059",
+      "subject": "coolant:9-5-petrol4",
+      "category": "cooling",
+      "predicate": "nominal_cooling_system_volume",
+      "value": 7.4,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-021"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Coolant system volume / 4-cyl petrol",
+      "notes": "Complete system volume not necessarily flush or service refill quantity."
+    },
+    {
+      "id": "t7cool-fact-060",
+      "subject": "coolant:9-5-petrol4",
+      "category": "service",
+      "predicate": "cold_fill_no_overshoot_and_bleeding",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-021"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Bleeding; cold engine and MAX mark",
+      "notes": "Factory says start with A/C/ACC off and run to radiator fan activation, check hose condition and top up."
+    },
+    {
+      "id": "t7cool-fact-061",
+      "subject": "coolant:9-5-petrol4",
+      "category": "maintenance",
+      "predicate": "coolant_change_maximum_interval",
+      "value": 3,
+      "unit": "years",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-022"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Coolant changing / Change max 3-year interval",
+      "notes": "WIS maintenance interval; confirm correct coolant chemistry and real vehicle service history."
+    },
+    {
+      "id": "t7cool-fact-062",
+      "subject": "coolant:9-5-petrol4",
+      "category": "cooling",
+      "predicate": "nominal_cooling_system_volume",
+      "value": 7.4,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-022"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Coolant system volume / 4-cyl petrol",
+      "notes": "Complete system volume not necessarily flush or service refill quantity."
+    },
+    {
+      "id": "t7cool-fact-063",
+      "subject": "coolant:9-5-petrol4",
+      "category": "service",
+      "predicate": "cold_fill_no_overshoot_and_bleeding",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-022"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Bleeding; cold engine and MAX mark",
+      "notes": "Factory says start with A/C/ACC off and run to radiator fan activation, check hose condition and top up."
+    },
+    {
+      "id": "t7cool-fact-064",
+      "subject": "cooling:9-5",
+      "category": "service",
+      "predicate": "static_leak_test_above",
+      "value": 1,
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-023"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Checking step 4",
+      "notes": "Source instructs test pressure over 1 bar with designated Saab tool; NOT 1-bar expansion cap opening pressure."
+    },
+    {
+      "id": "t7cool-fact-065",
+      "subject": "cooling:9-5",
+      "category": "service",
+      "predicate": "static_leak_test_tools",
+      "value": [
+        "30 05 451",
+        "30 05 477"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-023"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Checking steps 2-3",
+      "notes": "Adapter and test pump identifiers, not necessary consumer part purchases."
+    },
+    {
+      "id": "t7cool-fact-066",
+      "subject": "cooling:9-5",
+      "category": "service",
+      "predicate": "static_leak_test_above",
+      "value": 1,
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-024"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Checking step 4",
+      "notes": "Source instructs test pressure over 1 bar with designated Saab tool; NOT 1-bar expansion cap opening pressure."
+    },
+    {
+      "id": "t7cool-fact-067",
+      "subject": "cooling:9-5",
+      "category": "service",
+      "predicate": "static_leak_test_tools",
+      "value": [
+        "30 05 451",
+        "30 05 477"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-024"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Checking steps 2-3",
+      "notes": "Adapter and test pump identifiers, not necessary consumer part purchases."
+    },
+    {
+      "id": "t7cool-fact-068",
+      "subject": "pump:coolant:9-5-petrol4",
+      "category": "service",
+      "predicate": "water_pump_assembly_torque",
+      "value": 22,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-025"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit 2",
+      "notes": "Pump mounting bolts; not banjo or coolant tube torques."
+    },
+    {
+      "id": "t7cool-fact-069",
+      "subject": "pump:coolant:9-5-petrol4",
+      "category": "service",
+      "predicate": "shaft_seal_minor_coolant_seep_permitted",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-025"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Important after removal",
+      "notes": "WIS states a very small amount can lubricate seal; not proof ongoing significant coolant loss is normal."
+    },
+    {
+      "id": "t7cool-fact-070",
+      "subject": "expansion_tank:9-5",
+      "category": "electrical",
+      "predicate": "coolant_level_sensor_location",
+      "value": "Sensor connector on expansion tank next to MacPherson strut/battery",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-026"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Removal, steps 5–6",
+      "notes": "Review routing, electrical connector and actual reservoir before replacing sensor."
+    },
+    {
+      "id": "t7cool-fact-071",
+      "subject": "cooling:9-5-petrol4",
+      "category": "cooling",
+      "predicate": "automatic_transmission_oil_cooler_on_coolant_diagram",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-027"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Components item 9 / Oil cooler (aut. only)",
+      "notes": "Listed automatic-only engine oil cooler on diagram; the precise component identity must be checked against other gearbox cooling diagrams."
+    },
+    {
+      "id": "t7cool-fact-072",
+      "subject": "relay:fuel-pump:Trionic7",
+      "category": "electrical",
+      "predicate": "prime_duration_when_key_on",
+      "value": 1,
+      "unit": "s",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "t7cool-src-028"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Fuel pump relay",
+      "notes": "2009 independently retrieved; priming duration is not proof pump pressure or flow."
+    }
+  ],
+  "issues": [
+    {
+      "id": "t7cool-issue-001",
+      "title": "Petrol 9-5 fan operation absent, unexpected or operating after ignition-off",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "cause": "DICE controls relay combinations according to Trionic coolant data, A/C inputs and ignition-off afterrun state.",
+      "symptoms": [
+        "fans not running when expected",
+        "fans running after ignition is off",
+        "temperature rising while stationary"
+      ],
+      "diagnosis_summary": "Read valid actual coolant temperature, verify AC equipment, DICE signal and two-speed relay/fan paths; afterrun may be factory-normal for hot coolant.",
+      "correction_summary": "Correct demonstrated electrical/sensor/cooling defect using full MY2008 WIS; do not bypass relay or retune thresholds.",
+      "source_ids": [
+        "t7cool-src-017",
+        "t7cool-src-015"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "No fleet-level failure incidence or component replacement approval.",
+        "A/C and fan-count restrictions are crucial.",
+        "Afterrun alone is not a defect."
+      ]
+    },
+    {
+      "id": "t7cool-issue-002",
+      "title": "Coolant temperature sensor circuit fault with fan protective response",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "cause": "Open/shorted or implausible NTC signal or bus coolant data can cause a substituted temperature value and fan failsafe.",
+      "symptoms": [
+        "P0116–P0119 may be present",
+        "fan runs with temperature input absent",
+        "fuel correction may be altered"
+      ],
+      "diagnosis_summary": "Check true coolant temperature versus factory Trionic read-value, sensor 5V/reference ground and NTC resistance, connector/harness and DICE communication.",
+      "correction_summary": "Repair tested faulty sensor or wiring and confirm valid reading and cooling fan control; no universal sensor replacement from code alone.",
+      "source_ids": [
+        "t7cool-src-010",
+        "t7cool-src-011",
+        "t7cool-src-012",
+        "t7cool-src-016",
+        "t7cool-src-017",
+        "t7cool-src-018"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Factory DTCs are symptom categories, not guaranteed sensor diagnoses.",
+        "Substitute coolant temperature may differ materially from physical coolant temperature."
+      ]
+    },
+    {
+      "id": "t7cool-issue-003",
+      "title": "Coolant leak or loss of system pressure",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "cause": "Leak at hose, pump seal, cap/expansion tank or other component can reduce pressurization and cause overheating.",
+      "symptoms": [
+        "coolant level dropping",
+        "visible coolant seepage",
+        "pressure test does not hold"
+      ],
+      "diagnosis_summary": "Use prescribed cold pressure test above 1 bar, inspect entire system, check cap opening 140–150 kPa and bleed after service.",
+      "correction_summary": "Repair only confirmed leak source, restore correct coolant ratio and check pressure and fan cycling.",
+      "source_ids": [
+        "t7cool-src-015",
+        "t7cool-src-022",
+        "t7cool-src-023",
+        "t7cool-src-025"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Test over 1 bar is not a demand to exceed safe equipment limits or a replacement cap rating.",
+        "Slight pump seal lubrication seep per WIS not equivalent to ongoing volume loss.",
+        "No vehicle-specific leakage diagnosis or failure frequency."
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "t7cool-gap-001",
+      "title": "Actual electrical wiring diagrams and DICE relay connectors",
+      "missing_inputs": [
+        "Retrieve 2007–09 4-cylinder petrol electrical schematics for engine ECU, coolant NTC, DICE pins 35/53, relay 155/81/396, fuse 15, splice and G locations; check options/market."
+      ],
+      "reason": "Factory text describes logic and selected terminals, not a circuit-complete wiring drawing.",
+      "source_ids": [
+        "t7cool-src-001",
+        "t7cool-src-016",
+        "t7cool-src-017",
+        "t7cool-src-018"
+      ]
+    },
+    {
+      "id": "t7cool-gap-002",
+      "title": "Fan temperature 99 versus 100 context",
+      "missing_inputs": [
+        "Check revision/calibration and engineering tolerance difference between WIS overview 100°C, detailed fan logic 99°C, and technical data 100±2°C."
+      ],
+      "reason": "Do not silently choose a single exact temperature or assume a different software calibration.",
+      "source_ids": [
+        "t7cool-src-015",
+        "t7cool-src-016",
+        "t7cool-src-017",
+        "t7cool-src-018"
+      ]
+    },
+    {
+      "id": "t7cool-gap-003",
+      "title": "Coolant engineering acceptance and actual high-temp measurements",
+      "missing_inputs": [
+        "Identify coolant chemistry/mixture, cap pressure test, measured fan/sensor readings, radiator airflow, pump condition and independent gauge accuracy for specific VINs."
+      ],
+      "reason": "Nominal thresholds and component diagrams cannot predict an old car's thermal behavior.",
+      "source_ids": [
+        "t7cool-src-015",
+        "t7cool-src-017",
+        "t7cool-src-019",
+        "t7cool-src-023"
+      ]
+    },
+    {
+      "id": "t7cool-gap-004",
+      "title": "2007 and 2009 cooling-system data and service cross-check",
+      "missing_inputs": [
+        "Retrieve separately validated model-year cooling pressure, thermostat, refill and water pump data for MY2007 and MY2009 and inspect production-year/country revisions."
+      ],
+      "reason": "Full pressure and thermostat tables are recorded from MY2008 only; sources in adjacent year paths not a blanket year extension.",
+      "source_ids": [
+        "t7cool-src-015",
+        "t7cool-src-020",
+        "t7cool-src-021",
+        "t7cool-src-024"
+      ]
+    },
+    {
+      "id": "t7cool-gap-005",
+      "title": "T7 cooling DTC diagnostic trees and sensor replacement identity",
+      "missing_inputs": [
+        "Read P0116–P0119 enable criteria, detailed WIS measurement protocol, EPC sensor OEM part numbers/VIN revisions and verified hardware connector configuration."
+      ],
+      "reason": "Source-reported DTCs do not justify replacing every faulty-looking sensor or automatically accepting an aftermarket crossfit.",
+      "source_ids": [
+        "t7cool-src-010",
+        "t7cool-src-011",
+        "t7cool-src-012",
+        "t7cool-src-013",
+        "t7cool-src-014"
+      ]
+    },
+    {
+      "id": "t7cool-gap-006",
+      "title": "Petrol versus diesel fan controller and coolant flow variants",
+      "missing_inputs": [
+        "Cross-check diesel ECM/UEC multi-speed system, petrol DICE 1-/2-fan arrangement and automatic-cooling provisions without combining them."
+      ],
+      "reason": "Different engine-control architectures are shown in adjacent WIS tree branches. Mixing them can create unsafe specifications.",
+      "source_ids": [
+        "t7cool-src-016",
+        "t7cool-src-017",
+        "t7cool-src-018",
+        "t7cool-src-027"
+      ]
+    },
+    {
+      "id": "t7cool-gap-007",
+      "title": "Reliability and service evidence",
+      "missing_inputs": [
+        "Find model-year-specific field failure/corrosion data for cap, fan relay, fan resistor, thermostat, radiator, heat exchanger, temperature sensor and pump; verify replacement part supply and repair cost."
+      ],
+      "reason": "Factory procedure reveals potential fault modes but provides no probability or cost estimate.",
+      "source_ids": [
+        "t7cool-src-017",
+        "t7cool-src-020",
+        "t7cool-src-022",
+        "t7cool-src-025"
+      ]
+    }
+  ]
+}
