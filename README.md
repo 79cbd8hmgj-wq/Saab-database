@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- [U.S. Saab repair-versus-replace feasibility matrix](docs/us-repair-vs-replace-feasibility.md): 14 source-backed scenarios for avoiding unnecessary engine/transmission rebuilding, safety walk-away conditions and unpriced DIY-versus-specialist options, mapped to all 110 eligible U.S. production groups.
+
 - [U.S. factory engine identities and avoid-rebuild screening](docs/us-engine-factory-and-no-rebuild-triage.md): 110 production groups mapped to WIS engine-code evidence, exact MY2011 A20NFT/LHU VIN distinction, and US/Canada-specific early B205/B235 sludge/bearing bulletin boundaries. VIN fitment and reliability ranking remain unverified.
 
 - [U.S. Saab factory automatic gearbox-family crosscheck](docs/us-automatic-gearbox-factory-crosscheck.md): WIS-sourced AF20/AF22, AF30, FA57 and AF40/TF-80SC distinctions across 110 U.S. production groups, including 2011 new 9-5 AF40 family, with individual VIN/interchange claims blocked.
