@@ -105,7 +105,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 ### Distribution of recorded evidence by research domain
 
 | Dataset domain | Sources | Facts | Issues | Parts | Gaps |
-| --- | ---: | ---: | ---: | ---: |
+| --- | ---: | ---: | ---: | ---: | ---: |
 | `b235_maintenance_fa57_identity` | 13 | 44 | 2 | 0 | 9 |
 | `b235r_oil_pcv_2006_2008` | 17 | 31 | 2 | 7 | 9 |
 | `corrections` | 27 | 9 | 20 | 26 | 7 |
