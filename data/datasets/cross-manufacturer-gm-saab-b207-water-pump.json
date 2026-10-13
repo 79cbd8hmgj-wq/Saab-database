@@ -1,0 +1,493 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "cross_manufacturer_gm_saab_b207_water_pump",
+  "sources": [
+    {
+      "id": "gmwp-src-001",
+      "title": "GM Genuine Parts water pump kit 12630084, direct Chevrolet parts product specification",
+      "url": "https://parts.chevrolet.com/product/gm-genuine-parts-engine-water-pump-kit-12630084",
+      "publisher": "General Motors / Chevrolet official replacement parts channel",
+      "source_type": "manufacturer_datasheet",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Official GM product exact SKU 12630084, classified OE, gear drive; 4 mounting holes, gasket included, metal impeller, no mounting hardware. Generic marketing says serpentine drive but specific table says gear; do not use generic GM installation instructions for B207."
+    },
+    {
+      "id": "gmwp-src-002",
+      "title": "Saab Parts Hedin official 12630084 original water pump for 9-3 B207",
+      "url": "https://webshop-fi.saabparts.com/productdetail/saabparts/12630084",
+      "publisher": "Saab Parts / Hedin official Saab parts webshop",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Official Saab parts-support channel lists Saab Original 12630084 for 9-3 2003-14 B207, and 2010-11 9-5 650 A20NFT/NHT, includes sprocket and gasket. Importantly NOT applicable to original 2008 9-5 B235 just by the name 9-5."
+    },
+    {
+      "id": "gmwp-src-003",
+      "title": "Saab original B207 factory coolant pump replacement and balancer-shaft drive tool",
+      "url": "https://saabwisonline.com/9-3-9440/2004/2-engine/4-cylinder-petrol/cooling-system/adjustment-replacement/coolant-pump",
+      "publisher": "Saab Automobile AB original WIS (SaabWISOnline mirror)",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Factory procedure involves timing-cover pump pinion, balancer-shaft holder 83 96 103, new seals, precautions for pressurized hot coolant, and timing drive; cannot be replaced using GM generic serpentine belt installation summary."
+    },
+    {
+      "id": "gmwp-src-004",
+      "title": "Opel Vectra C Z20NET engine water pump OE catalogue rows and NLS statements",
+      "url": "https://nemigaparts.com/cat_spares/epc/opel/z02/f/19/",
+      "publisher": "NemigaParts independent mirror of Opel EPC parts catalogue",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Z20NET rows show Opel OE 93172718 discontinued in favor of 93178602, plus separate 93181118 row discontinued in favor of 93195308. Opel EPC mirror is not authenticated direct manufacturer VIN lookup; relationships within this Opel view are not automatically directed to GM 12630084."
+    },
+    {
+      "id": "gmwp-src-005",
+      "title": "Saab parts retailer cross-reference for OEM-labelled 12630084 water pump",
+      "url": "https://www.saabpartscounter.com/oem-parts/saab-water-pump-12630084",
+      "publisher": "Saab Parts Counter retailer original parts listing",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Retailer lists 12630084 with previous references 12621284, 24467301, 93178602, 93181118, 93195308. Supplier supersessions not accepted as exact VIN manufacturer chain."
+    }
+  ],
+  "facts": [
+    {
+      "id": "gmwp-fact-001",
+      "subject": "part:12630084",
+      "category": "shared_oem_service_sku",
+      "predicate": "official_GM_and_Saab_parts_channels_same_sku",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "gmwp-src-001",
+        "gmwp-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "GM Product header and Saab Original Article Number",
+      "notes": "Direct matching current service SKUs from original channels; neither actual VIN, physically compared packaging, or historical donor Opel subassembly validated."
+    },
+    {
+      "id": "gmwp-fact-002",
+      "subject": "part:12630084",
+      "category": "engine_application",
+      "predicate": "saab_parts_official_B207_listing",
+      "value": "Saab 9-3 (9440) 2003–14 B207",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "gmwp-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Product text 9-3 2003-14 engine B207",
+      "notes": "Do not extend to original 2008 9-5 B235. The 2010-11 new-generation 9-5 reference is different platform and engine."
+    },
+    {
+      "id": "gmwp-fact-003",
+      "subject": "part:12630084",
+      "category": "shared_parts_scope",
+      "predicate": "other_Saab_official_application",
+      "value": {
+        "platform": "9-5-650",
+        "years": [
+          2010,
+          2011
+        ],
+        "engines": [
+          "A20NFT",
+          "A20NHT"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ]
+      },
+      "source_ids": [
+        "gmwp-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Product text 9-5 2010-11 Engine A20NFT/NHT",
+      "notes": "Not a factual statement about OG9-5 9600 suitability."
+    },
+    {
+      "id": "gmwp-fact-004",
+      "subject": "part:12630084",
+      "category": "mechanical_spec",
+      "predicate": "gm_catalogue_drive_type",
+      "value": "Gear",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "gmwp-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Specifications > Water Pump Drive Type",
+      "notes": "The same webpage's generic marketing says serpentine-belt driven; specifically enumerated SKU property is gear driven."
+    },
+    {
+      "id": "gmwp-fact-005",
+      "subject": "part:12630084",
+      "category": "mechanical_spec",
+      "predicate": "gm_catalogue_mounted_holes",
+      "value": 4,
+      "unit": "holes",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "gmwp-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Specifications > Mounting Hole Quantity",
+      "notes": "Supplier specification; not independently measured Saab pump or proof bolt/interface match."
+    },
+    {
+      "id": "gmwp-fact-006",
+      "subject": "part:12630084",
+      "category": "mechanical_spec",
+      "predicate": "gm_catalogue_impeller_material",
+      "value": "Steel",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "gmwp-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Specifications > Impeller Material",
+      "notes": "Manufacturer listed property; no quantified longevity superiority over Saab Original."
+    },
+    {
+      "id": "gmwp-fact-007",
+      "subject": "part:12630084",
+      "category": "kit_contents",
+      "predicate": "saab_webshop_kit_includes",
+      "value": [
+        "sprocket",
+        "gasket"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "gmwp-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Saab Original product description",
+      "notes": "Potential box/kit packaging needs checking; GM says gasket present and mounting hardware absent, which does not itself settle sprocket contents."
+    },
+    {
+      "id": "gmwp-fact-008",
+      "subject": "system:B207-coolant-pump",
+      "category": "service_design",
+      "predicate": "balancer_shaft_sprocket_drive_holder_required",
+      "value": "Saab tool 83 96 103",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "gmwp-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Original WIS Coolant pump > To remove steps 33–37 / to fit",
+      "notes": "Do not open hot cooling system; installation requires qualified drive and timing procedure, not just removing a belt."
+    },
+    {
+      "id": "gmwp-fact-009",
+      "subject": "part-family:Opel-Z20NET-pump",
+      "category": "catalogue_reference",
+      "predicate": "opel_93172718_to_93178602",
+      "value": {
+        "older": "93172718",
+        "later": "93178602"
+      },
+      "unit": null,
+      "applicability": {
+        "markets": [
+          "EU"
+        ],
+        "engine_codes": [
+          "Z20NET"
+        ]
+      },
+      "source_ids": [
+        "gmwp-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Z20NET[LQ8] Water pump table rows 12",
+      "notes": "Secondary EPC NLS relation within Opel context only, not an assertion OEM 12630084 supersedes either part."
+    },
+    {
+      "id": "gmwp-fact-010",
+      "subject": "part-family:Opel-Z20NET-pump",
+      "category": "catalogue_reference",
+      "predicate": "saab_retailer_referenced_older_numbers",
+      "value": [
+        "93178602",
+        "93181118",
+        "93195308",
+        "24467301",
+        "12621284"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "gmwp-src-005"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Saab Parts Counter superseded numbers",
+      "notes": "Retailer grouping is not original Saab WebEPC ordered sequence; examine kits and number applicability before choosing an Opel donor."
+    }
+  ],
+  "issues": [
+    {
+      "id": "gmwp-issue-001",
+      "title": "GM 12630084 webpage marketing belt-drive text conflicts with exact gear-drive specification and Saab B207 procedure",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "cause": "Generic GM marketing copy describes a belt-driven pump, whereas part-specific GM specification says Gear and Saab WIS uses internal balancer-shaft pump pinion.",
+      "symptoms": [
+        "A parts listing describes serpentine belt drive on B207 water pump",
+        "An installer plans external-belt access instead of factory pump removal"
+      ],
+      "diagnosis_summary": "Use exact GM SKU specification and factory Saab B207 cooling system procedure, confirm OE kit hardware and installed part; preserve document-level text conflict.",
+      "correction_summary": "Do not follow unrelated generic GM procedure; actual B207 pump removal needs the correct factory holding tools and coolant/timing-drive safety work.",
+      "source_ids": [
+        "gmwp-src-001",
+        "gmwp-src-003"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "No procedure inferred from generic marketing",
+        "Original MY2004 WIS source, verify MY2005–06 revisions",
+        "No real vehicle disassembled"
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "gmwp-part-001",
+      "part_number": "12630084",
+      "title": "GM Genuine Parts / Saab Original identical-number B207 gear-driven water pump service candidate",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Verify actual Saab B207 VIN and original water pump/chassis application in Saab WebEPC.",
+        "Compare kit box contents (sprocket, gasket, seal, pump version) from purchased supplier and Saab catalog.",
+        "Follow specific MY2005–06 Saab B207 cooling-system and balancer-shaft drive procedure with proper tools and seals.",
+        "Document warranty eligibility, current shipping availability, total labor and fit, and operational leak/cooling checks."
+      ],
+      "source_ids": [
+        "gmwp-src-001",
+        "gmwp-src-002",
+        "gmwp-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Two first-party channels show the exact current service number 12630084. This verifies dual-channel SKU identity, NOT original OE donor assembly equivalence across all models, Saab VIN approval, inventory, or longevity improvement.",
+      "interchange_candidate": {
+        "strategy": "dual_official_brand_service_part_number",
+        "donor_makes": [
+          "General Motors",
+          "Chevrolet"
+        ],
+        "saab_reference_numbers": [
+          "12630084"
+        ],
+        "fitment_approved": false,
+        "vehicle_verified": false,
+        "durability_validated": false,
+        "verification_required": [
+          "VIN-filtered Saab OE service application",
+          "physical kit and sprocket/gasket contents",
+          "B207-specific drive procedure and correct installed pump",
+          "US stock and warranty terms",
+          "relative cost and engineering reliability validation"
+        ]
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gmwp-gap-001",
+      "title": "Actual Saab/GM service part 12630084 kit contents and VIN application",
+      "missing_inputs": [
+        "VIN filtered original Saab 9-3 B207 WebEPC current & superseded pump",
+        "Current genuine GM package and Saab Original box side-by-side photos",
+        "current gasket/sprocket/seal and drive hardware content",
+        "B207 year/market build boundary"
+      ],
+      "reason": "Identical current SKU across first-party sales channels is strong evidence of shared service offering but not physical certification for any individual vehicle.",
+      "source_ids": [
+        "gmwp-src-001",
+        "gmwp-src-002",
+        "gmwp-src-003"
+      ]
+    },
+    {
+      "id": "gmwp-gap-002",
+      "title": "Original Opel Z20NET pump directed-number chain to GM/Saab 12630084",
+      "missing_inputs": [
+        "Official Opel EPC VIN-filtered application and NLS revision",
+        "Direct Saab WebEPC supersession links for 93178602/93181118/93195308",
+        "OE supplier/drawing/revision/impeller seal material comparison"
+      ],
+      "reason": "A mirrored Opel EPC and retailer string list are not sufficient to claim a particular Opel donor pump superseded directly to 12630084.",
+      "source_ids": [
+        "gmwp-src-002",
+        "gmwp-src-004",
+        "gmwp-src-005"
+      ]
+    },
+    {
+      "id": "gmwp-gap-003",
+      "title": "Saab B207 specific factory procedure MY2005/06 and labor exposure",
+      "missing_inputs": [
+        "Factory original MY2005 and MY2006 pump service page/TSB revisions",
+        "Factory holding tool 83 96 103 or approved equivalent",
+        "shop tool availability and safe-access/labor estimate"
+      ],
+      "reason": "MY2004 original workshop procedure demonstrates complexity; no claim of a universal one-hour belt driven replacement.",
+      "source_ids": [
+        "gmwp-src-003"
+      ]
+    },
+    {
+      "id": "gmwp-gap-004",
+      "title": "Price, availability, warranty and actual durability delta for shared GM pump",
+      "missing_inputs": [
+        "Contemporaneous US GM dealer quote and stock by SKU",
+        "Saab Orio channel comparable landed cost and warranty",
+        "independent leak, seal, bearing and impeller life data on actual fitted B207s"
+      ],
+      "reason": "GM Genuine marketing endurance language and a listed manufacturer's part are not comparable durability data.",
+      "source_ids": [
+        "gmwp-src-001",
+        "gmwp-src-002"
+      ]
+    }
+  ]
+}
