@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- [9-5 B235 starter and alternate Opel-linked alternator evidence](docs/research/og95-shared-electrics-countercheck.md): AS-PL S0034/A0219, component restrictions and corrected 9-3/9-5 comparison.
+
 - [Model choice: cross-brand starter and alternator evidence](docs/research/cross-manufacturer-electrics-model-choice.md): compare B207 9-3 and B235 9-5 part sourcing without overinterpreting catalogue counts as car reliability.
 
 - [GM Genuine / Saab Original B207 water-pump 12630084](docs/research/cross-manufacturer-gm-saab-b207-water-pump.md): identical official numbered service offering with unresolved VIN, kit, donor and durability verification; not an OG 9-5 B235 replacement.
