@@ -1,0 +1,729 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "cross_manufacturer_electrics_model_choice",
+  "sources": [
+    {
+      "id": "as-src-001",
+      "title": "AS-PL A0047 alternator product specifications",
+      "url": "https://as-pl.com/en/p/A0047",
+      "publisher": "AS-PL Sp. z o.o. (parts manufacturer)",
+      "source_type": "manufacturer_datasheet",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Manufacturer 12V, 120A, 5-groove, PL_2200; replaces Bosch 0124425133."
+    },
+    {
+      "id": "as-src-002",
+      "title": "AS-PL A0047 application chart across 9-3 and Opel",
+      "url": "https://as-pl.com/en/tpu/A0047",
+      "publisher": "AS-PL Sp. z o.o. (parts manufacturer)",
+      "source_type": "manufacturer_datasheet",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "First-party catalogue: NG9-3 B207R, B207L beginning June 2006, Opel Vectra C/Signum Z20NET, Cadillac BLS. Does not prove a used donor's OE assembly is identical."
+    },
+    {
+      "id": "as-src-003",
+      "title": "AS-PL S1167S starter product specifications",
+      "url": "https://as-pl.com/en/p/S1167S",
+      "publisher": "AS-PL Sp. z o.o. (parts manufacturer)",
+      "source_type": "manufacturer_datasheet",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Manufacturer 12V, 1.4kW, 9-tooth, 2 bolt holes. Lists Opel 55556245 and GM 12596233 among cross-references."
+    },
+    {
+      "id": "as-src-004",
+      "title": "AS-PL S1167S starter model/engine application chart",
+      "url": "https://as-pl.com/pl/tpu/S1167S",
+      "publisher": "AS-PL Sp. z o.o. (parts manufacturer)",
+      "source_type": "manufacturer_datasheet",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "First-party AS-PL Polish catalogue names Saab NG9-3 B207 variants and Vauxhall Vectra Z20NET. Year and gearbox restrictions require VIN check."
+    },
+    {
+      "id": "as-src-005",
+      "title": "AS-PL A0319 9-5 Bosch-family alternator specification",
+      "url": "https://as-pl.com/en/p/A0319",
+      "publisher": "AS-PL Sp. z o.o. (parts manufacturer)",
+      "source_type": "manufacturer_datasheet",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Manufacturer 12V, 130A, 6-groove pulley and PL_9105 plug, 0123510096 Bosch reference and Saab 4941761 among its catalogue references."
+    },
+    {
+      "id": "as-src-006",
+      "title": "AS-PL A0319 original Saab 9-5 applications",
+      "url": "https://as-pl.com/en/tpu/A0319/SAAB",
+      "publisher": "AS-PL Sp. z o.o. (parts manufacturer)",
+      "source_type": "manufacturer_datasheet",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Manufacturer shows 9-5 B235R and old 9-3 Saab applications to 2009; no Opel entry for this SKU but this does not prove no shared alternatives exist."
+    }
+  ],
+  "facts": [
+    {
+      "id": "as-f001",
+      "subject": "charging_start:A0047",
+      "category": "parts_candidate",
+      "predicate": "rated_current",
+      "value": 120,
+      "unit": "A",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "as-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Manufacturer product specifications / application table",
+      "notes": "Catalogue claim, not original Saab VIN filtered fit, US stock, original Opel donor certification or proven reliability improvement."
+    },
+    {
+      "id": "as-f002",
+      "subject": "charging_start:A0047",
+      "category": "parts_candidate",
+      "predicate": "pulley_grooves",
+      "value": 5,
+      "unit": "grooves",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "as-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Manufacturer product specifications / application table",
+      "notes": "Catalogue claim, not original Saab VIN filtered fit, US stock, original Opel donor certification or proven reliability improvement."
+    },
+    {
+      "id": "as-f003",
+      "subject": "charging_start:A0047",
+      "category": "parts_candidate",
+      "predicate": "plug_id",
+      "value": "PL_2200",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "as-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Manufacturer product specifications / application table",
+      "notes": "Catalogue claim, not original Saab VIN filtered fit, US stock, original Opel donor certification or proven reliability improvement."
+    },
+    {
+      "id": "as-f004",
+      "subject": "charging_start:A0047",
+      "category": "parts_candidate",
+      "predicate": "shared_catalogue_applications",
+      "value": [
+        "Saab NG9-3 B207R",
+        "Saab B207L from June 2006",
+        "Opel Vectra C Z20NET",
+        "Vauxhall Signum Z20NET",
+        "Cadillac BLS 2.0 turbo"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "as-src-002"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Manufacturer product specifications / application table",
+      "notes": "Catalogue claim, not original Saab VIN filtered fit, US stock, original Opel donor certification or proven reliability improvement."
+    },
+    {
+      "id": "as-f005",
+      "subject": "charging_start:S1167S",
+      "category": "parts_candidate",
+      "predicate": "rated_power",
+      "value": 1.4,
+      "unit": "kW",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "as-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Manufacturer product specifications / application table",
+      "notes": "Catalogue claim, not original Saab VIN filtered fit, US stock, original Opel donor certification or proven reliability improvement."
+    },
+    {
+      "id": "as-f006",
+      "subject": "charging_start:S1167S",
+      "category": "parts_candidate",
+      "predicate": "pinion_teeth",
+      "value": 9,
+      "unit": "teeth",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "as-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Manufacturer product specifications / application table",
+      "notes": "Catalogue claim, not original Saab VIN filtered fit, US stock, original Opel donor certification or proven reliability improvement."
+    },
+    {
+      "id": "as-f007",
+      "subject": "charging_start:S1167S",
+      "category": "parts_candidate",
+      "predicate": "cross_brand_oe_reference_families",
+      "value": {
+        "OPEL": [
+          "55556245",
+          "55353996"
+        ],
+        "GM": [
+          "12596233",
+          "89018113"
+        ],
+        "DELCO": [
+          "8000338"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "as-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Manufacturer product specifications / application table",
+      "notes": "Catalogue claim, not original Saab VIN filtered fit, US stock, original Opel donor certification or proven reliability improvement."
+    },
+    {
+      "id": "as-f008",
+      "subject": "charging_start:S1167S",
+      "category": "parts_candidate",
+      "predicate": "shared_catalogue_applications",
+      "value": [
+        "Saab NG9-3 B207",
+        "Vauxhall Vectra Z20NET"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "as-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Manufacturer product specifications / application table",
+      "notes": "Catalogue claim, not original Saab VIN filtered fit, US stock, original Opel donor certification or proven reliability improvement."
+    },
+    {
+      "id": "as-f009",
+      "subject": "charging_start:A0319",
+      "category": "parts_candidate",
+      "predicate": "rated_current",
+      "value": 130,
+      "unit": "A",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "as-src-005"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Manufacturer product specifications / application table",
+      "notes": "Catalogue claim, not original Saab VIN filtered fit, US stock, original Opel donor certification or proven reliability improvement."
+    },
+    {
+      "id": "as-f010",
+      "subject": "charging_start:A0319",
+      "category": "parts_candidate",
+      "predicate": "pulley_grooves",
+      "value": 6,
+      "unit": "grooves",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "as-src-005"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Manufacturer product specifications / application table",
+      "notes": "Catalogue claim, not original Saab VIN filtered fit, US stock, original Opel donor certification or proven reliability improvement."
+    },
+    {
+      "id": "as-f011",
+      "subject": "charging_start:A0319",
+      "category": "parts_candidate",
+      "predicate": "plug_id",
+      "value": "PL_9105",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "as-src-005"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Manufacturer product specifications / application table",
+      "notes": "Catalogue claim, not original Saab VIN filtered fit, US stock, original Opel donor certification or proven reliability improvement."
+    },
+    {
+      "id": "as-f012",
+      "subject": "charging_start:A0319",
+      "category": "parts_candidate",
+      "predicate": "saab_b235r_application",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "as-src-006"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Manufacturer product specifications / application table",
+      "notes": "Catalogue claim, not original Saab VIN filtered fit, US stock, original Opel donor certification or proven reliability improvement."
+    }
+  ],
+  "issues": [
+    {
+      "id": "as-i001",
+      "title": "NG9-3 B207 alternator A0047 is not an original 9-5 B235 A0319 replacement",
+      "applicability": {
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2005,
+              2006
+            ],
+            "engine_codes": [
+              "B207R"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009
+            ],
+            "engine_codes": [
+              "B235R"
+            ]
+          }
+        ]
+      },
+      "cause": "Different AS-PL catalogued alternator products have 5 versus 6 pulley grooves, 120A versus 130A, and plugs PL_2200 versus PL_9105.",
+      "symptoms": [
+        "Generic Saab turbo alternator offered without correct part number"
+      ],
+      "diagnosis_summary": "Match original installed stamping, Saab VIN application, charging-system regulator and pulley/connector.",
+      "correction_summary": "Do not recommend a cross-model alternator interchange without manufacturer fitment and testing.",
+      "source_ids": [
+        "as-src-001",
+        "as-src-005"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Manufacturer-listed specifications, not installed-Saab measurements",
+        "No actual exchange or reliability test."
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "as-p001",
+      "part_number": "A0047",
+      "title": "AS-PL alternator with Saab B207 and Opel Z20NET application",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "as-src-001",
+        "as-src-002"
+      ],
+      "relationships": [
+        {
+          "type": "aftermarket_reference",
+          "part_number": "0124425133",
+          "conditions": "Manufacturer catalogue cross-reference only, not an original approved physical interchange."
+        }
+      ],
+      "requirements": [
+        "Identify VIN and original installed component",
+        "Compare electrical connectors/control, mounts, pulley or pinion geometry",
+        "Obtain current US price and warranty; validate installed performance and reliability"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "No cross-donor used assembly approved. Individual engine/gearbox/year restrictions remain; A0047 five grooves and A0319 six grooves differ.",
+      "interchange_candidate": {
+        "strategy": "cross_brand_aftermarket_catalogue",
+        "donor_makes": [
+          "Opel",
+          "Vauxhall",
+          "Cadillac"
+        ],
+        "saab_reference_numbers": [
+          "0124425133"
+        ],
+        "fitment_approved": false,
+        "vehicle_verified": false,
+        "durability_validated": false,
+        "verification_required": [
+          "Saab VIN WebEPC",
+          "original donor assembly and functional interfaces",
+          "physical test",
+          "durability/economics"
+        ]
+      }
+    },
+    {
+      "id": "as-p002",
+      "part_number": "S1167S",
+      "title": "AS-PL starter with Saab B207 and Opel/GM application",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "as-src-003",
+        "as-src-004"
+      ],
+      "relationships": [
+        {
+          "type": "aftermarket_reference",
+          "part_number": "55556245",
+          "conditions": "Manufacturer catalogue cross-reference only, not an original approved physical interchange."
+        },
+        {
+          "type": "aftermarket_reference",
+          "part_number": "8000338",
+          "conditions": "Manufacturer catalogue cross-reference only, not an original approved physical interchange."
+        }
+      ],
+      "requirements": [
+        "Identify VIN and original installed component",
+        "Compare electrical connectors/control, mounts, pulley or pinion geometry",
+        "Obtain current US price and warranty; validate installed performance and reliability"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "No cross-donor used assembly approved. Individual engine/gearbox/year restrictions remain; A0047 five grooves and A0319 six grooves differ.",
+      "interchange_candidate": {
+        "strategy": "cross_brand_aftermarket_catalogue",
+        "donor_makes": [
+          "Opel",
+          "General Motors",
+          "Vauxhall"
+        ],
+        "saab_reference_numbers": [
+          "55556245",
+          "8000338"
+        ],
+        "fitment_approved": false,
+        "vehicle_verified": false,
+        "durability_validated": false,
+        "verification_required": [
+          "Saab VIN WebEPC",
+          "original donor assembly and functional interfaces",
+          "physical test",
+          "durability/economics"
+        ]
+      }
+    },
+    {
+      "id": "as-p003",
+      "part_number": "A0319",
+      "title": "AS-PL alternator for original Saab 9-5 B235R, separate from A0047",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "as-src-005",
+        "as-src-006"
+      ],
+      "relationships": [
+        {
+          "type": "aftermarket_reference",
+          "part_number": "0123510096",
+          "conditions": "Manufacturer catalogue cross-reference only, not an original approved physical interchange."
+        },
+        {
+          "type": "aftermarket_reference",
+          "part_number": "4941761",
+          "conditions": "Manufacturer catalogue cross-reference only, not an original approved physical interchange."
+        }
+      ],
+      "requirements": [
+        "Identify VIN and original installed component",
+        "Compare electrical connectors/control, mounts, pulley or pinion geometry",
+        "Obtain current US price and warranty; validate installed performance and reliability"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "No cross-donor used assembly approved. Individual engine/gearbox/year restrictions remain; A0047 five grooves and A0319 six grooves differ.",
+      "interchange_candidate": {
+        "strategy": "saab_specific_aftermarket",
+        "donor_makes": [],
+        "saab_reference_numbers": [
+          "0123510096",
+          "4941761"
+        ],
+        "fitment_approved": false,
+        "vehicle_verified": false,
+        "durability_validated": false,
+        "verification_required": [
+          "Saab VIN WebEPC",
+          "original donor assembly and functional interfaces",
+          "physical test",
+          "durability/economics"
+        ]
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "id": "as-g001",
+      "title": "Original NG9-3 alternator and starter VIN application",
+      "missing_inputs": [
+        "Original MY2005–06 B207L/R WebEPC OE by chassis and gearbox",
+        "actual installed component stamp",
+        "electrical/pulley and starter ring-gear compatibility"
+      ],
+      "source_ids": [
+        "as-src-001",
+        "as-src-002",
+        "as-src-003",
+        "as-src-004"
+      ],
+      "reason": "Cross-brand catalogue data alone cannot certify OEM donor fit or establish whole-vehicle dependability."
+    },
+    {
+      "id": "as-g002",
+      "title": "Original B235 9-5 broader donor cross references",
+      "missing_inputs": [
+        "Original installed B235 MY2006–09 alternator/starter data",
+        "non-Saab supplier alternatives beyond A0319",
+        "original GM/Opel donor mapping"
+      ],
+      "source_ids": [
+        "as-src-005",
+        "as-src-006"
+      ],
+      "reason": "Cross-brand catalogue data alone cannot certify OEM donor fit or establish whole-vehicle dependability."
+    },
+    {
+      "id": "as-g003",
+      "title": "US price and availability versus Saab-only brands",
+      "missing_inputs": [
+        "US retailer delivered quotes with timestamps",
+        "warranty/core policies",
+        "installation labor/tool cost"
+      ],
+      "source_ids": [
+        "as-src-001",
+        "as-src-003",
+        "as-src-005"
+      ],
+      "reason": "Cross-brand catalogue data alone cannot certify OEM donor fit or establish whole-vehicle dependability."
+    },
+    {
+      "id": "as-g004",
+      "title": "High cost reliability model choice blockers",
+      "missing_inputs": [
+        "Comparable T8 ECM and T7 DI failure data",
+        "B207/B235 engine mechanical failure frequencies",
+        "gearbox rebuilding exposure",
+        "structural rust inspection and repair costs"
+      ],
+      "source_ids": [
+        "as-src-002",
+        "as-src-006"
+      ],
+      "reason": "Cross-brand catalogue data alone cannot certify OEM donor fit or establish whole-vehicle dependability."
+    },
+    {
+      "id": "as-g005",
+      "title": "Component quality advantage not measured",
+      "missing_inputs": [
+        "Comparative AS-PL versus fitted OE service life",
+        "thermal/vibration/corrosion testing",
+        "real installation diagnosis before/after"
+      ],
+      "source_ids": [
+        "as-src-001",
+        "as-src-003",
+        "as-src-005"
+      ],
+      "reason": "Cross-brand catalogue data alone cannot certify OEM donor fit or establish whole-vehicle dependability."
+    }
+  ]
+}

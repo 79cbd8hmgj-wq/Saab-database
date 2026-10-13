@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-10-13",
+  "model_recommendation": "not_yet_rankable",
+  "meaning": "Two preliminary US/CA Saab rebuilding candidates; qualitative supplier evidence is not a whole-car ranking.",
+  "candidates": [
+    {
+      "id": "ng93-b207-fwd",
+      "platform": "9-3-9440",
+      "model_years": [
+        2005,
+        2006
+      ],
+      "engine": "B207",
+      "sourcing_examples": [
+        {
+          "system": "front hub",
+          "status": "cross_brand_aftermarket",
+          "sources": [
+            "cross-src-001"
+          ]
+        },
+        {
+          "system": "coolant pump",
+          "status": "identical_service_number_GM_Saab",
+          "sources": [
+            "gmwp-src-001",
+            "gmwp-src-002"
+          ]
+        },
+        {
+          "system": "alternator",
+          "status": "cross_brand_aftermarket",
+          "sources": [
+            "as-src-001",
+            "as-src-002"
+          ]
+        },
+        {
+          "system": "starter",
+          "status": "cross_brand_aftermarket",
+          "sources": [
+            "as-src-003",
+            "as-src-004"
+          ]
+        }
+      ],
+      "unresolved": [
+        "Trionic 8 ECU longevity/security",
+        "B207 actual health",
+        "manual/automatic gearbox condition",
+        "body/structural rust",
+        "verified US replacement cost/availability",
+        "VIN option/installation"
+      ]
+    },
+    {
+      "id": "og95-b235",
+      "platform": "9-5-9600",
+      "model_years": [
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "engine": "B235",
+      "sourcing_examples": [
+        {
+          "system": "alternator",
+          "status": "saab_specific_aftermarket",
+          "sources": [
+            "as-src-005",
+            "as-src-006"
+          ]
+        },
+        {
+          "system": "automatic radiator",
+          "status": "saab_specific_aftermarket",
+          "sources": [
+            "xint-src-008"
+          ]
+        }
+      ],
+      "unresolved": [
+        "T7 DI ignition life and cost",
+        "B235 mechanical/oil history",
+        "FA57 automatic gearbox condition",
+        "wagon rust/body corrosion",
+        "shared OEM study not complete",
+        "US parts availability"
+      ]
+    }
+  ],
+  "observation": "For this small, asymmetrically researched sample the B207 9-3 has more identified cross-brand sourcing leads. This is not a proven reliability, affordability or ownership advantage.",
+  "prohibited_conclusions": [
+    "Number of catalogue matches measures reliability",
+    "Every Opel donor is physically identical",
+    "A0319's Saab-only application means the 9-5 has no general aftermarket",
+    "European Opel catalogue means US local supply",
+    "A Saab with structural rust or engine/transmission failure can be justified by parts commonality"
+  ]
+}
