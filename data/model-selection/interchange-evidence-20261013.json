@@ -79,6 +79,22 @@
           "sources": [
             "xint-src-008"
           ]
+        },
+        {
+          "system": "starter",
+          "status": "cross_brand_aftermarket",
+          "sources": [
+            "ogex-src-001",
+            "ogex-src-002"
+          ]
+        },
+        {
+          "system": "120A alternator additional variant",
+          "status": "cross_brand_aftermarket",
+          "sources": [
+            "ogex-src-003",
+            "ogex-src-004"
+          ]
         }
       ],
       "unresolved": [
@@ -86,17 +102,17 @@
         "B235 mechanical/oil history",
         "FA57 automatic gearbox condition",
         "wagon rust/body corrosion",
-        "shared OEM study not complete",
+        "Original S0034 starter and A0219/A0319 alternator VIN and connector restrictions",
         "US parts availability"
       ]
     }
   ],
-  "observation": "For this small, asymmetrically researched sample the B207 9-3 has more identified cross-brand sourcing leads. This is not a proven reliability, affordability or ownership advantage.",
+  "observation": "Follow-up AS-PL manufacturer product research now identifies both 9-3 B207 and original 9-5 B235 shared aftermarket electrical sourcing leads. Apparent earlier 9-3 lead partly reflected unequal research coverage. Neither is rankable from catalogue counts, lifetime, cost or donor equivalence.",
   "prohibited_conclusions": [
     "Number of catalogue matches measures reliability",
     "Every Opel donor is physically identical",
-    "A0319's Saab-only application means the 9-5 has no general aftermarket",
     "European Opel catalogue means US local supply",
-    "A Saab with structural rust or engine/transmission failure can be justified by parts commonality"
+    "A Saab with structural rust or engine/transmission failure can be justified by parts commonality",
+    "A0219 and A0319 are interchangeable 9-5 alternators because both have six-rib pulleys"
   ]
 }
