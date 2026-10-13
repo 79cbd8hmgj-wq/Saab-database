@@ -21,6 +21,8 @@ engines, and platforms.
   documents and what still needs measurements or engineering data.
 - [Research reports](docs/research/): detailed notes from the individual research
   domains, including contradictions and gaps.
+- [Source-audited VIN, gearbox and WebEPC provenance](docs/research/vin-gearbox-provenance.md):
+  independent MY2005/08 9-3 VIN codes, 9-5 WIS year-table conflicts, 9-5 vs 9-3 FA57 and TCM adaptation, and VIN-specific part-fitment evidence gates.
 - [High-cost powertrain diagnosis](docs/research/high-cost-powertrain-diagnostics.md):
   original 9-5 B205/B235 oil-pressure, pickup and bearing-damage screening; 9-3 B207 cold compression; early FA57 coolant-in-ATF.
 - [MY2006/08 B235R oil and PCV revision evidence](docs/research/b235r-oil-pcv-2006-2008.md):
@@ -47,8 +49,8 @@ engines, and platforms.
   North American specifications, WIS conflicts and source limits.
 - [Datasets](data/datasets/): structured JSON with source IDs and original links.
 
-As of October 12, 2026 the database contains **320 source records, 657 factual
-records, 36 issue records, 64 part records, and 138 explicit gaps** across nineteen
+As of October 12, 2026 the database contains **334 source records, 686 factual
+records, 38 issue records, 64 part records, and 147 explicit gaps** across twenty
 research domains. This is not a completeness score.
 See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
 

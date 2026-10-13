@@ -1,0 +1,1206 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "vin_gearbox_provenance",
+  "sources": [
+    {
+      "id": "vinfit-src-001",
+      "title": "MY2005 9-3 9440 factory VIN positions and gearbox/engine codes",
+      "url": "https://saabwisonline.com/9-3-9440/2005/0-general/general/technical-data/vin-vehicle-identification-number",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Record applies only to stated year/platform/context. Text/code examples are not proof of actual car identity or installed hardware."
+    },
+    {
+      "id": "vinfit-src-002",
+      "title": "MY2008 9-3 9440 factory VIN positions and detailed B207 code mapping",
+      "url": "https://saabwisonline.com/9-3-9440/2008/0-general/general/technical-data/vin-vehicle-identification-number",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Record applies only to stated year/platform/context. Text/code examples are not proof of actual car identity or installed hardware."
+    },
+    {
+      "id": "vinfit-src-003",
+      "title": "MY2005 9-5 9600 VIN page showing MY2004 as last year entry",
+      "url": "https://saabwisonline.com/9-5-9600/2005/0-general/general/technical-data/vin-vehicle-identification-number",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "CRITICAL: mirror MY2005 directory contains MY1998–2004 model-year mapping and therefore does not independently validate MY2005 decode."
+    },
+    {
+      "id": "vinfit-src-004",
+      "title": "MY2007 9-5 9600 VIN page displaying 2010 code and later configurations",
+      "url": "https://saabwisonline.com/9-5-9600/2007/0-general/general/technical-data/vin-vehicle-identification-number",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "CRITICAL: MY2007 directory content actually lists A=2010, later trim/5-door codes; treat as a cross-year source mismatch, not correct 2007 decoder."
+    },
+    {
+      "id": "vinfit-src-005",
+      "title": "MY2006 9-5 factory plates and identification locations",
+      "url": "https://saabwisonline.com/9-5-9600/2006/0-general/general/technical-data/plates-and-labels",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Record applies only to stated year/platform/context. Text/code examples are not proof of actual car identity or installed hardware."
+    },
+    {
+      "id": "vinfit-src-006",
+      "title": "MY2007 9-5 FA57 automatic type designation and adaptation code",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/technical-data/type-designation",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Record applies only to stated year/platform/context. Text/code examples are not proof of actual car identity or installed hardware."
+    },
+    {
+      "id": "vinfit-src-007",
+      "title": "MY2005 9-3 FA57 automatic type designation and engine adaptation code",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/type-designations",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Record applies only to stated year/platform/context. Text/code examples are not proof of actual car identity or installed hardware."
+    },
+    {
+      "id": "vinfit-src-008",
+      "title": "MY2006 9-5 manual gearbox type code with internal FM55/FM57 discrepancy",
+      "url": "https://saabwisonline.com/9-5-9600/2006/4-transmission/manual-gearbox/technical-data/type-designation",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Record applies only to stated year/platform/context. Text/code examples are not proof of actual car identity or installed hardware."
+    },
+    {
+      "id": "vinfit-src-009",
+      "title": "MY2005 9-3 five-speed manual gearbox type designation",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/manual-gearbox/5-speed/technical-data/type-designation",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Record applies only to stated year/platform/context. Text/code examples are not proof of actual car identity or installed hardware."
+    },
+    {
+      "id": "vinfit-src-010",
+      "title": "MY2005 9-5 FA57 TCM engine type code",
+      "url": "https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/technical-data/control-module",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Record applies only to stated year/platform/context. Text/code examples are not proof of actual car identity or installed hardware."
+    },
+    {
+      "id": "vinfit-src-011",
+      "title": "MY2005 9-3 AF40 6-speed automatic separate type designation",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/6-speed-af-40/technical-data/type-designations",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Record applies only to stated year/platform/context. Text/code examples are not proof of actual car identity or installed hardware."
+    },
+    {
+      "id": "vinfit-src-012",
+      "title": "Official Saab Parts WebEPC VIN/build filtering and supersession capabilities",
+      "url": "https://saabparts.com/saab-subscription-services",
+      "publisher": "Saab Parts (Hedin Parts), official catalogue platform",
+      "source_type": "technical_reference",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Official Saab subscription service describes supported feature, but no VIN was entered and no manufacturer EPC parts fitment was retrieved."
+    },
+    {
+      "id": "vinfit-src-013",
+      "title": "MY2007 9-3 TIS service programming system VIN/variant confirmation",
+      "url": "https://saabwisonline.com/9-3-9440/2007/0-general/tis-2000/technical-description/service-programming-system",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Record applies only to stated year/platform/context. Text/code examples are not proof of actual car identity or installed hardware."
+    },
+    {
+      "id": "vinfit-src-014",
+      "title": "MY2005 9-3 FA57 TCM connector pins and electrical grounds",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-description/tcm-fa-57-502a",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Record applies only to stated year/platform/context. Text/code examples are not proof of actual car identity or installed hardware."
+    }
+  ],
+  "facts": [
+    {
+      "id": "vinfit-fact-001",
+      "subject": "VIN:9440:2005",
+      "category": "identity",
+      "predicate": "VIN_product_line_position_4",
+      "value": "F identifies Saab 9-3",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VIN table: position 4",
+      "notes": "Valid for MY2005 factory table, not automatically for all years."
+    },
+    {
+      "id": "vinfit-fact-002",
+      "subject": "VIN:9440:2005",
+      "category": "identity",
+      "predicate": "VIN_body_position_6",
+      "value": {
+        "4": "4-door",
+        "7": "Convertible"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VIN table: position 6",
+      "notes": "MY2005 9440 source; SportCombi later model-year additions must not be presumed here."
+    },
+    {
+      "id": "vinfit-fact-003",
+      "subject": "VIN:9440:2005",
+      "category": "identity",
+      "predicate": "VIN_gearbox_position_7",
+      "value": {
+        "1": "6-speed automatic",
+        "5": "5-speed manual",
+        "6": "6-speed manual",
+        "9": "5-speed automatic"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VIN table: position 7",
+      "notes": "A nominal gearbox family not proof that the original transmission is still installed."
+    },
+    {
+      "id": "vinfit-fact-004",
+      "subject": "VIN:9440:2005",
+      "category": "identity",
+      "predicate": "VIN_engine_marketing_position_8",
+      "value": {
+        "B": "1.8i",
+        "F": "1.8t",
+        "S": "2.0t",
+        "Y": "2.0 Turbo",
+        "V": "1.9 diesel 8-valve",
+        "W": "1.9 diesel 16-valve"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VIN table: position 8",
+      "notes": "This MY2005 table uses marketing labels; do not infer B207E/L/R for F/S/Y from this page alone."
+    },
+    {
+      "id": "vinfit-fact-005",
+      "subject": "VIN:9440:2005",
+      "category": "identity",
+      "predicate": "VIN_year_position_10",
+      "value": {
+        "5": 2005
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VIN table: position 10",
+      "notes": "The example row itself shows a different value at position 10; follow the explicit decoded table, flag the example inconsistency."
+    },
+    {
+      "id": "vinfit-fact-006",
+      "subject": "VIN:9440:2005",
+      "category": "source_quality",
+      "predicate": "VIN_example_conflict",
+      "value": {
+        "illustrative_row_year_character": "3",
+        "table_year_character": "5",
+        "document_directory_year": 2005
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VIN example row versus Position 10",
+      "notes": "Do not treat the sample VIN as a MY2005 actual vehicle or a complete VIN validator."
+    },
+    {
+      "id": "vinfit-fact-007",
+      "subject": "VIN:9440:2008",
+      "category": "identity",
+      "predicate": "VIN_body_position_6",
+      "value": {
+        "4": "4-door",
+        "5": "5-door",
+        "7": "convertible"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VIN table position 6",
+      "notes": "MY2008 independently lists 5-door body omitted from MY2005 mapping."
+    },
+    {
+      "id": "vinfit-fact-008",
+      "subject": "VIN:9440:2008",
+      "category": "identity",
+      "predicate": "VIN_gearbox_position_7",
+      "value": {
+        "1": "6-speed automatic FWD",
+        "2": "6-speed automatic AWD",
+        "5": "5-speed manual FWD",
+        "6": "6-speed manual FWD",
+        "7": "6-speed manual AWD",
+        "9": "5-speed automatic FWD"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VIN table position 7",
+      "notes": "AWD variants and automatic count exist in this source; do not transfer to 2005."
+    },
+    {
+      "id": "vinfit-fact-009",
+      "subject": "VIN:9440:2008",
+      "category": "identity",
+      "predicate": "VIN_B207_engine_position_8",
+      "value": {
+        "F": "B207E",
+        "S": "B207L",
+        "Y": "B207R"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VIN table position 8",
+      "notes": "MY2008 B207 engine code is explicitly tied to F/S/Y; don't use these codes for MY2005 without confirming independent source."
+    },
+    {
+      "id": "vinfit-fact-010",
+      "subject": "VIN:9440:2008",
+      "category": "identity",
+      "predicate": "VIN_other_petrol_engine_position_8",
+      "value": {
+        "B": "Z18XE",
+        "R": "B284R",
+        "U": "B284L"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VIN table position 8",
+      "notes": "Separates naturally aspirated 1.8 and V6 from B207; not an indication of plug-in mechanical interchange."
+    },
+    {
+      "id": "vinfit-fact-011",
+      "subject": "VIN:9440:2008",
+      "category": "identity",
+      "predicate": "VIN_year_position_10",
+      "value": {
+        "8": 2008
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VIN table position 10",
+      "notes": "Only MY2008 year code verified from this year-scoped page."
+    },
+    {
+      "id": "vinfit-fact-012",
+      "subject": "VIN:9440:2008",
+      "category": "identity",
+      "predicate": "VIN_manufacture_position_11",
+      "value": {
+        "1": "Trollhättan",
+        "6": "Graz"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VIN table position 11",
+      "notes": "Place identifier, not proof of a current installed powertrain."
+    },
+    {
+      "id": "vinfit-fact-013",
+      "subject": "VIN:9600:2005-directory",
+      "category": "source_quality",
+      "predicate": "VIN_stale_year_list",
+      "value": {
+        "directory_model_year": 2005,
+        "latest_year_shown": 2004,
+        "last_year_code": "4"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VIN table Position 10",
+      "notes": "Reject as stand-alone decoder for MY2005. It may be a carried-over prior-year table in the independently maintained mirror."
+    },
+    {
+      "id": "vinfit-fact-014",
+      "subject": "VIN:9600:2005-directory",
+      "category": "source_quality",
+      "predicate": "VIN_historical_engine_code_table",
+      "value": {
+        "A": "B235L",
+        "C": "B205E",
+        "E": "B235E",
+        "G": "B235R"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VIN table Position 8",
+      "notes": "Historical code labels are printed on a MY2005 URL whose year column ends at MY2004. Not certified for MY2005 or later."
+    },
+    {
+      "id": "vinfit-fact-015",
+      "subject": "VIN:9600:2007-directory",
+      "category": "source_quality",
+      "predicate": "VIN_year_page_mismatch",
+      "value": {
+        "directory_model_year": 2007,
+        "VIN_year_character": "A",
+        "VIN_year_mapping": 2010,
+        "body_only": "5-door",
+        "trim_symbols": [
+          "K",
+          "L"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VIN table positions 5,6,10",
+      "notes": "Reject for MY2007 VIN decoding. This explicit conflicting source must not be silently reconciled."
+    },
+    {
+      "id": "vinfit-fact-016",
+      "subject": "Vehicle ID:9600",
+      "category": "identity",
+      "predicate": "factory_identification_locations",
+      "value": [
+        "VIN through windscreen",
+        "body-stamped VIN",
+        "VIN plate",
+        "engine number",
+        "gearbox number",
+        "body/trim and tyre-pressure label"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Plates and labels > numbered list",
+      "notes": "Original primary ID observations can be compared; a replaced engine or gearbox may no longer match original VIN build."
+    },
+    {
+      "id": "vinfit-fact-017",
+      "subject": "Gearbox:9600:FA57",
+      "category": "identity",
+      "predicate": "FA57_gearbox_type_example",
+      "value": {
+        "factory_example": "FA57 C01 97CV00101",
+        "group2_adaptation": "C",
+        "group2_development": "01",
+        "group3_manufacture": "97CV00101",
+        "type_symbol": "V"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Type designation > Groups 1–3",
+      "notes": "Example encodes manufacture in 1997; it is illustrative, not evidence that a MY2007 car was originally built in 1997."
+    },
+    {
+      "id": "vinfit-fact-018",
+      "subject": "Gearbox:9440:FA57",
+      "category": "identity",
+      "predicate": "FA57_gearbox_type_example",
+      "value": {
+        "factory_example": "FA57 1 01 03CV12345",
+        "adaptation": "1 means B207E/L/R",
+        "development": "01",
+        "manufacture_example": "03CV12345"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Type designations > Gearbox",
+      "notes": "Shared FA57 label with original 9-5 does NOT establish common bellhousing, torque converter, case, TCM or software compatibility."
+    },
+    {
+      "id": "vinfit-fact-019",
+      "subject": "Gearbox:9600:FA57",
+      "category": "identity",
+      "predicate": "FA57_month_code",
+      "value": {
+        "A": "Jan",
+        "B": "Feb",
+        "C": "Mar",
+        "D": "Apr",
+        "E": "May",
+        "F": "Jun",
+        "G": "Jul",
+        "H": "Aug",
+        "J": "Sep",
+        "K": "Oct",
+        "L": "Nov",
+        "M": "Dec"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Third group date code",
+      "notes": "No I month code. Serial production date is not model-year VIN date."
+    },
+    {
+      "id": "vinfit-fact-020",
+      "subject": "Gearbox:9440:FA57",
+      "category": "identity",
+      "predicate": "FA57_month_code",
+      "value": {
+        "A": "Jan",
+        "B": "Feb",
+        "C": "Mar",
+        "D": "Apr",
+        "E": "May",
+        "F": "Jun",
+        "G": "Jul",
+        "H": "Aug",
+        "J": "Sep",
+        "K": "Oct",
+        "L": "Nov",
+        "M": "Dec"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Third group manufacturing month",
+      "notes": "Same alphabet convention but distinct adaptation group and no interchange implication."
+    },
+    {
+      "id": "vinfit-fact-021",
+      "subject": "Gearbox:9600:manual",
+      "category": "source_quality",
+      "predicate": "manual_type_example_and_source_discrepancy",
+      "value": {
+        "example": "FM55 B01 A12345",
+        "first_group_heading": "FM57",
+        "development": "01",
+        "engine_adaptation_letter": "B"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "transmission_codes": [
+          "manual"
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Type designation > first group / second group",
+      "notes": "Factory-mirror document itself says FM55 in example but FM57 in heading; do not silently correct the type code."
+    },
+    {
+      "id": "vinfit-fact-022",
+      "subject": "Gearbox:9600:manual",
+      "category": "identity",
+      "predicate": "manual_adaptation_scope",
+      "value": {
+        "B": "B205E, B235E, B235R",
+        "first_group_F": "FWD",
+        "first_group_M": "manual"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "transmission_codes": [
+          "manual"
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Type designation > Second group",
+      "notes": "Says applicable engine categories, not all examples/units are approved to swap without final ratio/revisions."
+    },
+    {
+      "id": "vinfit-fact-023",
+      "subject": "Gearbox:9440:manual",
+      "category": "source_quality",
+      "predicate": "manual_type_example_and_internal_conflict",
+      "value": {
+        "example": "FM55 B05 A12345",
+        "adaptation_note": "B means 9-5; 1 means 9-3",
+        "second_group_example": "B05",
+        "development_mentioned": "06"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "5MT"
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Type designation > Example / Second group",
+      "notes": "Source contains 3/4 groups inconsistency and a B code example despite 9-3 adaptation note; don't use the example to approve 9-3 transmission fit."
+    },
+    {
+      "id": "vinfit-fact-024",
+      "subject": "TCM:9600:FA57",
+      "category": "identity",
+      "predicate": "tcm_engine_letter_mapping",
+      "value": {
+        "E": "D223L",
+        "F": "B205E",
+        "G": "B235E",
+        "H": "B235R",
+        "I": "B308E"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Control module > Type designation > First code",
+      "notes": "Applies to 2005 9-5 TCM label scheme; not valid for 9-3 TCM."
+    },
+    {
+      "id": "vinfit-fact-025",
+      "subject": "TCM:9440:FA57",
+      "category": "identity",
+      "predicate": "tcm_engine_letter_mapping",
+      "value": {
+        "J": "B207L",
+        "K": "B207R",
+        "L": "B207E"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Type designations > Control module",
+      "notes": "Distinct factory 9-3 FA57 TCM coding; matching FA57 shell is not electronic or programming compatibility."
+    },
+    {
+      "id": "vinfit-fact-026",
+      "subject": "TCM:9440:FA57",
+      "category": "identity",
+      "predicate": "tcm_documented_chassis_ground_and_supplies",
+      "value": {
+        "battery_plus_30": [
+          "33(A)"
+        ],
+        "ignition_plus_15": [
+          "31(A)",
+          "22(A)"
+        ],
+        "ground": [
+          "32(A)",
+          "23(A)"
+        ],
+        "ground_point": "G33T"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "TCM FA57 502a > power supply",
+      "notes": "Source-specific 2005 9-3 TCM pin references; do not transplant into 9-5 wiring or different TCM."
+    },
+    {
+      "id": "vinfit-fact-027",
+      "subject": "Gearbox:9440:AF40",
+      "category": "identity",
+      "predicate": "separate_six_speed_automatic_identity",
+      "value": {
+        "model": "AF40",
+        "aisin": "TF-80SC",
+        "example_model_code": "PD",
+        "separate_from": "FA57"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "AF40"
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Type designations > Gearbox",
+      "notes": "The FA57 and AF40 are different documented transmission types; AF40 year page alone does not establish every MY2005 B207 application."
+    },
+    {
+      "id": "vinfit-fact-028",
+      "subject": "Factory:Saab-WebEPC",
+      "category": "source_method",
+      "predicate": "vin_filtered_part_evidence_required",
+      "value": {
+        "vin_or_build_filter": true,
+        "applicability_comments": true,
+        "factory_supersession_chains": true
+      },
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "vinfit-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Saab WebEPC service description",
+      "notes": "Feature evidence only. No actual VIN-specific fitment or OEM supersession result obtained."
+    },
+    {
+      "id": "vinfit-fact-029",
+      "subject": "Service:9440:TIS2000",
+      "category": "source_method",
+      "predicate": "module_programming_vin_variant_crosscheck",
+      "value": {
+        "VIN_displayed": true,
+        "vehicle_data": [
+          "make",
+          "model",
+          "model year",
+          "engine variant",
+          "transmission variant",
+          "system designation"
+        ],
+        "module_summary": [
+          "hardware number",
+          "current software part number",
+          "selected software part number"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "vinfit-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Service Programming System steps 4–7",
+      "notes": "This documents read-out and confirmation, not authorization to flash, pair, swap or bypass security."
+    }
+  ],
+  "issues": [
+    {
+      "id": "vinfit-issue-001",
+      "title": "Misleading mirrored 9-5 VIN table in MY2007 page",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "cause": "The factory-authored-looking table under WIS MY2007 displays A=2010 and 5-door-only/late trim fields, inconsistent with the year directory.",
+      "symptoms": [
+        "2007 seller VIN does not match online WIS year/trim table",
+        "conflicting body or gearbox decode"
+      ],
+      "diagnosis_summary": "Treat year-directory VIN table as out of scope; inspect stamped actual VIN, documentation, independent year-correct factory VIN guide, Saab WebEPC build record and engine/gearbox stamping.",
+      "correction_summary": "Record source-year conflict and defer any part selection until the actual car's complete identity and manufacturer fitment evidence are verified.",
+      "source_ids": [
+        "vinfit-src-004",
+        "vinfit-src-005",
+        "vinfit-src-012"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Does not prove the car VIN is invalid or counterfeit.",
+        "Do not infer the 2010 codes are MY2007 codes.",
+        "No automatic VIN decoder or part interchange approved."
+      ]
+    },
+    {
+      "id": "vinfit-issue-002",
+      "title": "Shared FA57 name conceals platform-specific transmission and TCM identification",
+      "applicability": {
+        "groups": [
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2007
+            ],
+            "transmission_codes": [
+              "FA57"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2005
+            ],
+            "transmission_codes": [
+              "FA57"
+            ]
+          }
+        ]
+      },
+      "cause": "Saab sources assign different engine-adaptation codes to 9-5 and 9-3 FA57 examples, and different TCM engine-letter tables.",
+      "symptoms": [
+        "used gearbox advert says FA57 fits both 9-5 and 9-3",
+        "donor gearbox offered solely on five-speed description",
+        "TCM part appears visually similar"
+      ],
+      "diagnosis_summary": "Compare original VIN/build, gearbox stamping groups, engine/bellhousing, final drive, torque converter, harness connector and TCM hardware/software by original WebEPC and WIS.",
+      "correction_summary": "Require explicit manufacturer supersession/application evidence or independent dimensional/system testing before any approved replacement listing.",
+      "source_ids": [
+        "vinfit-src-006",
+        "vinfit-src-007",
+        "vinfit-src-010",
+        "vinfit-src-012"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Different code examples do not, by themselves, conclusively establish mechanical incompatibility.",
+        "Same transmission family name is not evidence of cross-platform fitment.",
+        "Never rely solely on model year or a merchant listing."
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "vinfit-gap-001",
+      "title": "Correct 9-5 MY2005–09 VIN code tables",
+      "missing_inputs": [
+        "Find independently year-correct official VIN bulletins, US/CA owner manuals or dated Saab manufacturer VIN guides for MY2005–09; the existing WIS 2005/2007 mirror table contents lag or lead their directory year."
+      ],
+      "reason": "Factory directory code table or label example is not a vehicle-level fitment authorization; missing data must remain unresolved.",
+      "source_ids": [
+        "vinfit-src-003",
+        "vinfit-src-004",
+        "vinfit-src-005"
+      ]
+    },
+    {
+      "id": "vinfit-gap-002",
+      "title": "2005 9-3 sample VIN year-character inconsistency",
+      "missing_inputs": [
+        "Determine whether MY2005 Saab VIN page example was inherited from older year despite MY2005 explicit year table. Do not correct the example by guess."
+      ],
+      "reason": "Factory directory code table or label example is not a vehicle-level fitment authorization; missing data must remain unresolved.",
+      "source_ids": [
+        "vinfit-src-001"
+      ]
+    },
+    {
+      "id": "vinfit-gap-003",
+      "title": "2006 9-3 VIN source unverified",
+      "missing_inputs": [
+        "Retrieve independent MY2006 source including B207 engine marketing mapping, SportCombi body code and manual/automatic labels."
+      ],
+      "reason": "Factory directory code table or label example is not a vehicle-level fitment authorization; missing data must remain unresolved.",
+      "source_ids": [
+        "vinfit-src-001",
+        "vinfit-src-002"
+      ]
+    },
+    {
+      "id": "vinfit-gap-004",
+      "title": "2005–09 9-5 transmission and TCM installed tag readout",
+      "missing_inputs": [
+        "Obtain actual physical gearbox serial and TCM hardware/firmware for individual cars; code examples and VIN year alone do not validate replacements."
+      ],
+      "reason": "Factory directory code table or label example is not a vehicle-level fitment authorization; missing data must remain unresolved.",
+      "source_ids": [
+        "vinfit-src-006",
+        "vinfit-src-010",
+        "vinfit-src-012"
+      ]
+    },
+    {
+      "id": "vinfit-gap-005",
+      "title": "9-5 FM55/FM57 and 9-3 manual type example conflicts",
+      "missing_inputs": [
+        "Resolve contradictory sample/heading and second-group adaptation text against photographed cast/stamped gearboxes and original revision-controlled factory documents."
+      ],
+      "reason": "Factory directory code table or label example is not a vehicle-level fitment authorization; missing data must remain unresolved.",
+      "source_ids": [
+        "vinfit-src-008",
+        "vinfit-src-009"
+      ]
+    },
+    {
+      "id": "vinfit-gap-006",
+      "title": "Manufacturer original WebEPC fitment and supersession records",
+      "missing_inputs": [
+        "For a known vehicle VIN and donor part, obtain assembly-group diagram, original OE number, VIN/engine option fitment comments, one-way NLS supersession path and required hardware."
+      ],
+      "reason": "Factory directory code table or label example is not a vehicle-level fitment authorization; missing data must remain unresolved.",
+      "source_ids": [
+        "vinfit-src-012"
+      ]
+    },
+    {
+      "id": "vinfit-gap-007",
+      "title": "Transmission cross-platform mechanical interchange tests",
+      "missing_inputs": [
+        "Before approving FA57 9-5 versus 9-3 donor options, independently validate full OEM catalogue identity, splines, cases, mount geometry, final ratio, torque converter, hydraulics, CAN/TCM and programming."
+      ],
+      "reason": "Factory directory code table or label example is not a vehicle-level fitment authorization; missing data must remain unresolved.",
+      "source_ids": [
+        "vinfit-src-006",
+        "vinfit-src-007",
+        "vinfit-src-010",
+        "vinfit-src-012"
+      ]
+    },
+    {
+      "id": "vinfit-gap-008",
+      "title": "Manufacture date vs model-year and replacement history",
+      "missing_inputs": [
+        "Record when the actual vehicle, transmission and engine were produced, installed, swapped or repaired; no manufacturing-code example should override physical tags."
+      ],
+      "reason": "Factory directory code table or label example is not a vehicle-level fitment authorization; missing data must remain unresolved.",
+      "source_ids": [
+        "vinfit-src-005",
+        "vinfit-src-006",
+        "vinfit-src-007"
+      ]
+    },
+    {
+      "id": "vinfit-gap-009",
+      "title": "Vehicle original option/electrical module programming compatibility",
+      "missing_inputs": [
+        "Collect year/market-specific original build options and installed ECU/TCM hardware and software IDs without assuming SPS/TIS programming or security access for another car."
+      ],
+      "reason": "Factory directory code table or label example is not a vehicle-level fitment authorization; missing data must remain unresolved.",
+      "source_ids": [
+        "vinfit-src-013",
+        "vinfit-src-012",
+        "vinfit-src-014"
+      ]
+    }
+  ]
+}

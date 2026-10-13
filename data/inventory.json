@@ -19,27 +19,28 @@
     "og95_t7_electrical",
     "replacements",
     "simulation",
-    "subframe_parts_brake_lines"
+    "subframe_parts_brake_lines",
+    "vin_gearbox_provenance"
   ],
   "counts": {
-    "sources": 320,
-    "facts": 657,
-    "issues": 36,
+    "sources": 334,
+    "facts": 686,
+    "issues": 38,
     "parts": 64,
-    "gaps": 138
+    "gaps": 147
   },
-  "unique_source_urls": 300,
+  "unique_source_urls": 312,
   "retrieval_statuses": {
-    "full_text": 305,
+    "full_text": 319,
     "metadata_only": 3,
     "partial": 3,
     "search_excerpt": 9
   },
   "evidence_statuses": {
-    "documented": 687,
+    "documented": 718,
     "inference": 5,
     "supplier_claim": 65
   },
   "research_date": "2026-10-12",
-  "notes": "MY2006 four-cylinder petrol lubrication pressure and refill table independently sourced; MY2008 US/Canada 2.3 Turbo Ecopower oil-change and severe-duty schedule verified; MY2008 petrol WIS lubrication table remains metadata-only. PCV supplier identities and 12755243/55558696 association are NOT manufacturer-approved interchangeable fitments."
+  "notes": "VIN and transmission source audit: MY2007 9-5 VIN mirror table actually labels 2010; MY2005 9-5 table ends 2004. 2005/2008 NG9-3 VIN tables are separately scoped. OG 9-5 and NG 9-3 FA57 have different factory adaptation/TCM codes; no interchange approved. Actual Saab WebEPC VIN-filtered results not obtained."
 }
