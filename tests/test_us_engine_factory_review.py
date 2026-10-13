@@ -112,7 +112,7 @@ class USEngineFactoryReviewTests(unittest.TestCase):
             self.assertTrue(topic["decision_rule"])
             for sid in topic["source_ids"]:
                 self.assertIn(sid, self.source_map)
-        self.assertIn("not", self.data["factory_certification"])
+        self.assertIn("no_original_candidate_VINs_checked", self.data["factory_certification"])
 
 
 if __name__ == "__main__":
