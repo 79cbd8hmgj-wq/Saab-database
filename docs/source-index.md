@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 536 source records with 472 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 542 source records with 478 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -527,6 +527,19 @@ Dataset: [b235r_oil_pcv_2006_2008](../data/datasets/b235r-oil-pcv-2006-2008.json
 | `b235rev-src-015` | [eSaabParts 55557709 oil trap hose listing](https://www.esaabparts.com/saab/parts/55557709) | eSaabParts (independent supplier catalogue) | `full_text` |
 | `b235rev-src-016` | [eSaabParts 213452433 complete aftermarket PCV kit bill of materials](https://www.esaabparts.com/saab/parts/213452433) | eSaabParts (independent supplier catalogue) | `full_text` |
 | `b235rev-src-017` | [MY2008 US/Canada manual page 254 maintenance schedule](https://www.manualsdir.com/manuals/746387/saab-2008-9-5.html?page=254) | Saab Automobile AB (factory-authored information mirrored online) | `full_text` |
+
+## t7_t8_repair_support_model_choice
+
+Dataset: [t7_t8_repair_support_model_choice](../data/datasets/t7-t8-repair-support-model-choice.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `elec-src-001` | [Saab Parts Hedin current Trionic 7 ignition cassette 32022255](https://saabparts.com/product/HP32022255) | Saab Parts/Hedin | `full_text` |
+| `elec-src-002` | [Saab MY2008 original 9-5 Trionic T7 ignition discharge module repair](https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/adjustment-replacement/ignition-discharge-module) | Saab Automobile AB original WIS mirrored by SaabWISOnline | `full_text` |
+| `elec-src-003` | [Velectronix 2003–2011 Saab 9-3 T8 ECM cloning service conditions](https://velectronix.com/products/2003-2011-saab-9-3-2-0l-ecm-clone-programming-service) | Velectronix module service vendor | `full_text` |
+| `elec-src-004` | [Modern Classic Saab 9-3 Trionic 8 cloning quote, donor conditions](https://www.modernclassicsaab.com/products/p/trionic-8-t8-cloning-service) | Modern Classic SAAB service vendor | `full_text` |
+| `elec-src-005` | [Saab MY2006 original 9-3 T8 ECM construction and safety handling](https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/engine-management-system-trionic-t8/technical-description/control-module-trionic-4-cyl-petrol-589) | Saab Automobile AB original WIS mirrored by SaabWISOnline | `full_text` |
+| `elec-src-006` | [Saab MY2006 original B207 Trionic T8 module location, front on engine](https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/engine-management-system-trionic-t8/location-of-components/control-module-trionic-b207-switch-b-589b) | Saab Automobile AB original WIS mirrored by SaabWISOnline | `full_text` |
 
 ## vin_gearbox_provenance
 
