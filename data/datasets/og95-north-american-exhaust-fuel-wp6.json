@@ -1,0 +1,596 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "og95_north_american_exhaust_fuel_wp6",
+  "sources": [
+    {
+      "id": "wp6-src-001",
+      "title": "Factory 2008 9-5 Trionic four-cylinder intake turbo exhaust system diagram",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/technical-description/system-diagram-intake-turbo-exhaust-4-cyl",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS, mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory page enumerates primary and main converters, purge valve and canister; year directory alone is not US/CA emissions homologation proof."
+    },
+    {
+      "id": "wp6-src-002",
+      "title": "Factory 2008 9-5 B235E/R front exhaust system with catalytic converters",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/exhaust-system/adjustment-replacement/front-exhaust-system-with-catalytic-converters-b235e-r",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS, mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Original B235E/R named procedure; no illustrated factory OE part number or US certification application in this page."
+    },
+    {
+      "id": "wp6-src-003",
+      "title": "Factory 2008 9-5 four-cylinder T7 oxygen sensor wiring locations",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/wiring-diagram/trionic-t7-engine-management-system-4-cyl-part-4-4",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS, mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Names front sensor 592Fa and rear sensor 592Ra; no sensor manufacturer-approved interchange."
+    },
+    {
+      "id": "wp6-src-004",
+      "title": "Factory 2008 9-5 heated oxygen sensor 2 technical data",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/technical-data/heated-oxygen-sensor-2-after-catalytic-converter-592ra",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS, mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "search_excerpt",
+      "notes": "Full text available from search result; specifies Bosch LSF 4.7, 0-1 V control and connector contact cleaner prohibition; no OE number."
+    },
+    {
+      "id": "wp6-src-005",
+      "title": "Factory 2008 9-5 Trionic 7 tank vapor purging and leak diagnosis",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/technical-description/purging",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS, mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Detailed vapour route, purge/closure valves, differential pressure and P0441/P0442/P0455/P0456 outcomes; fitted hardware remains market/equipment conditional."
+    },
+    {
+      "id": "wp6-src-006",
+      "title": "Factory 2008 9-5 fuel pressure, intake integrity and adaptation diagnostic checklist",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/adjustment-replacement/leak-check-fuel-pressure-flow-capacity-and-adaptation-procedures",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS, mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Conditional qualified running-car tests with gauges, fuel hazards, intact intake and 3 bar fuel/manifold pressure differential; unsuitable for untested parked non-runner."
+    },
+    {
+      "id": "wp6-src-007",
+      "title": "NYSDEC New York catalytic converter compliance and replacement guidance",
+      "url": "https://dec.ny.gov/environmental-protection/air-quality/controlling-motor-vehicle-pollution",
+      "source_type": "regulator_record",
+      "publisher": "New York State Department of Environmental Conservation",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "State rules prohibit used/recycled/salvaged converter sale/installation; CARB-approved replacement applicability depends on the original emissions-certification family, year and current rules."
+    },
+    {
+      "id": "wp6-src-008",
+      "title": "Factory 2008 9-5 Trionic 7 DTC P0138 sensor 2 electrical diagnosis",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/fault-diagnosis-diagnostic-trouble-codes/p0138",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS, mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Electrical diagnostic for downstream oxygen sensor high voltage; does not diagnose a physical exhaust restriction."
+    }
+  ],
+  "facts": [
+    {
+      "id": "wp6-fact-001",
+      "subject": "exhaust:og95-b235",
+      "category": "emissions",
+      "predicate": "original_exhaust_stages",
+      "value": [
+        "primary catalytic converter",
+        "main catalytic converter",
+        "front silencer",
+        "rear silencer"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "wp6-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "System diagram items 20–23",
+      "notes": "Diagram of 2008 factory WIS system, not proof of exact installed US/Canada certified part numbers."
+    },
+    {
+      "id": "wp6-fact-002",
+      "subject": "exhaust:og95-b235",
+      "category": "emissions",
+      "predicate": "front_exhaust_assembly_contains_catalytic_converters",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "wp6-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Front exhaust system with catalytic converters B235E/R",
+      "notes": "Includes turbo/front joint and oxygen sensor removal, not a verified drop-in assembly number."
+    },
+    {
+      "id": "wp6-fact-003",
+      "subject": "exhaust:og95-b235",
+      "category": "emissions",
+      "predicate": "front_flexible_section_max_permitted_out_of_line_angle",
+      "value": 5,
+      "unit": "degree",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "wp6-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "To remove > Important",
+      "notes": "Factory procedure prohibits bending the flexible front exhaust section more than five degrees; not a DIY test invitation."
+    },
+    {
+      "id": "wp6-fact-004",
+      "subject": "sensor:og95-t7-oxygen",
+      "category": "emissions",
+      "predicate": "factory_oxygen_sensor_locations",
+      "value": {
+        "before_converter": "592Fa",
+        "after_converter": "592Ra"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "wp6-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "Wiring diagram part 4/4 list of components",
+      "notes": "Wiring diagram locations are not manufacturer part numbers, nor proof of plug-and-play sensor substitution."
+    },
+    {
+      "id": "wp6-fact-005",
+      "subject": "sensor:og95-t7-oxygen2",
+      "category": "emissions",
+      "predicate": "downstream_sensor_model",
+      "value": "Bosch LSF 4.7",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "wp6-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "Technical data > Type",
+      "notes": "Relevant search excerpt inspected; qualified identification only, not an OEM fitment number."
+    },
+    {
+      "id": "wp6-fact-006",
+      "subject": "sensor:og95-t7-oxygen2",
+      "category": "emissions",
+      "predicate": "downstream_sensor_operating_voltage_range",
+      "value": [
+        0,
+        1
+      ],
+      "unit": "V",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "wp6-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "Technical data > Control range",
+      "notes": "Do not apply as an exhaust-backpressure measurement; connector must not receive contact spray."
+    },
+    {
+      "id": "wp6-fact-007",
+      "subject": "evap:og95-t7",
+      "category": "emissions",
+      "predicate": "purge_flow_route",
+      "value": [
+        "tank vapor to charcoal canister",
+        "purge valve and non-return valve to intake manifold at vacuum",
+        "another non-return route to turbo suction when manifold pressure above ambient"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "wp6-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Purging > paragraphs 1–3",
+      "notes": "Equipment dependent; verify actual installed canister and North American certification label."
+    },
+    {
+      "id": "wp6-fact-008",
+      "subject": "evap:og95-t7",
+      "category": "emissions",
+      "predicate": "purge_valve_fault_codes",
+      "value": {
+        "P0444": "open circuit or short to ground",
+        "P0445": "short to battery voltage",
+        "P0441": "internal purge valve leakage"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "wp6-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Purging > Diagnosis",
+      "notes": "DTC meaning in original manual is not a definitive used-vehicle diagnosis; check related piping and control."
+    },
+    {
+      "id": "wp6-fact-009",
+      "subject": "evap:og95-t7",
+      "category": "emissions",
+      "predicate": "system_integrity_related_codes",
+      "value": {
+        "P0456": "very minor leakage",
+        "P0442": "minor leakage",
+        "P0455": "major leakage"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "wp6-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Purging > Integrity diagnosis",
+      "notes": "Factory describes differential pressure sensor/shut-off valve for this system; fitted configuration is source-scoped."
+    },
+    {
+      "id": "wp6-fact-010",
+      "subject": "fuel:og95-t7",
+      "category": "emissions",
+      "predicate": "fuel_pressure_above_intake_manifold_pressure",
+      "value": 3,
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "wp6-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Checking fuel pressure / flow capacity, step 18",
+      "notes": "This is a measured differential using specialist pressure gauges on safe running car; not a guaranteed static rail pressure."
+    },
+    {
+      "id": "wp6-fact-011",
+      "subject": "intake:og95-t7",
+      "category": "emissions",
+      "predicate": "controlled_intake_leak_test_maximum_pressure",
+      "value": 0.6,
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "wp6-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Leak check steps 20–33 / numbered step 13",
+      "notes": "Requires the specified Saab plug kit and regulator and qualified fuel/boost system isolation; not for seller-lot pressure improvisation."
+    },
+    {
+      "id": "wp6-fact-012",
+      "subject": "diagnostic:og95-t7",
+      "category": "emissions",
+      "predicate": "symptoms_can_occur_without_dtc",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "wp6-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Opening diagnostic paragraph",
+      "notes": "Factory calls for alternative air leaks/fuel pressure/flow assessment; a cleared/no-code scan cannot rule out mechanical or catalyst damage."
+    },
+    {
+      "id": "wp6-fact-013",
+      "subject": "regulation:ny-catalyst",
+      "category": "emissions",
+      "predicate": "salvage_replacement_catalytic_converter_prohibited",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "markets": [
+          "US-NY"
+        ]
+      },
+      "source_ids": [
+        "wp6-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "New York State DEC motor-vehicle pollution page: catalytic converter regulation",
+      "notes": "New York prohibits used, recycled and salvaged catalytic converter sales/installations; exact authorized new replacement depends on actual certification and regulations."
+    },
+    {
+      "id": "wp6-fact-014",
+      "subject": "diagnostic:og95-t7-o2-rear",
+      "category": "emissions",
+      "predicate": "P0138_diagnostic_branch",
+      "value": "high voltage downstream O2 sensor electric circuit",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "wp6-src-008"
+      ],
+      "evidence_status": "documented",
+      "locator": "P0138 > Diagnostic help",
+      "notes": "Factory identifies wiring and sensor circuit, not proof of restricted catalytic substrate; do not purchase catalyst solely from P0138."
+    }
+  ],
+  "issues": [
+    {
+      "id": "wp6-issue-001",
+      "title": "Seller-reported clogged catalyst without measured location or upstream cause",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ]
+      },
+      "cause": "Unknown until direct diagnosis: potential misfire, mixture, physical substrate failure or downstream restriction.",
+      "symptoms": [
+        "Seller describes a blocked catalytic converter",
+        "Vehicle may be non-running; no preserved freeze-frame or pressure measurement yet"
+      ],
+      "diagnosis_summary": "Record genuine VIN/emissions label, DTCs, prior misfire/fueling evidence, last running conditions, professional restriction test location and method, structural condition.",
+      "correction_summary": "No replacement authorization until restriction and root cause are measured; qualified shop quote and legal US/NY converter applicability first.",
+      "source_ids": [
+        "wp6-src-001",
+        "wp6-src-002",
+        "wp6-src-006",
+        "wp6-src-007"
+      ],
+      "evidence_status": "inference",
+      "limits": [
+        "No physical vehicle tested",
+        "No backpressure value or engine health conclusion",
+        "Does not authorize catalyst deletion or used replacement"
+      ]
+    },
+    {
+      "id": "wp6-issue-002",
+      "title": "EVAP purge leak or integrity fault can confound mixture and engine assessment",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "cause": "Factory-documented purge valve fault, EVAP system leak, shut-off valve or pressure sensor can produce differing diagnostic branches.",
+      "symptoms": [
+        "P0441 purge flow fault",
+        "P0442/P0455/P0456 evaporative system leakage",
+        "Fuel correction may be affected by active purge"
+      ],
+      "diagnosis_summary": "Preserve DTC and freeze frame, confirm equipment actually fitted and follow correct Saab T7 year-specific fault tree.",
+      "correction_summary": "Repair verified leaky hose/valve/sensor route only after controlled diagnosis; not blanket component replacement.",
+      "source_ids": [
+        "wp6-src-005",
+        "wp6-src-006"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Market/option differences are unverified",
+        "Do not open or pressurize the fuel system casually"
+      ]
+    },
+    {
+      "id": "wp6-issue-003",
+      "title": "Downstream oxygen sensor electrical code is not an exhaust restriction measurement",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "cause": "O2S 2 high voltage may arise from lead or sensor electrical fault in original P0138 manual.",
+      "symptoms": [
+        "Check engine lamp",
+        "P0138 recorded"
+      ],
+      "diagnosis_summary": "Inspect sensor connector and harness per factory diagnostics, preserving DTCs and avoiding connector spray.",
+      "correction_summary": "Correct proven wiring or sensor failure; physical catalyst restriction requires separate proof.",
+      "source_ids": [
+        "wp6-src-003",
+        "wp6-src-008"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Not evidence that converter itself is blocked",
+        "No sensor part number or VIN-approved replacement identified"
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "wp6-gap-001",
+      "title": "Actual MY2008 9-5 US/Canadian catalyst certification and OEM physical part numbers",
+      "missing_inputs": [
+        "Real VIN",
+        "underhood emissions label and engine identity",
+        "VIN-filtered WebEPC front and downstream catalyst part records",
+        "factory US/Canada build/certification differences"
+      ],
+      "reason": "WIS system diagram is not proof of US/CA individual vehicle catalyst configuration.",
+      "source_ids": [
+        "wp6-src-001",
+        "wp6-src-002",
+        "wp6-src-007"
+      ]
+    },
+    {
+      "id": "wp6-gap-002",
+      "title": "Seller's wagon measured catalyst/exhaust backpressure and causal history",
+      "missing_inputs": [
+        "Tech report with safe restriction measurement and location",
+        "past misfire/rich/oil burning diagnosis and DTC freeze frames",
+        "running/compression/oil-pressure evidence",
+        "repair estimate"
+      ],
+      "reason": "A seller's 'clogged cat' label cannot distinguish physical restriction from catalyst efficiency, fuel or engine failure.",
+      "source_ids": [
+        "wp6-src-002",
+        "wp6-src-006",
+        "wp6-src-008"
+      ]
+    },
+    {
+      "id": "wp6-gap-003",
+      "title": "MY2008 9-5 SportCombi fuel pipe routing, rust, and safety verification",
+      "missing_inputs": [
+        "Body-style-specific factory fuel/vent line routing",
+        "actual inspection of lines at rusty rear subframe pickup points",
+        "repair rules and safe tool access"
+      ],
+      "reason": "Ground-contacting fuel line or corroded body attachments require individual inspection, not deductions from a parts image.",
+      "source_ids": [
+        "wp6-src-005",
+        "wp6-src-006"
+      ]
+    },
+    {
+      "id": "wp6-gap-004",
+      "title": "NY and Canadian lawful converter replacement by certification and VIN",
+      "missing_inputs": [
+        "original emissions certification label",
+        "specific new compliant replacement manufacturer part or CARB EO",
+        "Canadian provincial rules for any actual car"
+      ],
+      "reason": "NY's rule is not a blanket claim that every model year or federal-only vehicle takes the same approved catalyst.",
+      "source_ids": [
+        "wp6-src-007"
+      ]
+    },
+    {
+      "id": "wp6-gap-005",
+      "title": "9-3 B207 MY2005-06 exhaust/EVAP component coverage remains separate",
+      "missing_inputs": [
+        "Original T8 MY2005/06 platform diagrams",
+        "USA/Canada emissions configuration",
+        "fuel test and catalyst fault trees",
+        "VIN/EPC parts verification"
+      ],
+      "reason": "This batch covers the first-priority 2008 9-5; do not leak its T7 components or tests into 9-3 Trionic 8.",
+      "source_ids": []
+    }
+  ]
+}
