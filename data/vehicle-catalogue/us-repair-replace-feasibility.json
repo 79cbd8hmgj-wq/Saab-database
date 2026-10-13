@@ -1,0 +1,1236 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-10-13",
+  "purpose": "Decision-conditioned repair vs replace feasibility, NOT failure probability, actual car diagnosis, parts approval or cost quote.",
+  "market": "US",
+  "candidate_scope": {
+    "models": [
+      "9-3",
+      "9-5"
+    ],
+    "model_years": [
+      1998,
+      2011
+    ],
+    "transmission": "factory automatic",
+    "drivetrain": "FWD",
+    "body_exclusion": [
+      "convertible"
+    ]
+  },
+  "source_production_catalogue": "data/vehicle-catalogue/us-production-normalized.json",
+  "linked_existing_research": [
+    "data/datasets/high-cost-powertrain-diagnostics.json",
+    "data/datasets/priority-nonrunning-purchase-screen.json",
+    "data/datasets/repair-vs-replace-troubleshooting.json",
+    "data/datasets/priority-structural-corrosion-inspection.json"
+  ],
+  "source_records": [
+    {
+      "id": "hcdiag-src-001",
+      "title": "US/CA TSB 210-2554 edition 3: B205/B235 sludge and chain diagnosis",
+      "url": "https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2554-ed-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine",
+      "source_file": "data/datasets/high-cost-powertrain-diagnostics.json"
+    },
+    {
+      "id": "hcdiag-src-003",
+      "title": "MY2005 four-cylinder petrol lubricating system specifications",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system",
+      "source_file": "data/datasets/high-cost-powertrain-diagnostics.json"
+    },
+    {
+      "id": "hcdiag-src-004",
+      "title": "MY2009 four-cylinder petrol lubricating system specifications",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system",
+      "source_file": "data/datasets/high-cost-powertrain-diagnostics.json"
+    },
+    {
+      "id": "hcdiag-src-005",
+      "title": "MY2005 petrol measuring oil pressure",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/measuring-oil-pressure",
+      "source_file": "data/datasets/high-cost-powertrain-diagnostics.json"
+    },
+    {
+      "id": "hcdiag-src-006",
+      "title": "MY2005 petrol oil sump in-car service",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/oil-sump-in-car",
+      "source_file": "data/datasets/high-cost-powertrain-diagnostics.json"
+    },
+    {
+      "id": "hcdiag-src-008",
+      "title": "MY2006 9-3 B207 factory engine compression test",
+      "url": "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/engine-compression-test",
+      "source_file": "data/datasets/high-cost-powertrain-diagnostics.json"
+    },
+    {
+      "id": "hcdiag-src-009",
+      "title": "MY2006 9-3 B207 general data including minimum compression",
+      "url": "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/technical-data/general-data",
+      "source_file": "data/datasets/high-cost-powertrain-diagnostics.json"
+    },
+    {
+      "id": "hcdiag-src-012",
+      "title": "Saab Parts North America / SPNA TAC cold-start intake valve advisory, 2013 reissue",
+      "url": "https://saabparts.com/us/wp-content/uploads/sites/10/2023/05/Hard-Starting-Cold-With-Engine-Stall-Misfire-and-Low-Compression-Starts-and-Runs-Normally-When-Hot-07-11-9-3-11-9-5.pdf",
+      "source_file": "data/datasets/high-cost-powertrain-diagnostics.json"
+    },
+    {
+      "id": "hcdiag-src-013",
+      "title": "AERA 2.0L turbo intake-valve face erosion technical report",
+      "url": "https://www.engineprofessional.com/TB/TB011117-1.pdf",
+      "source_file": "data/datasets/high-cost-powertrain-diagnostics.json"
+    },
+    {
+      "id": "hcdiag-src-014",
+      "title": "TA440-0702 coolant contamination in 9-3 FA57 ATF",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/bulletins-si-mi/ta440-0702-coolant-in-atf-oil",
+      "source_file": "data/datasets/high-cost-powertrain-diagnostics.json"
+    },
+    {
+      "id": "hcdiag-src-016",
+      "title": "MY2005 9-3 FA57 checking transmission fluid level",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/adjustment-replacement/checking-the-transmission-fluid-level",
+      "source_file": "data/datasets/high-cost-powertrain-diagnostics.json"
+    },
+    {
+      "id": "nrscreen-src-002",
+      "title": "Original 9-5 MY2007 B235E/R front exhaust with catalytic converters procedure",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/exhaust-system/adjustment-replacement/front-exhaust-system-with-catalytic-converters-b235e-r",
+      "source_file": "data/datasets/priority-nonrunning-purchase-screen.json"
+    },
+    {
+      "id": "nrscreen-src-003",
+      "title": "Original 9-5 MY2007 four-cylinder intake turbo exhaust system diagram",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/intake-system/technical-description/system-diagram-intake-turbo-exhaust-4-cyl",
+      "source_file": "data/datasets/priority-nonrunning-purchase-screen.json"
+    },
+    {
+      "id": "nrscreen-src-009",
+      "title": "Original 9-5 MY2005 Trionic T7 P0420 catalyst efficiency DTC",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/trionic-t7-4-cyl/fault-diagnosis-diagnostic-trouble-codes/p0420",
+      "source_file": "data/datasets/priority-nonrunning-purchase-screen.json"
+    },
+    {
+      "id": "nrscreen-src-010",
+      "title": "Original 9-5 MY2007 Trionic T7 P1301 catalyst damaging misfire",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/fault-diagnosis-diagnostic-trouble-codes/p1301",
+      "source_file": "data/datasets/priority-nonrunning-purchase-screen.json"
+    },
+    {
+      "id": "rrtriage-src-001",
+      "title": "MY2007 loose wastegate rod clip, underboost and rattling P1105",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/fault-diagnosis-fault-symptoms/low-engine-power-output-little-movement-on-the-turbo-pressure-gauge-and-rattling-from-the-turbocharger",
+      "source_file": "data/datasets/repair-vs-replace-troubleshooting.json"
+    },
+    {
+      "id": "rrtriage-src-002",
+      "title": "MY2007 turbo basic charging pressure, GT17 vs Mitsubishi",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/adjustment-replacement/checking-and-adjusting-basic-charging-pressure",
+      "source_file": "data/datasets/repair-vs-replace-troubleshooting.json"
+    },
+    {
+      "id": "rrtriage-src-003",
+      "title": "MY2007 turbo bypass diaphragm test",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/adjustment-replacement/checking-the-charge-air-bypass-valve-4-cyl",
+      "source_file": "data/datasets/repair-vs-replace-troubleshooting.json"
+    },
+    {
+      "id": "rrtriage-src-004",
+      "title": "MY2005 petrol charge air hose and intercooler leak test",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/turbocharger-system/adjustment-replacement/test-pressurization-of-the-charge-air-cooler-and-pressure-pipes-4-cyl",
+      "source_file": "data/datasets/repair-vs-replace-troubleshooting.json"
+    },
+    {
+      "id": "rrtriage-src-006",
+      "title": "MY2002-04 FA57 shift symptoms TSB 440-2497 dated October 2004",
+      "url": "https://saabwisonline.com/9-5-9600/2003/4-transmission/automatic-transmission/bulletins-si-mi/440-2497-general-fault-diagnosis-for-automatic-transmission",
+      "source_file": "data/datasets/repair-vs-replace-troubleshooting.json"
+    },
+    {
+      "id": "rrtriage-src-008",
+      "title": "MY2007 OG9-5 auto ATF level with special gauge no dipstick",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/adjustment-replacement/automatic-transmission-transmission-fluid-level-without-dipstick",
+      "source_file": "data/datasets/repair-vs-replace-troubleshooting.json"
+    },
+    {
+      "id": "rrtriage-src-011",
+      "title": "MY2007 OG9-5 auto P0748 pressure solenoid circuit",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0748",
+      "source_file": "data/datasets/repair-vs-replace-troubleshooting.json"
+    },
+    {
+      "id": "rrtriage-src-014",
+      "title": "MY2007 automatic cross-system WIS diagnostic strategy",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/fault-diagnosis-general/fault-diagnosis-strategy-for-electronic-systems",
+      "source_file": "data/datasets/repair-vs-replace-troubleshooting.json"
+    },
+    {
+      "id": "rrtriage-src-015",
+      "title": "MY2008 petrol coolant thermostat/cap temperature and pressure",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-data/temperature-pressure-limits",
+      "source_file": "data/datasets/repair-vs-replace-troubleshooting.json"
+    },
+    {
+      "id": "rrtriage-src-016",
+      "title": "MY2007 petrol thermostat service including seal and ground",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/adjustment-replacement/thermostat-4-cyl",
+      "source_file": "data/datasets/repair-vs-replace-troubleshooting.json"
+    },
+    {
+      "id": "rrtriage-src-017",
+      "title": "MY2007 OG9-5 auto replacement flush contaminated cooling fluid circuit",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/adjustment-replacement/complete-automatic-transmission",
+      "source_file": "data/datasets/repair-vs-replace-troubleshooting.json"
+    },
+    {
+      "id": "rustgate-src-001",
+      "title": "MY2006 OG 9-5 SportCombi rear-floor section and structural reinforcement",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/section-of-rear-floor-5d",
+      "source_file": "data/datasets/priority-structural-corrosion-inspection.json"
+    },
+    {
+      "id": "rustgate-src-002",
+      "title": "MY2006 OG 9-5 rear subframe captive nut piece via floor access",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/nut-piece-rear-subframe",
+      "source_file": "data/datasets/priority-structural-corrosion-inspection.json"
+    },
+    {
+      "id": "rustgate-src-003",
+      "title": "MY2006 OG 9-5 part of rear frame member sectioning boundary",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/part-of-rear-frame-member",
+      "source_file": "data/datasets/priority-structural-corrosion-inspection.json"
+    },
+    {
+      "id": "rustgate-src-005",
+      "title": "MY2006 OG 9-5 rear subframe support arm bush service",
+      "url": "https://saabwisonline.com/9-5-9600/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/bush-support-arm",
+      "source_file": "data/datasets/priority-structural-corrosion-inspection.json"
+    },
+    {
+      "id": "rustgate-src-006",
+      "title": "MY2006 OG 9-5 lifting and excluded rear axle/spare-wheel well",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/technical-data/lifting-and-attachment-points",
+      "source_file": "data/datasets/priority-structural-corrosion-inspection.json"
+    },
+    {
+      "id": "rustgate-src-007",
+      "title": "MY2008 OG 9-5 US fuel tank and feed/return/vent service safeguards",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/fuel-system-petrol/adjustment-replacement/fuel-tank-us-incl-e85",
+      "source_file": "data/datasets/priority-structural-corrosion-inspection.json"
+    },
+    {
+      "id": "rustgate-src-008",
+      "title": "MY2006 NG 9-3 rear subframe removal with brake/harness/parking cables",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/subframe",
+      "source_file": "data/datasets/priority-structural-corrosion-inspection.json"
+    },
+    {
+      "id": "rustgate-src-010",
+      "title": "MY2006 NG 9-3 B207 fuel tank and fuel-line check",
+      "url": "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/fuel-system/adjustment-replacement/fuel-tank-and-fuel-lines-check",
+      "source_file": "data/datasets/priority-structural-corrosion-inspection.json"
+    },
+    {
+      "id": "rustgate-src-011",
+      "title": "MY2006 NG 9-3 B207 fuel line underbody route / subframe clearance",
+      "url": "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/fuel-system/adjustment-replacement/fuel-lines-tank-engine-bay",
+      "source_file": "data/datasets/priority-structural-corrosion-inspection.json"
+    },
+    {
+      "id": "rustgate-src-012",
+      "title": "New York DMV passenger vehicle safety, chassis, brake and fuel leak inspection standards",
+      "url": "https://dmv.ny.gov/new-york-state-vehicle-safetyemissions-inspection-program",
+      "source_file": "data/datasets/priority-structural-corrosion-inspection.json"
+    },
+    {
+      "id": "wis-9440-af40-low-atf",
+      "title": "TA440-0902 AF40 ATF level technical advice",
+      "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/6-speed-af-40/bulletins-si-mi/ta440-0902-atf-oil-check-on-af40-6-speed-aut",
+      "source_file": "data/vehicle-catalogue/us-automatic-gearbox-evidence.json"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "us-feas-001",
+      "name": "Early B205/B235 oil sludge, pickup obstruction and bearing damage",
+      "system": "engine",
+      "applicability": {
+        "platforms": [
+          "9400",
+          "9600"
+        ],
+        "engine_codes": [
+          "B205L",
+          "B205R",
+          "B235E",
+          "B235L",
+          "B235R"
+        ],
+        "model_year_range_by_platform": {
+          "9400": [
+            1999,
+            2003
+          ],
+          "9600": [
+            1998,
+            2003
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "hcdiag-src-001",
+        "hcdiag-src-005",
+        "hcdiag-src-006"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "oil pressure lamp",
+          "lower-end knock",
+          "timing/balance chain rattling",
+          "abnormal oil pump-like low bellow"
+        ],
+        "next_evidence": [
+          "check oil condition and proper oil pressure to exact factory year if safe",
+          "inspect sump/strainer and affected bearings using Saab procedure when indicated",
+          "verify original-year timing-chain measurements and whether PCV renovation was done"
+        ],
+        "safe_to_operate_if_suspected": false
+      },
+      "repair_options": [
+        {
+          "level": "advanced_DIY_or_Saab_specialist",
+          "work": "Sensor, PCV, sump/pickup cleaning or chain service only after verified cause and bearing health",
+          "requires": [
+            "safe hoist/support, engine mechanical tools, OEM procedures"
+          ]
+        },
+        {
+          "level": "major_engine_work_outside_project_scope",
+          "work": "Saab directs short-block replacement for documented bearing damage",
+          "requires": [
+            "replacement engine cost/compatibility quote"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "consider only after pressure and internal-damage doubts resolved",
+        "when_damage_confirmed": "walk_away_or_full_engine_replacement_budget_only",
+        "when_testing_unavailable": "high_risk_do_not_assume_easy_fix"
+      },
+      "evidence_limits": [
+        "US/CA TSB is symptom-triggered, not an incidence study",
+        "A PCV kit cannot reverse worn bearings",
+        "MY2004+ 9-5 and B204/B207/B308/B284 are not in this bulletin"
+      ],
+      "unknowns": [
+        "VIN/year mechanical condition and original repair history",
+        "replacement-engine market supply and installed cost"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-002",
+      "name": "Later original 9-5 B235 abnormal oil-pressure warning",
+      "system": "engine",
+      "applicability": {
+        "platforms": [
+          "9600"
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235L",
+          "B235R"
+        ],
+        "model_year_range_by_platform": {
+          "9600": [
+            2004,
+            2009
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "hcdiag-src-003",
+        "hcdiag-src-004",
+        "hcdiag-src-005"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "oil-pressure warning",
+          "mechanical noise"
+        ],
+        "next_evidence": [
+          "measure mechanical oil pressure with year/engine-correct WIS equipment if safe",
+          "identify sender and lubrication mechanical faults independently",
+          "inspect bearing health if low pressure persists"
+        ],
+        "safe_to_operate_if_suspected": false
+      },
+      "repair_options": [
+        {
+          "level": "diagnosis_with_advanced_DIY_or_specialist",
+          "work": "Sensor or accessible lubrication component after objective diagnosis; sump work can be involved",
+          "requires": [
+            "correct pressure adapter, oil-pressure spec and safe lift"
+          ]
+        },
+        {
+          "level": "major_engine_work_outside_project_scope",
+          "work": "Engine replacement possible if irreversible lower-end damage is proven",
+          "requires": [
+            "complete engine/parts quote"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_DIY_candidate",
+        "when_damage_confirmed": "walk_away_or_engine_replacement_budget_only",
+        "when_testing_unavailable": "high_risk_do_not_run_to_test"
+      },
+      "evidence_limits": [
+        "2006 sludge bulletin not asserted to apply to 2004–09",
+        "Oil warning alone does not prove worn bearings"
+      ],
+      "unknowns": [
+        "hot-pressure and bearing measurements per actual year",
+        "complete estimate"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-003",
+      "name": "B207 cold-start misfire or low compression",
+      "system": "engine",
+      "applicability": {
+        "platforms": [
+          "9440"
+        ],
+        "engine_codes": [
+          "B207L",
+          "B207R"
+        ],
+        "model_year_range_by_platform": {
+          "9440": [
+            2003,
+            2011
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "hcdiag-src-008",
+        "hcdiag-src-009",
+        "hcdiag-src-012",
+        "hcdiag-src-013"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "cold-start misfire",
+          "rough start but improved hot",
+          "low measured cylinder compression"
+        ],
+        "next_evidence": [
+          "record cold/hot symptoms, DTCs and history",
+          "verify coils, fuel and ECM vs actual cylinder sealing",
+          "perform controlled compression/leakdown to exact applicable Saab MY WIS procedure"
+        ],
+        "safe_to_operate_if_suspected": null
+      },
+      "repair_options": [
+        {
+          "level": "basic_to_advanced_DIY_after_proof",
+          "work": "Coils/ignition or fuel controls only where confirmed",
+          "requires": [
+            "appropriate diagnostics"
+          ]
+        },
+        {
+          "level": "machine_shop_or_engine_specialist",
+          "work": "Valve sealing/cylinder-head work where mechanical loss is established",
+          "requires": [
+            "mechanical measurements, head work estimate"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_DIY_candidate",
+        "when_damage_confirmed": "specialist_head_work_or_engine_replacement_budget_then_decide",
+        "when_testing_unavailable": "unknown_cannot_assume_coil_only"
+      },
+      "evidence_limits": [
+        "Specific TAC cold-intake-valve advisory is not proof every 2003–2011 B207 is affected",
+        "Do not export a MY2006 compression threshold unchanged to another test condition/year"
+      ],
+      "unknowns": [
+        "Original advisory affected VIN/build conditions",
+        "year-specific cold compression specifications and real diagnosis"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-004",
+      "name": "FA57 early 9-3 coolant contamination in automatic fluid",
+      "system": "transmission",
+      "applicability": {
+        "platforms": [
+          "9440"
+        ],
+        "automatic_gears": [
+          5
+        ],
+        "model_year_range_by_platform": {
+          "9440": [
+            2003,
+            2005
+          ]
+        },
+        "vin_gate": "9-3SS M03–M05 below VIN ending 51002378; exclude convertible; verify full production VIN/year with bulletin"
+      },
+      "evidence_source_ids": [
+        "hcdiag-src-014",
+        "hcdiag-src-016"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "CHECK GEARBOX and P0715/P0720",
+          "hard or poor shifting",
+          "evidence of coolant in ATF"
+        ],
+        "next_evidence": [
+          "obtain complete VIN to determine manufacturer bulletin cutoff",
+          "professional coolant/ATF contamination confirmation and cooler integrity",
+          "scan TCM DTCs; do not use an unsafe open-flame fluid test"
+        ],
+        "safe_to_operate_if_suspected": false
+      },
+      "repair_options": [
+        {
+          "level": "specialist_diagnosis_and_radiator_cooler_repair",
+          "work": "Cooler connections campaign/repair with uncontaminated transmission only if supported by inspection",
+          "requires": [
+            "year/VIN service campaign verification"
+          ]
+        },
+        {
+          "level": "complete_transmission_replacement_outside_simple_DIY",
+          "work": "If coolant in ATF is clearly confirmed Saab technical advice instructs complete transmission replacement plus cooler remediation and adaptation",
+          "requires": [
+            "correct complete gearbox variant, transmission lift and Tech2"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "specialist_case_by_case",
+        "when_damage_confirmed": "walk_away_or_full_gearbox_replacement_budget_only",
+        "when_testing_unavailable": "high_risk_unknown"
+      },
+      "evidence_limits": [
+        "Bulletin affects a VIN-limited subset, not all 9-3 FA57 models",
+        "Saab's period open-flame sample method is not an advised DIY practice today"
+      ],
+      "unknowns": [
+        "VIN-range overlap and verified campaign completion",
+        "cooler parts and gearbox installed replacement quote"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-005",
+      "name": "2002–04 original 9-5 FA57 harsh/delayed shifts",
+      "system": "transmission",
+      "applicability": {
+        "platforms": [
+          "9600"
+        ],
+        "automatic_gears": [
+          5
+        ],
+        "model_year_range_by_platform": {
+          "9600": [
+            2002,
+            2004
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "rrtriage-src-006",
+        "rrtriage-src-008"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "harsh 2–3 shift",
+          "D/R delay or slam",
+          "slip under load",
+          "inconsistent downshift"
+        ],
+        "next_evidence": [
+          "test fluid condition and original-model year correct level",
+          "read TCM code and adaptation/calibration history with Tech2",
+          "follow TSB 440-2497 symptom-specific servo/valve housing/sensor/software checks"
+        ],
+        "safe_to_operate_if_suspected": null
+      },
+      "repair_options": [
+        {
+          "level": "specialist_diagnosis",
+          "work": "TCM calibration/adaptation and wiring/sensor work according to exact symptom",
+          "requires": [
+            "Tech2 and original gearbox serial software match"
+          ]
+        },
+        {
+          "level": "advanced_DIY_or_automatic_transmission_specialist",
+          "work": "Servo cover or valve housing only for the symptom covered by Saab's diagnostic table",
+          "requires": [
+            "gearbox-specific parts and verification"
+          ]
+        },
+        {
+          "level": "major_replacement_outside_project_scope",
+          "work": "Persistently slipping/internal fault may warrant complete transmission replacement",
+          "requires": [
+            "quote and proof fault survived specified diagnosis"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_after_tech2_and_part_verification",
+        "when_damage_confirmed": "walk_away_or_replacement_cost_only",
+        "when_testing_unavailable": "high_risk_no_easy_fix_assumption"
+      },
+      "evidence_limits": [
+        "Bulletin applies 9-5 MY2002–04 FA57, not all Saab five-speed boxes",
+        "No assertion that every hard shift can be fixed with reset/valve housing"
+      ],
+      "unknowns": [
+        "per symptom and VIN parts updated",
+        "transmission shop inspection and quote"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-006",
+      "name": "Original 9-5 FA57 P0748 pressure-solenoid control fault",
+      "system": "transmission",
+      "applicability": {
+        "platforms": [
+          "9600"
+        ],
+        "automatic_gears": [
+          5
+        ],
+        "model_year_range_by_platform": {
+          "9600": [
+            2007,
+            2007
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "rrtriage-src-011",
+        "rrtriage-src-014"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "CHECK GEARBOX",
+          "P0748",
+          "TCM limp-home"
+        ],
+        "next_evidence": [
+          "record TCM fault and subcode and freeze frame",
+          "follow WIS wiring/voltage/temperature/solenoid activation checks",
+          "verify repeatability and fluid quality"
+        ],
+        "safe_to_operate_if_suspected": null
+      },
+      "repair_options": [
+        {
+          "level": "advanced_DIY_or_auto_electrical_specialist",
+          "work": "Electrical connector, harness or verified control solenoid diagnosis",
+          "requires": [
+            "Tech2, multimeter and exact 2007 WIS"
+          ]
+        },
+        {
+          "level": "transmission_specialist",
+          "work": "Hydraulic or internal repair if proven",
+          "requires": [
+            "unit-specific diagnosis"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_DIY_or_specialist_fix",
+        "when_damage_confirmed": "full_repair_quote_needed",
+        "when_testing_unavailable": "fault_code_alone_insufficient_to_condemn"
+      },
+      "evidence_limits": [
+        "A 2007 WIS page is not a manufacturer proof for 2002/2011 variants",
+        "P0748 does not prove physically failed complete gearbox"
+      ],
+      "unknowns": [
+        "OEM service procedure for other MY",
+        "parts and labor quote"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-007",
+      "name": "9-3 9440 AF40 six-speed delayed shifting",
+      "system": "transmission",
+      "applicability": {
+        "platforms": [
+          "9440"
+        ],
+        "automatic_gears": [
+          6
+        ],
+        "model_year_range_by_platform": {
+          "9440": [
+            2006,
+            2008
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "wis-9440-af40-low-atf"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "delayed engagement or shifts"
+        ],
+        "next_evidence": [
+          "confirm exact AF40 by case/VIN",
+          "measure ATF level under Saab-specified running hot fluid procedure with Tech2",
+          "inspect fluid contamination and TCM codes"
+        ],
+        "safe_to_operate_if_suspected": null
+      },
+      "repair_options": [
+        {
+          "level": "specialist_or_advanced_DIY_with_Tech2",
+          "work": "Correct fluid level where deficient, using exact specification and safe lifting",
+          "requires": [
+            "Tech2, lift, factory procedure, correct ATF"
+          ]
+        },
+        {
+          "level": "transmission_specialist",
+          "work": "Internal fault diagnosis if shifts remain abnormal after measured level is corrected",
+          "requires": [
+            "transmission test and quote"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_diagnose_first",
+        "when_damage_confirmed": "replacement_or_walk_away_cost_decision",
+        "when_testing_unavailable": "do_not_assume_low_ATF_cures"
+      },
+      "evidence_limits": [
+        "2009 Saab technical advice supports level-check method but not universal cure",
+        "No fluid or gearbox interchange approved"
+      ],
+      "unknowns": [
+        "verified fluid history and contamination",
+        "year/VIN exact temperature test and repair cost"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-008",
+      "name": "Original 9-5 turbo underboost/rattle",
+      "system": "engine_air_fuel",
+      "applicability": {
+        "platforms": [
+          "9600"
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235L",
+          "B235R"
+        ],
+        "model_year_range_by_platform": {
+          "9600": [
+            2007,
+            2007
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "rrtriage-src-001",
+        "rrtriage-src-002",
+        "rrtriage-src-003",
+        "rrtriage-src-004"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "low boost/low engine power",
+          "rattle near wastegate",
+          "charge-air leak"
+        ],
+        "next_evidence": [
+          "inspect wastegate linkage, vacuum/charge air pipes and boost regulation",
+          "check bypass diaphragm and measured basic charging pressure with correct turbo/WIS procedure",
+          "verify no mechanical turbo or engine oil supply damage"
+        ],
+        "safe_to_operate_if_suspected": null
+      },
+      "repair_options": [
+        {
+          "level": "basic_to_advanced_DIY_if_isolated",
+          "work": "Secure or replace broken connection/hose/diaphragm where actual fault is confirmed",
+          "requires": [
+            "source-confirmed individual part, safe boost/leak test"
+          ]
+        },
+        {
+          "level": "specialist_or_major_part_replacement",
+          "work": "Turbocharger replacement only if confirmed defective; verify oil feed and engine health",
+          "requires": [
+            "parts/interchange and labor quote"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "potential_DIY_candidate",
+        "when_damage_confirmed": "specialist_turbo_quote_not_engine_rebuild_assumption",
+        "when_testing_unavailable": "do_not_replace_turbo_by_symptom_alone"
+      },
+      "evidence_limits": [
+        "MY2007 9-5 WIS procedure, not proven universal for all 9-5 years/turbos",
+        "Loose linkage is one differential, not a prevalence figure"
+      ],
+      "unknowns": [
+        "turbo-specific part number and actual measured diagnosis"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-009",
+      "name": "Original 9-5 B235 overheating or coolant loss",
+      "system": "cooling",
+      "applicability": {
+        "platforms": [
+          "9600"
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235L",
+          "B235R"
+        ],
+        "model_year_range_by_platform": {
+          "9600": [
+            2007,
+            2007
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "rrtriage-src-015",
+        "rrtriage-src-016"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "overheating",
+          "coolant leak",
+          "poor thermostat operation"
+        ],
+        "next_evidence": [
+          "cool-system pressure test when cooled and safe",
+          "check thermostat, cap, hoses, radiator, fan before internal-damage inference",
+          "if overheated severely, inspect for head gasket/cylinder damage before running"
+        ],
+        "safe_to_operate_if_suspected": false
+      },
+      "repair_options": [
+        {
+          "level": "intermediate_DIY_if_external_fault_proven",
+          "work": "Year-correct thermostat/hoses/radiator service",
+          "requires": [
+            "safe cold system handling, coolant procedure and lift where necessary"
+          ]
+        },
+        {
+          "level": "engine_specialist",
+          "work": "Compression/gasket/head inspection for repeated severe overheating",
+          "requires": [
+            "tests and independent quote"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "possible_DIY_candidate_if_engine_unhurt",
+        "when_damage_confirmed": "walk_away_or_head_engine_quote",
+        "when_testing_unavailable": "do_not_run_overheating_engine"
+      },
+      "evidence_limits": [
+        "Thermostat procedure does not guarantee absence of cylinder-head damage",
+        "No general cooling failure prevalence"
+      ],
+      "unknowns": [
+        "actual overheating history and test results"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-010",
+      "name": "Original 9-5 9-5 suspected clogged catalytic converter",
+      "system": "engine_exhaust",
+      "applicability": {
+        "platforms": [
+          "9600"
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235L",
+          "B235R"
+        ],
+        "model_year_range_by_platform": {
+          "9600": [
+            2005,
+            2008
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "nrscreen-src-002",
+        "nrscreen-src-003",
+        "nrscreen-src-009",
+        "nrscreen-src-010"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "poor power",
+          "P0420 or catalyst efficiency concern",
+          "seller claims clogged catalytic converter"
+        ],
+        "next_evidence": [
+          "read misfire/fuel/boost conditions first",
+          "confirm exhaust restriction/aftertreatment damage with correct US procedure",
+          "identify upstream misfire or oil burning before exhaust replacement"
+        ],
+        "safe_to_operate_if_suspected": null
+      },
+      "repair_options": [
+        {
+          "level": "specialist_emissions_diagnosis",
+          "work": "Repair upstream confirmed misfire/leaks or replace VIN-specific legal emissions assembly if restriction proven",
+          "requires": [
+            "appropriate exhaust diagnosis, emissions compliance and parts quote"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_only_after_upstream_health_verified",
+        "when_damage_confirmed": "budget_converter_plus_upstream_repairs_or_reject",
+        "when_testing_unavailable": "do_not_accept_seller_catalyst_story_as_diagnosis"
+      },
+      "evidence_limits": [
+        "Non-U.S. bulletin 248-2506 is NOT used to certify a U.S. test",
+        "P0420 does not itself prove physical exhaust restriction"
+      ],
+      "unknowns": [
+        "2008 exact US VIN catalyst test, condition, emissions compliance"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-011",
+      "name": "Original 9-5 rear subframe and captive-nut/body anchor corrosion",
+      "system": "structure",
+      "applicability": {
+        "platforms": [
+          "9600"
+        ],
+        "model_year_range_by_platform": {
+          "9600": [
+            1999,
+            2009
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "rustgate-src-001",
+        "rustgate-src-002",
+        "rustgate-src-003",
+        "rustgate-src-005",
+        "rustgate-src-006"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "rear subframe corrosion",
+          "broken mounting or captive nut",
+          "rusted floor/frame rail"
+        ],
+        "next_evidence": [
+          "professional structural inspection of actual loaded mount and surrounding body shell",
+          "distinguish removable subframe/support arm from failed captive nut, floor and rail metal",
+          "assess safe lifting point integrity before raising vehicle"
+        ],
+        "safe_to_operate_if_suspected": false
+      },
+      "repair_options": [
+        {
+          "level": "advanced_DIY_if_only_removable_bolt_on_subframe",
+          "work": "Replace removable member/bush hardware only where shell anchors are structurally certified sound",
+          "requires": [
+            "safe lift and year/body correct parts and torque"
+          ]
+        },
+        {
+          "level": "professional_structural_body_shop",
+          "work": "Welded/captive-nut/frame repairs require structural procedure, corrosion protection and independent inspection",
+          "requires": [
+            "qualified body shop and documented quote"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "DIY_maybe_for_removable_member_only",
+        "when_damage_confirmed": "walk_away_unless_professional_structural_restoration_fully_budgeted",
+        "when_testing_unavailable": "walk_away_no_assumption_safe"
+      },
+      "evidence_limits": [
+        "Saab WIS rear nut-piece service does not make rusted structural metal acceptable",
+        "Procedure example MY2006 9-5, VIN/body panel differences remain"
+      ],
+      "unknowns": [
+        "real underbody mounting rust thickness and body quote",
+        "MY2008 wagon exact anchor variant"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-012",
+      "name": "9-3 9440 rear-subframe, suspension and underbody safety inspection",
+      "system": "structure",
+      "applicability": {
+        "platforms": [
+          "9440"
+        ],
+        "model_year_range_by_platform": {
+          "9440": [
+            2003,
+            2011
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "rustgate-src-008",
+        "rustgate-src-010",
+        "rustgate-src-011"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "rear subframe metal loss",
+          "damage near brake/fuel pipes or suspension anchors"
+        ],
+        "next_evidence": [
+          "professional inspection of loaded body mounting areas and brake/fuel lines",
+          "separate detachable rear subframe from damaged unibody mounts",
+          "avoid jacking on corroded support"
+        ],
+        "safe_to_operate_if_suspected": false
+      },
+      "repair_options": [
+        {
+          "level": "advanced_DIY_if_structural_shell_passes",
+          "work": "Bolted rear subframe or suspension service per year-specific Saab procedure after body anchors proven sound",
+          "requires": [
+            "safe lift, brake/fuel line disconnect procedure"
+          ]
+        },
+        {
+          "level": "professional_structural_body_shop",
+          "work": "Structural rust at mounts/sills requires rated body repair and safety inspection",
+          "requires": [
+            "written structural repair scope"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_removable_parts_only",
+        "when_damage_confirmed": "walk_away_or_structural_shop_budget",
+        "when_testing_unavailable": "walk_away_if_critical_corrosion"
+      },
+      "evidence_limits": [
+        "Saab removal procedure is not proof all 9-3 years have same mounting geometry",
+        "No rust prevalence estimate"
+      ],
+      "unknowns": [
+        "year/body factory shell variants and actual metal condition"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-013",
+      "name": "Any model: brake and fuel system corrosion or leaks",
+      "system": "safety",
+      "applicability": {
+        "platforms": [
+          "9400",
+          "9440",
+          "9600",
+          "650"
+        ]
+      },
+      "evidence_source_ids": [
+        "rustgate-src-007",
+        "rustgate-src-010",
+        "rustgate-src-011",
+        "rustgate-src-012"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "corroded hydraulic lines or fluid seep",
+          "fuel smell/leak",
+          "brake imbalance"
+        ],
+        "next_evidence": [
+          "have qualified inspection before road use",
+          "identify affected lines and proximity to chassis/critical anchors",
+          "price full legal/correct repair"
+        ],
+        "safe_to_operate_if_suspected": false
+      },
+      "repair_options": [
+        {
+          "level": "trained_DIY_or_professional_hydraulics",
+          "work": "Repair/replace specific safe-access lines and bleed/test to correct standard; fuel work needs safe procedure",
+          "requires": [
+            "safety equipment, proper line tooling, legal inspection"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "repairable_if_sound_shell_and_cost_documented",
+        "when_damage_confirmed": "no_driving_until_safety_work_done",
+        "when_testing_unavailable": "transport_only_no_test_drive"
+      },
+      "evidence_limits": [
+        "Year-specific parts and routing not established for 650/9400 by these limited sources",
+        "NY inspection guidance not proof of model-specific component design"
+      ],
+      "unknowns": [
+        "real structural condition and state inspection results",
+        "full parts cost"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-014",
+      "name": "Complete 9-5 FA57 automatic replacement access and labor exposure",
+      "system": "transmission",
+      "applicability": {
+        "platforms": [
+          "9600"
+        ],
+        "automatic_gears": [
+          5
+        ],
+        "model_year_range_by_platform": {
+          "9600": [
+            2002,
+            2009
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "rrtriage-src-017"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "verified nonrepairable internal gearbox failure",
+          "cooler contamination or physically failed assembly"
+        ],
+        "next_evidence": [
+          "prove fault with original gearbox diagnosis before condemning",
+          "verify exact transmission tag, torque converter, controller/calibration and VIN fitment",
+          "obtain tool/support and installed cost quote"
+        ],
+        "safe_to_operate_if_suspected": null
+      },
+      "repair_options": [
+        {
+          "level": "advanced_DIY_with_heavy_lifting_not_simple_repair",
+          "work": "Saab WIS complete gearbox removal uses engine lifting beam, subframe removal support fixtures, lift and torque-converter tools",
+          "requires": [
+            "professional equipment or specialist shop"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "not_simple_DIY_assume_specialist",
+        "when_damage_confirmed": "walk_away_or_complete_swap_quote_not_rebuild",
+        "when_testing_unavailable": "unknown_not_easy_fix"
+      },
+      "evidence_limits": [
+        "Transmission family FA57 alone does not certify 9-3/9-5 swap",
+        "No labor-hours estimate from checklist step count"
+      ],
+      "unknowns": [
+        "exact donor interchange and real shop cost"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    }
+  ],
+  "coverage_policy": "Applicability is a research applicability cue only, not a claim the car suffered a fault. Generic structure/safety checks apply to candidate groups as preventive inspection. A single-source model-year service procedure is not projected as an approved all-year repair procedure.",
+  "cost_policy": "All numeric costs and labor hours are null; current itemized local estimates needed before buy/repair recommendations.",
+  "approval_policy": "All part-interchange, failure-frequency and individual-vehicle approval flags remain false.",
+  "gate_status": "Phase 0 Gate A partial, B/C unmet."
+}

@@ -1,0 +1,4305 @@
+{
+  "schema_version": "1.0.0",
+  "source_production_catalogue": "data/vehicle-catalogue/us-production-normalized.json",
+  "source_feasibility_scenarios": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+  "meaning": "Applicability crosswalk, not observed failure cases or verified parts or price scores",
+  "market": "US",
+  "counts": {
+    "production_groups": 110,
+    "source_linked_scenarios": 14,
+    "matching_links_by_scenario": {
+      "us-feas-001": 28,
+      "us-feas-002": 30,
+      "us-feas-003": 28,
+      "us-feas-004": 10,
+      "us-feas-005": 17,
+      "us-feas-006": 6,
+      "us-feas-007": 6,
+      "us-feas-008": 6,
+      "us-feas-009": 6,
+      "us-feas-010": 19,
+      "us-feas-011": 64,
+      "us-feas-012": 34,
+      "us-feas-013": 110,
+      "us-feas-014": 42
+    },
+    "individual_vehicles_inspected": 0,
+    "failure_rates_quantified": 0,
+    "repair_prices_verified": 0,
+    "parts_interchanges_approved": 0
+  },
+  "production_group_reviews": [
+    {
+      "production_id": "usprod-9400-1999-70300e64546a",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 1999,
+      "engine_code": "B204L",
+      "automatic_gears": 4,
+      "body_style": "3-door hatchback",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9400-1999-1bef62da9055",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 1999,
+      "engine_code": "B204L",
+      "automatic_gears": 4,
+      "body_style": "5-door hatchback",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9400-1999-614d751e6481",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 1999,
+      "engine_code": "B204L",
+      "automatic_gears": 4,
+      "body_style": "3-door hatchback",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9400-1999-2bd272926b6c",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 1999,
+      "engine_code": "B204L",
+      "automatic_gears": 4,
+      "body_style": "5-door hatchback",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9400-2000-04905bdcae68",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 2000,
+      "engine_code": "B205L",
+      "automatic_gears": 4,
+      "body_style": "3-door hatchback",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9400-2000-266da0222bec",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 2000,
+      "engine_code": "B205L",
+      "automatic_gears": 4,
+      "body_style": "5-door hatchback",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9400-2000-efa03e1662d4",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 2000,
+      "engine_code": "B205R",
+      "automatic_gears": 4,
+      "body_style": "5-door hatchback",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9400-2001-c5f5c11480e1",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 2001,
+      "engine_code": "B205L",
+      "automatic_gears": 4,
+      "body_style": "3-door hatchback",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9400-2001-b48e60a36980",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 2001,
+      "engine_code": "B205L",
+      "automatic_gears": 4,
+      "body_style": "5-door hatchback",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9400-2001-d0bcddbd7105",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 2001,
+      "engine_code": "B205R",
+      "automatic_gears": 4,
+      "body_style": "5-door hatchback",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9400-2002-e25d2b682f27",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 2002,
+      "engine_code": "B205R",
+      "automatic_gears": 4,
+      "body_style": "5-door hatchback",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2003-7ad77133f287",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2003,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-004",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": "9-3SS M03–M05 below VIN ending 51002378; exclude convertible; verify full production VIN/year with bulletin",
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2003-00c7717ee322",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2003,
+      "engine_code": "B207L",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-004",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": "9-3SS M03–M05 below VIN ending 51002378; exclude convertible; verify full production VIN/year with bulletin",
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2003-6d6530debf2c",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2003,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-004",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": "9-3SS M03–M05 below VIN ending 51002378; exclude convertible; verify full production VIN/year with bulletin",
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2004-2553135925d7",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2004,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-004",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": "9-3SS M03–M05 below VIN ending 51002378; exclude convertible; verify full production VIN/year with bulletin",
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2004-c9c6db70f1a3",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2004,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-004",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": "9-3SS M03–M05 below VIN ending 51002378; exclude convertible; verify full production VIN/year with bulletin",
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2004-eca7d0654a6a",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2004,
+      "engine_code": "B207L",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-004",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": "9-3SS M03–M05 below VIN ending 51002378; exclude convertible; verify full production VIN/year with bulletin",
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2005-ca7c8d0fad7d",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2005,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-004",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": "9-3SS M03–M05 below VIN ending 51002378; exclude convertible; verify full production VIN/year with bulletin",
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2005-35a04ffcaa6e",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2005,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-004",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": "9-3SS M03–M05 below VIN ending 51002378; exclude convertible; verify full production VIN/year with bulletin",
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2005-b853ad709829",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2005,
+      "engine_code": "B207L",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-004",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": "9-3SS M03–M05 below VIN ending 51002378; exclude convertible; verify full production VIN/year with bulletin",
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2005-d2b111c98c63",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2005,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-004",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": "9-3SS M03–M05 below VIN ending 51002378; exclude convertible; verify full production VIN/year with bulletin",
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2006-66a0bba1ffb4",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2006,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2006-3f82ebaa461c",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2006,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2006-66a6ee6945ee",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2006,
+      "engine_code": "B284L",
+      "automatic_gears": 6,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-007",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2006-0eb06b9b5336",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2006,
+      "engine_code": "B284L",
+      "automatic_gears": 6,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-007",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2007-47153ed320be",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2007,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2007-3b3b7d6492e4",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2007,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2007-f300939418b8",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2007,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2007-d6e18d73fb49",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2007,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2007-482ed160ba16",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2007,
+      "engine_code": "B284L",
+      "automatic_gears": 6,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-007",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2007-e20134af5d2a",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2007,
+      "engine_code": "B284L",
+      "automatic_gears": 6,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-007",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2008-409da8b88751",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2008,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2008-d6307a45a509",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2008,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2008-30b15ea6c631",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2008,
+      "engine_code": "B284L",
+      "automatic_gears": 6,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-007",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2008-b3273aad38f1",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2008,
+      "engine_code": "B284L",
+      "automatic_gears": 6,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-007",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2009-10888383c790",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2009,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2009-f167f5aa1a8c",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2009,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2010-4bd123807bb5",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2010,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2010-d37e00066c02",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2010,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2010-fefc85694efb",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2010,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2010-9bad9e9b8daf",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2010,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2011-6d71a632955b",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2011,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2011-66a3c399ebfd",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2011,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2011-67b077eb5391",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2011,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9440-2011-6067b39794ec",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2011,
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-003",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-012",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-1999-80270f1fc57b",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-1999-1cb72d9097d1",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-1999-481bdb6b5cfc",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-1999-2a95b9b3ce30",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-1999-19692af2405b",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-1999-fdebac597045",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-1999-f749361fa49d",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-1999-c4d1d37eb75a",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2000-2048481de83b",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B235R",
+      "automatic_gears": 4,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2000-5a801d274ac4",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B235R",
+      "automatic_gears": 4,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2000-d8414d89a6b7",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2000-ba5b5dcfedee",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2000-eeaeeecec6b4",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2000-3208b53eab2b",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2000-76e96e57f0ea",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2001-e588ecee2743",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B235R",
+      "automatic_gears": 4,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2001-d4e89c9ad0f9",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B235R",
+      "automatic_gears": 4,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2001-e3e9973412fe",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2001-20ea775dd8e2",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2001-29a2d4ee6170",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2001-8ac268fdc1be",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2001-59d2d33c8ca4",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2002-f3e877f40269",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2002,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2002-a6e3f4219fe1",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2002,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2002-25bac55f3b40",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2002,
+      "engine_code": "B308E",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2002-8bb5aafedeaa",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2002,
+      "engine_code": "B308E",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2002-e84ffc126de4",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2002,
+      "engine_code": "B235E",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2002-b7a8d2a5b366",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2002,
+      "engine_code": "B235E",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2003-5fa449d61161",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2003,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2003-7cc94c616980",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2003,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2003-a767166cd624",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2003,
+      "engine_code": "B308E",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2003-1425fbc33299",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2003,
+      "engine_code": "B308E",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2003-a792094bea10",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2003,
+      "engine_code": "B235E",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2003-e2e98d51f64d",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2003,
+      "engine_code": "B235E",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-001",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2004-2ff32b6a65ee",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2004,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2004-c6e52f7b5bb4",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2004,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2004-553a2f9acef2",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2004,
+      "engine_code": "B235L",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2004-2153ecf4425d",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2004,
+      "engine_code": "B235L",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2004-887c63b87b24",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2004,
+      "engine_code": "B235E",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-005",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2005-6a1094ac89d2",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2005,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2005-518673045c1a",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2005,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2005-64bf8e34a0ff",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2005,
+      "engine_code": "B235L",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2005-a15f61481caf",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2005,
+      "engine_code": "B235L",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2005-a1bfc0b97128",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2005,
+      "engine_code": "B235E",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2006-1476c9d19a82",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2006,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2006-bd8089c1716b",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2006,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2006-69f78cb8a8bf",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2006,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2006-89c78a11d5ac",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2006,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2007-99896cc578b3",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-006",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-008",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-009",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2007-b78c213b7398",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-006",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-008",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-009",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2007-36a67a699872",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-006",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-008",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-009",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2007-213a3a33935c",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-006",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-008",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-009",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2007-c327794cbfef",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-006",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-008",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-009",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2007-9d930be2a7ce",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-006",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-008",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-009",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2008-66fcbe728e78",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2008,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2008-90bc26f7f0ff",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2008,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2008-3bc4ca7c49ed",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2008,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2008-a2c8b55ed518",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2008,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-010",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2009-75a3e290bc93",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2009-fb1c554efceb",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2009-a4211f0578ac",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2009-5e6ccee798f5",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2009-d3204ec60adb",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-9600-2009-e1b331c94576",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "body_style": "wagon",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-002",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-011",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-014",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    },
+    {
+      "production_id": "usprod-650-2011-844ea4b7d007",
+      "model": "9-5",
+      "platform": "650",
+      "model_year": 2011,
+      "engine_code": null,
+      "automatic_gears": 6,
+      "body_style": "sedan",
+      "scenario_links": [
+        {
+          "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        }
+      ],
+      "individual_vehicle_inspection_completed": false,
+      "price_or_kit_confirmed": false
+    }
+  ]
+}
