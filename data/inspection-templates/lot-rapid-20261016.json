@@ -1,0 +1,135 @@
+{
+  "template_version": "1.0.0",
+  "as_of": "2026-10-13",
+  "scheduled_visit_date": "2026-10-16",
+  "purpose": "Blank field intake for a lot of stored/nonrunning Saab 9-3 and 9-5 vehicles; no recorded inspection, diagnosis or approval.",
+  "project_scope": {
+    "original_market_priority": "US",
+    "model_year_range": [
+      1998,
+      2011
+    ],
+    "models": [
+      "9-3",
+      "9-5"
+    ],
+    "transmission": "factory automatic",
+    "drivetrain": "FWD",
+    "body_styles": [
+      "sedan",
+      "3-door hatchback",
+      "5-door hatchback",
+      "wagon"
+    ]
+  },
+  "privacy": {
+    "public_repository": "Store this template ONLY, no actual visit records, complete VINs, title images, owner identity, lot address, seller phone or plate numbers.",
+    "full_vin": "Keep privately; only record whether privately photographed in this schema.",
+    "photo_handling": "Private storage or private conversation; obtain owner's permission."
+  },
+  "record": {
+    "lot_index": "S__",
+    "status": "not_inspected",
+    "first_pass": {
+      "seller_stated_model_year": null,
+      "model": null,
+      "trim_badge": null,
+      "body_style": null,
+      "factory_transmission_automatic_confirmed": null,
+      "fwd_confirmed": null,
+      "xwd_or_convertible_or_manual_exclusion_detected": null,
+      "vin_privately_photographed": false,
+      "title_status": "unknown",
+      "title_match_to_vin_checked": false,
+      "keys_available": "unknown",
+      "last_known_start_date": null,
+      "last_known_driven_date": null,
+      "seller_exact_no_start_claim": null,
+      "seller_provided_diagnostic_invoice": false,
+      "asking_price_usd": null,
+      "odometer_as_displayed": null,
+      "odometer_unit": "unknown",
+      "towing_needed": "unknown",
+      "visible_structural_corrosion_concern": "unknown",
+      "safety_brake_or_fuel_leak_concern": "unknown",
+      "obvious_collision_fire_flood_or_missing_parts": "unknown",
+      "photos_privately_taken": {
+        "front": false,
+        "side": false,
+        "rear": false,
+        "dashboard_odo": false,
+        "engine_bay": false,
+        "externally_visible_underbody": false,
+        "vin_or_label": false
+      }
+    },
+    "second_pass_if_safe": {
+      "engine_code_or_label_visible": null,
+      "gearbox_family_or_case_label_visible": null,
+      "coolant_oil_contamination_suspected": "unknown",
+      "external_leaks_observed": "unknown",
+      "rear_subframe_removable_part_corrosion": "unknown",
+      "load_bearing_floor_frame_body_anchor_corrosion": "unknown",
+      "brake_fuel_line_corrosion": "unknown",
+      "diagnostic_codes_read_only": null,
+      "seller_exhaust_restriction_claim_proven": "unknown",
+      "requires_qualified_structural_inspection": null,
+      "requires_qualified_engine_assessment": null,
+      "requires_qualified_transmission_assessment": null
+    },
+    "visit_disposition": "unassessed",
+    "confidence": "unknown",
+    "exact_vin_specific_parts_verified": false,
+    "mechanical_condition_confirmed": false,
+    "price_and_repair_budget_verified": false,
+    "followup_questions": [],
+    "notes_with_no_personal_or_VIN_data": null
+  },
+  "enumerations": {
+    "status": [
+      "not_inspected",
+      "first_pass_only",
+      "second_pass_observation_only"
+    ],
+    "visit_disposition": [
+      "unassessed",
+      "stop_excluded_or_major_hazard",
+      "hold_proof_required",
+      "finalist_requires_inspection"
+    ],
+    "confidence": [
+      "unknown",
+      "seller_report_only",
+      "passive_visual_only",
+      "qualified_test_documented"
+    ],
+    "title_status": [
+      "unknown",
+      "seller_reports_clear_title",
+      "title_document_privately_seen",
+      "possible_lien_or_brand",
+      "no_transfer_document"
+    ],
+    "observational_yes_no_unknown": [
+      true,
+      false,
+      null,
+      "unknown"
+    ]
+  },
+  "safety_stops": [
+    "No starting, jumping, cranking, revving or road testing if seizure, hydrolock, severe oil starvation, unsafe fuel/brake systems, coolant cross-contamination, or structural uncertainty could make it hazardous.",
+    "Never crawl beneath an unsupported or severely corroded vehicle; use trained technician and approved sound lift points.",
+    "Do not open hot pressurized cooling systems, disconnect live fuel plumbing or clear diagnostic fault memory.",
+    "Seller claims, dashboard codes and production-matrix membership are not fault confirmation.",
+    "Major internal engine/transmission rebuilds and unbudgeted structural welding are outside the intended DIY acquisition scope."
+  ],
+  "source_links": [
+    "docs/lot-visit-field-guide-2026-10-16.md",
+    "data/inspection-templates/nonrunning-phase0.json",
+    "data/vehicle-catalogue/us-production-normalized.json",
+    "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+    "docs/research/priority-vehicle-identity-gates.md"
+  ],
+  "gate_status": "Blank intake only: Phase 0 A partial, B/C unmet; zero cars actually inspected."
+}
