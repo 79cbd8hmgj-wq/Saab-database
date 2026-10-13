@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- [U.S. feasibility evidence-gap audit](data/audits/us-feasibility-powertrain-gaps.json): 110 groups; 24 missing engine-core repair scenarios, 52 missing transmission scenarios, 14 missing both, and 12 without platform-specific structural research. These are research gaps, not reported failures.
+
 - [U.S. Saab repair-versus-replace feasibility matrix](docs/us-repair-vs-replace-feasibility.md): 14 source-backed scenarios for avoiding unnecessary engine/transmission rebuilding, safety walk-away conditions and unpriced DIY-versus-specialist options, mapped to all 110 eligible U.S. production groups.
 
 - [U.S. factory engine identities and avoid-rebuild screening](docs/us-engine-factory-and-no-rebuild-triage.md): 110 production groups mapped to WIS engine-code evidence, exact MY2011 A20NFT/LHU VIN distinction, and US/Canada-specific early B205/B235 sludge/bearing bulletin boundaries. VIN fitment and reliability ranking remain unverified.
