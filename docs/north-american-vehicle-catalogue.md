@@ -2,7 +2,7 @@
 
 **Scope:** Saab 9-3 and 9-5, MY1998–2011 inclusive, original US/Canadian market only, **factory automatic only**, **FWD only**, **nonconvertibles**. European-only models, manual-only variants, XWD/AWD and 9-3X are not eligible. This is a **partial** research catalogue; it does not claim exhaustive model-year or trim completeness.
 
-The machine-readable companion [initial NA model-year screening and evidence records](../data/vehicle-catalogue/north-america-1998-2011.json) contains **28 model/year screening rows**, **69 sourced example configurations**, **46 source references** and **13 source-grounded exclusions/cautions**. Screening rows with missing evidence remain `unassessed`; there is no invented availability or reliability score. US and Canada are checked separately.
+The machine-readable companion [initial NA model-year screening and evidence records](../data/vehicle-catalogue/north-america-1998-2011.json) contains **28 model/year screening rows**, **91 sourced example configurations**, **56 source references** and **15 source-grounded exclusions/cautions**. Screening rows with missing evidence remain `unassessed`; there is no invented availability or reliability score. US and Canada are checked separately.
 
 ## Confirmed candidate examples (NOT a complete trim list)
 
@@ -57,6 +57,24 @@ The **Saab Cars USA 2002 9-5 dealer product overview** explicitly maps all six U
 **U.S. 2001 older-generation 9-3 SE:** independent North America catalogue lists 205-hp five-door automatic; 2001 original 9-5 standard 2.3t and SE 3.0t automatic sedans/wagons appear in historical U.S. listings. Original Saab USA 2001 vehicle-config tables remain open. **Do not add a 2001 Aero automatic solely from an incomplete and conflicting trim list**.
 
 These 2001–05 entries are designed to identify vehicles worth researching, not to replace year- and country-correct dealer documentation.
+
+## Research batch 4: 2007, 2009, and Canadian-specific 2004–06
+
+Original year/market distinctions remain central. The additional sources support:
+
+| Market | MY | Eligible automatic FWD configurations newly documented | Evidence |
+| --- | ---: | --- | --- |
+| US | 2007 | 9-3 Sport Sedan/SportCombi 2.0T 210-hp five-speed; Aero 2.8L turbo V6 250-hp six-speed | U.S. model-year and road/trim reviews (`na-cat-s47`, `na-cat-s53`) |
+| Canada | 2007 | 9-3 sedan/SportCombi 2.0T 210-hp five-speed and Aero V6 250-hp six-speed | Original-year Canadian review (`na-cat-s48`) |
+| US | 2007 | 9-5 2.3T 260-hp five-speed automatic, sedan and SportCombi | U.S. original-year model summary (`na-cat-s49`) |
+| US | 2009 | 9-3 2.0T sedan/SportCombi FWD five-speed, packages 1SA/1SB/1SD; optional on 1SA | Published GM U.S. year-specific pricing and U.S. transmission/drive comparison (`na-cat-s50`, `na-cat-s51`, `na-cat-s52`) |
+| Canada | 2004 | 9-3 Linear/Arc/Aero Sport Sedan FWD five-speed automatic | Canadian 2004 automatic-specific trim tables (`na-cat-s54`) |
+| Canada | 2005 | 9-3 Linear/Arc/Aero sedan 2.0L FWD five-speed automatic | Canadian original-year lineup review (`na-cat-s55`) |
+| Canada | 2006 | 9-3 2.0T 210-hp five-speed and Aero 2.8 V6 250-hp six-speed, sedan or SportCombi | Canadian original-year lineup review (`na-cat-s56`) |
+
+**2009 US Aero exception (new exclusion `na-ex-14`):** 2008 original U.S. 9-3 Aero **255-hp V6 FWD** was eligible with a six-speed automatic, but the **2009 U.S. Aero 280-hp V6** sedan and SportCombi were **XWD**, therefore excluded. The 2009 `1SC` 2.0T XWD package is separately excluded (`na-ex-15`); `1SA`, `1SB` and `1SD` FWD 2.0T packages have five-speed automatic options or standard equipment. We must not infer a Canadian exclusion from a U.S. year-specific option matrix.
+
+Canadian 2004/05/06 data add market-specific evidence, not copied U.S. conclusions. **Canada 1998 model-year status and many Canadian original 9-5 combinations remain unknown.** Automotive source aggregators contain mistakes; manufacturer brochure and model-year VIN corroboration is still required for exact fitment and exhaustive completeness.
 
 ## Verified pitfalls / exclusions
 
