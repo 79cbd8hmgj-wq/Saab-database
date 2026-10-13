@@ -124,3 +124,8 @@ mark an option approved from a supplier cross-reference alone. Source IDs must
 resolve to stored provenance; tests reject accidental status promotion of early
 catalogue candidates. Any claim of validated fitment or durability requires
 stronger supporting test and application evidence beyond structure validation.
+
+
+### Additional source-scoped supplier candidate records
+
+The companion `cross_manufacturer_interchange_pilot` dataset optionally uses `parts[*].interchange_candidate` with `strategy`, `donor_makes`, `saab_reference_numbers`, three booleans (`fitment_approved`, `vehicle_verified`, `durability_validated`) and `verification_required`. This supplementary catalogue evidence is **not a second approved-parts matrix**. All pilot booleans are false, review state is `needs_vehicle_verification` and evidence is `supplier_claim`. Product cross-reference direction is `aftermarket_reference`, never an inferred manufacturer supersession. A future reconciliation with the dedicated `data/interchange-candidates/phase0.json` schema should deduplicate by manufacturer SKU and provenance, not combine unrelated Opel OE numbers.
