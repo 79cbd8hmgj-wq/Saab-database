@@ -69,6 +69,12 @@
     "Retain existing research on excluded configurations for diagnostic context, platform distinctions and warnings against invalid interchanges.",
     "Model/generation/year overlaps must not be resolved solely from year.",
     "Newly admitted variants begin unassessed until original sources document their suitability.",
-    "No existing dataset counts, fitment approvals or Phase 0 gates change from this eligibility decision."
-  ]
+    "No existing dataset counts, fitment approvals or Phase 0 gates change from this eligibility decision.",
+    "Verify US and Canadian factory availability separately for exact model year, engine, automatic gearbox, body and FWD."
+  ],
+  "eligible_markets": [
+    "US",
+    "CA"
+  ],
+  "excluded_markets_policy": "Only original factory configurations offered in the United States or Canada qualify; other-market-only specifications remain reference data."
 }
