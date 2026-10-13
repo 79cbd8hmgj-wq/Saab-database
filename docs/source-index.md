@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 410 source records with 374 distinct
+Research retrieval date: 2026-10-12. There are 423 source records with 385 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -590,3 +590,23 @@ Dataset: [og95_turbo_oil_feed_solenoids](../data/datasets/og95-turbo-oil-feed-so
 | `turbsol-src-012` | [MY2008 9-5 turbo shaft play technical page unavailable (indexed)](https://saabwisonline.com/9-5-9600/2008/2-engine/turbocharger-system/technical-data/) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `metadata_only` |
 | `turbsol-src-013` | [MY2005 9-5 petrol oil filter adapter and turbo oil pipe O-ring service](https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/oil-filter-adapter-housing) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `full_text` |
 | `turbsol-src-014` | [MY2007 9-5 automatic lock-up SLU solenoid data excerpt](https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/technical-data/solenoid-valve-lock-up-slu) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `search_excerpt` |
+
+## og95_turbo_tsb_2912494_fa57_triage
+
+Dataset: [og95_turbo_tsb_2912494_fa57_triage](../data/datasets/og95-turbo-tsb2912494-fa57-triage.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `prebuy-src-001` | [Original Saab bulletin 291-2494 November 2004, turbo control-valve misdiagnosis](https://saabwisonline.com/9-5-9600/1998/2-engine/turbocharger-system/bulletins-si-mi/291-2494-reduced-performance-and-diagnostic-trouble-codes-for-the-turbo-control-valve) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
+| `prebuy-src-002` | [2005 OG9-5 5-speed automatic adaptation reset procedure](https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/adjustment-replacement/adaptation-resetting) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
+| `prebuy-src-003` | [2009 OG9-5 5-speed automatic adaptation reset procedure](https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/adjustment-replacement/adaptation-resetting) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
+| `prebuy-src-004` | [2007 OG9-5 original FA57 TCM engine-specific programming](https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/technical-description/control-module) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
+| `prebuy-src-005` | [2005 OG9-5 P0717 input shaft speed no signal diagnostic](https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0717) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
+| `prebuy-src-006` | [2009 OG9-5 P0735 faulty 5th gear ratio fault criteria](https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0735) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
+| `prebuy-src-007` | [2006 OG9-5 automatic stall test risks and fault differentiation](https://saabwisonline.com/9-5-9600/2006/4-transmission/automatic-transmission/fault-diagnosis-fault-symptoms/checking-the-stalling-speed) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
+| `prebuy-src-008` | [2007 OG9-5 T7 automatic differential protection system, DPS](https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/technical-description/differential-protection-system-dps) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
+| `prebuy-src-009` | [2008 OG9-5 5AT no-dipstick level via DT-47653 80C](https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/adjustment-replacement/automatic-transmission-transmission-fluid-level-without-dipstick) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
+| `prebuy-src-010` | [2006 OG9-5 factory turbo shaft-play directory, numeric content not available](https://saabwisonline.com/9-5-9600/2006/2-engine/turbocharger-system/technical-data/) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `metadata_only` |
+| `prebuy-src-011` | [2008 OG9-5 factory turbo shaft-play directory, numeric content not available](https://saabwisonline.com/9-5-9600/2008/2-engine/turbocharger-system/technical-data/) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `metadata_only` |
+| `prebuy-src-012` | [2009 OG9-5 FA57 TCM requested versus actual speed/pressure Read values](https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/fault-diagnosis-general/menu-read-values) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
+| `prebuy-src-013` | [2008 OG9-5 5AT maximum permissible torque TCM-to-engine request](https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-description/maximum-permissible-torque) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
