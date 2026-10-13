@@ -11,6 +11,7 @@ engines, and platforms.
 ## Start here
 
 - [Phase 0 coverage audit](docs/coverage-audit.md): **current 32-domain** evidence census, platform/model-year coverage and status of inspection, subsystem and interchange readiness gates.
+- [MY2008 9-5 US/CA original service schedule and historic recall-status caveats](docs/research/priority-usca-service-recall-baseline-wp7.md): source-backed maintenance checks; NHTSA VIN lookup excludes most >15-year-old recalls, so an apparent zero does not clear historic Saab campaigns.
 - [Phase 0 closure plan](docs/gap-closure-plan.md): prioritized blocker-driven work for vehicle identity, rust, brakes, high-cost no-running diagnostics and manufacturer fitment.
 - [Reproducible Phase 0 snapshot](data/phase0-coverage-snapshot.json): machine-derived baseline checked against all datasets on every CI run.
 - [Prioritized research backlog](docs/research-backlog.md): source-gathering tasks and acceptance criteria before simulation.
