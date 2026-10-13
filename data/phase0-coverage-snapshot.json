@@ -32,32 +32,32 @@
   "platform_year": {
     "9-5-9600": {
       "1998": {
-        "facts": 15,
+        "facts": 16,
         "issues": 3,
         "parts": 8
       },
       "1999": {
-        "facts": 17,
+        "facts": 18,
         "issues": 3,
         "parts": 11
       },
       "2000": {
-        "facts": 21,
+        "facts": 22,
         "issues": 3,
         "parts": 14
       },
       "2001": {
-        "facts": 16,
+        "facts": 17,
         "issues": 3,
         "parts": 14
       },
       "2002": {
-        "facts": 28,
+        "facts": 29,
         "issues": 5,
         "parts": 19
       },
       "2003": {
-        "facts": 30,
+        "facts": 31,
         "issues": 4,
         "parts": 17
       },
@@ -72,23 +72,23 @@
         "parts": 21
       },
       "2006": {
-        "facts": 151,
-        "issues": 15,
+        "facts": 153,
+        "issues": 16,
         "parts": 20
       },
       "2007": {
-        "facts": 132,
-        "issues": 17,
+        "facts": 134,
+        "issues": 18,
         "parts": 19
       },
       "2008": {
-        "facts": 179,
-        "issues": 25,
+        "facts": 181,
+        "issues": 26,
         "parts": 19
       },
       "2009": {
-        "facts": 124,
-        "issues": 14,
+        "facts": 126,
+        "issues": 15,
         "parts": 19
       }
     },
@@ -104,14 +104,14 @@
         "parts": 21
       },
       "2005": {
-        "facts": 64,
-        "issues": 14,
-        "parts": 18
+        "facts": 75,
+        "issues": 16,
+        "parts": 21
       },
       "2006": {
-        "facts": 104,
-        "issues": 16,
-        "parts": 23
+        "facts": 115,
+        "issues": 18,
+        "parts": 26
       },
       "2007": {
         "facts": 26,
@@ -389,7 +389,7 @@
   },
   "parts_provenance": {
     "total": 80,
-    "with_relationships": 20,
+    "with_relationships": 22,
     "supplier_claim": 52,
     "needs_vehicle_verification": 49
   }
