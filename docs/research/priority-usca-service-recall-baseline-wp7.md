@@ -1,4 +1,4 @@
-# Phase 0 work package 7 — US/Canada historical recall and maintenance baseline (first tranche)
+# Phase 0 work package 7 — US/Canada historical recall and maintenance baseline (factory intervals and original recall campaign supplement)
 
 **Research date: 2026-10-13. Gate A/B: partial.** Priority is an uninspected **MY2008 original 9-5 (9600) petrol B235E/R US/Canada** and identification limitations for US MY2005–06 second-generation 9-3 B207. This report records factory maintenance obligations and historical recall lookup restrictions, **not** an inspected car's service history or an active recall result.
 
@@ -27,6 +27,22 @@ The [MY2008 petrol SID service-message factory page](https://saabwisonline.com/9
 ## 9-3 B207 is deliberately separated
 
 The [MY2006 9-3 WW service programme](https://saabwisonline.com/9-3-9440/2006/1-service/saab-service-ww/technical-description/service-programme) distinguishes **intermediate service** (oil life / distance / time) and **main service** (primarily distance). It contains a questionable printed US/CA kilometre-interval line; the repo **does not import it** as a B207-approved schedule. A US/CA original booklet/year-specific service page is still needed before claiming 9-3 service mileage.
+
+## Documented historical safety campaigns (US/Canada)
+
+The following are **historical regulator/manufacturer campaign scopes**, **not** confirmation that any individual car is included, unrepaired, safe, or currently repairable from stock:
+
+| Campaign | Original documented population | Safety defect and stated remedy |
+| --- | --- | --- |
+| [NHTSA 08V160](https://static.nhtsa.gov/odi/rcl/2008/RCAK-08V160-6768.pdf) / Saab E080101 | US 9-5 MY2002–08 | FMVSS201 upper interior impact noncompliance; dealers install improved A-pillar trim. The NHTSA printed component taxonomy says head restraint, **but remedy text explicitly says A-pillar trim**. |
+| [NHTSA 16V063 / GM 15041](https://static.nhtsa.gov/odi/rcl/2016/RCSB-16V063-8347.pdf) | US Saab 9-3 MY2006–11 and 9-5 MY2006–09, subject to 15041 history/region/VIN conditions | Driver frontal airbag inflator rupture with dangerous fragments; authorized Cadillac/Saab service replaces driver airbag module. The 2018 15041 bulletin addresses cars **never registered in its listed hot-climate regions**; this is *not* blanket exclusion from NHTSA 16V063. GM lists historical recall-service part 39095647, but this is **not an approved retail/donor interchange**. |
+| [NHTSA 16V063 / GM 15043](https://static.nhtsa.gov/odi/rcl/2016/RCRN-16V063-9564.pdf) | Same 9-3/9-5 model-year families in an August 2017 notice for campaign 15043 | Same airbag risk, driver module remedy and then-authorized Cadillac/Saab channel. The exact VIN-to-programme mapping and 2026 availability **are not established here**. |
+| [NHTSA 14V318](https://static.nhtsa.gov/odi/rcl/2014/RCDNN-14V318-3795P.pdf) | US 9-3 **convertibles only**, MY2004–11 | Driver seat-belt retractor cable can break, causing the belt not to retract; original recall called for retractor replacement. Not a sedan recall. |
+| [Transport Canada 2014228](https://recalls-rappels.canada.ca/en/alert-recall/transport-canada-recall-2014228-general-motors) | Canadian 9-3 **convertibles**, MY2004–11 | Driver seat-belt retractor non-retraction; original Canadian notice identifies retractor replacement. This is an independently recorded Canadian-market campaign, not US VIN coverage confirmation. |
+
+**Do not DIY SRS recalls.** The GM original airbag bulletin requires authorized workshop handling; a VIN-cleared manufacturer repair is distinct from a used airbag module, generic part-number listing or historical contact telephone number.
+
+**Recall decision gate for any candidate:** preserve the actual VIN and body style; obtain historic recall numbers; request current authorized Saab/GM VIN-specific campaign status and dated repair record; obtain authorized corrective action and supply confirmation if outstanding. *Unknown* status must stay unknown, even when an aging VIN lookup returns zero results.
 
 ## Pre-purchase evidence requested for a 2008 wagon
 

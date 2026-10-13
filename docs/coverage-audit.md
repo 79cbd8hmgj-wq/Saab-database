@@ -10,12 +10,12 @@
 | Measure | Current records |
 | --- | ---: |
 | Research domains | 33 |
-| Source records | 504 |
-| Unique source URLs | 445 |
-| Technical facts | 1003 |
-| Diagnostic/correction issues | 78 |
+| Source records | 509 |
+| Unique source URLs | 450 |
+| Technical facts | 1012 |
+| Diagnostic/correction issues | 81 |
 | Part records | 76 |
-| Explicit open research gaps | 246 |
+| Explicit open research gaps | 249 |
 
 A repeated URL is not independent corroboration. These are stored record counts,
 **not** estimates of system completeness, part fitment confidence, failure rates,
@@ -25,14 +25,14 @@ or the probability that an individual vehicle is repairable.
 
 | Source retrieval | Records |
 | --- | ---: |
-| `full_text` | 475 |
+| `full_text` | 480 |
 | `partial` | 3 |
 | `search_excerpt` | 18 |
 | `metadata_only` | 8 |
 
 | Technical evidence | Facts + issues + parts |
 | --- | ---: |
-| `documented` | 1072 |
+| `documented` | 1084 |
 | `supplier_claim` | 78 |
 | `inference` | 7 |
 
@@ -44,13 +44,13 @@ is counted from individual groups, not from a misleading top-level union.
 
 | Scope field explicitly present | Records out of facts + issues + parts |
 | --- | ---: |
-| `platforms` | 1099 / 1157 |
-| `model_years` | 1008 / 1157 |
-| `markets` | 190 / 1157 |
-| `engine_codes` | 338 / 1157 |
-| `transmission_codes` | 162 / 1157 |
-| `body_styles` | 80 / 1157 |
-| `vin_ranges` | 24 / 1157 |
+| `platforms` | 1111 / 1169 |
+| `model_years` | 1020 / 1169 |
+| `markets` | 202 / 1169 |
+| `engine_codes` | 338 / 1169 |
+| `transmission_codes` | 162 / 1169 |
+| `body_styles` | 83 / 1169 |
+| `vin_ranges` | 24 / 1169 |
 
 ### Technical record coverage by original Saab model year
 
@@ -66,28 +66,28 @@ model-year row. Year-path names do not prove a given production revision.
 | 1999 | 17 | 3 | 11 |
 | 2000 | 21 | 3 | 14 |
 | 2001 | 16 | 3 | 14 |
-| 2002 | 26 | 4 | 19 |
-| 2003 | 28 | 3 | 17 |
-| 2004 | 58 | 6 | 20 |
-| 2005 | 156 | 10 | 21 |
-| 2006 | 144 | 13 | 20 |
-| 2007 | 125 | 15 | 19 |
-| 2008 | 171 | 22 | 19 |
-| 2009 | 119 | 13 | 19 |
+| 2002 | 28 | 5 | 19 |
+| 2003 | 30 | 4 | 17 |
+| 2004 | 60 | 7 | 20 |
+| 2005 | 158 | 11 | 21 |
+| 2006 | 151 | 15 | 20 |
+| 2007 | 132 | 17 | 19 |
+| 2008 | 178 | 24 | 19 |
+| 2009 | 124 | 14 | 19 |
 
 #### Second-generation 9-3, platform 9440
 
 | Model year | Facts | Issues | Parts |
 | ---: | ---: | ---: | ---: |
 | 2003 | 20 | 15 | 18 |
-| 2004 | 32 | 16 | 21 |
-| 2005 | 62 | 13 | 18 |
-| 2006 | 95 | 14 | 23 |
-| 2007 | 19 | 9 | 22 |
-| 2008 | 21 | 9 | 23 |
-| 2009 | 14 | 9 | 23 |
-| 2010 | 13 | 10 | 23 |
-| 2011 | 17 | 10 | 22 |
+| 2004 | 34 | 17 | 21 |
+| 2005 | 64 | 14 | 18 |
+| 2006 | 102 | 16 | 23 |
+| 2007 | 26 | 11 | 22 |
+| 2008 | 28 | 11 | 23 |
+| 2009 | 21 | 11 | 23 |
+| 2010 | 20 | 12 | 23 |
+| 2011 | 24 | 12 | 22 |
 
 ### Parts evidence does not equal approved interchange
 
@@ -132,7 +132,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 | `priority_brake_hydraulic_safety` | 19 | 25 | 4 | 0 | 8 |
 | `priority_nonrunning_purchase_screen` | 13 | 20 | 4 | 0 | 8 |
 | `priority_structural_corrosion_inspection` | 14 | 21 | 3 | 0 | 8 |
-| `priority_usca_service_recall_baseline_wp7` | 7 | 17 | 2 | 0 | 4 |
+| `priority_usca_service_recall_baseline_wp7` | 12 | 26 | 5 | 0 | 7 |
 | `priority_vehicle_identity_gates` | 13 | 15 | 2 | 0 | 6 |
 | `repair_vs_replace_troubleshooting` | 17 | 31 | 4 | 0 | 9 |
 | `replacements` | 8 | 10 | 0 | 5 | 3 |
@@ -201,6 +201,8 @@ Every priority subsystem must have an explicit component and connection inventor
 For any proposed substitution, preserve installed OE part ID, VIN/engine/gearbox/market/option restrictions, genuine manufacturer-approved supersession direction **where evidenced**, dimensions/interfaces, safety and loading requirements, firmware/pairing/dependencies and installation tests. Supplier cross-references must remain supplier claims. If original manufacturer support cannot be obtained, mark **not approved / evidence pending**; do not assume bidirectional interchange.
 
 ## What this milestone changes
+
+The WP7 recall follow-up captures the original US 08V160 A-pillar noncompliance, Saab/GM 16V063 driver airbag programme notices 15041 and 15043, US 14V318 convertible-only driver belt retractor and Canadian 2014228 mirror recall. Registration history and VIN-specific completion are deliberately not inferred; old campaign remedies remain professional-service items rather than recommended DIY substitutions.
 
 Work package 6 initial B235 evidence now documents two-stage MY2008 exhaust architecture, T7 O2 and EVAP circuits, safer fuel-differential diagnostics, and New York's conditional lawful converter replacement requirements. These are source-scoped facts only; the 2008 wagon still has no measured restriction, US/Canada VIN-matched OEM catalyst or fuel-line safety finding. Gate B remains unmet.
 

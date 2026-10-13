@@ -36,24 +36,24 @@
     "vin_gearbox_provenance"
   ],
   "counts": {
-    "sources": 504,
-    "facts": 1003,
-    "issues": 78,
+    "sources": 509,
+    "facts": 1012,
+    "issues": 81,
     "parts": 76,
-    "gaps": 246
+    "gaps": 249
   },
-  "unique_source_urls": 445,
+  "unique_source_urls": 450,
   "retrieval_statuses": {
-    "full_text": 475,
+    "full_text": 480,
     "metadata_only": 8,
     "partial": 3,
     "search_excerpt": 18
   },
   "evidence_statuses": {
-    "documented": 1072,
+    "documented": 1084,
     "inference": 7,
     "supplier_claim": 78
   },
   "research_date": "2026-10-13",
-  "notes": "Phase 0 WP6 initial B235 2008 US/CA emissions/exhaust and fuel/EVAP evidence: primary/main catalytic stages, T7 pre/post O2, purging/leak DTCs, instrumented pressure checks, NY legal restrictions. Factory WIS MY2008 directory cannot prove a particular North American VIN-approved catalyst; uninspected 2008 wagon restriction and structural condition remain unknown. Prior WP5 VIN/service-kit limitations also remain. Phase 0 WP7 initial source-scoped MY2008 US/CA 9-5 annual and mileage service plus historical NHTSA 15-year VIN-recall omission; no candidate VIN or manufacturer recall-service status looked up."
+  "notes": "Phase 0 WP6 initial B235 2008 US/CA emissions/exhaust and fuel/EVAP evidence: primary/main catalytic stages, T7 pre/post O2, purging/leak DTCs, instrumented pressure checks, NY legal restrictions. Factory WIS MY2008 directory cannot prove a particular North American VIN-approved catalyst; uninspected 2008 wagon restriction and structural condition remain unknown. Prior WP5 VIN/service-kit limitations also remain. Phase 0 WP7 initial source-scoped MY2008 US/CA 9-5 annual and mileage service plus historical NHTSA 15-year VIN-recall omission; no candidate VIN or manufacturer recall-service status looked up. WP7 recall supplement adds original NHTSA 08V160 9-5 trim, 16V063 9-5/9-3 airbag (GM campaign 15041/15043), 14V318 9-3 convertible retractor, and Canada 2014228, all with explicit unresolved VIN and completion gates."
 }
