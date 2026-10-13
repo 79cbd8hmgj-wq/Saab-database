@@ -53,3 +53,9 @@ The following are **historical regulator/manufacturer campaign scopes**, **not**
 5. Keep Gate A partial and Gate B/C not met until vehicle identity, structure and applicable parts evidence are actually obtained.
 
 **Blocked:** individual VIN campaign history; true service records; year/market revisions; MY2005–06 B207 US/CA service documents. Nothing here approves a replacement or verifies a real vehicle's condition.
+
+## New conflict: MY2008 US/CA 9-5 automatic transmission fluid schedule
+
+The already-recorded original [MY2008 Saab US/CA annual maintenance list](https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/annual-service) prints **70,000 miles or 5 years** for automatic-transmission fluid under additional work. However, an independently retrieved [MY2008 US/CA 60,000-mile checklist](https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/60000-miles-us-ca) says **change transmission fluid in automatic gearbox** at **item 9**. Both are manufacturer-authored pages labeled US/CA and model year 2008; their scope overlaps. Neither is silently declared a typo or superseded without proof. This dataset now stores **both** original triggers as separate facts and a named discrepancy issue/gap. The original printed owner/service booklet, exact WIS edition/erratum and fitted transmission identity remain required to resolve the apparent conflict.
+
+A seller's undocumented assertion of a transmission service history, or the absence of a SID service message, does not close this gate or demonstrate FA57 health.
