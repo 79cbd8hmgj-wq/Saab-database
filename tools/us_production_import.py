@@ -99,8 +99,10 @@ def read_table(html: str, spec: tuple) -> dict:
         trans = item["trans"]
         gears = gearbox_gears(trans)
         if gears is None:
-            filtered_counts["manual"] += item["count"]
-            continue
+            if re.fullmatch(r"(?:[456]MT|MT\s+[456]\s*-?\s*Spd)", trans, re.I):
+                filtered_counts["manual"] += item["count"]
+                continue
+            raise ValueError(f"{filename}: unknown transmission code {trans!r}")
         raw_body = item.get("body", "4D")
         if raw_body == "CV":
             filtered_counts["convertible"] += item["count"]
@@ -116,6 +118,7 @@ def read_table(html: str, spec: tuple) -> dict:
         year = item["year"]
         if not 1998 <= year <= 2011:
             raise ValueError(f"{filename}: year out of candidate scope: {year}")
+        normalized_body = "wagon" if platform == "9600" and raw_body == "5D" else BODY[raw_body]
         key = (year, item["trim"], raw_body, drive, trans, item["engine"])
         if key not in grouped:
             canonical = "|".join(map(str, (platform, *key)))
@@ -125,7 +128,7 @@ def read_table(html: str, spec: tuple) -> dict:
                 "id": f"usprod-{platform}-{year}-{suffix}",
                 "market": "US", "model": model, "platform": platform,
                 "model_year": year, "trim": item["trim"],
-                "body_code": raw_body, "body_style": BODY[raw_body],
+                "body_code": raw_body, "body_style": normalized_body,
                 "drivetrain": "FWD", "transmission": trans,
                 "automatic_gears": gears, "transmission_code": None,
                 "engine_code": engine if ENGINE_CODE_RE.fullmatch(engine) else None,
