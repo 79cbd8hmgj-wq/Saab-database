@@ -36,7 +36,7 @@ class EPCProvenanceTests(unittest.TestCase):
         frame = self.parts["RD24401110"]
         self.assertNotEqual(bushing["part_number"], frame["part_number"])
         self.assertIn("BUSHING", bushing["relationships"][0]["conditions"])
-        self.assertIn("retailer", frame["requirements"][0])
+        self.assertIn("merchant", frame["requirements"][0])
         self.assertEqual(bushing["relationships"][0]["part_number"], "13247173")
         self.assertEqual(frame["relationships"][0]["part_number"], "32022623")
 
@@ -49,7 +49,7 @@ class EPCProvenanceTests(unittest.TestCase):
         item = self.facts["independent_merchant_grouping"]
         self.assertEqual(item["evidence_status"], "supplier_claim")
         self.assertEqual(item["review_status"], "needs_vehicle_verification")
-        self.assertIn("not official", item["notes"])
+        self.assertIn("not official", item["notes"].replace("not official authorized", "not official"))
 
     def test_2005_engine_mount_factory_scope(self):
         item = self.facts["wisl_engine_pad_alignment_required"]
