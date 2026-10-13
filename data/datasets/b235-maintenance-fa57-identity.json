@@ -1,0 +1,1614 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "b235_maintenance_fa57_identity",
+  "sources": [
+    {
+      "id": "maint-src-001",
+      "title": "MY2004 WIS petrol crankcase ventilation architecture",
+      "url": "https://saabwisonline.com/9-5-9600/2004/2-engine/exhaust-emission-control-system/technical-description/crankcase-ventilation-4-cyl",
+      "publisher": "Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Source-scoped factory reference; web mirror year-directory alone is not VIN-specific application, part fitment or measured engine condition."
+    },
+    {
+      "id": "maint-src-002",
+      "title": "MY2007 WIS petrol crankcase ventilation architecture and DTCs",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/exhaust-emission-control-system/technical-description/crankcase-ventilation-4-cyl",
+      "publisher": "Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Source-scoped factory reference; web mirror year-directory alone is not VIN-specific application, part fitment or measured engine condition."
+    },
+    {
+      "id": "maint-src-003",
+      "title": "MY2009 WIS petrol crankcase ventilation architecture and DTCs",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/exhaust-emission-control-system/technical-description/crankcase-ventilation-4-cyl",
+      "publisher": "Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Source-scoped factory reference; web mirror year-directory alone is not VIN-specific application, part fitment or measured engine condition."
+    },
+    {
+      "id": "maint-src-004",
+      "title": "MY2006 WIS oil-trap hose coupling inspection",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/exhaust-emission-control-system/adjustment-replacement/inspection-of-crankcase-ventilation-hoses",
+      "publisher": "Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Source-scoped factory reference; web mirror year-directory alone is not VIN-specific application, part fitment or measured engine condition."
+    },
+    {
+      "id": "maint-src-005",
+      "title": "MY2006 WIS check-valve ventilation hose removal and fitment",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/exhaust-emission-control-system/adjustment-replacement/hose-with-check-valve-for-crankcase-ventilation",
+      "publisher": "Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Source-scoped factory reference; web mirror year-directory alone is not VIN-specific application, part fitment or measured engine condition."
+    },
+    {
+      "id": "maint-src-006",
+      "title": "MY2007 WIS four-cylinder petrol lubricating system",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system",
+      "publisher": "Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Source-scoped factory reference; web mirror year-directory alone is not VIN-specific application, part fitment or measured engine condition."
+    },
+    {
+      "id": "maint-src-007",
+      "title": "MY2009 WIS four-cylinder petrol lubricating system",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system",
+      "publisher": "Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Source-scoped factory reference; web mirror year-directory alone is not VIN-specific application, part fitment or measured engine condition."
+    },
+    {
+      "id": "maint-src-008",
+      "title": "MY2006 WIS oil and filter service, B205E/B235E lines",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/basic-engine-4-cylinder-petrol/service/engine-oil-and-oil-filter",
+      "publisher": "Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Source-scoped factory reference; web mirror year-directory alone is not VIN-specific application, part fitment or measured engine condition."
+    },
+    {
+      "id": "maint-src-009",
+      "title": "MY2008 WIS oil and filter service, B205E/B235E lines",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/service/engine-oil-and-oil-filter",
+      "publisher": "Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Source-scoped factory reference; web mirror year-directory alone is not VIN-specific application, part fitment or measured engine condition."
+    },
+    {
+      "id": "maint-src-010",
+      "title": "MY2009 WIS oil and filter service, B205E/B235E lines",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/service/engine-oil-and-oil-filter",
+      "publisher": "Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Source-scoped factory reference; web mirror year-directory alone is not VIN-specific application, part fitment or measured engine condition."
+    },
+    {
+      "id": "maint-src-011",
+      "title": "MY2009 WIS EU recommended petrol oil specification and short-trip caution",
+      "url": "https://saabwisonline.com/9-5-9600/2009/1-service/saab-service-eu/service/recommended-oil-quality",
+      "publisher": "Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Source-scoped factory reference; web mirror year-directory alone is not VIN-specific application, part fitment or measured engine condition."
+    },
+    {
+      "id": "maint-src-012",
+      "title": "MY2005 WIS 9-3 FA57 gearbox and TCM identity decoding",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/type-designations",
+      "publisher": "Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Source-scoped factory reference; web mirror year-directory alone is not VIN-specific application, part fitment or measured engine condition."
+    },
+    {
+      "id": "maint-src-013",
+      "title": "Saab TA440-0702 early 9-3 coolant in FA57 ATF and vehicle scope",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/bulletins-si-mi/ta440-0702-coolant-in-atf-oil",
+      "publisher": "Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Source-scoped factory reference; web mirror year-directory alone is not VIN-specific application, part fitment or measured engine condition."
+    }
+  ],
+  "facts": [
+    {
+      "id": "maint-fact-001",
+      "subject": "9-5 petrol:crankcase ventilation",
+      "category": "maintenance",
+      "predicate": "pcv_external_oil_trap_location",
+      "value": "Attached to cylinder block behind engine",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "maint-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "General; Function",
+      "notes": "Same text describes a design introduced in 2004; duplicated 'this model year is new' wording in later pages is NOT a new revision each year."
+    },
+    {
+      "id": "maint-fact-002",
+      "subject": "9-5 petrol:crankcase ventilation",
+      "category": "maintenance",
+      "predicate": "pcv_low_load_flow",
+      "value": "Oil trap -> check-valve hose -> throttle body downstream of throttle when manifold pressure is negative",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "maint-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Function",
+      "notes": "Source describes manifold vacuum route only."
+    },
+    {
+      "id": "maint-fact-003",
+      "subject": "9-5 petrol:crankcase ventilation",
+      "category": "maintenance",
+      "predicate": "pcv_boost_load_flow",
+      "value": "When manifold pressure is positive, throttle-body check valve closes; gases routed from oil trap to turbo intake pipe",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "maint-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Function",
+      "notes": "Do not infer a failed check valve, turbo defect or approved replacement from diagram alone."
+    },
+    {
+      "id": "maint-fact-004",
+      "subject": "9-5 petrol:crankcase ventilation",
+      "category": "maintenance",
+      "predicate": "pcv_leak_possible_DTCs",
+      "value": [
+        "P1181",
+        "P0171",
+        "P1171",
+        "P0507",
+        "P0101",
+        "P0300",
+        "P0455"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "maint-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics",
+      "notes": "The factory lists possible codes for PCV leakage; no code alone is proof of a defective oil trap or PCV."
+    },
+    {
+      "id": "maint-fact-005",
+      "subject": "9-5 petrol:crankcase ventilation",
+      "category": "maintenance",
+      "predicate": "pcv_external_oil_trap_location",
+      "value": "Attached to cylinder block behind engine",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "maint-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "General; Function",
+      "notes": "Same text describes a design introduced in 2004; duplicated 'this model year is new' wording in later pages is NOT a new revision each year."
+    },
+    {
+      "id": "maint-fact-006",
+      "subject": "9-5 petrol:crankcase ventilation",
+      "category": "maintenance",
+      "predicate": "pcv_low_load_flow",
+      "value": "Oil trap -> check-valve hose -> throttle body downstream of throttle when manifold pressure is negative",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "maint-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Function",
+      "notes": "Source describes manifold vacuum route only."
+    },
+    {
+      "id": "maint-fact-007",
+      "subject": "9-5 petrol:crankcase ventilation",
+      "category": "maintenance",
+      "predicate": "pcv_boost_load_flow",
+      "value": "When manifold pressure is positive, throttle-body check valve closes; gases routed from oil trap to turbo intake pipe",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "maint-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Function",
+      "notes": "Do not infer a failed check valve, turbo defect or approved replacement from diagram alone."
+    },
+    {
+      "id": "maint-fact-008",
+      "subject": "9-5 petrol:crankcase ventilation",
+      "category": "maintenance",
+      "predicate": "pcv_leak_possible_DTCs",
+      "value": [
+        "P1181",
+        "P0171",
+        "P1171",
+        "P0507",
+        "P0101",
+        "P0300",
+        "P0455"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "maint-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics",
+      "notes": "The factory lists possible codes for PCV leakage; no code alone is proof of a defective oil trap or PCV."
+    },
+    {
+      "id": "maint-fact-009",
+      "subject": "9-5 petrol:crankcase ventilation",
+      "category": "maintenance",
+      "predicate": "pcv_external_oil_trap_location",
+      "value": "Attached to cylinder block behind engine",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "maint-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "General; Function",
+      "notes": "Same text describes a design introduced in 2004; duplicated 'this model year is new' wording in later pages is NOT a new revision each year."
+    },
+    {
+      "id": "maint-fact-010",
+      "subject": "9-5 petrol:crankcase ventilation",
+      "category": "maintenance",
+      "predicate": "pcv_low_load_flow",
+      "value": "Oil trap -> check-valve hose -> throttle body downstream of throttle when manifold pressure is negative",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "maint-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Function",
+      "notes": "Source describes manifold vacuum route only."
+    },
+    {
+      "id": "maint-fact-011",
+      "subject": "9-5 petrol:crankcase ventilation",
+      "category": "maintenance",
+      "predicate": "pcv_boost_load_flow",
+      "value": "When manifold pressure is positive, throttle-body check valve closes; gases routed from oil trap to turbo intake pipe",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "maint-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Function",
+      "notes": "Do not infer a failed check valve, turbo defect or approved replacement from diagram alone."
+    },
+    {
+      "id": "maint-fact-012",
+      "subject": "9-5 petrol:crankcase ventilation",
+      "category": "maintenance",
+      "predicate": "pcv_leak_possible_DTCs",
+      "value": [
+        "P1181",
+        "P0171",
+        "P1171",
+        "P0507",
+        "P0101",
+        "P0300",
+        "P0455"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "maint-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics",
+      "notes": "The factory lists possible codes for PCV leakage; no code alone is proof of a defective oil trap or PCV."
+    },
+    {
+      "id": "maint-fact-013",
+      "subject": "9-5 petrol:PCV service",
+      "category": "maintenance",
+      "predicate": "oil_trap_hose_coupling_visual_check",
+      "value": "All oil-trap hose couplings should be secure and intact",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "maint-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Check step 1",
+      "notes": "Factory procedural check. This is not proof the vehicle is free of sludge or bearing wear."
+    },
+    {
+      "id": "maint-fact-014",
+      "subject": "9-5 petrol:PCV service",
+      "category": "maintenance",
+      "predicate": "check_valve_hose_service_access",
+      "value": "Lower coupling at oil trap; check valve held by clip and rubber hose; WIS describes fitting from above",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "maint-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove / To fit",
+      "notes": "Service physical access only; not a verified hose part number or cross-year interchange."
+    },
+    {
+      "id": "maint-fact-015",
+      "subject": "9-5 petrol:lubrication",
+      "category": "maintenance",
+      "predicate": "oil_total_and_service_fill_litres",
+      "value": {
+        "complete_including_cooler_filter": 5.4,
+        "service_refill_including_filter": 4
+      },
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "maint-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "General data > Oil volume",
+      "notes": "A service refill is NOT the dry system volume; fill and check against MAX."
+    },
+    {
+      "id": "maint-fact-016",
+      "subject": "9-5 petrol:lubrication",
+      "category": "maintenance",
+      "predicate": "oil_level_min_max_difference",
+      "value": 1,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "maint-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "General data > Difference in volume",
+      "notes": "Difference between marks; not safe authorization to add one litre without reading the level."
+    },
+    {
+      "id": "maint-fact-017",
+      "subject": "9-5 petrol:lubrication",
+      "category": "maintenance",
+      "predicate": "oil_pressure_test_2000_rpm",
+      "value": {
+        "minimum_bar": 2.5,
+        "rpm": 2000,
+        "oil_temperature_C": 105,
+        "oil_temperature_tolerance_C": 2,
+        "test_grade": "10W-30"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "maint-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil pressures > Minimum oil pressure",
+      "notes": "This is a factory acceptance reading under these test conditions, not a normal idle threshold; never treat warning-light silence as this test result."
+    },
+    {
+      "id": "maint-fact-018",
+      "subject": "9-5 petrol:lubrication",
+      "category": "maintenance",
+      "predicate": "low_oil_warning_switch_band_bar",
+      "value": {
+        "min": 0.3,
+        "max": 0.55
+      },
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "maint-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil pressures > Warning lamp comes on",
+      "notes": "Warning switch threshold substantially lower than 2.5 bar running acceptance threshold; not direct evidence of pump health."
+    },
+    {
+      "id": "maint-fact-019",
+      "subject": "9-5 petrol:lubrication",
+      "category": "maintenance",
+      "predicate": "oil_pressure_regulator_opening",
+      "value": 3.8,
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "maint-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil pressures > Reducing valve",
+      "notes": "Describes valve relief setting, not continuous operating pressure."
+    },
+    {
+      "id": "maint-fact-020",
+      "subject": "9-5 petrol:lubrication",
+      "category": "maintenance",
+      "predicate": "oil_cooler_thermostat_opening_temperature",
+      "value": {
+        "nominal_C": 105,
+        "tolerance_C": 2
+      },
+      "unit": "°C",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "maint-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil pressures > Engine oil cooler thermostat",
+      "notes": "Do not infer coolant thermostat temperature or change the setting."
+    },
+    {
+      "id": "maint-fact-021",
+      "subject": "9-5 petrol:lubrication",
+      "category": "maintenance",
+      "predicate": "factory_additive_caution",
+      "value": "WIS says supplemental engine-oil additives should be avoided with recommended oils",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "maint-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "General data > Important",
+      "notes": "No evidence is supplied that aftermarket flushes or additives extend bearing service life."
+    },
+    {
+      "id": "maint-fact-022",
+      "subject": "9-5 petrol:lubrication",
+      "category": "maintenance",
+      "predicate": "oil_total_and_service_fill_litres",
+      "value": {
+        "complete_including_cooler_filter": 5.4,
+        "service_refill_including_filter": 4
+      },
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "maint-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "General data > Oil volume",
+      "notes": "A service refill is NOT the dry system volume; fill and check against MAX."
+    },
+    {
+      "id": "maint-fact-023",
+      "subject": "9-5 petrol:lubrication",
+      "category": "maintenance",
+      "predicate": "oil_level_min_max_difference",
+      "value": 1,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "maint-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "General data > Difference in volume",
+      "notes": "Difference between marks; not safe authorization to add one litre without reading the level."
+    },
+    {
+      "id": "maint-fact-024",
+      "subject": "9-5 petrol:lubrication",
+      "category": "maintenance",
+      "predicate": "oil_pressure_test_2000_rpm",
+      "value": {
+        "minimum_bar": 2.5,
+        "rpm": 2000,
+        "oil_temperature_C": 105,
+        "oil_temperature_tolerance_C": 2,
+        "test_grade": "10W-30"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "maint-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil pressures > Minimum oil pressure",
+      "notes": "This is a factory acceptance reading under these test conditions, not a normal idle threshold; never treat warning-light silence as this test result."
+    },
+    {
+      "id": "maint-fact-025",
+      "subject": "9-5 petrol:lubrication",
+      "category": "maintenance",
+      "predicate": "low_oil_warning_switch_band_bar",
+      "value": {
+        "min": 0.3,
+        "max": 0.55
+      },
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "maint-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil pressures > Warning lamp comes on",
+      "notes": "Warning switch threshold substantially lower than 2.5 bar running acceptance threshold; not direct evidence of pump health."
+    },
+    {
+      "id": "maint-fact-026",
+      "subject": "9-5 petrol:lubrication",
+      "category": "maintenance",
+      "predicate": "oil_pressure_regulator_opening",
+      "value": 3.8,
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "maint-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil pressures > Reducing valve",
+      "notes": "Describes valve relief setting, not continuous operating pressure."
+    },
+    {
+      "id": "maint-fact-027",
+      "subject": "9-5 petrol:lubrication",
+      "category": "maintenance",
+      "predicate": "oil_cooler_thermostat_opening_temperature",
+      "value": {
+        "nominal_C": 105,
+        "tolerance_C": 2
+      },
+      "unit": "°C",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "maint-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil pressures > Engine oil cooler thermostat",
+      "notes": "Do not infer coolant thermostat temperature or change the setting."
+    },
+    {
+      "id": "maint-fact-028",
+      "subject": "9-5 petrol:lubrication",
+      "category": "maintenance",
+      "predicate": "factory_additive_caution",
+      "value": "WIS says supplemental engine-oil additives should be avoided with recommended oils",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "maint-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "General data > Important",
+      "notes": "No evidence is supplied that aftermarket flushes or additives extend bearing service life."
+    },
+    {
+      "id": "maint-fact-029",
+      "subject": "9-5 B205E/B235E:oil service",
+      "category": "maintenance",
+      "predicate": "engine_oil_service_refill_litres",
+      "value": 4,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "maint-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil capacity > B205E, B235E",
+      "notes": "WIS service page explicitly names B205E and B235E; do not extend this specific service passage to B235R by guesswork."
+    },
+    {
+      "id": "maint-fact-030",
+      "subject": "9-5 B205E/B235E:oil service",
+      "category": "maintenance",
+      "predicate": "oil_drain_plug_torque_nm",
+      "value": 25,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "maint-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Drain plug tightening torque",
+      "notes": "Joint-specific service value only; confirm exact installation and hardware."
+    },
+    {
+      "id": "maint-fact-031",
+      "subject": "9-5 B205E/B235E:oil service",
+      "category": "maintenance",
+      "predicate": "warm_oil_check_delay_min",
+      "value": {
+        "min": 2,
+        "max": 5,
+        "engine_state": "shut off, still warm"
+      },
+      "unit": "min",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "maint-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Engine oil > check oil level",
+      "notes": "Factory check conditions; do not inspect hot fluid or run engines exhibiting severe mechanical knock without appropriate safety assessment."
+    },
+    {
+      "id": "maint-fact-032",
+      "subject": "9-5 B205E/B235E:oil service",
+      "category": "maintenance",
+      "predicate": "engine_oil_service_refill_litres",
+      "value": 4,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "maint-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil capacity > B205E, B235E",
+      "notes": "WIS service page explicitly names B205E and B235E; do not extend this specific service passage to B235R by guesswork."
+    },
+    {
+      "id": "maint-fact-033",
+      "subject": "9-5 B205E/B235E:oil service",
+      "category": "maintenance",
+      "predicate": "oil_drain_plug_torque_nm",
+      "value": 25,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "maint-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Drain plug tightening torque",
+      "notes": "Joint-specific service value only; confirm exact installation and hardware."
+    },
+    {
+      "id": "maint-fact-034",
+      "subject": "9-5 B205E/B235E:oil service",
+      "category": "maintenance",
+      "predicate": "warm_oil_check_delay_min",
+      "value": {
+        "min": 2,
+        "max": 5,
+        "engine_state": "shut off, still warm"
+      },
+      "unit": "min",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "maint-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Engine oil > check oil level",
+      "notes": "Factory check conditions; do not inspect hot fluid or run engines exhibiting severe mechanical knock without appropriate safety assessment."
+    },
+    {
+      "id": "maint-fact-035",
+      "subject": "9-5 B205E/B235E:oil service",
+      "category": "maintenance",
+      "predicate": "engine_oil_service_refill_litres",
+      "value": 4,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "maint-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil capacity > B205E, B235E",
+      "notes": "WIS service page explicitly names B205E and B235E; do not extend this specific service passage to B235R by guesswork."
+    },
+    {
+      "id": "maint-fact-036",
+      "subject": "9-5 B205E/B235E:oil service",
+      "category": "maintenance",
+      "predicate": "oil_drain_plug_torque_nm",
+      "value": 25,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "maint-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Drain plug tightening torque",
+      "notes": "Joint-specific service value only; confirm exact installation and hardware."
+    },
+    {
+      "id": "maint-fact-037",
+      "subject": "9-5 B205E/B235E:oil service",
+      "category": "maintenance",
+      "predicate": "warm_oil_check_delay_min",
+      "value": {
+        "min": 2,
+        "max": 5,
+        "engine_state": "shut off, still warm"
+      },
+      "unit": "min",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "maint-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Engine oil > check oil level",
+      "notes": "Factory check conditions; do not inspect hot fluid or run engines exhibiting severe mechanical knock without appropriate safety assessment."
+    },
+    {
+      "id": "maint-fact-038",
+      "subject": "9-5 B235 EU:oil specification",
+      "category": "maintenance",
+      "predicate": "historical_gm_ll_a_025_oil",
+      "value": {
+        "historical_approval": "GM-LL-A-025",
+        "SAE": [
+          "0W-30",
+          "0W-40",
+          "5W-30",
+          "5W-40"
+        ],
+        "factory_product": "Long Life synthetic"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235L",
+          "B235R"
+        ],
+        "markets": [
+          "EU"
+        ]
+      },
+      "source_ids": [
+        "maint-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Recommendation > Petrol engine / B235E B235L B235R",
+      "notes": "Historical EU factory specification; current product approval/substitution and US/CA requirements require separate confirmation."
+    },
+    {
+      "id": "maint-fact-039",
+      "subject": "9-5 petrol:oil service",
+      "category": "maintenance",
+      "predicate": "short_trip_high_fuel_dilution",
+      "value": "Frequent city/short-distance starts can introduce fuel and moisture into oil, warranting more frequent oil changes",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "markets": [
+          "EU"
+        ]
+      },
+      "source_ids": [
+        "maint-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Useful life; Service and oil change",
+      "notes": "Factory qualitative explanation only: no numeric interval for all markets and years follows from this paragraph."
+    },
+    {
+      "id": "maint-fact-040",
+      "subject": "9-3 FA57 gearbox identification",
+      "category": "maintenance",
+      "predicate": "fa57_code_groups",
+      "value": {
+        "5": "five forward speeds",
+        "7": "top gear overall-ratio designation",
+        "example": "FA57 1 01 03CV12345",
+        "F": "front-wheel drive",
+        "A": "automatic",
+        "second_group_1": "adapted for B207E/L/R",
+        "third_group_01": "development version"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "maint-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Gearbox > Type designations",
+      "notes": "Example code is not a real serial number or approval to substitute a gearbox. Distinguish gearbox code from vehicle VIN."
+    },
+    {
+      "id": "maint-fact-041",
+      "subject": "9-3 FA57 gearbox identification",
+      "category": "maintenance",
+      "predicate": "fa57_manufacture_month_encoding",
+      "value": {
+        "A": "Jan",
+        "B": "Feb",
+        "C": "Mar",
+        "D": "Apr",
+        "E": "May",
+        "F": "Jun",
+        "G": "Jul",
+        "H": "Aug",
+        "J": "Sep",
+        "K": "Oct",
+        "L": "Nov",
+        "M": "Dec"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "maint-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Gearbox > Third group",
+      "notes": "Code chart omits I; month marker is not a vehicle model year or interchangeable build date."
+    },
+    {
+      "id": "maint-fact-042",
+      "subject": "9-3 FA57 transmission control",
+      "category": "maintenance",
+      "predicate": "fa57_tcm_engine_character_map",
+      "value": {
+        "J": "B207L",
+        "K": "B207R",
+        "L": "B207E"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "maint-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Control module > First group",
+      "notes": "Only the referenced character mapping; not a programming, calibration, or pairing approval."
+    },
+    {
+      "id": "maint-fact-043",
+      "subject": "9-3 FA57 coolant ingress",
+      "category": "maintenance",
+      "predicate": "ta440_0702_body_chassis_limits",
+      "value": {
+        "saloon_SS_suffix_below": "51002378",
+        "convertible_CV_suffix_below": "56001058",
+        "diesel_separate_limit": "51000001",
+        "market": "all",
+        "issue_date": "2007-01"
+      },
+      "unit": null,
+      "applicability": {
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2003,
+              2004,
+              2005
+            ],
+            "body_styles": [
+              "SS"
+            ],
+            "transmission_codes": [
+              "FA57"
+            ],
+            "vin_ranges": [
+              {
+                "end": "51002378",
+                "comparison": "below",
+                "format": "8-character chassis suffix"
+              }
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2004,
+              2005
+            ],
+            "body_styles": [
+              "CV"
+            ],
+            "transmission_codes": [
+              "FA57"
+            ],
+            "vin_ranges": [
+              {
+                "end": "56001058",
+                "comparison": "below",
+                "format": "8-character chassis suffix"
+              }
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "maint-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VEHICLES CONCERNED; Market; Date",
+      "notes": "TA has strict chassis limits (below); includes TiD separately. Grouped scope explicitly retains petrol saloon and convertible body conditions, but not installed VIN verification."
+    },
+    {
+      "id": "maint-fact-044",
+      "subject": "9-3 FA57 coolant ingress",
+      "category": "maintenance",
+      "predicate": "ta440_0702_confirmed_contamination_disposition",
+      "value": "Confirmed coolant in ATF: replace entire transmission; rework cooler connections and fluid lines; check coolant, reset TCM adaptations",
+      "unit": null,
+      "applicability": {
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2003,
+              2004,
+              2005
+            ],
+            "body_styles": [
+              "SS"
+            ],
+            "transmission_codes": [
+              "FA57"
+            ],
+            "vin_ranges": [
+              {
+                "end": "51002378",
+                "comparison": "below",
+                "format": "8-character chassis suffix"
+              }
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2004,
+              2005
+            ],
+            "body_styles": [
+              "CV"
+            ],
+            "transmission_codes": [
+              "FA57"
+            ],
+            "vin_ranges": [
+              {
+                "end": "56001058",
+                "comparison": "below",
+                "format": "8-character chassis suffix"
+              }
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "maint-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "ACTION",
+      "notes": "Do NOT reproduce WIS open-flame ATF confirmation. Refer suspected contamination to a qualified shop using safe appropriate testing."
+    }
+  ],
+  "issues": [
+    {
+      "id": "maint-issue-001",
+      "title": "PCV-related mixture DTCs on documented 2004/2007/2009 petrol 9-5",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2007,
+          2009
+        ]
+      },
+      "cause": "Factory PCV diagrams document check-valve, external trap and multiple hose flow paths; leaks may contribute to DTCs, but no single code identifies the failing component.",
+      "symptoms": [
+        "P0171 or P1171",
+        "P0101",
+        "P0300",
+        "P0507"
+      ],
+      "diagnosis_summary": "Inspect individual oil-trap hoses, clips, boost check valve and intake leaks, alongside other DTC causes and actual operating data.",
+      "correction_summary": "Correct the specifically diagnosed leak or damaged part with year/VIN-verified factory parts and service procedure.",
+      "source_ids": [
+        "maint-src-001",
+        "maint-src-002",
+        "maint-src-003"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "No code provides standalone confirmation of PCV failure.",
+        "No evidence of fleet incidence or approved retrofit.",
+        "Factory web text describing 'new' PCV in 2007/2009 is copied from design context, not proof of annual redesigned hardware."
+      ]
+    },
+    {
+      "id": "maint-issue-002",
+      "title": "FA57 gearbox identity must precede contamination campaign assessment",
+      "applicability": {
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2003,
+              2004,
+              2005
+            ],
+            "body_styles": [
+              "SS"
+            ],
+            "transmission_codes": [
+              "FA57"
+            ],
+            "vin_ranges": [
+              {
+                "end": "51002378",
+                "comparison": "below",
+                "format": "8-character chassis suffix"
+              }
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2004,
+              2005
+            ],
+            "body_styles": [
+              "CV"
+            ],
+            "transmission_codes": [
+              "FA57"
+            ],
+            "vin_ranges": [
+              {
+                "end": "56001058",
+                "comparison": "below",
+                "format": "8-character chassis suffix"
+              }
+            ]
+          }
+        ]
+      },
+      "cause": "Saab distinguishes FA57 gearbox code/manufacture data and TCM hardware from vehicle chassis boundaries; campaign applicability is not established by model year alone.",
+      "symptoms": [
+        "seller reports recent radiator work",
+        "unknown gearbox identity",
+        "gearbox warning or unexpected shifts"
+      ],
+      "diagnosis_summary": "Record real VIN body and chassis suffix, installed gearbox type designation, transmission-fluid history and cooler replacement invoices; obtain professional contamination testing when evidence warrants.",
+      "correction_summary": "Resolve applicability and condition; verified coolant/ATF mixing under TA440-0702 requires trained transmission repair evaluation, not routine fluid-only treatment.",
+      "source_ids": [
+        "maint-src-012",
+        "maint-src-013"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "No gearbox swap or TCM programming approval.",
+        "The 'up to VIN below' test is a strict cutoff and differs from separate CSP15446 campaign inclusion.",
+        "Do not use the bulletin's open-flame ATF sample demonstration as a DIY test."
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "maint-gap-001",
+      "title": "2006/2008 hot oil pressure complete year-index evidence",
+      "missing_inputs": [
+        "Recover actual 2006 and 2008 petrol lubricating system tables or marked partial references and compare 2007/2009 2.5 bar tests without interpolation."
+      ],
+      "reason": "Source data does not establish a vehicle-specific measurement, fitment, safe approval or complete model-year coverage.",
+      "source_ids": [
+        "maint-src-006",
+        "maint-src-007"
+      ]
+    },
+    {
+      "id": "maint-gap-002",
+      "title": "2004/2005 9-5 oil-test and maintenance context",
+      "missing_inputs": [
+        "Assemble independently year-sourced procedures for B235E/L/R for 2004–2005 and any corresponding market-specific service intervals."
+      ],
+      "reason": "Source data does not establish a vehicle-specific measurement, fitment, safe approval or complete model-year coverage.",
+      "source_ids": [
+        "maint-src-006",
+        "maint-src-007",
+        "maint-src-011"
+      ]
+    },
+    {
+      "id": "maint-gap-003",
+      "title": "B235R-specific service-page language for 2006–2009",
+      "missing_inputs": [
+        "Find explicit B235R oil/filter service refill, plug joint and interval; current 2006, 2008 and 2009 service pages explicitly name B205E/B235E only."
+      ],
+      "reason": "Source data does not establish a vehicle-specific measurement, fitment, safe approval or complete model-year coverage.",
+      "source_ids": [
+        "maint-src-008",
+        "maint-src-009",
+        "maint-src-010"
+      ]
+    },
+    {
+      "id": "maint-gap-004",
+      "title": "PCV configuration, production year, and revision proof",
+      "missing_inputs": [
+        "Compare full 2004–09 oil-trap, vacuum check-valve, turbo-inlet hose part diagrams, EPC/supersessions and chassis changes; replicated 'new model year' descriptions are insufficient."
+      ],
+      "reason": "Source data does not establish a vehicle-specific measurement, fitment, safe approval or complete model-year coverage.",
+      "source_ids": [
+        "maint-src-001",
+        "maint-src-002",
+        "maint-src-003",
+        "maint-src-004",
+        "maint-src-005"
+      ]
+    },
+    {
+      "id": "maint-gap-005",
+      "title": "B235 original engine condition and long-life outcomes",
+      "missing_inputs": [
+        "Obtain used-engine hot-pressure measurements and history, oil pickup and bearing inspection evidence, and statistically defensible durability data; do not infer Toyota-level lifetime."
+      ],
+      "reason": "Source data does not establish a vehicle-specific measurement, fitment, safe approval or complete model-year coverage.",
+      "source_ids": [
+        "maint-src-006",
+        "maint-src-007"
+      ]
+    },
+    {
+      "id": "maint-gap-006",
+      "title": "2026 oil approval equivalence and severe-service schedule",
+      "missing_inputs": [
+        "Verify currently supported oil approvals and manufacturer equivalents per engine/market plus exact severe-duty timing; old GM-LL-A-025 label is historical."
+      ],
+      "reason": "Source data does not establish a vehicle-specific measurement, fitment, safe approval or complete model-year coverage.",
+      "source_ids": [
+        "maint-src-011"
+      ]
+    },
+    {
+      "id": "maint-gap-007",
+      "title": "FA57 installed transmission and TCM identity verification",
+      "missing_inputs": [
+        "Obtain actual gearbox stamped code, TCM part numbers, VIN build/option record, replacement history and authorized coding constraints; manufacturer EPC required for any fitment."
+      ],
+      "reason": "Source data does not establish a vehicle-specific measurement, fitment, safe approval or complete model-year coverage.",
+      "source_ids": [
+        "maint-src-012",
+        "maint-src-013"
+      ]
+    },
+    {
+      "id": "maint-gap-008",
+      "title": "TA440 versus campaign 15446 exact overlap and inclusion rules",
+      "missing_inputs": [
+        "Retrieve original complete campaign text for covered VIN suffixes and radiator date/manufacturer production rules; distinguish technical advice from campaign and actual completion."
+      ],
+      "reason": "Source data does not establish a vehicle-specific measurement, fitment, safe approval or complete model-year coverage.",
+      "source_ids": [
+        "maint-src-013"
+      ]
+    },
+    {
+      "id": "maint-gap-009",
+      "title": "Safe method to confirm water/glycol in ATF",
+      "missing_inputs": [
+        "Locate documented laboratory/professional compatible chemical test and sample acceptance criteria without repeating hazardous original flame test."
+      ],
+      "reason": "Source data does not establish a vehicle-specific measurement, fitment, safe approval or complete model-year coverage.",
+      "source_ids": [
+        "maint-src-013"
+      ]
+    }
+  ]
+}
