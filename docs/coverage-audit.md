@@ -1,121 +1,212 @@
-# Phase 0 research coverage audit
+# Phase 0 research coverage audit — 26-domain refresh
 
-Audit date: 2026-10-12. Repository baseline: `4895cffd450c7e295133d246fbef17309ef9a057`. This is an audit of *stored records*, not an independent recertification of the linked technical sources. The objective is to deepen documentation before attempting a car-ranking tool, interchange approval, reliability model, or vehicle simulator.
+**Audit basis:** October 12, 2026, the 26 checked-in research datasets at the 19-PR merged baseline. This is a census of saved records, **not** an independent rereading of every original Saab source, an estimate of percent complete, or an engineering safety certification. The previous 7-domain baseline is historical and is superseded by this current audit.
 
-## Baseline inventory
+**Living guardrail:** `tools/phase0_audit.py` recalculates all numeric tables from `data/datasets/*.json`. Its checked-in companion `data/phase0-coverage-snapshot.json` is verified by unit tests and `python3 tools/phase0_audit.py --check`. A new research PR must refresh these numbers when datasets change; otherwise CI should fail.
 
-| Measure | Count | Interpretation |
-| --- | ---: | --- |
-| Research domains | 7 | OG 9-5, NG 9-3, their body/chassis supplements, corrections, replacements, simulation resources |
-| Sources / unique source URLs | 128 / 127 | Repeated URL is not an independent corroborating source |
-| Factual records | 269 | Includes specifications and source-scoped research/resource facts |
-| Issue records | 20 | Selected corrections; not a complete failure or recall census |
-| Part records | 31 | Small sample of specific parts; not an electronic parts catalogue |
-| Explicit research gaps | 51 | Not a count of all missing subjects |
-| Source retrieval: full / partial / excerpt / metadata | 120 / 3 / 3 / 2 | Retrieval depth; not evidence-quality certification |
-| Evidence: documented / supplier claim / inference | 289 / 28 / 3 | Across 320 facts, issues and parts; not failure-rate evidence |
+<!-- BEGIN AUTO-GENERATED PHASE0 CENSUS -->
+## Current database snapshot (automatically verified)
 
-The 320 records have the following explicitly populated top-level applicability fields. An absent field is **unknown**, not evidence of universal compatibility. Some omissions reflect the limits of the cited document rather than missing transcription.
+| Measure | Current records |
+| --- | ---: |
+| Research domains | 26 |
+| Source records | 423 |
+| Unique source URLs | 385 |
+| Technical facts | 876 |
+| Diagnostic/correction issues | 57 |
+| Part records | 74 |
+| Explicit open research gaps | 201 |
 
-| Applicability field | Records with explicit scope | Out of |
-| --- | ---: | ---: |
-| Platform | 286 | 320 |
-| Model year(s) | 222 | 320 |
-| Engine code(s) | 121 | 320 |
-| Market(s) | 79 | 320 |
-| Transmission code(s) | 28 | 320 |
-| Body style(s) | 35 | 320 |
-| VIN restriction(s) | 8 | 320 |
+A repeated URL is not independent corroboration. These are stored record counts,
+**not** estimates of system completeness, part fitment confidence, failure rates,
+or the probability that an individual vehicle is repairable.
 
-These percentages should **not** be combined into a completeness score: a broadly applicable fact may legitimately lack a narrower engine/year scope, and a year label in a WIS URL does not itself establish all applications.
+### Source retrieval and evidence
 
-## Explicit platform/model-year record counts
+| Source retrieval | Records |
+| --- | ---: |
+| `full_text` | 399 |
+| `partial` | 3 |
+| `search_excerpt` | 13 |
+| `metadata_only` | 8 |
 
-The tables below count a fact, issue or part **only if platform and year are explicitly paired within the same applicability group**. No unknown years are assigned to adjacent years. Records may be repeated in multiple rows because one documented fact may apply to multiple years. These are records, not unique pieces of confirmed equipment per car.
+| Technical evidence | Facts + issues + parts |
+| --- | ---: |
+| `documented` | 924 |
+| `supplier_claim` | 78 |
+| `inference` | 5 |
 
-### Original-generation 9-5 (`9-5-9600`)
+### Explicit application dimensions
 
-| Year | Facts | Issues | Parts |
+A record may legitimately lack a dimension when its source is general. Missing
+dimensions are **unknown**, never a blanket approval. Grouped applicability
+is counted from individual groups, not from a misleading top-level union.
+
+| Scope field explicitly present | Records out of facts + issues + parts |
+| --- | ---: |
+| `platforms` | 963 / 1007 |
+| `model_years` | 876 / 1007 |
+| `markets` | 144 / 1007 |
+| `engine_codes` | 298 / 1007 |
+| `transmission_codes` | 161 / 1007 |
+| `body_styles` | 70 / 1007 |
+| `vin_ranges` | 24 / 1007 |
+
+### Factory-source record coverage by original Saab model year
+
+Only facts/issues/parts with the **same applicability group** specifying both
+platform and year are counted. Repeated records can appear in more than one
+model-year row. Year-path names do not prove a given production revision.
+
+#### Original 9-5, platform 9600
+
+| Model year | Facts | Issues | Parts |
 | ---: | ---: | ---: | ---: |
-| 1998 | 3 | 1 | 7 |
-| 1999 | 3 | 1 | 10 |
-| 2000 | 8 | 2 | 13 |
-| 2001 | 4 | 2 | 13 |
-| 2002 | 5 | 2 | 13 |
-| 2003 | 5 | 1 | 11 |
-| 2004 | 25 | 2 | 7 |
-| 2005 | 97 | 2 | 7 |
-| 2006 | 5 | 1 | 4 |
-| 2007 | 5 | 1 | 4 |
-| 2008 | 2 | 1 | 4 |
-| 2009 | 27 | 1 | 4 |
+| 1998 | 15 | 3 | 8 |
+| 1999 | 15 | 3 | 11 |
+| 2000 | 19 | 3 | 14 |
+| 2001 | 14 | 3 | 14 |
+| 2002 | 24 | 4 | 19 |
+| 2003 | 27 | 3 | 17 |
+| 2004 | 55 | 6 | 20 |
+| 2005 | 151 | 8 | 21 |
+| 2006 | 122 | 8 | 20 |
+| 2007 | 114 | 14 | 19 |
+| 2008 | 135 | 15 | 19 |
+| 2009 | 111 | 10 | 19 |
 
-**Priority finding:** MY2006–2008 are conspicuously underrepresented among year-scoped facts despite being central to our purchasing shortlist. MY2005 WIS documentation accounts for much of the OG 9-5 specification work. General facts must not be propagated to MY2006–2008 without actual applicability evidence.
+#### Second-generation 9-3, platform 9440
 
-### Second-generation 9-3 (`9-3-9440`)
-
-| Year | Facts | Issues | Parts |
+| Model year | Facts | Issues | Parts |
 | ---: | ---: | ---: | ---: |
-| 2003 | 9 | 12 | 9 |
-| 2004 | 8 | 13 | 9 |
-| 2005 | 14 | 7 | 6 |
-| 2006 | 21 | 7 | 7 |
-| 2007 | 7 | 7 | 7 |
-| 2008 | 5 | 7 | 7 |
-| 2009 | 5 | 7 | 7 |
-| 2010 | 5 | 8 | 7 |
-| 2011 | 9 | 8 | 6 |
+| 2003 | 18 | 14 | 16 |
+| 2004 | 28 | 15 | 19 |
+| 2005 | 56 | 10 | 16 |
+| 2006 | 61 | 7 | 21 |
+| 2007 | 15 | 8 | 20 |
+| 2008 | 18 | 8 | 21 |
+| 2009 | 11 | 8 | 21 |
+| 2010 | 11 | 9 | 21 |
+| 2011 | 15 | 9 | 20 |
 
-A further **64 9-3 facts explicitly identify the platform but do not specify model years**. They may be useful as engineering context but cannot automatically pass a strict year-specific search. Issue counts in early years reflect campaign research, not proof that those cars fail more often.
+### Parts evidence does not equal approved interchange
 
-## System-level qualitative matrix
+| Part-record metric | Count |
+| --- | ---: |
+| Records in research database | 74 |
+| Have at least one recorded part relationship | 16 |
+| Supported as a supplier claim | 48 |
+| Explicitly marked as needing vehicle verification | 43 |
 
-Key: **Partial** = relevant sourced records exist but not a comprehensive subsystem inventory; **Conflicting** = important applicability or quantity conflict remains open; **Unresearched** = no adequate dedicated coverage found for the named subsystem in this seven-dataset pass. These are analyst classifications, not machine-produced coverage percentages. A few isolated mentions do not amount to a complete system description.
+A relationship can be an aftermarket cross-reference, kit contents, or a
+conditional supersession. Its existence does **not** make the replacement
+VIN-approved, bidirectional, or suitable for a safety-critical repair.
 
-| Vehicle system | OG 9-5 | NG 9-3 | Most important missing evidence |
+### Distribution of recorded evidence by research domain
+
+| Dataset domain | Sources | Facts | Issues | Parts | Gaps |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| `b235_maintenance_fa57_identity` | 13 | 44 | 2 | 0 | 9 |
+| `b235r_oil_pcv_2006_2008` | 17 | 31 | 2 | 7 | 9 |
+| `corrections` | 27 | 9 | 20 | 26 | 7 |
+| `epc_provenance` | 10 | 12 | 0 | 2 | 5 |
+| `high_cost_powertrain_diagnostics` | 17 | 35 | 3 | 2 | 9 |
+| `ng93` | 25 | 70 | 0 | 0 | 8 |
+| `ng93_body` | 8 | 25 | 0 | 0 | 6 |
+| `ng93_early_mount_fuel` | 15 | 20 | 0 | 5 | 7 |
+| `ng93_structure` | 21 | 30 | 0 | 1 | 8 |
+| `og95` | 30 | 90 | 0 | 0 | 7 |
+| `og95_2006_2008` | 7 | 25 | 0 | 0 | 6 |
+| `og95_atf_thermal_turbo_bulletin` | 14 | 28 | 3 | 2 | 9 |
+| `og95_body` | 10 | 25 | 0 | 0 | 5 |
+| `og95_cooling_service_2006_2009` | 15 | 30 | 3 | 0 | 9 |
+| `og95_ground_power_0709` | 13 | 44 | 2 | 0 | 6 |
+| `og95_pcv_radiator_mount_provenance` | 16 | 31 | 3 | 8 | 9 |
+| `og95_structure` | 12 | 16 | 0 | 1 | 5 |
+| `og95_t7_cooling_0709` | 28 | 72 | 3 | 0 | 7 |
+| `og95_t7_electrical` | 22 | 43 | 4 | 0 | 7 |
+| `og95_turbo_oil_feed_solenoids` | 14 | 39 | 3 | 0 | 9 |
+| `og95_turbo_tsb_2912494_fa57_triage` | 13 | 31 | 3 | 0 | 9 |
+| `repair_vs_replace_troubleshooting` | 17 | 31 | 4 | 0 | 9 |
+| `replacements` | 8 | 10 | 0 | 5 | 3 |
+| `simulation` | 20 | 40 | 0 | 0 | 15 |
+| `subframe_parts_brake_lines` | 17 | 16 | 0 | 15 | 9 |
+| `vin_gearbox_provenance` | 14 | 29 | 2 | 0 | 9 |
+
+<!-- END AUTO-GENERATED PHASE0 CENSUS -->
+
+## Assessment of the original Phase 0 gates
+
+| Milestone | Current judgment | Why it is not fully passed |
+| --- | --- | --- |
+| **Gate A: shopping reference** | **Partial; not certified** | Factory structural, failure and identity evidence exists. A non-running or rusty car still needs a vehicle-specific VIN/build and chassis/underbody inspection, realistic major-work exclusion criteria, and recall status. |
+| **Gate B: system documentation** | **Not met** | Coverage is uneven; brakes, emissions/catalyst, fuel/EVAP, HVAC, late 9-3 B207 and genuine part assembly inventories remain patchy. A handful of targeted documents is not a complete subsystem account. |
+| **Gate C: interchange research** | **Not met** | Part links include retailer claims, kits and cross-reference identifiers. No current VIN-filtered manufacturer WebEPC source is available to approve a complete candidate parts swap. |
+
+Gate A permits *planning a qualified inspection*, not declaring an unknown Saab safe or ready to buy. Gates B/C require **evidence closure by defined assembly and vehicle configuration**, not an arbitrary total fact count.
+
+## Qualitative subsystem assessment
+
+**Legend:** Focused = multiple directly useful factory sources within selected years; Partial = some verified sources but no complete assembly/configuration matrix; Critical gap = missing information materially blocks an inspection, safe replacement, or parts order. Labels are analyst judgments and deliberately are **not quantitative percentages**.
+
+| System | Original 9-5, especially US/CA B235 MY2004–09 | Second-gen 9-3, especially US/CA B207 MY2005–06 | Next missing acceptance evidence |
 | --- | --- | --- | --- |
-| VIN, trim, production and powertrain identity | Partial | Partial | Full US/CA build-year / option / chassis mappings and production changes |
-| Engine internals, specifications, controls | Partial | Partial | Component-level service limits, procedures, revisions |
-| Oil, lubrication, PCV | Partial | Partial | Complete service/correction matrix and inspection thresholds |
-| Cooling, coolant and plumbing | Partial | Conflicting | Year/gearbox-specific capacities, coolant routing, hose IDs, revisions |
-| Fuel, turbo and charge-air systems | Partial | Partial | Complete assembly drawings, flow envelopes, diagnostic procedures |
-| Gearboxes, driveline and clutch | Partial | Conflicting | Exact installation mapping, refill methods, internal failure diagnostics |
-| Brake system | Conflicting | Unresearched | Rotor/caliper/carrier fitment, hydraulics, lines, wear limits |
-| Steering and suspension | Partial | Partial | Chassis-option codes, fasteners, bushings, detailed service limits |
-| Wheels and tires | Partial | Conflicting | Confirmed PCD/bore, rated loads, approved wheel variations |
-| Body structure and corrosion | Unresearched | Unresearched | Subframes, jacking points, mounts, sills, corrosion assessment, repairs |
-| Electrical wiring and modules | Partial | Partial | Wiring/pinouts, grounds, power distribution, bus/security dependencies |
-| HVAC and passenger comfort systems | Unresearched | Unresearched | HVAC hardware, climate electronics, failure and service procedures |
-| Exhaust, catalyst and evaporative systems | Unresearched | Unresearched | Assemblies, sensors, emissions applicability and diagnostics |
-| Occupant safety and campaigns | Partial | Partial | Full recall/TSB inventory and vehicle-specific completion confirmation |
-| OEM parts and supersessions | Partial | Partial | EPC-level assembly coverage, boundaries and verified manufacturer relations |
-| Maintenance and tests | Partial | Partial | Complete scheduled/severe service; measurable inspection/test limits |
+| VIN, market, build and powertrain identity | Partial / critical fitment gap | Partial / critical fitment gap | Correct year/engine/gearbox mapping, original VIN decoder, installed codes, build changes |
+| Engine oil, PCV, sludge, compression | Focused for selected B235 years | Partial, B207 cold-intake valve issue documented | Year-specific mechanical limits and evidence of damage, safe non-running screen |
+| Turbo, induction and charge air | Focused diagnosis / critical mechanical limits | Partial | Model/turbo-specific shaft wear limits, oil feed verification, boost hoses |
+| Cooling, radiators, fan control | Focused 9-5 2007–09 / conflicted replacements | Partial / some quantity conflicts | Complete plumbing, exact manual vs automatic radiator and coolant variants |
+| FA57, manual gearbox, driveline | Focused 9-5 automatic diagnostics / parts incomplete | Partial; early FA57 coolant bulletin is distinct | VIN/serial and TCM variants; complete repair and donor compatibility |
+| Structural corrosion, subframes, mounting | Partial; critical for rusted 9-5 wagons | Partial | Zone-by-zone inspection sheet, body repair boundaries, metal thickness and load assessments by competent shop |
+| Brake calipers, rotors and hydraulics | Partial / conflicting rotor applications | Partial / critical inventory | Rotor/caliper/carrier option matrix, line routing, hydraulic safety and measured wear |
+| Suspension, steering, wheels | Partial | Partial | Configuration/option code, mounts, suspension geometry, spring/corrosion limits |
+| Ignition, grounds, ECU and security | Focused Trionic 7 sources, still incomplete | Partial, limited detailed T8 and immobilizer inventory | Exact module hardware/software and wiring/connector dependencies |
+| Exhaust, catalysts, emissions and EVAP | Critical gap | Critical gap | Factory catalyst/oxygen-sensor/EVAP fault isolation and market/OBD compliance |
+| Fuel delivery and safety | Partial | Partial | Year-specific fuel plumbing, pump pressure, underbody route and safe leak isolation |
+| HVAC, passenger comfort, electrics | Critical gap | Critical gap | Component inventory, sensors/motors, diagnostic and repair dependencies |
+| Recalls and safety campaigns | Partial | Partial | Complete US/CA regulator campaigns, factory scope, official current VIN-status check |
+| Maintenance intervals and consumable approvals | Partial | Partial | Complete year/engine/gearbox severe-service schedule and currently approved consumables |
+| OEM parts, supersessions, substitutes | **Critical gap** | **Critical gap** | Saab WebEPC VIN-filtered OE numbers, original production changes and explicit direction of substitutions |
 
-There are already specific references to spring corrosion, water intrusion, ignition dependencies and recalls. **Unresearched structural corrosion** means the database lacks a systematic structural corrosion reference—not that rust was never mentioned anywhere.
+**Interpretation:** Original 9-5 is currently the stronger documented platform, not necessarily the more reliable vehicle. The existing records cannot establish which model has a lower lifetime failure probability. The 2005 9-5 is heavily documented in year-scoped records; research density is not a failure-rate or buying ranking.
 
-## Research priorities and acceptance criteria
+## Major unresolved bottlenecks and stop conditions
 
-See [the research backlog](research-backlog.md). The immediate priority is **structural condition and model-year-specific mechanical coverage**, followed by brake/drivetrain verification and the exact identity/parts links needed to inspect affordable, non-running Saabs without gambling on engine or transmission rebuilds.
+1. **Exact identification and original OEM parts chain.** Even when a source provides a gearbox family name, individual hardware, variant calibration or manufacturer parts supersession remains unknown. Do not approve an assembly, donor gearbox or electrical module solely because it looks similar or uses the same marketing name.
+2. **Unsafe underbody and corrosion ambiguity.** A visibly rusty subframe, rear suspension mount, jacking location or brake line must be assessed by a competent inspector before road use or price-based assumption of an inexpensive repair. No invented generic rust-depth pass threshold.
+3. **Brake and hydraulic assembly uncertainty.** Different rotor and caliper/carrier variants cannot be ordered by model-year shorthand; measure or read installed option and OEM EPC.
+4. **High-cost engine and gearbox risk.** Factory diagnostic branches sometimes identify smaller causes (sensor, hose, valve, control software), but a documented possibility of a cheap fault does not establish that a specific engine/turbo/FA57 is mechanically intact.
+5. **Exhaust and catalysts are a true purchase-screen blind spot.** For a non-running 9-5 described as having a “clogged catalytic converter,” confirm the actual restriction and whether prolonged heat, misfire or internal engine damage occurred; replacing the catalyst is not a guaranteed remedy.
+6. **Year-presentation and cross-platform WIS conflicts.** Workshop year path, model name or reused transmission nickname cannot substitute for the original bulletin publication date, factory applicability, original part, full VIN or measured installation.
+7. **Reliability outcome evidence.** No representative controlled miles-to-failure curves, component aging tests, costs for an actual vehicle or validated comparison to Toyota durability are available. The database supports fault isolation and sourcing questions, not a Toyota-equivalent guarantee.
 
-A high-quality new record must preserve: original publisher and retrieval strength; exact source locator; supported model/year/market/engine/gearbox/body/VIN scope; original units and test conditions; distinction between factory data, supplier claims and inference; any conflicting readings; and explicit unresolved inputs.
+## Acceptance milestones (non-numeric gate conditions)
 
-### Known methodology and code limitations
+### Gate A — inspection-ready research reference
 
-- `tools/query.py` currently filters platform, engine, year and market, not transmission, body style, VIN, or registration history. **Do not use its results alone as a fitment decision.**
-- Applicability-group unions are for indexing only. `tools/coverage.py` counts a platform/year pair only when the same group explicitly names both.
-- The validator checks integrity of recorded structure and references, not technical truth or correctness of engineering models.
-- None of the source records establishes fleet failure rates or Toyota-equivalent reliability. Vehicle-specific condition, measured oil/cooling performance, structural inspection and service history are separate future inputs.
-- This audit introduces no fabricated specifications, prices, inspection results, interchange claims or simulator predictions.
+For each priority vehicle configuration (**original 9-5 US/CA MY2004–09 B235 manual/automatic, and 9-3 US/CA MY2005–06 B207 FWD**): identify engine, gearbox, body and production restrictions; provide inspection zones for structure, safety and brakes; link source-supported signs distinguishing cosmetic from structural risks; map high-cost no-buy conditions to qualified diagnostic requirements; provide official recall lookup instructions and current source. Unknown VIN/build, rust severity or mechanical measurements must produce **unknown / specialist verification**, not a 'pass'.
 
-## Reproduce this census
+### Gate B — documented priority vehicle systems
 
-Run on Python 3.10+ from the repository root:
+Every priority subsystem must have an explicit component and connection inventory for the selected configurations, the applicable first-party service specifications and common failure mechanisms, and an explicit *source-search record* for items not recoverable. Resolve source conflicts with an original authoritative record or keep a clearly bounded gap. Avoid promoting descriptive diagrams into specifications and copied WIS directory years into production changes.
+
+### Gate C — responsible replacement candidate screening
+
+For any proposed substitution, preserve installed OE part ID, VIN/engine/gearbox/market/option restrictions, genuine manufacturer-approved supersession direction **where evidenced**, dimensions/interfaces, safety and loading requirements, firmware/pairing/dependencies and installation tests. Supplier cross-references must remain supplier claims. If original manufacturer support cannot be obtained, mark **not approved / evidence pending**; do not assume bidirectional interchange.
+
+## What this milestone changes
+
+We should **stop** making consecutive micro-PRs solely to increase fact count. Each future research batch should reference a named Phase 0 gate and inspection- or interchange-blocking missing evidence, supply a real source outcome, and update the systematic audit. No release-quality parts recommendation, purchase score, or simulation claim follows from the current inventory.
+
+The next work queue is in [the prioritized gap-closure plan](gap-closure-plan.md). Structural safety, vehicle identity and current OEM part applicability precede optional deeper boost/TCM numeric research.
+
+## Reproduce and maintain
 
 ```sh
 python3 tools/validate.py
 python3 -m unittest discover -s tests -v
-python3 tools/coverage.py --format markdown
 python3 tools/coverage.py --format json
+python3 tools/phase0_audit.py --check
+python3 tools/phase0_audit.py --format markdown
 ```
 
-The script generates the counts from the checked-out JSON datasets. The qualitative matrix and backlog require source-aware review; they are not inferred from category names alone. Update this audit when a research milestone changes material coverage or resolves conflicts.
+The snapshot is derived only from the saved files and cannot confirm individual source validity or a real Saab's condition. The human qualitative matrix requires explicit review when new domains or configurations are added.
