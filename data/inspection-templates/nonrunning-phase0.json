@@ -1,0 +1,186 @@
+{
+  "template_version": "1.0.0",
+  "purpose": "Blank Phase 0 evidence collection intake only; no VIN, scores or assessed vehicle results",
+  "vehicle_results": null,
+  "allowed_evidence_statuses": [
+    "unknown",
+    "reported_unverified",
+    "source_documented",
+    "measured_by_qualified_person",
+    "specialist_required"
+  ],
+  "possible_dispositions": [
+    "evidence_insufficient",
+    "specialist_required_no_drive",
+    "conditional_mechanical_evaluation",
+    "major_engine_or_transmission_risk"
+  ],
+  "prohibited_shortcuts": [
+    "no full-throttle transmission stall test",
+    "no catalyst bypass/removal as a diagnostic shortcut",
+    "no attempt to crank a suspected seized/hydrolocked/oil-starved engine",
+    "no hot radiator cap opening or running overheated engine",
+    "no dry road test on unsafe subframe/brake/fuel system",
+    "no unregulated boost/intake pressurization",
+    "no unauthorized module resets or ECU/TCM programming",
+    "no guessing converter part, shaft tolerance or VIN fitment"
+  ],
+  "gate_labels": [
+    "A inspection research partially met",
+    "B system documentation not met",
+    "C manufacturer interchange not met"
+  ],
+  "source_artifacts": [
+    "docs/research/priority-nonrunning-purchase-screen.md",
+    "data/datasets/priority-nonrunning-purchase-screen.json",
+    "docs/research/priority-structural-corrosion-inspection.md",
+    "docs/research/priority-brake-hydraulic-safety.md",
+    "docs/research/og95-turbo-tsb2912494-fa57-triage.md"
+  ],
+  "fields": [
+    {
+      "id": "seller_reason_not_running",
+      "stage": "A",
+      "label": "Seller reason for not running, last start/run, what tests concluded and who performed them",
+      "requires": "seller written explanation, date of last successful start, diagnosis invoice",
+      "stop_if": "any uncertain major mechanical failure or vague 'easy fix' => evidence insufficient",
+      "default_status": "unknown",
+      "default_value": null
+    },
+    {
+      "id": "identity_engine_gearbox",
+      "stage": "A",
+      "label": "Actual vehicle VIN/model year, engine B235/B207, gear family and emissions market",
+      "requires": "privately collected VIN and original engine/gearbox tags with manufacturer identity provenance",
+      "stop_if": "missing/wrong identity prevents part and fluid decisions",
+      "default_status": "unknown",
+      "default_value": null
+    },
+    {
+      "id": "history_overheat_oil_loss",
+      "stage": "A",
+      "label": "History of overheating, oil warning, coolant loss, knock, hydrolock or timing failure",
+      "requires": "seller records, tow/repair invoices, historic photos, chronological account",
+      "stop_if": "prior seizure or fluid ingestion => do not crank",
+      "default_status": "unknown",
+      "default_value": null
+    },
+    {
+      "id": "history_failed_inspection",
+      "stage": "A",
+      "label": "Prior structural/brake/emissions inspection failures and rust photos",
+      "requires": "recent original inspection result or qualified shop estimate",
+      "stop_if": "severe suspension rust, leaking hydraulics or unresolved fuel leaks => no road test",
+      "default_status": "unknown",
+      "default_value": null
+    },
+    {
+      "id": "visible_underbody_safety",
+      "stage": "B",
+      "label": "Rear subframe, pickup structure, front mount, fuel/brake lines, lifting points",
+      "requires": "safe external photographs or professional lift inspection, actual qualified evaluation",
+      "stop_if": "suspected unsafe lift point or load-bearing structure => no under-car DIY",
+      "default_status": "unknown",
+      "default_value": null
+    },
+    {
+      "id": "passive_fuel_coolant_oil",
+      "stage": "B",
+      "label": "Visible fluids, contaminated oil/coolant, tank lines, hot/exhaust damage",
+      "requires": "passive cold visual assessment performed without engine start or opening pressurized systems",
+      "stop_if": "visible fuel leak, milky fluids, absent lubrication or coolant evidence => no start",
+      "default_status": "unknown",
+      "default_value": null
+    },
+    {
+      "id": "exhaust_catalyst_claim",
+      "stage": "B",
+      "label": "Location and cause of allegedly clogged exhaust/catalytic converter",
+      "requires": "original repair diagnosis, converter location/part photo, documented test method and upstream history",
+      "stop_if": "unconfirmed physical restriction or persistent misfire => do not assume converter-only repair",
+      "default_status": "unknown",
+      "default_value": null
+    },
+    {
+      "id": "ecm_tcm_dtc_freeze",
+      "stage": "C",
+      "label": "Stored ECM/TCM trouble codes and freeze frames without clearing",
+      "requires": "read-only scan, model-specific Tech2 available or timestamped original shop report",
+      "stop_if": "no DTC does not prove mechanical condition; clearing/resetting without records unacceptable",
+      "default_status": "unknown",
+      "default_value": null
+    },
+    {
+      "id": "ecm_hw_sw_identity",
+      "stage": "C",
+      "label": "Actual T7/T8 control module software and hardware, gearbox TCM and prior swaps",
+      "requires": "original Tech2 read-only vehicle system information and records",
+      "stop_if": "unknown software/immobilizer mismatch prevents donor ECU/TCM part approval",
+      "default_status": "unknown",
+      "default_value": null
+    },
+    {
+      "id": "safe_crank_clearance",
+      "stage": "D",
+      "label": "Can qualified mechanic certify safe controlled crank/rotation with no seizure/fluid-ingestion risk?",
+      "requires": "technician judgement after preliminary exterior, timing and fluid check",
+      "stop_if": "any seizure, hydrolock, oil starvation, or severe overheating concern => stop",
+      "default_status": "unknown",
+      "default_value": null
+    },
+    {
+      "id": "cylinder_compression_leakdown",
+      "stage": "D",
+      "label": "Per-cylinder compression and leakdown at factory-correct conditions",
+      "requires": "factory-controlled test for exact engine/year if safe to crank",
+      "stop_if": "confirmed below-spec internal condition => major engine risk, specialist quote",
+      "default_status": "unknown",
+      "default_value": null
+    },
+    {
+      "id": "hot_engine_oil_pressure",
+      "stage": "D",
+      "label": "Engine oil pressure under original year/temperature/test-oil and RPM conditions",
+      "requires": "qualified warmed running-engine gauge results, exact procedure and instrument conditions",
+      "stop_if": "if non-running => unavailable, never infer from oil warning lamp",
+      "default_status": "unknown",
+      "default_value": null
+    },
+    {
+      "id": "catalyst_backpressure_test",
+      "stage": "D",
+      "label": "Is the restriction physically verified and at which upstream/downstream point?",
+      "requires": "qualified appropriate US/CA in-scope exhaust restriction test and cause investigation",
+      "stop_if": "historic non-US Tech2 bulletin not US/Canada authorization; nonrunner cannot run test",
+      "default_status": "unknown",
+      "default_value": null
+    },
+    {
+      "id": "turbo_external_versus_internal",
+      "stage": "D",
+      "label": "Boost bypass actuator leak, charged hose and mechanical compressor damage",
+      "requires": "factory year-specific safe leak test and documented professional physical component examination",
+      "stop_if": "no GT17/TD04 calibrated shaft value recovered; whistle or P1105 alone not replacement proof",
+      "default_status": "unknown",
+      "default_value": null
+    },
+    {
+      "id": "atf_tcm_mechanical_state",
+      "stage": "D",
+      "label": "Gearbox fluid, sensor codes, commanded/actual gear/slip and internal mechanical confirmation",
+      "requires": "correct year/installed FA57/AF40 identification, qualified static/roadworthy professional tests if safe",
+      "stop_if": "nonrunning and not load-testable => gearbox mechanical condition unknown; no stall test",
+      "default_status": "unknown",
+      "default_value": null
+    },
+    {
+      "id": "professional_cost_and_tow",
+      "stage": "E",
+      "label": "Actual structural, engine, transmission, exhaust, brakes, tow/storage estimates separately",
+      "requires": "dated itemized professional written quotes and OEM VIN-specific parts",
+      "stop_if": "an unspecified major repair is not $0 and does not satisfy DIY no-rebuild objective",
+      "default_status": "unknown",
+      "default_value": null
+    }
+  ]
+}
