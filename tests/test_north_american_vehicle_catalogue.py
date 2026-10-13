@@ -195,6 +195,29 @@ class NorthAmericanVehicleCatalogueTests(unittest.TestCase):
         self.assertTrue(all(x["body_style"] == "sedan" for x in included))
 
 
+    def test_us_production_pilot_requires_explicit_source_and_no_unverified_5_0_fits(self):
+        catalogue = self.catalogue
+        ids = {item["id"]: item for item in catalogue["documented_configuration_examples"]}
+        for identifier in (
+            "na-usprod-1999-93-base-3d-b204l-4at",
+            "na-usprod-1999-93-se-3d-b204l-4at",
+            "na-usprod-1999-93-se-5d-b204l-4at",
+            "na-usprod-2003-93-vector-sedan-b207r-5at",
+        ):
+            self.assertIn(identifier, ids)
+            item = ids[identifier]
+            self.assertEqual(item["drivetrain"], "FWD")
+            self.assertEqual(item["market_evidence"], ["US"])
+            self.assertTrue(
+                any(s.startswith("na-cat-usprod-") for s in item["source_ids"])
+            )
+        self.assertEqual(ids["na-2003-93-linear-sedan-at"]["engine_code"], "B207L")
+        self.assertEqual(ids["na-2003-93-arc-sedan-at"]["engine_code"], "B207R")
+        self.assertTrue(all(
+            r["coverage_complete"] is False
+            for r in catalogue["model_year_screening"]
+        ))
+
 
 if __name__ == "__main__":
     unittest.main()
