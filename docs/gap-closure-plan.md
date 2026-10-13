@@ -97,3 +97,8 @@ The [expanded supplier/FIAT/Opel/Saab study](research/cross-manufacturer-interch
 ### Model selection from cross-brand electrical parts (2026-10-13)
 
 [AS-PL alternator and starter study](research/cross-manufacturer-electrics-model-choice.md) adds 9-3 B207 shared Opel/GM supplier catalogue leads and 9-5 B235 independent aftermarket alternator evidence. [Qualitative comparison map](../data/model-selection/interchange-evidence-20261013.json) leaves the winner unresolved; vehicle safety, drivetrain failure/repair evidence, original VIN fitment and US lifecycle cost remain larger decision factors. Do not create a numeric reliability score from part catalogue counts.
+
+
+### Correcting 9-5 under-research in shared electrical parts (2026-10-13)
+
+The [original 9-5 B235 AS-PL countercheck](research/og95-shared-electrics-countercheck.md) finds shared-catalogue starter S0034 and Opel/Vauxhall-linked alternator A0219, alongside earlier Saab-specific A0319. Previously unequal research made NG 9-3 commonality appear stronger than evidence warrants. These candidates still need factory VIN, real price/stock, physical electrical validation, reliability and corrosion/gearbox severity; **do not assign a winner from number of catalogue hits**.
