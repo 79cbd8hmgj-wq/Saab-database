@@ -670,6 +670,46 @@
         "CA"
       ],
       "notes": "280hp V6 2009 Aero SportCombi FWD explicitly six-speed manual; no automatic FWD Aero vehicle proved."
+    },
+    {
+      "id": "na-cat-usprod-9400",
+      "title": "USA production 9-3 9400 1999-2003 by trim, body, transmission, engine and paint",
+      "url": "https://www.esaabparts.com/saab/production/data/9-3_1999_2003.php",
+      "origin": "eSaabParts US production compilation; not original manufacturer VIN proof",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "Observed 1999 Base 3D B204L 4AT, SE 3D and 5D B204L 4AT. The distinct 1999 SE B204R 5MT rows are excluded. Page counts are all vehicles, not all candidate automatics."
+    },
+    {
+      "id": "na-cat-usprod-9440",
+      "title": "USA production 9-3 9440 2003-2011 by trim, body, drive, transmission, engine and paint",
+      "url": "https://www.esaabparts.com/saab/production/data/9-3_2003_2011.php",
+      "origin": "eSaabParts US production compilation; not original manufacturer VIN proof",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "Observed MY2003 Linear 4D FWD B207L 5AT, Arc 4D FWD B207R 5AT, Vector 4D FWD B207R 5AT; 2004 Aero 4D FWD B207R 5AT. CV and MT rows are excluded."
+    },
+    {
+      "id": "na-cat-usprod-9600",
+      "title": "USA 9-5 original 1999-2009 production full trim and gearbox table — research lead",
+      "url": "https://www.esaabparts.com/saab/production/data/9-5_1999_2009.php",
+      "origin": "eSaabParts US production compilation",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "Source available for subsequent full year-by-year audit. Do not auto-populate guessed gearbox or engine pairings from incomplete review."
+    },
+    {
+      "id": "na-cat-usprod-650",
+      "title": "USA 9-5 650 2010-2011 production full trim and gearbox table — research lead",
+      "url": "https://www.esaabparts.com/saab/production/data/9-5_2010_2011.php",
+      "origin": "eSaabParts US production compilation",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "Use for full 2010/2011 non-XWD pairing audit. Only seller-compiled production record, not VIN approval."
     }
   ],
   "model_year_screening": [
@@ -689,7 +729,10 @@
       "us_status": "at_least_one_candidate_documented",
       "canada_status": "unassessed",
       "documented_configuration_ids": [
-        "na-1999-93-2t-3hb-at"
+        "na-1999-93-2t-3hb-at",
+        "na-usprod-1999-93-base-3d-b204l-4at",
+        "na-usprod-1999-93-se-3d-b204l-4at",
+        "na-usprod-1999-93-se-5d-b204l-4at"
       ],
       "coverage_complete": false
     },
@@ -737,7 +780,8 @@
         "na-2003-93-linear-sedan-at",
         "na-2003-93-arc-sedan-at",
         "na-2003-93-linear-sedan-at-ca",
-        "na-2003-93-arc-sedan-at-ca"
+        "na-2003-93-arc-sedan-at-ca",
+        "na-usprod-2003-93-vector-sedan-b207r-5at"
       ],
       "coverage_complete": false
     },
@@ -1213,7 +1257,7 @@
       "platform": "9440",
       "body_style": "sedan",
       "engine_label": "2.0L 175-hp Linear turbo",
-      "engine_code": null,
+      "engine_code": "B207L",
       "automatic_gears": 5,
       "transmission_code": null,
       "drivetrain": "FWD",
@@ -1221,7 +1265,8 @@
         "US"
       ],
       "source_ids": [
-        "na-cat-s07"
+        "na-cat-s07",
+        "na-cat-usprod-9440"
       ],
       "evidence_status": "secondary_supported_complete_configuration",
       "notes": "Candidate exists in listed market; individual VIN, gearbox code, production variant, condition and purchase suitability remain unverified."
@@ -1233,7 +1278,7 @@
       "platform": "9440",
       "body_style": "sedan",
       "engine_label": "2.0L 210-hp Arc turbo",
-      "engine_code": null,
+      "engine_code": "B207R",
       "automatic_gears": 5,
       "transmission_code": null,
       "drivetrain": "FWD",
@@ -1241,7 +1286,8 @@
         "US"
       ],
       "source_ids": [
-        "na-cat-s07"
+        "na-cat-s07",
+        "na-cat-usprod-9440"
       ],
       "evidence_status": "secondary_supported_complete_configuration",
       "notes": "Candidate exists in listed market; individual VIN, gearbox code, production variant, condition and purchase suitability remain unverified."
@@ -2396,7 +2442,7 @@
       "platform": "9440",
       "body_style": "sedan",
       "engine_label": "Aero 2.0L turbo 210-hp I4",
-      "engine_code": null,
+      "engine_code": "B207R",
       "automatic_gears": 5,
       "transmission_code": null,
       "drivetrain": "FWD",
@@ -2404,7 +2450,8 @@
         "US"
       ],
       "source_ids": [
-        "na-cat-s44"
+        "na-cat-s44",
+        "na-cat-usprod-9440"
       ],
       "evidence_status": "secondary_US_market_configuration",
       "notes": "Original factory brochure and individual VIN still needed. FWD Sport Sedan with automatic option; original market equipment sheet pending."
@@ -3099,6 +3146,90 @@
       ],
       "evidence_status": "secondary_canadian_specific_configuration",
       "notes": "Canadian 2009 2.0T FWD SportCombi explicitly offered five-speed automatic; Aero 280hp and XWD not promoted."
+    },
+    {
+      "id": "na-usprod-1999-93-base-3d-b204l-4at",
+      "model": "9-3",
+      "model_year": 1999,
+      "platform": "9400",
+      "body_style": "3-door hatchback",
+      "engine_label": "B204L",
+      "engine_code": "B204L",
+      "automatic_gears": 4,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-usprod-9400"
+      ],
+      "evidence_status": "seller_compiled_US_production_configuration",
+      "notes": "Observed specific engine/trim/automatic/FWD row(s) in US production compiler; original Saab VIN build sheet and count reconciliation pending.",
+      "trim": "Base"
+    },
+    {
+      "id": "na-usprod-1999-93-se-3d-b204l-4at",
+      "model": "9-3",
+      "model_year": 1999,
+      "platform": "9400",
+      "body_style": "3-door hatchback",
+      "engine_label": "B204L",
+      "engine_code": "B204L",
+      "automatic_gears": 4,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-usprod-9400"
+      ],
+      "evidence_status": "seller_compiled_US_production_configuration",
+      "notes": "Observed specific engine/trim/automatic/FWD row(s) in US production compiler; original Saab VIN build sheet and count reconciliation pending.",
+      "trim": "SE"
+    },
+    {
+      "id": "na-usprod-1999-93-se-5d-b204l-4at",
+      "model": "9-3",
+      "model_year": 1999,
+      "platform": "9400",
+      "body_style": "5-door hatchback",
+      "engine_label": "B204L",
+      "engine_code": "B204L",
+      "automatic_gears": 4,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-usprod-9400"
+      ],
+      "evidence_status": "seller_compiled_US_production_configuration",
+      "notes": "Observed specific engine/trim/automatic/FWD row(s) in US production compiler; original Saab VIN build sheet and count reconciliation pending.",
+      "trim": "SE"
+    },
+    {
+      "id": "na-usprod-2003-93-vector-sedan-b207r-5at",
+      "model": "9-3",
+      "model_year": 2003,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "B207R",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-usprod-9440"
+      ],
+      "evidence_status": "seller_compiled_US_production_configuration",
+      "notes": "Observed specific engine/trim/automatic/FWD row(s) in US production compiler; original Saab VIN build sheet and count reconciliation pending.",
+      "trim": "Vector"
     }
   ],
   "explicit_exclusions": [
@@ -3290,7 +3421,9 @@
     "US 2009 Aero 9-3 is documented XWD; Canada-specific 2009 Aero availability and drivetrain not checked, do not copy US exclusion to CA.",
     "MY2009 Canada 9-3 Aero V6 FWD automatic conflicting broad review vs exact FWD manual trims; factory Canada year-specific order guide required. Do not copy US XWD-only configuration.",
     "2003 Canadian 9-3 source blends old 9400 SE convertible with 9440 Linear/Arc sedan; retain generation and body-specific separation.",
-    "2008 Canadian 9-5 wagon automatic exact page and gearbox count needs matching Canadian original manufacturer order/equipment sheet."
+    "2008 Canadian 9-5 wagon automatic exact page and gearbox count needs matching Canadian original manufacturer order/equipment sheet.",
+    "US production compiler requires full systematic normalization of color-level rows for MY1999-2011, matching original Saab option matrices. Unfiltered totals are not eligible-automatic totals.",
+    "Tiny production counts for 1999 9-3 SE 3D B204L 4AT should be verified with original VIN/build archive; do not infer popularity or reliability."
   ],
   "note": "Coverage rows are NOT exhaustive model-year configurations. A state 'at_least_one_candidate_documented' establishes at least one sample only; unknown is never exclusion."
 }
