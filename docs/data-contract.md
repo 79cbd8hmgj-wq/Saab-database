@@ -140,3 +140,8 @@ vehicle- and option-specific. These records complement the separate
 ## Cross-brand official service SKU is not an original donor interchange
 
 Two independently published **official parts-channel catalogues** displaying the exact same current service part number can support a `dual_official_parts_channel_identical_current_service_number` research strategy. It is a stronger identity claim than a seller's similar-looking assembly, but still requires a VIN-specific factory parts application, any supersession direction and complete boxed kit contents before fitting. Do not convert the historical Opel catalogue's `nls. - use` rows or a third-party cross-reference into a verified Saab-to-Opel donor assembly mapping. The matrix retains the same safety and durability flags as other unverified candidates; dual-channel evidence alone cannot set `approved_drop_in` or `approved_oem_donor` to true.
+
+
+## Qualitative model-selection evidence map
+
+The independent `data/model-selection/interchange-evidence-20261013.json` maps two candidate configurations to source-backed individual replacement leads, unknowns and a blocked model recommendation. Its data is qualitative and **not a vehicle purchasing, engineering reliability or total ownership cost score**. An unverified catalogue-level common part does not prove affordability or improved lifespan. Year and engine entries identify research targets and must not be broadened to all drivetrains, body styles or original donor assemblies.
