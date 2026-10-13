@@ -1,0 +1,1634 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "og95_turbo_oil_feed_solenoids",
+  "sources": [
+    {
+      "id": "turbsol-src-001",
+      "title": "MY2005 9-5 petrol 4-cylinder turbo remove/refit and bearing preoil",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/turbocharger-system/adjustment-replacement/turbo-4-cyl",
+      "publisher": "Saab Automobile AB factory WIS information reproduced by SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Original document confirms only its own stated platform/year/engine scope; not a VIN-filtered replacement or tested vehicle condition."
+    },
+    {
+      "id": "turbsol-src-002",
+      "title": "MY2006 9-5 petrol 4-cylinder turbo remove/refit with 260hp note",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/turbocharger-system/adjustment-replacement/turbo-4-cyl",
+      "publisher": "Saab Automobile AB factory WIS information reproduced by SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Original document confirms only its own stated platform/year/engine scope; not a VIN-filtered replacement or tested vehicle condition."
+    },
+    {
+      "id": "turbsol-src-003",
+      "title": "MY2008 9-5 petrol 4-cylinder turbo remove/refit with changed heatshield torque",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/turbocharger-system/adjustment-replacement/turbo-4-cyl",
+      "publisher": "Saab Automobile AB factory WIS information reproduced by SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Original document confirms only its own stated platform/year/engine scope; not a VIN-filtered replacement or tested vehicle condition."
+    },
+    {
+      "id": "turbsol-src-004",
+      "title": "MY2004 9-5 petrol turbo lubrication and water cooling explanation",
+      "url": "https://saabwisonline.com/9-5-9600/2004/2-engine/turbocharger-system/technical-description/lubrication-cooling-4-cyl",
+      "publisher": "Saab Automobile AB factory WIS information reproduced by SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Original document confirms only its own stated platform/year/engine scope; not a VIN-filtered replacement or tested vehicle condition."
+    },
+    {
+      "id": "turbsol-src-005",
+      "title": "MY2008 9-5 S1-S5 shift solenoid technical resistance and de-energized state",
+      "url": "https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-data/gearshift-solenoid-valve-s1-s2-s3-s4-and-s5",
+      "publisher": "Saab Automobile AB factory WIS information reproduced by SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Original document confirms only its own stated platform/year/engine scope; not a VIN-filtered replacement or tested vehicle condition."
+    },
+    {
+      "id": "turbsol-src-006",
+      "title": "MY2009 9-5 S1-S5 shift solenoid resistance and states",
+      "url": "https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/technical-data/gearshift-solenoid-valve-s1-s2-s3-s4-and-s5",
+      "publisher": "Saab Automobile AB factory WIS information reproduced by SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Original document confirms only its own stated platform/year/engine scope; not a VIN-filtered replacement or tested vehicle condition."
+    },
+    {
+      "id": "turbsol-src-007",
+      "title": "MY2007 9-5 S1-S5 shift solenoid resistance and states",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/technical-data/gearshift-solenoid-valve-s1-s2-s3-s4-and-s5",
+      "publisher": "Saab Automobile AB factory WIS information reproduced by SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Original document confirms only its own stated platform/year/engine scope; not a VIN-filtered replacement or tested vehicle condition."
+    },
+    {
+      "id": "turbsol-src-008",
+      "title": "MY2008 9-5 SLS/SLT pressure control 300Hz PWM descriptive resistance",
+      "url": "https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-description/solenoid-valves-sls-and-slt-for-system-pressure",
+      "publisher": "Saab Automobile AB factory WIS information reproduced by SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Original document confirms only its own stated platform/year/engine scope; not a VIN-filtered replacement or tested vehicle condition."
+    },
+    {
+      "id": "turbsol-src-009",
+      "title": "MY2007 9-5 SLS/SLT pressure solenoid narrower technical-data range",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/technical-data/solenoid-valves-pressure-regulation-slt-and-sls",
+      "publisher": "Saab Automobile AB factory WIS information reproduced by SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Original document confirms only its own stated platform/year/engine scope; not a VIN-filtered replacement or tested vehicle condition."
+    },
+    {
+      "id": "turbsol-src-010",
+      "title": "Saab 440-2181 February 2000 original 9-3 MY1998-99 automatic non-US/CA",
+      "url": "https://saabwisonline.com/9-3-9400/1998/4-transmission/automatic-transmission/bulletins-si-mi/440-2181-common-faults-on-automatic-transmissions",
+      "publisher": "Saab Automobile AB factory WIS information reproduced by SaabWISOnline",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Original document confirms only its own stated platform/year/engine scope; not a VIN-filtered replacement or tested vehicle condition."
+    },
+    {
+      "id": "turbsol-src-011",
+      "title": "Saab 440-2182 February 2000 original 9-5 MY1998-99 automatic non-US/CA",
+      "url": "https://saabwisonline.com/9-5-9600/1998/4-transmission/automatic-transmission/bulletins-si-mi/440-2182-common-faults-on-automatic-transmissions",
+      "publisher": "Saab Automobile AB factory WIS information reproduced by SaabWISOnline",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Original document confirms only its own stated platform/year/engine scope; not a VIN-filtered replacement or tested vehicle condition."
+    },
+    {
+      "id": "turbsol-src-012",
+      "title": "MY2008 9-5 turbo shaft play technical page unavailable (indexed)",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/turbocharger-system/technical-data/",
+      "publisher": "Saab Automobile AB factory WIS information reproduced by SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "metadata_only",
+      "notes": "Only an index listing exists, no numerical shaft-play acceptance specification can be verified."
+    },
+    {
+      "id": "turbsol-src-013",
+      "title": "MY2005 9-5 petrol oil filter adapter and turbo oil pipe O-ring service",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/oil-filter-adapter-housing",
+      "publisher": "Saab Automobile AB factory WIS information reproduced by SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Original document confirms only its own stated platform/year/engine scope; not a VIN-filtered replacement or tested vehicle condition."
+    },
+    {
+      "id": "turbsol-src-014",
+      "title": "MY2007 9-5 automatic lock-up SLU solenoid data excerpt",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/technical-data/solenoid-valve-lock-up-slu",
+      "publisher": "Saab Automobile AB factory WIS information reproduced by SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "search_excerpt",
+      "notes": "Only search-index content inspected; do not treat as full procedure or definitive year-specific tolerance."
+    }
+  ],
+  "facts": [
+    {
+      "id": "turbsol-fact-001",
+      "subject": "Saab original 9-5",
+      "category": "turbo",
+      "predicate": "turbo_bearing_pre_oil_before_start",
+      "value": {
+        "oil_fill": "oil inlet bearing housing before first engine start",
+        "prime": "turn compressor wheel manually while delivering oil"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo bearing pre oil before start",
+      "notes": "An installation prerequisite where turbo replacement was independently justified, not a replacement diagnosis."
+    },
+    {
+      "id": "turbsol-fact-002",
+      "subject": "Saab original 9-5",
+      "category": "turbo",
+      "predicate": "turbo_oil_inlet_seal_renewal",
+      "value": {
+        "turbo_banjo_Nm": 20,
+        "oil_filter_adapter_Nm": 25,
+        "seal": "new copper sealing washers at each oil feed joint"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo oil inlet seal renewal",
+      "notes": "Joint-specific for turbo oil feed only. No interchange with oil-cooler 8/10 Nm or automatic fluid banjo."
+    },
+    {
+      "id": "turbsol-fact-003",
+      "subject": "Saab original 9-5",
+      "category": "turbo",
+      "predicate": "turbo_oil_return_joint_spec",
+      "value": {
+        "turbo_M6_Nm": 14,
+        "joint": "return line connection to block",
+        "inspection": "verify oil return path clear and leak-free before commissioning"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo oil return joint spec",
+      "notes": "No oil-flow/pressure pass specification or approved modern braided hose given."
+    },
+    {
+      "id": "turbsol-fact-004",
+      "subject": "Saab original 9-5",
+      "category": "turbo",
+      "predicate": "turbo_coolant_seal_renewal",
+      "value": {
+        "turbo_banjo_Nm": 25,
+        "coolant_pump_banjo_Nm": 20,
+        "seal": "new copper washers"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo coolant seal renewal",
+      "notes": "Cooling joint, not oil feed or gearbox cooler fitting; contamination or blockages need physical examination."
+    },
+    {
+      "id": "turbsol-fact-005",
+      "subject": "Saab original 9-5",
+      "category": "repair_procedure",
+      "predicate": "turbo_front_exhaust_bellows_protection",
+      "value": {
+        "max_from_neutral_deg": 5,
+        "warning": "do not leave exhaust flex section hanging beyond its own supported weight"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo front exhaust bellows protection",
+      "notes": "Factory warning is during disassembly only; not a specification for exhaust leak pressure or driving angle."
+    },
+    {
+      "id": "turbsol-fact-006",
+      "subject": "Saab original 9-5",
+      "category": "repair_procedure",
+      "predicate": "turbo_delivery_hose_grip_and_clamp",
+      "value": {
+        "hose_cleaning": "clean inner surfaces and connecting pipes, replace corroded/damaged clamps",
+        "charge_air_hose_Nm": 8
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo delivery hose grip and clamp",
+      "notes": "Factory prevention of pressure-side hose separation. Do not promise longer turbo service life or use arbitrary clamp torque elsewhere."
+    },
+    {
+      "id": "turbsol-fact-007",
+      "subject": "Saab original 9-5",
+      "category": "turbo",
+      "predicate": "turbo_bearing_pre_oil_before_start",
+      "value": {
+        "oil_fill": "oil inlet bearing housing before first engine start",
+        "prime": "turn compressor wheel manually while delivering oil"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo bearing pre oil before start",
+      "notes": "An installation prerequisite where turbo replacement was independently justified, not a replacement diagnosis."
+    },
+    {
+      "id": "turbsol-fact-008",
+      "subject": "Saab original 9-5",
+      "category": "turbo",
+      "predicate": "turbo_oil_inlet_seal_renewal",
+      "value": {
+        "turbo_banjo_Nm": 20,
+        "oil_filter_adapter_Nm": 25,
+        "seal": "new copper sealing washers at each oil feed joint"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo oil inlet seal renewal",
+      "notes": "Joint-specific for turbo oil feed only. No interchange with oil-cooler 8/10 Nm or automatic fluid banjo."
+    },
+    {
+      "id": "turbsol-fact-009",
+      "subject": "Saab original 9-5",
+      "category": "turbo",
+      "predicate": "turbo_oil_return_joint_spec",
+      "value": {
+        "turbo_M6_Nm": 14,
+        "joint": "return line connection to block",
+        "inspection": "verify oil return path clear and leak-free before commissioning"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo oil return joint spec",
+      "notes": "No oil-flow/pressure pass specification or approved modern braided hose given."
+    },
+    {
+      "id": "turbsol-fact-010",
+      "subject": "Saab original 9-5",
+      "category": "turbo",
+      "predicate": "turbo_coolant_seal_renewal",
+      "value": {
+        "turbo_banjo_Nm": 25,
+        "coolant_pump_banjo_Nm": 20,
+        "seal": "new copper washers"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo coolant seal renewal",
+      "notes": "Cooling joint, not oil feed or gearbox cooler fitting; contamination or blockages need physical examination."
+    },
+    {
+      "id": "turbsol-fact-011",
+      "subject": "Saab original 9-5",
+      "category": "repair_procedure",
+      "predicate": "turbo_front_exhaust_bellows_protection",
+      "value": {
+        "max_from_neutral_deg": 5,
+        "warning": "do not leave exhaust flex section hanging beyond its own supported weight"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo front exhaust bellows protection",
+      "notes": "Factory warning is during disassembly only; not a specification for exhaust leak pressure or driving angle."
+    },
+    {
+      "id": "turbsol-fact-012",
+      "subject": "Saab original 9-5",
+      "category": "repair_procedure",
+      "predicate": "turbo_delivery_hose_grip_and_clamp",
+      "value": {
+        "hose_cleaning": "clean inner surfaces and connecting pipes, replace corroded/damaged clamps",
+        "charge_air_hose_Nm": 8
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo delivery hose grip and clamp",
+      "notes": "Factory prevention of pressure-side hose separation. Do not promise longer turbo service life or use arbitrary clamp torque elsewhere."
+    },
+    {
+      "id": "turbsol-fact-013",
+      "subject": "Saab original 9-5",
+      "category": "turbo",
+      "predicate": "turbo_bearing_pre_oil_before_start",
+      "value": {
+        "oil_fill": "oil inlet bearing housing before first engine start",
+        "prime": "turn compressor wheel manually while delivering oil"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo bearing pre oil before start",
+      "notes": "An installation prerequisite where turbo replacement was independently justified, not a replacement diagnosis."
+    },
+    {
+      "id": "turbsol-fact-014",
+      "subject": "Saab original 9-5",
+      "category": "turbo",
+      "predicate": "turbo_oil_inlet_seal_renewal",
+      "value": {
+        "turbo_banjo_Nm": 20,
+        "oil_filter_adapter_Nm": 25,
+        "seal": "new copper sealing washers at each oil feed joint"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo oil inlet seal renewal",
+      "notes": "Joint-specific for turbo oil feed only. No interchange with oil-cooler 8/10 Nm or automatic fluid banjo."
+    },
+    {
+      "id": "turbsol-fact-015",
+      "subject": "Saab original 9-5",
+      "category": "turbo",
+      "predicate": "turbo_oil_return_joint_spec",
+      "value": {
+        "turbo_M6_Nm": 14,
+        "joint": "return line connection to block",
+        "inspection": "verify oil return path clear and leak-free before commissioning"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo oil return joint spec",
+      "notes": "No oil-flow/pressure pass specification or approved modern braided hose given."
+    },
+    {
+      "id": "turbsol-fact-016",
+      "subject": "Saab original 9-5",
+      "category": "turbo",
+      "predicate": "turbo_coolant_seal_renewal",
+      "value": {
+        "turbo_banjo_Nm": 25,
+        "coolant_pump_banjo_Nm": 20,
+        "seal": "new copper washers"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo coolant seal renewal",
+      "notes": "Cooling joint, not oil feed or gearbox cooler fitting; contamination or blockages need physical examination."
+    },
+    {
+      "id": "turbsol-fact-017",
+      "subject": "Saab original 9-5",
+      "category": "repair_procedure",
+      "predicate": "turbo_front_exhaust_bellows_protection",
+      "value": {
+        "max_from_neutral_deg": 5,
+        "warning": "do not leave exhaust flex section hanging beyond its own supported weight"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo front exhaust bellows protection",
+      "notes": "Factory warning is during disassembly only; not a specification for exhaust leak pressure or driving angle."
+    },
+    {
+      "id": "turbsol-fact-018",
+      "subject": "Saab original 9-5",
+      "category": "repair_procedure",
+      "predicate": "turbo_delivery_hose_grip_and_clamp",
+      "value": {
+        "hose_cleaning": "clean inner surfaces and connecting pipes, replace corroded/damaged clamps",
+        "charge_air_hose_Nm": 8
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo delivery hose grip and clamp",
+      "notes": "Factory prevention of pressure-side hose separation. Do not promise longer turbo service life or use arbitrary clamp torque elsewhere."
+    },
+    {
+      "id": "turbsol-fact-019",
+      "subject": "Saab original 9-5",
+      "category": "source_scope",
+      "predicate": "MY2006_260hp_specific_wastegate_box_handling",
+      "value": "2006 260 hp configuration has added wastegate-box removal/refit steps in factory turbo procedure.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 260hp specific wastegate box handling",
+      "notes": "Not permission to retrofit 260 hp turbo/control hardware onto a different engine or calibration."
+    },
+    {
+      "id": "turbsol-fact-020",
+      "subject": "Saab original 9-5",
+      "category": "repair_procedure",
+      "predicate": "MY2008_heatshield_nut_engine_serial_torque",
+      "value": {
+        "through_engine_no": 7011078,
+        "torque_through_Nm": 20,
+        "from_engine_no": 7011079,
+        "torque_from_Nm": 21
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2008 heatshield nut engine serial torque",
+      "notes": "Mounting of turbo heat shield only, not actuator lock nut or vehicle VIN. Manufacturer serial cutover not an interchange claim."
+    },
+    {
+      "id": "turbsol-fact-021",
+      "subject": "Saab original 9-5",
+      "category": "turbo",
+      "predicate": "MY2004_turbo_lubrication_path",
+      "value": {
+        "supply": "engine oil filter adapter via dedicated oil pipe",
+        "return": "to engine oil sump",
+        "bearing_type": "floating journal bushes on engine oil film"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2004 turbo lubrication path",
+      "notes": "Engine oil starvation or blocked return is mechanically relevant, but full quantitative oil feed test not recovered."
+    },
+    {
+      "id": "turbsol-fact-022",
+      "subject": "Saab original 9-5",
+      "category": "turbo",
+      "predicate": "MY2004_turbo_water_cooling_thermosiphon",
+      "value": "Factory says jacket coolant cools bearing housing after shutdown by thermosiphon circulation with coolant pump stopped.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2004 turbo water cooling thermosiphon",
+      "notes": "Descriptive mechanism only; not a proven repair interval, exact turbo bearing temperature or retrofit approval."
+    },
+    {
+      "id": "turbsol-fact-023",
+      "subject": "Saab original 9-5",
+      "category": "transmission",
+      "predicate": "FA57_S1_S5_shift_coil_20C_ohm",
+      "value": {
+        "S1": [
+          11,
+          16
+        ],
+        "S2": [
+          11,
+          16
+        ],
+        "S3": [
+          11,
+          16
+        ],
+        "S4": [
+          11,
+          16
+        ],
+        "S5": [
+          11,
+          16
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "FA57 S1 S5 shift coil 20C ohm",
+      "notes": "Direct Saab factory technical table at 20°C. Different class from SLT/SLS and SLU; resistance only screens winding, not hydraulics."
+    },
+    {
+      "id": "turbsol-fact-024",
+      "subject": "Saab original 9-5",
+      "category": "transmission",
+      "predicate": "FA57_S1_S5_zero_current_state",
+      "value": {
+        "open": [
+          "S1",
+          "S2",
+          "S4"
+        ],
+        "closed": [
+          "S3",
+          "S5"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "FA57 S1 S5 zero current state",
+      "notes": "De-energized function from factory data; never energize installed gearbox in unsafe conditions."
+    },
+    {
+      "id": "turbsol-fact-025",
+      "subject": "Saab original 9-5",
+      "category": "transmission",
+      "predicate": "FA57_S1_S5_shift_coil_20C_ohm",
+      "value": {
+        "S1": [
+          11,
+          16
+        ],
+        "S2": [
+          11,
+          16
+        ],
+        "S3": [
+          11,
+          16
+        ],
+        "S4": [
+          11,
+          16
+        ],
+        "S5": [
+          11,
+          16
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "FA57 S1 S5 shift coil 20C ohm",
+      "notes": "Direct Saab factory technical table at 20°C. Different class from SLT/SLS and SLU; resistance only screens winding, not hydraulics."
+    },
+    {
+      "id": "turbsol-fact-026",
+      "subject": "Saab original 9-5",
+      "category": "transmission",
+      "predicate": "FA57_S1_S5_zero_current_state",
+      "value": {
+        "open": [
+          "S1",
+          "S2",
+          "S4"
+        ],
+        "closed": [
+          "S3",
+          "S5"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "FA57 S1 S5 zero current state",
+      "notes": "De-energized function from factory data; never energize installed gearbox in unsafe conditions."
+    },
+    {
+      "id": "turbsol-fact-027",
+      "subject": "Saab original 9-5",
+      "category": "transmission",
+      "predicate": "FA57_S1_S5_shift_coil_20C_ohm",
+      "value": {
+        "S1": [
+          11,
+          16
+        ],
+        "S2": [
+          11,
+          16
+        ],
+        "S3": [
+          11,
+          16
+        ],
+        "S4": [
+          11,
+          16
+        ],
+        "S5": [
+          11,
+          16
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "FA57 S1 S5 shift coil 20C ohm",
+      "notes": "Direct Saab factory technical table at 20°C. Different class from SLT/SLS and SLU; resistance only screens winding, not hydraulics."
+    },
+    {
+      "id": "turbsol-fact-028",
+      "subject": "Saab original 9-5",
+      "category": "transmission",
+      "predicate": "FA57_S1_S5_zero_current_state",
+      "value": {
+        "open": [
+          "S1",
+          "S2",
+          "S4"
+        ],
+        "closed": [
+          "S3",
+          "S5"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "FA57 S1 S5 zero current state",
+      "notes": "De-energized function from factory data; never energize installed gearbox in unsafe conditions."
+    },
+    {
+      "id": "turbsol-fact-029",
+      "subject": "Saab original 9-5",
+      "category": "transmission",
+      "predicate": "MY2008_FA57_SLT_SLS_20C_descriptive_ohm",
+      "value": {
+        "SLS": [
+          5.1,
+          5.5
+        ],
+        "SLT": [
+          5.1,
+          5.5
+        ],
+        "temp_C": 20
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2008 FA57 SLT SLS 20C descriptive ohm",
+      "notes": "MY2008 technical DESCRIPTION quotes 5.1–5.5 Ω; MY2007 separate technical DATA says 5.0–5.6 Ω. Do not conflate two page types or assert hardware change."
+    },
+    {
+      "id": "turbsol-fact-030",
+      "subject": "Saab original 9-5",
+      "category": "transmission",
+      "predicate": "MY2007_FA57_SLT_SLS_20C_data_ohm",
+      "value": {
+        "SLS": [
+          5,
+          5.6
+        ],
+        "SLT": [
+          5,
+          5.6
+        ],
+        "temp_C": 20
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2007 FA57 SLT SLS 20C data ohm",
+      "notes": "Year-specific technical DATA band is 5.0–5.6 Ω, versus 2008 descriptive nominal 5.1–5.5 Ω; not necessarily different solenoid."
+    },
+    {
+      "id": "turbsol-fact-031",
+      "subject": "Saab original 9-5",
+      "category": "transmission",
+      "predicate": "MY2008_FA57_SLT_SLS_drive_wiring",
+      "value": {
+        "PWM_Hz": 300,
+        "SLS_signal_TCM_B_pin": 26,
+        "SLS_ground_TCM_B_pin": 36,
+        "SLT_signal_TCM_B_pin": 35,
+        "SLT_ground_TCM_B_pin": 15
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2008 FA57 SLT SLS drive wiring",
+      "notes": "Circuit IDs are TCM connector B, not ECU. High current reduces regulated hydraulic pressure per original document."
+    },
+    {
+      "id": "turbsol-fact-032",
+      "subject": "Saab original 9-5",
+      "category": "transmission",
+      "predicate": "MY2008_FA57_SLT_SLS_lose_drive_effect",
+      "value": {
+        "zero_current": "fully open",
+        "open_circuit": "maximum hydraulic system pressure",
+        "SLT_DTC": "P0748",
+        "SLS_DTC": "P0785"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2008 FA57 SLT SLS lose drive effect",
+      "notes": "The high system pressure fail state may explain a hard shift; not proof a rebuilt transmission is needed or that a wiring fix will restore worn hydraulics."
+    },
+    {
+      "id": "turbsol-fact-033",
+      "subject": "Saab original 9-5",
+      "category": "transmission",
+      "predicate": "MY2007_FA57_SLT_SLS_PWM_data",
+      "value": {
+        "voltage_V": 12,
+        "PWM_Hz": 300,
+        "zero_current": "open"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2007 FA57 SLT SLS PWM data",
+      "notes": "This is separate from S1-S5 on/off shifts and the torque-converter lock-up valve."
+    },
+    {
+      "id": "turbsol-fact-034",
+      "subject": "Saab original 9-5",
+      "category": "transmission",
+      "predicate": "MY2007_FA57_SLU_excerpt_only",
+      "value": {
+        "solenoid": "SLU",
+        "reported_20C_ohms": [
+          5,
+          5.6
+        ],
+        "type": "lock-up, closed at zero current"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2007 FA57 SLU excerpt only",
+      "notes": "Source search excerpt only; full SLU technical page was not independently retrieved, so do not elevate to full-text evidence."
+    },
+    {
+      "id": "turbsol-fact-035",
+      "subject": "Saab original 9-5",
+      "category": "source_quality",
+      "predicate": "bulletin_4402181_wrong_platform_for_9_5",
+      "value": {
+        "bulletin": "440-2181",
+        "affected": "Saab 9-3 9400 MY1998–99 automatic",
+        "market": "not US/CA",
+        "original_oil": "Dexron III"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9400"
+        ],
+        "model_years": [
+          1998,
+          1999
+        ],
+        "markets": [
+          "non-US/CA"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "bulletin 4402181 wrong platform for 9 5",
+      "notes": "May not be transferred to 9-5 9600 2005–09 FA57, Saab 3309, or the next-generation 9-3 9440."
+    },
+    {
+      "id": "turbsol-fact-036",
+      "subject": "Saab original 9-5",
+      "category": "source_quality",
+      "predicate": "bulletin_4402182_original_9_5_scope",
+      "value": {
+        "bulletin": "440-2182",
+        "affected": "Saab 9-5 9600 MY1998–99 automatic",
+        "market": "not US/CA",
+        "original_oil": "Dexron III"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999
+        ],
+        "transmission_codes": [
+          "automatic"
+        ],
+        "markets": [
+          "non-US/CA"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "bulletin 4402182 original 9 5 scope",
+      "notes": "Different document from 440-2181: still NOT applicable to MY2005–09 Saab 3309 5AT; do not import old Dexron III."
+    },
+    {
+      "id": "turbsol-fact-037",
+      "subject": "Saab original 9-5",
+      "category": "transmission",
+      "predicate": "bulletin_4402182_false_overheat_grounding_only_98_99",
+      "value": {
+        "condition": "SID may warn Transmission Overheating due to poor ground contacts",
+        "points": [
+          "G41S",
+          "G41P",
+          "G43"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999
+        ],
+        "transmission_codes": [
+          "automatic"
+        ],
+        "markets": [
+          "non-US/CA"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "bulletin 4402182 false overheat grounding only 98 99",
+      "notes": "Factory additionally says examine genuine overheats; these 1998/99 ground locations are not proven 2008 TCM wiring or diagnosis."
+    },
+    {
+      "id": "turbsol-fact-038",
+      "subject": "Saab original 9-5",
+      "category": "source_quality",
+      "predicate": "MY2008_turbo_shaft_numeric_unknown",
+      "value": {
+        "factory_index_exists": true,
+        "shaft_axial_max_mm": null,
+        "shaft_radial_max_mm": null
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2008 turbo shaft numeric unknown",
+      "notes": "The index lists Turbo shaft play but numerical technical page remains unreadable. A 2005 GT17 or NG9-3 turbo figure must not be substituted."
+    },
+    {
+      "id": "turbsol-fact-039",
+      "subject": "Saab original 9-5",
+      "category": "turbo",
+      "predicate": "MY2005_oil_filter_adapter_o_ring_and_feed_pipe",
+      "value": {
+        "adapter_seal": "replace O-ring",
+        "turbo_oil_feed": "disconnect/reconnect at adapter",
+        "sealing": "inspect surfaces and leak test"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "turbsol-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2005 oil filter adapter o ring and feed pipe",
+      "notes": "Factory-adapter O-ring is a separate component from the copper washers on turbo oil banjos."
+    }
+  ],
+  "issues": [
+    {
+      "id": "turbsol-issue-001",
+      "title": "Replaced 9-5 turbo can be damaged by dry start or faulty oil/coolant connections",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2006,
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "cause": "Factory installation procedure requires oil in floating bearing housing before startup and renewed oil/coolant copper seals; service disassembly can damage exhaust bellows or charge-air hose sealing.",
+      "symptoms": [
+        "recent turbo replacement with immediate whine/smoke",
+        "oil at turbo banjo unions",
+        "coolant seep near turbo",
+        "boost hose disconnects"
+      ],
+      "diagnosis_summary": "Before condemning replacement turbo, inspect documented priming, correct oil-feed supply/return, leaks, coolant routing, and hose clamps. Do not run a knowingly oil-starved or overheated engine.",
+      "correction_summary": "Repair verified oil/coolant/hose sealing or installation errors with correct factory procedure. Escalate to turbo replacement only after measurable mechanical damage.",
+      "source_ids": [
+        "turbsol-src-001",
+        "turbsol-src-002",
+        "turbsol-src-003",
+        "turbsol-src-004",
+        "turbsol-src-013"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Oil priming does not guarantee an undamaged used turbo or healthy engine bearings.",
+        "MY2008 shaft-play numerical limit not recovered.",
+        "Do not apply torque values to oil cooler/gearbox banjos."
+      ]
+    },
+    {
+      "id": "turbsol-issue-002",
+      "title": "9-5 FA57 electrical solenoid class differentiation before declaring valve body/gearbox failure",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007,
+          2008,
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "cause": "S1–S5 de-energized shift valves are distinct from PWM pressure control SLT/SLS and torque converter lock-up SLU, with substantially different winding resistance.",
+      "symptoms": [
+        "CHECK GEARBOX",
+        "hard engagement",
+        "limp-home",
+        "specific shift or pressure-control DTC"
+      ],
+      "diagnosis_summary": "Read TCM DTC, actual temperature and solenoid assignment, verify matched physical gearbox/TCM, perform qualified resistance and wiring tests before considering internal hydraulic damage.",
+      "correction_summary": "Repair a proven electrical/signal or valve-body fault where feasible; do not automatically rebuild the transmission or assume new solenoid cures worn clutches.",
+      "source_ids": [
+        "turbsol-src-005",
+        "turbsol-src-006",
+        "turbsol-src-007",
+        "turbsol-src-008",
+        "turbsol-src-009"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Coil resistance in normal range does not establish mechanical hydraulic function.",
+        "5.1–5.5 descriptive range versus 5.0–5.6 technical table not evidence of redesign.",
+        "No verified OE replacement solenoid number or 2026 VIN fitment."
+      ]
+    },
+    {
+      "id": "turbsol-issue-003",
+      "title": "Similar 440-2181/440-2182 bulletins must not contaminate MY2005–09 9-5 automatic diagnosis",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999
+        ],
+        "transmission_codes": [
+          "automatic"
+        ],
+        "markets": [
+          "non-US/CA"
+        ]
+      },
+      "cause": "440-2181 concerns OG9-3 and 440-2182 OG9-5 MY1998–99 with Dexron III ATF; later OG9-5 FA57 Saab 3309 is a different original service specification.",
+      "symptoms": [
+        "online search suggests Dexron III from an older common-faults bulletin",
+        "2008 9-5 claimed to need 1998 ground strap G41S",
+        "misleading identical bulletin titles"
+      ],
+      "diagnosis_summary": "Read original car/platform/year/market and bulletin number, separately identify gearbox and current original WIS ATF grade. Do not generalize early four-speed fault remedies to later FA57.",
+      "correction_summary": "Use 2005–09 FA57 source-specific Saab 3309 documentation and matching TCM/gearbox diagnosis; preserve early bulletins only for their actual populations.",
+      "source_ids": [
+        "turbsol-src-010",
+        "turbsol-src-011"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Neither bulletin authorizes Dexron III in MY2005–09 FA57.",
+        "Ground points G41S/G41P/G43 are MY1998–99 bulletin only.",
+        "Factory bulletins are symptom-specific and not universal 9-5 failure statistics."
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "turbsol-gap-001",
+      "title": "MY2008 9-5 turbo shaft play numeric acceptance",
+      "missing_inputs": [
+        "Factory year and exact turbocharger-specific radial/axial measurement remains unreadable even though index lists it."
+      ],
+      "reason": "Source-only factory data cannot prove installed car health, approved part swap or accurate rebuild risk without measured vehicle condition.",
+      "source_ids": [
+        "turbsol-src-012"
+      ]
+    },
+    {
+      "id": "turbsol-gap-002",
+      "title": "Genuine turbo and feed/return O-ring copper-washer supersessions",
+      "missing_inputs": [
+        "Need official VIN-filtered Saab WebEPC for 2005/06/08 B235E/R, seals, feed pipe restrictions and current original hardware."
+      ],
+      "reason": "Source-only factory data cannot prove installed car health, approved part swap or accurate rebuild risk without measured vehicle condition.",
+      "source_ids": [
+        "turbsol-src-001",
+        "turbsol-src-002",
+        "turbsol-src-003",
+        "turbsol-src-013"
+      ]
+    },
+    {
+      "id": "turbsol-gap-003",
+      "title": "Later-year 2007 and 2009 turbo installation verification",
+      "missing_inputs": [
+        "2005/06/08 turbo procedures retrieved; independently check MY2007/09 before generalizing identical torque, 260hp handling or fastener cutovers."
+      ],
+      "reason": "Source-only factory data cannot prove installed car health, approved part swap or accurate rebuild risk without measured vehicle condition.",
+      "source_ids": [
+        "turbsol-src-002",
+        "turbsol-src-003"
+      ]
+    },
+    {
+      "id": "turbsol-gap-004",
+      "title": "Oil feed obstruction pressure/flow acceptance after replacement",
+      "missing_inputs": [
+        "Factory oil system measurement, return blockage test and validated flow spec by B235R/GT17/TD04 required; qualitative lubrication explanation is not a flow test."
+      ],
+      "reason": "Source-only factory data cannot prove installed car health, approved part swap or accurate rebuild risk without measured vehicle condition.",
+      "source_ids": [
+        "turbsol-src-004",
+        "turbsol-src-013"
+      ]
+    },
+    {
+      "id": "turbsol-gap-005",
+      "title": "FA57 2008–09 solenoid current and hydraulic acceptance under load",
+      "missing_inputs": [
+        "Resistance only; need year specific Tech2 active test and hydraulic pressures by exact FA57 hardware and clean cooling/ATF circuits."
+      ],
+      "reason": "Source-only factory data cannot prove installed car health, approved part swap or accurate rebuild risk without measured vehicle condition.",
+      "source_ids": [
+        "turbsol-src-005",
+        "turbsol-src-006",
+        "turbsol-src-008"
+      ]
+    },
+    {
+      "id": "turbsol-gap-006",
+      "title": "Original solenoid SKU and valve-body supersession",
+      "missing_inputs": [
+        "Obtain VIN-filtered genuine Saab OEM part identities for S1-S5, SLS, SLT, SLU and control module; no fitment approved."
+      ],
+      "reason": "Source-only factory data cannot prove installed car health, approved part swap or accurate rebuild risk without measured vehicle condition.",
+      "source_ids": [
+        "turbsol-src-007",
+        "turbsol-src-008",
+        "turbsol-src-009"
+      ]
+    },
+    {
+      "id": "turbsol-gap-007",
+      "title": "SLS SLT 2007 vs 2008 resistance presentation mismatch",
+      "missing_inputs": [
+        "Technical-data 2007 5.0-5.6 Ω vs technical DESCRIPTION 2008 5.1-5.5 Ω; ascertain whether rounding, test, date or actual hardware differs."
+      ],
+      "reason": "Source-only factory data cannot prove installed car health, approved part swap or accurate rebuild risk without measured vehicle condition.",
+      "source_ids": [
+        "turbsol-src-008",
+        "turbsol-src-009"
+      ]
+    },
+    {
+      "id": "turbsol-gap-008",
+      "title": "2008–09 SLU full-page specification and diagnoses",
+      "missing_inputs": [
+        "Only older model-year search excerpt available; needs independently retrieved 2008/09 SLU data and converter lock-up conditions."
+      ],
+      "reason": "Source-only factory data cannot prove installed car health, approved part swap or accurate rebuild risk without measured vehicle condition.",
+      "source_ids": [
+        "turbsol-src-014"
+      ]
+    },
+    {
+      "id": "turbsol-gap-009",
+      "title": "Real vehicle economic choice versus engine/transmission rebuild",
+      "missing_inputs": [
+        "Recorded VIN, drivetrain serial, corrosion condition, maintenance, fluid/lab/scan readings, turbo oil test, and shop/parts quotes missing."
+      ],
+      "reason": "Source-only factory data cannot prove installed car health, approved part swap or accurate rebuild risk without measured vehicle condition.",
+      "source_ids": [
+        "turbsol-src-001",
+        "turbsol-src-008",
+        "turbsol-src-011"
+      ]
+    }
+  ]
+}
