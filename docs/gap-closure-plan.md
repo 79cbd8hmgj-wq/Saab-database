@@ -83,3 +83,6 @@ For the underlying existing research backlog and original P0 codes, see [researc
 ### Cross-manufacturer replacement workstream: pilot (2026-10-13)
 
 The [FAG 713 6440 90 / NG 9-3 front hub pilot](research/cross-manufacturer-front-hub-pilot.md) establishes a manufacturer-sourced aftermarket catalogue cross-reference spanning Saab and GM/Opel numbers, independently supported by MY2006 Saab factory hub/sensor architecture. Its [candidate record](../data/interchange-candidates/phase0.json) separates 'Interchangeable' references from 'Reference corresponds' metadata, and explicitly blocks unverified physical GM/Opel donor swaps, exact VIN approvals, cost claims and durability claims. Next gather VIN-filtered OEM Saab and GM/Opel part identities, physical interfaces, sensor protocol and real install results before any replacement recommendation. Gate C remains **not met**.
+
+
+**Cross-manufacturer follow-up (2026-10-13):** [PFI front hubs and 9-3 front pads](research/cross-manufacturer-interchange-pilot.md) provide distinct cross-brand supplier candidates alongside the direct manufacturer FAG pilot, with no VIN-approved donor conversion or demonstrated reliability benefit.
