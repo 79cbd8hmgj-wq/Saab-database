@@ -26,3 +26,8 @@ We must compare engines, gearboxes, ECU faults, correct parts programming, body 
 - Body-style corrosion and safety inspection of an actual candidate, plus seller history and repair cost. No model winner without the condition of the proposed donor car.
 
 See [new source dataset](../../data/datasets/cross-manufacturer-electrics-model-choice.json) and [qualitative model-choice decision evidence](../../data/model-selection/interchange-evidence-20261013.json). All approval flags remain false and original Gate C is **not met**.
+
+
+## Correction after reciprocal B235 sourcing search (2026-10-13)
+
+An equally targeted [original 9-5 B235 AS-PL study](og95-shared-electrics-countercheck.md) found **S0034 starter** and **A0219 alternator** shared aftermarket cataloguing with Opel/Vauxhall. This updates the earlier interpretation: the previously identified B207 abundance was partly a **sampling bias**. Both priority Saab families have cross-brand aftermarket electrics leads, so the narrow first-pass B207 lead **must not be used as an overall parts-availability or reliability ranking**. AS-PL A0219 120A/PL_9104 and A0319 130A/PL_9105 are distinct, not universal cross-fits. U.S. stock/pricing and specific VIN approval are outstanding.
