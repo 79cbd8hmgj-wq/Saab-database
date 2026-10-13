@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 396 source records with 361 distinct
+Research retrieval date: 2026-10-12. There are 410 source records with 374 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -569,3 +569,24 @@ Dataset: [og95_atf_thermal_turbo_bulletin](../data/datasets/og95-atf-thermal-tur
 | `afdiag-src-012` | [MY2009 9-5 automatic gearbox joint torque reference](https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/technical-data/tightening-torques) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `full_text` |
 | `afdiag-src-013` | [MY2009 9-5 automatic transmission electronics system overview](https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/technical-description/system-overview) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `full_text` |
 | `afdiag-src-014` | [MY2008 9-5 turbo system technical data and shaft page index](https://saabwisonline.com/9-5-9600/2008/2-engine/turbocharger-system/) | Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline) | `metadata_only` |
+
+## og95_turbo_oil_feed_solenoids
+
+Dataset: [og95_turbo_oil_feed_solenoids](../data/datasets/og95-turbo-oil-feed-solenoids.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `turbsol-src-001` | [MY2005 9-5 petrol 4-cylinder turbo remove/refit and bearing preoil](https://saabwisonline.com/9-5-9600/2005/2-engine/turbocharger-system/adjustment-replacement/turbo-4-cyl) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `full_text` |
+| `turbsol-src-002` | [MY2006 9-5 petrol 4-cylinder turbo remove/refit with 260hp note](https://saabwisonline.com/9-5-9600/2006/2-engine/turbocharger-system/adjustment-replacement/turbo-4-cyl) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `full_text` |
+| `turbsol-src-003` | [MY2008 9-5 petrol 4-cylinder turbo remove/refit with changed heatshield torque](https://saabwisonline.com/9-5-9600/2008/2-engine/turbocharger-system/adjustment-replacement/turbo-4-cyl) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `full_text` |
+| `turbsol-src-004` | [MY2004 9-5 petrol turbo lubrication and water cooling explanation](https://saabwisonline.com/9-5-9600/2004/2-engine/turbocharger-system/technical-description/lubrication-cooling-4-cyl) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `full_text` |
+| `turbsol-src-005` | [MY2008 9-5 S1-S5 shift solenoid technical resistance and de-energized state](https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-data/gearshift-solenoid-valve-s1-s2-s3-s4-and-s5) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `full_text` |
+| `turbsol-src-006` | [MY2009 9-5 S1-S5 shift solenoid resistance and states](https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/technical-data/gearshift-solenoid-valve-s1-s2-s3-s4-and-s5) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `full_text` |
+| `turbsol-src-007` | [MY2007 9-5 S1-S5 shift solenoid resistance and states](https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/technical-data/gearshift-solenoid-valve-s1-s2-s3-s4-and-s5) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `full_text` |
+| `turbsol-src-008` | [MY2008 9-5 SLS/SLT pressure control 300Hz PWM descriptive resistance](https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-description/solenoid-valves-sls-and-slt-for-system-pressure) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `full_text` |
+| `turbsol-src-009` | [MY2007 9-5 SLS/SLT pressure solenoid narrower technical-data range](https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/technical-data/solenoid-valves-pressure-regulation-slt-and-sls) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `full_text` |
+| `turbsol-src-010` | [Saab 440-2181 February 2000 original 9-3 MY1998-99 automatic non-US/CA](https://saabwisonline.com/9-3-9400/1998/4-transmission/automatic-transmission/bulletins-si-mi/440-2181-common-faults-on-automatic-transmissions) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `full_text` |
+| `turbsol-src-011` | [Saab 440-2182 February 2000 original 9-5 MY1998-99 automatic non-US/CA](https://saabwisonline.com/9-5-9600/1998/4-transmission/automatic-transmission/bulletins-si-mi/440-2182-common-faults-on-automatic-transmissions) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `full_text` |
+| `turbsol-src-012` | [MY2008 9-5 turbo shaft play technical page unavailable (indexed)](https://saabwisonline.com/9-5-9600/2008/2-engine/turbocharger-system/technical-data/) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `metadata_only` |
+| `turbsol-src-013` | [MY2005 9-5 petrol oil filter adapter and turbo oil pipe O-ring service](https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/oil-filter-adapter-housing) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `full_text` |
+| `turbsol-src-014` | [MY2007 9-5 automatic lock-up SLU solenoid data excerpt](https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/technical-data/solenoid-valve-lock-up-slu) | Saab Automobile AB factory WIS information reproduced by SaabWISOnline | `search_excerpt` |
