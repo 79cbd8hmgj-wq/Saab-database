@@ -3,6 +3,7 @@
   "domains": [
     "corrections",
     "epc_provenance",
+    "high_cost_powertrain_diagnostics",
     "ng93",
     "ng93_body",
     "ng93_early_mount_fuel",
@@ -19,24 +20,24 @@
     "subframe_parts_brake_lines"
   ],
   "counts": {
-    "sources": 273,
-    "facts": 547,
-    "issues": 29,
-    "parts": 55,
-    "gaps": 111
+    "sources": 290,
+    "facts": 582,
+    "issues": 32,
+    "parts": 57,
+    "gaps": 120
   },
-  "unique_source_urls": 265,
+  "unique_source_urls": 276,
   "retrieval_statuses": {
-    "full_text": 261,
+    "full_text": 277,
     "metadata_only": 2,
     "partial": 3,
-    "search_excerpt": 7
+    "search_excerpt": 8
   },
   "evidence_statuses": {
-    "documented": 570,
+    "documented": 608,
     "inference": 5,
-    "supplier_claim": 56
+    "supplier_claim": 58
   },
   "research_date": "2026-10-12",
-  "notes": "Factory WIS component-location and selected power/ground data, not verified end-to-end electrical continuity, fitted-part interchange, measured car condition, or failure incidence. MY2009 +30 was reviewed as search excerpt only. Earlier 2008 petrol cooling fan threshold wording 99°C versus 100°C is unresolved."
+  "notes": "High-cost powertrain diagnostic distinctions are source scoped, not vehicle-specific measurements, statistical failure rates, or replacement approvals. MY98–03 US/CA sludge bulletin does not cover later 9-5 years; B207 TAC PDF available as excerpt only; DIY flame testing of ATF is not recommended. Previously recorded petrol fan temperature discrepancy remains unresolved."
 }
