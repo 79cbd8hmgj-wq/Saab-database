@@ -102,3 +102,7 @@ The [expanded supplier/FIAT/Opel/Saab study](research/cross-manufacturer-interch
 ### T7 versus T8 electronics repairability, 2026-10-13
 
 [Source-scoped original 9-5 Trionic 7 ignition cassette and NG9-3 T8 ECM service comparison](research/t7-t8-repair-support-model-choice.md) documents current parts-support and independent cloning services, explicit original-module-communication dependencies and the lack of whole-system repair-cost or failure-rate data. The model-ranking gate remains blocked. These are different kinds of component failures; the T7 ignition cassette service must not be equated to T8 ECM replacement.\n
+
+### Correcting B235 9-5 cross-brand sourcing bias (2026-10-13)
+
+[Manufacturer AS-PL S0034/A0219 countercheck](research/og95-shared-electrics-countercheck.md) demonstrates original 9-5 B235 also has Opel-related supplier starter and alternator families. Previous narrow comparisons favoring the B207 only by number of discovered shared candidates suffered unequal research coverage; the [current model-decision map](../data/model-selection/interchange-evidence-20261013.json) preserves both T7/T8 repair path differences and B235 shared alternatives. There is no demonstrated vehicle winner, donor OE fitment, local cost reduction or quantified reliability benefit.
