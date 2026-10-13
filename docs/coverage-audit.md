@@ -145,6 +145,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 | `subframe_parts_brake_lines` | 17 | 16 | 0 | 15 | 9 |
 | `t7_t8_repair_support_model_choice` | 6 | 9 | 2 | 0 | 4 |
 | `vin_gearbox_provenance` | 14 | 29 | 2 | 0 | 9 |
+
 <!-- END AUTO-GENERATED PHASE0 CENSUS -->
 
 ### Cross-brand parts and model choice (2026-10-13)
