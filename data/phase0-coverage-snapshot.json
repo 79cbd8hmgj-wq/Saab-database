@@ -2,29 +2,29 @@
   "schema_version": "1.0.0",
   "meaning": "Record coverage and evidence provenance, NOT completeness, fitment, or reliability",
   "counts": {
-    "sources": 530,
-    "facts": 1044,
-    "issues": 86,
-    "parts": 81,
-    "gaps": 265
+    "sources": 536,
+    "facts": 1056,
+    "issues": 87,
+    "parts": 84,
+    "gaps": 270
   },
-  "unique_source_urls": 466,
+  "unique_source_urls": 472,
   "retrieval_statuses": {
-    "full_text": 500,
+    "full_text": 506,
     "metadata_only": 8,
     "partial": 3,
     "search_excerpt": 19
   },
   "evidence_statuses": {
-    "documented": 1102,
+    "documented": 1103,
     "inference": 9,
-    "supplier_claim": 100
+    "supplier_claim": 115
   },
   "explicit_scope_counts": {
-    "platforms": 1152,
-    "model_years": 1055,
+    "platforms": 1168,
+    "model_years": 1071,
     "markets": 205,
-    "engine_codes": 352,
+    "engine_codes": 368,
     "transmission_codes": 167,
     "body_styles": 83,
     "vin_ranges": 24
@@ -72,24 +72,24 @@
         "parts": 21
       },
       "2006": {
-        "facts": 153,
-        "issues": 16,
-        "parts": 20
+        "facts": 157,
+        "issues": 17,
+        "parts": 21
       },
       "2007": {
-        "facts": 134,
-        "issues": 18,
-        "parts": 19
+        "facts": 138,
+        "issues": 19,
+        "parts": 20
       },
       "2008": {
-        "facts": 181,
-        "issues": 26,
-        "parts": 19
+        "facts": 185,
+        "issues": 27,
+        "parts": 20
       },
       "2009": {
-        "facts": 126,
-        "issues": 15,
-        "parts": 19
+        "facts": 130,
+        "issues": 16,
+        "parts": 20
       }
     },
     "9-3-9440": {
@@ -104,14 +104,14 @@
         "parts": 21
       },
       "2005": {
-        "facts": 84,
-        "issues": 17,
-        "parts": 22
+        "facts": 92,
+        "issues": 18,
+        "parts": 24
       },
       "2006": {
-        "facts": 124,
-        "issues": 19,
-        "parts": 27
+        "facts": 132,
+        "issues": 20,
+        "parts": 29
       },
       "2007": {
         "facts": 26,
@@ -161,6 +161,13 @@
       "issues": 20,
       "parts": 26,
       "gaps": 7
+    },
+    "cross_manufacturer_electrics_model_choice": {
+      "sources": 6,
+      "facts": 12,
+      "issues": 1,
+      "parts": 3,
+      "gaps": 5
     },
     "cross_manufacturer_front_hub_pilot": {
       "sources": 4,
@@ -395,9 +402,9 @@
     }
   },
   "parts_provenance": {
-    "total": 81,
-    "with_relationships": 22,
-    "supplier_claim": 52,
-    "needs_vehicle_verification": 50
+    "total": 84,
+    "with_relationships": 25,
+    "supplier_claim": 55,
+    "needs_vehicle_verification": 53
   }
 }
