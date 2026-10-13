@@ -63,7 +63,7 @@ class OriginalSaabUSManufacturerProvenanceTests(unittest.TestCase):
         d=self.f("og95_2008_left_engine_mount_VIN_cutover_nut")
         self.assertEqual(d["value"]["through_printed_VIN"],"73514478")
         self.assertEqual(d["value"]["from_printed_VIN"],"73514479")
-        self.assertIn("not entire 17-digit",d["notes"])
+        self.assertIn("not whole 17-digit VIN",d["notes"])
         self.assertEqual(d["applicability"]["model_years"],[2008])
 
     def test_blank_template_no_vehicle_approval(self):
