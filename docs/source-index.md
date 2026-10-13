@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 482 source records with 428 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 489 source records with 431 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -697,3 +697,17 @@ Dataset: [priority_nonrunning_purchase_screen](../data/datasets/priority-nonrunn
 | `nrscreen-src-011` | [Original 9-5 MY2007 enhanced ignition discharge module diagnosis](https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/fault-diagnosis-general/enhanced-ignition-discharge-module-for-trionic-7) | Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline) | `full_text` |
 | `nrscreen-src-012` | [Original 9-5 MY2007 B235 petrol T7 turbo and control module replacement checklist](https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/fault-diagnosis-general/checklist-for-changing-turbocharger-and-engine-control-module) | Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline) | `full_text` |
 | `nrscreen-src-013` | [Original 9-5 MY2006 petrol four-cylinder original exhaust architecture](https://saabwisonline.com/9-5-9600/2006/2-engine/exhaust-system/technical-description/system-overview-4-cyl) | Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline) | `search_excerpt` |
+
+## official_us_vin_and_service_kit_provenance
+
+Dataset: [official_us_vin_and_service_kit_provenance](../data/datasets/official-us-vin-service-kit-provenance.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `gate5-src-001` | [Saab Automobile USA original 1999–2011 9-3/9-5 model-year VIN reference compilation](https://saabparts.us/wp-content/uploads/1/2023/05/VIN-breakdown-for-1999-2011-9-3-9-5.pdf) | Saab Automobile AB / Saab Automobile USA (republished by Saab Parts North America) | `full_text` |
+| `gate5-src-002` | [Official Saab Parts US owner resource guide listing 9-3 and 9-5 VIN references and service brochures](https://saabparts.us/reference-library/) | Saab Parts / Hedin Parts official North American manufacturer-support channel | `full_text` |
+| `gate5-src-003` | [Official Saab Parts 9-3 ignition-switch replacement kit 32021815 previously 12801010 assembly instructions](https://saabparts.us/wp-content/uploads/1/2023/06/Saab-93-2003_11-Ignition-Switch-Module-ISM-32021815-Kit-Saabparts-Reference-Library-version.pdf) | Saab Parts / Hedin Parts official North American manufacturer-support channel | `full_text` |
+| `gate5-src-004` | [Official Saab Parts US key-loss and early/late 9-5 key service guide](https://saabparts.com/us/wp-content/uploads/sites/10/2023/09/What-happens-if-I-lose-all-the-keys-to-my-Saab-Sept-2023.pdf) | Saab Parts / Hedin Parts official North American manufacturer-support channel | `full_text` |
+| `gate5-src-005` | [2008 original 9-5 engine mounting left joint VIN production cutoff and manual/automatic difference](https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/engine-mounting-left) | Saab Automobile AB original WIS (SaabWISOnline mirror) | `full_text` |
+| `gate5-src-006` | [Saab WebEPC official manufacturer VIN-filter, illustrations and directed NLS supersessions](https://saabparts.com/saab-subscription-services) | Saab Parts / Hedin Parts official North American manufacturer-support channel | `full_text` |
+| `gate5-src-007` | [Saab Parts USA owner portal describes original VIN option decoder](https://saabparts.com/us/) | Saab Parts / Hedin Parts official North American manufacturer-support channel | `full_text` |
