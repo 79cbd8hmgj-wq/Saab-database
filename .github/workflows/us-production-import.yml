@@ -1,0 +1,64 @@
+name: Build US Saab production snapshot
+
+on:
+  push:
+    branches:
+      - research/us-full-production-normalizer
+    paths:
+      - tools/us_production_import.py
+      - tests/test_us_production_import.py
+      - .github/workflows/us-production-import.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Test offline importer and catalogue
+        run: python3 -m unittest discover -s tests -v
+      - name: Fetch and normalize all four US production tables
+        run: |
+          python3 tools/us_production_import.py --fetch \
+            --require-total-reconciliation \
+            --output data/vehicle-catalogue/us-production-normalized.json
+      - name: Validate generated US scope and references
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('data/vehicle-catalogue/us-production-normalized.json').read_text())
+          assert len(data['sources']) == 4
+          assert len(data['year_model_screening']) == 28
+          assert data['markets'] == ['US']
+          assert all(s['all_vehicle_total_reconciles'] for s in data['sources'])
+          assert all(c['drivetrain'] == 'FWD' and c['automatic_gears'] in (4,5,6)
+                     and c['market'] == 'US' and c['body_style'] != 'convertible'
+                     and c['reported_production_count'] > 0
+                     and c['requires_vehicle_verification']
+                     for c in data['configurations'])
+          assert all(not row['factory_exhaustiveness_certified']
+                     for row in data['year_model_screening'])
+          print('US production snapshot passed schema/scope/count safety checks.')
+          PY
+          python3 tools/validate.py
+          python3 tools/phase0_audit.py --check
+      - name: Commit generated evidence snapshot on research branch
+        if: github.ref == 'refs/heads/research/us-full-production-normalizer'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/vehicle-catalogue/us-production-normalized.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Generate complete source-derived US auto FWD production groups"
+            git push origin HEAD:research/us-full-production-normalizer
+          fi
