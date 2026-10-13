@@ -33,6 +33,14 @@ SOURCES = [
      "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/6-speed-af-40/technical-data/type-designations",
      "publisher": "Saab WIS, mirrored", "source_model_year": 2006,
      "scope_note": "WIS designates six-speed as AF40 / Aisin TF-80SC; cannot assume identical boxed assemblies for other cars."},
+    {"id": "wis-9650-2011-af40-id", "title": "New-generation 9-5 9650 MY2011 AF40 transmission identification",
+     "url": "https://saabwisonline.com/9-5-9650/2011/4-transmission/automatic-transmission/technical-description/transmission-identification-information",
+     "publisher": "Saab WIS, mirrored", "source_model_year": 2011,
+     "scope_note": "WIS names AF40 transmission case identification for 2011 new 9-5; individual Turbo4 case/variant/part code still requires VIN and label inspection."},
+    {"id": "wis-9650-2011-vin", "title": "New-generation 9-5 9650 MY2011 factory VIN engine and transmission positions",
+     "url": "https://saabwisonline.com/9-5-9650/2011/0-general/general/technical-description/vehicle-engine-and-transmission-id-and-vin-location-derivative-and-usage",
+     "publisher": "Saab WIS, mirrored", "source_model_year": 2011,
+     "scope_note": "2011 9-5 VIN position 7 A = six-speed automatic FWD; B = six-speed automatic XWD; position 8 2.0T engine variants listed. Confirm original individual VIN, U.S. market and case label."},
     {"id": "wis-9440-af40-low-atf", "title": "TA440-0902 AF40 ATF level technical advice",
      "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/6-speed-af-40/bulletins-si-mi/ta440-0902-atf-oil-check-on-af40-6-speed-aut",
      "publisher": "Saab technical advice mirrored by WIS", "source_model_year": 2006,
@@ -58,10 +66,14 @@ RULES = {
                   "source": "wis-9440-2006-fa57", "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof."},
     ("9440", 6): {"designation": "AF40 / TF-80SC", "state": "factory_family_platform_supported",
                   "source": "wis-9440-2006-af40", "identity_notes": "WIS six-speed AF40 / Aisin TF-80SC; current US candidate subset is 2006–2008 FWD B284L, not all Saab six-speeds."},
-    ("650", 6): {"designation": None, "state": "factory_family_unresolved",
-                 "source": None, "identity_notes": "2011 new 9-5 Turbo4 FWD 6AT confirmed in register, but factory physical transmission family still needs a direct manufacturer citation."},
+    ("650", 6): {"designation": "AF40", "state": "factory_family_platform_supported",
+                 "source": "wis-9650-2011-af40-id", "identity_notes": "Saab 9-5 (9650) 2011 WIS names AF40 case ID; US register identifies a 2011 Turbo4 FWD six-speed. WIS 2011 VIN code A denotes automatic FWD. Exact vehicle Turbo4 AF40 variant/part number and VIN remain unverified."},
 }
 CAUTIONS = [
+    {"id": "at-risk-9650-vin-case",
+     "claim": "Saab 9-5 9650 MY2011 WIS names AF40 and VIN code A for six-speed automatic FWD; RPO equipment options may vary by engine and market.",
+     "decision": "Identify the actual 2011 Turbo4 VIN code and gearbox tag before assigning part number, calibration or claiming interchange with 9-3 AF40.",
+     "source_ids": ["wis-9650-2011-af40-id", "wis-9650-2011-vin"]},
     {"id": "at-risk-fa57-interchange",
      "claim": "FA57 label exists on both original 9-5 9600 and 9-3 9440.",
      "decision": "Do NOT claim interchangeability, identical application calibration, donor compatibility or fluid spec across platforms.",
@@ -118,7 +130,7 @@ def build(production):
         "research_sources": SOURCES,
         "diagnostic_cautions": CAUTIONS,
         "annotations": groups,
-        "research_status": "factory_family_research_partial; exact model-year variants/VIN, parts and 650 gearbox unresolved",
+        "research_status": "factory_family_research_partial; 2011 9-5 platform AF40 identified but exact Turbo4 case/part and all group VIN variants unresolved",
     }
 
 
