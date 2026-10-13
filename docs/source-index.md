@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 350 source records with 323 distinct
+Research retrieval date: 2026-10-12. There are 365 source records with 333 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -502,3 +502,25 @@ Dataset: [og95_pcv_radiator_mount_provenance](../data/datasets/og95-pcv-radiator
 | `parts95-src-014` | [eSaabParts 9-5 crankcase ventilation diagram and hose identifiers](https://www.esaabparts.com/viewparts.php?section=314781123) | eSaabParts independent parts retailer | `full_text` |
 | `parts95-src-015` | [Official Saab Parts WebEPC subscription and filtered OEM fitment service](https://saabparts.com/saab-subscription-services) | Saab Parts official WebEPC subscription service | `full_text` |
 | `parts95-src-016` | [eSaabParts 5235544 engine mount showing B308E automatic context and conflicting diagram years](https://www.esaabparts.com/saab/parts/5235544) | eSaabParts independent parts retailer | `full_text` |
+
+## og95_cooling_service_2006_2009
+
+Dataset: [og95_cooling_service_2006_2009](../data/datasets/og95-cooling-service-2006-2009.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `coolsvc-src-001` | [MY2007 coolant changing: 3-year interval/7.4L petrol](https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/adjustment-replacement/coolant-changing) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
+| `coolsvc-src-002` | [MY2008 coolant changing: 3-year interval/7.4L petrol](https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/coolant-changing) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
+| `coolsvc-src-003` | [MY2009 coolant mixture/freezing/corrosion protection](https://saabwisonline.com/9-5-9600/2009/2-engine/cooling-system/service/coolant-mixture-and-freezing-point) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
+| `coolsvc-src-004` | [MY2007 4-cylinder petrol engine-oil cooler service](https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/adjustment-replacement/engine-oil-cooler-4-cyl) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
+| `coolsvc-src-005` | [MY2006 4-cylinder petrol engine-oil cooler service](https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/engine-oil-cooler-4-cyl) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
+| `coolsvc-src-006` | [MY2005 4-cylinder petrol left engine mount fitting and later VIN cutover](https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/engine-mounting-left) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
+| `coolsvc-src-007` | [MY2007 4-cylinder petrol left engine mount fitting and VIN cutover](https://saabwisonline.com/9-5-9600/2007/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/engine-mounting-left) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
+| `coolsvc-src-008` | [MY2008 petrol coolant temperature and pressure limits](https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-data/temperature-pressure-limits) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
+| `coolsvc-src-009` | [MY2008 petrol cooling circuit components diagram](https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-description/cooling-system-diagram-4-cyl) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
+| `coolsvc-src-010` | [MY2006 petrol pressurised cooling system overview](https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/technical-description/system-overview-4-cyl) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
+| `coolsvc-src-011` | [MY2007 petrol thermostat replacement orientation and housing torque](https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/adjustment-replacement/thermostat-4-cyl) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
+| `coolsvc-src-012` | [MY2006 radiator, 4-cylinder petrol, gearbox cooler disconnection](https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/radiator-4-cyl) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
+| `coolsvc-src-013` | [MY2007 factory cooling system fill and bleeding](https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/adjustment-replacement/filling-and-bleeding-the-cooling-system) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
+| `coolsvc-src-014` | [MY2009 4-cylinder coolant drain and fill procedure](https://saabwisonline.com/9-5-9600/2009/2-engine/cooling-system/adjustment-replacement/coolant-4-cyl) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
+| `coolsvc-src-015` | [MY2006 cooling system pressure test](https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/cooling-system-pressure-testing) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
