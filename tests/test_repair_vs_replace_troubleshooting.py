@@ -45,7 +45,7 @@ class RepairVsReplaceTriageTests(unittest.TestCase):
         for p in ("2007_fa57_with_dipstick_80C","2007_fa57_without_dipstick_80C"):
             self.assertEqual(self.f(p)["value"]["TCM_fluid_C"],80)
             self.assertEqual(self.f(p)["value"]["MIN_MAX_delta_L"],0.5)
-        self.assertEqual(self.f("2007_fa57_without_dipstick_80C")["value"]["tool"],"DT-47653")
+        self.assertEqual(self.f("2007_fa57_without_dipstick_80C")["value"]["tool"],"DT-47653 gauge rod")
         self.assertEqual(self.f("2005_fa57_full_capacity")["value"],7)
         self.assertEqual(self.f("2005_fa57_original_ATF")["value"]["name"],"Saab 3309")
         self.assertIn("converter",self.f("2005_fa57_full_capacity")["notes"])
