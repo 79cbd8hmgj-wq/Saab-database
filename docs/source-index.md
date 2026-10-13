@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 510 source records with 451 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 514 source records with 455 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -304,6 +304,17 @@ Dataset: [ng93_early_mount_fuel](../data/datasets/ng93-early-mount-fuel.json)
 | `early9three-src-013` | [eSaabParts 12831387 CV early front axle stay page](https://www.esaabparts.com/saab/parts/12831387) | eSaabParts retailer catalogue | `full_text` |
 | `early9three-src-014` | [MY2004 NG9-3 front subframe replacement Z18XE](https://saabwisonline.com/9-3-9440/2004/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-replacement-z18xe) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
 | `early9three-src-015` | [MY2004 NG9-3 four-wheel alignment](https://saabwisonline.com/9-3-9440/2004/7-suspension-wheels/front-suspension/adjustment-replacement/four-wheel-alignment) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
+
+## cross_manufacturer_front_hub_pilot
+
+Dataset: [cross_manufacturer_front_hub_pilot](../data/datasets/cross-manufacturer-front-hub-pilot.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `cross-src-001` | [FAG 713 6440 90 wheel bearing kit, Schaeffler direct product catalogue](https://vehiclelifetimesolutions.schaeffler.com/en/catalog/auto-parts/axle-mounting-steering-wheels/wheel-hub-mounting/wheel-hub/wheel-bearing-kit/p-TA-654-7136440900) | Schaeffler Technologies AG & Co. KG | `full_text` |
+| `cross-src-002` | [2006 Saab 9-3 (9440) factory front wheel hub removal/refitting](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/front-suspension/adjustment-replacement/wheel-hub-front) | Saab Automobile AB (original WIS, mirrored by SaabWISOnline) | `full_text` |
+| `cross-src-003` | [2006 9-3 (9440) factory front ABS sensor integrated in hub](https://saabwisonline.com/9-3-9440/2006/5-brakes/tcs-esp/adjustment-replacement/front-wheel-speed-sensor-298fl-fr) | Saab Automobile AB (original WIS, mirrored by SaabWISOnline) | `full_text` |
+| `cross-src-004` | [FAG 713 6440 90 independent TecAlliance-based vehicle application catalogue](https://motostacja.com/p/38090.html) | Motostacja.pl (aftermarket retailer using TecAlliance vehicle application data) | `full_text` |
 
 ## epc_provenance
 
