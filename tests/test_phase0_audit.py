@@ -23,7 +23,19 @@ class WholeProjectPhase0AuditTests(unittest.TestCase):
 
     def test_all_26_domains_and_scope_counts_match_checked_in_records(self):
         self.assertEqual(validate_datasets(self.datasets),[])
-        self.assertEqual(build_snapshot(self.datasets),self.snapshot)
+        actual=build_snapshot(self.datasets)
+        differences={}
+        for key in actual:
+            if actual[key]!=self.snapshot.get(key):
+                if isinstance(actual[key],dict):
+                    a=actual[key]; b=self.snapshot.get(key,{})
+                    differences[key]={
+                        k:{"actual":v,"stored":b.get(k)}
+                        for k,v in a.items() if v!=b.get(k)
+                    }
+                else:
+                    differences[key]={"actual":actual[key],"stored":self.snapshot.get(key)}
+        self.assertEqual(differences,{})
 
     def test_human_audit_has_exactly_one_current_generated_census(self):
         self.assertEqual(self.audit.count(BEGIN),1)
