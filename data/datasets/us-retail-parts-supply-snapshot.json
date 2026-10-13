@@ -542,7 +542,7 @@
         "shipping/postage, taxes, core deposit, warranty, return policy and labor",
         "parts in-hand/package verification"
       ],
-      "reason": "Retail webpage prices alone omit total repair economics and vehicle fit; engine/transmission/structural costs may dominate.",
+      "reason": "Retail webpage prices alone omit total repair economics and VIN-filtered vehicle fit; engine/transmission/structural costs may dominate.",
       "source_ids": [
         "usparts-src-001",
         "usparts-src-003",
