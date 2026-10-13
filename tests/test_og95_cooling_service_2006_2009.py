@@ -60,7 +60,7 @@ class OG95CoolingServiceTests(unittest.TestCase):
         x=self.fact("cooling_diagram_auto_only_oil_cooler")["value"]
         self.assertEqual(x["label"],"Oil cooler (aut. only)")
         self.assertEqual(self.fact("automatic_radiator_line_service")["applicability"]["transmission_codes"],["automatic"])
-        self.assertIn("not", self.fact("cooler_hose_joint_o_ring_handling",2006)["notes"].lower())
+        self.assertIn("separate from", self.fact("cooler_hose_joint_o_ring_handling",2006)["notes"].lower())
 
     def test_modern_fluid_and_no_2009_coolant_interval(self):
         x=self.fact("mixture_and_corrosion_guidance")
