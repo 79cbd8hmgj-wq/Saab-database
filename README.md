@@ -10,9 +10,11 @@ engines, and platforms.
 
 ## Start here
 
+- [Cross-manufacturer pilot: PFI hubs and 9-3 AA/AB pad variants](docs/research/cross-manufacturer-interchange-pilot.md): seller/manufacturer catalogue leads and rejection gates for unverified Opel/GM donor substitutions.
+
 - [Cross-manufacturer replacement pilot](docs/research/cross-manufacturer-front-hub-pilot.md): direct Schaeffler FAG 9-3 front hub catalogue cross-references with GM/Opel plus Saab WIS sensor/mounting dependencies; no approved donor interchange or reliability benefit yet.
 - [Interchange candidate evidence matrix](data/interchange-candidates/phase0.json): explicit manufacturer, SKU, reference types, vehicle verification gates and separate cost/durability/fitment status.
-- [Phase 0 coverage audit](docs/coverage-audit.md): **current 34-domain** evidence census, platform/model-year coverage and status of inspection, subsystem and interchange readiness gates.
+- [Phase 0 coverage audit](docs/coverage-audit.md): **current 35-domain** evidence census, platform/model-year coverage and status of inspection, subsystem and interchange readiness gates.
 - [MY2008 9-5 US/CA original service schedule and historic recall-status caveats](docs/research/priority-usca-service-recall-baseline-wp7.md): source-backed maintenance checks; NHTSA VIN lookup excludes most >15-year-old recalls, so an apparent zero does not clear historic Saab campaigns.
 - [Phase 0 closure plan](docs/gap-closure-plan.md): prioritized blocker-driven work for vehicle identity, rust, brakes, high-cost no-running diagnostics and manufacturer fitment.
 - [Reproducible Phase 0 snapshot](data/phase0-coverage-snapshot.json): machine-derived baseline checked against all datasets on every CI run.
