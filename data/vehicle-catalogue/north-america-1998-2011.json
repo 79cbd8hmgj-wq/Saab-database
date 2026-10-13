@@ -2972,10 +2972,11 @@
         "CA"
       ],
       "source_ids": [
-        "na-cat-s59"
+        "na-cat-s59",
+        "na-cat-s06"
       ],
       "evidence_status": "secondary_canadian_specific_configuration",
-      "notes": "Canadian MY2002 SE Auto Anniversary 5-seat, hatch-cargo configuration; 4-speed automatic from broader original MY2002 Saab automatic data; gearbox physical ID and original CA brochure pending."
+      "notes": "2002 Canadian SE Anniversary Auto: 205hp, five-seat hatch configuration. Automatic gear count cross-checked against Saab original MY2002 US/Canada product overview (na-cat-s06); original Canada VIN and body code still unverified."
     },
     {
       "id": "na-2003-93-linear-sedan-at-ca",
