@@ -2,29 +2,29 @@
   "schema_version": "1.0.0",
   "meaning": "Record coverage and evidence provenance, NOT completeness, fitment, or reliability",
   "counts": {
-    "sources": 482,
-    "facts": 957,
-    "issues": 70,
-    "parts": 74,
-    "gaps": 231
+    "sources": 489,
+    "facts": 972,
+    "issues": 73,
+    "parts": 76,
+    "gaps": 237
   },
-  "unique_source_urls": 428,
+  "unique_source_urls": 431,
   "retrieval_statuses": {
-    "full_text": 454,
+    "full_text": 461,
     "metadata_only": 8,
     "partial": 3,
     "search_excerpt": 17
   },
   "evidence_statuses": {
-    "documented": 1018,
+    "documented": 1038,
     "inference": 5,
     "supplier_claim": 78
   },
   "explicit_scope_counts": {
-    "platforms": 1052,
-    "model_years": 961,
-    "markets": 154,
-    "engine_codes": 330,
+    "platforms": 1070,
+    "model_years": 979,
+    "markets": 172,
+    "engine_codes": 333,
     "transmission_codes": 161,
     "body_styles": 80,
     "vin_ranges": 24
@@ -37,106 +37,106 @@
         "parts": 8
       },
       "1999": {
-        "facts": 15,
+        "facts": 17,
         "issues": 3,
         "parts": 11
       },
       "2000": {
-        "facts": 19,
+        "facts": 21,
         "issues": 3,
         "parts": 14
       },
       "2001": {
-        "facts": 14,
+        "facts": 16,
         "issues": 3,
         "parts": 14
       },
       "2002": {
-        "facts": 24,
+        "facts": 26,
         "issues": 4,
         "parts": 19
       },
       "2003": {
-        "facts": 27,
+        "facts": 28,
         "issues": 3,
         "parts": 17
       },
       "2004": {
-        "facts": 55,
+        "facts": 58,
         "issues": 6,
         "parts": 20
       },
       "2005": {
-        "facts": 152,
-        "issues": 9,
+        "facts": 156,
+        "issues": 10,
         "parts": 21
       },
       "2006": {
-        "facts": 141,
-        "issues": 12,
+        "facts": 144,
+        "issues": 13,
         "parts": 20
       },
       "2007": {
-        "facts": 122,
+        "facts": 125,
         "issues": 15,
         "parts": 19
       },
       "2008": {
-        "facts": 143,
-        "issues": 17,
+        "facts": 147,
+        "issues": 18,
         "parts": 19
       },
       "2009": {
-        "facts": 117,
+        "facts": 119,
         "issues": 13,
         "parts": 19
       }
     },
     "9-3-9440": {
       "2003": {
-        "facts": 18,
-        "issues": 14,
-        "parts": 16
+        "facts": 20,
+        "issues": 15,
+        "parts": 18
       },
       "2004": {
-        "facts": 28,
-        "issues": 15,
-        "parts": 19
+        "facts": 32,
+        "issues": 16,
+        "parts": 21
       },
       "2005": {
-        "facts": 58,
-        "issues": 11,
-        "parts": 16
+        "facts": 62,
+        "issues": 13,
+        "parts": 18
       },
       "2006": {
-        "facts": 90,
-        "issues": 12,
-        "parts": 21
+        "facts": 94,
+        "issues": 14,
+        "parts": 23
       },
       "2007": {
-        "facts": 15,
-        "issues": 8,
-        "parts": 20
+        "facts": 19,
+        "issues": 9,
+        "parts": 22
       },
       "2008": {
-        "facts": 18,
-        "issues": 8,
-        "parts": 21
+        "facts": 21,
+        "issues": 9,
+        "parts": 23
       },
       "2009": {
-        "facts": 11,
-        "issues": 8,
-        "parts": 21
+        "facts": 14,
+        "issues": 9,
+        "parts": 23
       },
       "2010": {
-        "facts": 11,
-        "issues": 9,
-        "parts": 21
+        "facts": 13,
+        "issues": 10,
+        "parts": 23
       },
       "2011": {
-        "facts": 15,
-        "issues": 9,
-        "parts": 20
+        "facts": 17,
+        "issues": 10,
+        "parts": 22
       }
     }
   },
@@ -203,6 +203,13 @@
       "issues": 0,
       "parts": 1,
       "gaps": 8
+    },
+    "official_us_vin_and_service_kit_provenance": {
+      "sources": 7,
+      "facts": 15,
+      "issues": 3,
+      "parts": 2,
+      "gaps": 6
     },
     "og95": {
       "sources": 30,
@@ -353,9 +360,9 @@
     }
   },
   "parts_provenance": {
-    "total": 74,
-    "with_relationships": 16,
+    "total": 76,
+    "with_relationships": 18,
     "supplier_claim": 48,
-    "needs_vehicle_verification": 43
+    "needs_vehicle_verification": 45
   }
 }
