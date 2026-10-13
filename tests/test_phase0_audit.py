@@ -62,8 +62,10 @@ class WholeProjectPhase0AuditTests(unittest.TestCase):
         self.assertIn("NOT completeness, fitment, or reliability",self.snapshot["meaning"])
         self.assertLess(self.snapshot["parts_provenance"]["with_relationships"],
                         self.snapshot["parts_provenance"]["total"])
-        self.assertEqual(self.snapshot["counts"]["facts"] + self.snapshot["counts"]["issues"]+
-                         self.snapshot["counts"]["parts"],1007)
+        actual_count=sum(len(dataset[kind]) for dataset in self.datasets
+                         for kind in ("facts","issues","parts"))
+        self.assertEqual(sum(self.snapshot["counts"][k] for k in ("facts","issues","parts")),
+                         actual_count)
 
     def test_reproducible_check_command_passes(self):
         checked=subprocess.run(
