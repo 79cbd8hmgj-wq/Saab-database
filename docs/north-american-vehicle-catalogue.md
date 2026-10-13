@@ -2,7 +2,7 @@
 
 **Scope:** Saab 9-3 and 9-5, MY1998–2011 inclusive, original US/Canadian market only, **factory automatic only**, **FWD only**, **nonconvertibles**. European-only models, manual-only variants, XWD/AWD and 9-3X are not eligible. This is the first **partial** research batch; it does not claim exhaustive model-year or trim completeness.
 
-The machine-readable companion [initial NA model-year screening and evidence records](../data/vehicle-catalogue/north-america-1998-2011.json) contains **28 model/year screening rows**, **11 sourced example configurations**, **17 source references** and **6 source-grounded exclusions/cautions**. Screening rows with missing evidence remain `unassessed`; there is no invented availability or reliability score. US and Canada are checked separately.
+The machine-readable companion [initial NA model-year screening and evidence records](../data/vehicle-catalogue/north-america-1998-2011.json) contains **28 model/year screening rows**, **16 sourced example configurations**, **20 source references** and **6 source-grounded exclusions/cautions**. Screening rows with missing evidence remain `unassessed`; there is no invented availability or reliability score. US and Canada are checked separately.
 
 ## Confirmed candidate examples (NOT a complete trim list)
 
@@ -16,7 +16,8 @@ The machine-readable companion [initial NA model-year screening and evidence rec
 | US | 2000 | 9-3 9400 | SE five-door | 2.0L 205-hp turbo | 4-speed | Saab Cars USA MY2000 manufacturer press + US trim catalogue |
 | US | 2002 | 9-3 9400 | SE five-door | B205R 2.0L turbo | 4-speed | Saab M2002 US product overview |
 | US | 2003 | 9-3 9440 | Linear/Arc sedans | 2.0L turbo 175/210 hp | 5-speed | Historical 2003 US configuration reference, awaiting direct Saab brochure corroboration |
-| US | 2011 | 9-5 650 | Turbo4 sedan | 2.0L 220-hp turbo | 6-speed | US MY2011 trim listing + period launch analysis |
+| US | 2006 | 9-3 9440 | 2.0T SportCombi | 2.0L 210-hp turbo | 5-speed | Saab USA 2006 factory pricing |
+| US | 2006 | 9-3 9440 | Aero SportCombi/sedan | 2.8L 250-hp V6 turbo | 6-speed | Saab USA 2006 factory pricing |\n| US | 2006 | 9-5 9600 | 2.3T sedan/SportCombi | 2.3L 260-hp turbo | 5-speed | Saab USA 2006 factory pricing |\n| US | 2011 | 9-5 650 | Turbo4 sedan | 2.0L 220-hp turbo | 6-speed | US MY2011 trim listing + period launch analysis |
 | Canada | 2011 | 9-5 650 | Turbo4 sedan | 2.0L turbo | 6-speed | Canadian 2011 model specification/price listing |
 
 ## Verified pitfalls / exclusions
