@@ -1,0 +1,1265 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "og95_cooling_service_2006_2009",
+  "sources": [
+    {
+      "id": "coolsvc-src-001",
+      "title": "MY2007 coolant changing: 3-year interval/7.4L petrol",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/adjustment-replacement/coolant-changing",
+      "publisher": "Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope belongs to this exact WIS year directory and described joint. Mirrored procedure can carry forward future VIN boundaries; not proof that change occurred in its directory year, and not an OEM part supersession or measured car condition."
+    },
+    {
+      "id": "coolsvc-src-002",
+      "title": "MY2008 coolant changing: 3-year interval/7.4L petrol",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/coolant-changing",
+      "publisher": "Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope belongs to this exact WIS year directory and described joint. Mirrored procedure can carry forward future VIN boundaries; not proof that change occurred in its directory year, and not an OEM part supersession or measured car condition."
+    },
+    {
+      "id": "coolsvc-src-003",
+      "title": "MY2009 coolant mixture/freezing/corrosion protection",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/cooling-system/service/coolant-mixture-and-freezing-point",
+      "publisher": "Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope belongs to this exact WIS year directory and described joint. Mirrored procedure can carry forward future VIN boundaries; not proof that change occurred in its directory year, and not an OEM part supersession or measured car condition."
+    },
+    {
+      "id": "coolsvc-src-004",
+      "title": "MY2007 4-cylinder petrol engine-oil cooler service",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/adjustment-replacement/engine-oil-cooler-4-cyl",
+      "publisher": "Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope belongs to this exact WIS year directory and described joint. Mirrored procedure can carry forward future VIN boundaries; not proof that change occurred in its directory year, and not an OEM part supersession or measured car condition."
+    },
+    {
+      "id": "coolsvc-src-005",
+      "title": "MY2006 4-cylinder petrol engine-oil cooler service",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/engine-oil-cooler-4-cyl",
+      "publisher": "Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope belongs to this exact WIS year directory and described joint. Mirrored procedure can carry forward future VIN boundaries; not proof that change occurred in its directory year, and not an OEM part supersession or measured car condition."
+    },
+    {
+      "id": "coolsvc-src-006",
+      "title": "MY2005 4-cylinder petrol left engine mount fitting and later VIN cutover",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/engine-mounting-left",
+      "publisher": "Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope belongs to this exact WIS year directory and described joint. Mirrored procedure can carry forward future VIN boundaries; not proof that change occurred in its directory year, and not an OEM part supersession or measured car condition."
+    },
+    {
+      "id": "coolsvc-src-007",
+      "title": "MY2007 4-cylinder petrol left engine mount fitting and VIN cutover",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/engine-mounting-left",
+      "publisher": "Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope belongs to this exact WIS year directory and described joint. Mirrored procedure can carry forward future VIN boundaries; not proof that change occurred in its directory year, and not an OEM part supersession or measured car condition."
+    },
+    {
+      "id": "coolsvc-src-008",
+      "title": "MY2008 petrol coolant temperature and pressure limits",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-data/temperature-pressure-limits",
+      "publisher": "Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope belongs to this exact WIS year directory and described joint. Mirrored procedure can carry forward future VIN boundaries; not proof that change occurred in its directory year, and not an OEM part supersession or measured car condition."
+    },
+    {
+      "id": "coolsvc-src-009",
+      "title": "MY2008 petrol cooling circuit components diagram",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-description/cooling-system-diagram-4-cyl",
+      "publisher": "Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope belongs to this exact WIS year directory and described joint. Mirrored procedure can carry forward future VIN boundaries; not proof that change occurred in its directory year, and not an OEM part supersession or measured car condition."
+    },
+    {
+      "id": "coolsvc-src-010",
+      "title": "MY2006 petrol pressurised cooling system overview",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/technical-description/system-overview-4-cyl",
+      "publisher": "Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope belongs to this exact WIS year directory and described joint. Mirrored procedure can carry forward future VIN boundaries; not proof that change occurred in its directory year, and not an OEM part supersession or measured car condition."
+    },
+    {
+      "id": "coolsvc-src-011",
+      "title": "MY2007 petrol thermostat replacement orientation and housing torque",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/adjustment-replacement/thermostat-4-cyl",
+      "publisher": "Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope belongs to this exact WIS year directory and described joint. Mirrored procedure can carry forward future VIN boundaries; not proof that change occurred in its directory year, and not an OEM part supersession or measured car condition."
+    },
+    {
+      "id": "coolsvc-src-012",
+      "title": "MY2006 radiator, 4-cylinder petrol, gearbox cooler disconnection",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/radiator-4-cyl",
+      "publisher": "Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope belongs to this exact WIS year directory and described joint. Mirrored procedure can carry forward future VIN boundaries; not proof that change occurred in its directory year, and not an OEM part supersession or measured car condition."
+    },
+    {
+      "id": "coolsvc-src-013",
+      "title": "MY2007 factory cooling system fill and bleeding",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/adjustment-replacement/filling-and-bleeding-the-cooling-system",
+      "publisher": "Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope belongs to this exact WIS year directory and described joint. Mirrored procedure can carry forward future VIN boundaries; not proof that change occurred in its directory year, and not an OEM part supersession or measured car condition."
+    },
+    {
+      "id": "coolsvc-src-014",
+      "title": "MY2009 4-cylinder coolant drain and fill procedure",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/cooling-system/adjustment-replacement/coolant-4-cyl",
+      "publisher": "Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope belongs to this exact WIS year directory and described joint. Mirrored procedure can carry forward future VIN boundaries; not proof that change occurred in its directory year, and not an OEM part supersession or measured car condition."
+    },
+    {
+      "id": "coolsvc-src-015",
+      "title": "MY2006 cooling system pressure test",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/cooling-system-pressure-testing",
+      "publisher": "Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope belongs to this exact WIS year directory and described joint. Mirrored procedure can carry forward future VIN boundaries; not proof that change occurred in its directory year, and not an OEM part supersession or measured car condition."
+    }
+  ],
+  "facts": [
+    {
+      "id": "coolsvc-fact-001",
+      "subject": "9-5 4-cylinder petrol:coolant",
+      "category": "service",
+      "predicate": "coolant_full_system_capacity_L",
+      "value": 7.4,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Coolant system volume, 4-cyl petrol",
+      "notes": "Full listed system capacity, not mandatory quantity delivered during a routine incomplete drain."
+    },
+    {
+      "id": "coolsvc-fact-002",
+      "subject": "9-5 4-cylinder petrol:coolant",
+      "category": "service",
+      "predicate": "maximum_coolant_change_interval_years",
+      "value": 3,
+      "unit": "years",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Change (max. 3-year interval)",
+      "notes": "Original year-dated workshop interval; actual service history and prior coolant grade must be confirmed."
+    },
+    {
+      "id": "coolsvc-fact-003",
+      "subject": "9-5 4-cylinder petrol:coolant",
+      "category": "service",
+      "predicate": "cold_fill_and_bleed_check",
+      "value": {
+        "starting_condition": "coolant system cold",
+        "fill": "MAX not beyond",
+        "AC_ACC": "off",
+        "bleeding_end": "radiator fan cycles at least once",
+        "post_check": "verify level and hose condition"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Coolant changing: filling, bleeding, hose check",
+      "notes": "Not permission to run an overheating vehicle until the fan operates. Factory procedure presumes an otherwise serviceable vehicle."
+    },
+    {
+      "id": "coolsvc-fact-004",
+      "subject": "9-5 4-cylinder petrol:coolant",
+      "category": "service",
+      "predicate": "coolant_full_system_capacity_L",
+      "value": 7.4,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Coolant system volume, 4-cyl petrol",
+      "notes": "Full listed system capacity, not mandatory quantity delivered during a routine incomplete drain."
+    },
+    {
+      "id": "coolsvc-fact-005",
+      "subject": "9-5 4-cylinder petrol:coolant",
+      "category": "service",
+      "predicate": "maximum_coolant_change_interval_years",
+      "value": 3,
+      "unit": "years",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Change (max. 3-year interval)",
+      "notes": "Original year-dated workshop interval; actual service history and prior coolant grade must be confirmed."
+    },
+    {
+      "id": "coolsvc-fact-006",
+      "subject": "9-5 4-cylinder petrol:coolant",
+      "category": "service",
+      "predicate": "cold_fill_and_bleed_check",
+      "value": {
+        "starting_condition": "coolant system cold",
+        "fill": "MAX not beyond",
+        "AC_ACC": "off",
+        "bleeding_end": "radiator fan cycles at least once",
+        "post_check": "verify level and hose condition"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Coolant changing: filling, bleeding, hose check",
+      "notes": "Not permission to run an overheating vehicle until the fan operates. Factory procedure presumes an otherwise serviceable vehicle."
+    },
+    {
+      "id": "coolsvc-fact-007",
+      "subject": "9-5:coolant",
+      "category": "service",
+      "predicate": "mixture_and_corrosion_guidance",
+      "value": {
+        "coolant": "Saab Original coolant",
+        "ratio": "50% coolant / 50% water",
+        "freeze_protection_minimum_C": -30,
+        "mixing": "avoid mixing unlike types"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Coolant mixture and freezing point",
+      "notes": "Original historical product guidance, no 2026 product substitution approval; colder climates may require different protected temperature."
+    },
+    {
+      "id": "coolsvc-fact-008",
+      "subject": "9-5 4-cylinder petrol:engine oil cooler",
+      "category": "service",
+      "predicate": "oil_cooler_union_vin_torque",
+      "value": {
+        "last_low_group_suffix": "73514907",
+        "low_group_torque_Nm": 10,
+        "first_high_group_suffix": "73514908",
+        "high_group_torque_Nm": 8
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, oil pipe engine oil cooler nut torque",
+      "notes": "The VIN threshold points to a later sequence and is printed even in MY2006 WIS. It does not prove a MY2006 production change, or define part interchange."
+    },
+    {
+      "id": "coolsvc-fact-009",
+      "subject": "9-5 4-cylinder petrol:engine oil cooler",
+      "category": "service",
+      "predicate": "cooler_hose_joint_o_ring_handling",
+      "value": {
+        "orings_each_connection": true,
+        "inspect_roundness": true,
+        "replace_if_needed": true,
+        "historical_grease_part": "30 06 442",
+        "grease": "Gleitmo 805",
+        "oil_fill": "pre-fill oil cooler with prescribed oil"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove step 5; To fit steps 1-2",
+      "notes": "Cooler connects to engine OIL circuit; separate from the automatic-gearbox radiator fluid cooler. Historical grease number, no current product approval."
+    },
+    {
+      "id": "coolsvc-fact-010",
+      "subject": "9-5 4-cylinder petrol:engine oil cooler",
+      "category": "service",
+      "predicate": "cooler_charge_air_bracket_torque_Nm",
+      "value": 8,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, Charge air cooler / engine oil cooler torque",
+      "notes": "This torque is for charge air cooler–engine oil cooler bracket, not pipe-union, radiator, or auto-transmission cooler fitting."
+    },
+    {
+      "id": "coolsvc-fact-011",
+      "subject": "9-5 4-cylinder petrol:engine oil cooler",
+      "category": "service",
+      "predicate": "oil_cooler_union_vin_torque",
+      "value": {
+        "last_low_group_suffix": "73514907",
+        "low_group_torque_Nm": 10,
+        "first_high_group_suffix": "73514908",
+        "high_group_torque_Nm": 8
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, oil pipe engine oil cooler nut torque",
+      "notes": "The VIN threshold points to a later sequence and is printed even in MY2006 WIS. It does not prove a MY2006 production change, or define part interchange."
+    },
+    {
+      "id": "coolsvc-fact-012",
+      "subject": "9-5 4-cylinder petrol:engine oil cooler",
+      "category": "service",
+      "predicate": "cooler_hose_joint_o_ring_handling",
+      "value": {
+        "orings_each_connection": true,
+        "inspect_roundness": true,
+        "replace_if_needed": true,
+        "historical_grease_part": "30 06 442",
+        "grease": "Gleitmo 805",
+        "oil_fill": "pre-fill oil cooler with prescribed oil"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove step 5; To fit steps 1-2",
+      "notes": "Cooler connects to engine OIL circuit; separate from the automatic-gearbox radiator fluid cooler. Historical grease number, no current product approval."
+    },
+    {
+      "id": "coolsvc-fact-013",
+      "subject": "9-5 4-cylinder petrol:engine oil cooler",
+      "category": "service",
+      "predicate": "cooler_charge_air_bracket_torque_Nm",
+      "value": 8,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, Charge air cooler / engine oil cooler torque",
+      "notes": "This torque is for charge air cooler–engine oil cooler bracket, not pipe-union, radiator, or auto-transmission cooler fitting."
+    },
+    {
+      "id": "coolsvc-fact-014",
+      "subject": "9-5 4-cylinder petrol:left engine mount",
+      "category": "service",
+      "predicate": "mount_nut_2007chassis_vin_torque",
+      "value": {
+        "last_84Nm_suffix": "73514478",
+        "before_torque_Nm": 84,
+        "first_74Nm_suffix": "73514479",
+        "after_torque_Nm": 74
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, centre nut, VIN boundary",
+      "notes": "MY2005 and MY2007 pages repeat the same later VIN suffix. This is a bulletin-style applicability boundary copied across directories, NOT proof of change in MY2005."
+    },
+    {
+      "id": "coolsvc-fact-015",
+      "subject": "9-5 4-cylinder petrol:left engine mount",
+      "category": "service",
+      "predicate": "mount_to_body_manual_vs_automatic_torque",
+      "value": {
+        "manual_Nm": 47,
+        "automatic_Nm": 84,
+        "brace_Nm": 63
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, engine mounting tightening torques",
+      "notes": "Torque values are explicitly for different fastener joints/configurations. Not direct OEM mount part fitment."
+    },
+    {
+      "id": "coolsvc-fact-016",
+      "subject": "9-5 4-cylinder petrol:left engine mount",
+      "category": "service",
+      "predicate": "mount_alignment_requirement",
+      "value": "Centre bolt should be in centre of engine pad without sideways pull; relieve load with factory lifting beam before service.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove step 3; To fit step 3",
+      "notes": "Requires appropriate engine support and safe lift. Not a home-jack-only instruction."
+    },
+    {
+      "id": "coolsvc-fact-017",
+      "subject": "9-5 4-cylinder petrol:left engine mount",
+      "category": "service",
+      "predicate": "mount_nut_2007chassis_vin_torque",
+      "value": {
+        "last_84Nm_suffix": "73514478",
+        "before_torque_Nm": 84,
+        "first_74Nm_suffix": "73514479",
+        "after_torque_Nm": 74
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, centre nut, VIN boundary",
+      "notes": "MY2005 and MY2007 pages repeat the same later VIN suffix. This is a bulletin-style applicability boundary copied across directories, NOT proof of change in MY2005."
+    },
+    {
+      "id": "coolsvc-fact-018",
+      "subject": "9-5 4-cylinder petrol:left engine mount",
+      "category": "service",
+      "predicate": "mount_to_body_manual_vs_automatic_torque",
+      "value": {
+        "manual_Nm": 47,
+        "automatic_Nm": 84,
+        "brace_Nm": 63
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit, engine mounting tightening torques",
+      "notes": "Torque values are explicitly for different fastener joints/configurations. Not direct OEM mount part fitment."
+    },
+    {
+      "id": "coolsvc-fact-019",
+      "subject": "9-5 4-cylinder petrol:left engine mount",
+      "category": "service",
+      "predicate": "mount_alignment_requirement",
+      "value": "Centre bolt should be in centre of engine pad without sideways pull; relieve load with factory lifting beam before service.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove step 3; To fit step 3",
+      "notes": "Requires appropriate engine support and safe lift. Not a home-jack-only instruction."
+    },
+    {
+      "id": "coolsvc-fact-020",
+      "subject": "9-5 4-cylinder petrol:thermostat",
+      "category": "service",
+      "predicate": "thermostat_regulated_open_temp",
+      "value": {
+        "nominal_C": 89,
+        "tolerance_C": 2
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Thermostat opening temperature",
+      "notes": "Thermostat opening setpoint differs from fan controls, engine-oil cooler thermostat, red-zone gauge and coolant pressure rating."
+    },
+    {
+      "id": "coolsvc-fact-021",
+      "subject": "9-5 4-cylinder petrol:cooling",
+      "category": "service",
+      "predicate": "coolant_pressure_relief_kPa",
+      "value": {
+        "min": 140,
+        "max": 150
+      },
+      "unit": "kPa",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Expansion tank pressure valve",
+      "notes": "Cap pressure relief is not mechanical coolant pressure-test target; verify cap grade and genuine part by VIN."
+    },
+    {
+      "id": "coolsvc-fact-022",
+      "subject": "9-5 4-cylinder petrol:cooling",
+      "category": "service",
+      "predicate": "system_boiling_point_and_gauge_red",
+      "value": {
+        "boiling_temp_C": 131,
+        "boiling_conditions_bar_as_printed": 1.4,
+        "gauge_red_nominal_C": 129,
+        "gauge_red_tolerance_C": 2.5
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "System boiling point and red-zone reading",
+      "notes": "Boiling point assumes stated pressure/mixture; gauge warning is not fan trigger, and no reason to ignore rising temperatures."
+    },
+    {
+      "id": "coolsvc-fact-023",
+      "subject": "9-5 4-cylinder petrol:cooling",
+      "category": "service",
+      "predicate": "cooling_diagram_auto_only_oil_cooler",
+      "value": {
+        "callout": "9",
+        "label": "Oil cooler (aut. only)",
+        "other_items": {
+          "radiator": "1",
+          "engine_temperature_sensor": "10",
+          "radiator_fan": "12"
+        }
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Cooling system diagram, component labels",
+      "notes": "Diagram oil cooler number 9 is a transmission coolant circuit item for automatic cars, not the separate engine oil cooler located in charge-air assembly."
+    },
+    {
+      "id": "coolsvc-fact-024",
+      "subject": "9-5 4-cylinder petrol:cooling",
+      "category": "service",
+      "predicate": "fan_count_according_to_AC",
+      "value": {
+        "without_AC": 1,
+        "with_AC": 2,
+        "motor_speeds": [
+          "low",
+          "high"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Brief description of 4-cylinder cooling system",
+      "notes": "Factory describes motor count as AC-specific. No fan hardware part numbers or model-year interchange proven."
+    },
+    {
+      "id": "coolsvc-fact-025",
+      "subject": "9-5 4-cylinder petrol:cooling",
+      "category": "service",
+      "predicate": "water_pump_and_thermostat_locations",
+      "value": {
+        "water_pump": "right-hand engine side, accessory belt driven",
+        "thermostat": "left-hand engine housing",
+        "radiator": "cross-flow"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Cooling system overview, brief description",
+      "notes": "Engine petrol configuration only; do not confuse with MY2008 diesel pump."
+    },
+    {
+      "id": "coolsvc-fact-026",
+      "subject": "9-5 4-cylinder petrol:thermostat",
+      "category": "service",
+      "predicate": "thermostat_vent_and_housing_torque",
+      "value": {
+        "vent": "thermostat TOP or vent hole uppermost",
+        "housing_Nm": 22,
+        "ground_connection": "clean and protect with acid-free vaseline"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit steps 1–4",
+      "notes": "Joint-specific thermostat housing torque, NOT left mount or engine-oil cooler connection torque."
+    },
+    {
+      "id": "coolsvc-fact-027",
+      "subject": "9-5 4-cylinder petrol:radiator",
+      "category": "service",
+      "predicate": "automatic_radiator_line_service",
+      "value": {
+        "extra_step": "disconnect/refit automatic transmission oil cooler fluid lines",
+        "follow_up": "check automatic gearbox fluid level"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove step 8; To fit steps 6 and 16",
+      "notes": "Factory differentiates automatic fluid cooler fittings. Do not assume later 9-3 FA57 coolant/ATF bulletin applies to original 9-5."
+    },
+    {
+      "id": "coolsvc-fact-028",
+      "subject": "9-5 4-cylinder petrol:coolant",
+      "category": "service",
+      "predicate": "bleed_off_AC_and_coolant_part_numbers",
+      "value": {
+        "AC_ACC": "off",
+        "historical_Saab_coolant_1L": "400 131 389",
+        "historical_Saab_coolant_4L": "400 131 397",
+        "mix": "equal parts coolant and water",
+        "check_for_leaks": true
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Filling and bleeding coolant, note and steps 1–4",
+      "notes": "Numbers and procedure are historical WIS. No claim of currently stocked Saab genuine fluid or qualified modern substitution."
+    },
+    {
+      "id": "coolsvc-fact-029",
+      "subject": "9-5 4-cylinder petrol:coolant",
+      "category": "service",
+      "predicate": "radiator_drain_and_bleed_sequence",
+      "value": "Factory drains via radiator cock; fill with AC/ACC OFF to MAX, warm until fan begins, then switch off and recheck level.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Coolant 4-cyl step 4–9",
+      "notes": "Service procedure assumes vehicle can safely run; not an instruction to start a known-overheating project car."
+    },
+    {
+      "id": "coolsvc-fact-030",
+      "subject": "9-5 4-cylinder petrol:cooling",
+      "category": "service",
+      "predicate": "coolant_cold_pressure_test",
+      "value": "Factory adapter 30 05 451, tester 30 05 477; raise to over 1 bar and check for pressure fall.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "coolsvc-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Checking steps 1-8",
+      "notes": "Hot system releases dangerous fluid/steam; a pressure loss requires leak location, not immediate conclusion of head gasket or radiator failure."
+    }
+  ],
+  "issues": [
+    {
+      "id": "coolsvc-issue-001",
+      "title": "Engine-oil-cooler union leakage and source-copied future VIN torque cutover",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "cause": "Two independently year-indexed factory procedures each print oil-pipe coupling torque as 10 Nm before VIN suffix 73514908 and 8 Nm from the boundary.",
+      "symptoms": [
+        "oil seep at front oil cooler connection",
+        "cooler hose joint serviced without O-ring check",
+        "misapplication of radiator cooler torque"
+      ],
+      "diagnosis_summary": "Distinguish engine-oil-cooler hose/O-ring from automatic-transmission radiator cooler and check oil leakage and actual vehicle VIN/build/hardware. Use cold and supported vehicle conditions.",
+      "correction_summary": "Apply verified WIS oil-cooler joint instructions, inspect/replace O-rings as appropriate, fill cooler with proper oil and retest leaks.",
+      "source_ids": [
+        "coolsvc-src-004",
+        "coolsvc-src-005",
+        "coolsvc-src-012"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "MY2006 directory carrying 7-prefixed VIN cutover does not establish a 2006 model-year design change.",
+        "No original OEM part-number supersession or official replacement approved.",
+        "A specification is not evidence of a car's actual oil pressure or failure risk."
+      ]
+    },
+    {
+      "id": "coolsvc-issue-002",
+      "title": "Mirrored model-year left-mount page may imply a false 2005 hardware change",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "cause": "Both 2005 and 2007 source pages reproduce the same 73514478/73514479 cutover, indicating cross-year carried service instructions.",
+      "symptoms": [
+        "mechanic assumes mount bolt changed in MY2005",
+        "part suggested from WIS directory year rather than original VIN",
+        "incorrect torque at mount pad"
+      ],
+      "diagnosis_summary": "Match actual stamped VIN, installed engine and transmission, mount variant and exact bolted joint; check original Saab EPC/build data.",
+      "correction_summary": "Use the source's cutover literally only when vehicle identification supports it; no year-only part interchange.",
+      "source_ids": [
+        "coolsvc-src-006",
+        "coolsvc-src-007"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "No evidence from WIS year path that this part or torque changed during 2005.",
+        "Torque split alone is not a manufacturer supersession chain.",
+        "Do not support powertrain unsafely to perform an inspection."
+      ]
+    },
+    {
+      "id": "coolsvc-issue-003",
+      "title": "Coolant deterioration or incorrect mixture may compromise corrosion protection",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "cause": "2007/2008 WIS specifies coolant-change maximum 3 years; 2009 service requires freeze/corrosion protection and warns against mixing different coolant types.",
+      "symptoms": [
+        "unknown coolant change history",
+        "weak freeze protection in cold climate",
+        "visible discoloration or unexplained loss"
+      ],
+      "diagnosis_summary": "Inspect service records, mixture and freeze point with appropriate tool; identify leak source and correct original approved coolant type, not solely colour.",
+      "correction_summary": "Service with vehicle-approved compatible coolant and correct mixture/bleeding procedure, replace leaking components only after verifying failure.",
+      "source_ids": [
+        "coolsvc-src-001",
+        "coolsvc-src-002",
+        "coolsvc-src-003",
+        "coolsvc-src-015"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Do not translate a 7.4 L nominal capacity into a mandatory partial-drain fill quantity.",
+        "2009 original Saab fluid naming is not confirmation of a 2026 equivalent.",
+        "Coolant service cannot repair rusted rear subframes or prove powertrain life."
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "coolsvc-gap-001",
+      "title": "Factory year-scoped petrol radiator removal/refit across MY2007–09",
+      "missing_inputs": [
+        "MY2007–09 radiator procedures themselves must be retrievable and compared to MY2006 automatic cooler connections; original links currently inaccessible through this retrieval path."
+      ],
+      "reason": "Existing WIS year directory, nominal maintenance table or diagram is not sufficient for VIN-filtered OE supersession, service condition or verified modern compatibility.",
+      "source_ids": [
+        "coolsvc-src-012"
+      ]
+    },
+    {
+      "id": "coolsvc-gap-002",
+      "title": "Engine-oil-cooler actual OE hose/O-ring fitment and VIN production breakpoint",
+      "missing_inputs": [
+        "VIN-filtered original WebEPC needed for the distinct 73514907/73514908 engine-oil-cooler union specifications, hose mating changes, approved O-rings and seals."
+      ],
+      "reason": "Existing WIS year directory, nominal maintenance table or diagram is not sufficient for VIN-filtered OE supersession, service condition or verified modern compatibility.",
+      "source_ids": [
+        "coolsvc-src-004",
+        "coolsvc-src-005"
+      ]
+    },
+    {
+      "id": "coolsvc-gap-003",
+      "title": "Independent original change order for copied year-indexed mount torque split",
+      "missing_inputs": [
+        "MY2005 and MY2007 WIS both show 73514478/73514479. Need actual factory PI/TSB date or VIN/build record to determine when hardware changed."
+      ],
+      "reason": "Existing WIS year directory, nominal maintenance table or diagram is not sufficient for VIN-filtered OE supersession, service condition or verified modern compatibility.",
+      "source_ids": [
+        "coolsvc-src-006",
+        "coolsvc-src-007"
+      ]
+    },
+    {
+      "id": "coolsvc-gap-004",
+      "title": "Coolant replacement product modern equivalence",
+      "missing_inputs": [
+        "Obtain current OEM/Orio approved coolant formulation, concentration and specification by market/VIN; 2007 historical fluid part numbers and 2009 50:50 advice do not prove current product substitution."
+      ],
+      "reason": "Existing WIS year directory, nominal maintenance table or diagram is not sufficient for VIN-filtered OE supersession, service condition or verified modern compatibility.",
+      "source_ids": [
+        "coolsvc-src-003",
+        "coolsvc-src-013"
+      ]
+    },
+    {
+      "id": "coolsvc-gap-005",
+      "title": "Pressurised cooling system 4-cylinder cap OEM details",
+      "missing_inputs": [
+        "Actual original expansion cap OE number, version, pressure rating, OE replacement and radiator hoses require manufacturer EPC; 2008 140–150 kPa alone doesn't identify part."
+      ],
+      "reason": "Existing WIS year directory, nominal maintenance table or diagram is not sufficient for VIN-filtered OE supersession, service condition or verified modern compatibility.",
+      "source_ids": [
+        "coolsvc-src-008"
+      ]
+    },
+    {
+      "id": "coolsvc-gap-006",
+      "title": "Quantified coolant/thermostat/pump/fan failure incidence",
+      "missing_inputs": [
+        "No statistically sound failures per year/mileage or controlled replacement durability measurements; vendor marketing doesn't establish 'Toyota-equivalent' reliability."
+      ],
+      "reason": "Existing WIS year directory, nominal maintenance table or diagram is not sufficient for VIN-filtered OE supersession, service condition or verified modern compatibility.",
+      "source_ids": [
+        "coolsvc-src-008",
+        "coolsvc-src-010",
+        "coolsvc-src-011"
+      ]
+    },
+    {
+      "id": "coolsvc-gap-007",
+      "title": "Installed cooling system diagnostic readings before purchase",
+      "missing_inputs": [
+        "Need cold start, leak/pressure decay, temperature logging under real load, fan/AC behavior, hose condition, heater operation, coolant age and fluid condition for the individual car."
+      ],
+      "reason": "Existing WIS year directory, nominal maintenance table or diagram is not sufficient for VIN-filtered OE supersession, service condition or verified modern compatibility.",
+      "source_ids": [
+        "coolsvc-src-001",
+        "coolsvc-src-002",
+        "coolsvc-src-008",
+        "coolsvc-src-015"
+      ]
+    },
+    {
+      "id": "coolsvc-gap-008",
+      "title": "Differentiation of engine-oil and gearbox-oil cooling circuits in parts catalog",
+      "missing_inputs": [
+        "MY2008 diagram labels auto-only cooler while separate 2006/2007 WIS engine oil cooler procedure exists. Need exact original manufacturer plumbing/part diagrams by VIN to avoid connecting wrong fittings."
+      ],
+      "reason": "Existing WIS year directory, nominal maintenance table or diagram is not sufficient for VIN-filtered OE supersession, service condition or verified modern compatibility.",
+      "source_ids": [
+        "coolsvc-src-004",
+        "coolsvc-src-009",
+        "coolsvc-src-012"
+      ]
+    },
+    {
+      "id": "coolsvc-gap-009",
+      "title": "Coolant service 2004–06 and 2009 interval independently verified",
+      "missing_inputs": [
+        "2007/2008 3-year service text should not be generalized to other years/markets without independently retrieved original service schedule."
+      ],
+      "reason": "Existing WIS year directory, nominal maintenance table or diagram is not sufficient for VIN-filtered OE supersession, service condition or verified modern compatibility.",
+      "source_ids": [
+        "coolsvc-src-001",
+        "coolsvc-src-002",
+        "coolsvc-src-014"
+      ]
+    }
+  ]
+}
