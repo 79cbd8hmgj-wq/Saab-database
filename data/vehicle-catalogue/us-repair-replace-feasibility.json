@@ -494,7 +494,7 @@
             2005
           ]
         },
-        "vin_gate": "9-3SS M03–M05 below VIN ending 51002378; exclude convertible; verify full production VIN/year with bulletin"
+        "vin_gate": "Saab TA440-0702 covers 9-3 Sport Sedan MY2003–2005 below SS VIN 51002378; full VIN and model-year verification required. The bulletin also lists convertibles (excluded by this project) and diesel variants (not U.S. candidate assumptions)."
       },
       "evidence_source_ids": [
         "hcdiag-src-014",
@@ -536,7 +536,8 @@
       },
       "evidence_limits": [
         "Bulletin affects a VIN-limited subset, not all 9-3 FA57 models",
-        "Saab's period open-flame sample method is not an advised DIY practice today"
+        "Saab's period open-flame sample method is not an advised DIY practice today",
+        "MY2005 9-3SS applicability is not all MY2005: manufacturer VIN cutoff controls."
       ],
       "unknowns": [
         "VIN-range overlap and verified campaign completion",
@@ -909,7 +910,7 @@
     },
     {
       "id": "us-feas-010",
-      "name": "Original 9-5 9-5 suspected clogged catalytic converter",
+      "name": "Original 9-5 suspected clogged catalytic converter",
       "system": "engine_exhaust",
       "applicability": {
         "platforms": [
@@ -1217,7 +1218,8 @@
       },
       "evidence_limits": [
         "Transmission family FA57 alone does not certify 9-3/9-5 swap",
-        "No labor-hours estimate from checklist step count"
+        "No labor-hours estimate from checklist step count",
+        "WIS 2007 complete transmission procedure is an example of extensive lift/fixture work; other years require their own instructions."
       ],
       "unknowns": [
         "exact donor interchange and real shop cost"
