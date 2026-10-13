@@ -25,6 +25,12 @@ class NonrunningPurchaseGateTests(unittest.TestCase):
         self.assertEqual(self.d["parts"],[])
         self.assertEqual(sum(s["retrieval"]=="search_excerpt" for s in self.d["sources"]),3)
 
+    def test_US_CA_is_sales_market_not_build_location(self):
+        scope=self.sheet["market_scope"]
+        self.assertEqual(scope["target_sales_markets"],["US","CA"])
+        self.assertTrue(scope["manufacturing_country_is_not_market"])
+        self.assertIn("not US/CA",scope["excluded_market_bulletin"])
+
     def test_nonUS_2004_bulletin_not_2008_US_approval(self):
         b=self.fact("nov2004_TSB2482506_market_scope")
         self.assertEqual(b["applicability"]["markets"],["non-US/CA"])
