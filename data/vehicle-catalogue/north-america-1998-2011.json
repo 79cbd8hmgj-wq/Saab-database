@@ -339,6 +339,47 @@
         "US"
       ],
       "notes": "2010 US 9-3 Aero SportCombi 2.0 210hp catalogued five-speed automatic FWD; corroborates Saab US press and review."
+    },
+    {
+      "id": "na-cat-s32",
+      "title": "2008 Canadian 9-3 Aero sedan six-speed automatic FWD trim",
+      "url": "https://www.guideautoweb.com/en/makes/saab/9-3/2008/specifications/4dr-sdn-auto-aero/",
+      "origin": "The Car Guide Canadian historical trim catalogue",
+      "market_scope": [
+        "CA"
+      ],
+      "notes": "Canadian 2008 sedan Aero automatic six-speed FWD, independent of US 255hp rating; trim page does not display its engine horsepower in extracted results."
+    },
+    {
+      "id": "na-cat-s33",
+      "title": "2008 Canadian 9-3 SportCombi five-speed automatic FWD",
+      "url": "https://www.guideautoweb.com/en/makes/saab/9-3/2008/specifications/5dr-wgn-sportcombi-auto/",
+      "origin": "The Car Guide Canadian historical trim catalogue",
+      "market_scope": [
+        "CA"
+      ],
+      "notes": "Canadian 2008 SportCombi FWD automatic five-speed. Engine horsepower not displayed in extracted listing."
+    },
+    {
+      "id": "na-cat-s34",
+      "title": "2008 Canadian Turbo X wagon apparent wrong FWD metadata",
+      "url": "https://www.guideautoweb.com/en/makes/saab/9-3/2008/specifications/5dr-wgn-sportcombi-auto-turbo-x/",
+      "origin": "The Car Guide Canadian historical trim catalogue",
+      "market_scope": [
+        "CA"
+      ],
+      "notes": "Source unexpectedly lists Turbo X wagon as FWD. Contemporaneous Saab Turbo X testing identifies XWD/AWD drivetrain. Flag as contradiction and never promote Turbo X into FWD candidate list from this source."
+    },
+    {
+      "id": "na-cat-s35",
+      "title": "Car and Driver 2008 Saab Turbo X manufacturer-XWD drivetrain assessment",
+      "url": "https://www.caranddriver.com/reviews/a15146498/2008-saab-9-3-turbo-x-first-drive-review/",
+      "origin": "Car and Driver contemporary US drive of Saab Turbo X",
+      "market_scope": [
+        "US",
+        "CA"
+      ],
+      "notes": "Contemporary manufacturer presentation: Turbo X with XWD and eLSD AWD, sedan and SportCombi. Describes architecture common to North America; does not prove Canadian individual sales or specific VIN."
     }
   ],
   "model_year_screening": [
@@ -450,12 +491,14 @@
       "model_year": 2008,
       "platform_for_screening": "9440",
       "us_status": "at_least_one_candidate_documented",
-      "canada_status": "unassessed",
+      "canada_status": "at_least_one_candidate_documented",
       "documented_configuration_ids": [
         "na-2008-93-20t-sedan-at",
         "na-2008-93-20t-combi-at",
         "na-2008-93-aero-sedan-at",
-        "na-2008-93-aero-combi-at"
+        "na-2008-93-aero-combi-at",
+        "na-2008-93-aero-sedan-at-ca",
+        "na-2008-93-combi-at-ca"
       ],
       "coverage_complete": false
     },
@@ -1348,6 +1391,46 @@
       ],
       "evidence_status": "secondary_canadian_market_configuration",
       "notes": "Original individual gearbox/engine part code and VIN unverified. Canadian-market original MSRP and five-speed automatic/FWD explicitly listed; Canadian factory brochure pending."
+    },
+    {
+      "id": "na-2008-93-aero-sedan-at-ca",
+      "model": "9-3",
+      "model_year": 2008,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Aero turbo engine (Canadian exact output not independently checked)",
+      "engine_code": null,
+      "automatic_gears": 6,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "CA"
+      ],
+      "source_ids": [
+        "na-cat-s32"
+      ],
+      "evidence_status": "secondary_canadian_market_configuration",
+      "notes": "Canadian 2008 Aero automatic FWD sedan explicitly listed. Do not automatically copy US 255-hp engine output without Canada brochure."
+    },
+    {
+      "id": "na-2008-93-combi-at-ca",
+      "model": "9-3",
+      "model_year": 2008,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_label": "SportCombi 2.0 turbo (exact Canada engine code pending)",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "CA"
+      ],
+      "source_ids": [
+        "na-cat-s33"
+      ],
+      "evidence_status": "secondary_canadian_market_configuration",
+      "notes": "Canadian 2008 SportCombi automatic FWD, exact Canadian engine-code to be verified."
     }
   ],
   "explicit_exclusions": [
@@ -1451,6 +1534,17 @@
       "source_ids": [
         "na-cat-s21"
       ]
+    },
+    {
+      "id": "na-ex-11",
+      "model": "9-3",
+      "year": 2008,
+      "market": "CA",
+      "description": "Source conflict: The Car Guide Canadian 2008 Turbo X automatic SportCombi listing shows FWD, but period manufacturer Turbo X/XWD testing says AWD. Exclude until original Saab Canada paperwork resolves metadata; do not assume an FWD Turbo X existed.",
+      "source_ids": [
+        "na-cat-s34",
+        "na-cat-s35"
+      ]
     }
   ],
   "completion_definition": "Each model/year and market separately has original manufacturer sales/brochure or equipment table evidence for each eligible engine-body-auto-drivetrain pairing, or a supported no-production finding. Each gearbox and engine code requires model-year source or factory VIN material.",
@@ -1465,7 +1559,8 @@
     "1999 MY original Saab VIN bulletin is a code map, not proof that every possible combination of body/engine/gearbox exists; verify with sales guides.",
     "2011 U.S. Saab brochure 9-3X is XWD-only, do not rule out unrelated hypothetical FWD badge without actual evidence.",
     "2008 9-3 255hp FWD Aero vs 280hp XWD/TurboX must never be merged into one entry.",
-    "2010/2011 Aero FWD 9-3 2.0L 210hp is not 2008 Aero FWD 2.8L V6; year-specific engineering is mandatory."
+    "2010/2011 Aero FWD 9-3 2.0L 210hp is not 2008 Aero FWD 2.8L V6; year-specific engineering is mandatory.",
+    "Canadian 2008 Saab Turbo X listing incorrectly or at least contradictorily marked FWD despite contemporary Turbo X XWD system; seek Canadian original brochure/VIN, do not infer rare FWD variant."
   ],
   "note": "Coverage rows are NOT exhaustive model-year configurations. A state 'at_least_one_candidate_documented' establishes at least one sample only; unknown is never exclusion."
 }
