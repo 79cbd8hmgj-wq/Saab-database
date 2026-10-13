@@ -229,6 +229,116 @@
         "US"
       ],
       "notes": "2006 Saab 9-3 SportCombi 2.8 V6 automatic and original 9-5 SportCombi 2.3T automatic FWD corroboration."
+    },
+    {
+      "id": "na-cat-s21",
+      "title": "Original Saab USA 2011 Brand and Range equipment matrix, pages 76-83",
+      "url": "https://www.auto-brochures.com/makes/Saab/Saab_US%202011.pdf",
+      "origin": "Saab Automobile AB North American factory brochure, archived",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "US model-year original brochure. Page 77 9-5 Turbo4 and Turbo4 Premium FWD six-speed automatic (option/standard). Pages 80-83 9-3 Turbo4 and Aero sedan/SportCombi FWD five-speed automatic (option/standard); 9-3X standard six-speed XWD automatic, excluded. Visual equipment tables reviewed; never infer Canadian availability."
+    },
+    {
+      "id": "na-cat-s22",
+      "title": "Saab Cars North America 2010 9-3 US pricing, factory press release",
+      "url": "https://www.prnewswire.com/news-releases/saab-cars-north-america-announces-pricing-on-2010-model-year-9-3-vehicles-86620467.html",
+      "origin": "Saab Cars North America / General Motors press release",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "US MY2010 9-3 2.0T and Aero sedans both FWD or XWD, SportCombi FWD 2.0T/Aero; 9-3X standard XWD. Manufacturer press does not give every automatic gear count."
+    },
+    {
+      "id": "na-cat-s23",
+      "title": "2010 9-3 US trim transmission options and FWD Aero automatic",
+      "url": "https://www.edmunds.com/saab/9-3/2010/review/",
+      "origin": "Edmunds 2010 US historical model review",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "Front-drive 2.0T optional five-speed automatic and Aero standard five-speed automatic; sedan and wagon; XWD automatics are six-speed. Secondary used with Saab official 2010 announcement."
+    },
+    {
+      "id": "na-cat-s24",
+      "title": "2009 Saab 9-5 Griffin US factory sales brochure p7",
+      "url": "https://www.auto-brochures.com/makes/Saab/9-5/Saab_US%209-5_Griffin_2009.pdf",
+      "origin": "Saab Cars USA factory brochure, archived",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "Original US MY2009 Griffin edition lists 2.3T engine, standard five-speed Sentronic automatic, FWD. Sedan/SportCombi mentioned; corroborate year/body rows with US specifications."
+    },
+    {
+      "id": "na-cat-s25",
+      "title": "2009 9-5 US SportCombi original trim automatic FWD",
+      "url": "https://www.caranddriver.com/saab/9-5/specs/2009/saab_9-5_saab-9-5-sportcombi_2009",
+      "origin": "Car and Driver period US specification catalogue",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "2009 2.3T SportCombi automatic five-speed FWD, 260hp; trim source not manufacturer."
+    },
+    {
+      "id": "na-cat-s26",
+      "title": "2009 9-5 US sedan original trim automatic FWD",
+      "url": "https://www.caranddriver.com/saab/9-5/specs/2009/saab_9-5_saab-9-5-sedan_2009",
+      "origin": "Car and Driver period US specification catalogue",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "2009 2.3T sedan automatic five-speed FWD, 260hp; trim source not manufacturer."
+    },
+    {
+      "id": "na-cat-s27",
+      "title": "2008 9-3 US automatic options and engine/drivetrain split",
+      "url": "https://www.edmunds.com/saab/9-3/2008/review/",
+      "origin": "Edmunds 2008 US historical model review",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "2.0T sedan/wagon FWD optional five-speed automatic; Aero 255hp 2.8 V6 FWD optional six-speed automatic; XWD Aero higher-output 280 hp and Turbo X XWD, separate and excluded."
+    },
+    {
+      "id": "na-cat-s28",
+      "title": "2008 9-5 US sedan 2.3T automatic FWD specifications",
+      "url": "https://www.caranddriver.com/saab/9-5/specs/2008/saab_9-5_saab-9-5-sport-sedan_2008",
+      "origin": "Car and Driver US trim-specification listing",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "2008 US 2.3L 260hp sedan standard five-speed Sentronic automatic FWD."
+    },
+    {
+      "id": "na-cat-s29",
+      "title": "2008 9-5 US SportCombi 2.3T automatic FWD specifications",
+      "url": "https://www.caranddriver.com/saab/9-5/specs/2008/saab_9-5_saab-9-5-sportcombi_2008",
+      "origin": "Car and Driver US trim-specification listing",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "2008 US 2.3L 260hp wagon five-speed Sentronic automatic FWD."
+    },
+    {
+      "id": "na-cat-s30",
+      "title": "The Car Guide 2011 Canadian 9-3 Turbo4 wagon automatic FWD",
+      "url": "https://www.guideautoweb.com/en/makes/saab/9-3/2011/specifications/5dr-wgn-auto-turbo4-fwd/",
+      "origin": "The Car Guide Canadian vehicle specification and period MSRP archive",
+      "market_scope": [
+        "CA"
+      ],
+      "notes": "Canadian 2011 Turbo4 SportCombi 2.0L 210hp five-speed automatic FWD. This is secondary CA-market trim-specific evidence, not a separate original Saab Canada factory brochure."
+    },
+    {
+      "id": "na-cat-s31",
+      "title": "2010 9-3 US Aero FWD automatic SportCombi specifications",
+      "url": "https://www.edmunds.com/saab/9-3/2010/wagon/st-101293127/features-specs/",
+      "origin": "Edmunds US historical exact trim specification",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "2010 US 9-3 Aero SportCombi 2.0 210hp catalogued five-speed automatic FWD; corroborates Saab US press and review."
     }
   ],
   "model_year_screening": [
@@ -339,9 +449,14 @@
       "model": "9-3",
       "model_year": 2008,
       "platform_for_screening": "9440",
-      "us_status": "unassessed",
+      "us_status": "at_least_one_candidate_documented",
       "canada_status": "unassessed",
-      "documented_configuration_ids": [],
+      "documented_configuration_ids": [
+        "na-2008-93-20t-sedan-at",
+        "na-2008-93-20t-combi-at",
+        "na-2008-93-aero-sedan-at",
+        "na-2008-93-aero-combi-at"
+      ],
       "coverage_complete": false
     },
     {
@@ -357,18 +472,29 @@
       "model": "9-3",
       "model_year": 2010,
       "platform_for_screening": "9440",
-      "us_status": "unassessed",
+      "us_status": "at_least_one_candidate_documented",
       "canada_status": "unassessed",
-      "documented_configuration_ids": [],
+      "documented_configuration_ids": [
+        "na-2010-93-20t-sedan-at",
+        "na-2010-93-20t-combi-at",
+        "na-2010-93-aero-sedan-at",
+        "na-2010-93-aero-combi-at"
+      ],
       "coverage_complete": false
     },
     {
       "model": "9-3",
       "model_year": 2011,
       "platform_for_screening": "9440",
-      "us_status": "unassessed",
-      "canada_status": "unassessed",
-      "documented_configuration_ids": [],
+      "us_status": "at_least_one_candidate_documented",
+      "canada_status": "at_least_one_candidate_documented",
+      "documented_configuration_ids": [
+        "na-2011-93-turbo4-sedan-at",
+        "na-2011-93-aero-sedan-at",
+        "na-2011-93-turbo4-combi-at",
+        "na-2011-93-aero-combi-at",
+        "na-2011-93-turbo4-combi-at-ca"
+      ],
       "coverage_complete": false
     },
     {
@@ -474,18 +600,24 @@
       "model": "9-5",
       "model_year": 2008,
       "platform_for_screening": "9600",
-      "us_status": "unassessed",
+      "us_status": "at_least_one_candidate_documented",
       "canada_status": "unassessed",
-      "documented_configuration_ids": [],
+      "documented_configuration_ids": [
+        "na-2008-95-23t-sedan-at",
+        "na-2008-95-23t-combi-at"
+      ],
       "coverage_complete": false
     },
     {
       "model": "9-5",
       "model_year": 2009,
       "platform_for_screening": "9600",
-      "us_status": "unassessed",
+      "us_status": "at_least_one_candidate_documented",
       "canada_status": "unassessed",
-      "documented_configuration_ids": [],
+      "documented_configuration_ids": [
+        "na-2009-95-23t-sedan-at",
+        "na-2009-95-23t-combi-at"
+      ],
       "coverage_complete": false
     },
     {
@@ -505,7 +637,8 @@
       "canada_status": "at_least_one_candidate_documented",
       "documented_configuration_ids": [
         "na-2011-95-turbo4-sedan-at-us",
-        "na-2011-95-turbo4-sedan-at-ca"
+        "na-2011-95-turbo4-sedan-at-ca",
+        "na-2011-95-turbo4-premium-sedan-at"
       ],
       "coverage_complete": false
     }
@@ -848,6 +981,373 @@
       ],
       "evidence_status": "manufacturer_US_pricing_confirmed",
       "notes": "Facelifted original 9-5 SportCombi, optional five-speed Sentronic automatic; verified trim option, not an individual vehicle."
+    },
+    {
+      "id": "na-2008-93-20t-sedan-at",
+      "model": "9-3",
+      "model_year": 2008,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "2.0T 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s27"
+      ],
+      "evidence_status": "secondary_supported_configuration",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. Optional automatic; XWD and manual excluded."
+    },
+    {
+      "id": "na-2008-93-20t-combi-at",
+      "model": "9-3",
+      "model_year": 2008,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_label": "2.0T 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s27"
+      ],
+      "evidence_status": "secondary_supported_configuration",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. Optional automatic; XWD and manual excluded."
+    },
+    {
+      "id": "na-2008-93-aero-sedan-at",
+      "model": "9-3",
+      "model_year": 2008,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Aero 2.8L 255-hp turbo V6",
+      "engine_code": null,
+      "automatic_gears": 6,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s27"
+      ],
+      "evidence_status": "secondary_supported_configuration",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. Only 255-hp FWD Aero; do NOT include 280hp XWD Aero."
+    },
+    {
+      "id": "na-2008-93-aero-combi-at",
+      "model": "9-3",
+      "model_year": 2008,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_label": "Aero 2.8L 255-hp turbo V6",
+      "engine_code": null,
+      "automatic_gears": 6,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s27"
+      ],
+      "evidence_status": "secondary_supported_configuration",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. Only 255-hp FWD Aero; not Turbo X."
+    },
+    {
+      "id": "na-2008-95-23t-sedan-at",
+      "model": "9-5",
+      "model_year": 2008,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_label": "2.3T 260-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s28"
+      ],
+      "evidence_status": "secondary_supported_configuration",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. US automatic original 9-5 sedan; transmission order code MM1 is catalogue code, not mechanical gearbox family designation."
+    },
+    {
+      "id": "na-2008-95-23t-combi-at",
+      "model": "9-5",
+      "model_year": 2008,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_label": "2.3T 260-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s29"
+      ],
+      "evidence_status": "secondary_supported_configuration",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. US automatic original 9-5 SportCombi."
+    },
+    {
+      "id": "na-2009-95-23t-sedan-at",
+      "model": "9-5",
+      "model_year": 2009,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_label": "2.3T 260-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s24",
+        "na-cat-s26"
+      ],
+      "evidence_status": "manufacturer_brochure_and_secondary_configuration",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. US five-speed Sentronic automatic FWD."
+    },
+    {
+      "id": "na-2009-95-23t-combi-at",
+      "model": "9-5",
+      "model_year": 2009,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_label": "2.3T 260-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s24",
+        "na-cat-s25"
+      ],
+      "evidence_status": "manufacturer_brochure_and_secondary_configuration",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. US five-speed Sentronic automatic FWD."
+    },
+    {
+      "id": "na-2010-93-20t-sedan-at",
+      "model": "9-3",
+      "model_year": 2010,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "2.0T 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s22",
+        "na-cat-s23"
+      ],
+      "evidence_status": "manufacturer_lineup_and_secondary_transmission_confirmation",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. Saab original 2010 US FWD sedan offering and independent automatic gearbox variant source."
+    },
+    {
+      "id": "na-2010-93-20t-combi-at",
+      "model": "9-3",
+      "model_year": 2010,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_label": "2.0T 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s22",
+        "na-cat-s23"
+      ],
+      "evidence_status": "manufacturer_lineup_and_secondary_transmission_confirmation",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. 2010 SportCombi 2.0T FWD offered optional automatic."
+    },
+    {
+      "id": "na-2010-93-aero-sedan-at",
+      "model": "9-3",
+      "model_year": 2010,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Aero 2.0L 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s22",
+        "na-cat-s23"
+      ],
+      "evidence_status": "manufacturer_lineup_and_secondary_transmission_confirmation",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. 2010 Aero FWD four-cylinder standard five-speed automatic; NOT assumed 2.8 V6."
+    },
+    {
+      "id": "na-2010-93-aero-combi-at",
+      "model": "9-3",
+      "model_year": 2010,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_label": "Aero 2.0L 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s22",
+        "na-cat-s23",
+        "na-cat-s31"
+      ],
+      "evidence_status": "manufacturer_lineup_and_secondary_transmission_confirmation",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. 2010 Aero FWD SportCombi four-cylinder standard five-speed automatic."
+    },
+    {
+      "id": "na-2011-93-turbo4-sedan-at",
+      "model": "9-3",
+      "model_year": 2011,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Turbo4 2.0L 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s21"
+      ],
+      "evidence_status": "factory_US_equipment_matrix",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. Page 80 Turbo4 FWD optional five-speed automatic; XWD exclusion verified."
+    },
+    {
+      "id": "na-2011-93-aero-sedan-at",
+      "model": "9-3",
+      "model_year": 2011,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Aero 2.0L 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s21"
+      ],
+      "evidence_status": "factory_US_equipment_matrix",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. Page 80 Aero FWD standard five-speed automatic; not a V6."
+    },
+    {
+      "id": "na-2011-93-turbo4-combi-at",
+      "model": "9-3",
+      "model_year": 2011,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_label": "Turbo4 2.0L 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s21"
+      ],
+      "evidence_status": "factory_US_equipment_matrix",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. Page 82 Turbo4 SportCombi FWD optional five-speed automatic."
+    },
+    {
+      "id": "na-2011-93-aero-combi-at",
+      "model": "9-3",
+      "model_year": 2011,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_label": "Aero 2.0L 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s21"
+      ],
+      "evidence_status": "factory_US_equipment_matrix",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. Page 82 Aero SportCombi FWD standard five-speed automatic."
+    },
+    {
+      "id": "na-2011-95-turbo4-premium-sedan-at",
+      "model": "9-5",
+      "model_year": 2011,
+      "platform": "650",
+      "body_style": "sedan",
+      "engine_label": "Turbo4 Premium 2.0L 220-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 6,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s21"
+      ],
+      "evidence_status": "factory_US_equipment_matrix",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. Page 76/77 Turbo4 Premium FWD standard six-speed automatic, distinct from Turbo6 XWD."
+    },
+    {
+      "id": "na-2011-93-turbo4-combi-at-ca",
+      "model": "9-3",
+      "model_year": 2011,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_label": "Turbo4 2.0L 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "CA"
+      ],
+      "source_ids": [
+        "na-cat-s30"
+      ],
+      "evidence_status": "secondary_canadian_market_configuration",
+      "notes": "Original individual gearbox/engine part code and VIN unverified. Canadian-market original MSRP and five-speed automatic/FWD explicitly listed; Canadian factory brochure pending."
     }
   ],
   "explicit_exclusions": [
@@ -911,6 +1411,46 @@
       "source_ids": [
         "na-cat-s03"
       ]
+    },
+    {
+      "id": "na-ex-07",
+      "model": "9-3",
+      "year": 2008,
+      "market": "US",
+      "description": "Turbo X and 280-hp XWD Aero sedans/wagons are AWD/XWD, excluded. The 255-hp FWD 2.8 V6 Aero remains eligible with an automatic.",
+      "source_ids": [
+        "na-cat-s27"
+      ]
+    },
+    {
+      "id": "na-ex-08",
+      "model": "9-3",
+      "year": 2010,
+      "market": "US",
+      "description": "US 9-3X required XWD despite automatic availability. Do not exclude FWD Aero and 2.0T 9-3 SportCombi from the same year.",
+      "source_ids": [
+        "na-cat-s22"
+      ]
+    },
+    {
+      "id": "na-ex-09",
+      "model": "9-3",
+      "year": 2011,
+      "market": "US",
+      "description": "2011 US brochure 9-3X wagon automatic uses XWD six-speed, so excluded; Turbo4 and Aero FWD SportCombi 5-speed automatics remain eligible.",
+      "source_ids": [
+        "na-cat-s21"
+      ]
+    },
+    {
+      "id": "na-ex-10",
+      "model": "9-5",
+      "year": 2011,
+      "market": "US",
+      "description": "US 2011 Turbo6 and Aero 9-5 trim columns show XWD standard; excluded. Turbo4 and Turbo4 Premium FWD automatics remain eligible.",
+      "source_ids": [
+        "na-cat-s21"
+      ]
     }
   ],
   "completion_definition": "Each model/year and market separately has original manufacturer sales/brochure or equipment table evidence for each eligible engine-body-auto-drivetrain pairing, or a supported no-production finding. Each gearbox and engine code requires model-year source or factory VIN material.",
@@ -922,7 +1462,10 @@
     "Factory-only exclusions for engine/transmission subtrims; no market-wide exclusion from trim summary",
     "Exhaustive eligibility of 2006/07 SportCombi configurations and US/CA 9-3 Sport Sedan combinations",
     "Confirm Canadian MY2010 NG9-5 FWD absence/presence independently",
-    "1999 MY original Saab VIN bulletin is a code map, not proof that every possible combination of body/engine/gearbox exists; verify with sales guides."
+    "1999 MY original Saab VIN bulletin is a code map, not proof that every possible combination of body/engine/gearbox exists; verify with sales guides.",
+    "2011 U.S. Saab brochure 9-3X is XWD-only, do not rule out unrelated hypothetical FWD badge without actual evidence.",
+    "2008 9-3 255hp FWD Aero vs 280hp XWD/TurboX must never be merged into one entry.",
+    "2010/2011 Aero FWD 9-3 2.0L 210hp is not 2008 Aero FWD 2.8L V6; year-specific engineering is mandatory."
   ],
   "note": "Coverage rows are NOT exhaustive model-year configurations. A state 'at_least_one_candidate_documented' establishes at least one sample only; unknown is never exclusion."
 }
