@@ -560,6 +560,36 @@
         "US"
       ],
       "notes": "2.0T SportCombi five-speed automatic and 2.8 V6 Aero SportCombi six-speed auto, explicit 250hp and FWD."
+    },
+    {
+      "id": "na-cat-s54",
+      "title": "2004 Canadian Saab 9-3 automatic FWD 2.0L trim listings",
+      "url": "https://www.autotrader.ca/research/saab/9-3/2004/",
+      "origin": "AutoTrader Canada historical 2004 model-year trim pages",
+      "market_scope": [
+        "CA"
+      ],
+      "notes": "Canadian MY2004 Linear Auto sedan 175hp, Arc Auto sedan 210hp, and Aero automatic 210hp Sedan available; Aero and Arc headings pool sedan/convertible dimensional ranges, so body crosscheck with nonconvertible US 9440 and 2005 Canada model-year review still desirable."
+    },
+    {
+      "id": "na-cat-s55",
+      "title": "2005 Canadian Saab 9-3 Linear Arc Aero sedan automatic options",
+      "url": "https://www.autotrader.ca/research/saab/9-3/2005/",
+      "origin": "AutoTrader Canada original model-year editorial review",
+      "market_scope": [
+        "CA"
+      ],
+      "notes": "Explicit Canadian MY2005 three sedans Linear 2.0L 175hp, Arc/Aero 2.0L 210hp; all option five-speed automatic. Manual gearboxes differ from US but excluded."
+    },
+    {
+      "id": "na-cat-s56",
+      "title": "2006 Canadian Saab 9-3 2.0T and Aero automatic sedan/SportCombi offerings",
+      "url": "https://www.autotrader.ca/research/saab/9-3/2006/",
+      "origin": "AutoTrader Canada original model-year editorial review",
+      "market_scope": [
+        "CA"
+      ],
+      "notes": "MY2006 both sedan and SportCombi in base 2.0 turbo I4 210hp and Aero 2.8 V6 250hp; optional five- and six-speed automatics respectively. Convertible excluded."
     }
   ],
   "model_year_screening": [
@@ -633,11 +663,14 @@
       "model_year": 2004,
       "platform_for_screening": "9440",
       "us_status": "at_least_one_candidate_documented",
-      "canada_status": "unassessed",
+      "canada_status": "at_least_one_candidate_documented",
       "documented_configuration_ids": [
         "na-2004-93-linear-sedan-at",
         "na-2004-93-arc-sedan-at",
-        "na-2004-93-aero-sedan-at"
+        "na-2004-93-aero-sedan-at",
+        "na-2004-93-linear-sedan-at-ca",
+        "na-2004-93-arc-sedan-at-ca",
+        "na-2004-93-aero-sedan-at-ca"
       ],
       "coverage_complete": false
     },
@@ -646,11 +679,14 @@
       "model_year": 2005,
       "platform_for_screening": "9440",
       "us_status": "at_least_one_candidate_documented",
-      "canada_status": "unassessed",
+      "canada_status": "at_least_one_candidate_documented",
       "documented_configuration_ids": [
         "na-2005-93-linear-sedan-at",
         "na-2005-93-arc-sedan-at",
-        "na-2005-93-aero-sedan-at"
+        "na-2005-93-aero-sedan-at",
+        "na-2005-93-linear-sedan-at-ca",
+        "na-2005-93-arc-sedan-at-ca",
+        "na-2005-93-aero-sedan-at-ca"
       ],
       "coverage_complete": false
     },
@@ -659,11 +695,15 @@
       "model_year": 2006,
       "platform_for_screening": "9440",
       "us_status": "at_least_one_candidate_documented",
-      "canada_status": "unassessed",
+      "canada_status": "at_least_one_candidate_documented",
       "documented_configuration_ids": [
         "na-2006-93-20t-combi-at",
         "na-2006-93-aero-combi-at",
-        "na-2006-93-aero-sedan-at"
+        "na-2006-93-aero-sedan-at",
+        "na-2006-93-20t-sedan-at-ca",
+        "na-2006-93-aero-sedan-at-ca",
+        "na-2006-93-20t-wagon-at-ca",
+        "na-2006-93-aero-wagon-at-ca"
       ],
       "coverage_complete": false
     },
@@ -2587,6 +2627,206 @@
       ],
       "evidence_status": "secondary_regional_model_year_research",
       "notes": "Factory VIN/gearbox code not yet certified. FWD 1SA/1SB/1SD equipment groups, 1SA optional and 1SB/1SD standard 5AT; 1SC 2.0T XWD excluded, Aero V6 XWD excluded."
+    },
+    {
+      "id": "na-2004-93-linear-sedan-at-ca",
+      "model": "9-3",
+      "model_year": 2004,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Linear 2.0L 175-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "CA"
+      ],
+      "source_ids": [
+        "na-cat-s54"
+      ],
+      "evidence_status": "canadian_regional_model_year_editorial",
+      "notes": "Canadian market only; manufacturer option/equipment chart and VIN source still pending. Canadian trim-list confirms automatic/FWD and sedan; trim grouping includes other body styles so verify original Canadian brochure."
+    },
+    {
+      "id": "na-2004-93-arc-sedan-at-ca",
+      "model": "9-3",
+      "model_year": 2004,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Arc 2.0L 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "CA"
+      ],
+      "source_ids": [
+        "na-cat-s54"
+      ],
+      "evidence_status": "canadian_regional_model_year_editorial",
+      "notes": "Canadian market only; manufacturer option/equipment chart and VIN source still pending. Canadian trim-list confirms automatic/FWD and sedan; trim grouping includes other body styles so verify original Canadian brochure."
+    },
+    {
+      "id": "na-2004-93-aero-sedan-at-ca",
+      "model": "9-3",
+      "model_year": 2004,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Aero 2.0L 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "CA"
+      ],
+      "source_ids": [
+        "na-cat-s54"
+      ],
+      "evidence_status": "canadian_regional_model_year_editorial",
+      "notes": "Canadian market only; manufacturer option/equipment chart and VIN source still pending. Canadian trim-list confirms automatic/FWD and sedan; trim grouping includes other body styles so verify original Canadian brochure."
+    },
+    {
+      "id": "na-2005-93-linear-sedan-at-ca",
+      "model": "9-3",
+      "model_year": 2005,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Linear 2.0L 175-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "CA"
+      ],
+      "source_ids": [
+        "na-cat-s55"
+      ],
+      "evidence_status": "canadian_regional_model_year_editorial",
+      "notes": "Canadian market only; manufacturer option/equipment chart and VIN source still pending. Canadian 2005 sedan three trims automatic options."
+    },
+    {
+      "id": "na-2005-93-arc-sedan-at-ca",
+      "model": "9-3",
+      "model_year": 2005,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Arc 2.0L 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "CA"
+      ],
+      "source_ids": [
+        "na-cat-s55"
+      ],
+      "evidence_status": "canadian_regional_model_year_editorial",
+      "notes": "Canadian market only; manufacturer option/equipment chart and VIN source still pending. Canadian 2005 sedan three trims automatic options."
+    },
+    {
+      "id": "na-2005-93-aero-sedan-at-ca",
+      "model": "9-3",
+      "model_year": 2005,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Aero 2.0L 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "CA"
+      ],
+      "source_ids": [
+        "na-cat-s55"
+      ],
+      "evidence_status": "canadian_regional_model_year_editorial",
+      "notes": "Canadian market only; manufacturer option/equipment chart and VIN source still pending. Canadian 2005 sedan three trims automatic options."
+    },
+    {
+      "id": "na-2006-93-20t-sedan-at-ca",
+      "model": "9-3",
+      "model_year": 2006,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "2.0T 2.0L 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "CA"
+      ],
+      "source_ids": [
+        "na-cat-s56"
+      ],
+      "evidence_status": "canadian_regional_model_year_editorial",
+      "notes": "Canadian market only; manufacturer option/equipment chart and VIN source still pending. Canadian base trim FWD automatic."
+    },
+    {
+      "id": "na-2006-93-aero-sedan-at-ca",
+      "model": "9-3",
+      "model_year": 2006,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Aero 2.8L 250-hp turbo V6",
+      "engine_code": null,
+      "automatic_gears": 6,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "CA"
+      ],
+      "source_ids": [
+        "na-cat-s56"
+      ],
+      "evidence_status": "canadian_regional_model_year_editorial",
+      "notes": "Canadian market only; manufacturer option/equipment chart and VIN source still pending. Canadian Aero FWD automatic."
+    },
+    {
+      "id": "na-2006-93-20t-wagon-at-ca",
+      "model": "9-3",
+      "model_year": 2006,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_label": "2.0T 2.0L 210-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "CA"
+      ],
+      "source_ids": [
+        "na-cat-s56"
+      ],
+      "evidence_status": "canadian_regional_model_year_editorial",
+      "notes": "Canadian market only; manufacturer option/equipment chart and VIN source still pending. Canadian base trim FWD automatic."
+    },
+    {
+      "id": "na-2006-93-aero-wagon-at-ca",
+      "model": "9-3",
+      "model_year": 2006,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_label": "Aero 2.8L 250-hp turbo V6",
+      "engine_code": null,
+      "automatic_gears": 6,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "CA"
+      ],
+      "source_ids": [
+        "na-cat-s56"
+      ],
+      "evidence_status": "canadian_regional_model_year_editorial",
+      "notes": "Canadian market only; manufacturer option/equipment chart and VIN source still pending. Canadian Aero FWD automatic."
     }
   ],
   "explicit_exclusions": [
