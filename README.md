@@ -10,7 +10,7 @@ engines, and platforms.
 
 ## Start here
 
-- [Phase 0 coverage audit](docs/coverage-audit.md): **current 26-domain** evidence census, platform/model-year coverage and status of inspection, subsystem and interchange readiness gates.
+- [Phase 0 coverage audit](docs/coverage-audit.md): **current 30-domain** evidence census, platform/model-year coverage and status of inspection, subsystem and interchange readiness gates.
 - [Phase 0 closure plan](docs/gap-closure-plan.md): prioritized blocker-driven work for vehicle identity, rust, brakes, high-cost no-running diagnostics and manufacturer fitment.
 - [Reproducible Phase 0 snapshot](data/phase0-coverage-snapshot.json): machine-derived baseline checked against all datasets on every CI run.
 - [Prioritized research backlog](docs/research-backlog.md): source-gathering tasks and acceptance criteria before simulation.
@@ -23,6 +23,10 @@ engines, and platforms.
   documents and what still needs measurements or engineering data.
 - [Research reports](docs/research/): detailed notes from the individual research
   domains, including contradictions and gaps.
+- [Non-running Saab safe purchase screen](docs/research/priority-nonrunning-purchase-screen.md):
+  staged seller evidence, no-drive/crank triggers, misfire vs catalyst failure, B235 oil/FA57 and B207 compression condition limits.
+- [Blank Phase 0 non-running inspection intake](data/inspection-templates/nonrunning-phase0.json):
+  reproducible evidence requests with explicit unknown results; **not** an engine or transmission failure score.
 - [Brakes and hydraulic-safety identification matrix](docs/research/priority-brake-hydraulic-safety.md):
   9-3 2006 brake levels and VIN option-row codes; 9-5 rotor dimensions and front caliper torque conflicts; parking brake and brake-line service boundaries.
 - [Structural rust and underbody-safety inspection zones](docs/research/priority-structural-corrosion-inspection.md):
@@ -69,8 +73,8 @@ engines, and platforms.
   North American specifications, WIS conflicts and source limits.
 - [Datasets](data/datasets/): structured JSON with source IDs and original links.
 
-As of October 13, 2026 the database contains **469 source records, 937 factual
-records, 66 issue records, 74 part records, and 223 explicit gaps** across twenty-nine
+As of October 13, 2026 the database contains **482 source records, 957 factual
+records, 70 issue records, 74 part records, and 231 explicit gaps** across thirty
 research domains. This is not a completeness score.
 See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
 
