@@ -37,24 +37,24 @@
     "vin_gearbox_provenance"
   ],
   "counts": {
-    "sources": 521,
-    "facts": 1027,
+    "sources": 524,
+    "facts": 1032,
     "issues": 85,
-    "parts": 79,
-    "gaps": 256
+    "parts": 80,
+    "gaps": 258
   },
-  "unique_source_urls": 458,
+  "unique_source_urls": 461,
   "retrieval_statuses": {
-    "full_text": 491,
+    "full_text": 494,
     "metadata_only": 8,
     "partial": 3,
     "search_excerpt": 19
   },
   "evidence_statuses": {
-    "documented": 1090,
+    "documented": 1091,
     "inference": 9,
-    "supplier_claim": 92
+    "supplier_claim": 97
   },
   "research_date": "2026-10-13",
-  "notes": "Phase 0 WP6 initial B235 2008 US/CA emissions/exhaust and fuel/EVAP evidence: primary/main catalytic stages, T7 pre/post O2, purging/leak DTCs, instrumented pressure checks, NY legal restrictions. Factory WIS MY2008 directory cannot prove a particular North American VIN-approved catalyst; uninspected 2008 wagon restriction and structural condition remain unknown. Prior WP5 VIN/service-kit limitations also remain. Phase 0 WP7 initial source-scoped MY2008 US/CA 9-5 annual and mileage service plus historical NHTSA 15-year VIN-recall omission; no candidate VIN or manufacturer recall-service status looked up. WP7 recall supplement adds original NHTSA 08V160 9-5 trim, 16V063 9-5/9-3 airbag (GM campaign 15041/15043), 14V318 9-3 convertible retractor, and Canada 2014228, all with explicit unresolved VIN and completion gates. Distinct MY2008 original 9-5 US/CA ATF maintenance entries disagree: 60,000-mile service checklist vs annual 70,000 miles/5 years. Neither is promoted over the other; verify official revisions and vehicle-specific requirements. Dedicated cross-manufacturer interchange pilot catalogs NG9-3 B207 FWD cross-platform front hubs (PFI PHU3191/SKF VKBA3620) and 15-inch front pads (93188111/Delphi LP1723), distinguishing shared aftermarket SKU from manufacturer-approved donor interchange. OG9-5 automatic Nissens radiator is Saab-specific; early PCV kit must not be generalized to 2008. No part/vehicle reliability verified."
+  "notes": "Phase 0 WP6 initial B235 2008 US/CA emissions/exhaust and fuel/EVAP evidence: primary/main catalytic stages, T7 pre/post O2, purging/leak DTCs, instrumented pressure checks, NY legal restrictions. Factory WIS MY2008 directory cannot prove a particular North American VIN-approved catalyst; uninspected 2008 wagon restriction and structural condition remain unknown. Prior WP5 VIN/service-kit limitations also remain. Phase 0 WP7 initial source-scoped MY2008 US/CA 9-5 annual and mileage service plus historical NHTSA 15-year VIN-recall omission; no candidate VIN or manufacturer recall-service status looked up. WP7 recall supplement adds original NHTSA 08V160 9-5 trim, 16V063 9-5/9-3 airbag (GM campaign 15041/15043), 14V318 9-3 convertible retractor, and Canada 2014228, all with explicit unresolved VIN and completion gates. Distinct MY2008 original 9-5 US/CA ATF maintenance entries disagree: 60,000-mile service checklist vs annual 70,000 miles/5 years. Neither is promoted over the other; verify official revisions and vehicle-specific requirements. Dedicated cross-manufacturer interchange pilot catalogs NG9-3 B207 FWD cross-platform front hubs (PFI PHU3191/SKF VKBA3620) and 15-inch front pads (93188111/Delphi LP1723), distinguishing shared aftermarket SKU from manufacturer-approved donor interchange. OG9-5 automatic Nissens radiator is Saab-specific; early PCV kit must not be generalized to 2008. No part/vehicle reliability verified. Stronger FAG first-party catalogue 713 6440 90 documents SAAB/GM/OPEL 'Interchangeable' OE labels as distinct from FIAT and Opel/Vauxhall 'Reference corresponds to component'; no verified original donor interchange."
 }
