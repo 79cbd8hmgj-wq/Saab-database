@@ -23,6 +23,8 @@ engines, and platforms.
   domains, including contradictions and gaps.
 - [Source-audited VIN, gearbox and WebEPC provenance](docs/research/vin-gearbox-provenance.md):
   independent MY2005/08 9-3 VIN codes, 9-5 WIS year-table conflicts, 9-5 vs 9-3 FA57 and TCM adaptation, and VIN-specific part-fitment evidence gates.
+- [Repair versus replacement: turbo boost, 9-5 FA57 shifting and overheating](docs/research/repair-vs-replace-troubleshooting.md):
+  original Saab diagnostic branches that identify low-cost candidates without mistaking them for a guaranteed healthy used engine or gearbox.
 - [High-cost powertrain diagnosis](docs/research/high-cost-powertrain-diagnostics.md):
   original 9-5 B205/B235 oil-pressure, pickup and bearing-damage screening; 9-3 B207 cold compression; early FA57 coolant-in-ATF.
 - [MY2006/08 B235R oil and PCV revision evidence](docs/research/b235r-oil-pcv-2006-2008.md):
@@ -53,8 +55,8 @@ engines, and platforms.
   North American specifications, WIS conflicts and source limits.
 - [Datasets](data/datasets/): structured JSON with source IDs and original links.
 
-As of October 12, 2026 the database contains **365 source records, 747 factual
-records, 44 issue records, 72 part records, and 165 explicit gaps** across twenty-two
+As of October 12, 2026 the database contains **382 source records, 778 factual
+records, 48 issue records, 72 part records, and 174 explicit gaps** across twenty-three
 research domains. This is not a completeness score.
 See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
 
