@@ -1,4 +1,4 @@
-# Phase 0 research coverage audit — 33-domain refresh
+# Phase 0 research coverage audit — 34-domain refresh
 
 **Audit basis:** October 13, 2026, 33 research datasets. This release adds original Saab Automobile USA MY2004–07 VIN documents and manufacturer-channel conditional service-kit provenance; earlier Phase 0 audit baselines remain in merged pull-request history. This is a census of saved records, **not** an independent recertification of every original Saab source, an estimate of percent complete, or an engineering safety certification. The earlier seven-domain baseline is superseded.
 
@@ -9,13 +9,13 @@
 
 | Measure | Current records |
 | --- | ---: |
-| Research domains | 33 |
-| Source records | 504 |
-| Unique source URLs | 445 |
-| Technical facts | 1003 |
-| Diagnostic/correction issues | 78 |
+| Research domains | 34 |
+| Source records | 511 |
+| Unique source URLs | 452 |
+| Technical facts | 1016 |
+| Diagnostic/correction issues | 81 |
 | Part records | 76 |
-| Explicit open research gaps | 246 |
+| Explicit open research gaps | 250 |
 
 A repeated URL is not independent corroboration. These are stored record counts,
 **not** estimates of system completeness, part fitment confidence, failure rates,
@@ -25,14 +25,14 @@ or the probability that an individual vehicle is repairable.
 
 | Source retrieval | Records |
 | --- | ---: |
-| `full_text` | 475 |
+| `full_text` | 482 |
 | `partial` | 3 |
 | `search_excerpt` | 18 |
 | `metadata_only` | 8 |
 
 | Technical evidence | Facts + issues + parts |
 | --- | ---: |
-| `documented` | 1072 |
+| `documented` | 1088 |
 | `supplier_claim` | 78 |
 | `inference` | 7 |
 
@@ -44,13 +44,13 @@ is counted from individual groups, not from a misleading top-level union.
 
 | Scope field explicitly present | Records out of facts + issues + parts |
 | --- | ---: |
-| `platforms` | 1099 / 1157 |
-| `model_years` | 1008 / 1157 |
-| `markets` | 190 / 1157 |
-| `engine_codes` | 338 / 1157 |
-| `transmission_codes` | 162 / 1157 |
-| `body_styles` | 80 / 1157 |
-| `vin_ranges` | 24 / 1157 |
+| `platforms` | 1115 / 1173 |
+| `model_years` | 1024 / 1173 |
+| `markets` | 206 / 1173 |
+| `engine_codes` | 338 / 1173 |
+| `transmission_codes` | 165 / 1173 |
+| `body_styles` | 84 / 1173 |
+| `vin_ranges` | 24 / 1173 |
 
 ### Technical record coverage by original Saab model year
 
@@ -66,14 +66,14 @@ model-year row. Year-path names do not prove a given production revision.
 | 1999 | 17 | 3 | 11 |
 | 2000 | 21 | 3 | 14 |
 | 2001 | 16 | 3 | 14 |
-| 2002 | 26 | 4 | 19 |
-| 2003 | 28 | 3 | 17 |
-| 2004 | 58 | 6 | 20 |
-| 2005 | 156 | 10 | 21 |
-| 2006 | 144 | 13 | 20 |
-| 2007 | 125 | 15 | 19 |
-| 2008 | 171 | 22 | 19 |
-| 2009 | 119 | 13 | 19 |
+| 2002 | 28 | 4 | 19 |
+| 2003 | 30 | 3 | 17 |
+| 2004 | 60 | 6 | 20 |
+| 2005 | 158 | 10 | 21 |
+| 2006 | 149 | 13 | 20 |
+| 2007 | 130 | 15 | 19 |
+| 2008 | 181 | 24 | 19 |
+| 2009 | 121 | 13 | 19 |
 
 #### Second-generation 9-3, platform 9440
 
@@ -81,13 +81,13 @@ model-year row. Year-path names do not prove a given production revision.
 | ---: | ---: | ---: | ---: |
 | 2003 | 20 | 15 | 18 |
 | 2004 | 32 | 16 | 21 |
-| 2005 | 62 | 13 | 18 |
-| 2006 | 95 | 14 | 23 |
-| 2007 | 19 | 9 | 22 |
-| 2008 | 21 | 9 | 23 |
-| 2009 | 14 | 9 | 23 |
-| 2010 | 13 | 10 | 23 |
-| 2011 | 17 | 10 | 22 |
+| 2005 | 65 | 14 | 18 |
+| 2006 | 100 | 15 | 23 |
+| 2007 | 21 | 9 | 22 |
+| 2008 | 23 | 9 | 23 |
+| 2009 | 16 | 9 | 23 |
+| 2010 | 15 | 10 | 23 |
+| 2011 | 19 | 10 | 22 |
 
 ### Parts evidence does not equal approved interchange
 
@@ -105,7 +105,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 ### Distribution of recorded evidence by research domain
 
 | Dataset domain | Sources | Facts | Issues | Parts | Gaps |
-| --- | ---: | ---: | ---: | ---: | ---: |
+| --- | ---: | ---: | ---: | ---: |
 | `b235_maintenance_fa57_identity` | 13 | 44 | 2 | 0 | 9 |
 | `b235r_oil_pcv_2006_2008` | 17 | 31 | 2 | 7 | 9 |
 | `corrections` | 27 | 9 | 20 | 26 | 7 |
@@ -132,6 +132,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 | `priority_brake_hydraulic_safety` | 19 | 25 | 4 | 0 | 8 |
 | `priority_nonrunning_purchase_screen` | 13 | 20 | 4 | 0 | 8 |
 | `priority_structural_corrosion_inspection` | 14 | 21 | 3 | 0 | 8 |
+| `priority_us_recall_campaign_and_service_wp7_extension` | 7 | 13 | 3 | 0 | 4 |
 | `priority_usca_service_recall_baseline_wp7` | 7 | 17 | 2 | 0 | 4 |
 | `priority_vehicle_identity_gates` | 13 | 15 | 2 | 0 | 6 |
 | `repair_vs_replace_troubleshooting` | 17 | 31 | 4 | 0 | 9 |
@@ -201,6 +202,8 @@ Every priority subsystem must have an explicit component and connection inventor
 For any proposed substitution, preserve installed OE part ID, VIN/engine/gearbox/market/option restrictions, genuine manufacturer-approved supersession direction **where evidenced**, dimensions/interfaces, safety and loading requirements, firmware/pairing/dependencies and installation tests. Supplier cross-references must remain supplier claims. If original manufacturer support cannot be obtained, mark **not approved / evidence pending**; do not assume bidirectional interchange.
 
 ## What this milestone changes
+
+The WP7 safety-campaign addendum now records three independently verified NHTSA filings with exact model/body/year restrictions and retains the contradictory 2008 US/CA automatic-transmission service milestones as distinct source claims. These records do not establish historical completion for any specific VIN or actual serviceability of the $1,200 wagon. Gate A partial; Gate B/C not met.
 
 Work package 6 initial B235 evidence now documents two-stage MY2008 exhaust architecture, T7 O2 and EVAP circuits, safer fuel-differential diagnostics, and New York's conditional lawful converter replacement requirements. These are source-scoped facts only; the 2008 wagon still has no measured restriction, US/Canada VIN-matched OEM catalyst or fuel-line safety finding. Gate B remains unmet.
 
