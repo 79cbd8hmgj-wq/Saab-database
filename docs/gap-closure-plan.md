@@ -97,3 +97,8 @@ The [expanded supplier/FIAT/Opel/Saab study](research/cross-manufacturer-interch
 ### Model selection from cross-brand electrical parts (2026-10-13)
 
 [AS-PL alternator and starter study](research/cross-manufacturer-electrics-model-choice.md) adds 9-3 B207 shared Opel/GM supplier catalogue leads and 9-5 B235 independent aftermarket alternator evidence. [Qualitative comparison map](../data/model-selection/interchange-evidence-20261013.json) leaves the winner unresolved; vehicle safety, drivetrain failure/repair evidence, original VIN fitment and US lifecycle cost remain larger decision factors. Do not create a numeric reliability score from part catalogue counts.
+
+
+### T7 versus T8 electronics repairability, 2026-10-13
+
+[Source-scoped original 9-5 Trionic 7 ignition cassette and NG9-3 T8 ECM service comparison](research/t7-t8-repair-support-model-choice.md) documents current parts-support and independent cloning services, explicit original-module-communication dependencies and the lack of whole-system repair-cost or failure-rate data. The model-ranking gate remains blocked. These are different kinds of component failures; the T7 ignition cassette service must not be equated to T8 ECM replacement.\n

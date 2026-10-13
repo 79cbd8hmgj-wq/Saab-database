@@ -2,29 +2,29 @@
   "schema_version": "1.0.0",
   "meaning": "Record coverage and evidence provenance, NOT completeness, fitment, or reliability",
   "counts": {
-    "sources": 536,
-    "facts": 1056,
-    "issues": 87,
+    "sources": 542,
+    "facts": 1065,
+    "issues": 89,
     "parts": 84,
-    "gaps": 270
+    "gaps": 274
   },
-  "unique_source_urls": 472,
+  "unique_source_urls": 478,
   "retrieval_statuses": {
-    "full_text": 506,
+    "full_text": 512,
     "metadata_only": 8,
     "partial": 3,
     "search_excerpt": 19
   },
   "evidence_statuses": {
-    "documented": 1103,
-    "inference": 9,
-    "supplier_claim": 115
+    "documented": 1109,
+    "inference": 10,
+    "supplier_claim": 119
   },
   "explicit_scope_counts": {
-    "platforms": 1168,
-    "model_years": 1071,
+    "platforms": 1179,
+    "model_years": 1082,
     "markets": 205,
-    "engine_codes": 368,
+    "engine_codes": 379,
     "transmission_codes": 167,
     "body_styles": 83,
     "vin_ranges": 24
@@ -82,8 +82,8 @@
         "parts": 20
       },
       "2008": {
-        "facts": 185,
-        "issues": 27,
+        "facts": 189,
+        "issues": 28,
         "parts": 20
       },
       "2009": {
@@ -104,13 +104,13 @@
         "parts": 21
       },
       "2005": {
-        "facts": 92,
-        "issues": 18,
+        "facts": 97,
+        "issues": 19,
         "parts": 24
       },
       "2006": {
-        "facts": 132,
-        "issues": 20,
+        "facts": 137,
+        "issues": 21,
         "parts": 29
       },
       "2007": {
@@ -392,6 +392,13 @@
       "issues": 0,
       "parts": 15,
       "gaps": 9
+    },
+    "t7_t8_repair_support_model_choice": {
+      "sources": 6,
+      "facts": 9,
+      "issues": 2,
+      "parts": 0,
+      "gaps": 4
     },
     "vin_gearbox_provenance": {
       "sources": 14,

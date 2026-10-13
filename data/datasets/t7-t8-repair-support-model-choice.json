@@ -1,0 +1,441 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "t7_t8_repair_support_model_choice",
+  "sources": [
+    {
+      "id": "elec-src-001",
+      "title": "Saab Parts Hedin current Trionic 7 ignition cassette 32022255",
+      "url": "https://saabparts.com/product/HP32022255",
+      "publisher": "Saab Parts/Hedin",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Official Saab support channel publicly lists original cassette 32022255 and a Swedish-market stock display; current US distributor stock, cost and exact VIN status separate."
+    },
+    {
+      "id": "elec-src-002",
+      "title": "Saab MY2008 original 9-5 Trionic T7 ignition discharge module repair",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/adjustment-replacement/ignition-discharge-module",
+      "publisher": "Saab Automobile AB original WIS mirrored by SaabWISOnline",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Factory stresses extended IDM diagnosis first; T7 cassette has 10-pin connector, four mounting screws, seal treatment and 11 Nm cassette fasteners. No programmed security pairing in this described service."
+    },
+    {
+      "id": "elec-src-003",
+      "title": "Velectronix 2003–2011 Saab 9-3 T8 ECM cloning service conditions",
+      "url": "https://velectronix.com/products/2003-2011-saab-9-3-2-0l-ecm-clone-programming-service",
+      "publisher": "Velectronix module service vendor",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "US vendor advertises $89.99 cloning (listing date Oct 13 2026), both original/donor provided; original ECU MUST communicate. Service warranty covers programming, not ECU hardware; freight extra; no universal fully-dead donor rescue claim."
+    },
+    {
+      "id": "elec-src-004",
+      "title": "Modern Classic Saab 9-3 Trionic 8 cloning quote, donor conditions",
+      "url": "https://www.modernclassicsaab.com/products/p/trionic-8-t8-cloning-service",
+      "publisher": "Modern Classic SAAB service vendor",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Vendor advertises $75 fee for customer-supplied original/donor modules. Claims FWD 2003–11 9-3 Sport Sedan/Wagon donors broad compatibility except XWD; no original factory authorization or general convertible/immobilizer exception implied."
+    },
+    {
+      "id": "elec-src-005",
+      "title": "Saab MY2006 original 9-3 T8 ECM construction and safety handling",
+      "url": "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/engine-management-system-trionic-t8/technical-description/control-module-trionic-4-cyl-petrol-589",
+      "publisher": "Saab Automobile AB original WIS mirrored by SaabWISOnline",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Original Saab WIS Trionic 8 controls fuel/ignition/torque using two processors and warns about ESD/short-circuit output damage; not proof of quantified heat-induced failure rate."
+    },
+    {
+      "id": "elec-src-006",
+      "title": "Saab MY2006 original B207 Trionic T8 module location, front on engine",
+      "url": "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/engine-management-system-trionic-t8/location-of-components/control-module-trionic-b207-switch-b-589b",
+      "publisher": "Saab Automobile AB original WIS mirrored by SaabWISOnline",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Factory places Trionic T8 B207 control module in front on engine. Position suggests a thermal-measurement hypothesis but does not itself prove increased failed units or added years after relocation."
+    }
+  ],
+  "facts": [
+    {
+      "id": "elec-f001",
+      "subject": "component:T7_ignition_discharge_module",
+      "category": "repair_support",
+      "predicate": "official_parts_channel_current_number",
+      "value": "32022255",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B235R",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "elec-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Saab Parts product SKU",
+      "notes": "Saab parts channel cross market; actual VIN suitability remains unknown"
+    },
+    {
+      "id": "elec-f002",
+      "subject": "component:T7_ignition_discharge_module",
+      "category": "repair_support",
+      "predicate": "factory_service_requires_extended_diagnosis",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B235R",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "elec-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Important > prior to replacement",
+      "notes": "Do not replace the cassette on DTC alone"
+    },
+    {
+      "id": "elec-f003",
+      "subject": "component:T7_ignition_discharge_module",
+      "category": "repair_support",
+      "predicate": "factory_service_screws",
+      "value": 4,
+      "unit": "screws",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B235R",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "elec-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "To remove",
+      "notes": "Factory describes four screws, connector removal, seals; not complete diagnostic workflow."
+    },
+    {
+      "id": "elec-f004",
+      "subject": "component:T7_ignition_discharge_module",
+      "category": "repair_support",
+      "predicate": "factory_service_connector_pins",
+      "value": 10,
+      "unit": "pins",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B235R",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "elec-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "To remove",
+      "notes": "This is a cassette connector; not the ECM connector."
+    },
+    {
+      "id": "elec-f005",
+      "subject": "component:T8_ECM",
+      "category": "repair_support",
+      "predicate": "specialist_clone_quote_2026_10_13",
+      "value": 89.99,
+      "unit": "USD",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "elec-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Velectronix service product listing",
+      "notes": "Fee is for programming service only; customer supplies both ECUs, freight and donor costs extra."
+    },
+    {
+      "id": "elec-f006",
+      "subject": "component:T8_ECM",
+      "category": "repair_support",
+      "predicate": "specialist_clone_requires_original_communication",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "elec-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Important > original ECU must have communication",
+      "notes": "Vendor-specific condition; other recovery methods might exist, not evaluated."
+    },
+    {
+      "id": "elec-f007",
+      "subject": "component:T8_ECM",
+      "category": "repair_support",
+      "predicate": "alternative_specialist_clone_quote_2026_10_13",
+      "value": 75,
+      "unit": "USD",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "elec-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Modern Classic SAAB service quote",
+      "notes": "Two ECUs provided; do not treat price as full fitted repair or guaranteed availability."
+    },
+    {
+      "id": "elec-f008",
+      "subject": "component:T8_ECM",
+      "category": "repair_support",
+      "predicate": "factory_processor_count",
+      "value": 2,
+      "unit": "processors",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "elec-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Main use / module technical description",
+      "notes": "Manufacturer architecture, not failure rate."
+    },
+    {
+      "id": "elec-f009",
+      "subject": "component:T8_ECM",
+      "category": "repair_support",
+      "predicate": "factory_mount_location",
+      "value": "front on engine",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "elec-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Location of components",
+      "notes": "Factory location only, thermal reliability cannot be inferred quantitatively."
+    }
+  ],
+  "issues": [
+    {
+      "id": "elec-i001",
+      "title": "NG9-3 B207 Trionic 8 replacement is not a plug-in used-module swap",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "cause": "Factory engine control module is a programmable processor-based control system; independent specialists clone vehicle program/security data when original can be read.",
+      "symptoms": [
+        "Inoperative ECM diagnosis requires proof of no internal circuit, power or CAN fault",
+        "Unprogrammed used module will not necessarily start target vehicle"
+      ],
+      "diagnosis_summary": "Perform original WIS power/ground/network/ECM diagnosis and determine if original communicates and data is recoverable before donor purchase or cloning.",
+      "correction_summary": "Verify programming support and donor compatibility by VIN; one quoted vendor requires functioning communication with original and both ECUs in hand.",
+      "source_ids": [
+        "elec-src-003",
+        "elec-src-004",
+        "elec-src-005"
+      ],
+      "evidence_status": "inference",
+      "limits": [
+        "No universal T8 ECU failure frequency proven",
+        "Seller services are not manufacturer-approved interchange",
+        "A non-communicating module may have separate more complex solutions that have not been studied"
+      ]
+    },
+    {
+      "id": "elec-i002",
+      "title": "Original 9-5 B235 T7 cassette is a separately serviced ignition component, not equivalent to a Trionic 8 ECU failure",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B235R",
+          "B235E"
+        ]
+      },
+      "cause": "Saab WIS distinguishes discrete ignition discharge module service from replacement of entire ECM, and manufacturer service support continues through part 32022255.",
+      "symptoms": [
+        "Misfire/ignition fault requires diagnosis before cassette replacement"
+      ],
+      "diagnosis_summary": "Use factory extended Trionic 7 ignition discharge module diagnostics before parts ordering.",
+      "correction_summary": "Cassette replacement follows original factory mechanical installation and seal/connector requirements; check exact VIN application and supply.",
+      "source_ids": [
+        "elec-src-001",
+        "elec-src-002"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "No inferred failure frequency or life expectancy",
+        "Not a complete Trionic 7 ECM service procedure or guarantee of U.S. inventory"
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "elec-g001",
+      "title": "T8 donor original noncommunicating ECU recovery",
+      "missing_inputs": [
+        "OEM VIN/build and network faults isolated",
+        "specialist bench-data recovery availability for dead processor",
+        "Tech2/SPS authorized alternatives and fees",
+        "calibration, security and gearbox compatibility"
+      ],
+      "reason": "Without actual VIN/diagnosis and measured failure/cost data the repair-path comparison cannot decide which Saab model will be more reliable.",
+      "source_ids": [
+        "elec-src-003",
+        "elec-src-005"
+      ]
+    },
+    {
+      "id": "elec-g002",
+      "title": "T7 full control module reprogramming versus T8 ECU cloning",
+      "missing_inputs": [
+        "Original 2008 9-5 T7 ECM factory removal/SPS/separate security pairing procedure",
+        "T7 ECM specialist cloning services and original hardware availability",
+        "updated US cost estimate for complete ECM repair"
+      ],
+      "reason": "Without actual VIN/diagnosis and measured failure/cost data the repair-path comparison cannot decide which Saab model will be more reliable.",
+      "source_ids": [
+        "elec-src-002",
+        "elec-src-004"
+      ]
+    },
+    {
+      "id": "elec-g003",
+      "title": "Regional prices and availability for T7 cassette and T8 ECM recovery",
+      "missing_inputs": [
+        "Current US delivery and warranty of 32022255",
+        "T8 supplier stock, recovery-condition screening, donor ECU cost",
+        "freight and time offline",
+        "labor and tool availability"
+      ],
+      "reason": "Without actual VIN/diagnosis and measured failure/cost data the repair-path comparison cannot decide which Saab model will be more reliable.",
+      "source_ids": [
+        "elec-src-001",
+        "elec-src-003",
+        "elec-src-004"
+      ]
+    },
+    {
+      "id": "elec-g004",
+      "title": "Comparative T8/T7 failures and preventative thermal effects",
+      "missing_inputs": [
+        "T8 failed ECU incident frequency/age and cause",
+        "measured case/junction temperatures stock and with spacer/relocation",
+        "properly matched T7 cassette failures per mile",
+        "valid comparable fleet breakdown data"
+      ],
+      "reason": "Without actual VIN/diagnosis and measured failure/cost data the repair-path comparison cannot decide which Saab model will be more reliable.",
+      "source_ids": [
+        "elec-src-005",
+        "elec-src-006"
+      ]
+    }
+  ]
+}
