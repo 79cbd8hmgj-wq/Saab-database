@@ -19,30 +19,31 @@
     "og95_structure",
     "og95_t7_cooling_0709",
     "og95_t7_electrical",
+    "repair_vs_replace_troubleshooting",
     "replacements",
     "simulation",
     "subframe_parts_brake_lines",
     "vin_gearbox_provenance"
   ],
   "counts": {
-    "sources": 365,
-    "facts": 747,
-    "issues": 44,
+    "sources": 382,
+    "facts": 778,
+    "issues": 48,
     "parts": 72,
-    "gaps": 165
+    "gaps": 174
   },
-  "unique_source_urls": 333,
+  "unique_source_urls": 347,
   "retrieval_statuses": {
-    "full_text": 350,
+    "full_text": 365,
     "metadata_only": 3,
     "partial": 3,
-    "search_excerpt": 9
+    "search_excerpt": 11
   },
   "evidence_statuses": {
-    "documented": 780,
+    "documented": 815,
     "inference": 5,
     "supplier_claim": 78
   },
   "research_date": "2026-10-12",
-  "notes": "MY2007/08 9-5 petrol coolant full capacity 7.4 L and original max three-year interval are year-limited, not partial fill. Separately sourced 2006/07 oil-cooler union VIN 73514907/73514908 differs from LH mount 73514478/73514479; the latter appears even on 2005 WIS directory, which is not a 2005 change date. Petrol automatic coolant-diagram oil cooler is distinct from engine oil cooler; 2009 original glycol protection not 2026 part approval."
+  "notes": "New high-cost repair-vs-replace research distinguishes MY2007 petrol turbo underboost/loose rod clip and controlled bypass/leak testing; MY2002–04 OG9-5 FA57 shift bulletin is NOT extended to 2005–09; MY2007 ATF has two different access methods (both at 80C), MY2007 P0748/P0722 electrical DTCs versus MY2006 P0730 wrong ratio, and external 2007/08 cooling checks cannot prove head-gasket condition. Two source pages remain excerpt-only; no VIN-approved part substitutions."
 }
