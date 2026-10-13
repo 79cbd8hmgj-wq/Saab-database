@@ -1,0 +1,534 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "epc_provenance",
+  "sources": [
+    {
+      "id": "epcverify-src-001",
+      "title": "Official Saab WebEPC/WebWIS subscriptions and described functionality",
+      "url": "https://saabparts.com/saab-subscription-services",
+      "source_type": "technical_reference",
+      "publisher": "Saab Parts (Hedin Parts), official Saab technology subscriptions",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "notes": "Official site says VIN/build-data filtering, manufacturer supersession chains, source applicability comments; full VIN results not accessed because subscription was not purchased. WebWIS covers service bulletins and wiring diagrams."
+    },
+    {
+      "id": "epcverify-src-002",
+      "title": "eSaabParts latest front subframe 32022623",
+      "url": "https://www.esaabparts.com/saab/parts/32022623?ss=12825111",
+      "source_type": "supplier_catalog",
+      "publisher": "eSaabParts retailer",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "notes": "Current retailer variant lists 12825111 AND 12762720 as predecessor numbers, with explicit FWD 4D/5D and MY2005 mount caution. Other older indexed variant has only 12825111."
+    },
+    {
+      "id": "epcverify-src-003",
+      "title": "eSaabParts front subframe bushing 13247173",
+      "url": "https://www.esaabparts.com/saab/parts/13247173",
+      "source_type": "supplier_catalog",
+      "publisher": "eSaabParts retailer",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "notes": "Calls 13247173 front FWD 4D/5D subframe bushing, superseded part number 24401110; diagram callout 2 (not callout 1 for entire subframe)."
+    },
+    {
+      "id": "epcverify-src-004",
+      "title": "R&D Car Parts 9-3 complete subframe retailer SKU RD24401110",
+      "url": "https://www.rendcarparts.com/parts-for-saab-car/12762720-12825111-24401110-32022623/RD24401110",
+      "source_type": "supplier_catalog",
+      "publisher": "R&D Car Parts retailer",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "notes": "This retailer lists its SKU RD24401110 for the complete subframe and groups Saab number 24401110 with 12762720/12825111/32022623 as OE references. Conflict with multiple bushing listings; exact Saab part identity unresolved."
+    },
+    {
+      "id": "epcverify-src-005",
+      "title": "Saab Parts Counter genuine subframe bushing 13247173",
+      "url": "https://www.saabpartscounter.com/oem-parts/saab-subframe-bushing-13247173",
+      "source_type": "supplier_catalog",
+      "publisher": "Saab Parts Counter retailer",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "notes": "Lists 24401110 as superseded number for Saab 13247173, identifies front LH/RH 4D/5D bushing (position 2)."
+    },
+    {
+      "id": "epcverify-src-006",
+      "title": "Skandix front subframe bushing 13247173",
+      "url": "https://www.skandix.de/en/spare-parts/suspension-steering/axle-mounting/bushing/bushing-suspension-front-axle-subframe-front/1040617/",
+      "source_type": "supplier_catalog",
+      "publisher": "Skandix specialist retailer",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "notes": "Also identifies 24401110 as OE reference for 13247173 front subframe bushing, two per 4D/5D car; cites no complete-frame supersession."
+    },
+    {
+      "id": "epcverify-src-007",
+      "title": "R&D Car Parts separate bushing and frame listings",
+      "url": "https://www.rendcarparts.com/en/product-list/product-list?cat1=1&cat2=1381&cat3=1380&page=1",
+      "source_type": "supplier_catalog",
+      "publisher": "R&D Car Parts retailer",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "notes": "Same retailer also lists a bushing SKU RD13247173A with OE refs 13247173 and 24401110, supporting potential catalog category contamination by a reference shared across frame and bushing."
+    },
+    {
+      "id": "epcverify-src-008",
+      "title": "Klokkerholm 5078004 aftermarket frame/OE cross-references",
+      "url": "https://plenty.parts/parts/klokkerholm/body/klokkerholm-5078004-support-frame-subframe-t3595659",
+      "source_type": "supplier_catalog",
+      "publisher": "plenty.parts aftermarket aggregator",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "notes": "Retailer gives 12762720/12825111 among Saab OE identifiers for an aftermarket support frame. Not proof of the direction of an Saab-approved supersession or true fitment."
+    },
+    {
+      "id": "epcverify-src-009",
+      "title": "2005 Saab B207 right engine mounting WIS",
+      "url": "https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/engine-mounting-right",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory material on independent WIS mirror)",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "notes": "Right engine-pad centering and mount bracket alignment; does not enumerate MY2005 late-frame conversion kit."
+    },
+    {
+      "id": "epcverify-src-010",
+      "title": "2005 Saab B207 power-train installation WIS",
+      "url": "https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/fitting-the-power-train",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory material on independent WIS mirror)",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "notes": "Subframe centering, engine pad/left mount torque and drivetrain support, with precise geometry and electrical and fuel precautions. Not a replacement-frame physical fitment approval."
+    }
+  ],
+  "facts": [
+    {
+      "id": "epcverify-fact-001",
+      "subject": "service_resource:saab_WebEPC",
+      "category": "official_parts_documentation",
+      "predicate": "vin_or_build_data_filtering_available",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {},
+      "source_ids": [
+        "epcverify-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Saab WebEPC; description",
+      "notes": "Functionality claimed by official host, not a successful VIN query; subscription-gated. Access needs licensed subscription."
+    },
+    {
+      "id": "epcverify-fact-002",
+      "subject": "service_resource:saab_WebEPC",
+      "category": "official_parts_documentation",
+      "predicate": "manufacturer_supersession_chains_available",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {},
+      "source_ids": [
+        "epcverify-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "WebEPC > approved alternatives and supersession chains",
+      "notes": "The public description promises chain data; no specific 12762720/24401110 chain was observed."
+    },
+    {
+      "id": "epcverify-fact-003",
+      "subject": "service_resource:saab_WebEPC",
+      "category": "official_parts_documentation",
+      "predicate": "vin_specific_fitment_comments_available",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {},
+      "source_ids": [
+        "epcverify-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "WebEPC > applicability comments",
+      "notes": "Applicability comments are available after authorized access. Existing inventory doesn't yet hold their contents."
+    },
+    {
+      "id": "epcverify-fact-004",
+      "subject": "service_resource:saab_WebEPC",
+      "category": "official_parts_documentation",
+      "predicate": "subscription_required_to_read_full_catalogue",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {},
+      "source_ids": [
+        "epcverify-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Saab WebEPC > subscriptions 1 day / 30 days / 1 year",
+      "notes": "Pricing and currency change; no universal free access, and no purchase was made."
+    },
+    {
+      "id": "epcverify-fact-005",
+      "subject": "service_resource:saab_WebWIS",
+      "category": "official_service_documentation",
+      "predicate": "service_bulletins_wiring_maintenance_documented",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {},
+      "source_ids": [
+        "epcverify-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Saab WebWIS > features",
+      "notes": "Official subscription site claims repair procedures, bulletin access, electrical schematics and service programs; access/license required."
+    },
+    {
+      "id": "epcverify-fact-006",
+      "subject": "part:32022623",
+      "category": "supplier_cross_reference",
+      "predicate": "esaabparts_claimed_predecessors",
+      "value": [
+        "12825111",
+        "12762720"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "source_ids": [
+        "epcverify-src-002"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Superseded Part Numbers",
+      "notes": "Retailer claim only; 2005 requires front engine-mount revision check; original 2005 fitment cannot be determined from year label."
+    },
+    {
+      "id": "epcverify-fact-007",
+      "subject": "part:24401110",
+      "category": "supplier_cross_reference",
+      "predicate": "front_subframe_bushing_reference",
+      "value": "13247173 front 4D/5D subframe bushing",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "source_ids": [
+        "epcverify-src-003",
+        "epcverify-src-005",
+        "epcverify-src-006"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "eSaabParts Superseded Part Numbers / Saab Parts Counter / Skandix OE number",
+      "notes": "Three retailers associate 24401110 with a bushing. Evidence insufficient to decide whether Saab ever reused the OEM identifier on a complete subframe."
+    },
+    {
+      "id": "epcverify-fact-008",
+      "subject": "supplier_sku:RD24401110",
+      "category": "supplier_cross_reference",
+      "predicate": "complete_subframe_oe_reference_group",
+      "value": [
+        "12762720",
+        "12825111",
+        "24401110",
+        "32022623"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "source_ids": [
+        "epcverify-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "provisional",
+      "locator": "R&D Car Parts; Part no RD24401110; O/E references",
+      "notes": "Complete-frame retail product uses its own prefixed SKU RD24401110. OE references field conflicts with the bushing-specific use of unprefixed 24401110; cross-reference grouping is not a supersession chain."
+    },
+    {
+      "id": "epcverify-fact-009",
+      "subject": "supplier_sku:RD13247173A",
+      "category": "supplier_cross_reference",
+      "predicate": "bushing_oe_reference_group",
+      "value": [
+        "13247173",
+        "24401110"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "source_ids": [
+        "epcverify-src-007"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "provisional",
+      "locator": "R&D parts list; Bushing Subframe Saab 9-3",
+      "notes": "The same seller uses 24401110 for a bushing SKU. Not independent corroboration of the other R&D listing."
+    },
+    {
+      "id": "epcverify-fact-010",
+      "subject": "part:12762720",
+      "category": "supplier_cross_reference",
+      "predicate": "independent_merchant_grouping",
+      "value": [
+        "12762720",
+        "12825111",
+        "32022623"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "epcverify-src-002",
+        "epcverify-src-004",
+        "epcverify-src-008"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "eSaabParts and R&D frame references; aftermarket frame equivalences",
+      "notes": "More than one supplier links these identifiers. That is cross-reference overlap, not official authorized direction of the supersession."
+    },
+    {
+      "id": "epcverify-fact-011",
+      "subject": "engine_mount:right:B207:2005",
+      "category": "mounting_dependencies",
+      "predicate": "wisl_engine_pad_alignment_required",
+      "value": "Engine pad and bracket must align and must not bear incorrectly against one another during factory service.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "epcverify-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 1, Important",
+      "notes": "No number for the updated 32022623-related mount was provided."
+    },
+    {
+      "id": "epcverify-fact-012",
+      "subject": "subframe:powertrain:B207:2005",
+      "category": "mounting_dependencies",
+      "predicate": "wisl_body_centred_mount",
+      "value": "Engine/subframe centering tooling, reference holes and body guide pins are specified during powertrain installation.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "epcverify-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Fitting the power train, steps 1–5",
+      "notes": "Mechanical alignment process supports the need for revision checks; not evidence that a different frame is interchangeable."
+    }
+  ],
+  "issues": [],
+  "parts": [
+    {
+      "id": "epcverify-part-001",
+      "part_number": "24401110",
+      "title": "Reported predecessor of 13247173 front subframe bushing, 4D/5D",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "superseded_by",
+          "part_number": "13247173",
+          "conditions": "Claimed by eSaabParts, Saab Parts Counter and Skandix as a front subframe BUSHING predecessor; an R&D seller also groups 24401110 with a complete frame, unresolved catalog identity conflict."
+        }
+      ],
+      "requirements": [
+        "Do not treat 24401110 alone as a complete subframe part number.",
+        "Verify actual component category, position and VIN using official WebEPC before ordering."
+      ],
+      "source_ids": [
+        "epcverify-src-003",
+        "epcverify-src-005",
+        "epcverify-src-006",
+        "epcverify-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Conflicting merchant references; no original Saab/Orio EPC output was accessed."
+    },
+    {
+      "id": "epcverify-part-002",
+      "part_number": "RD24401110",
+      "title": "R&D Car Parts supplier-specific complete subframe SKU",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "aftermarket_reference",
+          "part_number": "32022623",
+          "conditions": "Retailer grouped 32022623 with this SKU as OE reference; no verified OEM supersession, no stable current sale guarantee."
+        }
+      ],
+      "requirements": [
+        "Distinguish prefixed merchant SKU RD24401110 from unprefixed Saab OE reference 24401110.",
+        "Confirm actual supplied whole-assembly part number and body/drivetrain/engine-mount dependencies with licensed manufacturer EPC."
+      ],
+      "source_ids": [
+        "epcverify-src-004",
+        "epcverify-src-007"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Retailer describes complete Saab 9-3 front subframe; part type identity conflicts with bushing OE reference for same unprefixed numeral."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "epcverify-gap-001",
+      "title": "Official VIN-filtered 9-3 front subframe EPC comparison",
+      "missing_inputs": [
+        "Gain licensed WebEPC access; for known 2003–2006 representative VINs capture original/front replacement IDs, VIN suffix, engine/gearbox/body/trim filters, approved NLS substitutions and annotation dates."
+      ],
+      "reason": "Official service confirms WebEPC exists but no paid VIN-specific records were accessed.",
+      "source_ids": [
+        "epcverify-src-001"
+      ]
+    },
+    {
+      "id": "epcverify-gap-002",
+      "title": "24401110 conflicting part type",
+      "missing_inputs": [
+        "Resolve whether Saab OE 24401110 identifies only a front subframe bushing, whether RD24401110 is a merchant-only assembled-subframe SKU and why R&D lists 24401110 as an OE frame reference."
+      ],
+      "reason": "Three retailer listings identify 24401110 as a bushing predecessor to 13247173 while another retailer groups it with a full frame; assigning a frame interchange is unsafe.",
+      "source_ids": [
+        "epcverify-src-003",
+        "epcverify-src-004",
+        "epcverify-src-005",
+        "epcverify-src-006",
+        "epcverify-src-007"
+      ]
+    },
+    {
+      "id": "epcverify-gap-003",
+      "title": "Manufacturer-substantiated 12762720 chain",
+      "missing_inputs": [
+        "Use WebEPC part-number history to determine identity/sequence of 12762720, 12825111 and 32022623, including supersession direction and mounting hardware for each vehicle build."
+      ],
+      "reason": "Multiple retailers/aggregators list the numbers but none proves current factory authorization or conversion requirements.",
+      "source_ids": [
+        "epcverify-src-002",
+        "epcverify-src-004",
+        "epcverify-src-008"
+      ]
+    },
+    {
+      "id": "epcverify-gap-004",
+      "title": "PI 08-01 (2007) and 2005 engine mount revision",
+      "missing_inputs": [
+        "Read official service bulletin from Saab WebWIS, identify exact 2003–2005 production chassis and retrofit mount, bracket, bushing, bolts and required tooling."
+      ],
+      "reason": "Original factory bulletins are available through WebWIS subscription; no full PI text or conversion bill of materials obtained.",
+      "source_ids": [
+        "epcverify-src-001",
+        "epcverify-src-009",
+        "epcverify-src-010"
+      ]
+    },
+    {
+      "id": "epcverify-gap-005",
+      "title": "Source material license and update frequency",
+      "missing_inputs": [
+        "Read Saab Parts WebEPC/WebWIS subscription terms before persisting screenshots/bulk copied data; define manually authored paraphrase provenance, access dates and license restrictions."
+      ],
+      "reason": "Access to a catalogue does not confer redistribution or automated scraping rights.",
+      "source_ids": [
+        "epcverify-src-001"
+      ]
+    }
+  ]
+}
