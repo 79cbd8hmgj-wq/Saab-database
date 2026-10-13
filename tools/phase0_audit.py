@@ -101,7 +101,7 @@ def render_census(snapshot: dict) -> str:
         lines.append(f"| `{label}` | {snapshot['explicit_scope_counts'][label]} / {denom} |")
     lines.extend([
         "",
-        "### Factory-source record coverage by original Saab model year",
+        "### Technical record coverage by original Saab model year",
         "",
         "Only facts/issues/parts with the **same applicability group** specifying both",
         "platform and year are counted. Repeated records can appear in more than one",
