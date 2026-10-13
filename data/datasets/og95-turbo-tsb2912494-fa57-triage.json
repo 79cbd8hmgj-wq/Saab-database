@@ -1,0 +1,1281 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "og95_turbo_tsb_2912494_fa57_triage",
+  "sources": [
+    {
+      "id": "prebuy-src-001",
+      "title": "Original Saab bulletin 291-2494 November 2004, turbo control-valve misdiagnosis",
+      "url": "https://saabwisonline.com/9-5-9600/1998/2-engine/turbocharger-system/bulletins-si-mi/291-2494-reduced-performance-and-diagnostic-trouble-codes-for-the-turbo-control-valve",
+      "source_type": "factory_bulletin",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline",
+      "accessed_at": "2026-10-12",
+      "notes": "Bulletin explicitly dated November 2004, market all, OG9-5 M98-; /1998/ mirror path is NOT bulletin publication date. Shaft-play axial/up-down terminology is internally inconsistent and must NOT be used as calibrated numeric tolerance."
+    },
+    {
+      "id": "prebuy-src-002",
+      "title": "2005 OG9-5 5-speed automatic adaptation reset procedure",
+      "url": "https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/adjustment-replacement/adaptation-resetting",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline",
+      "accessed_at": "2026-10-12",
+      "notes": "Use original source year, platform, exact drivetrain and conditions; does not diagnose any particular project car."
+    },
+    {
+      "id": "prebuy-src-003",
+      "title": "2009 OG9-5 5-speed automatic adaptation reset procedure",
+      "url": "https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/adjustment-replacement/adaptation-resetting",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline",
+      "accessed_at": "2026-10-12",
+      "notes": "Use original source year, platform, exact drivetrain and conditions; does not diagnose any particular project car."
+    },
+    {
+      "id": "prebuy-src-004",
+      "title": "2007 OG9-5 original FA57 TCM engine-specific programming",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/technical-description/control-module",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline",
+      "accessed_at": "2026-10-12",
+      "notes": "Use original source year, platform, exact drivetrain and conditions; does not diagnose any particular project car."
+    },
+    {
+      "id": "prebuy-src-005",
+      "title": "2005 OG9-5 P0717 input shaft speed no signal diagnostic",
+      "url": "https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0717",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline",
+      "accessed_at": "2026-10-12",
+      "notes": "Use original source year, platform, exact drivetrain and conditions; does not diagnose any particular project car."
+    },
+    {
+      "id": "prebuy-src-006",
+      "title": "2009 OG9-5 P0735 faulty 5th gear ratio fault criteria",
+      "url": "https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0735",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline",
+      "accessed_at": "2026-10-12",
+      "notes": "Use original source year, platform, exact drivetrain and conditions; does not diagnose any particular project car."
+    },
+    {
+      "id": "prebuy-src-007",
+      "title": "2006 OG9-5 automatic stall test risks and fault differentiation",
+      "url": "https://saabwisonline.com/9-5-9600/2006/4-transmission/automatic-transmission/fault-diagnosis-fault-symptoms/checking-the-stalling-speed",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline",
+      "accessed_at": "2026-10-12",
+      "notes": "Use original source year, platform, exact drivetrain and conditions; does not diagnose any particular project car."
+    },
+    {
+      "id": "prebuy-src-008",
+      "title": "2007 OG9-5 T7 automatic differential protection system, DPS",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/technical-description/differential-protection-system-dps",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline",
+      "accessed_at": "2026-10-12",
+      "notes": "Use original source year, platform, exact drivetrain and conditions; does not diagnose any particular project car."
+    },
+    {
+      "id": "prebuy-src-009",
+      "title": "2008 OG9-5 5AT no-dipstick level via DT-47653 80C",
+      "url": "https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/adjustment-replacement/automatic-transmission-transmission-fluid-level-without-dipstick",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline",
+      "accessed_at": "2026-10-12",
+      "notes": "Use original source year, platform, exact drivetrain and conditions; does not diagnose any particular project car."
+    },
+    {
+      "id": "prebuy-src-010",
+      "title": "2006 OG9-5 factory turbo shaft-play directory, numeric content not available",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/turbocharger-system/technical-data/",
+      "source_type": "factory_manual",
+      "retrieval": "metadata_only",
+      "publisher": "Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline",
+      "accessed_at": "2026-10-12",
+      "notes": "Index page only: cannot retrieve actual year/type-specific shaft-play numerical technical table."
+    },
+    {
+      "id": "prebuy-src-011",
+      "title": "2008 OG9-5 factory turbo shaft-play directory, numeric content not available",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/turbocharger-system/technical-data/",
+      "source_type": "factory_manual",
+      "retrieval": "metadata_only",
+      "publisher": "Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline",
+      "accessed_at": "2026-10-12",
+      "notes": "Index page only: cannot retrieve actual year/type-specific shaft-play numerical technical table."
+    },
+    {
+      "id": "prebuy-src-012",
+      "title": "2009 OG9-5 FA57 TCM requested versus actual speed/pressure Read values",
+      "url": "https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/fault-diagnosis-general/menu-read-values",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline",
+      "accessed_at": "2026-10-12",
+      "notes": "Use original source year, platform, exact drivetrain and conditions; does not diagnose any particular project car."
+    },
+    {
+      "id": "prebuy-src-013",
+      "title": "2008 OG9-5 5AT maximum permissible torque TCM-to-engine request",
+      "url": "https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-description/maximum-permissible-torque",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline",
+      "accessed_at": "2026-10-12",
+      "notes": "Use original source year, platform, exact drivetrain and conditions; does not diagnose any particular project car."
+    }
+  ],
+  "facts": [
+    {
+      "id": "prebuy-fact-001",
+      "subject": "Saab original 9-5 9600",
+      "category": "bulletin",
+      "predicate": "turbo_tsb_2912494_header",
+      "value": {
+        "number": "291-2494",
+        "published": "2004-11",
+        "market": "all",
+        "saab_95": "M98- (no upper MY boundary printed)"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "all"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_tsb_2912494_header",
+      "notes": "Saab covers additional 9-3 platforms; this record isolates original 9-5 only. Bulletin year is 2004, not mirrored /1998/ URL year."
+    },
+    {
+      "id": "prebuy-fact-002",
+      "subject": "Saab original 9-5 9600",
+      "category": "bulletin",
+      "predicate": "turbo_tsb_returned_units_nonturbo_causes",
+      "value": [
+        "bypass valve diaphragm",
+        "wastegate actuator/unit",
+        "boost control function"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "all"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_tsb_returned_units_nonturbo_causes",
+      "notes": "Factory stated returned turbos often not root cause. No proportion or incidence rate supplied."
+    },
+    {
+      "id": "prebuy-fact-003",
+      "subject": "Saab original 9-5 9600",
+      "category": "diagnostic",
+      "predicate": "turbo_tsb_pre_replacement_snapshot",
+      "value": [
+        "model year and engine",
+        "current and stored DTC",
+        "Tech2 ECU VIN",
+        "ECU part and hardware number",
+        "software number and programming date",
+        "mileage and symptoms"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "all"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_tsb_pre_replacement_snapshot",
+      "notes": "Checklist describes historical authorized diagnostic equipment; missing observed values remain unknown."
+    },
+    {
+      "id": "prebuy-fact-004",
+      "subject": "Saab original 9-5 9600",
+      "category": "diagnostic",
+      "predicate": "turbo_tsb_petrol_wastegate_vacuum_pressure_test",
+      "value": "Pressure/vacuum pump and boost gauge check wastegate unit for leakage plus mechanical actuator-arm movement; leaking unit is a separate targeted repair.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "all"
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_tsb_petrol_wastegate_vacuum_pressure_test",
+      "notes": "Test belongs to 2004 bulletin applicable 9-5 petrol, not 2002 restricted clip repair approval."
+    },
+    {
+      "id": "prebuy-fact-005",
+      "subject": "Saab original 9-5 9600",
+      "category": "diagnostic",
+      "predicate": "turbo_tsb_petrol_bypass_membrane_test",
+      "value": "Pressure/vacuum pump tests bypass diaphragm for leakage; if leaking, isolate bypass valve/diaphragm rather than compressor.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "all"
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_tsb_petrol_bypass_membrane_test",
+      "notes": "Factory names a smaller repair branch; no current OEM part supersession supplied."
+    },
+    {
+      "id": "prebuy-fact-006",
+      "subject": "Saab original 9-5 9600",
+      "category": "diagnostic",
+      "predicate": "turbo_tsb_charge_air_pressure_test_required",
+      "value": "Manufacturer asks for WIS-appropriate 4-cylinder charge-air cooler/pressure pipe pressure test before turbo replacement.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "all"
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_tsb_charge_air_pressure_test_required",
+      "notes": "No numeric pressure or year-neutral leak threshold given here; refer to year-specific WIS procedure."
+    },
+    {
+      "id": "prebuy-fact-007",
+      "subject": "Saab original 9-5 9600",
+      "category": "diagnostic",
+      "predicate": "turbo_tsb_vacuum_circuit_divergent_tests",
+      "value": {
+        "with_vacuum_pump": {
+          "min_vacuum_bar": 0.7
+        },
+        "without_vacuum_pump": {
+          "min_vacuum_bar": 0.4
+        },
+        "check": "hoses/pump or manifold if threshold fails"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "all"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_tsb_vacuum_circuit_divergent_tests",
+      "notes": "The two values describe *different engine configurations*, not two acceptable results for the same B235R engine; verify if pump is installed."
+    },
+    {
+      "id": "prebuy-fact-008",
+      "subject": "Saab original 9-5 9600",
+      "category": "source_quality",
+      "predicate": "turbo_tsb_shaft_wording_not_dimensional_spec",
+      "value": {
+        "source_phrasing": "small axial play (up/down approximately 1–2mm); no radial play",
+        "internally_inconsistent_axes": true,
+        "calibrated_tolerance_verified": false,
+        "usable_numeric_axial_mm": null,
+        "usable_numeric_radial_mm": null
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "all"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_tsb_shaft_wording_not_dimensional_spec",
+      "notes": "The bulletin mixes axial with 'up/down' (ordinarily radial). This broad inspection checklist cannot be treated as year-specific GT17/TD04 engineered shaft-play tolerances. DO NOT use 1–2mm as a pass/fail threshold."
+    },
+    {
+      "id": "prebuy-fact-009",
+      "subject": "Saab original 9-5 9600",
+      "category": "diagnostic",
+      "predicate": "turbo_tsb_inspect_compressor_wheel",
+      "value": "Visually inspect compressor blades for damage and unusual oil leakage only after isolating boost-control/bypass faults.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "all"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_tsb_inspect_compressor_wheel",
+      "notes": "Observation is not a numeric wear measurement; check turbo and engine oil condition independently."
+    },
+    {
+      "id": "prebuy-fact-010",
+      "subject": "Saab original 9-5 9600",
+      "category": "transmission",
+      "predicate": "fa57_adaptation_trigger",
+      "value": [
+        "automatic transmission replaced",
+        "TCM replaced",
+        "TCM software replaced/updated"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_adaptation_trigger",
+      "notes": "Factory reset is only within defined service context, not recommended for arbitrary rough shifts."
+    },
+    {
+      "id": "prebuy-fact-011",
+      "subject": "Saab original 9-5 9600",
+      "category": "transmission",
+      "predicate": "fa57_adaptation_working_temp_C",
+      "value": {
+        "minimum": 65,
+        "maximum": 110
+      },
+      "unit": "°C",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_adaptation_working_temp_C",
+      "notes": "Tech 2 reports gearbox fluid temperature; temperature window for factory adaptation, not normal fluid-level measuring temp."
+    },
+    {
+      "id": "prebuy-fact-012",
+      "subject": "Saab original 9-5 9600",
+      "category": "safety",
+      "predicate": "fa57_adaptation_no_stall_heating",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_adaptation_no_stall_heating",
+      "notes": "Source explicitly warns NOT to warm automatic transmission using stall test; do not apply other WIS stall test as maintenance or field diagnostic."
+    },
+    {
+      "id": "prebuy-fact-013",
+      "subject": "Saab original 9-5 9600",
+      "category": "transmission",
+      "predicate": "fa57_adaptation_tcm_workflow_requires_verification",
+      "value": {
+        "tool": "Tech 2",
+        "checkpoint": "check that adaptation has taken effect and quality improved",
+        "method": "controlled neutral-D/R and driven shift cycles"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_adaptation_tcm_workflow_requires_verification",
+      "notes": "Summarizes authorized factory procedure, not instructions to reset unknown project car or conduct road tests on an unregistered unsafe vehicle."
+    },
+    {
+      "id": "prebuy-fact-014",
+      "subject": "Saab original 9-5 9600",
+      "category": "transmission",
+      "predicate": "fa57_adaptation_trigger",
+      "value": [
+        "automatic transmission replaced",
+        "TCM replaced",
+        "TCM software replaced/updated"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_adaptation_trigger",
+      "notes": "Factory reset is only within defined service context, not recommended for arbitrary rough shifts."
+    },
+    {
+      "id": "prebuy-fact-015",
+      "subject": "Saab original 9-5 9600",
+      "category": "transmission",
+      "predicate": "fa57_adaptation_working_temp_C",
+      "value": {
+        "minimum": 65,
+        "maximum": 110
+      },
+      "unit": "°C",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_adaptation_working_temp_C",
+      "notes": "Tech 2 reports gearbox fluid temperature; temperature window for factory adaptation, not normal fluid-level measuring temp."
+    },
+    {
+      "id": "prebuy-fact-016",
+      "subject": "Saab original 9-5 9600",
+      "category": "safety",
+      "predicate": "fa57_adaptation_no_stall_heating",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_adaptation_no_stall_heating",
+      "notes": "Source explicitly warns NOT to warm automatic transmission using stall test; do not apply other WIS stall test as maintenance or field diagnostic."
+    },
+    {
+      "id": "prebuy-fact-017",
+      "subject": "Saab original 9-5 9600",
+      "category": "transmission",
+      "predicate": "fa57_adaptation_tcm_workflow_requires_verification",
+      "value": {
+        "tool": "Tech 2",
+        "checkpoint": "check that adaptation has taken effect and quality improved",
+        "method": "controlled neutral-D/R and driven shift cycles"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_adaptation_tcm_workflow_requires_verification",
+      "notes": "Summarizes authorized factory procedure, not instructions to reset unknown project car or conduct road tests on an unregistered unsafe vehicle."
+    },
+    {
+      "id": "prebuy-fact-018",
+      "subject": "Saab original 9-5 9600",
+      "category": "identity",
+      "predicate": "fa57_2007_engine_specific_TCM",
+      "value": {
+        "engine_types": [
+          "B205E",
+          "B235E/R",
+          "D223L",
+          "B308E"
+        ],
+        "programming": "engine-specific by Tech 2/SPS",
+        "new_spare": "unprogrammed"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_2007_engine_specific_TCM",
+      "notes": "TCM sharing part number/housing is not programming interchange; availability of 2026 SPS is not established."
+    },
+    {
+      "id": "prebuy-fact-019",
+      "subject": "Saab original 9-5 9600",
+      "category": "diagnostic",
+      "predicate": "fa57_2007_TCM_adapt_wear_masking",
+      "value": {
+        "adapts": "gear-change pressure/time to smooth shifts despite wear",
+        "nonvolatile": "DTC and adaptation survive power loss"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_2007_TCM_adapt_wear_masking",
+      "notes": "Smooth shift quality or clearing battery power does not prove healthy clutch packs nor reset learned transmission corrections."
+    },
+    {
+      "id": "prebuy-fact-020",
+      "subject": "Saab original 9-5 9600",
+      "category": "diagnostic",
+      "predicate": "fa57_2005_P0717_condition",
+      "value": {
+        "dtc": "P0717",
+        "condition": "output shaft speed available, input shaft sensor signal absent",
+        "fallback": "TCM estimates input speed from output shaft signal"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_2005_P0717_condition",
+      "notes": "Do not immediately condemn entire gearbox on a potentially electrical input speed sensing fault."
+    },
+    {
+      "id": "prebuy-fact-021",
+      "subject": "Saab original 9-5 9600",
+      "category": "diagnostic",
+      "predicate": "fa57_2005_P0717_reference",
+      "value": "With selector in P or N, diagnostic Gearbox Input RPM should approximately match engine tachometer RPM.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_2005_P0717_reference",
+      "notes": "Condition-specific controlled diagnostic reference; potential wiring/intermittent causes described, not proof this car's RPM sensor works."
+    },
+    {
+      "id": "prebuy-fact-022",
+      "subject": "Saab original 9-5 9600",
+      "category": "diagnostic",
+      "predicate": "fa57_2009_P0735_ratio_error",
+      "value": {
+        "dtc": "P0735",
+        "condition": "5th gear, ATF >20°C, engine >400rpm, brake released, no limp mode before detection",
+        "ratio_deviation_more_than_percent": 20
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_2009_P0735_ratio_error",
+      "notes": "Genuine ratio mismatch can indicate costly hydraulics/clutch; source gives criteria but does not uniquely diagnose clutch vs sensor/controller."
+    },
+    {
+      "id": "prebuy-fact-023",
+      "subject": "Saab original 9-5 9600",
+      "category": "safety",
+      "predicate": "fa57_2006_stall_test_listed_but_unsafe",
+      "value": {
+        "engine_codes": [
+          "B205E",
+          "B235E",
+          "B235R",
+          "B308E"
+        ],
+        "range_rpm": [
+          2250,
+          2450
+        ],
+        "max_seconds": 5,
+        "min_pause_seconds": 60
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_2006_stall_test_listed_but_unsafe",
+      "notes": "Factory short full-throttle D/R stall procedure is HIGH LOAD and may overheat/damage a cheap unknown car. Record for qualified diagnosis only; NEVER recommend as used-car DIY check."
+    },
+    {
+      "id": "prebuy-fact-024",
+      "subject": "Saab original 9-5 9600",
+      "category": "diagnostic",
+      "predicate": "fa57_2006_stall_ambiguous_failure_causes",
+      "value": {
+        "below_range": [
+          "engine output reduced",
+          "converter freewheel issue"
+        ],
+        "above_D": [
+          "SLT pressure",
+          "C1 clutch/slip",
+          "F2 freewheel"
+        ],
+        "above_R": [
+          "SLT pressure",
+          "C2 clutch",
+          "B3 brake"
+        ],
+        "above_both": [
+          "SLT pressure",
+          "B5 brake",
+          "pump",
+          "hydraulic leakage",
+          "oil strainer"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_2006_stall_ambiguous_failure_causes",
+      "notes": "Even an out-of-range stress test does not distinguish gearbox from engine mechanically without other data; risk prohibits seller-lot use."
+    },
+    {
+      "id": "prebuy-fact-025",
+      "subject": "Saab original 9-5 9600",
+      "category": "diagnostic",
+      "predicate": "fa57_2007_DPS_conditions",
+      "value": {
+        "only_auto_petrol": true,
+        "vehicle_speed_below_kmh": 80,
+        "front_right_vs_TCM_output_difference_exceeds_kmh": 15
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_2007_DPS_conditions",
+      "notes": "Trionic T7 torque reduction during excessive wheelspin is DIFFERENT from traction control and a gearbox slip fault."
+    },
+    {
+      "id": "prebuy-fact-026",
+      "subject": "Saab original 9-5 9600",
+      "category": "diagnostic",
+      "predicate": "fa57_2007_DPS_example",
+      "value": {
+        "speed_disagreement_kmh": 20,
+        "torque_limit_Nm": 150
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_2007_DPS_example",
+      "notes": "This is one example in factory description, not a conversion table nor proof an intermittently low-power car has no fault."
+    },
+    {
+      "id": "prebuy-fact-027",
+      "subject": "Saab original 9-5 9600",
+      "category": "transmission",
+      "predicate": "fa57_2008_no_dipstick_level_condition",
+      "value": {
+        "tool": "DT-47653 gauge rod",
+        "TCM_ATF_temperature_C": 80,
+        "engine": "idle",
+        "selector": "P",
+        "volume_between_marks_L": 0.5
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_2008_no_dipstick_level_condition",
+      "notes": "Different from warm adaptation 65–110°C; requires identified hardware, safe site and qualified handling near hot catalytic converter."
+    },
+    {
+      "id": "prebuy-fact-028",
+      "subject": "Saab original 9-5 9600",
+      "category": "source_quality",
+      "predicate": "fa57_2005_vs_2009_adaptation_safety_conflict_resolution",
+      "value": {
+        "fluid_level_check_C": 80,
+        "adaptation_range_C": [
+          65,
+          110
+        ],
+        "stall_warming_allowed": false
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-002",
+        "prebuy-src-003",
+        "prebuy-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_2005_vs_2009_adaptation_safety_conflict_resolution",
+      "notes": "Comparative metadata only: 2008 ATF level method and 2005/09 adaptation years differ. Not a single-year universal set of procedure instructions."
+    },
+    {
+      "id": "prebuy-fact-029",
+      "subject": "Saab original 9-5 9600",
+      "category": "source_quality",
+      "predicate": "turbo_2006_and_2008_shaft_page_only",
+      "value": {
+        "MY2006_numeric_verified": false,
+        "MY2008_numeric_verified": false,
+        "do_not_transfer_TSB_1_to_2_mm": true
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-010",
+        "prebuy-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "turbo_2006_and_2008_shaft_page_only",
+      "notes": "2004 cross-platform bulletin ambiguous inspection note does not resolve unavailable turbine axial/radial measurement tables for B235R."
+    },
+    {
+      "id": "prebuy-fact-030",
+      "subject": "Saab original 9-5 9600",
+      "category": "diagnostic",
+      "predicate": "fa57_2009_live_current_vs_requested_lockup",
+      "value": "Compare *requested* and actual torque converter clutch slip (RPM) only during appropriate TCM control state.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_2009_live_current_vs_requested_lockup",
+      "notes": "Nonzero converter slip is not always failed converter; original TCM readout distinguishes commanded/actual, not a replacement threshold."
+    },
+    {
+      "id": "prebuy-fact-031",
+      "subject": "Saab original 9-5 9600",
+      "category": "diagnostic",
+      "predicate": "fa57_2008_TCMTorque_bus_reduction",
+      "value": {
+        "full_transmission_torque_table": "engine-code dependent",
+        "momentary_gear_change_reduction": "TCM communicates maximum permissible torque to engine T7"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "prebuy-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "fa57_2008_TCMTorque_bus_reduction",
+      "notes": "Do not interpret lower engine torque during a gear change as evidence engine/turbo power loss. Exact max value tied to engine type."
+    }
+  ],
+  "issues": [
+    {
+      "id": "prebuy-issue-001",
+      "title": "Saab 291-2494 requires boost-control fault isolation before condemning a turbo",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "all"
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "cause": "November 2004 all-market factory bulletin documents many misdiagnosed turbo returns and directs diaphragm, wastegate, hose, vacuum and compressor condition checks.",
+      "symptoms": [
+        "low boost and poor performance",
+        "turbo-control related DTCs",
+        "whistling or smoke can have several causes"
+      ],
+      "diagnosis_summary": "Capture ECU/hardware/software identification, codes, then independently verify bypass seal, wastegate actuation, relevant vacuum circuit and charge-air hose leaks; evaluate actual shaft/wheel damage only using corrected factory source and exact turbo specification.",
+      "correction_summary": "Repair confirmed boost control, leaks or actuator separately. Order mechanical turbo only after evidence of internal damage and verified current OE configuration.",
+      "source_ids": [
+        "prebuy-src-001",
+        "prebuy-src-010",
+        "prebuy-src-011"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "All markets bulletin 291-2494 (November 2004) is NOT the restricted non-US/CA B205E/B235E E-clip bulletin 291-2317 (January 2002).",
+        "Shaft play line 'axial up/down' is internally inconsistent; 1–2mm MUST NOT be used as an acceptance criterion.",
+        "The WIS /1998/ mirror path is not the November 2004 bulletin effective date."
+      ]
+    },
+    {
+      "id": "prebuy-issue-002",
+      "title": "MY2005/2009 TCM adaptation is a service consequence, not a generic harsh-shift cure",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "cause": "Factory adaptation procedure follows automatic transmission, TCM or software service; TCM uses durable learning that may mask wear and survive battery disconnect.",
+      "symptoms": [
+        "rough gear engagement after gearbox, TCM or software replacement",
+        "seller claims gearbox fixed by unplugging battery",
+        "shift changes as transmission warms"
+      ],
+      "diagnosis_summary": "Compare original gearbox/engine TCM programming, repairs, actual ATF temperature and codes. Reproduce only in controlled, safe, roadworthy circumstances.",
+      "correction_summary": "After correctly matched repairs, qualified technician performs full Tech 2 adaptation. Do not indiscriminately reset or use stall testing to warm unit.",
+      "source_ids": [
+        "prebuy-src-002",
+        "prebuy-src-003",
+        "prebuy-src-004"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Not proof that an adaptation reset cures physical clutch/valve-body damage.",
+        "Factory explicitly forbids warming transmission with a stall test.",
+        "Availability of modern Tech 2/SPS security and software has not been established."
+      ]
+    },
+    {
+      "id": "prebuy-issue-003",
+      "title": "2005 input-speed sensor code versus 2009 5th-gear ratio error",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "cause": "P0717 in MY2005 relates to lost input sensor with output-speed fallback, while MY2009 P0735 means a calculated 5th-gear ratio diverges beyond 20%.",
+      "symptoms": [
+        "CHECK GEARBOX and limp-home",
+        "RPM or gear readout disagreement",
+        "shifts/slipping under load"
+      ],
+      "diagnosis_summary": "Check actual year-specific code and criteria plus TCM live input/output data, selector/ATF status, harness and vehicle-specific failure symptoms; avoid conflating missing signal with positive ratio mismatch.",
+      "correction_summary": "Repair confirmed sensor/harness error when established. If true ratio slip persists, evaluate transmission internals and cost before purchase.",
+      "source_ids": [
+        "prebuy-src-005",
+        "prebuy-src-006",
+        "prebuy-src-012"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "P0735 is not a confirmed worn clutch without further diagnosis.",
+        "P0717 is not guaranteed to be only a cheap electrical fix.",
+        "2005 and 2009 diagnostic source year differences are preserved."
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "prebuy-gap-001",
+      "title": "GT17/TD04 shaft numerical play acceptance remains unverified",
+      "missing_inputs": [
+        "Find factory specific axial/radial shaft play with correct measurement axes, tool, temperature and turbo variant. 291-2494 calls 'axial up/down approx 1-2mm' and cannot stand as dimensional tolerance."
+      ],
+      "reason": "Factory diagnostic descriptions and year-indexed source records cannot establish vehicle health, exact turbo shaft allowable movement, present-day approved parts or repair costs without original part build data and measurements.",
+      "source_ids": [
+        "prebuy-src-001",
+        "prebuy-src-010",
+        "prebuy-src-011"
+      ]
+    },
+    {
+      "id": "prebuy-gap-002",
+      "title": "2004 turbo bulletin date vs exact year applicability",
+      "missing_inputs": [
+        "291-2494 says 9-5 M98- all markets; obtain later revisions, VIN/engine limits and superseded service advisories for 2005-2009."
+      ],
+      "reason": "Factory diagnostic descriptions and year-indexed source records cannot establish vehicle health, exact turbo shaft allowable movement, present-day approved parts or repair costs without original part build data and measurements.",
+      "source_ids": [
+        "prebuy-src-001"
+      ]
+    },
+    {
+      "id": "prebuy-gap-003",
+      "title": "Original non-US clip campaign separately identified",
+      "missing_inputs": [
+        "291-2317 Jan 2002 B205E/B235E non-US/CA remains separate; actual VIN approval and clip/diaphragm OEM part numbers require WebEPC."
+      ],
+      "reason": "Factory diagnostic descriptions and year-indexed source records cannot establish vehicle health, exact turbo shaft allowable movement, present-day approved parts or repair costs without original part build data and measurements.",
+      "source_ids": [
+        "prebuy-src-001"
+      ]
+    },
+    {
+      "id": "prebuy-gap-004",
+      "title": "2006 versus 2008 turbo shaft spec unavailable",
+      "missing_inputs": [
+        "Direct MY2006 and MY2008 numerical technical pages still inaccessible; preserve index-only status."
+      ],
+      "reason": "Factory diagnostic descriptions and year-indexed source records cannot establish vehicle health, exact turbo shaft allowable movement, present-day approved parts or repair costs without original part build data and measurements.",
+      "source_ids": [
+        "prebuy-src-010",
+        "prebuy-src-011"
+      ]
+    },
+    {
+      "id": "prebuy-gap-005",
+      "title": "Later 2007/08 transmission ratio and speed sensor diagnostic confirmation",
+      "missing_inputs": [
+        "Original pages for exact mid-years should be read before extending 2005 P0717 or 2009 P0735 criteria."
+      ],
+      "reason": "Factory diagnostic descriptions and year-indexed source records cannot establish vehicle health, exact turbo shaft allowable movement, present-day approved parts or repair costs without original part build data and measurements.",
+      "source_ids": [
+        "prebuy-src-005",
+        "prebuy-src-006"
+      ]
+    },
+    {
+      "id": "prebuy-gap-006",
+      "title": "TCM genuine hardware and software availability today",
+      "missing_inputs": [
+        "Need physical original TCM and gearbox serial/part numbers and lawful, supported Tech 2/SPS software for post repair programming."
+      ],
+      "reason": "Factory diagnostic descriptions and year-indexed source records cannot establish vehicle health, exact turbo shaft allowable movement, present-day approved parts or repair costs without original part build data and measurements.",
+      "source_ids": [
+        "prebuy-src-002",
+        "prebuy-src-003",
+        "prebuy-src-004"
+      ]
+    },
+    {
+      "id": "prebuy-gap-007",
+      "title": "High-load stall test alternative for project cars",
+      "missing_inputs": [
+        "No low-risk direct proxy provided for the 2006 2250-2450RPM full-throttle stall table; condition tests need qualified provider and safe vehicle."
+      ],
+      "reason": "Factory diagnostic descriptions and year-indexed source records cannot establish vehicle health, exact turbo shaft allowable movement, present-day approved parts or repair costs without original part build data and measurements.",
+      "source_ids": [
+        "prebuy-src-007"
+      ]
+    },
+    {
+      "id": "prebuy-gap-008",
+      "title": "Actual project 9-5 gearbox and turbo mechanical condition",
+      "missing_inputs": [
+        "Measured codes, coolant/ATF condition, oil feed, inlet-blade inspection, shaft/turbine tests, electrical harness continuity, and current repair quotes not yet collected."
+      ],
+      "reason": "Factory diagnostic descriptions and year-indexed source records cannot establish vehicle health, exact turbo shaft allowable movement, present-day approved parts or repair costs without original part build data and measurements.",
+      "source_ids": [
+        "prebuy-src-001",
+        "prebuy-src-004",
+        "prebuy-src-006"
+      ]
+    },
+    {
+      "id": "prebuy-gap-009",
+      "title": "TCC requested versus actual behavior load thresholds",
+      "missing_inputs": [
+        "MY2009 Read values shows both commanded and actual TCC slip but no standalone acceptable driving RPM deviation threshold; context/TCM calibrations needed."
+      ],
+      "reason": "Factory diagnostic descriptions and year-indexed source records cannot establish vehicle health, exact turbo shaft allowable movement, present-day approved parts or repair costs without original part build data and measurements.",
+      "source_ids": [
+        "prebuy-src-012"
+      ]
+    }
+  ]
+}
