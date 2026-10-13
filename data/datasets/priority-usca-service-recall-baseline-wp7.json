@@ -121,6 +121,16 @@
       "retrieval": "full_text",
       "accessed_at": "2026-10-13",
       "notes": "Government 2014 notice identifies MY2004–2011 Saab 9-3 convertibles with defective driver-side retractor; not evidence of repaired condition."
+    },
+    {
+      "id": "wp7-src-013",
+      "title": "MY2008 original Saab 9-5 US/CA 60,000-mile scheduled service checklist",
+      "url": "https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/60000-miles-us-ca",
+      "publisher": "Saab Automobile AB (factory WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Item 9 expressly schedules automatic gearbox fluid change at 60,000 miles; this is inconsistent with same MY2008 US/CA annual schedule listing 70,000 miles / 5 years. No hierarchy or revision resolution proven."
     }
   ],
   "facts": [
@@ -1031,6 +1041,36 @@
       "locator": "Affected products and Issue",
       "notes": "Independent Canadian market filing, not an individual vehicle completion check.",
       "review_status": "source_scoped"
+    },
+    {
+      "id": "wp7-fact-027",
+      "subject": "service:og95-usca-2008",
+      "category": "maintenance",
+      "predicate": "automatic_transmission_fluid_change_mileage_at_60000_mile_checklist",
+      "value": 60000,
+      "unit": "mile",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-013"
+      ],
+      "evidence_status": "documented",
+      "locator": "60,000 miles US/CA > numbered item 9",
+      "notes": "Contradicts other original MY2008 US/CA annual-service additional-work entry at 70,000 miles / 5 years (wp7-fact-014); both are preserved independently pending original booklet or Saab errata.",
+      "review_status": "source_scoped"
     }
   ],
   "issues": [
@@ -1235,6 +1275,42 @@
         "Does not cover all sedans",
         "No current part supply confirmed"
       ]
+    },
+    {
+      "id": "wp7-issue-006",
+      "title": "Conflicting MY2008 original 9-5 US/Canada automatic transmission fluid mileage entries",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "cause": "Original factory MY2008 service checklist at 60,000 miles calls for automatic gearbox fluid change while annual-service additional work specifies 70,000 miles / 5 years.",
+      "symptoms": [
+        "Two nonmatching published maintenance mileages: 60k and 70k",
+        "Actual transmission maintenance history unavailable"
+      ],
+      "diagnosis_summary": "Record both source documents and obtain specific owner's service booklet, factory revision/errata and known transmission maintenance history; do not choose the later threshold as verified just because it is in annual list.",
+      "correction_summary": "Treat service timing as unresolved in database; a qualified conservative service plan can be decided with actual gearbox identity, fluid specification, current condition and credible records, but must not be described as the definitive factory interval.",
+      "source_ids": [
+        "wp7-src-013",
+        "wp7-src-005"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Not a certified 2026 vehicle maintenance plan",
+        "No gearbox/VIN checked",
+        "No source-proven reason for contradictory original checklist mileages"
+      ]
     }
   ],
   "parts": [],
@@ -1337,6 +1413,21 @@
       "source_ids": [
         "wp7-src-011",
         "wp7-src-012"
+      ]
+    },
+    {
+      "id": "wp7-gap-008",
+      "title": "Resolve conflicting US/CA MY2008 original 9-5 automatic-transmission fluid mileages",
+      "missing_inputs": [
+        "Original printed MY2008 US/CA service booklet for FA57/automatic",
+        "factory WIS service revision and correction history",
+        "severe-duty exclusions if any",
+        "actual vehicle gearbox code and service record"
+      ],
+      "reason": "The original 60,000-mile checklist and annual 70,000-mile/5-year item disagree; choosing either as definitive would invent a source precedence.",
+      "source_ids": [
+        "wp7-src-013",
+        "wp7-src-005"
       ]
     }
   ]

@@ -10,12 +10,12 @@
 | Measure | Current records |
 | --- | ---: |
 | Research domains | 33 |
-| Source records | 509 |
-| Unique source URLs | 450 |
-| Technical facts | 1012 |
-| Diagnostic/correction issues | 81 |
+| Source records | 510 |
+| Unique source URLs | 451 |
+| Technical facts | 1013 |
+| Diagnostic/correction issues | 82 |
 | Part records | 76 |
-| Explicit open research gaps | 249 |
+| Explicit open research gaps | 250 |
 
 A repeated URL is not independent corroboration. These are stored record counts,
 **not** estimates of system completeness, part fitment confidence, failure rates,
@@ -25,14 +25,14 @@ or the probability that an individual vehicle is repairable.
 
 | Source retrieval | Records |
 | --- | ---: |
-| `full_text` | 480 |
+| `full_text` | 481 |
 | `partial` | 3 |
 | `search_excerpt` | 18 |
 | `metadata_only` | 8 |
 
 | Technical evidence | Facts + issues + parts |
 | --- | ---: |
-| `documented` | 1084 |
+| `documented` | 1086 |
 | `supplier_claim` | 78 |
 | `inference` | 7 |
 
@@ -44,13 +44,13 @@ is counted from individual groups, not from a misleading top-level union.
 
 | Scope field explicitly present | Records out of facts + issues + parts |
 | --- | ---: |
-| `platforms` | 1111 / 1169 |
-| `model_years` | 1020 / 1169 |
-| `markets` | 202 / 1169 |
-| `engine_codes` | 338 / 1169 |
-| `transmission_codes` | 162 / 1169 |
-| `body_styles` | 83 / 1169 |
-| `vin_ranges` | 24 / 1169 |
+| `platforms` | 1113 / 1171 |
+| `model_years` | 1022 / 1171 |
+| `markets` | 204 / 1171 |
+| `engine_codes` | 338 / 1171 |
+| `transmission_codes` | 164 / 1171 |
+| `body_styles` | 83 / 1171 |
+| `vin_ranges` | 24 / 1171 |
 
 ### Technical record coverage by original Saab model year
 
@@ -72,7 +72,7 @@ model-year row. Year-path names do not prove a given production revision.
 | 2005 | 158 | 11 | 21 |
 | 2006 | 151 | 15 | 20 |
 | 2007 | 132 | 17 | 19 |
-| 2008 | 178 | 24 | 19 |
+| 2008 | 179 | 25 | 19 |
 | 2009 | 124 | 14 | 19 |
 
 #### Second-generation 9-3, platform 9440
@@ -132,7 +132,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 | `priority_brake_hydraulic_safety` | 19 | 25 | 4 | 0 | 8 |
 | `priority_nonrunning_purchase_screen` | 13 | 20 | 4 | 0 | 8 |
 | `priority_structural_corrosion_inspection` | 14 | 21 | 3 | 0 | 8 |
-| `priority_usca_service_recall_baseline_wp7` | 12 | 26 | 5 | 0 | 7 |
+| `priority_usca_service_recall_baseline_wp7` | 13 | 27 | 6 | 0 | 8 |
 | `priority_vehicle_identity_gates` | 13 | 15 | 2 | 0 | 6 |
 | `repair_vs_replace_troubleshooting` | 17 | 31 | 4 | 0 | 9 |
 | `replacements` | 8 | 10 | 0 | 5 | 3 |
@@ -201,6 +201,8 @@ Every priority subsystem must have an explicit component and connection inventor
 For any proposed substitution, preserve installed OE part ID, VIN/engine/gearbox/market/option restrictions, genuine manufacturer-approved supersession direction **where evidenced**, dimensions/interfaces, safety and loading requirements, firmware/pairing/dependencies and installation tests. Supplier cross-references must remain supplier claims. If original manufacturer support cannot be obtained, mark **not approved / evidence pending**; do not assume bidirectional interchange.
 
 ## What this milestone changes
+
+Original MY2008 Saab 9-5 US/Canada scheduled maintenance conflicts on automatic gearbox oil: a numbered 60,000-mile service checklist calls for replacement while the annual additional-work section lists 70,000 miles or 5 years. Both original statements are now stored separately, with explicit missing factory revision and vehicle inputs, and neither is promoted to a universal service recommendation.
 
 The WP7 recall follow-up captures the original US 08V160 A-pillar noncompliance, Saab/GM 16V063 driver airbag programme notices 15041 and 15043, US 14V318 convertible-only driver belt retractor and Canadian 2014228 mirror recall. Registration history and VIN-specific completion are deliberately not inferred; old campaign remedies remain professional-service items rather than recommended DIY substitutions.
 
