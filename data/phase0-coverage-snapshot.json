@@ -2,29 +2,29 @@
   "schema_version": "1.0.0",
   "meaning": "Record coverage and evidence provenance, NOT completeness, fitment, or reliability",
   "counts": {
-    "sources": 525,
-    "facts": 1034,
-    "issues": 85,
-    "parts": 80,
-    "gaps": 261
+    "sources": 530,
+    "facts": 1044,
+    "issues": 86,
+    "parts": 81,
+    "gaps": 265
   },
-  "unique_source_urls": 461,
+  "unique_source_urls": 466,
   "retrieval_statuses": {
-    "full_text": 495,
+    "full_text": 500,
     "metadata_only": 8,
     "partial": 3,
     "search_excerpt": 19
   },
   "evidence_statuses": {
-    "documented": 1092,
+    "documented": 1102,
     "inference": 9,
-    "supplier_claim": 98
+    "supplier_claim": 100
   },
   "explicit_scope_counts": {
-    "platforms": 1141,
-    "model_years": 1044,
-    "markets": 204,
-    "engine_codes": 341,
+    "platforms": 1152,
+    "model_years": 1055,
+    "markets": 205,
+    "engine_codes": 352,
     "transmission_codes": 167,
     "body_styles": 83,
     "vin_ranges": 24
@@ -104,14 +104,14 @@
         "parts": 21
       },
       "2005": {
-        "facts": 75,
-        "issues": 16,
-        "parts": 21
+        "facts": 84,
+        "issues": 17,
+        "parts": 22
       },
       "2006": {
-        "facts": 115,
-        "issues": 18,
-        "parts": 26
+        "facts": 124,
+        "issues": 19,
+        "parts": 27
       },
       "2007": {
         "facts": 26,
@@ -168,6 +168,13 @@
       "issues": 0,
       "parts": 1,
       "gaps": 5
+    },
+    "cross_manufacturer_gm_saab_b207_water_pump": {
+      "sources": 5,
+      "facts": 10,
+      "issues": 1,
+      "parts": 1,
+      "gaps": 4
     },
     "cross_manufacturer_interchange_pilot": {
       "sources": 11,
@@ -388,9 +395,9 @@
     }
   },
   "parts_provenance": {
-    "total": 80,
+    "total": 81,
     "with_relationships": 22,
     "supplier_claim": 52,
-    "needs_vehicle_verification": 49
+    "needs_vehicle_verification": 50
   }
 }

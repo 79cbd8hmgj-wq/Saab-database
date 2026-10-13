@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 525 source records with 461 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 530 source records with 466 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -315,6 +315,18 @@ Dataset: [cross_manufacturer_front_hub_pilot](../data/datasets/cross-manufacture
 | `cross-src-002` | [2006 Saab 9-3 (9440) factory front wheel hub removal/refitting](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/front-suspension/adjustment-replacement/wheel-hub-front) | Saab Automobile AB (original WIS, mirrored by SaabWISOnline) | `full_text` |
 | `cross-src-003` | [2006 9-3 (9440) factory front ABS sensor integrated in hub](https://saabwisonline.com/9-3-9440/2006/5-brakes/tcs-esp/adjustment-replacement/front-wheel-speed-sensor-298fl-fr) | Saab Automobile AB (original WIS, mirrored by SaabWISOnline) | `full_text` |
 | `cross-src-004` | [FAG 713 6440 90 independent TecAlliance-based vehicle application catalogue](https://motostacja.com/p/38090.html) | Motostacja.pl (aftermarket retailer using TecAlliance vehicle application data) | `full_text` |
+
+## cross_manufacturer_gm_saab_b207_water_pump
+
+Dataset: [cross_manufacturer_gm_saab_b207_water_pump](../data/datasets/cross-manufacturer-gm-saab-b207-water-pump.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `gmwp-src-001` | [GM Genuine Parts water pump kit 12630084, direct Chevrolet parts product specification](https://parts.chevrolet.com/product/gm-genuine-parts-engine-water-pump-kit-12630084) | General Motors / Chevrolet official replacement parts channel | `full_text` |
+| `gmwp-src-002` | [Saab Parts Hedin official 12630084 original water pump for 9-3 B207](https://webshop-fi.saabparts.com/productdetail/saabparts/12630084) | Saab Parts / Hedin official Saab parts webshop | `full_text` |
+| `gmwp-src-003` | [Saab original B207 factory coolant pump replacement and balancer-shaft drive tool](https://saabwisonline.com/9-3-9440/2004/2-engine/4-cylinder-petrol/cooling-system/adjustment-replacement/coolant-pump) | Saab Automobile AB original WIS (SaabWISOnline mirror) | `full_text` |
+| `gmwp-src-004` | [Opel Vectra C Z20NET engine water pump OE catalogue rows and NLS statements](https://nemigaparts.com/cat_spares/epc/opel/z02/f/19/) | NemigaParts independent mirror of Opel EPC parts catalogue | `full_text` |
+| `gmwp-src-005` | [Saab parts retailer cross-reference for OEM-labelled 12630084 water pump](https://www.saabpartscounter.com/oem-parts/saab-water-pump-12630084) | Saab Parts Counter retailer original parts listing | `full_text` |
 
 ## cross_manufacturer_interchange_pilot
 

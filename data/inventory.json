@@ -5,6 +5,7 @@
     "b235r_oil_pcv_2006_2008",
     "corrections",
     "cross_manufacturer_front_hub_pilot",
+    "cross_manufacturer_gm_saab_b207_water_pump",
     "cross_manufacturer_interchange_pilot",
     "epc_provenance",
     "high_cost_powertrain_diagnostics",
@@ -38,24 +39,24 @@
     "vin_gearbox_provenance"
   ],
   "counts": {
-    "sources": 525,
-    "facts": 1034,
-    "issues": 85,
-    "parts": 80,
-    "gaps": 261
+    "sources": 530,
+    "facts": 1044,
+    "issues": 86,
+    "parts": 81,
+    "gaps": 265
   },
-  "unique_source_urls": 461,
+  "unique_source_urls": 466,
   "retrieval_statuses": {
-    "full_text": 495,
+    "full_text": 500,
     "metadata_only": 8,
     "partial": 3,
     "search_excerpt": 19
   },
   "evidence_statuses": {
-    "documented": 1092,
+    "documented": 1102,
     "inference": 9,
-    "supplier_claim": 98
+    "supplier_claim": 100
   },
   "research_date": "2026-10-13",
-  "notes": "Phase 0 WP6 initial B235 2008 US/CA emissions/exhaust and fuel/EVAP evidence: primary/main catalytic stages, T7 pre/post O2, purging/leak DTCs, instrumented pressure checks, NY legal restrictions. Factory WIS MY2008 directory cannot prove a particular North American VIN-approved catalyst; uninspected 2008 wagon restriction and structural condition remain unknown. Prior WP5 VIN/service-kit limitations also remain. Phase 0 WP7 initial source-scoped MY2008 US/CA 9-5 annual and mileage service plus historical NHTSA 15-year VIN-recall omission; no candidate VIN or manufacturer recall-service status looked up. WP7 recall supplement adds original NHTSA 08V160 9-5 trim, 16V063 9-5/9-3 airbag (GM campaign 15041/15043), 14V318 9-3 convertible retractor, and Canada 2014228, all with explicit unresolved VIN and completion gates. Distinct MY2008 original 9-5 US/CA ATF maintenance entries disagree: 60,000-mile service checklist vs annual 70,000 miles/5 years. Neither is promoted over the other; verify official revisions and vehicle-specific requirements. Cross-manufacturer pilot: original Schaeffler FAG 713 6440 90 front 9-3 hub supplier catalogue cross references Saab GM Opel, with real Saab WIS hub-integrated ABS architecture; donor OE interchange, VIN fit and comparative durability are not verified. Additional cross-maker candidate evidence: manufacturer-origin PFI PHU3191 Saab/Opel/Fiat/Cadillac shared aftermarket hub; seller-sourced SKF VKBA3620 and Saab/Opel 93188111 / Delphi LP1723 brake-pad lead with VIN option restrictions; original 9-5 radiator/PCV references remain Saab-specific. No verified donor, cost saving or durability increase."
+  "notes": "Phase 0 WP6 initial B235 2008 US/CA emissions/exhaust and fuel/EVAP evidence: primary/main catalytic stages, T7 pre/post O2, purging/leak DTCs, instrumented pressure checks, NY legal restrictions. Factory WIS MY2008 directory cannot prove a particular North American VIN-approved catalyst; uninspected 2008 wagon restriction and structural condition remain unknown. Prior WP5 VIN/service-kit limitations also remain. Phase 0 WP7 initial source-scoped MY2008 US/CA 9-5 annual and mileage service plus historical NHTSA 15-year VIN-recall omission; no candidate VIN or manufacturer recall-service status looked up. WP7 recall supplement adds original NHTSA 08V160 9-5 trim, 16V063 9-5/9-3 airbag (GM campaign 15041/15043), 14V318 9-3 convertible retractor, and Canada 2014228, all with explicit unresolved VIN and completion gates. Distinct MY2008 original 9-5 US/CA ATF maintenance entries disagree: 60,000-mile service checklist vs annual 70,000 miles/5 years. Neither is promoted over the other; verify official revisions and vehicle-specific requirements. Cross-manufacturer pilot: original Schaeffler FAG 713 6440 90 front 9-3 hub supplier catalogue cross references Saab GM Opel, with real Saab WIS hub-integrated ABS architecture; donor OE interchange, VIN fit and comparative durability are not verified. Additional cross-maker candidate evidence: manufacturer-origin PFI PHU3191 Saab/Opel/Fiat/Cadillac shared aftermarket hub; seller-sourced SKF VKBA3620 and Saab/Opel 93188111 / Delphi LP1723 brake-pad lead with VIN option restrictions; original 9-5 radiator/PCV references remain Saab-specific. No verified donor, cost saving or durability increase. First-party GM Genuine and Saab Original supplier channels both list water-pump SKU 12630084 for B207-related service; GM generic marketing text erroneously suggests belt drive while part-specific attributes and original Saab WIS are gear/pinion drive. Real VIN, package contents, older Opel number chain, durability and exact cost remain unverified. Never apply the 2010-11 9-5 650/B207 part to the original MY2008 9-5 9600 B235."
 }
