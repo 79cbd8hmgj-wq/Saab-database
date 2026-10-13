@@ -1,0 +1,591 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "us_retail_parts_supply_snapshot",
+  "sources": [
+    {
+      "id": "usparts-src-001",
+      "title": "eSaabParts Saab 12630084 original 9-3 B207 / later 9-5 650 water pump",
+      "url": "https://www.esaabparts.com/saab/parts/12630084",
+      "publisher": "eSaabParts U.S.-facing independent Saab parts retailer",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "2026-10-13 page retrieval displayed $159.50 and 'In Stock: 10 Available'. Product diagram B207 9-3 (9440) MY2003-11 and NG9-5 (650) MY2010-12, not original 9-5 B235. Inventory may change/sidecar pages show earlier crawler snapshots; NOT real-time verified stock."
+    },
+    {
+      "id": "usparts-src-002",
+      "title": "eSaabParts HEPU 32020290 aftermarket B207 pump option",
+      "url": "https://www.esaabparts.com/saab/parts/32020290",
+      "publisher": "eSaabParts U.S.-facing independent Saab parts retailer",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "2026-10-13 displayed $91.74 but 'Currently Unavailable' for HEPU 32020290, represented as alternative to Saab 12630084. Advertised lower price is not an available lower-cost repair. B207 9-3 and newer 9-5 650 only."
+    },
+    {
+      "id": "usparts-src-003",
+      "title": "eSaabParts Saab Genuine T7 direct ignition cassette 32022255",
+      "url": "https://www.esaabparts.com/saab/parts/32022255",
+      "publisher": "eSaabParts U.S.-facing independent Saab parts retailer",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "2026-10-13 retrieved page $316.10, '20+ Available'; indexed diagram section older crawl shows two, so advertised inventory is not reliable live count. MY1999–2009 original 9-5 B205/B235 and earlier 9-3 9400, not 9440 B207."
+    },
+    {
+      "id": "usparts-src-004",
+      "title": "eSaabParts Nissens 32019620 original 9-5 automatic radiator",
+      "url": "https://www.esaabparts.com/saab/parts/32019620",
+      "publisher": "eSaabParts U.S.-facing independent Saab parts retailer",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "2026-10-13 retrieved page $211.98, 'In Stock: 4 Available'; another search-cached retailer page stated available from Sweden. Same supplier contradictory snapshots caution against definitive warehouse location or shipping times. Original 9-5 9600 MY2002–2009 with automatic radiator only."
+    },
+    {
+      "id": "usparts-src-005",
+      "title": "eSaabParts original 9-5 starter exploded diagram including Bosch remanufactured alternative",
+      "url": "https://www.esaabparts.com/viewparts.php?searchpart=1&section=323308856",
+      "publisher": "eSaabParts U.S.-facing independent Saab parts retailer",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "2026-10-13 page: original number 5194758 2002–2009 'Currently Unavailable' at $408.98; Bosch remanufactured 32101497 seller listed $194.99, 4 in US location, referencing Saab 5194758. An individual VIN/gearbox is not checked. Stock and pricing are time-dependent, core and warranty terms absent."
+    },
+    {
+      "id": "usparts-src-006",
+      "title": "Saab Parts U.S. official authorized online retailer list",
+      "url": "https://saabparts.com/us/affiliated-retail-parts-websites/",
+      "publisher": "Saab Parts / Hedin / SPG North America manufacturer-support channel",
+      "source_type": "technical_reference",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Official USA support-channel list includes Schmelz Countryside Saab (ordereuroparts), Taliaferro (genuinesaab), Mitchell Saab (saabpartscounter), and Canadian Nordic Speed. A named retailer does not prove it stocks any candidate specific part number."
+    },
+    {
+      "id": "usparts-src-007",
+      "title": "Saab Parts U.S. manufacturer-channel service warranty statement",
+      "url": "https://saabparts.com/us/why-book-with-us/",
+      "publisher": "Saab Parts / Hedin manufacturer-support channel",
+      "source_type": "technical_reference",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Manufacturer channel states Saab Original parts installed at Saab official service center have 3yr/36000-mile original parts and labor warranty. Warranty belongs to that service arrangement, NOT automatic coverage for DIY installation or independent marketplace products."
+    }
+  ],
+  "facts": [
+    {
+      "id": "usparts-fact-001",
+      "subject": "retail:eSaabParts:12630084",
+      "category": "us_retail_quote_snapshot",
+      "predicate": "quoted_price",
+      "value": 159.5,
+      "unit": "USD",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "usparts-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Water Pump 12630084 > Price",
+      "notes": "USD seller page on 2026-10-13; no tax, shipping, installed price or future price."
+    },
+    {
+      "id": "usparts-fact-002",
+      "subject": "retail:eSaabParts:12630084",
+      "category": "us_retail_quote_snapshot",
+      "predicate": "quoted_stock_text",
+      "value": "In Stock: 10 Available",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "usparts-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Water Pump 12630084 > Inventory",
+      "notes": "Retailer page snapshot, not independently confirmed order fulfillment or VIN fit."
+    },
+    {
+      "id": "usparts-fact-003",
+      "subject": "retail:eSaabParts:32020290",
+      "category": "us_retail_quote_snapshot",
+      "predicate": "quoted_price",
+      "value": 91.74,
+      "unit": "USD",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "usparts-src-002"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "HEPU Water Pump 32020290 > Price",
+      "notes": "An advertised cheaper alternative with unavailable stock cannot be treated as an obtainable cost reduction."
+    },
+    {
+      "id": "usparts-fact-004",
+      "subject": "retail:eSaabParts:32020290",
+      "category": "us_retail_quote_snapshot",
+      "predicate": "quoted_stock_text",
+      "value": "Currently Unavailable",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "usparts-src-002"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "HEPU Water Pump 32020290 > Inventory",
+      "notes": "Seller says cannot order at time of retrieval; no manufacturer or alternate merchant US stock checked."
+    },
+    {
+      "id": "usparts-fact-005",
+      "subject": "retail:eSaabParts:32022255",
+      "category": "us_retail_quote_snapshot",
+      "predicate": "quoted_price",
+      "value": 316.1,
+      "unit": "USD",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "usparts-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Genuine T7 cassette 32022255 > Price",
+      "notes": "Complete ignition cassette purchase quote, not whole T7 ECM, not total installation, not comparable to T8 clone-only fee."
+    },
+    {
+      "id": "usparts-fact-006",
+      "subject": "retail:eSaabParts:32022255",
+      "category": "us_retail_quote_snapshot",
+      "predicate": "quoted_stock_text",
+      "value": "In Stock: 20+ Available",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "usparts-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Genuine T7 cassette 32022255 > Inventory",
+      "notes": "Another seller URL snapshot showed only two; live inventory count not independently reconciled."
+    },
+    {
+      "id": "usparts-fact-007",
+      "subject": "retail:eSaabParts:32019620",
+      "category": "us_retail_quote_snapshot",
+      "predicate": "quoted_price",
+      "value": 211.98,
+      "unit": "USD",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "source_ids": [
+        "usparts-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Nissens auto radiator 32019620 > Price",
+      "notes": "Original 9-5 9600 automatic radiator, not manual or 9-3 B207."
+    },
+    {
+      "id": "usparts-fact-008",
+      "subject": "retail:eSaabParts:32019620",
+      "category": "us_retail_quote_snapshot",
+      "predicate": "quoted_stock_text",
+      "value": "In Stock: 4 Available",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "source_ids": [
+        "usparts-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Nissens auto radiator 32019620 > Inventory",
+      "notes": "Search-cached same vendor had Sweden-only listing; actual ship-from stock not independently verified."
+    },
+    {
+      "id": "usparts-fact-009",
+      "subject": "retail:eSaabParts:32101497",
+      "category": "us_retail_quote_snapshot",
+      "predicate": "quoted_price",
+      "value": 194.99,
+      "unit": "USD",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "usparts-src-005"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Starter Motor diagram > Bosch reman 32101497",
+      "notes": "Bosch reman listing and Saab 5194758 reference, not actual VIN-approved starter, labor, core charge or fully landed price."
+    },
+    {
+      "id": "usparts-fact-010",
+      "subject": "retail:eSaabParts:32101497",
+      "category": "us_retail_quote_snapshot",
+      "predicate": "quoted_stock_text",
+      "value": "4 in US warehouse",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "usparts-src-005"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Starter Motor diagram > Bosch reman Inventory",
+      "notes": "Seller displayed four ready-to-ship US, subject to current supply; seller did not independently verify actual target gearbox/installed OE."
+    },
+    {
+      "id": "usparts-fact-011",
+      "subject": "retail:eSaabParts:5194758",
+      "category": "us_retail_quote_snapshot",
+      "predicate": "quoted_stock_text",
+      "value": "Currently Unavailable",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "usparts-src-005"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Starter Motor diagram > original 5194758",
+      "notes": "Original-number supplier item being unavailable does not imply starter repairs or remanufactured choices are unavailable."
+    },
+    {
+      "id": "usparts-fact-012",
+      "subject": "manufacturer:SaabPartsUS",
+      "category": "us_retail_quote_snapshot",
+      "predicate": "official_retail_partner_channels",
+      "value": [
+        "ordereuroparts.com",
+        "genuinesaab.com",
+        "saabpartscounter.com",
+        "nordicspeed.com"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440",
+          "9-5-9600"
+        ]
+      },
+      "source_ids": [
+        "usparts-src-006"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Official US Authorized Online Retail Partner section",
+      "notes": "Official support path for checking vendor quotes and parts applications; does not imply a listed dealer currently stocks any particular SKU."
+    },
+    {
+      "id": "usparts-fact-013",
+      "subject": "manufacturer:SaabPartsUS",
+      "category": "us_retail_quote_snapshot",
+      "predicate": "warranty_conditions",
+      "value": {
+        "months": 36,
+        "miles": 36000,
+        "requires": "Saab Original parts installed at an official Saab Service Center"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440",
+          "9-5-9600"
+        ]
+      },
+      "source_ids": [
+        "usparts-src-007"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Why book with us > Saab Original",
+      "notes": "This seller service warranty is conditional; don't apply to DIY parts, non-original aftermarket items or any independent dealer without eligibility check."
+    }
+  ],
+  "issues": [
+    {
+      "id": "usparts-issue-001",
+      "title": "Conflicting cached eSaabParts stock displays prevent treating quantities as verified live inventory",
+      "applicability": {
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2005,
+              2006
+            ],
+            "engine_codes": [
+              "B207"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009
+            ],
+            "engine_codes": [
+              "B235"
+            ],
+            "transmission_codes": [
+              "automatic"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009
+            ],
+            "engine_codes": [
+              "B235"
+            ]
+          }
+        ],
+        "platforms": [
+          "9-3-9440",
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B207",
+          "B235"
+        ]
+      },
+      "cause": "Retailer individual part pages, diagram views and web-indexed snapshots can differ in quantity, shipping location or age of content.",
+      "symptoms": [
+        "The same T7 cassette appears with '2' and '20+' units across cached sources",
+        "Nissens radiator retailer search snippet says Sweden available but product page says four available",
+        "A lower-priced HEPU replacement is marked unavailable"
+      ],
+      "diagnosis_summary": "Confirm exact current listed SKU, estimated delivery to buyer ZIP, VIN application, hardware in package, warranty and core charge with seller before relying on stock or budget.",
+      "correction_summary": "Store observation date and exact source page; no permanent inventory assertion, no replacement readiness or quantitative vehicle model reliability score.",
+      "source_ids": [
+        "usparts-src-002",
+        "usparts-src-003",
+        "usparts-src-004",
+        "usparts-src-005"
+      ],
+      "evidence_status": "inference",
+      "limits": [
+        "Cached pages and dynamic inventory are not direct order fulfillment or contract quote",
+        "No order placed, account access or inventory guaranteed",
+        "Different catalogue source views may reflect separate warehouses or update intervals"
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "usparts-gap-001",
+      "title": "Obtain VIN-filtered dealer quotations and landed repair totals",
+      "missing_inputs": [
+        "Actual individual Saab VIN, engine, gearbox and part OE stamping",
+        "current authorized Saab channel and at least two U.S. quotes per component",
+        "shipping/postage, taxes, core deposit, warranty, return policy and labor",
+        "parts in-hand/package verification"
+      ],
+      "reason": "Retail webpage prices alone omit total repair economics and VIN-filtered vehicle fit; engine/transmission/structural costs may dominate.",
+      "source_ids": [
+        "usparts-src-001",
+        "usparts-src-003",
+        "usparts-src-004",
+        "usparts-src-005",
+        "usparts-src-006",
+        "usparts-src-007"
+      ]
+    },
+    {
+      "id": "usparts-gap-002",
+      "title": "Actual stock fulfillment and delivery-time evidence",
+      "missing_inputs": [
+        "Direct merchant live confirmation at time of intended purchase",
+        "US source warehouse and vendor fulfillment versus Sweden import",
+        "cross-vendor independent price/availability check",
+        "temporary discontinued status and equivalent quality grade"
+      ],
+      "reason": "Stock counts conflict in cached pages; published catalogue alone is insufficient to claim long-term parts availability.",
+      "source_ids": [
+        "usparts-src-001",
+        "usparts-src-002",
+        "usparts-src-003",
+        "usparts-src-004",
+        "usparts-src-005"
+      ]
+    },
+    {
+      "id": "usparts-gap-003",
+      "title": "Matched-system Saab 9-3 versus 9-5 procurement and high-impact repair-cost comparison",
+      "missing_inputs": [
+        "At least one equivalent critical subsystem in both cars using original VIN filtered part IDs",
+        "genuine vs aftermarket complete replacement versus clone-only service distinction",
+        "real new and remanufactured availability, warranty and return terms",
+        "vehicle-specific labor and service tool costs"
+      ],
+      "reason": "Different parts and repair types quoted here cannot establish a numerical model-level sourcing advantage.",
+      "source_ids": [
+        "usparts-src-001",
+        "usparts-src-003",
+        "usparts-src-004",
+        "usparts-src-005"
+      ]
+    }
+  ]
+}

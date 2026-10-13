@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- [U.S. Saab replacement price and inventory listing snapshots](docs/research/us-retail-parts-supply-snapshot.md): exact date, supplier origin, out-of-stock alternatives, and explicit limits on stock and installed-cost claims.
+
 - [Original 9-5 B235 cross-brand starter/alternator countercheck](docs/research/og95-shared-electrics-countercheck.md): S0034/A0219 alternative supplier families; incompatible A0319 130A alternative and unresolved actual VIN scope.
 
 - [Trionic 7 ignition cassette versus Trionic 8 ECU repair support](docs/research/t7-t8-repair-support-model-choice.md): distinguish genuine current parts and specialist cloning conditions without comparing incompatible repair quotes.

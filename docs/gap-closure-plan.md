@@ -106,3 +106,8 @@ The [expanded supplier/FIAT/Opel/Saab study](research/cross-manufacturer-interch
 ### Equalizing the OG9-5 B235 electrical supplier comparison (2026-10-13)
 
 The [9-5 B235 countercheck](research/og95-shared-electrics-countercheck.md) adds manufacturer AS-PL starter S0034 and Opel/Vauxhall-referenced A0219 alternator alongside earlier A0319. This counterbalances a selection-biased initial B207 advantage: a cross-brand aftermarket common product is not a proven Opel used donor or guarantee of lower US cost or improved durability. Keep Gate C open until individual original VIN and electrical/mechanical applications, testing and repair price are known.
+
+
+### First source-backed U.S. retailer availability and repair-cost boundary (2026-10-13)
+
+The [U.S. retailer parts availability snapshot](research/us-retail-parts-supply-snapshot.md) identifies advertised current-listing B207 12630084 pump, unavailable HEPU pump alternative, genuine 9-5 32022255 T7 cassette, Bosch remanufactured 9-5 starter 32101497 and Nissens 9-5 automatic radiator 32019620. Seller prices are dated site snapshots, not live confirmed stock, US/CA VIN approval or delivered/installed cost, and they are **different repairs**, not a numerical model ranking. Obtain dealer quotes, shipping and current stock, original hardware identity and labor for a real candidate before deciding the best repair platform.
