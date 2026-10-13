@@ -21,6 +21,8 @@ engines, and platforms.
   documents and what still needs measurements or engineering data.
 - [Research reports](docs/research/): detailed notes from the individual research
   domains, including contradictions and gaps.
+- [2007–09 9-5 factory ground and power distribution](docs/research/og95-ground-power-0709.md):
+  year-scoped ground conductors, ignition supply modes, T7 component locators and petrol cooling-fan relay references.
 - [2007–09 9-5 T7 cooling and electrical research](docs/research/og95-t7-cooling-0709.md):
   separately verified model-year feeds, coolant sensor thresholds, and petrol fan/pressure safeguards.
 - [Original 9-5 Trionic 7 electrical diagnosis](docs/research/og95-t7-electrical.md):
@@ -39,8 +41,8 @@ engines, and platforms.
   North American specifications, WIS conflicts and source limits.
 - [Datasets](data/datasets/): structured JSON with source IDs and original links.
 
-As of October 12, 2026 the database contains **260 source records, 503 factual
-records, 27 issue records, 55 part records, and 105 explicit gaps** across fifteen
+As of October 12, 2026 the database contains **273 source records, 547 factual
+records, 29 issue records, 55 part records, and 111 explicit gaps** across sixteen
 research domains. This is not a completeness score.
 See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
 
