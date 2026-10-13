@@ -23,6 +23,8 @@ engines, and platforms.
   documents and what still needs measurements or engineering data.
 - [Research reports](docs/research/): detailed notes from the individual research
   domains, including contradictions and gaps.
+- [Priority 9-5 / 9-3 identity and chassis worksheets](docs/research/priority-vehicle-identity-gates.md):
+  Gate A/C work package 1; physical VIN/gearbox tags, model-year folder conflicts, FA57 vs AF40/F40 and side-specific suspension options without VIN-approved substitutions.
 - [Source-audited VIN, gearbox and WebEPC provenance](docs/research/vin-gearbox-provenance.md):
   independent MY2005/08 9-3 VIN codes, 9-5 WIS year-table conflicts, 9-5 vs 9-3 FA57 and TCM adaptation, and VIN-specific part-fitment evidence gates.
 - [Original Saab turbo misdiagnosis bulletin 291-2494 and FA57 MY2005/09 safeguards](docs/research/og95-turbo-tsb2912494-fa57-triage.md):
@@ -63,8 +65,8 @@ engines, and platforms.
   North American specifications, WIS conflicts and source limits.
 - [Datasets](data/datasets/): structured JSON with source IDs and original links.
 
-As of October 12, 2026 the database contains **423 source records, 876 factual
-records, 57 issue records, 74 part records, and 201 explicit gaps** across twenty-six
+As of October 13, 2026 the database contains **436 source records, 891 factual
+records, 59 issue records, 74 part records, and 207 explicit gaps** across twenty-seven
 research domains. This is not a completeness score.
 See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
 

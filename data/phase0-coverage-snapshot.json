@@ -2,29 +2,29 @@
   "schema_version": "1.0.0",
   "meaning": "Record coverage and evidence provenance, NOT completeness, fitment, or reliability",
   "counts": {
-    "sources": 423,
-    "facts": 876,
-    "issues": 57,
+    "sources": 436,
+    "facts": 891,
+    "issues": 59,
     "parts": 74,
-    "gaps": 201
+    "gaps": 207
   },
-  "unique_source_urls": 386,
+  "unique_source_urls": 396,
   "retrieval_statuses": {
-    "full_text": 399,
+    "full_text": 412,
     "metadata_only": 8,
     "partial": 3,
     "search_excerpt": 13
   },
   "evidence_statuses": {
-    "documented": 924,
+    "documented": 941,
     "inference": 5,
     "supplier_claim": 78
   },
   "explicit_scope_counts": {
-    "platforms": 963,
-    "model_years": 876,
+    "platforms": 979,
+    "model_years": 892,
     "markets": 144,
-    "engine_codes": 298,
+    "engine_codes": 301,
     "transmission_codes": 161,
     "body_styles": 70,
     "vin_ranges": 24
@@ -72,7 +72,7 @@
         "parts": 21
       },
       "2006": {
-        "facts": 122,
+        "facts": 123,
         "issues": 8,
         "parts": 20
       },
@@ -82,13 +82,13 @@
         "parts": 19
       },
       "2008": {
-        "facts": 135,
+        "facts": 137,
         "issues": 15,
         "parts": 19
       },
       "2009": {
-        "facts": 111,
-        "issues": 10,
+        "facts": 113,
+        "issues": 11,
         "parts": 19
       }
     },
@@ -104,13 +104,13 @@
         "parts": 19
       },
       "2005": {
-        "facts": 56,
-        "issues": 10,
+        "facts": 58,
+        "issues": 11,
         "parts": 16
       },
       "2006": {
-        "facts": 61,
-        "issues": 7,
+        "facts": 68,
+        "issues": 8,
         "parts": 21
       },
       "2007": {
@@ -287,6 +287,13 @@
       "issues": 3,
       "parts": 0,
       "gaps": 9
+    },
+    "priority_vehicle_identity_gates": {
+      "sources": 13,
+      "facts": 15,
+      "issues": 2,
+      "parts": 0,
+      "gaps": 6
     },
     "repair_vs_replace_troubleshooting": {
       "sources": 17,

@@ -1,6 +1,6 @@
-# Phase 0 research coverage audit — 26-domain refresh
+# Phase 0 research coverage audit — 27-domain refresh
 
-**Audit basis:** October 12, 2026, the 26 checked-in research datasets at the 19-PR merged baseline. This is a census of saved records, **not** an independent rereading of every original Saab source, an estimate of percent complete, or an engineering safety certification. The previous 7-domain baseline is historical and is superseded by this current audit.
+**Audit basis:** October 13, 2026, 27 datasets including the first Gate A/C vehicle identity package. The earlier 26-domain baseline remains preserved in PR #20. This is a census of saved records, **not** an independent rereading of every original Saab source, an estimate of percent complete, or an engineering safety certification. The previous 7-domain baseline is historical and is superseded by this current audit.
 
 **Living guardrail:** `tools/phase0_audit.py` recalculates all numeric tables from `data/datasets/*.json`. Its checked-in companion `data/phase0-coverage-snapshot.json` is verified by unit tests and `python3 tools/phase0_audit.py --check`. A new research PR must refresh these numbers when datasets change; otherwise CI should fail.
 
@@ -9,13 +9,13 @@
 
 | Measure | Current records |
 | --- | ---: |
-| Research domains | 26 |
-| Source records | 423 |
-| Unique source URLs | 386 |
-| Technical facts | 876 |
-| Diagnostic/correction issues | 57 |
+| Research domains | 27 |
+| Source records | 436 |
+| Unique source URLs | 396 |
+| Technical facts | 891 |
+| Diagnostic/correction issues | 59 |
 | Part records | 74 |
-| Explicit open research gaps | 201 |
+| Explicit open research gaps | 207 |
 
 A repeated URL is not independent corroboration. These are stored record counts,
 **not** estimates of system completeness, part fitment confidence, failure rates,
@@ -25,14 +25,14 @@ or the probability that an individual vehicle is repairable.
 
 | Source retrieval | Records |
 | --- | ---: |
-| `full_text` | 399 |
+| `full_text` | 412 |
 | `partial` | 3 |
 | `search_excerpt` | 13 |
 | `metadata_only` | 8 |
 
 | Technical evidence | Facts + issues + parts |
 | --- | ---: |
-| `documented` | 924 |
+| `documented` | 941 |
 | `supplier_claim` | 78 |
 | `inference` | 5 |
 
@@ -44,13 +44,13 @@ is counted from individual groups, not from a misleading top-level union.
 
 | Scope field explicitly present | Records out of facts + issues + parts |
 | --- | ---: |
-| `platforms` | 963 / 1007 |
-| `model_years` | 876 / 1007 |
-| `markets` | 144 / 1007 |
-| `engine_codes` | 298 / 1007 |
-| `transmission_codes` | 161 / 1007 |
-| `body_styles` | 70 / 1007 |
-| `vin_ranges` | 24 / 1007 |
+| `platforms` | 979 / 1024 |
+| `model_years` | 892 / 1024 |
+| `markets` | 144 / 1024 |
+| `engine_codes` | 301 / 1024 |
+| `transmission_codes` | 161 / 1024 |
+| `body_styles` | 70 / 1024 |
+| `vin_ranges` | 24 / 1024 |
 
 ### Technical record coverage by original Saab model year
 
@@ -70,10 +70,10 @@ model-year row. Year-path names do not prove a given production revision.
 | 2003 | 27 | 3 | 17 |
 | 2004 | 55 | 6 | 20 |
 | 2005 | 151 | 8 | 21 |
-| 2006 | 122 | 8 | 20 |
+| 2006 | 123 | 8 | 20 |
 | 2007 | 114 | 14 | 19 |
-| 2008 | 135 | 15 | 19 |
-| 2009 | 111 | 10 | 19 |
+| 2008 | 137 | 15 | 19 |
+| 2009 | 113 | 11 | 19 |
 
 #### Second-generation 9-3, platform 9440
 
@@ -81,8 +81,8 @@ model-year row. Year-path names do not prove a given production revision.
 | ---: | ---: | ---: | ---: |
 | 2003 | 18 | 14 | 16 |
 | 2004 | 28 | 15 | 19 |
-| 2005 | 56 | 10 | 16 |
-| 2006 | 61 | 7 | 21 |
+| 2005 | 58 | 11 | 16 |
+| 2006 | 68 | 8 | 21 |
 | 2007 | 15 | 8 | 20 |
 | 2008 | 18 | 8 | 21 |
 | 2009 | 11 | 8 | 21 |
@@ -127,6 +127,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 | `og95_t7_electrical` | 22 | 43 | 4 | 0 | 7 |
 | `og95_turbo_oil_feed_solenoids` | 14 | 39 | 3 | 0 | 9 |
 | `og95_turbo_tsb_2912494_fa57_triage` | 13 | 31 | 3 | 0 | 9 |
+| `priority_vehicle_identity_gates` | 13 | 15 | 2 | 0 | 6 |
 | `repair_vs_replace_troubleshooting` | 17 | 31 | 4 | 0 | 9 |
 | `replacements` | 8 | 10 | 0 | 5 | 3 |
 | `simulation` | 20 | 40 | 0 | 0 | 15 |
@@ -195,7 +196,7 @@ For any proposed substitution, preserve installed OE part ID, VIN/engine/gearbox
 
 ## What this milestone changes
 
-We should **stop** making consecutive micro-PRs solely to increase fact count. Each future research batch should reference a named Phase 0 gate and inspection- or interchange-blocking missing evidence, supply a real source outcome, and update the systematic audit. No release-quality parts recommendation, purchase score, or simulation claim follows from the current inventory.
+Work package 1 has now added scoped 9-5 and 9-3 physical identity worksheets, but the missing 2005–09/2006 VIN decoding and VIN-filtered WebEPC records remain explicit blockers. We should **stop** making consecutive micro-PRs solely to increase fact count. Each future research batch should reference a named Phase 0 gate and inspection- or interchange-blocking missing evidence, supply a real source outcome, and update the systematic audit. No release-quality parts recommendation, purchase score, or simulation claim follows from the current inventory.
 
 The next work queue is in [the prioritized gap-closure plan](gap-closure-plan.md). Structural safety, vehicle identity and current OEM part applicability precede optional deeper boost/TCM numeric research.
 
