@@ -1,0 +1,1509 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "og95_t7_electrical",
+  "sources": [
+    {
+      "id": "og95t7-src-001",
+      "title": "MY2006 WIS: Trionic T7 4-cylinder control module",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/control-module",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-002",
+      "title": "MY2006 WIS: ECU power supply and fuses",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/control-module-power-supply",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-003",
+      "title": "MY2006 WIS: Shared 5V sensor supply",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/5v-supply",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-004",
+      "title": "MY2006 WIS: ECU ground circuits",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/ground",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-005",
+      "title": "MY2006 WIS: Crankshaft sensor operating description",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/crankshaft-position-sensor",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-006",
+      "title": "MY2006 WIS: Crankshaft position sensor test specifications",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-data/crankshaft-position-sensor-345",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-007",
+      "title": "MY2006 WIS: Main relay logic and no-run diagnosis",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/main-relay",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-008",
+      "title": "MY2006 WIS: Fuel-pump relay priming and DTCs",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/fuel-pump-relay",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-009",
+      "title": "MY2006 WIS: Ignition discharge module and combustion feedback",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/ignition-discharge-module",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-010",
+      "title": "MY2006 WIS: Ignition discharge module hardware specifications",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-data/ignition-discharge-module-346",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-011",
+      "title": "MY2006 WIS: MAF signal and substitution strategy",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/mass-air-flow-sensor",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-012",
+      "title": "MY2006 WIS: Dual pedal sensor and limp-home",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/pedal-position-sensor",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-013",
+      "title": "MY2006 WIS: Throttle limp-home mechanical design",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/throttle-control",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-014",
+      "title": "MY2006 WIS: Fuel shut-off and immobilizer trigger",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/fuel-shut-off",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-015",
+      "title": "MY2006 WIS: Trionic bus and module dependencies",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/bus-messages-trionic-t7",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-016",
+      "title": "MY2006 WIS: TWICE bus and immobilizer authorization",
+      "url": "https://saabwisonline.com/9-5-9600/2006/3-electrical-system/bus-and-diagnostics-communication/technical-description/bus-messages-twice",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-017",
+      "title": "MY2007 WIS: 2007 T7 4-cylinder grounding",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/technical-description/ground",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-018",
+      "title": "MY2008 WIS: 2008 T7 4-cylinder grounding",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/technical-description/ground",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-019",
+      "title": "MY2009 WIS: 2009 T7 4-cylinder ECU supply",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/trionic-t7-4-cyl/technical-description/control-module-power-supply",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-020",
+      "title": "MY2006 WIS: Coolant temperature sensor resistance curve",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-data/coolant-temperature-sensor-202",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Scope is the named model-year WIS directory's Trionic T7 4-cylinder system only; does not prove identical implementation across all engine, market or software revisions."
+    },
+    {
+      "id": "og95t7-src-021",
+      "title": "MY2006 WIS: Intake-air sensor data with inconsistent location",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-data/intake-air-temperature-sensor-407",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "WIS location line says intake manifold but explanatory body states sensor combined with charge-air pressure sensor on charge pipe; retain contradiction."
+    },
+    {
+      "id": "og95t7-src-022",
+      "title": "MY2005 WIS: 2005 control-module Tech2 immobilizer pairing",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/trionic-t7-4-cyl/adjustment-replacement/control-module",
+      "publisher": "Saab Automobile AB (factory-authored content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2005 procedure illustrates security pairing; do not assume every hardware revision shares exact procedure."
+    }
+  ],
+  "facts": [
+    {
+      "id": "og95t7-fact-001",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "engine_management",
+      "predicate": "connector_pin_count",
+      "value": 70,
+      "unit": "pins",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Control module > 70-pin connector",
+      "notes": "Not the ignition discharge module connector."
+    },
+    {
+      "id": "og95t7-fact-002",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "engine_management",
+      "predicate": "operating_supply_voltage_range",
+      "value": {
+        "min": 8,
+        "max": 16
+      },
+      "unit": "V",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Control module > adapted voltage in operation",
+      "notes": "Source describes ECU operating input; not a battery/charging diagnostic pass criterion under all loads."
+    },
+    {
+      "id": "og95t7-fact-003",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "power_distribution",
+      "predicate": "battery_memory_supply",
+      "value": {
+        "maxifuse": 2,
+        "fuse": 17,
+        "pin": 23
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Control module power supply > +30",
+      "notes": "+30 continuous memory supply path; locations and wiring revisions require original circuit drawing."
+    },
+    {
+      "id": "og95t7-fact-004",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "power_distribution",
+      "predicate": "ignition_switched_supply",
+      "value": {
+        "fuse": 27,
+        "pin": 43
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Control module power supply > +15",
+      "notes": "WIS ties missing +15 or +30 to no-start and inability to contact engine ECU."
+    },
+    {
+      "id": "og95t7-fact-005",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "power_distribution",
+      "predicate": "main_relay_throttle_supply",
+      "value": {
+        "relay_pin": 87,
+        "fuse": 14,
+        "ecu_pin": 1
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Control module power supply > Main relay",
+      "notes": "Separate feed for throttle motor; not same as ECU memory feed."
+    },
+    {
+      "id": "og95t7-fact-006",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "diagnostic_codes",
+      "predicate": "main_relay_feed_loss_P1640",
+      "value": "P1640",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnosis > Main relay",
+      "notes": "WIS identifies throttle closing and engine stop; diagnostic code not single-part diagnosis."
+    },
+    {
+      "id": "og95t7-fact-007",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "sensor_power",
+      "predicate": "five_volt_outputs",
+      "value": {
+        "ecu_pins": [
+          69,
+          46
+        ],
+        "internally_joined_in": "throttle body"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "5V supply; sensor list",
+      "notes": "Pressure sensors and throttle/pedal sensors share supplies; a harness/sensor short can cause limp-home."
+    },
+    {
+      "id": "og95t7-fact-008",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "sensor_ground",
+      "predicate": "power_ground_G7_ecu_pins",
+      "value": [
+        25,
+        47,
+        62
+      ],
+      "unit": "ECU pin numbers",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Ground > Power ground",
+      "notes": "MAF and ignition module also connect G7; an open ground can cause no-start/no diagnostic contact."
+    },
+    {
+      "id": "og95t7-fact-009",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "sensor_ground",
+      "predicate": "sensor_return_pins",
+      "value": [
+        22,
+        70
+      ],
+      "unit": "ECU pin numbers",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Ground > Sensor ground",
+      "notes": "Pair is joined at throttle body; missing sensor return can prevent starting and trigger limp-home."
+    },
+    {
+      "id": "og95t7-fact-010",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "sensor_ground",
+      "predicate": "oxygen_sensor_reference_return_pin",
+      "value": 58,
+      "unit": "ECU pin",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Ground > Reference ground",
+      "notes": "Missing reference ground is associated with P0134; not grounds for all sensors."
+    },
+    {
+      "id": "og95t7-fact-011",
+      "subject": "sensor:CPS:9-5-T7",
+      "category": "engine_sensor",
+      "predicate": "crank_position_signal_pins",
+      "value": [
+        17,
+        18
+      ],
+      "unit": "ECU pin numbers",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Crankshaft position sensor > input",
+      "notes": "No camshaft position sensor substitution; sensor generates inductive AC signal."
+    },
+    {
+      "id": "og95t7-fact-012",
+      "subject": "sensor:CPS:9-5-T7",
+      "category": "diagnostic_threshold",
+      "predicate": "resistance_at_20C",
+      "value": {
+        "nominal": 860,
+        "tolerance": 90
+      },
+      "unit": "ohm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Crankshaft position sensor 345; resistance pins 1-2 at 20 °C",
+      "notes": "The value is temperature- and exact-sensor-context specific; measure using factory safe diagnostic procedure."
+    },
+    {
+      "id": "og95t7-fact-013",
+      "subject": "sensor:CPS:9-5-T7",
+      "category": "engine_geometry",
+      "predicate": "sensor_ring_air_gap",
+      "value": {
+        "min": 0.4,
+        "max": 1.3
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Crankshaft position sensor 345; distance",
+      "notes": "WIS explicitly says gap is not adjustable. Not a wear limit for every crank pulley design."
+    },
+    {
+      "id": "og95t7-fact-014",
+      "subject": "sensor:CPS:9-5-T7",
+      "category": "engine_geometry",
+      "predicate": "trigger_ring_ribs",
+      "value": "60-2",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Crankshaft position sensor 345; ribs 58 (60-2)",
+      "notes": "Two absent teeth identify crank position reference."
+    },
+    {
+      "id": "og95t7-fact-015",
+      "subject": "sensor:CPS:9-5-T7",
+      "category": "diagnostic_codes",
+      "predicate": "cranking_signal_fault",
+      "value": "P0337",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics > cranking",
+      "notes": "WIS states no CPS substitute; code does not automatically prove the sensor itself failed."
+    },
+    {
+      "id": "og95t7-fact-016",
+      "subject": "sensor:CPS:9-5-T7",
+      "category": "diagnostic_codes",
+      "predicate": "running_position_loss",
+      "value": "P0336",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics > operating",
+      "notes": "WIS describes loss of position tracking; include harness/connector and actual signal verification."
+    },
+    {
+      "id": "og95t7-fact-017",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "engine_management",
+      "predicate": "cps_has_substitute_value",
+      "value": false,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "System reaction to a fault",
+      "notes": "Other sensors may have fallback strategies; CPS does not."
+    },
+    {
+      "id": "og95t7-fact-018",
+      "subject": "relay:T7-main",
+      "category": "electrical_timing",
+      "predicate": "relay_off_delay",
+      "value": 10,
+      "unit": "s",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Main relay > ignition OFF",
+      "notes": "Allows throttle closed-position adaptation; not evidence to disconnect battery immediately after shutdown."
+    },
+    {
+      "id": "og95t7-fact-019",
+      "subject": "relay:T7-fuel-pump",
+      "category": "electrical_timing",
+      "predicate": "initial_key_on_pump_prime",
+      "value": 1,
+      "unit": "s",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Fuel pump relay > key ON",
+      "notes": "One-second prime alone does not certify fuel pressure or volume."
+    },
+    {
+      "id": "og95t7-fact-020",
+      "subject": "relay:T7-fuel-pump",
+      "category": "diagnostic_codes",
+      "predicate": "fuel_pump_feed_missing",
+      "value": "P1641",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnosis > relay pin 87 not fed",
+      "notes": "Interpret together with relay actuation/circuit tracing."
+    },
+    {
+      "id": "og95t7-fact-021",
+      "subject": "ignition:Trionic7-IDM",
+      "category": "electrical_dependencies",
+      "predicate": "main_relay_and_G7_required",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "IDM > ignition",
+      "notes": "Module is powered by main relay B+ and G7, and has feedback circuits to ECU."
+    },
+    {
+      "id": "og95t7-fact-022",
+      "subject": "ignition:Trionic7-IDM",
+      "category": "electrical_dependencies",
+      "predicate": "combustion_feedback_pins",
+      "value": [
+        53,
+        6
+      ],
+      "unit": "ECU pin numbers",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Combustion signals, synchronization",
+      "notes": "Feedback enables combustion-sensing and ignition/injection synchronization; cannot assume ordinary four-coil substitution."
+    },
+    {
+      "id": "og95t7-fact-023",
+      "subject": "ignition:Trionic7-IDM",
+      "category": "ignition",
+      "predicate": "coil_count",
+      "value": 4,
+      "unit": "coils",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Ignition; IDM",
+      "notes": "Integrated four-coil cassette, not individual generic coils."
+    },
+    {
+      "id": "og95t7-fact-024",
+      "subject": "ignition:Trionic7-IDM",
+      "category": "ignition",
+      "predicate": "firing_order",
+      "value": "1-3-4-2",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Ignition discharge module 346 > firing order",
+      "notes": "T7 4-cylinder system as described in factory source."
+    },
+    {
+      "id": "og95t7-fact-025",
+      "subject": "ignition:Trionic7-IDM",
+      "category": "electrical_dependencies",
+      "predicate": "incompatible_red_idm",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "IDM > Note > Red ignition discharge modules must not be used",
+      "notes": "The prohibition pertains to cited T7 4-cylinder WIS context; no universal part-number approval implied."
+    },
+    {
+      "id": "og95t7-fact-026",
+      "subject": "ignition:Trionic7-IDM",
+      "category": "diagnostic_codes",
+      "predicate": "power_loss_DTC",
+      "value": "P1310",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "IDM > Diagnostics > open circuit supply",
+      "notes": "Possible harness or power failure is documented, not automatic new cassette instruction."
+    },
+    {
+      "id": "og95t7-fact-027",
+      "subject": "sensor:MAF:T7",
+      "category": "engine_management",
+      "predicate": "MAF_ecu_input_pin",
+      "value": 65,
+      "unit": "ECU pin",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MAF > sensor pulses to ground",
+      "notes": "Hot-film/frequency output requiring suitable diagnostic method; do not assume universal 0–5V linear output."
+    },
+    {
+      "id": "og95t7-fact-028",
+      "subject": "sensor:MAF:T7",
+      "category": "diagnostic_codes",
+      "predicate": "MAF_absent_signal",
+      "value": "P0100",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MAF > Diagnosis",
+      "notes": "WIS names possible wiring break; confirm sensor, connector and harness."
+    },
+    {
+      "id": "og95t7-fact-029",
+      "subject": "sensor:MAF:T7",
+      "category": "diagnostic_codes",
+      "predicate": "MAF_low_frequency",
+      "value": "P0102",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MAF > Diagnosis",
+      "notes": "May include major intake leak after MAF or sensor fault; not proof of dead MAF."
+    },
+    {
+      "id": "og95t7-fact-030",
+      "subject": "sensor:MAF:T7",
+      "category": "diagnostic_codes",
+      "predicate": "MAF_substitute_pressure_temperature",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MAF > System reaction",
+      "notes": "T7 substitutes manifold pressure and intake temperature on diagnosed fault; fuel adaptation zeroed."
+    },
+    {
+      "id": "og95t7-fact-031",
+      "subject": "sensor:pedal:T7",
+      "category": "pedal_input",
+      "predicate": "dual_potentiometer_opposed_voltage",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Pedal position sensor > description",
+      "notes": "One sensor signal falls while other rises; both are in throttle body with mechanical cable."
+    },
+    {
+      "id": "og95t7-fact-032",
+      "subject": "sensor:pedal:T7",
+      "category": "diagnostic_codes",
+      "predicate": "pedal_voltage_crosscheck_fault_codes",
+      "value": [
+        "P1530",
+        "P1531",
+        "P1532"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Pedal position sensor > Diagnostics",
+      "notes": "Limp-home follows sensor/signal faults; full DTC criteria require dedicated WIS diagnostic sections."
+    },
+    {
+      "id": "og95t7-fact-033",
+      "subject": "throttle:Trionic7",
+      "category": "electrical_dependencies",
+      "predicate": "mechanical_limp_home_connection",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Throttle control > 9-10, and malfunction response",
+      "notes": "Solenoid disengages toothed disc so mechanical accelerator cable connects to throttle spindle; reset only per factory method."
+    },
+    {
+      "id": "og95t7-fact-034",
+      "subject": "immobilizer:TWICE-T7",
+      "category": "security_dependencies",
+      "predicate": "authorization_over_bus",
+      "value": true,
+      "unit": "boolean",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-014",
+        "og95t7-src-015",
+        "og95t7-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Fuel shut-off > Diagnostics; Trionic bus; TWICE bus",
+      "notes": "TWICE authorization must reach T7 for fuel injection. Never assume coding-free ECU/TWICE/MIU swap."
+    },
+    {
+      "id": "og95t7-fact-035",
+      "subject": "immobilizer:TWICE-T7",
+      "category": "diagnostic_codes",
+      "predicate": "missing_immobilizer_permission",
+      "value": "P1460",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Fuel shut-off > Diagnostics",
+      "notes": "WIS names code not programmed after T7/TWICE/MIU replacement as one cause; also check electrical and bus communication."
+    },
+    {
+      "id": "og95t7-fact-036",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "bus_dependencies",
+      "predicate": "module_input_sources",
+      "value": [
+        "TWICE",
+        "DICE",
+        "TCM",
+        "MIU",
+        "ESP"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Bus messages Trionic T7 > Inputs",
+      "notes": "Not all modules installed on every gearbox/option car; bus messages depend on equipment."
+    },
+    {
+      "id": "og95t7-fact-037",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "bus_dependencies",
+      "predicate": "TWICE_immobilization_signal_receiver",
+      "value": "Trionic T7",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Bus messages TWICE > Immobilization",
+      "notes": "Distinguish immobilizer authorization from starter motor and fuel pump physical checks."
+    },
+    {
+      "id": "og95t7-fact-038",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "sensor_ground",
+      "predicate": "power_ground_G7_ecu_pins",
+      "value": [
+        25,
+        47,
+        62
+      ],
+      "unit": "ECU pin numbers",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-017"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Ground > Power ground",
+      "notes": "Separately retrieved MY2007 WIS page; does not certify a particular VIN's wiring modifications."
+    },
+    {
+      "id": "og95t7-fact-039",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "sensor_ground",
+      "predicate": "power_ground_G7_ecu_pins",
+      "value": [
+        25,
+        47,
+        62
+      ],
+      "unit": "ECU pin numbers",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-018"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Ground > Power ground",
+      "notes": "Separately retrieved MY2008 WIS page."
+    },
+    {
+      "id": "og95t7-fact-040",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "power_distribution",
+      "predicate": "battery_memory_supply",
+      "value": {
+        "maxifuse": 2,
+        "fuse": 17,
+        "pin": 23
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-019"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Control module power supply > +30",
+      "notes": "Separately retrieved MY2009 WIS page."
+    },
+    {
+      "id": "og95t7-fact-041",
+      "subject": "ecu:Trionic7-4cyl",
+      "category": "power_distribution",
+      "predicate": "ignition_switched_supply",
+      "value": {
+        "fuse": 27,
+        "pin": 43
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-019"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Control module power supply > +15",
+      "notes": "Separate MY2009 WIS page."
+    },
+    {
+      "id": "og95t7-fact-042",
+      "subject": "sensor:coolant:T7",
+      "category": "diagnostic_threshold",
+      "predicate": "resistance_at_20C",
+      "value": {
+        "min": 2.1,
+        "max": 2.9
+      },
+      "unit": "kOhm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-020"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Coolant temp sensor > 20 C row",
+      "notes": "5V through 1.0 kohm resistor in ECU; don't substitute intake sensor measured voltage values."
+    },
+    {
+      "id": "og95t7-fact-043",
+      "subject": "sensor:iat:T7",
+      "category": "diagnostic_threshold",
+      "predicate": "resistance_at_20C",
+      "value": {
+        "min": 2.1,
+        "max": 2.9
+      },
+      "unit": "kOhm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95t7-src-021"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Intake temp sensor > 20 C row",
+      "notes": "Factory temperature/resistance table; same 20°C resistance bracket as coolant sensor, but ECU bias network differs and source's sensor location is internally inconsistent."
+    }
+  ],
+  "issues": [
+    {
+      "id": "og95t7-issue-001",
+      "title": "T7 no-start or no diagnostic contact from ECU supply/ground loss",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "cause": "Absent battery +30, ignition +15 or G7/ECU grounds disrupt ECU operation.",
+      "symptoms": [
+        "engine does not start",
+        "engine ECU not reachable by diagnostic equipment"
+      ],
+      "diagnosis_summary": "For MY2006 Trionic T7 4-cylinder, check prescribed supply fuses 17/27, maxifuse 2, ECU pins 23/43 and documented grounds G7 at ECU pins 25/47/62 before replacing the ECU.",
+      "correction_summary": "Restore confirmed fault in feed, fuse, connection or ground using WIS circuit and safe test sequence.",
+      "source_ids": [
+        "og95t7-src-002",
+        "og95t7-src-004"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "No specific failure frequency or actual-car defect documented.",
+        "Do not assume failed ECU without testing supply, grounds and communication circuits.",
+        "Factory pin assignments are sourced to MY2006, not a universal cross-year guarantee."
+      ]
+    },
+    {
+      "id": "og95t7-issue-002",
+      "title": "Crank/no-start or stall with missing CPS signal",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "cause": "Missing valid crankshaft position pulses may result from CPS, connector, wiring or related measurement faults.",
+      "symptoms": [
+        "starter cranks without engine starting",
+        "engine may cease running when position signal is lost"
+      ],
+      "diagnosis_summary": "WIS P0337 during cranking and P0336 if crank reference is lost while running; measure CPS safely against temperature-scoped 860±90 ohm (20°C) and inspect proper signal and harness.",
+      "correction_summary": "Repair confirmed fault, without asserting every P0336/P0337 requires replacement sensor.",
+      "source_ids": [
+        "og95t7-src-005",
+        "og95t7-src-006"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "No substitute CPS signal exists on this T7 4-cylinder source.",
+        "Resistance in range alone does not prove correct hot-running operation.",
+        "Full DTC workflow and condition-specific diagnostics still required."
+      ]
+    },
+    {
+      "id": "og95t7-issue-003",
+      "title": "Engine no-start from TWICE immobilizer authorization",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "cause": "Missing/incorrect immobilizer authorization via TWICE can inhibit fuel injection, including after T7/TWICE/MIU replacement without required programming.",
+      "symptoms": [
+        "engine cranks or fails to start",
+        "P1460 recorded in relevant Trionic T7 fault context"
+      ],
+      "diagnosis_summary": "Check TWICE/T7 communication and immobilizer authorization using factory diagnostic tool. Distinguish this failure from missing ECU +15/G7 or failed CPS.",
+      "correction_summary": "Restore communication or carry out factory-approved programming after relevant module replacement, with authorized service tools.",
+      "source_ids": [
+        "og95t7-src-014",
+        "og95t7-src-015",
+        "og95t7-src-016",
+        "og95t7-src-022"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Security-coding is not bypassed here.",
+        "Do not conclude all failures to start imply immobilizer fault.",
+        "MY2005 replacement procedure separately sourced, not assigned as all-year step-by-step process."
+      ]
+    },
+    {
+      "id": "og95t7-issue-004",
+      "title": "T7 ignition discharge power/combustion feedback electrical faults",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "cause": "Missing IDM main-relay power or wiring faults can interrupt ignition and feedback synchronization.",
+      "symptoms": [
+        "misfires",
+        "no-start in relevant circuit failures",
+        "P1310 or other ignition/combustion codes may be present"
+      ],
+      "diagnosis_summary": "Trace main relay, G7, IDM feed and feedback pins 53/6; interpret P1310 vs combustion synchronization/misfire DTCs in their separate criteria.",
+      "correction_summary": "Repair verified power/ground/harness condition or correctly specified ignition module; do not substitute a red cassette in the cited 2006 T7 four-cylinder scope.",
+      "source_ids": [
+        "og95t7-src-009",
+        "og95t7-src-010",
+        "og95t7-src-007"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "No measured fleet-level cassette failure rate is established.",
+        "Catalyst-damaging misfires require prompt qualified diagnosis; misfire code alone not replacement proof.",
+        "High-energy ignition component: follow factory safety procedures."
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "og95t7-gap-001",
+      "title": "Full T7 circuit and ground location map",
+      "missing_inputs": [
+        "Obtain original electrical schematics for MY2006–09 4-cylinder petrol T7, splice/connector locators, G7 physical attachment and distribution under corrosion exposure."
+      ],
+      "reason": "Textual terminal assignments are not an entire wiring diagram and do not establish a real vehicle's harness condition.",
+      "source_ids": [
+        "og95t7-src-002",
+        "og95t7-src-004",
+        "og95t7-src-017",
+        "og95t7-src-018",
+        "og95t7-src-019"
+      ]
+    },
+    {
+      "id": "og95t7-gap-002",
+      "title": "2007–2009 sensor and relay data completeness",
+      "missing_inputs": [
+        "Retrieve separate years' factory CPS/IDM/MAF/throttle/TWICE/relay source pages, and verify engine/market/software differences before broadening 2006 facts."
+      ],
+      "reason": "Ground is independently documented in 2007/08 and supply in 2009; other 2006 records do not automatically cover 2007–09.",
+      "source_ids": [
+        "og95t7-src-005",
+        "og95t7-src-008",
+        "og95t7-src-009",
+        "og95t7-src-017",
+        "og95t7-src-018",
+        "og95t7-src-019"
+      ]
+    },
+    {
+      "id": "og95t7-gap-003",
+      "title": "T7 direct ignition cassette part fitment and revisions",
+      "missing_inputs": [
+        "Cross-check black T7 cassette, TK3.4D, engine/market/year/VIN/ECU calibrations and OEM number supersession against official WebEPC; source warns red cassette incompatible."
+      ],
+      "reason": "Correct ignition electronics are safety and drivability critical; color alone cannot approve a supplier part.",
+      "source_ids": [
+        "og95t7-src-009",
+        "og95t7-src-010"
+      ]
+    },
+    {
+      "id": "og95t7-gap-004",
+      "title": "Module replacement programming and security constraints",
+      "missing_inputs": [
+        "Collect year-specific T7/TWICE/MIU authorized program/relearn procedures, module hardware/software IDs and VIN key inventory; confirm specialist-tool accessibility."
+      ],
+      "reason": "Service passage and TWICE bus evidence do not grant coding-free hardware interchange or legal access to immobilizer bypass.",
+      "source_ids": [
+        "og95t7-src-014",
+        "og95t7-src-016",
+        "og95t7-src-022"
+      ]
+    },
+    {
+      "id": "og95t7-gap-005",
+      "title": "IAT sensor physical location contradiction",
+      "missing_inputs": [
+        "Reconcile MY2006 WIS intake air temperature sensor page that identifies it as integrated in charge-air pipe sensor 407/603 yet also says 'On intake manifold'."
+      ],
+      "reason": "Do not use internally inconsistent page for a repair-location instruction without drawing and connector identification.",
+      "source_ids": [
+        "og95t7-src-021"
+      ]
+    },
+    {
+      "id": "og95t7-gap-006",
+      "title": "Diagnostic DTC procedural specificity",
+      "missing_inputs": [
+        "Capture source-linked P0336/P0337/P1310/P1460/P1640/P1652 and related enable criteria, freeze-frame/read-values and diagnostic-tree sections for the target model year."
+      ],
+      "reason": "Brief WIS operating descriptions are not full conditional diagnostic algorithms nor proven cause rates.",
+      "source_ids": [
+        "og95t7-src-005",
+        "og95t7-src-007",
+        "og95t7-src-009",
+        "og95t7-src-014"
+      ]
+    },
+    {
+      "id": "og95t7-gap-007",
+      "title": "Electrical fault prevalence and repair cost",
+      "missing_inputs": [
+        "Find representative model-year mileage/age stratified electrical fault data and current cost/availability of compliant correct parts and tools."
+      ],
+      "reason": "Factory failure-mode descriptions have no fleet denominators or predicted hazard rates.",
+      "source_ids": [
+        "og95t7-src-001",
+        "og95t7-src-002",
+        "og95t7-src-009",
+        "og95t7-src-014"
+      ]
+    }
+  ]
+}
