@@ -87,3 +87,8 @@ The [FAG 713 6440 90 / NG 9-3 front hub pilot](research/cross-manufacturer-front
 ### Additional cross-manufacturer catalogue evidence (2026-10-13)
 
 The [expanded supplier/FIAT/Opel/Saab study](research/cross-manufacturer-interchange-pilot.md) adds PFI PHU3191 and SKF VKBA3620 9-3 front hub leads, Saab/Opel 93188111 and Delphi LP1723 front brake-pad catalogue association requiring the specific factory brake-option VIN plate, and already known original 9-5 Nissens automatic radiator/older-PCV caution. These are **unverified candidate or supplier claims**, not factory donor interchange or a reliability improvement. The direct manufacturer FAG pilot is tracked independently; duplicated claims do not constitute independent validation.
+
+
+### Cross-manufacturer official parts-channel evidence — B207 water pump (2026-10-13)
+
+[GM/Saab official 12630084 study](research/cross-manufacturer-gm-saab-b207-water-pump.md) adds dual official brand-channel listing of the same B207 water-pump service SKU, alongside the Saab balancer-shaft-driven factory procedure. Unlike a shared aftermarket fitment family this directly demonstrates a common numbered *service offering*, but **not** Opel Z20NET earlier-number donor approval, actual VIN fit, identical package contents, improved longevity or cost benefit. The variant scope is 9-3 (9440) B207; the original 2008 9-5 (9600) B235 is excluded. Gate C remains open.
