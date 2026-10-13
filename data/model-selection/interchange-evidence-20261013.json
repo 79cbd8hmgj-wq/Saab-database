@@ -52,7 +52,22 @@
         "body/structural rust",
         "verified US replacement cost/availability",
         "VIN option/installation"
-      ]
+      ],
+      "repair_support": {
+        "system": "Trionic 8 ECM",
+        "service_class": "programmed/cloned ECU",
+        "source_ids": [
+          "elec-src-003",
+          "elec-src-004",
+          "elec-src-005"
+        ],
+        "required_checks": [
+          "Original ECU readable for quoted service",
+          "CIM/immobilizer and donor FWD/gearbox config",
+          "ECU hardware, freight, diagnosis and warranty"
+        ],
+        "quantitative_reliability": "not_measured"
+      }
     },
     {
       "id": "og95-b235",
@@ -88,7 +103,21 @@
         "wagon rust/body corrosion",
         "shared OEM study not complete",
         "US parts availability"
-      ]
+      ],
+      "repair_support": {
+        "system": "Trionic 7 ignition cassette, NOT full ECM",
+        "service_class": "factory serviceable separate ignition module",
+        "source_ids": [
+          "elec-src-001",
+          "elec-src-002"
+        ],
+        "required_checks": [
+          "Factory extended ignition diagnosis",
+          "VIN applicable genuine cassette 32022255",
+          "US inventory, installed cost and true failure rates"
+        ],
+        "quantitative_reliability": "not_measured"
+      }
     }
   ],
   "observation": "For this small, asymmetrically researched sample the B207 9-3 has more identified cross-brand sourcing leads. This is not a proven reliability, affordability or ownership advantage.",
