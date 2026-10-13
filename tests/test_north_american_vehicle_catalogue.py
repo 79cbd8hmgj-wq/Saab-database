@@ -82,5 +82,51 @@ class NorthAmericanVehicleCatalogueTests(unittest.TestCase):
                     self.assertIn(source_id, self.sources)
 
 
+    def test_year_specific_trims_and_engines_never_collapse_across_generations(self):
+        by_id = {item["id"]: item for item in self.examples}
+        self.assertIn("2.8L", by_id["na-2008-93-aero-sedan-at"]["engine_label"])
+        self.assertIn("2.0L", by_id["na-2010-93-aero-sedan-at"]["engine_label"])
+        self.assertIn("2.0L", by_id["na-2011-93-aero-sedan-at"]["engine_label"])
+        self.assertEqual(by_id["na-2002-95-arc-sedan-at"]["engine_code"], "B308E")
+        self.assertIn("V6", by_id["na-2002-95-arc-sedan-at"]["engine_label"])
+        self.assertIn("I4", by_id["na-2004-95-arc-sedan-at"]["engine_label"])
+        for yr in (2004, 2005):
+            self.assertFalse(any(
+                x["model"] == "9-5" and x["model_year"] == yr and
+                x["body_style"] == "sedan" and
+                "linear" in x["id"]
+                for x in self.examples
+            ))
+
+    def test_conflicting_canadian_turbo_x_not_promoted_to_fwd(self):
+        self.assertFalse(any("turbo-x" in x["id"].lower() for x in self.examples))
+        source_ids = {s["id"] for s in self.catalogue["source_records"]}
+        self.assertTrue({"na-cat-s34", "na-cat-s35"}.issubset(source_ids))
+        exclusions = {x["id"]: x for x in self.catalogue["explicit_exclusions"]}
+        self.assertIn("na-ex-11", exclusions)
+        self.assertEqual(exclusions["na-ex-11"]["market"], "CA")
+        self.assertTrue(all(
+            x["model_year"] != 2010 or x["model"] != "9-5" or
+            "US" not in x["market_evidence"]
+            for x in self.examples
+        ))
+
+    def test_canadian_eligibility_not_inferred_from_us_facts(self):
+        for item in self.examples:
+            for market in item["market_evidence"]:
+                self.assertTrue(any(
+                    market in self.sources[source_id]["market_scope"]
+                    for source_id in item["source_ids"]
+                ))
+        for row in self.rows:
+            if row["canada_status"] == "unassessed":
+                self.assertFalse(any(
+                    "CA" in item["market_evidence"]
+                    for item in self.examples
+                    if item["model"] == row["model"] and item["model_year"] == row["model_year"]
+                ))
+
+
+
 if __name__ == "__main__":
     unittest.main()
