@@ -6,9 +6,9 @@
 
 The four eSaabParts [U.S. production tables](https://www.esaabparts.com/saab/production/) cover Saab **9-3 9400 (1999–2003)**, **9-3 9440 (2003–2011)**, **9-5 9600 (1999–2009)** and **9-5 650 (2010–2011)**. They are **third-party compiled production tables**, not factory VIN certificates, factory sales-option approvals, or vehicle reliability records. These tables list paint-level rows with production counts, sometimes very small. We must not call their grand totals numbers of eligible automatic cars.
 
-The importer at `tools/us_production_import.py` uses Python standard-library HTML parsing and maps each paint-level source row to exactly one combination of **model, platform, year, trim, body, transmission, drive and engine**. It then sums `Produced` values **only within that key**, and exports a distinct U.S. candidate row per observed combination. The labels and source-reported counts remain unverified against original manufacturer VIN data.
+The importer at `tools/us_production_import.py` uses Python standard-library HTML parsing and maps each paint-level source row to exactly one combination of **model, platform, year, trim, body, transmission, drive and engine**. It then sums `Produced` values **only within that key**, and exports a distinct U.S. candidate row per observed combination. The labels and source-reported counts remain unverified against original manufacturer VIN data. Source-reported groups of 12 or fewer units carry an explicit low-volume manual-review flag.
 
-Filters are deliberately strict: it **rejects all manual cars, convertibles and AWD/XWD**; accepts only recognizable four-, five- and six-speed automatic labels; keeps 9-3 five-doors as **hatchbacks** and 9-5 five-doors as **wagons**; does not infer engine codes for the second-generation 9-5 shorthand `2.0T`/`2.8T`; and has no way to turn blank/unknown combinations into supposed factory cars.
+Filters are deliberately strict: it **rejects all manual cars, convertibles and AWD/XWD**; accepts only recognizable four-, five- and six-speed automatic labels; keeps original 9-3 **9400** five-doors as **hatchbacks** and second-generation 9-3 **9440** and 9-5 **9600** five-doors as **wagons**; does not infer engine codes for the second-generation 9-5 shorthand `2.0T`/`2.8T`; and has no way to turn blank/unknown combinations into supposed factory cars.
 
 ## Reproduce
 
