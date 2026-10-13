@@ -867,12 +867,12 @@
       "id": "afdiag-fact-024",
       "subject": "9-5 turbo mechanical tests",
       "predicate": "MY2008_turbo_shaft_data_index_unreadable",
-      "category": "diagnostic",
+      "category": "source_quality",
       "value": {
         "directory_page_exists": true,
         "numeric_axial_radial_limits_recovered": false
       },
-      "unit": "source_quality",
+      "unit": null,
       "applicability": {
         "platforms": [
           "9-5-9600"
@@ -992,12 +992,12 @@
       "id": "afdiag-fact-028",
       "subject": "9-5 turbo 2008",
       "predicate": "MY2008_turbo_tech_data_directory_only",
-      "category": "diagnostic",
+      "category": "source_quality",
       "value": {
         "turbo_shaft_play_listing": true,
         "complete_measurement_unread": true
       },
-      "unit": "source_quality",
+      "unit": null,
       "applicability": {
         "platforms": [
           "9-5-9600"
