@@ -674,26 +674,28 @@
   "gaps": [
     {
       "id": "gateac-gap-001",
-      "title": "Original MY2005-2009 OG9-5 VIN year tables still not recoverable",
+      "title": "Original US-market 9-5 MY2008–09 complete VIN code tables and Canadian cross-check remain missing",
       "missing_inputs": [
-        "Official factory 9-5 year tables for model-year 2005–09 and engine/gearbox position codes; WIS 2009 folder repeats MY2010."
+        "Original Saab Automobile USA 2004–07 year tables were independently recovered (source gate5-src-001); 2008 and 2009 original year pages are absent from the 13-page official Saab Parts USA compilation. Obtain those dated original USA/CAN year bulletins, exact factory position 5/7/8 options, verified full-VIN decode and WebEPC physical part/build record. Do not reuse 2010 table found in WIS 2009 folder."
       ],
-      "reason": "A year-labeled factory source or historic type exemplar cannot establish actual installed component or VIN-filtered approved interchange.",
+      "reason": "Original MY2005–07 USA VIN position references are now recovered, but a generic bulletin year table cannot establish an actual installed drivetrain or 2008–09 original manufacturer/OEM part fitment.",
       "source_ids": [
         "gateac-src-001",
-        "gateac-src-012"
+        "gateac-src-012",
+        "gate5-src-001"
       ]
     },
     {
       "id": "gateac-gap-002",
-      "title": "Independent MY2006 NG9-3 VIN year/build table unavailable",
+      "title": "Canadian MY2006 9-3 VIN option mapping and physical build confirmation still pending",
       "missing_inputs": [
-        "Verify authentic MY2006 tenth position and body/engine/gearbox codes from dated factory manual or Saab WebEPC; do not propagate MY2005 table."
+        "Original Saab Automobile USA MY2006 VIN position 4/6/7/8/10/11 table is now recovered (gate5-src-001), closing the US original-year-document gap; validate Canadian equipment variations and actual car VIN/gearbox/engine before parts selection."
       ],
-      "reason": "A year-labeled factory source or historic type exemplar cannot establish actual installed component or VIN-filtered approved interchange.",
+      "reason": "Year-specific original USA code labels alone do not authorize a Canadian VIN equipment list or certify installed components of an individual used Saab.",
       "source_ids": [
         "gateac-src-004",
-        "gateac-src-005"
+        "gateac-src-005",
+        "gate5-src-001"
       ]
     },
     {

@@ -74,6 +74,22 @@ an OEM supersession. `contains` identifies kit contents and does not instruct th
 reader to purchase those components separately. `requires` describes an explicitly
 stated accompanying part or prerequisite.
 
+### Conditional manufacturer parts-service kits
+
+`replaced_by_service_kit` records a **directed manufacturer support workflow**
+from an earlier serviced part to an official kit, while
+`kit_for_earlier_part` connects the kit back to the **earlier serviced item**
+for catalogue discovery. Neither type is a drop-in complete-assembly fitment
+claim or a reverse supersession. Record every required salvaged component,
+conditions under which the old component is NOT reusable, option/VIN scope and
+the specific service-document page.
+
+A manufacturer-hosted owner-service bulletin may provide a documented
+**conditional kit repair process** without proving a live stock status or an
+individual VIN-approved WebEPC successor. Do not change those claims to
+`supersedes` until the exact official WebEPC relationship, direction and
+applicability are independently retrieved.
+
 ## Gaps
 
 Required fields: `id`, `title`, `missing_inputs`, `reason`, and `source_ids`.
