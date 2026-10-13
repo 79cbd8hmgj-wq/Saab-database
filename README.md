@@ -10,7 +10,9 @@ engines, and platforms.
 
 ## Start here
 
-- [Phase 0 coverage audit](docs/coverage-audit.md): measured record coverage, model-year gaps and system-by-system status.
+- [Phase 0 coverage audit](docs/coverage-audit.md): **current 26-domain** evidence census, platform/model-year coverage and status of inspection, subsystem and interchange readiness gates.
+- [Phase 0 closure plan](docs/gap-closure-plan.md): prioritized blocker-driven work for vehicle identity, rust, brakes, high-cost no-running diagnostics and manufacturer fitment.
+- [Reproducible Phase 0 snapshot](data/phase0-coverage-snapshot.json): machine-derived baseline checked against all datasets on every CI run.
 - [Prioritized research backlog](docs/research-backlog.md): source-gathering tasks and acceptance criteria before simulation.
 - [Research overview](docs/research-overview.md): scope, coverage, model-selection
   reasoning, and the limits of the initial research.
@@ -91,6 +93,7 @@ python3 -m unittest discover -s tests -v
 python3 tools/query.py --summary
 python3 tools/coverage.py --format markdown
 python3 tools/coverage.py --format json
+python3 tools/phase0_audit.py --check
 python3 tools/query.py --engine B235R --category cooling
 python3 tools/query.py --platform 9-3-9440 --year 2006
 python3 tools/query.py --text "intake valve" --kind issues
@@ -104,6 +107,8 @@ Engine-code filters are exact: a family-level `B207` entry is not silently expan
 to `B207R`. Search by platform/year or text as well when exploring family-scoped
 records. VIN, component serial, registration-history, and installed-hardware
 conditions still require interpretation of the full record and source.
+
+The snapshot is a census of **stored records**, not a reliability percentage or a verified parts catalogue. CI now checks that the generated audit tables and snapshot remain synchronized after future research PRs. The human subsystem assessments and [gap-closure gates](docs/gap-closure-plan.md) remain deliberately conservative.
 
 ## Add a particular car later
 
