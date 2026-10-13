@@ -1,6 +1,7 @@
 {
   "schema_version": "1.0.0",
   "domains": [
+    "b235_maintenance_fa57_identity",
     "corrections",
     "epc_provenance",
     "high_cost_powertrain_diagnostics",
@@ -20,24 +21,24 @@
     "subframe_parts_brake_lines"
   ],
   "counts": {
-    "sources": 290,
-    "facts": 582,
-    "issues": 32,
+    "sources": 303,
+    "facts": 626,
+    "issues": 34,
     "parts": 57,
-    "gaps": 120
+    "gaps": 129
   },
-  "unique_source_urls": 276,
+  "unique_source_urls": 284,
   "retrieval_statuses": {
-    "full_text": 277,
+    "full_text": 290,
     "metadata_only": 2,
     "partial": 3,
     "search_excerpt": 8
   },
   "evidence_statuses": {
-    "documented": 608,
+    "documented": 654,
     "inference": 5,
     "supplier_claim": 58
   },
   "research_date": "2026-10-12",
-  "notes": "High-cost powertrain diagnostic distinctions are source scoped, not vehicle-specific measurements, statistical failure rates, or replacement approvals. MY98–03 US/CA sludge bulletin does not cover later 9-5 years; B207 TAC PDF available as excerpt only; DIY flame testing of ATF is not recommended. Previously recorded petrol fan temperature discrepancy remains unresolved."
+  "notes": "B235 MY2004–09 maintenance and FA57 identity findings are year/engine/market scoped, not modern oil-approval validation, part interchange, engine condition, fleet durability or gearbox test authorization. Original 2006 and 2008 9-5 pressure tables and exact B235R service pages remain unresolved."
 }
