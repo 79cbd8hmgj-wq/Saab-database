@@ -590,6 +590,16 @@
         "CA"
       ],
       "notes": "MY2006 both sedan and SportCombi in base 2.0 turbo I4 210hp and Aero 2.8 V6 250hp; optional five- and six-speed automatics respectively. Convertible excluded."
+    },
+    {
+      "id": "na-cat-s57",
+      "title": "Canadian 2009 9-5 sedan SportCombi factory 2.3T FWD automatic range",
+      "url": "https://www.guideautoweb.com/articles/4182/saab-9-5-anonymement-votre/",
+      "origin": "The Car Guide Canadian MY2009 editorial buyer's review in French",
+      "market_scope": [
+        "CA"
+      ],
+      "notes": "Period Canadian 2009 buyer review describes sedan and SportCombi wagon, 2.3L turbo 260hp, two five-speed transmissions including automatic, all FWD. Editor commentary rather than manufacturer's original trim/order paperwork."
     }
   ],
   "model_year_screening": [
@@ -932,10 +942,12 @@
       "model_year": 2009,
       "platform_for_screening": "9600",
       "us_status": "at_least_one_candidate_documented",
-      "canada_status": "unassessed",
+      "canada_status": "at_least_one_candidate_documented",
       "documented_configuration_ids": [
         "na-2009-95-23t-sedan-at",
-        "na-2009-95-23t-combi-at"
+        "na-2009-95-23t-combi-at",
+        "na-2009-95-23t-sedan-at-ca",
+        "na-2009-95-23t-wagon-at-ca"
       ],
       "coverage_complete": false
     },
@@ -2827,6 +2839,46 @@
       ],
       "evidence_status": "canadian_regional_model_year_editorial",
       "notes": "Canadian market only; manufacturer option/equipment chart and VIN source still pending. Canadian Aero FWD automatic."
+    },
+    {
+      "id": "na-2009-95-23t-sedan-at-ca",
+      "model": "9-5",
+      "model_year": 2009,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_label": "2.3T 260-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "CA"
+      ],
+      "source_ids": [
+        "na-cat-s57"
+      ],
+      "evidence_status": "canadian_period_editorial_range_confirmation",
+      "notes": "Canada MY2009 sedan/wagon and 5-speed automatic/FWD supported at year range level; original exact order/option and VIN configuration still pending."
+    },
+    {
+      "id": "na-2009-95-23t-wagon-at-ca",
+      "model": "9-5",
+      "model_year": 2009,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_label": "2.3T 260-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "CA"
+      ],
+      "source_ids": [
+        "na-cat-s57"
+      ],
+      "evidence_status": "canadian_period_editorial_range_confirmation",
+      "notes": "Canada MY2009 sedan/wagon and 5-speed automatic/FWD supported at year range level; original exact order/option and VIN configuration still pending."
     }
   ],
   "explicit_exclusions": [
