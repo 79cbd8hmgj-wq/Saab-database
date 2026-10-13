@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 530 source records with 466 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 537 source records with 472 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -345,6 +345,20 @@ Dataset: [cross_manufacturer_interchange_pilot](../data/datasets/cross-manufactu
 | `xint-src-009` | [eSaabParts ProParts PCV 21341200 cross-reference to Saab 55561200](https://www.esaabparts.com/saab/parts/21341200?ss=55561200) | eSaabParts | `full_text` |
 | `xint-src-010` | [Saab MY2006 petrol 9-5 four-cylinder radiator service gearbox variant](https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/radiator-4-cyl) | Saab Automobile AB original WIS (SaabWISOnline mirror) | `full_text` |
 | `xint-src-011` | [eSaabParts brake 9-3 9440 option matrix separate 15, 16, 16+ pad codes](https://www.esaabparts.com/viewparts.php?searchpart=1&section=551473252) | eSaabParts | `full_text` |
+
+## cross_manufacturer_electrics_model_choice
+
+Dataset: [cross_manufacturer_electrics_model_choice](../data/datasets/cross-manufacturer-electrics-model-choice.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `sel-src-001` | [A0047 alternator product data](https://as-pl.com/en/p/A0047) | AS-PL | `full_text` |
+| `sel-src-002` | [A0047 applications Saab B207 Opel Z20NET](https://as-pl.com/en/tpu/A0047) | AS-PL | `full_text` |
+| `sel-src-003` | [S1167S starter technical data](https://as-pl.com/en/p/S1167S) | AS-PL | `full_text` |
+| `sel-src-004` | [S1167S applications Saab and Opel](https://as-pl.com/pl/tpu/S1167S) | AS-PL | `full_text` |
+| `sel-src-005` | [A0319 alternator technical data](https://as-pl.com/en/p/A0319) | AS-PL | `full_text` |
+| `sel-src-006` | [A0319 applications original Saab 9-5](https://as-pl.com/en/tpu/A0319/SAAB) | AS-PL | `full_text` |
+| `sel-src-007` | [Official Saab WebEPC access and VIN-specific replacements](https://saabparts.com/saab-subscription-services) | Saab Parts / Hedin | `full_text` |
 
 ## epc_provenance
 
