@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- [Phase 0 coverage audit](docs/coverage-audit.md): measured record coverage, model-year gaps and system-by-system status.
+- [Prioritized research backlog](docs/research-backlog.md): source-gathering tasks and acceptance criteria before simulation.
 - [Research overview](docs/research-overview.md): scope, coverage, model-selection
   reasoning, and the limits of the initial research.
 - [Evidence policy](docs/evidence-policy.md): what a recorded finding actually
@@ -61,6 +63,8 @@ The tools use Python's standard library and require Python 3.10 or newer.
 python3 tools/validate.py
 python3 -m unittest discover -s tests -v
 python3 tools/query.py --summary
+python3 tools/coverage.py --format markdown
+python3 tools/coverage.py --format json
 python3 tools/query.py --engine B235R --category cooling
 python3 tools/query.py --platform 9-3-9440 --year 2006
 python3 tools/query.py --text "intake valve" --kind issues
