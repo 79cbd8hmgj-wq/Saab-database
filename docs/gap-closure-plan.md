@@ -92,3 +92,8 @@ The [expanded supplier/FIAT/Opel/Saab study](research/cross-manufacturer-interch
 ### Cross-manufacturer official parts-channel evidence — B207 water pump (2026-10-13)
 
 [GM/Saab official 12630084 study](research/cross-manufacturer-gm-saab-b207-water-pump.md) adds dual official brand-channel listing of the same B207 water-pump service SKU, alongside the Saab balancer-shaft-driven factory procedure. Unlike a shared aftermarket fitment family this directly demonstrates a common numbered *service offering*, but **not** Opel Z20NET earlier-number donor approval, actual VIN fit, identical package contents, improved longevity or cost benefit. The variant scope is 9-3 (9440) B207; the original 2008 9-5 (9600) B235 is excluded. Gate C remains open.
+
+
+### Cross-manufacturer alternators and starters for model selection (2026-10-13)
+
+[AS-PL electrical sourcing comparison](research/cross-manufacturer-electrics-model-choice.md) records A0047 B207 alternator and S1167S starter as multi-brand Opel/Cadillac/Saab aftermarket catalogue families, versus original 9-5 B235 A0319 alternator as a Saab-specific aftermarket option in this supplier catalogue. The first two provide additional sourcing leads, **not verified OEM donor fitment or increased longevity**. The 9-5 starter and comparative failure/repair-cost evidence remain research blockers. Neither model is ranked from counts alone.
