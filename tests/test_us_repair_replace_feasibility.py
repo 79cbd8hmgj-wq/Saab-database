@@ -111,7 +111,7 @@ class USFeasibilityMatrixTests(unittest.TestCase):
     def test_legacy_original_four_speed_and_mechanical_screens(self):
         counts = self.coverage["counts"]["matching_links_by_scenario"]
         self.assertEqual(
-            [counts[f"us-feas-{i}"] for i in (15, 16, 17, 18)],
+            [counts[f"us-feas-{i:03d}"] for i in (15, 16, 17, 18)],
             [4, 13, 11, 22])
         expected = {
             "us-feas-015": ("9400", "engine", "B204L"),
