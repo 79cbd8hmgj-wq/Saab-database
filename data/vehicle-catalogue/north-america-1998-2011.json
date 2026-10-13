@@ -179,6 +179,26 @@
         "US"
       ],
       "notes": "1999 9-5 V6t wagon FWD four-speed automatic."
+    },
+    {
+      "id": "na-cat-s16",
+      "title": "Saab Automobile AB 1999 US Vehicle Identification Number SI 011-1808 edition 2",
+      "url": "https://www.genuinesaab.com/psi/files/1999VIN.pdf",
+      "origin": "Saab Automobile AB factory bulletin, March 1998 (archived)",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "Original 1999 MY US VIN: position 4 D=9-3, E=9-5; position 6 3=3-door 9-3, 5=5-door 9-3, 4=sedan 9-5; position 7 8=4-speed automatic; position 8 N=standard 2.0 turbo 9-3, E=2.3L LPT 9-5, Z=3.0L V6 9-5. Not an exhaustive assembled combination table; 9-5 wagon not listed."
+    },
+    {
+      "id": "na-cat-s17",
+      "title": "Cars.com US MY1999 9-3 3-door 185-hp automatic FWD",
+      "url": "https://www.cars.com/research/saab-9_3-1999/specs/107209/",
+      "origin": "US historical trim specification catalogue",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "Explicit 1999 3-door HB automatic 4-speed FWD 185 hp; US trim list includes 5-door automatic. Exact engine-code B-series must not be guessed."
     }
   ],
   "model_year_screening": [
@@ -470,10 +490,13 @@
       ],
       "source_ids": [
         "na-cat-s01",
-        "na-cat-s13"
+        "na-cat-s16",
+        "na-cat-s17"
       ],
-      "evidence_status": "secondary_supported_gearbox_year",
-      "notes": "Candidate exists in listed market; individual VIN, gearbox code, production variant, condition and purchase suitability remain unverified."
+      "evidence_status": "factory_vin_architecture_and_secondary_trim_confirmation",
+      "notes": "Candidate exists in listed market; individual VIN, gearbox code, production variant, condition and purchase suitability remain unverified.",
+      "vin_engine_character": "N",
+      "vin_gearbox_character": "8"
     },
     {
       "id": "na-1999-95-23-sedan-at",
@@ -491,10 +514,13 @@
       ],
       "source_ids": [
         "na-cat-s02",
-        "na-cat-s14"
+        "na-cat-s14",
+        "na-cat-s16"
       ],
       "evidence_status": "documented_market_configuration",
-      "notes": "Candidate exists in listed market; individual VIN, gearbox code, production variant, condition and purchase suitability remain unverified."
+      "notes": "Candidate exists in listed market; individual VIN, gearbox code, production variant, condition and purchase suitability remain unverified.",
+      "vin_engine_character": "E",
+      "vin_gearbox_character": "8"
     },
     {
       "id": "na-1999-95-v6-sedan-at",
@@ -511,10 +537,13 @@
         "US"
       ],
       "source_ids": [
-        "na-cat-s02"
+        "na-cat-s02",
+        "na-cat-s16"
       ],
       "evidence_status": "documented_market_configuration",
-      "notes": "Candidate exists in listed market; individual VIN, gearbox code, production variant, condition and purchase suitability remain unverified."
+      "notes": "Candidate exists in listed market; individual VIN, gearbox code, production variant, condition and purchase suitability remain unverified.",
+      "vin_engine_character": "Z",
+      "vin_gearbox_character": "8"
     },
     {
       "id": "na-1999-95-v6-wagon-at",
@@ -732,6 +761,16 @@
         "na-cat-s09",
         "na-cat-s10"
       ]
+    },
+    {
+      "id": "na-ex-06",
+      "model": "9-3",
+      "year": 1999,
+      "market": "US",
+      "description": "The new late-MY1999 200-hp high-output 9-3 SE 5-door engine was stated as available exclusively with manual transmission; this does not exclude lower-output 9-3 SE automatics.",
+      "source_ids": [
+        "na-cat-s03"
+      ]
     }
   ],
   "completion_definition": "Each model/year and market separately has original manufacturer sales/brochure or equipment table evidence for each eligible engine-body-auto-drivetrain pairing, or a supported no-production finding. Each gearbox and engine code requires model-year source or factory VIN material.",
@@ -742,7 +781,8 @@
     "Exact original engine and transmission codes and trim/equipment restrictions for every sample",
     "Factory-only exclusions for engine/transmission subtrims; no market-wide exclusion from trim summary",
     "Exhaustive eligibility of 2006/07 SportCombi configurations and US/CA 9-3 Sport Sedan combinations",
-    "Confirm Canadian MY2010 NG9-5 FWD absence/presence independently"
+    "Confirm Canadian MY2010 NG9-5 FWD absence/presence independently",
+    "1999 MY original Saab VIN bulletin is a code map, not proof that every possible combination of body/engine/gearbox exists; verify with sales guides."
   ],
   "note": "Coverage rows are NOT exhaustive model-year configurations. A state 'at_least_one_candidate_documented' establishes at least one sample only; unknown is never exclusion."
 }
