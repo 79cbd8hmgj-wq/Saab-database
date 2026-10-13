@@ -46,7 +46,7 @@ is counted from individual groups, not from a misleading top-level union.
 | --- | ---: |
 | `platforms` | 1190 / 1249 |
 | `model_years` | 1093 / 1249 |
-| `markets` | 216 / 1249 |
+| `markets` | 205 / 1249 |
 | `engine_codes` | 390 / 1249 |
 | `transmission_codes` | 167 / 1249 |
 | `body_styles` | 83 / 1249 |

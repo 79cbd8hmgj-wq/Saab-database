@@ -73,10 +73,6 @@
         ],
         "engine_codes": [
           "B235R"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -85,7 +81,7 @@
       "evidence_status": "supplier_claim",
       "review_status": "needs_vehicle_verification",
       "locator": "Product features",
-      "notes": "AS-PL component rating, not fitted-car test."
+      "notes": "AS-PL component rating, not fitted-car test. Application is a European-origin manufacturer catalogue claim. US/Canada is the intended research market, NOT verified regional fitment or stock."
     },
     {
       "id": "ogex-fact-002",
@@ -106,10 +102,6 @@
         ],
         "engine_codes": [
           "B235R"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -118,7 +110,7 @@
       "evidence_status": "supplier_claim",
       "review_status": "needs_vehicle_verification",
       "locator": "Product features",
-      "notes": "Catalogued starter may vary by gearbox/production options."
+      "notes": "Catalogued starter may vary by gearbox/production options. Application is a European-origin manufacturer catalogue claim. US/Canada is the intended research market, NOT verified regional fitment or stock."
     },
     {
       "id": "ogex-fact-003",
@@ -139,10 +131,6 @@
         ],
         "engine_codes": [
           "B235R"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -151,7 +139,7 @@
       "evidence_status": "supplier_claim",
       "review_status": "needs_vehicle_verification",
       "locator": "Product features",
-      "notes": "Bellhousing and ring-gear compatibility unverified."
+      "notes": "Bellhousing and ring-gear compatibility unverified. Application is a European-origin manufacturer catalogue claim. US/Canada is the intended research market, NOT verified regional fitment or stock."
     },
     {
       "id": "ogex-fact-004",
@@ -176,10 +164,6 @@
         ],
         "engine_codes": [
           "B235R"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -188,7 +172,7 @@
       "evidence_status": "supplier_claim",
       "review_status": "needs_vehicle_verification",
       "locator": "Manufacturer application table",
-      "notes": "Supplier one-SKU application to multiple marques is NOT a verified Opel used-donor assembly crossfit."
+      "notes": "Supplier one-SKU application to multiple marques is NOT a verified Opel used-donor assembly crossfit. Application is a European-origin manufacturer catalogue claim. US/Canada is the intended research market, NOT verified regional fitment or stock."
     },
     {
       "id": "ogex-fact-005",
@@ -209,10 +193,6 @@
         ],
         "engine_codes": [
           "B235R"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -221,7 +201,7 @@
       "evidence_status": "supplier_claim",
       "review_status": "needs_vehicle_verification",
       "locator": "Product features",
-      "notes": "Not interchangeable with A0319 merely because both 6-groove."
+      "notes": "Not interchangeable with A0319 merely because both 6-groove. Application is a European-origin manufacturer catalogue claim. US/Canada is the intended research market, NOT verified regional fitment or stock."
     },
     {
       "id": "ogex-fact-006",
@@ -242,10 +222,6 @@
         ],
         "engine_codes": [
           "B235R"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -254,7 +230,7 @@
       "evidence_status": "supplier_claim",
       "review_status": "needs_vehicle_verification",
       "locator": "Product features",
-      "notes": "Original pulley/offset and regulator/connector still unknown."
+      "notes": "Original pulley/offset and regulator/connector still unknown. Application is a European-origin manufacturer catalogue claim. US/Canada is the intended research market, NOT verified regional fitment or stock."
     },
     {
       "id": "ogex-fact-007",
@@ -275,10 +251,6 @@
         ],
         "engine_codes": [
           "B235R"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -287,7 +259,7 @@
       "evidence_status": "supplier_claim",
       "review_status": "needs_vehicle_verification",
       "locator": "Product features",
-      "notes": "Distinct from A0319 PL_9105."
+      "notes": "Distinct from A0319 PL_9105. Application is a European-origin manufacturer catalogue claim. US/Canada is the intended research market, NOT verified regional fitment or stock."
     },
     {
       "id": "ogex-fact-008",
@@ -312,10 +284,6 @@
         ],
         "engine_codes": [
           "B235R"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "source_ids": [
@@ -325,7 +293,7 @@
       "evidence_status": "supplier_claim",
       "review_status": "needs_vehicle_verification",
       "locator": "AS-PL product OE references and application table",
-      "notes": "Original Opel stamped alternator not verified to fit 9-5; listing includes different engines."
+      "notes": "Original Opel stamped alternator not verified to fit 9-5; listing includes different engines. Application is a European-origin manufacturer catalogue claim. US/Canada is the intended research market, NOT verified regional fitment or stock."
     }
   ],
   "issues": [
@@ -344,10 +312,6 @@
         ],
         "engine_codes": [
           "B235R"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "cause": "AS-PL A0219: 120A / six groove / PL_9104; A0319: 130A / six groove / PL_9105. Reference lists and mounting dimensions differ.",
@@ -365,7 +329,8 @@
       "limits": [
         "Both entries are supplier catalogue attributes",
         "No 2008 wagon physical comparison or upgrade test"
-      ]
+      ],
+      "notes": " Application is a European-origin manufacturer catalogue claim. US/Canada is the intended research market, NOT verified regional fitment or stock."
     }
   ],
   "parts": [
@@ -385,10 +350,6 @@
         ],
         "engine_codes": [
           "B235R"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "relationships": [
@@ -416,7 +377,7 @@
       ],
       "evidence_status": "supplier_claim",
       "review_status": "needs_vehicle_verification",
-      "notes": "Multi-marque AS-PL catalogue entry, not evidence that a salvaged Opel unit fits or that the replacement lasts longer.",
+      "notes": "Multi-marque AS-PL catalogue entry, not evidence that a salvaged Opel unit fits or that the replacement lasts longer. Application is a European-origin manufacturer catalogue claim. US/Canada is the intended research market, NOT verified regional fitment or stock.",
       "interchange_candidate": {
         "strategy": "shared_platform_aftermarket_sku",
         "donor_makes": [
@@ -454,10 +415,6 @@
         ],
         "engine_codes": [
           "B235R"
-        ],
-        "markets": [
-          "US",
-          "CA"
         ]
       },
       "relationships": [
@@ -485,7 +442,7 @@
       ],
       "evidence_status": "supplier_claim",
       "review_status": "needs_vehicle_verification",
-      "notes": "Multi-marque AS-PL catalogue entry, not evidence that a salvaged Opel unit fits or that the replacement lasts longer.",
+      "notes": "Multi-marque AS-PL catalogue entry, not evidence that a salvaged Opel unit fits or that the replacement lasts longer. Application is a European-origin manufacturer catalogue claim. US/Canada is the intended research market, NOT verified regional fitment or stock.",
       "interchange_candidate": {
         "strategy": "shared_platform_aftermarket_sku",
         "donor_makes": [
