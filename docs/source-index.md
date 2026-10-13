@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 290 source records with 276 distinct
+Research retrieval date: 2026-10-12. There are 303 source records with 284 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -414,3 +414,23 @@ Dataset: [high_cost_powertrain_diagnostics](../data/datasets/high-cost-powertrai
 | `hcdiag-src-015` | [MY2005 9-3 FA57 automatic fluid capacity and specification](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/weight-fluid-capacity-and-grade-of-fluid) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
 | `hcdiag-src-016` | [MY2005 9-3 FA57 checking transmission fluid level](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/adjustment-replacement/checking-the-transmission-fluid-level) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
 | `hcdiag-src-017` | [MY2004 9-3 automatic transmission fluid change procedure](https://saabwisonline.com/9-3-9440/2004/4-transmission/automatic-transmission/adjustment-replacement/changing-the-transmission-fluid) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+
+## b235_maintenance_fa57_identity
+
+Dataset: [b235_maintenance_fa57_identity](../data/datasets/b235-maintenance-fa57-identity.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `maint-src-001` | [MY2004 WIS petrol crankcase ventilation architecture](https://saabwisonline.com/9-5-9600/2004/2-engine/exhaust-emission-control-system/technical-description/crankcase-ventilation-4-cyl) | Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline) | `full_text` |
+| `maint-src-002` | [MY2007 WIS petrol crankcase ventilation architecture and DTCs](https://saabwisonline.com/9-5-9600/2007/2-engine/exhaust-emission-control-system/technical-description/crankcase-ventilation-4-cyl) | Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline) | `full_text` |
+| `maint-src-003` | [MY2009 WIS petrol crankcase ventilation architecture and DTCs](https://saabwisonline.com/9-5-9600/2009/2-engine/exhaust-emission-control-system/technical-description/crankcase-ventilation-4-cyl) | Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline) | `full_text` |
+| `maint-src-004` | [MY2006 WIS oil-trap hose coupling inspection](https://saabwisonline.com/9-5-9600/2006/2-engine/exhaust-emission-control-system/adjustment-replacement/inspection-of-crankcase-ventilation-hoses) | Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline) | `full_text` |
+| `maint-src-005` | [MY2006 WIS check-valve ventilation hose removal and fitment](https://saabwisonline.com/9-5-9600/2006/2-engine/exhaust-emission-control-system/adjustment-replacement/hose-with-check-valve-for-crankcase-ventilation) | Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline) | `full_text` |
+| `maint-src-006` | [MY2007 WIS four-cylinder petrol lubricating system](https://saabwisonline.com/9-5-9600/2007/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system) | Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline) | `full_text` |
+| `maint-src-007` | [MY2009 WIS four-cylinder petrol lubricating system](https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system) | Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline) | `full_text` |
+| `maint-src-008` | [MY2006 WIS oil and filter service, B205E/B235E lines](https://saabwisonline.com/9-5-9600/2006/2-engine/basic-engine-4-cylinder-petrol/service/engine-oil-and-oil-filter) | Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline) | `full_text` |
+| `maint-src-009` | [MY2008 WIS oil and filter service, B205E/B235E lines](https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/service/engine-oil-and-oil-filter) | Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline) | `full_text` |
+| `maint-src-010` | [MY2009 WIS oil and filter service, B205E/B235E lines](https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/service/engine-oil-and-oil-filter) | Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline) | `full_text` |
+| `maint-src-011` | [MY2009 WIS EU recommended petrol oil specification and short-trip caution](https://saabwisonline.com/9-5-9600/2009/1-service/saab-service-eu/service/recommended-oil-quality) | Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline) | `full_text` |
+| `maint-src-012` | [MY2005 WIS 9-3 FA57 gearbox and TCM identity decoding](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/type-designations) | Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline) | `full_text` |
+| `maint-src-013` | [Saab TA440-0702 early 9-3 coolant in FA57 ATF and vehicle scope](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/bulletins-si-mi/ta440-0702-coolant-in-atf-oil) | Saab Automobile AB (factory-authored WIS reproduced by independent SaabWISOnline) | `full_text` |
