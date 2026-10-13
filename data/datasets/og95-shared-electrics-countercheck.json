@@ -1,0 +1,559 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "og95_shared_electrics_countercheck",
+  "sources": [
+    {
+      "id": "ogex-src-001",
+      "title": "AS-PL S0034 starter manufacturer product record",
+      "url": "https://as-pl.com/en/p/S0034",
+      "publisher": "AS-PL",
+      "source_type": "manufacturer_datasheet",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "S0034 12V 1.40kW CW, 9 teeth, two mounting holes with one threaded; Bosch 0001108151 and Saab 93184927 etc catalogue references, not Saab EPC proof."
+    },
+    {
+      "id": "ogex-src-002",
+      "title": "AS-PL S0034 Saab B235R and Opel/Vauxhall application table",
+      "url": "https://as-pl.com/en/tpu/S0034",
+      "publisher": "AS-PL",
+      "source_type": "manufacturer_datasheet",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "AS-PL lists original 9-5 B235R through December 2009 and Opel/Vauxhall applications; common aftermarket starter is not proof original donors are identical."
+    },
+    {
+      "id": "ogex-src-003",
+      "title": "AS-PL A0219 120A alternator product record",
+      "url": "https://as-pl.com/en/p/A0219",
+      "publisher": "AS-PL",
+      "source_type": "manufacturer_datasheet",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "A0219 12V 120A 6 grooves PL_9104, Bosch 0124515049; Opel and Saab 4412805 etc references, distinct from A0319 130A PL_9105."
+    },
+    {
+      "id": "ogex-src-004",
+      "title": "AS-PL A0219 applications for 9-5 B235R through 2009",
+      "url": "https://as-pl.com/sr/tpu/A0219/2",
+      "publisher": "AS-PL",
+      "source_type": "manufacturer_datasheet",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "AS-PL manufacturer's Serbian-language application table lists B235R 9-5 sedan/wagon MY2006-09; a product category cross does not prove every donor unit."
+    },
+    {
+      "id": "ogex-src-005",
+      "title": "AS-PL A0319 distinct original 9-5 alternator product and specifications",
+      "url": "https://as-pl.com/en/p/A0319",
+      "publisher": "AS-PL",
+      "source_type": "manufacturer_datasheet",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "130A 6 grooves PL_9105 alternative catalogued earlier; different plug/current than A0219, do not assume either is a universal substitute."
+    }
+  ],
+  "facts": [
+    {
+      "id": "ogex-fact-001",
+      "subject": "starter:ASPL-S0034",
+      "category": "replacement_sourcing",
+      "predicate": "rated_voltage",
+      "value": 12,
+      "unit": "V",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ogex-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Product features",
+      "notes": "AS-PL component rating, not fitted-car test."
+    },
+    {
+      "id": "ogex-fact-002",
+      "subject": "starter:ASPL-S0034",
+      "category": "replacement_sourcing",
+      "predicate": "rated_power",
+      "value": 1.4,
+      "unit": "kW",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ogex-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Product features",
+      "notes": "Catalogued starter may vary by gearbox/production options."
+    },
+    {
+      "id": "ogex-fact-003",
+      "subject": "starter:ASPL-S0034",
+      "category": "replacement_sourcing",
+      "predicate": "pinion_teeth",
+      "value": 9,
+      "unit": "teeth",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ogex-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Product features",
+      "notes": "Bellhousing and ring-gear compatibility unverified."
+    },
+    {
+      "id": "ogex-fact-004",
+      "subject": "starter:ASPL-S0034",
+      "category": "replacement_sourcing",
+      "predicate": "cross_brand_application_makes",
+      "value": [
+        "Saab 9-5 B235R",
+        "Opel",
+        "Vauxhall"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ogex-src-002"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Manufacturer application table",
+      "notes": "Supplier one-SKU application to multiple marques is NOT a verified Opel used-donor assembly crossfit."
+    },
+    {
+      "id": "ogex-fact-005",
+      "subject": "alternator:ASPL-A0219",
+      "category": "replacement_sourcing",
+      "predicate": "rated_current",
+      "value": 120,
+      "unit": "A",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ogex-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Product features",
+      "notes": "Not interchangeable with A0319 merely because both 6-groove."
+    },
+    {
+      "id": "ogex-fact-006",
+      "subject": "alternator:ASPL-A0219",
+      "category": "replacement_sourcing",
+      "predicate": "pulley_grooves",
+      "value": 6,
+      "unit": "grooves",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ogex-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Product features",
+      "notes": "Original pulley/offset and regulator/connector still unknown."
+    },
+    {
+      "id": "ogex-fact-007",
+      "subject": "alternator:ASPL-A0219",
+      "category": "replacement_sourcing",
+      "predicate": "plug_code",
+      "value": "PL_9104",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ogex-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Product features",
+      "notes": "Distinct from A0319 PL_9105."
+    },
+    {
+      "id": "ogex-fact-008",
+      "subject": "alternator:ASPL-A0219",
+      "category": "replacement_sourcing",
+      "predicate": "cross_brand_application_makes",
+      "value": [
+        "Saab 9-5 B235R",
+        "Opel",
+        "Vauxhall"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "ogex-src-003",
+        "ogex-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "AS-PL product OE references and application table",
+      "notes": "Original Opel stamped alternator not verified to fit 9-5; listing includes different engines."
+    }
+  ],
+  "issues": [
+    {
+      "id": "ogex-issue-001",
+      "title": "9-5 B235 A0219 and A0319 alternator variants cannot be conflated",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "cause": "AS-PL A0219: 120A / six groove / PL_9104; A0319: 130A / six groove / PL_9105. Reference lists and mounting dimensions differ.",
+      "symptoms": [
+        "Seller claims universal Saab 9-5 6-rib alternator interchange",
+        "Replacing original based only on amps or pulley grooves"
+      ],
+      "diagnosis_summary": "Match installed OEM/aftermarket part, original VIN/option, regulation/connector/fit and rating, not merely model and rib count.",
+      "correction_summary": "Preserve both candidate families and require official filtered applications before recommending purchase.",
+      "source_ids": [
+        "ogex-src-003",
+        "ogex-src-005"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Both entries are supplier catalogue attributes",
+        "No 2008 wagon physical comparison or upgrade test"
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "ogex-part-001",
+      "part_number": "S0034",
+      "title": "AS-PL shared-catalogue 9-5 B235 1.4kW starter",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "aftermarket_reference",
+          "part_number": "93184927",
+          "conditions": "Supplier cross only, not manufacturer-authored Saab VIN fitment or approved direct Opel/OE donor."
+        },
+        {
+          "type": "aftermarket_reference",
+          "part_number": "0001108151",
+          "conditions": "Supplier cross only, not manufacturer-authored Saab VIN fitment or approved direct Opel/OE donor."
+        }
+      ],
+      "requirements": [
+        "Actual 9-5 B235R VIN and original starter/alternator stamp",
+        "Transmission-specific mounting/engagement, alternator regulator/plug/pulley and power matching",
+        "Bench/installation testing and correct hardware",
+        "Current United States availability, warranty and landed cost",
+        "Durability measurements before reliability upgrade claim"
+      ],
+      "source_ids": [
+        "ogex-src-001",
+        "ogex-src-002"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Multi-marque AS-PL catalogue entry, not evidence that a salvaged Opel unit fits or that the replacement lasts longer.",
+      "interchange_candidate": {
+        "strategy": "shared_platform_aftermarket_sku",
+        "donor_makes": [
+          "Opel",
+          "Vauxhall"
+        ],
+        "saab_reference_numbers": [
+          "93184927",
+          "0001108151"
+        ],
+        "fitment_approved": false,
+        "vehicle_verified": false,
+        "durability_validated": false,
+        "verification_required": [
+          "VIN/OE identity",
+          "mechanical and electrical interchange evidence",
+          "real US stock/price and qualified install",
+          "comparative lifetime validation"
+        ]
+      }
+    },
+    {
+      "id": "ogex-part-002",
+      "part_number": "A0219",
+      "title": "AS-PL 9-5 B235 120A Opel/Saab cross-reference alternator",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "aftermarket_reference",
+          "part_number": "0124515049",
+          "conditions": "Supplier cross only, not manufacturer-authored Saab VIN fitment or approved direct Opel/OE donor."
+        },
+        {
+          "type": "aftermarket_reference",
+          "part_number": "4412805",
+          "conditions": "Supplier cross only, not manufacturer-authored Saab VIN fitment or approved direct Opel/OE donor."
+        }
+      ],
+      "requirements": [
+        "Actual 9-5 B235R VIN and original starter/alternator stamp",
+        "Transmission-specific mounting/engagement, alternator regulator/plug/pulley and power matching",
+        "Bench/installation testing and correct hardware",
+        "Current United States availability, warranty and landed cost",
+        "Durability measurements before reliability upgrade claim"
+      ],
+      "source_ids": [
+        "ogex-src-003",
+        "ogex-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Multi-marque AS-PL catalogue entry, not evidence that a salvaged Opel unit fits or that the replacement lasts longer.",
+      "interchange_candidate": {
+        "strategy": "shared_platform_aftermarket_sku",
+        "donor_makes": [
+          "Opel",
+          "Vauxhall"
+        ],
+        "saab_reference_numbers": [
+          "0124515049",
+          "4412805"
+        ],
+        "fitment_approved": false,
+        "vehicle_verified": false,
+        "durability_validated": false,
+        "verification_required": [
+          "VIN/OE identity",
+          "mechanical and electrical interchange evidence",
+          "real US stock/price and qualified install",
+          "comparative lifetime validation"
+        ]
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "id": "ogex-gap-001",
+      "title": "S0034 original Saab B235R OE match by gearbox and year",
+      "missing_inputs": [
+        "Exact original starter part by 2006-09 B235R VIN and auto/manual gearbox",
+        "donor Opel stamped unit and gear/bellhousing geometry",
+        "starter wiring and original Saab WIS service instructions"
+      ],
+      "reason": "AS-PL cross-marque applications are not certification that every original Opel starter is direct-fit.",
+      "source_ids": [
+        "ogex-src-001",
+        "ogex-src-002"
+      ]
+    },
+    {
+      "id": "ogex-gap-002",
+      "title": "A0219 versus A0319 9-5 exact original alternator applications",
+      "missing_inputs": [
+        "Original Saab WebEPC 9-5 alternator by B235R 2006-09 VIN and equipment",
+        "OE 120A vs 130A regulator and harness requirements",
+        "pulley offset, bearing and bracket geometry",
+        "factory-approved number succession if any"
+      ],
+      "reason": "Two different supplier part families have similar pulley groove count but different plug/regulator codes.",
+      "source_ids": [
+        "ogex-src-003",
+        "ogex-src-004",
+        "ogex-src-005"
+      ]
+    },
+    {
+      "id": "ogex-gap-003",
+      "title": "9-5 US stock and quantified reliability comparison",
+      "missing_inputs": [
+        "Contemporaneous US retailer prices and stock for S0034/A0219/A0319",
+        "new versus reman, core charge and warranty terms",
+        "tested long-term failure and replacement outcomes",
+        "vehicle-specific install cost"
+      ],
+      "reason": "A marketed aftermarket part does not establish local availability, cost improvement, failure probability or Toyota-class durability.",
+      "source_ids": [
+        "ogex-src-001",
+        "ogex-src-003",
+        "ogex-src-005"
+      ]
+    }
+  ]
+}
