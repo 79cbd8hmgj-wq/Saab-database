@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0.0",
+  "decision_date": "2026-10-13",
+  "model_years": {
+    "first": 1998,
+    "last": 2011,
+    "inclusive": true
+  },
+  "models": [
+    "9-3",
+    "9-5"
+  ],
+  "eligible_transmission": "factory automatic",
+  "eligible_drivetrain": "factory front-wheel drive",
+  "excluded_body_styles": [
+    "convertible"
+  ],
+  "excluded_drivetrains": [
+    "XWD",
+    "AWD",
+    "4WD"
+  ],
+  "excluded_transmissions": [
+    "manual"
+  ],
+  "included_body_styles": [
+    "sedan",
+    "hatchback",
+    "wagon",
+    "SportCombi"
+  ],
+  "candidate_families": [
+    {
+      "model": "9-3",
+      "platform": "9400",
+      "years": [
+        1998,
+        2003
+      ]
+    },
+    {
+      "model": "9-3",
+      "platform": "9440",
+      "years": [
+        2003,
+        2011
+      ]
+    },
+    {
+      "model": "9-5",
+      "platform": "9600",
+      "years": [
+        1998,
+        2009
+      ]
+    },
+    {
+      "model": "9-5",
+      "platform": "650",
+      "years": [
+        2010,
+        2011
+      ]
+    }
+  ],
+  "notes": [
+    "Eligibility requires a real factory combination of market, year, engine, automatic transmission, FWD, and qualifying body; the years listed are screening bounds and are not assertions every combination was sold.",
+    "Exclude 9-3X/XWD and all convertibles from candidate shopping and model ranking.",
+    "Retain existing research on excluded configurations for diagnostic context, platform distinctions and warnings against invalid interchanges.",
+    "Model/generation/year overlaps must not be resolved solely from year.",
+    "Newly admitted variants begin unassessed until original sources document their suitability.",
+    "No existing dataset counts, fitment approvals or Phase 0 gates change from this eligibility decision."
+  ]
+}
