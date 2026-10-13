@@ -1,0 +1,1514 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "og95_ground_power_0709",
+  "sources": [
+    {
+      "id": "og95wire-src-001",
+      "title": "MY2007 WIS: Grounding points",
+      "url": "https://saabwisonline.com/9-5-9600/2007/3-electrical-system/wiring-harness/technical-description/grounding-points",
+      "publisher": "Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Grounding points: battery G2/G25/redundant cable and locations. Scope is the specified WIS model-year document, not a universal harness or verified installed-hardware claim."
+    },
+    {
+      "id": "og95wire-src-002",
+      "title": "MY2008 WIS: Grounding points",
+      "url": "https://saabwisonline.com/9-5-9600/2008/3-electrical-system/wiring-harness/technical-description/grounding-points",
+      "publisher": "Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Grounding points: battery G2/G25/redundant cable and locations. Scope is the specified WIS model-year document, not a universal harness or verified installed-hardware claim."
+    },
+    {
+      "id": "og95wire-src-003",
+      "title": "MY2009 WIS: Grounding points",
+      "url": "https://saabwisonline.com/9-5-9600/2009/3-electrical-system/wiring-harness/technical-description/grounding-points",
+      "publisher": "Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Grounding points: battery G2/G25/redundant cable and locations. Scope is the specified WIS model-year document, not a universal harness or verified installed-hardware claim."
+    },
+    {
+      "id": "og95wire-src-004",
+      "title": "MY2007 WIS: System overview",
+      "url": "https://saabwisonline.com/9-5-9600/2007/3-electrical-system/wiring-harness/technical-description/system-overview",
+      "publisher": "Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Harness architecture, distribution, supply modes and high-current warning. Scope is the specified WIS model-year document, not a universal harness or verified installed-hardware claim."
+    },
+    {
+      "id": "og95wire-src-005",
+      "title": "MY2008 WIS: System overview",
+      "url": "https://saabwisonline.com/9-5-9600/2008/3-electrical-system/wiring-harness/technical-description/system-overview",
+      "publisher": "Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Harness architecture, distribution, supply modes and high-current warning. Scope is the specified WIS model-year document, not a universal harness or verified installed-hardware claim."
+    },
+    {
+      "id": "og95wire-src-006",
+      "title": "MY2007 WIS: Radiator fans, petrol",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/wiring-diagram/radiator-fans-petrol",
+      "publisher": "Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Component locator table only, not a fully transcribed graphical schematic. Scope is the specified WIS model-year document, not a universal harness or verified installed-hardware claim."
+    },
+    {
+      "id": "og95wire-src-007",
+      "title": "MY2008 WIS: Radiator fans, petrol",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/wiring-diagram/radiator-fans-petrol",
+      "publisher": "Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Component locator table only, not a fully transcribed graphical schematic. Scope is the specified WIS model-year document, not a universal harness or verified installed-hardware claim."
+    },
+    {
+      "id": "og95wire-src-008",
+      "title": "MY2009 WIS: Radiator fans, petrol",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/cooling-system/wiring-diagram/radiator-fans-petrol",
+      "publisher": "Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Component locator table only, not a fully transcribed graphical schematic. Scope is the specified WIS model-year document, not a universal harness or verified installed-hardware claim."
+    },
+    {
+      "id": "og95wire-src-009",
+      "title": "MY2007 WIS: Trionic T7 wiring, part 2 of 4",
+      "url": "https://saabwisonline.com/9-5-9600/2007/3-electrical-system/wiring-harness/wiring-diagram/trionic-t7-engine-management-system-4-cyl-part-2-4",
+      "publisher": "Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "4-cylinder petrol T7 connector and component locator; graphic not completely extracted. Scope is the specified WIS model-year document, not a universal harness or verified installed-hardware claim."
+    },
+    {
+      "id": "og95wire-src-010",
+      "title": "MY2008 WIS: Trionic T7 wiring, part 2 of 4",
+      "url": "https://saabwisonline.com/9-5-9600/2008/3-electrical-system/wiring-harness/wiring-diagram/trionic-t7-engine-management-system-4-cyl-part-2-4",
+      "publisher": "Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "4-cylinder petrol T7 connector and component locator; graphic not completely extracted. Scope is the specified WIS model-year document, not a universal harness or verified installed-hardware claim."
+    },
+    {
+      "id": "og95wire-src-011",
+      "title": "MY2009 WIS: Trionic T7 wiring, part 4 of 4",
+      "url": "https://saabwisonline.com/9-5-9600/2009/3-electrical-system/wiring-harness/wiring-diagram/trionic-t7-engine-management-system-4-cyl-part-4-4",
+      "publisher": "Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "4-cylinder petrol T7 relays, exhaust oxygen sensors and crimp locator. Scope is the specified WIS model-year document, not a universal harness or verified installed-hardware claim."
+    },
+    {
+      "id": "og95wire-src-012",
+      "title": "MY2009 WIS: Power supply +30, part 1 of 2",
+      "url": "https://saabwisonline.com/9-5-9600/2009/3-electrical-system/wiring-harness/wiring-diagram/power-supply-30-part-1-2",
+      "publisher": "Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "search_excerpt",
+      "notes": "Search-excerpt component table only; no transcribed live schematic or fuse-by-fuse connections. Scope is the specified WIS model-year document, not a universal harness or verified installed-hardware claim."
+    },
+    {
+      "id": "og95wire-src-013",
+      "title": "MY2009 WIS: Power supply +54",
+      "url": "https://saabwisonline.com/9-5-9600/2009/3-electrical-system/wiring-harness/wiring-diagram/power-supply-54",
+      "publisher": "Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "Connector and component locator; not full wiring continuity or per-fuse allocation. Scope is the specified WIS model-year document, not a universal harness or verified installed-hardware claim."
+    }
+  ],
+  "facts": [
+    {
+      "id": "og95wire-fact-001",
+      "subject": "Battery:engine-and-body-grounds",
+      "category": "electrical",
+      "predicate": "battery_ground_cable_sizes",
+      "value": {
+        "battery_to_gearbox_G25_mm2": 25,
+        "battery_to_chassis_G2_mm2": 16,
+        "redundant_gearbox_to_chassis_mm2": 10
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Grounding points > introduction",
+      "notes": "Factory cross-sectional areas in square millimetres. No approved aftermarket cable specification or voltage-drop criterion established."
+    },
+    {
+      "id": "og95wire-fact-002",
+      "subject": "Ground:G7",
+      "category": "electrical",
+      "predicate": "engine_ground_G7_location",
+      "value": "Side of intake manifold at cylinder 4",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "List of grounding points > G7",
+      "notes": "Physical locator only. Which particular loads return here requires the system-specific diagram."
+    },
+    {
+      "id": "og95wire-fact-003",
+      "subject": "Ground:G30",
+      "category": "electrical",
+      "predicate": "front_bay_ground_G30_location",
+      "value": "Engine bay side panel ahead of left-hand wheel housing",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "List of grounding points > G30",
+      "notes": "Location only; do not infer every front electrical fault traces to this point."
+    },
+    {
+      "id": "og95wire-fact-004",
+      "subject": "Ground:dashboard",
+      "category": "electrical",
+      "predicate": "interior_ground_point_locations",
+      "value": {
+        "G40": "left side of knee member in cabin",
+        "G41P": "centre screw in knee member",
+        "G41S": "left screw in knee member",
+        "G42": "right side of knee member in cabin"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "List of grounding points > G40–G42",
+      "notes": "Electrical return may vary by left/right-hand-drive; do not interchange power ground and signal ground on location alone."
+    },
+    {
+      "id": "og95wire-fact-005",
+      "subject": "Battery:engine-and-body-grounds",
+      "category": "electrical",
+      "predicate": "battery_ground_cable_sizes",
+      "value": {
+        "battery_to_gearbox_G25_mm2": 25,
+        "battery_to_chassis_G2_mm2": 16,
+        "redundant_gearbox_to_chassis_mm2": 10
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Grounding points > introduction",
+      "notes": "Factory cross-sectional areas in square millimetres. No approved aftermarket cable specification or voltage-drop criterion established."
+    },
+    {
+      "id": "og95wire-fact-006",
+      "subject": "Ground:G7",
+      "category": "electrical",
+      "predicate": "engine_ground_G7_location",
+      "value": "Side of intake manifold at cylinder 4",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "List of grounding points > G7",
+      "notes": "Physical locator only. Which particular loads return here requires the system-specific diagram."
+    },
+    {
+      "id": "og95wire-fact-007",
+      "subject": "Ground:G30",
+      "category": "electrical",
+      "predicate": "front_bay_ground_G30_location",
+      "value": "Engine bay side panel ahead of left-hand wheel housing",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "List of grounding points > G30",
+      "notes": "Location only; do not infer every front electrical fault traces to this point."
+    },
+    {
+      "id": "og95wire-fact-008",
+      "subject": "Ground:dashboard",
+      "category": "electrical",
+      "predicate": "interior_ground_point_locations",
+      "value": {
+        "G40": "left side of knee member in cabin",
+        "G41P": "centre screw in knee member",
+        "G41S": "left screw in knee member",
+        "G42": "right side of knee member in cabin"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "List of grounding points > G40–G42",
+      "notes": "Electrical return may vary by left/right-hand-drive; do not interchange power ground and signal ground on location alone."
+    },
+    {
+      "id": "og95wire-fact-009",
+      "subject": "Battery:engine-and-body-grounds",
+      "category": "electrical",
+      "predicate": "battery_ground_cable_sizes",
+      "value": {
+        "battery_to_gearbox_G25_mm2": 25,
+        "battery_to_chassis_G2_mm2": 16,
+        "redundant_gearbox_to_chassis_mm2": 10
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Grounding points > introduction",
+      "notes": "Factory cross-sectional areas in square millimetres. No approved aftermarket cable specification or voltage-drop criterion established."
+    },
+    {
+      "id": "og95wire-fact-010",
+      "subject": "Ground:G7",
+      "category": "electrical",
+      "predicate": "engine_ground_G7_location",
+      "value": "Side of intake manifold at cylinder 4",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "List of grounding points > G7",
+      "notes": "Physical locator only. Which particular loads return here requires the system-specific diagram."
+    },
+    {
+      "id": "og95wire-fact-011",
+      "subject": "Ground:G30",
+      "category": "electrical",
+      "predicate": "front_bay_ground_G30_location",
+      "value": "Engine bay side panel ahead of left-hand wheel housing",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "List of grounding points > G30",
+      "notes": "Location only; do not infer every front electrical fault traces to this point."
+    },
+    {
+      "id": "og95wire-fact-012",
+      "subject": "Ground:dashboard",
+      "category": "electrical",
+      "predicate": "interior_ground_point_locations",
+      "value": {
+        "G40": "left side of knee member in cabin",
+        "G41P": "centre screw in knee member",
+        "G41S": "left screw in knee member",
+        "G42": "right side of knee member in cabin"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "List of grounding points > G40–G42",
+      "notes": "Electrical return may vary by left/right-hand-drive; do not interchange power ground and signal ground on location alone."
+    },
+    {
+      "id": "og95wire-fact-013",
+      "subject": "Wiring:distribution",
+      "category": "electrical",
+      "predicate": "distribution_units",
+      "value": {
+        "engine_bay": {
+          "501": "maxi fuse box",
+          "342a": "main fuse box",
+          "342b": "main relay board",
+          "342a_342b": "integrated unit"
+        },
+        "dashboard": {
+          "22a": "main fuse box",
+          "22b": "main relay board"
+        }
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "System overview > Main fuse boxes",
+      "notes": "Unit identities and physical grouping, not individual fuse paths."
+    },
+    {
+      "id": "og95wire-fact-014",
+      "subject": "Ignition:feed-modes",
+      "category": "electrical",
+      "predicate": "ignition_feed_states",
+      "value": {
+        "plus_15": "energized in ON and START",
+        "plus_54": "energized in ON but cut in START",
+        "plus_B": "supplied after key moved from LOCK to OFF, removed when key removed"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "System overview > +15 / +54 / +B",
+      "notes": "Distinct feed states; absence of +54 voltage while cranking is not on its own evidence of failed ignition switch."
+    },
+    {
+      "id": "og95wire-fact-015",
+      "subject": "Battery:unfused-feeds",
+      "category": "electrical",
+      "predicate": "unfused_battery_consumers",
+      "value": [
+        "starter motor",
+        "generator",
+        "lighting relays",
+        "some engine-bay fuses",
+        "dashboard fuse A"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "System overview > Battery supply",
+      "notes": "Factory warns these leads are unfused. Do not probe, bridge or modify high-current circuits without appropriate safety controls."
+    },
+    {
+      "id": "og95wire-fact-016",
+      "subject": "Wiring:distribution",
+      "category": "electrical",
+      "predicate": "distribution_units",
+      "value": {
+        "engine_bay": {
+          "501": "maxi fuse box",
+          "342a": "main fuse box",
+          "342b": "main relay board",
+          "342a_342b": "integrated unit"
+        },
+        "dashboard": {
+          "22a": "main fuse box",
+          "22b": "main relay board"
+        }
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "System overview > Main fuse boxes",
+      "notes": "Unit identities and physical grouping, not individual fuse paths."
+    },
+    {
+      "id": "og95wire-fact-017",
+      "subject": "Ignition:feed-modes",
+      "category": "electrical",
+      "predicate": "ignition_feed_states",
+      "value": {
+        "plus_15": "energized in ON and START",
+        "plus_54": "energized in ON but cut in START",
+        "plus_B": "supplied after key moved from LOCK to OFF, removed when key removed"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "System overview > +15 / +54 / +B",
+      "notes": "Distinct feed states; absence of +54 voltage while cranking is not on its own evidence of failed ignition switch."
+    },
+    {
+      "id": "og95wire-fact-018",
+      "subject": "Battery:unfused-feeds",
+      "category": "electrical",
+      "predicate": "unfused_battery_consumers",
+      "value": [
+        "starter motor",
+        "generator",
+        "lighting relays",
+        "some engine-bay fuses",
+        "dashboard fuse A"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "System overview > Battery supply",
+      "notes": "Factory warns these leads are unfused. Do not probe, bridge or modify high-current circuits without appropriate safety controls."
+    },
+    {
+      "id": "og95wire-fact-019",
+      "subject": "Cooling:fan-relays",
+      "category": "electrical",
+      "predicate": "petrol_fan_relay_component_locations",
+      "value": {
+        "81": "left fan high-speed relay on engine-bay relay board",
+        "155": "two-fan low-speed relay on engine-bay relay board",
+        "396": "right fan high-speed relay in engine-bay fuse box 342a"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans, petrol > component list",
+      "notes": "For factory four-cylinder petrol diagrams. This does not mean each listed relay is installed on every A/C configuration."
+    },
+    {
+      "id": "og95wire-fact-020",
+      "subject": "Cooling:DICE",
+      "category": "electrical",
+      "predicate": "dice_module_location",
+      "value": {
+        "LHD": "above dashboard relay box",
+        "RHD": "behind dashboard relay box"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans, petrol > component 628",
+      "notes": "Factory location is handedness-specific; the petrol system is controlled by DICE, not diesel ECM fan logic."
+    },
+    {
+      "id": "og95wire-fact-021",
+      "subject": "Cooling:fan-grounds",
+      "category": "electrical",
+      "predicate": "fan_diagram_ground_refs",
+      "value": [
+        "G30",
+        "G40",
+        "G42"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans, petrol > Grounding points",
+      "notes": "These are referenced ground locations, not proof of a particular wire-to-terminal route without inspection of graphical schematic."
+    },
+    {
+      "id": "og95wire-fact-022",
+      "subject": "Cooling:fan-harness",
+      "category": "electrical",
+      "predicate": "fan_harness_splice_J3_locator",
+      "value": "J3 approximately 100 mm from the G30 branching point toward the radiator fan",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans, petrol > Crimp connectors J3",
+      "notes": "Approximate harness locator is not a point-to-point continuity map."
+    },
+    {
+      "id": "og95wire-fact-023",
+      "subject": "Cooling:temperature-sensor",
+      "category": "electrical",
+      "predicate": "coolant_sensor_202_location",
+      "value": "Left-hand side of cylinder head",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans, petrol > Component 202",
+      "notes": "Only applicable to the four-cylinder petrol fan wiring document; different diesel diagram locates its sensor differently."
+    },
+    {
+      "id": "og95wire-fact-024",
+      "subject": "Cooling:fan-relays",
+      "category": "electrical",
+      "predicate": "petrol_fan_relay_component_locations",
+      "value": {
+        "81": "left fan high-speed relay on engine-bay relay board",
+        "155": "two-fan low-speed relay on engine-bay relay board",
+        "396": "right fan high-speed relay in engine-bay fuse box 342a"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans, petrol > component list",
+      "notes": "For factory four-cylinder petrol diagrams. This does not mean each listed relay is installed on every A/C configuration."
+    },
+    {
+      "id": "og95wire-fact-025",
+      "subject": "Cooling:DICE",
+      "category": "electrical",
+      "predicate": "dice_module_location",
+      "value": {
+        "LHD": "above dashboard relay box",
+        "RHD": "behind dashboard relay box"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans, petrol > component 628",
+      "notes": "Factory location is handedness-specific; the petrol system is controlled by DICE, not diesel ECM fan logic."
+    },
+    {
+      "id": "og95wire-fact-026",
+      "subject": "Cooling:fan-grounds",
+      "category": "electrical",
+      "predicate": "fan_diagram_ground_refs",
+      "value": [
+        "G30",
+        "G40",
+        "G42"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans, petrol > Grounding points",
+      "notes": "These are referenced ground locations, not proof of a particular wire-to-terminal route without inspection of graphical schematic."
+    },
+    {
+      "id": "og95wire-fact-027",
+      "subject": "Cooling:fan-harness",
+      "category": "electrical",
+      "predicate": "fan_harness_splice_J3_locator",
+      "value": "J3 approximately 100 mm from the G30 branching point toward the radiator fan",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans, petrol > Crimp connectors J3",
+      "notes": "Approximate harness locator is not a point-to-point continuity map."
+    },
+    {
+      "id": "og95wire-fact-028",
+      "subject": "Cooling:temperature-sensor",
+      "category": "electrical",
+      "predicate": "coolant_sensor_202_location",
+      "value": "Left-hand side of cylinder head",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans, petrol > Component 202",
+      "notes": "Only applicable to the four-cylinder petrol fan wiring document; different diesel diagram locates its sensor differently."
+    },
+    {
+      "id": "og95wire-fact-029",
+      "subject": "Cooling:fan-relays",
+      "category": "electrical",
+      "predicate": "petrol_fan_relay_component_locations",
+      "value": {
+        "81": "left fan high-speed relay on engine-bay relay board",
+        "155": "two-fan low-speed relay on engine-bay relay board",
+        "396": "right fan high-speed relay in engine-bay fuse box 342a"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans, petrol > component list",
+      "notes": "For factory four-cylinder petrol diagrams. This does not mean each listed relay is installed on every A/C configuration."
+    },
+    {
+      "id": "og95wire-fact-030",
+      "subject": "Cooling:DICE",
+      "category": "electrical",
+      "predicate": "dice_module_location",
+      "value": {
+        "LHD": "above dashboard relay box",
+        "RHD": "behind dashboard relay box"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans, petrol > component 628",
+      "notes": "Factory location is handedness-specific; the petrol system is controlled by DICE, not diesel ECM fan logic."
+    },
+    {
+      "id": "og95wire-fact-031",
+      "subject": "Cooling:fan-grounds",
+      "category": "electrical",
+      "predicate": "fan_diagram_ground_refs",
+      "value": [
+        "G30",
+        "G40",
+        "G42"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans, petrol > Grounding points",
+      "notes": "These are referenced ground locations, not proof of a particular wire-to-terminal route without inspection of graphical schematic."
+    },
+    {
+      "id": "og95wire-fact-032",
+      "subject": "Cooling:fan-harness",
+      "category": "electrical",
+      "predicate": "fan_harness_splice_J3_locator",
+      "value": "J3 approximately 100 mm from the G30 branching point toward the radiator fan",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans, petrol > Crimp connectors J3",
+      "notes": "Approximate harness locator is not a point-to-point continuity map."
+    },
+    {
+      "id": "og95wire-fact-033",
+      "subject": "Cooling:temperature-sensor",
+      "category": "electrical",
+      "predicate": "coolant_sensor_202_location",
+      "value": "Left-hand side of cylinder head",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Radiator fans, petrol > Component 202",
+      "notes": "Only applicable to the four-cylinder petrol fan wiring document; different diesel diagram locates its sensor differently."
+    },
+    {
+      "id": "og95wire-fact-034",
+      "subject": "Trionic7:components",
+      "category": "electrical",
+      "predicate": "t7_engine_sensor_locations",
+      "value": {
+        "345_crankshaft_position": "under exhaust manifold",
+        "205_mass_air_flow": "behind right-hand headlamp",
+        "202_coolant": "left side of cylinder head",
+        "431_manifold_pressure": "intake manifold to right of throttle body",
+        "407_intake_air_temperature": "on charge-air pipe, integrated in component 688"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "T7 wiring diagram (2/4) > Component locations",
+      "notes": "MY2006 IAT factory textual location dispute remains tracked separately; these independently documented MY2007/08 component locators do not silently resolve all variants."
+    },
+    {
+      "id": "og95wire-fact-035",
+      "subject": "Trionic7:bulkhead",
+      "category": "electrical",
+      "predicate": "t7_bulkhead_connectors",
+      "value": {
+        "H24-1": "grey, mid bulkhead, engine-bay side",
+        "H24-2": "black, mid bulkhead, engine-bay side",
+        "H43-1": "white, connector console below left A-pillar"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "T7 wiring diagram (2/4) > 24-pin / 43-pin connectors",
+      "notes": "Connector location and color, NOT individual connector pin functions."
+    },
+    {
+      "id": "og95wire-fact-036",
+      "subject": "Trionic7:splices",
+      "category": "electrical",
+      "predicate": "t7_engine_crank_harness_splice_distances",
+      "value": {
+        "J15_mm": 35,
+        "J21_mm": 55,
+        "J22_mm": 20
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "T7 wiring diagram (2/4) > Crimp connectors J15 J21 J22",
+      "notes": "Approximate distances from CPS branching toward H24-1/H24-2; no assigned electrical function to an unlabeled splice."
+    },
+    {
+      "id": "og95wire-fact-037",
+      "subject": "Trionic7:components",
+      "category": "electrical",
+      "predicate": "t7_engine_sensor_locations",
+      "value": {
+        "345_crankshaft_position": "under exhaust manifold",
+        "205_mass_air_flow": "behind right-hand headlamp",
+        "202_coolant": "left side of cylinder head",
+        "431_manifold_pressure": "intake manifold to right of throttle body",
+        "407_intake_air_temperature": "on charge-air pipe, integrated in component 688"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "T7 wiring diagram (2/4) > Component locations",
+      "notes": "MY2006 IAT factory textual location dispute remains tracked separately; these independently documented MY2007/08 component locators do not silently resolve all variants."
+    },
+    {
+      "id": "og95wire-fact-038",
+      "subject": "Trionic7:bulkhead",
+      "category": "electrical",
+      "predicate": "t7_bulkhead_connectors",
+      "value": {
+        "H24-1": "grey, mid bulkhead, engine-bay side",
+        "H24-2": "black, mid bulkhead, engine-bay side",
+        "H43-1": "white, connector console below left A-pillar"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "T7 wiring diagram (2/4) > 24-pin / 43-pin connectors",
+      "notes": "Connector location and color, NOT individual connector pin functions."
+    },
+    {
+      "id": "og95wire-fact-039",
+      "subject": "Trionic7:splices",
+      "category": "electrical",
+      "predicate": "t7_engine_crank_harness_splice_distances",
+      "value": {
+        "J15_mm": 35,
+        "J21_mm": 55,
+        "J22_mm": 20
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "T7 wiring diagram (2/4) > Crimp connectors J15 J21 J22",
+      "notes": "Approximate distances from CPS branching toward H24-1/H24-2; no assigned electrical function to an unlabeled splice."
+    },
+    {
+      "id": "og95wire-fact-040",
+      "subject": "Trionic7:relay-panel",
+      "category": "electrical",
+      "predicate": "t7_2009_engine_fuel_relay_locations",
+      "value": {
+        "102": "fuel pump relay, main dashboard relay board",
+        "229": "engine management main relay, main dashboard relay board"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "T7 wiring diagram (4/4) > Components 102/229",
+      "notes": "An index for inspection, not a diagnosis or relay swap approval."
+    },
+    {
+      "id": "og95wire-fact-041",
+      "subject": "Trionic7:exhaust-sensors",
+      "category": "electrical",
+      "predicate": "t7_2009_oxygen_sensor_locations",
+      "value": {
+        "592Fa": "heated oxygen sensor before catalytic converter",
+        "592Ra": "heated oxygen sensor after catalytic converter"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "T7 wiring diagram (4/4) > Components 592Fa/592Ra",
+      "notes": "Component locations are not OEM interchange, connector fitment, or emissions repair approval."
+    },
+    {
+      "id": "og95wire-fact-042",
+      "subject": "Power:+30",
+      "category": "electrical",
+      "predicate": "power_30_diagram_unfused_source_components",
+      "value": [
+        "battery (1)",
+        "alternator (2)",
+        "starter (4)",
+        "maxi fuse box (501)"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Power supply +30 (Part 1/2) > Components",
+      "notes": "Source reviewed as search excerpt; only the component list is supported, not individual +30 wire routes."
+    },
+    {
+      "id": "og95wire-fact-043",
+      "subject": "Power:+54",
+      "category": "electrical",
+      "predicate": "power_54_ignition_distribution_locations",
+      "value": {
+        "ignition_switch_20": "floor console",
+        "ignition_relay_21": "dashboard relay board",
+        "dashboard_fuse_22a": "driver-side dashboard end",
+        "engine_fuse_342a": "behind battery",
+        "maxifuse_501": "under battery cover"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Power supply +54 > Components",
+      "notes": "Wiring-diagram locator, not standalone evidence of ON/START switching behavior for MY2009."
+    },
+    {
+      "id": "og95wire-fact-044",
+      "subject": "Power:+54",
+      "category": "electrical",
+      "predicate": "power_54_splice_J42_handed_locations",
+      "value": {
+        "LHD": "approx 145 mm from G40 branch toward main fuse box",
+        "RHD": "approx 50 mm from G42 branch toward main relay board"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "og95wire-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Power supply +54 > Crimp connections J42",
+      "notes": "Harness location varies by steering side; do not transfer diagrams between LHD and RHD."
+    }
+  ],
+  "issues": [
+    {
+      "id": "og95wire-issue-001",
+      "title": "Weak starter or intermittent electrical supply: inspect battery/gearbox/chassis ground paths",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "cause": "The factory uses parallel battery-ground paths to G25 and G2 and a redundant gearbox-to-body lead; damage, resistance or disconnection is a possible diagnostic hypothesis, not a documented incidence.",
+      "symptoms": [
+        "low cranking voltage",
+        "intermittent electrical supply",
+        "unexpected starting difficulty"
+      ],
+      "diagnosis_summary": "Identify G2 and G25 on the actual vehicle and perform condition, connection, cranking-voltage and voltage-drop checks under a separately verified electrical procedure; distinguish battery, starter, generator and ignition feeds.",
+      "correction_summary": "Repair only demonstrated cable/terminal/circuit defects using an applicable factory procedure and verified component specifications.",
+      "source_ids": [
+        "og95wire-src-002",
+        "og95wire-src-005"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Symptoms and electrical fault hypotheses are general diagnostic framing, not a known failure rate or a guaranteed cause.",
+        "Do not short, bypass, modify or load-test unfused conductors without safe equipment and verified service steps.",
+        "No cable part-number fitment, tightening torque, corrosion threshold or battery replacement decision is certified."
+      ]
+    },
+    {
+      "id": "og95wire-issue-002",
+      "title": "Petrol cooling fan does not run at commanded speed: identify relays and shared grounds",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_families": [
+          "4-cylinder petrol; T7"
+        ]
+      },
+      "cause": "The wiring documentation identifies two fan motors, relays 81/155/396, control module DICE and G30/G40/G42 returns as diagnostic circuit elements; it does not say which one has failed.",
+      "symptoms": [
+        "overheating at idle",
+        "fan fails to start when control demands operation",
+        "only one fan speed observed"
+      ],
+      "diagnosis_summary": "Determine A/C and fan configuration, read coolant-temperature data, inspect relay/fuse/ground/motor supply paths and DICE commands against the exact model-year wiring diagram; preserve normal afterrun behavior.",
+      "correction_summary": "Resolve a measured sensor, control, harness, relay or fan-motor defect with the correct factory procedure rather than modifying fan temperature thresholds.",
+      "source_ids": [
+        "og95wire-src-008",
+        "og95wire-src-003"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Component list is not a complete color/pin continuity reconstruction.",
+        "The two-fan drawing must not be imposed on a car without the necessary A/C equipment.",
+        "No replacement relay, harness or fan interchange is approved by this record."
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "og95wire-gap-001",
+      "title": "T7 2007–09 complete graphical electrical schematics and ECU pin continuity",
+      "missing_inputs": [
+        "Extract and individually corroborate all four wiring-diagram sheets for each year; map connector pin positions, wire colors/gauges, fuses, ground returns, splices and ECU terminals, separately for LHD/RHD and markets."
+      ],
+      "reason": "Readable component locators do not expose every physical circuit and cannot authorize probing or replacement.",
+      "source_ids": [
+        "og95wire-src-009",
+        "og95wire-src-010",
+        "og95wire-src-011"
+      ]
+    },
+    {
+      "id": "og95wire-gap-002",
+      "title": "Fuse-by-fuse and option-specific current distribution",
+      "missing_inputs": [
+        "Retrieve original fuse board assignment charts and fuse ratings for MY2007, 2008 and 2009 with A/C, body, LHD/RHD, engine and transmission boundaries."
+      ],
+      "reason": "Named distribution boards are not per-circuit electrical allocation or safe replacement fuse ratings.",
+      "source_ids": [
+        "og95wire-src-004",
+        "og95wire-src-005",
+        "og95wire-src-013"
+      ]
+    },
+    {
+      "id": "og95wire-gap-003",
+      "title": "Battery ground replacement identifiers and measurable acceptance",
+      "missing_inputs": [
+        "Find Saab OE cable/eyelet identifiers, original torque, protective finish, safe inspection points, factory voltage-drop test ranges, and whether later harness revisions exist."
+      ],
+      "reason": "Factory 25/16/10 mm2 sizes are not a complete parts specification or evidence of wire condition.",
+      "source_ids": [
+        "og95wire-src-001",
+        "og95wire-src-002",
+        "og95wire-src-003"
+      ]
+    },
+    {
+      "id": "og95wire-gap-004",
+      "title": "Cooling fan connector pinouts and equipment variants",
+      "missing_inputs": [
+        "Capture complete 2007–09 petrol fan motor/relay 81/155/396 and DICE drawings, connector contacts, switching contacts, A/C exceptions and power feed fuse data."
+      ],
+      "reason": "Component lists show circuit participants and ground locations only, not safe test leads or every car's fan count.",
+      "source_ids": [
+        "og95wire-src-006",
+        "og95wire-src-007",
+        "og95wire-src-008"
+      ]
+    },
+    {
+      "id": "og95wire-gap-005",
+      "title": "MY2009 T7 part 2 and engine management sensor locator validation",
+      "missing_inputs": [
+        "Retrieve full MY2009 T7 wiring parts 1–3 and validate the complete component list instead of inferring MY2007/08 harness locations from shared labels."
+      ],
+      "reason": "Part 4/4 only supports MY2009 fuel/oxygen/relay locators; older location equivalence remains unverified.",
+      "source_ids": [
+        "og95wire-src-011",
+        "og95wire-src-009",
+        "og95wire-src-010"
+      ]
+    },
+    {
+      "id": "og95wire-gap-006",
+      "title": "MY2006 IAT conflict versus 2007–08 wiring diagrams",
+      "missing_inputs": [
+        "Review source-specific 2006 IAT conflicting prose and compare original connector harness, sensor 407/component 688 and change notices without silently resolving revision differences."
+      ],
+      "reason": "2007/08 diagrams explicitly locate component 407 in the charge-air pipe but do not prove all 2006 builds match.",
+      "source_ids": [
+        "og95wire-src-009",
+        "og95wire-src-010"
+      ]
+    }
+  ]
+}
