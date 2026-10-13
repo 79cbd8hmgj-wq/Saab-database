@@ -1,0 +1,1660 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "high_cost_powertrain_diagnostics",
+  "sources": [
+    {
+      "id": "hcdiag-src-001",
+      "title": "US/CA TSB 210-2554 edition 3: B205/B235 sludge and chain diagnosis",
+      "url": "https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2554-ed-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine",
+      "source_type": "factory_bulletin",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "notes": "June 2006; applies to MY1998–2003 OG9-5 B205/B235 US/CA; NOT MY2004–09 campaign scope.",
+      "accessed_at": "2026-10-12"
+    },
+    {
+      "id": "hcdiag-src-002",
+      "title": "Non-US/CA TSB 210-2561 edition 3: B205/B235 sludge and chain diagnosis",
+      "url": "https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2561-utg-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine",
+      "source_type": "factory_bulletin",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "notes": "April 2006; distinct non-US/CA bulletin MY1998–2003 OG9-5 B205/B235. Do not confuse it with 210-2554.",
+      "accessed_at": "2026-10-12"
+    },
+    {
+      "id": "hcdiag-src-003",
+      "title": "MY2005 four-cylinder petrol lubricating system specifications",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "notes": "Only the MY2005 model-year directory.",
+      "accessed_at": "2026-10-12"
+    },
+    {
+      "id": "hcdiag-src-004",
+      "title": "MY2009 four-cylinder petrol lubricating system specifications",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "notes": "Only the MY2009 model-year directory.",
+      "accessed_at": "2026-10-12"
+    },
+    {
+      "id": "hcdiag-src-005",
+      "title": "MY2005 petrol measuring oil pressure",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/measuring-oil-pressure",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "notes": "Measurement uses original pressure-gauge banjo setup; no diesel procedure substituted.",
+      "accessed_at": "2026-10-12"
+    },
+    {
+      "id": "hcdiag-src-006",
+      "title": "MY2005 petrol oil sump in-car service",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/oil-sump-in-car",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "notes": "Factory sump access, oil-pickup O-ring and reseal context. Not an assertion that every car needs preventive removal.",
+      "accessed_at": "2026-10-12"
+    },
+    {
+      "id": "hcdiag-src-007",
+      "title": "MY2000 petrol lubricating system flow",
+      "url": "https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/technical-description/lubricating-system",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "notes": "Flow path description for the specified MY2000, not crossyear replacement proof.",
+      "accessed_at": "2026-10-12"
+    },
+    {
+      "id": "hcdiag-src-008",
+      "title": "MY2006 9-3 B207 factory engine compression test",
+      "url": "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/engine-compression-test",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "notes": "Requires relay No. 8 and a Motometer test setup; model-year-specific.",
+      "accessed_at": "2026-10-12"
+    },
+    {
+      "id": "hcdiag-src-009",
+      "title": "MY2006 9-3 B207 general data including minimum compression",
+      "url": "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/technical-data/general-data",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "notes": "Specifications present engine variants B207E, B207L/S and B207R in WIS; US market identity not assumed.",
+      "accessed_at": "2026-10-12"
+    },
+    {
+      "id": "hcdiag-src-010",
+      "title": "MY2007 9-3 four-cylinder petrol/E85 compression test",
+      "url": "https://saabwisonline.com/9-3-9440/2007/2-engine/4-cyl-petrol-e85/basic-engine/adjustment-replacement/engine-compression-test",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "notes": "Compression procedure as indexed in MY2007 WIS petrol/E85 directory.",
+      "accessed_at": "2026-10-12"
+    },
+    {
+      "id": "hcdiag-src-011",
+      "title": "MY2008 9-3 four-cylinder petrol/E85 general data",
+      "url": "https://saabwisonline.com/9-3-9440/2008/2-engine/4-cyl-petrol-e85/basic-engine/technical-data/general-data",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "notes": "Four separate variant columns; MY2008 only.",
+      "accessed_at": "2026-10-12"
+    },
+    {
+      "id": "hcdiag-src-012",
+      "title": "Saab Parts North America / SPNA TAC cold-start intake valve advisory, 2013 reissue",
+      "url": "https://saabparts.com/us/wp-content/uploads/sites/10/2023/05/Hard-Starting-Cold-With-Engine-Stall-Misfire-and-Low-Compression-Starts-and-Runs-Normally-When-Hot-07-11-9-3-11-9-5.pdf",
+      "source_type": "factory_bulletin",
+      "publisher": "Saab Parts North America / Hedin Parts technical assistance",
+      "retrieval": "search_excerpt",
+      "notes": "Search-indexed source preview; original PDF redirected and could not be directly opened. Advisory already recorded in corrections dataset from previous work. Do not count this as a newly reviewed complete PDF.",
+      "accessed_at": "2026-10-12"
+    },
+    {
+      "id": "hcdiag-src-013",
+      "title": "AERA 2.0L turbo intake-valve face erosion technical report",
+      "url": "https://www.engineprofessional.com/TB/TB011117-1.pdf",
+      "source_type": "technical_reference",
+      "publisher": "AERA Engine Builders Association Technical Committee",
+      "retrieval": "full_text",
+      "notes": "Independent technical industry report, single page visually reviewed; aftermarket part association not manufacturer-approved interchange.",
+      "accessed_at": "2026-10-12"
+    },
+    {
+      "id": "hcdiag-src-014",
+      "title": "TA440-0702 coolant contamination in 9-3 FA57 ATF",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/bulletins-si-mi/ta440-0702-coolant-in-atf-oil",
+      "source_type": "factory_bulletin",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "notes": "January 2007 all-market technical advice for listed MY03–05 9-3 SS/CV VIN boundaries; technical advice not a blanket recall.",
+      "accessed_at": "2026-10-12"
+    },
+    {
+      "id": "hcdiag-src-015",
+      "title": "MY2005 9-3 FA57 automatic fluid capacity and specification",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/weight-fluid-capacity-and-grade-of-fluid",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "notes": "Total with torque converter and cooler, not drain/refill quantity.",
+      "accessed_at": "2026-10-12"
+    },
+    {
+      "id": "hcdiag-src-016",
+      "title": "MY2005 9-3 FA57 checking transmission fluid level",
+      "url": "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/adjustment-replacement/checking-the-transmission-fluid-level",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "notes": "Requires TCM temperature read at 80°C, engine running; specified 0.3 L min/max span.",
+      "accessed_at": "2026-10-12"
+    },
+    {
+      "id": "hcdiag-src-017",
+      "title": "MY2004 9-3 automatic transmission fluid change procedure",
+      "url": "https://saabwisonline.com/9-3-9440/2004/4-transmission/automatic-transmission/adjustment-replacement/changing-the-transmission-fluid",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "notes": "Different year procedure cites 0.5 L dipstick min/max span; not automatically same as MY2005 FA57 specification.",
+      "accessed_at": "2026-10-12"
+    }
+  ],
+  "facts": [
+    {
+      "id": "hcdiag-fact-001",
+      "subject": "B205/B235 MY98-03 US/CA sludge bulletin",
+      "category": "diagnostics",
+      "predicate": "service_bulletin_scope",
+      "value": {
+        "years": "M98–M03",
+        "engines": [
+          "B205",
+          "B235"
+        ],
+        "market": [
+          "US",
+          "CA"
+        ],
+        "number": "210-2554 ed.3",
+        "issued": "2006-06"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Cars affected / heading",
+      "notes": "Do not interpret a WIS /2000 URL as limiting the bulletin to MY2000. Later MY2004–09 outside this bulletin scope."
+    },
+    {
+      "id": "hcdiag-fact-002",
+      "subject": "B205/B235 MY98-03 non-US/CA sludge bulletin",
+      "category": "diagnostics",
+      "predicate": "service_bulletin_scope",
+      "value": {
+        "years": "M98–M03",
+        "engines": [
+          "B205",
+          "B235"
+        ],
+        "market": "except US/CA",
+        "number": "210-2561 utg.3",
+        "issued": "2006-04"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "non-US/CA"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Cars affected / heading",
+      "notes": "Country-group applicability is descriptive; not every import or individual owner repair entitlement is established."
+    },
+    {
+      "id": "hcdiag-fact-003",
+      "subject": "B205/B235 sludge inspection",
+      "category": "diagnostics",
+      "predicate": "symptom_triggered_diagnostic_sequence",
+      "value": [
+        "check oil level and operating-temperature noises",
+        "if oil lamp lit, measure mechanical pressure before condemning sensor",
+        "if bearing/chain noises indicated, investigate extent of damage before replacing parts"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Checking / Procedure I steps 1–4",
+      "notes": "Factory scope is symptom-led. No recommendation for invasive teardown of asymptomatic cars."
+    },
+    {
+      "id": "hcdiag-fact-004",
+      "subject": "B205/B235 sludge acoustic symptoms",
+      "category": "diagnostics",
+      "predicate": "clogged_pickup_noise_pattern",
+      "value": "low-pitched bellowing at idle similar to hydraulic pump noise",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Procedure I 2.d",
+      "notes": "Factory description indicates pickup restriction as candidate; not an acoustic-only diagnosis."
+    },
+    {
+      "id": "hcdiag-fact-005",
+      "subject": "B205/B235 bearing noise",
+      "category": "diagnostics",
+      "predicate": "lower_end_knock_triage",
+      "value": "lower-end knocking prompts bearing examination before timing-chain repair",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Procedure I 2.e / 4",
+      "notes": "Not a prediction of engine damage severity without inspection."
+    },
+    {
+      "id": "hcdiag-fact-006",
+      "subject": "B205/B235 timing-chain wear",
+      "category": "diagnostics",
+      "predicate": "sludge_bulletin_chain_tensioner_threshold",
+      "value": {
+        "greater_than_mm": 15,
+        "measure": "removed tensioner protrusion under bulletin procedure"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Procedure I step 3",
+      "notes": "Same threshold already catalogued elsewhere; this record adds diagnostic sequence/context, not a new general-purpose chain length criterion."
+    },
+    {
+      "id": "hcdiag-fact-007",
+      "subject": "B205/B235 damage measurement",
+      "category": "diagnostic_threshold",
+      "predicate": "big_end_bearing_clearance_range",
+      "value": {
+        "minimum": 0.014,
+        "maximum": 0.062,
+        "method": "PG-1 green Plastigauge"
+      },
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Procedure I step 4.b–d",
+      "notes": "Invasive bearing clearance diagnostic under the exact TSB; not a garage pre-purchase test or universal engine bearing spec."
+    },
+    {
+      "id": "hcdiag-fact-008",
+      "subject": "B205/B235 damage disposition",
+      "category": "diagnostics",
+      "predicate": "short_block_if_bearing_damage",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Procedure I step 4.c",
+      "notes": "In the bulletin's demonstrated bearing damage branch, replace short block rather than assume oil/PCV cleaning repairs bearing surfaces."
+    },
+    {
+      "id": "hcdiag-fact-009",
+      "subject": "B205/B235 sludge cleanup",
+      "category": "diagnostics",
+      "predicate": "complete_cleaning_required",
+      "value": [
+        "sump baffle and pickup",
+        "filter adapter and thermostat",
+        "oil galleries/head if indicated",
+        "breather pipes, vent hoses, check valve"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Procedure II / Action miscellaneous",
+      "notes": "Subset of factory cleaning plan, not an instruction to perform solvent cleaning on an assembled vehicle."
+    },
+    {
+      "id": "hcdiag-fact-010",
+      "subject": "B205/B235 sludge US/CA policy",
+      "category": "diagnostics",
+      "predicate": "factory_recommended_postrepair_lubrication",
+      "value": "full-synthetic engine oil after diagnostic cleaning/repair under bulletin, with shorter service interval consultation",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Procedure II / Action miscellaneous",
+      "notes": "Historical policy and lubrication context; not a modern commercial oil approval or warranty eligibility."
+    },
+    {
+      "id": "hcdiag-fact-011",
+      "subject": "MY2005 OG9-5 petrol lubrication",
+      "category": "diagnostic_threshold",
+      "predicate": "minimum_oil_pressure_conditions",
+      "value": {
+        "minimum_bar": 2.5,
+        "rpm": 2000,
+        "oil_temp_C": 105,
+        "oil_temp_tolerance_C": 2,
+        "test_oil": "10W-30"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Lubricating system > Oil pressures",
+      "notes": "Independent MY2005 specification; do not apply automatically to MY1998–03 bulletin measurements."
+    },
+    {
+      "id": "hcdiag-fact-012",
+      "subject": "MY2005 OG9-5 petrol lubrication",
+      "category": "diagnostic_threshold",
+      "predicate": "oil_pressure_warning_switch_range",
+      "value": {
+        "below_bar_min": 0.3,
+        "below_bar_max": 0.55
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Lubricating system > Oil pressures",
+      "notes": "Warning lamp pressure window is lower than 2000rpm specification; lamp extinguishing does not prove acceptable hot 2000rpm pressure."
+    },
+    {
+      "id": "hcdiag-fact-013",
+      "subject": "MY2009 OG9-5 petrol lubrication",
+      "category": "diagnostic_threshold",
+      "predicate": "minimum_oil_pressure_conditions",
+      "value": {
+        "minimum_bar": 2.5,
+        "rpm": 2000,
+        "oil_temp_C": 105,
+        "oil_temp_tolerance_C": 2,
+        "test_oil": "10W-30"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Lubricating system > Oil pressures",
+      "notes": "Independent MY2009 specification; do not apply automatically to MY1998–03 bulletin measurements."
+    },
+    {
+      "id": "hcdiag-fact-014",
+      "subject": "MY2009 OG9-5 petrol lubrication",
+      "category": "diagnostic_threshold",
+      "predicate": "oil_pressure_warning_switch_range",
+      "value": {
+        "below_bar_min": 0.3,
+        "below_bar_max": 0.55
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Lubricating system > Oil pressures",
+      "notes": "Warning lamp pressure window is lower than 2000rpm specification; lamp extinguishing does not prove acceptable hot 2000rpm pressure."
+    },
+    {
+      "id": "hcdiag-fact-015",
+      "subject": "MY2005 OG9-5 petrol oil pressure test",
+      "category": "diagnostics",
+      "predicate": "pressure_test_access",
+      "value": "Gauge uses special banjo 8395576 at lower turbo oil line by filter adapter; pressure equipment 8393852; ensure gauge hose clears heat/sharp edges",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Measuring oil pressure steps 1–11",
+      "notes": "Year-specific method; technician safe lift and oil containment required, not a reading from the dashboard light."
+    },
+    {
+      "id": "hcdiag-fact-016",
+      "subject": "MY2005 OG9-5 petrol oil pickup inspection",
+      "category": "diagnostics",
+      "predicate": "sump_removal_prerequisites",
+      "value": [
+        "front exhaust pipe removal",
+        "drain engine oil",
+        "disconnect crankcase ventilation hose at sump",
+        "inspect clean sump and pickup seal on reassembly"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Oil sump (in car)",
+      "notes": "Factory access requires underbody work; lack of recorded sump cleaning is not proof of clogged strainer."
+    },
+    {
+      "id": "hcdiag-fact-017",
+      "subject": "MY2000 OG9-5 oil circuit",
+      "category": "diagnostics",
+      "predicate": "oil_flow_and_restriction_path",
+      "value": [
+        "oil sump",
+        "inlet strainer and suction pipe",
+        "crank-driven oil pump",
+        "oil-filter adapter",
+        "main gallery",
+        "engine bearings and valve gear"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Lubricating system > lubricating system",
+      "notes": "System schematic description is not a measured restriction or proof of an internal defect."
+    },
+    {
+      "id": "hcdiag-fact-018",
+      "subject": "MY2006 NG9-3 compression test",
+      "category": "diagnostics",
+      "predicate": "factory_compression_test_tool_sequence",
+      "value": {
+        "starter_control": "relay 8 in underhood electrical centre 342 with Saab diagnostics lead 8393886",
+        "measurement": "Motometer compression tester, crank until needle stops rising, repeat all cylinders"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207S",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Engine compression test steps 1–8",
+      "notes": "Proper specialist test with coil and spark plug removal; does not justify bridging starter relay by hand."
+    },
+    {
+      "id": "hcdiag-fact-019",
+      "subject": "MY2007 NG9-3 compression test",
+      "category": "diagnostics",
+      "predicate": "factory_compression_test_tool_sequence",
+      "value": {
+        "starter_control": "relay 8 in underhood electrical centre 342 with Saab diagnostics lead 8393886",
+        "measurement": "Motometer compression tester, crank until needle stops rising, repeat all cylinders"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Engine compression test steps 1–8",
+      "notes": "Proper specialist test with coil and spark plug removal; does not justify bridging starter relay by hand."
+    },
+    {
+      "id": "hcdiag-fact-020",
+      "subject": "MY2006 B207 petrol",
+      "category": "diagnostic_threshold",
+      "predicate": "factory_minimum_compression",
+      "value": 12.4,
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207S",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "General data > Min compression",
+      "notes": "Nominal model-year WIS specification; not automatically a validated overnight cold-test threshold for the 2013 valve advisory."
+    },
+    {
+      "id": "hcdiag-fact-021",
+      "subject": "MY2008 B207 petrol",
+      "category": "diagnostic_threshold",
+      "predicate": "factory_minimum_compression",
+      "value": 12.4,
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "General data > Min compression",
+      "notes": "Nominal model-year WIS specification; not automatically a validated overnight cold-test threshold for the 2013 valve advisory."
+    },
+    {
+      "id": "hcdiag-fact-022",
+      "subject": "B207R and later B207 cold start advisory",
+      "category": "diagnostics",
+      "predicate": "cold_start_symptom_pattern",
+      "value": [
+        "cold hard/no-start or cold start/stall",
+        "P0300 P0301 P0302 P0303 P0304 possible",
+        "may run normally when hot"
+      ],
+      "unit": null,
+      "applicability": {
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2007,
+              2008
+            ],
+            "engine_codes": [
+              "B207R"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2009,
+              2010,
+              2011
+            ],
+            "engine_codes": [
+              "B207"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9650"
+            ],
+            "model_years": [
+              2011
+            ],
+            "engine_codes": [
+              "A20NFT"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "SPNA TAC reissue > MODELS/CONDITION",
+      "notes": "Factory advisory preview, separate from WIS general compression spec; B284 excluded."
+    },
+    {
+      "id": "hcdiag-fact-023",
+      "subject": "B207R and later B207 cold-start advisory",
+      "category": "diagnostics",
+      "predicate": "cold_leakdown_comparison_required",
+      "value": "Overnight-cold compression and cylinder leak-down; compare with hot readings; hot-only testing can miss worn intake valve sealing",
+      "unit": null,
+      "applicability": {
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2007,
+              2008
+            ],
+            "engine_codes": [
+              "B207R"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2009,
+              2010,
+              2011
+            ],
+            "engine_codes": [
+              "B207"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9650"
+            ],
+            "model_years": [
+              2011
+            ],
+            "engine_codes": [
+              "A20NFT"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-012",
+        "hcdiag-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "RECOMMENDATIONS/INSTRUCTIONS; AERA report",
+      "notes": "Advisory indexed excerpt plus independent AERA publication, not a complete new 2013 primary PDF retrieval."
+    },
+    {
+      "id": "hcdiag-fact-024",
+      "subject": "B207 intake valve erosion",
+      "category": "diagnostics",
+      "predicate": "wear_mechanism",
+      "value": "intake valve seat-face erosion/cupping, cold cylinder sealing loss",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "AERA report paragraphs 1–2",
+      "notes": "AERA independent account covers broad 2.0L turbo period, not the narrower factory advisory inclusion or quantified failure incidence."
+    },
+    {
+      "id": "hcdiag-fact-025",
+      "subject": "B207 intake valve repair industry note",
+      "category": "diagnostics",
+      "predicate": "reported_repair_scope",
+      "value": {
+        "all_intake_valves": 8,
+        "requires_cylinder_head_removal": true
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "AERA report paragraphs 2–3",
+      "notes": "AERA recommendation after verified valve erosion; NOT proof that every B207 needs prophylactic valve work."
+    },
+    {
+      "id": "hcdiag-fact-026",
+      "subject": "B207 intake valve part identities",
+      "category": "diagnostics",
+      "predicate": "reference_part_numbers",
+      "value": [
+        "55563529",
+        "55192156",
+        "12786696"
+      ],
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "hcdiag-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "AERA Saab Intake Valve Part Numbers",
+      "notes": "Parts cited by AERA; no manufacturer-verified interchange chains, exact VIN-to-valve or stock proof."
+    },
+    {
+      "id": "hcdiag-fact-027",
+      "subject": "9-3 FA57 ATF contamination",
+      "category": "diagnostics",
+      "predicate": "technical_advice_population",
+      "value": {
+        "model_years": [
+          2003,
+          2004,
+          2005
+        ],
+        "body_types": [
+          "SS",
+          "CV"
+        ],
+        "SS_VIN_suffix_below": "51002378",
+        "CV_VIN_suffix_below": "56001058",
+        "bulletin": "TA440-0702"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "VEHICLES CONCERNED",
+      "notes": "Factory source also lists SS TiD boundary 51000001, deliberately excluded from B207-specific context. VIN boundaries are body-specific."
+    },
+    {
+      "id": "hcdiag-fact-028",
+      "subject": "9-3 FA57 ATF contamination",
+      "category": "diagnostics",
+      "predicate": "symptom_and_TCM_codes",
+      "value": {
+        "symptoms": [
+          "check gearbox lamp",
+          "abnormal shift points",
+          "shift noises"
+        ],
+        "codes": [
+          "P0715 00",
+          "P0720 00"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "SYMPTOM DESCRIPTION",
+      "notes": "DTCs and shift behavior prompt investigation; not in themselves proof of coolant contamination."
+    },
+    {
+      "id": "hcdiag-fact-029",
+      "subject": "9-3 FA57 coolant ingress",
+      "category": "diagnostics",
+      "predicate": "cooler_sealing_mechanism",
+      "value": "insufficient seal between oil-cooling line nipples and cooler",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "BACKGROUND",
+      "notes": "Bulletin identifies this path for the specified vehicles; no blanket assertion about all transmission failures."
+    },
+    {
+      "id": "hcdiag-fact-030",
+      "subject": "9-3 FA57 contamination response",
+      "category": "diagnostics",
+      "predicate": "confirmed_coolant_ATF_factory_disposition",
+      "value": {
+        "transmission": "replace complete unit",
+        "additional": "repair cooler fittings; clean/flush lines and cooler; check coolant for ATF contamination; reset/adapt TCM"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "ACTION",
+      "notes": "Factory's described contamination confirmation includes heating an ATF sample with flame; this repository does NOT recommend conducting that hot-fluid/fire test as a DIY screen. Use a qualified shop."
+    },
+    {
+      "id": "hcdiag-fact-031",
+      "subject": "MY2005 FA57 ATF capacity",
+      "category": "fluid_specification",
+      "predicate": "total_system_fill_liters",
+      "value": 7.2,
+      "unit": "litre",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Weight, fluid capacity and grade of fluid",
+      "notes": "Total includes torque converter and oil cooler, NOT the service drain/refill quantity."
+    },
+    {
+      "id": "hcdiag-fact-032",
+      "subject": "MY2005 FA57 fluid grade",
+      "category": "diagnostics",
+      "predicate": "historical_factory_grade",
+      "value": "Saab 3309; 40-93 160 393 mineral-based specification",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Weight, fluid capacity and grade of fluid",
+      "notes": "Historical factory recommendation; no modern substitute fluid approval is inferred."
+    },
+    {
+      "id": "hcdiag-fact-033",
+      "subject": "MY2005 FA57 ATF service level",
+      "category": "diagnostics",
+      "predicate": "fluid_level_test_conditions",
+      "value": {
+        "TCM_temp_C": 80,
+        "gear_selector": "P",
+        "engine": "running",
+        "dipstick_ORing": "remove during reading, refit afterwards"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Checking transmission fluid level steps 1–4",
+      "notes": "Tech2 temperature-based level test. Not a coolant contamination test."
+    },
+    {
+      "id": "hcdiag-fact-034",
+      "subject": "MY2005 FA57 ATF dipstick",
+      "category": "fluid_specification",
+      "predicate": "level_minmax_difference",
+      "value": 0.3,
+      "unit": "litre",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Checking transmission fluid level step 4",
+      "notes": "Different value from MY2004 general automatic fluid change procedure's 0.5 L; do not pool contexts."
+    },
+    {
+      "id": "hcdiag-fact-035",
+      "subject": "MY2004 9-3 automatic ATF service",
+      "category": "fluid_specification",
+      "predicate": "fluid_change_procedure_minmax_difference",
+      "value": 0.5,
+      "unit": "litre",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "hcdiag-src-017"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Changing transmission fluid step 18",
+      "notes": "Different document/method than MY2005 FA57 0.3 L min-max span. No automatic equivalence."
+    }
+  ],
+  "issues": [
+    {
+      "id": "hcdiag-issue-001",
+      "title": "Suspected oil-pressure loss with B235 knock: distinguish sensor, strainer and irreversible bearing damage",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "cause": "Factory bulletin distinguishes warning-lamp failure, intake restriction, chain noise, and lower-end bearing injury in MY98–03 B205/B235. No single symptom proves one cause.",
+      "symptoms": [
+        "hot oil-pressure lamp",
+        "hydraulic-pump-like bellow at idle",
+        "lower-end knock",
+        "chain rattle"
+      ],
+      "diagnosis_summary": "Confirm actual oil pressure with approved gauge/test conditions, assess pattern of noise; pursue strainer and bearing inspection if bulletin conditions dictate before undertaking a PCV-only fix.",
+      "correction_summary": "Treat demonstrated bearing damage as engine/short-block scope, not as cured by sump cleaning or fresh oil; follow source-specific factory bulletin.",
+      "source_ids": [
+        "hcdiag-src-001",
+        "hcdiag-src-003",
+        "hcdiag-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "limits": [
+        "WIS 2005 pressure spec is independent and is NOT claimed as the MY1998–2003 bulletin's numeric acceptance test without confirmation.",
+        "A pre-purchase listening test cannot establish remaining bearing life or pickup cleanliness.",
+        "Do not run an engine with demonstrably unsafe oil pressure to complete cosmetic checks."
+      ]
+    },
+    {
+      "id": "hcdiag-issue-002",
+      "title": "Cold-start misfire with hot-normal running: differentiate B207 intake-valve sealing loss",
+      "applicability": {
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2007,
+              2008
+            ],
+            "engine_codes": [
+              "B207R"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2009,
+              2010,
+              2011
+            ],
+            "engine_codes": [
+              "B207"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9650"
+            ],
+            "model_years": [
+              2011
+            ],
+            "engine_codes": [
+              "A20NFT"
+            ]
+          }
+        ]
+      },
+      "cause": "SPNA advisory identifies premature intake valve face wear as a possible explanation for severe cold compression loss that improves once hot.",
+      "symptoms": [
+        "cold hard start or stall",
+        "P0300–P0304 misfire codes",
+        "improved running after warming"
+      ],
+      "diagnosis_summary": "Perform overnight-cold compression AND leak-down testing in a shop, compare with hot values and assess other fuel/ignition causes; do not stop at warm cranking numbers.",
+      "correction_summary": "If intake-valve wear is demonstrated, follow full TAC/repair information for cylinder-head valve work; source mentions 55563529 but does not certify head interchange.",
+      "source_ids": [
+        "hcdiag-src-012",
+        "hcdiag-src-013",
+        "hcdiag-src-008",
+        "hcdiag-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "limits": [
+        "2007–08 applies specifically to B207R; 2009–11 advisory references B207, and B284 is excluded.",
+        "AERA broad MY2003–11 technical discussion is NOT the same population as the SPNA advisory.",
+        "Cold/hot psi examples in secondary reproductions are inconsistent and are not a go/no-go threshold here.",
+        "No statistical fault frequency or preventive replacement recommendation is implied."
+      ]
+    },
+    {
+      "id": "hcdiag-issue-003",
+      "title": "FA57 hard shifts plus coolant in ATF: transmission replacement risk",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "cause": "Saab TA440-0702 attributes coolant contamination to insufficient sealing at cooler nipples in specifically listed early FA57 9-3s.",
+      "symptoms": [
+        "check gearbox lamp",
+        "P0715 00/P0720 00",
+        "bad shifting",
+        "shift noises"
+      ],
+      "diagnosis_summary": "Check year/body/VIN and campaign history, determine whether ATF is contaminated by a qualified shop and separate fluid level faults from coolant ingress. DO NOT perform the bulletin's open-flame sample heating test as a home check.",
+      "correction_summary": "Once contamination is confirmed in this TSB context, factory recommends replacement transmission and rework of cooler/couplings/lines plus TCM adaptation.",
+      "source_ids": [
+        "hcdiag-src-014",
+        "hcdiag-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "limits": [
+        "FA57 advice includes body-specific MY2003–05 VIN boundaries and is broader than the separate older CSP15446 campaign.",
+        "A poor shift or ATF level error alone does not prove coolant in the transmission.",
+        "No broad application to AF40, manual transaxles, or all MY2005 cars."
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "hcdiag-part-001",
+      "part_number": "55192156",
+      "title": "Intake valve candidate identifier cited by AERA",
+      "applicability": {},
+      "relationships": [],
+      "requirements": [
+        "Independent AERA number reference only",
+        "VIN and OEM manufacturer WebEPC lookup plus physical/material fitment required before purchase",
+        "No approved replacement chain to 55563529 is established"
+      ],
+      "source_ids": [
+        "hcdiag-src-013"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "AERA describes this identifier as nitrated. AERA lists several possible intake-valve part numbers but does not establish exact fitment, supersession or stocking."
+    },
+    {
+      "id": "hcdiag-part-002",
+      "part_number": "12786696",
+      "title": "Intake valve candidate identifier cited by AERA",
+      "applicability": {},
+      "relationships": [],
+      "requirements": [
+        "Independent AERA number reference only",
+        "VIN and OEM manufacturer WebEPC lookup plus physical/material fitment required before purchase",
+        "Not certified as interchangeable with either 55192156 or 55563529"
+      ],
+      "source_ids": [
+        "hcdiag-src-013"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "AERA describes chrome-plated, induction-hardened face. Candidate part reference, not a verified manufacturer supersession."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "hcdiag-gap-001",
+      "title": "Early B235 oil-pressure year/spec mapping",
+      "missing_inputs": [
+        "Retrieve original MY1998–2003 four-cylinder petrol oil-pressure tables with exact test temperature/viscosity and pressure-gauge method to compare bulletin 210-2554 acceptance against MY2005/09 specifications."
+      ],
+      "reason": "A MY2005 or MY2009 2.5-bar WIS reading cannot be silently presented as a MY1998–03 numerical threshold.",
+      "source_ids": [
+        "hcdiag-src-001",
+        "hcdiag-src-003",
+        "hcdiag-src-004",
+        "hcdiag-src-005"
+      ]
+    },
+    {
+      "id": "hcdiag-gap-002",
+      "title": "B235 non-invasive purchase-screen reliability and bearing condition",
+      "missing_inputs": [
+        "Collect factory-supported pre-purchase observations, actual oil-pressure gauge readings, oil analysis limitations, known maintenance, sump photographs and post-cleaning measurable tests without extrapolating engine life."
+      ],
+      "reason": "The sludge bulletin's confirmation of main/big-end damage requires invasive access; no engine-life probabilities provided.",
+      "source_ids": [
+        "hcdiag-src-001",
+        "hcdiag-src-005",
+        "hcdiag-src-006"
+      ]
+    },
+    {
+      "id": "hcdiag-gap-003",
+      "title": "B235 2004–2009 PCV sludge maintenance and oil pump changes",
+      "missing_inputs": [
+        "Find later WIS revisions and year/VIN-specific component corrections; do not extend MY98–03 North American special-policy bulletin to MY04–09."
+      ],
+      "reason": "Engine family overlap is insufficient to infer a historical campaign or its failure incidence.",
+      "source_ids": [
+        "hcdiag-src-001",
+        "hcdiag-src-004"
+      ]
+    },
+    {
+      "id": "hcdiag-gap-004",
+      "title": "B207 official reissue full PDF and conflicting numerical examples",
+      "missing_inputs": [
+        "Retrieve directly accessible original 2013 SPNA TAC document and reconcile its changing mileage/example psi descriptions across versions; verify whether any late reissues changed coverage."
+      ],
+      "reason": "Present source available only as search snippet; prior repo has original primary citation, independent AERA covers wider model years.",
+      "source_ids": [
+        "hcdiag-src-012",
+        "hcdiag-src-013"
+      ]
+    },
+    {
+      "id": "hcdiag-gap-005",
+      "title": "B207 cold compression controlled test conditions by specific year",
+      "missing_inputs": [
+        "Obtain model-specific starting temperature, crank speed, leak-down fixture conditions, per-cylinder allowance and diagnostic differentiation with fuel/ignition, by B207 calibration/market."
+      ],
+      "reason": "MY2006 and MY2008 12.4-bar minimum tables do not establish an overnight-cold threshold for all later cars.",
+      "source_ids": [
+        "hcdiag-src-008",
+        "hcdiag-src-009",
+        "hcdiag-src-010",
+        "hcdiag-src-011"
+      ]
+    },
+    {
+      "id": "hcdiag-gap-006",
+      "title": "AERA intake valve candidate number provenance",
+      "missing_inputs": [
+        "Check manufacturer EPC by VIN for 55192156, 12786696 and 55563529; distinguish number associations from proven supersession and compatible material dimensions."
+      ],
+      "reason": "AERA industry report is not a factory EPC entry or approval to order candidates.",
+      "source_ids": [
+        "hcdiag-src-013"
+      ]
+    },
+    {
+      "id": "hcdiag-gap-007",
+      "title": "FA57 early campaign/TAC VIN and production date overlap",
+      "missing_inputs": [
+        "Obtain complete 260-2634 edition 2 and supporting manufacturer campaign population to distinguish its narrower VIN and radiator date checks from TA440-0702 early MY03–05 body-specific population."
+      ],
+      "reason": "A bulletin linked within another cannot be automatically treated as the same scope; old partial MI excerpts need full verification.",
+      "source_ids": [
+        "hcdiag-src-014"
+      ]
+    },
+    {
+      "id": "hcdiag-gap-008",
+      "title": "FA57 coolant-in-ATF safe confirmation and repair estimates",
+      "missing_inputs": [
+        "Identify professional ATF coolant assay/test method, transmission/internal corrosion inspection standards, cooler failure isolation and complete replacement cost with dated evidence."
+      ],
+      "reason": "Saab bulletin includes a potentially hazardous open-flame oil heating procedure, which is not appropriate as an at-home inspection instruction; no repair-cost estimate in original.",
+      "source_ids": [
+        "hcdiag-src-014",
+        "hcdiag-src-016"
+      ]
+    },
+    {
+      "id": "hcdiag-gap-009",
+      "title": "FA57 transmission year/variant-specific level test conflict",
+      "missing_inputs": [
+        "Confirm why MY2005 FA57 level-check lists 0.3 L min-max while MY2004 generic transmission fluid change lists 0.5 L; find transmission/VIN scope and any correction bulletin."
+      ],
+      "reason": "Different model-year/service contexts cannot be averaged or reinterpreted as a single generic fluid-level rule.",
+      "source_ids": [
+        "hcdiag-src-016",
+        "hcdiag-src-017"
+      ]
+    }
+  ]
+}

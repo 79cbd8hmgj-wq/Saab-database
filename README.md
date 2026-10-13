@@ -21,6 +21,8 @@ engines, and platforms.
   documents and what still needs measurements or engineering data.
 - [Research reports](docs/research/): detailed notes from the individual research
   domains, including contradictions and gaps.
+- [High-cost powertrain diagnosis](docs/research/high-cost-powertrain-diagnostics.md):
+  original 9-5 B205/B235 oil-pressure, pickup and bearing-damage screening; 9-3 B207 cold compression; early FA57 coolant-in-ATF.
 - [2007–09 9-5 factory ground and power distribution](docs/research/og95-ground-power-0709.md):
   year-scoped ground conductors, ignition supply modes, T7 component locators and petrol cooling-fan relay references.
 - [2007–09 9-5 T7 cooling and electrical research](docs/research/og95-t7-cooling-0709.md):
@@ -41,8 +43,8 @@ engines, and platforms.
   North American specifications, WIS conflicts and source limits.
 - [Datasets](data/datasets/): structured JSON with source IDs and original links.
 
-As of October 12, 2026 the database contains **273 source records, 547 factual
-records, 29 issue records, 55 part records, and 111 explicit gaps** across sixteen
+As of October 12, 2026 the database contains **290 source records, 582 factual
+records, 32 issue records, 57 part records, and 120 explicit gaps** across seventeen
 research domains. This is not a completeness score.
 See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
 
