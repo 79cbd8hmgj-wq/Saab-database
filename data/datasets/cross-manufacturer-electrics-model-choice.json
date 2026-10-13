@@ -506,6 +506,25 @@
               "B235R"
             ]
           }
+        ],
+        "platforms": [
+          "9-3-9440",
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "engine_codes": [
+          "B207R",
+          "B235R"
         ]
       },
       "cause": "A0047 is 120A with 5-groove pulley and PL_2200 connector, while A0319 is 130A with 6-groove pulley and PL_9105.",
