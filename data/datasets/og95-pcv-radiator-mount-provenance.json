@@ -1,0 +1,1720 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "og95_pcv_radiator_mount_provenance",
+  "sources": [
+    {
+      "id": "parts95-src-001",
+      "title": "210-2496 CSP15433 oil trap modification M04-M05 manual B235",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2496-replacing-the-oil-trap",
+      "source_type": "factory_bulletin",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "publisher": "Saab Automobile AB original WIS documentation, independently mirrored",
+      "notes": "Factory procedure/bulletin is year, market, engine and campaign-scope specific. No installed vehicle condition established."
+    },
+    {
+      "id": "parts95-src-002",
+      "title": "210-2508 CSP15435 crankcase ventilation hose retention M04-M05 B205/B235",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2508-securing-the-crankcase-ventilation-hose",
+      "source_type": "factory_bulletin",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "publisher": "Saab Automobile AB original WIS documentation, independently mirrored",
+      "notes": "Factory procedure/bulletin is year, market, engine and campaign-scope specific. No installed vehicle condition established."
+    },
+    {
+      "id": "parts95-src-003",
+      "title": "MY2006 9-5 4-cyl petrol radiator removal and refitting",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/radiator-4-cyl",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "publisher": "Saab Automobile AB original WIS documentation, independently mirrored",
+      "notes": "Factory procedure/bulletin is year, market, engine and campaign-scope specific. No installed vehicle condition established."
+    },
+    {
+      "id": "parts95-src-004",
+      "title": "MY2008 9-5 4-cyl petrol cooling-system pressure test",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/cooling-system-pressure-testing",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "publisher": "Saab Automobile AB original WIS documentation, independently mirrored",
+      "notes": "Factory procedure/bulletin is year, market, engine and campaign-scope specific. No installed vehicle condition established."
+    },
+    {
+      "id": "parts95-src-005",
+      "title": "MY2008 9-5 4-cyl petrol radiator fan service",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/radiator-fan-4-cyl",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "publisher": "Saab Automobile AB original WIS documentation, independently mirrored",
+      "notes": "Factory procedure/bulletin is year, market, engine and campaign-scope specific. No installed vehicle condition established."
+    },
+    {
+      "id": "parts95-src-006",
+      "title": "MY2008 9-5 4-cyl petrol LH engine mounting service and VIN torque split",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/engine-mounting-left",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "publisher": "Saab Automobile AB original WIS documentation, independently mirrored",
+      "notes": "Factory procedure/bulletin is year, market, engine and campaign-scope specific. No installed vehicle condition established."
+    },
+    {
+      "id": "parts95-src-007",
+      "title": "MY2008 9-5 4-cyl petrol front torque arm service VIN torque split",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/front-torque-arm",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "publisher": "Saab Automobile AB original WIS documentation, independently mirrored",
+      "notes": "Factory procedure/bulletin is year, market, engine and campaign-scope specific. No installed vehicle condition established."
+    },
+    {
+      "id": "parts95-src-008",
+      "title": "MY2007 9-5 4-cyl petrol RH engine mounting procedure",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/engine-mounting-and-engine-pad-rh",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "publisher": "Saab Automobile AB original WIS documentation, independently mirrored",
+      "notes": "Factory procedure/bulletin is year, market, engine and campaign-scope specific. No installed vehicle condition established."
+    },
+    {
+      "id": "parts95-src-009",
+      "title": "MY2009 9-5 4-cyl petrol rear engine mounting procedure",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/engine-mounting-rear",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "publisher": "Saab Automobile AB original WIS documentation, independently mirrored",
+      "notes": "Factory procedure/bulletin is year, market, engine and campaign-scope specific. No installed vehicle condition established."
+    },
+    {
+      "id": "parts95-src-010",
+      "title": "MY2008 9-5 4-cyl petrol T7 intake system PCV diagram",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/technical-description/system-diagram-intake-turbo-exhaust-4-cyl",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "publisher": "Saab Automobile AB original WIS documentation, independently mirrored",
+      "notes": "Factory procedure/bulletin is year, market, engine and campaign-scope specific. No installed vehicle condition established."
+    },
+    {
+      "id": "parts95-src-011",
+      "title": "eSaabParts 9-5 petrol radiator diagram seller year and gearbox splits",
+      "url": "https://www.esaabparts.com/viewparts.php?section=314395285",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "publisher": "eSaabParts independent parts retailer",
+      "notes": "Supplier-provided listing is not an official VIN-filtered OEM part assignment, manufacturer supersession, durability result, or guaranteed availability."
+    },
+    {
+      "id": "parts95-src-012",
+      "title": "eSaabParts 32019619 Nissens MT radiator and Saab 5193370 cross-reference",
+      "url": "https://www.esaabparts.com/saab/parts/32019619?ss=5193370",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "publisher": "eSaabParts independent parts retailer",
+      "notes": "Supplier-provided listing is not an official VIN-filtered OEM part assignment, manufacturer supersession, durability result, or guaranteed availability."
+    },
+    {
+      "id": "parts95-src-013",
+      "title": "eSaabParts 32019620 Nissens AT radiator and Saab 5193388 cross-reference",
+      "url": "https://www.esaabparts.com/saab/parts/32019620",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "publisher": "eSaabParts independent parts retailer",
+      "notes": "Supplier-provided listing is not an official VIN-filtered OEM part assignment, manufacturer supersession, durability result, or guaranteed availability."
+    },
+    {
+      "id": "parts95-src-014",
+      "title": "eSaabParts 9-5 crankcase ventilation diagram and hose identifiers",
+      "url": "https://www.esaabparts.com/viewparts.php?section=314781123",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "publisher": "eSaabParts independent parts retailer",
+      "notes": "Supplier-provided listing is not an official VIN-filtered OEM part assignment, manufacturer supersession, durability result, or guaranteed availability."
+    },
+    {
+      "id": "parts95-src-015",
+      "title": "Official Saab Parts WebEPC subscription and filtered OEM fitment service",
+      "url": "https://saabparts.com/saab-subscription-services",
+      "source_type": "technical_reference",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "publisher": "Saab Parts official WebEPC subscription service",
+      "notes": "VIN-filtered WebEPC functionality described; no VIN specific result independently accessed."
+    },
+    {
+      "id": "parts95-src-016",
+      "title": "eSaabParts 5235544 engine mount showing B308E automatic context and conflicting diagram years",
+      "url": "https://www.esaabparts.com/saab/parts/5235544",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-12",
+      "publisher": "eSaabParts independent parts retailer",
+      "notes": "Supplier-provided listing is not an official VIN-filtered OEM part assignment, manufacturer supersession, durability result, or guaranteed availability."
+    }
+  ],
+  "facts": [
+    {
+      "id": "parts95-fact-001",
+      "subject": "9-5:PCV",
+      "category": "parts_fitment",
+      "predicate": "csp15433_scope",
+      "value": {
+        "bulletin": "210-2496",
+        "program": "15433",
+        "years": [
+          2004,
+          2005
+        ],
+        "engine": "B235 2.3L",
+        "transmission": "manual",
+        "vin_range_inclusive": [
+          "43000003",
+          "53502479"
+        ],
+        "not_all_in_range": true
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235"
+        ],
+        "transmission_codes": [
+          "manual"
+        ],
+        "vin_ranges": [
+          {
+            "start": "43000003",
+            "end": "53502479",
+            "kind": "factory stated range; selected cars only"
+          }
+        ]
+      },
+      "source_ids": [
+        "parts95-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Cars affected",
+      "notes": "Campaign does not automatically apply to all cars within range; applicability must be checked against individual campaign history and selected market."
+    },
+    {
+      "id": "parts95-fact-002",
+      "subject": "9-5:PCV",
+      "category": "parts_fitment",
+      "predicate": "csp15433_reason",
+      "value": "High oil consumption at low load/high engine speed; may relate to MY2004 changed crankcase ventilation and detached throttle-body/ventilation hose",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235"
+        ],
+        "transmission_codes": [
+          "manual"
+        ],
+        "vin_ranges": [
+          {
+            "start": "43000003",
+            "end": "53502479",
+            "kind": "factory stated range; selected cars only"
+          }
+        ]
+      },
+      "source_ids": [
+        "parts95-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Background; Symptom description",
+      "notes": "Not equivalent to the separate MY1998-2003 sludge bulletin or a general MY2006-09 PCV redesign."
+    },
+    {
+      "id": "parts95-fact-003",
+      "subject": "9-5:PCV",
+      "category": "parts_fitment",
+      "predicate": "csp15433_oil_trap_part",
+      "value": "55 558 696",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235"
+        ],
+        "transmission_codes": [
+          "manual"
+        ],
+        "vin_ranges": [
+          {
+            "start": "43000003",
+            "end": "53502479",
+            "kind": "factory stated range; selected cars only"
+          }
+        ]
+      },
+      "source_ids": [
+        "parts95-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Parts required",
+      "notes": "Manufacturer bulletin number for this particular campaign; not proof universal fit on any 2004-2009 B235."
+    },
+    {
+      "id": "parts95-fact-004",
+      "subject": "9-5:PCV",
+      "category": "parts_fitment",
+      "predicate": "csp15433_early_engine_hose",
+      "value": {
+        "hose": "59 61 610",
+        "engine_numbers": "4 000 000 - 4 017 590",
+        "action": "hose branch is handled separately in bulletin"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235"
+        ],
+        "transmission_codes": [
+          "manual"
+        ],
+        "vin_ranges": [
+          {
+            "start": "43000003",
+            "end": "53502479",
+            "kind": "factory stated range; selected cars only"
+          }
+        ]
+      },
+      "source_ids": [
+        "parts95-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Parts required; Procedure step 14/21",
+      "notes": "This source gives early engine restriction; retailer general hose description is not supersession proof."
+    },
+    {
+      "id": "parts95-fact-005",
+      "subject": "9-5:PCV",
+      "category": "parts_fitment",
+      "predicate": "csp15433_completion_marking",
+      "value": "Non-US/CA markets use modification identity plate A1 or warranty/service-book markings; verify actual repair documentation",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235"
+        ],
+        "transmission_codes": [
+          "manual"
+        ],
+        "vin_ranges": [
+          {
+            "start": "43000003",
+            "end": "53502479",
+            "kind": "factory stated range; selected cars only"
+          }
+        ]
+      },
+      "source_ids": [
+        "parts95-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Procedure; Marking plate",
+      "notes": "Absence of plate alone cannot rule in/out completion for US/CA cars."
+    },
+    {
+      "id": "parts95-fact-006",
+      "subject": "9-5:PCV",
+      "category": "parts_fitment",
+      "predicate": "csp15435_scope",
+      "value": {
+        "bulletin": "210-2508",
+        "program": "15435",
+        "years": [
+          2004,
+          2005
+        ],
+        "engines": [
+          "B205",
+          "B235"
+        ],
+        "vin_range_inclusive": [
+          "43000003",
+          "53502893"
+        ],
+        "not_all_in_range": true
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "vin_ranges": [
+          {
+            "start": "43000003",
+            "end": "53502893",
+            "kind": "factory stated range; selected cars only"
+          }
+        ]
+      },
+      "source_ids": [
+        "parts95-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Cars affected",
+      "notes": "Different campaign and upper chassis limit; does not authorize oil-trap replacement by itself."
+    },
+    {
+      "id": "parts95-fact-007",
+      "subject": "9-5:PCV",
+      "category": "parts_fitment",
+      "predicate": "csp15435_fix",
+      "value": {
+        "problem": "Throttle-body / crankcase ventilation hose can detach",
+        "factory_materials": [
+          "90 490 543 hose clip",
+          "79 71 864 cable tie"
+        ],
+        "non_US_CA_mark": "A2"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "vin_ranges": [
+          {
+            "start": "43000003",
+            "end": "53502893",
+            "kind": "factory stated range; selected cars only"
+          }
+        ]
+      },
+      "source_ids": [
+        "parts95-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Background; Parts; Marking",
+      "notes": "Separate from CSP15433 oil trap. Record repair documentation rather than inferring completion from age."
+    },
+    {
+      "id": "parts95-fact-008",
+      "subject": "9-5:PCV",
+      "category": "parts_fitment",
+      "predicate": "csp15435_market",
+      "value": "all markets",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "vin_ranges": [
+          {
+            "start": "43000003",
+            "end": "53502893",
+            "kind": "factory stated range; selected cars only"
+          }
+        ]
+      },
+      "source_ids": [
+        "parts95-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Market",
+      "notes": "The factory says all markets, with local non-US/CA marking methods distinguished."
+    },
+    {
+      "id": "parts95-fact-009",
+      "subject": "9-5:cooling",
+      "category": "parts_fitment",
+      "predicate": "automatic_radiator_transmission_cooler_lines",
+      "value": "WIS automatic radiator removal disconnects and refits transmission oil-cooler connections, followed by automatic fluid level check",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove step 8; To fit steps 6 and 16",
+      "notes": "A significant interface difference from manual cars, not proof of shared FA57 transmission service procedure on other platforms."
+    },
+    {
+      "id": "parts95-fact-010",
+      "subject": "9-5:cooling",
+      "category": "parts_fitment",
+      "predicate": "radiator_removal_common",
+      "value": "Requires draining coolant, fan assembly access, upper/lower radiator hoses, A/C connector and breather connections",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove steps 1–13",
+      "notes": "Coolant burn risk; use proper service procedures and safety."
+    },
+    {
+      "id": "parts95-fact-011",
+      "subject": "9-5:cooling",
+      "category": "parts_fitment",
+      "predicate": "cooling_pressure_test",
+      "value": {
+        "pressurization": "over 1 bar",
+        "factory_adaptor": "30 05 451",
+        "factory_tester": "30 05 477",
+        "criterion": "pressure should not drop"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Checking steps 1–8",
+      "notes": "Do not pressurize hot system; manufacturer pressure-testing technique, not guaranteed radiator or head-gasket diagnosis."
+    },
+    {
+      "id": "parts95-fact-012",
+      "subject": "9-5:cooling",
+      "category": "parts_fitment",
+      "predicate": "radiator_fan_connection_safety",
+      "value": "Disconnect fan electrical connectors before touching fan; on automatic cars remove fluid pipes secured on fan cowling",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Warning; To remove 2–4",
+      "notes": "Automatic ancillary pipe routing means visual access differs; fan work should not be done connected."
+    },
+    {
+      "id": "parts95-fact-013",
+      "subject": "9-5:cooling",
+      "category": "repair_procedure",
+      "predicate": "radiator_fan_mount_torque",
+      "value": 8,
+      "unit": "Nm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit tightening torques",
+      "notes": "Radiator fan fasteners; NOT radiator main mounting or hose clamp torque."
+    },
+    {
+      "id": "parts95-fact-014",
+      "subject": "9-5:engine-mount",
+      "category": "parts_fitment",
+      "predicate": "left_mount_manual_vs_auto_fasteners",
+      "value": {
+        "manual_Nm": 47,
+        "automatic_Nm": 84,
+        "brace_Nm": 63
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 1",
+      "notes": "Joint-specific differences; do not assume the physical engine mounts are interchangeable between manual and auto."
+    },
+    {
+      "id": "parts95-fact-015",
+      "subject": "9-5:engine-mount",
+      "category": "parts_fitment",
+      "predicate": "left_mount_centre_nut_vin_cutover",
+      "value": {
+        "up_to_inclusive": "73514478",
+        "torque_up_to_Nm": 84,
+        "from_inclusive": "73514479",
+        "torque_from_Nm": 74
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 4",
+      "notes": "Literal WIS vehicle-identification-number suffix cutover, not a manufacturer parts supersession or complete VIN decoder."
+    },
+    {
+      "id": "parts95-fact-016",
+      "subject": "9-5:engine-mount",
+      "category": "parts_fitment",
+      "predicate": "left_mount_pad_bolt_torque",
+      "value": {
+        "bolts_Nm": 40,
+        "additional_degrees": 45
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 4",
+      "notes": "Engine pad bolt joint only, separate from central nut and 47/84 Nm attachment."
+    },
+    {
+      "id": "parts95-fact-017",
+      "subject": "9-5:engine-mount",
+      "category": "parts_fitment",
+      "predicate": "left_mount_neutral_alignment",
+      "value": "WIS requires locating bolt/centre bolt positioned in pad centre without lateral pull",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 3",
+      "notes": "Preload and alignment are repair requirements, not confirmation mount has failed."
+    },
+    {
+      "id": "parts95-fact-018",
+      "subject": "9-5:front-torque-arm",
+      "category": "parts_fitment",
+      "predicate": "front_torque_arm_vin_cutover",
+      "value": {
+        "up_to_inclusive": "73514478",
+        "bracket_screws_before_Nm": 47,
+        "from_inclusive": "73514479",
+        "bracket_screws_after_Nm": 38
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 2",
+      "notes": "Same cutover as LH mount but distinct fastener: not an approval to mix support brackets."
+    },
+    {
+      "id": "parts95-fact-019",
+      "subject": "9-5:front-torque-arm",
+      "category": "parts_fitment",
+      "predicate": "front_torque_arm_subframe_bolt",
+      "value": {
+        "torque_Nm": 90,
+        "degrees": 90
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 3",
+      "notes": "Subframe through-bolt only."
+    },
+    {
+      "id": "parts95-fact-020",
+      "subject": "9-5:front-torque-arm",
+      "category": "parts_fitment",
+      "predicate": "front_torque_arm_bracket_bolt",
+      "value": {
+        "torque_Nm": 70,
+        "degrees": 90
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit step 4",
+      "notes": "Bracket securing bolt only."
+    },
+    {
+      "id": "parts95-fact-021",
+      "subject": "9-5:engine-mount",
+      "category": "parts_fitment",
+      "predicate": "right_mount_install_rebalance",
+      "value": "WIS says rock engine side-to-side until balanced without stress before final fastening",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit steps 4–6",
+      "notes": "Mechanical alignment may matter; this does not prove any aftermarket solid mount is a reliability upgrade."
+    },
+    {
+      "id": "parts95-fact-022",
+      "subject": "9-5:engine-mount",
+      "category": "parts_fitment",
+      "predicate": "right_mount_pad_and_finish_torque",
+      "value": {
+        "engine_pad_Nm": 47,
+        "mount_bolts_Nm": 47,
+        "final_mount_nuts_Nm": 105
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit steps 1–6",
+      "notes": "Particular right mounting joints only; compare separate 2008 procedure before use on an actual car."
+    },
+    {
+      "id": "parts95-fact-023",
+      "subject": "9-5:engine-mount",
+      "category": "parts_fitment",
+      "predicate": "rear_mount_manual_gearlink_difference",
+      "value": "Rear engine mount procedure requires detaching manual shift linkage stay, not specified for automatic",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove step 3",
+      "notes": "Different service routing does not establish different OE rubber mount part numbers."
+    },
+    {
+      "id": "parts95-fact-024",
+      "subject": "9-5:engine-air-system",
+      "category": "parts_fitment",
+      "predicate": "t7_pcv_and_turbo_diagram",
+      "value": {
+        "oil_trap_callout": 12,
+        "check_valves_callout": 13,
+        "throttle_body_callout": 8,
+        "turbocharger_callout": 4
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "System diagram callouts",
+      "notes": "Confirms MY2008 T7 oil trap presence but not particular part number or dated durability fix."
+    },
+    {
+      "id": "parts95-fact-025",
+      "subject": "9-5:cooling",
+      "category": "parts_fitment",
+      "predicate": "retailer_radiator_gearbox_split",
+      "value": {
+        "manual_reference": "5193370",
+        "manual_aftermarket_sku": "32019619",
+        "automatic_reference": "5193388",
+        "automatic_aftermarket_sku": "32019620",
+        "catalogue_years": "2002–2009"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-011",
+        "parts95-src-012",
+        "parts95-src-013"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Retailer radiator diagram callout 1",
+      "notes": "Retailer distinguishes gearbox variants and Nissens SKU from Saab original numbers; neither retailer 'superseded' field proves official Saab-approved replacement."
+    },
+    {
+      "id": "parts95-fact-026",
+      "subject": "9-5:cooling",
+      "category": "parts_fitment",
+      "predicate": "retailer_radiator_hose_2002_change",
+      "value": {
+        "upper_hose_2002_2009_reference": "5193362",
+        "retailer_orio_sku": "33457832",
+        "lower_hose_reference": "4899449",
+        "lower_orio_sku": "32022572"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-011"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Retailer callouts 20 and 21",
+      "notes": "Part numbers and catalogue years only; verify clamps, hose revisions and vehicle installed hardware before ordering."
+    },
+    {
+      "id": "parts95-fact-027",
+      "subject": "9-5:cooling",
+      "category": "parts_fitment",
+      "predicate": "retailer_radiator_screws_0607_split",
+      "value": {
+        "retailer_screws_2005_2006": "92153150",
+        "retailer_screws_2007_2009": "11900355",
+        "same_diagram_callout": 44
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "source_ids": [
+        "parts95-src-011"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Retailer radiator diagram callout 44",
+      "notes": "Supplier claims year split for radiator screws; not a Saab EPC supersession chain."
+    },
+    {
+      "id": "parts95-fact-028",
+      "subject": "9-5:cooling",
+      "category": "parts_fitment",
+      "predicate": "retailer_radiator_mounting_rubbers",
+      "value": {
+        "rubber_bushing": "90091989",
+        "radiator_pin": "32021946",
+        "radiator_spring": "32021962"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "parts95-src-011"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Retailer callouts 2, 18, 19",
+      "notes": "Retailer lists bushing/pin/spring. Different hardware types; verify each by VIN and physical assembly."
+    },
+    {
+      "id": "parts95-fact-029",
+      "subject": "Saab:WebEPC",
+      "category": "source_method",
+      "predicate": "manufacturer_webepc_required_for_parts",
+      "value": "VIN and build filtering, applicability comments and manufacturer supersession chain offered by official Saab WebEPC",
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "parts95-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Saab subscription service description",
+      "notes": "Service functionality is documented but we do not have specific vehicle VIN filtered output."
+    },
+    {
+      "id": "parts95-fact-030",
+      "subject": "9-5:engine-mount",
+      "category": "source_quality",
+      "predicate": "V6_engine_mount_category_caution",
+      "value": {
+        "retailer_sku": "5235544",
+        "listed_variant": "B308E",
+        "transmission": "automatic",
+        "listing_title": "Engine Mounts (2002-2009)",
+        "switch_diagram_years": "1998–2003"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ]
+      },
+      "source_ids": [
+        "parts95-src-016"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Supplier engine mount 'Part Description' and Switch diagrams",
+      "notes": "Mixed catalogue heading and displayed years: DO NOT treat 5235544 as an approved four-cylinder 2008 B235 mount."
+    },
+    {
+      "id": "parts95-fact-031",
+      "subject": "9-5:PCV",
+      "category": "parts_fitment",
+      "predicate": "PCV_oil_trap_early_year_vendor_conflict",
+      "value": {
+        "supplier_reference": "55558696",
+        "retailer_claim": "2004-2005",
+        "factory_CSP15433": "55 558 696 B235 manual selected MY2004-05"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235"
+        ],
+        "transmission_codes": [
+          "manual"
+        ],
+        "vin_ranges": [
+          {
+            "start": "43000003",
+            "end": "53502479",
+            "kind": "factory stated range; selected cars only"
+          }
+        ]
+      },
+      "source_ids": [
+        "parts95-src-001",
+        "parts95-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Factory bulletin parts required; retailer PCV oil-trap diagram",
+      "notes": "Factory campaign endorses a part within its limited applicability only. Retailer claims are not global 2004-2009 revisions."
+    }
+  ],
+  "issues": [
+    {
+      "id": "parts95-issue-001",
+      "title": "MY2004–05 Saab 9-5 B235 manual oil-trap campaign is not all-years PCV fitment",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005
+        ],
+        "engine_codes": [
+          "B235"
+        ],
+        "transmission_codes": [
+          "manual"
+        ],
+        "vin_ranges": [
+          {
+            "start": "43000003",
+            "end": "53502479",
+            "kind": "factory stated range; selected cars only"
+          }
+        ]
+      },
+      "cause": "Factory CSP15433 was selective, limited by VIN/engine/gearbox and engine-number subcase; cross-referenced retailer parts may be listed more broadly.",
+      "symptoms": [
+        "prior campaign history unknown",
+        "seller says universal upgraded oil trap",
+        "oil consumption at light load and high rpm"
+      ],
+      "diagnosis_summary": "Check exact VIN against Saab CSP15433 records and completion, transmission and engine stamping, inspect actual hose retention and seal condition; keep 15435 separate.",
+      "correction_summary": "Follow verified campaign/workshop documents for included vehicles, otherwise verify original EPC part before a later model repair.",
+      "source_ids": [
+        "parts95-src-001",
+        "parts95-src-002",
+        "parts95-src-014",
+        "parts95-src-015"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "VIN range alone does not prove inclusion.",
+        "Campaign part number not globally fit for MY2006–09.",
+        "No confirmed reliability upgrade or bearing-condition result."
+      ]
+    },
+    {
+      "id": "parts95-issue-002",
+      "title": "9-5 radiator choice must distinguish automatic cooler fittings",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "cause": "Factory WIS describes oil-cooler lines on automatic radiator; parts retailer separately lists distinct manual and automatic radiator references.",
+      "symptoms": [
+        "radiator replacement quote assumes one universal 9-5 B235 radiator",
+        "automatic fluid leaks at cooler unions",
+        "unknown gearbox after engine swap"
+      ],
+      "diagnosis_summary": "Identify installed automatic vs manual gearbox, radiator cooler ports and lines, radiator mounting and hose end geometry; perform cold-system pressure test as applicable.",
+      "correction_summary": "Select correct VIN/gearbox-certified component and follow WIS coolant/automatic fluid leak and level checks.",
+      "source_ids": [
+        "parts95-src-003",
+        "parts95-src-004",
+        "parts95-src-011",
+        "parts95-src-015"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Vendor reference is not official OEM supersession.",
+        "Use no automatic radiator 'upgrade' without manufacturer approval.",
+        "Do not extend 9-3 FA57 coolant/ATF bulletin to original 9-5 as proof of same failure."
+      ]
+    },
+    {
+      "id": "parts95-issue-003",
+      "title": "Left mount and front torque arm fastener values change at chassis 73514478/73514479",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "cause": "Saab WIS provides distinct central nut and mounting bracket torque based on exact vehicle-identifier boundary.",
+      "symptoms": [
+        "mount replacement uses generic torque chart",
+        "used gearbox mount or bracket history unknown",
+        "engine mount preload and vibration after repair"
+      ],
+      "diagnosis_summary": "Confirm stamped VIN suffix, manual/automatic gearbox and exact bolt location; inspect mount alignment and correct fastener version.",
+      "correction_summary": "Use factory procedure and vehicle-bound torque path; replacement component choice still requires OEM WebEPC fitment.",
+      "source_ids": [
+        "parts95-src-006",
+        "parts95-src-007",
+        "parts95-src-008"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Change in torque is NOT evidence that specific part numbers superseded.",
+        "VIN suffix boundary not mapped to particular MY production date.",
+        "Procedural torques not an instruction to work beneath unsupported engine."
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "parts95-part-001",
+      "part_number": "5193370",
+      "title": "Saab OEM-number reference from supplier, radiator four-cylinder manual",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "manual"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Confirm actual VIN/build and installed drivetrain in official Saab WebEPC, not a retailer listing alone.",
+        "Confirm corresponding WIS installation procedure, connections and hardware; supplier cross-reference is not manufacturer interchange authorization."
+      ],
+      "source_ids": [
+        "parts95-src-011",
+        "parts95-src-012"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Seller associates Nissens SKU 32019619. Number as independent retailer claim, not manufacturer-verified latest supersession."
+    },
+    {
+      "id": "parts95-part-002",
+      "part_number": "5193388",
+      "title": "Saab OEM-number reference from supplier, radiator four-cylinder automatic",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Confirm actual VIN/build and installed drivetrain in official Saab WebEPC, not a retailer listing alone.",
+        "Confirm corresponding WIS installation procedure, connections and hardware; supplier cross-reference is not manufacturer interchange authorization."
+      ],
+      "source_ids": [
+        "parts95-src-011",
+        "parts95-src-013"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Seller associates Nissens SKU 32019620. Retain automatic transmission cooler interface requirement."
+    },
+    {
+      "id": "parts95-part-003",
+      "part_number": "32019619",
+      "title": "Nissens radiator merchant SKU, manual",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "manual"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Confirm actual VIN/build and installed drivetrain in official Saab WebEPC, not a retailer listing alone.",
+        "Confirm corresponding WIS installation procedure, connections and hardware; supplier cross-reference is not manufacturer interchange authorization."
+      ],
+      "source_ids": [
+        "parts95-src-011",
+        "parts95-src-012"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Merchant's latest-number field does not make aftermarket Nissens SKU an official Saab supersession."
+    },
+    {
+      "id": "parts95-part-004",
+      "part_number": "32019620",
+      "title": "Nissens radiator merchant SKU, automatic",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Confirm actual VIN/build and installed drivetrain in official Saab WebEPC, not a retailer listing alone.",
+        "Confirm corresponding WIS installation procedure, connections and hardware; supplier cross-reference is not manufacturer interchange authorization."
+      ],
+      "source_ids": [
+        "parts95-src-011",
+        "parts95-src-013"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Merchant's latest-number field is not official manufacturer supersession. Must validate integrated cooler."
+    },
+    {
+      "id": "parts95-part-005",
+      "part_number": "5193362",
+      "title": "Supplier-identified upper radiator hose",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Confirm actual VIN/build and installed drivetrain in official Saab WebEPC, not a retailer listing alone.",
+        "Confirm corresponding WIS installation procedure, connections and hardware; supplier cross-reference is not manufacturer interchange authorization."
+      ],
+      "source_ids": [
+        "parts95-src-011"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Vendor also sells Orio-labelled merchant SKU 33457832; these are distinct inventory identities."
+    },
+    {
+      "id": "parts95-part-006",
+      "part_number": "4899449",
+      "title": "Supplier-identified lower radiator hose",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Confirm actual VIN/build and installed drivetrain in official Saab WebEPC, not a retailer listing alone.",
+        "Confirm corresponding WIS installation procedure, connections and hardware; supplier cross-reference is not manufacturer interchange authorization."
+      ],
+      "source_ids": [
+        "parts95-src-011"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Vendor lists branded SKU 32022572. Needs actual hose shape and clamps check."
+    },
+    {
+      "id": "parts95-part-007",
+      "part_number": "92153150",
+      "title": "Supplier-listed radiator screw 2005–06",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Confirm actual VIN/build and installed drivetrain in official Saab WebEPC, not a retailer listing alone.",
+        "Confirm corresponding WIS installation procedure, connections and hardware; supplier cross-reference is not manufacturer interchange authorization."
+      ],
+      "source_ids": [
+        "parts95-src-011"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Vendor year split at 2007; service fastener torque not independently mapped."
+    },
+    {
+      "id": "parts95-part-008",
+      "part_number": "11900355",
+      "title": "Supplier-listed radiator screw 2007–09",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Confirm actual VIN/build and installed drivetrain in official Saab WebEPC, not a retailer listing alone.",
+        "Confirm corresponding WIS installation procedure, connections and hardware; supplier cross-reference is not manufacturer interchange authorization."
+      ],
+      "source_ids": [
+        "parts95-src-011"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Vendor year split at 2007; no guaranteed interchange with 92153150."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "parts95-gap-001",
+      "title": "CSP15433/15435 exact US/CA selected-vehicle campaign completion",
+      "missing_inputs": [
+        "Retrieve individual VIN inclusion via authorized Saab campaign source and actual dealer service/work order, not approximate VIN span alone."
+      ],
+      "reason": "No actual chassis-scoped manufacturer WebEPC result, installed hardware observation, approved interchange or representative durability evidence was obtained.",
+      "source_ids": [
+        "parts95-src-001",
+        "parts95-src-002",
+        "parts95-src-015"
+      ]
+    },
+    {
+      "id": "parts95-gap-002",
+      "title": "Original manufacturer radiator manual/automatic OE supersession by VIN",
+      "missing_inputs": [
+        "Get VIN-filtered Saab WebEPC radiator section to verify 5193370 and 5193388 current OEM replacements, cooler ports, sealing washers and bracket compatibility."
+      ],
+      "reason": "No actual chassis-scoped manufacturer WebEPC result, installed hardware observation, approved interchange or representative durability evidence was obtained.",
+      "source_ids": [
+        "parts95-src-011",
+        "parts95-src-012",
+        "parts95-src-013",
+        "parts95-src-015"
+      ]
+    },
+    {
+      "id": "parts95-gap-003",
+      "title": "Radiator hose and 2007 hardware revision OEM validation",
+      "missing_inputs": [
+        "Official EPC to verify upper/lower hose 5193362/4899449 and 2005–06 versus 2007–09 screw 92153150/11900355 year split."
+      ],
+      "reason": "No actual chassis-scoped manufacturer WebEPC result, installed hardware observation, approved interchange or representative durability evidence was obtained.",
+      "source_ids": [
+        "parts95-src-011",
+        "parts95-src-015"
+      ]
+    },
+    {
+      "id": "parts95-gap-004",
+      "title": "PCV oil trap 55558696/12755243 2004 engine-number boundary",
+      "missing_inputs": [
+        "Resolve true Saab original oil trap revision, CSP15433 repair part vs supplier listings, and later B235R part approval by actual VIN."
+      ],
+      "reason": "No actual chassis-scoped manufacturer WebEPC result, installed hardware observation, approved interchange or representative durability evidence was obtained.",
+      "source_ids": [
+        "parts95-src-001",
+        "parts95-src-014",
+        "parts95-src-015"
+      ]
+    },
+    {
+      "id": "parts95-gap-005",
+      "title": "Engine mount real OEM numbers and variant-specific matching",
+      "missing_inputs": [
+        "Locate four-cylinder B235 manual/automatic mounts and correct mounting pads in original WebEPC. Beware V6 B308E retailer 5235544 listing and mixed years."
+      ],
+      "reason": "No actual chassis-scoped manufacturer WebEPC result, installed hardware observation, approved interchange or representative durability evidence was obtained.",
+      "source_ids": [
+        "parts95-src-006",
+        "parts95-src-007",
+        "parts95-src-008",
+        "parts95-src-009",
+        "parts95-src-016"
+      ]
+    },
+    {
+      "id": "parts95-gap-006",
+      "title": "Chassis 73514478/73514479 meaning outside MY2008",
+      "missing_inputs": [
+        "Determine actual body-year/market build significance and confirm WIS cross-year mount/torque applicability; do not use a year-only shortcut."
+      ],
+      "reason": "No actual chassis-scoped manufacturer WebEPC result, installed hardware observation, approved interchange or representative durability evidence was obtained.",
+      "source_ids": [
+        "parts95-src-006",
+        "parts95-src-007"
+      ]
+    },
+    {
+      "id": "parts95-gap-007",
+      "title": "Cooling system pressure and ATF contamination confirmation on a vehicle",
+      "missing_inputs": [
+        "Obtain cold/hot symptoms, controlled pressure-decay readings, coolant changes, transmission fluid observations and safe test/diagnostics of the particular car."
+      ],
+      "reason": "No actual chassis-scoped manufacturer WebEPC result, installed hardware observation, approved interchange or representative durability evidence was obtained.",
+      "source_ids": [
+        "parts95-src-003",
+        "parts95-src-004"
+      ]
+    },
+    {
+      "id": "parts95-gap-008",
+      "title": "Reliability impact of radiator, mount or PCV aftermarket alternatives",
+      "missing_inputs": [
+        "Lack controlled service-life data and validated material/cycle testing; do not label one replacement a Toyota-equivalent reliability improvement."
+      ],
+      "reason": "No actual chassis-scoped manufacturer WebEPC result, installed hardware observation, approved interchange or representative durability evidence was obtained.",
+      "source_ids": [
+        "parts95-src-011",
+        "parts95-src-012",
+        "parts95-src-013",
+        "parts95-src-014"
+      ]
+    },
+    {
+      "id": "parts95-gap-009",
+      "title": "2007–09 radiator oil cooler and connections by specific gearbox/build",
+      "missing_inputs": [
+        "Check individual MY2007/08/09 factory WIS coolant system connection details and exact transmission cooler fittings; only MY2006 directly reviewed."
+      ],
+      "reason": "No actual chassis-scoped manufacturer WebEPC result, installed hardware observation, approved interchange or representative durability evidence was obtained.",
+      "source_ids": [
+        "parts95-src-003",
+        "parts95-src-005"
+      ]
+    }
+  ]
+}
