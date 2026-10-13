@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 509 source records with 450 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 510 source records with 451 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -644,6 +644,7 @@ Dataset: [priority US/CA service and recall baseline](../data/datasets/priority-
 | `wp7-src-010` | [GM Saab 15043 customer reminder / NHTSA 16V063](https://static.nhtsa.gov/odi/rcl/2016/RCRN-16V063-9564.pdf) | General Motors LLC | `full_text` |
 | `wp7-src-011` | [GM safety defect notification 14V318 Saab 9-3 convertibles](https://static.nhtsa.gov/odi/rcl/2014/RCDNN-14V318-3795P.pdf) | General Motors LLC filed with NHTSA | `full_text` |
 | `wp7-src-012` | [Transport Canada recall 2014228 Saab 9-3 convertibles](https://recalls-rappels.canada.ca/en/alert-recall/transport-canada-recall-2014228-general-motors) | Transport Canada | `full_text` |
+| `wp7-src-013` | [MY2008 original Saab 9-5 US/CA 60,000-mile scheduled service checklist](https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/60000-miles-us-ca) | Saab Automobile AB (factory WIS mirrored by SaabWISOnline) | `full_text` |
 
 ## priority_vehicle_identity_gates
 
