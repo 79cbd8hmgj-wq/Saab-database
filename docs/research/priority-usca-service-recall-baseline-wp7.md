@@ -24,6 +24,15 @@ The [factory MY2008 USA/Canada schedule](https://saabwisonline.com/9-5-9600/2008
 
 The [MY2008 petrol SID service-message factory page](https://saabwisonline.com/9-5-9600/2008/3-electrical-system/saab-information-display-sid/service/service-message-petrol-driven-cars) documents manual and Tech2 reset and an automatic reset after **60 activations**. A missing warning **does not prove** maintenance was ever performed.
 
+## Unresolved original MY2008 US/Canada automatic-transmission service interval
+
+Two original Saab 9-5 2008 US/CA pages **contradict one another**:
+
+- [60,000-mile US/CA service](https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/60000-miles-us-ca), item **9**, explicitly calls for an **automatic gearbox fluid change**.
+- [Annual service additional work](https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/annual-service) lists **automatic transmission fluid replacement at 70,000 miles / 5 years**.
+
+Both original entries remain stored as distinct documented facts. This is **not** a warrant to say Saab's definitive requirement is either mileage. A definitive recommendation needs the original US/CA printed service booklet, any factory revision/errata, actual transmission identity and prior service condition. Do not turn conflicting factory numbers into a single unquestioned interval, or infer appropriate ATF fluid, capacity or procedure from either checklist alone.
+
 ## 9-3 B207 is deliberately separated
 
 The [MY2006 9-3 WW service programme](https://saabwisonline.com/9-3-9440/2006/1-service/saab-service-ww/technical-description/service-programme) distinguishes **intermediate service** (oil life / distance / time) and **main service** (primarily distance). It contains a questionable printed US/CA kilometre-interval line; the repo **does not import it** as a B207-approved schedule. A US/CA original booklet/year-specific service page is still needed before claiming 9-3 service mileage.
