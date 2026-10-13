@@ -4,6 +4,9 @@
 
 ## Scope and decision rule
 
+**Cross-cutting Phase 0 omission audit (2026-10-13):** [independent gap register and model-selection coverage review](phase0-gap-audit-2026-10-13.md) distinguishes 15 existing-gaps workstreams from 3 new coverage questions. In particular, expand the candidate year/engine/gearbox/body **comparison universe**, and source steering/suspension and HVAC component/connection inventories before any 'best Saab to rebuild' claim. This is a desk audit, not evidence that an original parts application or specific car has been validated.
+
+
 **First configurations:** original 9-5 9600, US/Canada MY2004–09, petrol B235E/R four-cylinder and installed manual or five-speed automatic variants; second-generation 9-3 9440, US/Canada MY2005–06, FWD B207 with exact engine, body and gearbox variants. Model-year names are a search boundary, not a blanket statement of hardware interchange.
 
 **Objective:** screen affordable non-running/running candidate Saabs for structural safety and unacceptable engine/transmission rebuild risks; then identify verifiable repair and preventive-maintenance options. **We are deliberately not building a vehicle ranking algorithm, life simulator, guaranteed Toyota-equivalent upgrade plan, or automatic parts-order system.**
