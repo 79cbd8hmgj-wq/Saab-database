@@ -73,3 +73,8 @@ A **2008 9-5 wagon** offered with rear-subframe rust and a claimed clogged catal
 5. Summarize **resolved versus still-blocked** acceptance criteria; no imaginary replacement approvals or percentage complete.
 
 For the underlying existing research backlog and original P0 codes, see [research-backlog.md](research-backlog.md). For the numeric audit and current caveats, see [coverage-audit.md](coverage-audit.md).
+
+
+### Work package 7 progress, 2026-10-13 (partial)
+
+[Original MY2008 US/CA 9-5 service and historical recalls](research/priority-usca-service-recall-baseline-wp7.md) documents annual plus 10,000-mile manufacturer service, brake-fluid/fuel-line/exhaust and powertrain service intervals, and the crucial NHTSA **>15-year recall VIN-search blind spot**. The 2005–06 B207 US/CA interval, individual historical campaign completion and actual maintenance records are **not verified**. Gate A = partial; Gate B = not met; Gate C = not met. Work package 7 is not declared complete.
