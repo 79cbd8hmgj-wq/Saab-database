@@ -77,7 +77,7 @@ class ProductionImporterTests(unittest.TestCase):
         result = read_table(html, SOURCE_SPECS[2])
         self.assertEqual(len(result["candidates"]), 2)
         self.assertEqual({x["body_style"] for x in result["candidates"]},
-                         {"sedan", "5-door hatchback"})
+                         {"sedan", "wagon"})
 
     def test_reject_unknown_bad_source_shape_instead_of_fabricating(self):
         with self.assertRaises(ValueError):
