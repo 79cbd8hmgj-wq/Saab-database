@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 200 source records with 195 distinct
+Research retrieval date: 2026-10-12. There are 210 source records with 203 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -289,3 +289,20 @@ Dataset: [ng93_early_mount_fuel](../data/datasets/ng93-early-mount-fuel.json)
 | `early9three-src-013` | [eSaabParts 12831387 CV early front axle stay page](https://www.esaabparts.com/saab/parts/12831387) | eSaabParts retailer catalogue | `full_text` |
 | `early9three-src-014` | [MY2004 NG9-3 front subframe replacement Z18XE](https://saabwisonline.com/9-3-9440/2004/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-replacement-z18xe) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
 | `early9three-src-015` | [MY2004 NG9-3 four-wheel alignment](https://saabwisonline.com/9-3-9440/2004/7-suspension-wheels/front-suspension/adjustment-replacement/four-wheel-alignment) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
+
+## epc_provenance
+
+Dataset: [epc_provenance](../data/datasets/epc-provenance.json)
+
+| Source ID | Document | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `epcverify-src-001` | [Official Saab WebEPC/WebWIS subscriptions and described functionality](https://saabparts.com/saab-subscription-services) | Saab Parts (Hedin Parts), official Saab technology subscriptions | `full_text` |
+| `epcverify-src-002` | [eSaabParts latest front subframe 32022623](https://www.esaabparts.com/saab/parts/32022623?ss=12825111) | eSaabParts retailer | `full_text` |
+| `epcverify-src-003` | [eSaabParts front subframe bushing 13247173](https://www.esaabparts.com/saab/parts/13247173) | eSaabParts retailer | `full_text` |
+| `epcverify-src-004` | [R&D Car Parts 9-3 complete subframe retailer SKU RD24401110](https://www.rendcarparts.com/parts-for-saab-car/12762720-12825111-24401110-32022623/RD24401110) | R&D Car Parts retailer | `full_text` |
+| `epcverify-src-005` | [Saab Parts Counter genuine subframe bushing 13247173](https://www.saabpartscounter.com/oem-parts/saab-subframe-bushing-13247173) | Saab Parts Counter retailer | `full_text` |
+| `epcverify-src-006` | [Skandix front subframe bushing 13247173](https://www.skandix.de/en/spare-parts/suspension-steering/axle-mounting/bushing/bushing-suspension-front-axle-subframe-front/1040617/) | Skandix specialist retailer | `full_text` |
+| `epcverify-src-007` | [R&D Car Parts separate bushing and frame listings](https://www.rendcarparts.com/en/product-list/product-list?cat1=1&cat2=1381&cat3=1380&page=1) | R&D Car Parts retailer | `full_text` |
+| `epcverify-src-008` | [Klokkerholm 5078004 aftermarket frame/OE cross-references](https://plenty.parts/parts/klokkerholm/body/klokkerholm-5078004-support-frame-subframe-t3595659) | plenty.parts aftermarket aggregator | `full_text` |
+| `epcverify-src-009` | [2005 Saab B207 right engine mounting WIS](https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/engine-mounting-right) | Saab Automobile AB (factory material on independent WIS mirror) | `full_text` |
+| `epcverify-src-010` | [2005 Saab B207 power-train installation WIS](https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/fitting-the-power-train) | Saab Automobile AB (factory material on independent WIS mirror) | `full_text` |
