@@ -1,0 +1,755 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "priority_vehicle_identity_gates",
+  "sources": [
+    {
+      "id": "gateac-src-001",
+      "title": "OG9-5 MY2009 WIS VIN page actually maps tenth character to MY2010",
+      "url": "https://saabwisonline.com/9-5-9600/2009/0-general/general/technical-data/vin-vehicle-identification-number",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original factory WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "CRITICAL: page is under WIS 2009 folder but explicitly says tenth VIN character A = 2010; not authoritative for the requested MY2009 model year."
+    },
+    {
+      "id": "gateac-src-002",
+      "title": "OG9-5 MY2008 5-speed manual gearbox physical type designation and engine adaptation",
+      "url": "https://saabwisonline.com/9-5-9600/2008/4-transmission/manual-gearbox/technical-data/type-designation",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original factory WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "An original model-year/assembly manual page; equipment identity and physical fitment on a real car remain unverified."
+    },
+    {
+      "id": "gateac-src-003",
+      "title": "OG9-5 MY2009 5-speed automatic FA57 physical type designation",
+      "url": "https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/technical-data/type-designation",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original factory WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "An original model-year/assembly manual page; equipment identity and physical fitment on a real car remain unverified."
+    },
+    {
+      "id": "gateac-src-004",
+      "title": "NG9-3 MY2005 VIN factory body, gearbox and marketing-engine positions",
+      "url": "https://saabwisonline.com/9-3-9440/2005/0-general/general/technical-data/vin-vehicle-identification-number",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original factory WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "The example printed at the top has tenth character 3 while the 2005 table says 5 = 2005; preserve that contradiction."
+    },
+    {
+      "id": "gateac-src-005",
+      "title": "NG9-3 MY2006 five-speed FA57 gearbox and engine adaptation type designation",
+      "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/type-designations",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original factory WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "An original model-year/assembly manual page; equipment identity and physical fitment on a real car remain unverified."
+    },
+    {
+      "id": "gateac-src-006",
+      "title": "NG9-3 MY2006 six-speed AF40 gearbox type and TCM identification",
+      "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/6-speed-af-40/technical-data/type-designations",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original factory WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "An original model-year/assembly manual page; equipment identity and physical fitment on a real car remain unverified."
+    },
+    {
+      "id": "gateac-src-007",
+      "title": "NG9-3 MY2006 AF40 fluid and no-dipstick technical description",
+      "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/6-speed-af-40/technical-description/brief-description-of-the-gearbox",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original factory WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "An original model-year/assembly manual page; equipment identity and physical fitment on a real car remain unverified."
+    },
+    {
+      "id": "gateac-src-008",
+      "title": "NG9-3 MY2005 front suspension chassis code plate and left/right component distinction",
+      "url": "https://saabwisonline.com/9-3-9440/2005/7-suspension-wheels/front-suspension/technical-data/vin-plate-springs-and-shock-absorbers",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original factory WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "An original model-year/assembly manual page; equipment identity and physical fitment on a real car remain unverified."
+    },
+    {
+      "id": "gateac-src-009",
+      "title": "NG9-3 MY2006 rear suspension chassis code plate and original EPC requirement",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/technical-data/vin-plate-springs-and-shock-absorbers",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original factory WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "An original model-year/assembly manual page; equipment identity and physical fitment on a real car remain unverified."
+    },
+    {
+      "id": "gateac-src-010",
+      "title": "NG9-3 MY2006 five-speed manual type designation reused or internally inconsistent legend",
+      "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/manual-gearbox/5-speed/technical-data/type-designation",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original factory WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Five-speed manual 9-3 page has internally inconsistent type-code labeling and borrowed 9-5 adaption legend; physically read gearbox tag."
+    },
+    {
+      "id": "gateac-src-011",
+      "title": "NG9-3 MY2006 six-speed manual F40 gearbox factory specification",
+      "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/manual-gearbox/6-speed/technical-data/gearbox",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original factory WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "An original model-year/assembly manual page; equipment identity and physical fitment on a real car remain unverified."
+    },
+    {
+      "id": "gateac-src-012",
+      "title": "OG9-5 MY2006 VIN, engine serial and gearbox tag identification locations",
+      "url": "https://saabwisonline.com/9-5-9600/2006/0-general/general/technical-data/plates-and-labels",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original factory WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "An original model-year/assembly manual page; equipment identity and physical fitment on a real car remain unverified."
+    },
+    {
+      "id": "gateac-src-013",
+      "title": "Official Saab WebEPC subscription and VIN/build-filtering capabilities",
+      "url": "https://saabparts.com/saab-subscription-services",
+      "source_type": "technical_reference",
+      "publisher": "Saab Parts / Hedin Parts (official Saab technology subscriptions)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Public subscription description only. A real VIN-filtered WebEPC result has NOT been accessed or purchased."
+    }
+  ],
+  "facts": [
+    {
+      "id": "gateac-fact-001",
+      "subject": "VIN:OG9-5:MY2009-folder",
+      "category": "source_quality",
+      "predicate": "MY2009_WIS_VIN_table_is_2010",
+      "value": {
+        "source_directory_year": 2009,
+        "tenth_position_year_code": "A",
+        "year_printed": 2010,
+        "body_printed": "5-door only",
+        "gearbox_printed": [
+          "C=automatic 5-speed",
+          "P=manual 5-speed"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "gateac-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2009 WIS VIN table is 2010",
+      "notes": "The page cannot independently validate a MY2009 9-5 VIN decoder; directory year versus in-document model year conflict is explicit."
+    },
+    {
+      "id": "gateac-fact-002",
+      "subject": "Gearbox:OG9-5:manual:2008",
+      "category": "vehicle_identity",
+      "predicate": "MY2008_FM55_FM57_tag_component_groups",
+      "value": {
+        "example": "FM55 B01 A12345",
+        "first_group": "F/front-drive, M/manual, 5 gears; final character overall/top-gear code",
+        "second_group": "engine adaptation plus development revision",
+        "third_group": "production line + 5-digit serial"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "gateac-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2008 FM55 FM57 tag component groups",
+      "notes": "The source header says first group FM57 while its example is FM55. Preserve exact physical stamping rather than normalizing model name."
+    },
+    {
+      "id": "gateac-fact-003",
+      "subject": "Gearbox:OG9-5:manual:2008",
+      "category": "vehicle_identity",
+      "predicate": "MY2008_manual_adaptation_not_cross_vehicle_fitment",
+      "value": {
+        "adaptation_code_B": "manual geared to B205E/B235E/B235R in descriptive legend",
+        "transmission_type_examples": [
+          "FM55",
+          "FM57"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "gateac-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2008 manual adaptation not cross vehicle fitment",
+      "notes": "Factory legend is not a donor gearbox mechanical/ratio/gear-linkage or calibration interchange approval."
+    },
+    {
+      "id": "gateac-fact-004",
+      "subject": "Gearbox:OG9-5:auto:2009",
+      "category": "vehicle_identity",
+      "predicate": "MY2009_FA57_stamped_id_groups",
+      "value": {
+        "illustrated_type": "FA57 C01 97CV00101",
+        "id_groups": [
+          "FA57 gearbox family / top-gear code",
+          "C 01 engine adaption/development code",
+          "97CV00101 production year/month/transmission variant/serial"
+        ],
+        "example_production_year": 1997
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "source_ids": [
+        "gateac-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2009 FA57 stamped id groups",
+      "notes": "Source reused historical 1997 sample for a MY2009 folder. Stamping manufacturing year is NOT car's model year or approved donor compatibility."
+    },
+    {
+      "id": "gateac-fact-005",
+      "subject": "VIN:NG9-3:MY2005",
+      "category": "vehicle_identity",
+      "predicate": "MY2005_9440_body_transmission_positions",
+      "value": {
+        "position_4": "F = 9-3",
+        "position_6": {
+          "4": "4-door",
+          "7": "convertible"
+        },
+        "position_7": {
+          "1": "6-speed automatic",
+          "5": "5-speed manual",
+          "6": "6-speed manual",
+          "9": "5-speed automatic"
+        },
+        "position_8": {
+          "S": "2.0t",
+          "Y": "2.0 Turbo"
+        },
+        "position_10": "5 = MY2005"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "gateac-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2005 9440 body transmission positions",
+      "notes": "This is a factory VIN table for MY2005 only. Engine position-8 letters name marketing variants, not a direct VIN-proof that installed B207E/L/R or TCM is original. Printed sample VIN uses older year character 3; conflict retained."
+    },
+    {
+      "id": "gateac-fact-006",
+      "subject": "Gearbox:NG9-3:MY2006:FA57",
+      "category": "vehicle_identity",
+      "predicate": "MY2006_9440_FA57_B207_engine_adaptation",
+      "value": {
+        "gearbox": "FA57 five-speed automatic",
+        "second_group_1": "B207E/B207L/B207R",
+        "third_group": "production year, month, V=FA57, serial by month"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "gateac-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 9440 FA57 B207 engine adaptation",
+      "notes": "Factory type designation refers to gearbox identification label, not proof MY2006 VIN or complete vehicle actually has it."
+    },
+    {
+      "id": "gateac-fact-007",
+      "subject": "Gearbox:NG9-3:MY2006:FA57",
+      "category": "vehicle_identity",
+      "predicate": "MY2006_9440_FA57_TCM_engine_letter",
+      "value": {
+        "J": "B207L",
+        "K": "B207R",
+        "L": "B207E"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "gateac-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 9440 FA57 TCM engine letter",
+      "notes": "TCM engine letter is only one part of control-module hardware/software matching; identical four-letter housings are not automatically swappable."
+    },
+    {
+      "id": "gateac-fact-008",
+      "subject": "Gearbox:NG9-3:MY2006:AF40",
+      "category": "vehicle_identity",
+      "predicate": "MY2006_9440_AF40_type_independent_of_FA57",
+      "value": {
+        "gearbox": "AF40 six-speed automatic / TF-80SC Aisin Warner",
+        "type_label_example": "TF-80SC AF40 PD",
+        "reference_GM_part_no": "13106944",
+        "third_number_example": "04F38 00001"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "gateac-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 9440 AF40 type independent of FA57",
+      "notes": "Example part and type labels are historical factory type exemplars, not a VIN-filtered available replacement SKU. Different FA57 hydraulic controller and fluid procedures."
+    },
+    {
+      "id": "gateac-fact-009",
+      "subject": "Gearbox:NG9-3:MY2006:AF40",
+      "category": "vehicle_identity",
+      "predicate": "MY2006_9440_AF40_AW1_separate_fluid",
+      "value": {
+        "gearbox": "AF40-6",
+        "factory_fluid": "AW-1 or Saab 93 165 147",
+        "fluid_level": "no dipstick; central overflow check with Tech2 ATF temperature"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "gateac-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 9440 AF40 AW1 separate fluid",
+      "notes": "Do not apply original 9-5 MY2005 FA57 Saab 3309 fluid spec or 80°C dipstick access to this six-speed AF40. Verify actual gearbox first."
+    },
+    {
+      "id": "gateac-fact-010",
+      "subject": "Chassis:NG9-3:MY2005",
+      "category": "vehicle_identity",
+      "predicate": "MY2005_suspension_assembly_code_plate",
+      "value": {
+        "positions": {
+          "1": "front springs",
+          "2": "rear springs",
+          "3": "front anti-roll bar",
+          "4": "rear anti-roll bar",
+          "5": "front strut insert",
+          "6": "rear shock absorber"
+        },
+        "code_location": "bottom of VIN plate",
+        "select_parts_from": "Saab EPC"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005
+        ]
+      },
+      "source_ids": [
+        "gateac-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2005 suspension assembly code plate",
+      "notes": "Source says left/right front strut inserts share a chassis code but use distinct part numbers; plate code is not a standalone SKU."
+    },
+    {
+      "id": "gateac-fact-011",
+      "subject": "Chassis:NG9-3:MY2006",
+      "category": "vehicle_identity",
+      "predicate": "MY2006_suspension_plate_uses_EPC_and_side",
+      "value": {
+        "code_location": "bottom row on VIN plate",
+        "positions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "front_strut_note": "left and right different part numbers despite same chassis code"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "gateac-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 suspension plate uses EPC and side",
+      "notes": "Same factory requirement independently appears in 2006 rear-suspension source. Missing or damaged plate needs OEM reconstruction, not random trim-based replacement."
+    },
+    {
+      "id": "gateac-fact-012",
+      "subject": "Gearbox:NG9-3:MY2006:5MT",
+      "category": "source_quality",
+      "predicate": "MY2006_9440_5MT_type_legend_internal_conflict",
+      "value": {
+        "sample": "FM57 B05 A12345",
+        "conflict": "labels first group as FM57 while describing last code '5'; separately says B for 9-5, 1 for 9-3, though sample has B"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "gateac-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 9440 5MT type legend internal conflict",
+      "notes": "Page self-contradicts on example versus position meanings. No direct part or donor compatibility may be inferred from a copied field legend."
+    },
+    {
+      "id": "gateac-fact-013",
+      "subject": "Gearbox:NG9-3:MY2006:F40",
+      "category": "vehicle_identity",
+      "predicate": "MY2006_9440_6MT_F40_distinct_family",
+      "value": {
+        "gearbox": "F40 manual six speed",
+        "dry_volume_L": 2.4,
+        "replacement_volume_L": 2.2
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "gateac-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 9440 6MT F40 distinct family",
+      "notes": "Factory page identifies 6-speed F40 and differentiates dry from replacement capacity. This is not same as FM55/F57 or AF40 label; litres retained in value's explicit keys."
+    },
+    {
+      "id": "gateac-fact-014",
+      "subject": "Vehicle ID:OG9-5:MY2006",
+      "category": "vehicle_identity",
+      "predicate": "MY2006_9600_legal_vehicle_stamp_and_drivetrain_tags",
+      "value": {
+        "identifiers": [
+          "windshield VIN",
+          "stamped body VIN",
+          "VIN plate",
+          "engine serial",
+          "gearbox serial",
+          "body/trim/tyre code label"
+        ],
+        "modification_plate": "not factory-installed from MY2004; service book holds table"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "gateac-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 9600 legal vehicle stamp and drivetrain tags",
+      "notes": "A physical VIN/body and installed engine/gearbox identifier check is needed when the vehicle has possible drivetrain swap or inconsistent seller description."
+    },
+    {
+      "id": "gateac-fact-015",
+      "subject": "Parts verification:Saab WebEPC",
+      "category": "metadata",
+      "predicate": "WebEPC_VIN_OE_SUPERSESSION_gate",
+      "value": {
+        "filter": [
+          "VIN",
+          "build data",
+          "model and year"
+        ],
+        "provides": [
+          "OE illustration",
+          "applicability remarks",
+          "approved supersession chain"
+        ],
+        "actual_cars_queried": false
+      },
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "gateac-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "WebEPC VIN OE SUPERSESSION gate",
+      "notes": "Official WebEPC is a subscribed service; no authorized full VIN result in this investigation, no certified current retrofit or 9-3 subframe replacement."
+    }
+  ],
+  "issues": [
+    {
+      "id": "gateac-issue-001",
+      "title": "MY2009 9-5 VIN source actually lists 2010 codes; wrong-year decode would select incorrect parts",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ]
+      },
+      "cause": "SaabWISOnline workshop directory year 2009 hosts a VIN table explicitly saying A=2010 and only 5-door/K-L trim; the named year and in-document production mapping disagree.",
+      "symptoms": [
+        "seller claims MY2009 using an unverified WIS model-year decoder",
+        "trim/body or transmission VIN coding conflicts with an actual car"
+      ],
+      "diagnosis_summary": "Read actual body stamped and windshield VIN, establish official registration/title data, then verify correct original factory VIN definition and build through authoritative Saab WebEPC.",
+      "correction_summary": "Do not use the 2009 WIS-mirrored VIN table as MY2009 decoder; retain year-mapping gap until proper primary source is recovered.",
+      "source_ids": [
+        "gateac-src-001",
+        "gateac-src-013"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "The source mismatch does not establish a fraudulent VIN or that a real 2009 car is not authentic.",
+        "Directory 2009 is NOT publication/model-year authority for the page.",
+        "No vehicle VIN was provided or decoded."
+      ]
+    },
+    {
+      "id": "gateac-issue-002",
+      "title": "NG9-3 gearbox and chassis tags are necessary before ordering a donor drivetrain or suspension parts",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ]
+      },
+      "cause": "Saab factory 9440 manuals distinguish FA57 five-speed automatic, AF40 six-speed automatic, and F40 six-speed manual plus multiple 5MT coding variants; chassis options determine front strut side/parts.",
+      "symptoms": [
+        "seller says only automatic or manual, without gearbox stamping",
+        "donor transmission/TCM or front strut offered by year/trim alone",
+        "chassis/VIN plate incomplete"
+      ],
+      "diagnosis_summary": "Record VIN, original body/engine type and physical transmission type stamping, TCM hardware/software identity and suspension code row; validate current Saab WebEPC for exact sides and revisions.",
+      "correction_summary": "Apply model-specific transmission fluid and service procedure only after physical identification. Do not approve a part interchange without OE manufacturer filter, interfaces and software/hardware compatibility.",
+      "source_ids": [
+        "gateac-src-004",
+        "gateac-src-005",
+        "gateac-src-006",
+        "gateac-src-007",
+        "gateac-src-008",
+        "gateac-src-009",
+        "gateac-src-010",
+        "gateac-src-011",
+        "gateac-src-013"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Year folder 2006 AF40 type page refers to MY2005; this is documentation existence, not universal MY2006 population.",
+        "Historical GM part 13106944 on AF40 tag example is not a replacement fitment approval.",
+        "Suspension code row alone is not a unique left/right part number."
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "gateac-gap-001",
+      "title": "Original MY2005-2009 OG9-5 VIN year tables still not recoverable",
+      "missing_inputs": [
+        "Official factory 9-5 year tables for model-year 2005–09 and engine/gearbox position codes; WIS 2009 folder repeats MY2010."
+      ],
+      "reason": "A year-labeled factory source or historic type exemplar cannot establish actual installed component or VIN-filtered approved interchange.",
+      "source_ids": [
+        "gateac-src-001",
+        "gateac-src-012"
+      ]
+    },
+    {
+      "id": "gateac-gap-002",
+      "title": "Independent MY2006 NG9-3 VIN year/build table unavailable",
+      "missing_inputs": [
+        "Verify authentic MY2006 tenth position and body/engine/gearbox codes from dated factory manual or Saab WebEPC; do not propagate MY2005 table."
+      ],
+      "reason": "A year-labeled factory source or historic type exemplar cannot establish actual installed component or VIN-filtered approved interchange.",
+      "source_ids": [
+        "gateac-src-004",
+        "gateac-src-005"
+      ]
+    },
+    {
+      "id": "gateac-gap-003",
+      "title": "MY2006 NG9-3 AF40 six-speed availability by exact US/CA VIN",
+      "missing_inputs": [
+        "2006 WIS AF40 folder contains MY2005 text, not evidence of installed 2006 US/Canada B207 AF40; original VIN-based application and options required."
+      ],
+      "reason": "A year-labeled factory source or historic type exemplar cannot establish actual installed component or VIN-filtered approved interchange.",
+      "source_ids": [
+        "gateac-src-006",
+        "gateac-src-007",
+        "gateac-src-013"
+      ]
+    },
+    {
+      "id": "gateac-gap-004",
+      "title": "NG9-3 suspension chassis code to per-side current OEM SKU mapping",
+      "missing_inputs": [
+        "Read plate code, sided spring/strut combinations and genuine Saab WebEPC per-VIN supersession/geometry; coded class not interchangeable SKU."
+      ],
+      "reason": "A year-labeled factory source or historic type exemplar cannot establish actual installed component or VIN-filtered approved interchange.",
+      "source_ids": [
+        "gateac-src-008",
+        "gateac-src-009",
+        "gateac-src-013"
+      ]
+    },
+    {
+      "id": "gateac-gap-005",
+      "title": "9-3 manual five-speed FM57/B05 WIS inconsistency",
+      "missing_inputs": [
+        "Authoritative revised type legend, stamped gearbox ID and Saab-approved compatibility absent for sample/first/second group mismatch."
+      ],
+      "reason": "A year-labeled factory source or historic type exemplar cannot establish actual installed component or VIN-filtered approved interchange.",
+      "source_ids": [
+        "gateac-src-010",
+        "gateac-src-011"
+      ]
+    },
+    {
+      "id": "gateac-gap-006",
+      "title": "Selected vehicle VIN and installed drivetrain or donor prior swap history",
+      "missing_inputs": [
+        "No actual VIN/build plate, transmission production tag, engine serial, TCM software or prior parts purchase records; cannot turn generalized documents into approval."
+      ],
+      "reason": "A year-labeled factory source or historic type exemplar cannot establish actual installed component or VIN-filtered approved interchange.",
+      "source_ids": [
+        "gateac-src-002",
+        "gateac-src-003",
+        "gateac-src-004",
+        "gateac-src-005",
+        "gateac-src-006",
+        "gateac-src-012",
+        "gateac-src-013"
+      ]
+    }
+  ]
+}
