@@ -136,3 +136,7 @@ supplier references. Original Saab/GM donor assemblies are **not** declared
 identical from a shared aftermarket SKU; later engineering proofs remain
 vehicle- and option-specific. These records complement the separate
 `data/interchange-candidates/phase0.json` matrix rather than overriding it.
+
+## Cross-brand official service SKU is not an original donor interchange
+
+Two independently published **official parts-channel catalogues** displaying the exact same current service part number can support a `dual_official_parts_channel_identical_current_service_number` research strategy. It is a stronger identity claim than a seller's similar-looking assembly, but still requires a VIN-specific factory parts application, any supersession direction and complete boxed kit contents before fitting. Do not convert the historical Opel catalogue's `nls. - use` rows or a third-party cross-reference into a verified Saab-to-Opel donor assembly mapping. The matrix retains the same safety and durability flags as other unverified candidates; dual-channel evidence alone cannot set `approved_drop_in` or `approved_oem_donor` to true.
