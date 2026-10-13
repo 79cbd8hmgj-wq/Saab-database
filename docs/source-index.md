@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 320 source records with 300 distinct
+Research retrieval date: 2026-10-12. There are 334 source records with 312 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -458,3 +458,24 @@ Dataset: [b235r_oil_pcv_2006_2008](../data/datasets/b235r-oil-pcv-2006-2008.json
 | `b235rev-src-015` | [eSaabParts 55557709 oil trap hose listing](https://www.esaabparts.com/saab/parts/55557709) | eSaabParts (independent supplier catalogue) | `full_text` |
 | `b235rev-src-016` | [eSaabParts 213452433 complete aftermarket PCV kit bill of materials](https://www.esaabparts.com/saab/parts/213452433) | eSaabParts (independent supplier catalogue) | `full_text` |
 | `b235rev-src-017` | [MY2008 US/Canada manual page 254 maintenance schedule](https://www.manualsdir.com/manuals/746387/saab-2008-9-5.html?page=254) | Saab Automobile AB (factory-authored information mirrored online) | `full_text` |
+
+## vin_gearbox_provenance
+
+Dataset: [vin_gearbox_provenance](../data/datasets/vin-gearbox-provenance.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `vinfit-src-001` | [MY2005 9-3 9440 factory VIN positions and gearbox/engine codes](https://saabwisonline.com/9-3-9440/2005/0-general/general/technical-data/vin-vehicle-identification-number) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `vinfit-src-002` | [MY2008 9-3 9440 factory VIN positions and detailed B207 code mapping](https://saabwisonline.com/9-3-9440/2008/0-general/general/technical-data/vin-vehicle-identification-number) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `vinfit-src-003` | [MY2005 9-5 9600 VIN page showing MY2004 as last year entry](https://saabwisonline.com/9-5-9600/2005/0-general/general/technical-data/vin-vehicle-identification-number) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `vinfit-src-004` | [MY2007 9-5 9600 VIN page displaying 2010 code and later configurations](https://saabwisonline.com/9-5-9600/2007/0-general/general/technical-data/vin-vehicle-identification-number) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `vinfit-src-005` | [MY2006 9-5 factory plates and identification locations](https://saabwisonline.com/9-5-9600/2006/0-general/general/technical-data/plates-and-labels) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `vinfit-src-006` | [MY2007 9-5 FA57 automatic type designation and adaptation code](https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/technical-data/type-designation) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `vinfit-src-007` | [MY2005 9-3 FA57 automatic type designation and engine adaptation code](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/type-designations) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `vinfit-src-008` | [MY2006 9-5 manual gearbox type code with internal FM55/FM57 discrepancy](https://saabwisonline.com/9-5-9600/2006/4-transmission/manual-gearbox/technical-data/type-designation) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `vinfit-src-009` | [MY2005 9-3 five-speed manual gearbox type designation](https://saabwisonline.com/9-3-9440/2005/4-transmission/manual-gearbox/5-speed/technical-data/type-designation) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `vinfit-src-010` | [MY2005 9-5 FA57 TCM engine type code](https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/technical-data/control-module) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `vinfit-src-011` | [MY2005 9-3 AF40 6-speed automatic separate type designation](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/6-speed-af-40/technical-data/type-designations) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `vinfit-src-012` | [Official Saab Parts WebEPC VIN/build filtering and supersession capabilities](https://saabparts.com/saab-subscription-services) | Saab Parts (Hedin Parts), official catalogue platform | `full_text` |
+| `vinfit-src-013` | [MY2007 9-3 TIS service programming system VIN/variant confirmation](https://saabwisonline.com/9-3-9440/2007/0-general/tis-2000/technical-description/service-programming-system) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `vinfit-src-014` | [MY2005 9-3 FA57 TCM connector pins and electrical grounds](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-description/tcm-fa-57-502a) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
