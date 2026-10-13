@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 423 source records with 386 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 436 source records with 396 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -610,3 +610,23 @@ Dataset: [og95_turbo_tsb_2912494_fa57_triage](../data/datasets/og95-turbo-tsb291
 | `prebuy-src-011` | [2008 OG9-5 factory turbo shaft-play directory, numeric content not available](https://saabwisonline.com/9-5-9600/2008/2-engine/turbocharger-system/technical-data/) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `metadata_only` |
 | `prebuy-src-012` | [2009 OG9-5 FA57 TCM requested versus actual speed/pressure Read values](https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/fault-diagnosis-general/menu-read-values) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
 | `prebuy-src-013` | [2008 OG9-5 5AT maximum permissible torque TCM-to-engine request](https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-description/maximum-permissible-torque) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
+
+## priority_vehicle_identity_gates
+
+Dataset: [priority_vehicle_identity_gates](../data/datasets/priority-vehicle-identity-gates.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `gateac-src-001` | [OG9-5 MY2009 WIS VIN page actually maps tenth character to MY2010](https://saabwisonline.com/9-5-9600/2009/0-general/general/technical-data/vin-vehicle-identification-number) | Saab Automobile AB (original factory WIS mirrored by SaabWISOnline) | `full_text` |
+| `gateac-src-002` | [OG9-5 MY2008 5-speed manual gearbox physical type designation and engine adaptation](https://saabwisonline.com/9-5-9600/2008/4-transmission/manual-gearbox/technical-data/type-designation) | Saab Automobile AB (original factory WIS mirrored by SaabWISOnline) | `full_text` |
+| `gateac-src-003` | [OG9-5 MY2009 5-speed automatic FA57 physical type designation](https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/technical-data/type-designation) | Saab Automobile AB (original factory WIS mirrored by SaabWISOnline) | `full_text` |
+| `gateac-src-004` | [NG9-3 MY2005 VIN factory body, gearbox and marketing-engine positions](https://saabwisonline.com/9-3-9440/2005/0-general/general/technical-data/vin-vehicle-identification-number) | Saab Automobile AB (original factory WIS mirrored by SaabWISOnline) | `full_text` |
+| `gateac-src-005` | [NG9-3 MY2006 five-speed FA57 gearbox and engine adaptation type designation](https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/type-designations) | Saab Automobile AB (original factory WIS mirrored by SaabWISOnline) | `full_text` |
+| `gateac-src-006` | [NG9-3 MY2006 six-speed AF40 gearbox type and TCM identification](https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/6-speed-af-40/technical-data/type-designations) | Saab Automobile AB (original factory WIS mirrored by SaabWISOnline) | `full_text` |
+| `gateac-src-007` | [NG9-3 MY2006 AF40 fluid and no-dipstick technical description](https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/6-speed-af-40/technical-description/brief-description-of-the-gearbox) | Saab Automobile AB (original factory WIS mirrored by SaabWISOnline) | `full_text` |
+| `gateac-src-008` | [NG9-3 MY2005 front suspension chassis code plate and left/right component distinction](https://saabwisonline.com/9-3-9440/2005/7-suspension-wheels/front-suspension/technical-data/vin-plate-springs-and-shock-absorbers) | Saab Automobile AB (original factory WIS mirrored by SaabWISOnline) | `full_text` |
+| `gateac-src-009` | [NG9-3 MY2006 rear suspension chassis code plate and original EPC requirement](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/technical-data/vin-plate-springs-and-shock-absorbers) | Saab Automobile AB (original factory WIS mirrored by SaabWISOnline) | `full_text` |
+| `gateac-src-010` | [NG9-3 MY2006 five-speed manual type designation reused or internally inconsistent legend](https://saabwisonline.com/9-3-9440/2006/4-transmission/manual-gearbox/5-speed/technical-data/type-designation) | Saab Automobile AB (original factory WIS mirrored by SaabWISOnline) | `full_text` |
+| `gateac-src-011` | [NG9-3 MY2006 six-speed manual F40 gearbox factory specification](https://saabwisonline.com/9-3-9440/2006/4-transmission/manual-gearbox/6-speed/technical-data/gearbox) | Saab Automobile AB (original factory WIS mirrored by SaabWISOnline) | `full_text` |
+| `gateac-src-012` | [OG9-5 MY2006 VIN, engine serial and gearbox tag identification locations](https://saabwisonline.com/9-5-9600/2006/0-general/general/technical-data/plates-and-labels) | Saab Automobile AB (original factory WIS mirrored by SaabWISOnline) | `full_text` |
+| `gateac-src-013` | [Official Saab WebEPC subscription and VIN/build-filtering capabilities](https://saabparts.com/saab-subscription-services) | Saab Parts / Hedin Parts (official Saab technology subscriptions) | `full_text` |
