@@ -90,6 +90,12 @@ individual VIN-approved WebEPC successor. Do not change those claims to
 `supersedes` until the exact official WebEPC relationship, direction and
 applicability are independently retrieved.
 
+### Research-only cross-manufacturer interchange candidates
+
+Part records may include an optional `interchange_candidate` object for **candidate discovery**, not for authorizing a part order or installation. Its keys are `strategy` (such as `shared_platform_aftermarket_sku`, `cross_catalogue_aftermarket_reference`, or `shared_oe_reference_aftermarket_sku`), `donor_makes` (catalogue-claimed marques, not certified vehicles), `saab_reference_numbers` (strings), `fitment_approved`, `vehicle_verified`, `durability_validated` (booleans) and `verification_required` (nonempty string list).
+
+In the initial pilot all three booleans must be **false** and records must remain `supplier_claim` / `needs_vehicle_verification`. A shared aftermarket SKU is **not** the same as a factory identical GM/Opel donor assembly, and a catalogue application is not a test result. A manufacturer-authored source or validated actual vehicle evidence is required before any future promotion, with a recorded identity and source. Existing directionality rules remain unchanged: `aftermarket_reference` does not mean `supersedes`.
+
 ## Gaps
 
 Required fields: `id`, `title`, `missing_inputs`, `reason`, and `source_ids`.
