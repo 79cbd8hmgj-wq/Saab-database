@@ -2,7 +2,7 @@
 
 **Scope:** Saab 9-3 and 9-5, MY1998–2011 inclusive, original US/Canadian market only, **factory automatic only**, **FWD only**, **nonconvertibles**. European-only models, manual-only variants, XWD/AWD and 9-3X are not eligible. This is a **partial** research catalogue; it does not claim exhaustive model-year or trim completeness.
 
-The machine-readable companion [initial NA model-year screening and evidence records](../data/vehicle-catalogue/north-america-1998-2011.json) contains **28 model/year screening rows**, **91 sourced example configurations**, **56 source references** and **15 source-grounded exclusions/cautions**. Screening rows with missing evidence remain `unassessed`; there is no invented availability or reliability score. US and Canada are checked separately.
+The machine-readable companion [initial NA model-year screening and evidence records](../data/vehicle-catalogue/north-america-1998-2011.json) contains **28 model/year screening rows**, **93 sourced example configurations**, **57 source references** and **15 source-grounded exclusions/cautions**. Screening rows with missing evidence remain `unassessed`; there is no invented availability or reliability score. US and Canada are checked separately.
 
 ## Confirmed candidate examples (NOT a complete trim list)
 
@@ -70,7 +70,7 @@ Original year/market distinctions remain central. The additional sources support
 | US | 2009 | 9-3 2.0T sedan/SportCombi FWD five-speed, packages 1SA/1SB/1SD; optional on 1SA | Published GM U.S. year-specific pricing and U.S. transmission/drive comparison (`na-cat-s50`, `na-cat-s51`, `na-cat-s52`) |
 | Canada | 2004 | 9-3 Linear/Arc/Aero Sport Sedan FWD five-speed automatic | Canadian 2004 automatic-specific trim tables (`na-cat-s54`) |
 | Canada | 2005 | 9-3 Linear/Arc/Aero sedan 2.0L FWD five-speed automatic | Canadian original-year lineup review (`na-cat-s55`) |
-| Canada | 2006 | 9-3 2.0T 210-hp five-speed and Aero 2.8 V6 250-hp six-speed, sedan or SportCombi | Canadian original-year lineup review (`na-cat-s56`) |
+| Canada | 2006 | 9-3 2.0T 210-hp five-speed and Aero 2.8 V6 250-hp six-speed, sedan or SportCombi | Canadian original-year lineup review (`na-cat-s56`) |\n| Canada | 2009 | 9-5 2.3T 260-hp five-speed automatic, sedan and SportCombi | Canadian 2009 period buyer report (`na-cat-s57`) |
 
 **2009 US Aero exception (new exclusion `na-ex-14`):** 2008 original U.S. 9-3 Aero **255-hp V6 FWD** was eligible with a six-speed automatic, but the **2009 U.S. Aero 280-hp V6** sedan and SportCombi were **XWD**, therefore excluded. The 2009 `1SC` 2.0T XWD package is separately excluded (`na-ex-15`); `1SA`, `1SB` and `1SD` FWD 2.0T packages have five-speed automatic options or standard equipment. We must not infer a Canadian exclusion from a U.S. year-specific option matrix.
 
