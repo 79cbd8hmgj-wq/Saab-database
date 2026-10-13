@@ -1,0 +1,587 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "og95_structure",
+  "sources": [
+    {
+      "id": "og95structure-src-001",
+      "title": "WIS: Corrosion fundamentals and coatings",
+      "url": "https://saabwisonline.com/9-5-9600/2003/8-body/paint-and-surface-treatment/technical-description/corrosion",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2003 corrosion overview; not a dated measurement of surviving cars."
+    },
+    {
+      "id": "og95structure-src-002",
+      "title": "WIS: Checking body dimensions",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/checking-body-dimensions",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 WIS directory, consulted as source-scoped service information. Listing does not prove unchanged applicability to other production years or modifications."
+    },
+    {
+      "id": "og95structure-src-003",
+      "title": "WIS: Lifting and attachment points",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/technical-data/lifting-and-attachment-points",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 WIS directory, consulted as source-scoped service information. Listing does not prove unchanged applicability to other production years or modifications."
+    },
+    {
+      "id": "og95structure-src-004",
+      "title": "WIS: Body design and repair integrity",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/technical-description/body-design",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 WIS directory, consulted as source-scoped service information. Listing does not prove unchanged applicability to other production years or modifications."
+    },
+    {
+      "id": "og95structure-src-005",
+      "title": "WIS: Rear nut piece, front subframe",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/rear-nut-piece-front-subframe",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 WIS directory, consulted as source-scoped service information. Listing does not prove unchanged applicability to other production years or modifications."
+    },
+    {
+      "id": "og95structure-src-006",
+      "title": "WIS: Nut piece, rear subframe",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/nut-piece-rear-subframe",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 WIS directory, consulted as source-scoped service information. Listing does not prove unchanged applicability to other production years or modifications."
+    },
+    {
+      "id": "og95structure-src-007",
+      "title": "WIS: Section of side panel, rear sill",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/section-of-side-panel-rear-sill",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 WIS directory, consulted as source-scoped service information. Listing does not prove unchanged applicability to other production years or modifications."
+    },
+    {
+      "id": "og95structure-src-008",
+      "title": "WIS: Rear outer wheel housing",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/rear-outer-wheel-housing",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 WIS directory, consulted as source-scoped service information. Listing does not prove unchanged applicability to other production years or modifications."
+    },
+    {
+      "id": "og95structure-src-009",
+      "title": "WIS: Part of rear frame member",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/part-of-rear-frame-member",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 WIS directory, consulted as source-scoped service information. Listing does not prove unchanged applicability to other production years or modifications."
+    },
+    {
+      "id": "og95structure-src-010",
+      "title": "WIS: A-pillar, lower part",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/a-pillar-lower-part",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 WIS directory, consulted as source-scoped service information. Listing does not prove unchanged applicability to other production years or modifications."
+    },
+    {
+      "id": "og95structure-src-011",
+      "title": "WIS: Section of front wheel housing with reinforcement",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/section-of-front-wheel-housing-with-reinforcement",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 WIS directory, consulted as source-scoped service information. Listing does not prove unchanged applicability to other production years or modifications."
+    },
+    {
+      "id": "og95structure-src-012",
+      "title": "WIS: Section of rear floor, sedan",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/section-of-rear-floor-4d",
+      "publisher": "Saab Automobile AB (factory content reproduced by independent Saab WIS mirror)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "MY2006 WIS directory, consulted as source-scoped service information. Listing does not prove unchanged applicability to other production years or modifications."
+    }
+  ],
+  "facts": [
+    {
+      "id": "og95structure-fact-001",
+      "subject": "body:steel",
+      "category": "corrosion_mechanism",
+      "predicate": "road_salt_accelerates_rusting",
+      "value": "Water containing road salt accelerates body-steel corrosion.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2003
+        ]
+      },
+      "source_ids": [
+        "og95structure-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Corrosion",
+      "notes": "Factory description of basic corrosion mechanism, not an incidence or repairability statistic.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95structure-fact-002",
+      "subject": "body:corrosion_protection",
+      "category": "corrosion_protection",
+      "predicate": "original_treatments",
+      "value": "Body steel is protected by several coats of paint; large areas are zinc-coated.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2003
+        ]
+      },
+      "source_ids": [
+        "og95structure-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Corrosion",
+      "notes": "Not proof of present coating condition or immunity to rust.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95structure-fact-003",
+      "subject": "body:mounting_geometry",
+      "category": "structure",
+      "predicate": "subframe_body_mount_alignment",
+      "value": "Powertrain-subframe attachment points and body apertures must remain in their correct geometric positions.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95structure-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Checking body dimensions",
+      "notes": "Dimensions and their measurement procedure require the linked Body dimensions section.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95structure-fact-004",
+      "subject": "body:repair",
+      "category": "structure",
+      "predicate": "serious_member_damage_needs_alignment_bench",
+      "value": "For serious body-member deformation Saab calls for an alignment bench and diagonal measurement.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95structure-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Checking body dimensions",
+      "notes": "Cannot determine safe structural condition by appearance alone.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95structure-fact-005",
+      "subject": "body:front_subframe_mount",
+      "category": "mounting",
+      "predicate": "rear_nut_piece_service_access",
+      "value": "Rear nut piece of front subframe is serviced via floor interior and an access hole; anti-corrosion treatment is part of closure.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95structure-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Removing; Fitting",
+      "notes": "Identifies a structural fastening zone, not a known-frequency rust defect.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95structure-fact-006",
+      "subject": "body:rear_subframe_mount",
+      "category": "mounting",
+      "predicate": "nut_piece_service_access",
+      "value": "Rear subframe nut piece can be accessed through interior floor opening; access edge receives anti-corrosion treatment and plug.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95structure-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Removing; Fitting",
+      "notes": "The WIS page does not establish corrosion frequency or a universal physical rear-subframe replacement recommendation.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95structure-fact-007",
+      "subject": "body:rear_sill",
+      "category": "structure",
+      "predicate": "sill_inner_reinforcement_repair",
+      "value": "Rear sill panel procedure requires inspection of the underlying reinforcement and replacement if damaged.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95structure-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "Removing steps 1-7; Fitting",
+      "notes": "Prescribed factory repair; not a claim that the sill commonly fails from rust.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95structure-fact-008",
+      "subject": "body:rear_wheelhouse",
+      "category": "structure",
+      "predicate": "reinforcement_at_sill",
+      "value": "Rear outer wheel-housing procedure includes removal and restoration of reinforcement at sill and protective seam/cavity treatment.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95structure-src-008"
+      ],
+      "evidence_status": "documented",
+      "locator": "Removing; Fitting",
+      "notes": "Damage severity and repairs must be evaluated in context.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95structure-fact-009",
+      "subject": "body:rear_frame_member",
+      "category": "structure",
+      "predicate": "partial_splice_restriction",
+      "value": "Rear frame-member section may be cut/joined only behind the specified marking; beyond that boundary, the entire member must be replaced.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95structure-src-009"
+      ],
+      "evidence_status": "documented",
+      "locator": "Important; Removing; Fitting",
+      "notes": "A safety-critical repair limitation. Actual damage boundary requires the original illustration and qualified assessment.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95structure-fact-010",
+      "subject": "body:lower_a_pillar",
+      "category": "structure",
+      "predicate": "mig_brazing_not_ordinary_welding",
+      "value": "Where factory MIG brazing is used, WIS forbids substitution with conventional welding and normal filler because of collision-performance concerns.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95structure-src-010"
+      ],
+      "evidence_status": "documented",
+      "locator": "Warning; To remove; To fit",
+      "notes": "Source says certain joints/cars use MIG brazing. Do not assume every A-pillar joint is brazed.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95structure-fact-011",
+      "subject": "body:front_wheelhouse",
+      "category": "structure",
+      "predicate": "front_housing_reinforcement_repair",
+      "value": "Repair of the front wheel-housing reinforcement specifies alignment, approved welding methods and post-repair surface protection.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95structure-src-011"
+      ],
+      "evidence_status": "documented",
+      "locator": "Removing; Fitting",
+      "notes": "Do not generalize to all crash or rust repairs.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95structure-fact-012",
+      "subject": "body:sedan_rear_floor",
+      "category": "structure",
+      "predicate": "rear_floor_repair_and_corrosion_treatment",
+      "value": "Sedan rear-floor section repair specifies an alignment bench, welding to members and reinstatement of protective coatings.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "sedan"
+        ]
+      },
+      "source_ids": [
+        "og95structure-src-012"
+      ],
+      "evidence_status": "documented",
+      "locator": "Removing; Fitting",
+      "notes": "Sedan (4D) only.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95structure-fact-013",
+      "subject": "body:front_lift",
+      "category": "lifting",
+      "predicate": "front_lift_location",
+      "value": "Saab describes a front lifting/attachment point centered under the front subframe at the front towing-eye mounting.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95structure-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "Lifting/attachment points A",
+      "notes": "Must use complete original illustration and suitable equipment; do not lift at a corroded or damaged point.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95structure-fact-014",
+      "subject": "body:side_lift",
+      "category": "lifting",
+      "predicate": "jack_bracket_location",
+      "value": "Saab identifies side jack brackets beneath the scuff members as lifting/attachment points.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95structure-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "Lifting/attachment points B",
+      "notes": "Refer to illustration, jack stands and appropriate vehicle support; inspect mount integrity.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95structure-fact-015",
+      "subject": "body:rear_lift",
+      "category": "lifting",
+      "predicate": "rear_lift_location_and_exclusions",
+      "value": "Saab identifies rear towing-eye/towbar location, and explicitly prohibits lifting at the spare-wheel well or rear axle.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95structure-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "Lifting/attachment points C; Important",
+      "notes": "Factory warning is equipment/position specific; verify fitment and condition before lifting.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "og95structure-fact-016",
+      "subject": "body:body_repair",
+      "category": "corrosion_protection",
+      "predicate": "reapply_corrosion_protection",
+      "value": "Specified structural-panel repairs restore primer, seam sealant, and cavity corrosion protection after welding and painting.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "og95structure-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "Fitting steps 15–18",
+      "notes": "No general-purpose coating guarantees lasting repair of rusted load-bearing material.",
+      "review_status": "source_scoped"
+    }
+  ],
+  "issues": [],
+  "parts": [
+    {
+      "id": "og95structure-part-001",
+      "part_number": "43 33 498",
+      "title": "Floor access closure plug for subframe nut-piece repair",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Specific WIS access-hole repair is required; no unverified interchange with other plugs.",
+        "Verify actual part identity, supply and exact repair procedure before ordering."
+      ],
+      "source_ids": [
+        "og95structure-src-005",
+        "og95structure-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Factory WIS mentions plug by part number in nut-piece repair instructions; no catalog supersession or live orderability checked."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "og95structure-gap-001",
+      "title": "Year-by-year structural applicability",
+      "missing_inputs": [
+        "Retrieve body and corrosion repair sections for MY2004–2009 and verify revisions independently."
+      ],
+      "reason": "MY2006 WIS entry proves the described procedure, not unchanged application across model years.",
+      "source_ids": [
+        "og95structure-src-004"
+      ]
+    },
+    {
+      "id": "og95structure-gap-002",
+      "title": "Quantified rust acceptance and safety criteria",
+      "missing_inputs": [
+        "Obtain jurisdictional inspection requirements and manufacturer-approved corrosion damage rejection criteria, if published; acquire measurements/photos for each real car."
+      ],
+      "reason": "These repair procedures do not provide a universal corrosion depth or structural integrity threshold.",
+      "source_ids": [
+        "og95structure-src-002"
+      ]
+    },
+    {
+      "id": "og95structure-gap-003",
+      "title": "Front and rear subframe assembly identities",
+      "missing_inputs": [
+        "Get EPC assemblies, fastening revisions, steel specifications, mount drawings and differences between sedan/wagon and drivetrain options."
+      ],
+      "reason": "Nut-piece procedures and structural attachment locations cannot certify replacement subframe fitment.",
+      "source_ids": [
+        "og95structure-src-005",
+        "og95structure-src-006"
+      ]
+    },
+    {
+      "id": "og95structure-gap-004",
+      "title": "Corrosion-focused inspection zone survey",
+      "missing_inputs": [
+        "Expand documented factory inspection paths for jacking points, seams, rear spring attachment areas, brake/fuel lines and enclosed cavities."
+      ],
+      "reason": "Factory repairability and salt mechanism are not evidence of actual frequency or extent in used northeastern US examples.",
+      "source_ids": [
+        "og95structure-src-001",
+        "og95structure-src-007"
+      ]
+    },
+    {
+      "id": "og95structure-gap-005",
+      "title": "Repair scope and professional capability",
+      "missing_inputs": [
+        "Obtain current approved structural repair methods, measuring fixtures, qualified workshop costs and part availability for a chosen car."
+      ],
+      "reason": "Documenting a WIS welding procedure does not make it safely DIY-executable or economical.",
+      "source_ids": [
+        "og95structure-src-010",
+        "og95structure-src-009"
+      ]
+    }
+  ]
+}

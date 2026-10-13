@@ -2,32 +2,34 @@
   "schema_version": "1.0.0",
   "domains": [
     "corrections",
-    "ng93_body",
     "ng93",
-    "og95_body",
+    "ng93_body",
     "og95",
+    "og95_2006_2008",
+    "og95_body",
+    "og95_structure",
     "replacements",
     "simulation"
   ],
   "counts": {
-    "sources": 128,
-    "facts": 269,
+    "sources": 147,
+    "facts": 310,
     "issues": 20,
-    "parts": 31,
-    "gaps": 51
+    "parts": 32,
+    "gaps": 62
   },
-  "unique_source_urls": 127,
+  "unique_source_urls": 146,
   "retrieval_statuses": {
-    "full_text": 120,
+    "full_text": 136,
     "metadata_only": 2,
     "partial": 3,
-    "search_excerpt": 3
+    "search_excerpt": 6
   },
   "evidence_statuses": {
-    "documented": 289,
+    "documented": 331,
     "inference": 3,
     "supplier_claim": 28
   },
   "research_date": "2026-10-12",
-  "notes": "Generated inventory of the initial research; counts do not imply independent certification of every technical value."
+  "notes": "Research record census; counts do not independently verify technical claims or imply coverage completeness. Structural and MY2006–2008 source records are scoped to retrieved evidence."
 }

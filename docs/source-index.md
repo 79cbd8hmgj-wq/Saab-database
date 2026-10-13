@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 128 source records with 127 distinct
+Research retrieval date: 2026-10-12. There are 147 source records with 146 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -181,3 +181,37 @@ Dataset: [simulation](../data/datasets/simulation.json)
 | `simulation-src-018` | [txlogger Estimated Output documentation](https://txlogger.com/docs/estimated-output/) | Joakim Karlsson | `full_text` |
 | `simulation-src-019` | [txlogger Cam Timing documentation](https://txlogger.com/docs/cam-timing/) | Joakim Karlsson | `full_text` |
 | `simulation-src-020` | [txlogger Supported CANbus Adapters](https://txlogger.com/docs/canbus-adapters/) | Joakim Karlsson | `full_text` |
+
+
+## og95_structure
+
+Dataset: [og95_structure](../data/datasets/og95-structure.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `og95structure-src-001` | [WIS: Corrosion fundamentals and coatings](https://saabwisonline.com/9-5-9600/2003/8-body/paint-and-surface-treatment/technical-description/corrosion) | Saab Automobile AB (factory content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95structure-src-002` | [WIS: Checking body dimensions](https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/checking-body-dimensions) | Saab Automobile AB (factory content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95structure-src-003` | [WIS: Lifting and attachment points](https://saabwisonline.com/9-5-9600/2006/8-body/body/technical-data/lifting-and-attachment-points) | Saab Automobile AB (factory content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95structure-src-004` | [WIS: Body design and repair integrity](https://saabwisonline.com/9-5-9600/2006/8-body/body/technical-description/body-design) | Saab Automobile AB (factory content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95structure-src-005` | [WIS: Rear nut piece, front subframe](https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/rear-nut-piece-front-subframe) | Saab Automobile AB (factory content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95structure-src-006` | [WIS: Nut piece, rear subframe](https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/nut-piece-rear-subframe) | Saab Automobile AB (factory content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95structure-src-007` | [WIS: Section of side panel, rear sill](https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/section-of-side-panel-rear-sill) | Saab Automobile AB (factory content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95structure-src-008` | [WIS: Rear outer wheel housing](https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/rear-outer-wheel-housing) | Saab Automobile AB (factory content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95structure-src-009` | [WIS: Part of rear frame member](https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/part-of-rear-frame-member) | Saab Automobile AB (factory content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95structure-src-010` | [WIS: A-pillar, lower part](https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/a-pillar-lower-part) | Saab Automobile AB (factory content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95structure-src-011` | [WIS: Section of front wheel housing with reinforcement](https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/section-of-front-wheel-housing-with-reinforcement) | Saab Automobile AB (factory content reproduced by independent Saab WIS mirror) | `full_text` |
+| `og95structure-src-012` | [WIS: Section of rear floor, sedan](https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/section-of-rear-floor-4d) | Saab Automobile AB (factory content reproduced by independent Saab WIS mirror) | `full_text` |
+
+## og95_2006_2008
+
+Dataset: [og95_2006_2008](../data/datasets/og95-2006-2008.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `og95years-src-001` | [US MY2006 owner manual: engine variants and oil service](https://www.carmanualsonline.info/saab-9-5-2006-owners-manual/?srch=oil+capacity) | Saab Automobile AB (factory content hosted by an independent third-party mirror) | `search_excerpt` |
+| `og95years-src-002` | [US MY2007 owner manual: engine variants and oil service](https://www.carmanualsonline.info/saab-9-5-2007-owners-manual/?srch=mileage) | Saab Automobile AB (factory content hosted by an independent third-party mirror) | `search_excerpt` |
+| `og95years-src-003` | [US MY2007 owner manual: manual gearbox data](https://www.carmanualsonline.info/saab-9-5-2007-owners-manual/4/?srch=transmission) | Saab Automobile AB (factory content hosted by an independent third-party mirror) | `search_excerpt` |
+| `og95years-src-004` | [US MY2008 owner manual: specifications](https://www.carmanualsonline.info/saab-9-5-2008-owners-manual/27) | Saab Automobile AB (factory content hosted by an independent third-party mirror) | `full_text` |
+| `og95years-src-005` | [MY2007 WIS: four-cylinder petrol general data](https://saabwisonline.com/9-5-9600/2007/2-engine/basic-engine-4-cylinder-petrol/technical-data/general-data) | Saab Automobile AB (factory content hosted by an independent third-party mirror) | `full_text` |
+| `og95years-src-006` | [MY2008 WIS: four-cylinder petrol general data](https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/technical-data/general-data) | Saab Automobile AB (factory content hosted by an independent third-party mirror) | `full_text` |
+| `og95years-src-007` | [MY2006 WIS: camshaft technical data](https://saabwisonline.com/9-5-9600/2006/2-engine/basic-engine-4-cylinder-petrol/technical-data/camshafts) | Saab Automobile AB (factory content hosted by an independent third-party mirror) | `full_text` |
