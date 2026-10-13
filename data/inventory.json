@@ -2,6 +2,7 @@
   "schema_version": "1.0.0",
   "domains": [
     "b235_maintenance_fa57_identity",
+    "b235r_oil_pcv_2006_2008",
     "corrections",
     "epc_provenance",
     "high_cost_powertrain_diagnostics",
@@ -21,24 +22,24 @@
     "subframe_parts_brake_lines"
   ],
   "counts": {
-    "sources": 303,
-    "facts": 626,
-    "issues": 34,
-    "parts": 57,
-    "gaps": 129
+    "sources": 320,
+    "facts": 657,
+    "issues": 36,
+    "parts": 64,
+    "gaps": 138
   },
-  "unique_source_urls": 284,
+  "unique_source_urls": 300,
   "retrieval_statuses": {
-    "full_text": 290,
-    "metadata_only": 2,
+    "full_text": 305,
+    "metadata_only": 3,
     "partial": 3,
-    "search_excerpt": 8
+    "search_excerpt": 9
   },
   "evidence_statuses": {
-    "documented": 654,
+    "documented": 687,
     "inference": 5,
-    "supplier_claim": 58
+    "supplier_claim": 65
   },
   "research_date": "2026-10-12",
-  "notes": "B235 MY2004–09 maintenance and FA57 identity findings are year/engine/market scoped, not modern oil-approval validation, part interchange, engine condition, fleet durability or gearbox test authorization. Original 2006 and 2008 9-5 pressure tables and exact B235R service pages remain unresolved."
+  "notes": "MY2006 four-cylinder petrol lubrication pressure and refill table independently sourced; MY2008 US/Canada 2.3 Turbo Ecopower oil-change and severe-duty schedule verified; MY2008 petrol WIS lubrication table remains metadata-only. PCV supplier identities and 12755243/55558696 association are NOT manufacturer-approved interchangeable fitments."
 }
