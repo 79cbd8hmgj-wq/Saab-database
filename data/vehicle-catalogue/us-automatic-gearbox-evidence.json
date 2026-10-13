@@ -1,0 +1,1977 @@
+{
+  "schema_version": "1.0.0",
+  "purpose": "Source-scoped Saab factory automatic family identification overlay on independently compiled US production groups; not original VIN validation or interchange approval.",
+  "source_production_catalogue": "data/vehicle-catalogue/us-production-normalized.json",
+  "research_sources": [
+    {
+      "id": "wis-9400-2001-automatic-type",
+      "title": "9-3 9400 MY2001 type designation, gearbox",
+      "url": "https://saabwisonline.com/9-3-9400/2001/4-transmission/automatic-transmission/technical-data/type-designation-gearbox",
+      "publisher": "Saab WIS, mirrored",
+      "source_model_year": 2001,
+      "scope_note": "Factory WIS identifies AF20 and AF22 four-speed families; FA44 is an example type code, not a universal application."
+    },
+    {
+      "id": "wis-9600-2000-af30",
+      "title": "9-5 9600 MY2000 automatic AF30 / FA47",
+      "url": "https://saabwisonline.com/9-5-9600/2000/4-transmission/automatic-transmission/technical-data/type-designation",
+      "publisher": "Saab WIS, mirrored",
+      "source_model_year": 2000,
+      "scope_note": "WIS identifies AF30 4-speed, factory type designation example FA47 and gearbox model 50-40LE. Source is MY2000."
+    },
+    {
+      "id": "wis-9600-2008-fa57",
+      "title": "9-5 9600 MY2008 FA57 type designation",
+      "url": "https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-data/type-designation",
+      "publisher": "Saab WIS, mirrored",
+      "source_model_year": 2008,
+      "scope_note": "WIS states original 9-5 automatic from MY2002 has FA57 designation; not a 9-3 interchange permission."
+    },
+    {
+      "id": "wis-9440-2006-fa57",
+      "title": "9-3 9440 MY2006 FA57 type designations",
+      "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/type-designations",
+      "publisher": "Saab WIS, mirrored",
+      "source_model_year": 2006,
+      "scope_note": "WIS says 9-3 9440 B207 automatic from MY2003 uses FA57; TCM engine adaptation codes differ."
+    },
+    {
+      "id": "wis-9440-2006-af40",
+      "title": "9-3 9440 MY2006 AF40 six-speed type designations",
+      "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/6-speed-af-40/technical-data/type-designations",
+      "publisher": "Saab WIS, mirrored",
+      "source_model_year": 2006,
+      "scope_note": "WIS designates six-speed as AF40 / Aisin TF-80SC; cannot assume identical boxed assemblies for other cars."
+    },
+    {
+      "id": "wis-9440-af40-low-atf",
+      "title": "TA440-0902 AF40 ATF level technical advice",
+      "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/6-speed-af-40/bulletins-si-mi/ta440-0902-atf-oil-check-on-af40-6-speed-aut",
+      "publisher": "Saab technical advice mirrored by WIS",
+      "source_model_year": 2006,
+      "scope_note": "January 2009 bulletin: low ATF can produce delayed shifts; use original fluid/temperature procedures and Tech2. Not automatic proof of a failed transmission."
+    },
+    {
+      "id": "wis-9440-fa57-adaptation",
+      "title": "9-3 9440 FA57 adaptation reset procedure",
+      "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/5-speed-fa-57/adjustment-replacement/adaptation-resetting",
+      "publisher": "Saab WIS, mirrored",
+      "source_model_year": 2006,
+      "scope_note": "Saab requires Tech2 reset/re-adaptation after certain transmission, TCM or software changes. Never reset as a substitute for fault diagnosis."
+    },
+    {
+      "id": "wis-9600-fa57-solenoids",
+      "title": "9-5 9600 FA57 2004 hydraulic pressure solenoids",
+      "url": "https://saabwisonline.com/9-5-9600/2004/4-transmission/automatic-transmission/technical-description/solenoid-valves-sls-and-slt-for-system-pressure",
+      "publisher": "Saab WIS, mirrored",
+      "source_model_year": 2004,
+      "scope_note": "P0748 (SLT) and P0785 (SLS) documented limp-home faults; diagnosis required before deciding on transmission replacement."
+    }
+  ],
+  "diagnostic_cautions": [
+    {
+      "id": "at-risk-fa57-interchange",
+      "claim": "FA57 label exists on both original 9-5 9600 and 9-3 9440.",
+      "decision": "Do NOT claim interchangeability, identical application calibration, donor compatibility or fluid spec across platforms.",
+      "source_ids": [
+        "wis-9600-2008-fa57",
+        "wis-9440-2006-fa57"
+      ]
+    },
+    {
+      "id": "at-screen-af40-low-atf",
+      "claim": "Saab technical advice connects low AF40 ATF level to delayed gear engagement/shift.",
+      "decision": "Before classifying a delayed-shift AF40 vehicle as needing a rebuild, obtain Tech2 readings and professional fluid-level/temperature assessment to the exact WIS procedure.",
+      "source_ids": [
+        "wis-9440-af40-low-atf"
+      ]
+    },
+    {
+      "id": "at-screen-9440-fa57-tcm-adaptation",
+      "claim": "Saab WIS instructs Tech2 adaptation after transmission, TCM or software changes for 9440 FA57.",
+      "decision": "Investigate calibration/adaptation history and codes before diagnosing internal gearbox failure. Do not claim all hard shifts are adaptive.",
+      "source_ids": [
+        "wis-9440-fa57-adaptation"
+      ]
+    },
+    {
+      "id": "at-screen-9600-fa57-solenoids",
+      "claim": "2004 WIS links SLT/SLS pressure solenoid faults to P0748/P0785 and limp-home.",
+      "decision": "Read transmission DTCs, wiring and solenoid fault procedures before declaring the entire gearbox damaged.",
+      "source_ids": [
+        "wis-9600-fa57-solenoids"
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "production_configuration_id": "usprod-9400-1999-70300e64546a",
+      "model_year": 1999,
+      "model": "9-3",
+      "platform": "9400",
+      "engine_code": "B204L",
+      "gear_count": 4,
+      "gearbox_family": "AF20 / AF22",
+      "evidence_state": "alternative_families_not_vehicle_resolved",
+      "source_ids": [
+        "wis-9400-2001-automatic-type"
+      ],
+      "identity_notes": "FA44 example appears in MY2001 factory type-code description; AF20 vs AF22 not assigned to individual groups.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-1999-1bef62da9055",
+      "model_year": 1999,
+      "model": "9-3",
+      "platform": "9400",
+      "engine_code": "B204L",
+      "gear_count": 4,
+      "gearbox_family": "AF20 / AF22",
+      "evidence_state": "alternative_families_not_vehicle_resolved",
+      "source_ids": [
+        "wis-9400-2001-automatic-type"
+      ],
+      "identity_notes": "FA44 example appears in MY2001 factory type-code description; AF20 vs AF22 not assigned to individual groups.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-1999-614d751e6481",
+      "model_year": 1999,
+      "model": "9-3",
+      "platform": "9400",
+      "engine_code": "B204L",
+      "gear_count": 4,
+      "gearbox_family": "AF20 / AF22",
+      "evidence_state": "alternative_families_not_vehicle_resolved",
+      "source_ids": [
+        "wis-9400-2001-automatic-type"
+      ],
+      "identity_notes": "FA44 example appears in MY2001 factory type-code description; AF20 vs AF22 not assigned to individual groups.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-1999-2bd272926b6c",
+      "model_year": 1999,
+      "model": "9-3",
+      "platform": "9400",
+      "engine_code": "B204L",
+      "gear_count": 4,
+      "gearbox_family": "AF20 / AF22",
+      "evidence_state": "alternative_families_not_vehicle_resolved",
+      "source_ids": [
+        "wis-9400-2001-automatic-type"
+      ],
+      "identity_notes": "FA44 example appears in MY2001 factory type-code description; AF20 vs AF22 not assigned to individual groups.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-2000-04905bdcae68",
+      "model_year": 2000,
+      "model": "9-3",
+      "platform": "9400",
+      "engine_code": "B205L",
+      "gear_count": 4,
+      "gearbox_family": "AF20 / AF22",
+      "evidence_state": "alternative_families_not_vehicle_resolved",
+      "source_ids": [
+        "wis-9400-2001-automatic-type"
+      ],
+      "identity_notes": "FA44 example appears in MY2001 factory type-code description; AF20 vs AF22 not assigned to individual groups.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-2000-266da0222bec",
+      "model_year": 2000,
+      "model": "9-3",
+      "platform": "9400",
+      "engine_code": "B205L",
+      "gear_count": 4,
+      "gearbox_family": "AF20 / AF22",
+      "evidence_state": "alternative_families_not_vehicle_resolved",
+      "source_ids": [
+        "wis-9400-2001-automatic-type"
+      ],
+      "identity_notes": "FA44 example appears in MY2001 factory type-code description; AF20 vs AF22 not assigned to individual groups.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-2000-efa03e1662d4",
+      "model_year": 2000,
+      "model": "9-3",
+      "platform": "9400",
+      "engine_code": "B205R",
+      "gear_count": 4,
+      "gearbox_family": "AF20 / AF22",
+      "evidence_state": "alternative_families_not_vehicle_resolved",
+      "source_ids": [
+        "wis-9400-2001-automatic-type"
+      ],
+      "identity_notes": "FA44 example appears in MY2001 factory type-code description; AF20 vs AF22 not assigned to individual groups.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-2001-c5f5c11480e1",
+      "model_year": 2001,
+      "model": "9-3",
+      "platform": "9400",
+      "engine_code": "B205L",
+      "gear_count": 4,
+      "gearbox_family": "AF20 / AF22",
+      "evidence_state": "alternative_families_not_vehicle_resolved",
+      "source_ids": [
+        "wis-9400-2001-automatic-type"
+      ],
+      "identity_notes": "FA44 example appears in MY2001 factory type-code description; AF20 vs AF22 not assigned to individual groups.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-2001-b48e60a36980",
+      "model_year": 2001,
+      "model": "9-3",
+      "platform": "9400",
+      "engine_code": "B205L",
+      "gear_count": 4,
+      "gearbox_family": "AF20 / AF22",
+      "evidence_state": "alternative_families_not_vehicle_resolved",
+      "source_ids": [
+        "wis-9400-2001-automatic-type"
+      ],
+      "identity_notes": "FA44 example appears in MY2001 factory type-code description; AF20 vs AF22 not assigned to individual groups.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-2001-d0bcddbd7105",
+      "model_year": 2001,
+      "model": "9-3",
+      "platform": "9400",
+      "engine_code": "B205R",
+      "gear_count": 4,
+      "gearbox_family": "AF20 / AF22",
+      "evidence_state": "alternative_families_not_vehicle_resolved",
+      "source_ids": [
+        "wis-9400-2001-automatic-type"
+      ],
+      "identity_notes": "FA44 example appears in MY2001 factory type-code description; AF20 vs AF22 not assigned to individual groups.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-2002-e25d2b682f27",
+      "model_year": 2002,
+      "model": "9-3",
+      "platform": "9400",
+      "engine_code": "B205R",
+      "gear_count": 4,
+      "gearbox_family": "AF20 / AF22",
+      "evidence_state": "alternative_families_not_vehicle_resolved",
+      "source_ids": [
+        "wis-9400-2001-automatic-type"
+      ],
+      "identity_notes": "FA44 example appears in MY2001 factory type-code description; AF20 vs AF22 not assigned to individual groups.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2003-7ad77133f287",
+      "model_year": 2003,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2003-00c7717ee322",
+      "model_year": 2003,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207L",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2003-6d6530debf2c",
+      "model_year": 2003,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2004-2553135925d7",
+      "model_year": 2004,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2004-c9c6db70f1a3",
+      "model_year": 2004,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2004-eca7d0654a6a",
+      "model_year": 2004,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207L",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2005-ca7c8d0fad7d",
+      "model_year": 2005,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2005-35a04ffcaa6e",
+      "model_year": 2005,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2005-b853ad709829",
+      "model_year": 2005,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207L",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2005-d2b111c98c63",
+      "model_year": 2005,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2006-66a0bba1ffb4",
+      "model_year": 2006,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2006-3f82ebaa461c",
+      "model_year": 2006,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2006-66a6ee6945ee",
+      "model_year": 2006,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B284L",
+      "gear_count": 6,
+      "gearbox_family": "AF40 / TF-80SC",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-af40"
+      ],
+      "identity_notes": "WIS six-speed AF40 / Aisin TF-80SC; current US candidate subset is 2006–2008 FWD B284L, not all Saab six-speeds.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2006-0eb06b9b5336",
+      "model_year": 2006,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B284L",
+      "gear_count": 6,
+      "gearbox_family": "AF40 / TF-80SC",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-af40"
+      ],
+      "identity_notes": "WIS six-speed AF40 / Aisin TF-80SC; current US candidate subset is 2006–2008 FWD B284L, not all Saab six-speeds.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-47153ed320be",
+      "model_year": 2007,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-3b3b7d6492e4",
+      "model_year": 2007,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-f300939418b8",
+      "model_year": 2007,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-d6e18d73fb49",
+      "model_year": 2007,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-482ed160ba16",
+      "model_year": 2007,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B284L",
+      "gear_count": 6,
+      "gearbox_family": "AF40 / TF-80SC",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-af40"
+      ],
+      "identity_notes": "WIS six-speed AF40 / Aisin TF-80SC; current US candidate subset is 2006–2008 FWD B284L, not all Saab six-speeds.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-e20134af5d2a",
+      "model_year": 2007,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B284L",
+      "gear_count": 6,
+      "gearbox_family": "AF40 / TF-80SC",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-af40"
+      ],
+      "identity_notes": "WIS six-speed AF40 / Aisin TF-80SC; current US candidate subset is 2006–2008 FWD B284L, not all Saab six-speeds.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2008-409da8b88751",
+      "model_year": 2008,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2008-d6307a45a509",
+      "model_year": 2008,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2008-30b15ea6c631",
+      "model_year": 2008,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B284L",
+      "gear_count": 6,
+      "gearbox_family": "AF40 / TF-80SC",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-af40"
+      ],
+      "identity_notes": "WIS six-speed AF40 / Aisin TF-80SC; current US candidate subset is 2006–2008 FWD B284L, not all Saab six-speeds.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2008-b3273aad38f1",
+      "model_year": 2008,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B284L",
+      "gear_count": 6,
+      "gearbox_family": "AF40 / TF-80SC",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-af40"
+      ],
+      "identity_notes": "WIS six-speed AF40 / Aisin TF-80SC; current US candidate subset is 2006–2008 FWD B284L, not all Saab six-speeds.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2009-10888383c790",
+      "model_year": 2009,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2009-f167f5aa1a8c",
+      "model_year": 2009,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2010-4bd123807bb5",
+      "model_year": 2010,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2010-d37e00066c02",
+      "model_year": 2010,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2010-fefc85694efb",
+      "model_year": 2010,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2010-9bad9e9b8daf",
+      "model_year": 2010,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2011-6d71a632955b",
+      "model_year": 2011,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2011-66a3c399ebfd",
+      "model_year": 2011,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2011-67b077eb5391",
+      "model_year": 2011,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2011-6067b39794ec",
+      "model_year": 2011,
+      "model": "9-3",
+      "platform": "9440",
+      "engine_code": "B207R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9440-2006-fa57"
+      ],
+      "identity_notes": "WIS says 9440 FA57 from MY2003 for B207. No cross-platform fitment proof.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-80270f1fc57b",
+      "model_year": 1999,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-1cb72d9097d1",
+      "model_year": 1999,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B308E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-481bdb6b5cfc",
+      "model_year": 1999,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-2a95b9b3ce30",
+      "model_year": 1999,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B308E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-19692af2405b",
+      "model_year": 1999,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-fdebac597045",
+      "model_year": 1999,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B308E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-f749361fa49d",
+      "model_year": 1999,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-c4d1d37eb75a",
+      "model_year": 1999,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B308E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-2048481de83b",
+      "model_year": 2000,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-5a801d274ac4",
+      "model_year": 2000,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-d8414d89a6b7",
+      "model_year": 2000,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-ba5b5dcfedee",
+      "model_year": 2000,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B308E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-eeaeeecec6b4",
+      "model_year": 2000,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B308E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-3208b53eab2b",
+      "model_year": 2000,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-76e96e57f0ea",
+      "model_year": 2000,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-e588ecee2743",
+      "model_year": 2001,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-d4e89c9ad0f9",
+      "model_year": 2001,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-e3e9973412fe",
+      "model_year": 2001,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B308E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-20ea775dd8e2",
+      "model_year": 2001,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B308E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-29a2d4ee6170",
+      "model_year": 2001,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-8ac268fdc1be",
+      "model_year": 2001,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B308E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-59d2d33c8ca4",
+      "model_year": 2001,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235E",
+      "gear_count": 4,
+      "gearbox_family": "AF30",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2000-af30"
+      ],
+      "identity_notes": "WIS 2000 AF30; FA47 type example. Extend to 1999 and 2001 compiled 4AT era provisionally, not certified on each year/VIN.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-f3e877f40269",
+      "model_year": 2002,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-a6e3f4219fe1",
+      "model_year": 2002,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-25bac55f3b40",
+      "model_year": 2002,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B308E",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-8bb5aafedeaa",
+      "model_year": 2002,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B308E",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-e84ffc126de4",
+      "model_year": 2002,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235E",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-b7a8d2a5b366",
+      "model_year": 2002,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235E",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-5fa449d61161",
+      "model_year": 2003,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-7cc94c616980",
+      "model_year": 2003,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-a767166cd624",
+      "model_year": 2003,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B308E",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-1425fbc33299",
+      "model_year": 2003,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B308E",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-a792094bea10",
+      "model_year": 2003,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235E",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-e2e98d51f64d",
+      "model_year": 2003,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235E",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2004-2ff32b6a65ee",
+      "model_year": 2004,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2004-c6e52f7b5bb4",
+      "model_year": 2004,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2004-553a2f9acef2",
+      "model_year": 2004,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235L",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2004-2153ecf4425d",
+      "model_year": 2004,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235L",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2004-887c63b87b24",
+      "model_year": 2004,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235E",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2005-6a1094ac89d2",
+      "model_year": 2005,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2005-518673045c1a",
+      "model_year": 2005,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2005-64bf8e34a0ff",
+      "model_year": 2005,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235L",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2005-a15f61481caf",
+      "model_year": 2005,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235L",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2005-a1bfc0b97128",
+      "model_year": 2005,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235E",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2006-1476c9d19a82",
+      "model_year": 2006,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2006-bd8089c1716b",
+      "model_year": 2006,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2006-69f78cb8a8bf",
+      "model_year": 2006,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2006-89c78a11d5ac",
+      "model_year": 2006,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-99896cc578b3",
+      "model_year": 2007,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-b78c213b7398",
+      "model_year": 2007,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-36a67a699872",
+      "model_year": 2007,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-213a3a33935c",
+      "model_year": 2007,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-c327794cbfef",
+      "model_year": 2007,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-9d930be2a7ce",
+      "model_year": 2007,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2008-66fcbe728e78",
+      "model_year": 2008,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2008-90bc26f7f0ff",
+      "model_year": 2008,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2008-3bc4ca7c49ed",
+      "model_year": 2008,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2008-a2c8b55ed518",
+      "model_year": 2008,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-75a3e290bc93",
+      "model_year": 2009,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-fb1c554efceb",
+      "model_year": 2009,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-a4211f0578ac",
+      "model_year": 2009,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-5e6ccee798f5",
+      "model_year": 2009,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-d3204ec60adb",
+      "model_year": 2009,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-e1b331c94576",
+      "model_year": 2009,
+      "model": "9-5",
+      "platform": "9600",
+      "engine_code": "B235R",
+      "gear_count": 5,
+      "gearbox_family": "FA57",
+      "evidence_state": "factory_family_platform_supported",
+      "source_ids": [
+        "wis-9600-2008-fa57"
+      ],
+      "identity_notes": "WIS MY2008 states from MY2002 original 9-5 uses FA57; exact variant and part number unknown.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    },
+    {
+      "production_configuration_id": "usprod-650-2011-844ea4b7d007",
+      "model_year": 2011,
+      "model": "9-5",
+      "platform": "650",
+      "engine_code": null,
+      "gear_count": 6,
+      "gearbox_family": null,
+      "evidence_state": "factory_family_unresolved",
+      "source_ids": [],
+      "identity_notes": "2011 new 9-5 Turbo4 FWD 6AT confirmed in register, but factory physical transmission family still needs a direct manufacturer citation.",
+      "vehicle_vin_verified": false,
+      "oem_interchange_approved": false,
+      "durability_improvement_proven": false
+    }
+  ],
+  "research_status": "factory_family_research_partial; exact model-year variants/VIN, parts and 650 gearbox unresolved"
+}
