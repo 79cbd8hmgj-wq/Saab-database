@@ -2,29 +2,29 @@
   "schema_version": "1.0.0",
   "meaning": "Record coverage and evidence provenance, NOT completeness, fitment, or reliability",
   "counts": {
-    "sources": 436,
-    "facts": 891,
-    "issues": 59,
+    "sources": 449,
+    "facts": 906,
+    "issues": 61,
     "parts": 74,
-    "gaps": 207
+    "gaps": 213
   },
-  "unique_source_urls": 396,
+  "unique_source_urls": 406,
   "retrieval_statuses": {
-    "full_text": 412,
+    "full_text": 425,
     "metadata_only": 8,
     "partial": 3,
     "search_excerpt": 13
   },
   "evidence_statuses": {
-    "documented": 941,
+    "documented": 958,
     "inference": 5,
     "supplier_claim": 78
   },
   "explicit_scope_counts": {
-    "platforms": 979,
-    "model_years": 892,
+    "platforms": 995,
+    "model_years": 908,
     "markets": 144,
-    "engine_codes": 301,
+    "engine_codes": 304,
     "transmission_codes": 161,
     "body_styles": 70,
     "vin_ranges": 24
@@ -72,7 +72,7 @@
         "parts": 21
       },
       "2006": {
-        "facts": 123,
+        "facts": 124,
         "issues": 8,
         "parts": 20
       },
@@ -82,13 +82,13 @@
         "parts": 19
       },
       "2008": {
-        "facts": 137,
+        "facts": 139,
         "issues": 15,
         "parts": 19
       },
       "2009": {
-        "facts": 113,
-        "issues": 11,
+        "facts": 115,
+        "issues": 12,
         "parts": 19
       }
     },
@@ -104,13 +104,13 @@
         "parts": 19
       },
       "2005": {
-        "facts": 58,
-        "issues": 11,
+        "facts": 60,
+        "issues": 12,
         "parts": 16
       },
       "2006": {
-        "facts": 68,
-        "issues": 8,
+        "facts": 75,
+        "issues": 9,
         "parts": 21
       },
       "2007": {
