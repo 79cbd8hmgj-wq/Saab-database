@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 530 source records with 466 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 536 source records with 472 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -304,6 +304,19 @@ Dataset: [ng93_early_mount_fuel](../data/datasets/ng93-early-mount-fuel.json)
 | `early9three-src-013` | [eSaabParts 12831387 CV early front axle stay page](https://www.esaabparts.com/saab/parts/12831387) | eSaabParts retailer catalogue | `full_text` |
 | `early9three-src-014` | [MY2004 NG9-3 front subframe replacement Z18XE](https://saabwisonline.com/9-3-9440/2004/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-replacement-z18xe) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
 | `early9three-src-015` | [MY2004 NG9-3 four-wheel alignment](https://saabwisonline.com/9-3-9440/2004/7-suspension-wheels/front-suspension/adjustment-replacement/four-wheel-alignment) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
+
+## cross_manufacturer_electrics_model_choice
+
+Dataset: [cross_manufacturer_electrics_model_choice](../data/datasets/cross-manufacturer-electrics-model-choice.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `as-src-001` | [AS-PL A0047 alternator product specifications](https://as-pl.com/en/p/A0047) | AS-PL Sp. z o.o. (parts manufacturer) | `full_text` |
+| `as-src-002` | [AS-PL A0047 application chart across 9-3 and Opel](https://as-pl.com/en/tpu/A0047) | AS-PL Sp. z o.o. (parts manufacturer) | `full_text` |
+| `as-src-003` | [AS-PL S1167S starter product specifications](https://as-pl.com/en/p/S1167S) | AS-PL Sp. z o.o. (parts manufacturer) | `full_text` |
+| `as-src-004` | [AS-PL S1167S starter model/engine application chart](https://as-pl.com/pl/tpu/S1167S) | AS-PL Sp. z o.o. (parts manufacturer) | `full_text` |
+| `as-src-005` | [AS-PL A0319 9-5 Bosch-family alternator specification](https://as-pl.com/en/p/A0319) | AS-PL Sp. z o.o. (parts manufacturer) | `full_text` |
+| `as-src-006` | [AS-PL A0319 original Saab 9-5 applications](https://as-pl.com/en/tpu/A0319/SAAB) | AS-PL Sp. z o.o. (parts manufacturer) | `full_text` |
 
 ## cross_manufacturer_front_hub_pilot
 
