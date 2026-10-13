@@ -11,6 +11,19 @@ class InterchangeResearchGateTests(unittest.TestCase):
     def setUpClass(cls):
         cls.records=json.loads(DATA.read_text(encoding='utf-8'))
 
+    def test_schaeffler_cross_reference_semantics_not_conflated(self):
+        facts = {f['predicate']: f for f in self.records['facts']}
+        self.assertIn('manufacturer_labeled_interchangeable_OE', facts)
+        self.assertIn('manufacturer_labeled_reference_corresponds', facts)
+        strong = facts['manufacturer_labeled_interchangeable_OE']['value']
+        weak = facts['manufacturer_labeled_reference_corresponds']['value']
+        self.assertIn('93175327', strong['SAAB'])
+        self.assertIn('51748680', weak['FIAT'])
+        self.assertNotIn('FIAT', strong)
+        part = next(p for p in self.records['parts'] if p['part_number'] == '713 6440 90')
+        self.assertFalse(part['interchange_candidate']['fitment_approved'])
+        self.assertFalse(part['interchange_candidate']['durability_validated'])
+
     def test_supplier_leads_are_not_approved_replacements(self):
         self.assertGreaterEqual(len(self.records['parts']),3)
         allowed={'shared_platform_aftermarket_sku','cross_catalogue_aftermarket_reference','shared_oe_reference_aftermarket_sku'}
