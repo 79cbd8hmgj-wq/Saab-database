@@ -2,30 +2,30 @@
   "schema_version": "1.0.0",
   "meaning": "Record coverage and evidence provenance, NOT completeness, fitment, or reliability",
   "counts": {
-    "sources": 509,
-    "facts": 1012,
-    "issues": 81,
+    "sources": 510,
+    "facts": 1013,
+    "issues": 82,
     "parts": 76,
-    "gaps": 249
+    "gaps": 250
   },
-  "unique_source_urls": 450,
+  "unique_source_urls": 451,
   "retrieval_statuses": {
-    "full_text": 480,
+    "full_text": 481,
     "metadata_only": 8,
     "partial": 3,
     "search_excerpt": 18
   },
   "evidence_statuses": {
-    "documented": 1084,
+    "documented": 1086,
     "inference": 7,
     "supplier_claim": 78
   },
   "explicit_scope_counts": {
-    "platforms": 1111,
-    "model_years": 1020,
-    "markets": 202,
+    "platforms": 1113,
+    "model_years": 1022,
+    "markets": 204,
     "engine_codes": 338,
-    "transmission_codes": 162,
+    "transmission_codes": 164,
     "body_styles": 83,
     "vin_ranges": 24
   },
@@ -82,8 +82,8 @@
         "parts": 19
       },
       "2008": {
-        "facts": 178,
-        "issues": 24,
+        "facts": 179,
+        "issues": 25,
         "parts": 19
       },
       "2009": {
@@ -324,11 +324,11 @@
       "gaps": 8
     },
     "priority_usca_service_recall_baseline_wp7": {
-      "sources": 12,
-      "facts": 26,
-      "issues": 5,
+      "sources": 13,
+      "facts": 27,
+      "issues": 6,
       "parts": 0,
-      "gaps": 7
+      "gaps": 8
     },
     "priority_vehicle_identity_gates": {
       "sources": 13,
