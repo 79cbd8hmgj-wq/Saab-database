@@ -1,6 +1,6 @@
-# Phase 0 research coverage audit — 38-domain refresh
+# Phase 0 research coverage audit — 39-domain refresh
 
-**Audit basis:** October 13, 2026, 38 research datasets. This release adds original Saab Automobile USA MY2004–07 VIN documents and manufacturer-channel conditional service-kit provenance; earlier Phase 0 audit baselines remain in merged pull-request history. This is a census of saved records, **not** an independent recertification of every original Saab source, an estimate of percent complete, or an engineering safety certification. The earlier seven-domain baseline is superseded.
+**Audit basis:** October 13, 2026, 39 research datasets. This release adds original Saab Automobile USA MY2004–07 VIN documents and manufacturer-channel conditional service-kit provenance; earlier Phase 0 audit baselines remain in merged pull-request history. This is a census of saved records, **not** an independent recertification of every original Saab source, an estimate of percent complete, or an engineering safety certification. The earlier seven-domain baseline is superseded.
 
 **Living guardrail:** `tools/phase0_audit.py` recalculates all numeric tables from `data/datasets/*.json`. Its checked-in companion `data/phase0-coverage-snapshot.json` is verified by unit tests and `python3 tools/phase0_audit.py --check`. A new research PR must refresh these numbers when datasets change; otherwise CI should fail.
 
@@ -9,13 +9,13 @@
 
 | Measure | Current records |
 | --- | ---: |
-| Research domains | 38 |
-| Source records | 542 |
-| Unique source URLs | 478 |
-| Technical facts | 1065 |
-| Diagnostic/correction issues | 89 |
-| Part records | 84 |
-| Explicit open research gaps | 274 |
+| Research domains | 39 |
+| Source records | 547 |
+| Unique source URLs | 482 |
+| Technical facts | 1073 |
+| Diagnostic/correction issues | 90 |
+| Part records | 86 |
+| Explicit open research gaps | 277 |
 
 A repeated URL is not independent corroboration. These are stored record counts,
 **not** estimates of system completeness, part fitment confidence, failure rates,
@@ -25,15 +25,15 @@ or the probability that an individual vehicle is repairable.
 
 | Source retrieval | Records |
 | --- | ---: |
-| `full_text` | 512 |
+| `full_text` | 517 |
 | `partial` | 3 |
 | `search_excerpt` | 19 |
 | `metadata_only` | 8 |
 
 | Technical evidence | Facts + issues + parts |
 | --- | ---: |
-| `documented` | 1109 |
-| `supplier_claim` | 119 |
+| `documented` | 1110 |
+| `supplier_claim` | 129 |
 | `inference` | 10 |
 
 ### Explicit application dimensions
@@ -44,13 +44,13 @@ is counted from individual groups, not from a misleading top-level union.
 
 | Scope field explicitly present | Records out of facts + issues + parts |
 | --- | ---: |
-| `platforms` | 1179 / 1238 |
-| `model_years` | 1082 / 1238 |
-| `markets` | 205 / 1238 |
-| `engine_codes` | 379 / 1238 |
-| `transmission_codes` | 167 / 1238 |
-| `body_styles` | 83 / 1238 |
-| `vin_ranges` | 24 / 1238 |
+| `platforms` | 1190 / 1249 |
+| `model_years` | 1093 / 1249 |
+| `markets` | 205 / 1249 |
+| `engine_codes` | 390 / 1249 |
+| `transmission_codes` | 167 / 1249 |
+| `body_styles` | 83 / 1249 |
+| `vin_ranges` | 24 / 1249 |
 
 ### Technical record coverage by original Saab model year
 
@@ -61,7 +61,7 @@ model-year row. Year-path names do not prove a given production revision.
 #### Original 9-5, platform 9600
 
 | Model year | Facts | Issues | Parts |
-| ---: | ---: | ---: | ---: |
+| ---: | ---: | ---: | ---: | ---: |
 | 1998 | 16 | 3 | 8 |
 | 1999 | 18 | 3 | 11 |
 | 2000 | 22 | 3 | 14 |
@@ -70,15 +70,15 @@ model-year row. Year-path names do not prove a given production revision.
 | 2003 | 31 | 4 | 17 |
 | 2004 | 60 | 7 | 20 |
 | 2005 | 158 | 11 | 21 |
-| 2006 | 157 | 17 | 21 |
-| 2007 | 138 | 19 | 20 |
-| 2008 | 189 | 28 | 20 |
-| 2009 | 130 | 16 | 20 |
+| 2006 | 165 | 18 | 23 |
+| 2007 | 146 | 20 | 22 |
+| 2008 | 197 | 29 | 22 |
+| 2009 | 138 | 17 | 22 |
 
 #### Second-generation 9-3, platform 9440
 
 | Model year | Facts | Issues | Parts |
-| ---: | ---: | ---: | ---: |
+| ---: | ---: | ---: | ---: | ---: |
 | 2003 | 20 | 15 | 18 |
 | 2004 | 34 | 17 | 21 |
 | 2005 | 97 | 19 | 24 |
@@ -93,10 +93,10 @@ model-year row. Year-path names do not prove a given production revision.
 
 | Part-record metric | Count |
 | --- | ---: |
-| Records in research database | 84 |
-| Have at least one recorded part relationship | 25 |
-| Supported as a supplier claim | 55 |
-| Explicitly marked as needing vehicle verification | 53 |
+| Records in research database | 86 |
+| Have at least one recorded part relationship | 27 |
+| Supported as a supplier claim | 57 |
+| Explicitly marked as needing vehicle verification | 55 |
 
 A relationship can be an aftermarket cross-reference, kit contents, or a
 conditional supersession. Its existence does **not** make the replacement
@@ -128,6 +128,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 | `og95_ground_power_0709` | 13 | 44 | 2 | 0 | 6 |
 | `og95_north_american_exhaust_fuel_wp6` | 8 | 14 | 3 | 0 | 5 |
 | `og95_pcv_radiator_mount_provenance` | 16 | 31 | 3 | 8 | 9 |
+| `og95_shared_electrics_countercheck` | 5 | 8 | 1 | 2 | 3 |
 | `og95_structure` | 12 | 16 | 0 | 1 | 5 |
 | `og95_t7_cooling_0709` | 28 | 72 | 3 | 0 | 7 |
 | `og95_t7_electrical` | 22 | 43 | 4 | 0 | 7 |
@@ -154,6 +155,10 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 ### T7 and T8 service pathway distinction (2026-10-13)
 
 [Original T7 ignition cassette and T8 ECM cloning support](research/t7-t8-repair-support-model-choice.md) documents different failure and repair component categories. A standalone T7 cassette and a T8 programmable ECU must not be equated, and vendor programming-only prices do not establish installed total costs or relative failure frequency.
+
+### 9-5 B235 parts-sourcing countercheck (2026-10-13)
+
+[Independent manufacturer AS-PL S0034 and A0219 findings](research/og95-shared-electrics-countercheck.md) show that the original 9-5 B235 also has cross-brand aftermarket starter and alternator sourcing candidates. This specifically corrects an earlier sampling-bias concern in the model comparison; shared catalogues alone do not identify a better or more reliable car.
 
 ## Assessment of the original Phase 0 gates
 
