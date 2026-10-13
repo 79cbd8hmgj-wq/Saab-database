@@ -82,6 +82,84 @@
       ],
       "engineering_risk": "safety_critical_wheel_hub_and_abs",
       "notes": "Never substitute a used Opel/Fiat hub based on family cross reference alone; exact OE donor identity is a separate research task."
+    },
+    {
+      "id": "xmake-002",
+      "name": "GM Genuine / Saab Original 12630084 B207 water-pump service SKU",
+      "component": "gear-driven engine coolant pump with installation gasket and sprocket dependencies",
+      "target_platform": "9-3-9440",
+      "target_vehicle_research_scope": {
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "market": "US/Canada",
+        "NOTE": "Research priority, not an actual filtered VIN application; only engine family supported by Saab Parts Hedin catalogue."
+      },
+      "candidate": {
+        "manufacturer": "General Motors Genuine Parts / Saab Original",
+        "sku": "12630084",
+        "type": "dual_official_parts_channel_identical_current_service_number",
+        "manufacturer_catalog_url": "https://parts.chevrolet.com/product/gm-genuine-parts-engine-water-pump-kit-12630084"
+      },
+      "donor_reference_brands": [
+        "GM",
+        "Saab",
+        "Opel"
+      ],
+      "interchange_support": {
+        "manufacturer_labeled_interchangeable": [],
+        "manufacturer_labeled_reference_only": [],
+        "applicability_caveat": "Two official service channels independently list the same current numbered service product. Neither proves that any older Opel Z20NET donor assembly fits a particular B207 Saab or that any given VIN received this pump in production.",
+        "dual_official_service_number": {
+          "GM": "12630084",
+          "SAAB": "12630084"
+        },
+        "older_opel_catalogue_leads_not_approved": [
+          "93172718",
+          "93178602",
+          "93181118",
+          "93195308"
+        ]
+      },
+      "readiness": "catalog_candidate_unverified",
+      "approved_drop_in": false,
+      "approved_oem_donor": false,
+      "independently_tested_reliability_improvement": false,
+      "cost_advantage_verified": false,
+      "stock_verified": false,
+      "vehicle_tested": false,
+      "needs_vehicle_verification": true,
+      "verified_catalog_attributes": {
+        "pump_drive": "gear",
+        "gm_impeller": "steel",
+        "gm_mounting_holes": 4,
+        "saab_webshop_kit_mentions": [
+          "sprocket",
+          "gasket"
+        ]
+      },
+      "unknowns": [
+        "actual target VIN/build and original installed pump number",
+        "physical boxed-kit revision/sprocket/gasket content matching",
+        "GM versus Saab current package contents",
+        "original Opel Z20NET older pump chain and geometry",
+        "MY2005–06 B207 pump-drive factory procedure and tool access",
+        "current US stock/warranty terms and installed cost",
+        "comparative pump durability data"
+      ],
+      "references": [
+        "gmwp-src-001",
+        "gmwp-src-002",
+        "gmwp-src-003",
+        "gmwp-src-004",
+        "gmwp-src-005"
+      ],
+      "engineering_risk": "engine_cooling_failure_and_gear_driven_balancer_shaft_pump",
+      "notes": "This is the same numbered service SKU sold in official GM and Saab channels; no independent donor-assembly swap or improved longevity established. GM's generic belt-driven prose conflicts with the item-specific gear-drive attribute; follow actual Saab B207 factory WIS."
     }
   ]
 }
