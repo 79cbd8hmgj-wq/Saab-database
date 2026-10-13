@@ -22,6 +22,7 @@
     "og95_t7_electrical",
     "og95_turbo_oil_feed_solenoids",
     "og95_turbo_tsb_2912494_fa57_triage",
+    "priority_brake_hydraulic_safety",
     "priority_structural_corrosion_inspection",
     "priority_vehicle_identity_gates",
     "repair_vs_replace_troubleshooting",
@@ -31,24 +32,24 @@
     "vin_gearbox_provenance"
   ],
   "counts": {
-    "sources": 450,
-    "facts": 912,
-    "issues": 62,
+    "sources": 469,
+    "facts": 937,
+    "issues": 66,
     "parts": 74,
-    "gaps": 215
+    "gaps": 223
   },
-  "unique_source_urls": 404,
+  "unique_source_urls": 420,
   "retrieval_statuses": {
-    "full_text": 426,
+    "full_text": 444,
     "metadata_only": 8,
     "partial": 3,
-    "search_excerpt": 13
+    "search_excerpt": 14
   },
   "evidence_statuses": {
-    "documented": 965,
+    "documented": 994,
     "inference": 5,
     "supplier_claim": 78
   },
   "research_date": "2026-10-13",
-  "notes": "Gate A structural corrosion package documents factory OG9-5 2006 5D rear floor and reinforced body, rear subframe nut/body repair and subframe bush distinctions, MY2008 US fuel tank connections, NG9-3 2006 CV sill and rear subframe dependencies, B207 underbody pipe mounting and New York DMV chassis/brake/fuel safety criteria. These are inspection priorities, not rust thresholds or cleared vehicle conditions. Source-year 2006 is not assumed equivalent to user's 2008 wagon. No new VIN-approved parts."
+  "notes": "Gate A/B brake package: NG9-3 MY2006 VIN-plate brake positions 7–10 and factory levels 1–4 rotor/caliper assembly matrix, integrated NG9-3 handbrake versus OG9-5 rear shoes; MY2008 OG9-5 front caliper bolt 4Nm refit prose contradicts dedicated 140Nm+45 table and must NOT be used; OG9-5 brake configuration B1/B2/B3 288/308 front diameter and separate 2006 285/308 detail remain unresolved. Hose routing, rear carrier torques, bleeding required. No OEM VIN-approved parts or vehicle roadworthiness claimed."
 }
