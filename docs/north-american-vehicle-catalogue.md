@@ -21,13 +21,19 @@ The machine-readable companion [initial NA model-year screening and evidence rec
 
 ## Verified pitfalls / exclusions
 
-- **1999 Saab factory VIN bulletin:** Saab SI 011-1808 ed. 2 (March 1998) explicitly identifies 9-3/9-5 model lines, 9-3 3-/5-door hatch and 9-5 sedan, MY1999 VIN code X, gearbox character 8 for four-speed automatic, and separate engine letters N/P/E/Z. This is a code map, **not** a complete approved engine/gearbox/body pairing table (source `na-cat-s16`).\n- **1998 U.S. MY:** Saab's U.S. distributor launched both nameplates in spring 1998 as **MY1999**, not MY1998 (source `na-cat-s01`). Whether a distinct 1998 **Canadian** model-year entry exists remains unanswered.
-- **1999 U.S. 9-3 SE HOT:** the late 200-hp high-output SE 5-door engine was manual-only, but lower-output SE automatics still existed. Do not exclude all SE automatics (`na-cat-s03`).\n- **2002 U.S. Viggen:** B235R Viggen was manual-only according to Saab's US/CA product overview. Do not mistake its FWD body for an eligible automatic (`na-cat-s06`).
+- **1999 Saab factory VIN bulletin:** Saab SI 011-1808 ed. 2 (March 1998) explicitly identifies 9-3/9-5 model lines, 9-3 3-/5-door hatch and 9-5 sedan, MY1999 VIN code X, gearbox character 8 for four-speed automatic, and separate engine letters N/P/E/Z. This is a code map, **not** a complete approved engine/gearbox/body pairing table (source `na-cat-s16`).
+- **1998 U.S. MY:** Saab's U.S. distributor launched both nameplates in spring 1998 as **MY1999**, not MY1998 (source `na-cat-s01`). Whether a distinct 1998 **Canadian** model-year entry exists remains unanswered.
+- **1999 U.S. 9-3 SE HOT:** the late 200-hp high-output SE 5-door engine was manual-only, but lower-output SE automatics still existed. Do not exclude all SE automatics (`na-cat-s03`).
+- **2002 U.S. Viggen:** B235R Viggen was manual-only according to Saab's US/CA product overview. Do not mistake its FWD body for an eligible automatic (`na-cat-s06`).
 - **2003 U.S. 9-3:** the new nonconvertible sedan is 9440; the carried-over 9400 is convertible, which is excluded (`na-cat-s07`).
 - **2010 U.S. new 9-5:** the launch Aero was a **2.8L V6 six-speed automatic XWD**, ineligible under FWD-only criteria. A US MY2010 FWD offering is not established in inspected launch sources; Canada needs independent assessment (`na-cat-s09`, `na-cat-s10`).
 - **2011 U.S./Canada 9-5:** a Turbo4 **FWD six-speed automatic** does qualify, despite AWD being available on other 9-5 trims (`na-cat-s11`, `na-cat-s12`).
 
-## Validation protection\n\n`tests/test_north_american_vehicle_catalogue.py` checks the 28-row denominator, strict US/CA market and automatic/FWD/body eligibility, unique IDs, linked source records and that partial coverage never becomes a completed year by default. It does not verify historical accuracy, only consistency.\n\n## Remaining acceptance work
+## Validation protection
+
+`tests/test_north_american_vehicle_catalogue.py` checks the 28-row denominator, strict US/CA market and automatic/FWD/body eligibility, unique IDs, linked source records and that partial coverage never becomes a completed year by default. It does not verify historical accuracy, only consistency.
+
+## Remaining acceptance work
 
 1. Obtain factory US/Canada year-specific sales guides for every remaining model/year (separate Canadian equipment tables rather than copying US availability).
 2. Convert each year into complete **engine + transmission code + body + FWD + market** combinations, with factory sales source citation and VIN constraints.
