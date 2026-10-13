@@ -1,6 +1,6 @@
-# Phase 0 research coverage audit — 33-domain refresh
+# Phase 0 research coverage audit — 34-domain refresh
 
-**Audit basis:** October 13, 2026, 33 research datasets. This release adds original Saab Automobile USA MY2004–07 VIN documents and manufacturer-channel conditional service-kit provenance; earlier Phase 0 audit baselines remain in merged pull-request history. This is a census of saved records, **not** an independent recertification of every original Saab source, an estimate of percent complete, or an engineering safety certification. The earlier seven-domain baseline is superseded.
+**Audit basis:** October 13, 2026, 34 research datasets. This release adds original Saab Automobile USA MY2004–07 VIN documents and manufacturer-channel conditional service-kit provenance; earlier Phase 0 audit baselines remain in merged pull-request history. This is a census of saved records, **not** an independent recertification of every original Saab source, an estimate of percent complete, or an engineering safety certification. The earlier seven-domain baseline is superseded.
 
 **Living guardrail:** `tools/phase0_audit.py` recalculates all numeric tables from `data/datasets/*.json`. Its checked-in companion `data/phase0-coverage-snapshot.json` is verified by unit tests and `python3 tools/phase0_audit.py --check`. A new research PR must refresh these numbers when datasets change; otherwise CI should fail.
 
@@ -9,13 +9,13 @@
 
 | Measure | Current records |
 | --- | ---: |
-| Research domains | 33 |
-| Source records | 510 |
-| Unique source URLs | 451 |
-| Technical facts | 1013 |
+| Research domains | 34 |
+| Source records | 514 |
+| Unique source URLs | 455 |
+| Technical facts | 1020 |
 | Diagnostic/correction issues | 82 |
-| Part records | 76 |
-| Explicit open research gaps | 250 |
+| Part records | 77 |
+| Explicit open research gaps | 255 |
 
 A repeated URL is not independent corroboration. These are stored record counts,
 **not** estimates of system completeness, part fitment confidence, failure rates,
@@ -25,15 +25,15 @@ or the probability that an individual vehicle is repairable.
 
 | Source retrieval | Records |
 | --- | ---: |
-| `full_text` | 481 |
+| `full_text` | 485 |
 | `partial` | 3 |
 | `search_excerpt` | 18 |
 | `metadata_only` | 8 |
 
 | Technical evidence | Facts + issues + parts |
 | --- | ---: |
-| `documented` | 1086 |
-| `supplier_claim` | 78 |
+| `documented` | 1088 |
+| `supplier_claim` | 84 |
 | `inference` | 7 |
 
 ### Explicit application dimensions
@@ -44,13 +44,13 @@ is counted from individual groups, not from a misleading top-level union.
 
 | Scope field explicitly present | Records out of facts + issues + parts |
 | --- | ---: |
-| `platforms` | 1113 / 1171 |
-| `model_years` | 1022 / 1171 |
-| `markets` | 204 / 1171 |
-| `engine_codes` | 338 / 1171 |
-| `transmission_codes` | 164 / 1171 |
-| `body_styles` | 83 / 1171 |
-| `vin_ranges` | 24 / 1171 |
+| `platforms` | 1121 / 1179 |
+| `model_years` | 1024 / 1179 |
+| `markets` | 204 / 1179 |
+| `engine_codes` | 338 / 1179 |
+| `transmission_codes` | 164 / 1179 |
+| `body_styles` | 83 / 1179 |
+| `vin_ranges` | 24 / 1179 |
 
 ### Technical record coverage by original Saab model year
 
@@ -82,7 +82,7 @@ model-year row. Year-path names do not prove a given production revision.
 | 2003 | 20 | 15 | 18 |
 | 2004 | 34 | 17 | 21 |
 | 2005 | 64 | 14 | 18 |
-| 2006 | 102 | 16 | 23 |
+| 2006 | 104 | 16 | 23 |
 | 2007 | 26 | 11 | 22 |
 | 2008 | 28 | 11 | 23 |
 | 2009 | 21 | 11 | 23 |
@@ -93,10 +93,10 @@ model-year row. Year-path names do not prove a given production revision.
 
 | Part-record metric | Count |
 | --- | ---: |
-| Records in research database | 76 |
-| Have at least one recorded part relationship | 18 |
-| Supported as a supplier claim | 48 |
-| Explicitly marked as needing vehicle verification | 45 |
+| Records in research database | 77 |
+| Have at least one recorded part relationship | 19 |
+| Supported as a supplier claim | 49 |
+| Explicitly marked as needing vehicle verification | 46 |
 
 A relationship can be an aftermarket cross-reference, kit contents, or a
 conditional supersession. Its existence does **not** make the replacement
@@ -109,6 +109,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 | `b235_maintenance_fa57_identity` | 13 | 44 | 2 | 0 | 9 |
 | `b235r_oil_pcv_2006_2008` | 17 | 31 | 2 | 7 | 9 |
 | `corrections` | 27 | 9 | 20 | 26 | 7 |
+| `cross_manufacturer_front_hub_pilot` | 4 | 7 | 0 | 1 | 5 |
 | `epc_provenance` | 10 | 12 | 0 | 2 | 5 |
 | `high_cost_powertrain_diagnostics` | 17 | 35 | 3 | 2 | 9 |
 | `ng93` | 25 | 70 | 0 | 0 | 8 |
@@ -201,6 +202,8 @@ Every priority subsystem must have an explicit component and connection inventor
 For any proposed substitution, preserve installed OE part ID, VIN/engine/gearbox/market/option restrictions, genuine manufacturer-approved supersession direction **where evidenced**, dimensions/interfaces, safety and loading requirements, firmware/pairing/dependencies and installation tests. Supplier cross-references must remain supplier claims. If original manufacturer support cannot be obtained, mark **not approved / evidence pending**; do not assume bidirectional interchange.
 
 ## What this milestone changes
+
+First cross-manufacturer pilot: direct Schaeffler FAG front wheel-hub cross-references for Saab and GM/Opel, with Saab WIS MY2006 hub/speed-sensor dependencies. A common aftermarket kit does not establish identity of a used donor hub or better durability; exact VIN, geometry, electrical and safety validation are open. Candidate-approval guards are now separate from the overall source count.
 
 Original MY2008 Saab 9-5 US/Canada scheduled maintenance conflicts on automatic gearbox oil: a numbered 60,000-mile service checklist calls for replacement while the annual additional-work section lists 70,000 miles or 5 years. Both original statements are now stored separately, with explicit missing factory revision and vehicle inputs, and neither is promoted to a universal service recommendation.
 

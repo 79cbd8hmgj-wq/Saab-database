@@ -1,0 +1,350 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "cross_manufacturer_front_hub_pilot",
+  "sources": [
+    {
+      "id": "cross-src-001",
+      "title": "FAG 713 6440 90 wheel bearing kit, Schaeffler direct product catalogue",
+      "url": "https://vehiclelifetimesolutions.schaeffler.com/en/catalog/auto-parts/axle-mounting-steering-wheels/wheel-hub-mounting/wheel-hub/wheel-bearing-kit/p-TA-654-7136440900",
+      "publisher": "Schaeffler Technologies AG & Co. KG",
+      "source_type": "manufacturer_datasheet",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Direct FAG catalog lists 137 mm outer diameter, integrated ABS sensor, OE references with distinct 'Interchangeable' versus 'Reference corresponds to a component' labels; no Saab VIN filtered application or durability result."
+    },
+    {
+      "id": "cross-src-002",
+      "title": "2006 Saab 9-3 (9440) factory front wheel hub removal/refitting",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/front-suspension/adjustment-replacement/wheel-hub-front",
+      "publisher": "Saab Automobile AB (original WIS, mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Factory B207 priority 2006 front hub service procedure: three hub bolts, wheel-speed-sensor connector/cable, mandatory new removed hub-centre nut; source is not a cross-brand OE part number verification."
+    },
+    {
+      "id": "cross-src-003",
+      "title": "2006 9-3 (9440) factory front ABS sensor integrated in hub",
+      "url": "https://saabwisonline.com/9-3-9440/2006/5-brakes/tcs-esp/adjustment-replacement/front-wheel-speed-sensor-298fl-fr",
+      "publisher": "Saab Automobile AB (original WIS, mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Factory identifies left/right front wheel-speed sensor as integrated with front hub; replacing sensor involves full hub, but does not prove cross-brand electrical interchange."
+    },
+    {
+      "id": "cross-src-004",
+      "title": "FAG 713 6440 90 independent TecAlliance-based vehicle application catalogue",
+      "url": "https://motostacja.com/p/38090.html",
+      "publisher": "Motostacja.pl (aftermarket retailer using TecAlliance vehicle application data)",
+      "source_type": "supplier_catalog",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Lists Saab 9-3, Opel Vectra C/Signum and Fiat Croma for FAG 713 6440 90; explicitly warns overall model years are not part-specific, VIN and variation selection required. Not an original OEM application approval."
+    }
+  ],
+  "facts": [
+    {
+      "id": "cross-fact-001",
+      "subject": "part:FAG-713644090",
+      "category": "physical_dimension",
+      "predicate": "outer_diameter",
+      "value": 137,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "cross-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Article Attributes > Outer Diameter",
+      "notes": "Product description applies to FAG catalogue unit, not independently measured Saab hub",
+      "review_status": "needs_vehicle_verification"
+    },
+    {
+      "id": "cross-fact-002",
+      "subject": "part:FAG-713644090",
+      "category": "sensor",
+      "predicate": "front_hub_speed_sensor",
+      "value": "integrated ABS sensor",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "cross-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Article Attributes > Supplementary Article / Info 2",
+      "notes": "Manufacturer product claim; connector electronics and air gap not verified against real Saab",
+      "review_status": "needs_vehicle_verification"
+    },
+    {
+      "id": "cross-fact-003",
+      "subject": "part:FAG-713644090",
+      "category": "catalog_interchange",
+      "predicate": "schaeffler_labeled_interchangeable_oe",
+      "value": {
+        "SAAB": [
+          "93171495",
+          "93175327",
+          "93186387"
+        ],
+        "GENERAL_MOTORS": [
+          "93171495",
+          "93175327",
+          "93186387"
+        ],
+        "OPEL": [
+          "1603143",
+          "1603243",
+          "1603294",
+          "93171495",
+          "93175327",
+          "93186387"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "cross-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Compatibility > OE Numbers",
+      "notes": "Manufacturer's listed 'Interchangeable' cross-references; do not infer OE donor installation or VIN scope",
+      "review_status": "needs_vehicle_verification"
+    },
+    {
+      "id": "cross-fact-004",
+      "subject": "part:FAG-713644090",
+      "category": "catalog_interchange",
+      "predicate": "schaeffler_labeled_reference_only",
+      "value": {
+        "FIAT": [
+          "51748680"
+        ],
+        "OPEL": [
+          "12796081"
+        ],
+        "VAUXHALL": [
+          "12796081"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "cross-src-001"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Compatibility > OE Numbers",
+      "notes": "Source explicitly says 'Reference corresponds to a component', not 'Interchangeable'; do not promote to identical OE part",
+      "review_status": "needs_vehicle_verification"
+    },
+    {
+      "id": "cross-fact-005",
+      "subject": "system:ng93-front-hub",
+      "category": "service_design",
+      "predicate": "front_wheel_speed_sensor_is_integrated",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "cross-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "Front wheel speed sensor (298FL, FR)",
+      "notes": "Original factory architecture; front only, not rear or original 9-5",
+      "review_status": "needs_vehicle_verification"
+    },
+    {
+      "id": "cross-fact-006",
+      "subject": "system:ng93-front-hub",
+      "category": "service_dependency",
+      "predicate": "hub_center_nut_requires_renewal_after_removal",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "cross-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "Wheel hub, front > To fit > Important",
+      "notes": "Factory WIS requires a new hub-center nut if removed; verify full fastener kit and joint procedures for any candidate",
+      "review_status": "needs_vehicle_verification"
+    },
+    {
+      "id": "cross-fact-007",
+      "subject": "part:FAG-713644090",
+      "category": "catalog_applicability",
+      "predicate": "catalog_lists_platform_families",
+      "value": [
+        "Saab 9-3 YS3F",
+        "Opel Vectra C",
+        "Opel Signum",
+        "Fiat Croma 194"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "source_ids": [
+        "cross-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Applications / Popular vehicle makes and models",
+      "notes": "Retailer catalogs model families, warns VIN fitting conditions and model date ranges not part approval",
+      "review_status": "needs_vehicle_verification"
+    }
+  ],
+  "issues": [],
+  "parts": [
+    {
+      "id": "cross-part-001",
+      "part_number": "713 6440 90",
+      "title": "Schaeffler FAG front hub/bearing kit shared aftermarket catalogue family",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "aftermarket_reference",
+          "part_number": "93171495",
+          "conditions": "Schaeffler FAG catalogue labels OE reference 'Interchangeable'; factory VIN scope, fitted Saab OE number, electrical connector and physical donor interchange remain unverified."
+        },
+        {
+          "type": "aftermarket_reference",
+          "part_number": "93175327",
+          "conditions": "Schaeffler FAG catalogue labels OE reference 'Interchangeable'; factory VIN scope, fitted Saab OE number, electrical connector and physical donor interchange remain unverified."
+        },
+        {
+          "type": "aftermarket_reference",
+          "part_number": "93186387",
+          "conditions": "Schaeffler FAG catalogue labels OE reference 'Interchangeable'; factory VIN scope, fitted Saab OE number, electrical connector and physical donor interchange remain unverified."
+        }
+      ],
+      "requirements": [
+        "Confirm full candidate VIN/build and actual front hub manufacturer part / OE marking.",
+        "Independently check wheel bolt pattern, flange/offset, splines, hub mounting, brake shield and ABS sensor connector and pulse output.",
+        "Follow MY2006 Saab hub workshop instructions and renew the removed hub centre nut; secure correct replacement hardware.",
+        "Verify speed-sensor live signal, wheel-bearing noise/play, safe braking and wheel installation after repair."
+      ],
+      "source_ids": [
+        "cross-src-001",
+        "cross-src-002",
+        "cross-src-003",
+        "cross-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Supplier-manufacturer FAG replacement is an aftermarket candidate for the NG 9-3 and also catalogued for Opel/GM families. It is not a demonstrated interchangeable used Opel hub or Saab-authorized OEM supersession; no tested longevity or current US supply/pricing claims."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "cross-gap-001",
+      "title": "Exact VIN/build and installed 2005–06 B207 9-3 hub OE identity",
+      "missing_inputs": [
+        "Real vehicle VIN",
+        "Factory filtered WebEPC front hub OE number and side",
+        "installed hub assembly and connector photographs",
+        "drivetrain/body option",
+        "market specification"
+      ],
+      "reason": "Manufacturer aftermarket reference table has no actual buyer-VIN selection or proof of original installed part.",
+      "source_ids": [
+        "cross-src-001",
+        "cross-src-002"
+      ]
+    },
+    {
+      "id": "cross-gap-002",
+      "title": "FAG-to-Saab physical and electrical verification",
+      "missing_inputs": [
+        "Hub mounting flange, bolt circle and centering measurements",
+        "spline/axle and bearing offsets",
+        "wheel-speed-sensor connector pinout and signal specification",
+        "actual compatible FAG 713644090 hardware pack"
+      ],
+      "reason": "Integrated ABS sensor and 137 mm diameter alone cannot certify safety-critical drop-in fitment.",
+      "source_ids": [
+        "cross-src-001",
+        "cross-src-002",
+        "cross-src-003"
+      ]
+    },
+    {
+      "id": "cross-gap-003",
+      "title": "Identify truly interchangeable donor Opel/GM original assembled hub",
+      "missing_inputs": [
+        "GM/Opel VIN filtered original parts diagram",
+        "manufacturer OE number actually stamped on possible donor",
+        "directionality of same-assembly references and revisions",
+        "fitment restrictions and testing"
+      ],
+      "reason": "One aftermarket hub spanning two brand catalogues does not prove any used donor's OE assembly is identical or safe.",
+      "source_ids": [
+        "cross-src-001",
+        "cross-src-004"
+      ]
+    },
+    {
+      "id": "cross-gap-004",
+      "title": "Reliability and economic outcomes for Schaeffler alternative",
+      "missing_inputs": [
+        "Independent bearing durability testing under comparable load and environment",
+        "validated supplier warranty and actual new US stock",
+        "current landed prices and comparison to Saab-specific supply"
+      ],
+      "reason": "Catalog fitment and manufacturer's product availability status do not prove longevity, cost advantage or local stock.",
+      "source_ids": [
+        "cross-src-001"
+      ]
+    },
+    {
+      "id": "cross-gap-005",
+      "title": "Separate 2004–09 Saab 9-5 and later NG 9-3 variations",
+      "missing_inputs": [
+        "Original 9-5 manufacturer hub data",
+        "B207 CV/4D/5D vs XWD-specific hub application",
+        "other wheel-end option variants",
+        "rear versus front sensor/system"
+      ],
+      "reason": "This research is front NG9-3 only; family name reuse across Saab models is unsafe.",
+      "source_ids": [
+        "cross-src-003",
+        "cross-src-004"
+      ]
+    }
+  ]
+}

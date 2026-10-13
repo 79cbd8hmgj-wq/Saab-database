@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0.0",
+  "purpose": "Cross-manufacturer candidate evidence. A catalogue interchange does NOT approve parts for a specific Saab or prove durability.",
+  "candidates": [
+    {
+      "id": "xmake-001",
+      "name": "FAG 713 6440 90 shared front wheel hub kit",
+      "component": "front hub/bearing + integrated ABS speed sensor",
+      "target_platform": "9-3-9440",
+      "target_vehicle_research_scope": {
+        "model_years": [
+          2005,
+          2006
+        ],
+        "engine_codes": [
+          "B207L",
+          "B207R"
+        ],
+        "market": "US/Canada",
+        "NOTE": "Research priority only; manufacturer catalog does not verify every combination."
+      },
+      "candidate": {
+        "manufacturer": "Schaeffler/FAG",
+        "sku": "713 6440 90",
+        "type": "aftermarket_product_supported_by_multiple_brand_oe_references",
+        "manufacturer_catalog_url": "https://vehiclelifetimesolutions.schaeffler.com/en/catalog/auto-parts/axle-mounting-steering-wheels/wheel-hub-mounting/wheel-hub/wheel-bearing-kit/p-TA-654-7136440900"
+      },
+      "donor_reference_brands": [
+        "Saab",
+        "GM",
+        "Opel",
+        "Vauxhall",
+        "Fiat"
+      ],
+      "interchange_support": {
+        "manufacturer_labeled_interchangeable": [
+          "SAAB:93171495",
+          "SAAB:93175327",
+          "SAAB:93186387",
+          "GM:93171495",
+          "GM:93175327",
+          "GM:93186387",
+          "OPEL:1603143",
+          "OPEL:1603243",
+          "OPEL:1603294",
+          "OPEL:93171495",
+          "OPEL:93175327",
+          "OPEL:93186387"
+        ],
+        "manufacturer_labeled_reference_only": [
+          "FIAT:51748680",
+          "OPEL:12796081",
+          "VAUXHALL:12796081"
+        ],
+        "applicability_caveat": "Manufacturer calls some OE numbers 'Reference corresponds to a component', which is not an interchangeable-part approval; any exact car still requires VIN selection."
+      },
+      "readiness": "catalog_candidate_unverified",
+      "approved_drop_in": false,
+      "approved_oem_donor": false,
+      "independently_tested_reliability_improvement": false,
+      "cost_advantage_verified": false,
+      "stock_verified": false,
+      "vehicle_tested": false,
+      "needs_vehicle_verification": true,
+      "verified_catalog_attributes": {
+        "outer_diameter_mm": 137,
+        "abs_sensor": "integrated"
+      },
+      "unknowns": [
+        "actual original hub OE number and vehicle options",
+        "all geometric and spline dimensions and tolerances",
+        "sensor connection and protocol on target VIN",
+        "installation fasteners and nut",
+        "2026 US stock and price",
+        "comparative durability measurements"
+      ],
+      "references": [
+        "cross-src-001",
+        "cross-src-002",
+        "cross-src-003",
+        "cross-src-004"
+      ],
+      "engineering_risk": "safety_critical_wheel_hub_and_abs",
+      "notes": "Never substitute a used Opel/Fiat hub based on family cross reference alone; exact OE donor identity is a separate research task."
+    }
+  ]
+}
