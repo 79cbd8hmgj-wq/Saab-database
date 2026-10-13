@@ -1,6 +1,6 @@
 # Saab candidate scope — model years 1998–2011
 
-**Decision:** Research potential project cars among **all factory automatic, front-wheel-drive, non-convertible Saab 9-3 and 9-5 models** from model years **1998 to 2011 inclusive**.
+**Decision:** Research potential project cars among **all factory automatic, front-wheel-drive, non-convertible Saab 9-3 and 9-5 models** from model years **1998 to 2011 inclusive**, **originally offered in the United States or Canada**.
 
 ## Hard exclusions
 
@@ -18,7 +18,7 @@
 | 9-5 original | 9600 | 1998–2009 | Sedan, SportCombi/wagon when factory automatic/FWD offered |
 | 9-5 second generation | 650 | 2010–2011 | Production sedan when factory automatic/FWD offered |
 
-Exact market, year, engine, trim, body, gearbox, and driveline combinations must be corroborated in original documentation. Year overlap (especially 2003 9-3) does not imply the generations are interchangeable. A 2011 model year or rare engine cannot be presumed available in the US or locally. Do not add hypothetical 9-5 NG wagons as ordinary production candidates.
+Only original US- and Canadian-market factory configurations qualify; other-market-only models remain reference information and are not purchase candidates. Exact market, year, engine, trim, body, gearbox, and driveline combinations must be corroborated in original documentation. Year overlap (especially 2003 9-3) does not imply the generations are interchangeable. A 2011 model year or rare engine cannot be presumed available in either the US or Canada; verify each market separately. Do not add hypothetical 9-5 NG wagons as ordinary production candidates.
 
 ## Rules for the research program
 
