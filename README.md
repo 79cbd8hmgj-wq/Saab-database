@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- [U.S. Saab factory automatic gearbox-family crosscheck](docs/us-automatic-gearbox-factory-crosscheck.md): WIS-sourced AF20/AF22, AF30, FA57 and AF40/TF-80SC distinctions across 110 U.S. production groups, with VIN/interchange claims blocked and 2011 9-5 gearbox unresolved.
+
 - [U.S. Saab source-derived complete production-group matrix](docs/us-production-catalogue-analysis.md): 110 compiled year/engine/body/auto/FWD groups from four reconciled U.S. production tables, with original factory/VIN verification still required.
 - [Reproducible U.S. production importer](docs/us-production-import.md): filter rules, validation, source count reconciliation, anomalies and code.
 - [North American Saab automatic-FWD candidate catalogue](docs/north-american-vehicle-catalogue.md): MY1998–2011 US/Canada screening, initial verified configurations, explicit exclusions and still-unassessed markets. This is not a complete trim inventory or a reliability ranking.
