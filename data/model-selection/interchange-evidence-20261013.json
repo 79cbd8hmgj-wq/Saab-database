@@ -94,6 +94,22 @@
           "sources": [
             "xint-src-008"
           ]
+        },
+        {
+          "system": "starter",
+          "status": "cross_brand_aftermarket",
+          "sources": [
+            "ogex-src-001",
+            "ogex-src-002"
+          ]
+        },
+        {
+          "system": "120A alternator additional variant",
+          "status": "cross_brand_aftermarket",
+          "sources": [
+            "ogex-src-003",
+            "ogex-src-004"
+          ]
         }
       ],
       "unresolved": [
@@ -102,7 +118,9 @@
         "FA57 automatic gearbox condition",
         "wagon rust/body corrosion",
         "shared OEM study not complete",
-        "US parts availability"
+        "US parts availability",
+        "A0219 versus A0319 regulator connector and VIN-specific amperage differences",
+        "S0034 original Opel donor equivalence and U.S. sourcing"
       ],
       "repair_support": {
         "system": "Trionic 7 ignition cassette, NOT full ECM",
@@ -120,12 +138,14 @@
       }
     }
   ],
-  "observation": "For this small, asymmetrically researched sample the B207 9-3 has more identified cross-brand sourcing leads. This is not a proven reliability, affordability or ownership advantage.",
+  "observation": "Countercheck: BOTH OG 9-5 B235 and NG 9-3 B207 have first-party manufacturer-listed Saab/Opel cross-brand aftermarket starter and alternator offerings. B207 additionally has a dual-official-channel GM/Saab water pump 12630084 and a FAG/Opel/Fiat shared aftermarket hub. The sample is unequal and does not establish a model-level reliability, cost, US-stock, or used-donor interchange winner.",
   "prohibited_conclusions": [
     "Number of catalogue matches measures reliability",
     "Every Opel donor is physically identical",
     "A0319's Saab-only application means the 9-5 has no general aftermarket",
     "European Opel catalogue means US local supply",
-    "A Saab with structural rust or engine/transmission failure can be justified by parts commonality"
+    "A Saab with structural rust or engine/transmission failure can be justified by parts commonality",
+    "The B235 9-5 lacks shared-brand starter/alternator supply because one AS-PL A0319 listing was Saab-specific",
+    "AS-PL 9-5 alternators A0219 and A0319 are interchangeable merely because both fit some B235R catalogue rows"
   ]
 }
