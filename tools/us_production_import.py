@@ -142,6 +142,14 @@ def read_table(html: str, spec: tuple) -> dict:
         grouped[key]["reported_production_count"] += item["count"]
         grouped[key]["paint_row_count"] += 1
 
+    # Very small groups may be pilots, anomalies, odd trim decoding or rare builds.
+    # Flag for original manufacturer VIN review; a tiny count is not proof of
+    # bad data, a car's reliability, or current market availability.
+    for candidate in grouped.values():
+        candidate["low_volume_manual_review"] = (
+            candidate["reported_production_count"] <= 12
+        )
+
     full_count = sum(item["count"] for item in parsed)
     plain_text = " ".join(re.sub(r"<[^>]+>", " ", html).split())
     match = TOTAL_RE.search(plain_text)
