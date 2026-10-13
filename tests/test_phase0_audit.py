@@ -43,6 +43,17 @@ class WholeProjectPhase0AuditTests(unittest.TestCase):
         self.assertIn(render_census(self.snapshot),self.audit)
         self.assertIn("These are stored record counts",self.audit)
 
+    def test_inventory_and_source_index_match_real_deduplication(self):
+        saved=json.loads((ROOT / "data" / "inventory.json").read_text(encoding="utf-8"))
+        index=(ROOT / "docs" / "source-index.md").read_text(encoding="utf-8")
+        for k in ("counts","unique_source_urls","retrieval_statuses","evidence_statuses"):
+            self.assertEqual(saved[k],self.snapshot[k],k)
+        header=(
+            f"There are {self.snapshot['counts']['sources']} source records with "
+            f"{self.snapshot['unique_source_urls']} distinct\\nURLs."
+        )
+        self.assertIn(header.replace("\\\\n","\\n"),index)
+
     def test_no_unearned_vehicle_or_parts_approval(self):
         self.assertIn("Gate A = partial", (ROOT / "docs" / "gap-closure-plan.md").read_text(encoding="utf-8"))
         self.assertIn("Gate B = not met", (ROOT / "docs" / "gap-closure-plan.md").read_text(encoding="utf-8"))
