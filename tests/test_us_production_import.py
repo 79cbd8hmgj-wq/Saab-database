@@ -53,6 +53,16 @@ class ProductionImporterTests(unittest.TestCase):
         self.assertEqual(result["candidates"][0]["reported_production_count"], 3)
         self.assertEqual(result["source"]["excluded_reported_vehicle_counts"]["awd"], 7)
 
+    def test_9440_sportcombi_five_door_maps_to_wagon(self):
+        html = html_table([
+            ("2008", "2.0T", "5D", "FWD", "5AT", "B207R", "BLACK", 4),
+            ("2008", "2.0T", "4D", "FWD", "5AT", "B207R", "BLACK", 6),
+        ], 10)
+        result = read_table(html, SOURCE_SPECS[1])
+        body_by_code = {x["body_code"]: x["body_style"] for x in result["candidates"]}
+        self.assertEqual(body_by_code["5D"], "wagon")
+        self.assertEqual(body_by_code["4D"], "sedan")
+
     def test_650_compiled_2010_xwd_and_2011_turbo4(self):
         html = html_table([
             ("2010", "Aero", "AT 6-Spd", "AWD", "2.8T", "JET BLACK", 55),
