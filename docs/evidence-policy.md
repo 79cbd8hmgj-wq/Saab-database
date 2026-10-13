@@ -39,6 +39,26 @@ Capture the source's labels. Keep VIN fragments as fragments; do not expand an
 eight-character chassis suffix into an invented full VIN. Never compare VIN ranges
 lexicographically as though every market and body style shared one numeric sequence.
 
+## Original US VIN sources, official kits, and parts approval
+
+Original Saab Automobile USA **dated VIN bulletins**, even when collected in a
+later Saab Parts owner PDF, are manufacturer-authored model-year identity
+evidence. A mirrored WIS page's directory year does **not** override the
+bulletin year, and a sample demonstration VIN can be wrong while the titled
+year table remains source-scoped. A **US-market** bulletin cannot establish the
+precise Canadian configuration without corroboration. Recorded VIN engine
+codes describe intended original equipment, never a physically verified
+replacement engine or transmission on an unknown used car.
+
+Saab Parts/Hedin **manufacturer support-channel** installation guidance may
+document a real repair and conditional service kit, but it is not the same
+thing as an individual licensed Saab WebEPC VIN-filtered OEM supersession.
+Where an old physical switch/slider must be retained, a replacement **kit**
+is categorically not a complete direct donor module. Preserve both the
+original part and the kit's prerequisites; leave full drop-in compatibility
+unapproved until separately proven. Availability and 2026 authorized
+security programming are distinct, unverified questions.
+
 ## Quantities and units
 
 Retain the original unit and definition. Record oil drain/refill and total-system
