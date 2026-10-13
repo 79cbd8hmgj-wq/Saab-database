@@ -94,6 +94,22 @@
           "sources": [
             "xint-src-008"
           ]
+        },
+        {
+          "system": "starter",
+          "status": "cross_brand_aftermarket",
+          "sources": [
+            "ogex-src-001",
+            "ogex-src-002"
+          ]
+        },
+        {
+          "system": "120A alternator additional variant",
+          "status": "cross_brand_aftermarket",
+          "sources": [
+            "ogex-src-003",
+            "ogex-src-004"
+          ]
         }
       ],
       "unresolved": [
@@ -101,7 +117,7 @@
         "B235 mechanical/oil history",
         "FA57 automatic gearbox condition",
         "wagon rust/body corrosion",
-        "shared OEM study not complete",
+        "Exact VIN/gearbox applicability of S0034 starter and A0219 versus A0319 alternator",
         "US parts availability"
       ],
       "repair_support": {
@@ -120,12 +136,12 @@
       }
     }
   ],
-  "observation": "For this small, asymmetrically researched sample the B207 9-3 has more identified cross-brand sourcing leads. This is not a proven reliability, affordability or ownership advantage.",
+  "observation": "Additional AS-PL manufacturer source research reveals original 9-5 B235 starter S0034 and 120A alternator A0219 have multi-brand supplier applications too; NG9-3 B207 has not established a whole-car sourcing or reliability advantage. Neither Saab is rankable from catalogue counts, without inspected vehicle and comparative field costs and failures.",
   "prohibited_conclusions": [
     "Number of catalogue matches measures reliability",
     "Every Opel donor is physically identical",
-    "A0319's Saab-only application means the 9-5 has no general aftermarket",
     "European Opel catalogue means US local supply",
-    "A Saab with structural rust or engine/transmission failure can be justified by parts commonality"
+    "A Saab with structural rust or engine/transmission failure can be justified by parts commonality",
+    "A0219 and A0319 alternators are interchangeable just because both have six rib pulleys"
   ]
 }
