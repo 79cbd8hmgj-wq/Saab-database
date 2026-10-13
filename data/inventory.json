@@ -11,29 +11,30 @@
     "og95_2006_2008",
     "og95_body",
     "og95_structure",
+    "og95_t7_electrical",
     "replacements",
     "simulation",
     "subframe_parts_brake_lines"
   ],
   "counts": {
-    "sources": 210,
-    "facts": 388,
-    "issues": 20,
+    "sources": 232,
+    "facts": 431,
+    "issues": 24,
     "parts": 55,
-    "gaps": 91
+    "gaps": 98
   },
-  "unique_source_urls": 203,
+  "unique_source_urls": 225,
   "retrieval_statuses": {
-    "full_text": 199,
+    "full_text": 221,
     "metadata_only": 2,
     "partial": 3,
     "search_excerpt": 6
   },
   "evidence_statuses": {
-    "documented": 404,
+    "documented": 451,
     "inference": 3,
     "supplier_claim": 56
   },
   "research_date": "2026-10-12",
-  "notes": "Source-scoped record counts are not independent manufacturer interchange approval, installed-car condition, or reliability scores. Official Saab WebEPC publication identified but not subscribed to or queried by VIN."
+  "notes": "These are source-scoped research record counts, not a calibrated reliability ranking, a diagnostic test of a specific car, verified OEM interchange or an assertion that every T7 procedure applies across model years."
 }
