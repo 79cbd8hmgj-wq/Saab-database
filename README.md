@@ -10,6 +10,9 @@ engines, and platforms.
 
 ## Start here
 
+- [Saab lot visit pocket card — October 16, 2026](docs/lot-visit-pocket-card-2026-10-16.md): quick private-VIN, rust, key/title and seller-history intake for stored/nonrunning 9-3/9-5s; no unsafe cranking or premature purchase verdicts.
+- [Detailed Saab lot visit guide](docs/lot-visit-field-guide-2026-10-16.md): staged inspection and STOP/HOLD/FINALIST rules, especially the rear-subframe-rust versus seller's catalyst claim on a 2008 9-5 wagon.
+
 - [U.S. feasibility evidence-gap audit](data/audits/us-feasibility-powertrain-gaps.json): 110 groups; 24 missing engine-core repair scenarios, 52 missing transmission scenarios, 14 missing both, and 12 without platform-specific structural research. These are research gaps, not reported failures.
 
 - [U.S. Saab repair-versus-replace feasibility matrix](docs/us-repair-vs-replace-feasibility.md): 14 source-backed scenarios for avoiding unnecessary engine/transmission rebuilding, safety walk-away conditions and unpriced DIY-versus-specialist options, mapped to all 110 eligible U.S. production groups.
