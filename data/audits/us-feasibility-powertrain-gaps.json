@@ -11,52 +11,24 @@
     "data/vehicle-catalogue/us-automatic-gearbox-evidence.json"
   ],
   "production_configuration_denominator": 110,
-  "scenario_denominator": 14,
+  "scenario_denominator": 18,
   "counts_are": "configuration groups in compiled US production table, NOT inspected cars, produced units or failed systems",
   "missing": {
     "missing_engine_core_repair_scenario": {
-      "configuration_count": 24,
+      "configuration_count": 7,
       "production_configuration_ids": [
-        "usprod-9400-1999-70300e64546a",
-        "usprod-9400-1999-1bef62da9055",
-        "usprod-9400-1999-614d751e6481",
-        "usprod-9400-1999-2bd272926b6c",
         "usprod-9440-2006-66a6ee6945ee",
         "usprod-9440-2006-0eb06b9b5336",
         "usprod-9440-2007-482ed160ba16",
         "usprod-9440-2007-e20134af5d2a",
         "usprod-9440-2008-30b15ea6c631",
         "usprod-9440-2008-b3273aad38f1",
-        "usprod-9600-1999-1cb72d9097d1",
-        "usprod-9600-1999-2a95b9b3ce30",
-        "usprod-9600-1999-fdebac597045",
-        "usprod-9600-1999-c4d1d37eb75a",
-        "usprod-9600-2000-ba5b5dcfedee",
-        "usprod-9600-2000-eeaeeecec6b4",
-        "usprod-9600-2001-e3e9973412fe",
-        "usprod-9600-2001-20ea775dd8e2",
-        "usprod-9600-2001-8ac268fdc1be",
-        "usprod-9600-2002-25bac55f3b40",
-        "usprod-9600-2002-8bb5aafedeaa",
-        "usprod-9600-2003-a767166cd624",
-        "usprod-9600-2003-1425fbc33299",
         "usprod-650-2011-844ea4b7d007"
       ]
     },
     "missing_transmission_repair_scenario": {
-      "configuration_count": 52,
+      "configuration_count": 19,
       "production_configuration_ids": [
-        "usprod-9400-1999-70300e64546a",
-        "usprod-9400-1999-1bef62da9055",
-        "usprod-9400-1999-614d751e6481",
-        "usprod-9400-1999-2bd272926b6c",
-        "usprod-9400-2000-04905bdcae68",
-        "usprod-9400-2000-266da0222bec",
-        "usprod-9400-2000-efa03e1662d4",
-        "usprod-9400-2001-c5f5c11480e1",
-        "usprod-9400-2001-b48e60a36980",
-        "usprod-9400-2001-d0bcddbd7105",
-        "usprod-9400-2002-e25d2b682f27",
         "usprod-9440-2006-66a0bba1ffb4",
         "usprod-9440-2006-3f82ebaa461c",
         "usprod-9440-2007-47153ed320be",
@@ -75,28 +47,6 @@
         "usprod-9440-2011-66a3c399ebfd",
         "usprod-9440-2011-67b077eb5391",
         "usprod-9440-2011-6067b39794ec",
-        "usprod-9600-1999-80270f1fc57b",
-        "usprod-9600-1999-1cb72d9097d1",
-        "usprod-9600-1999-481bdb6b5cfc",
-        "usprod-9600-1999-2a95b9b3ce30",
-        "usprod-9600-1999-19692af2405b",
-        "usprod-9600-1999-fdebac597045",
-        "usprod-9600-1999-f749361fa49d",
-        "usprod-9600-1999-c4d1d37eb75a",
-        "usprod-9600-2000-2048481de83b",
-        "usprod-9600-2000-5a801d274ac4",
-        "usprod-9600-2000-d8414d89a6b7",
-        "usprod-9600-2000-ba5b5dcfedee",
-        "usprod-9600-2000-eeaeeecec6b4",
-        "usprod-9600-2000-3208b53eab2b",
-        "usprod-9600-2000-76e96e57f0ea",
-        "usprod-9600-2001-e588ecee2743",
-        "usprod-9600-2001-d4e89c9ad0f9",
-        "usprod-9600-2001-e3e9973412fe",
-        "usprod-9600-2001-20ea775dd8e2",
-        "usprod-9600-2001-29a2d4ee6170",
-        "usprod-9600-2001-8ac268fdc1be",
-        "usprod-9600-2001-59d2d33c8ca4",
         "usprod-650-2011-844ea4b7d007"
       ]
     },
@@ -118,21 +68,8 @@
       ]
     },
     "missing_both_engine_and_transmission_scenarios": {
-      "configuration_count": 14,
+      "configuration_count": 1,
       "production_configuration_ids": [
-        "usprod-9400-1999-70300e64546a",
-        "usprod-9400-1999-1bef62da9055",
-        "usprod-9400-1999-614d751e6481",
-        "usprod-9400-1999-2bd272926b6c",
-        "usprod-9600-1999-1cb72d9097d1",
-        "usprod-9600-1999-2a95b9b3ce30",
-        "usprod-9600-1999-fdebac597045",
-        "usprod-9600-1999-c4d1d37eb75a",
-        "usprod-9600-2000-ba5b5dcfedee",
-        "usprod-9600-2000-eeaeeecec6b4",
-        "usprod-9600-2001-e3e9973412fe",
-        "usprod-9600-2001-20ea775dd8e2",
-        "usprod-9600-2001-8ac268fdc1be",
         "usprod-650-2011-844ea4b7d007"
       ]
     }
@@ -149,15 +86,6 @@
         ]
       },
       {
-        "platform": "9400",
-        "family_or_engine": "B204L",
-        "automatic_gears": null,
-        "unreviewed_configurations": 4,
-        "years": [
-          1999
-        ]
-      },
-      {
         "platform": "9440",
         "family_or_engine": "B284L",
         "automatic_gears": null,
@@ -166,19 +94,6 @@
           2006,
           2007,
           2008
-        ]
-      },
-      {
-        "platform": "9600",
-        "family_or_engine": "B308E",
-        "automatic_gears": null,
-        "unreviewed_configurations": 13,
-        "years": [
-          1999,
-          2000,
-          2001,
-          2002,
-          2003
         ]
       }
     ],
@@ -193,18 +108,6 @@
         ]
       },
       {
-        "platform": "9400",
-        "family_or_engine": "AF20 / AF22",
-        "automatic_gears": 4,
-        "unreviewed_configurations": 11,
-        "years": [
-          1999,
-          2000,
-          2001,
-          2002
-        ]
-      },
-      {
         "platform": "9440",
         "family_or_engine": "FA57",
         "automatic_gears": 5,
@@ -216,17 +119,6 @@
           2009,
           2010,
           2011
-        ]
-      },
-      {
-        "platform": "9600",
-        "family_or_engine": "AF30",
-        "automatic_gears": 4,
-        "unreviewed_configurations": 22,
-        "years": [
-          1999,
-          2000,
-          2001
         ]
       }
     ]
@@ -244,13 +136,15 @@
       "automatic_gears": 4,
       "workshop_gearbox_family": "AF20 / AF22",
       "applicable_scenario_ids": [
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-015",
+        "us-feas-017"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
-      "transmission_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": false,
       "general_safety_screen_present": true,
-      "neither_engine_nor_transmission_scenario": true,
+      "neither_engine_nor_transmission_scenario": false,
       "vehicle_VIN_or_condition_verified": false,
       "repair_price_or_rate_established": false
     },
@@ -266,13 +160,15 @@
       "automatic_gears": 4,
       "workshop_gearbox_family": "AF20 / AF22",
       "applicable_scenario_ids": [
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-015",
+        "us-feas-017"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
-      "transmission_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": false,
       "general_safety_screen_present": true,
-      "neither_engine_nor_transmission_scenario": true,
+      "neither_engine_nor_transmission_scenario": false,
       "vehicle_VIN_or_condition_verified": false,
       "repair_price_or_rate_established": false
     },
@@ -288,13 +184,15 @@
       "automatic_gears": 4,
       "workshop_gearbox_family": "AF20 / AF22",
       "applicable_scenario_ids": [
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-015",
+        "us-feas-017"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
-      "transmission_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": false,
       "general_safety_screen_present": true,
-      "neither_engine_nor_transmission_scenario": true,
+      "neither_engine_nor_transmission_scenario": false,
       "vehicle_VIN_or_condition_verified": false,
       "repair_price_or_rate_established": false
     },
@@ -310,13 +208,15 @@
       "automatic_gears": 4,
       "workshop_gearbox_family": "AF20 / AF22",
       "applicable_scenario_ids": [
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-015",
+        "us-feas-017"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
-      "transmission_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": false,
       "general_safety_screen_present": true,
-      "neither_engine_nor_transmission_scenario": true,
+      "neither_engine_nor_transmission_scenario": false,
       "vehicle_VIN_or_condition_verified": false,
       "repair_price_or_rate_established": false
     },
@@ -333,10 +233,11 @@
       "workshop_gearbox_family": "AF20 / AF22",
       "applicable_scenario_ids": [
         "us-feas-001",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-017"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": false,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -356,10 +257,11 @@
       "workshop_gearbox_family": "AF20 / AF22",
       "applicable_scenario_ids": [
         "us-feas-001",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-017"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": false,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -379,10 +281,11 @@
       "workshop_gearbox_family": "AF20 / AF22",
       "applicable_scenario_ids": [
         "us-feas-001",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-017"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": false,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -402,10 +305,11 @@
       "workshop_gearbox_family": "AF20 / AF22",
       "applicable_scenario_ids": [
         "us-feas-001",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-017"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": false,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -425,10 +329,11 @@
       "workshop_gearbox_family": "AF20 / AF22",
       "applicable_scenario_ids": [
         "us-feas-001",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-017"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": false,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -448,10 +353,11 @@
       "workshop_gearbox_family": "AF20 / AF22",
       "applicable_scenario_ids": [
         "us-feas-001",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-017"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": false,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -471,10 +377,11 @@
       "workshop_gearbox_family": "AF20 / AF22",
       "applicable_scenario_ids": [
         "us-feas-001",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-017"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": false,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -1321,10 +1228,11 @@
       "applicable_scenario_ids": [
         "us-feas-001",
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-018"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -1344,13 +1252,15 @@
       "workshop_gearbox_family": "AF30",
       "applicable_scenario_ids": [
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-016",
+        "us-feas-018"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
-      "transmission_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
-      "neither_engine_nor_transmission_scenario": true,
+      "neither_engine_nor_transmission_scenario": false,
       "vehicle_VIN_or_condition_verified": false,
       "repair_price_or_rate_established": false
     },
@@ -1368,10 +1278,11 @@
       "applicable_scenario_ids": [
         "us-feas-001",
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-018"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -1391,13 +1302,15 @@
       "workshop_gearbox_family": "AF30",
       "applicable_scenario_ids": [
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-016",
+        "us-feas-018"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
-      "transmission_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
-      "neither_engine_nor_transmission_scenario": true,
+      "neither_engine_nor_transmission_scenario": false,
       "vehicle_VIN_or_condition_verified": false,
       "repair_price_or_rate_established": false
     },
@@ -1415,10 +1328,11 @@
       "applicable_scenario_ids": [
         "us-feas-001",
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-018"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -1438,13 +1352,15 @@
       "workshop_gearbox_family": "AF30",
       "applicable_scenario_ids": [
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-016",
+        "us-feas-018"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
-      "transmission_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
-      "neither_engine_nor_transmission_scenario": true,
+      "neither_engine_nor_transmission_scenario": false,
       "vehicle_VIN_or_condition_verified": false,
       "repair_price_or_rate_established": false
     },
@@ -1462,10 +1378,11 @@
       "applicable_scenario_ids": [
         "us-feas-001",
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-018"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -1485,13 +1402,15 @@
       "workshop_gearbox_family": "AF30",
       "applicable_scenario_ids": [
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-016",
+        "us-feas-018"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
-      "transmission_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
-      "neither_engine_nor_transmission_scenario": true,
+      "neither_engine_nor_transmission_scenario": false,
       "vehicle_VIN_or_condition_verified": false,
       "repair_price_or_rate_established": false
     },
@@ -1509,10 +1428,11 @@
       "applicable_scenario_ids": [
         "us-feas-001",
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-018"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -1533,10 +1453,11 @@
       "applicable_scenario_ids": [
         "us-feas-001",
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-018"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -1557,10 +1478,11 @@
       "applicable_scenario_ids": [
         "us-feas-001",
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-018"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -1580,13 +1502,15 @@
       "workshop_gearbox_family": "AF30",
       "applicable_scenario_ids": [
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-016",
+        "us-feas-018"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
-      "transmission_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
-      "neither_engine_nor_transmission_scenario": true,
+      "neither_engine_nor_transmission_scenario": false,
       "vehicle_VIN_or_condition_verified": false,
       "repair_price_or_rate_established": false
     },
@@ -1603,13 +1527,15 @@
       "workshop_gearbox_family": "AF30",
       "applicable_scenario_ids": [
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-016",
+        "us-feas-018"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
-      "transmission_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
-      "neither_engine_nor_transmission_scenario": true,
+      "neither_engine_nor_transmission_scenario": false,
       "vehicle_VIN_or_condition_verified": false,
       "repair_price_or_rate_established": false
     },
@@ -1627,10 +1553,11 @@
       "applicable_scenario_ids": [
         "us-feas-001",
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-018"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -1651,10 +1578,11 @@
       "applicable_scenario_ids": [
         "us-feas-001",
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-018"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -1675,10 +1603,11 @@
       "applicable_scenario_ids": [
         "us-feas-001",
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-018"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -1699,10 +1628,11 @@
       "applicable_scenario_ids": [
         "us-feas-001",
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-018"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -1722,13 +1652,15 @@
       "workshop_gearbox_family": "AF30",
       "applicable_scenario_ids": [
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-016",
+        "us-feas-018"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
-      "transmission_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
-      "neither_engine_nor_transmission_scenario": true,
+      "neither_engine_nor_transmission_scenario": false,
       "vehicle_VIN_or_condition_verified": false,
       "repair_price_or_rate_established": false
     },
@@ -1745,13 +1677,15 @@
       "workshop_gearbox_family": "AF30",
       "applicable_scenario_ids": [
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-016",
+        "us-feas-018"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
-      "transmission_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
-      "neither_engine_nor_transmission_scenario": true,
+      "neither_engine_nor_transmission_scenario": false,
       "vehicle_VIN_or_condition_verified": false,
       "repair_price_or_rate_established": false
     },
@@ -1769,10 +1703,11 @@
       "applicable_scenario_ids": [
         "us-feas-001",
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-018"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -1792,13 +1727,15 @@
       "workshop_gearbox_family": "AF30",
       "applicable_scenario_ids": [
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-016",
+        "us-feas-018"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
-      "transmission_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
-      "neither_engine_nor_transmission_scenario": true,
+      "neither_engine_nor_transmission_scenario": false,
       "vehicle_VIN_or_condition_verified": false,
       "repair_price_or_rate_established": false
     },
@@ -1816,10 +1753,11 @@
       "applicable_scenario_ids": [
         "us-feas-001",
         "us-feas-011",
-        "us-feas-013"
+        "us-feas-013",
+        "us-feas-018"
       ],
       "engine_core_failure_and_repair_scenario_present": true,
-      "transmission_failure_and_repair_scenario_present": false,
+      "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
       "neither_engine_nor_transmission_scenario": false,
@@ -1893,9 +1831,10 @@
         "us-feas-005",
         "us-feas-011",
         "us-feas-013",
-        "us-feas-014"
+        "us-feas-014",
+        "us-feas-016"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
       "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
@@ -1918,9 +1857,10 @@
         "us-feas-005",
         "us-feas-011",
         "us-feas-013",
-        "us-feas-014"
+        "us-feas-014",
+        "us-feas-016"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
       "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
@@ -2047,9 +1987,10 @@
         "us-feas-005",
         "us-feas-011",
         "us-feas-013",
-        "us-feas-014"
+        "us-feas-014",
+        "us-feas-016"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
       "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,
@@ -2072,9 +2013,10 @@
         "us-feas-005",
         "us-feas-011",
         "us-feas-013",
-        "us-feas-014"
+        "us-feas-014",
+        "us-feas-016"
       ],
-      "engine_core_failure_and_repair_scenario_present": false,
+      "engine_core_failure_and_repair_scenario_present": true,
       "transmission_failure_and_repair_scenario_present": true,
       "structural_repair_scenario_present": true,
       "general_safety_screen_present": true,

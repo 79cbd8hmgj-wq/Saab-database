@@ -27,7 +27,7 @@ class USFeasibilityMatrixTests(unittest.TestCase):
 
     def test_scenarios_are_evidence_scoped_and_no_fake_prices(self):
         items = self.data["scenarios"]
-        self.assertEqual(len(items), 14)
+        self.assertEqual(len(items), 18)
         source_ids = {s["id"] for s in self.data["source_records"]}
         self.assertEqual(len(source_ids), len(self.data["source_records"]))
         self.assertEqual(len(items), len({s["id"] for s in items}))
@@ -49,7 +49,7 @@ class USFeasibilityMatrixTests(unittest.TestCase):
     def test_scope_only_not_fault_counts_or_approvals(self):
         counts = self.coverage["counts"]
         self.assertEqual(counts["production_groups"], 110)
-        self.assertEqual(counts["source_linked_scenarios"], 14)
+        self.assertEqual(counts["source_linked_scenarios"], 18)
         for key in ("individual_vehicles_inspected", "failure_rates_quantified",
                     "repair_prices_verified", "parts_interchanges_approved"):
             self.assertEqual(counts[key], 0)
@@ -107,6 +107,34 @@ class USFeasibilityMatrixTests(unittest.TestCase):
             if "us-feas-007" in ids:
                 self.assertEqual(x["platform"], "9440")
                 self.assertEqual(x["automatic_gears"], 6)
+
+    def test_legacy_original_four_speed_and_mechanical_screens(self):
+        counts = self.coverage["counts"]["matching_links_by_scenario"]
+        self.assertEqual(
+            [counts[f"us-feas-{i:03d}"] for i in (15, 16, 17, 18)],
+            [4, 13, 11, 22])
+        expected = {
+            "us-feas-015": ("9400", "engine", "B204L"),
+            "us-feas-016": ("9600", "engine", "B308E"),
+            "us-feas-017": ("9400", "transmission", None),
+            "us-feas-018": ("9600", "transmission", None),
+        }
+        prod_by_id = {x["id"]: x for x in self.prod["configurations"]}
+        scenarios = {x["id"]: x for x in self.data["scenarios"]}
+        for sid, (platform, system, engine) in expected.items():
+            with self.subTest(sid=sid):
+                self.assertEqual(scenarios[sid]["system"], system)
+                matches = [prod_by_id[x["production_id"]]
+                           for x in self.coverage["production_group_reviews"]
+                           if sid in [link["scenario_id"] for link in x["scenario_links"]]]
+                self.assertTrue(matches)
+                self.assertTrue(all(x["platform"] == platform for x in matches))
+                if engine:
+                    self.assertTrue(all(x["engine_code"] == engine for x in matches))
+                if system == "transmission":
+                    self.assertTrue(all(x["automatic_gears"] == 4 for x in matches))
+                self.assertFalse(scenarios[sid]["rate_of_failure_established"])
+                self.assertIsNone(scenarios[sid]["price_estimate_usd"])
 
     def test_refuse_source_free_or_price_populated_claim(self):
         bad = json.loads(json.dumps(self.data))

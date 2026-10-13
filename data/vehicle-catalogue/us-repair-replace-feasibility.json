@@ -247,6 +247,110 @@
       "title": "TA440-0902 AF40 ATF level technical advice",
       "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/6-speed-af-40/bulletins-si-mi/ta440-0902-atf-oil-check-on-af40-6-speed-aut",
       "source_file": "data/vehicle-catalogue/us-automatic-gearbox-evidence.json"
+    },
+    {
+      "id": "us-lgy-wis-9400-1999-b204",
+      "title": "1999 9-3 9400 factory B204 engine general data",
+      "url": "https://saabwisonline.com/9-3-9400/1999/2-engine/basic-engine-4-cylinder-petrol/technical-data/general-data",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "1999 9400 WIS B204L four-cylinder engine description; not evidence that early B205/B235 sludge TSB includes B204L.",
+      "origin": "original Saab WIS, mirrored; source model year restricted by notes"
+    },
+    {
+      "id": "us-lgy-wis-9400-1999-mech",
+      "title": "1999 9-3 9400 B204 petrol original mechanical service index",
+      "url": "https://saabwisonline.com/9-3-9400/1999/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "1999 petrol engine factory service index includes timing chain, crank bearing checks, valve/chain and oil pump tasks. Detailed diagnostic test conditions and VIN-specific parts not established from index.",
+      "origin": "original Saab WIS, mirrored; source model year restricted by notes"
+    },
+    {
+      "id": "us-lgy-wis-9600-2000-v6-belt",
+      "title": "2000 9-5 9600 B308E V6 factory camshaft toothed belt construction",
+      "url": "https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-v6/technical-description/camshaft-drive",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "2000 V6 WIS explicitly says four camshafts driven by toothed belt and notes VIN Y303999/Y304000 variant distinction. Factory schedule not obtained here.",
+      "origin": "original Saab WIS, mirrored; source model year restricted by notes"
+    },
+    {
+      "id": "us-lgy-wis-9600-2001-v6-remove",
+      "title": "2001 9-5 9600 B308E V6 camshaft drive belt removal and special tools",
+      "url": "https://saabwisonline.com/9-5-9600/2001/2-engine/basic-engine-v6/adjustment-replacement/camshaft-drive-to-remove",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "WIS cam belt work needs locks KM-800-1/-2/-10, access to right engine attachment, tension/guide rollers and belt; outside casual roadside repair. Do not invent an interval.",
+      "origin": "original Saab WIS, mirrored; source model year restricted by notes"
+    },
+    {
+      "id": "us-lgy-wis-9600-2002-v6-compression",
+      "title": "2002 9-5 9600 B308E V6 compression spread factory data",
+      "url": "https://saabwisonline.com/9-5-9600/2002/2-engine/basic-engine-v6/technical-data/general-data",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "Saab WIS difference among cylinders <=200 kPa (2 bar); model-year and test conditions must be matched. Not an absolute compression minimum, or proof of engine health.",
+      "origin": "original Saab WIS, mirrored; source model year restricted by notes"
+    },
+    {
+      "id": "us-lgy-wis-9600-2001-v6-misfire",
+      "title": "2001 9-5 9600 B308E V6 misfire diagnostic tree",
+      "url": "https://saabwisonline.com/9-5-9600/2001/2-engine/trionic-t7-v6/fault-diagnosis-diagnostic-trouble-codes/p0300",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "Factory P0300 diagnosis checks freeze frame, plugs, connectors/hoses then compression, ignition and fuel. DTC alone not head gasket/valve replacement proof.",
+      "origin": "original Saab WIS, mirrored; source model year restricted by notes"
+    },
+    {
+      "id": "us-lgy-wis-9400-2001-at-mech",
+      "title": "2001 original 9-3 AF20/AF22 automatic mechanical and hydraulic fault matrix",
+      "url": "https://saabwisonline.com/9-3-9400/2001/4-transmission/automatic-transmission/fault-diagnosis-fault-symptoms/mechanical-and-hydraulic-faults",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "Saab lists selector adjustment, fluid level, S1/S2 solenoids, sensors vs internal clutch/pump/valve-housing failures that warrant complete gearbox; year example 2001.",
+      "origin": "original Saab WIS, mirrored; source model year restricted by notes"
+    },
+    {
+      "id": "us-lgy-wis-9400-2001-at-level",
+      "title": "2001 original 9-3 four-speed 80C dipstick and ATF test",
+      "url": "https://saabwisonline.com/9-3-9400/2001/4-transmission/automatic-transmission/fault-diagnosis-fault-symptoms/checking-the-transmission-fluid-level",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "Requires warm, correctly measured temperature and level/selector procedure. Unsafe to conduct on uninspected nonrunner; WIS original fluid specified mineral DEXRON III, do not project to newer Saab boxes.",
+      "origin": "original Saab WIS, mirrored; source model year restricted by notes"
+    },
+    {
+      "id": "us-lgy-wis-9400-2001-at-sol",
+      "title": "2001 original 9-3 shift solenoids S1/S2 diagnostics",
+      "url": "https://saabwisonline.com/9-3-9400/2001/4-transmission/automatic-transmission/technical-description/solenoid-valves-s1-and-s2-for-shifting",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "S1/S2 control shift hydraulics; P0753/P0758; resistance 13 ohms in specific original MY2001 WIS; no general parts interchange promise.",
+      "origin": "original Saab WIS, mirrored; source model year restricted by notes"
+    },
+    {
+      "id": "us-lgy-wis-9600-2000-af30-mech",
+      "title": "2000 original 9-5 AF30 mechanical and hydraulic fault table",
+      "url": "https://saabwisonline.com/9-5-9600/2000/4-transmission/automatic-transmission/fault-diagnosis-fault-symptoms/mechanical-and-hydraulic-faults",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "Factory differentiates selector, low fluid, S1/S2 valves from internal hydraulic/clutch, band, pump, torque-converter damage; complete gearbox in some branches.",
+      "origin": "original Saab WIS, mirrored; source model year restricted by notes"
+    },
+    {
+      "id": "us-lgy-wis-9600-2000-af30-p0705",
+      "title": "2000 original 9-5 AF30 P0705 range sensor circuit",
+      "url": "https://saabwisonline.com/9-5-9600/2000/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0705",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "P0705 selector code may indicate wiring short or selector sensor input rather than damaged internals; Saab directs wire check before sensor replacement.",
+      "origin": "original Saab WIS, mirrored; source model year restricted by notes"
+    },
+    {
+      "id": "us-lgy-wis-9600-2000-af30-p0730",
+      "title": "2000 original 9-5 AF30 P0730 gear mechanical ratio/slip",
+      "url": "https://saabwisonline.com/9-5-9600/2000/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0730",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "P0730 WIS compares calculated actual ratios, conditions and sensor faults; slip can be mechanical, requiring specialist diagnosis not sensor assumptions.",
+      "origin": "original Saab WIS, mirrored; source model year restricted by notes"
+    },
+    {
+      "id": "us-lgy-wis-9600-2000-af30-level",
+      "title": "2000 original 9-5 AF30 ATF fluid level procedure",
+      "url": "https://saabwisonline.com/9-5-9600/2000/4-transmission/automatic-transmission/fault-diagnosis-fault-symptoms/checking-the-transmission-fluid-level",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "MY2000 9-5 four-speed factory level +80 C D/R/P idling sequence and DEXRON III, subject to exact actual car/installed box and fluid evidence.",
+      "origin": "original Saab WIS, mirrored; source model year restricted by notes"
     }
   ],
   "scenarios": [
@@ -1221,6 +1325,294 @@
       ],
       "unknowns": [
         "exact donor interchange and real shop cost"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-015",
+      "name": "Original 9-3 B204L engine timing-chain and internal-mechanical triage",
+      "system": "engine",
+      "applicability": {
+        "platforms": [
+          "9400"
+        ],
+        "engine_codes": [
+          "B204L"
+        ],
+        "model_year_range_by_platform": {
+          "9400": [
+            1999,
+            1999
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "us-lgy-wis-9400-1999-b204",
+        "us-lgy-wis-9400-1999-mech"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "hard/no-start",
+          "loud mechanical chain/bearing noise",
+          "severe oil loss or warning"
+        ],
+        "next_evidence": [
+          "verify actual original B204L engine marking and history",
+          "if safe, use manufacturer mechanical checks for timing-chain condition, oil delivery and cylinder health",
+          "distinguish peripheral ignition/fuel fault from internal mechanical damage before considering crank"
+        ],
+        "safe_to_operate_if_suspected": null
+      },
+      "repair_options": [
+        {
+          "level": "advanced_DIY_or_Saab_specialist",
+          "work": "WIS documents in-car timing/valvetrain service and some oil pump/sump access; undertake only on confirmed diagnosis and full tooling plan",
+          "requires": [
+            "original-year Saab steps, safe vehicle support and measuring tools"
+          ]
+        },
+        {
+          "level": "major_engine_work_outside_project_scope",
+          "work": "Documented crank bearing or major internal failure requires a complete engine replacement cost decision, not a presumed DIY tune-up",
+          "requires": [
+            "VIN/build engine replacement feasibility and written estimate"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_DIY_if_mechanical_health_established",
+        "when_damage_confirmed": "walk_away_if_major_internal_damage_without_swap_budget",
+        "when_testing_unavailable": "cannot_assume_minor_fix"
+      },
+      "evidence_limits": [
+        "B204L is not covered by early B205/B235 210-2554 bulletin merely because same model family",
+        "1999 workshop repair index is NOT a model-year-specific failure incidence or quantitative tolerance"
+      ],
+      "unknowns": [
+        "validated 1999 B204L compression/oil-pressure data, current repair parts availability and access/labor costs"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-016",
+      "name": "Original 9-5 B308E V6 timing-belt, misfire and cylinder-health triage",
+      "system": "engine",
+      "applicability": {
+        "platforms": [
+          "9600"
+        ],
+        "engine_codes": [
+          "B308E"
+        ],
+        "model_year_range_by_platform": {
+          "9600": [
+            1999,
+            2003
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "us-lgy-wis-9600-2000-v6-belt",
+        "us-lgy-wis-9600-2001-v6-remove",
+        "us-lgy-wis-9600-2002-v6-compression",
+        "us-lgy-wis-9600-2001-v6-misfire"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "unknown timing-belt service date",
+          "hard/no-start after suspected belt event",
+          "P0300, rough running or poor compression"
+        ],
+        "next_evidence": [
+          "obtain exact VIN and dated timing-belt/roller service invoice, distinguish belt status from accessory drivebelt",
+          "if suspected belt failure or major loss of timing, do NOT casually crank to diagnose; obtain professional timing/cylinder clearance review",
+          "if safely runnable, read freeze frames and assess plugs, compression, ignition and fuel with exact WIS year procedures"
+        ],
+        "safe_to_operate_if_suspected": null
+      },
+      "repair_options": [
+        {
+          "level": "advanced_DIY_or_specialist_with_locking_tools",
+          "work": "Saab WIS documents replaceable toothed belt/tensioner/rollers with engine mount access and multiple KM-800 locking tools; preventative work requires confirmed compatible kit and competence",
+          "requires": [
+            "MY/VIN matching, cam/crank timing locks, full timing procedure and tooling"
+          ]
+        },
+        {
+          "level": "engine_specialist_or_replacement",
+          "work": "Proven contact/timing-loss valve damage or major low compression needs head/engine assessment, not assumed simple belt-only repair",
+          "requires": [
+            "qualified mechanical exam and written complete repair estimate"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_if_belt_and_compression_documented",
+        "when_damage_confirmed": "walk_away_if_internal_damage_outside_budget",
+        "when_testing_unavailable": "hold_high_risk_without_belt_history_or_mechanical_evidence"
+      },
+      "evidence_limits": [
+        "B308E camshaft is toothed-belt driven, unlike timing-chain four cylinders; no universal belt change interval has been inferred",
+        "2002 compression spread <=2 bar in factory data is not a universal absolute compression specification",
+        "P0300 alone does not prove head or belt damage"
+      ],
+      "unknowns": [
+        "original full 1999–2003 US service belt replacement schedule and build-specific parts, mechanical compression and actual belt history"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-017",
+      "name": "Original 9-3 9400 AF20/AF22 four-speed selector, fluid, solenoid versus internal slip",
+      "system": "transmission",
+      "applicability": {
+        "platforms": [
+          "9400"
+        ],
+        "automatic_gears": [
+          4
+        ],
+        "model_year_range_by_platform": {
+          "9400": [
+            1999,
+            2002
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "us-lgy-wis-9400-2001-at-mech",
+        "us-lgy-wis-9400-2001-at-level",
+        "us-lgy-wis-9400-2001-at-sol"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "CHECK GEARBOX",
+          "no gear engagement",
+          "no upshift or rough shifting",
+          "P0753 or P0758 where verified"
+        ],
+        "next_evidence": [
+          "read TCM codes with correct diagnostics and retain freeze-frame history without resets",
+          "identify AF20 versus AF22 via gearbox casing/VIN; verify selector sensor and wiring",
+          "if safe and runnable, examine correct-year ATF condition/level at required controlled temperature",
+          "if gear ratio/slip or internal failure remains, get specialist hydraulic/mechanical evaluation"
+        ],
+        "safe_to_operate_if_suspected": null
+      },
+      "repair_options": [
+        {
+          "level": "advanced_DIY_or_Saab_automatic_specialist",
+          "work": "Saab MY2001 procedure differentiates selector/wiring, fluid and S1/S2 solenoid faults; some components may be separately repaired following vehicle-specific checks",
+          "requires": [
+            "read-only Tech2, electrical tools, correct ATF and safe fluid procedure"
+          ]
+        },
+        {
+          "level": "specialist_replacement_not_simple_DIY",
+          "work": "WIS branches call for full gearbox change when pump, clutch, band, freewheel or internal hydraulic mechanical damage confirmed",
+          "requires": [
+            "exact AF20/AF22 gearbox identifier, lift and quote"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_if_electrical_or_level_fault_objectively_confirmed",
+        "when_damage_confirmed": "walk_away_or_complete_gearbox_swap_quote_for_internal_damage",
+        "when_testing_unavailable": "unknown_do_not_assume_solenoid_only"
+      },
+      "evidence_limits": [
+        "2001 WIS exemplar is not direct evidence of identical 1999/2000/2002 hardware or shift-control revisions",
+        "AF20/AF22 family is unresolved at each of 11 production groups; five-speed FA57/AF40 procedures must not be substituted",
+        "Do not attempt full-throttle stall tests on uninspected nonrunner"
+      ],
+      "unknowns": [
+        "year/VIN case identifier, transmission electronics/software and actual fluid/mechanical condition, donor interchange and cost"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-018",
+      "name": "Original 9-5 9600 AF30 four-speed electrical/range sensor versus hydraulic slip",
+      "system": "transmission",
+      "applicability": {
+        "platforms": [
+          "9600"
+        ],
+        "automatic_gears": [
+          4
+        ],
+        "model_year_range_by_platform": {
+          "9600": [
+            1999,
+            2001
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "us-lgy-wis-9600-2000-af30-mech",
+        "us-lgy-wis-9600-2000-af30-p0705",
+        "us-lgy-wis-9600-2000-af30-p0730",
+        "us-lgy-wis-9600-2000-af30-level"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "CHECK GEARBOX",
+          "P0705 or P0730",
+          "no D/R drive",
+          "slipping or harsh shift"
+        ],
+        "next_evidence": [
+          "identify actual AF30 type case and VIN, check original DTC subcodes and history",
+          "P0705: Saab requires selector input and harness short-circuit checks before sensor replacement",
+          "P0730: assess actual ratio/speed evidence and input/output speed sensor plausibility before condemning hardware",
+          "if safe/roadworthy, specialist controlled MY-specific hot fluid/pressure diagnosis; never stall-test a questionable nonrunner"
+        ],
+        "safe_to_operate_if_suspected": null
+      },
+      "repair_options": [
+        {
+          "level": "advanced_DIY_or_Saab_transmission_specialist",
+          "work": "Selector sensor circuit/wiring, solenoids, verified fluid level may have service paths without complete replacement",
+          "requires": [
+            "Tech2, proper DTC tests, 4AT fluid service procedure and safe lift"
+          ]
+        },
+        {
+          "level": "major_transmission_replacement_outside_project_scope",
+          "work": "WIS mechanical/hydraulic table distinguishes irreversible pump, internal clutch/band, torque converter, valve housing issues requiring gearbox replacement in some outcomes",
+          "requires": [
+            "verified case type and complete swap estimate"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_after_correct_TCM_and_electrical_fluid_diagnosis",
+        "when_damage_confirmed": "walk_away_or_cost_complete_swap_if_real_internal_slip",
+        "when_testing_unavailable": "unverified_transmission_unknown_not_easy_fix"
+      },
+      "evidence_limits": [
+        "P0705 does not certify low-cost range sensor; P0730 does not automatically identify internal clutch until other conditions evaluated",
+        "MY2000 WIS example is not full VIN-specific MY1999/2001 calibration or parts authority",
+        "AF30 is not interchangeable with 9-3 AF20/AF22 merely due to four speeds"
+      ],
+      "unknowns": [
+        "exact original year and case-code identification, hydraulic pressure and parts quote"
       ],
       "price_estimate_usd": null,
       "labor_hours_estimate": null,
