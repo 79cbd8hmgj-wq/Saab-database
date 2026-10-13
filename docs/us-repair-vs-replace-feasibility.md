@@ -59,6 +59,29 @@ The numbers above are **source-derived applicable production *configuration grou
 
 This work does **not** update the repository's original 40-domain inventory census or advance Phase 0 Gate A/B/C to completion.
 
+## Quantified *research* gaps across the 110 eligible U.S. configurations
+
+The separately generated [powertrain feasibility gap audit](../data/audits/us-feasibility-powertrain-gaps.json) now measures how much of the U.S. production universe remains **unassessed for major repair scenarios**, without counting missing evidence as either a failure or proof of reliability.
+
+| Source-derived groups | Missing *scenario-specific* research |
+| --- | ---: |
+| No engine-core failure/repair scenario | **24 / 110** |
+| No automatic gearbox failure/repair scenario | **52 / 110** |
+| Neither engine-core nor gearbox repair scenario | **14 / 110** |
+| No dedicated platform structural repair scenario | **12 / 110** |
+
+### Exactly which research is missing
+
+**Engine-core research:** B204L original 9-3 **4 groups**, B284L turbo V6 second-generation 9-3 **6**, B308E V6 original 9-5 **13**, and 2011 new-generation 9-5 `2.0T` (factory A20NFT/LHU candidate awaiting actual VIN) **1**. The B284L six-speed transmission has a fluid-level diagnostic case, but it does **not** substitute for source-backed major V6 mechanical failure differentiation.
+
+**Automatic-transmission research:** Original 9-3 **AF20/AF22** four-speed **11 groups**, original 9-5 **AF30** four-speed **22**, MY2006–11 second-generation 9-3 **FA57** five-speed **18**, and 2011 new 9-5 **AF40** FWD six-speed **1**. Existing FA57 work addresses early cooler/campaign or specific 9-5 issues and should not be silently projected to later model years.
+
+**Structure:** The original 9-3 hatchback **11 groups** and the 2011 new 9-5 **1 group** lack a *model-specific structural repair scenario*; every group still has general brake/fuel safety screening. This is not a pass or fail judgment about rust.
+
+These counts describe **distinct historical production configurations**, not individual vehicles, defects, observed failures, weighted scores, manufacturer-certified completeness, or cars still on the road. A group is considered covered when a source-scoped research decision exists, **not** because the actual vehicle passed any inspection. The detailed unresolved group IDs and factory gearbox-family evidence are retained in the JSON audit.
+
+Suggested research order for our **no-internal-engine-or-gearbox-rebuild** objective: build B308E/B204L/B284L/A20NFT engine-core mechanical triage; build AF20/AF22 and AF30 four-speed triage; extend FA57 to later 9-3 years, then 2011 new 9-5 AF40; separately investigate original 9-3 and new 9-5 load-bearing corrosion. Preserve original manufacturer application, VIN restrictions, diagnostic test criteria, required special tools and realistic repair-versus-complete-replacement quotes. No overall reliability ranking is authorized by these counts.
+
 ## Reproduction
 
 ```sh
