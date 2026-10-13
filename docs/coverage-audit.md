@@ -1,6 +1,6 @@
 # Phase 0 research coverage audit — 31-domain refresh
 
-**Audit basis:** October 13, 2026, 31 datasets including the original Saab USA MY2004–07 VIN and official manufacturer-channel service-kit provenance package. Prior audit baselines are preserved in merged PR history. Earlier audit baselines remain in merged PR history. Earlier 26/27-domain baselines are preserved in merged pull requests. The earlier 26-domain baseline remains preserved in PR #20. This is a census of saved records, **not** an independent rereading of every original Saab source, an estimate of percent complete, or an engineering safety certification. The previous 7-domain baseline is historical and is superseded by this current audit.
+**Audit basis:** October 13, 2026, 31 research datasets. This release adds original Saab Automobile USA MY2004–07 VIN documents and manufacturer-channel conditional service-kit provenance; earlier Phase 0 audit baselines remain in merged pull-request history. This is a census of saved records, **not** an independent recertification of every original Saab source, an estimate of percent complete, or an engineering safety certification. The earlier seven-domain baseline is superseded.
 
 **Living guardrail:** `tools/phase0_audit.py` recalculates all numeric tables from `data/datasets/*.json`. Its checked-in companion `data/phase0-coverage-snapshot.json` is verified by unit tests and `python3 tools/phase0_audit.py --check`. A new research PR must refresh these numbers when datasets change; otherwise CI should fail.
 
