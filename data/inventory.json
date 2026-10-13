@@ -27,6 +27,7 @@
     "priority_brake_hydraulic_safety",
     "priority_nonrunning_purchase_screen",
     "priority_structural_corrosion_inspection",
+    "priority_us_recall_campaign_and_service_wp7_extension",
     "priority_usca_service_recall_baseline_wp7",
     "priority_vehicle_identity_gates",
     "repair_vs_replace_troubleshooting",
@@ -36,24 +37,24 @@
     "vin_gearbox_provenance"
   ],
   "counts": {
-    "sources": 504,
-    "facts": 1003,
-    "issues": 78,
+    "sources": 511,
+    "facts": 1016,
+    "issues": 81,
     "parts": 76,
-    "gaps": 246
+    "gaps": 250
   },
-  "unique_source_urls": 445,
+  "unique_source_urls": 452,
   "retrieval_statuses": {
-    "full_text": 475,
+    "full_text": 482,
     "metadata_only": 8,
     "partial": 3,
     "search_excerpt": 18
   },
   "evidence_statuses": {
-    "documented": 1072,
+    "documented": 1088,
     "inference": 7,
     "supplier_claim": 78
   },
   "research_date": "2026-10-13",
-  "notes": "Phase 0 WP6 initial B235 2008 US/CA emissions/exhaust and fuel/EVAP evidence: primary/main catalytic stages, T7 pre/post O2, purging/leak DTCs, instrumented pressure checks, NY legal restrictions. Factory WIS MY2008 directory cannot prove a particular North American VIN-approved catalyst; uninspected 2008 wagon restriction and structural condition remain unknown. Prior WP5 VIN/service-kit limitations also remain. Phase 0 WP7 initial source-scoped MY2008 US/CA 9-5 annual and mileage service plus historical NHTSA 15-year VIN-recall omission; no candidate VIN or manufacturer recall-service status looked up."
+  "notes": "Phase 0 WP6 initial B235 2008 US/CA emissions/exhaust and fuel/EVAP evidence: primary/main catalytic stages, T7 pre/post O2, purging/leak DTCs, instrumented pressure checks, NY legal restrictions. Factory WIS MY2008 directory cannot prove a particular North American VIN-approved catalyst; uninspected 2008 wagon restriction and structural condition remain unknown. Prior WP5 VIN/service-kit limitations also remain. Phase 0 WP7 initial source-scoped MY2008 US/CA 9-5 annual and mileage service plus historical NHTSA 15-year VIN-recall omission; no candidate VIN or manufacturer recall-service status looked up. WP7 extension preserves NHTSA 16V063 driver inflator, 08V160 9-5 A-pillar, convertible-only 14V318 driver-belt recall, and the original US/CA MY2008 60k versus 70k/5yr ATF schedule discrepancy, with VIN-completion still unverified."
 }
