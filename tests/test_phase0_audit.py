@@ -1,5 +1,6 @@
 """Fail CI when the whole-project Phase 0 census becomes stale or unsafely broad."""
 import json
+import subprocess
 import sys
 import unittest
 from pathlib import Path
@@ -63,6 +64,14 @@ class WholeProjectPhase0AuditTests(unittest.TestCase):
                         self.snapshot["parts_provenance"]["total"])
         self.assertEqual(self.snapshot["counts"]["facts"] + self.snapshot["counts"]["issues"]+
                          self.snapshot["counts"]["parts"],1007)
+
+    def test_reproducible_check_command_passes(self):
+        checked=subprocess.run(
+            [sys.executable,"tools/phase0_audit.py","--check"],
+            cwd=ROOT,capture_output=True,text=True,check=False
+        )
+        self.assertEqual(checked.returncode,0,checked.stdout+"\\n"+checked.stderr)
+        self.assertIn("PASS:",checked.stdout)
 
     def test_no_cross_year_data_leakage_for_grouped_applications(self):
         synthetic=[{"domain":"test_scope",
