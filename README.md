@@ -23,6 +23,8 @@ engines, and platforms.
   documents and what still needs measurements or engineering data.
 - [Research reports](docs/research/): detailed notes from the individual research
   domains, including contradictions and gaps.
+- [Structural rust and underbody-safety inspection zones](docs/research/priority-structural-corrosion-inspection.md):
+  original 9-5 SportCombi rear floor/subframe body mounts, 9-3 CV structural sill, NY inspection criteria and critical brake/fuel line dependencies.
 - [Priority 9-5 / 9-3 identity and chassis worksheets](docs/research/priority-vehicle-identity-gates.md):
   Gate A/C work package 1; physical VIN/gearbox tags, model-year folder conflicts, FA57 vs AF40/F40 and side-specific suspension options without VIN-approved substitutions.
 - [Source-audited VIN, gearbox and WebEPC provenance](docs/research/vin-gearbox-provenance.md):
@@ -65,8 +67,8 @@ engines, and platforms.
   North American specifications, WIS conflicts and source limits.
 - [Datasets](data/datasets/): structured JSON with source IDs and original links.
 
-As of October 13, 2026 the database contains **436 source records, 891 factual
-records, 59 issue records, 74 part records, and 207 explicit gaps** across twenty-seven
+As of October 13, 2026 the database contains **450 source records, 912 factual
+records, 62 issue records, 74 part records, and 215 explicit gaps** across twenty-eight
 research domains. This is not a completeness score.
 See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
 

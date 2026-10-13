@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 436 source records with 396 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 450 source records with 404 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -630,3 +630,24 @@ Dataset: [priority_vehicle_identity_gates](../data/datasets/priority-vehicle-ide
 | `gateac-src-011` | [NG9-3 MY2006 six-speed manual F40 gearbox factory specification](https://saabwisonline.com/9-3-9440/2006/4-transmission/manual-gearbox/6-speed/technical-data/gearbox) | Saab Automobile AB (original factory WIS mirrored by SaabWISOnline) | `full_text` |
 | `gateac-src-012` | [OG9-5 MY2006 VIN, engine serial and gearbox tag identification locations](https://saabwisonline.com/9-5-9600/2006/0-general/general/technical-data/plates-and-labels) | Saab Automobile AB (original factory WIS mirrored by SaabWISOnline) | `full_text` |
 | `gateac-src-013` | [Official Saab WebEPC subscription and VIN/build-filtering capabilities](https://saabparts.com/saab-subscription-services) | Saab Parts / Hedin Parts (official Saab technology subscriptions) | `full_text` |
+
+## priority_structural_corrosion_inspection
+
+Dataset: [priority_structural_corrosion_inspection](../data/datasets/priority-structural-corrosion-inspection.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `rustgate-src-001` | [MY2006 OG 9-5 SportCombi rear-floor section and structural reinforcement](https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/section-of-rear-floor-5d) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
+| `rustgate-src-002` | [MY2006 OG 9-5 rear subframe captive nut piece via floor access](https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/nut-piece-rear-subframe) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
+| `rustgate-src-003` | [MY2006 OG 9-5 part of rear frame member sectioning boundary](https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/part-of-rear-frame-member) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
+| `rustgate-src-004` | [MY2006 OG 9-5 SportCombi side panel partial repair and reinforced C pillar](https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/side-panel-5d-part-of-side-panel) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
+| `rustgate-src-005` | [MY2006 OG 9-5 rear subframe support arm bush service](https://saabwisonline.com/9-5-9600/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/bush-support-arm) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
+| `rustgate-src-006` | [MY2006 OG 9-5 lifting and excluded rear axle/spare-wheel well](https://saabwisonline.com/9-5-9600/2006/8-body/body/technical-data/lifting-and-attachment-points) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
+| `rustgate-src-007` | [MY2008 OG 9-5 US fuel tank and feed/return/vent service safeguards](https://saabwisonline.com/9-5-9600/2008/2-engine/fuel-system-petrol/adjustment-replacement/fuel-tank-us-incl-e85) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
+| `rustgate-src-008` | [MY2006 NG 9-3 rear subframe removal with brake/harness/parking cables](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/subframe) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
+| `rustgate-src-009` | [MY2006 NG 9-3 convertible structural inner sill repair](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/inner-sill-cv) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
+| `rustgate-src-010` | [MY2006 NG 9-3 B207 fuel tank and fuel-line check](https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/fuel-system/adjustment-replacement/fuel-tank-and-fuel-lines-check) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
+| `rustgate-src-011` | [MY2006 NG 9-3 B207 fuel line underbody route / subframe clearance](https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/fuel-system/adjustment-replacement/fuel-lines-tank-engine-bay) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
+| `rustgate-src-012` | [New York DMV passenger vehicle safety, chassis, brake and fuel leak inspection standards](https://dmv.ny.gov/new-york-state-vehicle-safetyemissions-inspection-program) | New York State Department of Motor Vehicles | `full_text` |
+| `rustgate-src-013` | [MY2006 OG 9-5 front subframe petrol engine assembly and body-mount dependencies](https://saabwisonline.com/9-5-9600/2006/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-petrol-engines) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
+| `rustgate-src-014` | [MY2006 NG 9-3 convertible centre sill repair and corrosion protection](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/centre-sill-cv) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
