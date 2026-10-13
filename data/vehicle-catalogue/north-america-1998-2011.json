@@ -199,6 +199,36 @@
         "US"
       ],
       "notes": "Explicit 1999 3-door HB automatic 4-speed FWD 185 hp; US trim list includes 5-door automatic. Exact engine-code B-series must not be guessed."
+    },
+    {
+      "id": "na-cat-s18",
+      "title": "Saab USA 2006 9-5 North American debut and automatic transmission pricing",
+      "url": "https://www.theautochannel.com/news/2005/11/05/147544.html",
+      "origin": "Saab USA manufacturer's MY2006 launch press release",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "US 2006 9-5 sedan and SportCombi; 2.3T 260hp and optional 5-speed Sentronic automatic for both; MY2006 facelift not new-generation 650."
+    },
+    {
+      "id": "na-cat-s19",
+      "title": "Road & Track 2006 Saab 9-3 SportCombi first drive",
+      "url": "https://www.roadandtrack.com/new-cars/first-drives/reviews/a11133/2006-saab-9-3-sportcombi/",
+      "origin": "US automotive period road test",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "US market 2006 9-3 SportCombi FWD automatic 5-speed 2.0 and 6-speed V6 Aero, independently supports Saab pricing press; no VIN fitment."
+    },
+    {
+      "id": "na-cat-s20",
+      "title": "MotorWeek 2006 Saab 9-3 and 9-5 SportCombi road tests",
+      "url": "https://motorweek.org/road_tests/2006_saab_9-3_sportcombi/",
+      "origin": "US period road test",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "2006 Saab 9-3 SportCombi 2.8 V6 automatic and original 9-5 SportCombi 2.3T automatic FWD corroboration."
     }
   ],
   "model_year_screening": [
@@ -287,9 +317,13 @@
       "model": "9-3",
       "model_year": 2006,
       "platform_for_screening": "9440",
-      "us_status": "unassessed",
+      "us_status": "at_least_one_candidate_documented",
       "canada_status": "unassessed",
-      "documented_configuration_ids": [],
+      "documented_configuration_ids": [
+        "na-2006-93-20t-combi-at",
+        "na-2006-93-aero-combi-at",
+        "na-2006-93-aero-sedan-at"
+      ],
       "coverage_complete": false
     },
     {
@@ -419,9 +453,12 @@
       "model": "9-5",
       "model_year": 2006,
       "platform_for_screening": "9600",
-      "us_status": "unassessed",
+      "us_status": "at_least_one_candidate_documented",
       "canada_status": "unassessed",
-      "documented_configuration_ids": [],
+      "documented_configuration_ids": [
+        "na-2006-95-23t-sedan-at",
+        "na-2006-95-23t-wagon-at"
+      ],
       "coverage_complete": false
     },
     {
@@ -708,6 +745,109 @@
       ],
       "evidence_status": "secondary_supported_complete_configuration",
       "notes": "Candidate exists in listed market; individual VIN, gearbox code, production variant, condition and purchase suitability remain unverified."
+    },
+    {
+      "id": "na-2006-93-20t-combi-at",
+      "model": "9-3",
+      "model_year": 2006,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_label": "2.0L 210-hp 2.0T turbo",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s08",
+        "na-cat-s19"
+      ],
+      "evidence_status": "manufacturer_US_pricing_confirmed",
+      "notes": "Saab MY2006 SportCombi 2.0T offered optional five-speed Sentronic automatic; original VIN/assembly codes not supplied by this source."
+    },
+    {
+      "id": "na-2006-93-aero-combi-at",
+      "model": "9-3",
+      "model_year": 2006,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_label": "2.8L 250-hp Aero turbo V6",
+      "engine_code": null,
+      "automatic_gears": 6,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s08",
+        "na-cat-s19"
+      ],
+      "evidence_status": "manufacturer_US_pricing_confirmed",
+      "notes": "Optional six-speed Sentronic automatic. Source includes manual alternative but this record is only automatic."
+    },
+    {
+      "id": "na-2006-93-aero-sedan-at",
+      "model": "9-3",
+      "model_year": 2006,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "2.8L 250-hp Aero turbo V6",
+      "engine_code": null,
+      "automatic_gears": 6,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s08"
+      ],
+      "evidence_status": "manufacturer_US_pricing_confirmed",
+      "notes": "Original Saab USA 2006 pricing lists Aero Sport Sedan optional six-speed Sentronic automatic; FWD is historical model layout, not an individual inspection."
+    },
+    {
+      "id": "na-2006-95-23t-sedan-at",
+      "model": "9-5",
+      "model_year": 2006,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_label": "2.3L 260-hp 2.3T turbo",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s18"
+      ],
+      "evidence_status": "manufacturer_US_pricing_confirmed",
+      "notes": "Facelifted original 9-5 sedan, optional five-speed Sentronic automatic; actual engine/transmission codes await original VIN/assembly sources."
+    },
+    {
+      "id": "na-2006-95-23t-wagon-at",
+      "model": "9-5",
+      "model_year": 2006,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_label": "2.3L 260-hp 2.3T turbo",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s18",
+        "na-cat-s20"
+      ],
+      "evidence_status": "manufacturer_US_pricing_confirmed",
+      "notes": "Facelifted original 9-5 SportCombi, optional five-speed Sentronic automatic; verified trim option, not an individual vehicle."
     }
   ],
   "explicit_exclusions": [
