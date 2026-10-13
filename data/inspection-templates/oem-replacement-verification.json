@@ -1,0 +1,98 @@
+{
+  "template_version": "1.0.0",
+  "purpose": "Blank manufacturer OEM replacement verification intake. NOT an approval or vehicle simulator.",
+  "vehicle_identity": null,
+  "replacement_proposals": [],
+  "allowed_decisions": [
+    "evidence_missing",
+    "original_sku_identified",
+    "conditional_service_kit_documented",
+    "approved_replacement_supported_with_conditions",
+    "supplier_candidate_not_verified",
+    "not_compatible_as_documented",
+    "specialist_required"
+  ],
+  "never_assume": [
+    "original VIN code proves installed engine/transmission still original",
+    "similar dimensions imply safety or electrical fitment",
+    "part kit equals complete assembly",
+    "supplier cross-reference equals Saab OEM supersession",
+    "manufacturer supersession is automatically bidirectional",
+    "production serial VIN cutoff equals a replacement part number",
+    "software or immobilizer module needs no programming",
+    "same chassis-option classification means same left/right SKU"
+  ],
+  "required_fields": [
+    {
+      "id": "vehicle_vin",
+      "description": "Full actual VIN privately and method verified against stamped body and official year code",
+      "default": null
+    },
+    {
+      "id": "target_market",
+      "description": "US or CA factory market and homologation, not assembly country",
+      "default": null
+    },
+    {
+      "id": "installed_engine_gearbox",
+      "description": "Exact physical engine code/serial, gearbox stamping and donor/replacement history",
+      "default": null
+    },
+    {
+      "id": "component_category",
+      "description": "Function, subsystem and OEM drawing position",
+      "default": null
+    },
+    {
+      "id": "installed_old_part_number",
+      "description": "Visible original part number, casting and revision/production marks",
+      "default": null
+    },
+    {
+      "id": "official_oem_epc_source",
+      "description": "Saab WebEPC per-VIN authorized lookup page/illustration locator and access date",
+      "default": null
+    },
+    {
+      "id": "manufacturer_original_sku",
+      "description": "Original Saab manufacturer part for that VIN and option",
+      "default": null
+    },
+    {
+      "id": "successor_sku_direction_and_reason",
+      "description": "Explicit old to new forward relation or conditional service kit",
+      "default": null
+    },
+    {
+      "id": "production_market_body_option_limits",
+      "description": "Build cutoffs, engine, transmission, body type, position/side and US/Canada market restrictions",
+      "default": null
+    },
+    {
+      "id": "hardware_and_interface_dependencies",
+      "description": "Bolts/fastener revisions, seals, brackets, dimension/clearance and service prerequisites",
+      "default": null
+    },
+    {
+      "id": "software_pairing_dependencies",
+      "description": "TCM/ECU/ISM/TWICE programming and keys/security restrictions",
+      "default": null
+    },
+    {
+      "id": "installation_quality_checks",
+      "description": "Source-backed post-install safety/calibration/leak/fit checks",
+      "default": null
+    },
+    {
+      "id": "independent_condition",
+      "description": "Physical old/new part condition, deterioration and qualified inspection outcome",
+      "default": null
+    },
+    {
+      "id": "decision_evidence_links",
+      "description": "Exact original source link(s), page/locator and verification dates",
+      "default": null
+    }
+  ],
+  "sample_case_note": "Official Saab 9-3 12801010 to 32021815 is a conditional reuse-old-black-slider kit, not drop-in full module. Template remains blank for any actual VIN."
+}
