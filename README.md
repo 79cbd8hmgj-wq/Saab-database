@@ -10,7 +10,7 @@ engines, and platforms.
 
 ## Start here
 
-- [Phase 0 coverage audit](docs/coverage-audit.md): **current 32-domain** evidence census, platform/model-year coverage and status of inspection, subsystem and interchange readiness gates.
+- [Phase 0 coverage audit](docs/coverage-audit.md): **current 34-domain** evidence census, platform/model-year coverage and status of inspection, subsystem and interchange readiness gates.
 - [MY2008 9-5 US/CA original service schedule and historic recall-status caveats](docs/research/priority-usca-service-recall-baseline-wp7.md): source-backed maintenance checks; NHTSA VIN lookup excludes most >15-year-old recalls, so an apparent zero does not clear historic Saab campaigns.
 - [Phase 0 closure plan](docs/gap-closure-plan.md): prioritized blocker-driven work for vehicle identity, rust, brakes, high-cost no-running diagnostics and manufacturer fitment.
 - [Reproducible Phase 0 snapshot](data/phase0-coverage-snapshot.json): machine-derived baseline checked against all datasets on every CI run.
@@ -38,6 +38,8 @@ engines, and platforms.
   two converter stages, oxygen sensor locations, EVAP and fuel-differential checks, NY legal replacement restrictions and unresolved 2008 wagon diagnosis.
 - [Original US/Canada Saab service and historical safety recall campaigns](docs/research/priority-usca-service-recall-baseline-wp7.md):
   factory MY2008 9-5 maintenance, NHTSA 15-year lookup gap, 08V160 9-5 trim, 16V063 airbag and 14V318/Canadian convertible seatbelts; VIN-specific status remains unverified.
+- [Cross-manufacturer replacement pilot: Saab/Opel/Fiat shared hub and front pads](docs/research/cross-manufacturer-interchange-pilot.md):
+  source-gated candidate SKUs, donor-brand catalogue claims, and unresolved physical/electrical/ABS/brake-option checks; contrasts Saab-specific Nissens radiator and an older PCV false positive.
 - [Original Saab USA VIN and conditional parts-kit provenance](docs/research/official-us-vin-service-kit-provenance.md):
   dated US MY2004–07 9-5/9-3 code tables, the 12801010 to conditional 32021815 ISM kit conversion and explicit 2008–09 OEM fitment gaps.
 - [Blank OEM replacement-evidence verification worksheet](data/inspection-templates/oem-replacement-verification.json):
