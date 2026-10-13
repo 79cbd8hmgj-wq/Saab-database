@@ -1,8 +1,8 @@
-# North American Saab automatic-FWD model catalogue — first verified batch (2026-10-13)
+# North American Saab automatic-FWD model catalogue — incremental researched catalogue (2026-10-13)
 
-**Scope:** Saab 9-3 and 9-5, MY1998–2011 inclusive, original US/Canadian market only, **factory automatic only**, **FWD only**, **nonconvertibles**. European-only models, manual-only variants, XWD/AWD and 9-3X are not eligible. This is the first **partial** research batch; it does not claim exhaustive model-year or trim completeness.
+**Scope:** Saab 9-3 and 9-5, MY1998–2011 inclusive, original US/Canadian market only, **factory automatic only**, **FWD only**, **nonconvertibles**. European-only models, manual-only variants, XWD/AWD and 9-3X are not eligible. This is a **partial** research catalogue; it does not claim exhaustive model-year or trim completeness.
 
-The machine-readable companion [initial NA model-year screening and evidence records](../data/vehicle-catalogue/north-america-1998-2011.json) contains **28 model/year screening rows**, **16 sourced example configurations**, **20 source references** and **6 source-grounded exclusions/cautions**. Screening rows with missing evidence remain `unassessed`; there is no invented availability or reliability score. US and Canada are checked separately.
+The machine-readable companion [initial NA model-year screening and evidence records](../data/vehicle-catalogue/north-america-1998-2011.json) contains **28 model/year screening rows**, **36 sourced example configurations**, **35 source references** and **11 source-grounded exclusions/cautions**. Screening rows with missing evidence remain `unassessed`; there is no invented availability or reliability score. US and Canada are checked separately.
 
 ## Confirmed candidate examples (NOT a complete trim list)
 
@@ -19,6 +19,30 @@ The machine-readable companion [initial NA model-year screening and evidence rec
 | US | 2006 | 9-3 9440 | 2.0T SportCombi | 2.0L 210-hp turbo | 5-speed | Saab USA 2006 factory pricing |
 | US | 2006 | 9-3 9440 | Aero SportCombi/sedan | 2.8L 250-hp V6 turbo | 6-speed | Saab USA 2006 factory pricing |\n| US | 2006 | 9-5 9600 | 2.3T sedan/SportCombi | 2.3L 260-hp turbo | 5-speed | Saab USA 2006 factory pricing |\n| US | 2011 | 9-5 650 | Turbo4 sedan | 2.0L 220-hp turbo | 6-speed | US MY2011 trim listing + period launch analysis |
 | Canada | 2011 | 9-5 650 | Turbo4 sedan | 2.0L turbo | 6-speed | Canadian 2011 model specification/price listing |
+
+## Research batch 2: 2008–2011 automatic FWD configurations
+
+The 2011 **Saab USA factory model/option matrices** are the strongest new evidence (2011 *Brand and Range*, physical brochure pp. 76–83, PDF pages 38, 40–41). These provide **engine + body + FWD + transmission** pairings directly instead of mixing equipment from different trims. Lower-confidence rows continue to cite separate contemporary American/Canadian trim sources. All lines below describe known configuration families; their coverage is **not exhaustive**.
+
+| Market | MY | Model/platform | Eligible factory automatic configurations identified | Source strength |
+|---|---:|---|---|---|
+| US | 2008 | 9-3 / 9440 | 2.0T 210-hp five-speed auto sedan/wagon; Aero **255-hp 2.8T V6 FWD** six-speed auto sedan/wagon | Historical U.S. model review; original sales brochure still desirable |
+| CA | 2008 | 9-3 / 9440 | Aero sedan six-speed auto FWD; 9-3 SportCombi five-speed auto FWD | Canadian trim-specific historical listings |
+| US | 2008 | 9-5 / 9600 | 260-hp 2.3T five-speed auto sedan and SportCombi | U.S. trim-specific listings |
+| US | 2009 | 9-5 / 9600 | 260-hp 2.3T five-speed auto sedan and SportCombi | Original U.S. Griffin brochure plus U.S. trims |
+| US | 2010 | 9-3 / 9440 | 2.0T/Aero **210-hp 2.0L four-cylinder** five-speed auto FWD Sport Sedan and SportCombi | Saab North America lineup announcement + period gearbox specifications |
+| US | 2011 | 9-3 / 9440 | Turbo4/Aero **210-hp 2.0L four-cylinder** five-speed auto FWD Sport Sedan and SportCombi | **Original Saab USA factory model/option matrix** |
+| CA | 2011 | 9-3 / 9440 | Turbo4 SportCombi 210-hp five-speed auto FWD | Canadian trim/price listing; factory Canadian chart pending |
+| US | 2011 | 9-5 / 650 | Turbo4 220-hp six-speed auto FWD (optional), Turbo4 Premium 220-hp six-speed auto FWD (standard) | **Original Saab USA factory model/option matrix** |
+| CA | 2011 | 9-5 / 650 | Turbo4 six-speed auto FWD sedan | Canadian trim/price listing |
+
+**Important year boundaries:** 2008 Aero FWD 9-3 used the V6 as shown in the U.S. review, but **2010–11 Aero FWD 9-3 used the four-cylinder**. The 2011 U.S. **Turbo6 XWD / Aero XWD 9-5** and **9-3X XWD** do not qualify. A badge or model designation is not enough to infer powertrain compatibility.
+
+**Canadian source contradiction:** A Canadian 2008 Turbo X automatic wagon trim listing surprisingly marks its drivetrain *FWD* even though contemporary documentation describes Turbo X as XWD/AWD. We have **not** added it as a candidate. Both references are recorded with an explicit contradiction and a Canadian Saab factory-proof requirement (`na-ex-11`). A misleading seller/catalogue drivetrain label must not override factory physical identification.
+
+## Remaining market coverage
+
+The 28 model/year screening entries track **U.S. and Canada independently**, and **every row remains incomplete** until actual original manufacturer model-year equipment lists cover each eligible powertrain/body combination (or establish its absence). Configuration IDs are research candidates only; no source-count or reliability score is generated.
 
 ## Verified pitfalls / exclusions
 
