@@ -81,10 +81,10 @@ def render_census(snapshot: dict) -> str:
         "| --- | ---: |",
     ]
     for label in ("full_text", "partial", "search_excerpt", "metadata_only"):
-        lines.append(f"| \`{label}\` | {snapshot['retrieval_statuses'].get(label, 0)} |")
+        lines.append(f"| `{label}` | {snapshot['retrieval_statuses'].get(label, 0)} |")
     lines.extend(["", "| Technical evidence | Facts + issues + parts |", "| --- | ---: |"])
     for label in ("documented", "supplier_claim", "inference"):
-        lines.append(f"| \`{label}\` | {snapshot['evidence_statuses'].get(label, 0)} |")
+        lines.append(f"| `{label}` | {snapshot['evidence_statuses'].get(label, 0)} |")
     lines.extend([
         "",
         "### Explicit application dimensions",
@@ -98,7 +98,7 @@ def render_census(snapshot: dict) -> str:
     ])
     denom = sum(counts[k] for k in KINDS)
     for label in SCOPE_FIELDS:
-        lines.append(f"| \`{label}\` | {snapshot['explicit_scope_counts'][label]} / {denom} |")
+        lines.append(f"| `{label}` | {snapshot['explicit_scope_counts'][label]} / {denom} |")
     lines.extend([
         "",
         "### Factory-source record coverage by original Saab model year",
@@ -145,7 +145,7 @@ def render_census(snapshot: dict) -> str:
     ])
     for name, row in snapshot["domain_counts"].items():
         lines.append(
-            f"| \`{name}\` | {row['sources']} | {row['facts']} | {row['issues']} | "
+            f"| `{name}` | {row['sources']} | {row['facts']} | {row['issues']} | "
             f"{row['parts']} | {row['gaps']} |"
         )
     lines.extend(["", END])
