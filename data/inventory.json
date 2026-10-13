@@ -10,6 +10,7 @@
     "og95",
     "og95_2006_2008",
     "og95_body",
+    "og95_ground_power_0709",
     "og95_structure",
     "og95_t7_cooling_0709",
     "og95_t7_electrical",
@@ -18,24 +19,24 @@
     "subframe_parts_brake_lines"
   ],
   "counts": {
-    "sources": 260,
-    "facts": 503,
-    "issues": 27,
+    "sources": 273,
+    "facts": 547,
+    "issues": 29,
     "parts": 55,
-    "gaps": 105
+    "gaps": 111
   },
-  "unique_source_urls": 252,
+  "unique_source_urls": 265,
   "retrieval_statuses": {
-    "full_text": 249,
+    "full_text": 261,
     "metadata_only": 2,
     "partial": 3,
-    "search_excerpt": 6
+    "search_excerpt": 7
   },
   "evidence_statuses": {
-    "documented": 526,
-    "inference": 3,
+    "documented": 570,
+    "inference": 5,
     "supplier_claim": 56
   },
   "research_date": "2026-10-12",
-  "notes": "Factory WIS source-count inventory, not verified vehicle condition, simulation input calibration, interchange proof or statistical failure incidence. MY2008 petrol fan documents contain both 99°C and 100°C low-on wording, retained with locators."
+  "notes": "Factory WIS component-location and selected power/ground data, not verified end-to-end electrical continuity, fitted-part interchange, measured car condition, or failure incidence. MY2009 +30 was reviewed as search excerpt only. Earlier 2008 petrol cooling fan threshold wording 99°C versus 100°C is unresolved."
 }

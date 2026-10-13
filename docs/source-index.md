@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 260 source records with 252 distinct
+Research retrieval date: 2026-10-12. There are 273 source records with 265 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -370,3 +370,23 @@ Dataset: [og95_t7_cooling_0709](../data/datasets/og95-t7-cooling-0709.json)
 | `t7cool-src-026` | [MY2008 WIS: Expansion tank level sensor and connector](https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/coolant-level-sensor) | Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline) | `full_text` |
 | `t7cool-src-027` | [MY2008 WIS: Four-cylinder coolant circuit component list](https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-description/cooling-system-diagram-4-cyl) | Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline) | `full_text` |
 | `t7cool-src-028` | [MY2009 WIS: 2009 Trionic 7 fuel-pump relay electrical behavior](https://saabwisonline.com/9-5-9600/2009/2-engine/trionic-t7-4-cyl/technical-description/fuel-pump-relay) | Saab Automobile AB (manufacturer source mirrored by independent SaabWISOnline) | `full_text` |
+
+## og95_ground_power_0709
+
+Dataset: [og95_ground_power_0709](../data/datasets/og95-ground-power-0709.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `og95wire-src-001` | [MY2007 WIS: Grounding points](https://saabwisonline.com/9-5-9600/2007/3-electrical-system/wiring-harness/technical-description/grounding-points) | Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline) | `full_text` |
+| `og95wire-src-002` | [MY2008 WIS: Grounding points](https://saabwisonline.com/9-5-9600/2008/3-electrical-system/wiring-harness/technical-description/grounding-points) | Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline) | `full_text` |
+| `og95wire-src-003` | [MY2009 WIS: Grounding points](https://saabwisonline.com/9-5-9600/2009/3-electrical-system/wiring-harness/technical-description/grounding-points) | Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline) | `full_text` |
+| `og95wire-src-004` | [MY2007 WIS: System overview](https://saabwisonline.com/9-5-9600/2007/3-electrical-system/wiring-harness/technical-description/system-overview) | Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline) | `full_text` |
+| `og95wire-src-005` | [MY2008 WIS: System overview](https://saabwisonline.com/9-5-9600/2008/3-electrical-system/wiring-harness/technical-description/system-overview) | Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline) | `full_text` |
+| `og95wire-src-006` | [MY2007 WIS: Radiator fans, petrol](https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/wiring-diagram/radiator-fans-petrol) | Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline) | `full_text` |
+| `og95wire-src-007` | [MY2008 WIS: Radiator fans, petrol](https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/wiring-diagram/radiator-fans-petrol) | Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline) | `full_text` |
+| `og95wire-src-008` | [MY2009 WIS: Radiator fans, petrol](https://saabwisonline.com/9-5-9600/2009/2-engine/cooling-system/wiring-diagram/radiator-fans-petrol) | Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline) | `full_text` |
+| `og95wire-src-009` | [MY2007 WIS: Trionic T7 wiring, part 2 of 4](https://saabwisonline.com/9-5-9600/2007/3-electrical-system/wiring-harness/wiring-diagram/trionic-t7-engine-management-system-4-cyl-part-2-4) | Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline) | `full_text` |
+| `og95wire-src-010` | [MY2008 WIS: Trionic T7 wiring, part 2 of 4](https://saabwisonline.com/9-5-9600/2008/3-electrical-system/wiring-harness/wiring-diagram/trionic-t7-engine-management-system-4-cyl-part-2-4) | Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline) | `full_text` |
+| `og95wire-src-011` | [MY2009 WIS: Trionic T7 wiring, part 4 of 4](https://saabwisonline.com/9-5-9600/2009/3-electrical-system/wiring-harness/wiring-diagram/trionic-t7-engine-management-system-4-cyl-part-4-4) | Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline) | `full_text` |
+| `og95wire-src-012` | [MY2009 WIS: Power supply +30, part 1 of 2](https://saabwisonline.com/9-5-9600/2009/3-electrical-system/wiring-harness/wiring-diagram/power-supply-30-part-1-2) | Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline) | `search_excerpt` |
+| `og95wire-src-013` | [MY2009 WIS: Power supply +54](https://saabwisonline.com/9-5-9600/2009/3-electrical-system/wiring-harness/wiring-diagram/power-supply-54) | Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline) | `full_text` |
