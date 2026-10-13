@@ -36,6 +36,8 @@ engines, and platforms.
   Gate A/C work package 1; physical VIN/gearbox tags, model-year folder conflicts, FA57 vs AF40/F40 and side-specific suspension options without VIN-approved substitutions.
 - [Initial North American MY2008 B235 exhaust, fuel and EVAP research](docs/research/og95-north-american-exhaust-fuel-wp6.md):
   two converter stages, oxygen sensor locations, EVAP and fuel-differential checks, NY legal replacement restrictions and unresolved 2008 wagon diagnosis.
+- [Historical US Saab recalls and conflicting MY2008 9-5 ATF intervals](docs/research/priority-us-recall-campaign-wp7-extension.md):
+  NHTSA 16V063 inflator, 08V160 A-pillar, convertible-only 14V318 driver retractor and conflicting 60k/70k US/CA ATF recommendations; exact VIN action remains unknown.
 - [Original Saab USA VIN and conditional parts-kit provenance](docs/research/official-us-vin-service-kit-provenance.md):
   dated US MY2004–07 9-5/9-3 code tables, the 12801010 to conditional 32021815 ISM kit conversion and explicit 2008–09 OEM fitment gaps.
 - [Blank OEM replacement-evidence verification worksheet](data/inspection-templates/oem-replacement-verification.json):
