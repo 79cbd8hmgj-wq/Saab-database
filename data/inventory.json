@@ -12,6 +12,7 @@
     "ng93_structure",
     "og95",
     "og95_2006_2008",
+    "og95_atf_thermal_turbo_bulletin",
     "og95_body",
     "og95_cooling_service_2006_2009",
     "og95_ground_power_0709",
@@ -26,24 +27,24 @@
     "vin_gearbox_provenance"
   ],
   "counts": {
-    "sources": 382,
-    "facts": 778,
-    "issues": 48,
-    "parts": 72,
-    "gaps": 174
+    "sources": 396,
+    "facts": 806,
+    "issues": 51,
+    "parts": 74,
+    "gaps": 183
   },
-  "unique_source_urls": 347,
+  "unique_source_urls": 361,
   "retrieval_statuses": {
-    "full_text": 365,
-    "metadata_only": 3,
+    "full_text": 376,
+    "metadata_only": 5,
     "partial": 3,
-    "search_excerpt": 11
+    "search_excerpt": 12
   },
   "evidence_statuses": {
-    "documented": 815,
+    "documented": 848,
     "inference": 5,
     "supplier_claim": 78
   },
   "research_date": "2026-10-12",
-  "notes": "New high-cost repair-vs-replace research distinguishes MY2007 petrol turbo underboost/loose rod clip and controlled bypass/leak testing; MY2002–04 OG9-5 FA57 shift bulletin is NOT extended to 2005–09; MY2007 ATF has two different access methods (both at 80C), MY2007 P0748/P0722 electrical DTCs versus MY2006 P0730 wrong ratio, and external 2007/08 cooling checks cannot prove head-gasket condition. Two source pages remain excerpt-only; no VIN-approved part substitutions."
+  "notes": "MY2008 9-5 FA57 ATF NTC signal, 128/135/145/155C protection/overheat thresholds and MY2008/09 selector/output-speed DTCs independently sourced. Turbo clip bulletin 291-2317 from January 2002 is explicitly non-US/CA B205E/B235E; prior 2007 WIS directory-derived broad scope corrected in previous triage domain. Original MY2008 axial/radial shaft-play values remain unreadable metadata and never inferred."
 }

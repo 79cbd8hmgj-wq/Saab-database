@@ -1,12 +1,14 @@
 # High-cost fault triage: turbo underboost, FA57 shifting, overheating (original 9-5)
 
-Research date **2026-10-12**. Database scope: original 9-5 (9600) petrol four-cylinder and five-speed automatic, with model-year limits **per source**. This is not a simulator, failure-probability model, repair authorization, or parts-fitment approval. Never test-drive a smoking/knocking/overheating car to force a diagnostic reading.
+Research date **2026-10-12**.
+
+**Scope correction (factory bulletin reviewed later):** The turbo/wastegate retaining clip example is based on Saab **bulletin 291-2317, January 2002, non-US/Canada, B205E/B235E only**. Its presence in a 2007 WIS mirror folder does not establish that the campaign applies to a 2007 model-year car or US/Canada B235R. See [the corrected turbo bulletin and ATF temperature report](og95-atf-thermal-turbo-bulletin.md). Database scope: original 9-5 (9600) petrol four-cylinder and five-speed automatic, with model-year limits **per source**. This is not a simulator, failure-probability model, repair authorization, or parts-fitment approval. Never test-drive a smoking/knocking/overheating car to force a diagnostic reading.
 
 ## Decision logic for inexpensive project cars
 
 | Seller symptom | Lower-cost cause to rule out first | Factory evidence | When serious damage remains a possibility |
 | --- | --- | --- | --- |
-| Weak turbo boost, rattle, possibly P1105 | Wastegate rod E-clip comes off on some cars; leaking charge-air hose or bypass diaphragm | [2007 fault symptom](https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/fault-diagnosis-fault-symptoms/low-engine-power-output-little-movement-on-the-turbo-pressure-gauge-and-rattling-from-the-turbocharger) (indexed **excerpt only**); [bypass valve test](https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/adjustment-replacement/checking-the-charge-air-bypass-valve-4-cyl) | Actual shaft or compressor damage, severe oil-smoke source, no oil feed; requires independent tests |
+| Weak turbo boost, rattle, possibly P1105 | **Non-US/CA B205E/B235E only** for 2002 wastegate clip bulletin; other cars still need independent hose/diaphragm/boost diagnosis | [2007-indexed fault symptom](https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/fault-diagnosis-fault-symptoms/low-engine-power-output-little-movement-on-the-turbo-pressure-gauge-and-rattling-from-the-turbocharger) (indexed **excerpt only**); [bypass valve test](https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/adjustment-replacement/checking-the-charge-air-bypass-valve-4-cyl) | Actual shaft or compressor damage, severe oil-smoke source, no oil feed; requires independent tests |
 | MY2002–03 hard shift, delayed P-D, 2–3 flare | B4 servo cover, faulty/slow valve body, TCM software/adaptation, fluid quality, speed sensor or wiring depending on symptom | [TSB 440-2497](https://saabwisonline.com/9-5-9600/2003/4-transmission/automatic-transmission/bulletins-si-mi/440-2497-general-fault-diagnosis-for-automatic-transmission) | Continued slipping/internal hydraulic faults after factory diagnostic sequence |
 | MY2007 CHECK GEARBOX / limp-home | P0748 solenoid electrical circuit, P0722 missing output speed signal, poor ATF condition, wrong gearbox/TCM ID | [P0748](https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0748), [P0722](https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0722) | Verified clutch slip/internal contamination/failed mechanical checks |
 | Coolant loss/temperature rising | Hose, cap, thermostat, grounding near sensor, fans/circuit, radiator leak or improper bleed | [2008 limits](https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-data/temperature-pressure-limits); [2007 thermostat service](https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/adjustment-replacement/thermostat-4-cyl) | Warped head, compromised head gasket, piston/bearing damage from a genuine severe overheat |
@@ -15,7 +17,7 @@ This is a **diagnostic-order guide**. The existence of an inexpensive possible f
 
 ## 1. Turbocharger: the first-movement boost test is not maximum boost
 
-The original [2007 Saab boost actuator adjustment procedure](https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/adjustment-replacement/checking-and-adjusting-basic-charging-pressure) specifies the pressure at which the **wastegate actuator rod just begins to move** using a pressure pump:
+The [2007-indexed Saab boost actuator adjustment procedure](https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/adjustment-replacement/checking-and-adjusting-basic-charging-pressure) specifies the pressure at which the **wastegate actuator rod just begins to move** using a pressure pump:
 
 - Garrett GT17 on B205E / B235E: **0.40 bar**;
 - Mitsubishi unit on B235R: **0.45 bar**;
@@ -24,6 +26,8 @@ The original [2007 Saab boost actuator adjustment procedure](https://saabwisonli
 These are **bench-style actuator test readings**, not peak manifold boost, ECU desired boost or a do-it-yourself tuning recommendation. The 2007 [charge-air bypass diaphragm procedure](https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/adjustment-replacement/checking-the-charge-air-bypass-valve-4-cyl) requires testing whether the valve holds vacuum, then pressure. A damaged diaphragm won't build vacuum. Neither defect proves the turbo shaft itself is ruined.
 
 The independently retrieved [MY2005 charge-air leak test](https://saabwisonline.com/9-5-9600/2005/2-engine/turbocharger-system/adjustment-replacement/test-pressurization-of-the-charge-air-cooler-and-pressure-pipes-4-cyl) describes an **isolated and capped pressure test around 1 bar** with a leak threshold of **more than 0.1 bar loss in 30 seconds**. It explicitly warns against excess pressure damaging hoses and connections. This number is entered for **MY2005 only**. A 2007 car needs its own verified test procedure before anyone treats it as universal.
+
+**Critical:** the wastegate clip case is a January 2002 non-US/CA B205E/B235E bulletin even though it appears under a MY2007 path. No direct US/CA B235R approval was found.
 
 The [2007 T7 turbo/ECU replacement checklist](https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/fault-diagnosis-general/checklist-for-changing-turbocharger-and-engine-control-module) calls for recording diagnostic data and engine/ECU software IDs. We have **search-result excerpt only** for this and for the clip-loss fault page, so neither is marked as fully re-opened evidence.
 

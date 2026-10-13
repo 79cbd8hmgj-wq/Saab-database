@@ -1,0 +1,1309 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "og95_atf_thermal_turbo_bulletin",
+  "sources": [
+    {
+      "id": "afdiag-src-001",
+      "title": "Saab TSB 291-2317 January 2002 low output rattle wastegate clip B205E/B235E non US/CA",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/bulletins-si-mi/291-2317-low-output-and-rattling-from-turbocharger",
+      "source_type": "factory_bulletin",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Scope is original publication/applicability and technical function, not guarantee of car-specific condition."
+    },
+    {
+      "id": "afdiag-src-002",
+      "title": "MY2008 9-5 automatic fluid temperature sensor and overheating programs",
+      "url": "https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-description/transmission-fluid-temperature-sensor",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Scope is original publication/applicability and technical function, not guarantee of car-specific condition."
+    },
+    {
+      "id": "afdiag-src-003",
+      "title": "MY2008 9-5 P0705 transmission range switch input",
+      "url": "https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0705",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Scope is original publication/applicability and technical function, not guarantee of car-specific condition."
+    },
+    {
+      "id": "afdiag-src-004",
+      "title": "MY2009 9-5 P0722 output speed sensor missing",
+      "url": "https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0722",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Scope is original publication/applicability and technical function, not guarantee of car-specific condition."
+    },
+    {
+      "id": "afdiag-src-005",
+      "title": "MY2009 9-5 automatic transmission Read values menu",
+      "url": "https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/fault-diagnosis-general/menu-read-values",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Scope is original publication/applicability and technical function, not guarantee of car-specific condition."
+    },
+    {
+      "id": "afdiag-src-006",
+      "title": "MY2005 9-5 automatic gearbox replacement preparation checklist",
+      "url": "https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/adjustment-replacement/checklist-complete-before-changing-gearbox",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Scope is original publication/applicability and technical function, not guarantee of car-specific condition."
+    },
+    {
+      "id": "afdiag-src-007",
+      "title": "MY2005 9-5 TCM connector electrical measured conditions",
+      "url": "https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/technical-data/test-readings-control-module-connections",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Scope is original publication/applicability and technical function, not guarantee of car-specific condition."
+    },
+    {
+      "id": "afdiag-src-008",
+      "title": "MY2006 9-5 TCM Activate menu and solenoid/adaptation instructions",
+      "url": "https://saabwisonline.com/9-5-9600/2006/4-transmission/automatic-transmission/fault-diagnosis-general/activate-menu",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Scope is original publication/applicability and technical function, not guarantee of car-specific condition."
+    },
+    {
+      "id": "afdiag-src-009",
+      "title": "MY2008 9-5 T7 turbo electronic wastegate PWM controls",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/technical-description/turbo-control",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Scope is original publication/applicability and technical function, not guarantee of car-specific condition."
+    },
+    {
+      "id": "afdiag-src-010",
+      "title": "MY2008 9-5 turbocharger technical data directory showing turbo shaft play page",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/turbocharger-system/technical-data/",
+      "source_type": "factory_manual",
+      "retrieval": "metadata_only",
+      "publisher": "Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "The indexed directory lists the component page but numerical shaft play content was inaccessible; no acceptance number entered."
+    },
+    {
+      "id": "afdiag-src-011",
+      "title": "MY2005 9-5 automatic hydraulic settings controlled pressure and dangerous short stall test",
+      "url": "https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/technical-data/settings",
+      "source_type": "factory_manual",
+      "retrieval": "search_excerpt",
+      "publisher": "Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Search result extract, no independently opened complete source; numerical data not approved for DIY pressure testing."
+    },
+    {
+      "id": "afdiag-src-012",
+      "title": "MY2009 9-5 automatic gearbox joint torque reference",
+      "url": "https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/technical-data/tightening-torques",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Scope is original publication/applicability and technical function, not guarantee of car-specific condition."
+    },
+    {
+      "id": "afdiag-src-013",
+      "title": "MY2009 9-5 automatic transmission electronics system overview",
+      "url": "https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/technical-description/system-overview",
+      "source_type": "factory_manual",
+      "retrieval": "full_text",
+      "publisher": "Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "Scope is original publication/applicability and technical function, not guarantee of car-specific condition."
+    },
+    {
+      "id": "afdiag-src-014",
+      "title": "MY2008 9-5 turbo system technical data and shaft page index",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/turbocharger-system/",
+      "source_type": "factory_manual",
+      "retrieval": "metadata_only",
+      "publisher": "Saab Automobile AB (factory-authored workshop data mirrored on SaabWISOnline)",
+      "accessed_at": "2026-10-12",
+      "notes": "The indexed directory lists the component page but numerical shaft play content was inaccessible; no acceptance number entered."
+    }
+  ],
+  "facts": [
+    {
+      "id": "afdiag-fact-001",
+      "subject": "9-5 turbo B205E/B235E",
+      "predicate": "291_2317_factory_scope",
+      "category": "diagnostic",
+      "value": {
+        "bulletin": "291-2317",
+        "date": "2002-01",
+        "markets": "non-US/CA",
+        "engines": [
+          "B205E",
+          "B235E"
+        ],
+        "car_year_scope": "not enumerated; 2007 mirror directory must not be treated as bulletin effective MY"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "non-US/CA"
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Bulletin header and Cars affected",
+      "notes": "Explicit bulletin excludes US and Canada and does NOT name B235R. Year 2007 WIS file is a mirror location, not effective year."
+    },
+    {
+      "id": "afdiag-fact-002",
+      "subject": "9-5 turbo B205E/B235E",
+      "predicate": "291_2317_symptom_cause",
+      "category": "diagnostic",
+      "value": {
+        "symptoms": [
+          "low engine output",
+          "little movement on turbo gauge",
+          "rattling at turbo",
+          "P1105"
+        ],
+        "condition": "wastegate pushrod E-clip detached from turbine wastegate arm"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "non-US/CA"
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Symptoms / Background",
+      "notes": "Factory says certain vehicles; do not assume every P1105 or rattle is this clip."
+    },
+    {
+      "id": "afdiag-fact-003",
+      "subject": "9-5 turbo B205E/B235E",
+      "predicate": "291_2317_factory_clip_o_ring",
+      "category": "diagnostic",
+      "value": {
+        "clip": "91 85 497",
+        "o_ring": "79 87 415",
+        "alternative_CA_notation": [
+          "30567751",
+          "30588378"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "non-US/CA"
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Parts required",
+      "notes": "Bulletin includes ambiguous parenthesized CA identifiers despite market exclusion. Do not expand to Canadian market based on part-list notation."
+    },
+    {
+      "id": "afdiag-fact-004",
+      "subject": "9-5 turbo B205E/B235E",
+      "predicate": "291_2317_repair_branch",
+      "category": "diagnostic",
+      "value": {
+        "fast_path": "if actuator arm returns, resecure rod with bulletin clip and replace bypass O-ring",
+        "other_path": "if arm does not return, factory requires more invasive exhaust-side evaluation"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "non-US/CA"
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Procedure steps 1–11",
+      "notes": "Requires competent service around extremely hot exhaust. Bulletin permits inspection/repair in selected scope, not worldwide or B235R kit approval."
+    },
+    {
+      "id": "afdiag-fact-005",
+      "subject": "9-5 auto thermal controls",
+      "predicate": "MY2008_atf_NTC_wiring",
+      "category": "diagnostic",
+      "value": {
+        "TCM_pin_positive": "21B",
+        "TCM_ground": "31B",
+        "supply_V": 5,
+        "TCM_internal_pullup_ohm": 1000
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Description first paragraphs",
+      "notes": "Not an authorization to backprobe or apply power to TCM without the wiring diagram."
+    },
+    {
+      "id": "afdiag-fact-006",
+      "subject": "9-5 auto thermal controls",
+      "predicate": "MY2008_atf_sensor_resistance_map",
+      "category": "diagnostic",
+      "value": {
+        "at_C_20_ohms": 900,
+        "at_C_40_ohms": 400,
+        "at_C_80_ohms": 125,
+        "at_C_100_ohms": 75,
+        "tolerance_percent": 10
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Temperature resistance/voltage table",
+      "notes": "Temperature-dependent NTC diagnostic reference, not evidence of safe transmission pressure or correct ATF quantity."
+    },
+    {
+      "id": "afdiag-fact-007",
+      "subject": "9-5 auto thermal controls",
+      "predicate": "MY2008_atf_sensor_DTCs",
+      "category": "diagnostic",
+      "value": {
+        "P0711": "temperature changes too slowly early driving",
+        "P0712": "short to B-",
+        "P0713": "short to B+ or open"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Diagnostics",
+      "notes": "Electrical temperature DTC is not the same as confirmed overheat or irreparable gearbox."
+    },
+    {
+      "id": "afdiag-fact-008",
+      "subject": "9-5 auto thermal controls",
+      "predicate": "MY2008_ATF_lockup_temperature_rules",
+      "category": "diagnostic",
+      "value": {
+        "below_C_20": "no lock-up",
+        "below_C_40": "no lock-up slip"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Transmission temperature functions",
+      "notes": "Do not misdiagnose normal cold lock-up logic as converter failure."
+    },
+    {
+      "id": "afdiag-fact-009",
+      "subject": "9-5 auto thermal controls",
+      "predicate": "MY2008_ATF_hot_program_1",
+      "category": "diagnostic",
+      "value": {
+        "activation_C": 128,
+        "releases_at_C": 120,
+        "selected_function": "lock-up in 4th to reduce converter heat"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Temperature program 1",
+      "notes": "Year-scoped protective action, not maximum normal operating temperature or standalone replacement trigger."
+    },
+    {
+      "id": "afdiag-fact-010",
+      "subject": "9-5 auto thermal controls",
+      "predicate": "MY2008_ATF_hot_program_2",
+      "category": "diagnostic",
+      "value": {
+        "activation_C": 135,
+        "releases_at_C": 130,
+        "selected_function": "3rd-gear lock-up and lower gear"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Temperature program 2",
+      "notes": "Protective change, not proof that actual clutch is undamaged."
+    },
+    {
+      "id": "afdiag-fact-011",
+      "subject": "9-5 auto thermal controls",
+      "predicate": "MY2008_ATF_torque_limit",
+      "category": "diagnostic",
+      "value": {
+        "threshold_C": 145,
+        "engine_torque_limit_Nm": 200
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Temperature program threshold",
+      "notes": "Engine torque reduction intended to protect transmission, not normal power rating."
+    },
+    {
+      "id": "afdiag-fact-012",
+      "subject": "9-5 auto thermal controls",
+      "predicate": "MY2008_ATF_P0218_trigger",
+      "category": "diagnostic",
+      "value": {
+        "above_C": 155,
+        "lasting_seconds_more_than": 10,
+        "sid_message": "TRANSMISSION OVERHEATING"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Overheat DTC trigger",
+      "notes": "Severe temperature warning: stop and investigate safely. Do not keep driving to reproduce."
+    },
+    {
+      "id": "afdiag-fact-013",
+      "subject": "9-5 auto P0705",
+      "predicate": "MY2008_P0705_range_switch",
+      "category": "diagnostic",
+      "value": {
+        "condition": "TCM sees invalid combination of gear selector switch inputs",
+        "display": "CHECK GEARBOX, limp-home",
+        "diagnosis": "read A/B/C/PA switch statuses with approved scan tool"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "DTC fault criteria and diagnostic help",
+      "notes": "A range switch signal fault doesn't by itself prove transmission friction damage."
+    },
+    {
+      "id": "afdiag-fact-014",
+      "subject": "9-5 auto P0722",
+      "predicate": "MY2009_P0722_output_sensor",
+      "category": "diagnostic",
+      "value": {
+        "condition": "predicted output speed >200 rpm with no output sensor signal",
+        "display": "CHECK GEARBOX, limp-home",
+        "TCM_response": "no adaptation"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Fault criteria",
+      "notes": "Output sensor or harness evidence needed before condemning complete gearbox."
+    },
+    {
+      "id": "afdiag-fact-015",
+      "subject": "9-5 auto scan data",
+      "predicate": "MY2009_TCM_live_input_output_speeds",
+      "category": "diagnostic",
+      "value": [
+        "Gearbox Input RPM",
+        "Vehicle Speed (Output RPM)",
+        "Gear Engaged"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Read values: Gearbox input/output and Gear Engaged",
+      "notes": "Scan values make it possible to distinguish invalid signals from measured ratio behavior; do not claim a full nondestructive diagnosis based on one display."
+    },
+    {
+      "id": "afdiag-fact-016",
+      "subject": "9-5 auto scan data",
+      "predicate": "MY2009_TCM_temperature_and_modes",
+      "category": "diagnostic",
+      "value": [
+        "Gearbox Fluid Temperature",
+        "Gearbox Fluid Temperature Sensor (V)",
+        "Special Shift Program: HOT 1 and HOT 2"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Read values temperature and Special Shift Program",
+      "notes": "Live TCM data helps document active protection; no replacement automatically required by HOT 1."
+    },
+    {
+      "id": "afdiag-fact-017",
+      "subject": "9-5 auto scan data",
+      "predicate": "MY2009_TCC_current_vs_requested_slip",
+      "category": "diagnostic",
+      "value": {
+        "actual_field": "TCC Current slipping",
+        "requested_field": "TCC requested slipping",
+        "units": "RPM",
+        "normal_comparison": "only compare to TCM requested slip when TCM is actively regulating"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Read values: TCC slipping",
+      "notes": "Nonzero converter slip can be commanded; don't diagnose worn converter without lockup state and correct year test conditions."
+    },
+    {
+      "id": "afdiag-fact-018",
+      "subject": "9-5 auto repair preparation",
+      "predicate": "MY2005_gearbox_replacement_checklist",
+      "category": "diagnostic",
+      "value": [
+        "VIN and gearbox type/number",
+        "TCM number and alphabetic code",
+        "engine and odometer",
+        "cold versus warm symptoms",
+        "shift and accelerator conditions",
+        "fluid level/changes",
+        "DTC before and after repair",
+        "Tech2/SPS version",
+        "adaptation history"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Replacement checklist fields",
+      "notes": "Factory checklist was an old warranty/dealer form; use it as evidence gathering, not current warranty entitlement."
+    },
+    {
+      "id": "afdiag-fact-019",
+      "subject": "9-5 auto TCM circuits",
+      "predicate": "MY2005_TCM_test_priority",
+      "category": "diagnostic",
+      "value": [
+        "confirm power and grounds",
+        "compare sensor inputs",
+        "review other module messages",
+        "inspect harness if pin readings outside source condition"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Test readings: Points to remember",
+      "notes": "Manufacturer says observed readings alone do not prove an actuator works; source's entire test condition must be followed."
+    },
+    {
+      "id": "afdiag-fact-020",
+      "subject": "9-5 auto TCM circuits",
+      "predicate": "MY2005_TCM_temp_sensor_example",
+      "category": "diagnostic",
+      "value": {
+        "cold_20_C_volts": 3.4,
+        "warm_100_C_volts": 0.7,
+        "tolerance_percent": 10,
+        "terminal": "B21"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Connector B pin 21",
+      "notes": "Other circuit tests require calibrated meter; not equivalent to module part fitment."
+    },
+    {
+      "id": "afdiag-fact-021",
+      "subject": "9-5 auto solenoids",
+      "predicate": "MY2006_Tech2_solenoid_commands",
+      "category": "diagnostic",
+      "value": {
+        "S1_to_S5": "solenoid actuation and click detection under specified conditions",
+        "SLT_SLS_SLU": "300Hz PWM and current-control activation",
+        "neutral_requirement": "factory describes selector N for activation entry"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Activate menu",
+      "notes": "Potentially hazardous commands; perform only competent factory diagnostic procedure, not arbitrary energizing."
+    },
+    {
+      "id": "afdiag-fact-022",
+      "subject": "9-5 auto TCM adaptation",
+      "predicate": "MY2006_TCMAfterReplacementReset",
+      "category": "diagnostic",
+      "value": {
+        "listed_triggers": [
+          "gearbox replacement",
+          "throttle-housing replacement",
+          "TCM replacement"
+        ],
+        "risk_if_omitted": "factory warns of gearbox damage"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Activate: Zero adaptation value",
+      "notes": "Do not clear learned adaptation as a general remedy or workaround without the factory authorized matching procedure."
+    },
+    {
+      "id": "afdiag-fact-023",
+      "subject": "9-5 turbo boost control",
+      "predicate": "MY2008_T7_wastegate_PWM",
+      "category": "diagnostic",
+      "value": {
+        "module": "Trionic T7",
+        "TCM_PIN": "Trionic pin 13, not TCM",
+        "pwm_frequency_Hz": 32,
+        "valve_power": "+15 switched"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Turbo control overview",
+      "notes": "Boost depends on commanded air mass, ambient pressure and intake temperature; no mechanical shaft failure inferred."
+    },
+    {
+      "id": "afdiag-fact-024",
+      "subject": "9-5 turbo mechanical tests",
+      "predicate": "MY2008_turbo_shaft_data_index_unreadable",
+      "category": "source_quality",
+      "value": {
+        "directory_page_exists": true,
+        "numeric_axial_radial_limits_recovered": false
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Technical data index: Turbo shaft play",
+      "notes": "Metadata only. No numeric shaft-play limit asserted or inferred from B207 turbo or 2005 OG9-5 source."
+    },
+    {
+      "id": "afdiag-fact-025",
+      "subject": "9-5 automatic MY2005",
+      "predicate": "MY2005_factory_stall_test_not_Diy",
+      "category": "diagnostic",
+      "value": {
+        "factory_pressures_tested": [
+          "R idle",
+          "D idle",
+          "R/D stall"
+        ],
+        "stall_max_seconds_in_table": 5
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Settings: speeds/pressures for warm transmission",
+      "notes": "Unsafe full-throttle loaded stall testing on an unknown low-cost project car; NOT a pre-purchase DIY instruction."
+    },
+    {
+      "id": "afdiag-fact-026",
+      "subject": "9-5 automatic MY2009",
+      "predicate": "MY2009_cooler_and_gearbox_banjo_torques",
+      "category": "diagnostic",
+      "value": {
+        "radiator_cooler_banjo_Nm": 27,
+        "gearbox_banjo_Nm": 24,
+        "gearbox_fluid_drain_plug_Nm": 40
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Tightening torques: banjos and drain plug",
+      "notes": "Different fasteners and joints; never interchange with engine oil cooler union torque 8/10 Nm."
+    },
+    {
+      "id": "afdiag-fact-027",
+      "subject": "9-5 automatic MY2009",
+      "predicate": "MY2009_system_components_include_inputs",
+      "category": "diagnostic",
+      "value": [
+        "range switch 245",
+        "input speed sensor 532",
+        "output speed sensor 533",
+        "temperature sensor 535",
+        "TCM 502",
+        "solenoids S1–S5, SLU, SLT, SLS"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "System overview",
+      "notes": "Installed unit must be identified; visual list is not a diagnosis or parts approval."
+    },
+    {
+      "id": "afdiag-fact-028",
+      "subject": "9-5 turbo 2008",
+      "predicate": "MY2008_turbo_tech_data_directory_only",
+      "category": "source_quality",
+      "value": {
+        "turbo_shaft_play_listing": true,
+        "complete_measurement_unread": true
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "afdiag-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Turbocharger system index, technical data",
+      "notes": "Second independent index listing, NOT independent numeric shaft acceptance."
+    }
+  ],
+  "issues": [
+    {
+      "id": "afdiag-issue-001",
+      "title": "MY2008 9-5 transmission overheating versus temperature sensor and protection events",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "cause": "Temperature-dependent lockup, TORQUE LIMIT and P0218 can reflect actual overheating; separate P0711/12/13 concern temperature-sensor signals.",
+      "symptoms": [
+        "TRANSMISSION OVERHEATING SID warning",
+        "HOT 1/2 program",
+        "CHECK GEARBOX",
+        "P0218 or P0711–P0713"
+      ],
+      "diagnosis_summary": "Stop operating an overheating car; verify actual ATF level, coolant/ATF cooler lines, TCM live temperature, NTC plausible response against coolant/ambient and records before making transmission repair choice.",
+      "correction_summary": "Address confirmed cooling, fluid, sensor or wiring condition; only consider overhaul/complete replacement with evidence of internal damage, recurrence, or qualified transmission diagnosis.",
+      "source_ids": [
+        "afdiag-src-002",
+        "afdiag-src-005",
+        "afdiag-src-007"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Protective thresholds are not recommended operating temperatures or a way to force a fault for testing.",
+        "Sensor DTC is not itself proof of thermal damage.",
+        "No factory replacement authorization or current ATF compatibility established."
+      ]
+    },
+    {
+      "id": "afdiag-issue-002",
+      "title": "MY2008–09 9-5 selector and output signal codes can imitate catastrophic gearbox failure",
+      "applicability": {
+        "groups": [
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2008
+            ],
+            "transmission_codes": [
+              "FA57"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2009
+            ],
+            "transmission_codes": [
+              "FA57"
+            ]
+          }
+        ]
+      },
+      "cause": "Separate DTC pages describe invalid range switch code combinations (P0705, MY2008) or missing output shaft sensor signal (P0722, MY2009).",
+      "symptoms": [
+        "limp-home",
+        "CHECK GEARBOX",
+        "selector misinterpretation",
+        "no output RPM readout"
+      ],
+      "diagnosis_summary": "Use TCM read-values / switch statuses, physical connector and harness checks, verify ignition/ground and gearbox type before investigating actual clutch/band slipping.",
+      "correction_summary": "Correct confirmed selector/speed electrical fault when repairable; refer persistent mechanical ratio/contamination evidence for specialized inspection.",
+      "source_ids": [
+        "afdiag-src-003",
+        "afdiag-src-004",
+        "afdiag-src-005",
+        "afdiag-src-007"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "DTC absence does not certify a gearbox.",
+        "2008 and 2009 DTC pages individually sourced; applicability cannot be turned into an identical-year component supersession.",
+        "Do not command solenoids when drive wheels can move."
+      ]
+    },
+    {
+      "id": "afdiag-issue-003",
+      "title": "Wastegate clip bulletin 291-2317 excludes MY2007 US/CA B235R blanket applicability",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "non-US/CA"
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "cause": "The bulletin printed in the MY2007 web directory was originally dated January 2002 for non-US/CA 9-5 B205E/B235E; earlier dataset wrongly generalized its symptom webpage.",
+      "symptoms": [
+        "low turbo boost and rattle",
+        "P1105"
+      ],
+      "diagnosis_summary": "Look at actuator clip/arm and bypass path on relevant original vehicle, but independently identify installed turbo engine and market before selecting service kit.",
+      "correction_summary": "Bulletin-specific clip and O-ring are possible in-scope repair; do not authorize B235R or American-market part fitment based on unrelated mirrored file path.",
+      "source_ids": [
+        "afdiag-src-001",
+        "afdiag-src-009"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Document does not list a model-year cutoff; no retrospective 2007 affected fleet claims.",
+        "Canadian part-number notation in this non-US/CA bulletin is not sufficient evidence to override the Market exclusion.",
+        "Clip fault can be one possible cause without proving turbo mechanical damage."
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "afdiag-part-001",
+      "part_number": "9185497",
+      "title": "Stainless wastegate pushrod clip, restricted factory bulletin 291-2317",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "non-US/CA"
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "This original bulletin is expressly non-US/CA and B205E/B235E; excludes B235R.",
+        "Confirm actual original OEM part identity, remaining stock/supersession and hardware/variant by Saab WebEPC before a 2026 repair.",
+        "Do not assume (CA: 30567751) note grants a Canadian-market fitment."
+      ],
+      "source_ids": [
+        "afdiag-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Factory-specified historic part for specific reported symptom and bulletin. Not proven universal/reliability upgrade; no vehicle VIN observed."
+    },
+    {
+      "id": "afdiag-part-002",
+      "part_number": "7987415",
+      "title": "Bypass pipe O-ring, restricted bulletin 291-2317",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "non-US/CA"
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Bulletin service component only, not a general MY2007 turbo O-ring cross-fit.",
+        "Verify current OEM mapping to exact B205E/B235E turbo and bypass pipe.",
+        "Do not interpret parenthesized (CA: 30588378) as Canadian market authorization."
+      ],
+      "source_ids": [
+        "afdiag-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Factory historic part only for narrowly scoped bulletin; not a cross-engine supersession or B235R fitment claim."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "afdiag-gap-001",
+      "title": "Turbo shaft axial/radial mechanical tolerances remain unretrieved",
+      "missing_inputs": [
+        "Read factory numeric MY2005/06/07/08/09 B235R TD04 vs B235E GT17 axial/radial specs directly; MY2008 index alone has no numbers."
+      ],
+      "reason": "Factory informational pages alone do not establish vehicle-specific damage, safe field testing, approved current part interchange or longevity prediction.",
+      "source_ids": [
+        "afdiag-src-010",
+        "afdiag-src-014"
+      ]
+    },
+    {
+      "id": "afdiag-gap-002",
+      "title": "Original turbo bulletin affected year/VIN and non-US markets verification",
+      "missing_inputs": [
+        "Retain non US/CA + B205E/B235E scope. Recover revision, actual vehicle VIN, and possible separate US/Canada bulletins before use."
+      ],
+      "reason": "Factory informational pages alone do not establish vehicle-specific damage, safe field testing, approved current part interchange or longevity prediction.",
+      "source_ids": [
+        "afdiag-src-001"
+      ]
+    },
+    {
+      "id": "afdiag-gap-003",
+      "title": "Actual current clip and O-ring OE supersession chain",
+      "missing_inputs": [
+        "Saab WebEPC VIN-filtered manufacturer parts records required for 9185497 and 7987415, and any alternative numbers."
+      ],
+      "reason": "Factory informational pages alone do not establish vehicle-specific damage, safe field testing, approved current part interchange or longevity prediction.",
+      "source_ids": [
+        "afdiag-src-001"
+      ]
+    },
+    {
+      "id": "afdiag-gap-004",
+      "title": "P0218 temp sensor false vs true overheat safe confirmation",
+      "missing_inputs": [
+        "Get controlled TCM live readings, cooler condition, fluid chemistry and lab sample; do not use stall-test or drive to 155°C."
+      ],
+      "reason": "Factory informational pages alone do not establish vehicle-specific damage, safe field testing, approved current part interchange or longevity prediction.",
+      "source_ids": [
+        "afdiag-src-002",
+        "afdiag-src-005"
+      ]
+    },
+    {
+      "id": "afdiag-gap-005",
+      "title": "Source-year ATF protection profiles 2005–07 versus 2008–09",
+      "missing_inputs": [
+        "Retrieve exact independently year-coded NTC temp and protective program tables to avoid extending 2008 logic backward."
+      ],
+      "reason": "Factory informational pages alone do not establish vehicle-specific damage, safe field testing, approved current part interchange or longevity prediction.",
+      "source_ids": [
+        "afdiag-src-002"
+      ]
+    },
+    {
+      "id": "afdiag-gap-006",
+      "title": "2008/09 gearbox selector and speed sensor OE part identity",
+      "missing_inputs": [
+        "Retrieve manufacturer VIN-specific sensor/TCM part hardware IDs, harness pinouts and current interchange if any; old code isn't fitment."
+      ],
+      "reason": "Factory informational pages alone do not establish vehicle-specific damage, safe field testing, approved current part interchange or longevity prediction.",
+      "source_ids": [
+        "afdiag-src-003",
+        "afdiag-src-004",
+        "afdiag-src-007"
+      ]
+    },
+    {
+      "id": "afdiag-gap-007",
+      "title": "2005–09 factory transmission hydraulic stall-pressure acceptance by engine",
+      "missing_inputs": [
+        "2005 settings include max 5-second stall test but could damage unknown transmission; qualified service-only controlled alternatives required."
+      ],
+      "reason": "Factory informational pages alone do not establish vehicle-specific damage, safe field testing, approved current part interchange or longevity prediction.",
+      "source_ids": [
+        "afdiag-src-011"
+      ]
+    },
+    {
+      "id": "afdiag-gap-008",
+      "title": "TCM SPS and security calibration upgrade risk",
+      "missing_inputs": [
+        "No approved original Saab firmware availability or pairing plan for 2026; adaptation reset is not a universal cure."
+      ],
+      "reason": "Factory informational pages alone do not establish vehicle-specific damage, safe field testing, approved current part interchange or longevity prediction.",
+      "source_ids": [
+        "afdiag-src-006",
+        "afdiag-src-008"
+      ]
+    },
+    {
+      "id": "afdiag-gap-009",
+      "title": "Actual inspected vehicle technical and economic condition",
+      "missing_inputs": [
+        "Before estimating engine or transmission replacement economics need VIN, engine, gearbox, records, diagnostic readouts, qualified test and cost quotes."
+      ],
+      "reason": "Factory informational pages alone do not establish vehicle-specific damage, safe field testing, approved current part interchange or longevity prediction.",
+      "source_ids": [
+        "afdiag-src-005",
+        "afdiag-src-006"
+      ]
+    }
+  ]
+}
