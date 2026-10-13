@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 450 source records with 404 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 469 source records with 420 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -651,3 +651,29 @@ Dataset: [priority_structural_corrosion_inspection](../data/datasets/priority-st
 | `rustgate-src-012` | [New York DMV passenger vehicle safety, chassis, brake and fuel leak inspection standards](https://dmv.ny.gov/new-york-state-vehicle-safetyemissions-inspection-program) | New York State Department of Motor Vehicles | `full_text` |
 | `rustgate-src-013` | [MY2006 OG 9-5 front subframe petrol engine assembly and body-mount dependencies](https://saabwisonline.com/9-5-9600/2006/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-petrol-engines) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
 | `rustgate-src-014` | [MY2006 NG 9-3 convertible centre sill repair and corrosion protection](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/centre-sill-cv) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
+
+## priority_brake_hydraulic_safety
+
+Dataset: [priority_brake_hydraulic_safety](../data/datasets/priority-brake-hydraulic-safety.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `hydbrake-src-001` | [MY2006 NG9-3 VIN option plate brakes positions 7–10](https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/technical-data/vin-plate-brake-caliper-and-brake-discs) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-002` | [MY2006 NG9-3 front and rear rotor dimension levels](https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/technical-data/brake-discs) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-003` | [MY2006 NG9-3 brake caliper piston/type levels](https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/technical-data/brake-caliper) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-004` | [MY2006 NG9-3 rear caliper holder and guide pins service](https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/brake-caliper-holder-rear) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-005` | [MY2006 NG9-3 front rotor assembly carrier vs disc fastener](https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/front-brake-disc) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-006` | [MY2006 NG9-3 integral rear caliper handbrake mechanism](https://saabwisonline.com/9-3-9440/2006/5-brakes/handbrake/technical-description/handbrake) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-007` | [MY2006 NG9-3 brake flex hose fitting/bleeding and sweep clearance](https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/brake-hose) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-008` | [MY2009 OG9-5 2001–2009 B1/B2/B3 factory brake configuration summary](https://saabwisonline.com/9-5-9600/2009/5-brakes/brake-discs-and-pads/technical-data/brake-configurations) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-009` | [MY2006 OG9-5 alternative front disc detail with 285x25 vs 308x28](https://saabwisonline.com/9-5-9600/2006/5-brakes/brake-discs-and-pads/technical-data/brake-disc-front-wheel) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-010` | [MY2008 OG9-5 front rotor procedure conflicting 4 Nm carrier bolt instruction](https://saabwisonline.com/9-5-9600/2008/5-brakes/brake-discs-and-pads/adjustment-replacement/brake-disc-front-wheel) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-011` | [MY2008 OG9-5 dedicated front and rear joint torque table](https://saabwisonline.com/9-5-9600/2008/5-brakes/brake-discs-and-pads/technical-data/tightening-torques) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-012` | [MY2006 OG9-5 rear rotor and parking shoe adjustment](https://saabwisonline.com/9-5-9600/2006/5-brakes/brake-discs-and-pads/adjustment-replacement/brake-disc-rear-wheel-swinging-caliper) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-013` | [MY2006 OG9-5 parking brake shoe-first cable adjustment](https://saabwisonline.com/9-5-9600/2006/5-brakes/handbrake/adjustment-replacement/adjusting-the-handbrake-cable) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-014` | [MY2006 OG9-5 parking cable routing past exhaust shield and fuel tank straps](https://saabwisonline.com/9-5-9600/2006/5-brakes/handbrake/adjustment-replacement/handbrake-cable) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-015` | [MY2006 OG9-5 corroded hardlines and safe flexible hose routing](https://saabwisonline.com/9-5-9600/2006/5-brakes/footbrake-system/adjustment-replacement/brake-hoses) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-016` | [MY2008 OG9-5 pad wear minimum for front caliper](https://saabwisonline.com/9-5-9600/2008/5-brakes/brake-discs-and-pads/adjustment-replacement/brake-pads-front-wheel) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-017` | [MY2006 NG9-3 front pad level 1/2/4 and directional inner insert](https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/brake-pads-front-levels-1-2-and-4) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-018` | [MY2008 OG9-5 brake hardline corrosion, leak and no post-install bending](https://saabwisonline.com/9-5-9600/2008/5-brakes/footbrake-system/adjustment-replacement/brake-lines) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
+| `hydbrake-src-019` | [MY2006 NG9-3 specialist pad service front level 3](https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/brake-pads-front-level-3) | Saab Automobile AB original workshop information via SaabWISOnline | `search_excerpt` |
