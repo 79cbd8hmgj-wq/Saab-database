@@ -10,7 +10,7 @@ engines, and platforms.
 
 ## Start here
 
-- [Phase 0 independent gap audit and model-selection coverage checklist](docs/phase0-gap-audit-2026-10-13.md): cross-linked existing missing evidence, under-tracked systems, and what would meaningfully change which Saab is worth rebuilding.
+- [North American Saab automatic-FWD candidate catalogue](docs/north-american-vehicle-catalogue.md): MY1998–2011 US/Canada screening, initial verified configurations, explicit exclusions and still-unassessed markets. This is not a complete trim inventory or a reliability ranking.\n- [Phase 0 independent gap audit and model-selection coverage checklist](docs/phase0-gap-audit-2026-10-13.md): cross-linked existing missing evidence, under-tracked systems, and what would meaningfully change which Saab is worth rebuilding.
 - [Structured Phase 0 gap register](data/audits/phase0-gap-register-20261013.json): distinguishes existing source-linked gaps from newly identified coverage questions; no vehicle or part approvals.
 
 - [U.S. Saab replacement price and inventory listing snapshots](docs/research/us-retail-parts-supply-snapshot.md): exact date, supplier origin, out-of-stock alternatives, and explicit limits on stock and installed-cost claims.
