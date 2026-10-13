@@ -634,9 +634,6 @@
         ],
         "model_years": [
           2007
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -663,9 +660,6 @@
         ],
         "model_years": [
           2007
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -693,9 +687,6 @@
         ],
         "model_years": [
           2007
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -719,9 +710,6 @@
         ],
         "model_years": [
           2007
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -745,9 +733,6 @@
         ],
         "model_years": [
           2007
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -775,9 +760,6 @@
         ],
         "model_years": [
           2008
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -804,9 +786,6 @@
         ],
         "model_years": [
           2008
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -834,9 +813,6 @@
         ],
         "model_years": [
           2008
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -860,9 +836,6 @@
         ],
         "model_years": [
           2008
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -886,9 +859,6 @@
         ],
         "model_years": [
           2008
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -916,9 +886,6 @@
         ],
         "model_years": [
           2009
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -945,9 +912,6 @@
         ],
         "model_years": [
           2009
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -975,9 +939,6 @@
         ],
         "model_years": [
           2009
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -1001,9 +962,6 @@
         ],
         "model_years": [
           2009
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -1027,9 +985,6 @@
         ],
         "model_years": [
           2009
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -1059,9 +1014,6 @@
         ],
         "model_years": [
           2007
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -1089,9 +1041,6 @@
         ],
         "model_years": [
           2007
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -1119,9 +1068,6 @@
         ],
         "model_years": [
           2007
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -1151,9 +1097,6 @@
         ],
         "model_years": [
           2008
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -1181,9 +1124,6 @@
         ],
         "model_years": [
           2008
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -1211,9 +1151,6 @@
         ],
         "model_years": [
           2008
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -1240,9 +1177,6 @@
         ],
         "model_years": [
           2009
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -1269,9 +1203,6 @@
         ],
         "model_years": [
           2009
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "source_ids": [
@@ -1390,7 +1321,7 @@
         "og95wire-src-002",
         "og95wire-src-005"
       ],
-      "evidence_status": "documented",
+      "evidence_status": "inference",
       "limits": [
         "Symptoms and electrical fault hypotheses are general diagnostic framing, not a known failure rate or a guaranteed cause.",
         "Do not short, bypass, modify or load-test unfused conductors without safe equipment and verified service steps.",
@@ -1406,9 +1337,6 @@
         ],
         "model_years": [
           2009
-        ],
-        "engine_families": [
-          "4-cylinder petrol; T7"
         ]
       },
       "cause": "The wiring documentation identifies two fan motors, relays 81/155/396, control module DICE and G30/G40/G42 returns as diagnostic circuit elements; it does not say which one has failed.",
@@ -1423,7 +1351,7 @@
         "og95wire-src-008",
         "og95wire-src-003"
       ],
-      "evidence_status": "documented",
+      "evidence_status": "inference",
       "limits": [
         "Component list is not a complete color/pin continuity reconstruction.",
         "The two-fan drawing must not be imposed on a car without the necessary A/C equipment.",
