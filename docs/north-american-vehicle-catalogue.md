@@ -2,7 +2,7 @@
 
 **Scope:** Saab 9-3 and 9-5, MY1998–2011 inclusive, original US/Canadian market only, **factory automatic only**, **FWD only**, **nonconvertibles**. European-only models, manual-only variants, XWD/AWD and 9-3X are not eligible. This is a **partial** research catalogue; it does not claim exhaustive model-year or trim completeness.
 
-The machine-readable companion [initial NA model-year screening and evidence records](../data/vehicle-catalogue/north-america-1998-2011.json) contains **28 model/year screening rows**, **36 sourced example configurations**, **35 source references** and **11 source-grounded exclusions/cautions**. Screening rows with missing evidence remain `unassessed`; there is no invented availability or reliability score. US and Canada are checked separately.
+The machine-readable companion [initial NA model-year screening and evidence records](../data/vehicle-catalogue/north-america-1998-2011.json) contains **28 model/year screening rows**, **69 sourced example configurations**, **46 source references** and **13 source-grounded exclusions/cautions**. Screening rows with missing evidence remain `unassessed`; there is no invented availability or reliability score. US and Canada are checked separately.
 
 ## Confirmed candidate examples (NOT a complete trim list)
 
@@ -43,6 +43,20 @@ The 2011 **Saab USA factory model/option matrices** are the strongest new eviden
 ## Remaining market coverage
 
 The 28 model/year screening entries track **U.S. and Canada independently**, and **every row remains incomplete** until actual original manufacturer model-year equipment lists cover each eligible powertrain/body combination (or establish its absence). Configuration IDs are research candidates only; no source-count or reliability score is generated.
+
+## Research batch 3: 2001–2005 powertrain and body changes
+
+The **Saab Cars USA 2002 9-5 dealer product overview** explicitly maps all six US automatic/FWD 9-5 model options: Linear **B235E** 185-hp, Arc **B308E** 200-hp V6, Aero **B235R** 250-hp, each sedan and SportWagon. It specifies 5-speed automatic **standard on Arc** and optional on Linear/Aero; original VIN position 7 code `9` denotes the 5-speed automatic. This is original manufacturer evidence reproduced in a full text mirror (`na-cat-s36`). Do not infer the 2002 engine or body menu into adjacent years.
+
+**U.S. 2003 9-5** manufacturer release retains Linear/Arc/Aero and sedan/wagon forms; independent trim coverage confirms Sentronic five-speed automatic combinations (`na-cat-s37`, `na-cat-s38`). Original VIN/year specificity is still pending.
+
+**The critical change in U.S. 2004–2005 9-5 models:** the Arc changes from the **3.0L V6** to the **2.3L 220-hp turbo four-cylinder**, and Linear remains **wagon-only** in the original U.S. market lineup. Aero remains 250-hp 2.3L turbo. These US records are **secondary-supported**, not yet original Saab sales-chart-verified (`na-cat-s42`, `na-cat-s43`, `na-cat-s46`). In particular, no 2004/2005 US Linear sedan has been invented.
+
+**U.S. 2004–05 second-generation 9-3 Sport Sedan:** Linear 175-hp 2.0L turbo and Arc/Aero 210-hp 2.0L turbo with five-speed automatic possibilities (independent period trim summaries `na-cat-s44`, `na-cat-s45`). **These are NOT V6 Aeros**; V6 begins in later model years.
+
+**U.S. 2001 older-generation 9-3 SE:** independent North America catalogue lists 205-hp five-door automatic; 2001 original 9-5 standard 2.3t and SE 3.0t automatic sedans/wagons appear in historical U.S. listings. Original Saab USA 2001 vehicle-config tables remain open. **Do not add a 2001 Aero automatic solely from an incomplete and conflicting trim list**.
+
+These 2001–05 entries are designed to identify vehicles worth researching, not to replace year- and country-correct dealer documentation.
 
 ## Verified pitfalls / exclusions
 
