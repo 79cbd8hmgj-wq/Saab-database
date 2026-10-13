@@ -40,7 +40,7 @@ class EarlyNG93MountAndFuelTests(unittest.TestCase):
         self.assertEqual(candidate["evidence_status"], "supplier_claim")
         self.assertEqual(candidate["review_status"], "needs_vehicle_verification")
         self.assertEqual(candidate["relationships"][0]["part_number"], "32022623")
-        self.assertIn("differ", candidate["relationships"][0]["conditions"].lower())
+        self.assertIn("omits it", candidate["relationships"][0]["conditions"].lower())
 
     def test_factory_fuel_inspections_are_exactly_year_scoped(self):
         a = self.facts["early9three-fact-010"]
