@@ -52,9 +52,9 @@ class OG95TurboAndSolenoidTests(unittest.TestCase):
         self.assertEqual(b["PWM_Hz"],300)
         self.assertEqual(b["SLT_signal_TCM_B_pin"],35)
     def test_early_bulletins_restricted_and_oil_grade_not_transferred(self):
-        a=self.fact("bulletin_4402181_wrong_platform_for_9_5",1998)
+        a=next(x for x in self.d["facts"] if x["predicate"]=="bulletin_4402181_wrong_platform_for_9_5")
         self.assertEqual(a["applicability"]["platforms"],["9-3-9400"])
-        b=self.fact("bulletin_4402182_original_9_5_scope",1998)
+        b=next(x for x in self.d["facts"] if x["predicate"]=="bulletin_4402182_original_9_5_scope")
         self.assertEqual(b["applicability"]["model_years"],[1998,1999])
         self.assertEqual(b["applicability"]["markets"],["non-US/CA"])
         self.assertIn("Saab 3309",b["notes"])
