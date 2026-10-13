@@ -10,27 +10,28 @@
     "og95_body",
     "og95_structure",
     "replacements",
-    "simulation"
+    "simulation",
+    "subframe_parts_brake_lines"
   ],
   "counts": {
-    "sources": 168,
-    "facts": 340,
+    "sources": 185,
+    "facts": 356,
     "issues": 20,
-    "parts": 33,
-    "gaps": 70
+    "parts": 48,
+    "gaps": 79
   },
-  "unique_source_urls": 167,
+  "unique_source_urls": 182,
   "retrieval_statuses": {
-    "full_text": 157,
+    "full_text": 174,
     "metadata_only": 2,
     "partial": 3,
     "search_excerpt": 6
   },
   "evidence_statuses": {
-    "documented": 362,
+    "documented": 378,
     "inference": 3,
-    "supplier_claim": 28
+    "supplier_claim": 43
   },
   "research_date": "2026-10-12",
-  "notes": "Inventory counts are records, not proof of fitness, material condition or coverage completeness. NG9-3 structure is factory-document research, not a rust-frequency study."
+  "notes": "Record counts track source-scoped research, not verified fitment, car safety, stock availability or statistical reliability."
 }

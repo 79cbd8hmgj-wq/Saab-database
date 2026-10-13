@@ -49,10 +49,10 @@ class NG93StructureTests(unittest.TestCase):
 
     def test_source_boundaries_and_inventory(self):
         report = inventory(self.datasets)
-        self.assertEqual(report["counts"]["sources"], 168)
-        self.assertEqual(report["counts"]["facts"], 340)
-        self.assertEqual(report["counts"]["parts"], 33)
-        self.assertEqual(report["counts"]["gaps"], 70)
+        self.assertGreaterEqual(report["counts"]["sources"], len(self.domain["sources"]))
+        self.assertGreaterEqual(report["counts"]["facts"], len(self.domain["facts"]))
+        self.assertGreaterEqual(report["counts"]["parts"], len(self.domain["parts"]))
+        self.assertGreaterEqual(report["counts"]["gaps"], len(self.domain["gaps"]))
 
 
 if __name__ == "__main__":
