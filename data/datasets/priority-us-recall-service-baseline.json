@@ -1,0 +1,1026 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "priority_us_recall_service_baseline",
+  "sources": [
+    {
+      "id": "wp7-src-001",
+      "title": "2008 Saab 9-5 original US/CA annual service schedule",
+      "url": "https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/annual-service",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "US/CA annual section includes oil and filter, brake/fuel/underbody safety checks, and additional time/mileage tasks. Not a current aftermarket approval."
+    },
+    {
+      "id": "wp7-src-002",
+      "title": "2008 Saab 9-5 original US/CA 10,000-mile service",
+      "url": "https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/10-000-miles-us-ca",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "10,000-mile checkpoint explicitly includes oil/filter change, brake-fluid check, tire and airbag checks."
+    },
+    {
+      "id": "wp7-src-003",
+      "title": "2008 Saab 9-5 original US/CA 60,000-mile service",
+      "url": "https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/60000-miles-us-ca",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Explicit automatic transmission fluid change listed at 60,000 miles, unlike separate 70,000-mile/5-year annual extra-work line. Discrepancy unresolved."
+    },
+    {
+      "id": "wp7-src-004",
+      "title": "NHTSA official VIN/plate recall lookup coverage limitations",
+      "url": "https://www.nhtsa.gov/recalls",
+      "source_type": "regulator_record",
+      "publisher": "National Highway Traffic Safety Administration (NHTSA)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Official agency site: VIN search does not show repaired recalls, generally omits recalls >15 years old, and omits non-safety campaigns."
+    },
+    {
+      "id": "wp7-src-005",
+      "title": "NHTSA Part 573 16V-063 Takata driver inflator 9-5 and 9-3",
+      "url": "https://static.nhtsa.gov/odi/rcl/2016/RCLRPT-16V063-7371.PDF",
+      "source_type": "regulator_record",
+      "publisher": "General Motors LLC filing with NHTSA",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "2016 Part 573 report covers 2006-09 9-5 and 2006-11 9-3; describes driver inflator rupture hazard and dealer remedy, no individual VIN completion data."
+    },
+    {
+      "id": "wp7-src-006",
+      "title": "NHTSA April 2008 acknowledgment of Saab 9-5 08V-160 A-pillar trim recall",
+      "url": "https://static.nhtsa.gov/odi/rcl/2008/RCAK-08V160-6768.pdf",
+      "source_type": "regulator_record",
+      "publisher": "National Highway Traffic Safety Administration (NHTSA)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "NHTSA administrative scope is MY2002–08 9-5; do not substitute the narrower 2006–08 owner-letter wording for all affected production or claim VIN participation."
+    },
+    {
+      "id": "wp7-src-007",
+      "title": "Original November 2008 Saab owner letter for A-pillar recall 15204",
+      "url": "https://static.nhtsa.gov/odi/rcl/2008/RCONL-08V160-4604.pdf",
+      "source_type": "regulator_record",
+      "publisher": "General Motors / Saab Automobile (submitted to NHTSA)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Historic owner notification addresses certain 2006–08 9-5s, remedy revised trim; historical 2008 contact/pricing statements do not guarantee present-day parts/service channels."
+    },
+    {
+      "id": "wp7-src-008",
+      "title": "GM recall 14V-318 9-3 Convertible driver belt retractor",
+      "url": "https://static.nhtsa.gov/odi/rcl/2014/RCDNN-14V318-3795P.pdf",
+      "source_type": "regulator_record",
+      "publisher": "General Motors LLC filing with NHTSA",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "2014 letter explicitly limits safety recall 14222 to MY2004–11 9-3 CONVERTIBLE and distinguishes passenger-side special coverage from the driver safety recall."
+    },
+    {
+      "id": "wp7-src-009",
+      "title": "2008 Saab 9-5 original US/CA 100,000-mile service",
+      "url": "https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/100000-miles-us-ca",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Illustrates routine fuel-tank integrity and brake/fuel line inspections at a US/CA mileage service; no proof earlier checklists completed."
+    },
+    {
+      "id": "wp7-src-010",
+      "title": "Original Saab 2008 9-5 market-specific service programme selection",
+      "url": "https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-eu/technical-description/choice-of-service-programme",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory explanation distinguishes EU, WW and US/CA schedules, emphasizes annual low-mileage limit. EU directory page is a programme description, not replacement for US table."
+    },
+    {
+      "id": "wp7-src-011",
+      "title": "NHTSA investigation and recall resources: recalls never expire",
+      "url": "https://www.nhtsa.gov/resources-investigations-recalls",
+      "source_type": "regulator_record",
+      "publisher": "National Highway Traffic Safety Administration (NHTSA)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "NHTSA says a safety recall never expires; not evidence that a 20-year-old car has repair parts on-hand or that particular VIN is incomplete."
+    }
+  ],
+  "facts": [
+    {
+      "id": "wp7-fact-001",
+      "subject": "service:og95-us-2008",
+      "predicate": "oil_filter_change_at_us_service",
+      "category": "maintenance",
+      "value": 10000,
+      "unit": "mile",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US/CA"
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "10 000 miles, US/CA > item 8",
+      "notes": "One service checkpoint, not a blanket maximum safe interval for severe-duty neglected engines."
+    },
+    {
+      "id": "wp7-fact-002",
+      "subject": "service:og95-us-2008",
+      "predicate": "annual_oil_and_filter_change",
+      "category": "maintenance",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US/CA"
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Annual service > item 9",
+      "notes": "Original schedule requires annual petrol oil and filter change; does not prove prior maintenance."
+    },
+    {
+      "id": "wp7-fact-003",
+      "subject": "service:og95-us-2008",
+      "predicate": "brake_fluid_replacement_time",
+      "category": "maintenance",
+      "value": 4,
+      "unit": "year",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US/CA"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-001",
+        "wp7-src-002",
+        "wp7-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "Annual additional work; 10k and 60k maintenance notes",
+      "notes": "Historical Saab interval, subject to current physical brake safety checks."
+    },
+    {
+      "id": "wp7-fact-004",
+      "subject": "service:og95-us-2008",
+      "predicate": "cabin_filter_interval",
+      "category": "maintenance",
+      "value": {
+        "distance_miles": 10000,
+        "time_years": 2
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US/CA"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Annual service > Additional work",
+      "notes": "Preserve both US mileage and calendar thresholds."
+    },
+    {
+      "id": "wp7-fact-005",
+      "subject": "service:og95-us-2008",
+      "predicate": "spark_plug_interval",
+      "category": "maintenance",
+      "value": {
+        "distance_miles": 40000,
+        "time_years": 4
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US/CA"
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Annual service > Additional work",
+      "notes": "Applies to petrol 9-5 in source; not a universal plug part number."
+    },
+    {
+      "id": "wp7-fact-006",
+      "subject": "service:og95-us-2008",
+      "predicate": "engine_air_filter_interval",
+      "category": "maintenance",
+      "value": {
+        "distance_miles": 40000,
+        "time_years": 4
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US/CA"
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Annual service > Additional work",
+      "notes": "Historical US/CA schedule; inspect condition when history is unknown."
+    },
+    {
+      "id": "wp7-fact-007",
+      "subject": "service:og95-us-2008",
+      "predicate": "automatic_transmission_fluid_annual_extra_work_interval",
+      "category": "maintenance",
+      "value": {
+        "distance_miles": 70000,
+        "time_years": 5
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US/CA"
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Annual service > Additional work",
+      "notes": "CONFLICT: separately printed MY2008 US/CA 60k service requires ATF change. Keep both without settling or substituting one."
+    },
+    {
+      "id": "wp7-fact-008",
+      "subject": "service:og95-us-2008",
+      "predicate": "automatic_transmission_fluid_60k_checklist_change",
+      "category": "maintenance",
+      "value": 60000,
+      "unit": "mile",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US/CA"
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "60,000 miles US/CA > item 9",
+      "notes": "CONFLICT with annual service list's 70k miles or 5 years; record independently."
+    },
+    {
+      "id": "wp7-fact-009",
+      "subject": "service:og95-us-2008",
+      "predicate": "auxiliary_drive_belt_schedule",
+      "category": "maintenance",
+      "value": 140000,
+      "unit": "mile",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US/CA"
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Annual service > Additional work",
+      "notes": "The printed US/CA annual list says 140k miles while other worldwide pages say 240k km; do not harmonize by a guessed conversion or change earlier."
+    },
+    {
+      "id": "wp7-fact-010",
+      "subject": "service:og95-us-2008",
+      "predicate": "annual_underbody_safety_checks",
+      "category": "maintenance",
+      "value": [
+        "fuel system including tank",
+        "brake lines and hoses",
+        "exhaust system",
+        "suspension bushings and gaiters",
+        "seatbelts and airbag warning lamp"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US/CA"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "Annual service > items 10–27",
+      "notes": "Factory checks are not a substitute for certified structural and hydraulic inspection of a corroded wagon."
+    },
+    {
+      "id": "wp7-fact-011",
+      "subject": "service:og95-us-2008",
+      "predicate": "scheduled_60k_exhaust_brake_and_fuel_checks",
+      "category": "maintenance",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US/CA"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "60,000 miles US/CA > items 13–15",
+      "notes": "Same checkpoint contains automatic-gearbox fluid change; no proof any used vehicle completed it."
+    },
+    {
+      "id": "wp7-fact-012",
+      "subject": "recall:16V063",
+      "predicate": "model_and_model_year_recall_scope",
+      "category": "safety_recall",
+      "value": "Takata PSDI-5 driver airbag inflator",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600",
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "markets": [
+          "US"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009
+            ],
+            "markets": [
+              "US"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011
+            ],
+            "markets": [
+              "US"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "wp7-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Part 573 pp 1–2",
+      "notes": "Scope is year/platform-specific, not certificate of each VIN's defect or remedy status. Not include MY2005 9-3."
+    },
+    {
+      "id": "wp7-fact-013",
+      "subject": "recall:16V063",
+      "predicate": "factory_recall_remedy",
+      "category": "safety_recall",
+      "value": "replace driver airbag inflator",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600",
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "markets": [
+          "US"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009
+            ],
+            "markets": [
+              "US"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011
+            ],
+            "markets": [
+              "US"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "wp7-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Part 573 p3 Description of Remedy",
+      "notes": "Safety system service is professional and safety-critical; recalled component numbers do not establish substitute SKU authorization."
+    },
+    {
+      "id": "wp7-fact-014",
+      "subject": "recall:08V160",
+      "predicate": "nhtsa_model_year_scope",
+      "category": "safety_recall",
+      "value": "2002–2008 Saab 9-5; occupant protection at A-pillar",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-006",
+        "wp7-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "NHTSA acknowledgment p1; owner notification p1",
+      "notes": "Original regulatory acknowledgement lists 2002–08 while owner notice addresses certain 2006–08; preserve scope differences and check actual VIN."
+    },
+    {
+      "id": "wp7-fact-015",
+      "subject": "recall:08V160",
+      "predicate": "factory_recall_remedy",
+      "category": "safety_recall",
+      "value": "revised energy-absorbing A-pillar trim",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-006",
+        "wp7-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "NHTSA acknowledgment p2 and owner letter p1",
+      "notes": "Historic remedy description does not establish current availability or VIN completion."
+    },
+    {
+      "id": "wp7-fact-016",
+      "subject": "recall:14V318",
+      "predicate": "convertible_only_scope",
+      "category": "safety_recall",
+      "value": "2004–2011 Saab 9-3 Convertible driver-side front belt retractor",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "convertible"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-008"
+      ],
+      "evidence_status": "documented",
+      "locator": "GM June 11, 2014 Part 573 letter and page 3 year list",
+      "notes": "This fact indexes priority MY2005–06 only; does NOT include sedans or 9-5s."
+    },
+    {
+      "id": "wp7-fact-017",
+      "subject": "recall:14V318",
+      "predicate": "recall_remedy",
+      "category": "safety_recall",
+      "value": "replace driver-side seat-belt retractor",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "convertible"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-008"
+      ],
+      "evidence_status": "documented",
+      "locator": "GM Part 573 letter p2",
+      "notes": "Passenger-side special coverage is distinct from the driver-side safety recall."
+    },
+    {
+      "id": "wp7-fact-018",
+      "subject": "recall:nhtsa-lookup",
+      "predicate": "vin_lookup_exclusion_policy",
+      "category": "recall_lookup",
+      "value": [
+        "completed recall work",
+        "recalls older than 15 years except extra manufacturer coverage",
+        "manufacturer non-safety campaigns",
+        "some international campaigns"
+      ],
+      "unit": null,
+      "applicability": {
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "What won't the VIN search show?",
+      "notes": "A zero-current-recalls lookup cannot establish full historical recall completion."
+    },
+    {
+      "id": "wp7-fact-019",
+      "subject": "recall:nhtsa-lookup",
+      "predicate": "recall_legal_expiration",
+      "category": "recall_lookup",
+      "value": "NHTSA says an initiated safety recall does not expire",
+      "unit": null,
+      "applicability": {
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-011"
+      ],
+      "evidence_status": "documented",
+      "locator": "Resources Related to Investigations and Recalls > recall FAQ",
+      "notes": "Do not infer current parts stock, a specific shop able to perform it, or individual VIN's outstanding action."
+    },
+    {
+      "id": "wp7-fact-020",
+      "subject": "service:og95-us-2008",
+      "predicate": "market_schedule_must_be_selected",
+      "category": "maintenance",
+      "value": [
+        "US/CA",
+        "WW",
+        "EU"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US/CA"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-010"
+      ],
+      "evidence_status": "documented",
+      "locator": "Choice of service programme > engine vs market row",
+      "notes": "Do not import non-US severe-duty service statements as exact US/Canada factory recommendations."
+    }
+  ],
+  "issues": [
+    {
+      "id": "wp7-issue-001",
+      "title": "Potential driver frontal airbag inflator campaign requiring VIN history",
+      "applicability": {
+        "platforms": [
+          "9-5-9600",
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "markets": [
+          "US"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009
+            ],
+            "markets": [
+              "US"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011
+            ],
+            "markets": [
+              "US"
+            ]
+          }
+        ]
+      },
+      "cause": "2016 Takata PSDI-5 equipment recall 16V-063 described potentially hazardous rupture.",
+      "symptoms": [
+        "No driver-recognizable symptom necessarily precedes crash deployment",
+        "Recall may remain historically unknown on an old Saab"
+      ],
+      "diagnosis_summary": "Obtain actual 17-character VIN; check NHTSA; request documented original manufacturer remedy/completion history and professional recall status for older campaigns.",
+      "correction_summary": "Qualified approved airbag inflator recall remedy if manufacturer confirms vehicle is outstanding; no DIY dismantling based solely on recall year.",
+      "source_ids": [
+        "wp7-src-004",
+        "wp7-src-005"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Age and model-year scope do not prove unfinished campaign",
+        "NHTSA lookup not complete for >15-year recalls",
+        "Safety-critical SRS work requires appropriate service provider"
+      ]
+    },
+    {
+      "id": "wp7-issue-002",
+      "title": "MY2002–08 9-5 historic A-pillar occupant protection campaign",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "cause": "2008 federal FMVSS 201 compliance finding at A-pillar interior-impact point.",
+      "symptoms": [
+        "No visible symptom required",
+        "Past installed trim may look normal without repair records"
+      ],
+      "diagnosis_summary": "Cross-reference GM/Saab campaign E080101 / 15204 and NHTSA 08V-160 for exact VIN with archived service evidence.",
+      "correction_summary": "Confirm documented factory A-pillar energy-absorbing trim remedy and professional replacement status rather than ordering cosmetic trim by model year.",
+      "source_ids": [
+        "wp7-src-006",
+        "wp7-src-007"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "NHTSA broader MY2002–08 and narrower 2006–08 owner letter must remain separate",
+        "Current stock and service channel unknown"
+      ]
+    },
+    {
+      "id": "wp7-issue-003",
+      "title": "US/CA 2008 9-5 automatic-fluid change appears at two inconsistent milestones",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US/CA"
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "cause": "Separate original annual-work list and 60k US/CA checklist do not provide one uncontested trigger.",
+      "symptoms": [
+        "A used automatic may have no dated ATF history",
+        "60,000-mile service includes fluid change while annual list says 70,000 miles/5 years"
+      ],
+      "diagnosis_summary": "Preserve source conflict, identify exact fitted gearbox and factory booklet/edition, compare receipts and independent fluid condition before planning servicing.",
+      "correction_summary": "Do not claim either interval definitively supersedes the other; use original owner booklet and qualified gearbox-specific verification.",
+      "source_ids": [
+        "wp7-src-001",
+        "wp7-src-003"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Not permission to substitute fluid specification",
+        "Does not establish gearbox mechanical health"
+      ]
+    },
+    {
+      "id": "wp7-issue-004",
+      "title": "9-3 convertible driver retractor recall must not be applied to sedans",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006
+        ],
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "convertible"
+        ]
+      },
+      "cause": "Driver retractor automatic tensioning cable may break in MY2004–11 9-3 convertible population.",
+      "symptoms": [
+        "Driver seat belt may stop retracting properly"
+      ],
+      "diagnosis_summary": "Confirm model, body style, VIN, seat belt condition, archived campaign 14222 history.",
+      "correction_summary": "Qualified recall driver retractor replacement only where documented applicable; passenger coverage is a distinct programme.",
+      "source_ids": [
+        "wp7-src-008"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Body-style-only; not a universal NG9-3 sedan claim",
+        "Do not extrapolate lifetime passenger coverage into verified free work today"
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "wp7-gap-001",
+      "title": "Real candidate VIN-specific historic recall completion",
+      "missing_inputs": [
+        "Actual 17-character VIN",
+        "NHTSA open-recall results",
+        "Saab/GM/Saab Parts historical completion records for 08V160 and 16V063",
+        "service provider and parts capability"
+      ],
+      "reason": "The model-year documents don't certify whether a given car already received a recall repair.",
+      "source_ids": [
+        "wp7-src-004",
+        "wp7-src-005",
+        "wp7-src-006",
+        "wp7-src-007"
+      ]
+    },
+    {
+      "id": "wp7-gap-002",
+      "title": "Complete priority MY2004–09 original 9-5 US/CA maintenance matrix",
+      "missing_inputs": [
+        "Original MY2004–07 and MY2009 US/CA schedule pages",
+        "engine/gearbox options",
+        "factory coolant, oil, ATF and severe-duty variants",
+        "service booklet edition history"
+      ],
+      "reason": "One MY2008 schedule doesn't prove full-year and drivetrain equivalence.",
+      "source_ids": [
+        "wp7-src-001",
+        "wp7-src-002",
+        "wp7-src-003",
+        "wp7-src-009",
+        "wp7-src-010"
+      ]
+    },
+    {
+      "id": "wp7-gap-003",
+      "title": "Resolve contradictory 2008 9-5 automatic fluid milestones",
+      "missing_inputs": [
+        "Original printed US/CA owner manual maintenance booklet",
+        "MY2008 WIS revisions and correction bulletins",
+        "FA57 fitted gearbox and fluid spec by VIN"
+      ],
+      "reason": "60,000-mile explicit ATF-change row and annual-list 70,000-mile/5-year ATF interval must not be silently combined.",
+      "source_ids": [
+        "wp7-src-001",
+        "wp7-src-003"
+      ]
+    },
+    {
+      "id": "wp7-gap-004",
+      "title": "Original US/Canadian B207 9-3 MY2005–06 intermediate/main maintenance",
+      "missing_inputs": [
+        "MY2005–06 9-3 original US/CA exact-year schedule",
+        "SID/Tech2 service life triggers",
+        "B207 manual vs automatic fluid and spark intervals",
+        "Canadian-only variant differences"
+      ],
+      "reason": "2008 9-5 service and 2009 9-3 pages cannot be applied retrospectively to MY2005–06.",
+      "source_ids": []
+    },
+    {
+      "id": "wp7-gap-005",
+      "title": "Historic versus current Canadian recall and service coverage",
+      "missing_inputs": [
+        "Transport Canada original recall campaign notices for priority years",
+        "VIN-specific Canadian service completion history",
+        "present Saab/GM support contacts and shop eligibility"
+      ],
+      "reason": "US NHTSA campaigns and owner letters do not alone prove Canadian obligations or current repair channel availability.",
+      "source_ids": [
+        "wp7-src-004",
+        "wp7-src-005",
+        "wp7-src-008"
+      ]
+    }
+  ]
+}
