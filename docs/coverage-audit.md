@@ -52,7 +52,7 @@ is counted from individual groups, not from a misleading top-level union.
 | `body_styles` | 70 / 1007 |
 | `vin_ranges` | 24 / 1007 |
 
-### Factory-source record coverage by original Saab model year
+### Technical record coverage by original Saab model year
 
 Only facts/issues/parts with the **same applicability group** specifying both
 platform and year are counted. Repeated records can appear in more than one
