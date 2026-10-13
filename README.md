@@ -10,7 +10,7 @@ engines, and platforms.
 
 ## Start here
 
-- [Phase 0 coverage audit](docs/coverage-audit.md): **current 31-domain** evidence census, platform/model-year coverage and status of inspection, subsystem and interchange readiness gates.
+- [Phase 0 coverage audit](docs/coverage-audit.md): **current 32-domain** evidence census, platform/model-year coverage and status of inspection, subsystem and interchange readiness gates.
 - [Phase 0 closure plan](docs/gap-closure-plan.md): prioritized blocker-driven work for vehicle identity, rust, brakes, high-cost no-running diagnostics and manufacturer fitment.
 - [Reproducible Phase 0 snapshot](data/phase0-coverage-snapshot.json): machine-derived baseline checked against all datasets on every CI run.
 - [Prioritized research backlog](docs/research-backlog.md): source-gathering tasks and acceptance criteria before simulation.
@@ -33,6 +33,8 @@ engines, and platforms.
   original 9-5 SportCombi rear floor/subframe body mounts, 9-3 CV structural sill, NY inspection criteria and critical brake/fuel line dependencies.
 - [Priority 9-5 / 9-3 identity and chassis worksheets](docs/research/priority-vehicle-identity-gates.md):
   Gate A/C work package 1; physical VIN/gearbox tags, model-year folder conflicts, FA57 vs AF40/F40 and side-specific suspension options without VIN-approved substitutions.
+- [Initial North American MY2008 B235 exhaust, fuel and EVAP research](docs/research/og95-north-american-exhaust-fuel-wp6.md):
+  two converter stages, oxygen sensor locations, EVAP and fuel-differential checks, NY legal replacement restrictions and unresolved 2008 wagon diagnosis.
 - [Original Saab USA VIN and conditional parts-kit provenance](docs/research/official-us-vin-service-kit-provenance.md):
   dated US MY2004–07 9-5/9-3 code tables, the 12801010 to conditional 32021815 ISM kit conversion and explicit 2008–09 OEM fitment gaps.
 - [Blank OEM replacement-evidence verification worksheet](data/inspection-templates/oem-replacement-verification.json):
