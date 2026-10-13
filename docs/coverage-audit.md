@@ -61,7 +61,7 @@ model-year row. Year-path names do not prove a given production revision.
 #### Original 9-5, platform 9600
 
 | Model year | Facts | Issues | Parts |
-| ---: | ---: | ---: | ---: | ---: |
+| ---: | ---: | ---: | ---: |
 | 1998 | 16 | 3 | 8 |
 | 1999 | 18 | 3 | 11 |
 | 2000 | 22 | 3 | 14 |
@@ -78,7 +78,7 @@ model-year row. Year-path names do not prove a given production revision.
 #### Second-generation 9-3, platform 9440
 
 | Model year | Facts | Issues | Parts |
-| ---: | ---: | ---: | ---: | ---: |
+| ---: | ---: | ---: | ---: |
 | 2003 | 20 | 15 | 18 |
 | 2004 | 34 | 17 | 21 |
 | 2005 | 97 | 19 | 24 |
