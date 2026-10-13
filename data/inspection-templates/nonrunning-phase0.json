@@ -182,5 +182,14 @@
       "default_status": "unknown",
       "default_value": null
     }
-  ]
+  ],
+  "market_scope": {
+    "target_sales_markets": [
+      "US",
+      "CA"
+    ],
+    "market_meaning": "Original country-specific sales and homologation applicability, independent of assembly location",
+    "excluded_market_bulletin": "Saab 248-2506 is explicitly not US/CA and may not authorize US or Canadian factory procedure",
+    "manufacturing_country_is_not_market": true
+  }
 }
