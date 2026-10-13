@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 528 source records with 461 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 525 source records with 461 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -333,9 +333,6 @@ Dataset: [cross_manufacturer_interchange_pilot](../data/datasets/cross-manufactu
 | `xint-src-009` | [eSaabParts ProParts PCV 21341200 cross-reference to Saab 55561200](https://www.esaabparts.com/saab/parts/21341200?ss=55561200) | eSaabParts | `full_text` |
 | `xint-src-010` | [Saab MY2006 petrol 9-5 four-cylinder radiator service gearbox variant](https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/radiator-4-cyl) | Saab Automobile AB original WIS (SaabWISOnline mirror) | `full_text` |
 | `xint-src-011` | [eSaabParts brake 9-3 9440 option matrix separate 15, 16, 16+ pad codes](https://www.esaabparts.com/viewparts.php?searchpart=1&section=551473252) | eSaabParts | `full_text` |
-| `xint-src-012` | [Schaeffler FAG 713 6440 90 original manufacturer catalogue OE references](https://vehiclelifetimesolutions.schaeffler.com/en/catalog/auto-parts/axle-mounting-steering-wheels/wheel-hub-mounting/wheel-hub/wheel-bearing-kit/p-TA-654-7136440900) | Schaeffler Technologies AG & Co. KG | `full_text` |
-| `xint-src-013` | [MY2006 Saab 9-3 9440 front wheel-speed sensor integrated in hub](https://saabwisonline.com/9-3-9440/2006/5-brakes/tcs-esp/adjustment-replacement/front-wheel-speed-sensor-298fl-fr) | Saab Automobile AB (factory WIS mirrored by SaabWISOnline) | `full_text` |
-| `xint-src-014` | [TecAlliance based aftermarket FAG 713 6440 90 applications by vehicle family](https://motostacja.com/p/38090.html) | Motostacja.pl aftermarket catalog (uses TecAlliance data) | `full_text` |
 
 ## epc_provenance
 
