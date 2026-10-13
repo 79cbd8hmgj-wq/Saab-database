@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 365 source records with 333 distinct
+Research retrieval date: 2026-10-12. There are 382 source records with 347 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -524,3 +524,27 @@ Dataset: [og95_cooling_service_2006_2009](../data/datasets/og95-cooling-service-
 | `coolsvc-src-013` | [MY2007 factory cooling system fill and bleeding](https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/adjustment-replacement/filling-and-bleeding-the-cooling-system) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
 | `coolsvc-src-014` | [MY2009 4-cylinder coolant drain and fill procedure](https://saabwisonline.com/9-5-9600/2009/2-engine/cooling-system/adjustment-replacement/coolant-4-cyl) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
 | `coolsvc-src-015` | [MY2006 cooling system pressure test](https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/cooling-system-pressure-testing) | Saab Automobile AB (factory-authored WIS information mirrored by SaabWISOnline) | `full_text` |
+
+## repair_vs_replace_troubleshooting
+
+Dataset: [repair_vs_replace_troubleshooting](../data/datasets/repair-vs-replace-troubleshooting.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `rrtriage-src-001` | [MY2007 loose wastegate rod clip, underboost and rattling P1105](https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/fault-diagnosis-fault-symptoms/low-engine-power-output-little-movement-on-the-turbo-pressure-gauge-and-rattling-from-the-turbocharger) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `search_excerpt` |
+| `rrtriage-src-002` | [MY2007 turbo basic charging pressure, GT17 vs Mitsubishi](https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/adjustment-replacement/checking-and-adjusting-basic-charging-pressure) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
+| `rrtriage-src-003` | [MY2007 turbo bypass diaphragm test](https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/adjustment-replacement/checking-the-charge-air-bypass-valve-4-cyl) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
+| `rrtriage-src-004` | [MY2005 petrol charge air hose and intercooler leak test](https://saabwisonline.com/9-5-9600/2005/2-engine/turbocharger-system/adjustment-replacement/test-pressurization-of-the-charge-air-cooler-and-pressure-pipes-4-cyl) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
+| `rrtriage-src-005` | [MY2007 Trionic turbo and ECU replacement checklist](https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/fault-diagnosis-general/checklist-for-changing-turbocharger-and-engine-control-module) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `search_excerpt` |
+| `rrtriage-src-006` | [MY2002-04 FA57 shift symptoms TSB 440-2497 dated October 2004](https://saabwisonline.com/9-5-9600/2003/4-transmission/automatic-transmission/bulletins-si-mi/440-2497-general-fault-diagnosis-for-automatic-transmission) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
+| `rrtriage-src-007` | [MY2007 OG9-5 auto ATF level with dipstick](https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/adjustment-replacement/automatic-transmission-fluid-level) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
+| `rrtriage-src-008` | [MY2007 OG9-5 auto ATF level with special gauge no dipstick](https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/adjustment-replacement/automatic-transmission-transmission-fluid-level-without-dipstick) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
+| `rrtriage-src-009` | [MY2005 OG9-5 FA57 ATF full-system volume and original grade](https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/technical-data/weight-fluid-capacity-and-grade-of-fluid) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
+| `rrtriage-src-010` | [MY2005 OG9-5 FA57 coolant-line fluid-exchange procedure](https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/adjustment-replacement/changing-the-automatic-transmission-fluid) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
+| `rrtriage-src-011` | [MY2007 OG9-5 auto P0748 pressure solenoid circuit](https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0748) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
+| `rrtriage-src-012` | [MY2007 OG9-5 auto P0722 output-speed sensor no signal](https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0722) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
+| `rrtriage-src-013` | [MY2006 OG9-5 auto P0730 incorrect indicated ratio / S3](https://saabwisonline.com/9-5-9600/2006/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0730) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
+| `rrtriage-src-014` | [MY2007 automatic cross-system WIS diagnostic strategy](https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/fault-diagnosis-general/fault-diagnosis-strategy-for-electronic-systems) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
+| `rrtriage-src-015` | [MY2008 petrol coolant thermostat/cap temperature and pressure](https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-data/temperature-pressure-limits) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
+| `rrtriage-src-016` | [MY2007 petrol thermostat service including seal and ground](https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/adjustment-replacement/thermostat-4-cyl) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
+| `rrtriage-src-017` | [MY2007 OG9-5 auto replacement flush contaminated cooling fluid circuit](https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/adjustment-replacement/complete-automatic-transmission) | Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline) | `full_text` |
