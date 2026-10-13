@@ -2,29 +2,29 @@
   "schema_version": "1.0.0",
   "meaning": "Record coverage and evidence provenance, NOT completeness, fitment, or reliability",
   "counts": {
-    "sources": 542,
-    "facts": 1065,
-    "issues": 89,
-    "parts": 84,
-    "gaps": 274
+    "sources": 547,
+    "facts": 1073,
+    "issues": 90,
+    "parts": 86,
+    "gaps": 277
   },
-  "unique_source_urls": 478,
+  "unique_source_urls": 482,
   "retrieval_statuses": {
-    "full_text": 512,
+    "full_text": 517,
     "metadata_only": 8,
     "partial": 3,
     "search_excerpt": 19
   },
   "evidence_statuses": {
-    "documented": 1109,
+    "documented": 1110,
     "inference": 10,
-    "supplier_claim": 119
+    "supplier_claim": 129
   },
   "explicit_scope_counts": {
-    "platforms": 1179,
-    "model_years": 1082,
+    "platforms": 1190,
+    "model_years": 1093,
     "markets": 205,
-    "engine_codes": 379,
+    "engine_codes": 390,
     "transmission_codes": 167,
     "body_styles": 83,
     "vin_ranges": 24
@@ -72,24 +72,24 @@
         "parts": 21
       },
       "2006": {
-        "facts": 157,
-        "issues": 17,
-        "parts": 21
+        "facts": 165,
+        "issues": 18,
+        "parts": 23
       },
       "2007": {
-        "facts": 138,
-        "issues": 19,
-        "parts": 20
+        "facts": 146,
+        "issues": 20,
+        "parts": 22
       },
       "2008": {
-        "facts": 189,
-        "issues": 28,
-        "parts": 20
+        "facts": 197,
+        "issues": 29,
+        "parts": 22
       },
       "2009": {
-        "facts": 130,
-        "issues": 16,
-        "parts": 20
+        "facts": 138,
+        "issues": 17,
+        "parts": 22
       }
     },
     "9-3-9440": {
@@ -295,6 +295,13 @@
       "parts": 8,
       "gaps": 9
     },
+    "og95_shared_electrics_countercheck": {
+      "sources": 5,
+      "facts": 8,
+      "issues": 1,
+      "parts": 2,
+      "gaps": 3
+    },
     "og95_structure": {
       "sources": 12,
       "facts": 16,
@@ -409,9 +416,9 @@
     }
   },
   "parts_provenance": {
-    "total": 84,
-    "with_relationships": 25,
-    "supplier_claim": 55,
-    "needs_vehicle_verification": 53
+    "total": 86,
+    "with_relationships": 27,
+    "supplier_claim": 57,
+    "needs_vehicle_verification": 55
   }
 }
