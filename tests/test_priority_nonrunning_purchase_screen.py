@@ -39,8 +39,8 @@ class NonrunningPurchaseGateTests(unittest.TestCase):
         self.assertIn("High back pressure",q["statuses"])
         self.assertEqual(self.fact("Tech2_indirect_backpressure_MAF_MAP")["value"]["method"],
                          "uses MAF and MAP values for backpressure estimation")
-        self.assertIn("NOT verified US",self.d["issues"][0]["limits"][0] if False else
-                      "NOT verified US" + " automotive tests")
+        self.assertIn("US/CA",self.d["issues"][0]["limits"][0])
+        self.assertIn("RUNNING",self.d["issues"][0]["limits"][0])
         self.assertEqual(self.sheet["vehicle_results"],None)
 
     def test_2007_pressure_protocol_not_2005_or_diy(self):
