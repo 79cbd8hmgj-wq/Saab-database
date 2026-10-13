@@ -50,9 +50,9 @@ class WholeProjectPhase0AuditTests(unittest.TestCase):
             self.assertEqual(saved[k],self.snapshot[k],k)
         header=(
             f"There are {self.snapshot['counts']['sources']} source records with "
-            f"{self.snapshot['unique_source_urls']} distinct\\nURLs."
+            f"{self.snapshot['unique_source_urls']} distinct" + "\nURLs."
         )
-        self.assertIn(header.replace("\\\\n","\\n"),index)
+        self.assertIn(header,index)
 
     def test_no_unearned_vehicle_or_parts_approval(self):
         self.assertIn("Gate A = partial", (ROOT / "docs" / "gap-closure-plan.md").read_text(encoding="utf-8"))
