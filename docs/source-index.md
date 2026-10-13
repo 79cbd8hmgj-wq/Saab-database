@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 510 source records with 451 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 521 source records with 457 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -304,6 +304,24 @@ Dataset: [ng93_early_mount_fuel](../data/datasets/ng93-early-mount-fuel.json)
 | `early9three-src-013` | [eSaabParts 12831387 CV early front axle stay page](https://www.esaabparts.com/saab/parts/12831387) | eSaabParts retailer catalogue | `full_text` |
 | `early9three-src-014` | [MY2004 NG9-3 front subframe replacement Z18XE](https://saabwisonline.com/9-3-9440/2004/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-replacement-z18xe) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
 | `early9three-src-015` | [MY2004 NG9-3 four-wheel alignment](https://saabwisonline.com/9-3-9440/2004/7-suspension-wheels/front-suspension/adjustment-replacement/four-wheel-alignment) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
+
+## cross_manufacturer_interchange_pilot
+
+Dataset: [cross_manufacturer_interchange_pilot](../data/datasets/cross-manufacturer-interchange-pilot.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `xint-src-001` | [PFI Automotive Bearings catalogue front wheel hub PHU3191, cross-platform listing](https://7000765.fs1.hubspotusercontent-na1.net/hubfs/7000765/Knowledge%20Base/PFI/PFI%20Automotive%20Bearings.pdf) | PFI (manufacturer catalogue, PDF hosted by PFI distributor) | `full_text` |
+| `xint-src-002` | [Saab MY2006 9-3 9440 front wheel hub replacement](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/front-suspension/adjustment-replacement/wheel-hub-front) | Saab Automobile AB original WIS (SaabWISOnline mirror) | `full_text` |
+| `xint-src-003` | [Saab MY2004 9-3 front hub/bearing and integrated wheel speed sensor design](https://saabwisonline.com/9-3-9440/2004/7-suspension-wheels/front-suspension/technical-description/front-assembly) | Saab Automobile AB original WIS (SaabWISOnline mirror) | `full_text` |
+| `xint-src-004` | [Saab Parts/Hedin North American replacement brake-pad catalogue](https://saabparts.com/us/wp-content/uploads/sites/10/2022/02/BrakePadsRetail.pdf) | Saab Parts/Hedin Parts manufacturer-support channel | `search_excerpt` |
+| `xint-src-005` | [eSaabParts Saab 93188111 front pad option and VIN restriction](https://www.esaabparts.com/saab/parts/93188111) | eSaabParts | `full_text` |
+| `xint-src-006` | [Spareto 93188111 cross-reference brake pad catalogue](https://spareto.com/oe/93188111) | Spareto | `full_text` |
+| `xint-src-007` | [Saab MY2006 9-3 VIN plate brake caliper and rotor code description](https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/technical-data/vin-plate-brake-caliper-and-brake-discs) | Saab Automobile AB original WIS (SaabWISOnline mirror) | `full_text` |
+| `xint-src-008` | [eSaabParts 2002-09 original 9-5 Nissens automatic radiator](https://www.esaabparts.com/saab/parts/32019620) | eSaabParts | `full_text` |
+| `xint-src-009` | [eSaabParts ProParts PCV 21341200 cross-reference to Saab 55561200](https://www.esaabparts.com/saab/parts/21341200?ss=55561200) | eSaabParts | `full_text` |
+| `xint-src-010` | [Saab MY2006 petrol 9-5 four-cylinder radiator service gearbox variant](https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/radiator-4-cyl) | Saab Automobile AB original WIS (SaabWISOnline mirror) | `full_text` |
+| `xint-src-011` | [eSaabParts brake 9-3 9440 option matrix separate 15, 16, 16+ pad codes](https://www.esaabparts.com/viewparts.php?searchpart=1&section=551473252) | eSaabParts | `full_text` |
 
 ## epc_provenance
 
