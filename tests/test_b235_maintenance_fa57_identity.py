@@ -53,7 +53,7 @@ class B235MaintenanceFA57IdentityTests(unittest.TestCase):
     def test_eu_oil_is_not_usca_approval(self):
         f=self.row("historical_gm_ll_a_025_oil",2009)
         self.assertEqual(f["applicability"]["markets"],["EU"])
-        self.assertIn("2026",f["notes"])
+        self.assertIn("Historical EU",f["notes"])
 
     def test_fa57_code_cannot_become_vin_approval(self):
         x=self.row("fa57_code_groups",2005)
