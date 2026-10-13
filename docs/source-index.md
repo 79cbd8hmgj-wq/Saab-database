@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 542 source records with 478 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 547 source records with 482 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -358,6 +358,18 @@ Dataset: [cross_manufacturer_interchange_pilot](../data/datasets/cross-manufactu
 | `xint-src-009` | [eSaabParts ProParts PCV 21341200 cross-reference to Saab 55561200](https://www.esaabparts.com/saab/parts/21341200?ss=55561200) | eSaabParts | `full_text` |
 | `xint-src-010` | [Saab MY2006 petrol 9-5 four-cylinder radiator service gearbox variant](https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/radiator-4-cyl) | Saab Automobile AB original WIS (SaabWISOnline mirror) | `full_text` |
 | `xint-src-011` | [eSaabParts brake 9-3 9440 option matrix separate 15, 16, 16+ pad codes](https://www.esaabparts.com/viewparts.php?searchpart=1&section=551473252) | eSaabParts | `full_text` |
+
+## og95_shared_electrics_countercheck
+
+Dataset: [og95_shared_electrics_countercheck](../data/datasets/og95-shared-electrics-countercheck.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `ogex-src-001` | [AS-PL S0034 starter manufacturer product record](https://as-pl.com/en/p/S0034) | AS-PL | `full_text` |
+| `ogex-src-002` | [AS-PL S0034 Saab B235R and Opel/Vauxhall application table](https://as-pl.com/en/tpu/S0034) | AS-PL | `full_text` |
+| `ogex-src-003` | [AS-PL A0219 120A alternator product record](https://as-pl.com/en/p/A0219) | AS-PL | `full_text` |
+| `ogex-src-004` | [AS-PL A0219 applications for 9-5 B235R through 2009](https://as-pl.com/sr/tpu/A0219/2) | AS-PL | `full_text` |
+| `ogex-src-005` | [AS-PL A0319 distinct original 9-5 alternator product and specifications](https://as-pl.com/en/p/A0319) | AS-PL | `full_text` |
 
 ## epc_provenance
 
