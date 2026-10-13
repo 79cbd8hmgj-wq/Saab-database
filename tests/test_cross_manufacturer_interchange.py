@@ -49,7 +49,13 @@ class InterchangeResearchGateTests(unittest.TestCase):
     def test_brake_option_and_hub_stay_unverified(self):
         for p in self.records['parts']:
             self.assertEqual(p['applicability']['platforms'],['9-3-9440'])
-            self.assertEqual(p['applicability']['model_years'],[2005,2006])
+            # Some first-party catalogues are platform-scoped and do not identify a model year.
+            # Unknown year is not an authorization; never fabricate a 2005/06 exact fit.
+            years=p['applicability'].get('model_years')
+            if years is not None:
+                self.assertEqual(years,[2005,2006])
+            else:
+                self.assertFalse(p['interchange_candidate']['fitment_approved'])
         g=' '.join(' '.join(x['missing_inputs']) for x in self.records['gaps'])
         self.assertIn('ABS',g)
         self.assertIn('brake',g.lower())
