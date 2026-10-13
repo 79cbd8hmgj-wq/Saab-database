@@ -4,6 +4,7 @@
     "corrections",
     "ng93",
     "ng93_body",
+    "ng93_early_mount_fuel",
     "ng93_structure",
     "og95",
     "og95_2006_2008",
@@ -14,24 +15,24 @@
     "subframe_parts_brake_lines"
   ],
   "counts": {
-    "sources": 185,
-    "facts": 356,
+    "sources": 200,
+    "facts": 376,
     "issues": 20,
-    "parts": 48,
-    "gaps": 79
+    "parts": 53,
+    "gaps": 86
   },
-  "unique_source_urls": 182,
+  "unique_source_urls": 195,
   "retrieval_statuses": {
-    "full_text": 174,
+    "full_text": 189,
     "metadata_only": 2,
     "partial": 3,
     "search_excerpt": 6
   },
   "evidence_statuses": {
-    "documented": 378,
+    "documented": 397,
     "inference": 3,
-    "supplier_claim": 43
+    "supplier_claim": 49
   },
   "research_date": "2026-10-12",
-  "notes": "Record counts track source-scoped research, not verified fitment, car safety, stock availability or statistical reliability."
+  "notes": "Source-scoped record inventory, not a reliability score, measured vehicle condition, verified cross-fit or general completeness metric."
 }

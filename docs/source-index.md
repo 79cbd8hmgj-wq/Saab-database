@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 185 source records with 182 distinct
+Research retrieval date: 2026-10-12. There are 200 source records with 195 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -267,3 +267,25 @@ Dataset: [subframe_parts_brake_lines](../data/datasets/subframe-parts-brake-line
 | `mountbrake-src-015` | [MY2006 9-3 rear brake disc and hydraulic body](https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/brake-disc-rear) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
 | `mountbrake-src-016` | [MY2008 OG 9-5 brake fastener technical data](https://saabwisonline.com/9-5-9600/2008/5-brakes/brake-discs-and-pads/technical-data/tightening-torques) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
 | `mountbrake-src-017` | [MY2006 9-3 rear subframe mounting](https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/subframe) | Saab Automobile AB (factory content reproduced by independent WIS mirror) | `full_text` |
+
+## ng93_early_mount_fuel
+
+Dataset: [ng93_early_mount_fuel](../data/datasets/ng93-early-mount-fuel.json)
+
+| Source ID | Document | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `early9three-src-001` | [MY2003 NG9-3 front subframe replacement procedure](https://saabwisonline.com/9-3-9440/2003/7-suspension-wheels/front-suspension/adjustment-replacement/subframe) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
+| `early9three-src-002` | [MY2004 NG9-3 front subframe procedure](https://saabwisonline.com/9-3-9440/2004/7-suspension-wheels/front-suspension/adjustment-replacement/subframe) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
+| `early9three-src-003` | [MY2005 NG9-3 B207 subframe procedure](https://saabwisonline.com/9-3-9440/2005/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-b207) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
+| `early9three-src-004` | [MY2004 NG9-3 right engine mounting, petrol](https://saabwisonline.com/9-3-9440/2004/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/engine-mounting-right) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
+| `early9three-src-005` | [MY2005 NG9-3 right engine mounting, petrol](https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/engine-mounting-right) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
+| `early9three-src-006` | [MY2004 NG9-3 petrol fuel tank and lines inspection](https://saabwisonline.com/9-3-9440/2004/2-engine/4-cylinder-petrol/fuel-system/adjustment-replacement/fuel-tank-and-fuel-lines-check) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
+| `early9three-src-007` | [MY2005 NG9-3 petrol fuel tank and lines inspection](https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/fuel-system/adjustment-replacement/fuel-tank-and-fuel-lines-check) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
+| `early9three-src-008` | [MY2005 NG9-3 petrol fuel system detailed description](https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/fuel-system/technical-description/detailed-description) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
+| `early9three-src-009` | [MY2005 NG9-3 fuel lines from tank to engine bay](https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-diesel/fuel-system/adjustment-replacement/fuel-lines-tank-engine-bay) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
+| `early9three-src-010` | [NG9-3 front floor and subframe eSaabParts diagram](https://www.esaabparts.com/viewparts.php?section=582948118) | eSaabParts retailer catalogue | `full_text` |
+| `early9three-src-011` | [eSaabParts current 32022623 replacement subframe page](https://www.esaabparts.com/saab/parts/32022623?ss=12825111) | eSaabParts retailer catalogue | `full_text` |
+| `early9three-src-012` | [eSaabParts 12805522 CV front axle stay page](https://www.esaabparts.com/saab/parts/12805522) | eSaabParts retailer catalogue | `full_text` |
+| `early9three-src-013` | [eSaabParts 12831387 CV early front axle stay page](https://www.esaabparts.com/saab/parts/12831387) | eSaabParts retailer catalogue | `full_text` |
+| `early9three-src-014` | [MY2004 NG9-3 front subframe replacement Z18XE](https://saabwisonline.com/9-3-9440/2004/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-replacement-z18xe) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
+| `early9three-src-015` | [MY2004 NG9-3 four-wheel alignment](https://saabwisonline.com/9-3-9440/2004/7-suspension-wheels/front-suspension/adjustment-replacement/four-wheel-alignment) | Saab Automobile AB (original technical content mirrored by Saab WIS Online) | `full_text` |
