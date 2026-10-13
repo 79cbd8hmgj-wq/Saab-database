@@ -10,6 +10,9 @@ engines, and platforms.
 
 ## Start here
 
+- [Phase 0 independent gap audit and model-selection coverage checklist](docs/phase0-gap-audit-2026-10-13.md): cross-linked existing missing evidence, under-tracked systems, and what would meaningfully change which Saab is worth rebuilding.
+- [Structured Phase 0 gap register](data/audits/phase0-gap-register-20261013.json): distinguishes existing source-linked gaps from newly identified coverage questions; no vehicle or part approvals.
+
 - [U.S. Saab replacement price and inventory listing snapshots](docs/research/us-retail-parts-supply-snapshot.md): exact date, supplier origin, out-of-stock alternatives, and explicit limits on stock and installed-cost claims.
 
 - [Original 9-5 B235 cross-brand starter/alternator countercheck](docs/research/og95-shared-electrics-countercheck.md): S0034/A0219 alternative supplier families; incompatible A0319 130A alternative and unresolved actual VIN scope.
@@ -23,7 +26,7 @@ engines, and platforms.
 - [Expanded cross-manufacturer candidate research](docs/research/cross-manufacturer-interchange-pilot.md): PFI hub, SKF, Saab/Opel brake-pad references, and correctly separated Saab-specific radiator and older-PCV options; donor hardware and durability unverified.
 - [Cross-manufacturer replacement pilot](docs/research/cross-manufacturer-front-hub-pilot.md): direct Schaeffler FAG 9-3 front hub catalogue cross-references with GM/Opel plus Saab WIS sensor/mounting dependencies; no approved donor interchange or reliability benefit yet.
 - [Interchange candidate evidence matrix](data/interchange-candidates/phase0.json): explicit manufacturer, SKU, reference types, vehicle verification gates and separate cost/durability/fitment status.
-- [Phase 0 coverage audit](docs/coverage-audit.md): **current 35-domain** evidence census, platform/model-year coverage and status of inspection, subsystem and interchange readiness gates.
+- [Phase 0 coverage audit](docs/coverage-audit.md): **machine-verified current** evidence census, platform/model-year coverage and status of inspection, subsystem and interchange readiness gates.
 - [MY2008 9-5 US/CA original service schedule and historic recall-status caveats](docs/research/priority-usca-service-recall-baseline-wp7.md): source-backed maintenance checks; NHTSA VIN lookup excludes most >15-year-old recalls, so an apparent zero does not clear historic Saab campaigns.
 - [Phase 0 closure plan](docs/gap-closure-plan.md): prioritized blocker-driven work for vehicle identity, rust, brakes, high-cost no-running diagnostics and manufacturer fitment.
 - [Reproducible Phase 0 snapshot](data/phase0-coverage-snapshot.json): machine-derived baseline checked against all datasets on every CI run.
@@ -95,10 +98,7 @@ engines, and platforms.
   North American specifications, WIS conflicts and source limits.
 - [Datasets](data/datasets/): structured JSON with source IDs and original links.
 
-As of October 13, 2026 the database contains **489 source records, 972 factual
-records, 73 issue records, 76 part records, and 237 explicit gaps** across thirty-one
-research domains. This is not a completeness score.
-See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
+**Live database counts** are computed from the source-backed datasets, not maintained manually in this README. See the [current Phase 0 coverage audit](docs/coverage-audit.md), [source index](docs/source-index.md), and [machine-readable inventory](data/inventory.json). Source and part totals measure records, not completeness, fitment approval or relative Saab reliability.
 
 ## What this contains
 

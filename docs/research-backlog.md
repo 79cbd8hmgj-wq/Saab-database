@@ -1,5 +1,7 @@
 # Phase 0: prioritized research backlog
 
+**2026-10-13 omission audit:** The [Phase 0 gap register](phase0-gap-audit-2026-10-13.md) links existing issue/gap IDs to decision-blocking missing evidence and explicitly identifies under-tracked candidate configurations, steering/suspension and HVAC. The register does not mark the P0/P1 tasks below complete or increase the research census.
+
 This is a **database research plan**, not a simulation roadmap or an instruction to buy parts. **Current execution sequence:** use the [October 2026 Phase 0 gap-closure plan](gap-closure-plan.md) and [fresh all-domain coverage audit](coverage-audit.md) in preference to the original seven-domain baseline below. Gate A (inspection reference) is partial; Gates B (complete priority system documentation) and C (OEM interchange) are not yet met. Research tasks should close an actual inspection, structural safety or VIN-specific parts blocker—not merely add facts. Target platforms: OG 9-5 (`9-5-9600`), especially US/CA MY2004–2009 B235 configurations, and NG 9-3 (`9-3-9440`), initially US/CA MY2005–2006 B207 FWD. Other Saab variants remain eligible for future research; their absence here is not a negative reliability rating.
 
 Priority definitions: **P0** = materially affects safe purchase screening, expensive engine/transmission avoidance or part ordering; **P1** = important completeness for DIY service and diagnosis; **P2** = engineering-depth research that can follow the core records.

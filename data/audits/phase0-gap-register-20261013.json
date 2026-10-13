@@ -1,0 +1,336 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-10-13",
+  "baseline": {
+    "domains": 40,
+    "sources": 554,
+    "facts": 1086,
+    "issues": 91,
+    "parts": 86,
+    "recorded_gaps": 280,
+    "note": "Snapshot from current main at audit start; metadata is an audit baseline, not a live counter. The standalone register does not add research facts or change the existing census."
+  },
+  "decision": "Gate A inspection partial; Gate B subsystem inventory incomplete; Gate C OEM interchange unverified.",
+  "scope": "Candidate comparison around original 9-5 MY2004-09 B235 and NG9-3 MY2005-06 B207 FWD, with explicit unassessed alternatives; not a fleet-wide Saab reliability ranking.",
+  "method": [
+    "Read repository Phase 0 coverage audit, gap closure plan and priority source-backed datasets.",
+    "Cross-link priority acceptance needs to exact existing gap IDs; never close a gap by rewording it.",
+    "Mark additional neglected subsystem questions as new_coverage_question instead of pretending original source searches were completed.",
+    "Keep paper/source gap versus real vehicle/VIN/measurement gap distinct.",
+    "No part recommendation, failure probability, official supersession or engineering simulation generated from this register."
+  ],
+  "blockers": [
+    {
+      "id": "P0-U01",
+      "gate": "A",
+      "priority": "P0",
+      "topic": "Compare the actual used-Saab candidate universe",
+      "coverage_state": "new_coverage_question",
+      "linked_gap_ids": [],
+      "decision_blocked": "Which model/engine/transmission/body combinations deserve research before excluding them?",
+      "exit_evidence": "List common locally encountered original 9-5 and NG9-3 variants, including early/late B235, B207 revisions, 9-3 2.8 V6 and XWD, body and gearbox, with source-backed major-work exclusion; mark non-priority models unassessed, not unreliable.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": false,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P0-I01",
+      "gate": "A/C",
+      "priority": "P0",
+      "topic": "Complete US/Canadian VIN and build/option maps",
+      "coverage_state": "existing_gap",
+      "linked_gap_ids": [
+        "gateac-gap-001",
+        "gate5-gap-002",
+        "gateac-gap-002"
+      ],
+      "decision_blocked": "Which actual OE systems and replacement histories apply to this car?",
+      "exit_evidence": "Recover original MY2008-09 USA Saab VIN tables and Canadian version references; verify vehicle identity and installed hardware by genuine records before VIN-specific ordering.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": true,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P0-S01",
+      "gate": "A",
+      "priority": "P0",
+      "topic": "9-5 SportCombi load-bearing corrosion and underbody repair boundary",
+      "coverage_state": "existing_gap",
+      "linked_gap_ids": [
+        "rustgate-gap-001",
+        "rustgate-gap-002",
+        "rustgate-gap-007"
+      ],
+      "decision_blocked": "Can the prospective 2008 wagon be structurally and economically rebuilt?",
+      "exit_evidence": "Obtain matching body-repair and rear-subframe diagrams and competent inspection of metal, captive nuts, brake/fuel lines and repair estimate. No generic 'subframe swap fixes rust' assumption.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": true,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P0-S02",
+      "gate": "A/B",
+      "priority": "P0",
+      "topic": "NG9-3 sedan, SportCombi and convertible structure separately",
+      "coverage_state": "existing_gap",
+      "linked_gap_ids": [
+        "rustgate-gap-005",
+        "ng93structure-gap-007"
+      ],
+      "decision_blocked": "Could a different 9-3 body style be a safer/easier rebuild platform?",
+      "exit_evidence": "Document body-specific structural pick-up, sill, rear-subframe and datum differences before comparing repairability.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": true,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P0-B01",
+      "gate": "A/B",
+      "priority": "P0",
+      "topic": "Resolve brake assembly configurations and hazardous source conflicts",
+      "coverage_state": "existing_gap",
+      "linked_gap_ids": [
+        "hydbrake-gap-001",
+        "hydbrake-gap-002",
+        "hydbrake-gap-003",
+        "hydbrake-gap-007"
+      ],
+      "decision_blocked": "What brake hardware and actual manufacturer torques can safely be installed?",
+      "exit_evidence": "Find original authoritative MY2008 9-5 brake carrier torque erratum, reconcile B1/B2/B3 rotor applications, 9-3 option/VIN assembly, and hydraulic bleeding requirements.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": true,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P0-M01",
+      "gate": "A/B",
+      "priority": "P0",
+      "topic": "Non-running engine, catalytic converter and contamination differentiation",
+      "coverage_state": "existing_gap",
+      "linked_gap_ids": [
+        "nrscreen-gap-002",
+        "nrscreen-gap-003",
+        "hcdiag-gap-002"
+      ],
+      "decision_blocked": "Can a cheap non-running Saab be repaired without opening or replacing its engine?",
+      "exit_evidence": "Document source-specific safe tests for internal condition, fuel/catalyst cause, coolant/oil contamination and escalation; inspect real car before declaring repair cheap.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": true,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P0-D01",
+      "gate": "A/B",
+      "priority": "P0",
+      "topic": "Exact gearbox family, failure modes, replacement cost and no-rebuild boundary",
+      "coverage_state": "existing_gap",
+      "linked_gap_ids": [
+        "nrscreen-gap-007",
+        "gateac-gap-003",
+        "ng93-gap-003",
+        "hcdiag-gap-009"
+      ],
+      "decision_blocked": "Which manual/automatic variants present unacceptable rebuild/replacement exposure?",
+      "exit_evidence": "Get original 9-3 FM57/F40/AF40 and 9-5 FA57 option identity, factory test and service evidence; matched repair/replacement market costs and actual gearbox condition.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": true,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P0-M02",
+      "gate": "A/B",
+      "priority": "P0",
+      "topic": "B207 intake-valve, cold compression and high-cost internal damage",
+      "coverage_state": "existing_gap",
+      "linked_gap_ids": [
+        "hcdiag-gap-004",
+        "hcdiag-gap-005",
+        "nrscreen-gap-006"
+      ],
+      "decision_blocked": "Can MY2005-06 B207 avoid internal engine repair?",
+      "exit_evidence": "Retrieve exact original AERA/factory advisory provenance, test protocol/temperatures and VIN scope; validate actual cold-compression and symptoms.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": true,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P0-T01",
+      "gate": "A/B",
+      "priority": "P0",
+      "topic": "Original maintenance schedule by target year, market and drivetrain",
+      "coverage_state": "existing_gap",
+      "linked_gap_ids": [
+        "wp7-gap-003",
+        "wp7-gap-004",
+        "wp7-gap-008"
+      ],
+      "decision_blocked": "How should we maintain each Saab to reduce avoidable failures without invented intervals?",
+      "exit_evidence": "Recover US/CA B207 2005-06 and B235 2004-09 year-specific factory schedules; retain the conflicting 2008 9-5 60k versus 70k/5-year ATF entries until authoritative revision.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": false,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P0-C01",
+      "gate": "C",
+      "priority": "P0",
+      "topic": "VIN-filtered genuine Saab OE identities and actual donor interchange",
+      "coverage_state": "existing_gap",
+      "linked_gap_ids": [
+        "gate5-gap-004",
+        "gate5-gap-005",
+        "gateac-gap-004"
+      ],
+      "decision_blocked": "Can a GM/Opel or non-Saab part really be substituted?",
+      "exit_evidence": "Obtain authorized VIN WebEPC forward part chain and donor OE, compare geometry/control/wiring/security, define physical tests, never promote a catalogue shared SKU to installed-car approval.",
+      "desk_research_possible": false,
+      "needs_specific_vehicle_data": true,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P0-C02",
+      "gate": "C/A",
+      "priority": "P0",
+      "topic": "Current US delivered repair cost and actual availability",
+      "coverage_state": "existing_gap",
+      "linked_gap_ids": [
+        "usparts-gap-001",
+        "usparts-gap-002",
+        "usparts-gap-003"
+      ],
+      "decision_blocked": "Does cross-brand sourcing meaningfully reduce ownership and rebuild costs in New York?",
+      "exit_evidence": "Get comparable dated US landed quotes and warranty for matching VIN-specific units plus tools, shipping, labor, core, programming and professional repair.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": true,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P0-E01",
+      "gate": "B/A",
+      "priority": "P0",
+      "topic": "9-3 B207 North American exhaust, EVAP and safe fuel diagnosis",
+      "coverage_state": "existing_gap",
+      "linked_gap_ids": [
+        "wp6-gap-005",
+        "early9three-gap-006"
+      ],
+      "decision_blocked": "Is the 9-3 an equally well-screenable nonrunning purchase?",
+      "exit_evidence": "Original US/CA MY2005-06 B207 exhaust/O2/catalyst, T8 EVAP, petrol routing and legal parts variants, with professional high-risk tests.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": false,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P0-R01",
+      "gate": "A",
+      "priority": "P0",
+      "topic": "Historical recalls and completed campaign status, not just open-recall result",
+      "coverage_state": "existing_gap",
+      "linked_gap_ids": [
+        "wp7-gap-001",
+        "wp7-gap-006",
+        "wp7-gap-007"
+      ],
+      "decision_blocked": "Are safety-critical campaign remedies and parts still outstanding for this VIN?",
+      "exit_evidence": "Compare regulator original affected population and manufacturer service record, preserving NHTSA 15-year and registration-history limitations; retrieve actual owner/VIN status.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": true,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P0-X01",
+      "gate": "A/B/C",
+      "priority": "P0",
+      "topic": "Trionic 7 versus 8 whole electrical/security repair bill",
+      "coverage_state": "existing_gap",
+      "linked_gap_ids": [
+        "elec-g001",
+        "elec-g002",
+        "elec-g003",
+        "og95t7-gap-004"
+      ],
+      "decision_blocked": "Would immobilizer/ECU failure make a cheap otherwise healthy Saab uneconomical?",
+      "exit_evidence": "Differentiate T7 cassette from full ECM, T8 clone with readable donor/old module, TWICE/CIM, keys, Tech2/security access, professional quote and repeat-failure evidence.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": true,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P0-L01",
+      "gate": "A/B",
+      "priority": "P0",
+      "topic": "Compare true reliability exposure with comparable denominators",
+      "coverage_state": "existing_gap",
+      "linked_gap_ids": [
+        "maint-gap-005",
+        "elec-g004",
+        "usparts-gap-003"
+      ],
+      "decision_blocked": "Which Saab is likely to become reliably daily-drivable, rather than simply sharing more parts?",
+      "exit_evidence": "Get matched age/mileage/usage/service/region data for severe engine, gearbox, rust and electronic faults; record absent data as unknown, avoid scores derived from catalogue counts.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": false,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P1-U01",
+      "gate": "B",
+      "priority": "P1",
+      "topic": "Complete steering, rack, pump and suspension serviceability map",
+      "coverage_state": "new_coverage_question",
+      "linked_gap_ids": [],
+      "decision_blocked": "What apparently minor chassis defects could become specialized expensive repairs?",
+      "exit_evidence": "Systematic original parts/diagrams and failure/test/corrosion/geometry matrix for power steering, tie rods, springs/struts, rear links and steering/suspension hardware; preserve 9-3 variant codes.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": true,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P1-U02",
+      "gate": "B",
+      "priority": "P1",
+      "topic": "Complete HVAC, ventilation, defrost and water-ingress parts map",
+      "coverage_state": "new_coverage_question",
+      "linked_gap_ids": [],
+      "decision_blocked": "Are daily-driver comfort and visibility systems affordable to restore?",
+      "exit_evidence": "Original climate/AC wiring, blower actuators, evaporator/heater access, drainage/water ingress and defrost test/parts inventory for both platforms; document body/year variations.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": true,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    },
+    {
+      "id": "P1-U03",
+      "gate": "B",
+      "priority": "P1",
+      "topic": "Full diagnostic circuit and tools/support ecosystem",
+      "coverage_state": "existing_gap",
+      "linked_gap_ids": [
+        "og95t7-gap-001",
+        "og95t7-gap-002"
+      ],
+      "decision_blocked": "Can a DIY owner distinguish mechanical failure from expensive electrical faults without a Saab specialist?",
+      "exit_evidence": "Complete critical power/ground/fuse/bus connector maps for target years, live diagnostics capability, Tech2 pairing access, repair shops/tools and what still requires specialists.",
+      "desk_research_possible": true,
+      "needs_specific_vehicle_data": true,
+      "review_status": "open",
+      "source_basis": "Repository research files and stored gap records examined 2026-10-13; this is a gap audit, not a new manufacturer source or completed test."
+    }
+  ]
+}
