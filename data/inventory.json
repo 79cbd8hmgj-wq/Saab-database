@@ -11,30 +11,31 @@
     "og95_2006_2008",
     "og95_body",
     "og95_structure",
+    "og95_t7_cooling_0709",
     "og95_t7_electrical",
     "replacements",
     "simulation",
     "subframe_parts_brake_lines"
   ],
   "counts": {
-    "sources": 232,
-    "facts": 431,
-    "issues": 24,
+    "sources": 260,
+    "facts": 503,
+    "issues": 27,
     "parts": 55,
-    "gaps": 98
+    "gaps": 105
   },
-  "unique_source_urls": 225,
+  "unique_source_urls": 252,
   "retrieval_statuses": {
-    "full_text": 221,
+    "full_text": 249,
     "metadata_only": 2,
     "partial": 3,
     "search_excerpt": 6
   },
   "evidence_statuses": {
-    "documented": 451,
+    "documented": 526,
     "inference": 3,
     "supplier_claim": 56
   },
   "research_date": "2026-10-12",
-  "notes": "These are source-scoped research record counts, not a calibrated reliability ranking, a diagnostic test of a specific car, verified OEM interchange or an assertion that every T7 procedure applies across model years."
+  "notes": "Factory WIS source-count inventory, not verified vehicle condition, simulation input calibration, interchange proof or statistical failure incidence. MY2008 petrol fan documents contain both 99°C and 100°C low-on wording, retained with locators."
 }
