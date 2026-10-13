@@ -1,6 +1,6 @@
-# Phase 0 research coverage audit — 37-domain refresh
+# Phase 0 research coverage audit — 38-domain refresh
 
-**Audit basis:** October 13, 2026, 37 research datasets. This release adds original Saab Automobile USA MY2004–07 VIN documents and manufacturer-channel conditional service-kit provenance; earlier Phase 0 audit baselines remain in merged pull-request history. This is a census of saved records, **not** an independent recertification of every original Saab source, an estimate of percent complete, or an engineering safety certification. The earlier seven-domain baseline is superseded.
+**Audit basis:** October 13, 2026, 38 research datasets. This release adds original Saab Automobile USA MY2004–07 VIN documents and manufacturer-channel conditional service-kit provenance; earlier Phase 0 audit baselines remain in merged pull-request history. This is a census of saved records, **not** an independent recertification of every original Saab source, an estimate of percent complete, or an engineering safety certification. The earlier seven-domain baseline is superseded.
 
 **Living guardrail:** `tools/phase0_audit.py` recalculates all numeric tables from `data/datasets/*.json`. Its checked-in companion `data/phase0-coverage-snapshot.json` is verified by unit tests and `python3 tools/phase0_audit.py --check`. A new research PR must refresh these numbers when datasets change; otherwise CI should fail.
 
@@ -9,13 +9,13 @@
 
 | Measure | Current records |
 | --- | ---: |
-| Research domains | 37 |
-| Source records | 536 |
-| Unique source URLs | 472 |
-| Technical facts | 1056 |
-| Diagnostic/correction issues | 87 |
+| Research domains | 38 |
+| Source records | 542 |
+| Unique source URLs | 478 |
+| Technical facts | 1065 |
+| Diagnostic/correction issues | 89 |
 | Part records | 84 |
-| Explicit open research gaps | 270 |
+| Explicit open research gaps | 274 |
 
 A repeated URL is not independent corroboration. These are stored record counts,
 **not** estimates of system completeness, part fitment confidence, failure rates,
@@ -25,16 +25,16 @@ or the probability that an individual vehicle is repairable.
 
 | Source retrieval | Records |
 | --- | ---: |
-| `full_text` | 506 |
+| `full_text` | 512 |
 | `partial` | 3 |
 | `search_excerpt` | 19 |
 | `metadata_only` | 8 |
 
 | Technical evidence | Facts + issues + parts |
 | --- | ---: |
-| `documented` | 1103 |
-| `supplier_claim` | 115 |
-| `inference` | 9 |
+| `documented` | 1109 |
+| `supplier_claim` | 119 |
+| `inference` | 10 |
 
 ### Explicit application dimensions
 
@@ -44,13 +44,13 @@ is counted from individual groups, not from a misleading top-level union.
 
 | Scope field explicitly present | Records out of facts + issues + parts |
 | --- | ---: |
-| `platforms` | 1168 / 1227 |
-| `model_years` | 1071 / 1227 |
-| `markets` | 205 / 1227 |
-| `engine_codes` | 368 / 1227 |
-| `transmission_codes` | 167 / 1227 |
-| `body_styles` | 83 / 1227 |
-| `vin_ranges` | 24 / 1227 |
+| `platforms` | 1179 / 1238 |
+| `model_years` | 1082 / 1238 |
+| `markets` | 205 / 1238 |
+| `engine_codes` | 379 / 1238 |
+| `transmission_codes` | 167 / 1238 |
+| `body_styles` | 83 / 1238 |
+| `vin_ranges` | 24 / 1238 |
 
 ### Technical record coverage by original Saab model year
 
@@ -72,7 +72,7 @@ model-year row. Year-path names do not prove a given production revision.
 | 2005 | 158 | 11 | 21 |
 | 2006 | 157 | 17 | 21 |
 | 2007 | 138 | 19 | 20 |
-| 2008 | 185 | 27 | 20 |
+| 2008 | 189 | 28 | 20 |
 | 2009 | 130 | 16 | 20 |
 
 #### Second-generation 9-3, platform 9440
@@ -81,8 +81,8 @@ model-year row. Year-path names do not prove a given production revision.
 | ---: | ---: | ---: | ---: |
 | 2003 | 20 | 15 | 18 |
 | 2004 | 34 | 17 | 21 |
-| 2005 | 92 | 18 | 24 |
-| 2006 | 132 | 20 | 29 |
+| 2005 | 97 | 19 | 24 |
+| 2006 | 137 | 21 | 29 |
 | 2007 | 26 | 11 | 22 |
 | 2008 | 28 | 11 | 23 |
 | 2009 | 21 | 11 | 23 |
@@ -105,7 +105,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 ### Distribution of recorded evidence by research domain
 
 | Dataset domain | Sources | Facts | Issues | Parts | Gaps |
-| --- | ---: | ---: | ---: | ---: | ---: |
+| --- | ---: | ---: | ---: | ---: |
 | `b235_maintenance_fa57_identity` | 13 | 44 | 2 | 0 | 9 |
 | `b235r_oil_pcv_2006_2008` | 17 | 31 | 2 | 7 | 9 |
 | `corrections` | 27 | 9 | 20 | 26 | 7 |
@@ -142,6 +142,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 | `replacements` | 8 | 10 | 0 | 5 | 3 |
 | `simulation` | 20 | 40 | 0 | 0 | 15 |
 | `subframe_parts_brake_lines` | 17 | 16 | 0 | 15 | 9 |
+| `t7_t8_repair_support_model_choice` | 6 | 9 | 2 | 0 | 4 |
 | `vin_gearbox_provenance` | 14 | 29 | 2 | 0 | 9 |
 
 <!-- END AUTO-GENERATED PHASE0 CENSUS -->
@@ -149,6 +150,10 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 ### Cross-brand parts and model choice (2026-10-13)
 
 [AS-PL electrical system sourcing comparison](research/cross-manufacturer-electrics-model-choice.md) identifies both B207 cross-brand starter/alternator candidates and a distinct original 9-5 B235 alternator. This does **not** rank the two cars by reliability: original VIN compatibility, U.S. landed costs, ECU/gearbox reliability and candidate structural condition remain open.
+
+### T7 and T8 service pathway distinction (2026-10-13)
+
+[Original T7 ignition cassette and T8 ECM cloning support](research/t7-t8-repair-support-model-choice.md) documents different failure and repair component categories. A standalone T7 cassette and a T8 programmable ECU must not be equated, and vendor programming-only prices do not establish installed total costs or relative failure frequency.
 
 ## Assessment of the original Phase 0 gates
 
