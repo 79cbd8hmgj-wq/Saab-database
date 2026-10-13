@@ -1,0 +1,63 @@
+# Phase 0 gap-closure plan: make the Saab database useful before simulation
+
+**Plan date:** 2026-10-12. Based on [the new all-domain coverage audit](coverage-audit.md) and [machine snapshot](../data/phase0-coverage-snapshot.json). This is a research execution order, not a claim that any inspected car is roadworthy or that a candidate part is approved.
+
+## Scope and decision rule
+
+**First configurations:** original 9-5 9600, US/Canada MY2004–09, petrol B235E/R four-cylinder and installed manual or five-speed automatic variants; second-generation 9-3 9440, US/Canada MY2005–06, FWD B207 with exact engine, body and gearbox variants. Model-year names are a search boundary, not a blanket statement of hardware interchange.
+
+**Objective:** screen affordable non-running/running candidate Saabs for structural safety and unacceptable engine/transmission rebuild risks; then identify verifiable repair and preventive-maintenance options. **We are deliberately not building a vehicle ranking algorithm, life simulator, guaranteed Toyota-equivalent upgrade plan, or automatic parts-order system.**
+
+**Research work is meaningful when it closes a named vehicle-inspection or OEM-fitment blocker, not merely when it adds 20 more records.**
+
+## Ordered work packages
+
+| Order | Gate | Work package and immediate source-backed gap | Deliverable / exit condition | Do not advance by assumption |
+| ---: | --- | --- | --- | --- |
+| **1** | A/C | **Vehicle identity and build configuration:** original factory US/CA VIN decode, engine/gearbox/body/market, build/serial cutovers; vendor catalog identifiers are secondary. | One verified identity sheet each for MY2004–09 9-5 B235 and MY2005–06 9-3 B207, showing exact year-by-year gearbox and major assembly exceptions, and what still needs an actual VIN. | A gearbox family string, model-year folder or reused production suffix is not proof of interchange. |
+| **2** | A | **Structural rust and safety:** front/rear subframes, rear suspension pickup points, jacking points, sills, engine/suspension mounting, brake/fuel pipe corrosion. Separate 9-5 sedan vs SportCombi and 9-3 sedan vs convertible. | Source-cited region/zone inspection inventory with photo/measurement checklist, repairability boundaries, tools and qualified-inspector escalations. Unknown severity stays unknown. | Never infer that a structurally rusted 9-5 wagon is a cheap suspension repair, or that visible surface rust is automatically unsafe. |
+| **3** | A/B | **Brakes and hydraulic routing:** rotor/caliper/carrier options and wheel fit, flex/rigid brake pipes, parking brake and safe hydraulic service. | Factory option matrix by priority configuration, installed-part identification method, primary specs and stopping/safety criteria for a prospective purchase. | An eSaabParts listing or generic 9-5 model year is not enough to order a safety-critical brake assembly. |
+| **4** | A/B | **Non-running drivetrain condition:** distinguish missing-signal / control faults from measured internal oil/bearing/compression or clutch damage. Include turbo feed and real coolant/catalyst side effects. | Conservative non-running inspection worksheet: seller-document checks, cold visual examinations, safe supported tests, test instruments, conditional professional checks, mandatory unknowns and high-cost stop signs. | No full-throttle gearbox stall test, hot-coolant opening, false turbo shaft threshold or 'cheap fix' diagnosis from symptoms alone. |
+| **5** | C | **OEM parts identifiers and directed replacements:** obtain Saab official WebEPC VIN-filtered numbers/relations for radiator manual vs automatic, PCV hoses, turbo feed hardware, subframes, brakes, sensors and ECU/TCM; verify serial and calibration restrictions. | Verified original OE part ID and conditional forward supersession where manufacturer explicitly documents it; capture accompanying hardware, dimensions and unsupported combinations. Create per-part evidence status and dated availability. | Manufacturer WebEPC may require paid access. If not obtained, explicitly mark **blocked by OEM evidence**; never promote retail cross-reference into Saab-approved fitment. |
+| **6** | B/A | **Emissions/exhaust/catalyst, fuel/EVAP:** diagnose excessive backpressure or failed catalyst, cause of damage (misfire/rich fuel/oil), legal emissions differences, fuel line safety. | Complete priority-platform component routing and symptom differential with original US/CA emissions applicability and safe tests, for buying a car described as having a clogged converter. | A claimed plugged converter is not proof the engine, oxygen sensors, exhaust or transmission is intact. |
+| **7** | A/B | **Current safety campaign and service baseline:** complete US/CA original regulator and factory service scope; fluid, filters, belts, brake, fuel, coolant and severe-duty intervals by year. | Official VIN-status-check process with links and a scoped schedule/inspection plan distinguishing historic factory approvals from current substitute products. | A campaign's inclusion in a bulletin does not prove free/unperformed work for a particular VIN. |
+| **8** | B | **Broader 9-3 and neglected systems:** NG9-3 T8, later B207 revisions, HVAC, dashboard/comfort, steering, suspension and parts dependencies. | Target configuration matrix with named source-search outcomes, diagram/connector coverage, unresolved exclusions and safe service limitations. | Do not call these systems complete because there are a few isolated mentions in older datasets. |
+
+## Five mandatory fields for every Phase 0 blocker
+
+Each future blocker should carry a stable ID linked to an original `gaps` record or a new gap, the **specific car/configuration and system**, the **missing authoritative evidence or physical measurement**, the **required pass evidence**, and the **gate blocked**. A future status such as `closed` must name the source locator or vehicle measurement, never just say 'researched'.
+
+A narrowly sourced fact may correctly apply to one year and still leave adjacent years unresolved. Reused URLs do not provide independent corroboration. Manufacturer part supersession, supplier reference, reverse interchange, physical fit and safety adequacy are distinct relationships.
+
+## Vehicle inspection readiness categories
+
+| Result | Evidence standard | Implication |
+| --- | --- | --- |
+| **Known factory configuration** | Documented scope plus matching actual vehicle identity, original build/installed hardware corroboration | Permits planning the proper inspection, **not** certification of condition. |
+| **Ready for basic safe inspection** | Appropriate structural/safety inspection information and feasible no-disassembly observations with source references | Can inspect or request further documentation; still no purchase endorsement. |
+| **Specialist required** | Structural integrity, gearbox contamination, severe overheating, internal compression/bearing issue or uncertain brake hydraulic safety | Avoid road use and major-spend commitment until professionally checked and costed. |
+| **Evidence insufficient** | VIN/serial missing, source conflict, unknown actual vehicle measurements, or unauthenticated OEM fitment | Stop the fitment/reliability decision rather than filling the field with generic Saab facts. |
+
+These are **qualitative gates**, not a numerical reliability score or pass/fail verdict on any actual car.
+
+## Example use case already motivating this project
+
+A **2008 9-5 wagon** offered with rear-subframe rust and a claimed clogged catalytic converter cannot be cleared by searching those two words in the database. Both conditions independently require diagnostic confirmation. The rear structure/suspension and underbody brake/fuel lines must be assessed for safe repairability; the exhaust restriction must be proved and its cause investigated before assuming an isolated inexpensive catalyst swap. The current research should help ask the correct questions, not replace actual inspection or predict a low-cost outcome.
+
+## Phase 0 exit criteria (do not use record-count quotas)
+
+- **Gate A:** An auditor can select a supported priority configuration and obtain a source-linked inspection plan covering exact identity, structure/brakes, critical engine/gearbox failure differentiation and recall process, with explicit unknown and specialist branches. No simulated vehicle data.
+- **Gate B:** All priority subsystems are inventoried at component/connection level or each remaining omission has a named attempted first-party source-search result and applicability boundary. Conflicts remain visible and stop affected decisions.
+- **Gate C:** Proposed replacement candidates have original part IDs and evidence-backed one-way supersessions, VIN/serial/market/body/gearbox/option conditions, mechanical interfaces and required software/hardware dependencies; missing OEM data explicitly blocks approval.
+
+**Current status:** Gate A = partial, Gate B = not met, Gate C = not met. Do not promote any to 'passed' merely because the machine census grows.
+
+## Working agreement for future PRs
+
+1. Name **which work package and gate** the PR advances; explain what actual inspection or decision it unblocks.
+2. Add verified scoped sources and newly supported facts **only when they close an identified gap**; keep gaps when missing VIN/OEM/measurement remains.
+3. Avoid simultaneously opening numerous branches with overlapping inventory updates; one tested coherent PR at a time.
+4. Update the dataset, inventory, source index and the reproducible Phase 0 snapshot. `python3 tools/phase0_audit.py --check` must pass alongside all existing tests.
+5. Summarize **resolved versus still-blocked** acceptance criteria; no imaginary replacement approvals or percentage complete.
+
+For the underlying existing research backlog and original P0 codes, see [research-backlog.md](research-backlog.md). For the numeric audit and current caveats, see [coverage-audit.md](coverage-audit.md).
