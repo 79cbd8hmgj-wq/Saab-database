@@ -1,0 +1,41 @@
+# High-cost engine and transmission failure differentiation
+
+Research date: 2026-10-12. This **P0-06** update adds diagnostic conditions, recorded factory decisions, and deliberately restricted candidate replacement part identities. It does not calculate failure rates, guarantee a repair, or create a simulator.
+
+## OG 9-5 B205/B235 (MY1998–2003): sludge, low pressure and bearing risk
+
+US/CA factory [TSB 210-2554 edition 3](https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2554-ed-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine) is **for MY1998–2003 B205/B235 9-5s**, not a blanket campaign on all later 9-5s. Saab separately issued [non-US/CA TSB 210-2561 edition 3](https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2561-utg-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine); geographic restrictions matter. The bulletin is symptom-led (oil lamp, timing-chain or unusual mechanical noise) rather than a recommendation for automatic engine disassembly on every car.
+
+Differentiate at least four possibilities:
+- **Oil lamp / sensor:** measure mechanical oil pressure with the year-correct specified tester; the TSB says replace pressure sensor only when mechanical pressure checks good.
+- **Low-pitched bellow at idle:** factory cites clogged oil pickup strainer as a candidate diagnosis.
+- **Lower-end knock:** merits bearing examination, not a mere PCV kit.
+- **Timing-chain noise:** check chain tensioner protrusion using the correct removal procedure; the TSB uses **more than 15 mm** to trigger chain work, **after** assessing further internal damage.
+
+The bulletin records an invasive **0.014–0.062 mm** bearing clearance with green PG-1 Plastigauge and a short-block replacement branch when bearing damage is confirmed. This is not a reasonable non-running-lot inspection. Cleaning or an oil change cannot undo bearing damage.
+
+Independent [MY2005](https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system) and [MY2009](https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system) Saab lubricating tables each specify **minimum 2.5 bar at 2,000 rpm at 105±2°C using 10W-30 oil**, while oil pressure warning lamp activation is **0.3–0.55 bar**. Critically, the later tables are NOT assumed to be the test acceptance criterion in the MY1998–03 bulletin. The [MY2005 measuring procedure](https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/measuring-oil-pressure) uses a gauge at the turbo oil feed banjo by the oil-filter housing. [MY2005 sump access](https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/oil-sump-in-car) requires physical underbody disassembly, and original O-ring/seal handling; inspection of an actual car remains separate.
+
+## NG 9-3 B207: warm-running engine can hide cold intake valve leakage
+
+SPNA's [2013 reissued technical advisory](https://saabparts.com/us/wp-content/uploads/sites/10/2023/05/Hard-Starting-Cold-With-Engine-Stall-Misfire-and-Low-Compression-Starts-and-Runs-Normally-When-Hot-07-11-9-3-11-9-5.pdf) is indexed in search results but its original PDF could not be re-opened in this session; the existing corrections dataset already cites that factory document. Its defined applicability is **2007–08 9-3 B207R**, expanded by its update to **2009–11 9-3 B207** and **2011 NG9-5 A20NFT**. B284 V6 is specifically excluded. Do not read “B207” in the update as all engine codes in previous years.
+
+It associates cold hard starts, stalls or P0300–P0304 misfires with **intake valve seat-face wear** that may cause low compression cold despite improved hot running. The practical distinction is an overnight-cold **compression plus leak-down assessment**, not only a warm compression test. The [independent AERA report](https://www.engineprofessional.com/TB/TB011117-1.pdf) corroborates intake-valve face erosion/cupping and notes that cylinder-head removal and replacement of all eight intake valves are the established repair when diagnosed. That report covers a broader MY2003–2011 2.0L turbo population, **not an expanded SPNA bulletin**. It lists part numbers 55563529, 55192156 and 12786696 but does **not** prove factory supersession or exact VIN fitment.
+
+[MY2006](https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/engine-compression-test) and [MY2008](https://saabwisonline.com/9-3-9440/2008/2-engine/4-cyl-petrol-e85/basic-engine/technical-data/general-data) WIS general data list minimum **12.4 bar** nominal B207 compression. [MY2006](https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/technical-description/lubricating-system) and [MY2007](https://saabwisonline.com/9-3-9440/2007/2-engine/4-cyl-petrol-e85/basic-engine/adjustment-replacement/engine-compression-test) compression procedures require spark plug and coil removal, a controlled relay/starting connection, and measurement of each cylinder. Do not convert the nominal number into an automatic **overnight-cold** rejection threshold without the proper cold-test conditions.
+
+## NG 9-3 early FA57: ATF coolant ingress risks complete gearbox
+
+Saab [TA440-0702 (January 2007)](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/bulletins-si-mi/ta440-0702-coolant-in-atf-oil) concerns MY2003–2005 9-3 SS/CV with **strict chassis suffixes**: SS *below* 51002378 and CV *below* 56001058 (plus a separate TiD boundary not represented in the B207 example). A separate **Service Campaign 15446** has narrower population/date rules in the existing corrections domain; one does not imply the other.
+
+Cooler-line nipple sealing can allow coolant into ATF, with check-gearbox warning, P0715 00, P0720 00, odd shifts, or noise. These symptoms **do not prove contamination**. The technical advice's remedy for *confirmed* ingress is replacement of the full gearbox, rework of cooler connections/lines, coolant assessment and adaptation. The original document suggests heating an ATF sample with an open flame; **do not copy that as a DIY procedure**. Use qualified shop testing.
+
+A distinct [MY2005 FA57 specification](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/weight-fluid-capacity-and-grade-of-fluid) lists **7.2 L total including converter and cooler**, not an oil-change fill. The [MY2005 level procedure](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/adjustment-replacement/checking-the-transmission-fluid-level) requires engine running with TCM reading **80°C** and indicates **0.3 L** between minimum/maximum dipstick marks. An [MY2004 fluid-changing procedure](https://saabwisonline.com/9-3-9440/2004/4-transmission/automatic-transmission/adjustment-replacement/changing-the-transmission-fluid) instead cites **0.5 L** in its context. Their discrepancy is recorded as an **unresolved scoped distinction**, not silently corrected.
+
+## Purchase-screening consequence
+
+For an inexpensive non-running Saab, first ask for the exact year, 9-3/9-5 generation, engine code, body style, gearbox and (where relevant) chassis suffix; review cold-start behavior, maintenance invoices, prior cooling system work, and recorded actual mechanical tests. A running engine with no oil lamp or a warmed-up B207 with smooth idle is insufficient proof of undamaged bearings or intake valves. A clean-looking ATF dipstick does not alone establish that no coolant ingress or prior transmission damage occurred.
+
+## Evidence limits and next tasks
+
+Source counts are not independent failure samples; some WIS sources are repeated deliberately to preserve provenance. Outstanding tasks include source-complete 1998–2003 hot oil pressure thresholds, original 2013 SPNA PDF version reconciliation, cold-test standardization, full original 260-2634 campaign text, OEM EPC valve verification, and safe professional contaminant test criteria. No component ordering or machine-shop operation is approved from this report alone.
