@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- [9-5 B235 shared-brand starter/alternator countercheck](docs/research/og95-shared-electrics-countercheck.md): AS-PL confirms B235 aftermarket Opel/GM reference families, correcting an earlier asymmetrical 9-3 sourcing interpretation.
+
 - [Trionic 7 ignition cassette versus Trionic 8 ECU repair support](docs/research/t7-t8-repair-support-model-choice.md): distinguish genuine current parts and specialist cloning conditions without comparing incompatible repair quotes.
 
 - [Model choice: cross-brand starter and alternator evidence](docs/research/cross-manufacturer-electrics-model-choice.md): compare B207 9-3 and B235 9-5 part sourcing without overinterpreting catalogue counts as car reliability.
