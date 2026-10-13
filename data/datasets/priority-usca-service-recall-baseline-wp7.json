@@ -121,6 +121,16 @@
       "retrieval": "full_text",
       "accessed_at": "2026-10-13",
       "notes": "Government 2014 notice identifies MY2004–2011 Saab 9-3 convertibles with defective driver-side retractor; not evidence of repaired condition."
+    },
+    {
+      "id": "wp7-src-013",
+      "title": "Original MY2008 Saab 9-5 US/CA 60,000-mile maintenance checklist",
+      "url": "https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/60000-miles-us-ca",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "MY2008 US/CA 60,000-mile item 9 explicitly orders automatic transmission fluid change; annual US/CA extra-work list separately states 70,000 miles/5 years. Preserve rather than reconcile without original booklet and revision history."
     }
   ],
   "facts": [
@@ -1031,6 +1041,35 @@
       "locator": "Affected products and Issue",
       "notes": "Independent Canadian market filing, not an individual vehicle completion check.",
       "review_status": "source_scoped"
+    },
+    {
+      "id": "wp7-fact-027",
+      "subject": "service:og95-usca-2008-auto",
+      "category": "maintenance",
+      "predicate": "60000_mile_checklist_automatic_fluid_change",
+      "value": 60000,
+      "unit": "mile",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-013"
+      ],
+      "evidence_status": "documented",
+      "locator": "60,000 miles US/CA > item 9",
+      "notes": "CONFLICT: in same model-year Saab WIS the US/CA annual addendum lists 70,000 miles or 5 years (wp7-src-005). Do not silently choose an authoritative interval."
     }
   ],
   "issues": [
@@ -1235,6 +1274,42 @@
         "Does not cover all sedans",
         "No current part supply confirmed"
       ]
+    },
+    {
+      "id": "wp7-issue-006",
+      "title": "Conflicting MY2008 Saab US/CA original automatic-fluid change milestones",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "cause": "Separate factory US/CA maintenance pages disagree: printed 60,000-mile checklist includes an automatic fluid change; annual additional-work checklist states 70,000 miles/5 years.",
+      "symptoms": [
+        "Past automatic transmission maintenance interval unverified",
+        "Two original source-listed change triggers disagree"
+      ],
+      "diagnosis_summary": "Obtain actual gearbox type and original Saab MY2008 US/CA printed booklet and WIS edition/TSB before accepting a single service timing; record date and mileage of actual servicing.",
+      "correction_summary": "Preserve both source-scoped thresholds rather than replacing the prior 70k finding or guessing a normalized compromise.",
+      "source_ids": [
+        "wp7-src-013",
+        "wp7-src-005"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Neither schedule establishes transmission condition",
+        "No gearbox fluid substitution or immediate repair authorized",
+        "No actual vehicle VIN available"
+      ]
     }
   ],
   "parts": [],
@@ -1337,6 +1412,20 @@
       "source_ids": [
         "wp7-src-011",
         "wp7-src-012"
+      ]
+    },
+    {
+      "id": "wp7-gap-008",
+      "title": "MY2008 US/CA 9-5 automatic 60k versus 70k/5-year maintenance source discrepancy",
+      "missing_inputs": [
+        "Original MY2008 9-5 US/Canada printed maintenance/service booklet and printing edition",
+        "Dated Saab WIS revision or service bulletin explaining 60,000 vs 70,000-mile entries",
+        "Actual vehicle VIN, FA57 gearbox identity, records of prior ATF changes"
+      ],
+      "reason": "Original same-year US/CA Saab WIS 60,000-mile service calls for changing automatic fluid while annual additional-work schedule prints 70,000 miles or 5 years; both must remain source-scoped.",
+      "source_ids": [
+        "wp7-src-013",
+        "wp7-src-005"
       ]
     }
   ]
