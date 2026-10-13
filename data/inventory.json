@@ -2,6 +2,7 @@
   "schema_version": "1.0.0",
   "domains": [
     "corrections",
+    "epc_provenance",
     "ng93",
     "ng93_body",
     "ng93_early_mount_fuel",
@@ -15,24 +16,24 @@
     "subframe_parts_brake_lines"
   ],
   "counts": {
-    "sources": 200,
-    "facts": 376,
+    "sources": 210,
+    "facts": 388,
     "issues": 20,
-    "parts": 53,
-    "gaps": 86
+    "parts": 55,
+    "gaps": 91
   },
-  "unique_source_urls": 195,
+  "unique_source_urls": 203,
   "retrieval_statuses": {
-    "full_text": 189,
+    "full_text": 199,
     "metadata_only": 2,
     "partial": 3,
     "search_excerpt": 6
   },
   "evidence_statuses": {
-    "documented": 397,
+    "documented": 404,
     "inference": 3,
-    "supplier_claim": 49
+    "supplier_claim": 56
   },
   "research_date": "2026-10-12",
-  "notes": "Source-scoped record inventory, not a reliability score, measured vehicle condition, verified cross-fit or general completeness metric."
+  "notes": "Source-scoped record counts are not independent manufacturer interchange approval, installed-car condition, or reliability scores. Official Saab WebEPC publication identified but not subscribed to or queried by VIN."
 }
