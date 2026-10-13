@@ -21,6 +21,8 @@ engines, and platforms.
   documents and what still needs measurements or engineering data.
 - [Research reports](docs/research/): detailed notes from the individual research
   domains, including contradictions and gaps.
+- [2007–09 9-5 T7 cooling and electrical research](docs/research/og95-t7-cooling-0709.md):
+  separately verified model-year feeds, coolant sensor thresholds, and petrol fan/pressure safeguards.
 - [Original 9-5 Trionic 7 electrical diagnosis](docs/research/og95-t7-electrical.md):
   factory ECU supplies and grounds, crank/ignition diagnosis, and TWICE immobilizer requirements.
 - [Official Saab EPC access and cross-reference conflicts](docs/research/saab-epc-provenance.md):
@@ -37,8 +39,8 @@ engines, and platforms.
   North American specifications, WIS conflicts and source limits.
 - [Datasets](data/datasets/): structured JSON with source IDs and original links.
 
-As of October 12, 2026 the database contains **232 source records, 431 factual
-records, 24 issue records, 55 part records, and 98 explicit gaps** across fourteen
+As of October 12, 2026 the database contains **260 source records, 503 factual
+records, 27 issue records, 55 part records, and 105 explicit gaps** across fifteen
 research domains. This is not a completeness score.
 See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
 
