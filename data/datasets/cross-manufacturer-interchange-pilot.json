@@ -781,7 +781,7 @@
       "missing_inputs": [
         "Actual NG9-3 2005–06 VIN/hub OE number",
         "Original Opel Vectra C/Signum and Fiat Croma OEM hub OE numbers and year/axle/engine",
-        "Physical spline, hub mount bolt pattern, sensor signalling/connector/encoding",
+        "Physical spline, hub mount bolt pattern, ABS sensor signalling/connector/encoding",
         "Saab WebEPC and donor OEM parts application plus current PFI/SKF datasheets"
       ],
       "reason": "PFI cross-marque aftermarket application does not establish used-donor OEM mechanical/electrical interchange.",
