@@ -410,6 +410,86 @@
         "US"
       ],
       "notes": "Original 2003 sedan/wagon Linear 185hp 2.3, Arc 200hp 3.0 V6, Aero 250hp 2.3; five-speed Sentronic standard Arc, optional Linear and Aero. Together with Saab US press basis."
+    },
+    {
+      "id": "na-cat-s39",
+      "title": "2001 9-3 SE five-door North American 205-hp four-speed automatic",
+      "url": "https://www.automobile-catalog.com/make/saab/9-3_1gen/9-3_1_5d/2001.html",
+      "origin": "Independent model-year North America specification catalogue",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "2001 North American SE 2.0T 205hp 5-door 4-speed auto FWD; verify Saab US/CA original product guide."
+    },
+    {
+      "id": "na-cat-s40",
+      "title": "2001 9-5 US 2.3t sedan/wagon automatic available model inventory",
+      "url": "https://www.cars.com/research/saab-9_5-2001/specs/12799/",
+      "origin": "Cars.com US original trim list",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "2001 US 9-5 original sedan and SportWagon base 2.3T 185hp listed four-speed automatics."
+    },
+    {
+      "id": "na-cat-s41",
+      "title": "2001 US 9-5 SE V6 automatic historical powertrain summary",
+      "url": "https://www.cargurus.com/Cars/l-Used-2001-Saab-9-5-c5796",
+      "origin": "CarGurus US model-year history",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "2001 SE 3.0L V6 200hp automatic-only, sedan and wagon. Aero automatic claim conflicts with reduced Cars.com trim listing; leave Aero auto unspecified until stronger year-specific evidence."
+    },
+    {
+      "id": "na-cat-s42",
+      "title": "2004 US 9-5 trim change (Linear wagon only; Arc turbo 4)",
+      "url": "https://www.edmunds.com/saab/9-5/2004/review/",
+      "origin": "Edmunds historical US model-year review",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "2004 Linear only as wagon; Arc changed from 200hp V6 to 220hp 2.3 turbo four with optional five-speed automatic; Aero 250hp four. Does not establish Canadian offerings."
+    },
+    {
+      "id": "na-cat-s43",
+      "title": "2005 US 9-5 engine and transmission trim matrix",
+      "url": "https://www.carfax.com/Research/Saab/9-5/2005",
+      "origin": "CARFAX original US model-year research",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "2005 9-5 Linear wagon only 185hp, Arc sedan/wagon 220hp, Aero sedan/wagon 250hp, 5-speed automatic optional; independent secondary."
+    },
+    {
+      "id": "na-cat-s44",
+      "title": "2004 US 9-3 sedan Linear Arc Aero engines and 5-speed automatic",
+      "url": "https://www.carfax.com/Research/Saab/9-3/2004",
+      "origin": "CARFAX US model-year research",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "2004 9-3 Linear sedan 175hp 2.0 turbo, Arc/Aero sedan 210hp turbo; five-speed automatic available. Aero also six-speed manual but excluded."
+    },
+    {
+      "id": "na-cat-s45",
+      "title": "2005 US 9-3 2.0 turbo engine trim and optional automatic",
+      "url": "https://www.carfax.com/Research/Saab/9-3/2005",
+      "origin": "CARFAX US model-year research",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "2005 US 9-3 Linear sedan 175hp and Arc/Aero 210hp; automatic option alongside manuals. Description uses imprecise 'twin-turbocharged' wording for I4; do not adopt that technical claim."
+    },
+    {
+      "id": "na-cat-s46",
+      "title": "2005 US 9-5 distinct Arc/Aero sedan and wagon engine options",
+      "url": "https://www.kbb.com/saab/9-5/2005/specs/",
+      "origin": "Kelley Blue Book US trim archive",
+      "market_scope": [
+        "US"
+      ],
+      "notes": "2005 Arc/Aero sedans and wagons, Linear wagon only, automatic listed. Current used-market value figures are not factory pricing or reliability evidence."
     }
   ],
   "model_year_screening": [
@@ -448,9 +528,11 @@
       "model": "9-3",
       "model_year": 2001,
       "platform_for_screening": "9400",
-      "us_status": "unassessed",
+      "us_status": "at_least_one_candidate_documented",
       "canada_status": "unassessed",
-      "documented_configuration_ids": [],
+      "documented_configuration_ids": [
+        "na-2001-93-se5h-at"
+      ],
       "coverage_complete": false
     },
     {
@@ -480,18 +562,26 @@
       "model": "9-3",
       "model_year": 2004,
       "platform_for_screening": "9440",
-      "us_status": "unassessed",
+      "us_status": "at_least_one_candidate_documented",
       "canada_status": "unassessed",
-      "documented_configuration_ids": [],
+      "documented_configuration_ids": [
+        "na-2004-93-linear-sedan-at",
+        "na-2004-93-arc-sedan-at",
+        "na-2004-93-aero-sedan-at"
+      ],
       "coverage_complete": false
     },
     {
       "model": "9-3",
       "model_year": 2005,
       "platform_for_screening": "9440",
-      "us_status": "unassessed",
+      "us_status": "at_least_one_candidate_documented",
       "canada_status": "unassessed",
-      "documented_configuration_ids": [],
+      "documented_configuration_ids": [
+        "na-2005-93-linear-sedan-at",
+        "na-2005-93-arc-sedan-at",
+        "na-2005-93-aero-sedan-at"
+      ],
       "coverage_complete": false
     },
     {
@@ -607,9 +697,14 @@
       "model": "9-5",
       "model_year": 2001,
       "platform_for_screening": "9600",
-      "us_status": "unassessed",
+      "us_status": "at_least_one_candidate_documented",
       "canada_status": "unassessed",
-      "documented_configuration_ids": [],
+      "documented_configuration_ids": [
+        "na-2001-95-23t-sedan-at",
+        "na-2001-95-se-sedan-at",
+        "na-2001-95-23t-wagon-at",
+        "na-2001-95-se-wagon-at"
+      ],
       "coverage_complete": false
     },
     {
@@ -648,18 +743,30 @@
       "model": "9-5",
       "model_year": 2004,
       "platform_for_screening": "9600",
-      "us_status": "unassessed",
+      "us_status": "at_least_one_candidate_documented",
       "canada_status": "unassessed",
-      "documented_configuration_ids": [],
+      "documented_configuration_ids": [
+        "na-2004-95-arc-sedan-at",
+        "na-2004-95-arc-wagon-at",
+        "na-2004-95-aero-sedan-at",
+        "na-2004-95-aero-wagon-at",
+        "na-2004-95-linear-wagon-at"
+      ],
       "coverage_complete": false
     },
     {
       "model": "9-5",
       "model_year": 2005,
       "platform_for_screening": "9600",
-      "us_status": "unassessed",
+      "us_status": "at_least_one_candidate_documented",
       "canada_status": "unassessed",
-      "documented_configuration_ids": [],
+      "documented_configuration_ids": [
+        "na-2005-95-arc-sedan-at",
+        "na-2005-95-arc-wagon-at",
+        "na-2005-95-aero-sedan-at",
+        "na-2005-95-aero-wagon-at",
+        "na-2005-95-linear-wagon-at"
+      ],
       "coverage_complete": false
     },
     {
@@ -1721,6 +1828,432 @@
       ],
       "evidence_status": "manufacturer_US_lineup_and_independent_transmission_confirmation",
       "notes": "MY2003 US Aero, both sedan/wagon; five-speed Sentronic optional per U.S. trim guide. Engine family matches 2002 offering but year-specific final VIN part IDs remain unverified."
+    },
+    {
+      "id": "na-2001-93-se5h-at",
+      "model": "9-3",
+      "model_year": 2001,
+      "platform": "9400",
+      "body_style": "5-door hatchback",
+      "engine_label": "SE 2.0L turbo 205-hp I4",
+      "engine_code": null,
+      "automatic_gears": 4,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s39"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. Independent North American archive; US-specific independent brochure still needed."
+    },
+    {
+      "id": "na-2001-95-23t-sedan-at",
+      "model": "9-5",
+      "model_year": 2001,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_label": "2.3t 185-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 4,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s40"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. 2001 original 9-5 base automatic."
+    },
+    {
+      "id": "na-2001-95-se-sedan-at",
+      "model": "9-5",
+      "model_year": 2001,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_label": "SE 3.0t 200-hp turbo V6",
+      "engine_code": null,
+      "automatic_gears": 4,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s41",
+        "na-cat-s40"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. 2001 SE automatic only; body/engine fit reviewed together."
+    },
+    {
+      "id": "na-2001-95-23t-wagon-at",
+      "model": "9-5",
+      "model_year": 2001,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_label": "2.3t 185-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 4,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s40"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. 2001 original 9-5 base automatic."
+    },
+    {
+      "id": "na-2001-95-se-wagon-at",
+      "model": "9-5",
+      "model_year": 2001,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_label": "SE 3.0t 200-hp turbo V6",
+      "engine_code": null,
+      "automatic_gears": 4,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s41",
+        "na-cat-s40"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. 2001 SE automatic only; body/engine fit reviewed together."
+    },
+    {
+      "id": "na-2004-95-arc-sedan-at",
+      "model": "9-5",
+      "model_year": 2004,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_label": "Arc 2.3L turbo 220-hp I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s42"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. Automatic optional; US Arc four-cylinder from 2004, NOT 2002-03 Arc V6."
+    },
+    {
+      "id": "na-2004-95-arc-wagon-at",
+      "model": "9-5",
+      "model_year": 2004,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_label": "Arc 2.3L turbo 220-hp I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s42"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. Automatic optional; US Arc four-cylinder from 2004, NOT 2002-03 Arc V6."
+    },
+    {
+      "id": "na-2004-95-aero-sedan-at",
+      "model": "9-5",
+      "model_year": 2004,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_label": "Aero 2.3L turbo 250-hp I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s42"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. Automatic optional; US Arc four-cylinder from 2004, NOT 2002-03 Arc V6."
+    },
+    {
+      "id": "na-2004-95-aero-wagon-at",
+      "model": "9-5",
+      "model_year": 2004,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_label": "Aero 2.3L turbo 250-hp I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s42"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. Automatic optional; US Arc four-cylinder from 2004, NOT 2002-03 Arc V6."
+    },
+    {
+      "id": "na-2004-95-linear-wagon-at",
+      "model": "9-5",
+      "model_year": 2004,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_label": "Linear 2.3t 185-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s42"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. 2004-05 US Linear WAGON ONLY; do not invent US Linear sedan."
+    },
+    {
+      "id": "na-2005-95-arc-sedan-at",
+      "model": "9-5",
+      "model_year": 2005,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_label": "Arc 2.3L turbo 220-hp I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s43",
+        "na-cat-s46"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. Automatic optional; US Arc four-cylinder from 2004, NOT 2002-03 Arc V6."
+    },
+    {
+      "id": "na-2005-95-arc-wagon-at",
+      "model": "9-5",
+      "model_year": 2005,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_label": "Arc 2.3L turbo 220-hp I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s43",
+        "na-cat-s46"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. Automatic optional; US Arc four-cylinder from 2004, NOT 2002-03 Arc V6."
+    },
+    {
+      "id": "na-2005-95-aero-sedan-at",
+      "model": "9-5",
+      "model_year": 2005,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_label": "Aero 2.3L turbo 250-hp I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s43",
+        "na-cat-s46"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. Automatic optional; US Arc four-cylinder from 2004, NOT 2002-03 Arc V6."
+    },
+    {
+      "id": "na-2005-95-aero-wagon-at",
+      "model": "9-5",
+      "model_year": 2005,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_label": "Aero 2.3L turbo 250-hp I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s43",
+        "na-cat-s46"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. Automatic optional; US Arc four-cylinder from 2004, NOT 2002-03 Arc V6."
+    },
+    {
+      "id": "na-2005-95-linear-wagon-at",
+      "model": "9-5",
+      "model_year": 2005,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_label": "Linear 2.3t 185-hp turbo I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s43"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. 2004-05 US Linear WAGON ONLY; do not invent US Linear sedan."
+    },
+    {
+      "id": "na-2004-93-linear-sedan-at",
+      "model": "9-3",
+      "model_year": 2004,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Linear 2.0L turbo 175-hp I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s44"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. FWD Sport Sedan with automatic option; original market equipment sheet pending."
+    },
+    {
+      "id": "na-2004-93-arc-sedan-at",
+      "model": "9-3",
+      "model_year": 2004,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Arc 2.0L turbo 210-hp I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s44"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. FWD Sport Sedan with automatic option; original market equipment sheet pending."
+    },
+    {
+      "id": "na-2004-93-aero-sedan-at",
+      "model": "9-3",
+      "model_year": 2004,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Aero 2.0L turbo 210-hp I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s44"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. FWD Sport Sedan with automatic option; original market equipment sheet pending."
+    },
+    {
+      "id": "na-2005-93-linear-sedan-at",
+      "model": "9-3",
+      "model_year": 2005,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Linear 2.0L turbo 175-hp I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s45"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. FWD Sport Sedan with automatic option; original market equipment sheet pending."
+    },
+    {
+      "id": "na-2005-93-arc-sedan-at",
+      "model": "9-3",
+      "model_year": 2005,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Arc 2.0L turbo 210-hp I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s45"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. FWD Sport Sedan with automatic option; original market equipment sheet pending."
+    },
+    {
+      "id": "na-2005-93-aero-sedan-at",
+      "model": "9-3",
+      "model_year": 2005,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_label": "Aero 2.0L turbo 210-hp I4",
+      "engine_code": null,
+      "automatic_gears": 5,
+      "transmission_code": null,
+      "drivetrain": "FWD",
+      "market_evidence": [
+        "US"
+      ],
+      "source_ids": [
+        "na-cat-s45"
+      ],
+      "evidence_status": "secondary_US_market_configuration",
+      "notes": "Original factory brochure and individual VIN still needed. FWD Sport Sedan with automatic option; original market equipment sheet pending."
     }
   ],
   "explicit_exclusions": [
@@ -1835,6 +2368,27 @@
         "na-cat-s34",
         "na-cat-s35"
       ]
+    },
+    {
+      "id": "na-ex-12",
+      "model": "9-5",
+      "year": 2004,
+      "market": "US",
+      "description": "US MY2004 Linear sedan absent (Linear only wagon), according to historical model-year summary; verify against factory trim price list before elevating exclusion to manufacturer-confirmed.",
+      "source_ids": [
+        "na-cat-s42"
+      ]
+    },
+    {
+      "id": "na-ex-13",
+      "model": "9-5",
+      "year": 2005,
+      "market": "US",
+      "description": "US MY2005 Linear sedan absent (Linear wagon only) in period trim summaries; cannot copy MY2002/03 sedan into 2005.",
+      "source_ids": [
+        "na-cat-s43",
+        "na-cat-s46"
+      ]
     }
   ],
   "completion_definition": "Each model/year and market separately has original manufacturer sales/brochure or equipment table evidence for each eligible engine-body-auto-drivetrain pairing, or a supported no-production finding. Each gearbox and engine code requires model-year source or factory VIN material.",
@@ -1851,7 +2405,8 @@
     "2008 9-3 255hp FWD Aero vs 280hp XWD/TurboX must never be merged into one entry.",
     "2010/2011 Aero FWD 9-3 2.0L 210hp is not 2008 Aero FWD 2.8L V6; year-specific engineering is mandatory.",
     "Canadian 2008 Saab Turbo X listing incorrectly or at least contradictorily marked FWD despite contemporary Turbo X XWD system; seek Canadian original brochure/VIN, do not infer rare FWD variant.",
-    "2002 official US product overview provides full six candidate 9-5 auto FWD trim/body combinations, not a proof of matching Canadian factory configuration."
+    "2002 official US product overview provides full six candidate 9-5 auto FWD trim/body combinations, not a proof of matching Canadian factory configuration.",
+    "2001 9-5 Aero automatic US exact configuration unresolved from conflicting/sparse original trim snapshots; investigate original Saab model-year 2001 factory US document before record."
   ],
   "note": "Coverage rows are NOT exhaustive model-year configurations. A state 'at_least_one_candidate_documented' establishes at least one sample only; unknown is never exclusion."
 }
