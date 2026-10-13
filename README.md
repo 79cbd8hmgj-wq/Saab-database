@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- [Original 9-5 B235 cross-brand starter/alternator countercheck](docs/research/og95-shared-electrics-countercheck.md): S0034/A0219 alternative supplier families; incompatible A0319 130A alternative and unresolved actual VIN scope.
+
 - [Trionic 7 ignition cassette versus Trionic 8 ECU repair support](docs/research/t7-t8-repair-support-model-choice.md): distinguish genuine current parts and specialist cloning conditions without comparing incompatible repair quotes.
 
 - [Model choice: cross-brand starter and alternator evidence](docs/research/cross-manufacturer-electrics-model-choice.md): compare B207 9-3 and B235 9-5 part sourcing without overinterpreting catalogue counts as car reliability.
