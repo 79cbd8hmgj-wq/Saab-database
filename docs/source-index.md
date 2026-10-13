@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 273 source records with 265 distinct
+Research retrieval date: 2026-10-12. There are 290 source records with 276 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -390,3 +390,27 @@ Dataset: [og95_ground_power_0709](../data/datasets/og95-ground-power-0709.json)
 | `og95wire-src-011` | [MY2009 WIS: Trionic T7 wiring, part 4 of 4](https://saabwisonline.com/9-5-9600/2009/3-electrical-system/wiring-harness/wiring-diagram/trionic-t7-engine-management-system-4-cyl-part-4-4) | Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline) | `full_text` |
 | `og95wire-src-012` | [MY2009 WIS: Power supply +30, part 1 of 2](https://saabwisonline.com/9-5-9600/2009/3-electrical-system/wiring-harness/wiring-diagram/power-supply-30-part-1-2) | Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline) | `search_excerpt` |
 | `og95wire-src-013` | [MY2009 WIS: Power supply +54](https://saabwisonline.com/9-5-9600/2009/3-electrical-system/wiring-harness/wiring-diagram/power-supply-54) | Saab Automobile AB (factory-authored WIS content mirrored by SaabWISOnline) | `full_text` |
+
+## high_cost_powertrain_diagnostics
+
+Dataset: [high_cost_powertrain_diagnostics](../data/datasets/high-cost-powertrain-diagnostics.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `hcdiag-src-001` | [US/CA TSB 210-2554 edition 3: B205/B235 sludge and chain diagnosis](https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2554-ed-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `hcdiag-src-002` | [Non-US/CA TSB 210-2561 edition 3: B205/B235 sludge and chain diagnosis](https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2561-utg-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `hcdiag-src-003` | [MY2005 four-cylinder petrol lubricating system specifications](https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `hcdiag-src-004` | [MY2009 four-cylinder petrol lubricating system specifications](https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `hcdiag-src-005` | [MY2005 petrol measuring oil pressure](https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/measuring-oil-pressure) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `hcdiag-src-006` | [MY2005 petrol oil sump in-car service](https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/oil-sump-in-car) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `hcdiag-src-007` | [MY2000 petrol lubricating system flow](https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/technical-description/lubricating-system) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `hcdiag-src-008` | [MY2006 9-3 B207 factory engine compression test](https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/engine-compression-test) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `hcdiag-src-009` | [MY2006 9-3 B207 general data including minimum compression](https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/technical-data/general-data) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `hcdiag-src-010` | [MY2007 9-3 four-cylinder petrol/E85 compression test](https://saabwisonline.com/9-3-9440/2007/2-engine/4-cyl-petrol-e85/basic-engine/adjustment-replacement/engine-compression-test) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `hcdiag-src-011` | [MY2008 9-3 four-cylinder petrol/E85 general data](https://saabwisonline.com/9-3-9440/2008/2-engine/4-cyl-petrol-e85/basic-engine/technical-data/general-data) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `hcdiag-src-012` | [Saab Parts North America / SPNA TAC cold-start intake valve advisory, 2013 reissue](https://saabparts.com/us/wp-content/uploads/sites/10/2023/05/Hard-Starting-Cold-With-Engine-Stall-Misfire-and-Low-Compression-Starts-and-Runs-Normally-When-Hot-07-11-9-3-11-9-5.pdf) | Saab Parts North America / Hedin Parts technical assistance | `search_excerpt` |
+| `hcdiag-src-013` | [AERA 2.0L turbo intake-valve face erosion technical report](https://www.engineprofessional.com/TB/TB011117-1.pdf) | AERA Engine Builders Association Technical Committee | `full_text` |
+| `hcdiag-src-014` | [TA440-0702 coolant contamination in 9-3 FA57 ATF](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/bulletins-si-mi/ta440-0702-coolant-in-atf-oil) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `hcdiag-src-015` | [MY2005 9-3 FA57 automatic fluid capacity and specification](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/weight-fluid-capacity-and-grade-of-fluid) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `hcdiag-src-016` | [MY2005 9-3 FA57 checking transmission fluid level](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/adjustment-replacement/checking-the-transmission-fluid-level) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+| `hcdiag-src-017` | [MY2004 9-3 automatic transmission fluid change procedure](https://saabwisonline.com/9-3-9440/2004/4-transmission/automatic-transmission/adjustment-replacement/changing-the-transmission-fluid) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
