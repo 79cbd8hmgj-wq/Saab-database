@@ -1,0 +1,333 @@
+{
+  "schema_version": "1.0.0",
+  "meaning": "Record coverage and evidence provenance, NOT completeness, fitment, or reliability",
+  "counts": {
+    "sources": 423,
+    "facts": 876,
+    "issues": 57,
+    "parts": 74,
+    "gaps": 201
+  },
+  "unique_source_urls": 385,
+  "retrieval_statuses": {
+    "full_text": 399,
+    "metadata_only": 8,
+    "partial": 3,
+    "search_excerpt": 13
+  },
+  "evidence_statuses": {
+    "documented": 924,
+    "inference": 5,
+    "supplier_claim": 78
+  },
+  "explicit_scope_counts": {
+    "platforms": 963,
+    "model_years": 876,
+    "markets": 144,
+    "engine_codes": 298,
+    "transmission_codes": 161,
+    "body_styles": 70,
+    "vin_ranges": 24
+  },
+  "platform_year": {
+    "9-5-9600": {
+      "1998": {
+        "facts": 15,
+        "issues": 3,
+        "parts": 8
+      },
+      "1999": {
+        "facts": 15,
+        "issues": 3,
+        "parts": 11
+      },
+      "2000": {
+        "facts": 19,
+        "issues": 3,
+        "parts": 14
+      },
+      "2001": {
+        "facts": 14,
+        "issues": 3,
+        "parts": 14
+      },
+      "2002": {
+        "facts": 24,
+        "issues": 4,
+        "parts": 19
+      },
+      "2003": {
+        "facts": 27,
+        "issues": 3,
+        "parts": 17
+      },
+      "2004": {
+        "facts": 55,
+        "issues": 6,
+        "parts": 20
+      },
+      "2005": {
+        "facts": 151,
+        "issues": 8,
+        "parts": 21
+      },
+      "2006": {
+        "facts": 122,
+        "issues": 8,
+        "parts": 20
+      },
+      "2007": {
+        "facts": 114,
+        "issues": 14,
+        "parts": 19
+      },
+      "2008": {
+        "facts": 135,
+        "issues": 15,
+        "parts": 19
+      },
+      "2009": {
+        "facts": 111,
+        "issues": 10,
+        "parts": 19
+      }
+    },
+    "9-3-9440": {
+      "2003": {
+        "facts": 18,
+        "issues": 14,
+        "parts": 16
+      },
+      "2004": {
+        "facts": 28,
+        "issues": 15,
+        "parts": 19
+      },
+      "2005": {
+        "facts": 56,
+        "issues": 10,
+        "parts": 16
+      },
+      "2006": {
+        "facts": 61,
+        "issues": 7,
+        "parts": 21
+      },
+      "2007": {
+        "facts": 15,
+        "issues": 8,
+        "parts": 20
+      },
+      "2008": {
+        "facts": 18,
+        "issues": 8,
+        "parts": 21
+      },
+      "2009": {
+        "facts": 11,
+        "issues": 8,
+        "parts": 21
+      },
+      "2010": {
+        "facts": 11,
+        "issues": 9,
+        "parts": 21
+      },
+      "2011": {
+        "facts": 15,
+        "issues": 9,
+        "parts": 20
+      }
+    }
+  },
+  "domain_counts": {
+    "b235_maintenance_fa57_identity": {
+      "sources": 13,
+      "facts": 44,
+      "issues": 2,
+      "parts": 0,
+      "gaps": 9
+    },
+    "b235r_oil_pcv_2006_2008": {
+      "sources": 17,
+      "facts": 31,
+      "issues": 2,
+      "parts": 7,
+      "gaps": 9
+    },
+    "corrections": {
+      "sources": 27,
+      "facts": 9,
+      "issues": 20,
+      "parts": 26,
+      "gaps": 7
+    },
+    "epc_provenance": {
+      "sources": 10,
+      "facts": 12,
+      "issues": 0,
+      "parts": 2,
+      "gaps": 5
+    },
+    "high_cost_powertrain_diagnostics": {
+      "sources": 17,
+      "facts": 35,
+      "issues": 3,
+      "parts": 2,
+      "gaps": 9
+    },
+    "ng93": {
+      "sources": 25,
+      "facts": 70,
+      "issues": 0,
+      "parts": 0,
+      "gaps": 8
+    },
+    "ng93_body": {
+      "sources": 8,
+      "facts": 25,
+      "issues": 0,
+      "parts": 0,
+      "gaps": 6
+    },
+    "ng93_early_mount_fuel": {
+      "sources": 15,
+      "facts": 20,
+      "issues": 0,
+      "parts": 5,
+      "gaps": 7
+    },
+    "ng93_structure": {
+      "sources": 21,
+      "facts": 30,
+      "issues": 0,
+      "parts": 1,
+      "gaps": 8
+    },
+    "og95": {
+      "sources": 30,
+      "facts": 90,
+      "issues": 0,
+      "parts": 0,
+      "gaps": 7
+    },
+    "og95_2006_2008": {
+      "sources": 7,
+      "facts": 25,
+      "issues": 0,
+      "parts": 0,
+      "gaps": 6
+    },
+    "og95_atf_thermal_turbo_bulletin": {
+      "sources": 14,
+      "facts": 28,
+      "issues": 3,
+      "parts": 2,
+      "gaps": 9
+    },
+    "og95_body": {
+      "sources": 10,
+      "facts": 25,
+      "issues": 0,
+      "parts": 0,
+      "gaps": 5
+    },
+    "og95_cooling_service_2006_2009": {
+      "sources": 15,
+      "facts": 30,
+      "issues": 3,
+      "parts": 0,
+      "gaps": 9
+    },
+    "og95_ground_power_0709": {
+      "sources": 13,
+      "facts": 44,
+      "issues": 2,
+      "parts": 0,
+      "gaps": 6
+    },
+    "og95_pcv_radiator_mount_provenance": {
+      "sources": 16,
+      "facts": 31,
+      "issues": 3,
+      "parts": 8,
+      "gaps": 9
+    },
+    "og95_structure": {
+      "sources": 12,
+      "facts": 16,
+      "issues": 0,
+      "parts": 1,
+      "gaps": 5
+    },
+    "og95_t7_cooling_0709": {
+      "sources": 28,
+      "facts": 72,
+      "issues": 3,
+      "parts": 0,
+      "gaps": 7
+    },
+    "og95_t7_electrical": {
+      "sources": 22,
+      "facts": 43,
+      "issues": 4,
+      "parts": 0,
+      "gaps": 7
+    },
+    "og95_turbo_oil_feed_solenoids": {
+      "sources": 14,
+      "facts": 39,
+      "issues": 3,
+      "parts": 0,
+      "gaps": 9
+    },
+    "og95_turbo_tsb_2912494_fa57_triage": {
+      "sources": 13,
+      "facts": 31,
+      "issues": 3,
+      "parts": 0,
+      "gaps": 9
+    },
+    "repair_vs_replace_troubleshooting": {
+      "sources": 17,
+      "facts": 31,
+      "issues": 4,
+      "parts": 0,
+      "gaps": 9
+    },
+    "replacements": {
+      "sources": 8,
+      "facts": 10,
+      "issues": 0,
+      "parts": 5,
+      "gaps": 3
+    },
+    "simulation": {
+      "sources": 20,
+      "facts": 40,
+      "issues": 0,
+      "parts": 0,
+      "gaps": 15
+    },
+    "subframe_parts_brake_lines": {
+      "sources": 17,
+      "facts": 16,
+      "issues": 0,
+      "parts": 15,
+      "gaps": 9
+    },
+    "vin_gearbox_provenance": {
+      "sources": 14,
+      "facts": 29,
+      "issues": 2,
+      "parts": 0,
+      "gaps": 9
+    }
+  },
+  "parts_provenance": {
+    "total": 74,
+    "with_relationships": 16,
+    "supplier_claim": 48,
+    "needs_vehicle_verification": 43
+  }
+}
