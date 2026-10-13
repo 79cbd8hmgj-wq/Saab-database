@@ -14,6 +14,7 @@
     "og95_2006_2008",
     "og95_body",
     "og95_ground_power_0709",
+    "og95_pcv_radiator_mount_provenance",
     "og95_structure",
     "og95_t7_cooling_0709",
     "og95_t7_electrical",
@@ -23,24 +24,24 @@
     "vin_gearbox_provenance"
   ],
   "counts": {
-    "sources": 334,
-    "facts": 686,
-    "issues": 38,
-    "parts": 64,
-    "gaps": 147
+    "sources": 350,
+    "facts": 717,
+    "issues": 41,
+    "parts": 72,
+    "gaps": 156
   },
-  "unique_source_urls": 312,
+  "unique_source_urls": 323,
   "retrieval_statuses": {
-    "full_text": 319,
+    "full_text": 335,
     "metadata_only": 3,
     "partial": 3,
     "search_excerpt": 9
   },
   "evidence_statuses": {
-    "documented": 718,
+    "documented": 747,
     "inference": 5,
-    "supplier_claim": 65
+    "supplier_claim": 78
   },
   "research_date": "2026-10-12",
-  "notes": "VIN and transmission source audit: MY2007 9-5 VIN mirror table actually labels 2010; MY2005 9-5 table ends 2004. 2005/2008 NG9-3 VIN tables are separately scoped. OG 9-5 and NG 9-3 FA57 have different factory adaptation/TCM codes; no interchange approved. Actual Saab WebEPC VIN-filtered results not obtained."
+  "notes": "Added distinct Saab CSP15433/15435 PCV scope, factory 9-5 MY2006 radiator automatic oil-cooler connections, 2008 9-5 LH mount/torque-arm VIN-specific torque boundaries, and supplier radiator references separated by gearbox. No original WebEPC VIN-filtered interchange/modern reliability approval. Saab 9-3 FA57 coolant contamination campaign not generalized to OG9-5."
 }

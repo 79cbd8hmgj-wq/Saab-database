@@ -35,6 +35,8 @@ engines, and platforms.
   separately verified model-year feeds, coolant sensor thresholds, and petrol fan/pressure safeguards.
 - [Original 9-5 Trionic 7 electrical diagnosis](docs/research/og95-t7-electrical.md):
   factory ECU supplies and grounds, crank/ignition diagnosis, and TWICE immobilizer requirements.
+- [Original 9-5 PCV, radiator and engine mount provenance](docs/research/og95-pcv-radiator-mount-provenance.md):
+  factory campaign eligibility, manual/automatic radiator interfaces, mount VIN torque cutover and supplier cross-reference caveats.
 - [Official Saab EPC access and cross-reference conflicts](docs/research/saab-epc-provenance.md):
   manufacturer VIN workflow, bushing/subframe identifier collision, and research restrictions.
 - [Early 9-3 mount and petrol fuel research](docs/research/ng93-early-mount-fuel.md):
@@ -49,8 +51,8 @@ engines, and platforms.
   North American specifications, WIS conflicts and source limits.
 - [Datasets](data/datasets/): structured JSON with source IDs and original links.
 
-As of October 12, 2026 the database contains **334 source records, 686 factual
-records, 38 issue records, 64 part records, and 147 explicit gaps** across twenty
+As of October 12, 2026 the database contains **350 source records, 717 factual
+records, 41 issue records, 72 part records, and 156 explicit gaps** across twenty-one
 research domains. This is not a completeness score.
 See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
 

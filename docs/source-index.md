@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-12. There are 334 source records with 312 distinct
+Research retrieval date: 2026-10-12. There are 350 source records with 323 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -479,3 +479,26 @@ Dataset: [vin_gearbox_provenance](../data/datasets/vin-gearbox-provenance.json)
 | `vinfit-src-012` | [Official Saab Parts WebEPC VIN/build filtering and supersession capabilities](https://saabparts.com/saab-subscription-services) | Saab Parts (Hedin Parts), official catalogue platform | `full_text` |
 | `vinfit-src-013` | [MY2007 9-3 TIS service programming system VIN/variant confirmation](https://saabwisonline.com/9-3-9440/2007/0-general/tis-2000/technical-description/service-programming-system) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
 | `vinfit-src-014` | [MY2005 9-3 FA57 TCM connector pins and electrical grounds](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-description/tcm-fa-57-502a) | Saab Automobile AB (factory-authored workshop information mirrored by SaabWISOnline) | `full_text` |
+
+## og95_pcv_radiator_mount_provenance
+
+Dataset: [og95_pcv_radiator_mount_provenance](../data/datasets/og95-pcv-radiator-mount-provenance.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `parts95-src-001` | [210-2496 CSP15433 oil trap modification M04-M05 manual B235](https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2496-replacing-the-oil-trap) | Saab Automobile AB original WIS documentation, independently mirrored | `full_text` |
+| `parts95-src-002` | [210-2508 CSP15435 crankcase ventilation hose retention M04-M05 B205/B235](https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2508-securing-the-crankcase-ventilation-hose) | Saab Automobile AB original WIS documentation, independently mirrored | `full_text` |
+| `parts95-src-003` | [MY2006 9-5 4-cyl petrol radiator removal and refitting](https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/radiator-4-cyl) | Saab Automobile AB original WIS documentation, independently mirrored | `full_text` |
+| `parts95-src-004` | [MY2008 9-5 4-cyl petrol cooling-system pressure test](https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/cooling-system-pressure-testing) | Saab Automobile AB original WIS documentation, independently mirrored | `full_text` |
+| `parts95-src-005` | [MY2008 9-5 4-cyl petrol radiator fan service](https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/radiator-fan-4-cyl) | Saab Automobile AB original WIS documentation, independently mirrored | `full_text` |
+| `parts95-src-006` | [MY2008 9-5 4-cyl petrol LH engine mounting service and VIN torque split](https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/engine-mounting-left) | Saab Automobile AB original WIS documentation, independently mirrored | `full_text` |
+| `parts95-src-007` | [MY2008 9-5 4-cyl petrol front torque arm service VIN torque split](https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/front-torque-arm) | Saab Automobile AB original WIS documentation, independently mirrored | `full_text` |
+| `parts95-src-008` | [MY2007 9-5 4-cyl petrol RH engine mounting procedure](https://saabwisonline.com/9-5-9600/2007/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/engine-mounting-and-engine-pad-rh) | Saab Automobile AB original WIS documentation, independently mirrored | `full_text` |
+| `parts95-src-009` | [MY2009 9-5 4-cyl petrol rear engine mounting procedure](https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/engine-mounting-rear) | Saab Automobile AB original WIS documentation, independently mirrored | `full_text` |
+| `parts95-src-010` | [MY2008 9-5 4-cyl petrol T7 intake system PCV diagram](https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/technical-description/system-diagram-intake-turbo-exhaust-4-cyl) | Saab Automobile AB original WIS documentation, independently mirrored | `full_text` |
+| `parts95-src-011` | [eSaabParts 9-5 petrol radiator diagram seller year and gearbox splits](https://www.esaabparts.com/viewparts.php?section=314395285) | eSaabParts independent parts retailer | `full_text` |
+| `parts95-src-012` | [eSaabParts 32019619 Nissens MT radiator and Saab 5193370 cross-reference](https://www.esaabparts.com/saab/parts/32019619?ss=5193370) | eSaabParts independent parts retailer | `full_text` |
+| `parts95-src-013` | [eSaabParts 32019620 Nissens AT radiator and Saab 5193388 cross-reference](https://www.esaabparts.com/saab/parts/32019620) | eSaabParts independent parts retailer | `full_text` |
+| `parts95-src-014` | [eSaabParts 9-5 crankcase ventilation diagram and hose identifiers](https://www.esaabparts.com/viewparts.php?section=314781123) | eSaabParts independent parts retailer | `full_text` |
+| `parts95-src-015` | [Official Saab Parts WebEPC subscription and filtered OEM fitment service](https://saabparts.com/saab-subscription-services) | Saab Parts official WebEPC subscription service | `full_text` |
+| `parts95-src-016` | [eSaabParts 5235544 engine mount showing B308E automatic context and conflicting diagram years](https://www.esaabparts.com/saab/parts/5235544) | eSaabParts independent parts retailer | `full_text` |
