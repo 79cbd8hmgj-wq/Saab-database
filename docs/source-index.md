@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 504 source records with 445 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 511 source records with 452 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -625,6 +625,20 @@ Dataset: [og95_turbo_tsb_2912494_fa57_triage](../data/datasets/og95-turbo-tsb291
 | `prebuy-src-011` | [2008 OG9-5 factory turbo shaft-play directory, numeric content not available](https://saabwisonline.com/9-5-9600/2008/2-engine/turbocharger-system/technical-data/) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `metadata_only` |
 | `prebuy-src-012` | [2009 OG9-5 FA57 TCM requested versus actual speed/pressure Read values](https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/fault-diagnosis-general/menu-read-values) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
 | `prebuy-src-013` | [2008 OG9-5 5AT maximum permissible torque TCM-to-engine request](https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-description/maximum-permissible-torque) | Saab Automobile AB original WIS factory source, independently mirrored by SaabWISOnline | `full_text` |
+
+## priority_us_recall_campaign_and_service_wp7_extension
+
+Dataset: [priority_us_recall_campaign_and_service_wp7_extension](../data/datasets/priority-us-recall-campaign-wp7-extension.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `wp7supp-src-001` | [MY2008 9-5 US/CA 60,000 mile service with automatic transmission oil change](https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/60000-miles-us-ca) | Saab Automobile AB (original WIS mirrored by SaabWISOnline) | `full_text` |
+| `wp7supp-src-002` | [NHTSA official 2016 GM Part 573 report driver airbag inflator recall 16V063](https://static.nhtsa.gov/odi/rcl/2016/RCLRPT-16V063-7371.PDF) | General Motors LLC submission to NHTSA | `full_text` |
+| `wp7supp-src-003` | [NHTSA acknowledgment Saab 9-5 A-pillar campaign 08V160](https://static.nhtsa.gov/odi/rcl/2008/RCAK-08V160-6768.pdf) | NHTSA (General Motors safety noncompliance notice) | `full_text` |
+| `wp7supp-src-004` | [Original Saab/GM 2008 A-pillar trim recall owner letter 15204](https://static.nhtsa.gov/odi/rcl/2008/RCONL-08V160-4604.pdf) | General Motors / Saab Automobile (published in NHTSA recall filings) | `full_text` |
+| `wp7supp-src-005` | [GM original 2014 9-3 convertible driver seatbelt retractor recall 14V318](https://static.nhtsa.gov/odi/rcl/2014/RCDNN-14V318-3795P.pdf) | General Motors LLC (submitted to NHTSA) | `full_text` |
+| `wp7supp-src-006` | [MY2008 9-5 US/CA 100,000-mile service with tank and brake line checks](https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/100000-miles-us-ca) | Saab Automobile AB (original WIS mirrored by SaabWISOnline) | `full_text` |
+| `wp7supp-src-007` | [Original MY2008 9-5 service programme market selection](https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-eu/technical-description/choice-of-service-programme) | Saab Automobile AB (original WIS mirrored by SaabWISOnline) | `full_text` |
 
 ## priority_usca_service_recall_baseline_wp7
 
