@@ -10,6 +10,7 @@
     "ng93_body",
     "ng93_early_mount_fuel",
     "ng93_structure",
+    "official_us_vin_and_service_kit_provenance",
     "og95",
     "og95_2006_2008",
     "og95_atf_thermal_turbo_bulletin",
@@ -33,24 +34,24 @@
     "vin_gearbox_provenance"
   ],
   "counts": {
-    "sources": 482,
-    "facts": 957,
-    "issues": 70,
-    "parts": 74,
-    "gaps": 231
+    "sources": 489,
+    "facts": 972,
+    "issues": 73,
+    "parts": 76,
+    "gaps": 237
   },
-  "unique_source_urls": 428,
+  "unique_source_urls": 431,
   "retrieval_statuses": {
-    "full_text": 454,
+    "full_text": 461,
     "metadata_only": 8,
     "partial": 3,
     "search_excerpt": 17
   },
   "evidence_statuses": {
-    "documented": 1018,
+    "documented": 1038,
     "inference": 5,
     "supplier_claim": 78
   },
   "research_date": "2026-10-13",
-  "notes": "Phase 0 Gate A/B work package 4: safe non-running Saab seller-lot inspection and evidence-intake workflow. Saab catalyst TSB 248-2506 Nov 2004 excludes US/CA and Tech2 test requires running engine; catalyst backpressure/efficiency not confirmed by seller claim or P0420. 2007 B235 exhaust primary/main catalysts, T7 ignition/fuel/air diagnostic branches, 2009 9-5 oil pressure vs switch, 2006 B207 compression 12.4bar; actual 2008 US wagon no mechanical/structural/gearbox inspection. No engine/transmission rebuild or OEM interchange approved."
+  "notes": "Gate C OEM provenance work package 5: Saab Automobile USA original dated US VIN code bulletins MY2004-07 (9-5 & 9-3), correcting 2005/06 missing-source gaps; 2008-09 full original USA/Canada year tables remain unavailable. Saab Parts US official 9-3 MY2003-11 ignition switch 12801010 is serviced by CONDITIONAL kit 32021815 which must reuse serviceable original black sliding housing, not a complete plug-in switch or VIN-approved interchange. US official Saab keys and WIS MY2008 9-5 left engine mount VIN-cutover torque are source-scoped; no licensed WebEPC VIN query performed. Original parts remain subject to vehicle verification."
 }
