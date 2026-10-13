@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- [U.S. factory engine identities and avoid-rebuild screening](docs/us-engine-factory-and-no-rebuild-triage.md): 110 production groups mapped to WIS engine-code evidence, exact MY2011 A20NFT/LHU VIN distinction, and US/Canada-specific early B205/B235 sludge/bearing bulletin boundaries. VIN fitment and reliability ranking remain unverified.
+
 - [U.S. Saab factory automatic gearbox-family crosscheck](docs/us-automatic-gearbox-factory-crosscheck.md): WIS-sourced AF20/AF22, AF30, FA57 and AF40/TF-80SC distinctions across 110 U.S. production groups, including 2011 new 9-5 AF40 family, with individual VIN/interchange claims blocked.
 
 - [U.S. Saab source-derived complete production-group matrix](docs/us-production-catalogue-analysis.md): 110 compiled year/engine/body/auto/FWD groups from four reconciled U.S. production tables, with original factory/VIN verification still required.

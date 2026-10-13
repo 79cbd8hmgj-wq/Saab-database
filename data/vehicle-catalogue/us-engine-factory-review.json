@@ -1,0 +1,2856 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-10-13",
+  "purpose": "Manufacturer-original Saab WIS engine-code crosscheck over source-compiled eligible U.S. Saab 9-3/9-5 production groups; links existing engine rebuild risk issues without changing them.",
+  "market_priority": "US",
+  "canadian_records_modified": false,
+  "production_source": "data/vehicle-catalogue/us-production-normalized.json",
+  "source_records": [
+    {
+      "id": "engine-wis-9400-vin-2000",
+      "title": "9-3 9400 MY2000 factory VIN engine and gearbox identification",
+      "url": "https://saabwisonline.com/9-3-9400/2000/0-general/general/technical-data/vin-vehicle-identification-number",
+      "source_year": 2000,
+      "platform": "9400",
+      "claims": [
+        "B204L",
+        "B205L",
+        "B205R"
+      ],
+      "notes": "VIN position 7 8=automatic 4-speed and position 8 N=B204L, H=B205L, K=B205R. Code table describes identities, not proof any arbitrary option combination was ordered in every year."
+    },
+    {
+      "id": "engine-wis-9400-1999-b204",
+      "title": "9-3 9400 MY1999 B204L/E/R turbo intake system",
+      "url": "https://saabwisonline.com/9-3-9400/1999/2-engine/intake-system-petrol/technical-description/system-overview-turbo-engine-b204l-e-r",
+      "source_year": 1999,
+      "platform": "9400",
+      "claims": [
+        "B204L"
+      ],
+      "notes": "MY1999 WIS explicit B204L/E/R engine family, not MY2000+ B205 label."
+    },
+    {
+      "id": "engine-wis-9400-2001-output",
+      "title": "9-3 9400 MY2001 B205L/R torque power graph",
+      "url": "https://saabwisonline.com/9-3-9400/2001/0-general/general/technical-data/torque-and-power-graphs",
+      "source_year": 2001,
+      "platform": "9400",
+      "claims": [
+        "B205L",
+        "B205R"
+      ],
+      "notes": "MY2001 WIS describes 185hp B205L and 205hp B205R. Does not establish original gearbox case or a VIN identity."
+    },
+    {
+      "id": "engine-wis-9440-2004-b207",
+      "title": "9-3 9440 MY2004 B207L/R factory power graph",
+      "url": "https://saabwisonline.com/9-3-9440/2004/2-engine/4-cylinder-petrol/basic-engine/technical-data/torque-and-power-curves",
+      "source_year": 2004,
+      "platform": "9440",
+      "claims": [
+        "B207L",
+        "B207R"
+      ],
+      "notes": "B207L 175hp and B207R 210hp; manufacturer workshop platform code. Unrelated non-US B207E and convertible-only B207S not US candidate additions."
+    },
+    {
+      "id": "engine-wis-9440-2008-vin",
+      "title": "9-3 9440 MY2008 factory VIN transmission/body/engine code table",
+      "url": "https://saabwisonline.com/9-3-9440/2008/0-general/general/technical-data/vin-vehicle-identification-number",
+      "source_year": 2008,
+      "platform": "9440",
+      "claims": [
+        "B207L",
+        "B207R",
+        "B284L"
+      ],
+      "notes": "VIN position 6 4=sedan,5=five-door,7 9=automatic five-speed FWD or 1=six-speed automatic FWD, engine at pos8 S=B207L,Y=B207R,U=B284L. Actual 2008 original VIN not available."
+    },
+    {
+      "id": "engine-wis-9440-b284-number",
+      "title": "9-3 9440 MY2006 original B284L V6 engine number decoding",
+      "url": "https://saabwisonline.com/9-3-9440/2006/2-engine/v6-petrol/basic-engine/technical-data/engine-number",
+      "source_year": 2006,
+      "platform": "9440",
+      "claims": [
+        "B284L"
+      ],
+      "notes": "WIS engine-number pattern B284L; engine number pos7 A=automatic, unlike handbook demonstration M=manual. Does not verify engine number on an actual U.S. V6."
+    },
+    {
+      "id": "engine-wis-9600-2000-b235-b308",
+      "title": "9-5 9600 MY2000 factory engine management system variants",
+      "url": "https://saabwisonline.com/9-5-9600/2000/2-engine/",
+      "source_year": 2000,
+      "platform": "9600",
+      "claims": [
+        "B235E",
+        "B235R",
+        "B308E"
+      ],
+      "notes": "Original WIS engine sections identify B235E/R and B308E. B235L added later and should not be projected backwards."
+    },
+    {
+      "id": "engine-wis-9600-2004-vin",
+      "title": "9-5 9600 MY2004 original factory VIN code table",
+      "url": "https://saabwisonline.com/9-5-9600/2004/0-general/general/technical-data/vin-vehicle-identification-number",
+      "source_year": 2004,
+      "platform": "9600",
+      "claims": [
+        "B235E",
+        "B235L",
+        "B235R"
+      ],
+      "notes": "Original VIN position7 9=5-speed auto, position8 A=B235L,E=B235E,G=B235R; also position6 4=sedan/5=five-door. This is year-specific."
+    },
+    {
+      "id": "engine-wis-9600-2004-general",
+      "title": "9-5 9600 MY2004 B235E/L/R factory engine technical data",
+      "url": "https://saabwisonline.com/9-5-9600/2004/2-engine/basic-engine-4-cylinder-petrol/technical-data/general-data",
+      "source_year": 2004,
+      "platform": "9600",
+      "claims": [
+        "B235E",
+        "B235L",
+        "B235R"
+      ],
+      "notes": "B235E/L/R specified, including 220hp B235L. Broad WIS includes non-US high-output special engines, not automatically U.S. factory variants."
+    },
+    {
+      "id": "engine-wis-9650-2011-vin",
+      "title": "9-5 9650 MY2011 factory VIN identifies 2.0T A20NFT/LHU",
+      "url": "https://saabwisonline.com/9-5-9650/2011/0-general/general/technical-description/vehicle-engine-and-transmission-id-and-vin-location-derivative-and-usage",
+      "source_year": 2011,
+      "platform": "650",
+      "claims": [
+        "A20NFT/LHU"
+      ],
+      "notes": "VIN pos8 Z=2.0T A20NFT/LHU; R=2.0T A20NFT/LHU BioPower. pos7 A=FWD six-speed auto; model year 2011 pos10 B. US production table uses generic 2.0T, not original position8, so code is a factory-supported candidate pending real VIN."
+    },
+    {
+      "id": "engine-tsb-usca-sludge-2102554",
+      "title": "U.S./Canada Saab bulletin 210-2554 ed.3 timing-chain noise and oil sludge",
+      "url": "https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2554-ed-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine",
+      "source_year": 2006,
+      "platform": null,
+      "claims": [
+        "B205L",
+        "B205R",
+        "B235E",
+        "B235L",
+        "B235R"
+      ],
+      "notes": "Manufacturer June 2006 TSB market explicitly US/CA; affected 9-5 M98-03 B205/B235 and 9-3 9400 M99-03 B205/B235 only. Symptom-conditioned checks. Lower bearing damage triggers short block replacement in bulletin. Do not extend to B204, B207, 2004+ 9-5, V6 or all cars."
+    },
+    {
+      "id": "engine-tsb-pcv-allmarkets-2102417",
+      "title": "Saab bulletin 210-2417 ed.4 MY98-03 9-5 B205/B235 crankcase ventilation",
+      "url": "https://saabwisonline.com/9-5-9600/2001/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2417-utg-4-oil-leakage-from-engine",
+      "source_year": 2006,
+      "platform": "9600",
+      "claims": [
+        "B235E",
+        "B235R"
+      ],
+      "notes": "Bulletin April 2006 market all, 9-5 MY98-03 B205/B235; PCV limited flow and oil leaks; Saab PCV renovation kit. Not proof all candidate vehicles have had kit or are sludge-free."
+    },
+    {
+      "id": "engine-wis-9440-2006-b207-general",
+      "title": "9-3 9440 MY2006 B207 general data incl minimum compression",
+      "url": "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/technical-data/general-data",
+      "source_year": 2006,
+      "platform": "9440",
+      "claims": [
+        "B207L",
+        "B207R"
+      ],
+      "notes": "2006 WIS min compression 12.4 bar and controlled specifications; no cold-start-specific model-year threshold inferred."
+    },
+    {
+      "id": "engine-wis-9440-2005-b207-worksheet",
+      "title": "9-3 9440 MY2005 B207 factory mechanical diagnostic menu",
+      "url": "https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/",
+      "source_year": 2005,
+      "platform": "9440",
+      "claims": [
+        "B207L",
+        "B207R"
+      ],
+      "notes": "Lists factory compression test, oil pressure check, timing/balance chains; these procedures do not establish inherent failure probability."
+    },
+    {
+      "id": "engine-wis-9440-b284-chain",
+      "title": "9-3 9440 MY2006 B284 chain-driven camshaft engine architecture",
+      "url": "https://saabwisonline.com/9-3-9440/2006/2-engine/v6-petrol/basic-engine/technical-description/brief-description-b284",
+      "source_year": 2006,
+      "platform": "9440",
+      "claims": [
+        "B284L"
+      ],
+      "notes": "Confirms two chain-driven camshafts per cylinder bank and cam phasing; does not claim high chain failure incidence."
+    },
+    {
+      "id": "engine-wis-9650-2011-chain",
+      "title": "9-5 9650 MY2011 LDK/LHU timing chain check",
+      "url": "https://saabwisonline.com/9-5-9650/2011/2-engine/basic-engine-2-0-l-petrol/fault-diagnosis-fault-symptoms/timing-chain-check",
+      "source_year": 2011,
+      "platform": "650",
+      "claims": [
+        "A20NFT/LHU"
+      ],
+      "notes": "Factory timing check with EN-49212 tool and defined chain alignment, not a high-frequency failure report."
+    },
+    {
+      "id": "engine-wis-9650-2011-mechanical",
+      "title": "9-5 9650 MY2011 LDK/LHU engine mechanical misfire/noise diagnosis",
+      "url": "https://saabwisonline.com/9-5-9650/2011/2-engine/basic-engine-2-0-l-petrol/fault-diagnosis-fault-symptoms/",
+      "source_year": 2011,
+      "platform": "650",
+      "claims": [
+        "A20NFT/LHU"
+      ],
+      "notes": "Factory diagnosis topics separate misfire with noise vs no noise, coolant and oil consumption, compression. Not a quantified fleet failure curve."
+    }
+  ],
+  "engine_reviews": [
+    {
+      "production_id": "usprod-9400-1999-70300e64546a",
+      "model": "9-3",
+      "model_year": 1999,
+      "platform": "9400",
+      "body_style": "3-door hatchback",
+      "engine_source_label": "B204L",
+      "engine_source_code": "B204L",
+      "saab_wis_engine_family_candidate": "B204L",
+      "source_ids": [
+        "engine-wis-9400-1999-b204",
+        "engine-wis-9400-vin-2000"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9400-1999-1bef62da9055",
+      "model": "9-3",
+      "model_year": 1999,
+      "platform": "9400",
+      "body_style": "5-door hatchback",
+      "engine_source_label": "B204L",
+      "engine_source_code": "B204L",
+      "saab_wis_engine_family_candidate": "B204L",
+      "source_ids": [
+        "engine-wis-9400-1999-b204",
+        "engine-wis-9400-vin-2000"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9400-1999-614d751e6481",
+      "model": "9-3",
+      "model_year": 1999,
+      "platform": "9400",
+      "body_style": "3-door hatchback",
+      "engine_source_label": "B204L",
+      "engine_source_code": "B204L",
+      "saab_wis_engine_family_candidate": "B204L",
+      "source_ids": [
+        "engine-wis-9400-1999-b204",
+        "engine-wis-9400-vin-2000"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9400-1999-2bd272926b6c",
+      "model": "9-3",
+      "model_year": 1999,
+      "platform": "9400",
+      "body_style": "5-door hatchback",
+      "engine_source_label": "B204L",
+      "engine_source_code": "B204L",
+      "saab_wis_engine_family_candidate": "B204L",
+      "source_ids": [
+        "engine-wis-9400-1999-b204",
+        "engine-wis-9400-vin-2000"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9400-2000-04905bdcae68",
+      "model": "9-3",
+      "model_year": 2000,
+      "platform": "9400",
+      "body_style": "3-door hatchback",
+      "engine_source_label": "B205L",
+      "engine_source_code": "B205L",
+      "saab_wis_engine_family_candidate": "B205L",
+      "source_ids": [
+        "engine-wis-9400-vin-2000",
+        "engine-wis-9400-2001-output"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9400-2000-266da0222bec",
+      "model": "9-3",
+      "model_year": 2000,
+      "platform": "9400",
+      "body_style": "5-door hatchback",
+      "engine_source_label": "B205L",
+      "engine_source_code": "B205L",
+      "saab_wis_engine_family_candidate": "B205L",
+      "source_ids": [
+        "engine-wis-9400-vin-2000",
+        "engine-wis-9400-2001-output"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9400-2000-efa03e1662d4",
+      "model": "9-3",
+      "model_year": 2000,
+      "platform": "9400",
+      "body_style": "5-door hatchback",
+      "engine_source_label": "B205R",
+      "engine_source_code": "B205R",
+      "saab_wis_engine_family_candidate": "B205R",
+      "source_ids": [
+        "engine-wis-9400-vin-2000",
+        "engine-wis-9400-2001-output"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9400-2001-c5f5c11480e1",
+      "model": "9-3",
+      "model_year": 2001,
+      "platform": "9400",
+      "body_style": "3-door hatchback",
+      "engine_source_label": "B205L",
+      "engine_source_code": "B205L",
+      "saab_wis_engine_family_candidate": "B205L",
+      "source_ids": [
+        "engine-wis-9400-vin-2000",
+        "engine-wis-9400-2001-output"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9400-2001-b48e60a36980",
+      "model": "9-3",
+      "model_year": 2001,
+      "platform": "9400",
+      "body_style": "5-door hatchback",
+      "engine_source_label": "B205L",
+      "engine_source_code": "B205L",
+      "saab_wis_engine_family_candidate": "B205L",
+      "source_ids": [
+        "engine-wis-9400-vin-2000",
+        "engine-wis-9400-2001-output"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9400-2001-d0bcddbd7105",
+      "model": "9-3",
+      "model_year": 2001,
+      "platform": "9400",
+      "body_style": "5-door hatchback",
+      "engine_source_label": "B205R",
+      "engine_source_code": "B205R",
+      "saab_wis_engine_family_candidate": "B205R",
+      "source_ids": [
+        "engine-wis-9400-vin-2000",
+        "engine-wis-9400-2001-output"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9400-2002-e25d2b682f27",
+      "model": "9-3",
+      "model_year": 2002,
+      "platform": "9400",
+      "body_style": "5-door hatchback",
+      "engine_source_label": "B205R",
+      "engine_source_code": "B205R",
+      "saab_wis_engine_family_candidate": "B205R",
+      "source_ids": [
+        "engine-wis-9400-vin-2000",
+        "engine-wis-9400-2001-output"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2003-7ad77133f287",
+      "model": "9-3",
+      "model_year": 2003,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2003-00c7717ee322",
+      "model": "9-3",
+      "model_year": 2003,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207L",
+      "engine_source_code": "B207L",
+      "saab_wis_engine_family_candidate": "B207L",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2003-6d6530debf2c",
+      "model": "9-3",
+      "model_year": 2003,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2004-2553135925d7",
+      "model": "9-3",
+      "model_year": 2004,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2004-c9c6db70f1a3",
+      "model": "9-3",
+      "model_year": 2004,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2004-eca7d0654a6a",
+      "model": "9-3",
+      "model_year": 2004,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207L",
+      "engine_source_code": "B207L",
+      "saab_wis_engine_family_candidate": "B207L",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2005-ca7c8d0fad7d",
+      "model": "9-3",
+      "model_year": 2005,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2005-35a04ffcaa6e",
+      "model": "9-3",
+      "model_year": 2005,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2005-b853ad709829",
+      "model": "9-3",
+      "model_year": 2005,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207L",
+      "engine_source_code": "B207L",
+      "saab_wis_engine_family_candidate": "B207L",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2005-d2b111c98c63",
+      "model": "9-3",
+      "model_year": 2005,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2006-66a0bba1ffb4",
+      "model": "9-3",
+      "model_year": 2006,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2006-3f82ebaa461c",
+      "model": "9-3",
+      "model_year": 2006,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2006-66a6ee6945ee",
+      "model": "9-3",
+      "model_year": 2006,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B284L",
+      "engine_source_code": "B284L",
+      "saab_wis_engine_family_candidate": "B284L",
+      "source_ids": [
+        "engine-wis-9440-b284-number",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2006-0eb06b9b5336",
+      "model": "9-3",
+      "model_year": 2006,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_source_label": "B284L",
+      "engine_source_code": "B284L",
+      "saab_wis_engine_family_candidate": "B284L",
+      "source_ids": [
+        "engine-wis-9440-b284-number",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2007-47153ed320be",
+      "model": "9-3",
+      "model_year": 2007,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2007-3b3b7d6492e4",
+      "model": "9-3",
+      "model_year": 2007,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2007-f300939418b8",
+      "model": "9-3",
+      "model_year": 2007,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2007-d6e18d73fb49",
+      "model": "9-3",
+      "model_year": 2007,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2007-482ed160ba16",
+      "model": "9-3",
+      "model_year": 2007,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B284L",
+      "engine_source_code": "B284L",
+      "saab_wis_engine_family_candidate": "B284L",
+      "source_ids": [
+        "engine-wis-9440-b284-number",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2007-e20134af5d2a",
+      "model": "9-3",
+      "model_year": 2007,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_source_label": "B284L",
+      "engine_source_code": "B284L",
+      "saab_wis_engine_family_candidate": "B284L",
+      "source_ids": [
+        "engine-wis-9440-b284-number",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2008-409da8b88751",
+      "model": "9-3",
+      "model_year": 2008,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2008-d6307a45a509",
+      "model": "9-3",
+      "model_year": 2008,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2008-30b15ea6c631",
+      "model": "9-3",
+      "model_year": 2008,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B284L",
+      "engine_source_code": "B284L",
+      "saab_wis_engine_family_candidate": "B284L",
+      "source_ids": [
+        "engine-wis-9440-b284-number",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2008-b3273aad38f1",
+      "model": "9-3",
+      "model_year": 2008,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_source_label": "B284L",
+      "engine_source_code": "B284L",
+      "saab_wis_engine_family_candidate": "B284L",
+      "source_ids": [
+        "engine-wis-9440-b284-number",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2009-10888383c790",
+      "model": "9-3",
+      "model_year": 2009,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2009-f167f5aa1a8c",
+      "model": "9-3",
+      "model_year": 2009,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2010-4bd123807bb5",
+      "model": "9-3",
+      "model_year": 2010,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2010-d37e00066c02",
+      "model": "9-3",
+      "model_year": 2010,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2010-fefc85694efb",
+      "model": "9-3",
+      "model_year": 2010,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2010-9bad9e9b8daf",
+      "model": "9-3",
+      "model_year": 2010,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2011-6d71a632955b",
+      "model": "9-3",
+      "model_year": 2011,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2011-66a3c399ebfd",
+      "model": "9-3",
+      "model_year": 2011,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2011-67b077eb5391",
+      "model": "9-3",
+      "model_year": 2011,
+      "platform": "9440",
+      "body_style": "sedan",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9440-2011-6067b39794ec",
+      "model": "9-3",
+      "model_year": 2011,
+      "platform": "9440",
+      "body_style": "wagon",
+      "engine_source_label": "B207R",
+      "engine_source_code": "B207R",
+      "saab_wis_engine_family_candidate": "B207R",
+      "source_ids": [
+        "engine-wis-9440-2004-b207",
+        "engine-wis-9440-2008-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-1999-80270f1fc57b",
+      "model": "9-5",
+      "model_year": 1999,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235E",
+      "engine_source_code": "B235E",
+      "saab_wis_engine_family_candidate": "B235E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-1999-1cb72d9097d1",
+      "model": "9-5",
+      "model_year": 1999,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B308E",
+      "engine_source_code": "B308E",
+      "saab_wis_engine_family_candidate": "B308E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-1999-481bdb6b5cfc",
+      "model": "9-5",
+      "model_year": 1999,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235E",
+      "engine_source_code": "B235E",
+      "saab_wis_engine_family_candidate": "B235E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-1999-2a95b9b3ce30",
+      "model": "9-5",
+      "model_year": 1999,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B308E",
+      "engine_source_code": "B308E",
+      "saab_wis_engine_family_candidate": "B308E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-1999-19692af2405b",
+      "model": "9-5",
+      "model_year": 1999,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235E",
+      "engine_source_code": "B235E",
+      "saab_wis_engine_family_candidate": "B235E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-1999-fdebac597045",
+      "model": "9-5",
+      "model_year": 1999,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B308E",
+      "engine_source_code": "B308E",
+      "saab_wis_engine_family_candidate": "B308E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-1999-f749361fa49d",
+      "model": "9-5",
+      "model_year": 1999,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235E",
+      "engine_source_code": "B235E",
+      "saab_wis_engine_family_candidate": "B235E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-1999-c4d1d37eb75a",
+      "model": "9-5",
+      "model_year": 1999,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B308E",
+      "engine_source_code": "B308E",
+      "saab_wis_engine_family_candidate": "B308E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2000-2048481de83b",
+      "model": "9-5",
+      "model_year": 2000,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2000-5a801d274ac4",
+      "model": "9-5",
+      "model_year": 2000,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2000-d8414d89a6b7",
+      "model": "9-5",
+      "model_year": 2000,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235E",
+      "engine_source_code": "B235E",
+      "saab_wis_engine_family_candidate": "B235E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2000-ba5b5dcfedee",
+      "model": "9-5",
+      "model_year": 2000,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B308E",
+      "engine_source_code": "B308E",
+      "saab_wis_engine_family_candidate": "B308E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2000-eeaeeecec6b4",
+      "model": "9-5",
+      "model_year": 2000,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B308E",
+      "engine_source_code": "B308E",
+      "saab_wis_engine_family_candidate": "B308E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2000-3208b53eab2b",
+      "model": "9-5",
+      "model_year": 2000,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235E",
+      "engine_source_code": "B235E",
+      "saab_wis_engine_family_candidate": "B235E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2000-76e96e57f0ea",
+      "model": "9-5",
+      "model_year": 2000,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235E",
+      "engine_source_code": "B235E",
+      "saab_wis_engine_family_candidate": "B235E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2001-e588ecee2743",
+      "model": "9-5",
+      "model_year": 2001,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2001-d4e89c9ad0f9",
+      "model": "9-5",
+      "model_year": 2001,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2001-e3e9973412fe",
+      "model": "9-5",
+      "model_year": 2001,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B308E",
+      "engine_source_code": "B308E",
+      "saab_wis_engine_family_candidate": "B308E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2001-20ea775dd8e2",
+      "model": "9-5",
+      "model_year": 2001,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B308E",
+      "engine_source_code": "B308E",
+      "saab_wis_engine_family_candidate": "B308E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2001-29a2d4ee6170",
+      "model": "9-5",
+      "model_year": 2001,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235E",
+      "engine_source_code": "B235E",
+      "saab_wis_engine_family_candidate": "B235E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2001-8ac268fdc1be",
+      "model": "9-5",
+      "model_year": 2001,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B308E",
+      "engine_source_code": "B308E",
+      "saab_wis_engine_family_candidate": "B308E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2001-59d2d33c8ca4",
+      "model": "9-5",
+      "model_year": 2001,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235E",
+      "engine_source_code": "B235E",
+      "saab_wis_engine_family_candidate": "B235E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2002-f3e877f40269",
+      "model": "9-5",
+      "model_year": 2002,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2002-a6e3f4219fe1",
+      "model": "9-5",
+      "model_year": 2002,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2002-25bac55f3b40",
+      "model": "9-5",
+      "model_year": 2002,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B308E",
+      "engine_source_code": "B308E",
+      "saab_wis_engine_family_candidate": "B308E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2002-8bb5aafedeaa",
+      "model": "9-5",
+      "model_year": 2002,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B308E",
+      "engine_source_code": "B308E",
+      "saab_wis_engine_family_candidate": "B308E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2002-e84ffc126de4",
+      "model": "9-5",
+      "model_year": 2002,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235E",
+      "engine_source_code": "B235E",
+      "saab_wis_engine_family_candidate": "B235E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2002-b7a8d2a5b366",
+      "model": "9-5",
+      "model_year": 2002,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235E",
+      "engine_source_code": "B235E",
+      "saab_wis_engine_family_candidate": "B235E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2003-5fa449d61161",
+      "model": "9-5",
+      "model_year": 2003,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2003-7cc94c616980",
+      "model": "9-5",
+      "model_year": 2003,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2003-a767166cd624",
+      "model": "9-5",
+      "model_year": 2003,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B308E",
+      "engine_source_code": "B308E",
+      "saab_wis_engine_family_candidate": "B308E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2003-1425fbc33299",
+      "model": "9-5",
+      "model_year": 2003,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B308E",
+      "engine_source_code": "B308E",
+      "saab_wis_engine_family_candidate": "B308E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2003-a792094bea10",
+      "model": "9-5",
+      "model_year": 2003,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235E",
+      "engine_source_code": "B235E",
+      "saab_wis_engine_family_candidate": "B235E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2003-e2e98d51f64d",
+      "model": "9-5",
+      "model_year": 2003,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235E",
+      "engine_source_code": "B235E",
+      "saab_wis_engine_family_candidate": "B235E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [
+        "us-eng-screen-sludge-bearing"
+      ],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2004-2ff32b6a65ee",
+      "model": "9-5",
+      "model_year": 2004,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2004-c6e52f7b5bb4",
+      "model": "9-5",
+      "model_year": 2004,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2004-553a2f9acef2",
+      "model": "9-5",
+      "model_year": 2004,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235L",
+      "engine_source_code": "B235L",
+      "saab_wis_engine_family_candidate": "B235L",
+      "source_ids": [
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2004-2153ecf4425d",
+      "model": "9-5",
+      "model_year": 2004,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235L",
+      "engine_source_code": "B235L",
+      "saab_wis_engine_family_candidate": "B235L",
+      "source_ids": [
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2004-887c63b87b24",
+      "model": "9-5",
+      "model_year": 2004,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235E",
+      "engine_source_code": "B235E",
+      "saab_wis_engine_family_candidate": "B235E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2005-6a1094ac89d2",
+      "model": "9-5",
+      "model_year": 2005,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2005-518673045c1a",
+      "model": "9-5",
+      "model_year": 2005,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2005-64bf8e34a0ff",
+      "model": "9-5",
+      "model_year": 2005,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235L",
+      "engine_source_code": "B235L",
+      "saab_wis_engine_family_candidate": "B235L",
+      "source_ids": [
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2005-a15f61481caf",
+      "model": "9-5",
+      "model_year": 2005,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235L",
+      "engine_source_code": "B235L",
+      "saab_wis_engine_family_candidate": "B235L",
+      "source_ids": [
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2005-a1bfc0b97128",
+      "model": "9-5",
+      "model_year": 2005,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235E",
+      "engine_source_code": "B235E",
+      "saab_wis_engine_family_candidate": "B235E",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2006-1476c9d19a82",
+      "model": "9-5",
+      "model_year": 2006,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2006-bd8089c1716b",
+      "model": "9-5",
+      "model_year": 2006,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2006-69f78cb8a8bf",
+      "model": "9-5",
+      "model_year": 2006,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2006-89c78a11d5ac",
+      "model": "9-5",
+      "model_year": 2006,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2007-99896cc578b3",
+      "model": "9-5",
+      "model_year": 2007,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2007-b78c213b7398",
+      "model": "9-5",
+      "model_year": 2007,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2007-36a67a699872",
+      "model": "9-5",
+      "model_year": 2007,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2007-213a3a33935c",
+      "model": "9-5",
+      "model_year": 2007,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2007-c327794cbfef",
+      "model": "9-5",
+      "model_year": 2007,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2007-9d930be2a7ce",
+      "model": "9-5",
+      "model_year": 2007,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2008-66fcbe728e78",
+      "model": "9-5",
+      "model_year": 2008,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2008-90bc26f7f0ff",
+      "model": "9-5",
+      "model_year": 2008,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2008-3bc4ca7c49ed",
+      "model": "9-5",
+      "model_year": 2008,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2008-a2c8b55ed518",
+      "model": "9-5",
+      "model_year": 2008,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2009-75a3e290bc93",
+      "model": "9-5",
+      "model_year": 2009,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2009-fb1c554efceb",
+      "model": "9-5",
+      "model_year": 2009,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2009-a4211f0578ac",
+      "model": "9-5",
+      "model_year": 2009,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2009-5e6ccee798f5",
+      "model": "9-5",
+      "model_year": 2009,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2009-d3204ec60adb",
+      "model": "9-5",
+      "model_year": 2009,
+      "platform": "9600",
+      "body_style": "sedan",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-9600-2009-e1b331c94576",
+      "model": "9-5",
+      "model_year": 2009,
+      "platform": "9600",
+      "body_style": "wagon",
+      "engine_source_label": "B235R",
+      "engine_source_code": "B235R",
+      "saab_wis_engine_family_candidate": "B235R",
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308",
+        "engine-wis-9600-2004-general",
+        "engine-wis-9600-2004-vin"
+      ],
+      "evidence_level": "factory_platform_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "Factory manuals establish engine-code identity on platform; original car VIN/engine serial and individual year/trim option pairing remain unverified."
+    },
+    {
+      "production_id": "usprod-650-2011-844ea4b7d007",
+      "model": "9-5",
+      "model_year": 2011,
+      "platform": "650",
+      "body_style": "sedan",
+      "engine_source_label": "2.0T",
+      "engine_source_code": null,
+      "saab_wis_engine_family_candidate": "A20NFT/LHU",
+      "source_ids": [
+        "engine-wis-9650-2011-vin"
+      ],
+      "evidence_level": "factory_year_vin_code_correlated_not_car_verified",
+      "candidate_model_year_original_vin_checked": false,
+      "physical_engine_stamping_checked": false,
+      "parts_interchange_approved": false,
+      "engine_reliability_ranked": false,
+      "diagnostic_topic_ids": [],
+      "review_note": "2011 U.S. compiled production label 2.0T lacks VIN character; Saab 2011 VIN chart gives A20NFT/LHU, but must inspect actual VIN code Z/R and engine stamp."
+    }
+  ],
+  "screening_topics": [
+    {
+      "id": "us-eng-screen-sludge-bearing",
+      "priority": "decision_critical",
+      "issue_type": "documented_US_CA_technical_service_bulletin",
+      "eligible_scope": {
+        "platforms": [
+          "9400",
+          "9600"
+        ],
+        "model_years_9400": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "model_years_9600": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_families": [
+          "B205",
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "engine-tsb-usca-sludge-2102554"
+      ],
+      "existing_repo_issues": [
+        "hcdiag-issue-001"
+      ],
+      "signals": [
+        "timing or balance shaft chain rattling",
+        "oil pressure light",
+        "whining or low-pitched bellowing",
+        "lower-end knock"
+      ],
+      "recommended_evidence": [
+        "service history and appropriate oil/PCV records",
+        "do not run engine with suspected oil starvation or bearing damage; qualified professional mechanical oil-pressure verification",
+        "chain tensioner measurement and oil pickup sump inspection only after safe evaluation",
+        "if lower-end damage suspected, inspect bearing condition via factory procedure and price short block vs walk-away"
+      ],
+      "decision_rule": "A proven damaged crank/rod/main bearing is a no-rebuild project-car exclusion unless the buyer explicitly accepts replacement-engine costs; mere oil leak or chain noise does not establish bearing damage.",
+      "not_claimed": [
+        "all affected vehicles have sludge",
+        "PCV upgrade guarantees no bearing wear",
+        "2004+ B235 or B204 are included in this US/CA bulletin",
+        "old 2006 warranty policy still active"
+      ]
+    },
+    {
+      "id": "us-eng-screen-9-5-pcv",
+      "priority": "important_history",
+      "issue_type": "documented_all_markets_bulletin",
+      "eligible_scope": {
+        "platforms": [
+          "9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_families": [
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "engine-tsb-pcv-allmarkets-2102417"
+      ],
+      "existing_repo_issues": [
+        "hcdiag-issue-001"
+      ],
+      "signals": [
+        "external oil seepage from timing cover/front seal area",
+        "unknown PCV retrofit history"
+      ],
+      "recommended_evidence": [
+        "verify actual VIN and original PCV configuration",
+        "review PCV renovation kit history rather than assuming it was done",
+        "separate fluid leaks from measured low oil pressure or bearing damage"
+      ],
+      "decision_rule": "Treat PCV system as service research and history, not confirmation of current internal engine condition.",
+      "not_claimed": [
+        "a PCV kit repairs already worn bearings",
+        "all years 1999-2009 share original problem"
+      ]
+    },
+    {
+      "id": "us-eng-screen-b207-mechanical",
+      "priority": "decision_critical",
+      "issue_type": "factory_diagnostic_availability_not_frequency",
+      "eligible_scope": {
+        "platforms": [
+          "9440"
+        ],
+        "engine_families": [
+          "B207L",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "engine-wis-9440-2006-b207-general",
+        "engine-wis-9440-2005-b207-worksheet"
+      ],
+      "existing_repo_issues": [
+        "hcdiag-issue-002",
+        "nrscreen-issue-003"
+      ],
+      "signals": [
+        "cold-start cylinder misfires",
+        "abnormal compression variation",
+        "oil pressure abnormality",
+        "chain or balancer noise"
+      ],
+      "recommended_evidence": [
+        "controlled cylinder compression/leakdown to model/year original procedure",
+        "separate spark/fuel/ECM failures from actual intake-valve sealing loss",
+        "check oil pressure by factory procedure if symptoms justify it",
+        "do not crank a seized, coolant-filled or mechanically suspect nonrunning engine"
+      ],
+      "decision_rule": "Do not buy a non-running 9-3 on the assumption cold misfire is only ignition or only valve damage; mechanical measurements decide.",
+      "not_claimed": [
+        "all B207 versions share the same failure prevalence",
+        "the 2006 min compression applies at any temperature to every year"
+      ]
+    },
+    {
+      "id": "us-eng-screen-b284-mechanical",
+      "priority": "open_risk",
+      "issue_type": "factory_architecture_not_failure_rate",
+      "eligible_scope": {
+        "platforms": [
+          "9440"
+        ],
+        "engine_families": [
+          "B284L"
+        ]
+      },
+      "source_ids": [
+        "engine-wis-9440-b284-chain"
+      ],
+      "existing_repo_issues": [],
+      "signals": [
+        "timing-related mechanical noise",
+        "poor starting or timing correlation faults, if documented on actual car"
+      ],
+      "recommended_evidence": [
+        "verify factory engine number and codes, maintenance history, mechanical condition",
+        "establish a model-year and VIN-matched fault guide before asserting timing chain needs repair"
+      ],
+      "decision_rule": "A chain-driven V6 is not proof of a defective chain; do not invent repair prices or probabilities.",
+      "not_claimed": [
+        "a B284 timing chain defect is established by this source",
+        "B284L and B207 timing systems share parts"
+      ]
+    },
+    {
+      "id": "us-eng-screen-2011-2t",
+      "priority": "open_risk",
+      "issue_type": "factory_diagnostic_availability_not_failure_rate",
+      "eligible_scope": {
+        "platforms": [
+          "650"
+        ],
+        "model_years": [
+          2011
+        ],
+        "factory_engine_code_candidate": [
+          "A20NFT/LHU"
+        ]
+      },
+      "source_ids": [
+        "engine-wis-9650-2011-vin",
+        "engine-wis-9650-2011-chain",
+        "engine-wis-9650-2011-mechanical"
+      ],
+      "existing_repo_issues": [],
+      "signals": [
+        "no-start or mechanical noise",
+        "oil or coolant consumption",
+        "timing correlation fault"
+      ],
+      "recommended_evidence": [
+        "decode actual VIN position 8 and engine stamping, distinguish 2.0T gas/BioPower",
+        "follow MY2011 model-specific mechanical diagnostic tree and special-tool timing-chain verification when symptoms justify"
+      ],
+      "decision_rule": "Do not project older B235/B207 maintenance failures or parts onto 2011 A20NFT/LHU, nor diagnose a chain from noise alone.",
+      "not_claimed": [
+        "every U.S. 2011 Turbo4 is VIN Z regardless of evidence",
+        "factory proves a high failure rate for chain system"
+      ]
+    },
+    {
+      "id": "us-eng-screen-b308-baseline",
+      "priority": "open_risk",
+      "issue_type": "engine_identity_confirmed_risk_not_quantified",
+      "eligible_scope": {
+        "platforms": [
+          "9600"
+        ],
+        "engine_families": [
+          "B308E"
+        ]
+      },
+      "source_ids": [
+        "engine-wis-9600-2000-b235-b308"
+      ],
+      "existing_repo_issues": [],
+      "signals": [
+        "high-cost mechanical damage possible on any poorly stored nonrunning V6"
+      ],
+      "recommended_evidence": [
+        "VIN-confirm B308E and obtain original V6 service procedures before diagnosing its components",
+        "mechanical/fluids inspection and service history"
+      ],
+      "decision_rule": "Do not transfer four-cylinder B235 sludge PCV or part diagnosis to B308E V6.",
+      "not_claimed": [
+        "B308E inherently worse or better than B235",
+        "V6 is covered by B205/B235 sludge bulletin"
+      ]
+    }
+  ],
+  "factory_certification": "partial_engine_family_attribution_only_no_original_candidate_VINs_checked",
+  "hard_rules": [
+    "No automatic approval of interchange, engine reliability or original production option pairing from workshop code lists",
+    "No diagnosis by sound or DTC alone; use controlled WIS and physical vehicle evidence",
+    "B205/B235 US/CA 210-2554 bulletin only for original Saab 9-3 MY99-03 B205/B235 and original 9-5 MY98-03 B205/B235; not B204, B207, B284, B308 or later 9-5",
+    "MY2011 9-5 Turbo4 production engine abbreviation 2.0T must not be silently treated as a photographed VIN; 2011 Saab WIS code A20NFT/LHU is candidate identity, check car first",
+    "Saab manufacturer WIS directory may contain later editions or markets other than U.S.; source/year alone is not 110 VIN authentications"
+  ]
+}
