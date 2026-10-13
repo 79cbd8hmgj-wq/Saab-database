@@ -1,0 +1,1364 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "repair_vs_replace_troubleshooting",
+  "sources": [
+    {
+      "id": "rrtriage-src-001",
+      "title": "MY2007 loose wastegate rod clip, underboost and rattling P1105",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/fault-diagnosis-fault-symptoms/low-engine-power-output-little-movement-on-the-turbo-pressure-gauge-and-rattling-from-the-turbocharger",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "search_excerpt",
+      "notes": "Indexed excerpt only; page could not be retrieved as full content, so confidence reduced."
+    },
+    {
+      "id": "rrtriage-src-002",
+      "title": "MY2007 turbo basic charging pressure, GT17 vs Mitsubishi",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/adjustment-replacement/checking-and-adjusting-basic-charging-pressure",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "The model year, engine, exact hardware and operating conditions printed in the source control applicability. No car-specific measurement inferred."
+    },
+    {
+      "id": "rrtriage-src-003",
+      "title": "MY2007 turbo bypass diaphragm test",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/turbocharger-system/adjustment-replacement/checking-the-charge-air-bypass-valve-4-cyl",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "The model year, engine, exact hardware and operating conditions printed in the source control applicability. No car-specific measurement inferred."
+    },
+    {
+      "id": "rrtriage-src-004",
+      "title": "MY2005 petrol charge air hose and intercooler leak test",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/turbocharger-system/adjustment-replacement/test-pressurization-of-the-charge-air-cooler-and-pressure-pipes-4-cyl",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "The model year, engine, exact hardware and operating conditions printed in the source control applicability. No car-specific measurement inferred."
+    },
+    {
+      "id": "rrtriage-src-005",
+      "title": "MY2007 Trionic turbo and ECU replacement checklist",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/fault-diagnosis-general/checklist-for-changing-turbocharger-and-engine-control-module",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "search_excerpt",
+      "notes": "Indexed excerpt only; page could not be retrieved as full content, so confidence reduced."
+    },
+    {
+      "id": "rrtriage-src-006",
+      "title": "MY2002-04 FA57 shift symptoms TSB 440-2497 dated October 2004",
+      "url": "https://saabwisonline.com/9-5-9600/2003/4-transmission/automatic-transmission/bulletins-si-mi/440-2497-general-fault-diagnosis-for-automatic-transmission",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "The model year, engine, exact hardware and operating conditions printed in the source control applicability. No car-specific measurement inferred."
+    },
+    {
+      "id": "rrtriage-src-007",
+      "title": "MY2007 OG9-5 auto ATF level with dipstick",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/adjustment-replacement/automatic-transmission-fluid-level",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "The model year, engine, exact hardware and operating conditions printed in the source control applicability. No car-specific measurement inferred."
+    },
+    {
+      "id": "rrtriage-src-008",
+      "title": "MY2007 OG9-5 auto ATF level with special gauge no dipstick",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/adjustment-replacement/automatic-transmission-transmission-fluid-level-without-dipstick",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "The model year, engine, exact hardware and operating conditions printed in the source control applicability. No car-specific measurement inferred."
+    },
+    {
+      "id": "rrtriage-src-009",
+      "title": "MY2005 OG9-5 FA57 ATF full-system volume and original grade",
+      "url": "https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/technical-data/weight-fluid-capacity-and-grade-of-fluid",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "The model year, engine, exact hardware and operating conditions printed in the source control applicability. No car-specific measurement inferred."
+    },
+    {
+      "id": "rrtriage-src-010",
+      "title": "MY2005 OG9-5 FA57 coolant-line fluid-exchange procedure",
+      "url": "https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/adjustment-replacement/changing-the-automatic-transmission-fluid",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "The model year, engine, exact hardware and operating conditions printed in the source control applicability. No car-specific measurement inferred."
+    },
+    {
+      "id": "rrtriage-src-011",
+      "title": "MY2007 OG9-5 auto P0748 pressure solenoid circuit",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0748",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "The model year, engine, exact hardware and operating conditions printed in the source control applicability. No car-specific measurement inferred."
+    },
+    {
+      "id": "rrtriage-src-012",
+      "title": "MY2007 OG9-5 auto P0722 output-speed sensor no signal",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0722",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "The model year, engine, exact hardware and operating conditions printed in the source control applicability. No car-specific measurement inferred."
+    },
+    {
+      "id": "rrtriage-src-013",
+      "title": "MY2006 OG9-5 auto P0730 incorrect indicated ratio / S3",
+      "url": "https://saabwisonline.com/9-5-9600/2006/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0730",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "The model year, engine, exact hardware and operating conditions printed in the source control applicability. No car-specific measurement inferred."
+    },
+    {
+      "id": "rrtriage-src-014",
+      "title": "MY2007 automatic cross-system WIS diagnostic strategy",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/fault-diagnosis-general/fault-diagnosis-strategy-for-electronic-systems",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "The model year, engine, exact hardware and operating conditions printed in the source control applicability. No car-specific measurement inferred."
+    },
+    {
+      "id": "rrtriage-src-015",
+      "title": "MY2008 petrol coolant thermostat/cap temperature and pressure",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-data/temperature-pressure-limits",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "The model year, engine, exact hardware and operating conditions printed in the source control applicability. No car-specific measurement inferred."
+    },
+    {
+      "id": "rrtriage-src-016",
+      "title": "MY2007 petrol thermostat service including seal and ground",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/adjustment-replacement/thermostat-4-cyl",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "The model year, engine, exact hardware and operating conditions printed in the source control applicability. No car-specific measurement inferred."
+    },
+    {
+      "id": "rrtriage-src-017",
+      "title": "MY2007 OG9-5 auto replacement flush contaminated cooling fluid circuit",
+      "url": "https://saabwisonline.com/9-5-9600/2007/4-transmission/automatic-transmission/adjustment-replacement/complete-automatic-transmission",
+      "publisher": "Saab Automobile AB (factory-authored WIS mirrored by SaabWISOnline)",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-12",
+      "retrieval": "full_text",
+      "notes": "The model year, engine, exact hardware and operating conditions printed in the source control applicability. No car-specific measurement inferred."
+    }
+  ],
+  "facts": [
+    {
+      "id": "rrtriage-fact-001",
+      "subject": "9-5 original 9600",
+      "category": "diagnostic",
+      "predicate": "underboost_rattle_wastegate_clip",
+      "value": {
+        "symptoms": [
+          "weak boost/little dashboard gauge motion",
+          "turbo-area rattle",
+          "possible P1105"
+        ],
+        "possible_cause": "actuator retaining E-clip detached, rod off wastegate arm"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "underboost_rattle_wastegate_clip",
+      "notes": "Factory source says *some* vehicles; search excerpt only, not blanket diagnosis of a failed turbo."
+    },
+    {
+      "id": "rrtriage-fact-002",
+      "subject": "B235R",
+      "category": "turbo",
+      "predicate": "B235R_basic_actuator_start_bar",
+      "value": 0.45,
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "B235R_basic_actuator_start_bar",
+      "notes": "Pressure at first actuator rod motion, not full load boost specification."
+    },
+    {
+      "id": "rrtriage-fact-003",
+      "subject": "B205E/B235E",
+      "category": "turbo",
+      "predicate": "B205E_B235E_basic_actuator_start_bar",
+      "value": 0.4,
+      "unit": "bar",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "B205E_B235E_basic_actuator_start_bar",
+      "notes": "GT17 rod first-movement pressure, not maximum safe boost or B235R target."
+    },
+    {
+      "id": "rrtriage-fact-004",
+      "subject": "actuator",
+      "category": "turbo",
+      "predicate": "wastegate_rod_preload_mm",
+      "value": 2,
+      "unit": "mm",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "wastegate_rod_preload_mm",
+      "notes": "Factory method, not a reason to adjust an unknown car preemptively."
+    },
+    {
+      "id": "rrtriage-fact-005",
+      "subject": "9-5 original 9600",
+      "category": "turbo",
+      "predicate": "wastegate_locknut_engine_serial_split",
+      "value": {
+        "through_engine_no": "7011078",
+        "Nm_through": 20,
+        "from_engine_no": "7011079",
+        "Nm_from": 21
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "wastegate_locknut_engine_serial_split",
+      "notes": "Engine serial numbers, not a VIN cutoff or direct evidence of new turbo hardware."
+    },
+    {
+      "id": "rrtriage-fact-006",
+      "subject": "9-5 original 9600",
+      "category": "turbo",
+      "predicate": "bypass_diaphgram_vacuum_hold_test",
+      "value": "Factory procedure checks that vacuum can be built across bypass diaphragm and repeats with positive pressure.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "bypass_diaphgram_vacuum_hold_test",
+      "notes": "A failed diaphragm can be isolated instead of assuming compressor or turbo shaft is damaged."
+    },
+    {
+      "id": "rrtriage-fact-007",
+      "subject": "9-5 original 9600",
+      "category": "turbo",
+      "predicate": "charge_air_pressure_test_at_1_bar",
+      "value": {
+        "test_pressure_bar_approx": 1,
+        "maximum_pressure_drop_bar": 0.1,
+        "duration_s": 30
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "charge_air_pressure_test_at_1_bar",
+      "notes": "Isolated factory charge air test. Excess pressure can damage hoses: not an unrestricted DIY boost test."
+    },
+    {
+      "id": "rrtriage-fact-008",
+      "subject": "9-5 original 9600",
+      "category": "turbo",
+      "predicate": "charge_air_failed_test_isolation",
+      "value": "If hiss or >0.1 bar drop in 30 s: check pipes, hose clamps and seals for leaks; removed intercooler is last separate test.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "charge_air_failed_test_isolation",
+      "notes": "Avoid ordering an intercooler or turbo without identifying leak location."
+    },
+    {
+      "id": "rrtriage-fact-009",
+      "subject": "9-5 original 9600",
+      "category": "turbo",
+      "predicate": "T7_turbo_ECU_before_replacement_list",
+      "value": [
+        "record customer symptom",
+        "do not erase DTCs",
+        "read Tech2 ECU VIN/software",
+        "read ambient/boost pressures and intake data",
+        "read misfires and adaptation"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "T7_turbo_ECU_before_replacement_list",
+      "notes": "Excerpt strength only. Do not run overheated or knocking car to fill checklist."
+    },
+    {
+      "id": "rrtriage-fact-010",
+      "subject": "9-5 original 9600",
+      "category": "transmission",
+      "predicate": "440_2497_affected_years",
+      "value": {
+        "date": "2004-10",
+        "bulletin": "440-2497",
+        "years": [
+          2002,
+          2003,
+          2004
+        ],
+        "gearbox": "5-speed auto"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "440_2497_affected_years",
+      "notes": "Factory TSB scope; does NOT automatically apply to 2005–09 transmission replacements."
+    },
+    {
+      "id": "rrtriage-fact-011",
+      "subject": "9-5 original 9600",
+      "category": "transmission",
+      "predicate": "440_2497_P_D_N_D_valve_housing",
+      "value": {
+        "symptom": "delayed/hard P-D/N-D engagement",
+        "years": [
+          2002,
+          2003
+        ],
+        "factory_candidate": "modified valve housing 5449780"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "440_2497_P_D_N_D_valve_housing",
+      "notes": "MY2002–03 bulletin remedy, not an official MY2007 valve housing supersession."
+    },
+    {
+      "id": "rrtriage-fact-012",
+      "subject": "9-5 original 9600",
+      "category": "transmission",
+      "predicate": "440_2497_2_3_hard_B4_servo",
+      "value": "MY2002–03 limited acceleration hard 2–3: inspect B4 brake servo cover washer first; clear and perform adaptation when appropriate.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "440_2497_2_3_hard_B4_servo",
+      "notes": "Diagnosis branch before condemning complete gearbox."
+    },
+    {
+      "id": "rrtriage-fact-013",
+      "subject": "9-5 original 9600",
+      "category": "transmission",
+      "predicate": "440_2497_3_2_delay_TCM",
+      "value": "MY2002–03 deceleration 3–2 delay/hesitation may call for TCM software review.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "440_2497_3_2_delay_TCM",
+      "notes": "Not DIY flash/approved 2026 SPS compatibility."
+    },
+    {
+      "id": "rrtriage-fact-014",
+      "subject": "9-5 original 9600",
+      "category": "transmission",
+      "predicate": "440_2497_slip_at_lockup",
+      "value": {
+        "checks": [
+          "ATF level and condition",
+          "oil cooler hoses unblocked",
+          "clear and see if DTC recurs"
+        ],
+        "replacement_criteria": "only following bulletin recurrence/further repair verification"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "440_2497_slip_at_lockup",
+      "notes": "Potential internal shifted bushing, so not always repairable."
+    },
+    {
+      "id": "rrtriage-fact-015",
+      "subject": "9-5 original 9600",
+      "category": "transmission",
+      "predicate": "440_2497_software_serial_pairing",
+      "value": {
+        "symptom": "hard braking downshift 3→2",
+        "check": "compare installed gearbox serial with software ID",
+        "then": "reset/adapt if original factory conditions permit"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "440_2497_software_serial_pairing",
+      "notes": "Factory TSB warns incompatible adaptation; cannot automatically authorize module programming."
+    },
+    {
+      "id": "rrtriage-fact-016",
+      "subject": "9-5 original 9600",
+      "category": "identity",
+      "predicate": "440_2497_2003_2004_gearbox_exception",
+      "value": "Saab notes some MY2003 vehicles have MY2004 gearbox installed; verify gearbox type against actual VIN.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2003
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "440_2497_2003_2004_gearbox_exception",
+      "notes": "An actual exception to year-only donor gearbox matching."
+    },
+    {
+      "id": "rrtriage-fact-017",
+      "subject": "9-5 original 9600",
+      "category": "transmission",
+      "predicate": "440_2497_electrical_temp_hard_D_R",
+      "value": {
+        "symptom": "hard drive/reverse engagement",
+        "first_check": "cold transmission temp reading vs ambient; wiring/connectors"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "440_2497_electrical_temp_hard_D_R",
+      "notes": "Symptom line lacks specific year; retain full 2002–04 bulletin scope."
+    },
+    {
+      "id": "rrtriage-fact-018",
+      "subject": "9-5 original 9600",
+      "category": "diagnostic",
+      "predicate": "440_2497_before_replacement_fields",
+      "value": [
+        "VIN",
+        "transmission stamping and TCM code",
+        "ATF temperature and condition",
+        "gear/vehicle speed at event",
+        "DTCs before/after",
+        "adaptations attempted"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "440_2497_before_replacement_fields",
+      "notes": "Original TSB checklist is not evidence that a non-running car passed tests."
+    },
+    {
+      "id": "rrtriage-fact-019",
+      "subject": "9-5 original 9600",
+      "category": "transmission",
+      "predicate": "2007_fa57_with_dipstick_80C",
+      "value": {
+        "TCM_fluid_C": 80,
+        "engine": "idling",
+        "selector": "P after D/R/P held 15 s",
+        "MIN_MAX_delta_L": 0.5
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "2007_fa57_with_dipstick_80C",
+      "notes": "Factory WITH dipstick variant; don't guess actual vehicle hardware based on model year."
+    },
+    {
+      "id": "rrtriage-fact-020",
+      "subject": "9-5 original 9600",
+      "category": "transmission",
+      "predicate": "2007_fa57_without_dipstick_80C",
+      "value": {
+        "TCM_fluid_C": 80,
+        "engine": "idling",
+        "tool": "DT-47653 gauge rod",
+        "MIN_MAX_delta_L": 0.5,
+        "access_plug_torque_Nm": 30
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "2007_fa57_without_dipstick_80C",
+      "notes": "Separate documented NO-dipstick access method, not compatible with casual visual level estimate."
+    },
+    {
+      "id": "rrtriage-fact-021",
+      "subject": "9-5 original 9600",
+      "category": "transmission",
+      "predicate": "2007_fa57_fluid_appearance_action",
+      "value": "Cloudy/discoloured or burnt smell ATF triggers fluid change advice even in absence of harsh shifts.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-007",
+        "rrtriage-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "2007_fa57_fluid_appearance_action",
+      "notes": "Fluid change alone cannot repair worn clutches, damaged cooler or contaminated gearbox."
+    },
+    {
+      "id": "rrtriage-fact-022",
+      "subject": "transmission",
+      "category": "transmission",
+      "predicate": "2005_fa57_full_capacity",
+      "value": 7,
+      "unit": "L",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "2005_fa57_full_capacity",
+      "notes": "Includes converter and cooler, not routine gravity-drain refill quantity."
+    },
+    {
+      "id": "rrtriage-fact-023",
+      "subject": "9-5 original 9600",
+      "category": "transmission",
+      "predicate": "2005_fa57_original_ATF",
+      "value": {
+        "name": "Saab 3309",
+        "historical_part": "87 92 731",
+        "base_description": "mineral oil based"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "2005_fa57_original_ATF",
+      "notes": "Historical original fluid requirement; no automatic equivalence to generic synthetic ATF."
+    },
+    {
+      "id": "rrtriage-fact-024",
+      "subject": "9-5 original 9600",
+      "category": "transmission",
+      "predicate": "2005_fa57_fluid_exchange_not_simple_change",
+      "value": {
+        "initial_fill_L": 4,
+        "factory_flushing_tool": "87 91 824",
+        "additional_drain_cycles_L": [
+          2,
+          1
+        ],
+        "final_check_C": 80
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "2005_fa57_fluid_exchange_not_simple_change",
+      "notes": "Factory procedure uses cooler-line exchange; do not perform blindly on a damaged or leaking unit."
+    },
+    {
+      "id": "rrtriage-fact-025",
+      "subject": "9-5 original 9600",
+      "category": "transmission",
+      "predicate": "2007_fa57_P0748_solenoid_circuit",
+      "value": {
+        "code": "P0748",
+        "observation": "pressure-control solenoid current outside electrical range",
+        "result": "CHECK GEARBOX and limp-home",
+        "tests": [
+          "Tech2 solenoid activation",
+          "harness/connector test"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "2007_fa57_P0748_solenoid_circuit",
+      "notes": "A code for a control circuit is not standalone evidence of mechanical gearbox destruction."
+    },
+    {
+      "id": "rrtriage-fact-026",
+      "subject": "9-5 original 9600",
+      "category": "transmission",
+      "predicate": "2007_fa57_P0722_output_signal",
+      "value": {
+        "code": "P0722",
+        "criteria": "calculated output >200 rpm but sensor lacks signal",
+        "result": "CHECK GEARBOX/limp-home",
+        "test": "Tech2 output RPM and wiring"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "2007_fa57_P0722_output_signal",
+      "notes": "May be sensor or electrical; not proof of slipping friction packs."
+    },
+    {
+      "id": "rrtriage-fact-027",
+      "subject": "9-5 original 9600",
+      "category": "transmission",
+      "predicate": "2006_fa57_P0730_wrong_ratio",
+      "value": {
+        "code": "P0730",
+        "condition": "expected 4th/5th ratio appears like 3rd",
+        "factory_help": "consider S3 solenoid"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "2006_fa57_P0730_wrong_ratio",
+      "notes": "Title says mechanical fault but factory diagnostic help identifies solenoid possibility."
+    },
+    {
+      "id": "rrtriage-fact-028",
+      "subject": "9-5 original 9600",
+      "category": "diagnostic",
+      "predicate": "2007_multisystem_diagnostic_method",
+      "value": [
+        "read DTCs across all systems",
+        "match symptom against codes",
+        "consider secondary codes",
+        "consult WIS TSB/correct module",
+        "test before replacing",
+        "verify after repair"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "2007_multisystem_diagnostic_method",
+      "notes": "Used to prevent misdiagnosing entire transmission solely on CHECK GEARBOX."
+    },
+    {
+      "id": "rrtriage-fact-029",
+      "subject": "9-5 original 9600",
+      "category": "cooling",
+      "predicate": "2008_cooling_temp_pressure_distinctions",
+      "value": {
+        "thermostat_open_C": 89,
+        "expansion_cap_kPa": [
+          140,
+          150
+        ],
+        "dash_red_C": 129
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-015"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "2008_cooling_temp_pressure_distinctions",
+      "notes": "These are distinct nominal control values, not temperature at which head gasket is conclusively destroyed."
+    },
+    {
+      "id": "rrtriage-fact-030",
+      "subject": "9-5 original 9600",
+      "category": "cooling",
+      "predicate": "2007_thermostat_ground_seal_procedure",
+      "value": {
+        "orientation": "TOP or vent uppermost",
+        "housing_torque_Nm": 22,
+        "adjacent_ground": "clean and protect"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-016"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "2007_thermostat_ground_seal_procedure",
+      "notes": "Physical coolant/ground fault can be cheaper than internal engine rebuild, but this passage does not diagnose a head gasket."
+    },
+    {
+      "id": "rrtriage-fact-031",
+      "subject": "9-5 original 9600",
+      "category": "transmission",
+      "predicate": "2007_replacement_fa57_contaminated_circuit_flush",
+      "value": "When replaced automatic ATF is contaminated, factory directs flushing equipment 87 91 824 attached before starting car.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "source_ids": [
+        "rrtriage-src-017"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "2007_replacement_fa57_contaminated_circuit_flush",
+      "notes": "Only applies after diagnosis justifies replacement, not routine recommendation to replace unit."
+    }
+  ],
+  "issues": [
+    {
+      "id": "rrtriage-issue-001",
+      "title": "Turbo rattle and underboost need wastegate linkage and pressure-side diagnosis",
+      "cause": "Factory may find loose actuator-rod clip, bypass diaphragm leakage or charge-air hose leak without internal turbo defect.",
+      "symptoms": [
+        "low boost",
+        "turbo-area rattle",
+        "possible P1105"
+      ],
+      "diagnosis_summary": "Check warm-exhaust safety; record T7 DTCs/actual pressure, visually inspect linkage, bypass diaphragm and correctly isolated charge-air plumbing with relevant year WIS.",
+      "correction_summary": "Repair confirmed linkage, hose or bypass valve first; reserve turbo replacement for independently demonstrated turbo failure.",
+      "source_ids": [
+        "rrtriage-src-001",
+        "rrtriage-src-002",
+        "rrtriage-src-003",
+        "rrtriage-src-004",
+        "rrtriage-src-005"
+      ],
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "evidence_status": "documented",
+      "limits": [
+        "WIS loose clip result only search excerpt.",
+        "2005 pressure leak test is not automatically valid in 2007.",
+        "No shaft/bearing acceptance test established."
+      ]
+    },
+    {
+      "id": "rrtriage-issue-002",
+      "title": "Early 9-5 automatic can have repairable shift-control faults",
+      "cause": "Factory TSB 440-2497 differentiates software/TCM, sensor, servo and modified valve body causes from internal failure.",
+      "symptoms": [
+        "2→3 shift flare",
+        "delayed P-D engagement",
+        "3→2 downshift fault",
+        "lock-up slipping"
+      ],
+      "diagnosis_summary": "Map exact MY2002–04 symptom to TSB row, vehicle VIN/gearbox serial and TCM software, fluid, DTC, electrical and adaptation evidence.",
+      "correction_summary": "Follow specific TSB first-stage correction; replace complete transmission only when factory escalation, damage or persistent failure warrants it.",
+      "source_ids": [
+        "rrtriage-src-006",
+        "rrtriage-src-014"
+      ],
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "evidence_status": "documented",
+      "limits": [
+        "Not a verified universal 2005–09 bulletin.",
+        "Part 5449780 is a MY2002–03 candidate, not global retrofit.",
+        "Actual internal wear might still demand overhaul."
+      ]
+    },
+    {
+      "id": "rrtriage-issue-003",
+      "title": "CHECK GEARBOX electronic codes do not alone condemn 9-5 automatic",
+      "cause": "Saab DTC documentation includes P0748 pressure-control electrical current and P0722 missing output speed, with transmission limp-home.",
+      "symptoms": [
+        "CHECK GEARBOX",
+        "limp home",
+        "harsh shift"
+      ],
+      "diagnosis_summary": "Check code criteria, all systems and harness, match installed ATF inspection method; distinguish sensor electrical failures from actual gear slipping.",
+      "correction_summary": "Address confirmed circuit/fluid faults and retest. Rebuild only if physical internal damage or persistent factory-diagnosed fault.",
+      "source_ids": [
+        "rrtriage-src-007",
+        "rrtriage-src-008",
+        "rrtriage-src-011",
+        "rrtriage-src-012",
+        "rrtriage-src-013",
+        "rrtriage-src-014"
+      ],
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "evidence_status": "documented",
+      "limits": [
+        "MY2006 P0730 has independent source-year and is not the same DTC.",
+        "No guarantee electrical repair cures internal damage.",
+        "Never disable safety interlocks for testing."
+      ]
+    },
+    {
+      "id": "rrtriage-issue-004",
+      "title": "Overheating: differentiate external cooling faults from proven engine damage",
+      "cause": "Factory specifies separate thermostat, coolant cap and gauge thresholds plus thermostat housing grounds and seals.",
+      "symptoms": [
+        "coolant loss",
+        "high temp gauge",
+        "unusual fan behavior"
+      ],
+      "diagnosis_summary": "Shut down an overheating engine. When cold, inspect leaks, coolant quality and thermometer/scan data; perform professional system pressure or combustion-gas test if supported.",
+      "correction_summary": "Replace only confirmed external faulty part; if head warp, oil contamination, low compression or persistent blow-by is verified, evaluate major engine repair.",
+      "source_ids": [
+        "rrtriage-src-015",
+        "rrtriage-src-016"
+      ],
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007,
+          2008
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "evidence_status": "documented",
+      "limits": [
+        "Factory nominal temperatures do not identify head-gasket failure.",
+        "No proven non-invasive test guarantees engine health.",
+        "Do not run an overheated engine for a diagnostic drive."
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "rrtriage-gap-001",
+      "title": "Turbo linkage clip OEM part and VIN range",
+      "missing_inputs": [
+        "Full factory P1105 link/clip fault page and manufacturer replacement part and car scope."
+      ],
+      "reason": "Current evidence cannot establish individual mechanical diagnosis, certified part fitment, repair cost or statistical reliability.",
+      "source_ids": [
+        "rrtriage-src-001"
+      ]
+    },
+    {
+      "id": "rrtriage-gap-002",
+      "title": "2006–09 controlled petrol charge-air leak test",
+      "missing_inputs": [
+        "Year-independently confirmed pressure test; 2005 specified approx 1 bar must not be indiscriminately applied."
+      ],
+      "reason": "Current evidence cannot establish individual mechanical diagnosis, certified part fitment, repair cost or statistical reliability.",
+      "source_ids": [
+        "rrtriage-src-004"
+      ]
+    },
+    {
+      "id": "rrtriage-gap-003",
+      "title": "Turbocharger mechanical damage acceptance tests",
+      "missing_inputs": [
+        "Factory oil feed, shaft axial/radial play, seals and compressor contact acceptable limits per exact turbo and MY."
+      ],
+      "reason": "Current evidence cannot establish individual mechanical diagnosis, certified part fitment, repair cost or statistical reliability.",
+      "source_ids": [
+        "rrtriage-src-002",
+        "rrtriage-src-003"
+      ]
+    },
+    {
+      "id": "rrtriage-gap-004",
+      "title": "Later 9-5 FA57 shifting bulletins/TCM calibration",
+      "missing_inputs": [
+        "Cannot treat 2002–04 440-2497 as a 2007 automatic warranty remedy."
+      ],
+      "reason": "Current evidence cannot establish individual mechanical diagnosis, certified part fitment, repair cost or statistical reliability.",
+      "source_ids": [
+        "rrtriage-src-006"
+      ]
+    },
+    {
+      "id": "rrtriage-gap-005",
+      "title": "ATF fluid approved modern substitute",
+      "missing_inputs": [
+        "Current manufacturer or fluid certification of any replacement for original Saab 3309."
+      ],
+      "reason": "Current evidence cannot establish individual mechanical diagnosis, certified part fitment, repair cost or statistical reliability.",
+      "source_ids": [
+        "rrtriage-src-009"
+      ]
+    },
+    {
+      "id": "rrtriage-gap-006",
+      "title": "2007 dipstick and no-dipstick production cutover",
+      "missing_inputs": [
+        "Factory serial/VIN correlation to both 2007 ATF level procedure variants."
+      ],
+      "reason": "Current evidence cannot establish individual mechanical diagnosis, certified part fitment, repair cost or statistical reliability.",
+      "source_ids": [
+        "rrtriage-src-007",
+        "rrtriage-src-008"
+      ]
+    },
+    {
+      "id": "rrtriage-gap-007",
+      "title": "Cost and likelihood of valve-body repair vs complete gearbox",
+      "missing_inputs": [
+        "Real part price, labor hours, contaminated fluid, gearbox condition and defensible failure data."
+      ],
+      "reason": "Current evidence cannot establish individual mechanical diagnosis, certified part fitment, repair cost or statistical reliability.",
+      "source_ids": [
+        "rrtriage-src-006",
+        "rrtriage-src-010"
+      ]
+    },
+    {
+      "id": "rrtriage-gap-008",
+      "title": "Overheated B235 internal condition evaluation",
+      "missing_inputs": [
+        "Factory appropriate compression, leak down, head warp, coolant/ATF and oil-bearing checks; outside leak fixes not proof of no engine damage."
+      ],
+      "reason": "Current evidence cannot establish individual mechanical diagnosis, certified part fitment, repair cost or statistical reliability.",
+      "source_ids": [
+        "rrtriage-src-015",
+        "rrtriage-src-016"
+      ]
+    },
+    {
+      "id": "rrtriage-gap-009",
+      "title": "Actual non-running Saab purchase screen",
+      "missing_inputs": [
+        "Individual VIN, stampings, ATF, coolant/oil condition and operational hot checks; no invented probabilities."
+      ],
+      "reason": "Current evidence cannot establish individual mechanical diagnosis, certified part fitment, repair cost or statistical reliability.",
+      "source_ids": [
+        "rrtriage-src-005",
+        "rrtriage-src-006",
+        "rrtriage-src-014"
+      ]
+    }
+  ]
+}
