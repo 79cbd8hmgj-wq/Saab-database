@@ -1,6 +1,6 @@
-# Phase 0 research coverage audit — 31-domain refresh
+# Phase 0 research coverage audit — 33-domain refresh
 
-**Audit basis:** October 13, 2026, 31 research datasets. This release adds original Saab Automobile USA MY2004–07 VIN documents and manufacturer-channel conditional service-kit provenance; earlier Phase 0 audit baselines remain in merged pull-request history. This is a census of saved records, **not** an independent recertification of every original Saab source, an estimate of percent complete, or an engineering safety certification. The earlier seven-domain baseline is superseded.
+**Audit basis:** October 13, 2026, 33 research datasets. This release adds original Saab Automobile USA MY2004–07 VIN documents and manufacturer-channel conditional service-kit provenance; earlier Phase 0 audit baselines remain in merged pull-request history. This is a census of saved records, **not** an independent recertification of every original Saab source, an estimate of percent complete, or an engineering safety certification. The earlier seven-domain baseline is superseded.
 
 **Living guardrail:** `tools/phase0_audit.py` recalculates all numeric tables from `data/datasets/*.json`. Its checked-in companion `data/phase0-coverage-snapshot.json` is verified by unit tests and `python3 tools/phase0_audit.py --check`. A new research PR must refresh these numbers when datasets change; otherwise CI should fail.
 
@@ -9,13 +9,13 @@
 
 | Measure | Current records |
 | --- | ---: |
-| Research domains | 32 |
-| Source records | 497 |
-| Unique source URLs | 438 |
-| Technical facts | 986 |
-| Diagnostic/correction issues | 76 |
+| Research domains | 33 |
+| Source records | 504 |
+| Unique source URLs | 445 |
+| Technical facts | 1003 |
+| Diagnostic/correction issues | 78 |
 | Part records | 76 |
-| Explicit open research gaps | 242 |
+| Explicit open research gaps | 246 |
 
 A repeated URL is not independent corroboration. These are stored record counts,
 **not** estimates of system completeness, part fitment confidence, failure rates,
@@ -25,16 +25,16 @@ or the probability that an individual vehicle is repairable.
 
 | Source retrieval | Records |
 | --- | ---: |
-| `full_text` | 468 |
+| `full_text` | 475 |
 | `partial` | 3 |
 | `search_excerpt` | 18 |
 | `metadata_only` | 8 |
 
 | Technical evidence | Facts + issues + parts |
 | --- | ---: |
-| `documented` | 1054 |
+| `documented` | 1072 |
 | `supplier_claim` | 78 |
-| `inference` | 6 |
+| `inference` | 7 |
 
 ### Explicit application dimensions
 
@@ -44,13 +44,13 @@ is counted from individual groups, not from a misleading top-level union.
 
 | Scope field explicitly present | Records out of facts + issues + parts |
 | --- | ---: |
-| `platforms` | 1086 / 1138 |
-| `model_years` | 995 / 1138 |
-| `markets` | 173 / 1138 |
-| `engine_codes` | 337 / 1138 |
-| `transmission_codes` | 161 / 1138 |
-| `body_styles` | 80 / 1138 |
-| `vin_ranges` | 24 / 1138 |
+| `platforms` | 1099 / 1157 |
+| `model_years` | 1008 / 1157 |
+| `markets` | 190 / 1157 |
+| `engine_codes` | 338 / 1157 |
+| `transmission_codes` | 162 / 1157 |
+| `body_styles` | 80 / 1157 |
+| `vin_ranges` | 24 / 1157 |
 
 ### Technical record coverage by original Saab model year
 
@@ -72,7 +72,7 @@ model-year row. Year-path names do not prove a given production revision.
 | 2005 | 156 | 10 | 21 |
 | 2006 | 144 | 13 | 20 |
 | 2007 | 125 | 15 | 19 |
-| 2008 | 160 | 21 | 19 |
+| 2008 | 171 | 22 | 19 |
 | 2009 | 119 | 13 | 19 |
 
 #### Second-generation 9-3, platform 9440
@@ -82,7 +82,7 @@ model-year row. Year-path names do not prove a given production revision.
 | 2003 | 20 | 15 | 18 |
 | 2004 | 32 | 16 | 21 |
 | 2005 | 62 | 13 | 18 |
-| 2006 | 94 | 14 | 23 |
+| 2006 | 95 | 14 | 23 |
 | 2007 | 19 | 9 | 22 |
 | 2008 | 21 | 9 | 23 |
 | 2009 | 14 | 9 | 23 |
@@ -132,6 +132,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 | `priority_brake_hydraulic_safety` | 19 | 25 | 4 | 0 | 8 |
 | `priority_nonrunning_purchase_screen` | 13 | 20 | 4 | 0 | 8 |
 | `priority_structural_corrosion_inspection` | 14 | 21 | 3 | 0 | 8 |
+| `priority_usca_service_recall_baseline_wp7` | 7 | 17 | 2 | 0 | 4 |
 | `priority_vehicle_identity_gates` | 13 | 15 | 2 | 0 | 6 |
 | `repair_vs_replace_troubleshooting` | 17 | 31 | 4 | 0 | 9 |
 | `replacements` | 8 | 10 | 0 | 5 | 3 |
@@ -218,3 +219,8 @@ python3 tools/phase0_audit.py --format markdown
 ```
 
 The snapshot is derived only from the saved files and cannot confirm individual source validity or a real Saab's condition. The human qualitative matrix requires explicit review when new domains or configurations are added.
+
+
+## Work package 7 partial baseline (2026-10-13)
+
+[Original US/Canada 2008 9-5 maintenance and historical recall lookup](research/priority-usca-service-recall-baseline-wp7.md) adds manufacturer-market scheduled inspections and explicit 15-year NHTSA VIN recall display limitations. This is not proof that individual vehicle recalls or servicing were completed. Gate A remains partial; B/C not met. The 2005–06 B207 US/CA service mileage remains unresolved.

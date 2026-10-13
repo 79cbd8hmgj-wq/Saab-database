@@ -1,0 +1,625 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "priority_usca_service_recall_baseline_wp7",
+  "sources": [
+    {
+      "id": "wp7-src-001",
+      "title": "NHTSA official VIN safety-recall lookup and limitations",
+      "url": "https://www.nhtsa.gov/recalls",
+      "source_type": "regulator_record",
+      "publisher": "United States National Highway Traffic Safety Administration",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "US government service: VIN results show open recalls subject to manufacturer participation, excludes recalls over 15 years, completed recall repairs, non-safety campaigns and certain unassigned VIN recalls."
+    },
+    {
+      "id": "wp7-src-002",
+      "title": "NHTSA defects and recalls explanatory resource",
+      "url": "https://www.nhtsa.gov/resources-investigations-recalls",
+      "source_type": "regulator_record",
+      "publisher": "United States National Highway Traffic Safety Administration",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Official FAQ confirms historic recalls never expire; online VIN results are not complete lifetime vehicle service history."
+    },
+    {
+      "id": "wp7-src-003",
+      "title": "MY2008 original 9-5 Saab Service US/CA schedule index",
+      "url": "https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "2008 US/Canada directory explicitly lists 10k-100k and higher milestone service documents and annual service."
+    },
+    {
+      "id": "wp7-src-004",
+      "title": "MY2008 original 9-5 Saab Service US/CA 10,000-mile checklist",
+      "url": "https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/10-000-miles-us-ca",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Factory 10,000 miles USA/Canada checklist includes oil/filter and safety inspections, not evidence an actual car received that work."
+    },
+    {
+      "id": "wp7-src-005",
+      "title": "MY2008 original 9-5 Saab Service US/CA annual service checklist",
+      "url": "https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/annual-service",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Original US/Canada annual schedule gives 4-year brake fluid, 70,000 miles/5-year ATF, 40,000 miles/4-year plugs and air filter among applicable additional items."
+    },
+    {
+      "id": "wp7-src-006",
+      "title": "MY2008 Saab 9-5 petrol SID service-message activation and reset",
+      "url": "https://saabwisonline.com/9-5-9600/2008/3-electrical-system/saab-information-display-sid/service/service-message-petrol-driven-cars",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Service indication depends on elapsed time/distance, may be manually/diagnostically reset and factory states auto-reset after 60 display cycles; does not substantiate completed maintenance."
+    },
+    {
+      "id": "wp7-src-007",
+      "title": "MY2006 second-generation Saab 9-3 service programmes and oil-life distinctions",
+      "url": "https://saabwisonline.com/9-3-9440/2006/1-service/saab-service-ww/technical-description/service-programme",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (original WIS mirrored by SaabWISOnline)",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Intermediate vs main services and dependence on market/engine; suspicious WW/US-CA numbers not adopted as a North American B207 mileage schedule."
+    }
+  ],
+  "facts": [
+    {
+      "id": "wp7-fact-001",
+      "subject": "service:nhtsa-vin-recalls",
+      "category": "recall",
+      "predicate": "vin_lookup_shows_unrepaired_recalls_subject_to_coverage",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "What the VIN search will show",
+      "notes": "An unrepaired-recall result is not a complete list of historic actions on this particular Saab."
+    },
+    {
+      "id": "wp7-fact-002",
+      "subject": "service:nhtsa-vin-recalls",
+      "category": "recall",
+      "predicate": "vin_lookup_excludes_more_than_15_year_old_recalls",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "What won't the VIN search show?",
+      "notes": "Except where manufacturer offers more coverage. Most US MY2004–09 Saabs are outside this generic lookback by 2026."
+    },
+    {
+      "id": "wp7-fact-003",
+      "subject": "service:nhtsa-vin-recalls",
+      "category": "recall",
+      "predicate": "vin_lookup_excludes_completed_recall_repairs",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "What won't the VIN search show?",
+      "notes": "No result does not establish no past recall, no outstanding manufacturer campaign, or healthy vehicle."
+    },
+    {
+      "id": "wp7-fact-004",
+      "subject": "service:nhtsa-vin-recalls",
+      "category": "recall",
+      "predicate": "vin_lookup_does_not_show_non_safety_service_campaigns",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "What won't the VIN search show?",
+      "notes": "Historical service campaign/special coverage work must be verified separately."
+    },
+    {
+      "id": "wp7-fact-005",
+      "subject": "service:nhtsa-vin-recalls",
+      "category": "recall",
+      "predicate": "safety_recalls_do_not_expire",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "FAQ: Do recalls expire?",
+      "notes": "General rule is perpetual status; availability, manufacturer service route, covered VIN and prior remediation require verification."
+    },
+    {
+      "id": "wp7-fact-006",
+      "subject": "service:og95-usca-2008",
+      "category": "maintenance",
+      "predicate": "factory_schedule_has_mileage_specific_and_annual_checklists",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "US/CA service directory 10k–140k and annual",
+      "notes": "This is the original US/CA service programme directory, not an automatic current service quote."
+    },
+    {
+      "id": "wp7-fact-007",
+      "subject": "service:og95-usca-2008",
+      "category": "maintenance",
+      "predicate": "oil_and_filter_at_10000_mile_check",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "10 000 miles US/CA > item 8",
+      "notes": "Original checklist calls for oil and filter change at this service; age and unknown prior oil history still require individual diagnosis."
+    },
+    {
+      "id": "wp7-fact-008",
+      "subject": "service:og95-usca-2008",
+      "category": "maintenance",
+      "predicate": "annual_oil_and_filter_change",
+      "value": true,
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Annual service > item 9",
+      "notes": "Original petrol annual checklist includes oil/filter, but does not imply a neglected stored car should be started without inspection."
+    },
+    {
+      "id": "wp7-fact-009",
+      "subject": "service:og95-usca-2008",
+      "category": "maintenance",
+      "predicate": "annual_hydraulic_fuel_exhaust_inspection",
+      "value": [
+        "brake pipes and hoses",
+        "fuel lines and tank",
+        "fuel system engine bay",
+        "exhaust mounts/leaks",
+        "suspension joints/bushes",
+        "seatbelts/airbag system"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Annual service > items 8,12–17,22,26–27",
+      "notes": "Annual inspection items matter especially for a rusted nonrunning SportCombi; no actual inspection result recorded."
+    },
+    {
+      "id": "wp7-fact-010",
+      "subject": "service:og95-usca-2008",
+      "category": "maintenance",
+      "predicate": "brake_fluid_change_interval",
+      "value": 4,
+      "unit": "year",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Annual service > Additional work: brake fluid",
+      "notes": "Original specified interval; actual fluid test/replacement and exact system bleed must follow correct instructions."
+    },
+    {
+      "id": "wp7-fact-011",
+      "subject": "service:og95-usca-2008",
+      "category": "maintenance",
+      "predicate": "cabin_filter_change_interval",
+      "value": {
+        "distance": 10000,
+        "years": 2
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Annual service > Additional work: cabin filter",
+      "notes": "Original source uses 20,000 km / 10,000 miles / 2 years; retain these printed values without recomputing them."
+    },
+    {
+      "id": "wp7-fact-012",
+      "subject": "service:og95-usca-2008",
+      "category": "maintenance",
+      "predicate": "spark_plug_change_interval",
+      "value": {
+        "distance_miles": 40000,
+        "years": 4
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Annual service > Additional work: petrol spark plugs",
+      "notes": "Only petrol engine, not blanket application to BioPower or other spark plug revisions; correct plugs require engine/VIN."
+    },
+    {
+      "id": "wp7-fact-013",
+      "subject": "service:og95-usca-2008",
+      "category": "maintenance",
+      "predicate": "engine_air_filter_change_interval",
+      "value": {
+        "distance_miles": 40000,
+        "years": 4
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Annual service > Additional work: air cleaner",
+      "notes": "Date and distance under original service policy; inspect neglected/damaged filter housing."
+    },
+    {
+      "id": "wp7-fact-014",
+      "subject": "service:og95-usca-2008",
+      "category": "maintenance",
+      "predicate": "automatic_transmission_fluid_change_interval",
+      "value": {
+        "distance_miles": 70000,
+        "years": 5
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ],
+        "transmission_codes": [
+          "automatic"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Annual service > Additional work: ATF",
+      "notes": "A schedule item is not verification of FA57 identity or an authorization to use generic ATF, wrong-fill, pressure flushing or service on an unsafe car."
+    },
+    {
+      "id": "wp7-fact-015",
+      "subject": "service:og95-usca-2008",
+      "category": "maintenance",
+      "predicate": "auxiliary_drive_belt_replace_mileage",
+      "value": 140000,
+      "unit": "miles",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "Annual service > Additional work: drive belt",
+      "notes": "Factory source also gives 240,000 km; this figure alone does not establish safe present-day belt condition on an aged car."
+    },
+    {
+      "id": "wp7-fact-016",
+      "subject": "service:og95-2008-sid",
+      "category": "maintenance",
+      "predicate": "service_message_can_auto_reset_after_display_count",
+      "value": 60,
+      "unit": "occurrences",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "source_ids": [
+        "wp7-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "Service message > Automatic reset",
+      "notes": "A lack of service warning cannot certify any fluid, timing, brake or fuel-line service was done."
+    },
+    {
+      "id": "wp7-fact-017",
+      "subject": "service:ng93-usca-2006",
+      "category": "maintenance",
+      "predicate": "intermediate_vs_main_service_types",
+      "value": {
+        "intermediate": "oil/distance/time/life dependent",
+        "main": "distance-driven; no oil change unless coupled with intermediate"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-007"
+      ],
+      "evidence_status": "documented",
+      "locator": "Service programme > Intermediate and Main service",
+      "notes": "General programme theory; specific US/CA B207 mileage values are not claimed from WW table because of inconsistency."
+    }
+  ],
+  "issues": [
+    {
+      "id": "wp7-issue-001",
+      "title": "A 0-unrepaired-recalls VIN lookup can miss historic Saab recalls and completed work",
+      "applicability": {
+        "markets": [
+          "US"
+        ]
+      },
+      "cause": "NHTSA's VIN lookup typically excludes safety recalls over 15 years old, completed campaigns and non-safety coverage.",
+      "symptoms": [
+        "NHTSA shows 0 unrepaired recalls on an older used Saab",
+        "Seller cannot provide recall service records"
+      ],
+      "diagnosis_summary": "Verify historical year/model recall campaigns separately, secure manufacturer/authorized service VIN completion information if available, and document actual parts/repairs.",
+      "correction_summary": "Never mark a vehicle recall-clear from a negative public VIN lookup alone; keep unknown until individually verified.",
+      "source_ids": [
+        "wp7-src-001",
+        "wp7-src-002"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "No specific VIN searched",
+        "No actual campaign result or guarantee of ongoing parts availability"
+      ]
+    },
+    {
+      "id": "wp7-issue-002",
+      "title": "SID service-reset status cannot establish actual maintenance history",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ]
+      },
+      "cause": "Factory SID can be reset without performing service, and the displayed message can reset automatically after repeated presentation.",
+      "symptoms": [
+        "SID lacks time-for-service warning",
+        "No invoices for ATF, brake fluid, plugs or belt"
+      ],
+      "diagnosis_summary": "Review maintenance documents, fluid identification and actual inspection; compare source-scoped US/CA service schedule to elapsed time and mileage.",
+      "correction_summary": "Treat unknown overdue maintenance as inspection/service work for the purchase budget, without assuming engine or transmission is healthy.",
+      "source_ids": [
+        "wp7-src-005",
+        "wp7-src-006"
+      ],
+      "evidence_status": "inference",
+      "limits": [
+        "Vehicle could have received undocumented work",
+        "Do not run a damaged nonrunning car to force SID reading"
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "wp7-gap-001",
+      "title": "MY2004-09 9-5 recall and manufacturer completion by real candidate VIN",
+      "missing_inputs": [
+        "Real VIN and North American build",
+        "historical NHTSA recall campaign search by model/year",
+        "authorized Saab/GM or manufacturer-support completion lookup",
+        "local availability of remedies"
+      ],
+      "reason": "The public 15-year VIN lookup cannot close historical Saab campaign completeness.",
+      "source_ids": [
+        "wp7-src-001",
+        "wp7-src-002"
+      ]
+    },
+    {
+      "id": "wp7-gap-002",
+      "title": "MY2008 9-5 exact service status and prior maintenance of advertised wagon",
+      "missing_inputs": [
+        "Actual odometer and age",
+        "dated invoices for oil, ATF, brake fluid, plugs, filters, belt",
+        "fuel/brake/structural inspection",
+        "transmission and engine verification"
+      ],
+      "reason": "Saab schedule and SID indicator do not establish work performed on a particular parked car.",
+      "source_ids": [
+        "wp7-src-004",
+        "wp7-src-005",
+        "wp7-src-006"
+      ]
+    },
+    {
+      "id": "wp7-gap-003",
+      "title": "US/Canada 2005-06 B207 9-3 service interval verification",
+      "missing_inputs": [
+        "Original year-and-market B207 service booklet",
+        "engine and transmission scoped milestone pages",
+        "Canadian supplement if materially different"
+      ],
+      "reason": "The generic MY2006 9-3 WW service programme contains inconsistent US/CA interval figures; do not transpose into actual B207 schedule.",
+      "source_ids": [
+        "wp7-src-007"
+      ]
+    },
+    {
+      "id": "wp7-gap-004",
+      "title": "Other priority 9-5 service-year and engine/gearbox variants",
+      "missing_inputs": [
+        "Original US/CA MY2004-07 and MY2009 schedules",
+        "severe-duty supplement and proper oil/ATF specs",
+        "BioPower vs petrol vs diesel exceptions"
+      ],
+      "reason": "A MY2008 US/CA petrol schedule is not universal across 2004–09, Europe, or all installed engines.",
+      "source_ids": [
+        "wp7-src-003",
+        "wp7-src-005"
+      ]
+    }
+  ]
+}
