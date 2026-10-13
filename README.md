@@ -19,6 +19,8 @@ engines, and platforms.
   documents and what still needs measurements or engineering data.
 - [Research reports](docs/research/): detailed notes from the individual research
   domains, including contradictions and gaps.
+- [Early 9-3 mount and petrol fuel research](docs/research/ng93-early-mount-fuel.md):
+  2003–2005 factory revisions, convertible chassis suffix boundaries, and fuel-line safety.
 - [Subframe and brake-line parts research](docs/research/subframe-parts-brake-lines.md):
   documented OEM assembly candidates, installation limits, and hydraulic safety.
 - [9-3 structural research](docs/research/ng93-structure.md): corrosion-protection scope,
@@ -29,8 +31,8 @@ engines, and platforms.
   North American specifications, WIS conflicts and source limits.
 - [Datasets](data/datasets/): structured JSON with source IDs and original links.
 
-As of October 12, 2026 the database contains **185 source records, 356 factual
-records, 20 issue records, 48 part records, and 79 explicit gaps** across eleven
+As of October 12, 2026 the database contains **200 source records, 376 factual
+records, 20 issue records, 53 part records, and 86 explicit gaps** across twelve
 research domains. This is not a completeness score.
 See [the source index](docs/source-index.md) and [machine-readable inventory](data/inventory.json).
 
