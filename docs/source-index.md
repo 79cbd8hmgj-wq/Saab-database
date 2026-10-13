@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 542 source records with 478 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 547 source records with 482 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -753,6 +753,18 @@ Dataset: [priority_structural_corrosion_inspection](../data/datasets/priority-st
 | `rustgate-src-012` | [New York DMV passenger vehicle safety, chassis, brake and fuel leak inspection standards](https://dmv.ny.gov/new-york-state-vehicle-safetyemissions-inspection-program) | New York State Department of Motor Vehicles | `full_text` |
 | `rustgate-src-013` | [MY2006 OG 9-5 front subframe petrol engine assembly and body-mount dependencies](https://saabwisonline.com/9-5-9600/2006/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-petrol-engines) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
 | `rustgate-src-014` | [MY2006 NG 9-3 convertible centre sill repair and corrosion protection](https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/centre-sill-cv) | Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline | `full_text` |
+
+## og95_shared_electrics_countercheck
+
+Dataset: [og95_shared_electrics_countercheck](../data/datasets/og95-shared-electrics-countercheck.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `ogex-src-001` | [AS-PL S0034 starter manufacturer product record](https://as-pl.com/en/p/S0034) | AS-PL | `full_text` |
+| `ogex-src-002` | [AS-PL S0034 Saab B235R and Opel/Vauxhall application table](https://as-pl.com/en/tpu/S0034) | AS-PL | `full_text` |
+| `ogex-src-003` | [AS-PL A0219 120A alternator product record](https://as-pl.com/en/p/A0219) | AS-PL | `full_text` |
+| `ogex-src-004` | [AS-PL A0219 applications for 9-5 B235R through 2009](https://as-pl.com/sr/tpu/A0219/2) | AS-PL | `full_text` |
+| `ogex-src-005` | [AS-PL A0319 distinct original 9-5 alternator product and specifications](https://as-pl.com/en/p/A0319) | AS-PL | `full_text` |
 
 ## priority_brake_hydraulic_safety
 
