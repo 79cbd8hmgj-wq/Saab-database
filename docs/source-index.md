@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 469 source records with 420 distinct
+Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 482 source records with 428 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -677,3 +677,23 @@ Dataset: [priority_brake_hydraulic_safety](../data/datasets/priority-brake-hydra
 | `hydbrake-src-017` | [MY2006 NG9-3 front pad level 1/2/4 and directional inner insert](https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/brake-pads-front-levels-1-2-and-4) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
 | `hydbrake-src-018` | [MY2008 OG9-5 brake hardline corrosion, leak and no post-install bending](https://saabwisonline.com/9-5-9600/2008/5-brakes/footbrake-system/adjustment-replacement/brake-lines) | Saab Automobile AB original workshop information via SaabWISOnline | `full_text` |
 | `hydbrake-src-019` | [MY2006 NG9-3 specialist pad service front level 3](https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/brake-pads-front-level-3) | Saab Automobile AB original workshop information via SaabWISOnline | `search_excerpt` |
+
+## priority_nonrunning_purchase_screen
+
+Dataset: [priority_nonrunning_purchase_screen](../data/datasets/priority-nonrunning-purchase-screen.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `nrscreen-src-001` | [Saab bulletin 248-2506 November 2004 supplemental catalyst Tech 2 diagnosis non-US/Canada](https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/bulletins-si-mi/248-2506-supplementary-fault-diagnosis-catalytic-converter-t7-and-t8) | Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline) | `full_text` |
+| `nrscreen-src-002` | [Original 9-5 MY2007 B235E/R front exhaust with catalytic converters procedure](https://saabwisonline.com/9-5-9600/2007/2-engine/exhaust-system/adjustment-replacement/front-exhaust-system-with-catalytic-converters-b235e-r) | Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline) | `full_text` |
+| `nrscreen-src-003` | [Original 9-5 MY2007 four-cylinder intake turbo exhaust system diagram](https://saabwisonline.com/9-5-9600/2007/2-engine/intake-system/technical-description/system-diagram-intake-turbo-exhaust-4-cyl) | Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline) | `full_text` |
+| `nrscreen-src-004` | [Original 9-5 MY2006 Trionic T7 ignition discharge module power and misfire function](https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/ignition-discharge-module) | Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline) | `full_text` |
+| `nrscreen-src-005` | [Original 9-5 MY2007 T7 air-leak and fuel-delivery differential diagnosis](https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/adjustment-replacement/leak-check-fuel-pressure-flow-capacity-and-adaptation-procedures) | Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline) | `full_text` |
+| `nrscreen-src-006` | [Original 9-5 MY2009 petrol four-cylinder oil lubrication pressure acceptance](https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system) | Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline) | `full_text` |
+| `nrscreen-src-007` | [Second-generation 9-3 MY2006 B207 petrol general compression limits](https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/technical-data/general-data) | Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline) | `full_text` |
+| `nrscreen-src-008` | [Second-generation 9-3 MY2006 petrol engine compression test steps](https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/engine-compression-test) | Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline) | `full_text` |
+| `nrscreen-src-009` | [Original 9-5 MY2005 Trionic T7 P0420 catalyst efficiency DTC](https://saabwisonline.com/9-5-9600/2005/2-engine/trionic-t7-4-cyl/fault-diagnosis-diagnostic-trouble-codes/p0420) | Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline) | `search_excerpt` |
+| `nrscreen-src-010` | [Original 9-5 MY2007 Trionic T7 P1301 catalyst damaging misfire](https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/fault-diagnosis-diagnostic-trouble-codes/p1301) | Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline) | `search_excerpt` |
+| `nrscreen-src-011` | [Original 9-5 MY2007 enhanced ignition discharge module diagnosis](https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/fault-diagnosis-general/enhanced-ignition-discharge-module-for-trionic-7) | Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline) | `full_text` |
+| `nrscreen-src-012` | [Original 9-5 MY2007 B235 petrol T7 turbo and control module replacement checklist](https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/fault-diagnosis-general/checklist-for-changing-turbocharger-and-engine-control-module) | Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline) | `full_text` |
+| `nrscreen-src-013` | [Original 9-5 MY2006 petrol four-cylinder original exhaust architecture](https://saabwisonline.com/9-5-9600/2006/2-engine/exhaust-system/technical-description/system-overview-4-cyl) | Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline) | `search_excerpt` |

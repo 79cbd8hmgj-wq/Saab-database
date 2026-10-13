@@ -1,0 +1,1036 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "priority_nonrunning_purchase_screen",
+  "sources": [
+    {
+      "id": "nrscreen-src-001",
+      "title": "Saab bulletin 248-2506 November 2004 supplemental catalyst Tech 2 diagnosis non-US/Canada",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/trionic-t7-4-cyl/bulletins-si-mi/248-2506-supplementary-fault-diagnosis-catalytic-converter-t7-and-t8",
+      "source_type": "factory_bulletin",
+      "publisher": "Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Dated November 2004 and explicitly Market: ej US/CA (= not US/CA). Source mistakenly prints 9-5 (9660), while archive is 9-5 (9600); do not silently expand to US/CA or infer year from /2008/ directory."
+    },
+    {
+      "id": "nrscreen-src-002",
+      "title": "Original 9-5 MY2007 B235E/R front exhaust with catalytic converters procedure",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/exhaust-system/adjustment-replacement/front-exhaust-system-with-catalytic-converters-b235e-r",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Engine, model-year and device scope is limited to original page; no real car inspection or present-day retrofit approval."
+    },
+    {
+      "id": "nrscreen-src-003",
+      "title": "Original 9-5 MY2007 four-cylinder intake turbo exhaust system diagram",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/intake-system/technical-description/system-diagram-intake-turbo-exhaust-4-cyl",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Engine, model-year and device scope is limited to original page; no real car inspection or present-day retrofit approval."
+    },
+    {
+      "id": "nrscreen-src-004",
+      "title": "Original 9-5 MY2006 Trionic T7 ignition discharge module power and misfire function",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/ignition-discharge-module",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Engine, model-year and device scope is limited to original page; no real car inspection or present-day retrofit approval."
+    },
+    {
+      "id": "nrscreen-src-005",
+      "title": "Original 9-5 MY2007 T7 air-leak and fuel-delivery differential diagnosis",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/adjustment-replacement/leak-check-fuel-pressure-flow-capacity-and-adaptation-procedures",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Engine, model-year and device scope is limited to original page; no real car inspection or present-day retrofit approval."
+    },
+    {
+      "id": "nrscreen-src-006",
+      "title": "Original 9-5 MY2009 petrol four-cylinder oil lubrication pressure acceptance",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/basic-engine-4-cylinder-petrol/technical-data/lubricating-system",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Engine, model-year and device scope is limited to original page; no real car inspection or present-day retrofit approval."
+    },
+    {
+      "id": "nrscreen-src-007",
+      "title": "Second-generation 9-3 MY2006 B207 petrol general compression limits",
+      "url": "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/technical-data/general-data",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Engine, model-year and device scope is limited to original page; no real car inspection or present-day retrofit approval."
+    },
+    {
+      "id": "nrscreen-src-008",
+      "title": "Second-generation 9-3 MY2006 petrol engine compression test steps",
+      "url": "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/engine-compression-test",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Engine, model-year and device scope is limited to original page; no real car inspection or present-day retrofit approval."
+    },
+    {
+      "id": "nrscreen-src-009",
+      "title": "Original 9-5 MY2005 Trionic T7 P0420 catalyst efficiency DTC",
+      "url": "https://saabwisonline.com/9-5-9600/2005/2-engine/trionic-t7-4-cyl/fault-diagnosis-diagnostic-trouble-codes/p0420",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "search_excerpt",
+      "notes": "Search result/excerpt only: full page text not reliably retrievable, so precise additional DTC enable criteria are unverified."
+    },
+    {
+      "id": "nrscreen-src-010",
+      "title": "Original 9-5 MY2007 Trionic T7 P1301 catalyst damaging misfire",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/fault-diagnosis-diagnostic-trouble-codes/p1301",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "search_excerpt",
+      "notes": "Search result/excerpt only: full page text not reliably retrievable, so precise additional DTC enable criteria are unverified."
+    },
+    {
+      "id": "nrscreen-src-011",
+      "title": "Original 9-5 MY2007 enhanced ignition discharge module diagnosis",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/fault-diagnosis-general/enhanced-ignition-discharge-module-for-trionic-7",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Engine, model-year and device scope is limited to original page; no real car inspection or present-day retrofit approval."
+    },
+    {
+      "id": "nrscreen-src-012",
+      "title": "Original 9-5 MY2007 B235 petrol T7 turbo and control module replacement checklist",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/trionic-t7-4-cyl/fault-diagnosis-general/checklist-for-changing-turbocharger-and-engine-control-module",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Engine, model-year and device scope is limited to original page; no real car inspection or present-day retrofit approval."
+    },
+    {
+      "id": "nrscreen-src-013",
+      "title": "Original 9-5 MY2006 petrol four-cylinder original exhaust architecture",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/exhaust-system/technical-description/system-overview-4-cyl",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB (factory-authored WIS documentation mirrored by SaabWISOnline)",
+      "accessed_at": "2026-10-13",
+      "retrieval": "search_excerpt",
+      "notes": "Search result/excerpt only: full page text not reliably retrievable, so precise additional DTC enable criteria are unverified."
+    }
+  ],
+  "facts": [
+    {
+      "id": "nrscreen-fact-001",
+      "subject": "OG9-5 Trionic T7 non-US/CA catalyst bulletin",
+      "category": "source_scope",
+      "predicate": "nov2004_TSB2482506_market_scope",
+      "value": {
+        "number": "248-2506",
+        "date": "2004-11",
+        "market": "ej US/CA",
+        "WIS_folder_year": 2008,
+        "original_9_5_printed_model": "9660"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "non-US/CA"
+        ],
+        "engine_codes": [
+          "Trionic T7 4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "nov2004 TSB2482506 market scope",
+      "notes": "Exclusion is explicit. Printed 9660 mismatch is a source text quality problem, not proof of a separate physical platform."
+    },
+    {
+      "id": "nrscreen-fact-002",
+      "subject": "OG9-5 catalyst bulletin",
+      "category": "diagnosis",
+      "predicate": "catalyst_primary_causes_not_just_restriction",
+      "value": [
+        "missing spark in one or more cylinders",
+        "incorrect fuel mixture including running tank dry",
+        "unburned fuel can overheat catalyst and damage its cell structure"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "non-US/CA"
+        ],
+        "engine_codes": [
+          "Trionic T7 4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "catalyst primary causes not just restriction",
+      "notes": "Historic bulletin applies only outside US/Canada; causal mechanism useful as research, not car-specific diagnosis."
+    },
+    {
+      "id": "nrscreen-fact-003",
+      "subject": "OG9-5 catalyst bulletin",
+      "category": "diagnosis",
+      "predicate": "Tech2_quick_check_three_results",
+      "value": {
+        "tool": "Tech 2 v114.000 or later",
+        "statuses": [
+          "Catalytic converter OK",
+          "Low ability to absorb oxygen",
+          "High back pressure"
+        ],
+        "coolant_threshold_C": 60
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "non-US/CA"
+        ],
+        "engine_codes": [
+          "Trionic T7 4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Tech2 quick check three results",
+      "notes": "Factory supplementary test requires running engine and known primary faults addressed. Not an option on a nonrunning car, and not a documented US/Canada procedure."
+    },
+    {
+      "id": "nrscreen-fact-004",
+      "subject": "OG9-5 catalyst bulletin",
+      "category": "diagnosis",
+      "predicate": "Tech2_indirect_backpressure_MAF_MAP",
+      "value": {
+        "method": "uses MAF and MAP values for backpressure estimation",
+        "sensor_faults": "faulty MAF or MAP can mislead result",
+        "if_high": "verify no obstruction farther downstream first"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "non-US/CA"
+        ],
+        "engine_codes": [
+          "Trionic T7 4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Tech2 indirect backpressure MAF MAP",
+      "notes": "Sensor-derived backpressure output is not a physical pressure-gauge number and not conclusive if sensors malfunction."
+    },
+    {
+      "id": "nrscreen-fact-005",
+      "subject": "OG9-5 B235 E/R front exhaust",
+      "category": "diagnosis",
+      "predicate": "MY2007_B235_dual_catalyst_assembly",
+      "value": {
+        "assembly": "front exhaust system with catalytic converters (plural)",
+        "attachments": [
+          "turbo exhaust flange",
+          "engine mounting bar",
+          "front/rear exhaust joint",
+          "oxygen sensor harnesses"
+        ],
+        "flex_deg_limit": 5
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2007 B235 dual catalyst assembly",
+      "notes": "A claim of 'a clogged converter' must identify location, assembly, evidence and upstream failure. Source is MY2007, not MY2008 component approval."
+    },
+    {
+      "id": "nrscreen-fact-006",
+      "subject": "OG9-5 T7 exhaust path",
+      "category": "diagnosis",
+      "predicate": "MY2007_intake_exhaust_path_primary_secondary_catalysts",
+      "value": {
+        "primary_converter_component_no": 20,
+        "main_converter_component_no": 21,
+        "front_silencer": 22,
+        "rear_silencer": 23
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2007 intake exhaust path primary secondary catalysts",
+      "notes": "Factory diagram contains primary and main converter as distinct nodes; no quantified pressure threshold or replacement value."
+    },
+    {
+      "id": "nrscreen-fact-007",
+      "subject": "OG9-5 T7 ignition",
+      "category": "diagnosis",
+      "predicate": "MY2006_IDM_power_failure_P1310",
+      "value": {
+        "device": "ignition discharge cassette, 4 coils",
+        "positive": "main relay B+",
+        "ground": "G7",
+        "missing_module_supply_DTC": "P1310",
+        "fuel_cut_on_power_fault": true
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 IDM power failure P1310",
+      "notes": "IDM power/ground and ignition circuit conditions can prevent running, not direct evidence engine seized. High-voltage ignition needs specialist safe diagnosis."
+    },
+    {
+      "id": "nrscreen-fact-008",
+      "subject": "OG9-5 T7 ignition",
+      "category": "diagnosis",
+      "predicate": "MY2006_IDM_misfire_and_catalyst_damaging_DTC",
+      "value": {
+        "emissions_codes": "P0300–P0304",
+        "catalyst_damage_codes": "P1300–P1304",
+        "warning": "flashing CHECK ENGINE",
+        "module_color_restriction": "do not use red ignition modules"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 IDM misfire and catalyst damaging DTC",
+      "notes": "Record actual event, not a guaranteed component failure. Misfire may lead to catalyst destruction, so clear symptom before proposing exhaust-only repair."
+    },
+    {
+      "id": "nrscreen-fact-009",
+      "subject": "OG9-5 T7 running irregularly",
+      "category": "diagnosis",
+      "predicate": "MY2007_T7_no_DTC_possible_fuel_air",
+      "value": [
+        "intake air leaks",
+        "fuel supply flow/pressure insufficiency",
+        "software/adaptation differences"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2007 T7 no DTC possible fuel air",
+      "notes": "Source says fault symptoms can exist without DTCs. It is not safe to conclude 'no codes = healthy engine' or 'no codes = bad engine'."
+    },
+    {
+      "id": "nrscreen-fact-010",
+      "subject": "OG9-5 T7 controlled boost leak test",
+      "category": "diagnosis",
+      "predicate": "MY2007_controlled_intake_test_limit",
+      "value": {
+        "upper_pressure_bar": 0.6,
+        "special_tools": [
+          "Saab 83 95 659 plug kit",
+          "Saab 83 93 514 gauge"
+        ],
+        "test_condition": "engine intake routed/plugs per original procedure"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2007 controlled intake test limit",
+      "notes": "0.6 bar for THIS 2007 leak-check workflow, not 2005 different 1 bar charge-air-cooler method. Not a casual unregulated compressed-air test."
+    },
+    {
+      "id": "nrscreen-fact-011",
+      "subject": "OG9-5 T7 fuel pressure",
+      "category": "diagnosis",
+      "predicate": "MY2007_dynamic_fuel_manifold_difference",
+      "value": {
+        "differential_pressure_bar": 3,
+        "example": {
+          "manifold_bar": 0.6,
+          "fuel_pressure_bar": 3.6
+        },
+        "test": "specialist in-motion dynamic load measurement in Saab factory procedure"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2007 dynamic fuel manifold difference",
+      "notes": "High-load driving with hoses carrying fuel pressure is NOT recommended for a non-running seller-lot purchase. Handling pressurized petrol is fire/explosion risk."
+    },
+    {
+      "id": "nrscreen-fact-012",
+      "subject": "OG9-5 B235 minimum oil pressure",
+      "category": "diagnosis",
+      "predicate": "MY2009_oil_pressure_documented_test_only",
+      "value": {
+        "rpm": 2000,
+        "oil_temperature_C": 105,
+        "tolerance_C": 2,
+        "test_oil": "10W-30",
+        "minimum_bar": 2.5
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2009 oil pressure documented test only",
+      "notes": "Only measured by qualified technician on verified safely running/hot engine. Does not apply to a cold no-start, oil light alone or generic cheap oil test."
+    },
+    {
+      "id": "nrscreen-fact-013",
+      "subject": "OG9-5 B235 warning sender",
+      "category": "diagnosis",
+      "predicate": "MY2009_lamp_threshold_not_bearing_proof",
+      "value": {
+        "switch_on_below_bar_min": 0.3,
+        "switch_on_below_bar_max": 0.55
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2009 lamp threshold not bearing proof",
+      "notes": "A dark warning lamp gives no proof engine meets hot 2.5 bar minimum or bearing condition; oil-starvation history requires inspection."
+    },
+    {
+      "id": "nrscreen-fact-014",
+      "subject": "NG9-3 B207 compression minimum",
+      "category": "diagnosis",
+      "predicate": "MY2006_B207_compression_12_4_bar",
+      "value": {
+        "minimum_bar": 12.4,
+        "engines": [
+          "B207E",
+          "B207L",
+          "B207S",
+          "B207R"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207S",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 B207 compression 12 4 bar",
+      "notes": "Factory compression specification. Only meaningful using manufacturer test sequence and competent cranking equipment; no test if engine cannot turn safely."
+    },
+    {
+      "id": "nrscreen-fact-015",
+      "subject": "NG9-3 B207 compression workflow",
+      "category": "diagnosis",
+      "predicate": "MY2006_compression_controlled_starter_measurement",
+      "value": {
+        "tool": "Motometer petrol compression tester",
+        "procedure": "relay 8 isolated and starter test lead; coils and plugs removed; crank each cylinder until reading stops rising",
+        "selector": "manual N, automatic P"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207S",
+          "B207R"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 compression controlled starter measurement",
+      "notes": "Special tools, fuel/ignition isolation and safe test environment required; not permission to crank a seized, oil-starved or coolant-filled nonrunning engine."
+    },
+    {
+      "id": "nrscreen-fact-016",
+      "subject": "OG9-5 MY2005 catalyst code",
+      "category": "diagnosis",
+      "predicate": "MY2005_P0420_malfunction_diagnostic_not_clogged_pressure",
+      "value": {
+        "DTC": "P0420",
+        "definition": "three-way catalytic converter malfunction",
+        "different_from": "measured physical exhaust backpressure"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005
+        ],
+        "engine_codes": [
+          "Trionic T7 4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2005 P0420 malfunction diagnostic not clogged pressure",
+      "notes": "Only search excerpt for MY2005 page; P0420 efficiency monitoring is not a physical clog diagnosis and cannot justify catalyst purchase alone."
+    },
+    {
+      "id": "nrscreen-fact-017",
+      "subject": "OG9-5 MY2007 misfire code",
+      "category": "diagnosis",
+      "predicate": "MY2007_P1301_catalyst_damaging",
+      "value": {
+        "DTC": "P1301",
+        "definition": "cylinder 1 misfire detected, catalyst damaging"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "Trionic T7 4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2007 P1301 catalyst damaging",
+      "notes": "Only search excerpt recovered; confirmed by independent MY2006 T7 IDM functional description of P1300–P1304."
+    },
+    {
+      "id": "nrscreen-fact-018",
+      "subject": "OG9-5 MY2007 ignition diagnostic",
+      "category": "diagnosis",
+      "predicate": "MY2007_enhanced_IDM_requires_software_feature",
+      "value": {
+        "diagnostic": "Ignition Discharge Module Diagnose in Tech 2",
+        "historical_SPS_TIS2000": "diagnosis depends on software support",
+        "current2026_access_verified": false
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2007 enhanced IDM requires software feature",
+      "notes": "Factory says the feature is not supported on all installed software; 2026 Tech2 or SPS support cannot be assumed."
+    },
+    {
+      "id": "nrscreen-fact-019",
+      "subject": "OG9-5 MY2007 turbo replacement diagnostic checklist",
+      "category": "diagnosis",
+      "predicate": "MY2007_keep_DTC_and_module_facts_before_replacement",
+      "value": {
+        "capture": [
+          "current/stored engine DTCs",
+          "VIN",
+          "engine serial",
+          "ECU software version",
+          "injector colour",
+          "misfire counts",
+          "airmass/manifold & charge-air pressure"
+        ]
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007
+        ],
+        "engine_codes": [
+          "Trionic T7 4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2007 keep DTC and module facts before replacement",
+      "notes": "Requires a safe running/Tech2-capable car for live values; a nonrunner cannot satisfy all fields and must remain unknown, not 'passes turbo'."
+    },
+    {
+      "id": "nrscreen-fact-020",
+      "subject": "OG9-5 MY2006 exhaust and heat shields",
+      "category": "diagnosis",
+      "predicate": "MY2006_exhaust_front_and_rear_assembly",
+      "value": {
+        "segments": [
+          "front catalytic-converter assembly",
+          "rear section with two silencers"
+        ],
+        "heat_shields": "factory exhaust system shields protect nearby parts"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "nrscreen-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "MY2006 exhaust front and rear assembly",
+      "notes": "Search excerpt; not enough to approve replacement catalyst layout for US MY2008 B235R."
+    }
+  ],
+  "issues": [
+    {
+      "id": "nrscreen-issue-001",
+      "title": "Seller says clogged catalyst on 2008 B235 9-5 wagon without confirmed restriction or upstream engine health",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ],
+        "body_styles": [
+          "5D"
+        ]
+      },
+      "cause": "Catalyst may be internally damaged by severe misfire/unburned fuel or suffer flow restriction downstream; a weak engine can also have fuel, intake, ignition and turbo issues. Historic non-US bulletin is not US-market test authorization.",
+      "symptoms": [
+        "seller claims catalytic converter clogged",
+        "weak or no engine power",
+        "flashing CHECK ENGINE history",
+        "P0420 or P130x claimed"
+      ],
+      "diagnosis_summary": "Capture seller chronology, original scanned DTCs freeze frames, actual engine ability to turn and any overheating/oil-pressure/misfire history; obtain independent in-scope professional converter backpressure/location assessment plus intake/ignition/fuel tests only if safe. Never equate P0420 with a blocked converter.",
+      "correction_summary": "No replacement plan until correct exhaust assembly, restriction and its initiating cause are confirmed, plus structural/underbody safety and total cost evaluated. Treat unknown as no-buy-budget risk if a rebuild or transmission replacement would be unaffordable.",
+      "source_ids": [
+        "nrscreen-src-001",
+        "nrscreen-src-002",
+        "nrscreen-src-003",
+        "nrscreen-src-004",
+        "nrscreen-src-005",
+        "nrscreen-src-009",
+        "nrscreen-src-010"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "Bulletin 248-2506 is from Nov 2004, explicitly not US/CA, and its Tech2 test requires a RUNNING car; source directory /2008/ does not override market.",
+        "Exhaust hardware diagram is MY2007; specific MY2008 VIN and US emissions components not manufacturer-approved.",
+        "Do not price or diagnose a converter solely from a seller claim; no observed real vehicle data."
+      ]
+    },
+    {
+      "id": "nrscreen-issue-002",
+      "title": "Original 9-5 no-start or weak-power cannot be distinguished from internal damage by DTC absence",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "cause": "T7 WIS identifies ignition cassette main relay/ground and crank/cam synchronization and fuel flow/air leaks as possible diagnostic branches, including faults without stored DTC.",
+      "symptoms": [
+        "engine cranks but does not start",
+        "reported dead ignition",
+        "low power with no check engine"
+      ],
+      "diagnosis_summary": "Only collect seller history, safe battery/engine exterior checks and read-only DTC evidence until qualified mechanical condition is established; then inspect power/ground, ignition, fuel, intake as permitted. A working starter does not prove normal oil pressure or compression.",
+      "correction_summary": "Fix only confirmed external control or flow fault and assess engine condition before assuming cheap non-running repair. Do not substitute red Trionic T7 ignition cassette or bypass software/programming requirements.",
+      "source_ids": [
+        "nrscreen-src-004",
+        "nrscreen-src-005",
+        "nrscreen-src-011",
+        "nrscreen-src-012"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "No universal 'simple no-start' probability.",
+        "No accessible test on a non-running car certifies internal engine bearings.",
+        "Fuel pressure circuits and high-voltage ignition require specialist safety precautions."
+      ]
+    },
+    {
+      "id": "nrscreen-issue-003",
+      "title": "2006 9-3 B207 low compression is a measured mechanical red flag, not a trim or warm idle guess",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207S",
+          "B207R"
+        ]
+      },
+      "cause": "Factory lists 12.4 bar minimum but requires proper isolated ignition/fuel and controlled cranking per-cylinder conditions; low readings need leakdown or internal condition evaluation.",
+      "symptoms": [
+        "crank/no-start with one or more low cylinder readings",
+        "rough start or persistent misfire",
+        "seller claims engine turns so engine is healthy"
+      ],
+      "diagnosis_summary": "Do not crank a hydrolocked, overheated, oil-starved or visibly damaged engine. For safe eligible vehicle use factory compression test with recorded conditions and instrument/technician; pursue leakdown, coolant/valve/timing differential as required.",
+      "correction_summary": "If compression/leakdown proves valve or lower-end mechanical work, price that as major internal engine risk, not a routine ignition fix.",
+      "source_ids": [
+        "nrscreen-src-007",
+        "nrscreen-src-008"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "12.4 bar is engine and MY2006 specific.",
+        "Existing intake valve campaign evidence applies to different source years/engines; do not generalize to every 2005/06 B207.",
+        "No actual compression values or car mechanical clearance observed."
+      ]
+    },
+    {
+      "id": "nrscreen-issue-004",
+      "title": "5AT slipping/contaminated gearbox and low engine oil pressure are hard purchase-screen blockers without tests",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2009
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235R"
+        ]
+      },
+      "cause": "External transmission solenoid/sensor faults can mimic a failed gearbox; low true hot engine oil pressure can indicate oil-system damage, which oil warning lamp alone cannot screen. Distinct year-specific FA57 DTC branches already stored in prior datasets.",
+      "symptoms": [
+        "seller says bad automatic / won't move",
+        "red oil-pressure lamp, hot knock or severe overheating history",
+        "no ATF sample or temperature-controlled TCM results"
+      ],
+      "diagnosis_summary": "Use existing year-specific FA57 DTC and ATF level/condition records, oil pressure specification only under validated hot test conditions, actual VIN/transmission identity and professional condition tests; unknown transmission internals and bearings remain unknown.",
+      "correction_summary": "If internal ratio slip, clutch contamination, bearing wear or low controlled oil pressure is confirmed, set rebuild/replace-risk classification and require full qualified quote; no assumption of easy solenoid or cooler repair.",
+      "source_ids": [
+        "nrscreen-src-006",
+        "nrscreen-src-012"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "References earlier FA57 diagnostics and 2005/09 adaptation in existing datasets; source IDs here only establish 2009 engine oil pressure and ECU evidence.",
+        "Does not extend 2003–05 NG9-3 FA57 coolant campaign to 9-5.",
+        "No road-test, full-throttle stall test or hot idling until engine safety confirmed."
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "nrscreen-gap-001",
+      "title": "Non-US catalyst bulletin cannot certify US/CA 9-5 2008 converter test",
+      "missing_inputs": [
+        "Obtain original US/Canada 2008 B235E/R factory exhaust/backpressure WIS service and current emissions/legal testing; TSB248-2506 explicitly ej US/CA."
+      ],
+      "reason": "An original source's permitted diagnostic branch, without real vehicle VIN, physical inspections and controlled qualified tests, cannot prove a non-running car is inexpensive to repair or safe to operate.",
+      "source_ids": [
+        "nrscreen-src-001",
+        "nrscreen-src-002",
+        "nrscreen-src-003"
+      ]
+    },
+    {
+      "id": "nrscreen-gap-002",
+      "title": "Non-running catalytic restriction and upstream failure must be independently measured",
+      "missing_inputs": [
+        "Identify converter stage, restricted region and quantify or otherwise prove blockage with appropriate qualified safe test; inspect misfire/fueling or overheating that damaged it."
+      ],
+      "reason": "An original source's permitted diagnostic branch, without real vehicle VIN, physical inspections and controlled qualified tests, cannot prove a non-running car is inexpensive to repair or safe to operate.",
+      "source_ids": [
+        "nrscreen-src-001",
+        "nrscreen-src-002",
+        "nrscreen-src-004",
+        "nrscreen-src-005"
+      ]
+    },
+    {
+      "id": "nrscreen-gap-003",
+      "title": "Actual engine turns safely and no fluid ingestion before crank",
+      "missing_inputs": [
+        "Need observed oil/coolant level and contamination, mechanical rotation without force, engine history/timing integrity and qualified crank authorization; no data on candidate."
+      ],
+      "reason": "An original source's permitted diagnostic branch, without real vehicle VIN, physical inspections and controlled qualified tests, cannot prove a non-running car is inexpensive to repair or safe to operate.",
+      "source_ids": [
+        "nrscreen-src-004",
+        "nrscreen-src-005",
+        "nrscreen-src-008"
+      ]
+    },
+    {
+      "id": "nrscreen-gap-004",
+      "title": "2008 B235 safe controlled hot oil pressure source and real reading",
+      "missing_inputs": [
+        "MY2009 tested 2.5bar 2000rpm 105C 10W30 only; source-year and actual oil specs and engine pressure data 2008 require independent confirmation."
+      ],
+      "reason": "An original source's permitted diagnostic branch, without real vehicle VIN, physical inspections and controlled qualified tests, cannot prove a non-running car is inexpensive to repair or safe to operate.",
+      "source_ids": [
+        "nrscreen-src-006"
+      ]
+    },
+    {
+      "id": "nrscreen-gap-005",
+      "title": "Specific buyer 2008 wagon original exhaust and drivetrain identity",
+      "missing_inputs": [
+        "No VIN/body/market/emissions code, exact catalytic stages, installed turbo and transmission, software, condition or repair records; physical seller inspection needed."
+      ],
+      "reason": "An original source's permitted diagnostic branch, without real vehicle VIN, physical inspections and controlled qualified tests, cannot prove a non-running car is inexpensive to repair or safe to operate.",
+      "source_ids": [
+        "nrscreen-src-002",
+        "nrscreen-src-003",
+        "nrscreen-src-012"
+      ]
+    },
+    {
+      "id": "nrscreen-gap-006",
+      "title": "9-3 MY2005/06 actual compression and intake valve baseline",
+      "missing_inputs": [
+        "2006 minimum 12.4bar requires factory cranking process; historical later intake-valve advisory needs affected MY/VIN cross-check and cylinder-level actual values."
+      ],
+      "reason": "An original source's permitted diagnostic branch, without real vehicle VIN, physical inspections and controlled qualified tests, cannot prove a non-running car is inexpensive to repair or safe to operate.",
+      "source_ids": [
+        "nrscreen-src-007",
+        "nrscreen-src-008"
+      ]
+    },
+    {
+      "id": "nrscreen-gap-007",
+      "title": "Five-speed FA57 internal repair-versus-replacement real condition",
+      "missing_inputs": [
+        "Professional TCM codes plus scan freeze frames, ATF contamination assessment and pressure/ratio testing are absent; do not use damaging stall test."
+      ],
+      "reason": "An original source's permitted diagnostic branch, without real vehicle VIN, physical inspections and controlled qualified tests, cannot prove a non-running car is inexpensive to repair or safe to operate.",
+      "source_ids": [
+        "nrscreen-src-005",
+        "nrscreen-src-012"
+      ]
+    },
+    {
+      "id": "nrscreen-gap-008",
+      "title": "Seller provenance and written multi-system project cost estimates",
+      "missing_inputs": [
+        "Need seller-reported dates, running/no start duration, photos, rust/structure check, broken exhaust/heat shield, shop engine/ATF/catalyst estimates and tow storage cost."
+      ],
+      "reason": "An original source's permitted diagnostic branch, without real vehicle VIN, physical inspections and controlled qualified tests, cannot prove a non-running car is inexpensive to repair or safe to operate.",
+      "source_ids": [
+        "nrscreen-src-002",
+        "nrscreen-src-005",
+        "nrscreen-src-012"
+      ]
+    }
+  ]
+}

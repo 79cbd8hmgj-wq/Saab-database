@@ -2,31 +2,31 @@
   "schema_version": "1.0.0",
   "meaning": "Record coverage and evidence provenance, NOT completeness, fitment, or reliability",
   "counts": {
-    "sources": 469,
-    "facts": 937,
-    "issues": 66,
+    "sources": 482,
+    "facts": 957,
+    "issues": 70,
     "parts": 74,
-    "gaps": 223
+    "gaps": 231
   },
-  "unique_source_urls": 420,
+  "unique_source_urls": 428,
   "retrieval_statuses": {
-    "full_text": 444,
+    "full_text": 454,
     "metadata_only": 8,
     "partial": 3,
-    "search_excerpt": 14
+    "search_excerpt": 17
   },
   "evidence_statuses": {
-    "documented": 994,
+    "documented": 1018,
     "inference": 5,
     "supplier_claim": 78
   },
   "explicit_scope_counts": {
-    "platforms": 1028,
-    "model_years": 941,
-    "markets": 150,
-    "engine_codes": 306,
+    "platforms": 1052,
+    "model_years": 961,
+    "markets": 154,
+    "engine_codes": 330,
     "transmission_codes": 161,
-    "body_styles": 79,
+    "body_styles": 80,
     "vin_ranges": 24
   },
   "platform_year": {
@@ -67,28 +67,28 @@
         "parts": 20
       },
       "2005": {
-        "facts": 151,
-        "issues": 8,
+        "facts": 152,
+        "issues": 9,
         "parts": 21
       },
       "2006": {
-        "facts": 138,
-        "issues": 11,
+        "facts": 141,
+        "issues": 12,
         "parts": 20
       },
       "2007": {
-        "facts": 114,
-        "issues": 14,
+        "facts": 122,
+        "issues": 15,
         "parts": 19
       },
       "2008": {
         "facts": 143,
-        "issues": 16,
+        "issues": 17,
         "parts": 19
       },
       "2009": {
-        "facts": 115,
-        "issues": 12,
+        "facts": 117,
+        "issues": 13,
         "parts": 19
       }
     },
@@ -109,8 +109,8 @@
         "parts": 16
       },
       "2006": {
-        "facts": 88,
-        "issues": 11,
+        "facts": 90,
+        "issues": 12,
         "parts": 21
       },
       "2007": {
@@ -291,6 +291,13 @@
     "priority_brake_hydraulic_safety": {
       "sources": 19,
       "facts": 25,
+      "issues": 4,
+      "parts": 0,
+      "gaps": 8
+    },
+    "priority_nonrunning_purchase_screen": {
+      "sources": 13,
+      "facts": 20,
       "issues": 4,
       "parts": 0,
       "gaps": 8
