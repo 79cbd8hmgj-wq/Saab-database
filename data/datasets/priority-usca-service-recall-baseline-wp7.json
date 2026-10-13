@@ -71,6 +71,56 @@
       "retrieval": "full_text",
       "accessed_at": "2026-10-13",
       "notes": "Intermediate vs main services and dependence on market/engine; suspicious WW/US-CA numbers not adopted as a North American B207 mileage schedule."
+    },
+    {
+      "id": "wp7-src-008",
+      "title": "2008 NHTSA acknowledgement 08V160 Saab 9-5 upper occupant protection trim",
+      "url": "https://static.nhtsa.gov/odi/rcl/2008/RCAK-08V160-6768.pdf",
+      "source_type": "regulator_record",
+      "publisher": "NHTSA",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Original April 11 2008 recall acknowledgment; printed component category is head restraint but narrative specifies upper interior impact FMVSS201 and A-pillar trim. Preserve text and do not recode as headrest replacement."
+    },
+    {
+      "id": "wp7-src-009",
+      "title": "GM Product Safety Recall 15041 / NHTSA 16V063 Saab driver airbag module",
+      "url": "https://static.nhtsa.gov/odi/rcl/2016/RCSB-16V063-8347.pdf",
+      "source_type": "factory_bulletin",
+      "publisher": "General Motors LLC",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "February 2018 revision of safety campaign 15041. Particular registration-history exclusions are explicitly in bulletin; GM Global Warranty Management must verify actual VIN eligibility, no current stock verified."
+    },
+    {
+      "id": "wp7-src-010",
+      "title": "GM Saab 15043 customer reminder / NHTSA 16V063",
+      "url": "https://static.nhtsa.gov/odi/rcl/2016/RCRN-16V063-9564.pdf",
+      "source_type": "factory_bulletin",
+      "publisher": "General Motors LLC",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "August 2017 customer letter for campaign 15043, under same NHTSA number 16V063. Does not establish affected VIN or that a 2026 Cadillac appointment is currently possible."
+    },
+    {
+      "id": "wp7-src-011",
+      "title": "GM safety defect notification 14V318 Saab 9-3 convertibles",
+      "url": "https://static.nhtsa.gov/odi/rcl/2014/RCDNN-14V318-3795P.pdf",
+      "source_type": "regulator_record",
+      "publisher": "General Motors LLC filed with NHTSA",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Original June 2014 defect notice, applies MY2004–2011 9-3 convertibles only; separate 2004 sedan campaign is distinct."
+    },
+    {
+      "id": "wp7-src-012",
+      "title": "Transport Canada recall 2014228 Saab 9-3 convertibles",
+      "url": "https://recalls-rappels.canada.ca/en/alert-recall/transport-canada-recall-2014228-general-motors",
+      "source_type": "regulator_record",
+      "publisher": "Transport Canada",
+      "retrieval": "full_text",
+      "accessed_at": "2026-10-13",
+      "notes": "Government 2014 notice identifies MY2004–2011 Saab 9-3 convertibles with defective driver-side retractor; not evidence of repaired condition."
     }
   ],
   "facts": [
@@ -504,6 +554,483 @@
       "evidence_status": "documented",
       "locator": "Service programme > Intermediate and Main service",
       "notes": "General programme theory; specific US/CA B207 mileage values are not claimed from WW table because of inconsistency."
+    },
+    {
+      "id": "wp7-fact-018",
+      "subject": "recall:08V160",
+      "category": "recall",
+      "predicate": "targeted_model_years",
+      "value": "Saab 9-5 MY2002–2008",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "US"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008
+        ]
+      },
+      "source_ids": [
+        "wp7-src-008"
+      ],
+      "evidence_status": "documented",
+      "locator": "Makes/Models/Model Years",
+      "notes": "Original NHTSA scope; individual VIN inclusion and completion status remain unknown.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "wp7-fact-019",
+      "subject": "recall:08V160",
+      "category": "recall",
+      "predicate": "factory_remedy",
+      "value": "Install A-pillar trim with improved energy absorption",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "US"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008
+        ]
+      },
+      "source_ids": [
+        "wp7-src-008"
+      ],
+      "evidence_status": "documented",
+      "locator": "Remedy",
+      "notes": "Recall is an upper interior occupant-protection FMVSS201 noncompliance, not evidence that head restraint needs replacement.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "wp7-fact-020",
+      "subject": "recall:16V063",
+      "category": "recall",
+      "predicate": "targeted_models_years",
+      "value": "MY2006–2011 Saab 9-3 and MY2006–2009 Saab 9-5",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600",
+          "9-3-9440"
+        ],
+        "markets": [
+          "US"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009
+            ],
+            "markets": [
+              "US"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011
+            ],
+            "markets": [
+              "US"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "wp7-src-009",
+        "wp7-src-010"
+      ],
+      "evidence_status": "documented",
+      "locator": "Affected models & years",
+      "notes": "Registration and VIN eligibility must still be checked; flat union of years is not permissible cross-platform fitment.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "wp7-fact-021",
+      "subject": "recall:16V063",
+      "category": "recall",
+      "predicate": "identified_safety_failure",
+      "value": "Driver frontal airbag inflator can rupture and send fragments during deployment",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600",
+          "9-3-9440"
+        ],
+        "markets": [
+          "US"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009
+            ],
+            "markets": [
+              "US"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011
+            ],
+            "markets": [
+              "US"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "wp7-src-009"
+      ],
+      "evidence_status": "documented",
+      "locator": "Condition",
+      "notes": "Original defect notification, not diagnosis of deployed or repaired module on a specific vehicle.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "wp7-fact-022",
+      "subject": "recall:16V063",
+      "category": "recall",
+      "predicate": "factory_remedy",
+      "value": "Replace driver's airbag module assembly at authorized service facility",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600",
+          "9-3-9440"
+        ],
+        "markets": [
+          "US"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009
+            ],
+            "markets": [
+              "US"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011
+            ],
+            "markets": [
+              "US"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "wp7-src-009",
+        "wp7-src-010"
+      ],
+      "evidence_status": "documented",
+      "locator": "Correction / owner letter",
+      "notes": "No DIY deployment, disassembly or donor module substitution is approved.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "wp7-fact-023",
+      "subject": "recall:16V063",
+      "category": "recall",
+      "predicate": "documented_Saab_GM_campaign_numbers",
+      "value": [
+        "15041",
+        "15043"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600",
+          "9-3-9440"
+        ],
+        "markets": [
+          "US"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009
+            ],
+            "markets": [
+              "US"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011
+            ],
+            "markets": [
+              "US"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "wp7-src-009",
+        "wp7-src-010"
+      ],
+      "evidence_status": "documented",
+      "locator": "Campaign bulletin 15041 and August 2017 reminder 15043",
+      "notes": "The two notices are under NHTSA 16V063; applicability differs by official VIN/regional campaign determination; neither number confirms a given vehicle's active status.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "wp7-fact-024",
+      "subject": "recall:16V063",
+      "category": "recall",
+      "predicate": "15041_2018_documented_past_registration_exclusions",
+      "value": [
+        "Alabama",
+        "California",
+        "Florida",
+        "Georgia",
+        "Hawaii",
+        "Louisiana",
+        "Mississippi",
+        "South Carolina",
+        "Texas",
+        "Guam",
+        "Puerto Rico",
+        "Saipan",
+        "US Samoa",
+        "US Virgin Islands"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600",
+          "9-3-9440"
+        ],
+        "markets": [
+          "US"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009
+            ],
+            "markets": [
+              "US"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011
+            ],
+            "markets": [
+              "US"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "wp7-src-009"
+      ],
+      "evidence_status": "documented",
+      "locator": "Involved vehicles > never registered in listed regions",
+      "notes": "Scope of this particular GM bulletin, not a nationwide exclusion from NHTSA 16V063 or present-day 15043/updated coverage.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "wp7-fact-025",
+      "subject": "recall:14V318",
+      "category": "recall",
+      "predicate": "affected_body_style",
+      "value": "MY2004–2011 9-3 convertible driver seat-belt retractor",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "convertible"
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-011"
+      ],
+      "evidence_status": "documented",
+      "locator": "GM defect notification June 11 2014",
+      "notes": "2005–2006 sedan must not be automatically treated as covered under convertible recall.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "wp7-fact-026",
+      "subject": "recall:2014228",
+      "category": "recall",
+      "predicate": "affected_body_style",
+      "value": "MY2004–2011 9-3 convertible driver seat-belt retractor",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "convertible"
+        ],
+        "markets": [
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "wp7-src-012"
+      ],
+      "evidence_status": "documented",
+      "locator": "Affected products and Issue",
+      "notes": "Independent Canadian market filing, not an individual vehicle completion check.",
+      "review_status": "source_scoped"
     }
   ],
   "issues": [
@@ -558,6 +1085,155 @@
       "limits": [
         "Vehicle could have received undocumented work",
         "Do not run a damaged nonrunning car to force SID reading"
+      ]
+    },
+    {
+      "id": "wp7-issue-003",
+      "title": "Historic MY2008 9-5 occupant-protection A-pillar recall cannot be marked complete without VIN/repair record",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "markets": [
+          "US"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008
+        ]
+      },
+      "cause": "Saab original FMVSS201 upper occupant-impact noncompliance led to campaign E080101 / NHTSA 08V160.",
+      "symptoms": [
+        "Used vehicle lacks recall campaign invoice",
+        "NHTSA current VIN lookup omits historic repairs and may omit aged campaigns"
+      ],
+      "diagnosis_summary": "Check original 08V160 campaign eligibility for VIN and request documented prior authorized installation of updated A-pillar trim.",
+      "correction_summary": "Refer unverified vehicle to qualified Saab/GM support; do not guess from trim appearance or mark complete using a model-year label.",
+      "source_ids": [
+        "wp7-src-008",
+        "wp7-src-001"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "VIN status not retrieved",
+        "No physical trim inspected",
+        "No 2026 inventory or remedy appointment established"
+      ]
+    },
+    {
+      "id": "wp7-issue-004",
+      "title": "MY2006–09 Saab Takata airbag safety recall requires campaign/VIN verified service",
+      "applicability": {
+        "platforms": [
+          "9-5-9600",
+          "9-3-9440"
+        ],
+        "markets": [
+          "US"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009
+            ],
+            "markets": [
+              "US"
+            ]
+          },
+          {
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011
+            ],
+            "markets": [
+              "US"
+            ]
+          }
+        ]
+      },
+      "cause": "Driver frontal airbag inflator rupture risk identified in original GM 16V063 safety recall.",
+      "symptoms": [
+        "Incomplete airbag service records",
+        "Owner unaware of historical recall"
+      ],
+      "diagnosis_summary": "Confirm exact VIN applicability and whether manufacturer records show completion; account for GM campaign 15041/15043 registration-history distinctions.",
+      "correction_summary": "Arrange authorized recall repair if applicable and outstanding; do not dismantle or attempt independent airbag exchange.",
+      "source_ids": [
+        "wp7-src-009",
+        "wp7-src-010"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "No real candidate VIN status checked",
+        "No current participating shop, stock or coverage independently verified"
+      ]
+    },
+    {
+      "id": "wp7-issue-005",
+      "title": "9-3 convertible driver belt retractor is subject to different historical recall than sedan",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "body_styles": [
+          "convertible"
+        ],
+        "markets": [
+          "US"
+        ]
+      },
+      "cause": "Driver seatbelt retractor tensioning cable may break on MY2004–11 9-3 convertibles.",
+      "symptoms": [
+        "Driver belt fails to retract",
+        "Unknown recall completion"
+      ],
+      "diagnosis_summary": "Identify actual body style and VIN, verify relevant USA 14V318 or Canadian 2014228 service completion before treating belt as safe.",
+      "correction_summary": "Use authorized service campaign process and actual part/VIN application, not generic NG9-3 replacement assumption.",
+      "source_ids": [
+        "wp7-src-011",
+        "wp7-src-012"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "No individual VIN checked",
+        "Does not cover all sedans",
+        "No current part supply confirmed"
       ]
     }
   ],
@@ -619,6 +1295,48 @@
       "source_ids": [
         "wp7-src-003",
         "wp7-src-005"
+      ]
+    },
+    {
+      "id": "wp7-gap-005",
+      "title": "Recall 08V160 MY2008 9-5 individual VIN eligibility and completion",
+      "missing_inputs": [
+        "Actual 17-character VIN",
+        "Saab/GM campaign eligibility and repair transaction history",
+        "current authorized repair arrangement if open"
+      ],
+      "reason": "An old 08V160 listing does not establish this 2008 9-5 candidate has an open or completed repair.",
+      "source_ids": [
+        "wp7-src-008"
+      ]
+    },
+    {
+      "id": "wp7-gap-006",
+      "title": "Airbag 16V063 Saab/GM 15041 vs 15043 regional applicability, replacement status and supply",
+      "missing_inputs": [
+        "Vehicle VIN and past registrations",
+        "manufacturer/GM warranty-history code and campaign assignment",
+        "dated remedy invoice and current authorized support",
+        "current parts supply"
+      ],
+      "reason": "Original 2017/18 campaign letters are not a present-day VIN-approved substitution or proof of 2026 availability.",
+      "source_ids": [
+        "wp7-src-009",
+        "wp7-src-010"
+      ]
+    },
+    {
+      "id": "wp7-gap-007",
+      "title": "2005–06 9-3 convertible seatbelt recall completion and body-style scope",
+      "missing_inputs": [
+        "Actual VIN, body and market",
+        "original NHTSA 14V318 or Transport Canada 2014228 target determination",
+        "historical service record"
+      ],
+      "reason": "The convertible recall cannot be applied to sedan, and neither government list establishes individual completion.",
+      "source_ids": [
+        "wp7-src-011",
+        "wp7-src-012"
       ]
     }
   ]
