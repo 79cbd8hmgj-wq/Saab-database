@@ -1,0 +1,947 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "priority_structural_corrosion_inspection",
+  "sources": [
+    {
+      "id": "rustgate-src-001",
+      "title": "MY2006 OG 9-5 SportCombi rear-floor section and structural reinforcement",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/section-of-rear-floor-5d",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory MY2006 or MY2008 source as titled; applications are limited to the documented year/body/engine/market unless separately verified. No rust frequency or actual inspected car reported."
+    },
+    {
+      "id": "rustgate-src-002",
+      "title": "MY2006 OG 9-5 rear subframe captive nut piece via floor access",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/nut-piece-rear-subframe",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory MY2006 or MY2008 source as titled; applications are limited to the documented year/body/engine/market unless separately verified. No rust frequency or actual inspected car reported."
+    },
+    {
+      "id": "rustgate-src-003",
+      "title": "MY2006 OG 9-5 part of rear frame member sectioning boundary",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/part-of-rear-frame-member",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory MY2006 or MY2008 source as titled; applications are limited to the documented year/body/engine/market unless separately verified. No rust frequency or actual inspected car reported."
+    },
+    {
+      "id": "rustgate-src-004",
+      "title": "MY2006 OG 9-5 SportCombi side panel partial repair and reinforced C pillar",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/side-panel-5d-part-of-side-panel",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory MY2006 or MY2008 source as titled; applications are limited to the documented year/body/engine/market unless separately verified. No rust frequency or actual inspected car reported."
+    },
+    {
+      "id": "rustgate-src-005",
+      "title": "MY2006 OG 9-5 rear subframe support arm bush service",
+      "url": "https://saabwisonline.com/9-5-9600/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/bush-support-arm",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory MY2006 or MY2008 source as titled; applications are limited to the documented year/body/engine/market unless separately verified. No rust frequency or actual inspected car reported."
+    },
+    {
+      "id": "rustgate-src-006",
+      "title": "MY2006 OG 9-5 lifting and excluded rear axle/spare-wheel well",
+      "url": "https://saabwisonline.com/9-5-9600/2006/8-body/body/technical-data/lifting-and-attachment-points",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory MY2006 or MY2008 source as titled; applications are limited to the documented year/body/engine/market unless separately verified. No rust frequency or actual inspected car reported."
+    },
+    {
+      "id": "rustgate-src-007",
+      "title": "MY2008 OG 9-5 US fuel tank and feed/return/vent service safeguards",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/fuel-system-petrol/adjustment-replacement/fuel-tank-us-incl-e85",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory MY2006 or MY2008 source as titled; applications are limited to the documented year/body/engine/market unless separately verified. No rust frequency or actual inspected car reported."
+    },
+    {
+      "id": "rustgate-src-008",
+      "title": "MY2006 NG 9-3 rear subframe removal with brake/harness/parking cables",
+      "url": "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/subframe",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory MY2006 or MY2008 source as titled; applications are limited to the documented year/body/engine/market unless separately verified. No rust frequency or actual inspected car reported."
+    },
+    {
+      "id": "rustgate-src-009",
+      "title": "MY2006 NG 9-3 convertible structural inner sill repair",
+      "url": "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/inner-sill-cv",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory original CV/convertible panel procedure, not a universal sedan or wagon repair approval."
+    },
+    {
+      "id": "rustgate-src-010",
+      "title": "MY2006 NG 9-3 B207 fuel tank and fuel-line check",
+      "url": "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/fuel-system/adjustment-replacement/fuel-tank-and-fuel-lines-check",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory MY2006 or MY2008 source as titled; applications are limited to the documented year/body/engine/market unless separately verified. No rust frequency or actual inspected car reported."
+    },
+    {
+      "id": "rustgate-src-011",
+      "title": "MY2006 NG 9-3 B207 fuel line underbody route / subframe clearance",
+      "url": "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/fuel-system/adjustment-replacement/fuel-lines-tank-engine-bay",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory MY2006 or MY2008 source as titled; applications are limited to the documented year/body/engine/market unless separately verified. No rust frequency or actual inspected car reported."
+    },
+    {
+      "id": "rustgate-src-012",
+      "title": "New York DMV passenger vehicle safety, chassis, brake and fuel leak inspection standards",
+      "url": "https://dmv.ny.gov/new-york-state-vehicle-safetyemissions-inspection-program",
+      "source_type": "technical_reference",
+      "publisher": "New York State Department of Motor Vehicles",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Official current NY DMV general passenger-car inspection guide; not a Saab factory body corrosion gauge or a complete inspector's legal manual."
+    },
+    {
+      "id": "rustgate-src-013",
+      "title": "MY2006 OG 9-5 front subframe petrol engine assembly and body-mount dependencies",
+      "url": "https://saabwisonline.com/9-5-9600/2006/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-petrol-engines",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory MY2006 or MY2008 source as titled; applications are limited to the documented year/body/engine/market unless separately verified. No rust frequency or actual inspected car reported."
+    },
+    {
+      "id": "rustgate-src-014",
+      "title": "MY2006 NG 9-3 convertible centre sill repair and corrosion protection",
+      "url": "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/adjustment-replacement/centre-sill-cv",
+      "source_type": "factory_manual",
+      "publisher": "Saab Automobile AB factory WIS documentation mirrored on SaabWISOnline",
+      "accessed_at": "2026-10-13",
+      "retrieval": "full_text",
+      "notes": "Factory MY2006 or MY2008 source as titled; applications are limited to the documented year/body/engine/market unless separately verified. No rust frequency or actual inspected car reported."
+    }
+  ],
+  "facts": [
+    {
+      "id": "rustgate-fact-001",
+      "subject": "9-5 5D rear cargo floor",
+      "predicate": "wagon_rear_floor_attaches_to_frame_and_crossmember",
+      "value": [
+        "luggage floor reinforcement",
+        "frame members",
+        "crossmember",
+        "rear wheelhouses",
+        "rear bumper abutment"
+      ],
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "5D"
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Removal steps 1–8",
+      "notes": "Factory assembly/repair topology not a claim that all those areas are rusty."
+    },
+    {
+      "id": "rustgate-fact-002",
+      "subject": "9-5 5D rear cargo floor",
+      "predicate": "wagon_rear_floor_approved_section_method",
+      "value": {
+        "cut_from_crossmember_mm": 50,
+        "requires": [
+          "alignment bench as needed",
+          "plug and seam welds",
+          "restore primer/seam/PVC/cavity treatment"
+        ]
+      },
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "5D"
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Removal step 7; fitting 1–18",
+      "notes": "50 mm is a section repair cut placement in manufacturer's procedure, NOT an acceptable corrosion depth or a DIY measure."
+    },
+    {
+      "id": "rustgate-fact-003",
+      "subject": "9-5 5D rear cargo floor",
+      "predicate": "wagon_rear_floor_MIG_brazed_joint_rule",
+      "value": "If original joint is MIG brazed, conventional welding/filler is prohibited: restore MIG brazing for crash performance.",
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "5D"
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Important; removal and fitting warnings",
+      "notes": "Professional structural repair boundary. Do not tell a buyer to weld underbody patches using an ordinary welder."
+    },
+    {
+      "id": "rustgate-fact-004",
+      "subject": "9-5 rear subframe-to-body captive nut",
+      "predicate": "rear_subframe_mount_nut_floor_access",
+      "value": {
+        "access": "interior floor through designated marked opening",
+        "hole_saw_mm": 35,
+        "closing_plug_historic": "43 33 498",
+        "finish": "anti-corrosion coat on hole edge"
+      },
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-002"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Removing 1–4; fitting 1–4",
+      "notes": "This is a repair for a captive nut, not a procedure that permits rust-thinned adjacent load-bearing metal or makes a subframe bolt safe to torque in rotten floor."
+    },
+    {
+      "id": "rustgate-fact-005",
+      "subject": "9-5 rear frame member",
+      "predicate": "rear_frame_member_partial_repair_cut_boundary",
+      "value": "Only cut/join behind illustrated marking; if damaged farther forward renew complete frame member and measure alignment.",
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-003"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Important; fitting steps 1–10",
+      "notes": "No numeric rust depth or universally acceptable sectioning location is established without the original illustration."
+    },
+    {
+      "id": "rustgate-fact-006",
+      "subject": "9-5 5D C-pillar and side panel",
+      "predicate": "wagon_C_pillar_reinforcement_protected",
+      "value": "Partial side-panel procedure warns cutting outside factory point risks damaging inner C-pillar reinforcement; restore MIG brazing where present.",
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "5D"
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-004"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Removing and fitting warnings",
+      "notes": "Side/rear wheelhouse or sill corrosion beneath visible skin requires reinforcement evaluation; not proof of frequent rust."
+    },
+    {
+      "id": "rustgate-fact-007",
+      "subject": "9-5 rear suspension mounting",
+      "predicate": "rear_subframe_bush_service_separate_from_body_mount",
+      "value": {
+        "service": "subframe lowered one side to press out/in bushing",
+        "mount_torque": "90 Nm +60 degrees",
+        "recheck": "rear toe-in alignment",
+        "safety": "tighten some transverse link joints at ground ride height"
+      },
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Removal 1–8; refit 1–10",
+      "notes": "Bushing repairable does not imply rear subframe or body anchor corrosion safely repairable or same assembly across years."
+    },
+    {
+      "id": "rustgate-fact-008",
+      "subject": "9-5 lifting positions",
+      "predicate": "OG95_lift_points_allowed",
+      "value": {
+        "front": "front subframe at front towing-eye mounting",
+        "side": "jack brackets below scuff members",
+        "rear": "rear towing eye or towbar mount"
+      },
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Technical data points A/B/C",
+      "notes": "Only when lift points themselves are intact; never assume corroded jack pad can carry a car."
+    },
+    {
+      "id": "rustgate-fact-009",
+      "subject": "9-5 lifting positions",
+      "predicate": "OG95_rear_axle_spare_well_lifting_forbidden",
+      "value": [
+        "rear axle",
+        "spare wheel well"
+      ],
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-006"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Important: excluded locations",
+      "notes": "Avoid undercar access beneath a vehicle with uncertain support structure; use an inspected professional lift."
+    },
+    {
+      "id": "rustgate-fact-010",
+      "subject": "9-5 petrol fuel system",
+      "predicate": "MY2008_US_fuel_tank_adjacent_exhaust_handbrake_feeds",
+      "value": {
+        "relationships": [
+          "rear exhaust removed for tank service",
+          "handbrake cable straps/grooves",
+          "fuel feed and return lines",
+          "tank bleeder line",
+          "tank mounting straps",
+          "front tank heat shield"
+        ],
+        "market": "US"
+      },
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US"
+        ],
+        "engine_codes": [
+          "petrol"
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove 3–14; To fit 1–13",
+      "notes": "Inspection map for lines, clips, shields, straps, leaks around body rear underfloor, not permission to lower a rusted tank at home."
+    },
+    {
+      "id": "rustgate-fact-011",
+      "subject": "9-5 petrol fuel system",
+      "predicate": "MY2008_US_filler_pipe_rubber_hoses_replace_during_removal",
+      "value": "Saab requires new rubber hoses between filler and tank on refit because repeat clip tightening can cause cracking and fuel leaks.",
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2008
+        ],
+        "markets": [
+          "US"
+        ],
+        "engine_codes": [
+          "petrol"
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-007"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To fit Important warning",
+      "notes": "Only when actually performing documented tank removal. Do not infer fuel-line replacement needed without damage."
+    },
+    {
+      "id": "rustgate-fact-012",
+      "subject": "9-3 rear subframe 2006",
+      "predicate": "NG93_rear_subframe_dependent_safety_components",
+      "value": [
+        "brake calipers and pipes",
+        "parking brake cables and clamps",
+        "rear electrical harness",
+        "exhaust",
+        "rear coil springs",
+        "body mounts"
+      ],
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Removal steps 1–15; refit 1–20",
+      "notes": "A rusted subframe repair budget needs adjacent safety-line/harness inspection; NOT proof that these parts are already defective."
+    },
+    {
+      "id": "rustgate-fact-013",
+      "subject": "9-3 rear subframe 2006",
+      "predicate": "NG93_convertible_extra_rear_chassis_reinforcement",
+      "value": "CV only: rear chassis reinforcement is removed/refitted as part of rear subframe service; sedan/5D no such step in this procedure.",
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "CV"
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-008"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove 11; to fit 4",
+      "notes": "Convertible structural complexity differs, so donor rear suspension/repair scope must be verified per body."
+    },
+    {
+      "id": "rustgate-fact-014",
+      "subject": "9-3 convertible structural sill",
+      "predicate": "NG93_CV_inner_sill_multiple_panels_reinforcement",
+      "value": "Factory inner sill replacement involves aligning bench, outer front sill, centre sill, side panel, spot/plug welding and cavity treatment.",
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "CV"
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-009"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Steps 1–27",
+      "notes": "Rust in structural convertible sill is not a simple cosmetic patch or an automatic acceptable first DIY welding job."
+    },
+    {
+      "id": "rustgate-fact-015",
+      "subject": "9-3 B207 fuel tank and pipes",
+      "predicate": "NG93_B207_fuel_route_inspection",
+      "value": "Inspect under car AND engine bay: fuel tank, lines, quick-release couplings for damage/leaks, and secure line mounts.",
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "4-cylinder petrol"
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-010"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Checks and Important",
+      "notes": "Factory does not give a universal allowable fuel-line corrosion thickness; damage/leaks/sagging lines require a safe qualified assessment."
+    },
+    {
+      "id": "rustgate-fact-016",
+      "subject": "9-3 B207 fuel/underbody pipe routing",
+      "predicate": "NG93_B207_fuel_lines_brake_pipes_front_subframe_share_route",
+      "value": "To replace fuel lines, the factory lowers rear of front subframe and unclips fuel lines and nearby brake pipes from holders; warns against brake pipe damage.",
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-011"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Steps 19–36",
+      "notes": "This is a direct reason to examine mounting clips and adjacent lines when inspecting rusted subframes; not routine DIY permission to lower frame."
+    },
+    {
+      "id": "rustgate-fact-017",
+      "subject": "NYS passenger vehicle inspection",
+      "predicate": "NYS_chassis_frame_inspection_criteria",
+      "value": {
+        "look_for": [
+          "breaks",
+          "cracks",
+          "severe rust at suspension attachment points"
+        ],
+        "applies": "cars and light trucks in NY"
+      },
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "markets": [
+          "NY, USA"
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Safety items: Steering Front End Suspension Chassis Frame",
+      "notes": "Legal-state specific screening criteria, not a manufacturer source for numeric Saab body corrosion threshold; station inspection decides compliance."
+    },
+    {
+      "id": "rustgate-fact-018",
+      "subject": "NYS passenger vehicle inspection",
+      "predicate": "NYS_brake_fuel_inspection_criteria",
+      "value": {
+        "brake_lines": [
+          "leaks",
+          "cracks",
+          "chafing",
+          "restrictions",
+          "improper support"
+        ],
+        "fuel": "any leak causing dripping or pooling unacceptable"
+      },
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "markets": [
+          "NY, USA"
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Safety items: Brakes and Fuel Leaks",
+      "notes": "Does not mean a no-drip line with severe corrosion or structurally loose clip is safe."
+    },
+    {
+      "id": "rustgate-fact-019",
+      "subject": "NYS passenger vehicle inspection",
+      "predicate": "NYS_annual_inspection_and_independent_repair",
+      "value": {
+        "frequency_months": 12,
+        "who": "licensed inspection station certified inspector",
+        "repairs": "may repair elsewhere or yourself but must pass before inspection sticker"
+      },
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "markets": [
+          "NY, USA"
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-012"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "NYS Vehicle Inspection Requirements",
+      "notes": "Car must also be safe whenever driven; annual inspection alone is not future structural soundness warranty."
+    },
+    {
+      "id": "rustgate-fact-020",
+      "subject": "9-5 front subframe MY2006 petrol",
+      "predicate": "OG95_front_subframe_nonisolated_components",
+      "value": [
+        "steering gear",
+        "front suspension arms",
+        "power steering cooling lines",
+        "air conditioning pipe brackets",
+        "radiator mounts",
+        "gearbox torque arm",
+        "engine pads"
+      ],
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E",
+          "B235R"
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-013"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "To remove 1–20; To fit 1–24",
+      "notes": "The removed frame supports multiple systems; inspect adjacent body rails and line mounts before pricing a replacement."
+    },
+    {
+      "id": "rustgate-fact-021",
+      "subject": "9-3 convertible centre sill",
+      "predicate": "NG93_CV_centre_sill_protection",
+      "value": "Factory replacement requires alignment/cross measurement if necessary, removal of adjoining panels, controlled spot/plug welding, primer, seam sealing and cavity protection.",
+      "category": "inspection",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "CV"
+        ]
+      },
+      "source_ids": [
+        "rustgate-src-014"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "Procedure 1–16",
+      "notes": "Do not treat under-plastic outer sill appearance as a structural safety verdict."
+    }
+  ],
+  "issues": [
+    {
+      "id": "rustgate-issue-001",
+      "title": "Original 9-5 SportCombi rear subframe rust requires mounting-metal and rear-floor inspection",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "5D"
+        ]
+      },
+      "cause": "WIS separately documents body captive nuts, rear frame member section boundaries, welded wagon rear floor/reinforcement, and suspension subframe bushes; these are mechanically distinct repair paths.",
+      "symptoms": [
+        "rear subframe visibly rusted or reported unsafe",
+        "flaking around rear suspension fasteners or body captive-nut mount",
+        "corrosion in wagon rear wheelhouse/rear-floor seams"
+      ],
+      "diagnosis_summary": "On a known-safe professional lift, separately inspect rear subframe tube/arms, bushes, captive nut seats and surrounding floor, rear frame members, sill/wheelhouse, brake and fuel pipes, with photos and shop assessment of sectioning/geometry if suspect.",
+      "correction_summary": "Replace only verified serviceable bolt-on components when structurally sound body anchors are confirmed. Escalate thinning/cracks near frame members or suspension mounts for qualified structural estimate; unknown mount integrity blocks purchase-safety clearance.",
+      "source_ids": [
+        "rustgate-src-001",
+        "rustgate-src-002",
+        "rustgate-src-003",
+        "rustgate-src-004",
+        "rustgate-src-005",
+        "rustgate-src-006"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "MY2006 factory procedure is NOT independently proven to cover the exact MY2008 wagon in question.",
+        "No numeric Saab rust-depth rejection threshold or failure frequency.",
+        "A repair procedure is not evidence it is inexpensive, safe with weakened body metal, or straightforward DIY."
+      ]
+    },
+    {
+      "id": "rustgate-issue-002",
+      "title": "NG9-3 convertible hidden sill and rear subframe require different structural approach",
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2006
+        ],
+        "body_styles": [
+          "CV"
+        ]
+      },
+      "cause": "Convertible sill/floor reinforcements and a rear chassis reinforcement require structural alignment and special joining; rear subframe service touches multiple safety systems.",
+      "symptoms": [
+        "soft/jacked sill or damage under sill cover",
+        "rust around rear frame mounting bushes",
+        "distorted door aperture on convertible"
+      ],
+      "diagnosis_summary": "Record photos of the inner/centre/outer sill and junctions, roofless chassis reinforcements, rear subframe body bolts, adjacent lines and lifting integrity; qualified body inspection is needed for any suspected load-bearing loss.",
+      "correction_summary": "Factory describes complex structural repairs, but approval to repair depends on confirmed material/geometry and capable specialist. Do not use sedan reinforcement plan or cosmetic patch as substitute.",
+      "source_ids": [
+        "rustgate-src-008",
+        "rustgate-src-009",
+        "rustgate-src-014"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "MY2006 CV procedures not an all-year 9440 collision-repair blanket approval.",
+        "No penetrative inspection, thickness measurement, repair quote or car photos reviewed."
+      ]
+    },
+    {
+      "id": "rustgate-issue-003",
+      "title": "Brake/fuel pipe and chassis corrosion is an independent no-drive screening condition in NY",
+      "applicability": {
+        "markets": [
+          "NY, USA"
+        ]
+      },
+      "cause": "NYS DMV examines chassis/frame cracks and severe rust at suspension attachment points, brake lines for leaks/chafing/support, and fuel leaks causing drips/pooling. WIS shows fuel/handbrake/exhaust routing near subframes.",
+      "symptoms": [
+        "wet fuel pipes/tank/filler hose",
+        "brake lines cracked, chafed or unsupported",
+        "severe rust or cracking at suspension pickup"
+      ],
+      "diagnosis_summary": "Without driving or unsafe lifting, document visible indications; have a certified NYS inspection station or suitable specialist evaluate suspension attachment metal and brake/fuel routing. Stop if any leak or severe structural question remains.",
+      "correction_summary": "Repair proven hydraulic/fuel/structural defects to applicable factory procedures; re-inspect. Do not issue an inspection pass, legal guarantee or structural thickness approval from photos alone.",
+      "source_ids": [
+        "rustgate-src-007",
+        "rustgate-src-010",
+        "rustgate-src-011",
+        "rustgate-src-012"
+      ],
+      "evidence_status": "documented",
+      "limits": [
+        "NYS page describes minimum inspection checklist, not a complete vehicle engineering study.",
+        "A car might pass minimum inspection yet have costly corrosion outside the limited zones.",
+        "No observed vehicle data or measured leakage."
+      ]
+    }
+  ],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "rustgate-gap-001",
+      "title": "MY2008 OG9-5 wagon factory rear floor/subframe body applicability",
+      "missing_inputs": [
+        "Independently verify MY2008 wagon specific floor and suspension subframe frame mounting and part changes; current deep repair sources are MY2006."
+      ],
+      "reason": "Source-specific factory repair or regulation does not prove any particular vehicle's load-bearing integrity, allowable corrosion or justified DIY cost.",
+      "source_ids": [
+        "rustgate-src-001",
+        "rustgate-src-002",
+        "rustgate-src-003",
+        "rustgate-src-005"
+      ]
+    },
+    {
+      "id": "rustgate-gap-002",
+      "title": "Actual OG9-5 rear subframe assembly and anchorage condition",
+      "missing_inputs": [
+        "Need real inspected photos, lift-safe structural exam, subframe tube condition, bolt holes and intact body mount metal, shop assessment and repair quote."
+      ],
+      "reason": "Source-specific factory repair or regulation does not prove any particular vehicle's load-bearing integrity, allowable corrosion or justified DIY cost.",
+      "source_ids": [
+        "rustgate-src-002",
+        "rustgate-src-005",
+        "rustgate-src-006"
+      ]
+    },
+    {
+      "id": "rustgate-gap-003",
+      "title": "Factory quantitative allowable corrosion at loaded joints",
+      "missing_inputs": [
+        "No first-party Saab corrosion thickness/pitting acceptance; NYS severe rust criteria qualitative. Qualified inspection required, never invent millimetres."
+      ],
+      "reason": "Source-specific factory repair or regulation does not prove any particular vehicle's load-bearing integrity, allowable corrosion or justified DIY cost.",
+      "source_ids": [
+        "rustgate-src-003",
+        "rustgate-src-012"
+      ]
+    },
+    {
+      "id": "rustgate-gap-004",
+      "title": "Complete petrol fuel/brake pipe routing and clip inventory across both models",
+      "missing_inputs": [
+        "2008 US OG9-5 tank and 2006 NG9-3 B207 underfloor guides are partial; full body-type line diagram and exact part ID pending."
+      ],
+      "reason": "Source-specific factory repair or regulation does not prove any particular vehicle's load-bearing integrity, allowable corrosion or justified DIY cost.",
+      "source_ids": [
+        "rustgate-src-007",
+        "rustgate-src-010",
+        "rustgate-src-011"
+      ]
+    },
+    {
+      "id": "rustgate-gap-005",
+      "title": "NG9-3 sedan/SportCombi/CV separate rear floor and subframe geometry",
+      "missing_inputs": [
+        "2006 CV reinforcement and inner sill are documented but no full 4D/5D/CV structure mapping or actual original-revision comparison."
+      ],
+      "reason": "Source-specific factory repair or regulation does not prove any particular vehicle's load-bearing integrity, allowable corrosion or justified DIY cost.",
+      "source_ids": [
+        "rustgate-src-008",
+        "rustgate-src-009",
+        "rustgate-src-014"
+      ]
+    },
+    {
+      "id": "rustgate-gap-006",
+      "title": "Safe lifting on heavily corroded support points",
+      "missing_inputs": [
+        "Original approved lifting positions presuppose structurally sound mount/jacking metal, which cannot be confirmed from listing pictures."
+      ],
+      "reason": "Source-specific factory repair or regulation does not prove any particular vehicle's load-bearing integrity, allowable corrosion or justified DIY cost.",
+      "source_ids": [
+        "rustgate-src-006",
+        "rustgate-src-012"
+      ]
+    },
+    {
+      "id": "rustgate-gap-007",
+      "title": "Corrosion repair bill-of-materials and present-day structural specialists",
+      "missing_inputs": [
+        "No OEM VIN-filtered frame/hardware availability, weld materials approval, geometry verification quotes or validated labor times for rust repairs."
+      ],
+      "reason": "Source-specific factory repair or regulation does not prove any particular vehicle's load-bearing integrity, allowable corrosion or justified DIY cost.",
+      "source_ids": [
+        "rustgate-src-001",
+        "rustgate-src-002",
+        "rustgate-src-003",
+        "rustgate-src-008"
+      ]
+    },
+    {
+      "id": "rustgate-gap-008",
+      "title": "NY actual annual inspection versus structural restoration economics",
+      "missing_inputs": [
+        "NYS summary provides current minimum legal check; individualized certified inspector outcome and qualified collision repair cost do not exist."
+      ],
+      "reason": "Source-specific factory repair or regulation does not prove any particular vehicle's load-bearing integrity, allowable corrosion or justified DIY cost.",
+      "source_ids": [
+        "rustgate-src-012"
+      ]
+    }
+  ]
+}
