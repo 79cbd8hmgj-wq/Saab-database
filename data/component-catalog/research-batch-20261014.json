@@ -1,0 +1,2418 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-14",
+  "batch": "cooling_service_identity_and_ngk_manufacturer_applications",
+  "sources": [
+    {
+      "id": "cat-src-pump95",
+      "url": "https://www.esaabparts.com/saab/parts/93166829",
+      "title": "OG9-5 pump service listing",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Direct page returned loading price/availability; catalogue application is a seller claim."
+    },
+    {
+      "id": "cat-src-screw95",
+      "url": "https://www.esaabparts.com/saab/parts/92151823",
+      "title": "Screw incorrectly listing pump predecessors",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Do not accept pump-number predecessor list as supersession."
+    },
+    {
+      "id": "cat-src-pump-diagram95",
+      "url": "https://www.esaabparts.com/viewparts.php?searchpart=1&section=314395817",
+      "title": "OG9-5 coolant pump diagram and service items",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Retail diagram, not authenticated historical EPC. Preserve serial cutoff and quantity claims."
+    },
+    {
+      "id": "cat-src-graf95",
+      "url": "https://www.esaabparts.com/saab/parts/240636",
+      "title": "GRAF replacement pump seller offering",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Advertised stock, not reserved inventory. OEM alternate price is a secondary display."
+    },
+    {
+      "id": "cat-src-metelli95",
+      "url": "https://www.metelligroup.it/en/Home/ProductDetail?brand=metelli&code=24-0636",
+      "title": "Metelli 24-0636 specifications and references",
+      "publisher": "Metelli Group",
+      "source_type": "manufacturer_datasheet",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Competitor/OE references do not approve original donor assemblies. Includes anomalous Saab screw 92151823."
+    },
+    {
+      "id": "cat-src-wis-pump95",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/coolant-pump-4-cyl",
+      "title": "MY2006 four-cylinder coolant pump procedure",
+      "publisher": "Saab WIS via independent mirror",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Folder MY2006 is procedure context, not a production range or EPC part selection."
+    },
+    {
+      "id": "cat-src-ngk2024",
+      "url": "https://www.tekniwiki.com/fileadmin/emea/catalogues_pdf/4w_spark_and_glow_2024_web_small.pdf",
+      "title": "Niterra UK 2024 spark-plug application catalogue",
+      "publisher": "Niterra / NGK",
+      "source_type": "manufacturer_datasheet",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Printed pp62,74,75 (PDF pp64,76,77). UK general guidance, not US/CA VIN approval; stock engine only. Source date ranges are calendar months, not model years."
+    }
+  ],
+  "components": [
+    {
+      "id": "cmp:saab_service:93166829:water_pump",
+      "assembly_id": "water_pump",
+      "name": "OG9-5 pump service reference",
+      "number_namespace": "saab_service",
+      "part_number": "93166829",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service:9144767:water_pump_gasket",
+      "assembly_id": "water_pump_gasket",
+      "name": "Pump gasket",
+      "number_namespace": "saab_service",
+      "part_number": "9144767",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service:30551913:water_pump_inlet_seal",
+      "assembly_id": "water_pump_inlet_seal",
+      "name": "Pump inlet O-ring",
+      "number_namespace": "saab_service",
+      "part_number": "30551913",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service:55562943:water_pump_outlet_seals",
+      "assembly_id": "water_pump_outlet_seals",
+      "name": "Pump connector O-ring",
+      "number_namespace": "saab_service",
+      "part_number": "55562943",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service:9173741:water_pump_housing",
+      "assembly_id": "water_pump_housing",
+      "name": "Pump housing",
+      "number_namespace": "saab_service",
+      "part_number": "9173741",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service:55558804:water_pump_pipe",
+      "assembly_id": "water_pump_pipe",
+      "name": "Pump pipe",
+      "number_namespace": "saab_service",
+      "part_number": "55558804",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service:55559406:engine_coolant_pipe",
+      "assembly_id": "engine_coolant_pipe",
+      "name": "Coolant pipe",
+      "number_namespace": "saab_service",
+      "part_number": "55559406",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service:55559405:engine_coolant_pipe",
+      "assembly_id": "engine_coolant_pipe",
+      "name": "Earlier coolant pipe",
+      "number_namespace": "saab_service",
+      "part_number": "55559405",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service:55566450:engine_coolant_pipe",
+      "assembly_id": "engine_coolant_pipe",
+      "name": "Later coolant pipe",
+      "number_namespace": "saab_service",
+      "part_number": "55566450",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service:92151823:structural_fasteners",
+      "assembly_id": "structural_fasteners",
+      "name": "Pump-area screw (not a pump)",
+      "number_namespace": "saab_service",
+      "part_number": "92151823",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service:11900354:structural_fasteners",
+      "assembly_id": "structural_fasteners",
+      "name": "Coolant pump service screw",
+      "number_namespace": "saab_service",
+      "part_number": "11900354",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service:11900353:structural_fasteners",
+      "assembly_id": "structural_fasteners",
+      "name": "Coolant pipe service screw",
+      "number_namespace": "saab_service",
+      "part_number": "11900353",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service:11900367:structural_fasteners",
+      "assembly_id": "structural_fasteners",
+      "name": "Coolant pump service screw",
+      "number_namespace": "saab_service",
+      "part_number": "11900367",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:esaabparts_sku:9991913:water_pump_inlet_seal",
+      "assembly_id": "water_pump_inlet_seal",
+      "name": "Advertised Viton seal alternative",
+      "number_namespace": "esaabparts_sku",
+      "part_number": "9991913",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:esaabparts_sku:9992943:water_pump_outlet_seals",
+      "assembly_id": "water_pump_outlet_seals",
+      "name": "Advertised Viton seal alternative",
+      "number_namespace": "esaabparts_sku",
+      "part_number": "9992943",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:graf_seller_sku:240636:water_pump",
+      "assembly_id": "water_pump",
+      "name": "GRAF pump sold under retailer SKU",
+      "number_namespace": "graf_seller_sku",
+      "part_number": "240636",
+      "marketed_brand": "GRAF",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-graf95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:metelli:24-0636:water_pump",
+      "assembly_id": "water_pump",
+      "name": "Metelli replacement pump",
+      "number_namespace": "metelli",
+      "part_number": "24-0636",
+      "marketed_brand": "Metelli",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "manufacturer_catalog_identity",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:acdelco:252-659:water_pump",
+      "assembly_id": "water_pump",
+      "name": "Water pump competitor reference",
+      "number_namespace": "acdelco",
+      "part_number": "252-659",
+      "marketed_brand": "ACDelco",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:aisin:we-sa01:water_pump",
+      "assembly_id": "water_pump",
+      "name": "Water pump competitor reference",
+      "number_namespace": "aisin",
+      "part_number": "WE-SA01",
+      "marketed_brand": "Aisin",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:bosch:98185:water_pump",
+      "assembly_id": "water_pump",
+      "name": "Water pump competitor reference",
+      "number_namespace": "bosch",
+      "part_number": "98185",
+      "marketed_brand": "Bosch",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:delphi:wp1813:water_pump",
+      "assembly_id": "water_pump",
+      "name": "Water pump competitor reference",
+      "number_namespace": "delphi",
+      "part_number": "WP1813",
+      "marketed_brand": "Delphi",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:delphi:wp2294:water_pump",
+      "assembly_id": "water_pump",
+      "name": "Water pump competitor reference",
+      "number_namespace": "delphi",
+      "part_number": "WP2294",
+      "marketed_brand": "Delphi",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:gates:wp0258:water_pump",
+      "assembly_id": "water_pump",
+      "name": "Water pump competitor reference",
+      "number_namespace": "gates",
+      "part_number": "WP0258",
+      "marketed_brand": "Gates",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:hepu:p606:water_pump",
+      "assembly_id": "water_pump",
+      "name": "Water pump competitor reference",
+      "number_namespace": "hepu",
+      "part_number": "P606",
+      "marketed_brand": "HEPU",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:ina:538049310:water_pump",
+      "assembly_id": "water_pump",
+      "name": "Water pump competitor reference",
+      "number_namespace": "ina",
+      "part_number": "538049310",
+      "marketed_brand": "INA",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:skf:vkpc86630:water_pump",
+      "assembly_id": "water_pump",
+      "name": "Water pump competitor reference",
+      "number_namespace": "skf",
+      "part_number": "VKPC86630",
+      "marketed_brand": "SKF",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:valeo:506526:water_pump",
+      "assembly_id": "water_pump",
+      "name": "Water pump competitor reference",
+      "number_namespace": "valeo",
+      "part_number": "506526",
+      "marketed_brand": "Valeo",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:renault_oe_reference:7701466850:water_pump",
+      "assembly_id": "water_pump",
+      "name": "Renault OEM-number reference only",
+      "number_namespace": "renault_oe_reference",
+      "part_number": "7701466850",
+      "marketed_brand": "Renault",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:renault_oe_reference:7701468802:water_pump",
+      "assembly_id": "water_pump",
+      "name": "Renault OEM-number reference only",
+      "number_namespace": "renault_oe_reference",
+      "part_number": "7701468802",
+      "marketed_brand": "Renault",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:ngk:pfr6t-10g:spark_plugs",
+      "assembly_id": "spark_plugs",
+      "name": "NGK spark plug",
+      "number_namespace": "ngk",
+      "part_number": "PFR6T-10G",
+      "marketed_brand": "NGK",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "manufacturer_catalog_identity",
+      "source_ids": [
+        "cat-src-ngk2024"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:ngk:bcpr6es-11:spark_plugs",
+      "assembly_id": "spark_plugs",
+      "name": "NGK spark plug",
+      "number_namespace": "ngk",
+      "part_number": "BCPR6ES-11",
+      "marketed_brand": "NGK",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "manufacturer_catalog_identity",
+      "source_ids": [
+        "cat-src-ngk2024"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:ngk:pfr6h-10:spark_plugs",
+      "assembly_id": "spark_plugs",
+      "name": "NGK spark plug",
+      "number_namespace": "ngk",
+      "part_number": "PFR6H-10",
+      "marketed_brand": "NGK",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "manufacturer_catalog_identity",
+      "source_ids": [
+        "cat-src-ngk2024"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:ngk:bcpr6eix-11:spark_plugs",
+      "assembly_id": "spark_plugs",
+      "name": "NGK spark plug",
+      "number_namespace": "ngk",
+      "part_number": "BCPR6EIX-11",
+      "marketed_brand": "NGK",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "manufacturer_catalog_identity",
+      "source_ids": [
+        "cat-src-ngk2024"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    }
+  ],
+  "applications": [
+    {
+      "id": "app:new:1",
+      "component_id": "cmp:saab_service:93166829:water_pump",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump95"
+      ],
+      "conditions": [],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:2",
+      "component_id": "cmp:saab_service:9144767:water_pump_gasket",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "conditions": [
+        "Seller quantity 1; confirm exact joint and VIN in EPC."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:3",
+      "component_id": "cmp:saab_service:30551913:water_pump_inlet_seal",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "conditions": [
+        "Seller quantity 1; confirm exact joint and VIN in EPC."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:4",
+      "component_id": "cmp:saab_service:55562943:water_pump_outlet_seals",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "conditions": [
+        "Seller quantity 2; confirm exact joint and VIN in EPC."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:5",
+      "component_id": "cmp:saab_service:9173741:water_pump_housing",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "conditions": [
+        "Seller quantity 1; confirm exact joint and VIN in EPC."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:6",
+      "component_id": "cmp:saab_service:55558804:water_pump_pipe",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "conditions": [
+        "Seller quantity 1; confirm exact joint and VIN in EPC."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:7",
+      "component_id": "cmp:saab_service:55559406:engine_coolant_pipe",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "conditions": [
+        "Seller quantity 1; confirm exact joint and VIN in EPC."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:8",
+      "component_id": "cmp:saab_service:55559405:engine_coolant_pipe",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "production_restrictions": [
+          {
+            "kind": "engine_serial",
+            "operator": "through",
+            "value": "7016569"
+          }
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "production_restrictions": [
+          {
+            "kind": "engine_serial",
+            "operator": "through",
+            "value": "7016569"
+          }
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "conditions": [
+        "Seller quantity 1; confirm exact joint and VIN in EPC."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:9",
+      "component_id": "cmp:saab_service:55566450:engine_coolant_pipe",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "production_restrictions": [
+          {
+            "kind": "engine_serial",
+            "operator": "from",
+            "value": "7016570"
+          }
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "production_restrictions": [
+          {
+            "kind": "engine_serial",
+            "operator": "from",
+            "value": "7016570"
+          }
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "conditions": [
+        "Seller quantity 1; confirm exact joint and VIN in EPC."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:10",
+      "component_id": "cmp:saab_service:92151823:structural_fasteners",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "conditions": [
+        "Seller quantity 1; confirm exact joint and VIN in EPC."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:11",
+      "component_id": "cmp:saab_service:11900354:structural_fasteners",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "conditions": [
+        "Seller quantity 1; confirm exact joint and VIN in EPC."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:12",
+      "component_id": "cmp:saab_service:11900353:structural_fasteners",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "conditions": [
+        "Seller quantity 1; confirm exact joint and VIN in EPC."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:13",
+      "component_id": "cmp:saab_service:11900367:structural_fasteners",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "conditions": [
+        "Seller quantity 3; confirm exact joint and VIN in EPC."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:14",
+      "component_id": "cmp:graf_seller_sku:240636:water_pump",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-graf95"
+      ],
+      "conditions": [],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:15",
+      "component_id": "cmp:ngk:pfr6t-10g:spark_plugs",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "markets": [
+          "UK"
+        ],
+        "catalog_calendar_date_range": [
+          "2002-05",
+          "2011-06"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "markets": [
+          "UK"
+        ],
+        "catalog_calendar_date_range": [
+          "2002-05",
+          "2011-06"
+        ]
+      },
+      "status": "manufacturer_catalog_identity",
+      "source_ids": [
+        "cat-src-ngk2024"
+      ],
+      "conditions": [
+        "UK catalogue guidance; North American factory plug and ion-sensing requirements take priority."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:16",
+      "component_id": "cmp:ngk:bcpr6es-11:spark_plugs",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ],
+        "markets": [
+          "UK"
+        ],
+        "catalog_calendar_date_range": [
+          "1997-06",
+          "2010-12"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E"
+        ],
+        "markets": [
+          "UK"
+        ],
+        "catalog_calendar_date_range": [
+          "1997-06",
+          "2010-12"
+        ]
+      },
+      "status": "manufacturer_catalog_identity",
+      "source_ids": [
+        "cat-src-ngk2024"
+      ],
+      "conditions": [
+        "UK catalogue guidance; North American factory plug and ion-sensing requirements take priority."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:17",
+      "component_id": "cmp:ngk:pfr6h-10:spark_plugs",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "engine_codes": [
+          "B235L",
+          "B235R"
+        ],
+        "markets": [
+          "UK"
+        ],
+        "catalog_calendar_date_range": [
+          "1999-09",
+          "2010-12"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "engine_codes": [
+          "B235L",
+          "B235R"
+        ],
+        "markets": [
+          "UK"
+        ],
+        "catalog_calendar_date_range": [
+          "1999-09",
+          "2010-12"
+        ]
+      },
+      "status": "manufacturer_catalog_identity",
+      "source_ids": [
+        "cat-src-ngk2024"
+      ],
+      "conditions": [
+        "UK catalogue guidance; North American factory plug and ion-sensing requirements take priority."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:new:18",
+      "component_id": "cmp:ngk:bcpr6eix-11:spark_plugs",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E",
+          "B235L",
+          "B235R"
+        ],
+        "markets": [
+          "UK"
+        ],
+        "catalog_calendar_date_range": [
+          null,
+          null
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "engine_codes": [
+          "B205E",
+          "B235E",
+          "B235L",
+          "B235R"
+        ],
+        "markets": [
+          "UK"
+        ],
+        "catalog_calendar_date_range": [
+          null,
+          null
+        ]
+      },
+      "status": "manufacturer_catalog_identity",
+      "source_ids": [
+        "cat-src-ngk2024"
+      ],
+      "conditions": [
+        "UK catalogue guidance; North American factory plug and ion-sensing requirements take priority."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:ngk:signum",
+      "component_id": "cmp:ngk:pfr6t-10g:spark_plugs",
+      "scope": {
+        "make": "Vauxhall/Opel",
+        "model": "Signum",
+        "engine_codes": [
+          "Z20NET"
+        ],
+        "markets": [
+          "UK"
+        ],
+        "catalog_calendar_date_range": [
+          "2003-03",
+          "2008-10"
+        ]
+      },
+      "raw_scope": null,
+      "status": "manufacturer_catalog_guidance",
+      "source_ids": [
+        "cat-src-ngk2024"
+      ],
+      "conditions": [
+        "Shared NGK service product, not OEM donor proof."
+      ],
+      "vin_approved": false,
+      "application_role": "donor_research_context"
+    },
+    {
+      "id": "app:ngk:vectra-c",
+      "component_id": "cmp:ngk:pfr6t-10g:spark_plugs",
+      "scope": {
+        "make": "Vauxhall/Opel",
+        "model": "Vectra C",
+        "engine_codes": [
+          "Z20NET"
+        ],
+        "markets": [
+          "UK"
+        ],
+        "catalog_calendar_date_range": [
+          "2003-05",
+          "2009-12"
+        ]
+      },
+      "raw_scope": null,
+      "status": "manufacturer_catalog_guidance",
+      "source_ids": [
+        "cat-src-ngk2024"
+      ],
+      "conditions": [
+        "Shared NGK service product, not OEM donor proof."
+      ],
+      "vin_approved": false,
+      "application_role": "donor_research_context"
+    }
+  ],
+  "interchanges": [
+    {
+      "id": "int:seal:9991913",
+      "from_component_id": "cmp:saab_service:30551913:water_pump_inlet_seal",
+      "to_component_id": "cmp:esaabparts_sku:9991913:water_pump_inlet_seal",
+      "category": "E",
+      "relationship": "seller_material_alternative",
+      "identity_basis": "seller_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "conditions": [
+        "Compound, dimensions, hardness and coolant compatibility unverified."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:seal:9992943",
+      "from_component_id": "cmp:saab_service:55562943:water_pump_outlet_seals",
+      "to_component_id": "cmp:esaabparts_sku:9992943:water_pump_outlet_seals",
+      "category": "E",
+      "relationship": "seller_material_alternative",
+      "identity_basis": "seller_claim",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "conditions": [
+        "Compound, dimensions, hardness and coolant compatibility unverified."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:cmp:graf_seller_sku:240636:water_pump",
+      "from_component_id": "cmp:saab_service:93166829:water_pump",
+      "to_component_id": "cmp:graf_seller_sku:240636:water_pump",
+      "category": "E",
+      "relationship": "catalog_replacement_candidate",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-graf95"
+      ],
+      "conditions": [
+        "VIN application, housing/seals and dimensions require independent verification."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:cmp:metelli:24-0636:water_pump",
+      "from_component_id": "cmp:saab_service:93166829:water_pump",
+      "to_component_id": "cmp:metelli:24-0636:water_pump",
+      "category": "E",
+      "relationship": "catalog_replacement_candidate",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "conditions": [
+        "VIN application, housing/seals and dimensions require independent verification."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:metelli:acdelco:252-659",
+      "from_component_id": "cmp:metelli:24-0636:water_pump",
+      "to_component_id": "cmp:acdelco:252-659:water_pump",
+      "category": "E",
+      "relationship": "manufacturer_competitor_reference",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "conditions": [
+        "Referenced maker catalogue, exact Saab application and kit contents not independently checked."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:metelli:aisin:WE-SA01",
+      "from_component_id": "cmp:metelli:24-0636:water_pump",
+      "to_component_id": "cmp:aisin:we-sa01:water_pump",
+      "category": "E",
+      "relationship": "manufacturer_competitor_reference",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "conditions": [
+        "Referenced maker catalogue, exact Saab application and kit contents not independently checked."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:metelli:bosch:98185",
+      "from_component_id": "cmp:metelli:24-0636:water_pump",
+      "to_component_id": "cmp:bosch:98185:water_pump",
+      "category": "E",
+      "relationship": "manufacturer_competitor_reference",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "conditions": [
+        "Referenced maker catalogue, exact Saab application and kit contents not independently checked."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:metelli:delphi:WP1813",
+      "from_component_id": "cmp:metelli:24-0636:water_pump",
+      "to_component_id": "cmp:delphi:wp1813:water_pump",
+      "category": "E",
+      "relationship": "manufacturer_competitor_reference",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "conditions": [
+        "Referenced maker catalogue, exact Saab application and kit contents not independently checked."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:metelli:delphi:WP2294",
+      "from_component_id": "cmp:metelli:24-0636:water_pump",
+      "to_component_id": "cmp:delphi:wp2294:water_pump",
+      "category": "E",
+      "relationship": "manufacturer_competitor_reference",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "conditions": [
+        "Referenced maker catalogue, exact Saab application and kit contents not independently checked."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:metelli:gates:WP0258",
+      "from_component_id": "cmp:metelli:24-0636:water_pump",
+      "to_component_id": "cmp:gates:wp0258:water_pump",
+      "category": "E",
+      "relationship": "manufacturer_competitor_reference",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "conditions": [
+        "Referenced maker catalogue, exact Saab application and kit contents not independently checked."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:metelli:hepu:P606",
+      "from_component_id": "cmp:metelli:24-0636:water_pump",
+      "to_component_id": "cmp:hepu:p606:water_pump",
+      "category": "E",
+      "relationship": "manufacturer_competitor_reference",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "conditions": [
+        "Referenced maker catalogue, exact Saab application and kit contents not independently checked."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:metelli:ina:538049310",
+      "from_component_id": "cmp:metelli:24-0636:water_pump",
+      "to_component_id": "cmp:ina:538049310:water_pump",
+      "category": "E",
+      "relationship": "manufacturer_competitor_reference",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "conditions": [
+        "Referenced maker catalogue, exact Saab application and kit contents not independently checked."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:metelli:skf:VKPC86630",
+      "from_component_id": "cmp:metelli:24-0636:water_pump",
+      "to_component_id": "cmp:skf:vkpc86630:water_pump",
+      "category": "E",
+      "relationship": "manufacturer_competitor_reference",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "conditions": [
+        "Referenced maker catalogue, exact Saab application and kit contents not independently checked."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:metelli:valeo:506526",
+      "from_component_id": "cmp:metelli:24-0636:water_pump",
+      "to_component_id": "cmp:valeo:506526:water_pump",
+      "category": "E",
+      "relationship": "manufacturer_competitor_reference",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "conditions": [
+        "Referenced maker catalogue, exact Saab application and kit contents not independently checked."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:renault:7701466850",
+      "from_component_id": "cmp:metelli:24-0636:water_pump",
+      "to_component_id": "cmp:renault_oe_reference:7701466850:water_pump",
+      "category": "E",
+      "relationship": "manufacturer_oe_reference_only",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "conditions": [
+        "No Renault vehicle application, OEM donor identity or Saab fitment verified."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:renault:7701468802",
+      "from_component_id": "cmp:metelli:24-0636:water_pump",
+      "to_component_id": "cmp:renault_oe_reference:7701468802:water_pump",
+      "category": "E",
+      "relationship": "manufacturer_oe_reference_only",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "conditions": [
+        "No Renault vehicle application, OEM donor identity or Saab fitment verified."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    }
+  ],
+  "specifications": [
+    {
+      "id": "spec:9144767",
+      "component_id": "cmp:saab_service:9144767:water_pump_gasket",
+      "property": "seller_diagram_quantity",
+      "value": 1,
+      "unit": "each",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "status": "supplier_claim"
+    },
+    {
+      "id": "spec:30551913",
+      "component_id": "cmp:saab_service:30551913:water_pump_inlet_seal",
+      "property": "seller_diagram_quantity",
+      "value": 1,
+      "unit": "each",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "status": "supplier_claim"
+    },
+    {
+      "id": "spec:55562943",
+      "component_id": "cmp:saab_service:55562943:water_pump_outlet_seals",
+      "property": "seller_diagram_quantity",
+      "value": 2,
+      "unit": "each",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "status": "supplier_claim"
+    },
+    {
+      "id": "spec:9173741",
+      "component_id": "cmp:saab_service:9173741:water_pump_housing",
+      "property": "seller_diagram_quantity",
+      "value": 1,
+      "unit": "each",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "status": "supplier_claim"
+    },
+    {
+      "id": "spec:55558804",
+      "component_id": "cmp:saab_service:55558804:water_pump_pipe",
+      "property": "seller_diagram_quantity",
+      "value": 1,
+      "unit": "each",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "status": "supplier_claim"
+    },
+    {
+      "id": "spec:55559406",
+      "component_id": "cmp:saab_service:55559406:engine_coolant_pipe",
+      "property": "seller_diagram_quantity",
+      "value": 1,
+      "unit": "each",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "status": "supplier_claim"
+    },
+    {
+      "id": "spec:55559405",
+      "component_id": "cmp:saab_service:55559405:engine_coolant_pipe",
+      "property": "seller_diagram_quantity",
+      "value": 1,
+      "unit": "each",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "status": "supplier_claim"
+    },
+    {
+      "id": "spec:55566450",
+      "component_id": "cmp:saab_service:55566450:engine_coolant_pipe",
+      "property": "seller_diagram_quantity",
+      "value": 1,
+      "unit": "each",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "status": "supplier_claim"
+    },
+    {
+      "id": "spec:92151823",
+      "component_id": "cmp:saab_service:92151823:structural_fasteners",
+      "property": "seller_diagram_quantity",
+      "value": 1,
+      "unit": "each",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "status": "supplier_claim"
+    },
+    {
+      "id": "spec:11900354",
+      "component_id": "cmp:saab_service:11900354:structural_fasteners",
+      "property": "seller_diagram_quantity",
+      "value": 1,
+      "unit": "each",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "status": "supplier_claim"
+    },
+    {
+      "id": "spec:11900353",
+      "component_id": "cmp:saab_service:11900353:structural_fasteners",
+      "property": "seller_diagram_quantity",
+      "value": 1,
+      "unit": "each",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "status": "supplier_claim"
+    },
+    {
+      "id": "spec:11900367",
+      "component_id": "cmp:saab_service:11900367:structural_fasteners",
+      "property": "seller_diagram_quantity",
+      "value": 3,
+      "unit": "each",
+      "source_ids": [
+        "cat-src-pump-diagram95"
+      ],
+      "status": "supplier_claim"
+    },
+    {
+      "id": "spec:metelli:drive",
+      "component_id": "cmp:metelli:24-0636:water_pump",
+      "property": "drive",
+      "value": "auxiliary_belt",
+      "unit": null,
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "status": "manufacturer_claim",
+      "notes": "Dimensions retain unknown units where displayed without explicit units."
+    },
+    {
+      "id": "spec:metelli:impeller_material",
+      "component_id": "cmp:metelli:24-0636:water_pump",
+      "property": "impeller_material",
+      "value": "cast_iron",
+      "unit": null,
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "status": "manufacturer_claim",
+      "notes": "Dimensions retain unknown units where displayed without explicit units."
+    },
+    {
+      "id": "spec:metelli:impeller_blades",
+      "component_id": "cmp:metelli:24-0636:water_pump",
+      "property": "impeller_blades",
+      "value": 8,
+      "unit": "count",
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "status": "manufacturer_claim",
+      "notes": "Dimensions retain unknown units where displayed without explicit units."
+    },
+    {
+      "id": "spec:metelli:bearing",
+      "component_id": "cmp:metelli:24-0636:water_pump",
+      "property": "bearing",
+      "value": "R/B \u00d830mm",
+      "unit": null,
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "status": "manufacturer_claim",
+      "notes": "Dimensions retain unknown units where displayed without explicit units."
+    },
+    {
+      "id": "spec:metelli:pulley_diameter",
+      "component_id": "cmp:metelli:24-0636:water_pump",
+      "property": "pulley_diameter",
+      "value": 131.8,
+      "unit": null,
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "status": "manufacturer_claim",
+      "notes": "Dimensions retain unknown units where displayed without explicit units."
+    },
+    {
+      "id": "spec:metelli:pulley_height",
+      "component_id": "cmp:metelli:24-0636:water_pump",
+      "property": "pulley_height",
+      "value": 21,
+      "unit": null,
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "status": "manufacturer_claim",
+      "notes": "Dimensions retain unknown units where displayed without explicit units."
+    },
+    {
+      "id": "spec:metelli:impeller_outer_diameter",
+      "component_id": "cmp:metelli:24-0636:water_pump",
+      "property": "impeller_outer_diameter",
+      "value": 70,
+      "unit": null,
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "status": "manufacturer_claim",
+      "notes": "Dimensions retain unknown units where displayed without explicit units."
+    },
+    {
+      "id": "spec:metelli:gasket_included",
+      "component_id": "cmp:metelli:24-0636:water_pump",
+      "property": "gasket_included",
+      "value": true,
+      "unit": null,
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "status": "manufacturer_claim",
+      "notes": "Dimensions retain unknown units where displayed without explicit units."
+    },
+    {
+      "id": "spec:metelli:EAN",
+      "component_id": "cmp:metelli:24-0636:water_pump",
+      "property": "EAN",
+      "value": "8032747324684",
+      "unit": null,
+      "source_ids": [
+        "cat-src-metelli95"
+      ],
+      "status": "manufacturer_claim",
+      "notes": "Dimensions retain unknown units where displayed without explicit units."
+    },
+    {
+      "id": "spec:ngk:5542",
+      "component_id": "cmp:ngk:pfr6t-10g:spark_plugs",
+      "property": "manufacturer_stock_number",
+      "value": "5542",
+      "unit": null,
+      "status": "manufacturer_claim",
+      "source_ids": [
+        "cat-src-ngk2024"
+      ]
+    },
+    {
+      "id": "spec:ngk:7121",
+      "component_id": "cmp:ngk:bcpr6es-11:spark_plugs",
+      "property": "manufacturer_stock_number",
+      "value": "7121",
+      "unit": null,
+      "status": "manufacturer_claim",
+      "source_ids": [
+        "cat-src-ngk2024"
+      ]
+    },
+    {
+      "id": "spec:ngk:6290",
+      "component_id": "cmp:ngk:pfr6h-10:spark_plugs",
+      "property": "manufacturer_stock_number",
+      "value": "6290",
+      "unit": null,
+      "status": "manufacturer_claim",
+      "source_ids": [
+        "cat-src-ngk2024"
+      ]
+    },
+    {
+      "id": "spec:ngk:4919",
+      "component_id": "cmp:ngk:bcpr6eix-11:spark_plugs",
+      "property": "manufacturer_stock_number",
+      "value": "4919",
+      "unit": null,
+      "status": "manufacturer_claim",
+      "source_ids": [
+        "cat-src-ngk2024"
+      ]
+    }
+  ],
+  "supplier_offerings": [
+    {
+      "id": "offer:new:cmp:graf_seller_sku:240636:water_pump",
+      "component_id": "cmp:graf_seller_sku:240636:water_pump",
+      "supplier": "eSaabParts",
+      "condition": "new_advertised",
+      "region": "US",
+      "canadian_fulfillment_verified": false,
+      "observed_at": "2026-10-14",
+      "observation_status": "advertised_page_snapshot",
+      "price": 59.96,
+      "currency": "USD",
+      "stock_text": "6 Available",
+      "price_basis": "direct_product_display",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "source_ids": [
+        "cat-src-graf95"
+      ],
+      "checkout_verified": false
+    },
+    {
+      "id": "offer:new:cmp:saab_service:93166829:water_pump",
+      "component_id": "cmp:saab_service:93166829:water_pump",
+      "supplier": "eSaabParts",
+      "condition": "new_advertised",
+      "region": "US",
+      "canadian_fulfillment_verified": false,
+      "observed_at": "2026-10-14",
+      "observation_status": "advertised_page_snapshot",
+      "price": 165.32,
+      "currency": "USD",
+      "stock_text": null,
+      "price_basis": "secondary_alternate_table",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "source_ids": [
+        "cat-src-graf95"
+      ],
+      "checkout_verified": false
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "conflict:pump-screw-92151823",
+      "status": "quarantined",
+      "component_ids": [
+        "cmp:saab_service:93166829:water_pump",
+        "cmp:saab_service:92151823:structural_fasteners",
+        "cmp:metelli:24-0636:water_pump"
+      ],
+      "source_ids": [
+        "cat-src-pump-diagram95",
+        "cat-src-screw95",
+        "cat-src-metelli95"
+      ],
+      "claim": "Retailer predecessor list and Metelli pump references include screw 92151823.",
+      "counterevidence": "Retail diagram separates pump callout 1 from screw callout 7.",
+      "blocked_relationships": [
+        "pump_supersession_to_92151823",
+        "pump_interchange_to_92151823"
+      ],
+      "resolution_needed": [
+        "Authenticated Saab EPC supersession and original manufacturer clarification."
+      ]
+    },
+    {
+      "id": "conflict:ngk-t7-factory-plug",
+      "status": "unresolved",
+      "component_ids": [
+        "cmp:ngk:bcpr6es-11:spark_plugs",
+        "cmp:ngk:pfr6h-10:spark_plugs"
+      ],
+      "source_ids": [
+        "cat-src-ngk2024"
+      ],
+      "legacy_gap_search": "MY2005 generic WIS versus US/CA owner manual spark plug specification",
+      "claim": "NGK UK engine-specific listings do not resolve existing North American WIS/owner-manual conflict.",
+      "counterevidence": "Preserve the existing documented conflict; do not make one plug universal.",
+      "blocked_relationships": [
+        "universal_t7_plug_approval"
+      ],
+      "resolution_needed": [
+        "Market/calibration-specific factory plug documentation."
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "id": "procedure:og95-pump-my2006",
+      "assembly_ids": [
+        "water_pump",
+        "water_pump_inlet_seal",
+        "water_pump_outlet_seals"
+      ],
+      "source_ids": [
+        "cat-src-wis-pump95"
+      ],
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2006
+        ],
+        "engine_codes": [
+          "four_cylinder"
+        ]
+      },
+      "procedure_context_only": true,
+      "summary": "Belt, intake/plumbing and power-steering-pump access; inspect connector seals and replace bypass O-ring; refill and check leaks.",
+      "special_tools": [
+        {
+          "number": "8395254",
+          "name": "Hydraulic belt tensioner drawbar handle"
+        }
+      ],
+      "required_consumables": [
+        "Correct coolant",
+        "Connector seal lubricant specified by WIS",
+        "Bypass O-ring",
+        "Pump gasket and inspected connector seals"
+      ],
+      "programming_required": false,
+      "labor_hours": null,
+      "operations": [
+        {
+          "joint": "pump",
+          "torque_nm": 22
+        },
+        {
+          "joint": "turbo coolant banjo",
+          "torque_nm": 25
+        },
+        {
+          "joint": "pump coolant banjo",
+          "torque_nm": 20
+        },
+        {
+          "joint": "longitudinal pipe",
+          "torque_nm": 10
+        }
+      ],
+      "diy_feasibility": "experienced_home_mechanic_after_exact_vehicle_procedure_selection",
+      "professional_feasibility": "normal_shop_service",
+      "collateral_damage": [
+        "Overheating requires separate engine diagnosis; pump replacement cannot cure head/bearing damage."
+      ]
+    }
+  ],
+  "repair_scenarios": [
+    {
+      "id": "repair:og95-pump",
+      "procedure_id": "procedure:og95-pump-my2006",
+      "assembly_ids": [
+        "water_pump"
+      ],
+      "component_ids": [
+        "cmp:saab_service:93166829:water_pump",
+        "cmp:graf_seller_sku:240636:water_pump"
+      ],
+      "source_ids": [
+        "cat-src-wis-pump95",
+        "cat-src-graf95"
+      ],
+      "parts_bill": [
+        {
+          "role": "pump alternatives, choose one",
+          "component_ids": [
+            "cmp:saab_service:93166829:water_pump",
+            "cmp:graf_seller_sku:240636:water_pump"
+          ],
+          "quantity": 1
+        },
+        {
+          "role": "pump gasket",
+          "component_ids": [
+            "cmp:saab_service:9144767:water_pump_gasket"
+          ],
+          "quantity": 1
+        },
+        {
+          "role": "inspect and renew applicable connector seals",
+          "component_ids": [
+            "cmp:saab_service:30551913:water_pump_inlet_seal",
+            "cmp:saab_service:55562943:water_pump_outlet_seals"
+          ],
+          "quantity": null
+        }
+      ],
+      "currency": "USD",
+      "observed_primary_component_prices": [
+        59.96,
+        165.32
+      ],
+      "complete_parts_total": null,
+      "complete_diy_total": null,
+      "complete_professional_total": null,
+      "labor_hours": null,
+      "labor_rate": null,
+      "estimate_status": "incomplete_bill_no_installed_quote",
+      "missing_cost_inputs": [
+        "Exact VIN seal selection and included gasket",
+        "Bypass O-ring number and price",
+        "Coolant quantity/price",
+        "Tool purchase or rental",
+        "Labor quote/time",
+        "Shipping/tax/core/warranty"
+      ],
+      "diy_feasibility": "experienced_home_mechanic_after_exact_vehicle_procedure_selection",
+      "exceeds_no_engine_transmission_rebuild_goal": false
+    }
+  ]
+}

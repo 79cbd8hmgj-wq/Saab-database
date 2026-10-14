@@ -1,0 +1,540 @@
+{
+  "schema_version": "1.0",
+  "meaning": "Reviewed assembly/namespace association of existing part claims. Not factory fitment or original OEM-maker certification.",
+  "legacy_part_routes": {
+    "b235rev-part-001": {
+      "assembly_id": "oil_separator",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-007": {
+      "assembly_id": "oil_separator",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "b235rev-part-002": {
+      "assembly_id": "oil_separator",
+      "number_namespace": "proparts",
+      "marketed_brand": "Pro Parts Sweden",
+      "original_oem_manufacturer": null
+    },
+    "b235rev-part-003": {
+      "assembly_id": "pcv_hoses",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "b235rev-part-004": {
+      "assembly_id": "pcv_hoses",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "b235rev-part-005": {
+      "assembly_id": "pcv_hoses",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "b235rev-part-006": {
+      "assembly_id": "pcv_hoses",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-004": {
+      "assembly_id": "pcv_hoses",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-005": {
+      "assembly_id": "pcv_hoses",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-006": {
+      "assembly_id": "pcv_hoses",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-008": {
+      "assembly_id": "pcv_hoses",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-023": {
+      "assembly_id": "pcv_hoses",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "b235rev-part-007": {
+      "assembly_id": "pcv_kit",
+      "number_namespace": "proparts",
+      "marketed_brand": "Pro Parts Sweden",
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-022": {
+      "assembly_id": "pcv_kit",
+      "number_namespace": "proparts",
+      "marketed_brand": "Pro Parts Sweden",
+      "original_oem_manufacturer": null
+    },
+    "pcv-supply-part-002": {
+      "assembly_id": "pcv_kit",
+      "number_namespace": "proparts",
+      "marketed_brand": "Pro Parts Sweden",
+      "original_oem_manufacturer": null
+    },
+    "pcv-supply-part-003": {
+      "assembly_id": "pcv_kit",
+      "number_namespace": "proparts",
+      "marketed_brand": "Pro Parts Sweden",
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-001": {
+      "assembly_id": "pcv_kit",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "pcv-supply-part-001": {
+      "assembly_id": "pcv_kit",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-021": {
+      "assembly_id": "pcv_kit",
+      "number_namespace": "retailer_kit",
+      "marketed_brand": "ESAABKITS",
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-002": {
+      "assembly_id": "oil_pickup",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-003": {
+      "assembly_id": "oil_pickup",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-009": {
+      "assembly_id": "pcv_retention_hardware",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-010": {
+      "assembly_id": "pcv_retention_hardware",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-011": {
+      "assembly_id": "ignition_cassette",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-012": {
+      "assembly_id": "ignition_cassette",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-013": {
+      "assembly_id": "ignition_cassette",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-014": {
+      "assembly_id": "atf_cooler_connections",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-015": {
+      "assembly_id": "inlet_valves",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "hcdiag-part-001": {
+      "assembly_id": "inlet_valves",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "hcdiag-part-002": {
+      "assembly_id": "inlet_valves",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-016": {
+      "assembly_id": "ism_service_kit",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "gate5-part-002": {
+      "assembly_id": "ism_service_kit",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "gate5-part-001": {
+      "assembly_id": "ism",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-017": {
+      "assembly_id": "pcv_check_valve",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-018": {
+      "assembly_id": "intake_manifold_gasket",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-019": {
+      "assembly_id": "throttle_body_gasket",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-020": {
+      "assembly_id": "front_springs",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-024": {
+      "assembly_id": "driver_airbag",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-025": {
+      "assembly_id": "front_seatbelts",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "corrections-part-026": {
+      "assembly_id": "front_seatbelts",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "as-p001": {
+      "assembly_id": "alternator",
+      "number_namespace": "as-pl",
+      "marketed_brand": "AS-PL",
+      "original_oem_manufacturer": null
+    },
+    "as-p003": {
+      "assembly_id": "alternator",
+      "number_namespace": "as-pl",
+      "marketed_brand": "AS-PL",
+      "original_oem_manufacturer": null
+    },
+    "ogex-part-002": {
+      "assembly_id": "alternator",
+      "number_namespace": "as-pl",
+      "marketed_brand": "AS-PL",
+      "original_oem_manufacturer": null
+    },
+    "as-p002": {
+      "assembly_id": "starter",
+      "number_namespace": "as-pl",
+      "marketed_brand": "AS-PL",
+      "original_oem_manufacturer": null
+    },
+    "ogex-part-001": {
+      "assembly_id": "starter",
+      "number_namespace": "as-pl",
+      "marketed_brand": "AS-PL",
+      "original_oem_manufacturer": null
+    },
+    "cross-part-001": {
+      "assembly_id": "front_hub",
+      "number_namespace": "fag",
+      "marketed_brand": "Schaeffler/FAG",
+      "original_oem_manufacturer": null
+    },
+    "gmwp-part-001": {
+      "assembly_id": "water_pump",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "xint-part-001": {
+      "assembly_id": "front_hub",
+      "number_namespace": "pfi",
+      "marketed_brand": "PFI",
+      "original_oem_manufacturer": null
+    },
+    "xint-part-002": {
+      "assembly_id": "front_hub",
+      "number_namespace": "skf",
+      "marketed_brand": "SKF",
+      "original_oem_manufacturer": null
+    },
+    "xint-part-003": {
+      "assembly_id": "front_pads",
+      "number_namespace": "delphi",
+      "marketed_brand": "Delphi",
+      "original_oem_manufacturer": null
+    },
+    "epcverify-part-001": {
+      "assembly_id": "subframe_bushes",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "mountbrake-part-009": {
+      "assembly_id": "subframe_bushes",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "mountbrake-part-010": {
+      "assembly_id": "subframe_bushes",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "mountbrake-part-011": {
+      "assembly_id": "subframe_bushes",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "mountbrake-part-012": {
+      "assembly_id": "subframe_bushes",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "mountbrake-part-013": {
+      "assembly_id": "subframe_bushes",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "epcverify-part-002": {
+      "assembly_id": "front_subframe",
+      "number_namespace": "rd_supplier_sku",
+      "marketed_brand": "R&D Car Parts",
+      "original_oem_manufacturer": null
+    },
+    "early9three-part-001": {
+      "assembly_id": "front_subframe",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "mountbrake-part-001": {
+      "assembly_id": "front_subframe",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "mountbrake-part-002": {
+      "assembly_id": "front_subframe",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "mountbrake-part-003": {
+      "assembly_id": "front_subframe",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "mountbrake-part-004": {
+      "assembly_id": "front_subframe",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "mountbrake-part-007": {
+      "assembly_id": "front_subframe",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "mountbrake-part-014": {
+      "assembly_id": "front_subframe",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "mountbrake-part-015": {
+      "assembly_id": "front_subframe",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "early9three-part-002": {
+      "assembly_id": "front_axle_stays",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "early9three-part-003": {
+      "assembly_id": "front_axle_stays",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "early9three-part-004": {
+      "assembly_id": "structural_fasteners",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "mountbrake-part-008": {
+      "assembly_id": "structural_fasteners",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "parts95-part-007": {
+      "assembly_id": "structural_fasteners",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "parts95-part-008": {
+      "assembly_id": "structural_fasteners",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "early9three-part-005": {
+      "assembly_id": "jacking_supports",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "ng93structure-part-001": {
+      "assembly_id": "structural_adhesive",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "afdiag-part-001": {
+      "assembly_id": "wastegate_clip",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "afdiag-part-002": {
+      "assembly_id": "bypass_valve",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "parts95-part-001": {
+      "assembly_id": "radiator_manual",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "parts95-part-002": {
+      "assembly_id": "radiator_automatic",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "parts95-part-003": {
+      "assembly_id": "radiator_manual",
+      "number_namespace": "nissens",
+      "marketed_brand": "Nissens",
+      "original_oem_manufacturer": null
+    },
+    "parts95-part-004": {
+      "assembly_id": "radiator_automatic",
+      "number_namespace": "nissens",
+      "marketed_brand": "Nissens",
+      "original_oem_manufacturer": null
+    },
+    "parts95-part-005": {
+      "assembly_id": "radiator_hoses",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "parts95-part-006": {
+      "assembly_id": "radiator_hoses",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "og95structure-part-001": {
+      "assembly_id": "floor_access_plugs",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "repl-part-001": {
+      "assembly_id": "turbocharger",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "repl-part-002": {
+      "assembly_id": "turbocharger",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "repl-part-003": {
+      "assembly_id": "inlet_pipe",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "repl-part-004": {
+      "assembly_id": "inlet_pipe",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "repl-part-005": {
+      "assembly_id": "engine_ecu",
+      "number_namespace": "rbm_kit",
+      "marketed_brand": "RBM",
+      "original_oem_manufacturer": null
+    },
+    "mountbrake-part-005": {
+      "assembly_id": "rear_subframe",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    },
+    "mountbrake-part-006": {
+      "assembly_id": "rear_subframe",
+      "number_namespace": "saab_service",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null
+    }
+  }
+}
