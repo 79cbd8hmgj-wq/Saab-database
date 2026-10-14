@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-13 (latest domain); prior sources preserve original accessed dates. There are 554 source records with 488 distinct
+Research retrieval date: 2026-10-14 (latest domain); prior sources preserve original accessed dates. There are 560 source records with 492 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -839,3 +839,16 @@ Dataset: [official_us_vin_and_service_kit_provenance](../data/datasets/official-
 | `gate5-src-005` | [2008 original 9-5 engine mounting left joint VIN production cutoff and manual/automatic difference](https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/engine-mounting-left) | Saab Automobile AB original WIS (SaabWISOnline mirror) | `full_text` |
 | `gate5-src-006` | [Saab WebEPC official manufacturer VIN-filter, illustrations and directed NLS supersessions](https://saabparts.com/saab-subscription-services) | Saab Parts / Hedin Parts official North American manufacturer-support channel | `full_text` |
 | `gate5-src-007` | [Saab Parts USA owner portal describes original VIN option decoder](https://saabparts.com/us/) | Saab Parts / Hedin Parts official North American manufacturer-support channel | `full_text` |
+
+## early_t7_pcv_kit_factory_and_sourcing_20261014
+
+Dataset: [early_t7_pcv_kit_factory_and_sourcing_20261014](../data/datasets/early-t7-pcv-kit-factory-and-sourcing-20261014.json)
+
+| Source ID | Document / first-party page | Publisher | Retrieval |
+| --- | --- | --- | --- |
+| `pcv-supply-src-001` | [Saab 9-3 (9400) oil-leakage bulletin 210-2418 edition 4 April 2006](https://www.partsforsaabs.com/info_documents/55561200_93.pdf) | Saab Automobile AB factory TSB, third-party PDF mirror | `full_text` |
+| `pcv-supply-src-002` | [Professional Parts Sweden Saab aftermarket kit catalogue p.4](https://www.proparts.se/dokument/bibliotek/File/pdfkataloger/1721_SAAB.pdf) | Professional Parts Sweden | `full_text` |
+| `pcv-supply-src-003` | [eSaabParts ProParts 21341200 PCV kit listing](https://www.esaabparts.com/saab/parts/21341200?ss=55561200) | eSaabParts independent retailer | `full_text` |
+| `pcv-supply-src-004` | [eSaabParts 55554444 retailer-assembled complete PCV kit listing](https://www.esaabparts.com/saab/parts/55554444) | eSaabParts independent retailer | `full_text` |
+| `pcv-supply-src-005` | [R&D Car Parts original Saab 55561200 kit discontinued listing](https://www.rendcarparts.com/parts-for-saab-car/55561200/RD55561200) | R&D Car Parts retailer | `full_text` |
+| `pcv-supply-src-006` | [FCP Euro Pro Parts Sweden PPS-21341200 55561200 oil trap kit listing](https://www.fcpeuro.com/products/saab-oil-trap-kit-pro-parts-sweden-55561200) | FCP Euro independent retailer | `full_text` |

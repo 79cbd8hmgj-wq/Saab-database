@@ -10,7 +10,9 @@ engines, and platforms.
 
 ## Start here
 
-- [U.S. OEM parts, specialized tools and B205/B235 renovation-kit research](docs/us-oem-parts-tool-readiness.md): nine manufacturer/retailer source-gated job plans, exact-year versus cross-year research leads, gearbox/case labels, Tech2, safe lifting, VIN-dependent mounts and unverified installed costs.
+- [U.S. OEM parts, specialized tools and B205/B235 renovation-kit research](docs/us-oem-parts-tool-readiness.md): eleven manufacturer/retailer source-gated job plans, exact-year versus cross-year research leads, gearbox/case labels, Tech2, safe lifting, VIN-dependent mounts and unverified installed costs.
+
+- [Original 9-3 T7 PCV factory bulletin and October 2026 kit sourcing](docs/research/early-t7-pcv-kit-sourcing-20261014.md): separate 210-2418 complaint-gated factory kit from ProParts aftermarket reference, exact partial/complete hose contents, dated advertised availability and unresolved OEM supersession.
 
 - [Saab lot visit pocket card — October 16, 2026](docs/lot-visit-pocket-card-2026-10-16.md): quick private-VIN, rust, key/title and seller-history intake for stored/nonrunning 9-3/9-5s; no unsafe cranking or premature purchase verdicts.
 - [Detailed Saab lot visit guide](docs/lot-visit-field-guide-2026-10-16.md): staged inspection and STOP/HOLD/FINALIST rules, especially the rear-subframe-rust versus seller's catalyst claim on a 2008 9-5 wagon.

@@ -2,29 +2,29 @@
   "schema_version": "1.0.0",
   "meaning": "Record coverage and evidence provenance, NOT completeness, fitment, or reliability",
   "counts": {
-    "sources": 554,
-    "facts": 1086,
-    "issues": 91,
-    "parts": 86,
-    "gaps": 280
+    "sources": 560,
+    "facts": 1100,
+    "issues": 92,
+    "parts": 89,
+    "gaps": 283
   },
-  "unique_source_urls": 488,
+  "unique_source_urls": 492,
   "retrieval_statuses": {
-    "full_text": 524,
+    "full_text": 530,
     "metadata_only": 8,
     "partial": 3,
     "search_excerpt": 19
   },
   "evidence_statuses": {
-    "documented": 1110,
+    "documented": 1117,
     "inference": 11,
-    "supplier_claim": 142
+    "supplier_claim": 153
   },
   "explicit_scope_counts": {
-    "platforms": 1204,
-    "model_years": 1105,
+    "platforms": 1222,
+    "model_years": 1123,
     "markets": 205,
-    "engine_codes": 402,
+    "engine_codes": 420,
     "transmission_codes": 170,
     "body_styles": 83,
     "vin_ranges": 24
@@ -32,34 +32,34 @@
   "platform_year": {
     "9-5-9600": {
       "1998": {
-        "facts": 16,
+        "facts": 25,
         "issues": 3,
-        "parts": 8
+        "parts": 10
       },
       "1999": {
-        "facts": 18,
+        "facts": 27,
         "issues": 3,
-        "parts": 11
+        "parts": 13
       },
       "2000": {
-        "facts": 22,
+        "facts": 31,
         "issues": 3,
-        "parts": 14
+        "parts": 16
       },
       "2001": {
-        "facts": 17,
+        "facts": 26,
         "issues": 3,
-        "parts": 14
+        "parts": 16
       },
       "2002": {
-        "facts": 29,
+        "facts": 38,
         "issues": 5,
-        "parts": 19
+        "parts": 21
       },
       "2003": {
-        "facts": 31,
+        "facts": 40,
         "issues": 4,
-        "parts": 17
+        "parts": 19
       },
       "2004": {
         "facts": 60,
@@ -189,6 +189,13 @@
       "issues": 3,
       "parts": 3,
       "gaps": 6
+    },
+    "early_t7_pcv_kit_factory_and_sourcing_20261014": {
+      "sources": 6,
+      "facts": 14,
+      "issues": 1,
+      "parts": 3,
+      "gaps": 3
     },
     "epc_provenance": {
       "sources": 10,
@@ -423,9 +430,9 @@
     }
   },
   "parts_provenance": {
-    "total": 86,
-    "with_relationships": 27,
-    "supplier_claim": 57,
-    "needs_vehicle_verification": 55
+    "total": 89,
+    "with_relationships": 30,
+    "supplier_claim": 59,
+    "needs_vehicle_verification": 58
   }
 }
