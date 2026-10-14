@@ -60,9 +60,12 @@ def check_policy(policy: dict, methodology: dict, datasets: list[dict]) -> None:
         ):
             raise ValueError("Invalid curated system override: " + id_)
     expected_parts = {id_ for id_, kind in originals.items() if kind == "parts"}
-    if not expected_parts.issubset(curated):
-        raise ValueError("New or unreviewed part identities require explicit system navigation; missing="
-                         + str(sorted(expected_parts - set(curated))))
+    if set(curated) != expected_parts:
+        raise ValueError(
+            "Curated system routes must correspond to all and only existing part IDs; "
+            + "new or unreviewed parts=" + str(sorted(expected_parts - set(curated)))
+            + "; obsolete or non-part overrides=" + str(sorted(set(curated) - expected_parts))
+        )
 
 
 def topic_fields(kind: str, record: dict) -> list[tuple[str, str, int]]:
