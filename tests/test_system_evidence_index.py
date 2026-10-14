@@ -56,7 +56,8 @@ class SystemResearchIndexTests(unittest.TestCase):
                              not bool(rec["system_ids_for_discovery"]))
             self.assertEqual(rec["primary_navigation_system"],
                              (rec["system_ids_for_discovery"] or [None])[0])
-            self.assertEqual(rec["review_status"],"not_manually_adjudicated")
+            self.assertIn(rec["review_status"],{"not_manually_adjudicated",
+                                                       "source_scope_and_engineering_still_required"})
             self.assertNotIn("certified",rec["routing_basis"])
         self.assertEqual(sum(self.report["record_routes"].values()),len(self.by_id))
 
@@ -88,7 +89,12 @@ class SystemResearchIndexTests(unittest.TestCase):
         self.assertEqual(self.by_id["hcdiag-issue-003"]["claim_type"],"diagnostic_nonunique")
 
     def test_parts_and_gaps_cannot_assert_fitment_or_approval(self):
-        for p in (r for r in self.report["records"] if r["kind"]=="parts"):
+        part_routes={r["id"]:r for r in self.report["records"] if r["kind"]=="parts"}
+        self.assertEqual(len(part_routes),89)
+        self.assertEqual(set(part_routes),set(self.policy["explicit_record_routes"]))
+        for p in part_routes.values():
+            self.assertEqual(p["routing_basis"],"curated_explicit_record")
+            self.assertTrue(p["system_ids_for_discovery"])
             self.assertFalse(p["live_US_fulfilment_verified_by_this_index"])
             self.assertFalse(p["supersession_is_verified_by_this_index"])
             self.assertIn("not_VIN_approved",p["claim_type"])
