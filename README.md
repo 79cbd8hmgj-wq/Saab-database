@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- [B207 intake-valve engineering and repair sourcing](docs/research/b207-intake-valve-repair-path-20261014.md): existing failure research plus newly retrieved factory head-service requirements, GM 55563529 offering and genuine/TRW valve-only price observations. Practical buying and repair implications; no assumed later-year cure or installed-cost claim.
+
 - [Final overlapping fact/gap system-route review (2026-10-14)](docs/multisystem-fact-gap-route-review-20261014.md): 176 facts and 49 open gaps assessed, deliberate cross-system interfaces preserved, zero known ambiguous navigation candidates remain unreviewed. **Technical gaps and OEM validation remain unresolved.**
 
 - [Cross-cutting fact/gap navigation adjudication (2026-10-14)](docs/fact-gap-navigation-adjudication-20261014.md): all 161 facts and 31 gaps from the PR #72 cross-cutting queue reviewed; 110 gain system routes, 82 deliberately remain cross-cutting. Original datasets and open gaps unchanged; the subsequently completed PR #74 review is linked above.

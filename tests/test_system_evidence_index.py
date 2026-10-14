@@ -30,7 +30,7 @@ class SystemResearchIndexTests(unittest.TestCase):
                for d in self.datasets
                for k in ("facts","issues","parts","gaps")
                for x in d[k]}
-        self.assertEqual(len(saved),1101+92+89+284)
+        self.assertEqual(len(saved),1107+92+89+284)
         self.assertEqual(len(self.by_id),len(saved))
         self.assertEqual(set(self.by_id),set(saved))
         self.assertEqual(self.report["tracked_systems"],16)
@@ -100,7 +100,7 @@ class SystemResearchIndexTests(unittest.TestCase):
             self.assertIn("not_VIN_approved",p["claim_type"])
         for g in (r for r in self.report["records"] if r["kind"]=="gaps"):
             self.assertFalse(g["resolved_by_this_index"])
-        self.assertEqual(self.report["input_technical_counts"]["facts"],1101)
+        self.assertEqual(self.report["input_technical_counts"]["facts"],1107)
         self.assertEqual(self.report["input_technical_counts"]["issues"],92)
         self.assertEqual(self.report["input_technical_counts"]["parts"],89)
         self.assertEqual(self.report["input_technical_counts"]["gaps"],284)

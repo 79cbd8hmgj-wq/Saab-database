@@ -39,7 +39,7 @@ class RemainingSystemReviewTests(unittest.TestCase):
         self.assertEqual(self.index["reviewed_fact_gap_navigation_routes"],{"facts":337,"gaps":80})
         self.assertEqual(self.index["remaining_unreviewed_ambiguous_record_count"],0)
         self.assertEqual(self.index["input_technical_counts"],
-                         {"facts":1101,"issues":92,"parts":89,"gaps":284})
+                         {"facts":1107,"issues":92,"parts":89,"gaps":284})
         for id_,decision in registry.items():
             original=self.rows[id_]
             self.assertEqual(original["kind"],decision["kind"])

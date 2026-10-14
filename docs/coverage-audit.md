@@ -11,10 +11,10 @@
 
 | Measure | Current records |
 | --- | ---: |
-| Research domains | 42 |
-| Source records | 562 |
-| Unique source URLs | 494 |
-| Technical facts | 1101 |
+| Research domains | 43 |
+| Source records | 567 |
+| Unique source URLs | 499 |
+| Technical facts | 1107 |
 | Diagnostic/correction issues | 92 |
 | Part records | 89 |
 | Explicit open research gaps | 284 |
@@ -27,15 +27,15 @@ or the probability that an individual vehicle is repairable.
 
 | Source retrieval | Records |
 | --- | ---: |
-| `full_text` | 531 |
+| `full_text` | 536 |
 | `partial` | 4 |
 | `search_excerpt` | 19 |
 | `metadata_only` | 8 |
 
 | Technical evidence | Facts + issues + parts |
 | --- | ---: |
-| `documented` | 1118 |
-| `supplier_claim` | 153 |
+| `documented` | 1120 |
+| `supplier_claim` | 157 |
 | `inference` | 11 |
 
 ### Explicit application dimensions
@@ -46,13 +46,13 @@ is counted from individual groups, not from a misleading top-level union.
 
 | Scope field explicitly present | Records out of facts + issues + parts |
 | --- | ---: |
-| `platforms` | 1223 / 1282 |
-| `model_years` | 1124 / 1282 |
-| `markets` | 206 / 1282 |
-| `engine_codes` | 421 / 1282 |
-| `transmission_codes` | 170 / 1282 |
-| `body_styles` | 83 / 1282 |
-| `vin_ranges` | 24 / 1282 |
+| `platforms` | 1226 / 1288 |
+| `model_years` | 1127 / 1288 |
+| `markets` | 207 / 1288 |
+| `engine_codes` | 424 / 1288 |
+| `transmission_codes` | 170 / 1288 |
+| `body_styles` | 85 / 1288 |
+| `vin_ranges` | 24 / 1288 |
 
 ### Technical record coverage by original Saab model year
 
@@ -83,13 +83,13 @@ model-year row. Year-path names do not prove a given production revision.
 | ---: | ---: | ---: | ---: |
 | 2003 | 20 | 15 | 18 |
 | 2004 | 34 | 17 | 21 |
-| 2005 | 101 | 20 | 24 |
-| 2006 | 141 | 22 | 29 |
-| 2007 | 26 | 11 | 22 |
-| 2008 | 28 | 11 | 23 |
-| 2009 | 21 | 11 | 23 |
-| 2010 | 20 | 12 | 23 |
-| 2011 | 24 | 12 | 22 |
+| 2005 | 102 | 20 | 24 |
+| 2006 | 142 | 22 | 29 |
+| 2007 | 27 | 11 | 22 |
+| 2008 | 31 | 11 | 23 |
+| 2009 | 22 | 11 | 23 |
+| 2010 | 21 | 12 | 23 |
+| 2011 | 25 | 12 | 22 |
 
 ### Parts evidence does not equal approved interchange
 
@@ -108,6 +108,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 
 | Dataset domain | Sources | Facts | Issues | Parts | Gaps |
 | --- | ---: | ---: | ---: | ---: | ---: |
+| `b207_intake_valve_repair_path_20261014` | 5 | 6 | 0 | 0 | 0 |
 | `b235_maintenance_fa57_identity` | 13 | 44 | 2 | 0 | 9 |
 | `b235r_oil_pcv_2006_2008` | 17 | 31 | 2 | 7 | 9 |
 | `corrections` | 27 | 9 | 20 | 26 | 7 |

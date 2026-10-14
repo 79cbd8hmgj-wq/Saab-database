@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-14 (latest domain); prior sources preserve original accessed dates. There are 562 source records with 494 distinct
+Research retrieval date: 2026-10-14 (latest domain); prior sources preserve original accessed dates. There are 567 source records with 499 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -861,3 +861,15 @@ Dataset: [component factory revisions](../data/datasets/tier-component-factory-r
 | --- | --- | --- |
 | `tier-src-001` | [GM Part 573 defect report 05V399: ignition discharge module and QP3](https://static.nhtsa.gov/odi/rcl/2005/RCDNN-05V399-5581.PDF) | `partial` |
 | `tier-src-002` | [NHTSA acknowledgement 06V410, B308 IDM expansion](https://static.nhtsa.gov/odi/rcl/2006/RCAK-06V410-7245.pdf) | `full_text` |
+
+## b207_intake_valve_repair_path_20261014
+
+Dataset: [B207 valve repair supplement](../data/datasets/b207-intake-valve-repair-path-20261014.json)
+
+| Source ID | Document or offering | Retrieval |
+| --- | --- | --- |
+| `b207valve-src-001` | [MY2008 B207 cylinder-head removal/refitting](https://saabwisonline.com/9-3-9440/2008/2-engine/4-cyl-petrol-e85/basic-engine/adjustment-replacement/cylinder-head) | `full_text` |
+| `b207valve-src-002` | [GM Genuine Parts intake valve 55563529 specifications and service offering](https://parts.gmparts.com/product/gm-genuine-parts-engine-intake-valve-55563529) | `full_text` |
+| `b207valve-src-003` | [eSaabParts 55563529 intake-valve price and advertised inventory](https://www.esaabparts.com/saab/parts/55563529) | `full_text` |
+| `b207valve-src-004` | [FCP Euro genuine Saab 55563529 intake-valve price and dispatch claim](https://www.fcpeuro.com/products/saab-engine-intake-valve-genuine-saab-55563529) | `full_text` |
+| `b207valve-src-005` | [RM European TRW 291109 / 55563529-80 intake-valve offer](https://www.rmeuropean.com/saab-intake-valve-trw-55563529) | `full_text` |
