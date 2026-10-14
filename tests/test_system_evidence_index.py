@@ -39,7 +39,10 @@ class SystemResearchIndexTests(unittest.TestCase):
             self.assertEqual((record["kind"],record["domain"]),(kind,domain))
             self.assertEqual(record["original_source_ids"],original["source_ids"])
             self.assertEqual(record["original_applicability"],original.get("applicability"))
-            self.assertTrue(record["original_source_urls"])
+            if kind != "gaps":
+                self.assertTrue(record["original_source_urls"])
+            self.assertEqual(record["no_source_is_unanswered_research_question"],
+                             kind == "gaps" and not bool(original["source_ids"]))
             self.assertFalse(record["source_overlap_proves_same_root_cause"])
             self.assertFalse(record["source_overlap_proves_same_vehicle_scope"])
             self.assertFalse(record["eligible_for_model_rating_from_this_index"])
