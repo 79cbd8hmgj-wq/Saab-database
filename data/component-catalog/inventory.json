@@ -5381,6 +5381,21 @@
         "Body, engine, gearbox, options and part-revision verification required."
       ],
       "factory_presence_verified": false
+    },
+    {
+      "id": "ac_compressor_clutch",
+      "name": "A/C compressor clutch, pulley and coil service assembly",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.refrigerant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Exact compressor type, chassis cutoff and kit contents required."
+      ],
+      "factory_presence_verified": false
     }
   ],
   "fastener_specification_contract": [

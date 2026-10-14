@@ -342,6 +342,10 @@ def validate(catalogue):
                     errors.append("Model year outside assignment: " + a["id"])
                 if set(g.get("engine_codes", [])) - engines:
                     errors.append("Invalid engine/platform combination: " + a["id"])
+                incompatible = {"9-3-9440": {"AF30", "FA47", "50-40LE"},
+                                "9-5-9600": {"AF40", "TF-80SC", "F40"}}
+                if set(g.get("transmission_codes", [])) & incompatible[p]:
+                    errors.append("Invalid factory platform/gearbox combination: " + a["id"])
             if a.get("vin_approved") and not g.get("transmission_codes"):
                 errors.append("VIN approval without transmission verification: " + a["id"])
     for r in catalogue["interchanges"]:
@@ -455,6 +459,8 @@ def coverage(c):
                 verified_cross_brand_vin_alternatives=len({r["to_component_id"] for r in c["interchanges"] if r["donor_approved"] and r["fitment_approved"] and r["from_component_id"] in part_ids and r["to_component_id"] in approved}),
                 components_with_complete_repair_costs=len({x for r in c["repair_scenarios"] if r["complete_professional_total"] is not None for x in r["component_ids"] if x in {p["id"] for p in parts}}),
                 product_records_with_fitment_or_sourcing_gaps=len(parts),
+                groups_with_partial_unverified_records=sorted(known),
+                partial_component_ids=sorted(part_ids),
                 remaining_assembly_groups=sorted(assemblies-known)))
     return dict(as_of=DATE, whole_vehicle_universe_established=False, completeness_percentage=None,
         denominator_policy="Inventory serviceable groups are research slots; products count namespace/number/category identities. A group can contain many products. Neither is an exhaustive factory component universe.",

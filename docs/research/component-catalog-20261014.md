@@ -12,9 +12,9 @@ supplier offerings, repair procedures/scenarios, sources, gaps and a reuse index
 The index links all 1,572 original non-source records to their original files,
 source IDs, scopes and review hashes. Original datasets are untouched.
 
-The 359 assembly groups in `inventory.json` are a systematic research inventory,
+The 360 assembly groups in `inventory.json` are a systematic research inventory,
 including ordinary body/interior/HVAC and conditional equipment. They are not
-359 verified installed parts or an exhaustive factory bill of materials.
+360 verified installed parts or an exhaustive factory bill of materials.
 `coverage.json` gives explicit product and assembly denominators for each platform
 and the existing 16 systems, and exact groups lacking product claims. Multiple
 revisions/products may belong to one group. No completeness percentage is claimed.
@@ -95,7 +95,7 @@ All other exact remaining assembly groups are in coverage's
 
 No configuration is ready for three-axis scoring: a verified production BOM,
 regional replacements and full repair economics are not yet established.
-The 37 inherited engineering cases plus the pump and plug cases retain repair difficulty
+The 37 inherited engineering cases plus the pump, plug and A/C compressor cases retain repair difficulty
 and unresolved costs. Unknown totals are null, never zero or the pump sticker price.
 
 ## Second substantive batch: gearbox and ignition identities
@@ -135,9 +135,36 @@ number-to-product candidate edges. The catalog does not turn their shared
 aftermarket references into approved Opel/GM donors. The 5961610 engine-number
 conflict is also explicitly linked to its two original source claims.
 
+## Third substantive batch: ordinary HVAC components
+
+The manufacturer and retailer findings distinguish NG9-3 compressor clutch
+references 93184431/93189061 at chassis51041814/51041815 and OG9-5 blower
+references at Y3046041/Y3046042. Blower motors and ACC regulators are separate
+components; a motor candidate does not replace its regulator. ProParts lists
+87349085 against earlier/later motor OE references, but that broad catalogue
+claim has not independently resolved the housing/controller differences.
+
+The two retailer ACC regulator titles overlap at chassis53512949. Manufacturer
+short chassis notation differs. That boundary is explicitly unresolved; the
+catalogue does not approve a universal regulator swap.
+
+[Compressor service](https://saabwisonline.com/9-3-9440/2007/8-body/climate-system/heating-and-ventilation-a-c/adjustment-replacement/a-c-compressor-b207)
+requires new PAD sealing washers, oil adjustment and refrigerant recovery,
+evacuation, recharge and testing. Convertible access also requires front
+reinforcement removal. The DIY scenario separates mechanical work from
+outsourced refrigerant service; it does not describe the advertised compressor
+price as an installed repair cost.
+
+The [retailer diagram](https://www.esaabparts.com/viewparts.php?section=510187783)
+advertises the Nissens compressor at $528.31 with four in its US warehouse.
+Both chassis-specific clutch references are advertised at higher prices and
+backorder. These observations justify obtaining complete competing repair
+quotes; they do not prove a reliability advantage or cheaper installed result.
+All observations retain source/date and checkout/Canada limitations.
+
 ## Coverage dashboard and readiness
 
-The catalog contains **137 product identities and reference endpoints**, 117 application claims, 35 interchange edges, 12 dated offering observations and 39 repair scenarios. These are research records, not 137 verified installed components. Seven gearbox-family records are separate because a gearbox designation is not an assembly part number.
+The catalog contains **150 product identities and reference endpoints**, 125 application claims, 40 interchange edges, 19 dated offering observations and 40 repair scenarios. These are research records, not 150 verified installed components. Seven gearbox-family records are separate because a gearbox designation is not an assembly part number.
 
 | System | 9440 research groups | 9440 groups with part claims | 9600 research groups | 9600 groups with part claims |
 |---|---:|---:|---:|---:|
@@ -152,14 +179,29 @@ The catalog contains **137 product identities and reference endpoints**, 117 app
 | ECUs, ignition, keys, anti-theft, software and programming | 15 | 4 | 15 | 2 |
 | Alternator, starter, harnesses, connectors and grounds | 18 | 2 | 18 | 2 |
 | Steering, suspension, wheel bearings and bushes | 29 | 2 | 29 | 0 |
-| HVAC, heating/defog, A/C and water intrusion | 16 | 0 | 16 | 0 |
+| HVAC, heating/defog, A/C and water intrusion | 17 | 2 | 17 | 2 |
 | Airbags, seatbelts and manufacturer/regulator campaigns | 12 | 2 | 12 | 1 |
 | Interior, instruments, locks and comfort electronics | 18 | 0 | 18 | 0 |
 | Body panels, glass, lighting and sealing | 31 | 0 | 25 | 0 |
 | Factory service schedule, fluids, filters, plugs and routine wear | 8 | 0 | 8 | 0 |
 
-The full JSON dashboard separately counts product records, factory-specified identities, manufacturer service applications, verified VIN replacements, verified cross-brand VIN alternatives, complete repair costs and unresolved product records. Component-specific original installed identities, VIN-approved replacement packages, donor approvals and complete installed costs remain unestablished. This is a strict evidence definition, not a claim that available parts do not fit.
+The full JSON dashboard separately counts product records, factory-specified
+identities, manufacturer service applications, verified VIN replacements,
+verified cross-brand VIN alternatives, complete repair costs and unresolved
+product records. Component-specific original installed identities, VIN-approved
+replacement packages, donor approvals and complete installed costs remain
+unestablished. This is a strict evidence definition, not a claim that available
+parts do not fit. No whole-vehicle completeness percentage is asserted.
 
-`data/component-catalog/readiness.json` explicitly records all 79 currently enumerated configurations as unranked, with independent reliability, sourcing and economics blockers. Manuals, Canada and convertibles remain outside that register until actual source-backed configurations are added. The broader research inventory includes them as investigation targets.
+`data/component-catalog/readiness.json` explicitly records all 79 currently
+enumerated configurations as unranked, with independent reliability, sourcing
+and economics blockers. Manuals, Canada and convertibles remain outside that
+register until actual source-backed configurations are added. The broader
+research inventory includes them as investigation targets.
 
-Validation for the two batches: legacy datasets retain 567 sources, 1,107 facts, 92 issue identities, 89 part claims and 284 gaps; 363 automated tests passed. New guards reject cross-product scope expansion, excluded engines/platforms, promoted interchange leads, pump-to-screw substitutions, unsourced records, mixed currencies, incomplete totals, supersession cycles and unreviewed legacy evidence drift. Catalog checks also run in the branch CI workflow.
+Validation: legacy datasets retain 567 sources, 1,107 facts, 92 issue identities,
+89 part claims and 284 gaps. 364 automated tests passed. New guards reject
+cross-product scope expansion, excluded engines/platforms, invalid gearbox
+applications, promoted interchange leads, pump-to-screw substitutions,
+unsourced records, mixed currencies, incomplete totals, supersession cycles
+and unreviewed legacy evidence drift. Catalog checks run in the branch CI workflow.

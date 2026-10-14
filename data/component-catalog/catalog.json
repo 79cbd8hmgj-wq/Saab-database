@@ -179,6 +179,10 @@
       "system_id": "hvac_defrost_water"
     },
     {
+      "id": "hvac_defrost_water.refrigerant",
+      "system_id": "hvac_defrost_water"
+    },
+    {
       "id": "interior_ergonomics.controls",
       "system_id": "interior_ergonomics"
     },
@@ -5598,6 +5602,21 @@
         "Body, engine, gearbox, options and part-revision verification required."
       ],
       "factory_presence_verified": false
+    },
+    {
+      "id": "ac_compressor_clutch",
+      "name": "A/C compressor clutch, pulley and coil service assembly",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.refrigerant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Exact compressor type, chassis cutoff and kit contents required."
+      ],
+      "factory_presence_verified": false
     }
   ],
   "components": [
@@ -6163,6 +6182,54 @@
       ]
     },
     {
+      "id": "cmp:nissens_seller_sku:32020197:blower_motor",
+      "assembly_id": "blower_motor",
+      "name": "Later OG9-5 Nissens blower service SKU",
+      "number_namespace": "nissens_seller_sku",
+      "part_number": "32020197",
+      "marketed_brand": "Nissens",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-blower95-late"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:nissens_seller_sku:32020202:ac_compressor",
+      "assembly_id": "ac_compressor",
+      "name": "Nissens B207 compressor under seller service SKU",
+      "number_namespace": "nissens_seller_sku",
+      "part_number": "32020202",
+      "marketed_brand": "Nissens",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-ac9440-diagram"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:nissens_seller_sku:32022289:blower_motor",
+      "assembly_id": "blower_motor",
+      "name": "Earlier OG9-5 Nissens blower service SKU",
+      "number_namespace": "nissens_seller_sku",
+      "part_number": "32022289",
+      "marketed_brand": "Nissens",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-blower95-early"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
       "id": "cmp:pfi:phu3191:front_hub",
       "assembly_id": "front_hub",
       "name": "PFI cross-platform front hub assembly; 9-3/Opel/Fiat catalogue family",
@@ -6298,6 +6365,54 @@
           "notes": "Manufacturer identifier 12755243 and aftermarket stock SKU 32019651 are separate objects. Supplier 2004–09 statement not approved fitment."
         }
       ]
+    },
+    {
+      "id": "cmp:proparts:87348152:blower_controller",
+      "assembly_id": "blower_controller",
+      "name": "ProParts ACC regulator reference",
+      "number_namespace": "proparts",
+      "part_number": "87348152",
+      "marketed_brand": "Pro Parts Sweden",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-proparts-hvac-catalog"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:proparts:87349085:blower_motor",
+      "assembly_id": "blower_motor",
+      "name": "ProParts blower manufacturer candidate",
+      "number_namespace": "proparts",
+      "part_number": "87349085",
+      "marketed_brand": "Pro Parts Sweden",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-proparts-blower95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:proparts:87349319:blower_controller",
+      "assembly_id": "blower_controller",
+      "name": "ProParts ACC regulator reference",
+      "number_namespace": "proparts",
+      "part_number": "87349319",
+      "marketed_brand": "Pro Parts Sweden",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-proparts-hvac-catalog"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
     },
     {
       "id": "cmp:rbm_kit:kit89.3:engine_ecu",
@@ -7291,6 +7406,22 @@
       ]
     },
     {
+      "id": "cmp:saab_service:4869319:blower_controller",
+      "assembly_id": "blower_controller",
+      "name": "Earlier automatic-climate blower regulator",
+      "number_namespace": "saab_service",
+      "part_number": "4869319",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-regulator95-early"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
       "id": "cmp:saab_service:4899449:radiator_hoses",
       "assembly_id": "radiator_hoses",
       "name": "Supplier-identified lower radiator hose",
@@ -7404,6 +7535,22 @@
       "service_identity_status": "supplier_claim",
       "source_ids": [
         "usparts-src-005"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service:5468152:blower_controller",
+      "assembly_id": "blower_controller",
+      "name": "Later automatic-climate blower regulator",
+      "number_namespace": "saab_service",
+      "part_number": "5468152",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-regulator95-late"
       ],
       "legacy_record_ids": [],
       "notes": []
@@ -8271,6 +8418,38 @@
       "notes": []
     },
     {
+      "id": "cmp:saab_service:93184431:ac_compressor_clutch",
+      "assembly_id": "ac_compressor_clutch",
+      "name": "Earlier B207 A/C clutch service reference",
+      "number_namespace": "saab_service",
+      "part_number": "93184431",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-ac9440-diagram"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service:93189061:ac_compressor_clutch",
+      "assembly_id": "ac_compressor_clutch",
+      "name": "Later B207 A/C clutch with pulley/coil",
+      "number_namespace": "saab_service",
+      "part_number": "93189061",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-ac9440-diagram"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
       "id": "cmp:saab_service:93190331:atf_cooler_connections",
       "assembly_id": "atf_cooler_connections",
       "name": "Oil-cooler quick-coupling kit",
@@ -8333,6 +8512,54 @@
       "service_identity_status": "source_claim",
       "source_ids": [
         "cat-src-retailer55571391"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:13193157:ac_compressor",
+      "assembly_id": "ac_compressor",
+      "name": "Saab compressor reference requiring historical EPC",
+      "number_namespace": "saab_service_reference",
+      "part_number": "13193157",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-ac9440-diagram"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:5049085:blower_motor",
+      "assembly_id": "blower_motor",
+      "name": "Saab blower OE-number reference",
+      "number_namespace": "saab_service_reference",
+      "part_number": "5049085",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-proparts-blower95"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:5331236:blower_motor",
+      "assembly_id": "blower_motor",
+      "name": "Saab blower OE-number reference",
+      "number_namespace": "saab_service_reference",
+      "part_number": "5331236",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "supplier_claim",
+      "source_ids": [
+        "cat-src-proparts-blower95"
       ],
       "legacy_record_ids": [],
       "notes": []
@@ -14496,6 +14723,434 @@
       "vin_approved": false
     },
     {
+      "id": "app:hvac:32020202",
+      "component_id": "cmp:nissens_seller_sku:32020202:ac_compressor",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-ac9440-diagram"
+      ],
+      "conditions": [
+        "Verify original part, exact VIN and climate equipment."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:hvac:93184431",
+      "component_id": "cmp:saab_service:93184431:ac_compressor_clutch",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix_8",
+            "operator": "through",
+            "value": "51041814"
+          }
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix_8",
+            "operator": "through",
+            "value": "51041814"
+          }
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-ac9440-diagram"
+      ],
+      "conditions": [
+        "Verify original part, exact VIN and climate equipment."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:hvac:93189061",
+      "component_id": "cmp:saab_service:93189061:ac_compressor_clutch",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix_8",
+            "operator": "from",
+            "value": "51041815"
+          }
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix_8",
+            "operator": "from",
+            "value": "51041815"
+          }
+        ],
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-ac9440-diagram"
+      ],
+      "conditions": [
+        "Verify original part, exact VIN and climate equipment."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:hvac:32020197",
+      "component_id": "cmp:nissens_seller_sku:32020197:blower_motor",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix_8",
+            "operator": "from",
+            "value": "Y3046042"
+          }
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix_8",
+            "operator": "from",
+            "value": "Y3046042"
+          }
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-blower95-late"
+      ],
+      "conditions": [
+        "Verify original part, exact VIN and climate equipment."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:hvac:32022289",
+      "component_id": "cmp:nissens_seller_sku:32022289:blower_motor",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix_8",
+            "operator": "through",
+            "value": "Y3046041"
+          }
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix_8",
+            "operator": "through",
+            "value": "Y3046041"
+          }
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-blower95-early"
+      ],
+      "conditions": [
+        "Title says1999–2000; broad diagram says1998–2009. MY1998 application is not resolved."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:hvac:4869319",
+      "component_id": "cmp:saab_service:4869319:blower_controller",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix_8",
+            "operator": "through_claim_ambiguous_boundary",
+            "value": "53512949"
+          }
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix_8",
+            "operator": "through_claim_ambiguous_boundary",
+            "value": "53512949"
+          }
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-regulator95-early"
+      ],
+      "conditions": [
+        "ACC only",
+        "Boundary conflicts with later listing and needs independent EPC confirmation."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:hvac:5468152",
+      "component_id": "cmp:saab_service:5468152:blower_controller",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix_8",
+            "operator": "from_claim_ambiguous_boundary",
+            "value": "53512949"
+          }
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix_8",
+            "operator": "from_claim_ambiguous_boundary",
+            "value": "53512949"
+          }
+        ]
+      },
+      "status": "supplier_claim",
+      "source_ids": [
+        "cat-src-regulator95-late"
+      ],
+      "conditions": [
+        "ACC only",
+        "Boundary conflicts with earlier listing and needs independent EPC confirmation."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:proparts:87349085",
+      "component_id": "cmp:proparts:87349085:blower_motor",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "steering_side": [
+          "LHD",
+          "RHD"
+        ],
+        "climate_equipment": "with_or_without_AC"
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ]
+      },
+      "status": "manufacturer_catalogue_claim",
+      "source_ids": [
+        "cat-src-proparts-hvac-catalog"
+      ],
+      "conditions": [
+        "Manufacturer merges earlier/later OE numbers; verify actual housing, electrical supply and speed-controller compatibility."
+      ],
+      "vin_approved": false
+    },
+    {
       "id": "app:offering:32020290:0",
       "component_id": "cmp:esaabparts_sku:32020290:water_pump",
       "scope": {
@@ -14889,6 +15544,33 @@
       ]
     },
     {
+      "id": "pn:cmp:nissens_seller_sku:32020197:blower_motor",
+      "component_id": "cmp:nissens_seller_sku:32020197:blower_motor",
+      "namespace": "nissens_seller_sku",
+      "value": "32020197",
+      "source_ids": [
+        "cat-src-blower95-late"
+      ]
+    },
+    {
+      "id": "pn:cmp:nissens_seller_sku:32020202:ac_compressor",
+      "component_id": "cmp:nissens_seller_sku:32020202:ac_compressor",
+      "namespace": "nissens_seller_sku",
+      "value": "32020202",
+      "source_ids": [
+        "cat-src-ac9440-diagram"
+      ]
+    },
+    {
+      "id": "pn:cmp:nissens_seller_sku:32022289:blower_motor",
+      "component_id": "cmp:nissens_seller_sku:32022289:blower_motor",
+      "namespace": "nissens_seller_sku",
+      "value": "32022289",
+      "source_ids": [
+        "cat-src-blower95-early"
+      ]
+    },
+    {
       "id": "pn:cmp:pfi:phu3191:front_hub",
       "component_id": "cmp:pfi:phu3191:front_hub",
       "namespace": "pfi",
@@ -14936,6 +15618,33 @@
       "source_ids": [
         "b235rev-src-009",
         "b235rev-src-011"
+      ]
+    },
+    {
+      "id": "pn:cmp:proparts:87348152:blower_controller",
+      "component_id": "cmp:proparts:87348152:blower_controller",
+      "namespace": "proparts",
+      "value": "87348152",
+      "source_ids": [
+        "cat-src-proparts-hvac-catalog"
+      ]
+    },
+    {
+      "id": "pn:cmp:proparts:87349085:blower_motor",
+      "component_id": "cmp:proparts:87349085:blower_motor",
+      "namespace": "proparts",
+      "value": "87349085",
+      "source_ids": [
+        "cat-src-proparts-blower95"
+      ]
+    },
+    {
+      "id": "pn:cmp:proparts:87349319:blower_controller",
+      "component_id": "cmp:proparts:87349319:blower_controller",
+      "namespace": "proparts",
+      "value": "87349319",
+      "source_ids": [
+        "cat-src-proparts-hvac-catalog"
       ]
     },
     {
@@ -15321,6 +16030,15 @@
       ]
     },
     {
+      "id": "pn:cmp:saab_service:4869319:blower_controller",
+      "component_id": "cmp:saab_service:4869319:blower_controller",
+      "namespace": "saab_service",
+      "value": "4869319",
+      "source_ids": [
+        "cat-src-regulator95-early"
+      ]
+    },
+    {
       "id": "pn:cmp:saab_service:4899449:radiator_hoses",
       "component_id": "cmp:saab_service:4899449:radiator_hoses",
       "namespace": "saab_service",
@@ -15365,6 +16083,15 @@
       "value": "5194758",
       "source_ids": [
         "usparts-src-005"
+      ]
+    },
+    {
+      "id": "pn:cmp:saab_service:5468152:blower_controller",
+      "component_id": "cmp:saab_service:5468152:blower_controller",
+      "namespace": "saab_service",
+      "value": "5468152",
+      "source_ids": [
+        "cat-src-regulator95-late"
       ]
     },
     {
@@ -15714,6 +16441,24 @@
       ]
     },
     {
+      "id": "pn:cmp:saab_service:93184431:ac_compressor_clutch",
+      "component_id": "cmp:saab_service:93184431:ac_compressor_clutch",
+      "namespace": "saab_service",
+      "value": "93184431",
+      "source_ids": [
+        "cat-src-ac9440-diagram"
+      ]
+    },
+    {
+      "id": "pn:cmp:saab_service:93189061:ac_compressor_clutch",
+      "component_id": "cmp:saab_service:93189061:ac_compressor_clutch",
+      "namespace": "saab_service",
+      "value": "93189061",
+      "source_ids": [
+        "cat-src-ac9440-diagram"
+      ]
+    },
+    {
       "id": "pn:cmp:saab_service:93190331:atf_cooler_connections",
       "component_id": "cmp:saab_service:93190331:atf_cooler_connections",
       "namespace": "saab_service",
@@ -15739,6 +16484,33 @@
       "value": "12787099",
       "source_ids": [
         "cat-src-retailer55571391"
+      ]
+    },
+    {
+      "id": "pn:cmp:saab_service_reference:13193157:ac_compressor",
+      "component_id": "cmp:saab_service_reference:13193157:ac_compressor",
+      "namespace": "saab_service_reference",
+      "value": "13193157",
+      "source_ids": [
+        "cat-src-ac9440-diagram"
+      ]
+    },
+    {
+      "id": "pn:cmp:saab_service_reference:5049085:blower_motor",
+      "component_id": "cmp:saab_service_reference:5049085:blower_motor",
+      "namespace": "saab_service_reference",
+      "value": "5049085",
+      "source_ids": [
+        "cat-src-proparts-blower95"
+      ]
+    },
+    {
+      "id": "pn:cmp:saab_service_reference:5331236:blower_motor",
+      "component_id": "cmp:saab_service_reference:5331236:blower_motor",
+      "namespace": "saab_service_reference",
+      "value": "5331236",
+      "source_ids": [
+        "cat-src-proparts-blower95"
       ]
     },
     {
@@ -17463,6 +18235,95 @@
         "Opel",
         "Vauxhall"
       ]
+    },
+    {
+      "id": "int:hvac:13193157:32020202",
+      "from_component_id": "cmp:saab_service_reference:13193157:ac_compressor",
+      "to_component_id": "cmp:nissens_seller_sku:32020202:ac_compressor",
+      "category": "E",
+      "relationship": "seller_replacement_reference",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-ac9440-diagram"
+      ],
+      "conditions": [
+        "Independent Nissens maker SKU, original compressor type/pulley/connector and exact Saab application remain unverified."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:hvac:pp:5049085",
+      "from_component_id": "cmp:saab_service_reference:5049085:blower_motor",
+      "to_component_id": "cmp:proparts:87349085:blower_motor",
+      "category": "E",
+      "relationship": "manufacturer_aftermarket_reference",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-proparts-blower95",
+        "cat-src-proparts-hvac-catalog"
+      ],
+      "conditions": [
+        "OEM reference list does not certify identical earlier/later original motor or cross-brand donor."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:hvac:pp:5331236",
+      "from_component_id": "cmp:saab_service_reference:5331236:blower_motor",
+      "to_component_id": "cmp:proparts:87349085:blower_motor",
+      "category": "E",
+      "relationship": "manufacturer_aftermarket_reference",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-proparts-blower95",
+        "cat-src-proparts-hvac-catalog"
+      ],
+      "conditions": [
+        "OEM reference list does not certify identical earlier/later original motor or cross-brand donor."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:hvac:87349319",
+      "from_component_id": "cmp:saab_service:4869319:blower_controller",
+      "to_component_id": "cmp:proparts:87349319:blower_controller",
+      "category": "E",
+      "relationship": "manufacturer_aftermarket_reference",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-proparts-hvac-catalog"
+      ],
+      "conditions": [
+        "LHD; manufacturer raw cutoff FC3 Ch -512948",
+        "Do not translate short chassis notation to a full VIN without factory decoding."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:hvac:87348152",
+      "from_component_id": "cmp:saab_service:5468152:blower_controller",
+      "to_component_id": "cmp:proparts:87348152:blower_controller",
+      "category": "E",
+      "relationship": "manufacturer_aftermarket_reference",
+      "identity_basis": "catalog_cross_reference",
+      "source_ids": [
+        "cat-src-proparts-hvac-catalog"
+      ],
+      "conditions": [
+        "LHD; manufacturer raw cutoff FC3 Ch512949-",
+        "Do not translate short chassis notation to a full VIN without factory decoding."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
     },
     {
       "id": "int:12630084:dual-official-service-sku",
@@ -51476,9 +52337,15 @@
       "role": "marketed_product_brand_not_original_vehicle_supplier_certification",
       "component_ids": [
         "cmp:nissens:32019619:radiator_manual",
-        "cmp:nissens:32019620:radiator_automatic"
+        "cmp:nissens:32019620:radiator_automatic",
+        "cmp:nissens_seller_sku:32020202:ac_compressor",
+        "cmp:nissens_seller_sku:32020197:blower_motor",
+        "cmp:nissens_seller_sku:32022289:blower_motor"
       ],
       "source_ids": [
+        "cat-src-ac9440-diagram",
+        "cat-src-blower95-early",
+        "cat-src-blower95-late",
         "parts95-src-011",
         "parts95-src-012",
         "parts95-src-013"
@@ -51504,12 +52371,17 @@
         "cmp:proparts:32019651:oil_separator",
         "cmp:proparts:213452433:pcv_kit",
         "cmp:proparts:21341200:pcv_kit",
-        "cmp:proparts:21341200c:pcv_kit"
+        "cmp:proparts:21341200c:pcv_kit",
+        "cmp:proparts:87349085:blower_motor",
+        "cmp:proparts:87349319:blower_controller",
+        "cmp:proparts:87348152:blower_controller"
       ],
       "source_ids": [
         "b235rev-src-009",
         "b235rev-src-011",
         "b235rev-src-016",
+        "cat-src-proparts-blower95",
+        "cat-src-proparts-hvac-catalog",
         "corrections-src-017",
         "pcv-supply-src-002",
         "pcv-supply-src-003",
@@ -57196,6 +58068,160 @@
       ]
     },
     {
+      "id": "offer:hvac:32020202",
+      "component_id": "cmp:nissens_seller_sku:32020202:ac_compressor",
+      "supplier": "eSaabParts",
+      "condition": "new_advertised",
+      "region": "US",
+      "canadian_fulfillment_verified": false,
+      "observed_at": "2026-10-14",
+      "observation_status": "advertised_page_snapshot",
+      "price": 528.31,
+      "currency": "USD",
+      "stock_text": "4 in US warehouse",
+      "price_basis": "product_or_diagram_display",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "source_ids": [
+        "cat-src-ac9440-diagram"
+      ],
+      "checkout_verified": false
+    },
+    {
+      "id": "offer:hvac:93184431",
+      "component_id": "cmp:saab_service:93184431:ac_compressor_clutch",
+      "supplier": "eSaabParts",
+      "condition": "new_advertised",
+      "region": "US_supplier_unfulfilled",
+      "canadian_fulfillment_verified": false,
+      "observed_at": "2026-10-14",
+      "observation_status": "advertised_page_snapshot",
+      "price": 742.81,
+      "currency": "USD",
+      "stock_text": "Back Ordered",
+      "price_basis": "product_or_diagram_display",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "source_ids": [
+        "cat-src-ac9440-diagram"
+      ],
+      "checkout_verified": false
+    },
+    {
+      "id": "offer:hvac:93189061",
+      "component_id": "cmp:saab_service:93189061:ac_compressor_clutch",
+      "supplier": "eSaabParts",
+      "condition": "new_advertised",
+      "region": "US_supplier_unfulfilled",
+      "canadian_fulfillment_verified": false,
+      "observed_at": "2026-10-14",
+      "observation_status": "advertised_page_snapshot",
+      "price": 823.45,
+      "currency": "USD",
+      "stock_text": "Back Ordered",
+      "price_basis": "product_or_diagram_display",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "source_ids": [
+        "cat-src-ac9440-diagram"
+      ],
+      "checkout_verified": false
+    },
+    {
+      "id": "offer:hvac:32020197",
+      "component_id": "cmp:nissens_seller_sku:32020197:blower_motor",
+      "supplier": "eSaabParts",
+      "condition": "new_advertised",
+      "region": "US_supplier_unfulfilled",
+      "canadian_fulfillment_verified": false,
+      "observed_at": "2026-10-14",
+      "observation_status": "advertised_page_snapshot",
+      "price": 181.74,
+      "currency": "USD",
+      "stock_text": "Currently Unavailable",
+      "price_basis": "product_or_diagram_display",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "source_ids": [
+        "cat-src-blower95-late"
+      ],
+      "checkout_verified": false
+    },
+    {
+      "id": "offer:hvac:32022289",
+      "component_id": "cmp:nissens_seller_sku:32022289:blower_motor",
+      "supplier": "eSaabParts",
+      "condition": "new_advertised",
+      "region": "US",
+      "canadian_fulfillment_verified": false,
+      "observed_at": "2026-10-14",
+      "observation_status": "advertised_page_snapshot",
+      "price": 181.74,
+      "currency": "USD",
+      "stock_text": "1 Available",
+      "price_basis": "product_or_diagram_display",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "source_ids": [
+        "cat-src-blower95-early"
+      ],
+      "checkout_verified": false
+    },
+    {
+      "id": "offer:hvac:4869319",
+      "component_id": "cmp:saab_service:4869319:blower_controller",
+      "supplier": "eSaabParts",
+      "condition": "new_advertised",
+      "region": "US",
+      "canadian_fulfillment_verified": false,
+      "observed_at": "2026-10-14",
+      "observation_status": "advertised_page_snapshot",
+      "price": 440.46,
+      "currency": "USD",
+      "stock_text": "4 Available",
+      "price_basis": "product_or_diagram_display",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "source_ids": [
+        "cat-src-regulator95-early"
+      ],
+      "checkout_verified": false
+    },
+    {
+      "id": "offer:hvac:5468152",
+      "component_id": "cmp:saab_service:5468152:blower_controller",
+      "supplier": "eSaabParts",
+      "condition": "new_advertised",
+      "region": "US_supplier_unfulfilled",
+      "canadian_fulfillment_verified": false,
+      "observed_at": "2026-10-14",
+      "observation_status": "advertised_page_snapshot",
+      "price": 272.82,
+      "currency": "USD",
+      "stock_text": "Currently Unavailable",
+      "price_basis": "product_or_diagram_display",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "source_ids": [
+        "cat-src-regulator95-late"
+      ],
+      "checkout_verified": false
+    },
+    {
       "id": "offer:legacy:c9c15154b665",
       "component_id": "cmp:proparts:21341200:pcv_kit",
       "supplier": "FCP",
@@ -57529,6 +58555,67 @@
       "collateral_damage": [
         "Stripped cylinder-head threads or damaged coil boots change scope/cost."
       ]
+    },
+    {
+      "id": "procedure:9440-B207-AC-compressor-2007",
+      "assembly_ids": [
+        "ac_compressor"
+      ],
+      "component_ids": [
+        "cmp:nissens_seller_sku:32020202:ac_compressor"
+      ],
+      "source_ids": [
+        "cat-src-ac9440-procedure"
+      ],
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "documentation_model_year": 2007,
+        "engine_codes": [
+          "B207"
+        ]
+      },
+      "procedure_context_only": true,
+      "summary": "Recover refrigerant; lower access and belt/charge-pipe removal; renew PAD sealing washers, adjust oil, evacuate/refill and test.",
+      "special_tools": [
+        {
+          "number": "8396095",
+          "name": "B207 belt release tool"
+        },
+        {
+          "number": null,
+          "name": "A/C recovery, evacuation and recharge equipment"
+        }
+      ],
+      "required_consumables": [
+        "Correct compressor oil and adjusted system quantity",
+        "Correct refrigerant charge",
+        "New PAD sealing washers"
+      ],
+      "programming_required": false,
+      "labor_hours": null,
+      "operations": [
+        {
+          "joint": "compressor mounting",
+          "torque_nm": 24
+        },
+        {
+          "joint": "PAD connection",
+          "torque_nm": 18
+        }
+      ],
+      "body_style_access_variations": [
+        {
+          "body_style": "Convertible",
+          "additional_work": "Front subframe chassis reinforcement removal/refitting"
+        }
+      ],
+      "diy_feasibility": "mechanical_work_possible_with_experience_plus_outsourced_refrigerant_service",
+      "professional_feasibility": "equipped_AC_workshop",
+      "collateral_damage": [
+        "Refrigerant leaks and compressor contamination require separate diagnosis and may expand parts."
+      ]
     }
   ],
   "repair_scenarios": [
@@ -57633,6 +58720,55 @@
         "Professional labor quote"
       ],
       "diy_feasibility": "normal_home_mechanic_after_fitment_and_joint_specs_verified",
+      "exceeds_no_engine_transmission_rebuild_goal": false
+    },
+    {
+      "id": "repair:9440-AC-compressor",
+      "procedure_id": "procedure:9440-B207-AC-compressor-2007",
+      "assembly_ids": [
+        "ac_compressor"
+      ],
+      "component_ids": [
+        "cmp:nissens_seller_sku:32020202:ac_compressor"
+      ],
+      "source_ids": [
+        "cat-src-ac9440-procedure",
+        "cat-src-ac9440-diagram"
+      ],
+      "parts_bill": [
+        {
+          "role": "compressor candidate",
+          "component_ids": [
+            "cmp:nissens_seller_sku:32020202:ac_compressor"
+          ],
+          "quantity": 1,
+          "unit_price": 528.31,
+          "currency": "USD",
+          "offering_id": "offer:hvac:32020202"
+        },
+        {
+          "role": "new PAD sealing washers",
+          "component_ids": [],
+          "quantity": null
+        }
+      ],
+      "currency": "USD",
+      "priced_parts_subtotal": 528.31,
+      "complete_parts_total": null,
+      "complete_diy_total": null,
+      "complete_professional_total": null,
+      "labor_hours": null,
+      "labor_rate": null,
+      "estimate_status": "priced_main_assembly_only_refrigerant_work_unpriced",
+      "missing_cost_inputs": [
+        "Verify compressor type/pulley/application and included kit contents",
+        "PAD seal numbers and price",
+        "Oil/refrigerant type and quantities",
+        "Recovery/evacuation/recharge quote",
+        "Mechanical labor or tool rental",
+        "Shipping/tax and contamination-related parts"
+      ],
+      "diy_feasibility": "mechanical_work_possible_with_experience_plus_outsourced_refrigerant_service",
       "exceeds_no_engine_transmission_rebuild_goal": false
     },
     {
@@ -59476,6 +60612,26 @@
       "notes": "Factory source restricted to the exact model-year, engine, market, or procedure context stated; not a vehicle condition finding."
     },
     {
+      "id": "cat-src-ac9440-diagram",
+      "url": "https://www.esaabparts.com/viewparts.php?section=510187783",
+      "title": "B207 compressor and separate clutch applications",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "B284 rows are excluded. Seller chassis cutoff, US versus Sweden stock and advertised prices are claims, not original EPC approval."
+    },
+    {
+      "id": "cat-src-ac9440-procedure",
+      "url": "https://saabwisonline.com/9-3-9440/2007/8-body/climate-system/heating-and-ventilation-a-c/adjustment-replacement/a-c-compressor-b207",
+      "title": "B207 A/C compressor service and CV access",
+      "publisher": "Saab WIS via independent mirror",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "MY2007 procedure context, not a whole-production parts matrix."
+    },
+    {
       "id": "cat-src-af30-2001",
       "url": "https://saabwisonline.com/9-5-9600/2001/4-transmission/automatic-transmission/technical-data/type-designation",
       "title": "AF30 / FA47 / 50-40LE designation",
@@ -59484,6 +60640,26 @@
       "accessed_at": "2026-10-14",
       "retrieval": "full_text",
       "notes": "MY2001 procedure context; example tag, not complete production matrix."
+    },
+    {
+      "id": "cat-src-blower95-early",
+      "url": "https://www.esaabparts.com/saab/parts/32022289",
+      "title": "Earlier OG9-5 blower candidate",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "cat-src-blower95-late",
+      "url": "https://www.esaabparts.com/saab/parts/32020197",
+      "title": "Later OG9-5 blower candidate",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": ""
     },
     {
       "id": "cat-src-f40-2008",
@@ -59566,6 +60742,26 @@
       "notes": "Indexed table retrieved; full PDF exceeds web content limit. 9-3 L4 2.0L 2004–11; no VIN or engine-code-level proof."
     },
     {
+      "id": "cat-src-proparts-blower95",
+      "url": "https://www.proparts.se/en/artiklar/heater-motor-23.html",
+      "title": "ProParts87349085 original-number references",
+      "publisher": "Professional Parts Sweden",
+      "source_type": "manufacturer_datasheet",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "cat-src-proparts-hvac-catalog",
+      "url": "https://www.proparts.se/dokument/bibliotek/File/SAAB_catalog.pdf",
+      "title": "Manufacturer blower and regulator table",
+      "publisher": "Professional Parts Sweden",
+      "source_type": "manufacturer_datasheet",
+      "accessed_at": "2026-10-14",
+      "retrieval": "search_excerpt",
+      "notes": "Full PDF retrieval exceeded content limit. Indexed application rows only; no physical interchange approval."
+    },
+    {
       "id": "cat-src-pump-diagram95",
       "url": "https://www.esaabparts.com/viewparts.php?searchpart=1&section=314395817",
       "title": "OG9-5 coolant pump diagram and service items",
@@ -59584,6 +60780,26 @@
       "accessed_at": "2026-10-14",
       "retrieval": "full_text",
       "notes": "Direct page returned loading price/availability; catalogue application is a seller claim."
+    },
+    {
+      "id": "cat-src-regulator95-early",
+      "url": "https://www.esaabparts.com/saab/parts/4869319",
+      "title": "Earlier ACC blower regulator",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": ""
+    },
+    {
+      "id": "cat-src-regulator95-late",
+      "url": "https://www.esaabparts.com/saab/parts/5468152",
+      "title": "Later ACC blower regulator",
+      "publisher": "eSaabParts",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": ""
     },
     {
       "id": "cat-src-retailer55571391",
@@ -70473,6 +71689,28 @@
       ],
       "resolution_needed": [
         "Authentic WIS revision, exact fastener/joint and engine applicability; do not publish a blended instruction."
+      ]
+    },
+    {
+      "id": "conflict:og95-ACC-regulator-cutoff",
+      "status": "unresolved",
+      "component_ids": [
+        "cmp:saab_service:4869319:blower_controller",
+        "cmp:saab_service:5468152:blower_controller"
+      ],
+      "source_ids": [
+        "cat-src-regulator95-early",
+        "cat-src-regulator95-late",
+        "cat-src-proparts-hvac-catalog"
+      ],
+      "claim": "Seller earlier/later regulators both name chassis53512949 at the boundary; manufacturer short notation says512948/512949 with FC3.",
+      "counterevidence": "Different chassis notation and title scopes do not establish full-VIN equivalence.",
+      "blocked_relationships": [
+        "universal_regulator_swap",
+        "53512949_boundary_approval"
+      ],
+      "resolution_needed": [
+        "Authenticated EPC, LHD/RHD/ACC option and full chassis convention"
       ]
     }
   ],

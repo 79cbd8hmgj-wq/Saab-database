@@ -84,6 +84,12 @@ class ComponentCatalogGuards(unittest.TestCase):
         repair["parts_bill"][0]["currency"] = "EUR"
         self.assertTrue(any("Mixed repair currencies" in e for e in catalog.validate(c)))
 
+    def test_og95_cannot_gain_an_af40_factory_application(self):
+        c = copy.deepcopy(self.catalog)
+        app = next(a for a in c["applications"] if a["scope"].get("platforms") == ["9-5-9600"])
+        app["scope"]["transmission_codes"] = ["AF40"]
+        self.assertTrue(any("platform/gearbox" in e for e in catalog.validate(c)))
+
 
 if __name__ == "__main__":
     unittest.main()
