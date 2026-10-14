@@ -372,5 +372,275 @@
     "issue": "Preexisting case classified by legacy taxonomy; not necessarily a defect."
   },
   "source_reuse_only": "Same original URL in an issue or another record is context for research navigation, not a verified same failure, confirmation of fitment, or a complete repair study.",
-  "user_decisions": "No tier scores, no model priorities, no assumption excluded platforms are unreliable. Neither a physical component nor vehicle campaign source is automatically repeated as a model-wide defect."
+  "user_decisions": "No tier scores, no model priorities, no assumption excluded platforms are unreliable. Neither a physical component nor vehicle campaign source is automatically repeated as a model-wide defect.",
+  "explicit_record_routes": {
+    "afdiag-part-001": [
+      "turbo_intake_boost"
+    ],
+    "afdiag-part-002": [
+      "turbo_intake_boost"
+    ],
+    "repl-part-001": [
+      "turbo_intake_boost"
+    ],
+    "repl-part-002": [
+      "turbo_intake_boost"
+    ],
+    "repl-part-003": [
+      "turbo_intake_boost"
+    ],
+    "repl-part-004": [
+      "turbo_intake_boost"
+    ],
+    "as-p001": [
+      "charging_starting_wiring"
+    ],
+    "as-p002": [
+      "charging_starting_wiring"
+    ],
+    "as-p003": [
+      "charging_starting_wiring"
+    ],
+    "ogex-part-001": [
+      "charging_starting_wiring"
+    ],
+    "ogex-part-002": [
+      "charging_starting_wiring"
+    ],
+    "b235rev-part-001": [
+      "engine_core_oil_pcv"
+    ],
+    "b235rev-part-002": [
+      "engine_core_oil_pcv"
+    ],
+    "b235rev-part-003": [
+      "engine_core_oil_pcv"
+    ],
+    "b235rev-part-004": [
+      "engine_core_oil_pcv"
+    ],
+    "b235rev-part-005": [
+      "engine_core_oil_pcv"
+    ],
+    "b235rev-part-006": [
+      "engine_core_oil_pcv"
+    ],
+    "b235rev-part-007": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-001": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-002": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-003": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-004": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-005": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-006": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-007": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-008": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-009": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-010": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-017": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-018": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-019": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-021": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-022": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-023": [
+      "engine_core_oil_pcv"
+    ],
+    "pcv-supply-part-001": [
+      "engine_core_oil_pcv"
+    ],
+    "pcv-supply-part-002": [
+      "engine_core_oil_pcv"
+    ],
+    "pcv-supply-part-003": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections-part-011": [
+      "ecu_immobilizer_security"
+    ],
+    "corrections-part-012": [
+      "ecu_immobilizer_security"
+    ],
+    "corrections-part-013": [
+      "ecu_immobilizer_security"
+    ],
+    "corrections-part-016": [
+      "ecu_immobilizer_security"
+    ],
+    "gate5-part-001": [
+      "ecu_immobilizer_security"
+    ],
+    "gate5-part-002": [
+      "ecu_immobilizer_security"
+    ],
+    "repl-part-005": [
+      "ecu_immobilizer_security"
+    ],
+    "corrections-part-014": [
+      "cooling_heat"
+    ],
+    "gmwp-part-001": [
+      "cooling_heat"
+    ],
+    "parts95-part-001": [
+      "cooling_heat"
+    ],
+    "parts95-part-002": [
+      "cooling_heat"
+    ],
+    "parts95-part-003": [
+      "cooling_heat"
+    ],
+    "parts95-part-004": [
+      "cooling_heat"
+    ],
+    "parts95-part-005": [
+      "cooling_heat"
+    ],
+    "parts95-part-006": [
+      "cooling_heat"
+    ],
+    "parts95-part-007": [
+      "cooling_heat"
+    ],
+    "parts95-part-008": [
+      "cooling_heat"
+    ],
+    "corrections-part-015": [
+      "engine_timing_valvetrain"
+    ],
+    "hcdiag-part-001": [
+      "engine_timing_valvetrain"
+    ],
+    "hcdiag-part-002": [
+      "engine_timing_valvetrain"
+    ],
+    "corrections-part-020": [
+      "steering_suspension"
+    ],
+    "cross-part-001": [
+      "steering_suspension"
+    ],
+    "early9three-part-002": [
+      "steering_suspension"
+    ],
+    "early9three-part-003": [
+      "steering_suspension"
+    ],
+    "xint-part-001": [
+      "steering_suspension"
+    ],
+    "xint-part-002": [
+      "steering_suspension"
+    ],
+    "corrections-part-024": [
+      "restraints_safety"
+    ],
+    "corrections-part-025": [
+      "restraints_safety"
+    ],
+    "corrections-part-026": [
+      "restraints_safety"
+    ],
+    "early9three-part-001": [
+      "body_corrosion_mounts"
+    ],
+    "early9three-part-004": [
+      "body_corrosion_mounts"
+    ],
+    "early9three-part-005": [
+      "body_corrosion_mounts"
+    ],
+    "epcverify-part-001": [
+      "body_corrosion_mounts"
+    ],
+    "epcverify-part-002": [
+      "body_corrosion_mounts"
+    ],
+    "mountbrake-part-001": [
+      "body_corrosion_mounts"
+    ],
+    "mountbrake-part-002": [
+      "body_corrosion_mounts"
+    ],
+    "mountbrake-part-003": [
+      "body_corrosion_mounts"
+    ],
+    "mountbrake-part-004": [
+      "body_corrosion_mounts"
+    ],
+    "mountbrake-part-005": [
+      "body_corrosion_mounts"
+    ],
+    "mountbrake-part-006": [
+      "body_corrosion_mounts"
+    ],
+    "mountbrake-part-007": [
+      "body_corrosion_mounts"
+    ],
+    "mountbrake-part-008": [
+      "body_corrosion_mounts"
+    ],
+    "mountbrake-part-009": [
+      "body_corrosion_mounts"
+    ],
+    "mountbrake-part-010": [
+      "body_corrosion_mounts"
+    ],
+    "mountbrake-part-011": [
+      "body_corrosion_mounts"
+    ],
+    "mountbrake-part-012": [
+      "body_corrosion_mounts"
+    ],
+    "mountbrake-part-013": [
+      "body_corrosion_mounts"
+    ],
+    "mountbrake-part-014": [
+      "body_corrosion_mounts"
+    ],
+    "mountbrake-part-015": [
+      "body_corrosion_mounts"
+    ],
+    "ng93structure-part-001": [
+      "body_corrosion_mounts"
+    ],
+    "og95structure-part-001": [
+      "body_corrosion_mounts"
+    ],
+    "xint-part-003": [
+      "brakes_hydraulics"
+    ]
+  },
+  "explicit_record_routes_purpose": "All saved part IDs were manually checked against their source-scoped part titles for primary SYSTEM NAVIGATION. This is not a manual verification of maker, OE supersession, correct VIN fitment, supplier stock, installation, quality, or service life. Any new part ID needs reviewer classification before CI passes."
 }
