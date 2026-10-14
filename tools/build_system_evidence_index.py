@@ -218,6 +218,8 @@ def build(datasets: list[dict], policy: dict, method: dict,
                     **details,
                     "original_source_ids": list(record["source_ids"]),
                     "original_source_urls": sorted(urls),
+                    "no_source_is_unanswered_research_question":
+                        kind == "gaps" and not bool(urls),
                     "original_applicability": record.get("applicability"),
                     "original_evidence_status": record.get("evidence_status"),
                     "same_source_document_issue_ids_navigation_only": colocated_issues,
