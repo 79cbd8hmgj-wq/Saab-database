@@ -81,5 +81,6 @@
       "total_range_or_unknown",
       "uncertainty"
     ]
-  }
+  },
+  "component_evidence_intake_template": "data/tier-research/component-evidence-template.json"
 }
