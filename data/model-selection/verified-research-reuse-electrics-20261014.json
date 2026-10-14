@@ -1,0 +1,87 @@
+{
+  "version": "0.1",
+  "date": "2026-10-14",
+  "method": "Existing-research reconciliation only; no new external component verification",
+  "items": [
+    {
+      "system": "charging",
+      "component": "alternator",
+      "vehicle": "9-3 9440 B207",
+      "supplier_part": "AS-PL A0047",
+      "spec": "12V 120A 5-groove PL_2200",
+      "cross_brand": "Supplier application includes Opel Vectra C / Vauxhall Signum Z20NET",
+      "evidence": "docs/research/cross-manufacturer-electrics-model-choice.md",
+      "status": "manufacturer_catalogue_claim",
+      "vin_fitment_verified": false
+    },
+    {
+      "system": "starting",
+      "component": "starter",
+      "vehicle": "9-3 9440 B207",
+      "supplier_part": "AS-PL S1167S",
+      "spec": "12V 1.4kW 9-tooth 2 mounting holes",
+      "cross_brand": "Supplier application includes Opel/Vauxhall Z20NET",
+      "evidence": "docs/research/cross-manufacturer-electrics-model-choice.md",
+      "status": "manufacturer_catalogue_claim",
+      "vin_fitment_verified": false
+    },
+    {
+      "system": "charging",
+      "component": "alternator",
+      "vehicle": "9-5 9600 B235",
+      "supplier_part": "AS-PL A0219",
+      "spec": "12V 120A 6-groove PL_9104",
+      "cross_brand": "Supplier application includes Opel/Vauxhall families",
+      "evidence": "docs/research/og95-shared-electrics-countercheck.md",
+      "status": "manufacturer_catalogue_claim",
+      "vin_fitment_verified": false
+    },
+    {
+      "system": "charging",
+      "component": "alternator",
+      "vehicle": "9-5 9600 B235",
+      "supplier_part": "AS-PL A0319",
+      "spec": "12V 130A 6-groove PL_9105",
+      "cross_brand": "Not validated donor interchange",
+      "evidence": "docs/research/cross-manufacturer-electrics-model-choice.md",
+      "status": "manufacturer_catalogue_claim",
+      "vin_fitment_verified": false
+    },
+    {
+      "system": "starting",
+      "component": "starter",
+      "vehicle": "9-5 9600 B235",
+      "supplier_part": "AS-PL S0034",
+      "spec": "12V 1.4kW 9-tooth 2 mounting holes",
+      "cross_brand": "Supplier applications include Opel/Vauxhall families",
+      "evidence": "docs/research/og95-shared-electrics-countercheck.md",
+      "status": "manufacturer_catalogue_claim",
+      "vin_fitment_verified": false
+    }
+  ],
+  "conflicts": [
+    {
+      "kind": "non_interchange_warning",
+      "parts": [
+        "A0047",
+        "A0319"
+      ],
+      "reason": "Different groove counts, connectors and outputs"
+    },
+    {
+      "kind": "variant_ambiguity",
+      "parts": [
+        "A0219",
+        "A0319"
+      ],
+      "reason": "120A PL_9104 versus 130A PL_9105; require OE equipment verification"
+    }
+  ],
+  "remaining": [
+    "VIN-specific original EPC identities",
+    "US delivered prices and stock",
+    "installed costs",
+    "supplier or OEM-approved interchange",
+    "comparative durability"
+  ]
+}
