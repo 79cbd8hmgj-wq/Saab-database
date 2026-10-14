@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- **[Engineering batch 2 — original 9-5 B205/B235 purchase and repair dossier](docs/research/og95-b205-b235-complete-purchase-dossier-20261014.md)**: 20 source-linked buyer decisions for oil-sludge/bearing risk, early and later PCV, Trionic 7/ignition/TWICE, turbo, AF30 and FA57 automatics, cooling, SportCombi rust, brakes and emissions. Includes a [structured decision register](data/engineering-dossiers/og95-b205-b235-purchase-engineering-20261014.json) and a [practical 9-5 inspection/cost worksheet](docs/research/og95-b205-b235-buyer-inspection-worksheet-20261014.md). Original-source records remain unchanged; no universal part interchange, 2026 installed quotes or failure rates established.
+
 - **[Engineering batch 1 — 9-3 B207/FA57 buying and repair dossier](docs/research/ng93-b207-complete-purchase-dossier-20261014.md)**: 17 source-linked practical cases covering high-cost engine and automatic-gearbox risks, original factory corrections, ignition/CIM issues, cooling, water ingress, suspension, corrosion, brake configurations, real repair paths, partial price quotes and a seller inspection protocol. Separate [structured decisions](data/engineering-dossiers/ng93-b207-purchase-engineering-20261014.json) and [printable inspection and actual-repair-cost worksheet](docs/research/ng93-b207-2003-2011-buyer-inspection-worksheet.md). The analysis does **not** grade Saab years, establish a factory failure frequency, or approve universal fitment.
 
 
