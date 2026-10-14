@@ -30,6 +30,21 @@ simulator or a source of verified failure probabilities.
 - Run `python3 tools/validate.py` and `python3 -m unittest discover -s tests -v`
   after changing the data or validation tools. Inspect the full result.
 
+## Completed engineering buyer dossiers
+
+The first major buyer-focused batch is
+[NG 9-3 B207/FA57 engineering batch 1](docs/research/ng93-b207-complete-purchase-dossier-20261014.md),
+with [17 independent purchase/repair decisions](data/engineering-dossiers/ng93-b207-purchase-engineering-20261014.json).
+New *engineering batches* should deliver complete buyer-useful evidence for a defined vehicle and
+component family, including original factory fault/correction, exact application,
+source-supported replacement, repair difficulty, parts/labor economics, inspection gates,
+and explicit unresolved uncertainties. Avoid repeatedly replacing substantive work
+with another record routing or gap counting audit. Preserve original issue IDs and
+cross-link previously sourced records before researching new claims. A cost for
+bare parts or ECU programming is **not** an all-in repair quote. A WIS repair
+procedure or parts listing does not itself prove a common factory defect or
+longer service life. Keep VIN/country/body/gearbox and safety scopes separate.
+
 ## Reuse-first requirement for research changes
 
 Before adding a factory fault, component revision, part substitution, price observation,
