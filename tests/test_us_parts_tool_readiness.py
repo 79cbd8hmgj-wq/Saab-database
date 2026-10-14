@@ -20,18 +20,18 @@ class USPartsToolReadinessTests(unittest.TestCase):
         self.assertEqual(build(self.prod, self.plans), self.cover)
         self.assertEqual(self.cover["denominator_source_compiled_us_automatic_fwd_groups"], 110)
         self.assertEqual(len(self.cover["production_groups"]), 110)
-        self.assertEqual(len(self.plans["job_packets"]), 9)
-        self.assertEqual(len(self.plans["source_records"]), 14)
-        self.assertEqual(len({x["id"] for x in self.plans["source_records"]}), 14)
+        self.assertEqual(len(self.plans["job_packets"]), 11)
+        self.assertEqual(len(self.plans["source_records"]), 18)
+        self.assertEqual(len({x["id"] for x in self.plans["source_records"]}), 18)
         self.assertEqual(
             [j["matching_production_configuration_groups"]
              for j in self.cover["job_coverage"]],
-            [22, 42, 28, 28, 6, 4, 1, 4, 11]
+            [22, 42, 28, 28, 6, 4, 1, 4, 11, 21, 7]
         )
         self.assertEqual(
             [j["matching_model_year_source_examples"]
              for j in self.cover["job_coverage"]],
-            [7, 4, 2, 2, 2, 4, 1, 4, 3]
+            [7, 4, 2, 2, 2, 4, 1, 4, 3, 4, 3]
         )
         self.assertEqual(sum(bool(r["job_readiness_leads"]) for r in
                              self.cover["production_groups"]), 110)
@@ -97,6 +97,49 @@ class USPartsToolReadinessTests(unittest.TestCase):
         self.assertEqual(len(matching), 11)
         self.assertEqual({x["platform"] for x in matching}, {"9400"})
         self.assertTrue(all(not x["repair_authorized"] for x in matching))
+
+    def test_early_PCV_renovation_kit_has_exact_engine_and_year_scope(self):
+        lookup = {p["id"]: p for p in self.plans["job_packets"]}
+        prods = {x["id"]: x for x in self.prod["configurations"]}
+        expected = {
+            "part-ready-010": ("9600", {1999, 2000, 2001, 2002, 2003},
+                               {"B235E", "B235L", "B235R"}, 21),
+            "part-ready-011": ("9400", {2000, 2001, 2002},
+                               {"B205L", "B205R"}, 7),
+        }
+        for jid, (platform, years, engines, count) in expected.items():
+            with self.subTest(packet=jid):
+                p = lookup[jid]
+                matches = [prods[x["production_configuration_id"]]
+                           for x in self.cover["production_groups"]
+                           if jid in [j["job_id"] for j in x["job_readiness_leads"]]]
+                self.assertEqual(len(matches), count)
+                self.assertEqual({x["platform"] for x in matches}, {platform})
+                self.assertEqual({x["model_year"] for x in matches}, years)
+                self.assertTrue({x["engine_code"] for x in matches} <= engines)
+                self.assertTrue(any("55 561 200" in v
+                                    for v in p["candidate_parts_or_numbers"]))
+                self.assertTrue(any("30 14 883" in v
+                                    for v in p["required_tools_or_capabilities"]))
+                self.assertTrue(any("not guaranteed" in v.lower()
+                                    or "not verified" in v.lower()
+                                    for v in p["vin_rpo_case_gates"]))
+                self.assertIsNone(p["estimate_usd"])
+        self.assertFalse(any(
+            x["engine_code"] in ("B204L", "B308E", "B207R", "B284L")
+            for row in self.cover["production_groups"]
+            for x in [prods[row["production_configuration_id"]]]
+            if any(v["job_id"] in expected for v in row["job_readiness_leads"])
+        ))
+
+    def test_cross_model_pcv_bulletin_host_is_not_misread_as_9400_host(self):
+        s = next(x for x in self.plans["source_records"]
+                 if x["id"] == "ready-wis-9400-usca-pcv-2102554")
+        self.assertEqual(s["platform"], "9400")
+        self.assertIn("9-5-9600", s["url"])
+        self.assertIn("mirrored under 9-5/9600", s["fact"])
+        self.assertIn("9-3 9400", s["fact"])
+        self.assertFalse(self.plans["guardrails"]["oem_replacement_part_fitment_approved"])
 
     def test_historical_retail_price_is_not_a_live_quote(self):
         p = next(x for x in self.plans["job_packets"] if x["id"] == "part-ready-008")
