@@ -16,7 +16,7 @@ from urllib.parse import urlparse
 from database import ROOT, load_datasets, validate_datasets
 
 DOSSIER = ROOT / "data/engineering-dossiers/ng93-b207-purchase-engineering-20261014.json"
-REPORT = ROOT / "docs/research/ng93-b207-powertrain-engineering-batch-20261014.md"
+REPORT = ROOT / "docs/research/ng93-b207-complete-purchase-dossier-20261014.md"
 WORKSHEET = ROOT / "docs/research/ng93-b207-2003-2011-buyer-inspection-worksheet.md"
 VALID_DISPOSITIONS = {
     "avoid_major_unpriced_work", "inspect_before_negotiation",
@@ -25,7 +25,7 @@ VALID_DISPOSITIONS = {
 EXPECTED_IDS = {
     "B207-01", "B207-02", "B207-03", "B207-04", "B207-05",
     "T8-01", "T8-02", "KEY-01", "KEY-02", "FA57-01", "FA57-02",
-    "CHASSIS-01", "CHASSIS-02"
+    "CHASSIS-01", "CHASSIS-02", "CONFIG-01", "BRAKE-01", "SAFETY-01", "BODY-01"
 }
 NECESSARY_FIELDS = {
     "id","system","concern","applies","failure","purchase_decision",
@@ -44,7 +44,7 @@ def check(dossier: dict, datasets: list[dict], tier: dict) -> dict:
     cases=dossier["cases"]
     actual_ids=[x.get("id") for x in cases]
     if set(actual_ids)!=EXPECTED_IDS or len(actual_ids)!=len(set(actual_ids)):
-        raise ValueError("Dossier must review the complete fixed 13-case powertrain/safety scope")
+        raise ValueError("Dossier must review the complete fixed 17-case powertrain/safety scope")
     if dossier["scope"]["model_year_range"]!=[2003,2011] or dossier["scope"]["engine_family"].find("B207")<0:
         raise ValueError("Wrong platform/engine scope")
     if not {"US","CA"}<=set(dossier["scope"]["markets"]):
@@ -120,7 +120,7 @@ def check(dossier: dict, datasets: list[dict], tier: dict) -> dict:
         "buying_disposition":dict(Counter(x["purchase_decision"] for x in cases)),
         "source_URL_references":len({url for c in cases for url in c["sources"]}),
         "case_original_reference_links":sum(len(c["prior_ids"]) for c in cases),
-        "documents":["docs/research/ng93-b207-powertrain-engineering-batch-20261014.md",
+        "documents":["docs/research/ng93-b207-complete-purchase-dossier-20261014.md",
                      "docs/research/ng93-b207-2003-2011-buyer-inspection-worksheet.md"],
         "not_a_failure_rate_or_model_ranking":True,
     }
@@ -139,7 +139,7 @@ def main() -> int:
     if args.summary:
         print(json.dumps(report,indent=2))
     if args.check:
-        print("PASS: complete 13-case B207/FA57 decision dossier, documented buyer gates, "
+        print("PASS: complete 17-case B207/FA57 decision dossier, documented buyer gates, "
               "existing source links, worksheet, and no false reliability rankings.")
     if not args.check and not args.summary:
         parser.print_help()
