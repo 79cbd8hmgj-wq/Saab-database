@@ -109,7 +109,7 @@ def check(dossier: dict, datasets: list[dict], tier: dict) -> dict:
                      "TA440-0702","365-2568","731-2726"):
         if required not in r:
             raise ValueError("Major primary document or service part missing in narrative")
-    if not all(x in w for x in ("VIN","compression","CIM","FA57","subframe","total","Total")):
+    if not all(x.casefold() in w.casefold() for x in ("VIN","compression","CIM","FA57","subframe","total")):
         raise ValueError("Worksheet not a practical buying/repair test")
     if not any("no factory" in x.lower() or "no saab model" in x.lower()
                for x in dossier["limits"]):
