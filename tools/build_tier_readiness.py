@@ -79,7 +79,9 @@ def build(production: dict, feasibility: dict, part_tools: dict,
         if any(x["actual_fault_confirmed"] or x["replacement_authorized"]
                for x in f["scenario_links"]):
             raise ValueError(f"{id_}: scenario is no longer research-only")
-        if any(x["vin_and_part_fitment_confirmed"] or x["shop_quote_obtained"]
+        if any(x["vin_and_part_fitment_confirmed"] or
+               x["special_tool_access_confirmed"] or
+               x["shop_quote_obtained"]
                for x in t["job_readiness_leads"]):
             raise ValueError(f"{id_}: parts lead is no longer research-only")
         rows.append({
