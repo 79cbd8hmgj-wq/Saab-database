@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- **[Full first vehicle engineering batch: US/Canada B207 Saab 9-3, 2003–11](docs/research/ng93-b207-powertrain-engineering-batch-20261014.md)**: 13 engine, turbo, cooling, electronics, FA57 automatic and chassis purchase/repair decisions, actual factory corrections, non-equivalent replacement parts, DIY seriousness and buy/no-buy boundaries. Includes [used-car inspection worksheet](docs/research/ng93-b207-2003-2011-buyer-inspection-worksheet.md) and [machine-readable engineering decisions](data/engineering-dossiers/ng93-b207-purchase-engineering-20261014.json). This is a scoped investigation **not a model tier or verified failure rate**.
+
 - [B207 intake-valve engineering and repair sourcing](docs/research/b207-intake-valve-repair-path-20261014.md): existing failure research plus newly retrieved factory head-service requirements, GM 55563529 offering and genuine/TRW valve-only price observations. Practical buying and repair implications; no assumed later-year cure or installed-cost claim.
 
 - [Final overlapping fact/gap system-route review (2026-10-14)](docs/multisystem-fact-gap-route-review-20261014.md): 176 facts and 49 open gaps assessed, deliberate cross-system interfaces preserved, zero known ambiguous navigation candidates remain unreviewed. **Technical gaps and OEM validation remain unresolved.**
