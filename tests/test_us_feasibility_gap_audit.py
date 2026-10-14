@@ -35,16 +35,8 @@ class USFeasibilityGapAuditTests(unittest.TestCase):
         self.assertEqual(m["missing_transmission_repair_scenario"]["configuration_count"], 0)
         self.assertEqual(m["missing_structural_repair_scenario"]["configuration_count"], 12)
         self.assertEqual(m["missing_both_engine_and_transmission_scenarios"]["configuration_count"], 0)
-        e = {
-            (x["platform"], x["family_or_engine"]): x["unreviewed_configurations"]
-            for x in self.audit["grouped_missing_research"]["engine_core"]
-        }
-        self.assertEqual(e, {})
-        t = {
-            (x["platform"], x["family_or_engine"]): x["unreviewed_configurations"]
-            for x in self.audit["grouped_missing_research"]["transmission"]
-        }
-        self.assertEqual(t, {})
+        self.assertEqual(self.audit["grouped_missing_research"]["engine_core"], [])
+        self.assertEqual(self.audit["grouped_missing_research"]["transmission"], [])
 
     def test_absence_of_research_does_not_certify_health(self):
         for x in self.audit["configurations"]:
