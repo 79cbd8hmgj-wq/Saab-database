@@ -12,7 +12,7 @@ engines, and platforms.
 
 - [Final overlapping fact/gap system-route review (2026-10-14)](docs/multisystem-fact-gap-route-review-20261014.md): 176 facts and 49 open gaps assessed, deliberate cross-system interfaces preserved, zero known ambiguous navigation candidates remain unreviewed. **Technical gaps and OEM validation remain unresolved.**
 
-- [Cross-cutting fact/gap navigation adjudication (2026-10-14)](docs/fact-gap-navigation-adjudication-20261014.md): all 161 facts and 31 gaps from the PR #72 cross-cutting queue reviewed; 110 gain system routes, 82 deliberately remain cross-cutting. Original datasets and open gaps unchanged; remaining multi-system review is explicitly tracked.
+- [Cross-cutting fact/gap navigation adjudication (2026-10-14)](docs/fact-gap-navigation-adjudication-20261014.md): all 161 facts and 31 gaps from the PR #72 cross-cutting queue reviewed; 110 gain system routes, 82 deliberately remain cross-cutting. Original datasets and open gaps unchanged; the subsequently completed PR #74 review is linked above.
 
 - [Adjudicated duplicate part numbers, shared VIN blockers and ambiguous issue routes (2026-10-14)](docs/part-gap-overlap-adjudication-20261014.md): original source claims retained, five part identities crosslinked, two duplicated research questions still open, and 32 issue system navigation decisions reviewed. Do not infer live stock or approved supersessions.
 
