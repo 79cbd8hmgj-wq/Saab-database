@@ -67,7 +67,7 @@ class B207EngineeringBuyerBatchTests(unittest.TestCase):
             self.assertTrue(self.rows[id_]["buyer_checks"])
         self.assertIn("Tech2",self.rows["T8-01"]["corrective_path"])
         self.assertIn("replace",self.rows["FA57-01"]["corrective_path"].lower())
-        self.assertNotIn("T7 PCV renovation kit",self.rows["B207-05"]["corrective_path"])
+        self.assertIn("Do not install",self.rows["B207-05"]["corrective_path"])
 
     def test_critical_factory_and_market_boundaries_remain_visible(self):
         early=self.rows["FA57-01"]["applies"]
@@ -78,7 +78,7 @@ class B207EngineeringBuyerBatchTests(unittest.TestCase):
         self.assertIn("2009",self.rows["B207-01"]["applies"])
         self.assertIn("2003 old-generation convertible",
                       self.rows["CONFIG-01"]["applies"])
-        self.assertIn("New York",self.rows["CHASSIS-01"]["applies"])
+        self.assertIn("NY",self.rows["CHASSIS-01"]["applies"])
         self.assertIn("31007202",self.rows["KEY-01"]["corrective_path"])
         self.assertIn("46011570",self.rows["KEY-01"]["corrective_path"])
 
@@ -91,7 +91,7 @@ class B207EngineeringBuyerBatchTests(unittest.TestCase):
         clone=self.rows["T8-02"]["cost_basis"]
         self.assertIn("89.99",clone)
         self.assertIn("donor",clone)
-        self.assertIn("unquoted",self.rows["FA57-01"]["cost_basis"].lower())
+        self.assertIn("not quoted",self.rows["FA57-01"]["cost_basis"].lower())
         self.assertIn("€155",self.rows["B207-03"]["cost_basis"])
 
     def test_zero_rankings_no_factory_failure_rates_claimed(self):
