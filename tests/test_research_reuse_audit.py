@@ -46,7 +46,7 @@ class ExistingResearchReuseAuditTests(unittest.TestCase):
         })
         for record in bridges:
             self.assertEqual(record["relationship"],"same_mechanism_family")
-            self.assertTrue(record["supporting_shared_source_ids"])
+            self.assertTrue(record["supporting_shared_original_urls"])
         related=self.audit["related_distinct_scope_campaigns"]
         self.assertEqual({(r["tier_case_id"], r["preexisting_issue_id"]) for r in related},
             {("tier-failure-ng93-coolant-in-atf","corrections-issue-005")})
