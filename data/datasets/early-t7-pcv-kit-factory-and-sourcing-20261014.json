@@ -1,0 +1,1125 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "early_t7_pcv_kit_factory_and_sourcing_20261014",
+  "sources": [
+    {
+      "id": "pcv-supply-src-001",
+      "title": "Saab 9-3 (9400) oil-leakage bulletin 210-2418 edition 4 April 2006",
+      "url": "https://www.partsforsaabs.com/info_documents/55561200_93.pdf",
+      "publisher": "Saab Automobile AB factory TSB, third-party PDF mirror",
+      "source_type": "factory_bulletin",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Full 7-page original bulletin reviewed; complaint-triggered; M99-M03 B205/B235; not a blanket retrofit authorization."
+    },
+    {
+      "id": "pcv-supply-src-002",
+      "title": "Professional Parts Sweden Saab aftermarket kit catalogue p.4",
+      "url": "https://www.proparts.se/dokument/bibliotek/File/pdfkataloger/1721_SAAB.pdf",
+      "publisher": "Professional Parts Sweden",
+      "source_type": "manufacturer_datasheet",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Manufacturer PDF p.4 identifies 21341200 as original 55561200 aftermarket reference and 21341200C as complete four-part kit; 2000-02 9-3, 1998-03 9-5 scope; catalogue date not established."
+    },
+    {
+      "id": "pcv-supply-src-003",
+      "title": "eSaabParts ProParts 21341200 PCV kit listing",
+      "url": "https://www.esaabparts.com/saab/parts/21341200?ss=55561200",
+      "publisher": "eSaabParts independent retailer",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Retrieved listing displayed $72.50 and 'In Stock: 4 Available' in a cached page; 55561200 appears under 'Superseded Part Numbers' but the offered brand is PROPARTS. This is a retailer reference, NOT a Saab OEM WebEPC-directed supersession or live warehouse verification."
+    },
+    {
+      "id": "pcv-supply-src-004",
+      "title": "eSaabParts 55554444 retailer-assembled complete PCV kit listing",
+      "url": "https://www.esaabparts.com/saab/parts/55554444",
+      "publisher": "eSaabParts independent retailer",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Listed $118.99 and 'Currently Unavailable'; contents table names three line items 55561200, 55560463 and 9399973 but its separate textual description also includes 55560445. Contents discrepancy unconfirmed; never assume boxed parts."
+    },
+    {
+      "id": "pcv-supply-src-005",
+      "title": "R&D Car Parts original Saab 55561200 kit discontinued listing",
+      "url": "https://www.rendcarparts.com/parts-for-saab-car/55561200/RD55561200",
+      "publisher": "R&D Car Parts retailer",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Retail page marks genuine Saab 55561200 discontinued and recommends ordering additional hoses for a complete modification. This is vendor catalogue status, not worldwide manufacturer production discontinuation certification."
+    },
+    {
+      "id": "pcv-supply-src-006",
+      "title": "FCP Euro Pro Parts Sweden PPS-21341200 55561200 oil trap kit listing",
+      "url": "https://www.fcpeuro.com/products/saab-oil-trap-kit-pro-parts-sweden-55561200",
+      "publisher": "FCP Euro independent retailer",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Rendered product page displayed $79.99 and 'In Stock'; other search snippets showed a different promotional price. A cached page listing is not a final quote or proof of order fulfilment; product fitment still to validate."
+    }
+  ],
+  "facts": [
+    {
+      "id": "pcv-supply-fact-001",
+      "subject": "system:9400-early-t7-pcv",
+      "category": "early_t7_pcv_factory_and_procurement",
+      "predicate": "oil_leakage_factory_complaint_scope",
+      "value": "9-3 9400 M99-M03 B205/B235; documented procedure is for customer oil-leakage complaint",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9400"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "pcv-supply-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "TSB 210-2418 ed.4 page 1, Cars affected / Symptom description",
+      "notes": "Does not assert each vehicle has leakage or requires a kit; 9-3 WIS variant groups in original bulletin do not override actual US production groups."
+    },
+    {
+      "id": "pcv-supply-fact-002",
+      "subject": "part:55561200",
+      "category": "early_t7_pcv_factory_and_procurement",
+      "predicate": "factory_renovation_kit_contents",
+      "value": [
+        "nipple",
+        "insulation",
+        "two hose kits",
+        "oil filler pipe",
+        "oil trap",
+        "two cable ties",
+        "bushing"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9400"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "pcv-supply-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "TSB 210-2418 ed.4 page 1, Parts required",
+      "notes": "These are named contents of original Saab kit 55 561 200, not independently checked contents of ProParts or retailer bundles."
+    },
+    {
+      "id": "pcv-supply-fact-003",
+      "subject": "part:55561200",
+      "category": "early_t7_pcv_factory_and_procurement",
+      "predicate": "factory_conditional_extra_parts",
+      "value": [
+        "55 560 445 / CA 30566431 — hose to oil pan",
+        "55 560 463 / CA 30581025 — camshaft-cover hose",
+        "93 99 973 / CA 30585634 — hose with check valve"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9400"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "pcv-supply-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "TSB 210-2418 ed.4 page 1, If hoses and/or check valve must be replaced",
+      "notes": "Optional on inspection, not blindly mandatory; compare actual fitted hose routing."
+    },
+    {
+      "id": "pcv-supply-fact-004",
+      "subject": "tool:3014883",
+      "category": "early_t7_pcv_factory_and_procurement",
+      "predicate": "factory_check_valve_test_tool",
+      "value": "30 14 883 pressure/vacuum pump",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9400"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "pcv-supply-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "TSB 210-2418 ed.4 page 3, step 12",
+      "notes": "Factory specifies checking small-circuit check valve and its arrow orientation; not proof owner possesses tool."
+    },
+    {
+      "id": "pcv-supply-fact-005",
+      "subject": "procedure:9400-pcv-oil-leak-bulletin",
+      "category": "early_t7_pcv_factory_and_procurement",
+      "predicate": "historic_warranty_labor_operation_time",
+      "value": 0.9,
+      "unit": "h",
+      "applicability": {
+        "platforms": [
+          "9-3-9400"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "source_ids": [
+        "pcv-supply-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "locator": "TSB 210-2418 ed.4 page 7, Warranty/Time Information",
+      "notes": "Historic factory warranty allowed time, NOT 2026 DIY work duration, billed labor time or installed repair price."
+    },
+    {
+      "id": "pcv-supply-fact-006",
+      "subject": "supplier:PPS:21341200",
+      "category": "early_t7_pcv_factory_and_procurement",
+      "predicate": "manufacturer_original_part_reference",
+      "value": "55561200",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9400",
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9400"
+            ],
+            "model_years": [
+              2000,
+              2001,
+              2002
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              1998,
+              1999,
+              2000,
+              2001,
+              2002,
+              2003
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "pcv-supply-src-002"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "PPS manufacturer catalogue page 4, 21341200",
+      "notes": "Supplier cross-reference only; it is not a Saab-original WebEPC supersession."
+    },
+    {
+      "id": "pcv-supply-fact-007",
+      "subject": "supplier:PPS:21341200C",
+      "category": "early_t7_pcv_factory_and_procurement",
+      "predicate": "manufacturer_complete_kit_components",
+      "value": [
+        "21341200",
+        "23340445",
+        "23349973",
+        "23340463"
+      ],
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9400",
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9400"
+            ],
+            "model_years": [
+              2000,
+              2001,
+              2002
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              1998,
+              1999,
+              2000,
+              2001,
+              2002,
+              2003
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "pcv-supply-src-002"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "PPS manufacturer catalogue page 4, 21341200C",
+      "notes": "Four ProParts SKUs; verify shipped contents and fitment. The separate 2004-10 9-5 kit 21345243C is a different product."
+    },
+    {
+      "id": "pcv-supply-fact-008",
+      "subject": "retail:eSaabParts:21341200",
+      "category": "early_t7_pcv_factory_and_procurement",
+      "predicate": "quoted_price",
+      "value": 72.5,
+      "unit": "USD",
+      "applicability": {
+        "platforms": [
+          "9-3-9400",
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9400"
+            ],
+            "model_years": [
+              2000,
+              2001,
+              2002
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              1998,
+              1999,
+              2000,
+              2001,
+              2002,
+              2003
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "pcv-supply-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "eSaabParts kit 21341200 > Price",
+      "notes": "As displayed in retrieved cached 2026-10-14 research; no tax/shipping or live checkout verification."
+    },
+    {
+      "id": "pcv-supply-fact-009",
+      "subject": "retail:eSaabParts:21341200",
+      "category": "early_t7_pcv_factory_and_procurement",
+      "predicate": "quoted_stock_text",
+      "value": "In Stock: 4 Available",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9400",
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9400"
+            ],
+            "model_years": [
+              2000,
+              2001,
+              2002
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              1998,
+              1999,
+              2000,
+              2001,
+              2002,
+              2003
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "pcv-supply-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "eSaabParts kit 21341200 > Inventory",
+      "notes": "Retail display only; do not present as live confirmed availability."
+    },
+    {
+      "id": "pcv-supply-fact-010",
+      "subject": "retail:FCP:21341200",
+      "category": "early_t7_pcv_factory_and_procurement",
+      "predicate": "quoted_price",
+      "value": 79.99,
+      "unit": "USD",
+      "applicability": {
+        "platforms": [
+          "9-3-9400",
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9400"
+            ],
+            "model_years": [
+              2000,
+              2001,
+              2002
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              1998,
+              1999,
+              2000,
+              2001,
+              2002,
+              2003
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "pcv-supply-src-006"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "FCP Euro PPS-21341200 > Price each",
+      "notes": "Rendered product page on research date; different indexed promo snippets exist. Final checkout price may differ."
+    },
+    {
+      "id": "pcv-supply-fact-011",
+      "subject": "retail:FCP:21341200",
+      "category": "early_t7_pcv_factory_and_procurement",
+      "predicate": "quoted_stock_text",
+      "value": "In Stock",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9400",
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9400"
+            ],
+            "model_years": [
+              2000,
+              2001,
+              2002
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              1998,
+              1999,
+              2000,
+              2001,
+              2002,
+              2003
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "pcv-supply-src-006"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "FCP Euro PPS-21341200 > Available",
+      "notes": "Displayed stock text only; VIN match and fulfilment unverified."
+    },
+    {
+      "id": "pcv-supply-fact-012",
+      "subject": "retail:eSaabParts:55554444",
+      "category": "early_t7_pcv_factory_and_procurement",
+      "predicate": "quoted_price",
+      "value": 118.99,
+      "unit": "USD",
+      "applicability": {
+        "platforms": [
+          "9-3-9400",
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9400"
+            ],
+            "model_years": [
+              2000,
+              2001,
+              2002
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              1998,
+              1999,
+              2000,
+              2001,
+              2002,
+              2003
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "pcv-supply-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "eSaabParts complete kit 55554444 > Price",
+      "notes": "Listed price for an unavailable package; not a usable current repair cost."
+    },
+    {
+      "id": "pcv-supply-fact-013",
+      "subject": "retail:eSaabParts:55554444",
+      "category": "early_t7_pcv_factory_and_procurement",
+      "predicate": "quoted_stock_text",
+      "value": "Currently Unavailable",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9400",
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9400"
+            ],
+            "model_years": [
+              2000,
+              2001,
+              2002
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              1998,
+              1999,
+              2000,
+              2001,
+              2002,
+              2003
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "pcv-supply-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "eSaabParts complete kit 55554444 > Inventory",
+      "notes": "Retailer listing explicitly says it is not available for order at time of page retrieval."
+    },
+    {
+      "id": "pcv-supply-fact-014",
+      "subject": "retail:RAndD:Genuine55561200",
+      "category": "early_t7_pcv_factory_and_procurement",
+      "predicate": "quoted_stock_text",
+      "value": "Discontinued",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9400",
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9400"
+            ],
+            "model_years": [
+              2000,
+              2001,
+              2002
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              1998,
+              1999,
+              2000,
+              2001,
+              2002,
+              2003
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          }
+        ]
+      },
+      "source_ids": [
+        "pcv-supply-src-005"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "R&D Car Parts genuine Saab RD55561200 > Availability",
+      "notes": "Single retailer's item status, not verified universal OEM stock position."
+    }
+  ],
+  "issues": [
+    {
+      "id": "pcv-supply-issue-001",
+      "title": "Early 9-3 9400 B205/B235 oil leakage with potentially insufficient PCV flow",
+      "applicability": {
+        "platforms": [
+          "9-3-9400"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "cause": "Factory bulletin reports crankcase ventilation may be inadequate under some operating conditions.",
+      "symptoms": [
+        "Oil leakage from engine, particularly timing-cover/block/head interface",
+        "Potential crankshaft-seal oil leakage"
+      ],
+      "diagnosis_summary": "Factory bulletin conditionally checks ventilation and check valve 30 14 883 before escalating to resealing; use the full original bulletin and only safe supported access.",
+      "correction_summary": "Complaint-conditioned factory renovation kit 55 561 200; replace degraded ancillary hoses or check valve when needed; investigate leaks persisting afterwards.",
+      "source_ids": [
+        "pcv-supply-src-001"
+      ],
+      "evidence_status": "documented",
+      "review_status": "source_scoped",
+      "limits": [
+        "Not all affected production-year vehicles have the fault",
+        "No claim a new kit reverses bearing damage or oil sludge",
+        "No operating or running-engine test of a seized, uninspected or oil-starved nonrunner"
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "pcv-supply-part-001",
+      "part_number": "55561200",
+      "title": "Saab 9-3 early T7 crankcase ventilation renovation kit",
+      "applicability": {
+        "platforms": [
+          "9-3-9400"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ]
+      },
+      "relationships": [
+        {
+          "type": "aftermarket_reference",
+          "part_number": "21341200",
+          "conditions": "PPS own branded aftermarket equivalent only; no Saab OEM supersession approval."
+        }
+      ],
+      "requirements": [
+        "Customer complaint and model/engine verification under Saab 210-2418 ed.4",
+        "Check actual hose, check valve, oil leakage cause, and installed PCV revision before purchasing",
+        "Supplier inventory and exact kit contents not confirmed for a target car"
+      ],
+      "source_ids": [
+        "pcv-supply-src-001",
+        "pcv-supply-src-002",
+        "pcv-supply-src-005"
+      ],
+      "evidence_status": "documented",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Factory bulletin lists core kit and conditional separately ordered hoses. R&D listing marks its genuine item discontinued; this is not a current Saab Parts global inventory statement."
+    },
+    {
+      "id": "pcv-supply-part-002",
+      "part_number": "21341200",
+      "title": "Pro Parts Sweden PCV conversion / oil trap kit",
+      "applicability": {
+        "platforms": [
+          "9-3-9400",
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9400"
+            ],
+            "model_years": [
+              2000,
+              2001,
+              2002
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              1998,
+              1999,
+              2000,
+              2001,
+              2002,
+              2003
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          }
+        ]
+      },
+      "relationships": [
+        {
+          "type": "aftermarket_reference",
+          "part_number": "55561200",
+          "conditions": "PPS manufacturer OE reference; cross-reference not a Saab WebEPC supersession."
+        }
+      ],
+      "requirements": [
+        "Confirm original PCV configuration, actual model, engine and year",
+        "Inspect oil-pan and cam-cover hoses and check valve, obtain optional hoses separately if needed",
+        "Confirm US supplier order and current lot contents"
+      ],
+      "source_ids": [
+        "pcv-supply-src-002",
+        "pcv-supply-src-003",
+        "pcv-supply-src-006"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "PPS partial kit advertised by eSaabParts and FCP; preserve distinction from ProParts 21341200C complete grouping."
+    },
+    {
+      "id": "pcv-supply-part-003",
+      "part_number": "21341200C",
+      "title": "Pro Parts Sweden complete early T7 PCV conversion kit",
+      "applicability": {
+        "platforms": [
+          "9-3-9400",
+          "9-5-9600"
+        ],
+        "model_years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "groups": [
+          {
+            "platforms": [
+              "9-3-9400"
+            ],
+            "model_years": [
+              2000,
+              2001,
+              2002
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          },
+          {
+            "platforms": [
+              "9-5-9600"
+            ],
+            "model_years": [
+              1998,
+              1999,
+              2000,
+              2001,
+              2002,
+              2003
+            ],
+            "engine_codes": [
+              "B205",
+              "B235"
+            ]
+          }
+        ]
+      },
+      "relationships": [
+        {
+          "type": "contains",
+          "part_number": "21341200",
+          "conditions": "PPS manufacturer PDF catalogue page 4 kit component; actual delivered unit uninspected."
+        },
+        {
+          "type": "contains",
+          "part_number": "23340445",
+          "conditions": "PPS manufacturer PDF catalogue page 4 kit component; actual delivered unit uninspected."
+        },
+        {
+          "type": "contains",
+          "part_number": "23349973",
+          "conditions": "PPS manufacturer PDF catalogue page 4 kit component; actual delivered unit uninspected."
+        },
+        {
+          "type": "contains",
+          "part_number": "23340463",
+          "conditions": "PPS manufacturer PDF catalogue page 4 kit component; actual delivered unit uninspected."
+        }
+      ],
+      "requirements": [
+        "Verify exact parts in box and actual hose routing",
+        "Confirm qualified vehicle, symptoms and local purchase availability"
+      ],
+      "source_ids": [
+        "pcv-supply-src-002"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Manufacturer catalogue lists componentized complete kit; no current U.S. seller price or stock established."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "pcv-supply-gap-001",
+      "title": "Original Saab 55561200 global availability and directed OEM supersession not established",
+      "missing_inputs": [
+        "Saab Parts / WebEPC VIN-application record with directed supersession or discontinuation status",
+        "Current authorized-channel boxed-kit stock confirmation"
+      ],
+      "reason": "Retailer treats 21341200 as latest replacement but openly brands it ProParts; manufacturer cross-reference and retailer heading do not prove OEM Saab supersession.",
+      "source_ids": [
+        "pcv-supply-src-002",
+        "pcv-supply-src-003",
+        "pcv-supply-src-005"
+      ]
+    },
+    {
+      "id": "pcv-supply-gap-002",
+      "title": "Full-kits' exact component contents differ across retailer display sections",
+      "missing_inputs": [
+        "Photo or distributor packing list for individual 55554444 kit including 55560445",
+        "VIN-verified inspection of existing hoses and check valve"
+      ],
+      "reason": "eSaabParts 55554444 description includes four numbered contents while rendered kit table shows three. ProParts manufacturer 21341200C states four separately numbered ProParts pieces.",
+      "source_ids": [
+        "pcv-supply-src-002",
+        "pcv-supply-src-004"
+      ]
+    },
+    {
+      "id": "pcv-supply-gap-003",
+      "title": "No all-in U.S. installed kit quote or verified lifespan gain",
+      "missing_inputs": [
+        "Exact vehicle original VIN and installed PCV revision",
+        "Confirmed merchant fulfilment, tax, shipping, optional hoses and seals",
+        "DIY tool availability and safe lift access",
+        "Specialist labor quote if needed, and independent longevity evidence"
+      ],
+      "reason": "Historic 0.9 h factory warranty time and cached retailer listings cannot establish current DIY hours, installed price or reliability benefit.",
+      "source_ids": [
+        "pcv-supply-src-001",
+        "pcv-supply-src-003",
+        "pcv-supply-src-006"
+      ]
+    }
+  ]
+}
