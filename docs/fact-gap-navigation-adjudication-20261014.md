@@ -84,8 +84,9 @@ work queue.
 
 **Follow-up completed:** [The October 14 multi-system review](multisystem-fact-gap-route-review-20261014.md) has now reviewed those **176 facts and 49 gaps**, leaving **no identified unreviewed navigation candidates**, but does not externally verify or close any original technical question.
 
-The next consolidation pass can adjudicate the remaining multi-system proposals,
-then compare named missing inputs with findings already saved in other domains.
+The next consolidation pass should compare the still-open named missing inputs
+against source-linked facts already saved in other domains, rather than redoing
+the now-reviewed navigation routes.
 The 1,101 facts, 92 issues, 89 parts and 284 open gaps are unchanged. Failure
 frequency, VIN-approved replacements, current fulfilment, complete repair costs
 and model tiers gain no approval from this navigation review.
