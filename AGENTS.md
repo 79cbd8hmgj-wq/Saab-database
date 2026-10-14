@@ -94,3 +94,22 @@ unrouted parts. That assignment is **not** OEM approval or proof of stock.
 Keyword/domain matches remain tentative; cross-cutting facts and gaps may have no
 system ID without being research errors. Reuse sources and original applicability;
 never count same-document references as independent evidence or model reliability.
+
+## Engineering-first delivery: full decision batch, not index cleanup
+
+For US/Canada NG9-3 B207 powertrain research consult the [completed 13-case
+purchase and repair dossier](docs/research/ng93-b207-powertrain-engineering-batch-20261014.md),
+the [buyer worksheet](docs/research/ng93-b207-2003-2011-buyer-inspection-worksheet.md)
+and the [source-linked decision register](data/engineering-dossiers/ng93-b207-purchase-engineering-20261014.json)
+**before** researching a previously documented factory bulletin again.
+Run `python3 tools/check_ng93_engineering_batch.py --check --summary` when
+changing this dossier. Future batches should be scoped by real vehicle/engine/
+gearbox configuration and cover major faults, factory revisions, original
+parts, current proven options, DIY complexity, full-economics blockers and
+specific buyer tests **in one usable delivery**. A source-supported replacement
+path alone is not a measured reliability improvement or factory defect frequency.
+Do not recast historical supplier stock and price displays as current delivered
+quotes. Keep high-cost engine/head/gearbox decisions distinct from repairable
+software, sensors and hoses. Do not silently shift the dossier into the original
+research dataset census; it is a derived purchasing-analysis product with direct
+factory/source URLs and legacy identifiers, not a replacement for original facts.
