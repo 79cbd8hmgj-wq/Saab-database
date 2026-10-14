@@ -76,6 +76,22 @@
       "physical_vins_verified": 0,
       "part_fitment_approved": 0,
       "current_install_cost_quotes": 0
+    },
+    {
+      "job_id": "part-ready-010",
+      "matching_production_configuration_groups": 21,
+      "matching_model_year_source_examples": 4,
+      "physical_vins_verified": 0,
+      "part_fitment_approved": 0,
+      "current_install_cost_quotes": 0
+    },
+    {
+      "job_id": "part-ready-011",
+      "matching_production_configuration_groups": 7,
+      "matching_model_year_source_examples": 3,
+      "physical_vins_verified": 0,
+      "part_fitment_approved": 0,
+      "current_install_cost_quotes": 0
     }
   ],
   "production_groups": [
@@ -174,6 +190,14 @@
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-011",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
         }
       ],
       "actual_vehicle_inspected": false,
@@ -189,6 +213,14 @@
       "job_readiness_leads": [
         {
           "job_id": "part-ready-009",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-011",
           "evidence_year": 2001,
           "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
           "vin_and_part_fitment_confirmed": false,
@@ -214,6 +246,14 @@
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-011",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
         }
       ],
       "actual_vehicle_inspected": false,
@@ -229,6 +269,14 @@
       "job_readiness_leads": [
         {
           "job_id": "part-ready-009",
+          "evidence_year": 2001,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-011",
           "evidence_year": 2001,
           "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
           "vin_and_part_fitment_confirmed": false,
@@ -254,6 +302,14 @@
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-011",
+          "evidence_year": 2001,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
         }
       ],
       "actual_vehicle_inspected": false,
@@ -274,6 +330,14 @@
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-011",
+          "evidence_year": 2001,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
         }
       ],
       "actual_vehicle_inspected": false,
@@ -289,6 +353,14 @@
       "job_readiness_leads": [
         {
           "job_id": "part-ready-009",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-011",
           "evidence_year": 2001,
           "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
           "vin_and_part_fitment_confirmed": false,
@@ -1218,6 +1290,14 @@
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
         }
       ],
       "actual_vehicle_inspected": false,
@@ -1254,6 +1334,14 @@
         {
           "job_id": "part-ready-001",
           "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
           "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
@@ -1298,6 +1386,14 @@
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
         }
       ],
       "actual_vehicle_inspected": false,
@@ -1334,6 +1430,14 @@
         {
           "job_id": "part-ready-001",
           "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
           "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
@@ -1378,6 +1482,14 @@
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
         }
       ],
       "actual_vehicle_inspected": false,
@@ -1398,6 +1510,14 @@
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
         }
       ],
       "actual_vehicle_inspected": false,
@@ -1415,6 +1535,14 @@
           "job_id": "part-ready-001",
           "evidence_year": 2000,
           "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
@@ -1478,6 +1606,14 @@
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
         }
       ],
       "actual_vehicle_inspected": false,
@@ -1495,6 +1631,14 @@
           "job_id": "part-ready-001",
           "evidence_year": 2000,
           "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
@@ -1518,6 +1662,14 @@
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
         }
       ],
       "actual_vehicle_inspected": false,
@@ -1535,6 +1687,14 @@
           "job_id": "part-ready-001",
           "evidence_year": 2000,
           "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
@@ -1598,6 +1758,14 @@
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
         }
       ],
       "actual_vehicle_inspected": false,
@@ -1638,6 +1806,14 @@
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
         }
       ],
       "actual_vehicle_inspected": false,
@@ -1658,6 +1834,14 @@
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
         }
       ],
       "actual_vehicle_inspected": false,
@@ -1674,6 +1858,14 @@
         {
           "job_id": "part-ready-002",
           "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
           "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
@@ -1738,6 +1930,14 @@
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
         }
       ],
       "actual_vehicle_inspected": false,
@@ -1754,6 +1954,14 @@
         {
           "job_id": "part-ready-002",
           "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
           "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
@@ -1778,6 +1986,14 @@
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
         }
       ],
       "actual_vehicle_inspected": false,
@@ -1794,6 +2010,14 @@
         {
           "job_id": "part-ready-002",
           "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
           "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
@@ -1858,6 +2082,14 @@
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
           "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
         }
       ],
       "actual_vehicle_inspected": false,
@@ -1874,6 +2106,14 @@
         {
           "job_id": "part-ready-002",
           "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-010",
+          "evidence_year": 2001,
           "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
           "vin_and_part_fitment_confirmed": false,
           "special_tool_access_confirmed": false,
