@@ -25,6 +25,8 @@ jobs:
         run: python3 tools/check_part_gap_reconciliation.py --check --summary
       - name: Reconcile all source-backed records across sixteen vehicle systems
         run: python3 tools/build_system_evidence_index.py --check --summary
+      - name: Temporary inspect all unreviewed overlapping fact and gap context
+        run: python3 tools/build_system_evidence_index.py --review --review-unreviewed-only --review-limit 0 --review-context
       - name: Validate unranked tier evidence baseline
         run: python3 tools/build_tier_readiness.py --check
       - name: Generate repeatable coverage census
