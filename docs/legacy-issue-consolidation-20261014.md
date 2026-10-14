@@ -6,6 +6,8 @@ This is **not** the complete Saab factory defect or recall population, **not** a
 
 Source manifest: [legacy issue taxonomy](../data/audits/legacy-issue-taxonomy-20261014.json). Reproducible catalogue: [build_legacy_issue_index.py](../tools/build_legacy_issue_index.py). This builds a source-linked view directly from **all 42 existing datasets** and the [current tier ledger](../data/tier-research/observations.json).
 
+**Further crosswalk:** [All existing research records across sixteen systems](system-evidence-crosswalk-20261014.md) are now indexed, including the 1,101 original facts, 89 part records and 284 gaps. Source document co-citations are useful lookup links, not independent fault diagnoses or part fitment approval.
+
 ## 1. Every issue counted once without inflating defects
 
 | Reviewed record category | Legacy records | Does NOT mean |
