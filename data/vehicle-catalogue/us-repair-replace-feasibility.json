@@ -455,6 +455,86 @@
       "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
       "notes": "Model-year 2011 Saab original identity chart describes position 7 A = 6AT FWD. VIN position8 engine identification needs actual complete VIN. Third-party production row Turbo4 is only an unspecific candidate.",
       "origin": "Saab factory Workshop Information System mirror; exact model-year and installed gearbox/VIN verification required"
+    },
+    {
+      "id": "us-str-wis-9400-rear-design",
+      "title": "Saab original 9-3 9400 MY2001 semi-rigid rear axle technical description",
+      "url": "https://saabwisonline.com/9-3-9400/2001/7-suspension-wheels/rear-suspension/technical-description/rear-suspension-2",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "origin": "original Saab WIS mirror, source year and RPO scoped",
+      "notes": "Original 9-3 9400 rear suspension = semi-rigid axle, two spring links joined by torsion bar. NOT new 9-3 9440 multi-link/rear subframe parts. Design alone is not failure prevalence."
+    },
+    {
+      "id": "us-str-wis-9400-rear-bush",
+      "title": "Saab original 9-3 MY2000 rear axle mounting bush replacement",
+      "url": "https://saabwisonline.com/9-3-9400/2000/7-suspension-wheels/rear-suspension/adjustment-replacement/bush-rear-axle",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "origin": "original Saab WIS mirror, source year and RPO scoped",
+      "notes": "Rear axle bush work involves support, spring/brake pipe handling, special tool 89 96 688 and brake bleeding. A removable axle bush cannot repair corroded attachment metal."
+    },
+    {
+      "id": "us-str-wis-9400-rear-axle",
+      "title": "Saab original 9-3 9400 rear axle assembly removal MY2003",
+      "url": "https://saabwisonline.com/9-3-9400/2003/7-suspension-wheels/rear-suspension/adjustment-replacement/rear-axle",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "origin": "original Saab WIS mirror, source year and RPO scoped",
+      "notes": "Saab original 9400 2003 rear axle removal (2003 primarily convertible in US; use only as platform procedure lead), disconnects brakes, ABS, handbrake and lift. Not proof of factory US 2003 hatch production."
+    },
+    {
+      "id": "us-str-wis-9400-body-shell",
+      "title": "Saab original 9-3 9400 MY2002 body repairs original frame, sills, floors",
+      "url": "https://saabwisonline.com/9-3-9400/2002/8-body/body/adjustment-replacement/body-repairs",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "origin": "original Saab WIS mirror, source year and RPO scoped",
+      "notes": "Original 2002 WIS enumerates separate outer/inner sills, rear wheelhouse (3D/5D), floor and rear longitudinal frame member. Model 9400 hatch shell structure differs from later 9440 body."
+    },
+    {
+      "id": "us-str-wis-9400-rear-member",
+      "title": "Saab original 9-3 9400 MY2002 partial rear frame-member structural repair",
+      "url": "https://saabwisonline.com/9-3-9400/2002/8-body/body/adjustment-replacement/part-of-rear-frame-member",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "origin": "original Saab WIS mirror, source year and RPO scoped",
+      "notes": "Factory mandates frame sectioning only behind specified mark; greater damage demands whole member. Alignment bench/welding, seam sealing and cavity protection; not a hobbyist patch or corrosion tolerance."
+    },
+    {
+      "id": "us-str-wis-9400-lift",
+      "title": "Saab original 9-3 9400 MY2000 factory lifting and attachment points",
+      "url": "https://saabwisonline.com/9-3-9400/2000/8-body/body/technical-data/lifting-and-attachment-points",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "origin": "original Saab WIS mirror, source year and RPO scoped",
+      "notes": "Lift only at manufacturer illustrated points, if metal is structurally sound. Any badly corroded jacking/anchor area requires professional check before raising vehicle."
+    },
+    {
+      "id": "us-str-wis-9650-rear-fwd",
+      "title": "Saab new 9-5 9650 MY2011 GNE FWD rear suspension support replacement",
+      "url": "https://saabwisonline.com/9-5-9650/2011/8-body/body/adjustment-replacement/rear-suspension-support-replacement-gnefwd",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "origin": "original Saab WIS mirror, source year and RPO scoped",
+      "notes": "GNE FWD rear support removal requires muffler, parking brake, control arms, alignment links, new body bolts and secure transmission jack; separate GNE AWD WIS not eligible. Confirm exact suspension RPO."
+    },
+    {
+      "id": "us-str-wis-9650-rear-gnc",
+      "title": "Saab new 9-5 MY2011 GNC rear suspension support replacement",
+      "url": "https://saabwisonline.com/9-5-9650/2011/8-body/body/adjustment-replacement/rear-suspension-support-replacement-gnc",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "origin": "original Saab WIS mirror, source year and RPO scoped",
+      "notes": "Another 2011 rear-support RPO variant GNC with different attachments and tightening procedure; badge/year is not VIN RPO. No claim all US 2011 Turbo4 use GNC or GNE."
+    },
+    {
+      "id": "us-str-wis-9650-lift",
+      "title": "Saab new 9-5 9650 MY2011 proper lift/jack points",
+      "url": "https://saabwisonline.com/9-5-9650/2011/0-general/general/technical-description/lifting-and-jacking-the-vehicle",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "origin": "original Saab WIS mirror, source year and RPO scoped",
+      "notes": "Illustrated proper front/rear jacking points and rocker clearance, only if actual shell is sound. Never lift corroded rails/rockers or crawl under an unsupported Saab."
+    },
+    {
+      "id": "us-str-wis-9650-rocker",
+      "title": "Saab new 9-5 MY2011 outer rocker reinforcement structural sectioning caution",
+      "url": "https://saabwisonline.com/9-5-9650/2011/8-body/body/adjustment-replacement/rocker-outer-panel-reinforcement-replacement-rear-outer",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "origin": "original Saab WIS mirror, source year and RPO scoped",
+      "notes": "WIS explicit: only section in specified areas else body structural integrity can be compromised. Collision equipment and original anti-corrosion methods, not simple bolt-on DIY."
     }
   ],
   "scenarios": [
@@ -2013,6 +2093,151 @@
       "unknowns": [
         "MY2011 FWD Turbo4 exact case/model options and module part IDs",
         "repair and complete-transmission replacement costs"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-023",
+      "name": "Original 9-3 9400 semi-rigid rear axle versus structural sill/floor/frame repair",
+      "system": "structure",
+      "applicability": {
+        "platforms": [
+          "9400"
+        ],
+        "model_year_range_by_platform": {
+          "9400": [
+            1999,
+            2002
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "us-str-wis-9400-rear-design",
+        "us-str-wis-9400-rear-bush",
+        "us-str-wis-9400-rear-axle",
+        "us-str-wis-9400-body-shell",
+        "us-str-wis-9400-rear-member",
+        "us-str-wis-9400-lift"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "severely corroded sill/rocker or lift points",
+          "rear suspension attachment rust",
+          "rear frame/axle component corrosion",
+          "uncertain floor or body pickup integrity"
+        ],
+        "next_evidence": [
+          "Assess rear axle spring links, mounting bushes and body anchor points without assuming 9440 rear-subframe layout",
+          "Inspect 3D/5D rocker inner/outer sills, wheelhouses, rear floor and longitudinal frame member by qualified safe lift and body specialist if suspect",
+          "Separate isolated replaceable rear beam/bush from corroded bolt anchor, rear shell, crumple structure or lift point; avoid crawling beneath an unverified vehicle"
+        ],
+        "safe_to_operate_if_suspected": false
+      },
+      "repair_options": [
+        {
+          "level": "advanced_DIY_or_suspension_specialist_when_BODY_sound",
+          "work": "Manufacturer has rear axle bush/beam service procedure with proper axle/spring/brake-line support, special press tool and bleeding",
+          "requires": [
+            "sound mounting metal, safe lift, bush tool, brake hydraulics competence and year-specific parts"
+          ]
+        },
+        {
+          "level": "professional_structural_body_shop_only",
+          "work": "Rear frame member/rocker/rear floor replacement is welded alignment-bench collision/bodywork including seal and corrosion protection",
+          "requires": [
+            "Saab MY/body-specific cutting limits and approved body repair quote"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_only_for_replaceable_beam_or_bush_on_verified_sound_body",
+        "when_damage_confirmed": "walk_away_if_structural_weld_or_loaded_mount_rust_is_unbudgeted",
+        "when_testing_unavailable": "no_lifting_or_drive_when_mount_metal_suspect"
+      },
+      "evidence_limits": [
+        "2003 9400 source manual applies only as platform service lead; does not imply US eligible 2003 hatchback",
+        "MY2000/02 procedures cannot be blindly projected to all VIN/body variations",
+        "No verified real car rust thickness, rear anchor integrity, repair cost or original part availability"
+      ],
+      "unknowns": [
+        "Real MY1999–2002 3D/5D original Saab shell repair boundaries",
+        "US rust/structural inspection with photographs and written alignment/body quote"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-024",
+      "name": "2011 9-5 650 FWD rear suspension support and load-bearing rocker/body integrity",
+      "system": "structure",
+      "applicability": {
+        "platforms": [
+          "650"
+        ],
+        "model_year_range_by_platform": {
+          "650": [
+            2011
+          ]
+        },
+        "vin_suspension_RPO_gate": "Confirm original US 2011 Turbo4 automatic/FWD VIN and rear suspension GNC vs GNE FWD option (do not apply AWD service option)"
+      },
+      "evidence_source_ids": [
+        "us-str-wis-9650-rear-fwd",
+        "us-str-wis-9650-rear-gnc",
+        "us-str-wis-9650-lift",
+        "us-str-wis-9650-rocker"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "severely corroded sill/rocker or lift points",
+          "rear suspension attachment rust",
+          "rear frame/axle component corrosion",
+          "uncertain floor or body pickup integrity"
+        ],
+        "next_evidence": [
+          "Confirm original MY2011 FWD and actual rear suspension RPO GNC versus GNE; assess loaded suspension bolt anchors and body floor and rocker metal, not only removable rear support",
+          "Verify safe factory lifting surfaces before touching underbody or moving corroded vehicle; obtain qualified inspection of rear rails and rocker reinforcement",
+          "Distinguish bolt-on rear subframe replacement with new fasteners and alignment from welded structural panel/rail sectioning and loss of strength"
+        ],
+        "safe_to_operate_if_suspected": false
+      },
+      "repair_options": [
+        {
+          "level": "advanced_DIY_or_suspension_specialist_if_factory_shell_sound",
+          "work": "WIS describes FWD rear-support replacement with lift, strapped transmission jack, numerous link/parking brake disconnections, new bolts and alignment",
+          "requires": [
+            "original MY2011 GNC/GNE RPO, approved lift and support, torque-angle tools and alignment"
+          ]
+        },
+        {
+          "level": "structural_body_shop_or_reject",
+          "work": "MY2011 outer rocker/frame reinforcements use limited authorized sectioning methods; compromised mounting metal is not restored by simply replacing a rear support",
+          "requires": [
+            "collision-repair qualification, exact cut areas, written structural safety assessment and budget"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_only_for_removable_suspension_on_documented_sound_mounts",
+        "when_damage_confirmed": "walk_away_if_body_anchors_corroded_or_unsafe_and_unbudgeted",
+        "when_testing_unavailable": "hold_no_underbody_DIY_or_drive_without_structural_clearance"
+      },
+      "evidence_limits": [
+        "GNE FWD and GNC have different source procedures and actual factory RPO applicability is unknown for the source Turbo4 generic row",
+        "The existence of an approved panel sectioning procedure does not certify a rusted vehicle safe or prove DIY welding is economical",
+        "No observed VIN/case/RPO, physical metal thickness or priced part/repair"
+      ],
+      "unknowns": [
+        "Factory build-specific rear suspension RPO, exact MY2011 US FWD beam service parts",
+        "Actual structural condition and lift-point certification",
+        "Specialist welding/alignment estimate"
       ],
       "price_estimate_usd": null,
       "labor_hours_estimate": null,
