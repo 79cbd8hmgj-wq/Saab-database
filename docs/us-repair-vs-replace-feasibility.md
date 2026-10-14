@@ -2,7 +2,7 @@
 
 **Research date: 2026-10-13.** Candidate universe: **110 compiled U.S. production configurations** of Saab 9-3/9-5 MY1999–2011 with **factory automatic, FWD and nonconvertible bodies**. Canadian records were not modified. This is a **decision and evidence plan**, not any particular vehicle's diagnosis, a probability-of-failure model, a parts approval or a priced build estimate.
 
-The [scenario dataset](../data/vehicle-catalogue/us-repair-replace-feasibility.json) contains **18 repair-versus-replace scenarios** supported by **50 linked research references**, comprising previously indexed sources and 13 additional manufacturer-origin Saab WIS pages. The generated [110-group applicability crosswalk](../data/vehicle-catalogue/us-feasibility-coverage.json) links an engine, gearbox, structure or safety diagnostic research topic to the groups it *could* concern. It does **not** say the cars have those faults. All numeric part costs, total jobs and labor time are **unverified/null**; all frequency, VIN inspection, parts-interchange and replacement-approval flags remain **false**.
+The [scenario dataset](../data/vehicle-catalogue/us-repair-replace-feasibility.json) contains **22 repair-versus-replace scenarios** supported by **63 linked research references**, comprising previously indexed sources and 26 additionally documented manufacturer-origin Saab WIS pages. The generated [110-group applicability crosswalk](../data/vehicle-catalogue/us-feasibility-coverage.json) links an engine, gearbox, structure or safety diagnostic research topic to the groups it *could* concern. It does **not** say the cars have those faults. All numeric part costs, total jobs and labor time are **unverified/null**; all frequency, VIN inspection, parts-interchange and replacement-approval flags remain **false**.
 
 ## Purchase decision categories
 
@@ -72,28 +72,35 @@ Four new factory WIS-source-scoped scenarios are in the matrix:
 
 **Safety:** No running an oil-starved or suspected timing-damaged engine; no stall-testing unknown automatics or using 2000-era Dexron III instructions for later Saab five-/six-speed boxes. No year-specific repair approval is inferred for adjacent years merely from the WIS directory label. The four cases are **research applicability only**, with zero reported actual faults, VIN verification, quoted parts/labor hours or measured failure probabilities. Source URLs and detailed differential tests are recorded in the machine-readable scenario matrix.
 
+## Manufacturer research extension: B284L, 2011 Turbo4, later FA57 and NG 9-5 AF40
+
+Four additional original Saab WIS-source-scoped cases now cover *research diagnostic paths* for the remaining eligible U.S. engine/automatic groups:
+
+| Case | US eligible recorded configurations | Factory source-derived diagnostic distinction | Purchase/repair meaning |
+| --- | ---: | --- | --- |
+| **019 — B284L 9-3 turbo V6 MY2006–08** | **6** | MY2007 Saab WIS provides [compression test](https://saabwisonline.com/9-3-9440/2007/2-engine/v6-petrol/basic-engine/adjustment-replacement/engine-compression-test) and [turbo oil-feed pressure test](https://saabwisonline.com/9-3-9440/2007/2-engine/v6-petrol/basic-engine/adjustment-replacement/check-the-engine-oil-pressure). B284 has distinct [old](https://saabwisonline.com/9-3-9440/2007/2-engine/v6-petrol/basic-engine/adjustment-replacement/camshaft-drive-b284-old-version) and [new](https://saabwisonline.com/9-3-9440/2007/2-engine/v6-petrol/basic-engine/adjustment-replacement/camshaft-drive-b284-new-version) chain/drive variants. | A chain or low-pressure symptom does not demonstrate which specific internal part failed; obtain engine build, mechanical results and version-matched parts/EN tools before considering expensive timing work. |
+| **020 — new 9-5 Turbo4, MY2011** | **1** | MY2011 Saab [LDK/LHU oil-pressure](https://saabwisonline.com/9-5-9650/2011/2-engine/basic-engine-2-0-l-petrol/fault-diagnosis-general/oil-pressure-diagnosis-and-testing), [timing-chain](https://saabwisonline.com/9-5-9650/2011/2-engine/basic-engine-2-0-l-petrol/fault-diagnosis-fault-symptoms/timing-chain-check), and [mechanical symptom](https://saabwisonline.com/9-5-9650/2011/2-engine/basic-engine-2-0-l-petrol/fault-diagnosis-fault-symptoms/) trees separate pump/filter/sender problems from bearing damage and valve/timing faults. | The production source says only `2.0T`; original full VIN and engine stamping are still needed before assigning an LHU/LDK subvariant or approving parts. |
+| **021 — 9-3 9440 FWD B207 FA57 5AT MY2006–11** | **18** | MY2009 Saab [FA57 test report](https://saabwisonline.com/9-3-9440/2009/4-transmission/automatic-transmission/5-speed-fa-57/fault-diagnosis-general/diagnosis-and-test-report) requires symptom, fault code and gearbox identity; its [service menu](https://saabwisonline.com/9-3-9440/2009/4-transmission/automatic-transmission/5-speed-fa-57/adjustment-replacement/) separates sensors/selector/valve housing from whole gearbox. MY2010 Saab [TCM replacement](https://saabwisonline.com/9-3-9440/2010/4-transmission/automatic-transmission/5-speed-fa-57/fault-diagnosis-general/procedures-before-dismantling-the-control-module) requires proper Tech2 module-removal actions. | Hard shifting or limp mode must be diagnosed before purchase; TCM replacement is not automatically plug-and-play, and internal slipping may still require a complete gearbox. |
+| **022 — NG 9-5 2011 AF40 FWD 6AT** | **1** | MY2011 Saab [P0748/P0961–63 electrical SLT diagnosis](https://saabwisonline.com/9-5-9650/2011/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/dtc-p0748-or-p0961-p0963) separates harness/solenoid/valve body; [P0733 ratio diagnostics](https://saabwisonline.com/9-5-9650/2011/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/dtc-p0733) include hydraulic/internal alternatives. | Generic MY2011 WIS gearbox procedures may cover several options; physically confirm Turbo4 **FWD 6AT**, the MY2011 VIN designation and exact installed gearbox/RPO. No implied 9-3 AF40 interchange. |
+
+**Critical limitations:** A model-year WIS source may be reused here only as an *investigation lead* for adjacent candidate years; it is not a VIN-specific service approval. No reported defects, failure rates, estimated prices or repair hours have been added. For a nonrunner, **do not crank an engine with possible mechanical seizure, oil starvation or fluid ingestion**, and do not run a full-throttle automatic stall test or road test an unsafe vehicle.
+
 ## Quantified *research* gaps across the 110 eligible U.S. configurations
 
-The separately generated [powertrain feasibility gap audit](../data/audits/us-feasibility-powertrain-gaps.json) now measures how much of the U.S. production universe remains **unassessed for major repair scenarios**, without counting missing evidence as either a failure or proof of reliability.
+The [reproducible powertrain feasibility gap audit](../data/audits/us-feasibility-powertrain-gaps.json) now finds at least **one manufacturer-source diagnostic scenario for both an engine-core issue and an automatic-transmission issue** on all **110 third-party compiled production groups**. This is **baseline scenario coverage**, not full manufacturer certification of every failure mode, any individual's healthy engine/gearbox, or a quantified improvement in durability.
 
-| Source-derived groups | Missing *scenario-specific* research |
+| Source-derived groups | Missing *baseline* repair research |
 | --- | ---: |
-| No engine-core failure/repair scenario | **7 / 110** |
-| No automatic gearbox failure/repair scenario | **19 / 110** |
-| Neither engine-core nor gearbox repair scenario | **1 / 110** |
+| No engine-core scenario | **0 / 110** |
+| No automatic-transmission scenario | **0 / 110** |
+| Neither engine-core nor automatic-transmission scenario | **0 / 110** |
 | No dedicated platform structural repair scenario | **12 / 110** |
 
-### Exactly which research is missing
+**Remaining structural research** is the original 9-3 9400 hatchback (**11 groups**) and the new 9-5 650 sedan (**1 group**). All 110 still have general brake/fuel safety inspection screening; none of these have a real structural condition or inspection result.
 
-**Remaining engine-core research:** B284L turbo V6 second-generation 9-3 **6 groups**, and 2011 new-generation 9-5 `2.0T` (factory A20NFT/LHU candidate awaiting actual VIN) **1**. Our new 1999 B204L **4-group** and MY1999–2003 B308E V6 **13-group** manufacturer-source triage now provide diagnostic paths, *not* fault frequencies or health certification.
+**Powertrain research remains incomplete in depth** even with zero baseline scenario gaps: confirm actual VIN and installed engine/gearbox and cam-drive revisions; obtain specific manufacturer parts, labor/tool needs, original option restrictions and known comparative failure evidence; cost accessible external repair versus complete engine/transmission replacement; and validate whether the available data can justify a shortlist. The new 9-5 Turbo4 source-row shorthand still needs physical engine identification. A generic FA57 or AF40 family name is not an interchange approval. Existing year/VIN cutoffs (for example early FA57 coolant contamination bulletin) remain distinct.
 
-**Remaining automatic-transmission research:** MY2006–11 second-generation 9-3 **FA57** five-speed **18 groups**, and 2011 new 9-5 **AF40** FWD six-speed **1 group**. The earlier 9-3 **AF20/AF22** and 9-5 **AF30** four-speeds now have factory fault-differential scenarios (11 and 22 groups respectively), but exact individual gearbox VIN/parts interchange is not certified. Existing FA57 work addresses early cooler/campaign or specific 9-5 issues and must not be silently projected to later model years.
-
-**Structure:** The original 9-3 hatchback **11 groups** and the 2011 new 9-5 **1 group** lack a *model-specific structural repair scenario*; every group still has general brake/fuel safety screening. This is not a pass or fail judgment about rust.
-
-These counts describe **distinct historical production configurations**, not individual vehicles, defects, observed failures, weighted scores, manufacturer-certified completeness, or cars still on the road. A group is considered covered when a source-scoped research decision exists, **not** because the actual vehicle passed any inspection. The detailed unresolved group IDs and factory gearbox-family evidence are retained in the JSON audit.
-
-Suggested next research order for our **no-internal-engine-or-gearbox-rebuild** objective: build B284L V6 and A20NFT engine-core mechanical triage; extend FA57 to later 9-3 years, then 2011 new 9-5 AF40; separately investigate original 9-3 and new 9-5 load-bearing corrosion. The B204L/B308E and AF20/AF22/AF30 scenarios still need exact VIN details, verified parts, repair hours and costs. Preserve original manufacturer application, VIN restrictions, diagnostic test criteria, required special tools and realistic repair-versus-complete-replacement quotes. No overall reliability ranking is authorized by these counts.
+These numbers are **distinct source-derived historical configurations**, NOT inspected cars, failures, current vehicles, ownership cost comparisons, or manufacturer-certified completeness. Phase 0 Gate A remains partial, B/C unmet. **Next:** close the 12 structural research coverage gaps and investigate original VIN-specific parts cost and repair feasibility. No reliability score is supported.
 
 ## Reproduction
 
