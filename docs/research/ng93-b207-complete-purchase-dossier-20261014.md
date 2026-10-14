@@ -85,3 +85,26 @@ This batch delivers **17 source-linked purchase cases**, each with affected scop
 This is **not** a statement that 2003–2011 B207 is a single uniform drivetrain. In particular the next engineering batch needs to examine the **actual original gearbox families after confirming manual / early FA57 / other automatic / XWD distinctions**, and confirm original component factory revision/part numbers, total repairs and real service-life benefits. A full-scope 9-3 model grade would require comparative factory-installed fault evidence and credible denominators that are not available here.
 
 **Result: better ability to recognize bad purchases, discriminate recoverable faults from major powertrain work and identify real replacement channels. No reliability ranking or fabricated permanent-upgrade claim.**
+
+
+### Traceable case identifiers (one buyer decision register)
+
+The report covers the following **17** original-case buyer questions in the [single structured engineering decision register](../../data/engineering-dossiers/ng93-b207-purchase-engineering-20261014.json). These are purchasing/repair pathways, **not** 17 newly proven manufacturer defects. The detailed [buyer and shop inspection worksheet](ng93-b207-2003-2011-buyer-inspection-worksheet.md) operationalizes each decision without assuming any actual vehicle has been tested.
+
+- **B207-01 — Cold intake-valve face/seat wear and compression loss:** avoid major unpriced work; advanced diy with head machine shop. Unresolved example: Affected production/installed-valve VIN or engine-serial cutoff.
+- **B207-02 — Cam timing drive and balancer-shaft chain:** avoid major unpriced work; advanced internal engine. Unresolved example: Failure incidence relative to other B207 repairs.
+- **B207-03 — Gear-driven B207 coolant pump and overheat risk:** inspect before negotiation; advanced diy special tool. Unresolved example: US/CA VIN filtered official part application.
+- **B207-04 — Underboost, charge-air leaks, bypass/wastegate faults versus damaged turbo:** inspect before negotiation; diagnosis then ranging from simple hose to advanced turbo. Unresolved example: Turbo and bypass interchange by B207E/L/R, year and VIN.
+- **B207-05 — Oil leaks, PCV hoses, maintenance and damage differentiation:** inspect before negotiation; basic to advanced depending damage. Unresolved example: Engine/year-specific PCV hose service changes and original numbers.
+- **T8-01 — P0606 may be a false software-triggered Trionic 8 ECM fault:** repair if confirmed; specialist scan programming. Unresolved example: Whether a specific VIN received fixed calibration.
+- **T8-02 — Actual T8 module failure and replacement programming:** inspect before negotiation; electronic specialist. Unresolved example: Real hardware-versus-software fault incidence.
+- **KEY-01 — Ignition Switch Module ISM, key detector and partial replacement kit:** repair if confirmed; intermediate mechanical electrical or donor required. Unresolved example: Exact old/updated hardware in target car.
+- **KEY-02 — CIM software, keys, steering-column lock, remotes:** inspect before negotiation; diagnostics plus security programming specialist. Unresolved example: Exact real-car build boundary and modules.
+- **FA57-01 — Early FA57 ATF cooler-nipple seals can admit engine coolant:** avoid major unpriced work; major transmission replacement and cooling rework. Unresolved example: Real VIN campaign/repair completion and physical gearbox identity.
+- **FA57-02 — Hard shifting/gearbox warnings without demonstrated coolant contamination:** inspect before negotiation; ranging from electrical diagnostics to major gearbox. Unresolved example: Condition of actual gearbox and valve body.
+- **CHASSIS-01 — Front spring corrosion and fracture in salt belt:** inspect before negotiation; shop or advanced suspension spring compressor. Unresolved example: Original vehicle coverage history and correct EPC springs.
+- **CHASSIS-02 — Subframes, load-bearing mounts, brake and fuel lines:** avoid major unpriced work; body structural safety professional or advanced diy. Unresolved example: Actual underbody photos/probing.
+- **CONFIG-01 — Confirm generation, market, build, engine, gearbox and body before applying any failure bulletin:** inspect before negotiation; research and physical inspection. Unresolved example: CAN market equipment decode for each target VIN.
+- **BRAKE-01 — Brake-option identity, corrosion and safe hydraulic service:** inspect before negotiation; basic to professional brake hydraulic safety. Unresolved example: Per-VIN option codes and actual installed caliper revisions.
+- **SAFETY-01 — Individual VIN recall/campaign completion, including relevant airbag inflators and restraints:** inspect before negotiation; authorized recall service not do it yourself airbag repair. Unresolved example: Actual candidate VIN historical/open remedy statuses.
+- **BODY-01 — Wet passenger floor from right A-pillar/firewall seam sealant:** inspect before negotiation; body sealing intermediate plus possible electrical or corrosion remediation. Unresolved example: Physical water source on chosen car and extent of secondary damage.
