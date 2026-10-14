@@ -1,12 +1,26 @@
 # First comparative component observations — October 14, 2026
 
-The [observation ledger](../../data/tier-research/observations.json) now contains two component revision records and three separately scoped failure mechanisms. This is the first evidence batch, **not comparable coverage or a model ranking**. Existing factory sources are reused with their IDs; the new [regulator dataset](../../data/datasets/tier-component-factory-revision-20261014.json) adds two NHTSA-hosted originals.
+The [observation ledger](../../data/tier-research/observations.json) now contains two ignition-module revision records and three separately scoped failure **case records** linked to **two engineering failure mechanisms**. This is the first evidence batch, **not comparable coverage or a model ranking**. Existing factory sources are reused with their IDs; the new [regulator dataset](../../data/datasets/tier-component-factory-revision-20261014.json) adds two NHTSA-hosted originals.
 
 | Research subject | Distinction preserved | Still required |
 | --- | --- | --- |
 | 2000–02 B205/B235 9-3 (9400)/9-5 IDM | Four-cylinder serial-gated remedy | Installed module, campaign history, current OE chain |
 | 2001–03 B308 9-5 IDM | Separate V6 scope/chassis restriction | V6-specific hardware and current repair evidence |
 | Early 9-3 (9440) FA57 cooler sealing | Diagnostic advice versus narrower campaign | Cooler identity, contamination assessment, coupling applicability |
+
+## Deduplicated mechanism identity and scope
+
+The original 9-3/9-5 B205/B235 and B308 ignition-module cases are separate `failure_modes` records because original module hardware, years, remediation and consequences differ. Both link to the **same** `mechanism-idm-igbt-overload`; they are not two independent engineering defect types. The FA57 cooler-nipple seal problem links to a separate `mechanism-fa57-cooler-connection-seal`. Case counts, independent engineering-mechanism counts, affected campaign populations, and actual measured failure events are different quantities. **No frequency denominator exists.**
+
+The [original TA440-0702 factory technical advice](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/bulletins-si-mi/ta440-0702-coolant-in-atf-oil) says **up to VIN below** and lists three distinct **exclusive** upper bounds:
+
+| Factory line | VIN suffix must be strictly below | Scope restriction |
+| --- | --- | --- |
+| 9-3SS | `51002378` | SS line; specific engine code not stated |
+| 9-3SS TiD | `51000001` | Distinct diesel SS line; do not impute to a U.S. B207 petrol car |
+| 9-3CV | `56001058` | Convertible line; specific engine code not stated |
+
+Each now has an independent record in `configuration_scope.groups`, retaining the market, model-year and FA57 gearbox limits. The flat `body_styles` and `vin_ranges` fields are an **index union**, never a direct body/engine eligibility map. Engine codes are intentionally blank because this technical advice does not list them. Matching a particular VIN, factory variant and market requires manual verification; these records cannot justify an auto-generated applicability approval. The separate MI260-2634 campaign remains a *narrower* document and must not be substituted for the all-market technical advice.
 
 ## Original revision evidence
 
