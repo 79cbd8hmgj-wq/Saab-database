@@ -1,10 +1,281 @@
 {
   "schema_version": "1.0.0",
   "as_of": "2026-10-14",
-  "status": "unpopulated_separate_comparative_observation_ledger",
-  "interpretation": "Empty arrays mean evidence not yet studied or imported into this standardized ledger; not_a_zero_failure_assertion. Existing source-scoped facts and diagnostic scenarios remain elsewhere in this repository.",
-  "original_part_revisions": [],
-  "failure_modes": [],
+  "status": "initial_source_scoped_component_observations_not_comparable_or_rankable",
+  "interpretation": "Initial factory/regulator observations; incomplete coverage. Empty frequency, market-offer and repair-total arrays mean not yet established, not_a_zero_failure_assertion. No tier, VIN fitment or current supply approval.",
+  "original_part_revisions": [
+    {
+      "id": "tier-revision-idm-four-cylinder",
+      "source_ids": [
+        "tier-src-001",
+        "corrections-src-005",
+        "corrections-src-006"
+      ],
+      "configuration_scope": {
+        "platforms": [
+          "9-3-9400",
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000,
+          2001,
+          2002
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "US",
+          "CA",
+          "JP",
+          "TW"
+        ]
+      },
+      "original_part_number": null,
+      "original_revision": {
+        "affected_serial_intervals": [
+          "D000000-D336210",
+          "B083821-B096117"
+        ],
+        "locator": "248-2611 ed.3, procedure 2"
+      },
+      "revision_or_countermeasure": {
+        "quality_package": "QP3",
+        "component_manufacturing_introduction_date": "2002-07-04",
+        "design_changes": "Additional overload protection; larger transistor capsule for heat transfer.",
+        "campaign_service_part_number": "55562588",
+        "historically_allowed_alternative_service_number": "55559955 (DCS1686; not a supersession chain)"
+      },
+      "effective_original_build_scope": "Component-production change for 4-cylinder IDM, not a vehicle model-year cutover.",
+      "evidence_strength": "Factory report pp.1-2 (partial retrieval); later factory service serial criteria (full_text).",
+      "unverified_conditions": [
+        "Original installed OE number and actual cassette serial unknown.",
+        "QP3 is not proven zero-risk or a measured lifetime improvement.",
+        "Service part is not a VIN-approved current supersession."
+      ]
+    },
+    {
+      "id": "tier-revision-idm-b308",
+      "source_ids": [
+        "tier-src-001",
+        "corrections-src-005",
+        "corrections-src-006"
+      ],
+      "configuration_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B308"
+        ],
+        "markets": [
+          "US",
+          "CA",
+          "JP",
+          "TW"
+        ],
+        "vin_ranges": [
+          {
+            "end": "33027727",
+            "format": "8-character chassis suffix; bulletin upper boundary, not a full VIN"
+          }
+        ]
+      },
+      "original_part_number": null,
+      "original_revision": {
+        "affected_serial_intervals": [
+          "C048743-C072404"
+        ],
+        "locator": "248-2611 ed.3, procedure 2"
+      },
+      "revision_or_countermeasure": {
+        "quality_package": "QP3",
+        "component_manufacturing_introduction_date": "2003-01-07",
+        "design_changes": "Additional overload protection; larger transistor capsule for heat transfer.",
+        "campaign_service_part_number": "55561133"
+      },
+      "effective_original_build_scope": "Component-production change for 6-cylinder IDM, not a vehicle model-year cutover.",
+      "evidence_strength": "Factory report pp.1-2 (partial retrieval); later factory service serial criteria (full_text).",
+      "unverified_conditions": [
+        "Original installed OE number and actual cassette serial unknown.",
+        "QP3 is not proven zero-risk or a measured lifetime improvement.",
+        "Service part is not a VIN-approved current supersession."
+      ]
+    }
+  ],
+  "failure_modes": [
+    {
+      "id": "tier-failure-idm-four-cylinder",
+      "source_ids": [
+        "corrections-src-005",
+        "corrections-src-006"
+      ],
+      "configuration_scope": {
+        "platforms": [
+          "9-3-9400",
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000,
+          2001,
+          2002
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "markets": [
+          "US",
+          "CA",
+          "JP",
+          "TW"
+        ]
+      },
+      "system_id": "ecu_immobilizer_security",
+      "affected_original_revision_if_known": "See tier-revision-idm-four-cylinder",
+      "cause": "Electrical-load-sensitive IGBT overheating/burnout.",
+      "symptoms": [
+        "Start failure",
+        "Engine running fault"
+      ],
+      "consequences": [
+        "Stall with no restart."
+      ],
+      "factory_correction": "Inspect serial and conditionally replace IDM using campaign 15021 instructions.",
+      "reviewed_at": "2026-10-14",
+      "population_frequency_status": "unknown",
+      "prevention_evidence_or_unknown": "Inspect campaign serial and replace when directed; population durability benefit unquantified.",
+      "severity": "Potential immobilization and safety consequence; qualitative project classification.",
+      "verified_diagnosis": "No inspected vehicle; service criterion is module serial, not proof a given no-start has this cause.",
+      "claim_limitations": [
+        "Campaign scope does not prove an individual failure or completion.",
+        "No at-risk denominator, current fitment, price or supply confirmation."
+      ]
+    },
+    {
+      "id": "tier-failure-idm-b308",
+      "source_ids": [
+        "corrections-src-005",
+        "corrections-src-006"
+      ],
+      "configuration_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2001,
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B308"
+        ],
+        "markets": [
+          "US",
+          "CA",
+          "JP",
+          "TW"
+        ],
+        "vin_ranges": [
+          {
+            "end": "33027727",
+            "format": "8-character chassis suffix; bulletin upper boundary, not a full VIN"
+          }
+        ]
+      },
+      "system_id": "ecu_immobilizer_security",
+      "affected_original_revision_if_known": "See tier-revision-idm-b308",
+      "cause": "Electrical-load-sensitive IGBT overheating/burnout.",
+      "symptoms": [
+        "Start failure",
+        "Engine running fault"
+      ],
+      "consequences": [
+        "Three-cylinder operation; continued driving can overheat catalyst/nearby components, then stall."
+      ],
+      "factory_correction": "Inspect serial and conditionally replace IDM using campaign 15021 instructions.",
+      "reviewed_at": "2026-10-14",
+      "population_frequency_status": "unknown",
+      "prevention_evidence_or_unknown": "Inspect campaign serial and replace when directed; population durability benefit unquantified.",
+      "severity": "Potential immobilization and safety consequence; qualitative project classification.",
+      "verified_diagnosis": "No inspected vehicle; service criterion is module serial, not proof a given no-start has this cause.",
+      "claim_limitations": [
+        "Campaign scope does not prove an individual failure or completion.",
+        "No at-risk denominator, current fitment, price or supply confirmation."
+      ]
+    },
+    {
+      "id": "tier-failure-ng93-coolant-in-atf",
+      "source_ids": [
+        "corrections-src-004"
+      ],
+      "configuration_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005
+        ],
+        "markets": [
+          "all"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "body_styles": [
+          "SS",
+          "CV"
+        ],
+        "vin_ranges": [
+          {
+            "end": "51002378",
+            "body_style": "SS",
+            "format": "8-character suffix; bulletin upper boundary"
+          },
+          {
+            "end": "51000001",
+            "body_style": "SS TiD",
+            "format": "8-character suffix; separate diesel boundary"
+          },
+          {
+            "end": "56001058",
+            "body_style": "CV",
+            "format": "8-character suffix; bulletin upper boundary"
+          }
+        ]
+      },
+      "system_id": "cooling_heat",
+      "affected_original_revision_if_known": "Insufficient cooler-nipple sealing; original part/revision unidentified.",
+      "cause": "Coolant enters ATF through insufficient connection sealing.",
+      "symptoms": [
+        "P0715 00/P0720 00",
+        "Gearbox warning",
+        "Poor/noisy shifting"
+      ],
+      "verified_diagnosis": "No vehicle sampled. Codes alone do not prove coolant; require qualified contamination testing. Do not reproduce historical open-flame fluid test.",
+      "severity": "Potential transmission replacement; qualitative cost consequence.",
+      "consequences": [
+        "Contaminated transmission fluid"
+      ],
+      "factory_correction": "TA440-0702 directs complete transmission replacement after confirmed contamination, cooler connection repair, cleaning/flushing and TCM adaptation.",
+      "prevention_evidence_or_unknown": "Check MI260-2634 ed.2 separately; its campaign scope is narrower. No promised lifespan extension.",
+      "population_frequency_status": "unknown",
+      "claim_limitations": [
+        "Diagnostic bulletin scope is not campaign eligibility.",
+        "No donor gearbox approval or DIY cost claim.",
+        "Body/engine and suffix require interpretation, not Cartesian-product eligibility."
+      ],
+      "reviewed_at": "2026-10-14"
+    }
+  ],
   "fleet_failure_frequency_studies": [],
   "parts_market_offers": [],
   "complete_repair_cost_observations": [],

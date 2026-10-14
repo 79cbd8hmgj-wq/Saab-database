@@ -1,6 +1,6 @@
 # Source index
 
-Research retrieval date: 2026-10-14 (latest domain); prior sources preserve original accessed dates. There are 560 source records with 492 distinct
+Research retrieval date: 2026-10-14 (latest domain); prior sources preserve original accessed dates. There are 562 source records with 494 distinct
 URLs. Repeated documents retain their domain provenance. Retrieval strength is
 defined in [the evidence policy](evidence-policy.md); a full-text retrieval is not
 a vehicle-fitment approval. Individual finding locators remain in the JSON.
@@ -852,3 +852,12 @@ Dataset: [early_t7_pcv_kit_factory_and_sourcing_20261014](../data/datasets/early
 | `pcv-supply-src-004` | [eSaabParts 55554444 retailer-assembled complete PCV kit listing](https://www.esaabparts.com/saab/parts/55554444) | eSaabParts independent retailer | `full_text` |
 | `pcv-supply-src-005` | [R&D Car Parts original Saab 55561200 kit discontinued listing](https://www.rendcarparts.com/parts-for-saab-car/55561200/RD55561200) | R&D Car Parts retailer | `full_text` |
 | `pcv-supply-src-006` | [FCP Euro Pro Parts Sweden PPS-21341200 55561200 oil trap kit listing](https://www.fcpeuro.com/products/saab-oil-trap-kit-pro-parts-sweden-55561200) | FCP Euro independent retailer | `full_text` |
+
+## tier_component_factory_revision_20261014
+
+Dataset: [component factory revisions](../data/datasets/tier-component-factory-revision-20261014.json)
+
+| Source ID | Original document | Retrieval |
+| --- | --- | --- |
+| `tier-src-001` | [GM Part 573 defect report 05V399: ignition discharge module and QP3](https://static.nhtsa.gov/odi/rcl/2005/RCDNN-05V399-5581.PDF) | `partial` |
+| `tier-src-002` | [NHTSA acknowledgement 06V410, B308 IDM expansion](https://static.nhtsa.gov/odi/rcl/2006/RCAK-06V410-7245.pdf) | `full_text` |

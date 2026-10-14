@@ -102,13 +102,50 @@ class TierReadinessResearchTests(unittest.TestCase):
         self.assertFalse((ROOT/"data/tier-research/us-110-evidence-readiness.json").exists())
         self.assertFalse((ROOT/"tests/test_tier_evidence_readiness.py").exists())
 
-    def test_observation_ledger_starts_without_fabricated_rates(self):
+    def test_initial_observations_do_not_fabricate_rates_or_costs(self):
         observations=read_json(ROOT/"data/tier-research/observations.json")
-        for field in ("original_part_revisions","failure_modes",
-                      "fleet_failure_frequency_studies","parts_market_offers",
+        for field in ("fleet_failure_frequency_studies","parts_market_offers",
                       "complete_repair_cost_observations"):
             self.assertEqual(observations[field],[])
         self.assertIn("not_a_zero_failure_assertion",observations["interpretation"])
+
+    def test_observation_contract_and_provenance(self):
+        observations=read_json(ROOT/"data/tier-research/observations.json")
+        datasets=[read_json(p) for p in (ROOT/"data/datasets").glob("*.json")]
+        sources={s["id"] for d in datasets for s in d["sources"]}
+        systems={s["id"] for s in self.m["system_inventory"]}
+        ids=[]
+        for category, required in observations["minimum_record_contract"].items():
+            for record in observations[category]:
+                self.assertTrue(set(required).issubset(record),record.get("id"))
+                if "source_ids" in required:
+                    self.assertTrue(record["source_ids"])
+                    self.assertTrue(set(record["source_ids"]).issubset(sources))
+                ids.append(record["id"])
+                if category=="failure_modes":
+                    self.assertIn(record["system_id"],systems)
+                    self.assertEqual(record["population_frequency_status"],"unknown")
+        self.assertEqual(len(ids),len(set(ids)))
+
+    def test_recalled_ignition_cohorts_remain_separate(self):
+        observations=read_json(ROOT/"data/tier-research/observations.json")
+        modes={r["id"]:r for r in observations["failure_modes"]}
+        four=modes["tier-failure-idm-four-cylinder"]
+        six=modes["tier-failure-idm-b308"]
+        self.assertEqual(four["configuration_scope"]["model_years"],[2000,2001,2002])
+        self.assertNotIn("B308",four["configuration_scope"]["engine_codes"])
+        self.assertEqual(six["configuration_scope"]["platforms"],["9-5-9600"])
+        self.assertEqual(six["configuration_scope"]["engine_codes"],["B308"])
+        self.assertNotIn("9-3-9440",four["configuration_scope"]["platforms"])
+
+    def test_component_revision_date_is_not_vehicle_year_or_original_part(self):
+        revisions=read_json(ROOT/"data/tier-research/observations.json")["original_part_revisions"]
+        expected={"tier-revision-idm-four-cylinder":"2002-07-04",
+                  "tier-revision-idm-b308":"2003-01-07"}
+        for revision in revisions:
+            self.assertIsNone(revision["original_part_number"])
+            self.assertEqual(revision["revision_or_countermeasure"]["component_manufacturing_introduction_date"],expected[revision["id"]])
+            self.assertIn("not a vehicle model-year cutover",revision["effective_original_build_scope"])
 
 if __name__=="__main__":
     unittest.main()
