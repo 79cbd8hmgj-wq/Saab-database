@@ -67,6 +67,15 @@ def check_policy(policy: dict, methodology: dict, datasets: list[dict]) -> None:
             + "new or unreviewed parts=" + str(sorted(expected_parts - set(curated)))
             + "; obsolete or non-part overrides=" + str(sorted(set(curated) - expected_parts))
         )
+    issue_overrides = policy.get("explicit_issue_routes", {})
+    if not isinstance(issue_overrides, dict):
+        raise ValueError("Issue routing review must map issue IDs to search system lists")
+    issue_ids = {id_ for id_, kind in originals.items() if kind == "issues"}
+    for id_, routes in issue_overrides.items():
+        if (id_ not in issue_ids or not isinstance(routes, list)
+            or len(routes) != len(set(routes)) or set(routes) - systems):
+            raise ValueError("Invalid reviewed issue navigation route: " + id_)
+
 
 
 def topic_fields(kind: str, record: dict) -> list[tuple[str, str, int]]:
@@ -111,9 +120,13 @@ def route(kind: str, record: dict, domain: str, policy: dict) -> dict:
                 matched[system].update(field + ":" + x for x in sorted(matching))
 
     overrides = policy.get("explicit_record_routes", {})
-    manual = overrides.get(record["id"])
-    if manual is not None:
-        candidates = list(manual)
+    issue_overrides = policy.get("explicit_issue_routes", {})
+    if kind == "issues" and record["id"] in issue_overrides:
+        candidates = list(issue_overrides[record["id"]])
+        route_basis = "curated_explicit_issue_navigation"
+        review = "source_scope_and_engineering_still_required"
+    elif record["id"] in overrides:
+        candidates = list(overrides[record["id"]])
         route_basis = "curated_explicit_record"
         review = "source_scope_and_engineering_still_required"
     elif scores:
@@ -317,6 +330,8 @@ def build(datasets: list[dict], policy: dict, method: dict,
                                                        for r in records),
         "explicitly_curated_system_routes": sum(
             r["routing_basis"] == "curated_explicit_record" for r in records),
+        "reviewed_ambiguous_issue_navigation_routes": sum(
+            r["routing_basis"] == "curated_explicit_issue_navigation" for r in records),
         "systems": by_system,
         "records": sorted(records, key=lambda r: (r["kind"], r["id"])),
         "all_records_reconciled_to_a_traceable_entry": True,
@@ -354,6 +369,7 @@ def main() -> int:
             "record_counts": index["input_technical_counts"],
             "systems": index["tracked_systems"],
             "manually_reconciled_part_number_groups":index["manually_reconciled_exact_part_groups"],
+            "reviewed_ambiguous_issue_routes":index["reviewed_ambiguous_issue_navigation_routes"],
             "still_open_shared_gap_blockers":index["manually_reconciled_shared_gap_blockers"],
             "routes": index["record_routes"],
             "cross_cutting_or_unrouted": index["unrouted_cross_cutting_records"],
