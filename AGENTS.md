@@ -24,3 +24,23 @@ simulator or a source of verified failure probabilities.
   measurements.
 - Run `python3 tools/validate.py` and `python3 -m unittest discover -s tests -v`
   after changing the data or validation tools. Inspect the full result.
+
+## Reuse-first requirement for research changes
+
+Before adding a factory fault, component revision, part substitution, price observation,
+or new gap, consult the [whole-repository reuse audit](docs/research-reuse-audit-20261014.md)
+and run `python3 tools/audit_research_reuse.py --summary`.
+Search all existing datasets by original **source URL/bulletin number**, fault root cause,
+source/issue/part/gap ID, and exact platform, market, model year, engine, body,
+transmission and applicable VIN/serial scope.
+
+A newly opened research PR must list the existing records reviewed, distinguish
+what is genuinely new from evidence reused, and explicitly link prior issue IDs.
+New comparison-ledger records must not be presented as newly discovered factory
+failures when a matching original source or legacy issue already exists.
+
+Do not automatically merge records based on shared URLs, part numbers, symptoms
+or similarly worded gap titles. Different populations, factory corrections, test
+conditions and campaign/TSB scopes can legitimately cite one document.
+Keep existing source IDs stable and correct references rather than discarding provenance.
+Update audit tests if the original ledger cohort list changes; no premature ranking.

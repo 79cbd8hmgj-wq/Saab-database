@@ -22,7 +22,11 @@ The [source index](source-index.md) links every source record and shows retrieva
 strength. JSON findings retain stable IDs, source locators, units and applicability.
 The [individual reports](research/) explain source conflicts in more detail.
 
-## Provisional cars to research first
+## Archived historical research pilots (NOT a current recommendation)
+
+**This October 12 section is preserved for provenance only.** It predates the October 14 [whole-repository reuse audit](research-reuse-audit-20261014.md) and current decision to defer all model priorities until there is symmetric original-component reliability, parts supply and known-failure evidence. The names and relative order below are **historical research starting points**, not current purchasing advice, approved rankings or completed comparisons.
+
+
 
 This is a project preference based on documented mechanisms and the current
 research scope. It is an inference, not an observed reliability ranking. A sound
