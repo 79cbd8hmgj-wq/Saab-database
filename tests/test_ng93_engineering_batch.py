@@ -19,7 +19,7 @@ class EngineeringBatchTests(unittest.TestCase):
         cls.tier=json.loads((ROOT/"data/tier-research/observations.json").read_text())
         cls.result=check(cls.data,cls.datasets,cls.tier)
 
-    def test_batch_covers_thirteen_high_value_questions(self):
+    def test_batch_covers_seventeen_high_value_questions(self):
         self.assertEqual(self.result["cases"],17)
         self.assertGreaterEqual(self.result["source_URL_references"],20)
         self.assertTrue(self.result["not_a_failure_rate_or_model_ranking"])
