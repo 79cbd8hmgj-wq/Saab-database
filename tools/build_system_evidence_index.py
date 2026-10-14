@@ -371,6 +371,10 @@ def build(datasets: list[dict], policy: dict, method: dict,
         "unreviewed_cross_cutting_by_kind": dict(Counter(
             r["kind"] for r in records if r["cross_cutting_or_unresolved_system"]
             and r["review_status"] == "not_manually_adjudicated")),
+        "remaining_unreviewed_ambiguous_record_count": sum(
+            (r["cross_cutting_or_unresolved_system"] or r["possible_multiple_systems"])
+            and r["review_status"] == "not_manually_adjudicated"
+            for r in records),
         "systems": by_system,
         "records": sorted(records, key=lambda r: (r["kind"], r["id"])),
         "all_records_reconciled_to_a_traceable_entry": True,
@@ -419,6 +423,8 @@ def main() -> int:
             "reviewed_ambiguous_issue_routes":index["reviewed_ambiguous_issue_navigation_routes"],
             "reviewed_fact_gap_routes": index["reviewed_fact_gap_navigation_routes"],
             "unreviewed_cross_cutting_by_kind": index["unreviewed_cross_cutting_by_kind"],
+            "remaining_unreviewed_ambiguous_record_count":
+                index["remaining_unreviewed_ambiguous_record_count"],
             "still_open_shared_gap_blockers":index["manually_reconciled_shared_gap_blockers"],
             "routes": index["record_routes"],
             "cross_cutting_or_unrouted": index["unrouted_cross_cutting_records"],
