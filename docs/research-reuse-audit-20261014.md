@@ -92,8 +92,8 @@ A claim such as “we have researched all Saab factory issues” would be unsupp
 The audit scanned **64 Markdown files** and **247 local relative links** and found **zero broken local links**. This checks navigation, not whether an old recommendation is current.
 
 It identified two documentation-drift cases:
-1. The top of [coverage-audit.md](coverage-audit.md) still calls itself a **41-domain** refresh despite the current **42-domain** table.
-2. [research-overview.md](research-overview.md) contains an older **provisional car-priority section**. This should be marked as historical research context; it is **not a current ranking**, and the user has requested no early ranking.
+1. The top of [coverage-audit.md](coverage-audit.md) previously called itself a **41-domain** refresh despite the current **42-domain** table; corrected in this audit PR.
+2. [research-overview.md](research-overview.md) contains an older **provisional car-priority section**. This is now labelled as historical research context in the older file; it is **not a current ranking**, and the user has requested no early ranking.
 
 The huge [source index](source-index.md) successfully tracks source retrieval but does not yet tell a researcher whether a newly proposed problem is **already in another data domain**.
 
