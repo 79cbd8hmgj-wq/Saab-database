@@ -82,6 +82,8 @@ engineering claim is true. A full `--review` still includes reviewed overlapping
 and cross-cutting entries for audit inspection; the new option only filters the
 work queue.
 
+**Follow-up completed:** [The October 14 multi-system review](multisystem-fact-gap-route-review-20261014.md) has now reviewed those **176 facts and 49 gaps**, leaving **no identified unreviewed navigation candidates**, but does not externally verify or close any original technical question.
+
 The next consolidation pass can adjudicate the remaining multi-system proposals,
 then compare named missing inputs with findings already saved in other domains.
 The 1,101 facts, 92 issues, 89 parts and 284 open gaps are unchanged. Failure
