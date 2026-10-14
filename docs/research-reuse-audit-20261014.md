@@ -8,6 +8,8 @@ This is an **entire-dataset structural and research-overlap audit**, not a page-
 
 **Further integration:** [The 16-system evidence crosswalk](system-evidence-crosswalk-20261014.md) now makes every previously stored fact, issue, part and gap searchable by probable component system, keeping the 199 cross-cutting/unrouted research records visible and declining to treat keyword matches as engineering confirmation or failure rates.
 
+**Follow-up:** [Claim-level part/gap and ambiguous issue adjudication](part-gap-overlap-adjudication-20261014.md) now crosslinks the five exact-number part groups and two repeated open VIN questions and makes reviewed source/applicability differences visible without deleting any original records.
+
 ## 1. Existing material
 
 | Database quantity | Count | Interpretation |
