@@ -97,10 +97,28 @@ The [October 14 follow-up review](part-gap-overlap-adjudication-20261014.md) has
 
 The [PR #74 multi-system fact/gap adjudication](multisystem-fact-gap-route-review-20261014.md) reviewed the remaining **176 facts and 49 gaps** after PR #73. The up-to-date navigation queue now has **zero unreviewed ambiguous items**, **99 deliberately cross-cutting records**, and **144 multiple-system references**. These are only **indexing decisions**; original factory defect completeness, real component durability, OE fitment, current stock and **all 284 research gaps** remain separate unresolved questions. The original PR #71 and PR #73 counts above are retained as dated baselines.
 
-## What still needs source-level reconciliation
+## Remaining engineering evidence—not a navigation backlog
 
-The [fact/gap follow-up](fact-gap-navigation-adjudication-20261014.md) now reviews all 161 facts and 31 gaps that were cross-cutting after PR #72. The current index contains 87 deliberately reviewed cross-cutting entries and 255 multi-system entries. Of the latter, 225 remain unreviewed proposals (176 facts and 49 gaps). The earlier counts above are historical baselines, not the current work queue. Use `--review --review-unreviewed-only --review-limit 0` to inspect remaining work without rediscovering already reviewed cross-cutting cases.
+The [PR #73 fact/gap review](fact-gap-navigation-adjudication-20261014.md) and
+[PR #74 multi-system review](multisystem-fact-gap-route-review-20261014.md)
+are **both complete**. Their historical queues of 192 and 225 candidates have
+been adjudicated. The current 16-system index reports **0 unreviewed ambiguous
+navigation candidates**, **99 deliberately cross-cutting records** and **144
+multi-system records whose overlaps were reviewed**. Preserve those routes
+rather than creating another navigation-only research batch.
 
-This completes additional **source-preserving navigation review**, not factory-defect research completeness. Follow up on the unreviewed multi-system candidates, then reconcile actual part number/version/applicability links and meaningful gap closures against existing evidence. That review must distinguish system specs, original manufacturer defect mechanisms, factory corrective revisions, observed failure events, parts supply and complete repair economics.
+The next substantive consolidation task is different: compare each of the
+**284 still-open gap records** and its missing inputs with the **1,101 existing
+facts, 562 source records and original factory bulletins**. Classify each gap
+as unanswered, partially answered, potentially already solved but not closed,
+requiring an original manufacturer source, requiring an individual real car,
+or requiring independently observed reliability, supply or repair-cost data.
+**Do not automatically close or merge a gap based on a shared source, topic,
+title or matching value.** Reconcile scope, revision, market, vehicle identity
+and all original evidence first.
 
-Only after validating what evidence is **truly missing**, should future PRs retrieve newly found original Saab/regulator bulletins or new market data. **No tier ranking or model preference is justified by these topic counts.**
+Passing navigation/CI checks does not establish manufacturer-wide factory
+failure completeness, component durability, OEM parts interchange, current
+order fulfillment or repair economics. Only after auditing the actual missing
+evidence should further external Saab/regulator sources be collected.
+**No model reliability tier or purchasing priority is justified yet.**
