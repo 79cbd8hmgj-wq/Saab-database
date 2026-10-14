@@ -65,7 +65,7 @@ When there is sufficient source parity, we can define **severity, supply risk, o
 
 ```bash
 python3 tools/build_tier_readiness.py --check
-python3 -m unittest tests.test_tier_readiness -v
+python3 -m unittest discover -s tests -p 'test_tier_readiness.py' -v
 python3 -m unittest discover -s tests -v
 python3 tools/phase0_audit.py --check
 ```
