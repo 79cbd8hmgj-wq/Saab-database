@@ -12,6 +12,7 @@ import hashlib
 import json
 import re
 from collections import Counter, defaultdict
+from datetime import date
 from pathlib import Path
 
 from database import ROOT, load_datasets, validate_datasets
@@ -106,6 +107,14 @@ def build():
         c["notes"].append({"record_id": id_, "evidence_status": p["evidence_status"],
                            "review_status": p.get("review_status"), "notes": p["notes"]})
         for n, group in enumerate(groups):
+            # Manually adjudicated, contradictory engine cutoffs stay separate
+            # and machine readable; the untouched original claim remains raw_scope.
+            if id_ == "corrections-part-008":
+                group["production_restrictions"] = [dict(kind="engine_serial", operator="inclusive_range",
+                    minimum="4000000", maximum="4017590", source_id="corrections-src-002")]
+            elif id_ == "b235rev-part-005":
+                group["production_restrictions"] = [dict(kind="engine_serial", operator="from",
+                    value="4017591", source_id="b235rev-src-014")]
             applications.append(dict(id=f"app:{id_}:{n}", component_id=key,
                 scope=group, raw_scope=p["applicability"], status=p["evidence_status"],
                 source_ids=p["source_ids"], conditions=p["requirements"], vin_approved=False,
@@ -115,7 +124,7 @@ def build():
                 claim=rel, source_ids=p["source_ids"], status="unadjudicated_source_claim",
                 approved=False, legacy_record_id=id_))
     batches = [read(p) for p in sorted(DIR.glob("research-batch-*.json"))]
-    interchanges, specifications, offerings, conflicts, procedures, repairs = [], [], [], [], [], []
+    interchanges, specifications, offerings, conflicts, procedures, repairs, gearboxes = [], [], [], [], [], [], []
     for batch in batches:
         for s in batch["sources"]:
             if s["id"] in sources:
@@ -132,6 +141,7 @@ def build():
         conflicts.extend(batch["conflicts"])
         procedures.extend(batch["procedures"])
         repairs.extend(batch["repair_scenarios"])
+        gearboxes.extend(batch.get("gearbox_families", []))
     # Explicitly verified dual-channel SERVICE SKU, not an original installed donor.
     pump = part_component.get("gmwp-part-001")
     if pump:
@@ -222,6 +232,11 @@ def build():
                         value=r["value"], unit=r["unit"], scope=r["applicability"], source_ids=r["source_ids"],
                         locator=r["locator"], evidence_status=r["evidence_status"], system_ids=systems,
                         verification_meaning="original_source_scope_only"))
+    for f in failures:
+        f["target_scope_groups"] = project_scope(f["scope"])
+        f["application_role"] = "source_scope_context_not_confirmed_target_vehicle_fault"
+    for g in gaps:
+        g["target_scope_groups"] = project_scope(records[g["id"]].get("applicability", {}))
     for p in sorted((ROOT / "data/engineering-dossiers").glob("*purchase-engineering-*.json")):
         dossier = read(p)
         for c in dossier["cases"]:
@@ -239,6 +254,7 @@ def build():
                 original_case_path=str(p.relative_to(ROOT)), original_sha256=digest(c),
                 source_ids=sorted(set(sid)), component_ids=sorted({part_component[x] for x in c["prior_ids"] if x in part_component}),
                 system_id=c["system"], scope_description=c["applies"], diagnosis=c["failure"],
+                target_platform=dossier["scope"]["platform"],
                 corrective_path=c["corrective_path"], improvement_status=c["improvement_status"],
                 diy_feasibility=c["repair_class"], professional_feasibility="vehicle_specific_quote_needed",
                 exceeds_no_engine_transmission_rebuild_goal=c["purchase_decision"] == "avoid_major_unpriced_work",
@@ -257,12 +273,20 @@ def build():
     for c in sorted(components.values(), key=lambda c: c["id"]):
         numbers.append(dict(id="pn:" + c["id"], component_id=c["id"], namespace=c["number_namespace"],
                             value=c["part_number"], source_ids=c["source_ids"]))
+    manufacturers = []
+    for name in sorted({c["marketed_brand"] for c in components.values() if c["marketed_brand"]}):
+        members = [c for c in components.values() if c["marketed_brand"] == name]
+        manufacturers.append(dict(id="maker:" + re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-"),
+            name=name, role="marketed_product_brand_not_original_vehicle_supplier_certification",
+            component_ids=[c["id"] for c in members], source_ids=sorted({s for c in members for s in c["source_ids"]})))
     catalogue = dict(schema_version="1.0", as_of=DATE, exhaustive=False, scoring_allowed=False,
         systems=read(ROOT / "data/tier-research/methodology.json")["system_inventory"],
         subsystems=[dict(id=s, system_id=s.split(".")[0]) for s in sorted({a["subsystem_id"] for a in inventory["assemblies"]})],
         assembly_inventory=inventory["assemblies"], components=sorted(components.values(), key=lambda c: c["id"]),
         applications=applications, part_numbers=numbers, part_number_relationships=relations,
         interchanges=interchanges, specifications=specifications, evidence_claims=claims,
+        gearbox_families=gearboxes, manufacturers=manufacturers,
+        fastener_specification_contract=inventory["fastener_specification_contract"],
         reliability_register=failures, supplier_offerings=offerings, repair_procedures=procedures,
         repair_scenarios=repairs, evidence_sources=sorted(sources.values(), key=lambda s: s["id"]),
         verification_gaps=gaps, unresolved_contradictions=conflicts, research_reuse_index=reuse,
@@ -273,7 +297,7 @@ def build():
 
 def validate(catalogue):
     errors = []
-    tables = [k for k, v in catalogue.items() if isinstance(v, list)]
+    tables = [k for k, v in catalogue.items() if isinstance(v, list) and all(isinstance(r, dict) for r in v)]
     for name in tables:
         values = catalogue[name]
         ids = [r.get("id") for r in values]
@@ -290,6 +314,8 @@ def validate(catalogue):
             errors.append("Unknown assembly: " + c["id"])
         if c["id"] != identity(c["number_namespace"], c["part_number"], c["assembly_id"]):
             errors.append("Unstable component identity: " + c["id"])
+        if not c["source_ids"]:
+            errors.append("Unsourced component identity: " + c["id"])
     for name in tables:
         for r in catalogue[name]:
             if "source_ids" in r and set(r["source_ids"]) - sources.keys():
@@ -325,7 +351,7 @@ def validate(catalogue):
             errors.append("Unexplained interchange: " + r["id"])
         if r["category"] in "DE" and (r["fitment_approved"] or r["donor_approved"]):
             errors.append("Unverified/modification lead marked approved: " + r["id"])
-        if r["category"] == "A" and r["identity_basis"] != "dual_official_channel_exact_number":
+        if r["category"] == "A" and r["identity_basis"] not in {"dual_official_channel_exact_number", "manufacturer_oe_information_exact_number"}:
             errors.append("Unauthenticated category A: " + r["id"])
         if r["category"] == "B" and r["identity_basis"] != "manufacturer_repair_instructions":
             errors.append("Unapproved category B basis: " + r["id"])
@@ -341,10 +367,50 @@ def validate(catalogue):
         if "92151823" in {left["part_number"], right["part_number"]} and "water_pump" in {left["assembly_id"], right["assembly_id"]}:
             errors.append("Quarantined pump-to-screw relationship escaped")
     for o in catalogue["supplier_offerings"]:
-        if o["price"] is not None and (not isinstance(o["price"], (int, float)) or o["price"] < 0 or o["currency"] not in {"USD", "CAD", "EUR", "GBP"}):
+        if o["price"] is not None and (type(o["price"]) not in (int, float) or o["price"] < 0 or o["currency"] not in {"USD", "CAD", "EUR", "GBP"}):
             errors.append("Invalid price/currency: " + o["id"])
-        if not o["observed_at"]:
+        try:
+            date.fromisoformat(o["observed_at"])
+        except (ValueError, TypeError):
             errors.append("Undated offering")
+    for gb in catalogue["gearbox_families"]:
+        if gb["platform"] not in FAMILIES or gb["assembly_id"] not in assemblies:
+            errors.append("Invalid gearbox platform/assembly")
+        if gb["production_application_verified"] and not gb.get("application_proof_ids"):
+            errors.append("Gearbox example promoted to production application")
+    # Active supersessions require exact endpoints, no category crossing, one
+    # successor per adjudicated cohort, and no cycles. Raw disputed claims stay inactive.
+    graph = defaultdict(set)
+    by_cohort = defaultdict(set)
+    for rel in catalogue["part_number_relationships"]:
+        if not rel["approved"]:
+            continue
+        left = rel.get("from_component_id")
+        right = rel.get("to_component_id")
+        if left not in components or right not in components or not rel.get("application_ids"):
+            errors.append("Approved supersession lacks endpoint/cohort proof")
+            continue
+        if components[left]["assembly_id"] != components[right]["assembly_id"]:
+            errors.append("Approved cross-category supersession")
+        graph[left].add(right)
+        for cohort in rel["application_ids"]:
+            by_cohort[(left, cohort)].add(right)
+    if any(len(v) > 1 for v in by_cohort.values()):
+        errors.append("Contradictory active supersessions")
+    def cycle(node, active, done):
+        if node in active:
+            return True
+        if node in done:
+            return False
+        active.add(node)
+        if any(cycle(n, active, done) for n in graph.get(node, [])):
+            return True
+        active.remove(node)
+        done.add(node)
+        return False
+    done = set()
+    if any(cycle(n, set(), done) for n in list(graph)):
+        errors.append("Cyclic active supersessions")
     originals = {r["id"]: r for d in load_datasets() for k in ("facts", "issues", "parts", "gaps") for r in d[k]}
     for r in catalogue["research_reuse_index"]:
         if r["id"] not in originals or digest(originals[r["id"]]) != r["original_sha256"]:
@@ -353,6 +419,16 @@ def validate(catalogue):
         totals = [r.get(k) for k in ("complete_parts_total", "complete_diy_total", "complete_professional_total")]
         if any(v is not None for v in totals) and (r["missing_cost_inputs"] or not r.get("currency")):
             errors.append("Incomplete repair presented as total cost: " + r["id"])
+        currencies = {p["currency"] for p in r["parts_bill"] if p.get("currency")}
+        if currencies and currencies != {r["currency"]}:
+            errors.append("Mixed repair currencies without conversion: " + r["id"])
+    # Conflicting measured/specification claims cannot be hidden by selecting one.
+    specs = defaultdict(list)
+    for s in catalogue["specifications"]:
+        specs[(s["component_id"], s["property"], digest(s.get("scope")))].append(s)
+    for rows in specs.values():
+        if len({digest((s["value"], s["unit"])) for s in rows}) > 1 and not all(s.get("conflict_id") for s in rows):
+            errors.append("Conflicting specifications without contradiction linkage")
     return errors
 
 
@@ -368,19 +444,40 @@ def coverage(c):
             assemblies = {a["id"] for a in c["assembly_inventory"] if a["system_id"] == system["id"] and p[-4:] in a["research_targets"]}
             parts = [x for x in c["components"] if x["assembly_id"] in assemblies and p in apps[x["id"]]]
             known = {x["assembly_id"] for x in parts}
+            part_ids = {x["id"] for x in parts}
+            approved = {a["component_id"] for a in c["applications"] if a.get("vin_approved") and p in a["scope"].get("platforms", [])}
             rows.append(dict(platform=p, system_id=system["id"], inventory_serviceable_groups=len(assemblies),
                 identified_product_records=len(parts), serviceable_groups_with_product_claims=len(known),
                 verified_original_installed_identities=sum(x["original_installed_identity_verified"] for x in parts),
                 verified_vin_replacements=len({a["component_id"] for a in c["applications"] if a.get("vin_approved") and p in a["scope"].get("platforms", []) and a["component_id"] in {x["id"] for x in parts}}),
-                verified_cross_brand_vin_alternatives=0,
+                factory_specified_component_identities=len({a["component_id"] for a in c["applications"] if a.get("factory_specification_verified") and a["component_id"] in part_ids and p in a["scope"].get("platforms", [])}),
+                manufacturer_documented_service_applications=len({a["component_id"] for a in c["applications"] if a.get("manufacturer_application_verified") and a["component_id"] in part_ids and p in a["scope"].get("platforms", [])}),
+                verified_cross_brand_vin_alternatives=len({r["to_component_id"] for r in c["interchanges"] if r["donor_approved"] and r["fitment_approved"] and r["from_component_id"] in part_ids and r["to_component_id"] in approved}),
                 components_with_complete_repair_costs=len({x for r in c["repair_scenarios"] if r["complete_professional_total"] is not None for x in r["component_ids"] if x in {p["id"] for p in parts}}),
                 product_records_with_fitment_or_sourcing_gaps=len(parts),
                 remaining_assembly_groups=sorted(assemblies-known)))
     return dict(as_of=DATE, whole_vehicle_universe_established=False, completeness_percentage=None,
         denominator_policy="Inventory serviceable groups are research slots; products count namespace/number/category identities. A group can contain many products. Neither is an exhaustive factory component universe.",
-        counts={k:len(c[k]) for k in ("assembly_inventory", "components", "applications", "interchanges", "supplier_offerings", "repair_scenarios", "vehicle_configurations", "research_reuse_index")},
+        counts={k:len(c[k]) for k in ("assembly_inventory", "components", "applications", "interchanges", "supplier_offerings", "repair_scenarios", "gearbox_families", "vehicle_configurations", "research_reuse_index")},
         platform_system_rows=rows, scoring_allowed=False,
         readiness_reason="No configuration has a fully verified original BOM, regional replacement package and complete repair economics. Failure rates and comparative upgrade durability are not established.")
+
+
+def readiness(c):
+    return dict(as_of=DATE, scoring_allowed=False, configurations=[dict(
+        id="readiness:" + x["id"], configuration_id=x["id"], platform=x["platform"],
+        model_year=x["model_year"], engine_code=x["engine_code"],
+        reliability="insufficient_evidence", parts_availability="insufficient_evidence",
+        repair_economics="insufficient_evidence", overall="unranked",
+        blockers=["Factory original-component and revision identities incomplete",
+                  "Gearbox tag/application and software calibration not certified",
+                  "Regional per-application replacement/stock packages incomplete",
+                  "Complete DIY/shop repair costs absent",
+                  "No validated population failure incidence or comparative durability"])
+        for x in c["vehicle_configurations"]], excluded_from_current_enumeration=[
+            "Canadian configurations", "Manual gearbox configurations",
+            "9440 convertibles", "MY1998 US 9600 production rows"],
+        enumeration_is_not_brandwide_vehicle_universe=True)
 
 
 def main():
@@ -396,19 +493,23 @@ def main():
         raise SystemExit("\n".join(errors))
     output = json.dumps(c, ensure_ascii=False, indent=2) + "\n"
     summary = json.dumps(coverage(c), ensure_ascii=False, indent=2) + "\n"
+    ready = json.dumps(readiness(c), ensure_ascii=False, indent=2) + "\n"
     if args.check:
-        if not OUTPUT.exists() or OUTPUT.read_text() != output or (DIR / "coverage.json").read_text() != summary:
+        expected = {OUTPUT: output, DIR / "coverage.json": summary, DIR / "readiness.json": ready}
+        if any(not path.exists() or path.read_text() != value for path, value in expected.items()):
             raise SystemExit("Generated component catalogue/coverage drift: run --write")
         print("PASS: catalogue reproducible; foreign keys, provenance, scope and evidence guards valid")
     elif args.write:
         OUTPUT.write_text(output)
         (DIR / "coverage.json").write_text(summary)
+        (DIR / "readiness.json").write_text(ready)
         print(json.dumps(coverage(c)["counts"], indent=2))
     elif args.component or args.platform:
         ids = {a["component_id"] for a in c["applications"] if not args.platform or args.platform in a["scope"].get("platforms", [])}
         selected = [x for x in c["components"] if (not args.platform or x["id"] in ids) and (not args.component or args.component.lower() in json.dumps(x).lower())]
         chosen = {x["id"] for x in selected}
         print(json.dumps(dict(components=selected,
+            gearbox_families=[g for g in c["gearbox_families"] if (not args.platform or args.platform == g["platform"]) and (not args.component or args.component.lower() in json.dumps(g).lower())],
             applications=[a for a in c["applications"] if a["component_id"] in chosen],
             interchanges=[r for r in c["interchanges"] if r["from_component_id"] in chosen or r["to_component_id"] in chosen],
             offerings=[o for o in c["supplier_offerings"] if o["component_id"] in chosen]), indent=2))

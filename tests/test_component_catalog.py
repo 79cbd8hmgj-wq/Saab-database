@@ -63,6 +63,27 @@ class ComponentCatalogGuards(unittest.TestCase):
         c["research_reuse_index"][0]["original_sha256"] = "unreviewed"
         self.assertTrue(any("Unexplained change" in e for e in catalog.validate(c)))
 
+    def test_supersession_cycles_and_conflicts_are_rejected(self):
+        c = copy.deepcopy(self.catalog)
+        left, right = "cmp:saab_service:55571391:spark_plugs", "cmp:saab_service_reference:12787099:spark_plugs"
+        c["part_number_relationships"].extend([
+            dict(id="bad:sup:a", component_id=left, from_component_id=left, to_component_id=right,
+                 approved=True, application_ids=["app:hedin:55571391:petrol"], source_ids=["cat-src-hedin-plug"]),
+            dict(id="bad:sup:b", component_id=right, from_component_id=right, to_component_id=left,
+                 approved=True, application_ids=["app:hedin:55571391:petrol"], source_ids=["cat-src-hedin-plug"])])
+        self.assertTrue(any("Cyclic" in e for e in catalog.validate(c)))
+
+    def test_gearbox_example_does_not_prove_engine_application(self):
+        c = copy.deepcopy(self.catalog)
+        c["gearbox_families"][0]["production_application_verified"] = True
+        self.assertTrue(any("Gearbox example" in e for e in catalog.validate(c)))
+
+    def test_mixed_repair_currency_is_rejected(self):
+        c = copy.deepcopy(self.catalog)
+        repair = next(r for r in c["repair_scenarios"] if r.get("priced_parts_subtotal"))
+        repair["parts_bill"][0]["currency"] = "EUR"
+        self.assertTrue(any("Mixed repair currencies" in e for e in catalog.validate(c)))
+
 
 if __name__ == "__main__":
     unittest.main()

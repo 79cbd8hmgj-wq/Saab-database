@@ -86,7 +86,7 @@ retain specific components, sources, applications and unknowns. Regenerate the
 catalogue and coverage rather than editing generated outputs. Existing issue
 identities remain canonical; reuse them rather than creating a new defect record.
 
-Immediate remaining work: explicit gearbox-family/service-component records and
+Immediate remaining work: gearbox production/service-component matrices and
 manual/Canada/convertible configuration enumeration; authenticated EPC identities
 and supersessions for engine/timing/fuel/electronics; independent verification of
 existing AS-PL/hub/brake donor leads; regional offerings and complete repair bills.
@@ -95,5 +95,71 @@ All other exact remaining assembly groups are in coverage's
 
 No configuration is ready for three-axis scoring: a verified production BOM,
 regional replacements and full repair economics are not yet established.
-The 37 inherited engineering cases plus the new pump case retain repair difficulty
+The 37 inherited engineering cases plus the pump and plug cases retain repair difficulty
 and unresolved costs. Unknown totals are null, never zero or the pump sticker price.
+
+## Second substantive batch: gearbox and ignition identities
+
+The catalog now has seven separate transmission research records: OG9-5 AF30
+(FA47, Aisin 50-40LE), OG9-5 FA57, NG9-3 FA57, NG9-3 AF40/TF-80SC, NG9-3 F40,
+and separate unresolved five-speed manual records for each platform. An AF40 WIS
+chapter does not establish its applicability to every North American B207.
+FM55/FM57 tag-legend contradictions are preserved, and a tool called F35 does
+not certify the installed gearbox. Assembly part numbers and the complete
+engine/year/market/ratio matrices remain unverified.
+
+New factory sources: [AF30 designation legend](https://saabwisonline.com/9-5-9600/2001/4-transmission/automatic-transmission/technical-data/type-designation)
+and [F40 manufacturing label example](https://saabwisonline.com/9-3-9440/2008/4-transmission/manual-gearbox/6-speed/technical-data/type-designation).
+Neither example is a universal production tag.
+
+[Saab Parts 55571391](https://webshop-fi.saabparts.com/productdetail/saabparts/55571391)
+identifies NGK PFR6D10G as the current service product. It lists a broad petrol
+application, but separately restricts BioPower/FlexFuel by year and engine serial.
+The historical NGK B207L date split, UK2024 catalogue, US2019 catalogue and
+factory B207E/L PFR6T specification are kept as distinct claims. Current service
+replacement identity must not be mistaken for an original production revision.
+
+The [dedicated MY2006 plug procedure](https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/engine-management-system-trionic-t8/adjustment-replacement/spark-plug-157)
+and [compression-test procedure](https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/engine-compression-test)
+disagree on plug and coil fastener torques. Each source value remains in the
+procedure record, and a blended installation instruction is blocked pending
+authentic revision/joint confirmation.
+
+[FCP NGK5542](https://www.fcpeuro.com/products/spark-plug-ngk-5542) advertises
+$11.19 each, yielding a $44.76 four-plug subtotal. This excludes delivery, tax,
+tools and shop labor. Finland's genuine plug offering is a separate EUR record;
+it does not establish US/Canadian stock. Detailed warranty/core terms remain unknown.
+
+Existing AS-PL, FAG, PFI, SKF and Delphi investigations now have specific
+number-to-product candidate edges. The catalog does not turn their shared
+aftermarket references into approved Opel/GM donors. The 5961610 engine-number
+conflict is also explicitly linked to its two original source claims.
+
+## Coverage dashboard and readiness
+
+The catalog contains **137 product identities and reference endpoints**, 117 application claims, 35 interchange edges, 12 dated offering observations and 39 repair scenarios. These are research records, not 137 verified installed components. Seven gearbox-family records are separate because a gearbox designation is not an assembly part number.
+
+| System | 9440 research groups | 9440 groups with part claims | 9600 research groups | 9600 groups with part claims |
+|---|---:|---:|---:|---:|
+| Engine internals, oil delivery, PCV and sludge | 29 | 1 | 29 | 5 |
+| Timing drive, valve train and intake valves | 27 | 1 | 27 | 0 |
+| Turbocharger, oil feed, charge air and boost controls | 21 | 2 | 21 | 4 |
+| Automatic/manual transmissions, differentials and drivetrain | 44 | 0 | 44 | 1 |
+| Body shell, subframe, structural corrosion and safety mounts | 17 | 7 | 17 | 3 |
+| Brake friction, hydraulics, ABS/ESC, lines and parking brake | 21 | 1 | 21 | 0 |
+| Cooling, radiator/heat exchangers, fans and related ATF cooling | 24 | 2 | 24 | 10 |
+| Fuel system, catalyst, OBD emissions and evaporative controls | 29 | 0 | 29 | 0 |
+| ECUs, ignition, keys, anti-theft, software and programming | 15 | 4 | 15 | 2 |
+| Alternator, starter, harnesses, connectors and grounds | 18 | 2 | 18 | 2 |
+| Steering, suspension, wheel bearings and bushes | 29 | 2 | 29 | 0 |
+| HVAC, heating/defog, A/C and water intrusion | 16 | 0 | 16 | 0 |
+| Airbags, seatbelts and manufacturer/regulator campaigns | 12 | 2 | 12 | 1 |
+| Interior, instruments, locks and comfort electronics | 18 | 0 | 18 | 0 |
+| Body panels, glass, lighting and sealing | 31 | 0 | 25 | 0 |
+| Factory service schedule, fluids, filters, plugs and routine wear | 8 | 0 | 8 | 0 |
+
+The full JSON dashboard separately counts product records, factory-specified identities, manufacturer service applications, verified VIN replacements, verified cross-brand VIN alternatives, complete repair costs and unresolved product records. Component-specific original installed identities, VIN-approved replacement packages, donor approvals and complete installed costs remain unestablished. This is a strict evidence definition, not a claim that available parts do not fit.
+
+`data/component-catalog/readiness.json` explicitly records all 79 currently enumerated configurations as unranked, with independent reliability, sourcing and economics blockers. Manuals, Canada and convertibles remain outside that register until actual source-backed configurations are added. The broader research inventory includes them as investigation targets.
+
+Validation for the two batches: legacy datasets retain 567 sources, 1,107 facts, 92 issue identities, 89 part claims and 284 gaps; 363 automated tests passed. New guards reject cross-product scope expansion, excluded engines/platforms, promoted interchange leads, pump-to-screw substitutions, unsourced records, mixed currencies, incomplete totals, supersession cycles and unreviewed legacy evidence drift. Catalog checks also run in the branch CI workflow.
