@@ -28,10 +28,10 @@ class FactGapNavigationReviewTests(unittest.TestCase):
                            read("data/phase0-coverage-snapshot.json"))
         cls.rows = {r["id"]: r for r in cls.report["records"]}
 
-    def test_complete_pr72_cross_cutting_fact_gap_queue_reviewed(self):
+    def test_all_legacy_cross_cutting_and_multisystem_fact_gap_candidates_reviewed(self):
         reviews = self.policy["explicit_fact_gap_routes"]
-        self.assertEqual(sum(r["kind"] == "facts" for r in reviews.values()), 161)
-        self.assertEqual(sum(r["kind"] == "gaps" for r in reviews.values()), 31)
+        self.assertEqual(sum(r["kind"] == "facts" for r in reviews.values()), 337)
+        self.assertEqual(sum(r["kind"] == "gaps" for r in reviews.values()), 80)
         for id_, review in reviews.items():
             row = self.rows[id_]
             self.assertEqual(row["system_ids_for_discovery"], review["system_ids"])

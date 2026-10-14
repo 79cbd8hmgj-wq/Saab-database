@@ -371,6 +371,10 @@ def build(datasets: list[dict], policy: dict, method: dict,
         "unreviewed_cross_cutting_by_kind": dict(Counter(
             r["kind"] for r in records if r["cross_cutting_or_unresolved_system"]
             and r["review_status"] == "not_manually_adjudicated")),
+        "remaining_unreviewed_ambiguous_record_count": sum(
+            (r["cross_cutting_or_unresolved_system"] or r["possible_multiple_systems"])
+            and r["review_status"] == "not_manually_adjudicated"
+            for r in records),
         "systems": by_system,
         "records": sorted(records, key=lambda r: (r["kind"], r["id"])),
         "all_records_reconciled_to_a_traceable_entry": True,
@@ -396,9 +400,13 @@ def main() -> int:
                         help="Maximum review records printed; 0 exports ALL review candidates")
     parser.add_argument("--review-unreviewed-only", action="store_true",
                         help="With --review, omit already manually adjudicated routes")
+    parser.add_argument("--review-context", action="store_true",
+                        help="With --review, include saved source metadata, claim text and original digest for human review")
     args = parser.parse_args()
     if args.review_unreviewed_only and not args.review:
         parser.error("--review-unreviewed-only requires --review")
+    if args.review_context and not args.review:
+        parser.error("--review-context requires --review")
     index = build(
         load_datasets(), load(POLICY_PATH), load(METHOD_PATH),
         load(ISSUE_TAXONOMY_PATH), load(LEDGER_PATH), load(CENSUS_PATH))
@@ -415,6 +423,8 @@ def main() -> int:
             "reviewed_ambiguous_issue_routes":index["reviewed_ambiguous_issue_navigation_routes"],
             "reviewed_fact_gap_routes": index["reviewed_fact_gap_navigation_routes"],
             "unreviewed_cross_cutting_by_kind": index["unreviewed_cross_cutting_by_kind"],
+            "remaining_unreviewed_ambiguous_record_count":
+                index["remaining_unreviewed_ambiguous_record_count"],
             "still_open_shared_gap_blockers":index["manually_reconciled_shared_gap_blockers"],
             "routes": index["record_routes"],
             "cross_cutting_or_unrouted": index["unrouted_cross_cutting_records"],
@@ -441,6 +451,8 @@ def main() -> int:
             ],
         }, indent=2, ensure_ascii=False))
     if args.review:
+        originals = {r["id"]: r for d in load_datasets()
+                     for kind in ("facts", "gaps") for r in d[kind]} if args.review_context else {}
         if args.review_limit < 0:
             parser.error("--review-limit cannot be negative")
         rows = [
@@ -454,6 +466,18 @@ def main() -> int:
             and (not args.review_unreviewed_only
                  or x["review_status"] == "not_manually_adjudicated")
         ]
+        if args.review_context:
+            for row in rows:
+                original = originals.get(row["id"])
+                if not original:
+                    continue
+                row["original_record_sha256"] = record_digest(original)
+                row["record_context"] = {
+                    key: original.get(key)
+                    for key in ("subject","category","predicate","value","notes",
+                                "title","missing_inputs","reason","applicability")
+                    if key in original
+                }
         print(json.dumps({
             "review_kind": args.review_kind,
             "unreviewed_only": args.review_unreviewed_only,

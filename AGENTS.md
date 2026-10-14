@@ -69,6 +69,19 @@ cross-cutting records must not be rediscovered as missing physical-system eviden
 Explicit fact/gap decisions carry original-record digests; review again when the
 saved source-scoped record changes rather than merely refreshing its hash.
 
+## Completed overlapping fact/gap navigation review
+
+See [the final 225-record route review](docs/multisystem-fact-gap-route-review-20261014.md).
+All previously flagged cross-cutting/multi-system fact and gap records have explicit
+source-context navigation decisions with original-record SHA-256 digests. Run
+`python3 tools/build_system_evidence_index.py --review --review-unreviewed-only --review-limit 0`
+to confirm no **currently flagged** ambiguous routing is awaiting review.
+A zero navigation queue does **not** close the 284 evidence gaps or certify
+factory recall/TSB completeness, component life, original replacement compatibility,
+manufacturer-directed OE supersessions or real parts purchase options. New
+fact/gap claims and changed original records require fresh review before upgrading
+their source status. Actual engine codes in unrelated titles are not extra faults.
+
 ## Sixteen-system evidence retrieval
 
 Run `python3 tools/build_system_evidence_index.py --check --summary` before
