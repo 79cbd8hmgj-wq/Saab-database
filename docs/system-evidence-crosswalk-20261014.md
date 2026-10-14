@@ -93,6 +93,10 @@ The index is derived on demand from stored authoritative research records: **we 
 
 The [October 14 follow-up review](part-gap-overlap-adjudication-20261014.md) has since reconciled the five repeated part numbers and two same-title **still-open** VIN research blockers. It also manually reviewed 32 ambiguous issue navigation entries, preserving five source/recall-provenance issues as cross-cutting. The updated generator now reports **197 cross-cutting/unrouted** and **244 multi-system** records; the **199 / 250** and **1,135 keyword routes** above are the *original PR #71 baseline*, retained for audit history. No fact/gap-only route was thereby externally source-certified.
 
+## Subsequent complete ambiguity review
+
+The [PR #74 multi-system fact/gap adjudication](multisystem-fact-gap-route-review-20261014.md) reviewed the remaining **176 facts and 49 gaps** after PR #73. The up-to-date navigation queue now has **zero unreviewed ambiguous items**, **99 deliberately cross-cutting records**, and **144 multiple-system references**. These are only **indexing decisions**; original factory defect completeness, real component durability, OE fitment, current stock and **all 284 research gaps** remain separate unresolved questions. The original PR #71 and PR #73 counts above are retained as dated baselines.
+
 ## What still needs source-level reconciliation
 
 The [fact/gap follow-up](fact-gap-navigation-adjudication-20261014.md) now reviews all 161 facts and 31 gaps that were cross-cutting after PR #72. The current index contains 87 deliberately reviewed cross-cutting entries and 255 multi-system entries. Of the latter, 225 remain unreviewed proposals (176 facts and 49 gaps). The earlier counts above are historical baselines, not the current work queue. Use `--review --review-unreviewed-only --review-limit 0` to inspect remaining work without rediscovering already reviewed cross-cutting cases.
