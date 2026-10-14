@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "tier_component_factory_revision_20261014",
+  "sources": [
+    {
+      "id": "tier-src-001",
+      "title": "GM Part 573 defect report 05V399: ignition discharge module and QP3",
+      "url": "https://static.nhtsa.gov/odi/rcl/2005/RCDNN-05V399-5581.PDF",
+      "publisher": "General Motors North America for Saab Automobile AB; hosted by NHTSA",
+      "source_type": "regulator_record",
+      "accessed_at": "2026-10-14",
+      "retrieval": "partial",
+      "notes": "September 13, 2005 report; pp.1-2 inspected through OCR of scanned original. Attachment p.3 not used; no fleet rate inferred."
+    },
+    {
+      "id": "tier-src-002",
+      "title": "NHTSA acknowledgement 06V410, B308 IDM expansion",
+      "url": "https://static.nhtsa.gov/odi/rcl/2006/RCAK-06V410-7245.pdf",
+      "publisher": "NHTSA",
+      "source_type": "regulator_record",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "October 27, 2006 letter. Remedy paragraph retains an inconsistent December 2005 date; notification paragraph says December 2006. Do not silently correct original."
+    }
+  ],
+  "facts": [
+    {
+      "id": "tier-fact-001",
+      "subject": "campaign:06V410",
+      "category": "factory_correction",
+      "predicate": "potential_units_affected_not_verified_failures",
+      "value": 5078,
+      "unit": "vehicles in recall population",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003
+        ],
+        "markets": [
+          "US"
+        ],
+        "engine_codes": [
+          "B308"
+        ]
+      },
+      "source_ids": [
+        "tier-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "pp.1-2, population and remedy",
+      "notes": "Expansion of 05V399. This is neither failed cars nor at-risk exposure; do not compute failure frequency from it."
+    }
+  ],
+  "issues": [],
+  "parts": [],
+  "gaps": [
+    {
+      "id": "tier-gap-001",
+      "title": "QP3 module change is not a vehicle-build or durability approval",
+      "missing_inputs": [
+        "Vehicle original installed part and serial",
+        "Directed current OE supersession and dated deliverable offers",
+        "Actual failure-event/exposure study",
+        "Complete repair quote"
+      ],
+      "reason": "Component revision evidence supports a mechanism/countermeasure only. No ranking or rate follows.",
+      "source_ids": [
+        "tier-src-001",
+        "tier-src-002"
+      ]
+    }
+  ]
+}

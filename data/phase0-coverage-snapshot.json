@@ -2,29 +2,29 @@
   "schema_version": "1.0.0",
   "meaning": "Record coverage and evidence provenance, NOT completeness, fitment, or reliability",
   "counts": {
-    "sources": 560,
-    "facts": 1100,
+    "sources": 562,
+    "facts": 1101,
     "issues": 92,
     "parts": 89,
-    "gaps": 283
+    "gaps": 284
   },
-  "unique_source_urls": 492,
+  "unique_source_urls": 494,
   "retrieval_statuses": {
-    "full_text": 530,
+    "full_text": 531,
     "metadata_only": 8,
-    "partial": 3,
+    "partial": 4,
     "search_excerpt": 19
   },
   "evidence_statuses": {
-    "documented": 1117,
+    "documented": 1118,
     "inference": 11,
     "supplier_claim": 153
   },
   "explicit_scope_counts": {
-    "platforms": 1222,
-    "model_years": 1123,
-    "markets": 205,
-    "engine_codes": 420,
+    "platforms": 1223,
+    "model_years": 1124,
+    "markets": 206,
+    "engine_codes": 421,
     "transmission_codes": 170,
     "body_styles": 83,
     "vin_ranges": 24
@@ -52,12 +52,12 @@
         "parts": 16
       },
       "2002": {
-        "facts": 38,
+        "facts": 39,
         "issues": 5,
         "parts": 21
       },
       "2003": {
-        "facts": 40,
+        "facts": 41,
         "issues": 4,
         "parts": 19
       },
@@ -413,6 +413,13 @@
       "issues": 2,
       "parts": 0,
       "gaps": 4
+    },
+    "tier_component_factory_revision_20261014": {
+      "sources": 2,
+      "facts": 1,
+      "issues": 0,
+      "parts": 0,
+      "gaps": 1
     },
     "us_retail_parts_supply_snapshot": {
       "sources": 7,

@@ -11,13 +11,13 @@
 
 | Measure | Current records |
 | --- | ---: |
-| Research domains | 41 |
-| Source records | 560 |
-| Unique source URLs | 492 |
-| Technical facts | 1100 |
+| Research domains | 42 |
+| Source records | 562 |
+| Unique source URLs | 494 |
+| Technical facts | 1101 |
 | Diagnostic/correction issues | 92 |
 | Part records | 89 |
-| Explicit open research gaps | 283 |
+| Explicit open research gaps | 284 |
 
 A repeated URL is not independent corroboration. These are stored record counts,
 **not** estimates of system completeness, part fitment confidence, failure rates,
@@ -27,14 +27,14 @@ or the probability that an individual vehicle is repairable.
 
 | Source retrieval | Records |
 | --- | ---: |
-| `full_text` | 530 |
-| `partial` | 3 |
+| `full_text` | 531 |
+| `partial` | 4 |
 | `search_excerpt` | 19 |
 | `metadata_only` | 8 |
 
 | Technical evidence | Facts + issues + parts |
 | --- | ---: |
-| `documented` | 1117 |
+| `documented` | 1118 |
 | `supplier_claim` | 153 |
 | `inference` | 11 |
 
@@ -46,13 +46,13 @@ is counted from individual groups, not from a misleading top-level union.
 
 | Scope field explicitly present | Records out of facts + issues + parts |
 | --- | ---: |
-| `platforms` | 1222 / 1281 |
-| `model_years` | 1123 / 1281 |
-| `markets` | 205 / 1281 |
-| `engine_codes` | 420 / 1281 |
-| `transmission_codes` | 170 / 1281 |
-| `body_styles` | 83 / 1281 |
-| `vin_ranges` | 24 / 1281 |
+| `platforms` | 1223 / 1282 |
+| `model_years` | 1124 / 1282 |
+| `markets` | 206 / 1282 |
+| `engine_codes` | 421 / 1282 |
+| `transmission_codes` | 170 / 1282 |
+| `body_styles` | 83 / 1282 |
+| `vin_ranges` | 24 / 1282 |
 
 ### Technical record coverage by original Saab model year
 
@@ -68,8 +68,8 @@ model-year row. Year-path names do not prove a given production revision.
 | 1999 | 27 | 3 | 13 |
 | 2000 | 31 | 3 | 16 |
 | 2001 | 26 | 3 | 16 |
-| 2002 | 38 | 5 | 21 |
-| 2003 | 40 | 4 | 19 |
+| 2002 | 39 | 5 | 21 |
+| 2003 | 41 | 4 | 19 |
 | 2004 | 60 | 7 | 20 |
 | 2005 | 158 | 11 | 21 |
 | 2006 | 172 | 19 | 23 |
@@ -147,6 +147,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 | `simulation` | 20 | 40 | 0 | 0 | 15 |
 | `subframe_parts_brake_lines` | 17 | 16 | 0 | 15 | 9 |
 | `t7_t8_repair_support_model_choice` | 6 | 9 | 2 | 0 | 4 |
+| `tier_component_factory_revision_20261014` | 2 | 1 | 0 | 0 | 1 |
 | `us_retail_parts_supply_snapshot` | 7 | 13 | 1 | 0 | 3 |
 | `vin_gearbox_provenance` | 14 | 29 | 2 | 0 | 9 |
 
