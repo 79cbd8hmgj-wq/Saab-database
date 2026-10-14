@@ -2195,7 +2195,1913 @@
       "system_ids": [],
       "reason": "Mixed-SKU market fulfilment/pricing task remains cross-cutting; no single part is selected and no current supply is verified.",
       "original_record_sha256": "24da9493833666331ec8c21f1b65ff643f07e9202a8df07f25dd2582af8592c4"
+    },
+    "afdiag-fact-001": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original value for '9-5 turbo B205E/B235E / 291_2317_factory_scope': turbo_intake_boost is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "b77ed0ad261dd28f3232ee5cbc36f24fbbbd7d57e3706c3f7f6907f9c5b6d185"
+    },
+    "afdiag-fact-002": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original value for '9-5 turbo B205E/B235E / 291_2317_symptom_cause': turbo_intake_boost is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "2eb10716b73ada2842e068d9ccb861d63a8b74d4e6ec495f687fb01a2d3d6353"
+    },
+    "afdiag-fact-003": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original value for '9-5 turbo B205E/B235E / 291_2317_factory_clip_o_ring': turbo_intake_boost is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "4b990a945f4d81c760fe7d09e2537bcfef1f6129221686fa6c96f6937c159b18"
+    },
+    "afdiag-fact-004": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original value for '9-5 turbo B205E/B235E / 291_2317_repair_branch': turbo_intake_boost is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "6323d541aaa7f6dcaeba9fc09b7d3c23cb25702e4d6c8b91510e026987b313e7"
+    },
+    "afdiag-fact-005": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original value for '9-5 auto thermal controls / MY2008_atf_NTC_wiring': charging_starting_wiring + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "1c7733efaab91ada456a2fcef8471a86077a53f403e497e4f80502cd158fec15"
+    },
+    "b235rev-fact-025": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original value for 'PCV:oil-trap / PCV_supplier_valve_cover_hose_year_distinction': engine_core_oil_pcv is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "73758e579a5a1c0800d640024ba5476a345f23ac12d8490549595afd0ecf0e54"
+    },
+    "b235rev-fact-029": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original value for 'PCV:oil-trap / PCV_supplier_2004_2009_intake_hose': engine_core_oil_pcv is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "92a5052d71b26005ee7ddf447529ae1a1f25b0d83ddf8f8360def72a42746b64"
+    },
+    "coolsvc-fact-002": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for '9-5 4-cylinder petrol:coolant / maximum_coolant_change_interval_years': cooling_heat + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "0b93b6ae5f532e49029a5a0a1c8ca077f35361d90292dcbc483aacf6b11d6ee1"
+    },
+    "coolsvc-fact-003": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for '9-5 4-cylinder petrol:coolant / cold_fill_and_bleed_check': cooling_heat + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "c4d17561cc4a26718db67a04668da835d68b7f66ff6ba120ab06e1e15956a08f"
+    },
+    "coolsvc-fact-005": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for '9-5 4-cylinder petrol:coolant / maximum_coolant_change_interval_years': cooling_heat + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "58eec1b66afaa6d16bf15626dd7c5b96f8e69cdd67a60c11edcfcf6033fbfe31"
+    },
+    "coolsvc-fact-006": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for '9-5 4-cylinder petrol:coolant / cold_fill_and_bleed_check': cooling_heat + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "f9f784321ad6f1e20b23992cb7ea9855b30eaf85be0c0d6e6336741f5dcd0f55"
+    },
+    "coolsvc-fact-007": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for '9-5:coolant / mixture_and_corrosion_guidance': cooling_heat + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "60a924b7e2ae8307a53dad541563124a7e22c3cc82c920a6a1a18fe5ba4e07bb"
+    },
+    "coolsvc-fact-009": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for '9-5 4-cylinder petrol:engine oil cooler / cooler_hose_joint_o_ring_handling': cooling_heat is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "85801e4790781b919ddc2d0a05c3ff41b6d56c8a665ff4159fabdc3c8bea9553"
+    },
+    "coolsvc-fact-010": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for '9-5 4-cylinder petrol:engine oil cooler / cooler_charge_air_bracket_torque_Nm': turbo_intake_boost + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "b7e0e13ccb597da1b17b3098ffc17b1faf7922eb7ed7fc9308aaceed4811a567"
+    },
+    "coolsvc-fact-012": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for '9-5 4-cylinder petrol:engine oil cooler / cooler_hose_joint_o_ring_handling': cooling_heat is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "36e980817b40deff5f6367823a52f49fef3353f42d9a179989d6fbbeff37982e"
+    },
+    "coolsvc-fact-013": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for '9-5 4-cylinder petrol:engine oil cooler / cooler_charge_air_bracket_torque_Nm': turbo_intake_boost + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "0d9f84a74fd974671d925957d24bf6a0c16fdcb2c012a00ade594a3b129fa560"
+    },
+    "coolsvc-fact-014": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for '9-5 4-cylinder petrol:left engine mount / mount_nut_2007chassis_vin_torque': body_corrosion_mounts is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "ea4889c6b165564047eb4b30c24e57f5d235553630fd3e0be176dea9406a9967"
+    },
+    "coolsvc-fact-015": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for '9-5 4-cylinder petrol:left engine mount / mount_to_body_manual_vs_automatic_torque': body_corrosion_mounts is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "7c4da24989db4089be14c992525b7716d735849d6b0c716fb6fa69a8fefb843c"
+    },
+    "coolsvc-fact-016": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for '9-5 4-cylinder petrol:left engine mount / mount_alignment_requirement': body_corrosion_mounts is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "ddeca0468146545ccc51e57f712dac7b0a694955063eb137063cee2fe0f96c88"
+    },
+    "coolsvc-fact-017": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for '9-5 4-cylinder petrol:left engine mount / mount_nut_2007chassis_vin_torque': body_corrosion_mounts is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "d3d136ccb2bc65eccd924c440d4198e4dcb30cdb7f50912de7329a0c980f85db"
+    },
+    "coolsvc-fact-018": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for '9-5 4-cylinder petrol:left engine mount / mount_to_body_manual_vs_automatic_torque': body_corrosion_mounts is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "9949009b3738785f5dc02b2089dc93d16368ff459685ffa8a99d70a7a2ad97dd"
+    },
+    "coolsvc-fact-019": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for '9-5 4-cylinder petrol:left engine mount / mount_alignment_requirement': body_corrosion_mounts is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "234560053fd0d42edadeb87549dec641f4d4ccc7f89db0f1307deee700a8c1a4"
+    },
+    "coolsvc-fact-022": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for '9-5 4-cylinder petrol:cooling / system_boiling_point_and_gauge_red': cooling_heat is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "0548af002072e9a22a0bb3e20ca8168e65ef3d63b4a0d454b8cfd7677cd62da8"
+    },
+    "coolsvc-fact-024": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for '9-5 4-cylinder petrol:cooling / fan_count_according_to_AC': cooling_heat is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "b29fb695f73b61473f736bdf96cd5868bb4e6bdaa956159ddf44c12ff9dc2b63"
+    },
+    "early9three-fact-004": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for 'subframe:front:B207-2005 / engine_torque_rod_front_torque_angle': body_corrosion_mounts is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "b82c72e8ac0b1808734f985f4adc21c8609f8487e9820c19e9ebfa8cd0ca7f90"
+    },
+    "early9three-fact-005": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for 'subframe:front:B207-2005 / engine_torque_rod_rear_torque': body_corrosion_mounts is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "953992f0f249fab5a28a44e79e9a074ca3fa02c86af3b64626bcf358e430e811"
+    },
+    "early9three-fact-006": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts",
+        "steering_suspension"
+      ],
+      "reason": "Reviewed original value for 'subframe:front:B207-2005 / antiroll_rubber_opening_forwards_m05': body_corrosion_mounts + steering_suspension are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "e57b30f0ba12de5e49db26f804e5a4778c9f163d6e6988dfb576a8dd6dabe457"
+    },
+    "early9three-fact-010": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for 'fuel:9440-petrol-2004 / tank_line_connections_underbody_enginebay_inspection': body_corrosion_mounts + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "5fa8d326dca58659bd70bb5c33116dd6c1dbcbbc45ef856b49c28f8eb45bd716"
+    },
+    "early9three-fact-012": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for 'fuel:9440-petrol-2005 / tank_line_connections_underbody_enginebay_inspection': body_corrosion_mounts + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "13ee24abcbcb63a2f6b687dd257f02806652061bb9f3ff8c030cd5511f9c6215"
+    },
+    "early9three-fact-014": {
+      "kind": "facts",
+      "system_ids": [
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for 'fuel:9440-petrol-2005 / fuel_rail_regulator_differential_pressure': fuel_emissions_exhaust is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "b677ff6286a622cdc4d1d0cc13081941d57b4c7ab3b9216b659ef36762915d88"
+    },
+    "early9three-fact-016": {
+      "kind": "facts",
+      "system_ids": [
+        "fuel_emissions_exhaust",
+        "brakes_hydraulics"
+      ],
+      "reason": "Reviewed original value for 'fuel:9440-2005 / protect_brake_pipes_during_fuel_line_work': fuel_emissions_exhaust + brakes_hydraulics are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "0c963544a25713cdb6d9f3d1a5f18c6742666a4f35753d6a75178cdc3594ae9e"
+    },
+    "early9three-fact-019": {
+      "kind": "facts",
+      "system_ids": [
+        "steering_suspension",
+        "brakes_hydraulics"
+      ],
+      "reason": "Reviewed original value for 'alignment:9440-2004-ESP / esp_angle_sensor_recalibration_after_alignment': steering_suspension + brakes_hydraulics are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "0100e6950c317962ca256c54d12b6883d1f51018dc858435e31d21f36bf0dace"
+    },
+    "epcverify-fact-005": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Reviewed original value for 'service_resource:saab_WebWIS / service_bulletins_wiring_maintenance_documented': this is source/vehicle-level context or a generic cross-system validation task, not proof of a failed physical component. Original source scope retained.",
+      "original_record_sha256": "48ff1402f4c14f15720f371d80b407435a1c4ad4efb4e2e76143682cf4207f97"
+    },
+    "epcverify-fact-011": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for 'engine_mount:right:B207:2005 / wisl_engine_pad_alignment_required': body_corrosion_mounts is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "5d28e26fcc61481200bb91938636b97da13d9f2268736b4e3177107c9acb4499"
+    },
+    "epcverify-fact-012": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for 'subframe:powertrain:B207:2005 / wisl_body_centred_mount': body_corrosion_mounts is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "292b85983945609b15bafe3cbfb204cf15c93862a9123cfd22ff9f056c844483"
+    },
+    "gmwp-fact-008": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'system:B207-coolant-pump / balancer_shaft_sprocket_drive_holder_required': cooling_heat is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "8c34d22ca1416103f8abd1e1e149cf72a8bc9145550f35c899ad7d5b00ad7306"
+    },
+    "hcdiag-fact-006": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_timing_valvetrain",
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original value for 'B205/B235 timing-chain wear / sludge_bulletin_chain_tensioner_threshold': engine_timing_valvetrain + engine_core_oil_pcv are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "9e924fd0fee349bbd7e3265059fee4a4878b6652b99d87e5326b088416f04b34"
+    },
+    "hcdiag-fact-022": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_timing_valvetrain"
+      ],
+      "reason": "Reviewed original value for 'B207R and later B207 cold start advisory / cold_start_symptom_pattern': engine_timing_valvetrain is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "3ae21e080ed3726193c07ea153438617de51033fcc18750a1ea6865096b2ca02"
+    },
+    "hcdiag-fact-023": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_timing_valvetrain"
+      ],
+      "reason": "Reviewed original value for 'B207R and later B207 cold-start advisory / cold_leakdown_comparison_required': engine_timing_valvetrain is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "abfce734a5c26be11932f4743f3f8da1bba2aa1451ec474d5b683eac2c2543d8"
+    },
+    "hcdiag-fact-024": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_timing_valvetrain"
+      ],
+      "reason": "Reviewed original value for 'B207 intake valve erosion / wear_mechanism': engine_timing_valvetrain is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "05bff76564bd901883af94b80b3152de744b8a85d3af5068be4bd3eea7f04100"
+    },
+    "hcdiag-fact-025": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_timing_valvetrain"
+      ],
+      "reason": "Reviewed original value for 'B207 intake valve repair industry note / reported_repair_scope': engine_timing_valvetrain is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "d7e60c679ee612ac537f8601eb05166e6c10b3fa2d481a7b2b1c4a6d364f8777"
+    },
+    "hcdiag-fact-026": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_timing_valvetrain"
+      ],
+      "reason": "Reviewed original value for 'B207 intake valve part identities / reference_part_numbers': engine_timing_valvetrain is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "c0fae7e21eab184938a624ca8518e3b0a9eb7cd663d3100506087cebaac9137d"
+    },
+    "hcdiag-fact-029": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original value for '9-3 FA57 coolant ingress / cooler_sealing_mechanism': cooling_heat + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "7e2e3e0850eba5efccaf89e068d7a61b0df23a4f7a14d7cef8f271b81937c09e"
+    },
+    "hcdiag-fact-030": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original value for '9-3 FA57 contamination response / confirmed_coolant_ATF_factory_disposition': cooling_heat + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "35b928b330aa841e01dece242c4523c195ae1b0c0910b54ab7a02b50992c5a07"
+    },
+    "hcdiag-fact-032": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for 'MY2005 FA57 fluid grade / historical_factory_grade': transmission_driveline + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "739200ecf368151414ed91135c1707bf94a12d1ee0592f8975dd23394a2358cd"
+    },
+    "hydbrake-fact-013": {
+      "kind": "facts",
+      "system_ids": [
+        "brakes_hydraulics"
+      ],
+      "reason": "Reviewed original value for '9-3 rear caliper / MY2006_NG93_rear_piston_threaded_handbrake_automatic_adjuster': brakes_hydraulics is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "865319128352f190833e2b19f1820982d4941b834f418d8e7ba508e629651cec"
+    },
+    "hydbrake-fact-018": {
+      "kind": "facts",
+      "system_ids": [
+        "brakes_hydraulics"
+      ],
+      "reason": "Reviewed original value for '9-5 2008 front brake service / MY2008_OG95_front_carrier_unsafe_torque_conflict': brakes_hydraulics is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "7fd3d5917644ab85f10de9b06a21fbf6075446cd65b2efca3a8e8e24f33f4ad7"
+    },
+    "hydbrake-fact-023": {
+      "kind": "facts",
+      "system_ids": [
+        "brakes_hydraulics",
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for '9-5 2006 brake pipes/hoses / MY2006_OG95_brake_line_corrosion_source': brakes_hydraulics + body_corrosion_mounts are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "b6ed5c6edae887151652ed3a8f80bc605b71302dcf3f9d4f3ead0d4091ea5a97"
+    },
+    "maint-fact-002": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original value for '9-5 petrol:crankcase ventilation / pcv_low_load_flow': engine_core_oil_pcv is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "a53c3b0db9cd166530b8bcc830c20137865e0b0f7eb1568cbfb099bc052e78cd"
+    },
+    "maint-fact-003": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv",
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original value for '9-5 petrol:crankcase ventilation / pcv_boost_load_flow': engine_core_oil_pcv + turbo_intake_boost are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "a2ebc61e95c64939a6004d752105ff754c85a25a4561e944357467e777fa3f2f"
+    },
+    "maint-fact-004": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original value for '9-5 petrol:crankcase ventilation / pcv_leak_possible_DTCs': engine_core_oil_pcv is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "f2120dd0d612b05c19ccdd2322863eea28922c830fd7f59b1efb6d3288dc970e"
+    },
+    "maint-fact-006": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original value for '9-5 petrol:crankcase ventilation / pcv_low_load_flow': engine_core_oil_pcv is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "ba87ea6526388b76a935bb3d1ee59c8f2609ffe624f4d16e71d655518eeba1ee"
+    },
+    "maint-fact-007": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv",
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original value for '9-5 petrol:crankcase ventilation / pcv_boost_load_flow': engine_core_oil_pcv + turbo_intake_boost are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "7d801be0134618294371ef785ddbc25df93d74bad63c27b486d09c67087fab6c"
+    },
+    "maint-fact-008": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original value for '9-5 petrol:crankcase ventilation / pcv_leak_possible_DTCs': engine_core_oil_pcv is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "1381a845b2dc03187e52824c55b3d42971af97dc62388717f0ddc8e5d3a604b6"
+    },
+    "maint-fact-010": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original value for '9-5 petrol:crankcase ventilation / pcv_low_load_flow': engine_core_oil_pcv is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "ca2d8811272a51c9473622847b708017627e5d67fb5c1b5b341d320062762823"
+    },
+    "maint-fact-011": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv",
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original value for '9-5 petrol:crankcase ventilation / pcv_boost_load_flow': engine_core_oil_pcv + turbo_intake_boost are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "0fd4d631ad9756e3cfe59b4ab99b6bb9f58de0fa671d6cdc7e1e1d743fcfd6eb"
+    },
+    "maint-fact-012": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original value for '9-5 petrol:crankcase ventilation / pcv_leak_possible_DTCs': engine_core_oil_pcv is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "6ab9dee28c51e2db7c06af01969f6d241ac8f3aa073bfd43c9805fcb30369b7d"
+    },
+    "maint-fact-013": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original value for '9-5 petrol:PCV service / oil_trap_hose_coupling_visual_check': engine_core_oil_pcv is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "e8247d045b88676adb0c89e37e442b7d0d764e22b670cf4fb1f1c5dc89151b96"
+    },
+    "maint-fact-017": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original value for '9-5 petrol:lubrication / oil_pressure_test_2000_rpm': engine_core_oil_pcv is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "cc89862292c3bf81b491f48665363bbe6bce3bf6bebd6c1f39742dc90a5d3f78"
+    },
+    "maint-fact-019": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original value for '9-5 petrol:lubrication / oil_pressure_regulator_opening': engine_core_oil_pcv is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "5ccf3cc0aadf71ae71302006d61dca8ad71d9fedd81ab3d66ce53180700c1656"
+    },
+    "maint-fact-024": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original value for '9-5 petrol:lubrication / oil_pressure_test_2000_rpm': engine_core_oil_pcv is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "242d7a0c593c505fc4c5dd3acc5205f3e4840fd82845fcf41afc0a2f21cfdb4e"
+    },
+    "maint-fact-026": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original value for '9-5 petrol:lubrication / oil_pressure_regulator_opening': engine_core_oil_pcv is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "e7f0781eb6fa1309d8da8c3c93692b86a11fd6f3350080dae40ce7f67d1cac8f"
+    },
+    "maint-fact-029": {
+      "kind": "facts",
+      "system_ids": [
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for '9-5 B205E/B235E:oil service / engine_oil_service_refill_litres': maintenance_consumables is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "7dd32899153c1a804889c3ebb101c83f893713864460e26bcfda3121e93aca7a"
+    },
+    "maint-fact-030": {
+      "kind": "facts",
+      "system_ids": [
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for '9-5 B205E/B235E:oil service / oil_drain_plug_torque_nm': maintenance_consumables is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "4ea35066718fb27405762bf2f759b43560800d7172154ffa6b90716f44375e53"
+    },
+    "maint-fact-031": {
+      "kind": "facts",
+      "system_ids": [
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for '9-5 B205E/B235E:oil service / warm_oil_check_delay_min': maintenance_consumables is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "763d34ccb831bf48f691fdd91409c63339973edb75058c548e7ed0d81be30698"
+    },
+    "maint-fact-032": {
+      "kind": "facts",
+      "system_ids": [
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for '9-5 B205E/B235E:oil service / engine_oil_service_refill_litres': maintenance_consumables is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "d6668af6b6eb65479cedfec26a102e74db4295ac47bc786e5eca61e1085f434d"
+    },
+    "maint-fact-033": {
+      "kind": "facts",
+      "system_ids": [
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for '9-5 B205E/B235E:oil service / oil_drain_plug_torque_nm': maintenance_consumables is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "99977ce8b2aaddf4bba89725155c3122130e038438b51531d0fac93d01a27bf9"
+    },
+    "maint-fact-034": {
+      "kind": "facts",
+      "system_ids": [
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for '9-5 B205E/B235E:oil service / warm_oil_check_delay_min': maintenance_consumables is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "4d41fe79d91d169794478c72e745d5c8a8b069fce32d2a5b177a6d8485e06750"
+    },
+    "maint-fact-035": {
+      "kind": "facts",
+      "system_ids": [
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for '9-5 B205E/B235E:oil service / engine_oil_service_refill_litres': maintenance_consumables is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "d83e0d3d56471ff6e083db20d12d4888d6b3971952ac0edeaacb61d861287b8c"
+    },
+    "maint-fact-036": {
+      "kind": "facts",
+      "system_ids": [
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for '9-5 B205E/B235E:oil service / oil_drain_plug_torque_nm': maintenance_consumables is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "7c159e62ede3730f66337ca95a5ad55a78d0cb25a69fd8099c7b1119e4dd4add"
+    },
+    "maint-fact-037": {
+      "kind": "facts",
+      "system_ids": [
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for '9-5 B205E/B235E:oil service / warm_oil_check_delay_min': maintenance_consumables is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "b66bc9f5153fbe9ddb654ea62564c14ec34fc3f20b47137ab6a68f040f54e298"
+    },
+    "maint-fact-038": {
+      "kind": "facts",
+      "system_ids": [
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for '9-5 B235 EU:oil specification / historical_gm_ll_a_025_oil': maintenance_consumables is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "783e464ef0d5c6d201f050fccee5f7fbdbaa3afc4866c3cef08d815ab0bb7719"
+    },
+    "maint-fact-040": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original value for '9-3 FA57 gearbox identification / fa57_code_groups': transmission_driveline is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "776d9d66f173d038148d104320996b454c175602fd638ff55910e087f6314255"
+    },
+    "maint-fact-041": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original value for '9-3 FA57 gearbox identification / fa57_manufacture_month_encoding': transmission_driveline is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "8fcfa20d4ef8e0cb8c370836b9aec60e6622efee1be5d1dd6eb0e66aa43e3573"
+    },
+    "maint-fact-043": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original value for '9-3 FA57 coolant ingress / ta440_0702_body_chassis_limits': cooling_heat + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "20b5c23f300ac6f58856b94c0a005717e002b025d6f5e60c9f8d72d777398cf8"
+    },
+    "maint-fact-044": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original value for '9-3 FA57 coolant ingress / ta440_0702_confirmed_contamination_disposition': cooling_heat + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "1084d3f26eeae48bfb6d1c7a77e35e199655c6be2a32707de98aed0ebe0ea97d"
+    },
+    "mountbrake-fact-001": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for '9-3:front-subframe:B207 / front_bolts_to_body_torque_angle': body_corrosion_mounts is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "cd2475e34cc02948cc64bba4981dd2043e88f2218f23a12f4c4ee58820e14725"
+    },
+    "mountbrake-fact-002": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for '9-3:front-subframe:B207 / rear_stay_bolts_torque_angle': body_corrosion_mounts is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "1d5311acdde90286c583df44ac500898b7ce784c8e61927807b0b33f62e9afd6"
+    },
+    "mountbrake-fact-003": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts",
+        "steering_suspension"
+      ],
+      "reason": "Reviewed original value for '9-3:front-subframe:B207 / suspension_arm_bush_to_subframe_torque_angle': body_corrosion_mounts + steering_suspension are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "4ecdebc71e926b19e1d787a59e94718a7cf6ead115ac4401dd99a3d74cf3a7b2"
+    },
+    "mountbrake-fact-004": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for '9-3:front-subframe:B207 / replacement_requires_alignment': body_corrosion_mounts is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "e77a225f2bbd1a82077ccd7b2fa5b33bc5202eb4fe36c784160b76c9350ed38e"
+    },
+    "mountbrake-fact-009": {
+      "kind": "facts",
+      "system_ids": [
+        "brakes_hydraulics",
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for '9-5:brake-lines / body_clipped_pipe_corrosion_prohibition': brakes_hydraulics + body_corrosion_mounts are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "a8ecfdc7c8ebcbaa506e33f29de45cda6e7258d4fbf7ffc48aa8456f441a0b3b"
+    },
+    "ng93-fact-010": {
+      "kind": "facts",
+      "system_ids": [
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for 'engine:B207R / recommended_octane': fuel_emissions_exhaust is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "8b694194c6dc4aa1870b3a80b7d0df88b1ba646856a19a3426ed72730b40e603"
+    },
+    "ng93-fact-011": {
+      "kind": "facts",
+      "system_ids": [
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for 'engine:B207E/B207L / recommended_octane': fuel_emissions_exhaust is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "eb856499ea7700bcc8967636c156a3c34266a526e60507ace6f31afdbeda52de"
+    },
+    "ng93-fact-039": {
+      "kind": "facts",
+      "system_ids": [
+        "brakes_hydraulics"
+      ],
+      "reason": "Reviewed original value for 'brakes:front / disc_levels': brakes_hydraulics is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "93344b0b6eb671d71159e6055ed3f2d6143a01a570d6a65aa7771917c86ef95d"
+    },
+    "ng93-fact-040": {
+      "kind": "facts",
+      "system_ids": [
+        "brakes_hydraulics"
+      ],
+      "reason": "Reviewed original value for 'brakes:rear / disc_levels': brakes_hydraulics is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "b7aeb4e9987bf4707b848f2d1a3220c783413ab6311c939b385152dc61a65f4c"
+    },
+    "ng93-fact-043": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'engine:B207 / WIS_listed_capacity': cooling_heat is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "ea376082e1975e23106fd44420a50af0164d15f9582186b4f7853ca75e03c0b9"
+    },
+    "ng93-fact-045": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'engine:B207 / expansion_cap_opening_range': cooling_heat is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "b6a311bb0e9a70de1684dadb9885dd735436c7da7fb5a289bd2d3a62f10745a5"
+    },
+    "ng93-fact-047": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'engine:B207 / listed_boiling_point_at_1_4bar': cooling_heat is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "89278b03ca998ef3fe680c2acebaf70ed3c23c6499a91552031a470d153b404a"
+    },
+    "ng93-fact-048": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'engine:B207 / gauge_red_zone_threshold': cooling_heat is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "91121dbd4bbdd343ab92b94d17dbc4563024d09787ad3e5e0d195982137d9c32"
+    },
+    "ng93-fact-049": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'engine:B207 / fan_stage_start_temperatures': cooling_heat is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "fa8f7eb8b85f9090cc39cc2a81e429ffa42e17e63b7abd506f0354d4df9113b0"
+    },
+    "ng93-fact-050": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'engine:B207 / fan_afterrun': cooling_heat is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "657b8443b5c85e7f698f873463d3ed5c67d0ffb7fc719b2276997405b5fcc93c"
+    },
+    "ng93-fact-051": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "hvac_defrost_water"
+      ],
+      "reason": "Reviewed original value for 'engine:B207 / AC_temperature_control': cooling_heat + hvac_defrost_water are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "4e1ba814710be9a21c239f051466b6a2b64503f1ce1d19419fe02eebeb5d56d0"
+    },
+    "ng93-fact-052": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original value for 'engine:B207R / base_pressure_and_turbo': turbo_intake_boost is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "e1956c8812034af0e884f09e1a43a3e7a9692ff0a6738505aab6fc7a916d3cc7"
+    },
+    "ng93-fact-053": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original value for 'engine:B207E/B207L / base_pressure_and_turbo': turbo_intake_boost is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "12954fb0f79b00c1b69c549bfd59b74748c5b53fd852dc5e55e570abe90be600"
+    },
+    "ng93body-fact-022": {
+      "kind": "facts",
+      "system_ids": [
+        "steering_suspension"
+      ],
+      "reason": "Reviewed original value for 'steering:B207 / assist_system': steering_suspension is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "5258cbf7b47d8bece34f7b081834f53036828a27afe2dc3730e3dc964f40368e"
+    },
+    "ng93body-fact-023": {
+      "kind": "facts",
+      "system_ids": [
+        "steering_suspension"
+      ],
+      "reason": "Reviewed original value for 'steering:B207 / pump_maximums': steering_suspension is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "2fc763e2a2e2a234ce7d7b82bc679042429c1fed9b02ebc65f2405831b5dc75c"
+    },
+    "ng93structure-fact-019": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for 'chassis:9440-b207 / b207_front_subframe_support': body_corrosion_mounts is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "5f0e345b1ebd43962156ed4d73dd773a55e4672ca4b6b10cad41b11cfbe0da9c"
+    },
+    "ng93structure-fact-020": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts",
+        "steering_suspension",
+        "brakes_hydraulics"
+      ],
+      "reason": "Reviewed original value for 'chassis:9440 / rear_subframe_dependencies': body_corrosion_mounts + steering_suspension + brakes_hydraulics are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "e884026940b3a9baaa63d576722c2173901d2e0d6a419bf73e529c33c5c6aefc"
+    },
+    "ng93structure-fact-027": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts",
+        "charging_starting_wiring",
+        "restraints_safety"
+      ],
+      "reason": "Reviewed original value for 'body:9440 / body_repair_airbag_grounding': body_corrosion_mounts + charging_starting_wiring + restraints_safety are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "91b5916ec0d59093144d64ee0c53e43c2b1992b3b41cc1def7ba73251cbda031"
+    },
+    "ng93structure-fact-029": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original value for 'chassis:9440 / rear_subframe_bush_disassembly': body_corrosion_mounts is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "148fb8861e62b4579480c24946f594cf5e87eeded4b4c3a9127275e62c2000f3"
+    },
+    "nrscreen-fact-001": {
+      "kind": "facts",
+      "system_ids": [
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for 'OG9-5 Trionic T7 non-US/CA catalyst bulletin / nov2004_TSB2482506_market_scope': fuel_emissions_exhaust is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "5ffcf8b89b08f20542b6b05e30feecbc49d2ba5d865856af398d766d35f61865"
+    },
+    "nrscreen-fact-005": {
+      "kind": "facts",
+      "system_ids": [
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for 'OG9-5 B235 E/R front exhaust / MY2007_B235_dual_catalyst_assembly': fuel_emissions_exhaust is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "759f7dbf2307b134e8ec8faaaae348e23d138abc1628b72af278c6decfd2acfc"
+    },
+    "og95-fact-015": {
+      "kind": "facts",
+      "system_ids": [
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for 'engine:B235 petrol / spark_plug_WIS': maintenance_consumables is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "4c97ee63edc536b6260c2f1f2eda05ae549d05ea162595302d4aa8ccfd4fa212"
+    },
+    "og95-fact-016": {
+      "kind": "facts",
+      "system_ids": [
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for 'engine:B235 petrol / spark_plug_gap_WIS': maintenance_consumables is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "80247e983ca71c475f1a81bd4383dce7f8b9af3502a2d44808727b1323f90ea0"
+    },
+    "og95-fact-017": {
+      "kind": "facts",
+      "system_ids": [
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for 'engine:B235 petrol / recommended_octane_RON': fuel_emissions_exhaust is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "67b1f37080e036cdf5aab6e77199b08b248475fc1b993fb7580cfca71984512f"
+    },
+    "og95-fact-026": {
+      "kind": "facts",
+      "system_ids": [
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for 'engine:B205E/B235E / oil_drain_plug_torque': maintenance_consumables is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "77caef0b37f73dc9ca8563f3a7bd313ac9e110a04d15d92808e93e42588527a6"
+    },
+    "og95-fact-050": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original value for 'transmission:FA57 / capacity_including_converter_and_cooler': transmission_driveline is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "10bdde7b5b1a97f19432961545bf33d828e392717c142c7595c3a56bca771bf9"
+    },
+    "og95-fact-058": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original value for 'engine:B205E / factory_turbo_basic_setup': turbo_intake_boost is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "7b96728a3733dd06b2cd7656629ad40ef594c22c78984c04cd43bf1efefbd393"
+    },
+    "og95-fact-059": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original value for 'engine:B235E / factory_turbo_basic_setup': turbo_intake_boost is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "0bd41438b610b3e7f3e91a5e268dc275fa1c51bddbaad6a8d50afdef2d8a3084"
+    },
+    "og95-fact-060": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original value for 'engine:B235R / factory_turbo_basic_setup': turbo_intake_boost is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "67c2bc5b87f206a968afcf8a8730ee5d9bb66987eb7eb53b13ec94d3cc38f83a"
+    },
+    "og95-fact-065": {
+      "kind": "facts",
+      "system_ids": [
+        "brakes_hydraulics",
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original value for 'engine:B235R US / MY2005_US_configuration': brakes_hydraulics + engine_core_oil_pcv are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "30dc7a8d84b0a518e251ab4e91ff1b6d66be26be4910557c13882ed3c1cad808"
+    },
+    "og95t7-fact-003": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Reviewed original value for 'ecu:Trionic7-4cyl / battery_memory_supply': charging_starting_wiring + ecu_immobilizer_security are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "23481ad36b48d729e060daef91c8dda114c33fb79aed682d9a42e0e858eb9433"
+    },
+    "og95t7-fact-005": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Reviewed original value for 'ecu:Trionic7-4cyl / main_relay_throttle_supply': charging_starting_wiring + ecu_immobilizer_security are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "cfcaf48076c779c76c345fdd656c40da6cbb3439c914d89e3a418039a398518f"
+    },
+    "og95t7-fact-006": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Reviewed original value for 'ecu:Trionic7-4cyl / main_relay_feed_loss_P1640': charging_starting_wiring + ecu_immobilizer_security are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "8dcec1e79f296d328764cf18f552a527f8a1c0cd83d418bf05ffe38491f796b6"
+    },
+    "og95t7-fact-008": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Reviewed original value for 'ecu:Trionic7-4cyl / power_ground_G7_ecu_pins': charging_starting_wiring + ecu_immobilizer_security are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "f6f42486f9b6eec7336f7c40ef64cd2a127b3948695ed05736603e4af90c5898"
+    },
+    "og95t7-fact-009": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Reviewed original value for 'ecu:Trionic7-4cyl / sensor_return_pins': charging_starting_wiring + ecu_immobilizer_security are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "00c43b82bd2027e72ca9e2aa2a63a26f1e8a7ae5162472b064443a390efe72d1"
+    },
+    "og95t7-fact-010": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security",
+        "charging_starting_wiring",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for 'ecu:Trionic7-4cyl / oxygen_sensor_reference_return_pin': ecu_immobilizer_security + charging_starting_wiring + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "95b8f27c51994c7f70c07937610f1361a985018ff40323198a10b07fde95a8cd"
+    },
+    "og95t7-fact-019": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for 'relay:T7-fuel-pump / initial_key_on_pump_prime': ecu_immobilizer_security + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "6f936a8ae92d23221d263712b7d688a3c16c67ae32d8efb134ca51f7f0ecaafa"
+    },
+    "og95t7-fact-021": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Reviewed original value for 'ignition:Trionic7-IDM / main_relay_and_G7_required': charging_starting_wiring + ecu_immobilizer_security are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "69f74a748f265a44821a8ad3ae217d5a33b25022f1f1154659e970f6c564450c"
+    },
+    "og95t7-fact-024": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Reviewed original value for 'ignition:Trionic7-IDM / firing_order': ecu_immobilizer_security is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "1c5c066bba8dd5f8b43a4d94fcfcedd9aae9c68951d2ea6f69430f99598fe229"
+    },
+    "og95t7-fact-038": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Reviewed original value for 'ecu:Trionic7-4cyl / power_ground_G7_ecu_pins': charging_starting_wiring + ecu_immobilizer_security are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "01505a97cee712ddba36a98daf817498a8b40b7e7e1e9726b238e37748c11398"
+    },
+    "og95t7-fact-039": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Reviewed original value for 'ecu:Trionic7-4cyl / power_ground_G7_ecu_pins': charging_starting_wiring + ecu_immobilizer_security are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "8569675a1c5487c68bb85349a9833a5ffbbab1645922f74aa440befaa18bbc7e"
+    },
+    "og95t7-fact-040": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Reviewed original value for 'ecu:Trionic7-4cyl / battery_memory_supply': charging_starting_wiring + ecu_immobilizer_security are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "acaea7b61f99563c2c0084921c3adf96aab8e57378a64219d241daa8da1591f7"
+    },
+    "og95wire-fact-019": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'Cooling:fan-relays / petrol_fan_relay_component_locations': charging_starting_wiring + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "a27769de36734c7bad1f1565cb947fd7752ac7d0df40b5de7e06decef4b96f9d"
+    },
+    "og95wire-fact-021": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'Cooling:fan-grounds / fan_diagram_ground_refs': charging_starting_wiring + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "89c2f19b54c7669c2d187c149d82f772834c68561c9274999fcfdfa348ec0362"
+    },
+    "og95wire-fact-022": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'Cooling:fan-harness / fan_harness_splice_J3_locator': charging_starting_wiring + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "157429e077d9483d24ab0ed3db38035dc2d71b3a45ab62393628c0cc5cf32081"
+    },
+    "og95wire-fact-024": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'Cooling:fan-relays / petrol_fan_relay_component_locations': charging_starting_wiring + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "e7e307af5aaf0d7cae2c9dc17b4cb895b6fbe88cd957e9d4e777bcd666c23fd0"
+    },
+    "og95wire-fact-026": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'Cooling:fan-grounds / fan_diagram_ground_refs': charging_starting_wiring + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "f689d1fb62f6a8428406b78874dd0f725cfee9b1751e252e1a73fa597cc89f11"
+    },
+    "og95wire-fact-027": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'Cooling:fan-harness / fan_harness_splice_J3_locator': charging_starting_wiring + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "e4b7a1bfe0f5979d5bcb27cbc4f7ee48c9e0f1db96c1f138ea53d21823db7f99"
+    },
+    "og95wire-fact-029": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'Cooling:fan-relays / petrol_fan_relay_component_locations': charging_starting_wiring + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "dd9c6728b9a786a71b30ddac87ea5e1095f673337876f464c5a9aa9b959cc35f"
+    },
+    "og95wire-fact-031": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'Cooling:fan-grounds / fan_diagram_ground_refs': charging_starting_wiring + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "9b494f65a13e0610ad3e0c0cc939a467c48c5711801c6ebe3d645acf5c5a94b4"
+    },
+    "og95wire-fact-032": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'Cooling:fan-harness / fan_harness_splice_J3_locator': charging_starting_wiring + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "e8997be059ab99602e89a7777086b78aeac37f7541335a8f43034668b5e40533"
+    },
+    "og95years-fact-018": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for 'profile:us-9-5-2008-manual / manual_gearbox_oil_change': transmission_driveline + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "e4897b41215bdaa809055888bf29ba596fc6ed9339c0c1f7c5bc5f32734b9d8c"
+    },
+    "parts95-fact-009": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original value for '9-5:cooling / automatic_radiator_transmission_cooler_lines': cooling_heat + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "f7fd4ce97b84863ef397cd46777b83c829fb9d4441433558b98a58a71e4c819e"
+    },
+    "parts95-fact-025": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original value for '9-5:cooling / retailer_radiator_gearbox_split': cooling_heat + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "842109f4e7eff15e2ee88a2f5f5e3e73153531091ad3ee2527970b4530a9bb22"
+    },
+    "rrtriage-fact-002": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original value for 'B235R / B235R_basic_actuator_start_bar': turbo_intake_boost is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "6160dc1c802e0bf9b61eac4b891aecaeea2f8409c6a723074aa4ea941852c8fd"
+    },
+    "rrtriage-fact-003": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original value for 'B205E/B235E / B205E_B235E_basic_actuator_start_bar': turbo_intake_boost is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "3e6296899096ae1809967817f9d5f69ec55c9609025d71efd4057c2f73416bad"
+    },
+    "rrtriage-fact-030": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for '9-5 original 9600 / 2007_thermostat_ground_seal_procedure': charging_starting_wiring + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "b65581a5e33922a180e6f53993db500232f2d0fc4e056cbf544faaeaae59f14d"
+    },
+    "rustgate-fact-010": {
+      "kind": "facts",
+      "system_ids": [
+        "fuel_emissions_exhaust",
+        "brakes_hydraulics"
+      ],
+      "reason": "Reviewed original value for '9-5 petrol fuel system / MY2008_US_fuel_tank_adjacent_exhaust_handbrake_feeds': fuel_emissions_exhaust + brakes_hydraulics are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "1e8011344232ec619b33df91c5213764582d9903cf0795d1f572103a2dcd417f"
+    },
+    "rustgate-fact-015": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for '9-3 B207 fuel tank and pipes / NG93_B207_fuel_route_inspection': body_corrosion_mounts + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "ef8cbd8d772aa848944ab26d1589b2e7789a43dda933abe56d0776a1944491ba"
+    },
+    "rustgate-fact-016": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts",
+        "brakes_hydraulics",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for '9-3 B207 fuel/underbody pipe routing / NG93_B207_fuel_lines_brake_pipes_front_subframe_share_route': body_corrosion_mounts + brakes_hydraulics + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "c85afdd274b641e8e41a94e65725854a1daad5ab79addd66bb733676677f29bb"
+    },
+    "simulation-fact-027": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for 'Gates GB PCV/EEC fuel hose family / construction': engine_core_oil_pcv + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "35e42881cef1e8ba8b63d20b8208814f1baa792c83f64106c564eefead710d0d"
+    },
+    "simulation-fact-028": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for 'Gates GB PCV/EEC fuel hose family / temperature_range': engine_core_oil_pcv + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "e44667f31b177a495ce9eb727f334a004174825058c5a88442f06374807a1038"
+    },
+    "simulation-fact-029": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for 'Gates GB PCV/EEC fuel hose family / service_exclusions': engine_core_oil_pcv + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "37a75a7cb8ac930936854779d7c81d6fe1bc2f1768de8914549feda4158b0c93"
+    },
+    "t7cool-fact-001": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Reviewed original value for 'ECU:Trionic7 / battery_30_supply_path': charging_starting_wiring + ecu_immobilizer_security are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "e010cc82234cbccb5d07e918f919514ae04231bbbb052f6fd15a040230fa228c"
+    },
+    "t7cool-fact-003": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Reviewed original value for 'ECU:Trionic7 / main_relay_throttle_supply': charging_starting_wiring + ecu_immobilizer_security are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "481db3f7be0d67d70730ab6b5b7a0166a0b420846a21b0953646dc9b670d0f9f"
+    },
+    "t7cool-fact-004": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Reviewed original value for 'ECU:Trionic7 / battery_30_supply_path': charging_starting_wiring + ecu_immobilizer_security are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "21b3a9bf6f90d8401a085c86a15e953f2f9ea14f7012b4962a83c67a8a7420bd"
+    },
+    "t7cool-fact-006": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Reviewed original value for 'ECU:Trionic7 / main_relay_throttle_supply': charging_starting_wiring + ecu_immobilizer_security are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "68f3e7b5a59559d4ff78401f0d3b9df6a443d01345161dce66aec95d09c42af9"
+    },
+    "t7cool-fact-007": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Reviewed original value for 'ECU:Trionic7 / battery_30_supply_path': charging_starting_wiring + ecu_immobilizer_security are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "afc0978ade8a6907d867aa8fa9c2d0a31a017b63b029334646b8d1d2b4638331"
+    },
+    "t7cool-fact-009": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Reviewed original value for 'ECU:Trionic7 / main_relay_throttle_supply': charging_starting_wiring + ecu_immobilizer_security are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "34651c75f71cc75ce3e83b60b16bcc74b8bc3179c765821333ce0f75c876bbc7"
+    },
+    "t7cool-fact-041": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'fans:9-5-petrol4 / two_fan_relays': charging_starting_wiring + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "36a6c102174a4b5305d3fcc50ed54a2e7de0f359f4a769edabb0dec80a287ee3"
+    },
+    "t7cool-fact-047": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'fans:9-5-petrol4 / two_fan_relays': charging_starting_wiring + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "c5f73648466d149924168440ab05d7c4d58547e0da9199ffb8f813422ff2062a"
+    },
+    "t7cool-fact-053": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'fans:9-5-petrol4 / two_fan_relays': charging_starting_wiring + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "f1ca0d063739622dbc3d447010928a739836434f1c140c31ccd0509b199d4b82"
+    },
+    "t7cool-fact-058": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for 'coolant:9-5-petrol4 / coolant_change_maximum_interval': cooling_heat + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "5e073d97f794f446190f486bd248120c7312ef45bc26ef7900c8bb7ed38941a6"
+    },
+    "t7cool-fact-060": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for 'coolant:9-5-petrol4 / cold_fill_no_overshoot_and_bleeding': cooling_heat + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "0c881df9338179c25a85b9b478a14a474062d5e1f8541c1363e3c7d222040f08"
+    },
+    "t7cool-fact-061": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for 'coolant:9-5-petrol4 / coolant_change_maximum_interval': cooling_heat + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "f6e8238c36cc8da70268f5f7d1d25d6597aec728e307d238eb8b9e846d21d10f"
+    },
+    "t7cool-fact-063": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for 'coolant:9-5-petrol4 / cold_fill_no_overshoot_and_bleeding': cooling_heat + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "381d6ecffb4be8c4c9335e0bfcaec9834522e2d501158266643cfc92c833140b"
+    },
+    "t7cool-fact-064": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'cooling:9-5 / static_leak_test_above': cooling_heat is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "97366d71611d10cb4da854e037561829f96d80c318aff79b5d77880b9968962e"
+    },
+    "t7cool-fact-065": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'cooling:9-5 / static_leak_test_tools': cooling_heat is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "6fcf2df9dd6a7174c054f968c97e92612e449eb24b730e1b15fc66f2dea3208c"
+    },
+    "t7cool-fact-066": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'cooling:9-5 / static_leak_test_above': cooling_heat is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "6da1ff074cbd13235a1c8887a75ee7c70e5761232748bfafd4c90a6a35997655"
+    },
+    "t7cool-fact-067": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'cooling:9-5 / static_leak_test_tools': cooling_heat is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "94ddd769471def16e1643f2180762de980fcc734d94afba24388ac098350c74d"
+    },
+    "t7cool-fact-072": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security",
+        "charging_starting_wiring",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for 'relay:fuel-pump:Trionic7 / prime_duration_when_key_on': ecu_immobilizer_security + charging_starting_wiring + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "cd0190f787214208ff29f3a609edb2de0d2ae2b07944a90c7a14efbdf8bc198b"
+    },
+    "turbsol-fact-004": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'Saab original 9-5 / turbo_coolant_seal_renewal': turbo_intake_boost + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "90772d0f3b2493a6e0dcb0140709cafd817f095fb3a5aec0c6201d2d0ee811ef"
+    },
+    "turbsol-fact-010": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'Saab original 9-5 / turbo_coolant_seal_renewal': turbo_intake_boost + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "11c8e43d6061900cd0105a452308c5d4b901e14a326250cfad4e711eff4a02e9"
+    },
+    "turbsol-fact-016": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'Saab original 9-5 / turbo_coolant_seal_renewal': turbo_intake_boost + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "6e6be7d12e564f1352d8185b0bcf3a3d5d6bc98a0b2a6f8544ff26002ecd44b6"
+    },
+    "turbsol-fact-022": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original value for 'Saab original 9-5 / MY2004_turbo_water_cooling_thermosiphon': turbo_intake_boost + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "18d8b338b14ab3d3da5d1b7f6f60fd9aa3d332749bfe3ecfb906f61aca70f6f9"
+    },
+    "turbsol-fact-031": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original value for 'Saab original 9-5 / MY2008_FA57_SLT_SLS_drive_wiring': charging_starting_wiring + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "beb8e5b2776b58b4422952d1b8d69a105efbe2486a25624ede2b7f573b67ed42"
+    },
+    "turbsol-fact-037": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original value for 'Saab original 9-5 / bulletin_4402182_false_overheat_grounding_only_98_99': charging_starting_wiring + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "5cc00becec60187d1c47c8f83790b33e9216f600ef96f2d26f6842380f64bf12"
+    },
+    "turbsol-fact-039": {
+      "kind": "facts",
+      "system_ids": [
+        "maintenance_consumables",
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original value for 'Saab original 9-5 / MY2005_oil_filter_adapter_o_ring_and_feed_pipe': maintenance_consumables + turbo_intake_boost are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "5d0f8a4fa833bc926ea819bd603167cde092ed70ff9d50e22aac90c08df1f502"
+    },
+    "wp6-fact-003": {
+      "kind": "facts",
+      "system_ids": [
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original value for 'exhaust:og95-b235 / front_flexible_section_max_permitted_out_of_line_angle': fuel_emissions_exhaust is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. No failure incidence or fitment inferred.",
+      "original_record_sha256": "b638ceebcf29e276bb4a494067c09e78c4421445b5bd824107a32542613aefdb"
+    },
+    "wp7-fact-009": {
+      "kind": "facts",
+      "system_ids": [
+        "fuel_emissions_exhaust",
+        "brakes_hydraulics",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for 'service:og95-usca-2008 / annual_hydraulic_fuel_exhaust_inspection': fuel_emissions_exhaust + brakes_hydraulics + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "fe27a194413ee0bbb74ee45cf80dded14f54741868e2f2ce14f069e83ccee59c"
+    },
+    "wp7-fact-010": {
+      "kind": "facts",
+      "system_ids": [
+        "brakes_hydraulics",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for 'service:og95-usca-2008 / brake_fluid_change_interval': brakes_hydraulics + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "9a8dee22b0e7f660f4576d34686ef961a000cc0b4b5884aa977c6616cfaab7be"
+    },
+    "wp7-fact-014": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for 'service:og95-usca-2008 / automatic_transmission_fluid_change_interval': transmission_driveline + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "555ac3e91fa5901146d3ad78138206d76bb0bcb03723bc710b9a6feb939f906f"
+    },
+    "wp7-fact-027": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original value for 'service:og95-usca-2008 / automatic_transmission_fluid_change_mileage_at_60000_mile_checklist': transmission_driveline + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "630c16bd7e17c6ce1685a13eb37e8551fba6cf37bad02dcbc4821edda3d5d29c"
+    },
+    "xint-fact-012": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original value for 'part-family:og95-automatic-radiator / supplier_aftermarket_cross_reference': cooling_heat + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "c1b78932664573a91c8b46af4ccc34910f938962175e3976b8584ea1cd6d3370"
+    },
+    "xint-fact-013": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original value for 'part-family:og95-automatic-radiator / factory_transmission_oil_cooler_interface_present': cooling_heat + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "original_record_sha256": "15cf3ee390e70a966f730e3945666e7af05c78b8d1ea3f26dc91281e1c0690cc"
+    },
+    "as-g004": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Reviewed original missing inputs for 'High cost reliability model choice blockers': this is source/vehicle-level context or a generic cross-system validation task, not proof of a failed physical component. Gap remains open.",
+      "original_record_sha256": "0495f7302c4a46aac856a6e217336269dadfeab3923dcfa726e4d8c3926e178a"
+    },
+    "as-g005": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Reviewed original missing inputs for 'Component quality advantage not measured': this is source/vehicle-level context or a generic cross-system validation task, not proof of a failed physical component. Gap remains open.",
+      "original_record_sha256": "63017174af8a160b565210bb10ea6f331e48e16023c3b352893e5193daf419c6"
+    },
+    "b235rev-gap-009": {
+      "kind": "gaps",
+      "system_ids": [
+        "engine_core_oil_pcv",
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original missing inputs for 'Used-engine condition cannot be estimated from nominal oil table': engine_core_oil_pcv + cooling_heat are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "afc91d42707394bbe4351cf23976b192f199e56321cc5a48ef8d8b3e7b64aa3e"
+    },
+    "coolsvc-gap-008": {
+      "kind": "gaps",
+      "system_ids": [
+        "cooling_heat",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original missing inputs for 'Differentiation of engine-oil and gearbox-oil cooling circuits in parts catalog': cooling_heat + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "16d69bb671df450cc17abe05037201037b77c78f31825ce434b3a07d942d6239"
+    },
+    "coolsvc-gap-009": {
+      "kind": "gaps",
+      "system_ids": [
+        "cooling_heat",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original missing inputs for 'Coolant service 2004–06 and 2009 interval independently verified': cooling_heat + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "44a003d1b86536076ed6856c98a5f746b09192194dbae0eda1fa8ef4cbb9c4a0"
+    },
+    "corrections-gap-002": {
+      "kind": "gaps",
+      "system_ids": [
+        "engine_core_oil_pcv",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original missing inputs for 'Prior damage and rebuild avoidance': engine_core_oil_pcv + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "469b96a356e51e8da8e10553e2290ce266b564d07929a166fd6c89ad87feb5f6"
+    },
+    "early9three-gap-006": {
+      "kind": "gaps",
+      "system_ids": [
+        "body_corrosion_mounts",
+        "brakes_hydraulics",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original missing inputs for 'Complete petrol fuel and hydraulic brake underbody routing': body_corrosion_mounts + brakes_hydraulics + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "11ca5c09e7df62a17cd1aaa17d53e50962883fee8eb79fdf232bbe89a2f1e736"
+    },
+    "gate5-gap-002": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Reviewed original missing inputs for 'Actual US or Canadian Saab VIN lookup and original equipment confirmation': this is source/vehicle-level context or a generic cross-system validation task, not proof of a failed physical component. Gap remains open.",
+      "original_record_sha256": "6751aed6f68984298dec33f4de3bb52820f823928e8029e95872696423396c82"
+    },
+    "gate5-gap-003": {
+      "kind": "gaps",
+      "system_ids": [
+        "ecu_immobilizer_security",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original missing inputs for 'WebEPC exact OE 9-3 2003–11 ignition switch service-kit VIN exclusions': ecu_immobilizer_security + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "c01ec019b2ebdede842dfb6c008921f6b4c1dc40d9012f8e4ea636a027446dba"
+    },
+    "gate5-gap-004": {
+      "kind": "gaps",
+      "system_ids": [
+        "brakes_hydraulics",
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original missing inputs for 'Saab 9-5 rear subframe, 9-3 front subframe and brake assemblies licensed VIN parts': brakes_hydraulics + body_corrosion_mounts are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "03e2d32dfedd39d835f1887294a22ef42249e06bc5ea16288ae85221541f69f7"
+    },
+    "hydbrake-gap-005": {
+      "kind": "gaps",
+      "system_ids": [
+        "brakes_hydraulics",
+        "body_corrosion_mounts"
+      ],
+      "reason": "Reviewed original missing inputs for 'Braking line corrosion and flexible hose year-by-year application': brakes_hydraulics + body_corrosion_mounts are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "deca11888bb615a9813520295497571f5aa997662576216c98ce8bcde4a64fb1"
+    },
+    "maint-gap-003": {
+      "kind": "gaps",
+      "system_ids": [
+        "engine_core_oil_pcv",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original missing inputs for 'B235R-specific service-page language for 2006–2009': engine_core_oil_pcv + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "ed2f0a0ecbc3bd3685db7fe25b4bb460e7fa0b416fbb3e2ad25dba871edfa622"
+    },
+    "mountbrake-gap-004": {
+      "kind": "gaps",
+      "system_ids": [
+        "body_corrosion_mounts",
+        "steering_suspension",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original missing inputs for '9-3 XWD versus FWD subsystem boundaries': body_corrosion_mounts + steering_suspension + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "4df0b93b9e88782d8c89b9107c66a62f6b28c42afca8f71811cd60477fa541d9"
+    },
+    "mountbrake-gap-007": {
+      "kind": "gaps",
+      "system_ids": [
+        "body_corrosion_mounts",
+        "brakes_hydraulics",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original missing inputs for 'Complete 9-3 and 9-5 brake and fuel line routing': body_corrosion_mounts + brakes_hydraulics + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "83928c9e60fc64c594db80c6ccad8a1c50953ad1c9b1276c09572ca194d6aa1e"
+    },
+    "ng93-gap-001": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Reviewed original missing inputs for 'Selected vehicle configuration': this is source/vehicle-level context or a generic cross-system validation task, not proof of a failed physical component. Gap remains open.",
+      "original_record_sha256": "7b97d1e508d63c9b31c9abad432f531a6be16f682d78cf6dbe119d4eb2507dba"
+    },
+    "ng93-gap-003": {
+      "kind": "gaps",
+      "system_ids": [
+        "transmission_driveline",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original missing inputs for 'Six-speed capacity/code conflict': transmission_driveline + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "558bf2554ebb8783621a16673a016c73e1bc6f3541365438f4eb2d91332156f3"
+    },
+    "ng93-gap-005": {
+      "kind": "gaps",
+      "system_ids": [
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original missing inputs for 'B207L versus B207S US emissions mapping': fuel_emissions_exhaust is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. Gap remains open.",
+      "original_record_sha256": "1a6461110ef08122b7aef539ce066615351d07f41c67e2de98af5d9e6ce4b381"
+    },
+    "ng93structure-gap-004": {
+      "kind": "gaps",
+      "system_ids": [
+        "body_corrosion_mounts",
+        "brakes_hydraulics",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original missing inputs for 'Brake, fuel and other underbody lines': body_corrosion_mounts + brakes_hydraulics + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "255ae527bd8d9a5db17cbe7117d415a4558051c088b9ddb49c8e4063483de4a7"
+    },
+    "nrscreen-gap-006": {
+      "kind": "gaps",
+      "system_ids": [
+        "engine_timing_valvetrain",
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original missing inputs for '9-3 MY2005/06 actual compression and intake valve baseline': engine_timing_valvetrain + engine_core_oil_pcv are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "26b2e9f506d648536157500781403f0ecd2a4ea4cc19e5dbbd05822e3369243f"
+    },
+    "nrscreen-gap-008": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Reviewed original missing inputs for 'Seller provenance and written multi-system project cost estimates': this is source/vehicle-level context or a generic cross-system validation task, not proof of a failed physical component. Gap remains open.",
+      "original_record_sha256": "166d4c81be4fb43b7d2009e232129ea97629d013133f09062f442337e5dd3112"
+    },
+    "og95-gap-002": {
+      "kind": "gaps",
+      "system_ids": [
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original missing inputs for 'B235E spark-plug applicability disagreement': maintenance_consumables is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. Gap remains open.",
+      "original_record_sha256": "8db7577dc15d96f912d6873b63eec313e369e94021941324fbf3b9a89a50d942"
+    },
+    "og95-gap-003": {
+      "kind": "gaps",
+      "system_ids": [
+        "brakes_hydraulics"
+      ],
+      "reason": "Reviewed original missing inputs for 'Brake dimension and fitment discrepancies': brakes_hydraulics is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. Gap remains open.",
+      "original_record_sha256": "a99dc4673fa71abf1b51874d6229ce7390d9acda69cc1d5d0645038cf53aa90d"
+    },
+    "og95-gap-006": {
+      "kind": "gaps",
+      "system_ids": [
+        "fuel_emissions_exhaust",
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original missing inputs for 'Fuel/turbo bench data needs measurement conditions': fuel_emissions_exhaust + turbo_intake_boost are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "db6090de5db7910654de5693cbaffad51cc8e4c0413dec9d7a1a42c12e416100"
+    },
+    "og95-gap-007": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Reviewed original missing inputs for 'Reliability-first vehicle selection needs actual-condition evidence': this is source/vehicle-level context or a generic cross-system validation task, not proof of a failed physical component. Gap remains open.",
+      "original_record_sha256": "5ceacfaeee03a0e4fa6a0c57fd5ae805e81be003918766b400eac32bdc49fc7d"
+    },
+    "og95body-gap-002": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Reviewed original missing inputs for 'Actual mass and corner loads are unavailable': this is source/vehicle-level context or a generic cross-system validation task, not proof of a failed physical component. Gap remains open.",
+      "original_record_sha256": "d9a5be39c9dd0c181afa4aa0c7f89f93754c369b3b2bedc1ca3f2baf54a2a51f"
+    },
+    "og95years-gap-002": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Reviewed original missing inputs for 'Generic WIS vs North American power ratings': this is source/vehicle-level context or a generic cross-system validation task, not proof of a failed physical component. Gap remains open.",
+      "original_record_sha256": "52c87e87b73ff5e64b8781ab7118c6e16f8b81972a4b7bd25c38902ff10fadca"
+    },
+    "og95years-gap-003": {
+      "kind": "gaps",
+      "system_ids": [
+        "transmission_driveline",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original missing inputs for 'Manual gearbox service vs dry fill': transmission_driveline + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "5956cbdf1818a0886f0e5e0e6290716100e75e19e17ee79c5b7ace1c39b5552e"
+    },
+    "og95years-gap-006": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Reviewed original missing inputs for '2006–2008 engineering documentation depth': this is source/vehicle-level context or a generic cross-system validation task, not proof of a failed physical component. Gap remains open.",
+      "original_record_sha256": "196b22bda511df5d6bbb3856ef46dbf2e9dc447018e8c99edc4ecad020cb4eba"
+    },
+    "ogex-gap-001": {
+      "kind": "gaps",
+      "system_ids": [
+        "charging_starting_wiring",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original missing inputs for 'S0034 original Saab B235R OE match by gearbox and year': charging_starting_wiring + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "e91a27c709438708601c16df046952d1f9c2d9f47977066586ed31706bb568fc"
+    },
+    "parts95-gap-002": {
+      "kind": "gaps",
+      "system_ids": [
+        "cooling_heat",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original missing inputs for 'Original manufacturer radiator manual/automatic OE supersession by VIN': cooling_heat + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "a290e91f5fbe66acd619a24feed909aeff452c1170018fdb05f96ec566d8754f"
+    },
+    "parts95-gap-007": {
+      "kind": "gaps",
+      "system_ids": [
+        "cooling_heat",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original missing inputs for 'Cooling system pressure and ATF contamination confirmation on a vehicle': cooling_heat + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "fb3a7220eca1fd7cb9f32e5a454024a74a8afed23edd425575efeae624ac4a18"
+    },
+    "parts95-gap-008": {
+      "kind": "gaps",
+      "system_ids": [
+        "cooling_heat",
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Reviewed original missing inputs for 'Reliability impact of radiator, mount or PCV aftermarket alternatives': cooling_heat + engine_core_oil_pcv are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "7f6b2ed0eb17946b208bc724693684ab1029fa4b57d62078e39fd7a15bec6028"
+    },
+    "parts95-gap-009": {
+      "kind": "gaps",
+      "system_ids": [
+        "cooling_heat",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original missing inputs for '2007–09 radiator oil cooler and connections by specific gearbox/build': cooling_heat + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "077c959f8c593d2749f9a13d8d2aba5acbd4f779196ef39b3b8d70a3c29bfbd6"
+    },
+    "prebuy-gap-001": {
+      "kind": "gaps",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original missing inputs for 'GT17/TD04 shaft numerical play acceptance remains unverified': turbo_intake_boost is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. Gap remains open.",
+      "original_record_sha256": "0e006f2abb719990709a116c9d60efa401b9b30d5a3d653680267d4e77fe1d21"
+    },
+    "prebuy-gap-008": {
+      "kind": "gaps",
+      "system_ids": [
+        "turbo_intake_boost",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original missing inputs for 'Actual project 9-5 gearbox and turbo mechanical condition': turbo_intake_boost + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "5860ff461cca1cdb46ec9cd54a40875821d57ff09c441794e85234ba3688259e"
+    },
+    "repl-gap-001": {
+      "kind": "gaps",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original missing inputs for 'Earlier-to-later B235R turbo conversion is not established': turbo_intake_boost is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. Gap remains open.",
+      "original_record_sha256": "6bcb7274a9b135e5df1929c2dd7586c4a99a856842b60406115be84eccaa1f46"
+    },
+    "rrtriage-gap-007": {
+      "kind": "gaps",
+      "system_ids": [
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original missing inputs for 'Cost and likelihood of valve-body repair vs complete gearbox': transmission_driveline is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. Gap remains open.",
+      "original_record_sha256": "56409de6f1ca87e24ee58639cd8cdf9579e8aff9b64c7d62fa521855ffefbc1c"
+    },
+    "rrtriage-gap-009": {
+      "kind": "gaps",
+      "system_ids": [
+        "cooling_heat",
+        "transmission_driveline"
+      ],
+      "reason": "Reviewed original missing inputs for 'Actual non-running Saab purchase screen': cooling_heat + transmission_driveline are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "88aa455ca6661fdaea0a533f21d7f8b3106dd3a7c3180cbfd342a22181a38e0f"
+    },
+    "rustgate-gap-004": {
+      "kind": "gaps",
+      "system_ids": [
+        "body_corrosion_mounts",
+        "brakes_hydraulics",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original missing inputs for 'Complete petrol fuel/brake pipe routing and clip inventory across both models': body_corrosion_mounts + brakes_hydraulics + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "2df9d2de5198e7cb8d87270bddc425a5a81c4702ed831f14fa4981da5055bfd4"
+    },
+    "simulation-gap-002": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Reviewed original missing inputs for 'Traceable logging acquisition': this is source/vehicle-level context or a generic cross-system validation task, not proof of a failed physical component. Gap remains open.",
+      "original_record_sha256": "76154daf46a057500d3a5016f5f76b96be644b938e4640a65e4cd984c242fd7a"
+    },
+    "simulation-gap-003": {
+      "kind": "gaps",
+      "system_ids": [
+        "engine_core_oil_pcv",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original missing inputs for 'Measured engine operating maps': engine_core_oil_pcv + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "bfefac94ec48a97a18b3d7ea6fc5fac38f597b79906c2cfaa46456f55816e04a"
+    },
+    "simulation-gap-005": {
+      "kind": "gaps",
+      "system_ids": [
+        "fuel_emissions_exhaust",
+        "turbo_intake_boost"
+      ],
+      "reason": "Reviewed original missing inputs for 'Turbo, charge-air and injector changes': fuel_emissions_exhaust + turbo_intake_boost are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "6fc10ca71ef786fc84839b11ca39934cb80649cc46338cf8a5bde0c8758784fa"
+    },
+    "simulation-gap-007": {
+      "kind": "gaps",
+      "system_ids": [
+        "steering_suspension"
+      ],
+      "reason": "Reviewed original missing inputs for 'Tires, road load and vehicle dynamics': steering_suspension is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. Gap remains open.",
+      "original_record_sha256": "d8aa280b4a0c9f2b5b8b6ec422090d2d4b9b24b2f43697a0fb9707101fd1ef4f"
+    },
+    "simulation-gap-015": {
+      "kind": "gaps",
+      "system_ids": [
+        "cooling_heat",
+        "engine_core_oil_pcv",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original missing inputs for 'Conflicting family catalog text and SKU verification': cooling_heat + engine_core_oil_pcv + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "3df6ef5639b23fca9e8573353dbe9f257c1be9df1472e3b4ffa8a9d6caf252c0"
+    },
+    "t7cool-gap-004": {
+      "kind": "gaps",
+      "system_ids": [
+        "cooling_heat",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original missing inputs for '2007 and 2009 cooling-system data and service cross-check': cooling_heat + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "daeeedf8c7285136d5c886f77ee051be04791f3de532374ad622fb0847c9925d"
+    },
+    "t7cool-gap-007": {
+      "kind": "gaps",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Reviewed original missing inputs for 'Reliability and service evidence': cooling_heat is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. Gap remains open.",
+      "original_record_sha256": "2ad45cf7325d7565ecf09c09f551e85c868d5a6f2504890e0f11016002cebe5c"
+    },
+    "wp6-gap-003": {
+      "kind": "gaps",
+      "system_ids": [
+        "body_corrosion_mounts",
+        "fuel_emissions_exhaust"
+      ],
+      "reason": "Reviewed original missing inputs for 'MY2008 9-5 SportCombi fuel pipe routing, rust, and safety verification': body_corrosion_mounts + fuel_emissions_exhaust are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "fdcad09e9edd11be1d3fa077fa08368a0273c81b007eb42a5db2c989768b3642"
+    },
+    "wp7-gap-003": {
+      "kind": "gaps",
+      "system_ids": [
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original missing inputs for 'US/Canada 2005-06 B207 9-3 service interval verification': maintenance_consumables is the direct subject. Other automated matches are incidental engine names or repair/vehicle context rather than another proven system fault. Gap remains open.",
+      "original_record_sha256": "b379e33df822f0292c495842a34be39b4da7ae0c30c69adbb3311cd7d4f18a2b"
+    },
+    "wp7-gap-004": {
+      "kind": "gaps",
+      "system_ids": [
+        "transmission_driveline",
+        "maintenance_consumables"
+      ],
+      "reason": "Reviewed original missing inputs for 'Other priority 9-5 service-year and engine/gearbox variants': transmission_driveline + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "original_record_sha256": "00279dc13745f539ebfc45acfd23f5b1b489a9c1749f657a497fc6bebd5584d3"
     }
   },
-  "explicit_fact_gap_routes_purpose": "Manual navigation review of all 161 facts and 31 gaps cross-cutting at PR #72. Empty system lists deliberately preserve cross-system identity, provenance and methodology. Record digests require review refresh on source-record edits; no technical datasets, evidence status, fitment or gap-completion claims changed."
+  "explicit_fact_gap_routes_purpose": "Manual navigation review of all 161 facts and 31 gaps cross-cutting at PR #72. Empty system lists deliberately preserve cross-system identity, provenance and methodology. Record digests require review refresh on source-record edits; no technical datasets, evidence status, fitment or gap-completion claims changed. All 225 remaining multi-system fact/gap records were then reviewed by original saved predicate/value or gap inputs. Incidentally shared engine-code references are narrowed, and actual coolant/ATF, cooling/electrical, turbo/coolant, braking/underbody and other interfaces remain multi-system. No source scope, gap closure or tier claims changed."
 }
