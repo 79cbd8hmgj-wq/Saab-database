@@ -63,6 +63,11 @@ The system index records 32 additional manually reviewed issue navigation routes
 source quality and recall lookup cases may legitimately have **no physical system**.
 When reviewing more ambiguous fact/gap routes, use `--review --review-kind gaps --review-limit 0`
 or `--review --review-kind facts --review-limit 0` to avoid truncated review.
+Read [the fact/gap navigation adjudication](docs/fact-gap-navigation-adjudication-20261014.md).
+Add `--review-unreviewed-only` for the remaining work queue; deliberately reviewed
+cross-cutting records must not be rediscovered as missing physical-system evidence.
+Explicit fact/gap decisions carry original-record digests; review again when the
+saved source-scoped record changes rather than merely refreshing its hash.
 
 ## Sixteen-system evidence retrieval
 
