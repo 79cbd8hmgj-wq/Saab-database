@@ -29,6 +29,10 @@ The baseline [U.S. feasibility audit](../data/vehicle-catalogue/us-feasibility-c
 
 [Reproducible 110-row tier readiness audit](../data/audits/tier-research-readiness.json) records existing scenario and job-plan **link counts only for tracking**. The counts are not failures, successes or scoring variables. Every cohort's original factory part lifespan, exact 2026 supplier delivery and installed repair economics are unestablished. Source-rich years must not be given preferred status by research density.
 
+## Existing evidence across sixteen systems
+
+The [full system-evidence crosswalk](system-evidence-crosswalk-20261014.md) indexes every stored fact, issue, part and gap without copying, ranking or making claims of complete manufacturer defect coverage. All 89 saved parts have explicit **navigation-only** system routes, and cross-cutting/unresolved topic records remain visible rather than receiving fabricated applicability. Before any new component-failure observation is written, query `python3 tools/build_system_evidence_index.py --find 'subject'` and compare source IDs, original URLs and production boundaries against the source record.
+
 ## Legacy issue inventory before any further factory defect intake
 
 The [92-issue consolidated inventory](legacy-issue-consolidation-20261014.md) separates 12 previously documented specific factory component mechanisms, 8 safety campaign records (6 distinct campaign hazards), 1 **suspected** factory mechanism, and 71 diagnosis/fitment/maintenance/source/inspection/research-gate records. The 19 mechanism identities are **already present in legacy evidence**, not newly found. Two correspond to existing tier-ledger mechanisms; the remaining 17 have not been entered as comparable component-reliability or supply observations. No issue count is a failure rate or complete Saab-wide factory bulletin denominator.
