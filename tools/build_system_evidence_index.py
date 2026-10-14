@@ -152,7 +152,7 @@ def route(kind: str, record: dict, domain: str, policy: dict) -> dict:
         # Show actual matched fields, so the reviewer can correct an ambiguous route.
         "matched_topic_fields": sorted(
             {token.split(":", 1)[0] for s in candidates for token in matched.get(s, ())}
-        ) if manual is None else [],
+        ) if route_basis not in {"curated_explicit_record", "curated_explicit_issue_navigation"} else [],
     }
 
 
