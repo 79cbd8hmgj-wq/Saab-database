@@ -12,6 +12,7 @@ import json
 import re
 from collections import defaultdict
 from pathlib import Path
+from urllib.parse import unquote, urlparse
 from typing import Any
 
 from database import ROOT, load_datasets, validate_datasets
@@ -54,6 +55,52 @@ def collapse_groups(groups: dict[str, list[dict]], *, show_singletons: bool = Fa
         if show_singletons or len({r["id"] for r in recs}) > 1
     ]
     return sorted(rows, key=lambda r: (-r["n_records"], r["key"]))
+
+
+def audit_internal_document_links(root: Path) -> dict:
+    """Flag unresolved local Markdown links without interpreting offsite claims."""
+    files = ([root / "README.md", root / "AGENTS.md"]
+             + sorted((root / "docs").rglob("*.md")))
+    broken = []
+    n_links = 0
+    for file in files:
+        content = file.read_text(encoding="utf-8")
+        for m in re.finditer(r"(?<!!)\[[^\]]+\]\(([^)\n]+)\)", content):
+            target = m.group(1).strip().split(" ", 1)[0]
+            # Ignore web/mail and same-document anchor-only URLs.
+            if target.startswith("#") or urlparse(target).scheme or target.startswith("//"):
+                continue
+            target = unquote(target.split("#", 1)[0].split("?", 1)[0])
+            if not target:
+                continue
+            n_links += 1
+            dest = (file.parent / target).resolve()
+            if not dest.exists():
+                broken.append({
+                    "source": str(file.relative_to(root)),
+                    "target": target,
+                    "line": content.count("\n", 0, m.start()) + 1,
+                })
+    coverage = (root / "docs/coverage-audit.md").read_text(encoding="utf-8")
+    return {
+        "markdown_files_scanned": len(files),
+        "relative_links_scanned": n_links,
+        "unresolved_local_links": broken,
+        "manual_document_drift_review": [
+            {
+                "file": "docs/coverage-audit.md",
+                "reason": "Opening title says 41-domain refresh while auto-generated current table says 42.",
+                "detected": coverage.startswith("# Phase 0 research coverage audit — 41-domain refresh")
+            },
+            {
+                "file": "docs/research-overview.md",
+                "reason": "Historical provisional model priority section conflicts with present research-only no-ranking stance; preserve as historical context, not a current recommendation.",
+                "detected": "## Provisional cars to research first" in
+                    (root / "docs/research-overview.md").read_text(encoding="utf-8")
+            }
+        ],
+        "meaning": "File existence only; does not certify the validity of external technical source links or prose.",
+    }
 
 
 def build(datasets: list[dict], ledger: dict, census: dict) -> dict[str, Any]:
@@ -192,6 +239,7 @@ def build(datasets: list[dict], ledger: dict, census: dict) -> dict[str, Any]:
         "exact_gap_title_review_groups": gap_title_groups,
         "repeated_part_number_review_groups": part_number_groups,
         "domain_evidence_inventory": domain_rows,
+        "documentation_links": audit_internal_document_links(ROOT),
         "existing_issue_catalogue": [{
             "id": id_, "domain": row["_domain"], "title": row["title"],
             "source_ids": row["source_ids"],
@@ -234,7 +282,8 @@ def main() -> None:
             "exact_issue_title_review_groups": audit["exact_issue_title_review_groups"][:8],
             "exact_gap_title_review_groups": audit["exact_gap_title_review_groups"][:8],
             "repeated_part_number_review_groups": audit["repeated_part_number_review_groups"][:8],
-            "domain_evidence_inventory": audit["domain_evidence_inventory"]
+            "domain_evidence_inventory": audit["domain_evidence_inventory"],
+            "documentation_links": audit["documentation_links"]
         }, indent=2, ensure_ascii=False))
 
 
