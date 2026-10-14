@@ -138,6 +138,80 @@ class TierReadinessResearchTests(unittest.TestCase):
         self.assertEqual(six["configuration_scope"]["engine_codes"],["B308"])
         self.assertNotIn("9-3-9440",four["configuration_scope"]["platforms"])
 
+    def test_shared_ignition_failure_mechanism_has_separate_cohort_cases(self):
+        ledger=read_json(ROOT/"data/tier-research/observations.json")
+        mechanisms={r["id"]:r for r in ledger["failure_mechanisms"]}
+        cases={r["id"]:r for r in ledger["failure_modes"]}
+        self.assertEqual(len(mechanisms),2)
+        self.assertEqual(len(cases),3)
+        self.assertEqual(set(ledger["minimum_record_contract"]["failure_mechanisms"]),
+                         set(("id","description","category","factory_failure_mechanism",
+                              "source_ids","related_case_ids","scope_note","frequency_status")))
+        for case in cases.values():
+            self.assertIn(case["mechanism_id"],mechanisms)
+        for mechanism in mechanisms.values():
+            self.assertEqual(mechanism["frequency_status"],"unknown")
+            self.assertEqual(set(mechanism["related_case_ids"]),
+                             {k for k,v in cases.items() if v["mechanism_id"]==mechanism["id"]})
+        four=cases["tier-failure-idm-four-cylinder"]
+        six=cases["tier-failure-idm-b308"]
+        coolant=cases["tier-failure-ng93-coolant-in-atf"]
+        self.assertEqual(four["mechanism_id"],six["mechanism_id"])
+        self.assertNotEqual(four["mechanism_id"],coolant["mechanism_id"])
+        self.assertNotEqual(four["configuration_scope"],six["configuration_scope"])
+        self.assertNotEqual(four["factory_correction"],"")
+        self.assertEqual(len(ledger["fleet_failure_frequency_studies"]),0)
+
+    def test_fa57_original_bulletin_has_exact_exclusive_variant_boundaries(self):
+        ledger=read_json(ROOT/"data/tier-research/observations.json")
+        fa=next(r for r in ledger["failure_modes"]
+                if r["id"]=="tier-failure-ng93-coolant-in-atf")
+        self.assertTrue(fa["configuration_scope"]["manual_scope_resolution_required"])
+        self.assertEqual(fa["population_frequency_status"],"unknown")
+        groups=fa["configuration_scope"]["groups"]
+        self.assertEqual(len(groups),3)
+        expected={
+            "ta440-0702-ss": ("SS","9-3SS","51002378"),
+            "ta440-0702-ss-tid": ("SS","9-3SS TiD","51000001"),
+            "ta440-0702-cv": ("CV","9-3CV","56001058"),
+        }
+        self.assertEqual({g["group_id"] for g in groups},set(expected))
+        for group in groups:
+            body,line,limit=expected[group["group_id"]]
+            self.assertEqual(group["platforms"],["9-3-9440"])
+            self.assertEqual(group["model_years"],[2003,2004,2005])
+            self.assertEqual(group["transmission_codes"],["FA57"])
+            self.assertEqual(group["markets"],["all"])
+            self.assertEqual(group["body_styles"],[body])
+            self.assertTrue(group["manual_scope_resolution_required"])
+            self.assertEqual(group["engine_codes"],[])
+            self.assertEqual(len(group["vin_ranges"]),1)
+            bound=group["vin_ranges"][0]
+            self.assertEqual(bound["end"],limit)
+            self.assertEqual(bound["source_line"],line)
+            self.assertTrue(bound["upper_bound_exclusive"])
+            self.assertIn("STRICTLY BELOW",bound["format"])
+        self.assertIn("TiD_diesel",groups[1]["engine_variant_category"])
+        self.assertNotIn("B207",str(groups))
+        top_level={v["source_line"]:v["end"] for v in fa["configuration_scope"]["vin_ranges"]}
+        self.assertEqual(top_level,{"9-3SS":"51002378","9-3SS TiD":"51000001","9-3CV":"56001058"})
+        self.assertTrue(all(x["upper_bound_exclusive"]
+                            for x in fa["configuration_scope"]["vin_ranges"]))
+
+    def test_recall_population_is_not_a_measured_failure_rate(self):
+        d=read_json(ROOT/"data/datasets/tier-component-factory-revision-20261014.json")
+        facts={x["id"]:x for x in d["facts"]}
+        claim=facts["tier-fact-001"]
+        self.assertEqual(claim["subject"],"campaign:06V410")
+        self.assertEqual(claim["predicate"],"potential_units_affected_not_verified_failures")
+        self.assertEqual(claim["value"],5078)
+        self.assertEqual(claim["unit"],"vehicles in recall population")
+        self.assertIn("neither failed cars nor at-risk exposure",claim["notes"])
+        ledger=read_json(ROOT/"data/tier-research/observations.json")
+        self.assertEqual(ledger["fleet_failure_frequency_studies"],[])
+        self.assertEqual(ledger["parts_market_offers"],[])
+        self.assertEqual(ledger["complete_repair_cost_observations"],[])
+
     def test_component_revision_date_is_not_vehicle_year_or_original_part(self):
         revisions=read_json(ROOT/"data/tier-research/observations.json")["original_part_revisions"]
         expected={"tier-revision-idm-four-cylinder":"2002-07-04",
