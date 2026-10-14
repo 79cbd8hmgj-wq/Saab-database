@@ -17,5 +17,7 @@ jobs:
         run: python3 tools/validate.py
       - name: Run regression tests
         run: python3 -m unittest discover -s tests -v
+      - name: Validate unranked tier evidence baseline
+        run: python3 tools/build_tier_readiness.py --check
       - name: Generate repeatable coverage census
         run: python3 tools/coverage.py --format markdown

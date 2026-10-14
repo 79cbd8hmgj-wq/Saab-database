@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-10-14",
+  "status": "research_protocol_no_tier_assignments",
+  "objective": "Gather comparable evidence about original component durability, known failure mechanisms, supply of exact repair parts, repairability, and total restoration costs before any Saab ranking.",
+  "boundaries": {
+    "present_scoped_universe": "US compiled 110 automatic/FWD/nonconvertible 9-3 and 9-5 configuration groups, MY1998–2011; third-party reported production, not certified exhaustive.",
+    "candidate_policy": "Research universe is NOT proof all Saab models are eligible; manuals, convertibles, XWD/AWD, Canadian-only combinations, and 9-2X/9-7X/9-4X are not represented by the 110-row audit. Preserve any prior buying filters; ask owner whether to broaden actual tier comparison universe rather than silently rank excluded cars.",
+    "no_ranking_until": "Comparable evidence coverage, named omissions, agreed tier boundaries and comparison universe; existing Phase 0 A/B/C gates remain unchanged.",
+    "non_assumptions": [
+      "A WIS repair procedure or TSB proves a failure happened",
+      "Number of TSBs or complaint reports is a frequency rate",
+      "Production volume equals at-risk fleet exposure in 2026",
+      "An aftermarket catalog match is a manufacturer-approved part interchange",
+      "A seller listing proves purchase fulfilment",
+      "Low source coverage means good original reliability",
+      "More research records mean worse or better reliability",
+      "An original EU or UK failure distribution transfers directly to US automatic FWD",
+      "A year/platform alone proves same engine, ECU, gearbox, radiator or structural failure mode"
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "factory_component_reliability",
+      "name": "Original component durability",
+      "required_fields": [
+        "original_part_id_and_revision",
+        "factory_configuration_scope",
+        "failure_mechanism_and_technical_cause",
+        "conditions_and_exposure",
+        "revision_or_factory_countermeasure",
+        "occurrence_measurement_and_denominator_or_explicitly_unknown",
+        "source_strength_and_independent_confirmation"
+      ],
+      "separate_outcomes": [
+        "Documented defect",
+        "How often it happens",
+        "At what age/mileage or environment",
+        "Whether revision prevents recurrence"
+      ],
+      "common_trap": "Manufacturer issued a service bulletin, so all vehicles in those years fail."
+    },
+    {
+      "id": "parts_supply",
+      "name": "Parts availability and substitution",
+      "required_fields": [
+        "part_function_and_original_id",
+        "exact_VIN_build_engine_gearbox_option_scope",
+        "directed_oem_supersession_if_approved",
+        "aftermarket_and_cross_brand_candidate_separately",
+        "supplier_and_observation_timestamp",
+        "in_stock_vs_unavailable_vs_backorder_vs_unverified",
+        "delivery_to_US_and_core_tax_shipping",
+        "required_programming_tools_and_dependencies",
+        "supplier_diversity_and_obsolescence_risk"
+      ],
+      "separate_outcomes": [
+        "Parts identifiable",
+        "Correct fitment approved",
+        "Obtainable in relevant market",
+        "Delivered price and wait",
+        "Equivalent quality and durability verified"
+      ],
+      "common_trap": "Part appears in several catalogues, so it is in stock or fits any Saab."
+    },
+    {
+      "id": "known_failure_burden",
+      "name": "Known model/powertrain failures",
+      "required_fields": [
+        "precise_problem_identity",
+        "platform_and_year_build_scope",
+        "engine_gearbox_body_market_and_options",
+        "documented_symptoms_and_differential_diagnosis",
+        "severity_safety_and_stranding",
+        "failure_mechanism_not_just_complaint",
+        "repair_vs_prevention_vs_replacement",
+        "repeat_failure_and_factory_changes",
+        "independent_report_quality",
+        "risk_frequency_known_or_unknown"
+      ],
+      "separate_outcomes": [
+        "A failure mode exists",
+        "Repair consequence",
+        "Predictive warning signs",
+        "Likelihood where measurable"
+      ],
+      "common_trap": "A prominent forum complaint is representative of every car or even a verified failure."
+    },
+    {
+      "id": "repairability_economics",
+      "name": "Repairability and ownership repair economics",
+      "required_fields": [
+        "repair_scope",
+        "realistic_DIY_vs_specialist_path",
+        "OEM_tool_security_software_and_safe_access",
+        "parts_materials_and_consumeables",
+        "shop_hours_provenance",
+        "tax_shipping_core_and_towing",
+        "structural_or_powertrain_nonrebuild_stop_condition",
+        "priced_total_range_and_date_or_unknown"
+      ],
+      "separate_outcomes": [
+        "Technically repairable",
+        "DIY feasible",
+        "Total current installed cost",
+        "Risk of uneconomic repair"
+      ],
+      "common_trap": "Cheap component or historic factory warranty time makes the complete repair cheap."
+    }
+  ],
+  "system_inventory": [
+    {
+      "id": "engine_core_oil_pcv",
+      "name": "Engine internals, oil delivery, PCV and sludge",
+      "critical": true
+    },
+    {
+      "id": "engine_timing_valvetrain",
+      "name": "Timing drive, valve train and intake valves",
+      "critical": true
+    },
+    {
+      "id": "turbo_intake_boost",
+      "name": "Turbocharger, oil feed, charge air and boost controls",
+      "critical": true
+    },
+    {
+      "id": "transmission_driveline",
+      "name": "Automatic/manual transmissions, differentials and drivetrain",
+      "critical": true
+    },
+    {
+      "id": "body_corrosion_mounts",
+      "name": "Body shell, subframe, structural corrosion and safety mounts",
+      "critical": true
+    },
+    {
+      "id": "brakes_hydraulics",
+      "name": "Brake friction, hydraulics, ABS/ESC, lines and parking brake",
+      "critical": true
+    },
+    {
+      "id": "cooling_heat",
+      "name": "Cooling, radiator/heat exchangers, fans and related ATF cooling",
+      "critical": true
+    },
+    {
+      "id": "fuel_emissions_exhaust",
+      "name": "Fuel system, catalyst, OBD emissions and evaporative controls",
+      "critical": true
+    },
+    {
+      "id": "ecu_immobilizer_security",
+      "name": "ECUs, ignition, keys, anti-theft, software and programming",
+      "critical": true
+    },
+    {
+      "id": "charging_starting_wiring",
+      "name": "Alternator, starter, harnesses, connectors and grounds",
+      "critical": true
+    },
+    {
+      "id": "steering_suspension",
+      "name": "Steering, suspension, wheel bearings and bushes",
+      "critical": true
+    },
+    {
+      "id": "hvac_defrost_water",
+      "name": "HVAC, heating/defog, A/C and water intrusion",
+      "critical": false
+    },
+    {
+      "id": "restraints_safety",
+      "name": "Airbags, seatbelts and manufacturer/regulator campaigns",
+      "critical": true
+    },
+    {
+      "id": "interior_ergonomics",
+      "name": "Interior, instruments, locks and comfort electronics",
+      "critical": false
+    },
+    {
+      "id": "body_exterior_glazing",
+      "name": "Body panels, glass, lighting and sealing",
+      "critical": false
+    },
+    {
+      "id": "maintenance_consumables",
+      "name": "Factory service schedule, fluids, filters, plugs and routine wear",
+      "critical": true
+    }
+  ],
+  "evidence_classes": {
+    "factory_source": "Source establishes specified design, part identity, factory corrective action or diagnostic method only; not population frequency.",
+    "regulator_campaign": "Safety recall/campaign population and remedies; no proof individual vehicle suffered the defect or has been repaired.",
+    "owner_complaint": "Self-selected allegation, possibly incomplete or duplicate; investigation lead only; never a failure rate by itself.",
+    "inspection_statistic": "Observed test pass/fail among tested surviving vehicles, with category and mileage/age/location/season handling; not powertrain lifetime reliability.",
+    "warranty_or_fleet": "Frequency rate only if numerator, true eligible at-risk denominator/exposure, observation interval and ascertainment/maintenance bias are documented.",
+    "supplier_catalogue": "Supplier fitment/cross-reference/advertised stock claim, not OEM-approved supersession, current fulfilled sale or durability.",
+    "mechanic_case_study": "Diagnostic or repair-path evidence, not necessarily prevalence.",
+    "owner_forum": "Qualitative lead requiring corroboration; not prevalence evidence."
+  },
+  "quantitative_observation_requirements": {
+    "numerator": "Verified distinct events with repeat repairs distinguished from additional affected vehicles.",
+    "denominator": "At-risk population for exact platform/year/powertrain/market/installed revision. Production totals alone are NOT units remaining in-service over observation window.",
+    "exposure": "Observation years, mileage distribution, vehicle age, location/climate, usage, maintenance and entry/exit/censoring where possible.",
+    "selection_bias": "Self-selection, repair-shop specialization, scrap/survivor bias, warranty eligibility and recall publicity.",
+    "uncertainty": "Sample count, sampling design, plausible confidence interval and unresolved missingness; if unsupported leave frequency null.",
+    "transferable_market_rule": "US/Canada vs UK vs EU evidence can be used as a mechanism lead, but distinct market, emissions, engine, rust climate and inspection regimes block naive pooled rates.",
+    "no_unsupported_percentages": true
+  },
+  "source_pipeline": [
+    {
+      "id": "src-nhtsa-complaints",
+      "publisher": "U.S. National Highway Traffic Safety Administration",
+      "data": "ODI complaints by model year/make/model, including component and reporting date",
+      "url": "https://www.nhtsa.gov/nhtsa-datasets-and-apis",
+      "data_class": "owner_complaint",
+      "use": "Discover alleged safety defects; de-duplicate ODI IDs and cross-check investigations/TSBs; counts not comparable failure rates.",
+      "retrieval_state": "official_endpoint_documentation_checked_no_vehicles_imported"
+    },
+    {
+      "id": "src-nhtsa-recalls",
+      "publisher": "U.S. National Highway Traffic Safety Administration",
+      "data": "Manufacturer recall reports and investigation populations",
+      "url": "https://www.nhtsa.gov/nhtsa-datasets-and-apis",
+      "data_class": "regulator_campaign",
+      "use": "Verify affected build ranges and safety remedies; recall count not a vehicle reliability score.",
+      "retrieval_state": "official_endpoint_documentation_checked_no_new_vehicles_imported"
+    },
+    {
+      "id": "src-vpic",
+      "publisher": "U.S. National Highway Traffic Safety Administration",
+      "data": "Manufacturer-submitted VIN decoding specifications",
+      "url": "https://vpic.nhtsa.dot.gov/api/",
+      "data_class": "factory_identity_reference",
+      "use": "Crosscheck vehicle identity where manufacturer submission supports the model year; may not reveal installed replaced hardware or Saab EPC part chain.",
+      "retrieval_state": "official_endpoint_documentation_checked_no_vin_imported"
+    },
+    {
+      "id": "src-dvsa-mot",
+      "publisher": "UK Driver and Vehicle Standards Agency",
+      "data": "Anonymized MOT inspection tests, odometer and defect codes since 2005",
+      "url": "https://open.data.dvsa.gov.uk/mot-anonymised/index.html",
+      "data_class": "inspection_statistic",
+      "use": "Compare inspected survivors' corrosion/brakes/suspension defects controlling age, mileage, model-year and UK weather; not North American mechanical powertrain failure probability.",
+      "retrieval_state": "official_data_dictionary_catalogue_checked_no_Saab_extract_imported"
+    },
+    {
+      "id": "src-saab-epc",
+      "publisher": "Saab Parts / Hedin manufacturer support channel",
+      "data": "VIN-filtered OEM parts and official directed replacements",
+      "url": "https://saabparts.com/saab-subscription-services",
+      "data_class": "factory_source",
+      "use": "Required for qualified original assembly and actual directed supersession. Access may be licensed; unavailable manufacturer approval must remain unresolved.",
+      "retrieval_state": "existing_repo_access_path_no_vin_filter_access"
+    },
+    {
+      "id": "src-supplier-observations",
+      "publisher": "U.S.-servicing part sellers",
+      "data": "Dated exact-SKU offers, fulfilment, stock, warranty and delivered pricing",
+      "url": "https://www.esaabparts.com/",
+      "data_class": "supplier_catalogue",
+      "use": "Record actual market-specific offers with timestamps, validate physical fit separately, and compare landed costs for identical scope; historical listings are nonlive.",
+      "retrieval_state": "some_existing_snapshots_no_balanced_systematic_coverage"
+    }
+  ],
+  "readiness_requirements": {
+    "candidate_coverage": "Every eligible configuration must have source-backed identity fields, and explicitly listed exclusions must not be silently ranked.",
+    "comparable_systems": "Every critical system assessed with the same collection template for all comparable cohorts; each missing area has a named gap and attempted source outcome.",
+    "design_revision_control": "Original part and later factory revisions must be distinguished when sourced; neither late fix nor original failure imputed to all years.",
+    "failure_rate_disclosure": "A mechanism may be marked documented while its population frequency stays unknown. Rate claims require denominator and exposure; no fake 0% for unreported failures.",
+    "real_parts_quote": "Exact eligible replacement has checked application, dated deliverability, vendor diversity/warranty, ancillary tools/programming and total-cost estimation.",
+    "tier_gate": "No rank score, grade, winner, priority model or year preference until comparison-universe and transparent weighting discussion, sufficient comparable evidence, and residual confidence/uncertainty disclosure.",
+    "weighting": "Not set. Availability, intrinsic original reliability, severe failures and repairability stay separate until user approves tradeoff weights."
+  },
+  "safe_current_statement": "Current database has 110 source-derived U.S. automatic/FWD/nonconvertible groups with diagnostic and tooling research leads. Existing feasibility audit explicitly reports 0 quantified failure rates, 0 verified repair prices, and 0 approved part interchanges, which blocks a high-confidence tier."
+}

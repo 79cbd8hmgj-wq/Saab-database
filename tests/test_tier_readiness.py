@@ -1,0 +1,94 @@
+"""Tier-list research must not become premature Saab model rankings."""
+import copy
+import json
+import sys
+import unittest
+from pathlib import Path
+
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/"tools"))
+from build_tier_readiness import build, read_json, PRODUCTION, FEASIBILITY, PARTS_TOOLS, PROTOCOL, OUT
+
+class TierReadinessResearchTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.p=read_json(PRODUCTION)
+        cls.f=read_json(FEASIBILITY)
+        cls.t=read_json(PARTS_TOOLS)
+        cls.m=read_json(PROTOCOL)
+        cls.result=build(cls.p,cls.f,cls.t,cls.m)
+
+    def test_generated_audit_reproducible_and_unranked(self):
+        self.assertEqual(self.result,read_json(OUT))
+        self.assertEqual(len(self.result["configuration_rows"]),110)
+        self.assertEqual(self.result["summary"]["ranked_models"],0)
+        self.assertEqual(self.result["summary"]["groups_rankable"],0)
+        self.assertTrue(all(x["tier"] is None and not x["rankable"] and
+                            x["confidence_grade"] is None
+                            for x in self.result["configuration_rows"]))
+
+    def test_identical_cohort_denominator_not_selective(self):
+        ids={x["id"] for x in self.p["configurations"]}
+        rows=self.result["configuration_rows"]
+        self.assertEqual({x["production_configuration_id"] for x in rows},ids)
+        self.assertEqual(len(ids),110)
+        self.assertEqual(self.result["summary"]["groups_with_existing_diagnostic_leads"],110)
+        self.assertEqual(self.result["summary"]["groups_with_existing_parts_tool_leads"],110)
+        self.assertTrue(all(x["market"]=="US" and x["drivetrain"]=="FWD" for x in rows))
+        self.assertTrue(all("nonconvertible" in self.result["scope"] for x in [0]))
+
+    def test_frequency_parts_and_total_costs_not_inferred_from_leads(self):
+        for row in self.result["configuration_rows"]:
+            axes=row["tier_comparison_evidence"]
+            self.assertEqual(set(axes),{
+                "factory_component_reliability","parts_supply",
+                "known_failure_burden","repairability_economics"})
+            self.assertTrue(all(isinstance(x,str) and x for x in axes.values()))
+            self.assertIn("not_population_incidence",axes["known_failure_burden"])
+            self.assertIn("no_vehicle_specific",axes["parts_supply"])
+            self.assertTrue(row["unresolved"])
+        for key in ("groups_with_usable_population_failure_frequency",
+                    "groups_with_exact_VIN_approved_parts_and_confirmed_US_supply",
+                    "groups_with_all_in_repair_costs"):
+            self.assertEqual(self.result["summary"][key],0)
+
+    def test_separate_durability_supply_failure_and_cost_evidence_standards(self):
+        m=self.m
+        self.assertEqual(len(m["dimensions"]),4)
+        self.assertGreaterEqual(len(m["system_inventory"]),14)
+        self.assertTrue(all(x["required_fields"] for x in m["dimensions"]))
+        self.assertIn("src-dvsa-mot",{x["id"] for x in m["source_pipeline"]})
+        self.assertIn("src-nhtsa-complaints",{x["id"] for x in m["source_pipeline"]})
+        self.assertTrue(m["quantitative_observation_requirements"]["no_unsupported_percentages"])
+        self.assertEqual(m["readiness_requirements"]["weighting"][:8],"Not set.")
+        self.assertIn("9-2X",m["boundaries"]["candidate_policy"])
+        self.assertEqual(m["status"],"research_protocol_no_tier_assignments")
+
+    def test_dont_silently_extend_or_promote_scope(self):
+        invalid=copy.deepcopy(self.p)
+        invalid["configurations"].pop()
+        with self.assertRaises(ValueError):
+            build(invalid,self.f,self.t,self.m)
+        invalid=copy.deepcopy(self.f)
+        invalid["counts"]["failure_rates_quantified"]=1
+        with self.assertRaises(ValueError):
+            build(self.p,invalid,self.t,self.m)
+        invalid=copy.deepcopy(self.t)
+        invalid["production_groups"][0]["job_readiness_leads"][0]["vin_and_part_fitment_confirmed"]=True
+        with self.assertRaises(ValueError):
+            build(self.p,self.f,invalid,self.m)
+        invalid=copy.deepcopy(self.m)
+        invalid["dimensions"].pop()
+        with self.assertRaises(ValueError):
+            build(self.p,self.f,self.t,invalid)
+
+    def test_observation_ledger_starts_without_fabricated_rates(self):
+        observations=read_json(ROOT/"data/tier-research/observations.json")
+        for field in ("original_part_revisions","failure_modes",
+                      "fleet_failure_frequency_studies","parts_market_offers",
+                      "complete_repair_cost_observations"):
+            self.assertEqual(observations[field],[])
+        self.assertIn("not_a_zero_failure_assertion",observations["interpretation"])
+
+if __name__=="__main__":
+    unittest.main()
