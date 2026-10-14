@@ -1,0 +1,623 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-10-14",
+  "status": "engineering_batch_2_decision_support_not_failure_rates_or_oem_fitment",
+  "title": "Original Saab 9-5 (9600) B205/B235: 20 purchasing and no-internal-rebuild repair decisions",
+  "scope": {
+    "platform": "9-5-9600",
+    "markets": [
+      "US",
+      "CA"
+    ],
+    "model_year_range": [
+      1998,
+      2009
+    ],
+    "engine_family": "B205/B235 original 9-5 turbo 4-cylinder petrol; US registered pilot overwhelmingly B235; verify actual installed engine",
+    "shopping_priority": "US factory FWD automatic sedan or SportCombi/wagon; include manual-only service campaign solely to prevent misapplication",
+    "automatic_gearboxes": "Early AF30 four-speed and later FA57 five-speed are different; confirm full case serial/TCM, not model year alone",
+    "boundaries": [
+      "Not new-generation 9-5 9650, NG9-3 B207, 9-5 B308E V6, diesel or unverified cross-brand donor",
+      "MY1998 inclusion reflects some factory bulletin scope; it is not a proven 1998 US production-register entry",
+      "Manual-only MY2004–05 15433 oil trap bulletin is NOT automatic applicability",
+      "No source has established comparative factory failure frequencies or certified all-in engine/gearbox repairs",
+      "No vehicle has been physically inspected or VIN-approved parts ordered"
+    ]
+  },
+  "dispositions": {
+    "avoid_major_unpriced_work": "Potential safety/internal-engine/gearbox risk: reject or require safe qualified diagnosis and comprehensive installed quote before offer",
+    "inspect_before_negotiation": "Evidence missing: collect photos, original IDs and relevant technician tests before budgeting",
+    "repair_if_confirmed": "Documented diagnostic branch supports potentially external repair, but identify real failure first",
+    "source_scope_only": "Historical bulletin retained for scope correctness; not a generic repair recommendation"
+  },
+  "cases": [
+    {
+      "id": "O95-01",
+      "system": "engine_core_oil_pcv",
+      "concern": "Early B205/B235 oil starvation and bearing damage",
+      "applies": "Original 9-5 MY1998–2003 B205/B235 per US/CA bulletin 210-2554 edition 3; do not assume this applies to every later B235.",
+      "failure": "Sludge or blocked pickup may lower oil pressure and ultimately damage bearings. An oil lamp or lower-end knocking needs diagnosis, not a PCV-only fix.",
+      "purchase_decision": "avoid_major_unpriced_work",
+      "buyer_checks": [
+        "Request oil-change and PCV history plus original engine repair receipts.",
+        "Do not run a knocking or oil-pressure-unsafe engine; seek qualified mechanical pressure and sump/bearing assessment where justified."
+      ],
+      "corrective_path": "Separate switch/sender, pickup restriction and irreversible bearing damage; Saab's confirmed bearing-damage branch involves a replacement short block, outside the no-rebuild shopping goal.",
+      "repair_class": "specialist_internal_engine_or_replacement",
+      "improvement_status": "factory_symptom_specific_diagnosis_not_proven_prevention",
+      "cost_basis": "No current complete installed short-block/engine price or confirmed safe donor.",
+      "unresolved": [
+        "Real oil pressure and bearing condition are unknown until safe tests.",
+        "PCV retrofit status and subsequent engine wear cannot be inferred from model year."
+      ],
+      "prior_ids": [
+        "corrections-issue-001",
+        "hcdiag-issue-001",
+        "hcdiag-fact-001"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2554-ed-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine"
+      ]
+    },
+    {
+      "id": "O95-02",
+      "system": "engine_timing_valvetrain",
+      "concern": "Timing and balance-chain wear versus oil-pressure fault",
+      "applies": "Early B205/B235 sludge bulletin includes symptom-triggered chain evaluation; specific later model-year procedures must be independently confirmed.",
+      "failure": "Chain rattle, tensioner wear and obstructed oil feed require distinguishing timing service from internal bearings; chain service is not proof of engine soundness.",
+      "purchase_decision": "avoid_major_unpriced_work",
+      "buyer_checks": [
+        "Record cold mechanical noise separately from oil pressure warning, including duration and evidence of prior repairs.",
+        "A specialist may inspect chain tensioner protrusion by correct factory procedure; the early bulletin uses more than 15 mm in its conditional branch."
+      ],
+      "corrective_path": "Carry out the exact timing or balance drive intervention only after excluding irreparable bottom-end damage and verifying the engine year's procedure.",
+      "repair_class": "advanced_diy_or_specialist",
+      "improvement_status": "factory_diagnostic_threshold_not_universal_service_interval",
+      "cost_basis": "No verified complete chain-kit VIN bill, labor hours or installed quote.",
+      "unresolved": [
+        "Timing damage and bearing state are distinct unresolved risks.",
+        "The early tensioner criterion is not a blanket later-year warranty or replacement schedule."
+      ],
+      "prior_ids": [
+        "corrections-fact-001",
+        "hcdiag-fact-006"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2554-ed-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine"
+      ]
+    },
+    {
+      "id": "O95-03",
+      "system": "engine_core_oil_pcv",
+      "concern": "Earlier crankcase ventilation renovation is not an engine cure",
+      "applies": "Original early 9-5 MY1998–2003 B205/B235, US/CA symptom/case scope; do not assign to B207 or later years.",
+      "failure": "Restricted PCV flow and oil leaks have source-supported factory service actions, but old bearing wear survives a hose or oil-trap renovation.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Ask for proof of PCV renovation, invoice and installed configuration, not merely a seller claim that PCV was done.",
+        "Inspect hoses, check valve, oil-trap routing and persistent leaks; investigate chain/oil symptoms independently."
+      ],
+      "corrective_path": "Saab bulletin 210-2554 identifies PCV renovation kit 55561200; related 210-2417 applies to oil-leakage cases and requires separate scope matching.",
+      "repair_class": "moderate_diy_after_fitment",
+      "improvement_status": "factory_renovation_kit_not_proven_engine_longevity",
+      "cost_basis": "Current complete original kit fulfillment and all necessary ancillary parts are unconfirmed.",
+      "unresolved": [
+        "Actual vehicle engine number and installed revision need checking.",
+        "No evidence that renovation reverses prior sludge or gives a quantified life extension."
+      ],
+      "prior_ids": [
+        "corrections-part-001",
+        "corrections-issue-001"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2554-ed-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine",
+        "https://saabwisonline.com/9-5-9600/2001/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2417-utg-4-oil-leakage-from-engine"
+      ]
+    },
+    {
+      "id": "O95-04",
+      "system": "engine_core_oil_pcv",
+      "concern": "MY2004–05 B235 manual oil-trap campaign: do not apply to an automatic",
+      "applies": "Original campaign CSP15433 / 210-2496 applies selected MY2004–05 B235 manual-transmission cars, with published chassis/engine restrictions and selective vehicle eligibility.",
+      "failure": "High oil consumption/oil-trap update is documented, but this bulletin alone does not authorize a free repair or automatic-car retrofit.",
+      "purchase_decision": "source_scope_only",
+      "buyer_checks": [
+        "Establish original gearbox and inspect engine stamp before looking up campaign applicability.",
+        "On a manual candidate ask for original campaign completion and oil-trap part documentation."
+      ],
+      "corrective_path": "Factory lists replacement oil trap 55558696 and an early engine-number-dependent hose 5961610, conditional on correct vehicle eligibility.",
+      "repair_class": "moderate_diy_conditioned_by_vin",
+      "improvement_status": "factory_specific_campaign_not_all_B235_automatic_upgrade",
+      "cost_basis": "Original kit and eligible campaign coverage for a 2026 purchase are not verified.",
+      "unresolved": [
+        "Selected-chassis eligibility cannot be derived from numeric range alone.",
+        "Factory early-engine hose condition conflicts with generic aftermarket fitment headlines."
+      ],
+      "prior_ids": [
+        "corrections-issue-002",
+        "parts95-issue-001",
+        "corrections-part-007"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2496-replacing-the-oil-trap"
+      ]
+    },
+    {
+      "id": "O95-05",
+      "system": "engine_core_oil_pcv",
+      "concern": "MY2004–05 ventilation hose retention campaign",
+      "applies": "Original CSP15435 / 210-2508 all markets MY2004–05 B205/B235, selected chassis vehicles; separate from manual oil-trap campaign.",
+      "failure": "The ventilation hose can detach from its throttle-body connection, leading to an external repair path instead of speculative turbo or engine replacement.",
+      "purchase_decision": "repair_if_confirmed",
+      "buyer_checks": [
+        "Examine throttle-body ventilation hose for correct secured routing and leakage.",
+        "Verify repair history against actual VIN and factory selected-chassis list, not merely the calendar year."
+      ],
+      "corrective_path": "Factory campaign specifies retaining tie 7971864 and clip 90490543 where criteria are met; condition and fitment must be matched before installation.",
+      "repair_class": "basic_to_moderate_diy_after_vin_check",
+      "improvement_status": "factory_hose_retention_correction_not_quantified_durability",
+      "cost_basis": "No current VIN-filtered kit availability, installed cost or life testing.",
+      "unresolved": [
+        "Exact original factory campaign status on any car remains unknown.",
+        "Subsequent hose deterioration requires separate condition inspection."
+      ],
+      "prior_ids": [
+        "corrections-issue-003",
+        "corrections-part-009",
+        "corrections-part-010"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2005/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2508-securing-the-crankcase-ventilation-hose"
+      ]
+    },
+    {
+      "id": "O95-06",
+      "system": "ignition_electronics",
+      "concern": "Trionic 7 ignition cassette, original revision and misfire diagnosis",
+      "applies": "9-5 four-cylinder Trionic 7 with black IDM; recall 15021 has its own serial/VIN restrictions and cannot be generalized to every 9-5.",
+      "failure": "Misfire, no-start and combustion feedback faults could involve supply/grounds, plugs, cassette or control; red T5 cassette is not a substitute.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Photograph black cassette part number, any campaign paperwork, connector and fitted NGK spark plug identity.",
+        "Capture DTCs and test G7/main-relay ignition supply before ordering an IDM."
+      ],
+      "corrective_path": "Saab/parts-channel current service candidate 32022255 exists; historical four-cylinder recall numbers include 55562588 and 55559955, but OE revision and VIN approval remain unresolved.",
+      "repair_class": "basic_mechanical_replacement_but_specialist_diagnosis",
+      "improvement_status": "named_genuine_service_candidate_not_proven_zero_failure",
+      "cost_basis": "eSaabParts displayed $316.10 for 32022255 on 2026-10-13; supply and total repair cost unverified.",
+      "unresolved": [
+        "Individual recall eligibility and installed module revision need original documents.",
+        "Long-term cassette durability advantage and genuine live stock are unmeasured."
+      ],
+      "prior_ids": [
+        "corrections-issue-004",
+        "corrections-part-012",
+        "elec-i002",
+        "og95t7-issue-004"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/ignition-discharge-module",
+        "https://www.esaabparts.com/saab/parts/32022255"
+      ]
+    },
+    {
+      "id": "O95-07",
+      "system": "ignition_electronics",
+      "concern": "Crankshaft-position signal: a genuine T7 no-start dependency",
+      "applies": "Original 9-5 four-cylinder T7; pin/sensor figures from MY2006 WIS, not universally certified aftermarket fitment.",
+      "failure": "T7 cannot synthesize a missing crank position signal; P0337 during crank or P0336 running require sensor, wiring, connector and signal assessment.",
+      "purchase_decision": "repair_if_confirmed",
+      "buyer_checks": [
+        "Observe live cranking RPM and reproduce intermittent no-start safely without prolonged forced cranking.",
+        "Diagnose hot-versus-cold CPS wiring/signal and engine-speed data before buying ECU, ignition cassette or fuel pump."
+      ],
+      "corrective_path": "Factory reference MY2006 CPS is inductive 60-2; nominal 860 ±90 ohms at 20°C is a test datum, not proof a hot-failing sensor is sound.",
+      "repair_class": "moderate_diy_diagnostic_access",
+      "improvement_status": "factory_measured_diagnostic_reference_not_identified_upgrade",
+      "cost_basis": "Specific Saab OE-number/supplier candidate and fully installed local cost not established.",
+      "unresolved": [
+        "Exact physical sensor, harness damage and year-specific DTC conditions unknown.",
+        "Electrical resistance at ambient alone is insufficient to rule out intermittent failure."
+      ],
+      "prior_ids": [
+        "og95t7-issue-002"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/crankshaft-position-sensor",
+        "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-data/crankshaft-position-sensor-345"
+      ]
+    },
+    {
+      "id": "O95-08",
+      "system": "ignition_electronics",
+      "concern": "T7 ECU power, grounds and shared 5V faults mimic computer failure",
+      "applies": "Original 9-5 MY2006 T7 four-cylinder detailed source, supported by separately indexed later power/ground descriptions.",
+      "failure": "Missing +30, +15, main relay, power ground G7 or a shorted shared 5V sensor circuit can cause no ECU communication, stop or limp-home.",
+      "purchase_decision": "repair_if_confirmed",
+      "buyer_checks": [
+        "Confirm battery/load integrity and correct fuses/relays with factory diagram for the actual model year.",
+        "Have qualified diagnosis verify ECU supplies, G7, 5V sensors and P1640 before pricing a replacement T7 ECU."
+      ],
+      "corrective_path": "Repair verified supply, ground, relay or isolated sensor/harness faults; do not declare ECU dead merely because the scan tool cannot communicate.",
+      "repair_class": "basic_to_advanced_electrical_diagnostics",
+      "improvement_status": "diagnostic_avoidance_of_unnecessary_ecu_not_upgraded_ecu",
+      "cost_basis": "Actual ECU replacement/immobilizer pairing and repair quote unknown.",
+      "unresolved": [
+        "Harness routing and exact fuse identifiers vary with year/build and must be confirmed.",
+        "A physically compatible replacement ECU still needs security/programming evidence."
+      ],
+      "prior_ids": [
+        "og95t7-issue-001"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/control-module-power-supply",
+        "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/ground"
+      ]
+    },
+    {
+      "id": "O95-09",
+      "system": "ecu_immobilizer_security",
+      "concern": "TWICE authorization and lost keys are not engine failure",
+      "applies": "9-5 original Trionic 7 / TWICE where equipped; programming procedure source MY2005 and authorization source MY2006.",
+      "failure": "Start blocked by immobilizer security mismatch or P1460 after module work; a donor control unit cannot simply be assumed plug-and-play.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Demand evidence of two functional recognized keys and actual security message behavior.",
+        "Request Tech 2/TWICE diagnosis and proof of module marriage after any ECU/TWICE replacement."
+      ],
+      "corrective_path": "Use correct Saab security/programming procedure and verified compatible modules; diagnose immobilizer before engine/ECU replacement.",
+      "repair_class": "specialist_programming",
+      "improvement_status": "security_repair_supported_no_universal_donor_approval",
+      "cost_basis": "No verified all-keys-lost specialist quote or 2026 hardware/software support guarantee.",
+      "unresolved": [
+        "Programmer access and code/data availability for individual car unresolved.",
+        "Aftermarket donor module compatibility is not established by matching plug."
+      ],
+      "prior_ids": [
+        "og95t7-issue-003"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2006/2-engine/trionic-t7-4-cyl/technical-description/fuel-shut-off",
+        "https://saabwisonline.com/9-5-9600/2005/2-engine/trionic-t7-4-cyl/adjustment-replacement/control-module"
+      ]
+    },
+    {
+      "id": "O95-10",
+      "system": "turbo_intake_boost",
+      "concern": "Weak boost: bypass, wastegate and plumbing before turbo purchase",
+      "applies": "Original 9-5 turbocharged petrol covered by Saab bulletin 291-2494, issued November 2004; turbo-specific tests and parts differ by engine.",
+      "failure": "Saab received turbo returns where root causes were boost/bypass/actuator faults; weak power or boost DTC does not establish bad bearings or turbo.",
+      "purchase_decision": "repair_if_confirmed",
+      "buyer_checks": [
+        "Document all turbo hose/charge-air leakage, actuator motion and bypass diaphragm condition under matching WIS test.",
+        "Examine abnormal oil entry, wheel contact and known oil-feed history only after external diagnosis."
+      ],
+      "corrective_path": "Repair proved leaks, bypass or control faults first; buy correctly specified Garrett/Mitsubishi replacement only if internal turbo damage is established.",
+      "repair_class": "basic_diy_hoses_to_advanced_turbo",
+      "improvement_status": "original_diagnostic_precedence_not_proven_better_turbo",
+      "cost_basis": "Turbo genuine/aftermarket validated VIN SKU, complete oil-line set and installed quote unverified.",
+      "unresolved": [
+        "Saab 291-2494 shaft-play phrase has ambiguous axial/radial terminology, not a valid tolerance.",
+        "GT17 vs TD04 hardware identity and replacement life not individually verified."
+      ],
+      "prior_ids": [
+        "prebuy-issue-001"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/1998/2-engine/turbocharger-system/bulletins-si-mi/291-2494-reduced-performance-and-diagnostic-trouble-codes-for-the-turbo-control-valve"
+      ]
+    },
+    {
+      "id": "O95-11",
+      "system": "transmission_driveline",
+      "concern": "Early five-speed FA57 shift faults have conditional service branches",
+      "applies": "Original 9-5 MY2002–04 five-speed automatic, bulletin 440-2497; several corrections target only MY2002–03.",
+      "failure": "Hard 2–3 shift, P–D delay, lockup slipping and intermittent hard engagement can reflect servo cover, valve housing, TCM calibration, electrical checks or real internal wear.",
+      "purchase_decision": "avoid_major_unpriced_work",
+      "buyer_checks": [
+        "Identify full stamped gearbox case and TCM; some MY2003 cars may have MY2004 gearbox hardware.",
+        "Demand controlled hot/cold shift evidence and original 440-2497 fault-specific records, not a seller's adaptation-reset claim."
+      ],
+      "corrective_path": "Follow bulletin branch for B4 servo, software or valve housing (e.g. 5449780 only where specified), then retest; internal loss of drive needs a whole-gearbox quote.",
+      "repair_class": "advanced_transmission_or_specialist",
+      "improvement_status": "factory_conditional_repair_not_universal_FA57_upgrade",
+      "cost_basis": "No whole installed transmission replacement quote, donor-case certification or repair-service guarantee.",
+      "unresolved": [
+        "Actual fault may still involve mechanical clutch or hydraulic damage.",
+        "Bulletin does not authorize MY2005–09 use of its MY2002–03 replacement housing."
+      ],
+      "prior_ids": [
+        "prebuy-issue-002"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2003/4-transmission/automatic-transmission/bulletins-si-mi/440-2497-general-fault-diagnosis-for-automatic-transmission"
+      ]
+    },
+    {
+      "id": "O95-12",
+      "system": "transmission_driveline",
+      "concern": "FA57 sensor faults versus actual ratio errors and gearbox wear",
+      "applies": "Original 9-5 later FA57: MY2005 P0717, MY2009 P0735 and TCM read values documented separately; exact year/gearbox code required.",
+      "failure": "A missing speed signal may have an external electrical cause; persistent calculated 5th ratio deviation can also represent real hydraulic/mechanical failure.",
+      "purchase_decision": "avoid_major_unpriced_work",
+      "buyer_checks": [
+        "Save TCM DTC/freeze frame and live input/output RPM, shift adaption status and converter request data without clearing.",
+        "Have specialist distinguish sensor/connector fault from repeated slip/ratio evidence before any gearbox purchase."
+      ],
+      "corrective_path": "Repair proven wiring/sensor or specified hydraulic fault where feasible; for verified repeated internal slip outside scope budget installed replacement or reject.",
+      "repair_class": "advanced_transmission_diagnostics",
+      "improvement_status": "factory_diagnostic_differentiation_not_guaranteed_rebuild_avoidance",
+      "cost_basis": "Full gearbox quotes, internal condition, 2026 donor stock and programming unknown.",
+      "unresolved": [
+        "P0735 alone does not identify a failed specific internal component.",
+        "Read-value semantics and code definitions must be checked for exact transmission year."
+      ],
+      "prior_ids": [
+        "prebuy-issue-003"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2005/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0717",
+        "https://saabwisonline.com/9-5-9600/2009/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/p0735"
+      ]
+    },
+    {
+      "id": "O95-13",
+      "system": "transmission_driveline",
+      "concern": "Automatic gearbox identity, ATF service and adaptation cannot be guessed",
+      "applies": "9-5 early AF30/FA47 4AT versus later 5-speed FA57; MY2008 FA57 level hardware without dipstick, MY2005 fluid data and MY2008 US/CA schedules are separately scoped.",
+      "failure": "Incorrect fluid, level, shift-adaptation or donor case assumptions can produce expensive misdiagnosis; adaptation is not a cure for worn clutches.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Photograph case type, serial, TCM ID and exact level-access design; check service receipts.",
+        "Compare MY2008 60k-miles versus 70k-miles/5-year factory service pages rather than inventing a single interval."
+      ],
+      "corrective_path": "Use correct original type-specific 3309-era specification, Tec​h 2 temperature-driven level/adaptation procedure where documented; reset learned adaptation after actual TCM/transmission/software work.",
+      "repair_class": "advanced_diy_atf_with_tool_or_specialist",
+      "improvement_status": "original_service_procedure_not_longevity_modification",
+      "cost_basis": "No full ATF change quote or verified modern approved substitute; MY2005 7.0 L total is not service drain amount.",
+      "unresolved": [
+        "Historic Saab schedules disagree and require original booklet revision to reconcile.",
+        "Donor case/TCM/software compatibility requires actual part and tag verification."
+      ],
+      "prior_ids": [
+        "prebuy-issue-002"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/adjustment-replacement/automatic-transmission-transmission-fluid-level-without-dipstick",
+        "https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/60000-miles-us-ca",
+        "https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/annual-service"
+      ]
+    },
+    {
+      "id": "O95-14",
+      "system": "cooling_heat",
+      "concern": "Cooling loss: thermostat, fan control, pressure, radiator and head damage",
+      "applies": "Original 9-5 B235 petrol; MY2008 cooling source references; automatic radiator has ATF cooler connections distinct from manual.",
+      "failure": "Leaks, sensor/controller/fan faults and a thermostat can be repairable, but a severe overheat may damage cylinder head or bearings.",
+      "purchase_decision": "avoid_major_unpriced_work",
+      "buyer_checks": [
+        "Inspect cold coolant, pressure-loss evidence, fan actuation and actual overheat history without opening hot system.",
+        "On automatic, inspect transmission cooler connections and ATF separately, with qualified head-sealing work if severe prior overheating reported."
+      ],
+      "corrective_path": "Factory 89±2°C thermostat, 140–150 kPa cap and controlled pressure test support diagnosing faults; retailer lists Nissens 32019620 automatic radiator referencing Saab 5193388.",
+      "repair_class": "basic_to_advanced_cooling_or_specialist_head",
+      "improvement_status": "aftermarket_radiator_supplier_reference_not_OE_supersession_or_measured_life",
+      "cost_basis": "Nissens 32019620 was advertised $211.98 on 2026-10-13, before fluids/ATF, hardware, shipping and installation.",
+      "unresolved": [
+        "Actual B235 head-gasket/thermal damage needs test, not year-based inference.",
+        "VIN/gearbox radiator, cooler lines and durable aftermarket superiority are not validated."
+      ],
+      "prior_ids": [
+        "parts95-issue-002",
+        "parts95-part-004"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-data/temperature-pressure-limits",
+        "https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/radiator-4-cyl",
+        "https://www.esaabparts.com/viewparts.php?section=314395285"
+      ]
+    },
+    {
+      "id": "O95-15",
+      "system": "engine_mounts",
+      "concern": "Engine mount vibration and chassis-specific tightening requirements",
+      "applies": "Original 9-5 MY2008 B235 source: left-mount joint and front torque-arm tightening changes at 73514478/73514479.",
+      "failure": "Vibration and movement can arise from worn mounts but mount replacement is not evidence of an engine needing internal repair.",
+      "purchase_decision": "repair_if_confirmed",
+      "buyer_checks": [
+        "Observe vibration with safe engine support assessment and inspect left/right/rear mounts and front torque arm.",
+        "Record actual VIN suffix, gearbox and bracket design before choosing mount or tightening method."
+      ],
+      "corrective_path": "Factory calls for engine lifting beam 8394850 and mount alignment; chassis boundary changes specific fastener torques, not proved mount interchange.",
+      "repair_class": "advanced_diy_engine_support",
+      "improvement_status": "factory_service_distinction_no_OE_part_supersession",
+      "cost_basis": "No VIN-filtered four-cylinder mount SKU and no confirmed all-in quote.",
+      "unresolved": [
+        "Whether actual candidate mount rubber or structural anchor is defective is unknown.",
+        "Aftermarket donor variants and resilience improvements remain unverified."
+      ],
+      "prior_ids": [
+        "parts95-issue-003"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/engine-mounting-left",
+        "https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/front-torque-arm"
+      ]
+    },
+    {
+      "id": "O95-16",
+      "system": "body_corrosion_mounts",
+      "concern": "Rear subframe corrosion versus compromised SportCombi body structure",
+      "applies": "Original 9-5 (9600) front/rear and MY2006 5D wagon-specific factory body repairs; MY2008 actual candidate requires own condition confirmation.",
+      "failure": "Rust confined to serviceable rear subframe differs economically and structurally from corroded captive nuts, rails, rear floor, wheelhouse and suspension anchor steel.",
+      "purchase_decision": "avoid_major_unpriced_work",
+      "buyer_checks": [
+        "Obtain safe lift inspection/photos of BOTH sides of subframe, captive nuts, trailing links, brake/fuel routing and body attachment.",
+        "For 5D examine luggage floor, frame members, sill/jack positions, wheel arches and corrosion hidden by interior trim."
+      ],
+      "corrective_path": "Repair removable subframe/bush if body is sound, with alignment; structural rear-frame/floor repairs require factory sectioning and verified joining/alignment technique.",
+      "repair_class": "qualified_chassis_body_shop_for_structure",
+      "improvement_status": "factory_repair_method_not_confirmation_any_rusted_body_is_repairable",
+      "cost_basis": "No physical thickness/geometry measurements, VIN-approved replacement frame, welding estimate or safe-installation quote.",
+      "unresolved": [
+        "Seller 'rear subframe rust' description has no defined structural boundary.",
+        "Body reinforcement corrosion and adjacent hydraulic lines must be examined separately."
+      ],
+      "prior_ids": [
+        "rustgate-issue-001",
+        "rustgate-fact-004"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/nut-piece-rear-subframe",
+        "https://saabwisonline.com/9-5-9600/2006/8-body/body/adjustment-replacement/section-of-rear-floor-5d"
+      ]
+    },
+    {
+      "id": "O95-17",
+      "system": "brakes_hydraulics",
+      "concern": "Brake pipe corrosion, caliper fastener and rotor identity contradictions",
+      "applies": "Original 9-5 9600 MY2006–09 source-specific brake chart and repair procedures; do not apply NG9-3 caliper design.",
+      "failure": "Brake leaks or rusted hardlines can make any purchase unsafe; factory 9-5 rotor dimensions/fastener text conflict, demanding exact hardware confirmation.",
+      "purchase_decision": "avoid_major_unpriced_work",
+      "buyer_checks": [
+        "Inspect metal brake lines, flex hoses, brackets, pads, calipers and parking brake shoes before moving the car.",
+        "Measure real front/rear discs and caliper carrier, then reconcile original EPC; never apply 4 Nm rotor-screw torque to caliper carrier."
+      ],
+      "corrective_path": "Repair failed hydraulic lines with appropriate flaring/bleeding and documented parts; MY2008 dedicated caliper table lists 140 Nm+45° carrier versus separate 4 Nm small disc screw, a documented source contradiction with prose.",
+      "repair_class": "brake_specialist_if_hydraulic_or_torque_uncertain",
+      "improvement_status": "source_conflict_not_approved_rotor_or_caliper_swap",
+      "cost_basis": "No VIN-certified complete brake bill, hydraulic restoration quote or structural status.",
+      "unresolved": [
+        "9-5 B1/B2/B3 versus year-specific dimensions conflict unresolved.",
+        "Exact brake hardware and safety standards require real inspection."
+      ],
+      "prior_ids": [
+        "hydbrake-issue-001",
+        "hydbrake-issue-002",
+        "hydbrake-issue-004",
+        "rustgate-issue-003"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2008/5-brakes/brake-discs-and-pads/technical-data/tightening-torques",
+        "https://saabwisonline.com/9-5-9600/2009/5-brakes/brake-discs-and-pads/technical-data/brake-configurations"
+      ]
+    },
+    {
+      "id": "O95-18",
+      "system": "exhaust_fuel_emissions",
+      "concern": "Claimed clogged catalyst cannot be accepted without root-cause diagnosis",
+      "applies": "Original MY2008 B235E/R 9-5 sedan/wagon North American emissions system; first-party architecture contains primary and main converter, not a single undifferentiated 'cat'.",
+      "failure": "An oxygen sensor fault, mixture/ignition failure or an actual physical restriction are different diagnoses; running rich/misfiring may damage replacement catalyst.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Obtain original DTC/freeze-frame, underhood emissions label and measured restriction location from a qualified shop.",
+        "Check exhaust leakage, fuel control, PCV, ignition and both converter stages; inspect nearby rear fuel/vent/brake hardware before repair."
+      ],
+      "corrective_path": "Correct proven engine control root cause and source a new legally compliant emission-certified converter for the actual car; no used/salvage catalyst shortcut in New York.",
+      "repair_class": "specialist_emissions_diagnostics_and_legal_parts",
+      "improvement_status": "factory_system_architecture_not_converter_restriction_evidence",
+      "cost_basis": "No precise lawful replacement SKU, compliant 2026 delivered stock, fitted cost or backpressure measurements.",
+      "unresolved": [
+        "Seller's converter diagnosis and whether the catalyst is actually blocked remain unproven.",
+        "New York certification/50-state emissions label and exact converter stage need verification."
+      ],
+      "prior_ids": [
+        "wp6-issue-001",
+        "wp6-issue-002",
+        "wp6-issue-003"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2008/2-engine/exhaust-system/adjustment-replacement/front-exhaust-system-with-catalytic-converters-b235e-r",
+        "https://dec.ny.gov/environmental-protection/air-quality/controlling-motor-vehicle-pollution"
+      ]
+    },
+    {
+      "id": "O95-19",
+      "system": "starting_charging",
+      "concern": "Replacement starter/alternator candidates exist but donor interchange is unproven",
+      "applies": "Original 9-5 B235R with exact gearbox and equipment restrictions; AS-PL S0034 starter and A0219 vs A0319 alternator supplier catalogue candidates.",
+      "failure": "Charging/no-crank electrical problems can be externally repairable, but shared aftermarket application lists do not certify an Opel donor or stronger alternator retrofit.",
+      "purchase_decision": "repair_if_confirmed",
+      "buyer_checks": [
+        "Have starter/charging circuit tested under proper load before buying a used unit.",
+        "Capture original mounted alternator/starter numbers, regulator plugs, pulley, mounting and transmission clearance before ordering."
+      ],
+      "corrective_path": "Manufacturer AS-PL S0034 lists 12V 1.4kW 9-tooth starter; A0219 12V 120A PL_9104 alternator differs from A0319 130A PL_9105; verify physical original and ECU charging controls.",
+      "repair_class": "basic_to_moderate_diy_after_fitment",
+      "improvement_status": "supplier_cross_brand_candidate_not_proved_same_OE_or_longer_life",
+      "cost_basis": "Bosch reman starter 32101497 snapshot $194.99 on 2026-10-13; core, shipping and actual VIN compatibility unknown.",
+      "unresolved": [
+        "No genuine WebEPC cross-brand interchange approval.",
+        "Regulator/pulley geometry and verified 2026 supply for original option are missing."
+      ],
+      "prior_ids": [
+        "usparts-issue-001"
+      ],
+      "sources": [
+        "https://as-pl.com/en/p/S0034",
+        "https://as-pl.com/en/p/A0219",
+        "https://as-pl.com/en/p/A0319"
+      ]
+    },
+    {
+      "id": "O95-20",
+      "system": "vehicle_safety_identity",
+      "concern": "Maintenance and historic recall checks cannot be replaced by dashboard messages",
+      "applies": "Original 9-5 MY2008 US/CA factory service schedule used as example; historical US MY2002–08 A-pillar campaign and MY2006–09 Takata program have separate populations.",
+      "failure": "Missing oil, brake, ATF, airbag or belt records increase uncertainty; NHTSA public VIN lookup may omit completed and older-than-15-year recalls.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Request dated oil/filter, ATF, brake fluid and spark plug receipts and key/title documents.",
+        "Obtain authorized Saab/GM VIN-based historical campaign completion evidence; do not DIY safety airbag recall."
+      ],
+      "corrective_path": "Carry out appropriate owner-booklet maintenance and authorized outstanding safety recall remedy where eligible; MY2008 60k vs 70k/5yr ATF documents disagree and must not be silently combined.",
+      "repair_class": "basic_service_to_authorized_airbag_specialist",
+      "improvement_status": "factory_service_and_historical_programs_not_proof_maintenance_was_done",
+      "cost_basis": "No VIN-specific campaign result, authorized parts availability, free-coverage proof or current quotes.",
+      "unresolved": [
+        "NHTSA showing zero open recalls does not certify historic work on this old car.",
+        "Actual prior service, original market and interval errata need documents."
+      ],
+      "prior_ids": [
+        "corrections-issue-016",
+        "corrections-issue-020"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-5-9600/2008/1-service/saab-service-us-ca/service/annual-service",
+        "https://static.nhtsa.gov/odi/rcl/2008/RCAK-08V160-6768.pdf",
+        "https://static.nhtsa.gov/odi/rcl/2016/RCSB-16V063-8347.pdf"
+      ]
+    }
+  ],
+  "buyer_protocol": {
+    "before_travel": [
+      "Obtain title/actual full VIN privately, original year, body, engine marking and transmission tag; keep VIN off public GitHub.",
+      "Request current underbody pictures, lift inspection, service/recall invoices, actual non-run history and any DTC printout.",
+      "Separate seller's suspected cause from proven measurements; 2008 wagon rust and converter must be quoted independently."
+    ],
+    "on_site_if_safe": [
+      "Inspect safe jacking/mount/subframe attachment structure before any running attempt.",
+      "Keep original cold-start evidence and code freeze frames; check oil, coolant and ATF appearance without risking severe damage.",
+      "Check keys, ECU/TWICE start authorization, basic ignition supply and transmission configuration; only test-drive roadworthy vehicles."
+    ],
+    "never_drive_without_professional_clearance": [
+      "Load-bearing subframe/body corrosion or brake/fuel leaks",
+      "Lower-end knock or suspected oil-pressure loss",
+      "Uncontrolled overheat or loss of lubrication",
+      "Unsafe suspension or repeatedly slipping/contaminated transmission"
+    ],
+    "final_document": [
+      "VIN-appropriate actual factory part/gearbox identification and physical inspection results",
+      "Two independent installed quotes if possible for large engine/transmission/structural costs",
+      "Parts shipping, core/tax, tools, tow, programming, environmental/regulatory fees and hidden-work contingency",
+      "Rank personal offers by real evidence and ability to avoid an engine or gearbox rebuild, not unverified model-year failure rates"
+    ]
+  },
+  "limits": [
+    "No factory population failure rates, random car failure probabilities or verified Saab model tiers.",
+    "No certified cross-manufacturer interchange or measured longer component life.",
+    "No complete installed 2026 engine/gearbox/structure/emissions quotes; dated retailer prices are historical partial snapshots.",
+    "Existing original source records, issue IDs and research gaps are reused and unchanged."
+  ],
+  "evidence_method": "Derived buyer-engineering synthesis using existing Saab WIS factory-authored mirror pages, original US/CA factory bulletins, US regulator material, supplier-labelled catalogue listings and named prior issue IDs; sources are per-case originals. This new dossier is NOT new field failure measurement, live inventory or authorized physical repair work."
+}
