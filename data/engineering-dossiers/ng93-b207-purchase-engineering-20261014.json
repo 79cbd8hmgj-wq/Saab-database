@@ -85,9 +85,7 @@
         "Exact original and revised chain/tensioner/guide part families by serial",
         "Source-backed preventive replacement threshold"
       ],
-      "prior_ids": [
-        "ng93-fact-043"
-      ],
+      "prior_ids": [],
       "sources": [
         "https://saabwisonline.com/9-3-9440/2007/2-engine/4-cyl-petrol-e85/basic-engine/adjustment-replacement/timing-chain-b207",
         "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/technical-description/engine-block"
@@ -173,9 +171,7 @@
         "Engine/year-specific PCV hose service changes and original numbers",
         "Measured condition and long-term service records for real target vehicle"
       ],
-      "prior_ids": [
-        "ng93-fact-050"
-      ],
+      "prior_ids": [],
       "sources": [
         "https://saabwisonline.com/9-3-9440/2004/2-engine/4-cylinder-petrol/turbocharger-system/adjustment-replacement/turbo-b207r",
         "https://saabwisonline.com/9-3-9440/2004/2-engine/4-cylinder-petrol/basic-engine/adjustment-replacement/"
@@ -415,8 +411,9 @@
         "rustgate-issue-003"
       ],
       "sources": [
-        "https://saabwisonline.com/9-3-9440/2005/7-suspension-wheels/front-suspension/",
-        "https://saabwisonline.com/9-3-9440/2005/8-body/"
+        "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-b207",
+        "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/subframe",
+        "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/technical-description/galvanized-body-parts"
       ]
     }
   ],
@@ -454,6 +451,7 @@
     "An official retrofit/service kit may restore original function without documented extended life.",
     "Factory WIS mirrors can have mismatched folder years, so bulletin date, model, market and VIN wording override URL folder.",
     "T8 ECM, original OG 9-5 Trionic 7 ignition cassette, and 2003 OG 9-3 convertible electronics are different hardware.",
-    "Do not replace a transmission based only on a code or disassemble a healthy B207 preventively."
+    "Do not replace a transmission based only on a code or disassemble a healthy B207 preventively.",
+    "This report reuses prior factory/supplier claims; a recorded WIS service procedure alone is not proof a particular component has a common factory defect."
   ]
 }
