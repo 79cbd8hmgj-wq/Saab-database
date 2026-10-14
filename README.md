@@ -10,6 +10,10 @@ engines, and platforms.
 
 ## Start here
 
+- **[Engineering batch 1 — 9-3 B207/FA57 buying and repair dossier](docs/research/ng93-b207-complete-purchase-dossier-20261014.md)**: 17 source-linked practical cases covering high-cost engine and automatic-gearbox risks, original factory corrections, ignition/CIM issues, cooling, water ingress, suspension, corrosion, brake configurations, real repair paths, partial price quotes and a seller inspection protocol. Separate [structured decisions](data/engineering-dossiers/ng93-b207-purchase-engineering-20261014.json) and [printable inspection and actual-repair-cost worksheet](docs/research/ng93-b207-2003-2011-buyer-inspection-worksheet.md). The analysis does **not** grade Saab years, establish a factory failure frequency, or approve universal fitment.
+
+
+
 - [B207 intake-valve engineering and repair sourcing](docs/research/b207-intake-valve-repair-path-20261014.md): existing failure research plus newly retrieved factory head-service requirements, GM 55563529 offering and genuine/TRW valve-only price observations. Practical buying and repair implications; no assumed later-year cure or installed-cost claim.
 
 - [Final overlapping fact/gap system-route review (2026-10-14)](docs/multisystem-fact-gap-route-review-20261014.md): 176 facts and 49 open gaps assessed, deliberate cross-system interfaces preserved, zero known ambiguous navigation candidates remain unreviewed. **Technical gaps and OEM validation remain unresolved.**

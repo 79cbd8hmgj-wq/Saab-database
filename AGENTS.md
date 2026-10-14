@@ -1,5 +1,9 @@
 # Working with the Saab database
 
+## Complete engineering buying/repair batches
+
+
+
 This repository records technical evidence for Saab specifications, replacement
 analysis, and reliability-oriented model selection. It is not a calibrated vehicle
 simulator or a source of verified failure probabilities.
@@ -24,6 +28,21 @@ simulator or a source of verified failure probabilities.
   measurements.
 - Run `python3 tools/validate.py` and `python3 -m unittest discover -s tests -v`
   after changing the data or validation tools. Inspect the full result.
+
+## Completed engineering buyer dossiers
+
+The first major buyer-focused batch is
+[NG 9-3 B207/FA57 engineering batch 1](docs/research/ng93-b207-complete-purchase-dossier-20261014.md),
+with [17 independent purchase/repair decisions](data/engineering-dossiers/ng93-b207-purchase-engineering-20261014.json).
+New *engineering batches* should deliver complete buyer-useful evidence for a defined vehicle and
+component family, including original factory fault/correction, exact application,
+source-supported replacement, repair difficulty, parts/labor economics, inspection gates,
+and explicit unresolved uncertainties. Avoid repeatedly replacing substantive work
+with another record routing or gap counting audit. Preserve original issue IDs and
+cross-link previously sourced records before researching new claims. A cost for
+bare parts or ECU programming is **not** an all-in repair quote. A WIS repair
+procedure or parts listing does not itself prove a common factory defect or
+longer service life. Keep VIN/country/body/gearbox and safety scopes separate.
 
 ## Reuse-first requirement for research changes
 
@@ -94,3 +113,22 @@ unrouted parts. That assignment is **not** OEM approval or proof of stock.
 Keyword/domain matches remain tentative; cross-cutting facts and gaps may have no
 system ID without being research errors. Reuse sources and original applicability;
 never count same-document references as independent evidence or model reliability.
+
+## Engineering-first delivery: full decision batch, not index cleanup
+
+For US/Canada NG9-3 B207 powertrain research consult the [single completed 17-case
+purchase and repair dossier](docs/research/ng93-b207-complete-purchase-dossier-20261014.md),
+the [buyer worksheet](docs/research/ng93-b207-2003-2011-buyer-inspection-worksheet.md)
+and the [source-linked decision register](data/engineering-dossiers/ng93-b207-purchase-engineering-20261014.json)
+**before** researching a previously documented factory bulletin again.
+Run `python3 tools/check_ng93_engineering_batch.py --check --summary` when
+changing this dossier. Future batches should be scoped by real vehicle/engine/
+gearbox configuration and cover major faults, factory revisions, original
+parts, current proven options, DIY complexity, full-economics blockers and
+specific buyer tests **in one usable delivery**. A source-supported replacement
+path alone is not a measured reliability improvement or factory defect frequency.
+Do not recast historical supplier stock and price displays as current delivered
+quotes. Keep high-cost engine/head/gearbox decisions distinct from repairable
+software, sensors and hoses. Do not silently shift the dossier into the original
+research dataset census; it is a derived purchasing-analysis product with direct
+factory/source URLs and legacy identifiers, not a replacement for original facts.

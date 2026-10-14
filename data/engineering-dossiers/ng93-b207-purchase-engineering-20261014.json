@@ -1,0 +1,595 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-10-14",
+  "status": "engineering_batch_1_decision_support_not_failure_probability_or_oem_fitment",
+  "title": "NG 9-3 (9440) B207/FWD US-Canada: powertrain and adjacent purchase-risk engineering dossier",
+  "scope": {
+    "platform": "9-3-9440",
+    "markets": [
+      "US",
+      "CA"
+    ],
+    "model_year_range": [
+      2003,
+      2011
+    ],
+    "engine_family": "B207 four-cylinder petrol (verify exact E/L/R and calibration)",
+    "automatic_gearbox": "FA57 only where the physical tag/VIN confirms that transmission; its early-cooler campaign is MY2003–05 scoped, not a whole-2003–11 recall",
+    "boundaries": [
+      "2003 old-generation convertible uses different platform/engine and is excluded",
+      "B284 V6, diesel, A20NFT, XWD and NG 9-5 excluded unless cited individually",
+      "A model year alone does not certify actual installed engine, gearbox, turbo or part revision",
+      "Condition and production scope validated only with real VIN, hardware tags, factory service evidence and inspection"
+    ]
+  },
+  "dispositions": {
+    "avoid_major_unpriced_work": "For a buyer unwilling to rebuild an engine or transmission, reject or treat as parts-value only until independent quotes and inspection rule out high-severity internal damage.",
+    "inspect_before_negotiation": "Pre-purchase physical, cold-running, diagnostic or specialist verification is essential.",
+    "repair_if_confirmed": "An original Saab repair path is known, but is not an evidence-backed preventive reliability upgrade.",
+    "source_scope_only": "Factory information describes system/procedure; no production defect, failure prevalence or guaranteed upgrade is established."
+  },
+  "cases": [
+    {
+      "id": "B207-01",
+      "system": "engine_timing_valvetrain",
+      "concern": "Cold intake-valve face/seat wear and compression loss",
+      "applies": "Saab Parts advisory separately addresses MY2007–08 B207R and MY2009–11 B207; AERA covers broader MY2003–11 as independent industry evidence, not a factory production cutoff.",
+      "failure": "Cold misfire, stall or poor starting may be intake-valve face erosion despite normal hot running; requires proper differential diagnosis.",
+      "purchase_decision": "avoid_major_unpriced_work",
+      "buyer_checks": [
+        "Overnight-cold engine start observed from truly cold condition",
+        "Cold compression and leak-down interpreted with correct procedure and hot comparison",
+        "Invoice for all eight inlet valves plus cylinder-head/seat work and post-repair results if claimed fixed"
+      ],
+      "corrective_path": "When loss attributable to inlet valve erosion is confirmed, Saab support identifies BioPower inlet valve 55563529; head removal, valve/seat evaluation, gasket/seals and precise cam timing required.",
+      "repair_class": "advanced_diy_with_head_machine_shop",
+      "improvement_status": "source_supported_repair_part_not_proven_original_factory_production_upgrade",
+      "cost_basis": "Eight valve-only historical advertised subtotal: genuine $314.48–$363.92, TRW candidate $102.24, as of 2026-10-14; full repair unpriced, no durability advantage proven.",
+      "unresolved": [
+        "Affected production/installed-valve VIN or engine-serial cutoff",
+        "Independent lifetime advantage vs fitted original valve",
+        "Complete local machine-shop and labor quote"
+      ],
+      "prior_ids": [
+        "corrections-issue-011",
+        "hcdiag-issue-002",
+        "corrections-part-015",
+        "b207valve-fact-001",
+        "b207valve-fact-006"
+      ],
+      "sources": [
+        "https://saabparts.com/us/wp-content/uploads/sites/10/2023/05/Hard-Starting-Cold-With-Engine-Stall-Misfire-and-Low-Compression-Starts-and-Runs-Normally-When-Hot-07-11-9-3-11-9-5.pdf",
+        "https://www.engineprofessional.com/TB/TB011117-1.pdf",
+        "https://parts.gmparts.com/product/gm-genuine-parts-engine-intake-valve-55563529",
+        "https://saabwisonline.com/9-3-9440/2008/2-engine/4-cyl-petrol-e85/basic-engine/adjustment-replacement/cylinder-head"
+      ]
+    },
+    {
+      "id": "B207-02",
+      "system": "engine_timing_valvetrain",
+      "concern": "Cam timing drive and balancer-shaft chain",
+      "applies": "B207 chain-driven petrol four-cylinder; original procedure checked on MY2007; exact repair specification follows real engine variant.",
+      "failure": "Rattle or timing-related DTC must be isolated before declaring timing chain wear; these sources do not establish a year-wide defect/frequency or universal preventive interval.",
+      "purchase_decision": "avoid_major_unpriced_work",
+      "buyer_checks": [
+        "Listen to cold start without assuming ordinary brief noise proves chain failure",
+        "Investigate persistent timing noise, synchronisation errors and service history with trained technician",
+        "Document whether chain, guides, tensioner or balancer circuit was actually diagnosed"
+      ],
+      "corrective_path": "Factory chain procedure includes timing-cover access, camshaft alignment tools, tensioner manipulation and checking phase after rotating crankshaft; separate balancer drive also exists. Not a cheap bolt-on reliability upgrade.",
+      "repair_class": "advanced_internal_engine",
+      "improvement_status": "original_service_procedure_only_no_verified_weak_factory_revisions",
+      "cost_basis": "No credible complete timed repair quote or revision-proven kit in this batch.",
+      "unresolved": [
+        "Failure incidence relative to other B207 repairs",
+        "Exact original and revised chain/tensioner/guide part families by serial",
+        "Source-backed preventive replacement threshold"
+      ],
+      "prior_ids": [],
+      "sources": [
+        "https://saabwisonline.com/9-3-9440/2007/2-engine/4-cyl-petrol-e85/basic-engine/adjustment-replacement/timing-chain-b207",
+        "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/basic-engine/technical-description/engine-block"
+      ]
+    },
+    {
+      "id": "B207-03",
+      "system": "cooling_heat",
+      "concern": "Gear-driven B207 coolant pump and overheat risk",
+      "applies": "2003 onward B207 9440 in original Saab Parts kit catalogue; original B207 procedure read at MY2004, not V6/diesel belt pump.",
+      "failure": "Coolant loss or overheating is a diagnosis; no controlled claim that every original pump fails early.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Confirm coolant level and leaks only with engine cold; pressure test per actual-year WIS",
+        "Check temperature regulation, fans, pressure cap and signs of severe previous overheating",
+        "Identify installed water-pump/gear and obtain actual VIN-based part verification"
+      ],
+      "corrective_path": "Saab Original and GM Genuine Parts both market service SKU 12630084. WIS shows balancer-shaft drive, holder 83 96 103, seals, catalytic/turbo plumbing access—not a generic belt pump. Real boxed parts and VIN still need comparison.",
+      "repair_class": "advanced_diy_special_tool",
+      "improvement_status": "dual_manufacturer_service_sku_identity_not_improved_lifespan",
+      "cost_basis": "Saab Parts Finland historical advertised €155 for SKU 12630084, not a US quote or shipped repair total.",
+      "unresolved": [
+        "US/CA VIN filtered official part application",
+        "Whether any factory revision measurably improves life",
+        "Actual full repair quote and specialty tool availability"
+      ],
+      "prior_ids": [
+        "gmwp-fact-008"
+      ],
+      "sources": [
+        "https://webshop-fi.saabparts.com/productdetail/saabparts/12630084",
+        "https://parts.chevrolet.com/product/gm-genuine-parts-engine-water-pump-kit-12630084",
+        "https://saabwisonline.com/9-3-9440/2004/2-engine/4-cylinder-petrol/cooling-system/adjustment-replacement/coolant-pump"
+      ]
+    },
+    {
+      "id": "B207-04",
+      "system": "turbo_intake_boost",
+      "concern": "Underboost, charge-air leaks, bypass/wastegate faults versus damaged turbo",
+      "applies": "B207 petrol turbochargers vary by engine variant and year; cited charge-air pressure test is MY2009 B207 only.",
+      "failure": "Loss of boost need not mean turbocharger shaft damage; hoses/intercooler, charge control and actuator require differential checks.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Check oil leaks, smoke, abnormal mechanical turbo sounds and basic engine oil integrity",
+        "Use fault codes and a variant-correct charge-air leak test, not guesswork or turbo swaps",
+        "Check actual installed turbo label, actuator and calibration before any replacement"
+      ],
+      "corrective_path": "MY2009 WIS tests isolated charge air circuit at about 1 bar and expects no more than 0.1 bar loss over 30 seconds. Factory warns excessive pressure damages parts. Actuator diaphragm function has a separate WIS check.",
+      "repair_class": "diagnosis_then_ranging_from_simple_hose_to_advanced_turbo",
+      "improvement_status": "diagnose_restore_original_function_not_generic_upgraded_turbo",
+      "cost_basis": "Hose/control and turbo full part/labor quotes not established for specific car.",
+      "unresolved": [
+        "Turbo and bypass interchange by B207E/L/R, year and VIN",
+        "Which retrofit materials or aftermarket boost controls have proven life benefit",
+        "Known incidence and complete repaired-unit cost"
+      ],
+      "prior_ids": [
+        "ng93-fact-052",
+        "ng93-fact-053"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-3-9440/2009/2-engine/4-cyl-petrol-e85/turbocharger-system/adjustment-replacement/pressure-testing-the-charge-air-cooler-and-delivery-pipe-b207",
+        "https://saabwisonline.com/9-3-9440/2004/2-engine/4-cylinder-petrol/turbocharger-system/adjustment-replacement/function-check-of-diaphragm-box"
+      ]
+    },
+    {
+      "id": "B207-05",
+      "system": "engine_core_oil_pcv",
+      "concern": "Oil leaks, PCV hoses, maintenance and damage differentiation",
+      "applies": "B207 9440 petrol, year and hardware-specific; do not import original 9-5 T7 B205/B235 PCV campaign 55561200.",
+      "failure": "PCV hose/crankcase leaks or inadequate oil history are different from diagnosed bearing damage; no blanket T7 retrofit approved for Trionic 8 B207.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Check breather routing, turbo inlet hose, oil cap/seals and actual engine oil service documents",
+        "Check mechanical oil pressure where symptoms justify, and distinguish sensor failure",
+        "Do not treat generic oil-pressure lamp absence as proof of engine mechanical health"
+      ],
+      "corrective_path": "Inspect and repair the B207 crankcase-ventilation check valve/hose using actual-year Saab intake-system procedure; verify year-specific oil grade and servicing volume. 2008 WIS distinguishes 6.0 L service refill from 6.75 L full system fill; these are not interchangeable quantities. Do not install the unrelated 9-5 T7 PCV renovation kit.",
+      "repair_class": "basic_to_advanced_depending_damage",
+      "improvement_status": "preventive_maintenance_plausible_no_controlled_longevity_claim",
+      "cost_basis": "Full PCV hose set, oil pressure diagnostics and long-term outcome not priced.",
+      "unresolved": [
+        "Engine/year-specific PCV hose service changes and original numbers",
+        "Measured condition and long-term service records for real target vehicle"
+      ],
+      "prior_ids": [],
+      "sources": [
+        "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/intake-system/adjustment-replacement/check-valve-crankcase-ventilation-checking-replacement",
+        "https://saabwisonline.com/9-3-9440/2008/2-engine/4-cyl-petrol-e85/basic-engine/technical-data/lubricating-system",
+        "https://saabwisonline.com/9-3-9440/2008/2-engine/4-cyl-petrol-e85/basic-engine/technical-description/lubricating-system"
+      ]
+    },
+    {
+      "id": "T8-01",
+      "system": "ecu_immobilizer_security",
+      "concern": "P0606 may be a false software-triggered Trionic 8 ECM fault",
+      "applies": "Saab Technical Advice TA248-0336 dated December 2003, for 9440 Trionic 8; WIS folder year alone does not extend manufacturing scope.",
+      "failure": "The factory explicitly documents false P0606 due to T8 software, and warns that changing T8 hardware does not address that condition.",
+      "purchase_decision": "repair_if_confirmed",
+      "buyer_checks": [
+        "Use variant-correct Saab diagnostic software to capture P0606 and companion DTCs before clearing",
+        "Assess normal driveability and independent wiring/supply issues; specialist performs Saab two-cycle retest per bulletin where safe",
+        "Inspect software/calibration revision before condemning ECU"
+      ],
+      "corrective_path": "Saab bulletin's Tech2 erase, two short city cycles separated by ignition-off and rescan differentiates the bulletin's false-trigger case. Saab anticipated updated early-2004 software; actual installed update and present access not established.",
+      "repair_class": "specialist_scan_programming",
+      "improvement_status": "documented_original_software_correction_path_not_proven_all_P0606",
+      "cost_basis": "Diagnostic tool/programming charges unquoted; ECU purchase alone is not justified by P0606.",
+      "unresolved": [
+        "Whether a specific VIN received fixed calibration",
+        "Access to authenticated correct current Saab programming software",
+        "Other causes of P0606 and independent hardware testing"
+      ],
+      "prior_ids": [
+        "elec-i001"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-3-9440/2005/2-engine/4-cylinder-petrol/engine-management-system-trionic-t8/bulletins-si-mi/ta248-0336-false-detection-of-dtc-p0606-00"
+      ]
+    },
+    {
+      "id": "T8-02",
+      "system": "ecu_immobilizer_security",
+      "concern": "Actual T8 module failure and replacement programming",
+      "applies": "B207 T8 9440; original donor/calibration and FWD/XWD distinctions must be validated.",
+      "failure": "A true ECM failure requires separating power, grounds, data bus, relays, immobiliser and software causes; a plug-compatible junkyard unit is not automatically operable.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Require proof of ECM diagnosis rather than a seller's engine computer guess",
+        "Ask whether original module communicates and whether both donor and car security identifiers can be read",
+        "Quote donor, cloning/programming, shipping, diagnostics, warranty and downtime together"
+      ],
+      "corrective_path": "Independent specialists list cloning for customer-supplied original and donor modules; one $89.99 vendor requires readable original, one $75 listing has stated donor limitations. Not a factory-approved unrestricted exchange.",
+      "repair_class": "electronic_specialist",
+      "improvement_status": "repair_route_known_no_proven_heat_relocation_durability_upgrade",
+      "cost_basis": "Historical advertised cloning service only: ~$75–$89.99; donor, electrical fault diagnosis, labor and shipping extra.",
+      "unresolved": [
+        "Real hardware-versus-software fault incidence",
+        "Viable recovery if original module unreadable",
+        "Authentic OE supported replacement and programming per VIN"
+      ],
+      "prior_ids": [
+        "elec-i001"
+      ],
+      "sources": [
+        "https://velectronix.com/products/2003-2011-saab-9-3-2-0l-ecm-clone-programming-service",
+        "https://www.modernclassicsaab.com/products/p/trionic-8-t8-cloning-service",
+        "https://saabwisonline.com/9-3-9440/2006/2-engine/4-cylinder-petrol/engine-management-system-trionic-t8/technical-description/control-module-trionic-4-cyl-petrol-589"
+      ]
+    },
+    {
+      "id": "KEY-01",
+      "system": "ecu_immobilizer_security",
+      "concern": "Ignition Switch Module ISM, key detector and partial replacement kit",
+      "applies": "Original Saab Parts kit 32021815 for MY2003–11 ISM 12801010; specific early 4D/CV VIN cutoffs in 365-2568 for key-detector complaint.",
+      "failure": "Stuck key detector may leave radio/key chime active or prevent locking after key removal; broken key catch is a different early defect.",
+      "purchase_decision": "repair_if_confirmed",
+      "buyer_checks": [
+        "Confirm ignition goes OFF, key removes, key detector/radio/locks behave and repeat on both keys",
+        "Distinguish ISM from SCL, CIM and bad remote via Saab module DTCs",
+        "Inspect old sliding housing before assuming kit 32021815 is sufficient"
+      ],
+      "corrective_path": "Saab bulletin 365-2568 identifies improvement for stuck ISM key detector starting sedan VIN 41033108 and convertible VIN 46011570, and a separately scoped broken key catch on early 4D VINs with improved component from 31007202. Rebuilt ISM service kit 32021815 reuses intact black sliding mechanism and is not an entire OEM ignition switch.",
+      "repair_class": "intermediate_mechanical_electrical_or_donor_required",
+      "improvement_status": "factory_identified_new_improved_ISM_cutoffs_and_conditional_repair_kit",
+      "cost_basis": "No VIN-confirmed complete fitted module/kit quote in batch.",
+      "unresolved": [
+        "Exact old/updated hardware in target car",
+        "Condition of reusable sliding mechanism",
+        "Genuine kit stock and installation labor"
+      ],
+      "prior_ids": [
+        "corrections-part-016",
+        "gate5-part-002",
+        "corrections-issue-010"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-3-9440/2003/3-electrical-system/bus-and-diagnostics-communication/bulletins-si-mi/365-2568-electronic-problems",
+        "https://saabparts.com/us/wp-content/uploads/sites/10/2023/06/Saab-93-2003_11-Ignition-Switch-Module-ISM-32021815-Kit-Saabparts-Reference-Library-version.pdf"
+      ]
+    },
+    {
+      "id": "KEY-02",
+      "system": "ecu_immobilizer_security",
+      "concern": "CIM software, keys, steering-column lock, remotes",
+      "applies": "Bulletin 365-2568 splits 4D and CV VIN boundaries; not blanket for all years, wagon or US-only extrapolation.",
+      "failure": "All remotes dead but engine starts, one remote dead, key not accepted, or SCL message have different roots and factory repair branches.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Test every supplied key and remote for start, lock/unlock, steering-column-lock function",
+        "Read CIM/SCL/ISM/BCM DTCs, battery/charging voltage and original software where needed",
+        "Prefer proof of at least two working programmed keys; quote loss-of-all-keys case before purchase"
+      ],
+      "corrective_path": "Original bulletin instructs update CIM software for all-remote failure to sedan VIN 41021535/CV 46006859; replace faulty remote rather than CIM for individually dead remote to sedan 41063612/CV 46019650; similar key-not-accepted branch. Factory WIS says keys already married to other cars cannot simply be reprogrammed and all keys lost requires CIM replacement by factory path.",
+      "repair_class": "diagnostics_plus_security_programming_specialist",
+      "improvement_status": "factory_revised_CIM_software_and_remote_hardware_paths_no_universal_CIM_swap",
+      "cost_basis": "No credible fully installed, programmed, correctly keyed module cost; do not confuse key-fob price with all-keys-lost repair.",
+      "unresolved": [
+        "Exact real-car build boundary and modules",
+        "Independent verified cheaper method with original key security access",
+        "Local specialists and delivered, configured replacement total"
+      ],
+      "prior_ids": [
+        "corrections-issue-010"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-3-9440/2003/3-electrical-system/bus-and-diagnostics-communication/bulletins-si-mi/365-2568-electronic-problems",
+        "https://saabwisonline.com/9-3-9440/2005/3-electrical-system/theft-protection/adjustment-replacement/programming-the-key",
+        "https://saabwisonline.com/9-3-9440/2005/3-electrical-system/wiring-harness-and-components/control-module/technical-description/column-integration-module-703"
+      ]
+    },
+    {
+      "id": "FA57-01",
+      "system": "transmission_driveline",
+      "concern": "Early FA57 ATF cooler-nipple seals can admit engine coolant",
+      "applies": "TA440-0702: NG9-3 MY2003–05 Sport Sedan chassis suffix <51002378; TiD SS <51000001 separately non-US/diesel; CV <56001058. Must establish exact gearbox and vehicle VIN.",
+      "failure": "Insufficient sealing between oil-cooler-line nipples and cooler; when coolant enters ATF may cause poor shifting, TCM P0715/P0720 and loss requiring complete transmission replacement per original Saab advice.",
+      "purchase_decision": "avoid_major_unpriced_work",
+      "buyer_checks": [
+        "Obtain full VIN, chassis suffix, gearbox/TCM code and evidence of factory cooler-connection correction",
+        "A qualified specialist checks ATF/coolant contamination by the correct Saab diagnostic procedure; do not perform the bulletin's historical flame/heated-ATF test without trained personnel and eye/heat protection.",
+        "Reject or price as major-repair vehicle if contamination/slipping is confirmed or cannot be safely evaluated"
+      ],
+      "corrective_path": "Saab TA440-0702 after positive contamination calls for replacing entire transmission plus cooler connections, flushing lines/cooler, checking coolant contamination and TCM adaptation. Never substitute generic radiator-only fix for a confirmed contaminated gearbox.",
+      "repair_class": "major_transmission_replacement_and_cooling_rework",
+      "improvement_status": "documented_original_campaign_cooler_connection_correction_not_transmission_cure_after_contamination",
+      "cost_basis": "Complete fitted gearbox and cooler repair cost not quoted; cannot assume $100 seals avoid existing gearbox damage.",
+      "unresolved": [
+        "Real VIN campaign/repair completion and physical gearbox identity",
+        "Uncontaminated original gearbox life after properly executed connection correction",
+        "Local full replacement cost and donor reliability"
+      ],
+      "prior_ids": [
+        "corrections-issue-006",
+        "hcdiag-issue-003",
+        "tier-failure-ng93-coolant-in-atf"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/bulletins-si-mi/ta440-0702-coolant-in-atf-oil",
+        "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/fault-diagnosis-fault-symptoms/coolant-in-automatic-transmission-fluid"
+      ]
+    },
+    {
+      "id": "FA57-02",
+      "system": "transmission_driveline",
+      "concern": "Hard shifting/gearbox warnings without demonstrated coolant contamination",
+      "applies": "FA57 actual-equipped B207 9440 and source-specific TCM fault path; do not generalize to six-speed, manual or non-FA57 units.",
+      "failure": "Shift symptoms may reflect fluid condition, electrical input/output speed signals, adaptation, temperature or internal damage; TA440-0702 is not the cause of every gearbox DTC.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Verify actual FA57 stamping and software ID",
+        "Read TCM codes including freeze frame, fluid temperature and adaptation; evaluate symptoms hot as well as cold only when roadworthy",
+        "Have a qualified technician verify fluid/cooler condition and correct year-specific service history"
+      ],
+      "corrective_path": "Diagnose transmission and its cooler, wiring, TCM inputs and actual internal damage separately. Do not buy an untested valve body, used gearbox or software on DTC alone.",
+      "repair_class": "ranging_from_electrical_diagnostics_to_major_gearbox",
+      "improvement_status": "diagnostic_differentiation_no_universal_failure_mechanism_or_upgrade",
+      "cost_basis": "No specific vehicle labor or parts cost; cannot use average online estimates as proof.",
+      "unresolved": [
+        "Condition of actual gearbox and valve body",
+        "Proven incidence by MY/gearbox suffix",
+        "Complete correct-gearbox repair quote"
+      ],
+      "prior_ids": [
+        "maint-fact-040",
+        "maint-fact-043"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/type-designations",
+        "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/fault-diagnosis-fault-symptoms/coolant-in-automatic-transmission-fluid"
+      ]
+    },
+    {
+      "id": "CHASSIS-01",
+      "system": "steering_suspension",
+      "concern": "Front spring corrosion and fracture in salt belt",
+      "applies": "Saab US/CA special coverage 15917 bulletin 731-2726: specified NG9-3 MY2003–06 sedan/wagon/CV in named salt states including NY and Canada; not a global all-year recall.",
+      "failure": "Stone/gravel trapped at lower seat damages spring coating; corrosion and potential fracture causing height/handling changes.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Check both spring lower seats/coils and strut hardware for pitting/fracture from safe lifted inspection",
+        "Check actual spring replacement invoices and correct anti-corrosion zinc plate installation where applicable",
+        "Inspect ride height, steering and adjacent brake lines; never assume the expired 10-year coverage is free today"
+      ],
+      "corrective_path": "Factory correction if spring fractured: both springs with model-appropriate EPC part numbers and zinc plates 12794486; professional spring compressors essential. Original special coverage 10 years/120k miles from in-service date, so generally expired by 2026 for these 2003–06 cars.",
+      "repair_class": "shop_or_advanced_suspension_spring_compressor",
+      "improvement_status": "documented_factory_corrosion_mitigation_zinc_plate_not_proven_lifetime_elimination",
+      "cost_basis": "No current pair springs, struts, alignment or labor quote.",
+      "unresolved": [
+        "Original vehicle coverage history and correct EPC springs",
+        "Current rust and mount condition",
+        "Long-run durability after remedy"
+      ],
+      "prior_ids": [
+        "corrections-issue-014"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-3-9440/2003/7-suspension-wheels/front-suspension/bulletins-si-mi/731-2726-front-spring-failure"
+      ]
+    },
+    {
+      "id": "CHASSIS-02",
+      "system": "body_corrosion_mounts",
+      "concern": "Subframes, load-bearing mounts, brake and fuel lines",
+      "applies": "9440 sedan/wagon/CV and FWD; actual corrosion/line routing needs car, body type and original parts identity.",
+      "failure": "Structural rust, brake/fuel line perforation or damaged chassis attachment is an independent no-drive/no-buy concern unrelated to whether B207/FA57 can be repaired.",
+      "purchase_decision": "avoid_major_unpriced_work",
+      "buyer_checks": [
+        "Inspect front and rear subframes, body pickup points, spring seats, mounting studs and jacking points with vehicle safely lifted",
+        "Inspect all accessible steel brake lines, fuel lines, clips and routing (especially salt-belt vehicles)",
+        "Reject dangerous load-bearing corrosion or leaking brake/fuel lines absent written structurally valid repair scope"
+      ],
+      "corrective_path": "Factory WIS has subframe centering/removal and routed line service methods. Actual approved metalwork and new parts must be priced by location; a universal donor subframe swap cannot be assumed.",
+      "repair_class": "body_structural_safety_professional_or_advanced_diy",
+      "improvement_status": "physical_inspection_and_restoration_no_proven_model_specific_corrosion_immunity",
+      "cost_basis": "No local metalwork/lines/subframe complete quote; parts catalogue availability not proof exact fit.",
+      "unresolved": [
+        "Actual underbody photos/probing",
+        "Correct FWD/body-specific subframe, mounts, pipes, clips and VIN fitment",
+        "Independent professional safety assessment and realistic estimate"
+      ],
+      "prior_ids": [
+        "ng93structure-fact-020",
+        "rustgate-issue-003"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-b207",
+        "https://saabwisonline.com/9-3-9440/2006/7-suspension-wheels/rear-suspension/adjustment-replacement/subframe",
+        "https://saabwisonline.com/9-3-9440/2006/8-body/body/body-panel/technical-description/galvanized-body-parts"
+      ]
+    },
+    {
+      "id": "CONFIG-01",
+      "system": "vehicle_identity",
+      "concern": "Confirm generation, market, build, engine, gearbox and body before applying any failure bulletin",
+      "applies": "North American NG9-3 9440 B207 range 2003–11; actual US VIN/year/market options and installed gearbox require original vehicle verification; 2003 old-generation convertible 9400 excluded.",
+      "failure": "Incorrectly assigning an FA57 bulletin to a manual/six-speed car, a GM part to the wrong installed revision, or a 2010 WIS mirror table to MY2009 can lead to expensive wrong repairs.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Obtain full VIN, model year, body type, destination market and running status before travel",
+        "Compare engine and gearbox tag/ID physically to manufacturer VIN/year source and EPC rather than relying on a seller trim name",
+        "Check equipment option plate for brakes and other packages; never apply B207R-only factory service scope to all B207"
+      ],
+      "corrective_path": "Use Saab original US year-specific VIN compilation, full car labels and independently confirmed OEM EPC build/parts lookup; treat Canada as separate unresolved mapping where primary year-specific information is missing.",
+      "repair_class": "research_and_physical_inspection",
+      "improvement_status": "identity_gate_required_not_mechanical_repair_or_failure_probability",
+      "cost_basis": "Data lookup, specialist VIN decode and inspection time not quoted; mismatched gearbox can turn a proposed cheap repair into an invalid diagnosis.",
+      "unresolved": [
+        "CAN market equipment decode for each target VIN",
+        "Exact physical engine/gearbox/revision and factory affected population on seller car"
+      ],
+      "prior_ids": [
+        "gate5-fact-001",
+        "gateac-issue-002",
+        "ng93-gap-001"
+      ],
+      "sources": [
+        "https://saabparts.us/wp-content/uploads/1/2023/05/VIN-breakdown-for-1999-2011-9-3-9-5.pdf",
+        "https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/type-designations",
+        "https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/technical-data/vin-plate-brake-caliper-and-brake-discs"
+      ]
+    },
+    {
+      "id": "BRAKE-01",
+      "system": "brakes_hydraulics",
+      "concern": "Brake-option identity, corrosion and safe hydraulic service",
+      "applies": "Factory NG9-3 MY2006 sample documentation for trim-dependent braking levels; no universal 2003–11 disc diameter or bolt torque.",
+      "failure": "Incorrect assumed brake level can cause wrongly ordered pads/rotors/calipers. Leaking or corroded lines, stuck calipers and worn discs are safety and purchase inspection risks; no universal original Saab brake design failure established by this evidence.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Read bottom option row of vehicle VIN plate: front disc position 7, rear disc position 8, front caliper position 9, rear caliper position 10, then confirm installed hardware",
+        "Inspect hoses, steel pipes, flexible hose swelling, seepage, pads, caliper slides and rotor condition; unsafe leaks are no-drive",
+        "Do not use generic internet torque figures, especially where procedures differ by caliper level and MY"
+      ],
+      "corrective_path": "Saab WIS has option-specific procedures and rear piston rewind service tools 89 96 969/89 96 977; replace dangerous lines/pads/callipers with correctly selected new components and bleed/verify braking under workshop procedures.",
+      "repair_class": "basic_to_professional_brake_hydraulic_safety",
+      "improvement_status": "factory_option_and_repair_data_not_documented_failure_prevalence_or_longevity_upgrade",
+      "cost_basis": "No VIN-specific fitted brake set or corroded hard-line shop estimate; 4-disc kit price cannot stand in for structural brake-line repair.",
+      "unresolved": [
+        "Per-VIN option codes and actual installed caliper revisions",
+        "Local parts supply, brake-line fabrication tools and complete safe repair quote"
+      ],
+      "prior_ids": [
+        "ng93-fact-039",
+        "ng93-fact-040",
+        "hydbrake-fact-013"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/technical-data/vin-plate-brake-caliper-and-brake-discs",
+        "https://saabwisonline.com/9-3-9440/2006/5-brakes/footbrake-system/adjustment-replacement/brake-disc-rear"
+      ]
+    },
+    {
+      "id": "SAFETY-01",
+      "system": "restraints_safety",
+      "concern": "Individual VIN recall/campaign completion, including relevant airbag inflators and restraints",
+      "applies": "Each US/Canadian car's actual VIN, model year, original airbag configuration, registration and previous recall remedy; not a blanket claim every B207 is recalled.",
+      "failure": "Unremedied safety campaign exposure can be critical even on a mechanically good car; NHTSA's current unrepaired-recall lookup is not a complete history of all past campaigns or proof of proper previous repair.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Check VIN in NHTSA recall lookup for US cars and appropriate manufacturer/Canadian channel for Canadian cars",
+        "Ask for physical recall-remedy invoice and original replaced part number; confirm any Takata inflator/seatbelt coverage by year and VIN",
+        "Do not infer a safe car just from zero current unrepaired recall hits; verify completed and older campaigns with records"
+      ],
+      "corrective_path": "Have outstanding VIN-applicable safety recalls and verified manufacturer remedies performed by authorized qualified provider before road use where safety is compromised; keep separate from other mechanical repairs.",
+      "repair_class": "authorized_recall_service_not_do_it_yourself_airbag_repair",
+      "improvement_status": "VIN_recall_remedy_gate_not_engine_reliability_improvement",
+      "cost_basis": "No promise that specific historical campaigns remain free/available for all vehicles or that aftermarket restraints are approved.",
+      "unresolved": [
+        "Actual candidate VIN historical/open remedy statuses",
+        "Proof original campaign action completed and parts origin"
+      ],
+      "prior_ids": [
+        "wp7-issue-001"
+      ],
+      "sources": [
+        "https://www.nhtsa.gov/recalls",
+        "https://www.nhtsa.gov/vehicle-safety/takata-recall-spotlight"
+      ]
+    },
+    {
+      "id": "BODY-01",
+      "system": "hvac_defrost_water",
+      "concern": "Wet passenger floor from right A-pillar/firewall seam sealant",
+      "applies": "Factory Saab TA855-0706 February 2007 market All, cars concerned 9-3 9440; no independent affected serial cutoff in bulletin.",
+      "failure": "Badly applied sealant at the RH A-pillar, firewall and front fender junction can admit water into right front carpet and drain under the carpet to the rear floor; apparent rear-only wet floor may originate at front seam.",
+      "purchase_decision": "inspect_before_negotiation",
+      "buyer_checks": [
+        "Inspect front and rear right carpet and underlay after rain/water-test with permission; check RH firewall seam and A-pillar behind glovebox",
+        "Check for persistent wet insulation, wiring corrosion, mould and evidence of earlier uncorrected leak rather than assuming a clogged A/C drain",
+        "Only inspect electrical connectors with battery safety procedures; obtain body repair quote where corrosion occurs"
+      ],
+      "corrective_path": "Factory TA855-0706 says inspect sealant both outside and inside the RH pillar firewall/fender corner, remove bad sealant, clean and reseal. Any secondary wiring/floor damage requires independent assessment.",
+      "repair_class": "body_sealing_intermediate_plus_possible_electrical_or_corrosion_remediation",
+      "improvement_status": "specific_factory_documented_seam_correction_not_guarantee_of_entire_car_watertightness",
+      "cost_basis": "Sealant and labor, underlay drying, harness corrosion repair and rust restoration not quoted.",
+      "unresolved": [
+        "Physical water source on chosen car and extent of secondary damage",
+        "Durability of executed sealant repair over years"
+      ],
+      "prior_ids": [
+        "corrections-issue-015"
+      ],
+      "sources": [
+        "https://saabwisonline.com/9-3-9440/2007/8-body/interior-equipment/bulletins-si-mi/ta855-0706-water-leak-front-rear-floor-on-right-side-of-the-passenger"
+      ]
+    }
+  ],
+  "buyer_protocol": {
+    "before_travel": [
+      "Request full VIN, engine and gearbox codes, body style and photos of underbody and spring seats",
+      "Request proof of cold start, known defects and completed corrective work, current running/drivable condition",
+      "Request engine/gearbox service invoices, valve work details, both programmed keys, unresolved CEL/TCM/CIM DTCs",
+      "Demand seller disclose coolant/ATF mixing, overheating, head repairs or significant rust; no document should be considered proof of actual condition without inspection"
+    ],
+    "on_site_if_safe": [
+      "Overnight-cold start, idle and abnormal noise/misfires without forced high load",
+      "Read all relevant Saab-specific modules, not generic emissions OBD alone; retain DTC/freeze-frame",
+      "Inspect for coolant leaks, engine oil/ATF contamination, smoke and cooling fan function when safely practical",
+      "Underbody structural rust, spring seating/fracture, brake/fuel line security; no unsafe test drives",
+      "Mechanical cold compression/leak-down and other expensive diagnostics only by competent specialist with permission"
+    ],
+    "never_drive_without_professional_clearance": [
+      "Confirmed broken spring/unsafe suspension",
+      "Leaking brakes/fuel lines or unsafe structural corrosion",
+      "Active severe overheating, engine knock or dangerously low oil pressure",
+      "Transmission verified slipping or contaminated with coolant"
+    ],
+    "final_document": [
+      "VIN-decoded build/gearbox/engine and physical tags",
+      "Dated factory procedure/campaign scope by actual chassis suffix",
+      "Seller invoice and tests for claimed corrected failure",
+      "Separate genuine/aftermarket parts/fulfilment, machine/DIY/shop labor estimates",
+      "Total repair contingency and residual uncertainty before price decision"
+    ]
+  },
+  "limits": [
+    "The dossier selects investigation and buyer decisions; no Saab model grade or reliable factory incidence denominator exists.",
+    "Supplier quotes are historic displays, not live prices or orders.",
+    "An official retrofit/service kit may restore original function without documented extended life.",
+    "Factory WIS mirrors can have mismatched folder years, so bulletin date, model, market and VIN wording override URL folder.",
+    "T8 ECM, original OG 9-5 Trionic 7 ignition cassette, and 2003 OG 9-3 convertible electronics are different hardware.",
+    "Do not replace a transmission based only on a code or disassemble a healthy B207 preventively.",
+    "This report reuses prior factory/supplier claims; a recorded WIS service procedure alone is not proof a particular component has a common factory defect."
+  ],
+  "evidence_method": {
+    "case_role_labels": {
+      "factory_documented_mechanism": "Factory Saab/regulator bulletin identifies a particular root-cause and bounded application, not an incidence or whole-year grade",
+      "factory_service_information": "An original WIS specification/procedure exists but is not by itself an abnormal component-failure frequency",
+      "observed_supplier_offer": "Retailer or specialist advertised repair/stock, not placed/fulfilled order or durability validation",
+      "condition_or_unknown": "Purchasing risk requiring inspection; no factory component design defect inferred"
+    },
+    "known_factory_documented_cases": [
+      "B207-01",
+      "T8-01",
+      "KEY-01",
+      "KEY-02",
+      "FA57-01",
+      "CHASSIS-01",
+      "BODY-01"
+    ],
+    "no_year_is_universally_safe": true,
+    "no_factory_failure_denominators_established": true,
+    "no_verified_model_ranking_or_tier": true,
+    "completeness": "Broad US/CA 9440 B207 initial buyer risk walkthrough and major repair decision paths; this is not a complete all-component 2003–2011 engineering bill of materials, and XWD, diesels, B284, 6-speed AF40/FM67 service variants, real VIN provenance and all retail repair totals need independent engineering research."
+  }
+}
