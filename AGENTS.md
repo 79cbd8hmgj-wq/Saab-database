@@ -50,6 +50,20 @@ conditions and campaign/TSB scopes can legitimately cite one document.
 Keep existing source IDs stable and correct references rather than discarding provenance.
 Update audit tests if the original ledger cohort list changes; no premature ranking.
 
+## Reviewed part and research-blocker overlap
+
+Run `python3 tools/check_part_gap_reconciliation.py --check --summary` before adding
+a potentially duplicate part identity or repeating an unresolved source/VIN blocker.
+Read [the overlap adjudication](docs/part-gap-overlap-adjudication-20261014.md).
+Five same-number part groups retain separate factory/supplier original claims,
+and two shared research gaps remain **open**. A matching number does not permit
+broadening engine-number, market, transmission or VIN fitment; e.g., part 5961610
+has conflicting original campaign and retailer engine-number conditions.
+The system index records 32 additional manually reviewed issue navigation routes;
+source quality and recall lookup cases may legitimately have **no physical system**.
+When reviewing more ambiguous fact/gap routes, use `--review --review-kind gaps --review-limit 0`
+or `--review --review-kind facts --review-limit 0` to avoid truncated review.
+
 ## Sixteen-system evidence retrieval
 
 Run `python3 tools/build_system_evidence_index.py --check --summary` before

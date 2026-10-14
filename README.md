@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- [Adjudicated duplicate part numbers, shared VIN blockers and ambiguous issue routes (2026-10-14)](docs/part-gap-overlap-adjudication-20261014.md): original source claims retained, five part identities crosslinked, two duplicated research questions still open, and 32 issue system navigation decisions reviewed. Do not infer live stock or approved supersessions.
+
 - [All existing research mapped across 16 systems](docs/system-evidence-crosswalk-20261014.md): 1,101 facts, 92 existing issues, all 89 parts explicitly assigned, and 284 gaps indexed. Cross-cutting and ambiguous records remain visible; system counts are not Saab reliability, completeness or parts-stock scores.
 
 - [Complete legacy issue reconciliation](docs/legacy-issue-consolidation-20261014.md): classify all 92 saved issue records; distinguish 19 conservative factory/safety/suspected mechanism identities from 71 diagnosis, parts, maintenance, source-error or inspection records. Links original sources, parts, facts and gaps without inventing new faults or model scores.

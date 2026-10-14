@@ -700,5 +700,115 @@
       "brakes_hydraulics"
     ]
   },
-  "explicit_record_routes_purpose": "All saved part IDs were manually checked against their source-scoped part titles for primary SYSTEM NAVIGATION. This is not a manual verification of maker, OE supersession, correct VIN fitment, supplier stock, installation, quality, or service life. Any new part ID needs reviewer classification before CI passes."
+  "explicit_record_routes_purpose": "All saved part IDs were manually checked against their source-scoped part titles for primary SYSTEM NAVIGATION. This is not a manual verification of maker, OE supersession, correct VIN fitment, supplier stock, installation, quality, or service life. Any new part ID needs reviewer classification before CI passes.",
+  "explicit_issue_routes": {
+    "corrections-issue-003": [
+      "engine_core_oil_pcv"
+    ],
+    "gate5-issue-001": [],
+    "gateac-issue-001": [],
+    "prebuy-issue-003": [
+      "transmission_driveline"
+    ],
+    "usparts-issue-001": [],
+    "vinfit-issue-001": [],
+    "wp7-issue-001": [],
+    "afdiag-issue-003": [
+      "turbo_intake_boost"
+    ],
+    "b235rev-issue-001": [
+      "maintenance_consumables"
+    ],
+    "coolsvc-issue-003": [
+      "cooling_heat",
+      "maintenance_consumables"
+    ],
+    "corrections-issue-006": [
+      "cooling_heat",
+      "transmission_driveline"
+    ],
+    "corrections-issue-010": [
+      "ecu_immobilizer_security",
+      "charging_starting_wiring"
+    ],
+    "corrections-issue-011": [
+      "engine_timing_valvetrain"
+    ],
+    "corrections-issue-013": [
+      "engine_core_oil_pcv",
+      "turbo_intake_boost"
+    ],
+    "corrections-issue-014": [
+      "steering_suspension",
+      "body_corrosion_mounts"
+    ],
+    "elec-i001": [
+      "ecu_immobilizer_security"
+    ],
+    "elec-i002": [
+      "ecu_immobilizer_security"
+    ],
+    "gate5-issue-003": [
+      "body_corrosion_mounts",
+      "maintenance_consumables"
+    ],
+    "gateac-issue-002": [
+      "transmission_driveline",
+      "steering_suspension"
+    ],
+    "hcdiag-issue-003": [
+      "transmission_driveline",
+      "cooling_heat"
+    ],
+    "nrscreen-issue-001": [
+      "fuel_emissions_exhaust",
+      "engine_core_oil_pcv"
+    ],
+    "nrscreen-issue-002": [
+      "ecu_immobilizer_security",
+      "charging_starting_wiring",
+      "fuel_emissions_exhaust"
+    ],
+    "nrscreen-issue-004": [
+      "transmission_driveline",
+      "engine_core_oil_pcv"
+    ],
+    "og95t7-issue-001": [
+      "ecu_immobilizer_security",
+      "charging_starting_wiring"
+    ],
+    "og95t7-issue-004": [
+      "ecu_immobilizer_security",
+      "charging_starting_wiring"
+    ],
+    "og95wire-issue-002": [
+      "cooling_heat",
+      "charging_starting_wiring"
+    ],
+    "ogex-issue-001": [
+      "charging_starting_wiring"
+    ],
+    "parts95-issue-002": [
+      "cooling_heat",
+      "transmission_driveline"
+    ],
+    "rustgate-issue-003": [
+      "body_corrosion_mounts",
+      "brakes_hydraulics",
+      "fuel_emissions_exhaust"
+    ],
+    "t7cool-issue-001": [
+      "cooling_heat",
+      "charging_starting_wiring"
+    ],
+    "turbsol-issue-001": [
+      "turbo_intake_boost",
+      "cooling_heat"
+    ],
+    "wp7-issue-002": [
+      "maintenance_consumables",
+      "interior_ergonomics"
+    ]
+  },
+  "explicit_issue_routes_purpose": "32 existing issue narratives with ambiguous automatic routes are reviewed for search/navigation only. Five source-quality, VIN-table, stock provenance and regulator lookup cases have [] because they are deliberately cross-cutting and do not represent a specific broken physical system. This classification does not replace the human-reviewed defect/diagnosis taxonomy or original applicability."
 }

@@ -16,6 +16,7 @@ from urllib.parse import urlparse
 
 from database import ROOT, load_datasets, validate_datasets
 from build_legacy_issue_index import validate_taxonomy
+from check_part_gap_reconciliation import build as build_overlap_relationships
 
 POLICY_PATH = ROOT / "data/audits/system-evidence-routing-policy-20261014.json"
 ISSUE_TAXONOMY_PATH = ROOT / "data/audits/legacy-issue-taxonomy-20261014.json"
@@ -66,6 +67,15 @@ def check_policy(policy: dict, methodology: dict, datasets: list[dict]) -> None:
             + "new or unreviewed parts=" + str(sorted(expected_parts - set(curated)))
             + "; obsolete or non-part overrides=" + str(sorted(set(curated) - expected_parts))
         )
+    issue_overrides = policy.get("explicit_issue_routes", {})
+    if not isinstance(issue_overrides, dict):
+        raise ValueError("Issue routing review must map issue IDs to search system lists")
+    issue_ids = {id_ for id_, kind in originals.items() if kind == "issues"}
+    for id_, routes in issue_overrides.items():
+        if (id_ not in issue_ids or not isinstance(routes, list)
+            or len(routes) != len(set(routes)) or set(routes) - systems):
+            raise ValueError("Invalid reviewed issue navigation route: " + id_)
+
 
 
 def topic_fields(kind: str, record: dict) -> list[tuple[str, str, int]]:
@@ -110,9 +120,13 @@ def route(kind: str, record: dict, domain: str, policy: dict) -> dict:
                 matched[system].update(field + ":" + x for x in sorted(matching))
 
     overrides = policy.get("explicit_record_routes", {})
-    manual = overrides.get(record["id"])
-    if manual is not None:
-        candidates = list(manual)
+    issue_overrides = policy.get("explicit_issue_routes", {})
+    if kind == "issues" and record["id"] in issue_overrides:
+        candidates = list(issue_overrides[record["id"]])
+        route_basis = "curated_explicit_issue_navigation"
+        review = "source_scope_and_engineering_still_required"
+    elif record["id"] in overrides:
+        candidates = list(overrides[record["id"]])
         route_basis = "curated_explicit_record"
         review = "source_scope_and_engineering_still_required"
     elif scores:
@@ -138,7 +152,7 @@ def route(kind: str, record: dict, domain: str, policy: dict) -> dict:
         # Show actual matched fields, so the reviewer can correct an ambiguous route.
         "matched_topic_fields": sorted(
             {token.split(":", 1)[0] for s in candidates for token in matched.get(s, ())}
-        ) if manual is None else [],
+        ) if route_basis not in {"curated_explicit_record", "curated_explicit_issue_navigation"} else [],
     }
 
 
@@ -195,6 +209,10 @@ def build(datasets: list[dict], policy: dict, method: dict,
     }
     if known_counts != census["counts"]:
         raise ValueError("Original dataset count drift from reproducible census")
+    overlap = build_overlap_relationships(
+        datasets,
+        json.loads((ROOT / "data/audits/part-gap-overlap-review-20261014.json").read_text(encoding="utf-8"))
+    )
     source = {s["id"]: s for d in datasets for s in d["sources"]}
     evidence_urls: dict[str, set[str]] = defaultdict(set)
     shared_url_issue_ids: dict[str, set[str]] = defaultdict(set)
@@ -237,6 +255,10 @@ def build(datasets: list[dict], policy: dict, method: dict,
                     "source_overlap_proves_same_root_cause": False,
                     "source_overlap_proves_same_vehicle_scope": False,
                     "eligible_for_model_rating_from_this_index": False,
+                    "reviewed_same_number_part_claims":
+                        overlap["parts_by_original_id"].get(record_id),
+                    "reviewed_shared_open_gap_blocker":
+                        overlap["gaps_by_original_id"].get(record_id),
                 }
                 if kind == "facts":
                     out.update({
@@ -297,6 +319,10 @@ def build(datasets: list[dict], policy: dict, method: dict,
         "input_dataset_count": len(datasets),
         "input_technical_counts": {k: known_counts[k] for k in KINDS},
         "tracked_systems": len(by_system),
+        "manually_reconciled_exact_part_groups":
+            overlap["stats"]["repeated_part_number_groups_reviewed"],
+        "manually_reconciled_shared_gap_blockers":
+            overlap["stats"]["repeated_gap_title_groups_reviewed"],
         "record_routes": dict(sorted(routing.items())),
         "unrouted_cross_cutting_records": sum(r["cross_cutting_or_unresolved_system"]
                                               for r in records),
@@ -304,6 +330,8 @@ def build(datasets: list[dict], policy: dict, method: dict,
                                                        for r in records),
         "explicitly_curated_system_routes": sum(
             r["routing_basis"] == "curated_explicit_record" for r in records),
+        "reviewed_ambiguous_issue_navigation_routes": sum(
+            r["routing_basis"] == "curated_explicit_issue_navigation" for r in records),
         "systems": by_system,
         "records": sorted(records, key=lambda r: (r["kind"], r["id"])),
         "all_records_reconciled_to_a_traceable_entry": True,
@@ -323,6 +351,10 @@ def main() -> int:
     parser.add_argument("--output", type=Path, help="Export source-linked full research index")
     parser.add_argument("--review", action="store_true",
                         help="Print navigation-only cross-cutting and multi-system routing candidates")
+    parser.add_argument("--review-kind", choices=["facts", "issues", "parts", "gaps", "all"],
+                        default="all", help="Filter the review queue by original record type")
+    parser.add_argument("--review-limit", type=int, default=250,
+                        help="Maximum review records printed; 0 exports ALL review candidates")
     args = parser.parse_args()
     index = build(
         load_datasets(), load(POLICY_PATH), load(METHOD_PATH),
@@ -336,6 +368,9 @@ def main() -> int:
             "dataset_count": index["input_dataset_count"],
             "record_counts": index["input_technical_counts"],
             "systems": index["tracked_systems"],
+            "manually_reconciled_part_number_groups":index["manually_reconciled_exact_part_groups"],
+            "reviewed_ambiguous_issue_routes":index["reviewed_ambiguous_issue_navigation_routes"],
+            "still_open_shared_gap_blockers":index["manually_reconciled_shared_gap_blockers"],
             "routes": index["record_routes"],
             "cross_cutting_or_unrouted": index["unrouted_cross_cutting_records"],
             "multi_system_records": index["records_with_multiple_candidate_systems"],
@@ -347,18 +382,38 @@ def main() -> int:
             "cross_cutting_by_domain": dict(Counter(
                 x["domain"] for x in index["records"]
                 if x["cross_cutting_or_unresolved_system"])),
+            "cross_cutting_issue_records": [
+                {"id": x["id"], "title": x.get("title"),
+                 "claim_type": x.get("claim_type"), "domain": x["domain"]}
+                for x in index["records"]
+                if x["kind"] == "issues" and x["cross_cutting_or_unresolved_system"]
+            ],
+            "multi_system_issue_records": [
+                {"id": x["id"], "title": x.get("title"),
+                 "candidate_systems": x["system_ids_for_discovery"]}
+                for x in index["records"]
+                if x["kind"] == "issues" and x["possible_multiple_systems"]
+            ],
         }, indent=2, ensure_ascii=False))
     if args.review:
+        if args.review_limit < 0:
+            parser.error("--review-limit cannot be negative")
+        rows = [
+            {k: x.get(k) for k in ("id", "kind", "domain", "title", "subject",
+                    "predicate", "primary_navigation_system",
+                    "system_ids_for_discovery", "routing_basis",
+                    "cross_cutting_or_unresolved_system", "possible_multiple_systems")}
+            for x in index["records"]
+            if (x["cross_cutting_or_unresolved_system"] or x["possible_multiple_systems"])
+            and (args.review_kind == "all" or x["kind"] == args.review_kind)
+        ]
         print(json.dumps({
-            "review_records": [
-                {k: x.get(k) for k in ("id", "kind", "domain",
-                    "title", "subject", "predicate", "primary_navigation_system",
-                    "system_ids_for_discovery", "routing_basis")}
-                for x in index["records"]
-                if x["cross_cutting_or_unresolved_system"]
-                    or x["possible_multiple_systems"]
-            ][:250],
-            "showing_first_250": True,
+            "review_kind": args.review_kind,
+            "review_candidates_total": len(rows),
+            "review_records": rows[:args.review_limit] if args.review_limit else rows,
+            "review_records_printed": min(len(rows), args.review_limit)
+                                      if args.review_limit else len(rows),
+            "truncated": bool(args.review_limit and len(rows) > args.review_limit),
         }, indent=2, ensure_ascii=False))
     if args.find or args.system:
         if args.system and args.system not in index["systems"]:

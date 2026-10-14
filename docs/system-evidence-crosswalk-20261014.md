@@ -89,6 +89,10 @@ python3 tools/build_system_evidence_index.py --output /tmp/saab-system-evidence.
 
 The index is derived on demand from stored authoritative research records: **we intentionally did not check a second 1,566-record copy into the repository**, which would rapidly become stale or create another duplicate-data workflow. New part records must be manually routed to a system; new datasets or changed system definitions must be explicitly reviewed by CI.
 
+## Subsequent overlap and issue-route review
+
+The [October 14 follow-up review](part-gap-overlap-adjudication-20261014.md) has since reconciled the five repeated part numbers and two same-title **still-open** VIN research blockers. It also manually reviewed 32 ambiguous issue navigation entries, preserving five source/recall-provenance issues as cross-cutting. The updated generator now reports **197 cross-cutting/unrouted** and **244 multi-system** records; the **199 / 250** and **1,135 keyword routes** above are the *original PR #71 baseline*, retained for audit history. No fact/gap-only route was thereby externally source-certified.
+
 ## What still needs source-level reconciliation
 
 This completes the **initial full-inventory and source-preserving system crosswalk**, not factory-defect research completeness. The necessary follow-up is to examine the 199 cross-cutting records and 250 multi-system candidates, and then reconcile actual part number/version/applicability links and meaningful gap closures against the existing 19 mechanism groups and sixteen systems. That review must distinguish system specs, original manufacturer defect mechanisms, factory corrective revisions, observed failure events, parts supply and complete repair economics.
