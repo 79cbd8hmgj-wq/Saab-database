@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- [Evidence standard before any Saab tier list](docs/tier-evidence-standard.md): independent original-component reliability, known failure burden, verified 2026 replacement supply and repair economics; 16 systems, 110 unranked US configuration groups, no inferred failure percentages or model preferences. The current tier comparison universe remains unapproved beyond the existing shopping-screen scope.
+
 - [U.S. OEM parts, specialized tools and B205/B235 renovation-kit research](docs/us-oem-parts-tool-readiness.md): eleven manufacturer/retailer source-gated job plans, exact-year versus cross-year research leads, gearbox/case labels, Tech2, safe lifting, VIN-dependent mounts and unverified installed costs.
 
 - [Original 9-3 T7 PCV factory bulletin and October 2026 kit sourcing](docs/research/early-t7-pcv-kit-sourcing-20261014.md): separate 210-2418 complaint-gated factory kit from ProParts aftermarket reference, exact partial/complete hose contents, dated advertised availability and unresolved OEM supersession.
