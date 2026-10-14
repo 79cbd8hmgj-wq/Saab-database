@@ -17,6 +17,8 @@ The final output may be a tiered comparison **only after a shared evidence stand
 | **Current parts availability** | Correct OE part, directed Saab supersession, supplier-referenced aftermarket substitute, U.S. delivered inventory, suppliers, lead time, programming/tools and cost | Multiple listings do not prove current stock, OEM approval, physical interchange or durability |
 | **Repair economics** | DIY feasibility vs qualified shop, complete parts/hardware/fluids/tools, labor, core/shipping/tax/towing, and rust/powertrain write-off thresholds | Factory warranty-operation time or cheapest listing is not an all-in repair quote |
 
+The [blank component evidence intake](../data/tier-research/component-evidence-template.json) holds original installed-part revision, precise cohort and failure mechanism, properly denominated risk (or explicit unknown), OEM versus aftermarket replacement proof, dated supply observations, and separately costed DIY/specialist work. No example VIN, defect frequency, verified cost or fitment is fabricated. The actual ledger of independently reviewed research observations remains [empty until evidence is entered](../data/tier-research/observations.json).
+
 The machine-readable standard: [`data/tier-research/methodology.json`](../data/tier-research/methodology.json). Separate typed observation categories: [`data/tier-research/observations.json`](../data/tier-research/observations.json).
 
 ## Why the current 110 are not an adequate tier-list universe
