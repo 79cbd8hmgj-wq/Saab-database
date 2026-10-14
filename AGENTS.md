@@ -30,6 +30,11 @@ simulator or a source of verified failure probabilities.
 Before adding a factory fault, component revision, part substitution, price observation,
 or new gap, consult the [whole-repository reuse audit](docs/research-reuse-audit-20261014.md)
 and run `python3 tools/audit_research_reuse.py --summary`.
+Run `python3 tools/build_legacy_issue_index.py --check` and
+`python3 tools/build_legacy_issue_index.py --find 'topic'` before recording an issue.
+**Every saved issue must appear exactly once in the [reviewed legacy issue taxonomy](data/audits/legacy-issue-taxonomy-20261014.json).**
+Never label a diagnostic, source conflict or part fitment warning as a documented
+factory design mechanism; primary Saab/regulator documentation and scope required.
 Search all existing datasets by original **source URL/bulletin number**, fault root cause,
 source/issue/part/gap ID, and exact platform, market, model year, engine, body,
 transmission and applicable VIN/serial scope.

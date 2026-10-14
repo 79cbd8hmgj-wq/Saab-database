@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- [Complete legacy issue reconciliation](docs/legacy-issue-consolidation-20261014.md): classify all 92 saved issue records; distinguish 19 conservative factory/safety/suspected mechanism identities from 71 diagnosis, parts, maintenance, source-error or inspection records. Links original sources, parts, facts and gaps without inventing new faults or model scores.
+
 - [Whole-repository evidence reuse audit (2026-10-14)](docs/research-reuse-audit-20261014.md): 42 datasets, 92 existing issue records, 53 repeatedly cited source URLs, recurring facts/parts/gaps and direct links to previously known faults. **Search/reconcile before new factory-defect research; no model tiers.**
 
 - [First component evidence ledger](docs/research/component-defects-first-ledger-20261014.md): two original ignition-module revisions, three cohort-specific failure cases representing two engineering mechanisms; regulator/factory boundaries, unknown frequency and costs, no rankings.

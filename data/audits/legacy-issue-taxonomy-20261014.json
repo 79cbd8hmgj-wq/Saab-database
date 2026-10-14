@@ -1,0 +1,370 @@
+{
+  "schema_version": "1.0.0",
+  "status": "curated_reuse_crosswalk_not_external_factory_defect_census",
+  "as_of": "2026-10-14",
+  "interpretation": "Every legacy issue is classified by its actual claim type. Specific factory-documented mechanisms and documented campaigns are not frequency or completeness claims. Other categories are not established recurring design defects. Original issue sources and exact applicability are authoritative. Do not broaden or change their scope from this manifest.",
+  "categories": {
+    "factory_documented_mechanism": "The original source reports a specific fault cause/design or component vulnerability. Existence/scope only, not fleet incidence.",
+    "factory_safety_campaign": "Manufacturer/regulator campaign or safety nonconformance; campaign population/repair instructions must not imply observed failures.",
+    "suspected_factory_mechanism": "Factory source reports a hypothesis, not a verified cause or measured failure rate.",
+    "diagnostic_nonunique": "Diagnostic ambiguity, symptom differential, or failure scenario without a single proved original factory mechanism.",
+    "parts_fitment_dependency": "Part/application, hardware architecture, conditional service kit or interchangeable-product research; not proof of failure.",
+    "maintenance_service": "Manufacturer service conditions, installation hazards or maintenance requirements; not a systemic factory defect.",
+    "source_scope_conflict": "Source discrepancy, copied year folder, market exclusion, or unreliable seller claim; needs original applicability/revision review.",
+    "vehicle_safety_inspection": "Physical inspection, corrosion or vehicle-instance safety concern; original-factory defect not established by the record.",
+    "research_evidence_gate": "Missing safety-history or source identity that prevents verification; not a technical failure."
+  },
+  "assignments": {
+    "factory_documented_mechanism": [
+      "corrections-issue-002",
+      "corrections-issue-003",
+      "corrections-issue-004",
+      "corrections-issue-005",
+      "corrections-issue-006",
+      "corrections-issue-007",
+      "corrections-issue-008",
+      "corrections-issue-009",
+      "corrections-issue-011",
+      "corrections-issue-014",
+      "corrections-issue-015",
+      "pcv-supply-issue-001"
+    ],
+    "factory_safety_campaign": [
+      "corrections-issue-016",
+      "corrections-issue-017",
+      "corrections-issue-018",
+      "corrections-issue-019",
+      "corrections-issue-020",
+      "wp7-issue-003",
+      "wp7-issue-004",
+      "wp7-issue-005"
+    ],
+    "suspected_factory_mechanism": [
+      "corrections-issue-012"
+    ],
+    "diagnostic_nonunique": [
+      "maint-issue-001",
+      "corrections-issue-001",
+      "corrections-issue-010",
+      "corrections-issue-013",
+      "hcdiag-issue-001",
+      "hcdiag-issue-002",
+      "hcdiag-issue-003",
+      "afdiag-issue-001",
+      "afdiag-issue-002",
+      "og95wire-issue-001",
+      "og95wire-issue-002",
+      "wp6-issue-001",
+      "wp6-issue-002",
+      "wp6-issue-003",
+      "t7cool-issue-001",
+      "t7cool-issue-002",
+      "t7cool-issue-003",
+      "og95t7-issue-001",
+      "og95t7-issue-002",
+      "og95t7-issue-003",
+      "og95t7-issue-004",
+      "turbsol-issue-002",
+      "prebuy-issue-001",
+      "prebuy-issue-003",
+      "nrscreen-issue-001",
+      "nrscreen-issue-002",
+      "nrscreen-issue-003",
+      "nrscreen-issue-004",
+      "rrtriage-issue-001",
+      "rrtriage-issue-002",
+      "rrtriage-issue-003",
+      "rrtriage-issue-004"
+    ],
+    "parts_fitment_dependency": [
+      "maint-issue-002",
+      "b235rev-issue-002",
+      "as-i001",
+      "xint-issue-001",
+      "xint-issue-002",
+      "xint-issue-003",
+      "gate5-issue-002",
+      "parts95-issue-001",
+      "parts95-issue-002",
+      "ogex-issue-001",
+      "hydbrake-issue-003",
+      "hydbrake-issue-004",
+      "gateac-issue-002",
+      "elec-i001",
+      "elec-i002",
+      "vinfit-issue-002"
+    ],
+    "maintenance_service": [
+      "b235rev-issue-001",
+      "coolsvc-issue-001",
+      "coolsvc-issue-003",
+      "gate5-issue-003",
+      "turbsol-issue-001",
+      "prebuy-issue-002",
+      "wp7-issue-002",
+      "parts95-issue-003"
+    ],
+    "source_scope_conflict": [
+      "gmwp-issue-001",
+      "gate5-issue-001",
+      "afdiag-issue-003",
+      "coolsvc-issue-002",
+      "turbsol-issue-003",
+      "hydbrake-issue-001",
+      "hydbrake-issue-002",
+      "wp7-issue-006",
+      "gateac-issue-001",
+      "usparts-issue-001",
+      "vinfit-issue-001"
+    ],
+    "vehicle_safety_inspection": [
+      "rustgate-issue-001",
+      "rustgate-issue-002",
+      "rustgate-issue-003"
+    ],
+    "research_evidence_gate": [
+      "wp7-issue-001"
+    ]
+  },
+  "mechanism_clusters": [
+    {
+      "id": "mechanism-idm-igbt-overload",
+      "issue_ids": [
+        "corrections-issue-004"
+      ],
+      "state": "factory_documented",
+      "scope_note": "Original four-cylinder and B308 module cases, separate modules/serials/populations; tier ledger contains separate cohort cases with shared engineering mechanism."
+    },
+    {
+      "id": "mechanism-fa57-cooler-connection-seal",
+      "issue_ids": [
+        "corrections-issue-006"
+      ],
+      "state": "factory_documented",
+      "scope_note": "TA440-0702 all-market diagnostic advice; do not merge with narrower early-coupler campaign."
+    },
+    {
+      "id": "mechanism-og95-b235-manual-oil-trap-ventilation",
+      "issue_ids": [
+        "corrections-issue-002"
+      ],
+      "state": "factory_documented",
+      "scope_note": "Manual gearbox, model years and engine/VIN limitations from CSP15433; not general PCV failure rate."
+    },
+    {
+      "id": "mechanism-og95-ventilation-throttle-hose-detach",
+      "issue_ids": [
+        "corrections-issue-003"
+      ],
+      "state": "factory_documented",
+      "scope_note": "Specific ventilation hose retention bulletin and limited VIN applicability."
+    },
+    {
+      "id": "mechanism-ng93-early-cooler-coupling-oring-displacement",
+      "issue_ids": [
+        "corrections-issue-005"
+      ],
+      "state": "factory_documented",
+      "scope_note": "Narrow campaign, distinguish from TA440-0702 contamination advice, no shared probability inferred."
+    },
+    {
+      "id": "mechanism-ng93-cim-remote-software",
+      "issue_ids": [
+        "corrections-issue-007"
+      ],
+      "state": "factory_documented",
+      "scope_note": "Early specific CIM software bulletin scope."
+    },
+    {
+      "id": "mechanism-ng93-remote-key-acceptance",
+      "issue_ids": [
+        "corrections-issue-008"
+      ],
+      "state": "factory_documented",
+      "scope_note": "Early remote/key correction; separate from CIM software and ISM detector."
+    },
+    {
+      "id": "mechanism-ng93-ism-key-detector-material",
+      "issue_ids": [
+        "corrections-issue-009"
+      ],
+      "state": "factory_documented",
+      "scope_note": "Original ISM detector material fault, not all start-blocking alerts."
+    },
+    {
+      "id": "mechanism-b207-intake-valve-seat-face-wear",
+      "issue_ids": [
+        "corrections-issue-011"
+      ],
+      "state": "factory_documented",
+      "scope_note": "Original documented MY/engine split; unverified 2006 cold compression does not automatically qualify."
+    },
+    {
+      "id": "mechanism-b207-block-casting-porosity-hypothesis",
+      "issue_ids": [
+        "corrections-issue-012"
+      ],
+      "state": "suspected_not_confirmed",
+      "scope_note": "Saab engineering suspicion only, isolate other coolant loss causes; not proven block fault."
+    },
+    {
+      "id": "mechanism-ng93-front-coil-spring-corrosion",
+      "issue_ids": [
+        "corrections-issue-014"
+      ],
+      "state": "factory_documented",
+      "scope_note": "Coating damage/gravel corrosion cause, specific cold/salt regional coverage."
+    },
+    {
+      "id": "mechanism-ng93-rh-a-pillar-seam-water-ingress",
+      "issue_ids": [
+        "corrections-issue-015"
+      ],
+      "state": "factory_documented",
+      "scope_note": "Specific seam sealant defect; not all body water entry."
+    },
+    {
+      "id": "mechanism-og93-b205-b235-pcv-ventilation-flow",
+      "issue_ids": [
+        "pcv-supply-issue-001"
+      ],
+      "state": "factory_documented",
+      "scope_note": "Original 9400 PCV renovation bulletin; distinct from later 9600 manual oil trap scope."
+    },
+    {
+      "id": "mechanism-takata-driver-airbag-inflator-rupture",
+      "issue_ids": [
+        "corrections-issue-016",
+        "corrections-issue-020",
+        "wp7-issue-004"
+      ],
+      "state": "campaign_documented",
+      "scope_note": "One safety hazard mechanism with separately scoped regulator recall, service implementation and MY2006-09 research record; not three independent factory defect rates."
+    },
+    {
+      "id": "mechanism-ng93-fuel-pump-internal-spec-seizure",
+      "issue_ids": [
+        "corrections-issue-017"
+      ],
+      "state": "campaign_documented",
+      "scope_note": "Original-equipment specific 2010-11 US recall not entire NG9-3 fuel system."
+    },
+    {
+      "id": "mechanism-ng93-sedan-front-seatbelt-ats-manufacturing",
+      "issue_ids": [
+        "corrections-issue-018"
+      ],
+      "state": "campaign_documented",
+      "scope_note": "Early sedan cable damage campaign; not automatically equivalent to separate later 2004 campaign."
+    },
+    {
+      "id": "mechanism-ng93-2004-sedan-driver-seatbelt-cable-aging",
+      "issue_ids": [
+        "corrections-issue-019"
+      ],
+      "state": "campaign_documented",
+      "scope_note": "Separate 10V043 aging condition, no equivalence to early manufacturing damage without hardware/revision proof."
+    },
+    {
+      "id": "mechanism-og95-occupant-impact-trim-noncompliance",
+      "issue_ids": [
+        "wp7-issue-003"
+      ],
+      "state": "campaign_documented",
+      "scope_note": "MY2008 9-5 A-pillar occupant protection FMVSS issue, not Takata."
+    },
+    {
+      "id": "mechanism-ng93-cv-driver-belt-retractor-cable",
+      "issue_ids": [
+        "wp7-issue-005"
+      ],
+      "state": "campaign_documented",
+      "scope_note": "Convertible-specific driver belt retractor; distinct from sedan recalls."
+    }
+  ],
+  "related_existing_issue_links": [
+    {
+      "type": "same_factory_mechanism_nonidentical_role",
+      "ids": [
+        "corrections-issue-011",
+        "hcdiag-issue-002"
+      ],
+      "note": "Factory valve-seat-face wear versus differential cold-misfire diagnosis, not two independent mechanisms."
+    },
+    {
+      "type": "same_factory_mechanism_nonidentical_role",
+      "ids": [
+        "corrections-issue-006",
+        "hcdiag-issue-003",
+        "maint-issue-002"
+      ],
+      "note": "TA440-0702 source repeated under different IDs; keep contamination cause, diagnostic and gearbox identity checks distinct."
+    },
+    {
+      "type": "separate_campaign_same_cooling_interface",
+      "ids": [
+        "corrections-issue-005",
+        "corrections-issue-006"
+      ],
+      "note": "Narrow O-ring campaign versus broader factory technical-advice diagnosis. Do not unify application populations."
+    },
+    {
+      "type": "common_subject_different_evidence",
+      "ids": [
+        "corrections-issue-002",
+        "parts95-issue-001"
+      ],
+      "note": "Manufacturer PCV correction versus VIN/part fitment caveat."
+    },
+    {
+      "type": "same_source_revision_problem",
+      "ids": [
+        "gateac-issue-001",
+        "vinfit-issue-001"
+      ],
+      "note": "Saab WIS year-folder/MY2010 table mismatch is a source provenance hazard, not a failed car component."
+    },
+    {
+      "type": "shared_body_service_cutover_different_uses",
+      "ids": [
+        "gate5-issue-003",
+        "parts95-issue-003",
+        "coolsvc-issue-002"
+      ],
+      "note": "Mount torque/VIN cutover source appears in multiple service and year-folder contexts."
+    },
+    {
+      "type": "different_causes_similar_symptoms",
+      "ids": [
+        "og95t7-issue-004",
+        "corrections-issue-004"
+      ],
+      "note": "IDM power/feedback wiring diagnosis must not be conflated with confirmed recall overload mechanism."
+    },
+    {
+      "type": "same_prebuy_seller_unknown",
+      "ids": [
+        "wp6-issue-001",
+        "nrscreen-issue-001"
+      ],
+      "note": "Seller-reported catalyst symptom has no measured restriction or attributed original factory cause."
+    },
+    {
+      "type": "different_population_same_safety_hazard",
+      "ids": [
+        "corrections-issue-016",
+        "corrections-issue-020",
+        "wp7-issue-004"
+      ],
+      "note": "Inflator hazard shared while recall service and registration scopes remain separate."
+    },
+    {
+      "type": "brake_option_document_vs_cross-reference",
+      "ids": [
+        "hydbrake-issue-003",
+        "xint-issue-002"
+      ],
+      "note": "Factory brake option table and non-VIN-certified parts catalogue source are different kinds of evidence."
+    }
+  ]
+}

@@ -4,6 +4,8 @@
 
 This is an **entire-dataset structural and research-overlap audit**, not a page-by-page recertification of every original Saab document. The reproducible analyzer is [tools/audit_research_reuse.py](../tools/audit_research_reuse.py); [CI and its regression suite](../tests/test_research_reuse_audit.py) run it. No vehicle tiers, reliability rates, new defects, VIN-fitment approvals or model preferences are introduced.
 
+**Subsequent consolidation:** [October 14 legacy issue crosswalk](legacy-issue-consolidation-20261014.md) has now classified and linked **all 92 preexisting issue records**, producing 19 conservative factory/campaign/suspected mechanism identities and a searchable original-source URL/part/fact/gap navigator. This preserves all existing technical datasets, does not rank Saab cars and is **not** an external completeness audit.
+
 ## 1. Existing material
 
 | Database quantity | Count | Interpretation |
