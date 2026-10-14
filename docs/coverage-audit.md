@@ -1,6 +1,6 @@
-# Phase 0 research coverage audit — 40-domain refresh
+# Phase 0 research coverage audit — 41-domain refresh
 
-**Audit basis:** October 13, 2026, 40 research datasets. This release adds original Saab Automobile USA MY2004–07 VIN documents and manufacturer-channel conditional service-kit provenance; earlier Phase 0 audit baselines remain in merged pull-request history. This is a census of saved records, **not** an independent recertification of every original Saab source, an estimate of percent complete, or an engineering safety certification. The earlier seven-domain baseline is superseded.
+**Audit basis:** October 14, 2026, 41 research datasets. This release adds original Saab Automobile USA MY2004–07 VIN documents and manufacturer-channel conditional service-kit provenance; earlier Phase 0 audit baselines remain in merged pull-request history. This is a census of saved records, **not** an independent recertification of every original Saab source, an estimate of percent complete, or an engineering safety certification. The earlier seven-domain baseline is superseded.
 
 **Current omission register:** The [Phase 0 independent gap audit](phase0-gap-audit-2026-10-13.md) identifies decision-blocking source and vehicle-measurement gaps across both target Saab platforms and names three under-tracked coverage questions. It is qualitative, deliberately excluded from the numeric census, and leaves Gates A/B/C unchanged.
 
@@ -107,7 +107,7 @@ VIN-approved, bidirectional, or suitable for a safety-critical repair.
 ### Distribution of recorded evidence by research domain
 
 | Dataset domain | Sources | Facts | Issues | Parts | Gaps |
-| --- | ---: | ---: | ---: | ---: |
+| --- | ---: | ---: | ---: | ---: | ---: |
 | `b235_maintenance_fa57_identity` | 13 | 44 | 2 | 0 | 9 |
 | `b235r_oil_pcv_2006_2008` | 17 | 31 | 2 | 7 | 9 |
 | `corrections` | 27 | 9 | 20 | 26 | 7 |
