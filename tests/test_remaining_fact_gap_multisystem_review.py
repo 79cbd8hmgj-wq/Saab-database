@@ -36,7 +36,7 @@ class RemainingSystemReviewTests(unittest.TestCase):
         gaps=sum(x["kind"]=="gaps" for x in registry.values())
         self.assertEqual((facts,gaps),(337,80))
         self.assertEqual(len(registry),417)
-        self.assertEqual(self.index["reviewed_fact_gap_navigation_routes"],417)
+        self.assertEqual(self.index["reviewed_fact_gap_navigation_routes"],{"facts":337,"gaps":80})
         self.assertEqual(self.index["remaining_unreviewed_ambiguous_record_count"],0)
         self.assertEqual(self.index["input_technical_counts"],
                          {"facts":1101,"issues":92,"parts":89,"gaps":284})
