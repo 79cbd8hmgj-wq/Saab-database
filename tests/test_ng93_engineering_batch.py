@@ -41,7 +41,7 @@ class EngineeringBatchTests(unittest.TestCase):
         by={r["id"]:r for r in self.data["cases"]}
         self.assertIn("not_proven",by["B207-01"]["improvement_status"])
         self.assertIn("not_improved",by["B207-03"]["improvement_status"])
-        self.assertIn("false",by["T8-01"]["concern"].lower()) if False else None
+        self.assertIn("false",by["T8-01"]["concern"].lower())
         self.assertIn("complete transmission replacement",by["FA57-01"]["corrective_path"])
         self.assertIn("black",by["KEY-01"]["corrective_path"])
 
