@@ -10,12 +10,14 @@ engines, and platforms.
 
 ## Start here
 
+- [U.S. OEM parts and specialized-tool readiness](docs/us-oem-parts-tool-readiness.md): eight manufacturer/retailer source-gated job plans, exact-year versus cross-year research leads, gearbox/case labels, Tech2, safe lifting, VIN-dependent mounts and unverified installed costs.
+
 - [Saab lot visit pocket card — October 16, 2026](docs/lot-visit-pocket-card-2026-10-16.md): quick private-VIN, rust, key/title and seller-history intake for stored/nonrunning 9-3/9-5s; no unsafe cranking or premature purchase verdicts.
 - [Detailed Saab lot visit guide](docs/lot-visit-field-guide-2026-10-16.md): staged inspection and STOP/HOLD/FINALIST rules, especially the rear-subframe-rust versus seller's catalyst claim on a 2008 9-5 wagon.
 
 - [U.S. feasibility evidence-gap audit](data/audits/us-feasibility-powertrain-gaps.json): 110 groups; 0 missing baseline engine-core scenarios, 0 missing baseline transmission scenarios, and 0 without baseline platform-specific structural research. These are research gaps, not reported failures.
 
-- [U.S. Saab repair-versus-replace feasibility matrix](docs/us-repair-vs-replace-feasibility.md): 14 source-backed scenarios for avoiding unnecessary engine/transmission rebuilding, safety walk-away conditions and unpriced DIY-versus-specialist options, mapped to all 110 eligible U.S. production groups.
+- [U.S. Saab repair-versus-replace feasibility matrix](docs/us-repair-vs-replace-feasibility.md): 24 source-backed scenarios for avoiding unnecessary engine/transmission rebuilding, safety walk-away conditions and unpriced DIY-versus-specialist options, mapped to all 110 eligible U.S. production groups.
 
 - [U.S. factory engine identities and avoid-rebuild screening](docs/us-engine-factory-and-no-rebuild-triage.md): 110 production groups mapped to WIS engine-code evidence, exact MY2011 A20NFT/LHU VIN distinction, and US/Canada-specific early B205/B235 sludge/bearing bulletin boundaries. VIN fitment and reliability ranking remain unverified.
 

@@ -1,0 +1,453 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-10-14",
+  "scope": {
+    "market": "US",
+    "models": [
+      "9-3",
+      "9-5"
+    ],
+    "years": [
+      1998,
+      2011
+    ],
+    "transmission": "factory automatic",
+    "drivetrain": "FWD",
+    "exclude": [
+      "convertibles",
+      "manual",
+      "AWD/XWD"
+    ]
+  },
+  "purpose": "Factory workshop and dated retail evidence of the information and equipment needed BEFORE ordering specific parts or asserting DIY workability; VIN/case/quotes missing.",
+  "source_records": [
+    {
+      "id": "ready-wis-9600-2000-af30",
+      "year": 2000,
+      "platform": "9600",
+      "url": "https://saabwisonline.com/9-5-9600/2000/4-transmission/automatic-transmission/technical-data/type-designation",
+      "title": "Saab 9-5 9600 MY2000 original AF30/FA47 type identification",
+      "fact": "MY2000 FA47 example labels manufacturer/engine adaptation and serial; AF30 is family, not an interchangeable donor assembly."
+    },
+    {
+      "id": "ready-wis-9600-2008-fa57",
+      "year": 2008,
+      "platform": "9600",
+      "url": "https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-data/type-designation",
+      "title": "Saab 9-5 MY2008 FA57 case-tag format",
+      "fact": "FA57 C01 example includes engine adaptation, development version, year/month and unit serial; differs from 9-3 FA57 tag."
+    },
+    {
+      "id": "ready-wis-9440-2006-fa57",
+      "year": 2006,
+      "platform": "9440",
+      "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/type-designations",
+      "title": "Saab 9-3 MY2006 FA57 gearbox and TCM identification",
+      "fact": "FA57 1 01 style engine adaptation B207E/L/R, manufacturer TCM hardware and engine-specific letter J/K/L; NOT the original 9-5 tag format."
+    },
+    {
+      "id": "ready-wis-9440-2006-fa57-level",
+      "year": 2006,
+      "platform": "9440",
+      "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/5-speed-fa-57/adjustment-replacement/checking-the-transmission-fluid-level",
+      "title": "Saab MY2006 9-3 FA57 temperature/Tech2 level inspection",
+      "fact": "MY2006 WIS requires Tech2 TCM ATF reading at 80C, dipstick O-ring removal for a reading, filler 87 92 822; not a nonrunning-car dipstick guess."
+    },
+    {
+      "id": "ready-wis-9440-2006-af40-atf",
+      "year": 2006,
+      "platform": "9440",
+      "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/6-speed-af-40/bulletins-si-mi/ta440-0902-atf-oil-check-on-af40-6-speed-aut",
+      "title": "Saab TA440-0902 MY2006 9-3 AF40 level protocol",
+      "fact": "Bulletin January 2009 all-market AF40 delayed shifts/low fluid; 70–80C TCM Tech2 with running engine, level lift, new seal ring; unlike MY2006 FA57 dipstick."
+    },
+    {
+      "id": "ready-wis-9440-2006-af40-pressure",
+      "year": 2006,
+      "platform": "9440",
+      "url": "https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/6-speed-af-40/adjustment-replacement/oil-pressure-check-b284",
+      "title": "Saab MY2006 B284 AF40 gearbox pressure diagnostic equipment",
+      "fact": "WIS B284 AF40 pressure test explicitly requires 87 92 301 adapter and 87 91 600 pressure gauge, TECH2, torque rod refitted, hot gearbox. Full-load stall-style testing is NOT recommended for uninspected project car."
+    },
+    {
+      "id": "ready-wis-9600-2008-mount-lh",
+      "year": 2008,
+      "platform": "9600",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/engine-mounting-left",
+      "title": "Saab MY2008 B235 left engine mount tooling and VIN torque split",
+      "fact": "Requires engine support beam 83 94 850. WIS gives different fastening-nut torque for VIN up to 73514478 vs from 73514479; this is a procedure fork not proof of different mount SKU."
+    },
+    {
+      "id": "ready-wis-9600-2008-mount-rh",
+      "year": 2008,
+      "platform": "9600",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/engine-mounting-and-engine-pad-rh",
+      "title": "Saab MY2008 B235 right engine mount engine support",
+      "fact": "Saab MY2008 WIS requires 83 94 850 lifting beam for RH mount and pad; not a zero-support driveway fastener job."
+    },
+    {
+      "id": "ready-wis-9650-2011-vin",
+      "year": 2011,
+      "platform": "650",
+      "url": "https://saabwisonline.com/9-5-9650/2011/0-general/general/technical-description/vehicle-engine-and-transmission-id-and-vin-location-derivative-and-usage",
+      "title": "Saab MY2011 NG9-5 legal VIN engine and FWD automatic codes",
+      "fact": "VIN pos7 A=FWD six-speed AT; pos8 Z=2.0T A20NFT/LHU, R=BioPower A20NFT/LHU; exact installed vehicle case tag still required."
+    },
+    {
+      "id": "ready-wis-9650-2011-af40",
+      "year": 2011,
+      "platform": "650",
+      "url": "https://saabwisonline.com/9-5-9650/2011/4-transmission/automatic-transmission/technical-description/transmission-identification-information",
+      "title": "Saab MY2011 NG9-5 AF40-6 physical gearbox identification",
+      "fact": "Factory WIS describes AF40-6 transmission identification; confirm casing and actual MY2011 Turbo4 VIN/RPO; not a 9-3 AF40 donor swap approval."
+    },
+    {
+      "id": "ready-retail-9600-auto-rad",
+      "year": 2008,
+      "platform": "9600",
+      "url": "https://www.esaabparts.com/saab/parts/32019620",
+      "title": "eSaabParts dated 2026-10-13 aftermarket Nissens radiator 32019620 retail listing",
+      "fact": "Existing data/datasets/us-retail-parts-supply-snapshot.json recorded a $211.98 quote on 2026-10-13 and variable inventory. Supplier is not manufacturer fitment certification or a current stock quote."
+    }
+  ],
+  "job_packets": [
+    {
+      "id": "part-ready-001",
+      "name": "Original 9-5 AF30 four-speed donor identity",
+      "match": {
+        "platform": "9600",
+        "automatic_gears": [
+          4
+        ],
+        "model_year_range": [
+          1999,
+          2001
+        ]
+      },
+      "factory_example_year": 2000,
+      "evidence_source_ids": [
+        "ready-wis-9600-2000-af30"
+      ],
+      "inspection_evidence": [
+        "Actual 17-character VIN privately and model year corroborated",
+        "Photograph full installed 4AT type/serial label (FA47 example), not just 'AF30'",
+        "Record engine code and TCM part/hardware number separately"
+      ],
+      "required_tools_or_capabilities": [
+        "Safe access to transmission label; qualified technician if underbody unsafe",
+        "Saab-compatible TCM diagnostics for shifting concerns"
+      ],
+      "vin_rpo_case_gates": [
+        "Engine adaptation and full individual case code must match OEM EPC and original Saab year equipment table",
+        "Donor complete gearbox part interchange not established by 'AF30' or 4AT"
+      ],
+      "source_specific_fact": "MY2000 9-5 AF30 case illustration uses FA47 designation including adaptation and production serial.",
+      "candidate_parts_or_numbers": [],
+      "retail_source_ids": [],
+      "estimate_usd": null,
+      "required_shop_labor_hours": null
+    },
+    {
+      "id": "part-ready-002",
+      "name": "Original 9-5 FA57 donor label and TCM compatibility",
+      "match": {
+        "platform": "9600",
+        "automatic_gears": [
+          5
+        ],
+        "model_year_range": [
+          2002,
+          2009
+        ]
+      },
+      "factory_example_year": 2008,
+      "evidence_source_ids": [
+        "ready-wis-9600-2008-fa57"
+      ],
+      "inspection_evidence": [
+        "Original vehicle VIN and full FA57 unit label adaptation, build version, serial",
+        "TCM hardware/software identification and transmission fault report",
+        "OEM EPC VIN-filtered complete box and converter donor part references"
+      ],
+      "required_tools_or_capabilities": [
+        "Physical transmission-tag inspection, with safe lift as needed",
+        "Tech2/TCM capable diagnostics for control-related fault"
+      ],
+      "vin_rpo_case_gates": [
+        "FA57 C01-type adaptation must not be equated to 9-3 FA57 1-type adaptation",
+        "Factory year and supersession chain needed for donor assembly, TCM, ratios, converter and cooling"
+      ],
+      "source_specific_fact": "MY2008 original 9-5 WIS FA57 C01 tag includes adaptation; similar FA57 label on 9-3 is not drop-in proof.",
+      "candidate_parts_or_numbers": [],
+      "retail_source_ids": [],
+      "estimate_usd": null,
+      "required_shop_labor_hours": null
+    },
+    {
+      "id": "part-ready-003",
+      "name": "Second-generation 9-3 B207 FA57 donor label and controller",
+      "match": {
+        "platform": "9440",
+        "automatic_gears": [
+          5
+        ],
+        "engine_codes": [
+          "B207L",
+          "B207R"
+        ],
+        "model_year_range": [
+          2003,
+          2011
+        ]
+      },
+      "factory_example_year": 2006,
+      "evidence_source_ids": [
+        "ready-wis-9440-2006-fa57"
+      ],
+      "inspection_evidence": [
+        "Actual VIN and installed FA57 full tag including engine adaptation and development version",
+        "TCM hardware/engine letter and software variant",
+        "Factory VIN-filtered original parts and supercession evidence"
+      ],
+      "required_tools_or_capabilities": [
+        "Tech2 and module programming access if donor TCM involved",
+        "Safe mechanical access to identification label"
+      ],
+      "vin_rpo_case_gates": [
+        "MY2006 factory FA57 1 engine adaptation refers to B207, not original 9-5 FA57 C01",
+        "Matching case code is necessary but not sufficient for complete assembly donor approval"
+      ],
+      "source_specific_fact": "9-3 2006 WIS FA57 1 01 and TCM B207L/B207R code table differs from original 9-5 FA57 family tag.",
+      "candidate_parts_or_numbers": [],
+      "retail_source_ids": [],
+      "estimate_usd": null,
+      "required_shop_labor_hours": null
+    },
+    {
+      "id": "part-ready-004",
+      "name": "9-3 B207 FA57 proper ATF condition/level decision",
+      "match": {
+        "platform": "9440",
+        "automatic_gears": [
+          5
+        ],
+        "engine_codes": [
+          "B207L",
+          "B207R"
+        ],
+        "model_year_range": [
+          2003,
+          2011
+        ]
+      },
+      "factory_example_year": 2006,
+      "evidence_source_ids": [
+        "ready-wis-9440-2006-fa57-level"
+      ],
+      "inspection_evidence": [
+        "Confirm actual FA57 and year-appropriate fluid grade from original WIS before procurement",
+        "Fluid condition and temperature/read-values history by qualified inspection",
+        "No fluid-level claim on an engine that cannot safely run"
+      ],
+      "required_tools_or_capabilities": [
+        "Tech2 TCM live ATF temperature, 2006 WIS 80C example",
+        "Level lift/ramp, oil filler funnel 87 92 822 and correct O-ring/dipstick method"
+      ],
+      "vin_rpo_case_gates": [
+        "Level method and fill grade must be matched to actual installed box, not AF40 process",
+        "MY2006 year example is not a universal 2003–11 viscosity/temperature approval"
+      ],
+      "source_specific_fact": "WIS MY2006 FA57 uses 80C Tech2 TCM reading and dipstick/O-ring method.",
+      "candidate_parts_or_numbers": [],
+      "retail_source_ids": [],
+      "estimate_usd": null,
+      "required_shop_labor_hours": null
+    },
+    {
+      "id": "part-ready-005",
+      "name": "9-3 Aero B284L FWD AF40 fluid-level and pressure equipment",
+      "match": {
+        "platform": "9440",
+        "automatic_gears": [
+          6
+        ],
+        "engine_codes": [
+          "B284L"
+        ],
+        "model_year_range": [
+          2006,
+          2008
+        ]
+      },
+      "factory_example_year": 2006,
+      "evidence_source_ids": [
+        "ready-wis-9440-2006-af40-atf",
+        "ready-wis-9440-2006-af40-pressure"
+      ],
+      "inspection_evidence": [
+        "Verify actual B284L AF40 FWD case (not XWD) and original VIN",
+        "Check source of delay, DTCs and evidence of ATF leak or contamination before changing level",
+        "Do not perform pressure full-load stall tests or drive uninspected nonrunner"
+      ],
+      "required_tools_or_capabilities": [
+        "Tech2 live TCM temperature; 70-80C running-engine level procedure needs trained person/lift",
+        "Pressure-gauge setup WIS 87 92 301 adapter + 87 91 600 pressure equipment if hydraulic diagnosis professionally indicated",
+        "Heat protection and supporting front torque rod per manufacturer pressure-test procedure"
+      ],
+      "vin_rpo_case_gates": [
+        "Never apply FA57 80C dipstick step or fluid interchange to AF40",
+        "MY2006 AF40 and B284 source, later model-year change confirmation required"
+      ],
+      "source_specific_fact": "Saab TA440-0902 uses Tech2 70-80C ATF running engine; WIS B284 AF40 pressure test uses 87 92 301 and 87 91 600 tools.",
+      "candidate_parts_or_numbers": [],
+      "retail_source_ids": [],
+      "estimate_usd": null,
+      "required_shop_labor_hours": null
+    },
+    {
+      "id": "part-ready-006",
+      "name": "2008 9-5 B235 left and right engine mounting repair",
+      "match": {
+        "platform": "9600",
+        "automatic_gears": [
+          5
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "model_year_range": [
+          2008,
+          2008
+        ]
+      },
+      "factory_example_year": 2008,
+      "evidence_source_ids": [
+        "ready-wis-9600-2008-mount-lh",
+        "ready-wis-9600-2008-mount-rh"
+      ],
+      "inspection_evidence": [
+        "Verify full actual original 2008 9-5 VIN, installed B235 and left/right mount condition",
+        "Photograph mount rubber and supporting body/subframe condition while safely accessible",
+        "Obtain original Saab/EPC VIN-filtered left or right mount part, pad and fastener requirements"
+      ],
+      "required_tools_or_capabilities": [
+        "83 94 850 Saab WIS lifting beam to relieve load on engine",
+        "Sound structural support points and factory mount installation procedure",
+        "Torque wrench and year/VIN-specific fastener information"
+      ],
+      "vin_rpo_case_gates": [
+        "MY2008 WIS LH mount nut instruction has VIN boundary 73514478/73514479; torque differs but does NOT prove distinct mount part SKU",
+        "Do not substitute a generic jack-supported driveway method for manufacturer support fixture"
+      ],
+      "source_specific_fact": "MY2008 9-5 left/right mounts require 83 94 850 engine support; left has VIN-specific fastening torque boundary.",
+      "candidate_parts_or_numbers": [],
+      "retail_source_ids": [],
+      "estimate_usd": null,
+      "required_shop_labor_hours": null
+    },
+    {
+      "id": "part-ready-007",
+      "name": "2011 new 9-5 Turbo4 FWD engine and AF40 transmission VIN/case gate",
+      "match": {
+        "platform": "650",
+        "automatic_gears": [
+          6
+        ],
+        "model_year_range": [
+          2011,
+          2011
+        ]
+      },
+      "factory_example_year": 2011,
+      "evidence_source_ids": [
+        "ready-wis-9650-2011-vin",
+        "ready-wis-9650-2011-af40"
+      ],
+      "inspection_evidence": [
+        "Privately validate legal MY2011 VIN position 10 B and position 7 A for FWD six-speed automatic",
+        "Position 8 Z 2.0T A20NFT/LHU or R BioPower from WIS, plus physical engine stamping",
+        "Obtain actual AF40-6 case/transmission ID and exact MY2011 OEM replacement/supersession details"
+      ],
+      "required_tools_or_capabilities": [
+        "Saab 9650 original WIS VIN engine/gearbox identifier and safe component plate access",
+        "Factory diagnosis and module calibration capability if replacing complete gearbox"
+      ],
+      "vin_rpo_case_gates": [
+        "Do not interpret 2011 2.0T register shorthand as proof of Z or R VIN engine character",
+        "AF40 family in new 9-5 does not approve 9-3 AF40 donor interchange"
+      ],
+      "source_specific_fact": "MY2011 9650 manufacturer VIN table specifies pos7 A FWD 6AT and pos8 Z/R LHU variant; WIS has separate AF40 gearbox case identification.",
+      "candidate_parts_or_numbers": [],
+      "retail_source_ids": [],
+      "estimate_usd": null,
+      "required_shop_labor_hours": null
+    },
+    {
+      "id": "part-ready-008",
+      "name": "2008 9-5 automatic cooling system radiator quote and fitment check",
+      "match": {
+        "platform": "9600",
+        "automatic_gears": [
+          5
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "model_year_range": [
+          2008,
+          2008
+        ]
+      },
+      "factory_example_year": 2008,
+      "evidence_source_ids": [
+        "ready-retail-9600-auto-rad"
+      ],
+      "inspection_evidence": [
+        "Identify actual car VIN/engine/gearbox and factory radiator/cooler line connectors",
+        "Test if failure is external cooling leak, ATF/coolant contamination or upstream overheating",
+        "Reconfirm retailer current price/stock, shipping/core, collateral hoses/seals and legal coolant/ATF"
+      ],
+      "required_tools_or_capabilities": [
+        "Correct leak/pressure diagnosis, cool engine and safe raised access if needed",
+        "Qualified cooler contamination assessment before trying to reuse automatic"
+      ],
+      "vin_rpo_case_gates": [
+        "Retailer 32019620 listing suggests an original 9-5 automatic radiator, NOT confirmed individual VIN fit",
+        "Manual gearbox radiator and 9-3 or 2011 9-5 radiators not assumed compatible"
+      ],
+      "source_specific_fact": "Dated 2026-10-13 retailer observation listed aftermarket Nissens 32019620 at $211.98; not current or installed cost.",
+      "candidate_parts_or_numbers": [
+        "32019620"
+      ],
+      "retail_source_ids": [
+        "usparts-src-004"
+      ],
+      "historical_advertised_part_price_usd": 211.98,
+      "historical_observed_date": "2026-10-13",
+      "estimate_usd": null,
+      "required_shop_labor_hours": null
+    }
+  ],
+  "guardrails": {
+    "vehicle_vin_verified": false,
+    "physical_transmission_case_verified": false,
+    "oem_replacement_part_fitment_approved": false,
+    "cross_platform_swap_approved": false,
+    "repair_cost_or_hours_established": false,
+    "actual_shop_access_verified": false,
+    "all_quotes_are_current": false
+  },
+  "next_evidence_needed": [
+    "Full year/body/market VIN privately captured then matched against independent original Saab year/VIN and WebEPC",
+    "OEM part code, supersession chain, engine and transmission case tag, mechanical and software fit before parts order",
+    "Exact special tools or documented safe alternative, shop access and Tech2/programming access",
+    "Dated part list in stock at reliable US retailer, shipping/core/tax included, and separate qualified labor quote",
+    "Original model-year fault-specific repair procedure and physical condition evidence; no running unsafe nonrunners"
+  ],
+  "link_existing_sources": [
+    "docs/research/vin-gearbox-provenance.md",
+    "data/datasets/us-retail-parts-supply-snapshot.json",
+    "data/vehicle-catalogue/us-automatic-gearbox-evidence.json"
+  ],
+  "note": "Factory MY examples are research leads for other years on same platform; an across-years packet match is not an OEM-confirmed year/VIN repair authorization."
+}
