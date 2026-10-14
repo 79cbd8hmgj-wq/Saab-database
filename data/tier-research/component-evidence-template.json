@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0.0",
+  "record_state": "blank_research_template_no_vehicle_or_part_assertions",
+  "subject_id": null,
+  "assembly_system_id": null,
+  "vehicle_scope": {
+    "market": null,
+    "model": null,
+    "platform": null,
+    "model_years": [],
+    "body_styles": [],
+    "engine_codes": [],
+    "gearbox_codes": [],
+    "drivetrains": [],
+    "original_VIN_or_serial_restrictions": [],
+    "original_hardware_source_ids": []
+  },
+  "original_component": {
+    "factory_part_number": null,
+    "description": null,
+    "revision_or_build_code": null,
+    "service_bulletin_revisions": [],
+    "known_susceptibility_mechanisms": [],
+    "factory_countermeasures": [],
+    "case_specific_inspection": null,
+    "confirmed_failure_causes": []
+  },
+  "failure_evidence": [],
+  "quantitative_risk": {
+    "measured_failure_events": null,
+    "source_population_size": null,
+    "source_at_risk_exposure": null,
+    "exposure_units": null,
+    "follow_up_period": null,
+    "age_and_mileage_conditions": null,
+    "climate_and_market_conditions": null,
+    "duplicate_events_handled": null,
+    "attrition_and_sampling_limitations": null,
+    "computed_rate": null,
+    "confidence_interval": null,
+    "quality_review": "not_assessed",
+    "caution": "Missing numerator/at-risk exposure is unknown risk, not a zero rate."
+  },
+  "replacement_candidates": [],
+  "supply_observations": [],
+  "repairability": {
+    "factory_tools_and_training": [],
+    "required_programming_or_security_access": [],
+    "safe_access_or_lifting_requirements": [],
+    "labor_hours_with_provenance": null,
+    "diy_feasibility": null,
+    "specialist_repair_path": null,
+    "replace_without_engine_or_gearbox_internal_rebuild": null,
+    "cost_components_usd": {
+      "parts": null,
+      "fluids_seals_bolts": null,
+      "labor": null,
+      "tools": null,
+      "programming": null,
+      "shipping_tax_core": null,
+      "towing": null,
+      "contingency": null
+    },
+    "verified_total_usd": null,
+    "quote_date": null
+  },
+  "research_sources": [],
+  "contradictions": [],
+  "missing_evidence": [],
+  "assessed_in_comparable_cohort": false,
+  "prohibited_inferences": [
+    "Never treat supplier_claim as manufacturer VIN-approved interchange",
+    "Never infer failure frequency from bulletin, complaint or source count",
+    "Never assert live availability from an old listing"
+  ]
+}
