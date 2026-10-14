@@ -1,0 +1,2467 @@
+{
+  "schema_version": "1.0.0",
+  "source_production": "data/vehicle-catalogue/us-production-normalized.json",
+  "source_job_packets": "data/vehicle-catalogue/us-parts-tool-readiness.json",
+  "denominator_source_compiled_us_automatic_fwd_groups": 110,
+  "interpretation": "Counts are research job leads for normalized configurations, not actual vehicles or confirmed repair application; example-year matches do not verify VIN or donor interchange.",
+  "job_coverage": [
+    {
+      "job_id": "part-ready-001",
+      "matching_production_configuration_groups": 22,
+      "matching_model_year_source_examples": 7,
+      "physical_vins_verified": 0,
+      "part_fitment_approved": 0,
+      "current_install_cost_quotes": 0
+    },
+    {
+      "job_id": "part-ready-002",
+      "matching_production_configuration_groups": 42,
+      "matching_model_year_source_examples": 4,
+      "physical_vins_verified": 0,
+      "part_fitment_approved": 0,
+      "current_install_cost_quotes": 0
+    },
+    {
+      "job_id": "part-ready-003",
+      "matching_production_configuration_groups": 28,
+      "matching_model_year_source_examples": 2,
+      "physical_vins_verified": 0,
+      "part_fitment_approved": 0,
+      "current_install_cost_quotes": 0
+    },
+    {
+      "job_id": "part-ready-004",
+      "matching_production_configuration_groups": 28,
+      "matching_model_year_source_examples": 2,
+      "physical_vins_verified": 0,
+      "part_fitment_approved": 0,
+      "current_install_cost_quotes": 0
+    },
+    {
+      "job_id": "part-ready-005",
+      "matching_production_configuration_groups": 6,
+      "matching_model_year_source_examples": 2,
+      "physical_vins_verified": 0,
+      "part_fitment_approved": 0,
+      "current_install_cost_quotes": 0
+    },
+    {
+      "job_id": "part-ready-006",
+      "matching_production_configuration_groups": 4,
+      "matching_model_year_source_examples": 4,
+      "physical_vins_verified": 0,
+      "part_fitment_approved": 0,
+      "current_install_cost_quotes": 0
+    },
+    {
+      "job_id": "part-ready-007",
+      "matching_production_configuration_groups": 1,
+      "matching_model_year_source_examples": 1,
+      "physical_vins_verified": 0,
+      "part_fitment_approved": 0,
+      "current_install_cost_quotes": 0
+    },
+    {
+      "job_id": "part-ready-008",
+      "matching_production_configuration_groups": 4,
+      "matching_model_year_source_examples": 4,
+      "physical_vins_verified": 0,
+      "part_fitment_approved": 0,
+      "current_install_cost_quotes": 0
+    }
+  ],
+  "production_groups": [
+    {
+      "production_configuration_id": "usprod-9400-1999-70300e64546a",
+      "platform": "9400",
+      "model_year": 1999,
+      "body_style": "3-door hatchback",
+      "engine_code": "B204L",
+      "automatic_gears": 4,
+      "job_readiness_leads": [],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-1999-1bef62da9055",
+      "platform": "9400",
+      "model_year": 1999,
+      "body_style": "5-door hatchback",
+      "engine_code": "B204L",
+      "automatic_gears": 4,
+      "job_readiness_leads": [],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-1999-614d751e6481",
+      "platform": "9400",
+      "model_year": 1999,
+      "body_style": "3-door hatchback",
+      "engine_code": "B204L",
+      "automatic_gears": 4,
+      "job_readiness_leads": [],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-1999-2bd272926b6c",
+      "platform": "9400",
+      "model_year": 1999,
+      "body_style": "5-door hatchback",
+      "engine_code": "B204L",
+      "automatic_gears": 4,
+      "job_readiness_leads": [],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-2000-04905bdcae68",
+      "platform": "9400",
+      "model_year": 2000,
+      "body_style": "3-door hatchback",
+      "engine_code": "B205L",
+      "automatic_gears": 4,
+      "job_readiness_leads": [],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-2000-266da0222bec",
+      "platform": "9400",
+      "model_year": 2000,
+      "body_style": "5-door hatchback",
+      "engine_code": "B205L",
+      "automatic_gears": 4,
+      "job_readiness_leads": [],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-2000-efa03e1662d4",
+      "platform": "9400",
+      "model_year": 2000,
+      "body_style": "5-door hatchback",
+      "engine_code": "B205R",
+      "automatic_gears": 4,
+      "job_readiness_leads": [],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-2001-c5f5c11480e1",
+      "platform": "9400",
+      "model_year": 2001,
+      "body_style": "3-door hatchback",
+      "engine_code": "B205L",
+      "automatic_gears": 4,
+      "job_readiness_leads": [],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-2001-b48e60a36980",
+      "platform": "9400",
+      "model_year": 2001,
+      "body_style": "5-door hatchback",
+      "engine_code": "B205L",
+      "automatic_gears": 4,
+      "job_readiness_leads": [],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-2001-d0bcddbd7105",
+      "platform": "9400",
+      "model_year": 2001,
+      "body_style": "5-door hatchback",
+      "engine_code": "B205R",
+      "automatic_gears": 4,
+      "job_readiness_leads": [],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9400-2002-e25d2b682f27",
+      "platform": "9400",
+      "model_year": 2002,
+      "body_style": "5-door hatchback",
+      "engine_code": "B205R",
+      "automatic_gears": 4,
+      "job_readiness_leads": [],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2003-7ad77133f287",
+      "platform": "9440",
+      "model_year": 2003,
+      "body_style": "sedan",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2003-00c7717ee322",
+      "platform": "9440",
+      "model_year": 2003,
+      "body_style": "sedan",
+      "engine_code": "B207L",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2003-6d6530debf2c",
+      "platform": "9440",
+      "model_year": 2003,
+      "body_style": "sedan",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2004-2553135925d7",
+      "platform": "9440",
+      "model_year": 2004,
+      "body_style": "sedan",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2004-c9c6db70f1a3",
+      "platform": "9440",
+      "model_year": 2004,
+      "body_style": "sedan",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2004-eca7d0654a6a",
+      "platform": "9440",
+      "model_year": 2004,
+      "body_style": "sedan",
+      "engine_code": "B207L",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2005-ca7c8d0fad7d",
+      "platform": "9440",
+      "model_year": 2005,
+      "body_style": "sedan",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2005-35a04ffcaa6e",
+      "platform": "9440",
+      "model_year": 2005,
+      "body_style": "sedan",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2005-b853ad709829",
+      "platform": "9440",
+      "model_year": 2005,
+      "body_style": "sedan",
+      "engine_code": "B207L",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2005-d2b111c98c63",
+      "platform": "9440",
+      "model_year": 2005,
+      "body_style": "sedan",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2006-66a0bba1ffb4",
+      "platform": "9440",
+      "model_year": 2006,
+      "body_style": "sedan",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2006-3f82ebaa461c",
+      "platform": "9440",
+      "model_year": 2006,
+      "body_style": "wagon",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2006-66a6ee6945ee",
+      "platform": "9440",
+      "model_year": 2006,
+      "body_style": "sedan",
+      "engine_code": "B284L",
+      "automatic_gears": 6,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-005",
+          "evidence_year": 2006,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2006-0eb06b9b5336",
+      "platform": "9440",
+      "model_year": 2006,
+      "body_style": "wagon",
+      "engine_code": "B284L",
+      "automatic_gears": 6,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-005",
+          "evidence_year": 2006,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-47153ed320be",
+      "platform": "9440",
+      "model_year": 2007,
+      "body_style": "sedan",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-3b3b7d6492e4",
+      "platform": "9440",
+      "model_year": 2007,
+      "body_style": "wagon",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-f300939418b8",
+      "platform": "9440",
+      "model_year": 2007,
+      "body_style": "sedan",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-d6e18d73fb49",
+      "platform": "9440",
+      "model_year": 2007,
+      "body_style": "wagon",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-482ed160ba16",
+      "platform": "9440",
+      "model_year": 2007,
+      "body_style": "sedan",
+      "engine_code": "B284L",
+      "automatic_gears": 6,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-005",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-e20134af5d2a",
+      "platform": "9440",
+      "model_year": 2007,
+      "body_style": "wagon",
+      "engine_code": "B284L",
+      "automatic_gears": 6,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-005",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2008-409da8b88751",
+      "platform": "9440",
+      "model_year": 2008,
+      "body_style": "sedan",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2008-d6307a45a509",
+      "platform": "9440",
+      "model_year": 2008,
+      "body_style": "wagon",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2008-30b15ea6c631",
+      "platform": "9440",
+      "model_year": 2008,
+      "body_style": "sedan",
+      "engine_code": "B284L",
+      "automatic_gears": 6,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-005",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2008-b3273aad38f1",
+      "platform": "9440",
+      "model_year": 2008,
+      "body_style": "wagon",
+      "engine_code": "B284L",
+      "automatic_gears": 6,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-005",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2009-10888383c790",
+      "platform": "9440",
+      "model_year": 2009,
+      "body_style": "sedan",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2009-f167f5aa1a8c",
+      "platform": "9440",
+      "model_year": 2009,
+      "body_style": "wagon",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2010-4bd123807bb5",
+      "platform": "9440",
+      "model_year": 2010,
+      "body_style": "sedan",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2010-d37e00066c02",
+      "platform": "9440",
+      "model_year": 2010,
+      "body_style": "wagon",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2010-fefc85694efb",
+      "platform": "9440",
+      "model_year": 2010,
+      "body_style": "sedan",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2010-9bad9e9b8daf",
+      "platform": "9440",
+      "model_year": 2010,
+      "body_style": "wagon",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2011-6d71a632955b",
+      "platform": "9440",
+      "model_year": 2011,
+      "body_style": "sedan",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2011-66a3c399ebfd",
+      "platform": "9440",
+      "model_year": 2011,
+      "body_style": "wagon",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2011-67b077eb5391",
+      "platform": "9440",
+      "model_year": 2011,
+      "body_style": "sedan",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9440-2011-6067b39794ec",
+      "platform": "9440",
+      "model_year": 2011,
+      "body_style": "wagon",
+      "engine_code": "B207R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-003",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-004",
+          "evidence_year": 2006,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-80270f1fc57b",
+      "platform": "9600",
+      "model_year": 1999,
+      "body_style": "sedan",
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-1cb72d9097d1",
+      "platform": "9600",
+      "model_year": 1999,
+      "body_style": "sedan",
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-481bdb6b5cfc",
+      "platform": "9600",
+      "model_year": 1999,
+      "body_style": "wagon",
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-2a95b9b3ce30",
+      "platform": "9600",
+      "model_year": 1999,
+      "body_style": "wagon",
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-19692af2405b",
+      "platform": "9600",
+      "model_year": 1999,
+      "body_style": "sedan",
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-fdebac597045",
+      "platform": "9600",
+      "model_year": 1999,
+      "body_style": "sedan",
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-f749361fa49d",
+      "platform": "9600",
+      "model_year": 1999,
+      "body_style": "wagon",
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-c4d1d37eb75a",
+      "platform": "9600",
+      "model_year": 1999,
+      "body_style": "wagon",
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-2048481de83b",
+      "platform": "9600",
+      "model_year": 2000,
+      "body_style": "sedan",
+      "engine_code": "B235R",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-5a801d274ac4",
+      "platform": "9600",
+      "model_year": 2000,
+      "body_style": "wagon",
+      "engine_code": "B235R",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-d8414d89a6b7",
+      "platform": "9600",
+      "model_year": 2000,
+      "body_style": "wagon",
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-ba5b5dcfedee",
+      "platform": "9600",
+      "model_year": 2000,
+      "body_style": "sedan",
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-eeaeeecec6b4",
+      "platform": "9600",
+      "model_year": 2000,
+      "body_style": "wagon",
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-3208b53eab2b",
+      "platform": "9600",
+      "model_year": 2000,
+      "body_style": "sedan",
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-76e96e57f0ea",
+      "platform": "9600",
+      "model_year": 2000,
+      "body_style": "wagon",
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-e588ecee2743",
+      "platform": "9600",
+      "model_year": 2001,
+      "body_style": "sedan",
+      "engine_code": "B235R",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-d4e89c9ad0f9",
+      "platform": "9600",
+      "model_year": 2001,
+      "body_style": "wagon",
+      "engine_code": "B235R",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-e3e9973412fe",
+      "platform": "9600",
+      "model_year": 2001,
+      "body_style": "sedan",
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-20ea775dd8e2",
+      "platform": "9600",
+      "model_year": 2001,
+      "body_style": "wagon",
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-29a2d4ee6170",
+      "platform": "9600",
+      "model_year": 2001,
+      "body_style": "sedan",
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-8ac268fdc1be",
+      "platform": "9600",
+      "model_year": 2001,
+      "body_style": "sedan",
+      "engine_code": "B308E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-59d2d33c8ca4",
+      "platform": "9600",
+      "model_year": 2001,
+      "body_style": "wagon",
+      "engine_code": "B235E",
+      "automatic_gears": 4,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-001",
+          "evidence_year": 2000,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-f3e877f40269",
+      "platform": "9600",
+      "model_year": 2002,
+      "body_style": "sedan",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-a6e3f4219fe1",
+      "platform": "9600",
+      "model_year": 2002,
+      "body_style": "wagon",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-25bac55f3b40",
+      "platform": "9600",
+      "model_year": 2002,
+      "body_style": "sedan",
+      "engine_code": "B308E",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-8bb5aafedeaa",
+      "platform": "9600",
+      "model_year": 2002,
+      "body_style": "wagon",
+      "engine_code": "B308E",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-e84ffc126de4",
+      "platform": "9600",
+      "model_year": 2002,
+      "body_style": "sedan",
+      "engine_code": "B235E",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-b7a8d2a5b366",
+      "platform": "9600",
+      "model_year": 2002,
+      "body_style": "wagon",
+      "engine_code": "B235E",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-5fa449d61161",
+      "platform": "9600",
+      "model_year": 2003,
+      "body_style": "sedan",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-7cc94c616980",
+      "platform": "9600",
+      "model_year": 2003,
+      "body_style": "wagon",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-a767166cd624",
+      "platform": "9600",
+      "model_year": 2003,
+      "body_style": "sedan",
+      "engine_code": "B308E",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-1425fbc33299",
+      "platform": "9600",
+      "model_year": 2003,
+      "body_style": "wagon",
+      "engine_code": "B308E",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-a792094bea10",
+      "platform": "9600",
+      "model_year": 2003,
+      "body_style": "sedan",
+      "engine_code": "B235E",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-e2e98d51f64d",
+      "platform": "9600",
+      "model_year": 2003,
+      "body_style": "wagon",
+      "engine_code": "B235E",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2004-2ff32b6a65ee",
+      "platform": "9600",
+      "model_year": 2004,
+      "body_style": "sedan",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2004-c6e52f7b5bb4",
+      "platform": "9600",
+      "model_year": 2004,
+      "body_style": "wagon",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2004-553a2f9acef2",
+      "platform": "9600",
+      "model_year": 2004,
+      "body_style": "sedan",
+      "engine_code": "B235L",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2004-2153ecf4425d",
+      "platform": "9600",
+      "model_year": 2004,
+      "body_style": "wagon",
+      "engine_code": "B235L",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2004-887c63b87b24",
+      "platform": "9600",
+      "model_year": 2004,
+      "body_style": "wagon",
+      "engine_code": "B235E",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2005-6a1094ac89d2",
+      "platform": "9600",
+      "model_year": 2005,
+      "body_style": "sedan",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2005-518673045c1a",
+      "platform": "9600",
+      "model_year": 2005,
+      "body_style": "wagon",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2005-64bf8e34a0ff",
+      "platform": "9600",
+      "model_year": 2005,
+      "body_style": "sedan",
+      "engine_code": "B235L",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2005-a15f61481caf",
+      "platform": "9600",
+      "model_year": 2005,
+      "body_style": "wagon",
+      "engine_code": "B235L",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2005-a1bfc0b97128",
+      "platform": "9600",
+      "model_year": 2005,
+      "body_style": "wagon",
+      "engine_code": "B235E",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2006-1476c9d19a82",
+      "platform": "9600",
+      "model_year": 2006,
+      "body_style": "sedan",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2006-bd8089c1716b",
+      "platform": "9600",
+      "model_year": 2006,
+      "body_style": "wagon",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2006-69f78cb8a8bf",
+      "platform": "9600",
+      "model_year": 2006,
+      "body_style": "sedan",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2006-89c78a11d5ac",
+      "platform": "9600",
+      "model_year": 2006,
+      "body_style": "wagon",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-99896cc578b3",
+      "platform": "9600",
+      "model_year": 2007,
+      "body_style": "sedan",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-b78c213b7398",
+      "platform": "9600",
+      "model_year": 2007,
+      "body_style": "wagon",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-36a67a699872",
+      "platform": "9600",
+      "model_year": 2007,
+      "body_style": "sedan",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-213a3a33935c",
+      "platform": "9600",
+      "model_year": 2007,
+      "body_style": "wagon",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-c327794cbfef",
+      "platform": "9600",
+      "model_year": 2007,
+      "body_style": "sedan",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-9d930be2a7ce",
+      "platform": "9600",
+      "model_year": 2007,
+      "body_style": "wagon",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2008-66fcbe728e78",
+      "platform": "9600",
+      "model_year": 2008,
+      "body_style": "sedan",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-006",
+          "evidence_year": 2008,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-008",
+          "evidence_year": 2008,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2008-90bc26f7f0ff",
+      "platform": "9600",
+      "model_year": 2008,
+      "body_style": "wagon",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-006",
+          "evidence_year": 2008,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-008",
+          "evidence_year": 2008,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2008-3bc4ca7c49ed",
+      "platform": "9600",
+      "model_year": 2008,
+      "body_style": "sedan",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-006",
+          "evidence_year": 2008,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-008",
+          "evidence_year": 2008,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2008-a2c8b55ed518",
+      "platform": "9600",
+      "model_year": 2008,
+      "body_style": "wagon",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-006",
+          "evidence_year": 2008,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        },
+        {
+          "job_id": "part-ready-008",
+          "evidence_year": 2008,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-75a3e290bc93",
+      "platform": "9600",
+      "model_year": 2009,
+      "body_style": "sedan",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-fb1c554efceb",
+      "platform": "9600",
+      "model_year": 2009,
+      "body_style": "wagon",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-a4211f0578ac",
+      "platform": "9600",
+      "model_year": 2009,
+      "body_style": "sedan",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-5e6ccee798f5",
+      "platform": "9600",
+      "model_year": 2009,
+      "body_style": "wagon",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-d3204ec60adb",
+      "platform": "9600",
+      "model_year": 2009,
+      "body_style": "sedan",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-e1b331c94576",
+      "platform": "9600",
+      "model_year": 2009,
+      "body_style": "wagon",
+      "engine_code": "B235R",
+      "automatic_gears": 5,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-002",
+          "evidence_year": 2008,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    },
+    {
+      "production_configuration_id": "usprod-650-2011-844ea4b7d007",
+      "platform": "650",
+      "model_year": 2011,
+      "body_style": "sedan",
+      "engine_code": null,
+      "automatic_gears": 6,
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-007",
+          "evidence_year": 2011,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
+      "actual_vehicle_inspected": false,
+      "repair_authorized": false
+    }
+  ],
+  "no_parts_fitment_approved": true,
+  "no_actual_vehicle_verified": true,
+  "no_installed_repair_prices": true
+}
