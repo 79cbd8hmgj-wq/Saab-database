@@ -87,7 +87,10 @@
       "ecu_immobilizer_security"
     ],
     "us_retail_parts_supply_snapshot": [],
-    "vin_gearbox_provenance": []
+    "vin_gearbox_provenance": [],
+    "b207_intake_valve_repair_path_20261014": [
+      "engine_timing_valvetrain"
+    ]
   },
   "match_rules": {
     "engine_core_oil_pcv": [

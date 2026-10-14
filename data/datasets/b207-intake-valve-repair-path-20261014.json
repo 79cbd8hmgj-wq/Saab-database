@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "b207_intake_valve_repair_path_20261014",
+  "sources": [
+    {
+      "id": "b207valve-src-001",
+      "title": "MY2008 B207 cylinder-head removal/refitting",
+      "url": "https://saabwisonline.com/9-3-9440/2008/2-engine/4-cyl-petrol-e85/basic-engine/adjustment-replacement/cylinder-head",
+      "publisher": "Saab Automobile AB, original WIS mirrored by SaabWISOnline",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Original factory procedure, not a repair-time estimate. Directory MY2008 does not prove installed hardware on every B207."
+    },
+    {
+      "id": "b207valve-src-002",
+      "title": "GM Genuine Parts intake valve 55563529 specifications and service offering",
+      "url": "https://parts.gmparts.com/product/gm-genuine-parts-engine-intake-valve-55563529",
+      "publisher": "General Motors official parts channel",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Retrieved relevant page text; may be cached. No physical part, candidate VIN, order or supplier contact verified."
+    },
+    {
+      "id": "b207valve-src-003",
+      "title": "eSaabParts 55563529 intake-valve price and advertised inventory",
+      "url": "https://www.esaabparts.com/saab/parts/55563529",
+      "publisher": "eSaabParts retailer",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Retrieved relevant page text; may be cached. No physical part, candidate VIN, order or supplier contact verified."
+    },
+    {
+      "id": "b207valve-src-004",
+      "title": "FCP Euro genuine Saab 55563529 intake-valve price and dispatch claim",
+      "url": "https://www.fcpeuro.com/products/saab-engine-intake-valve-genuine-saab-55563529",
+      "publisher": "FCP Euro retailer",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Retrieved relevant page text; may be cached. No physical part, candidate VIN, order or supplier contact verified."
+    },
+    {
+      "id": "b207valve-src-005",
+      "title": "RM European TRW 291109 / 55563529-80 intake-valve offer",
+      "url": "https://www.rmeuropean.com/saab-intake-valve-trw-55563529",
+      "publisher": "RM European retailer",
+      "source_type": "supplier_catalog",
+      "accessed_at": "2026-10-14",
+      "retrieval": "full_text",
+      "notes": "Retrieved relevant page text; may be cached. No physical part, candidate VIN, order or supplier contact verified."
+    }
+  ],
+  "facts": [
+    {
+      "id": "b207valve-fact-001",
+      "subject": "engine:B207",
+      "category": "repair_procedure",
+      "predicate": "cylinder_head_removal_access",
+      "value": {
+        "operations": [
+          "Support engine and detach right-hand mount",
+          "Disconnect turbo oil/coolant connections and fuel/electrical connections",
+          "Manage timing chain/tensioner and camshaft sprockets",
+          "Remove cylinder head while block remains installed"
+        ],
+        "complete_engine_removal_listed": false
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "body_styles": [
+          "sedan",
+          "wagon",
+          "convertible"
+        ]
+      },
+      "source_ids": [
+        "b207valve-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "To remove, steps 1-47",
+      "notes": "Head work is not lower-engine rebuilding, but remains major internal-engine repair. Reuses corrections-issue-011 and hcdiag-issue-002; no new defect claim."
+    },
+    {
+      "id": "b207valve-fact-002",
+      "subject": "engine:B207",
+      "category": "repair_procedure",
+      "predicate": "head_refitting_tools_and_consumables",
+      "value": {
+        "cam_setting_tools_by_variant": [
+          "EN-48368 (210 hp)",
+          "EN-48366 (150-175 hp)"
+        ],
+        "new_items": [
+          "Head gasket",
+          "Cam-cover seal",
+          "Power-steering pump seal",
+          "Fuel-line seals",
+          "Turbo oil-return gasket/O-ring",
+          "Turbo coolant/feed seals",
+          "Catalyst connection nuts"
+        ],
+        "verification": "Rotate engine twice and recheck cam timing"
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2008
+        ],
+        "engine_codes": [
+          "B207"
+        ],
+        "body_styles": [
+          "sedan",
+          "wagon",
+          "convertible"
+        ]
+      },
+      "source_ids": [
+        "b207valve-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "To fit, steps 4-52",
+      "notes": "Tool selection is variant-specific; list is not a complete priced repair kit or unsupervised procedure. Factory procedure gives no all-in hours/price here."
+    },
+    {
+      "id": "b207valve-fact-003",
+      "subject": "service_part:55563529",
+      "category": "replacement_sourcing",
+      "predicate": "gm_official_current_service_offering",
+      "value": {
+        "part_number": "55563529",
+        "brand": "GM Genuine Parts",
+        "pack_quantity": 1,
+        "material": "Steel",
+        "head_diameter_mm": 35.1,
+        "stem_diameter_mm": 5.9625,
+        "seat_angle_degrees": 45.5,
+        "locks_included": false,
+        "advertised_msrp_usd": 44.3
+      },
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "b207valve-src-002"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Product specifications, pack and MSRP",
+      "notes": "Official GM service-number offering complements existing Saab advisory corrections-part-015. Does not identify the original installed valve, prove donor-head interchange or demonstrate improved lifespan. Unusable mixed length units omitted."
+    },
+    {
+      "id": "b207valve-fact-004",
+      "subject": "retail:esaabparts:55563529",
+      "category": "us_retail_quote_snapshot",
+      "predicate": "intake_valve_offer",
+      "value": {
+        "brand_label": "Saab intake valve",
+        "part_number": "55563529",
+        "price_each_usd": 39.31,
+        "advertised_stock": "17 available",
+        "claimed_predecessor": "55192156",
+        "calculated_eight_valves_usd": 314.48,
+        "calculation": "8 * 39.31",
+        "observed_at": "2026-10-14",
+        "fulfilment_verified": false
+      },
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207R"
+        ],
+        "markets": [
+          "US",
+          "CA"
+        ]
+      },
+      "source_ids": [
+        "b207valve-src-003"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Title, price, inventory and superseded-number display",
+      "notes": "Retailer fitment/title and supersession claim only. Eight-valve subtotal excludes seals, machine work, labor, freight/tax and other damage; not a repair quote."
+    },
+    {
+      "id": "b207valve-fact-005",
+      "subject": "retail:fcpeuro:55563529",
+      "category": "us_retail_quote_snapshot",
+      "predicate": "intake_valve_offer",
+      "value": {
+        "brand_label": "Genuine Saab",
+        "part_number": "55563529",
+        "price_each_usd": 45.49,
+        "advertised_status": "Available; ships in 2 business days",
+        "calculated_eight_valves_usd": 363.92,
+        "calculation": "8 * 45.49",
+        "observed_at": "2026-10-14",
+        "fulfilment_verified": false
+      },
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "b207valve-src-004"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Price each and availability",
+      "notes": "Dispatch is seller-advertised, not confirmed delivery. Subtotal is valves only; no individual VIN lookup or complete repair cost."
+    },
+    {
+      "id": "b207valve-fact-006",
+      "subject": "retail:rmeuropean:291109",
+      "category": "us_retail_quote_snapshot",
+      "predicate": "intake_valve_offer",
+      "value": {
+        "brand_label": "TRW",
+        "manufacturer_number": "291109",
+        "seller_sku": "55563529-80",
+        "claimed_oe_reference": "55563529",
+        "claimed_cross_reference": "55192156",
+        "seller_oem_flag": false,
+        "price_each_usd": 12.78,
+        "advertised_status": "In stock",
+        "calculated_eight_valves_usd": 102.24,
+        "calculation": "8 * 12.78",
+        "observed_at": "2026-10-14",
+        "fulfilment_verified": false,
+        "early_2005_application_note": "From engine number 11483664"
+      },
+      "unit": null,
+      "applicability": {},
+      "source_ids": [
+        "b207valve-src-005"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "Specifications, price and application notes",
+      "notes": "Aftermarket candidate, not manufacturer-directed Saab supersession. Manufacturer material certification and comparative durability not retrieved. Early engine-number note is a seller condition, not a proven factory defect cutoff."
+    }
+  ],
+  "issues": [],
+  "parts": [],
+  "gaps": []
+}
