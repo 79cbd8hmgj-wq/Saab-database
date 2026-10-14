@@ -29,6 +29,12 @@ The baseline [U.S. feasibility audit](../data/vehicle-catalogue/us-feasibility-c
 
 [Reproducible 110-row tier readiness audit](../data/audits/tier-research-readiness.json) records existing scenario and job-plan **link counts only for tracking**. The counts are not failures, successes or scoring variables. Every cohort's original factory part lifespan, exact 2026 supplier delivery and installed repair economics are unestablished. Source-rich years must not be given preferred status by research density.
 
+## Legacy issue inventory before any further factory defect intake
+
+The [92-issue consolidated inventory](legacy-issue-consolidation-20261014.md) separates 12 previously documented specific factory component mechanisms, 8 safety campaign records (6 distinct campaign hazards), 1 **suspected** factory mechanism, and 71 diagnosis/fitment/maintenance/source/inspection/research-gate records. The 19 mechanism identities are **already present in legacy evidence**, not newly found. Two correspond to existing tier-ledger mechanisms; the remaining 17 have not been entered as comparable component-reliability or supply observations. No issue count is a failure rate or complete Saab-wide factory bulletin denominator.
+
+Run `python3 tools/build_legacy_issue_index.py --find 'component'` before adding a new case. Reuse original issue sources and retain source-specific population restrictions. Machine and manual review still needed for actual service part revisions, original reliability, and procurement.
+
 ## Failure case IDs versus shared engineering mechanism IDs
 
 The [first observation ledger](../data/tier-research/observations.json) uses separate `failure_modes` records for different Saab production cohorts while linking related cases to a canonical `failure_mechanisms` identity. This prevents an ignition-module overload mechanism affecting both four-cylinder and B308 from becoming two unrelated engineering failure types. **Do not sum case counts or recall populations into measured failure events.** A future quantified rate must use independently verified vehicles and exposure.
