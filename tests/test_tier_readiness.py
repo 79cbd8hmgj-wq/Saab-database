@@ -82,6 +82,26 @@ class TierReadinessResearchTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             build(self.p,self.f,self.t,invalid)
 
+    def test_new_special_tool_verification_cannot_be_ignored(self):
+        invalid=copy.deepcopy(self.t)
+        invalid["production_groups"][0]["job_readiness_leads"][0]["special_tool_access_confirmed"]=True
+        with self.assertRaises(ValueError):
+            build(self.p,self.f,invalid,self.m)
+
+    def test_component_evidence_intake_is_blank_without_hidden_ratings(self):
+        intake=read_json(ROOT/"data/tier-research/component-evidence-template.json")
+        self.assertEqual(intake["record_state"],"blank_research_template_no_vehicle_or_part_assertions")
+        self.assertIsNone(intake["original_component"]["factory_part_number"])
+        self.assertEqual(intake["failure_evidence"],[])
+        self.assertEqual(intake["replacement_candidates"],[])
+        self.assertEqual(intake["supply_observations"],[])
+        self.assertIsNone(intake["quantitative_risk"]["computed_rate"])
+        self.assertIsNone(intake["repairability"]["verified_total_usd"])
+        self.assertFalse(intake["assessed_in_comparable_cohort"])
+        self.assertFalse((ROOT/"tools/build_tier_evidence_readiness.py").exists())
+        self.assertFalse((ROOT/"data/tier-research/us-110-evidence-readiness.json").exists())
+        self.assertFalse((ROOT/"tests/test_tier_evidence_readiness.py").exists())
+
     def test_observation_ledger_starts_without_fabricated_rates(self):
         observations=read_json(ROOT/"data/tier-research/observations.json")
         for field in ("original_part_revisions","failure_modes",
