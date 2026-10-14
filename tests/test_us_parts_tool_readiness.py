@@ -72,7 +72,7 @@ class USPartsToolReadinessTests(unittest.TestCase):
         byid = {p["id"]: p for p in self.plans["job_packets"]}
         self.assertIn("not drop-in proof",
                       byid["part-ready-002"]["source_specific_fact"])
-        self.assertIn("not a 9-3 AF40 donor swap approval",
+        self.assertIn("does not approve 9-3 AF40 donor interchange",
                       byid["part-ready-007"]["source_specific_fact"])
         self.assertIn("73514478/73514479",
                       byid["part-ready-006"]["source_specific_fact"])
