@@ -132,6 +132,38 @@
       "url": "https://saabwisonline.com/9-3-9400/2001/4-transmission/automatic-transmission/adjustment-replacement/automatic-gearbox-assembly",
       "title": "Original Saab 9-3 MY2001 automatic complete gearbox removal/refit tools",
       "fact": "Factory MY2001 procedure requires 83 94 850 engine lifting beam, 83 94 793 subframe lifting trolley with supporting fixtures, 87 92 608 gearbox lift/holder, and 87 92 277 torque-converter restraint; also needs safe lift access, driveshaft and subframe operations."
+    },
+    {
+      "id": "ready-wis-9600-usca-pcv-2102554",
+      "year": 2000,
+      "platform": "9600",
+      "url": "https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2554-ed-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine",
+      "title": "Saab U.S./Canada bulletin 210-2554 ed.3 June 2006: 9-5 B205/B235 oil sludge and PCV renovation",
+      "fact": "Applies original 9-5 MY1998–2003 B205/B235, and separately original 9-3 9400 MY1999–2003 B205/B235. Saab calls out 55 561 200 PCV renovation kit, pressure/strainer/chain/bearing-based diagnostic branches and short block for bearing damage. Bulletin says if no listed symptoms, perform no further diagnosis under its complaint procedure. WIS /2000 directory does not mean published in 2000."
+    },
+    {
+      "id": "ready-wis-9600-pcv-oilleak-2102417",
+      "year": 2001,
+      "platform": "9600",
+      "url": "https://saabwisonline.com/9-5-9600/2001/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2417-utg-4-oil-leakage-from-engine",
+      "title": "Saab 9-5 all-market bulletin 210-2417 ed.4 April 2006: crankcase ventilation and oil leak",
+      "fact": "9-5 original MY1998–2003 B205/B235, complaint oil leakage. Renovation kit part 55 561 200, including nipple, insulation, hose kit. Check valve functional test calls for Saab 30 14 883 pressure/vacuum pump; gasket resealing only after ventilation action fails and diagnosis warrants it. Do not imply all vehicles need kit or that PCV repair restores bearing wear."
+    },
+    {
+      "id": "ready-wis-9400-2001-pcv-b205-scheme",
+      "year": 2001,
+      "platform": "9400",
+      "url": "https://saabwisonline.com/9-3-9400/2001/2-engine/exhaust-emission-control-system-petrol/technical-description/system-overview-b235r-b205l-r",
+      "title": "Saab 9-3 9400 2001 B205L/R crankcase ventilation oil trap diagram",
+      "fact": "Manufacturer 2001 9400 WIS identifies B205L/R oil trap/crankcase ventilation separately from older 1999 B204L scheme; diagram does not prove presence or completion of later renovation kit."
+    },
+    {
+      "id": "ready-wis-9400-usca-pcv-2102554",
+      "year": 2001,
+      "platform": "9400",
+      "url": "https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2554-ed-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine",
+      "title": "Saab 210-2554 ed.3 manufacturer cross-model 9-3 9400 B205/B235 PCV renovation",
+      "fact": "This original U.S./Canada Saab bulletin is mirrored under 9-5/9600, but explicitly has separate PCV installation steps for the 9-3 9400 MY1999–2003 B205/B235. The source is assigned platform 9400 because of explicit bulletin vehicle applicability; not because the mirror's path implies a 9400 workshop page. PCV kit is 55 561 200. Do not include 1999 B204L, newer 9440 B207 or 9-5 MY2004+."
     }
   ],
   "job_packets": [
@@ -492,6 +524,104 @@
       ],
       "source_specific_fact": "Original 9-3 MY2001 factory identifies AF20/AF22 and sample FA44 serial tag; removal/refit requires engine support beam 83 94 850, lift trolley 83 94 793, holder 87 92 608, torque-converter restraint 87 92 277.",
       "candidate_parts_or_numbers": [],
+      "retail_source_ids": [],
+      "estimate_usd": null,
+      "required_shop_labor_hours": null
+    },
+    {
+      "id": "part-ready-010",
+      "name": "Original 9-5 MY1999–2003 B235 crankcase-ventilation renovation and lubrication-risk evidence",
+      "match": {
+        "platform": "9600",
+        "automatic_gears": [
+          4,
+          5
+        ],
+        "engine_codes": [
+          "B235E",
+          "B235L",
+          "B235R"
+        ],
+        "model_year_range": [
+          1999,
+          2003
+        ]
+      },
+      "factory_example_year": 2001,
+      "evidence_source_ids": [
+        "ready-wis-9600-usca-pcv-2102554",
+        "ready-wis-9600-pcv-oilleak-2102417"
+      ],
+      "inspection_evidence": [
+        "Read actual MY, original B235 engine and full VIN privately; note existing PCV oil trap/hoses/nipple/check valve hardware and invoices",
+        "Record date/mileage/type of oil and filter maintenance; separate external oil leak from oil-pressure lamp, timing/balance noise or lower-end knock",
+        "If symptom history or a concern is present, have Saab-qualified technician assess lubrication pressure, pick-up blockage and bearing condition before considering a renovation as sufficient"
+      ],
+      "required_tools_or_capabilities": [
+        "Manufacturer 210-2417 ventilation renovation installation procedure, safe engine-bay access and underbody lift for oil trap",
+        "Saab 30 14 883 pressure/vacuum pump or objectively equivalent controlled check-valve testing specified in original WIS",
+        "Correct year/engine WIS lubrication measurements; safe lift and qualified mechanic if sludge/knock or unsafe starting concern"
+      ],
+      "vin_rpo_case_gates": [
+        "Saab bulletin applicability is model year AND original engine code (B205/B235); verify actual VIN and engine stamp, not badge alone",
+        "Check existing oil trap, hoses, valves, repair invoice and kit history before purchasing any part; 55 561 200 is a manufacturer bulletin part number, not guaranteed 2026 inventory or VIN-approved kit for an individual car",
+        "The bulletin's symptom-based oil-pressure and bearing diagnosis governs suspected damage; no crank/run of a suspect oil-starved, seized or contaminated engine merely to test PCV",
+        "Do not infer current warranty or special-policy eligibility from 2006 field bulletin or replace timing chain/pickup prophylactically without proper evidence",
+        "9-5 original 9600 B235 MY1999–2003; B308E V6 4AT and MY2004–09 B235 are NOT included in early 210-2417/210-2554 application"
+      ],
+      "source_specific_fact": "Saab U.S./Canadian TSB 210-2554 ed.3 (June 2006) identifies PCV renovation kit 55 561 200; all-market 9-5 210-2417 ed.4 (April 2006) identifies same kit for complaint oil leakage. Factory kit number does not prove a particular engine is sludge-free.",
+      "candidate_parts_or_numbers": [
+        "55 561 200 — Saab PCV renovation kit (bulletin number, not a verified vehicle-specific or current-stock order)",
+        "91 86 156 — oil pickup/strainer only IF diagnosed necessary, original TSB / alternative market identifiers may differ",
+        "91 38 009 — oil pickup O-ring only IF diagnosed necessary, original TSB"
+      ],
+      "retail_source_ids": [],
+      "estimate_usd": null,
+      "required_shop_labor_hours": null
+    },
+    {
+      "id": "part-ready-011",
+      "name": "Original 9-3 MY2000–2002 B205 four-cylinder crankcase-ventilation renovation and check-valve evidence",
+      "match": {
+        "platform": "9400",
+        "automatic_gears": [
+          4
+        ],
+        "engine_codes": [
+          "B205L",
+          "B205R"
+        ],
+        "model_year_range": [
+          2000,
+          2002
+        ]
+      },
+      "factory_example_year": 2001,
+      "evidence_source_ids": [
+        "ready-wis-9400-2001-pcv-b205-scheme",
+        "ready-wis-9400-usca-pcv-2102554"
+      ],
+      "inspection_evidence": [
+        "Confirm full VIN privately: old original 9400 hatch, B205L or B205R, factory FWD four-speed automatic, not 1999 B204L",
+        "Check existing crankcase oil trap, check valve, hose routing, filler pipe and recorded renovation work (actual fitted kit not proven by the bulletin)",
+        "If oil warning/chain noise/knock is reported, use manufacturer exact mechanical diagnosis with safe engine clearance before pricing PCV replacement"
+      ],
+      "required_tools_or_capabilities": [
+        "Correct Saab 9-3 9400 installation sequence: access hose routing, oil trap and filler pipe, safe raised car when indicated",
+        "Saab 30 14 883 pressure/vacuum pump or verified equivalent for original bulletin check-valve test",
+        "Competent mechanical oil-pressure and bearing evaluation where low-pressure or lower-end noise suggests internal damage"
+      ],
+      "vin_rpo_case_gates": [
+        "Saab bulletin applicability is model year AND original engine code (B205/B235); verify actual VIN and engine stamp, not badge alone",
+        "Check existing oil trap, hoses, valves, repair invoice and kit history before purchasing any part; 55 561 200 is a manufacturer bulletin part number, not guaranteed 2026 inventory or VIN-approved kit for an individual car",
+        "The bulletin's symptom-based oil-pressure and bearing diagnosis governs suspected damage; no crank/run of a suspect oil-starved, seized or contaminated engine merely to test PCV",
+        "Do not infer current warranty or special-policy eligibility from 2006 field bulletin or replace timing chain/pickup prophylactically without proper evidence",
+        "Original 9-3 9400 MY1999–2003 B205/B235 covered by Saab 210-2554; source-derived US automatic hatch matches only B205L/R MY2000–2002, NOT 1999 B204L or any 9-3 9440 B207"
+      ],
+      "source_specific_fact": "Original Saab U.S./Canada 210-2554 ed.3 provides distinct 9-3 9400 PCV renovation procedure and part 55 561 200. Source is cross-model TSB mirrored under 9600, with 9400 service context separately supported by its MY2001 system diagram.",
+      "candidate_parts_or_numbers": [
+        "55 561 200 — Saab crankcase ventilation renovation kit (bulletin-listed; current availability, completeness and VIN application NOT verified)"
+      ],
       "retail_source_ids": [],
       "estimate_usd": null,
       "required_shop_labor_hours": null
