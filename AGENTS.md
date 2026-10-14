@@ -2,7 +2,6 @@
 
 ## Complete engineering buying/repair batches
 
-Use the [9-3 B207 / early FA57 engineering buying dossier](docs/engineering/ng93-b207-fa57-buy-repair-improve-20261014.md) and its [15-case decision matrix](data/engineering-batches/ng93-b207-fa57-buyer-decision-matrix-20261014.json) as the example for future **larger, complete system-focused engineering research**: one cohort-specific report covers original faults, production scope, diagnostics, manufacturer corrections, replacement availability, DIY/shop complexity, known cost components, purchase/no-go implications, source links, and real unresolved evidence. Reuse all original research rather than creating more system-routing PRs. Factory service documentation is not a failure frequency; an advertised part cost is not a delivered installed quote. No premature model rankings or unsupported longevity claims.
 
 
 This repository records technical evidence for Saab specifications, replacement
@@ -117,8 +116,8 @@ never count same-document references as independent evidence or model reliabilit
 
 ## Engineering-first delivery: full decision batch, not index cleanup
 
-For US/Canada NG9-3 B207 powertrain research consult the [completed 13-case
-purchase and repair dossier](docs/research/ng93-b207-powertrain-engineering-batch-20261014.md),
+For US/Canada NG9-3 B207 powertrain research consult the [single completed 17-case
+purchase and repair dossier](docs/research/ng93-b207-complete-purchase-dossier-20261014.md),
 the [buyer worksheet](docs/research/ng93-b207-2003-2011-buyer-inspection-worksheet.md)
 and the [source-linked decision register](data/engineering-dossiers/ng93-b207-purchase-engineering-20261014.json)
 **before** researching a previously documented factory bulletin again.
