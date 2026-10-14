@@ -27,7 +27,7 @@ class USFeasibilityMatrixTests(unittest.TestCase):
 
     def test_scenarios_are_evidence_scoped_and_no_fake_prices(self):
         items = self.data["scenarios"]
-        self.assertEqual(len(items), 22)
+        self.assertEqual(len(items), 24)
         source_ids = {s["id"] for s in self.data["source_records"]}
         self.assertEqual(len(source_ids), len(self.data["source_records"]))
         self.assertEqual(len(items), len({s["id"] for s in items}))
@@ -49,7 +49,7 @@ class USFeasibilityMatrixTests(unittest.TestCase):
     def test_scope_only_not_fault_counts_or_approvals(self):
         counts = self.coverage["counts"]
         self.assertEqual(counts["production_groups"], 110)
-        self.assertEqual(counts["source_linked_scenarios"], 22)
+        self.assertEqual(counts["source_linked_scenarios"], 24)
         for key in ("individual_vehicles_inspected", "failure_rates_quantified",
                     "repair_prices_verified", "parts_interchanges_approved"):
             self.assertEqual(counts[key], 0)
@@ -165,6 +165,30 @@ class USFeasibilityMatrixTests(unittest.TestCase):
         self.assertIn("factory_vin_gate", sc["us-feas-022"]["applicability"])
         self.assertTrue(all(not x["individual_vehicle_inspection_completed"]
                             for x in self.coverage["production_group_reviews"]))
+
+    def test_original_9400_vs_new_9650_structure_is_not_mixed(self):
+        counts = self.coverage["counts"]["matching_links_by_scenario"]
+        self.assertEqual(counts["us-feas-023"], 11)
+        self.assertEqual(counts["us-feas-024"], 1)
+        source = {s["id"]: s for s in self.data["scenarios"]}
+        old = source["us-feas-023"]
+        new = source["us-feas-024"]
+        self.assertEqual(old["system"], "structure")
+        self.assertEqual(new["system"], "structure")
+        self.assertIn("semi-rigid", old["name"])
+        self.assertIn("vin_suspension_RPO_gate", new["applicability"])
+        old_rows = [x for x in self.coverage["production_group_reviews"]
+                    if "us-feas-023" in {s["scenario_id"] for s in x["scenario_links"]}]
+        new_rows = [x for x in self.coverage["production_group_reviews"]
+                    if "us-feas-024" in {s["scenario_id"] for s in x["scenario_links"]}]
+        self.assertEqual({x["platform"] for x in old_rows}, {"9400"})
+        self.assertEqual({x["platform"] for x in new_rows}, {"650"})
+        self.assertTrue(all(not x["individual_vehicle_inspection_completed"]
+                            for x in self.coverage["production_group_reviews"]))
+        for s in (old, new):
+            self.assertFalse(s["part_interchange_approved"])
+            self.assertFalse(s["rate_of_failure_established"])
+            self.assertIsNone(s["price_estimate_usd"])
 
     def test_refuse_source_free_or_price_populated_claim(self):
         bad = json.loads(json.dumps(self.data))
