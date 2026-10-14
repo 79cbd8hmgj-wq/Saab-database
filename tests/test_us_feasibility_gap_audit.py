@@ -23,7 +23,7 @@ class USFeasibilityGapAuditTests(unittest.TestCase):
                          self.audit)
         self.assertEqual(self.audit["markets"], ["US"])
         self.assertEqual(self.audit["production_configuration_denominator"], 110)
-        self.assertEqual(self.audit["scenario_denominator"], 22)
+        self.assertEqual(self.audit["scenario_denominator"], 24)
         self.assertEqual(len(self.audit["configurations"]), 110)
         ids = [x["production_configuration_id"] for x in self.audit["configurations"]]
         self.assertEqual(len(ids), len(set(ids)))
@@ -33,7 +33,7 @@ class USFeasibilityGapAuditTests(unittest.TestCase):
         m = self.audit["missing"]
         self.assertEqual(m["missing_engine_core_repair_scenario"]["configuration_count"], 0)
         self.assertEqual(m["missing_transmission_repair_scenario"]["configuration_count"], 0)
-        self.assertEqual(m["missing_structural_repair_scenario"]["configuration_count"], 12)
+        self.assertEqual(m["missing_structural_repair_scenario"]["configuration_count"], 0)
         self.assertEqual(m["missing_both_engine_and_transmission_scenarios"]["configuration_count"], 0)
         e = {
             (x["platform"], x["family_or_engine"]): x["unreviewed_configurations"]
@@ -59,12 +59,25 @@ class USFeasibilityGapAuditTests(unittest.TestCase):
         self.assertFalse(self.audit["all_priced_repair_options_verified"])
         self.assertTrue(self.audit["phase0_gates_unchanged"])
 
-    def test_uncovered_original_93_and_new_95_structure_not_assumed_safe(self):
-        body_gaps = [x for x in self.audit["configurations"]
-                     if not x["structural_repair_scenario_present"]]
-        self.assertEqual({x["platform"] for x in body_gaps}, {"9400", "650"})
-        self.assertEqual(len(body_gaps), 12)
-        self.assertTrue(all(x["general_safety_screen_present"] for x in body_gaps))
+    def test_all_structural_screens_present_without_actual_body_certification(self):
+        groups = self.audit["configurations"]
+        self.assertEqual(len(groups), 110)
+        self.assertTrue(all(x["structural_repair_scenario_present"] for x in groups))
+        self.assertTrue(all(x["general_safety_screen_present"] for x in groups))
+        self.assertEqual(
+            self.audit["missing"]["missing_structural_repair_scenario"]["configuration_count"],
+            0)
+        for x in groups:
+            self.assertFalse(x["vehicle_VIN_or_condition_verified"])
+            self.assertFalse(x["repair_price_or_rate_established"])
+        old = [x for x in groups if x["platform"] == "9400"]
+        new = [x for x in groups if x["platform"] == "650"]
+        self.assertEqual(len(old), 11)
+        self.assertEqual(len(new), 1)
+        self.assertTrue(all("us-feas-023" in x["applicable_scenario_ids"]
+                            for x in old))
+        self.assertTrue(all("us-feas-024" in x["applicable_scenario_ids"]
+                            for x in new))
 
 if __name__ == "__main__":
     unittest.main()
