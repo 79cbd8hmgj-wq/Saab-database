@@ -1,0 +1,3882 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-10-14",
+  "status": "not_rankable_no_tiers_or_scores",
+  "scope": "Only 110 source-compiled US automatic FWD nonconvertible 9-3/9-5 groups; exclusions are NOT negatives",
+  "source_files": [
+    "data/vehicle-catalogue/us-production-normalized.json",
+    "data/vehicle-catalogue/us-feasibility-coverage.json",
+    "data/audits/us-parts-tool-readiness-coverage.json",
+    "data/tier-research/methodology.json"
+  ],
+  "comparison_pillars": [
+    "factory_component_reliability",
+    "known_failure_burden",
+    "parts_supply",
+    "repairability_economics"
+  ],
+  "summary": {
+    "source_reported_production_configuration_groups": 110,
+    "groups_with_existing_diagnostic_leads": 110,
+    "groups_with_existing_parts_tool_leads": 110,
+    "groups_with_usable_population_failure_frequency": 0,
+    "groups_with_exact_VIN_approved_parts_and_confirmed_US_supply": 0,
+    "groups_with_all_in_repair_costs": 0,
+    "groups_rankable": 0,
+    "critical_systems_to_assess_symmetrically": 13,
+    "ranked_models": 0
+  },
+  "note": "Unknown means not established by this evidence crosswalk, not zero failures or unavailable parts. Scenario/job lead counts must not become scores.",
+  "configuration_rows": [
+    {
+      "production_configuration_id": "usprod-650-2011-844ea4b7d007",
+      "market": "US",
+      "model": "9-5",
+      "platform": "650",
+      "model_year": 2011,
+      "engine_code": null,
+      "transmission": "AT 6-Spd",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9400-1999-1bef62da9055",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 1999,
+      "engine_code": "B204L",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "5-door hatchback",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9400-1999-2bd272926b6c",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 1999,
+      "engine_code": "B204L",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "5-door hatchback",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9400-1999-614d751e6481",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 1999,
+      "engine_code": "B204L",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "3-door hatchback",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9400-1999-70300e64546a",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 1999,
+      "engine_code": "B204L",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "3-door hatchback",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9400-2000-04905bdcae68",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 2000,
+      "engine_code": "B205L",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "3-door hatchback",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9400-2000-266da0222bec",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 2000,
+      "engine_code": "B205L",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "5-door hatchback",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9400-2000-efa03e1662d4",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 2000,
+      "engine_code": "B205R",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "5-door hatchback",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9400-2001-b48e60a36980",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 2001,
+      "engine_code": "B205L",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "5-door hatchback",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9400-2001-c5f5c11480e1",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 2001,
+      "engine_code": "B205L",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "3-door hatchback",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9400-2001-d0bcddbd7105",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 2001,
+      "engine_code": "B205R",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "5-door hatchback",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9400-2002-e25d2b682f27",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9400",
+      "model_year": 2002,
+      "engine_code": "B205R",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "5-door hatchback",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2003-00c7717ee322",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2003,
+      "engine_code": "B207L",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2003-6d6530debf2c",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2003,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2003-7ad77133f287",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2003,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2004-2553135925d7",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2004,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2004-c9c6db70f1a3",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2004,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2004-eca7d0654a6a",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2004,
+      "engine_code": "B207L",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2005-35a04ffcaa6e",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2005,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2005-b853ad709829",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2005,
+      "engine_code": "B207L",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2005-ca7c8d0fad7d",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2005,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2005-d2b111c98c63",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2005,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2006-0eb06b9b5336",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2006,
+      "engine_code": "B284L",
+      "transmission": "6AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2006-3f82ebaa461c",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2006,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2006-66a0bba1ffb4",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2006,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2006-66a6ee6945ee",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2006,
+      "engine_code": "B284L",
+      "transmission": "6AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-3b3b7d6492e4",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2007,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-47153ed320be",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2007,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-482ed160ba16",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2007,
+      "engine_code": "B284L",
+      "transmission": "6AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-d6e18d73fb49",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2007,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-e20134af5d2a",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2007,
+      "engine_code": "B284L",
+      "transmission": "6AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2007-f300939418b8",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2007,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2008-30b15ea6c631",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2008,
+      "engine_code": "B284L",
+      "transmission": "6AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2008-409da8b88751",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2008,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2008-b3273aad38f1",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2008,
+      "engine_code": "B284L",
+      "transmission": "6AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2008-d6307a45a509",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2008,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2009-10888383c790",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2009,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2009-f167f5aa1a8c",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2009,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2010-4bd123807bb5",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2010,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2010-9bad9e9b8daf",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2010,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2010-d37e00066c02",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2010,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2010-fefc85694efb",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2010,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2011-6067b39794ec",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2011,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2011-66a3c399ebfd",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2011,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2011-67b077eb5391",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2011,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9440-2011-6d71a632955b",
+      "market": "US",
+      "model": "9-3",
+      "platform": "9440",
+      "model_year": 2011,
+      "engine_code": "B207R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-19692af2405b",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B235E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-1cb72d9097d1",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B308E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-2a95b9b3ce30",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B308E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-481bdb6b5cfc",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B235E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-80270f1fc57b",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B235E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-c4d1d37eb75a",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B308E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-f749361fa49d",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B235E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-1999-fdebac597045",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B308E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-2048481de83b",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B235R",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-3208b53eab2b",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B235E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-5a801d274ac4",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B235R",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-76e96e57f0ea",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B235E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-ba5b5dcfedee",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B308E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-d8414d89a6b7",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B235E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2000-eeaeeecec6b4",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B308E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-20ea775dd8e2",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B308E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-29a2d4ee6170",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B235E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-59d2d33c8ca4",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B235E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-8ac268fdc1be",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B308E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-d4e89c9ad0f9",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B235R",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-e3e9973412fe",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B308E",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2001-e588ecee2743",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B235R",
+      "transmission": "4AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-25bac55f3b40",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2002,
+      "engine_code": "B308E",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-8bb5aafedeaa",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2002,
+      "engine_code": "B308E",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-a6e3f4219fe1",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2002,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-b7a8d2a5b366",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2002,
+      "engine_code": "B235E",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-e84ffc126de4",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2002,
+      "engine_code": "B235E",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2002-f3e877f40269",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2002,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-1425fbc33299",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2003,
+      "engine_code": "B308E",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-5fa449d61161",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2003,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-7cc94c616980",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2003,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-a767166cd624",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2003,
+      "engine_code": "B308E",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-a792094bea10",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2003,
+      "engine_code": "B235E",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2003-e2e98d51f64d",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2003,
+      "engine_code": "B235E",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 2,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2004-2153ecf4425d",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2004,
+      "engine_code": "B235L",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2004-2ff32b6a65ee",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2004,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2004-553a2f9acef2",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2004,
+      "engine_code": "B235L",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2004-887c63b87b24",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2004,
+      "engine_code": "B235E",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2004-c6e52f7b5bb4",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2004,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2005-518673045c1a",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2005,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2005-64bf8e34a0ff",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2005,
+      "engine_code": "B235L",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2005-6a1094ac89d2",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2005,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2005-a15f61481caf",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2005,
+      "engine_code": "B235L",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2005-a1bfc0b97128",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2005,
+      "engine_code": "B235E",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2006-1476c9d19a82",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2006,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2006-69f78cb8a8bf",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2006,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2006-89c78a11d5ac",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2006,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2006-bd8089c1716b",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2006,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-213a3a33935c",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 8,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-36a67a699872",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 8,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-99896cc578b3",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 8,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-9d930be2a7ce",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 8,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-b78c213b7398",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 8,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2007-c327794cbfef",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 8,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2008-3bc4ca7c49ed",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2008,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 3,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2008-66fcbe728e78",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2008,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 3,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2008-90bc26f7f0ff",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2008,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 3,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2008-a2c8b55ed518",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2008,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 5,
+        "parts_and_tool_job_plans": 3,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-5e6ccee798f5",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-75a3e290bc93",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-a4211f0578ac",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-d3204ec60adb",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "sedan",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-e1b331c94576",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    },
+    {
+      "production_configuration_id": "usprod-9600-2009-fb1c554efceb",
+      "market": "US",
+      "model": "9-5",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "transmission": "5AT",
+      "gearbox_case_identified": false,
+      "body_style": "wagon",
+      "drivetrain": "FWD",
+      "existing_source_scoped_leads": {
+        "diagnostic_repair_scenarios": 4,
+        "parts_and_tool_job_plans": 1,
+        "interpretation": "Applicability leads; counts MUST NOT be used as rankings or number of observed failures."
+      },
+      "tier_comparison_evidence": {
+        "factory_component_reliability": "no_population_failure_rate_or_same_revision_lifetime_measurement",
+        "parts_supply": "no_vehicle_specific_approved_interchange_or_verified_delivered_quote",
+        "known_failure_burden": "documented_mechanism_leads_not_population_incidence",
+        "repairability_economics": "no_current_total_repair_price_or_tested_DIY_access"
+      },
+      "rankable": false,
+      "tier": null,
+      "confidence_grade": null,
+      "unresolved": [
+        "Exact original VIN/build and installed components",
+        "Failure-frequency denominators, age/mileage/exposure and maintenance",
+        "Original versus factory-revised part condition and population risk",
+        "Per-critical-system matched failure-mechanism and diagnostic coverage",
+        "VIN-verified OEM successor and alternative fitment",
+        "2026 U.S. supplier availability, delivery, and complete repair quotes",
+        "Inspection of actual vehicle and structural safety"
+      ]
+    }
+  ]
+}
