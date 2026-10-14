@@ -75,7 +75,7 @@ def check(dossier: dict, datasets: list[dict], tier: dict) -> dict:
                 "saabwisonline.com","www.engineprofessional.com","www.fcpeuro.com",
                 "saabparts.com","saabparts.us","parts.gmparts.com","webshop-fi.saabparts.com",
                 "parts.chevrolet.com","www.esaabparts.com","velectronix.com",
-                "www.modernclassicsaab.com","saabparts.us","www.nhtsa.gov"
+                "www.modernclassicsaab.com","www.nhtsa.gov","saabparts.us","www.nhtsa.gov"
             }:
                 raise ValueError("Invalid/unreviewed external citation "+c["id"]+" "+source_url)
         for old in c["prior_ids"]:
