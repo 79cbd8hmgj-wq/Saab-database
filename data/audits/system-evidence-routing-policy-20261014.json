@@ -1,0 +1,376 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-10-14",
+  "status": "reusable_record_to_system_index_no_reliability_assessment",
+  "meaning": "Classification is for finding saved research, NOT adjudicated component-failure coverage, model rating, market availability, reliability, factory source completeness or OEM-fitment approval.",
+  "boundary": "Use explicit record subject/predicate/title before research-domain context. Multiple physical systems may coexist; cross-cutting sources/vehicle identity and uncertainty are permitted. Keyword and domain routes are review leads, never certified applicability.",
+  "domain_context_defaults": {
+    "b235_maintenance_fa57_identity": [
+      "engine_core_oil_pcv",
+      "maintenance_consumables"
+    ],
+    "b235r_oil_pcv_2006_2008": [
+      "engine_core_oil_pcv"
+    ],
+    "corrections": [],
+    "cross_manufacturer_electrics_model_choice": [
+      "charging_starting_wiring"
+    ],
+    "cross_manufacturer_front_hub_pilot": [
+      "steering_suspension"
+    ],
+    "cross_manufacturer_gm_saab_b207_water_pump": [
+      "cooling_heat"
+    ],
+    "cross_manufacturer_interchange_pilot": [],
+    "early_t7_pcv_kit_factory_and_sourcing_20261014": [
+      "engine_core_oil_pcv"
+    ],
+    "epc_provenance": [],
+    "high_cost_powertrain_diagnostics": [],
+    "ng93": [],
+    "ng93_body": [
+      "body_exterior_glazing"
+    ],
+    "ng93_early_mount_fuel": [],
+    "ng93_structure": [
+      "body_corrosion_mounts"
+    ],
+    "official_us_vin_and_service_kit_provenance": [],
+    "og95": [],
+    "og95_2006_2008": [],
+    "og95_atf_thermal_turbo_bulletin": [],
+    "og95_body": [
+      "body_exterior_glazing"
+    ],
+    "og95_cooling_service_2006_2009": [
+      "cooling_heat"
+    ],
+    "og95_ground_power_0709": [
+      "charging_starting_wiring"
+    ],
+    "og95_north_american_exhaust_fuel_wp6": [
+      "fuel_emissions_exhaust"
+    ],
+    "og95_pcv_radiator_mount_provenance": [],
+    "og95_shared_electrics_countercheck": [
+      "charging_starting_wiring"
+    ],
+    "og95_structure": [
+      "body_corrosion_mounts"
+    ],
+    "og95_t7_cooling_0709": [],
+    "og95_t7_electrical": [
+      "ecu_immobilizer_security"
+    ],
+    "og95_turbo_oil_feed_solenoids": [],
+    "og95_turbo_tsb_2912494_fa57_triage": [],
+    "priority_brake_hydraulic_safety": [
+      "brakes_hydraulics"
+    ],
+    "priority_nonrunning_purchase_screen": [],
+    "priority_structural_corrosion_inspection": [
+      "body_corrosion_mounts"
+    ],
+    "priority_usca_service_recall_baseline_wp7": [],
+    "priority_vehicle_identity_gates": [],
+    "repair_vs_replace_troubleshooting": [],
+    "replacements": [],
+    "simulation": [],
+    "subframe_parts_brake_lines": [
+      "body_corrosion_mounts"
+    ],
+    "t7_t8_repair_support_model_choice": [
+      "ecu_immobilizer_security"
+    ],
+    "tier_component_factory_revision_20261014": [
+      "ecu_immobilizer_security"
+    ],
+    "us_retail_parts_supply_snapshot": [],
+    "vin_gearbox_provenance": []
+  },
+  "match_rules": {
+    "engine_core_oil_pcv": [
+      "\\bpcv\\b",
+      "oil.trap",
+      "crankcase.vent",
+      "sludge",
+      "oil.pickup",
+      "oil.strainer",
+      "oil.pressure",
+      "oil.pump",
+      "sump",
+      "piston",
+      "engine.block",
+      "cylinder.block",
+      "\\bb235\\b",
+      "\\bb205\\b",
+      "\\bb204\\b",
+      "\\ba20nft\\b",
+      "lower.end",
+      "bearing.damage"
+    ],
+    "engine_timing_valvetrain": [
+      "timing.chain",
+      "timing.drive",
+      "chain.tension",
+      "valvetrain",
+      "valve.face",
+      "valve.seat",
+      "intake.valve",
+      "exhaust.valve",
+      "camshaft",
+      "valve.spring",
+      "compression.loss",
+      "cold.compression"
+    ],
+    "turbo_intake_boost": [
+      "turbocharger",
+      "\\bturbo\\b",
+      "boost",
+      "wastegate",
+      "bypass.valve",
+      "compressor.housing",
+      "charge.air",
+      "intercool",
+      "oil.feed",
+      "oil.return"
+    ],
+    "transmission_driveline": [
+      "transmission",
+      "gearbox",
+      "\\batf\\b",
+      "\\bfa57\\b",
+      "\\baf40\\b",
+      "\\bfm55\\b",
+      "\\bfm57\\b",
+      "\\baf20\\b",
+      "\\baf30\\b",
+      "shift.solenoid",
+      "torque.converter",
+      "\\btcm\\b",
+      "clutch",
+      "differential"
+    ],
+    "body_corrosion_mounts": [
+      "subframe",
+      "sub.frame",
+      "captive.nut",
+      "\\bsill\\b",
+      "underbody",
+      "under.body",
+      "corrosion",
+      "\\brust\\b",
+      "mounting.metal",
+      "engine.mount",
+      "torque.arm",
+      "\\bjacking\\b",
+      "body.shell",
+      "frame.member",
+      "floor.reinforce",
+      "frame.reinforce",
+      "body.repair",
+      "structural"
+    ],
+    "brakes_hydraulics": [
+      "\\bbrake",
+      "\\babs\\b",
+      "\\besp\\b",
+      "caliper",
+      "\\brotor",
+      "brake.pad",
+      "parking.brake",
+      "handbrake",
+      "hydraulic.bleed",
+      "master.cylinder",
+      "brake.pipe",
+      "brake.hose"
+    ],
+    "cooling_heat": [
+      "coolant",
+      "cooling",
+      "radiator",
+      "thermostat",
+      "water.pump",
+      "expansion.tank",
+      "heat.exchang",
+      "oil.cooler",
+      "cooler.connection",
+      "fan.relay",
+      "cooler.nipple",
+      "water.pump",
+      "fan.motor"
+    ],
+    "fuel_emissions_exhaust": [
+      "\\bfuel",
+      "\\bevap\\b",
+      "exhaust",
+      "catalyst",
+      "catalytic",
+      "emission",
+      "oxygen.sensor",
+      "lambda.sensor",
+      "\\bo2s\\b",
+      "injector",
+      "purge.valve",
+      "converter"
+    ],
+    "ecu_immobilizer_security": [
+      "\\becu\\b",
+      "\\becm\\b",
+      "trionic",
+      "ignition.discharge",
+      "\\bidm\\b",
+      "ignition.cassette",
+      "\\bimmobiliz",
+      "\\bcim\\b",
+      "\\bism\\b",
+      "\\btwice\\b",
+      "\\bsid\\b",
+      "remote.key",
+      "key.detect",
+      "key.accept",
+      "steering.lock",
+      "software.clone",
+      "programming",
+      "\\btech2\\b"
+    ],
+    "charging_starting_wiring": [
+      "alternator",
+      "\\bstarter\\b",
+      "charging",
+      "battery",
+      "ground",
+      "\\bg7\\b",
+      "\\bg30\\b",
+      "wiring",
+      "harness",
+      "fuse",
+      "relay",
+      "power.distribution",
+      "electrical.supply",
+      "electrical.connector"
+    ],
+    "steering_suspension": [
+      "steering",
+      "suspension",
+      "strut",
+      "coil.spring",
+      "wheel.bearing",
+      "front.hub",
+      "rear.hub",
+      "wheel.hub",
+      "tie.rod",
+      "control.arm",
+      "sway.bar",
+      "suspension.link",
+      "wheel.alignment",
+      "axle.stay",
+      "suspension.geometry"
+    ],
+    "hvac_defrost_water": [
+      "\\bhvac\\b",
+      "air.condition",
+      "\\ba.c\\b",
+      "defog",
+      "defrost",
+      "heater.core",
+      "blower.motor",
+      "recirculat",
+      "water.ingress",
+      "carpet.water",
+      "drain.leak"
+    ],
+    "restraints_safety": [
+      "airbag",
+      "inflator",
+      "takata",
+      "seat.belt",
+      "seatbelt",
+      "belt.retractor",
+      "occupant.protection",
+      "fmvss",
+      "restraint",
+      "\\bats.cable\\b"
+    ],
+    "interior_ergonomics": [
+      "instrument.cluster",
+      "door.lock",
+      "window.switch",
+      "interior.trim",
+      "seat.heater",
+      "\\bmiu\\b",
+      "dashboard.display",
+      "instrument.panel",
+      "comfort.electronics"
+    ],
+    "body_exterior_glazing": [
+      "windshield",
+      "wind.screen",
+      "rear.window",
+      "windscreen",
+      "body.panel",
+      "glass",
+      "glazing",
+      "bumper",
+      "headlamp",
+      "tail.lamp",
+      "body.dimension",
+      "wheelbase",
+      "overall.length",
+      "vehicle.width",
+      "roof.panel",
+      "rear.hatch",
+      "exterior"
+    ],
+    "maintenance_consumables": [
+      "maintenance",
+      "\\bservice\\b",
+      "oil.change",
+      "oil.filter",
+      "coolant.change",
+      "flush.interval",
+      "fluid.refill",
+      "fluid.grade",
+      "filter.element",
+      "\\bspark.plug",
+      "service.schedule",
+      "\\bmileage.interval\\b",
+      "torque.spec",
+      "tightening.torque",
+      "\\btyre\\b",
+      "\\btire\\b"
+    ]
+  },
+  "ignore_generic_subject_patterns": [
+    "^saab original 9.5 9600$",
+    "^saab original 9.5$",
+    "^vehicle\\:",
+    "^profile\\:"
+  ],
+  "cross_cutting_subject_prefixes": [
+    "vin:",
+    "service_resource:",
+    "service:nhtsa-vin-recalls",
+    "software:",
+    "tool:",
+    "simulation:"
+  ],
+  "cross_cutting_primary_categories": [
+    "source_quality",
+    "source_scope",
+    "vin_code",
+    "vehicle_identity",
+    "software_provenance",
+    "official_parts_documentation",
+    "official_service_documentation"
+  ],
+  "evidence_roles": {
+    "fact": "Documented/supplier/derived technical observation; not by itself a factory failure, supplier inventory or confirmed interchange.",
+    "part": "Historical catalogued OEM or supplier part entry; not verified current stock or VIN-approved fitment.",
+    "gap": "Unanswered research requirement; not proof vehicle suffers a fault.",
+    "issue": "Preexisting case classified by legacy taxonomy; not necessarily a defect."
+  },
+  "source_reuse_only": "Same original URL in an issue or another record is context for research navigation, not a verified same failure, confirmation of fitment, or a complete repair study.",
+  "user_decisions": "No tier scores, no model priorities, no assumption excluded platforms are unreliable. Neither a physical component nor vehicle campaign source is automatically repeated as a model-wide defect."
+}
