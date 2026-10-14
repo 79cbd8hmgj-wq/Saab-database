@@ -89,7 +89,7 @@ A claim such as “we have researched all Saab factory issues” would be unsupp
 
 ## 5. Documentation and workflow consistency
 
-The audit scanned **64 Markdown files** and **247 local relative links** and found **zero broken local links**. This checks navigation, not whether an old recommendation is current.
+The audit scanned **65 Markdown files** and **262 local relative links** and found **zero broken local links**. This checks navigation, not whether an old recommendation is current.
 
 It identified two documentation-drift cases:
 1. The top of [coverage-audit.md](coverage-audit.md) previously called itself a **41-domain** refresh despite the current **42-domain** table; corrected in this audit PR.
