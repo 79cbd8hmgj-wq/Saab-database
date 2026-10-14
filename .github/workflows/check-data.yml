@@ -21,6 +21,8 @@ jobs:
         run: python3 tools/audit_research_reuse.py --summary
       - name: Verify legacy issue classification and mechanism crosswalk
         run: python3 tools/build_legacy_issue_index.py --check --summary
+      - name: Check original part and shared research blocker reconciliation
+        run: python3 tools/check_part_gap_reconciliation.py --check --summary
       - name: Reconcile all source-backed records across sixteen vehicle systems
         run: python3 tools/build_system_evidence_index.py --check --summary
       - name: Validate unranked tier evidence baseline
