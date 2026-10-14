@@ -91,7 +91,7 @@ class B207FA57EngineeringBatchTests(unittest.TestCase):
         for case in ("engine-valve-sealing","early-fa57-coolant-atf",
                      "front-springs-structure","brakes-lines-abs"):
             self.assertIn(case,self.cases)
-        self.assertIn("not a B207",self.cases["turbo-boost-chargeair"]["purchase_rule"].casefold())
+        self.assertIn("not proof of b207 fault",self.cases["turbo-boost-chargeair"]["purchase_rule"].casefold())
         self.assertIn("gear-driven",self.cases["b207-water-pump"]["factory_issue"])
 
     def test_readable_document_contains_material_decisions(self):
