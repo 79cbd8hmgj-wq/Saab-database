@@ -73,7 +73,7 @@ def check(dossier: dict, datasets: list[dict], tier: dict) -> dict:
             p=urlparse(source_url)
             if p.scheme!="https" or not p.netloc or p.netloc not in {
                 "saabwisonline.com","www.engineprofessional.com","www.fcpeuro.com",
-                "saabparts.com","parts.gmparts.com","webshop-fi.saabparts.com",
+                "saabparts.com","saabparts.us","parts.gmparts.com","webshop-fi.saabparts.com",
                 "parts.chevrolet.com","www.esaabparts.com","velectronix.com",
                 "www.modernclassicsaab.com"
             }:
