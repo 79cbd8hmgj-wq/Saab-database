@@ -6,7 +6,7 @@
   "market": "US",
   "counts": {
     "production_groups": 110,
-    "source_linked_scenarios": 18,
+    "source_linked_scenarios": 22,
     "matching_links_by_scenario": {
       "us-feas-001": 28,
       "us-feas-002": 30,
@@ -25,7 +25,11 @@
       "us-feas-015": 4,
       "us-feas-016": 13,
       "us-feas-017": 11,
-      "us-feas-018": 22
+      "us-feas-018": 22,
+      "us-feas-019": 6,
+      "us-feas-020": 1,
+      "us-feas-021": 18,
+      "us-feas-022": 1
     },
     "individual_vehicles_inspected": 0,
     "failure_rates_quantified": 0,
@@ -846,6 +850,13 @@
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
           "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
         }
       ],
       "individual_vehicle_inspection_completed": false,
@@ -876,6 +887,13 @@
         },
         {
           "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
           "applicability_status": "scope_match_only_not_fault_diagnosis",
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
@@ -914,6 +932,13 @@
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
           "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-019",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
         }
       ],
       "individual_vehicle_inspection_completed": false,
@@ -944,6 +969,13 @@
         },
         {
           "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-019",
           "applicability_status": "scope_match_only_not_fault_diagnosis",
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
@@ -982,6 +1014,13 @@
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
           "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
         }
       ],
       "individual_vehicle_inspection_completed": false,
@@ -1012,6 +1051,13 @@
         },
         {
           "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
           "applicability_status": "scope_match_only_not_fault_diagnosis",
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
@@ -1050,6 +1096,13 @@
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
           "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
         }
       ],
       "individual_vehicle_inspection_completed": false,
@@ -1080,6 +1133,13 @@
         },
         {
           "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
           "applicability_status": "scope_match_only_not_fault_diagnosis",
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
@@ -1118,6 +1178,13 @@
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
           "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-019",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
         }
       ],
       "individual_vehicle_inspection_completed": false,
@@ -1148,6 +1215,13 @@
         },
         {
           "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-019",
           "applicability_status": "scope_match_only_not_fault_diagnosis",
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
@@ -1186,6 +1260,13 @@
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
           "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
         }
       ],
       "individual_vehicle_inspection_completed": false,
@@ -1216,6 +1297,13 @@
         },
         {
           "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
           "applicability_status": "scope_match_only_not_fault_diagnosis",
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
@@ -1254,6 +1342,13 @@
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
           "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-019",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
         }
       ],
       "individual_vehicle_inspection_completed": false,
@@ -1284,6 +1379,13 @@
         },
         {
           "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-019",
           "applicability_status": "scope_match_only_not_fault_diagnosis",
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
@@ -1322,6 +1424,13 @@
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
           "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
         }
       ],
       "individual_vehicle_inspection_completed": false,
@@ -1352,6 +1461,13 @@
         },
         {
           "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
           "applicability_status": "scope_match_only_not_fault_diagnosis",
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
@@ -1390,6 +1506,13 @@
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
           "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
         }
       ],
       "individual_vehicle_inspection_completed": false,
@@ -1420,6 +1543,13 @@
         },
         {
           "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
           "applicability_status": "scope_match_only_not_fault_diagnosis",
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
@@ -1458,6 +1588,13 @@
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
           "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
         }
       ],
       "individual_vehicle_inspection_completed": false,
@@ -1488,6 +1625,13 @@
         },
         {
           "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
           "applicability_status": "scope_match_only_not_fault_diagnosis",
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
@@ -1526,6 +1670,13 @@
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
           "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
         }
       ],
       "individual_vehicle_inspection_completed": false,
@@ -1556,6 +1707,13 @@
         },
         {
           "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
           "applicability_status": "scope_match_only_not_fault_diagnosis",
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
@@ -1594,6 +1752,13 @@
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
           "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
         }
       ],
       "individual_vehicle_inspection_completed": false,
@@ -1624,6 +1789,13 @@
         },
         {
           "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-021",
           "applicability_status": "scope_match_only_not_fault_diagnosis",
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,
@@ -4646,6 +4818,20 @@
       "scenario_links": [
         {
           "scenario_id": "us-feas-013",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-020",
+          "applicability_status": "scope_match_only_not_fault_diagnosis",
+          "additional_vehicle_vin_gate": null,
+          "actual_fault_confirmed": false,
+          "replacement_authorized": false
+        },
+        {
+          "scenario_id": "us-feas-022",
           "applicability_status": "scope_match_only_not_fault_diagnosis",
           "additional_vehicle_vin_gate": null,
           "actual_fault_confirmed": false,

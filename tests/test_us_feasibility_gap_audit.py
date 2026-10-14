@@ -23,7 +23,7 @@ class USFeasibilityGapAuditTests(unittest.TestCase):
                          self.audit)
         self.assertEqual(self.audit["markets"], ["US"])
         self.assertEqual(self.audit["production_configuration_denominator"], 110)
-        self.assertEqual(self.audit["scenario_denominator"], 18)
+        self.assertEqual(self.audit["scenario_denominator"], 22)
         self.assertEqual(len(self.audit["configurations"]), 110)
         ids = [x["production_configuration_id"] for x in self.audit["configurations"]]
         self.assertEqual(len(ids), len(set(ids)))
@@ -31,26 +31,20 @@ class USFeasibilityGapAuditTests(unittest.TestCase):
 
     def test_completeness_denominators_and_unassessed_family_identification(self):
         m = self.audit["missing"]
-        self.assertEqual(m["missing_engine_core_repair_scenario"]["configuration_count"], 7)
-        self.assertEqual(m["missing_transmission_repair_scenario"]["configuration_count"], 19)
+        self.assertEqual(m["missing_engine_core_repair_scenario"]["configuration_count"], 0)
+        self.assertEqual(m["missing_transmission_repair_scenario"]["configuration_count"], 0)
         self.assertEqual(m["missing_structural_repair_scenario"]["configuration_count"], 12)
-        self.assertEqual(m["missing_both_engine_and_transmission_scenarios"]["configuration_count"], 1)
+        self.assertEqual(m["missing_both_engine_and_transmission_scenarios"]["configuration_count"], 0)
         e = {
             (x["platform"], x["family_or_engine"]): x["unreviewed_configurations"]
             for x in self.audit["grouped_missing_research"]["engine_core"]
         }
-        self.assertEqual(e, {
-            ("9440", "B284L"): 6,
-            ("650", "2.0T"): 1,
-        })
+        self.assertEqual(e, {})
         t = {
             (x["platform"], x["family_or_engine"]): x["unreviewed_configurations"]
             for x in self.audit["grouped_missing_research"]["transmission"]
         }
-        self.assertEqual(t, {
-            ("9440", "FA57"): 18,
-            ("650", "AF40"): 1,
-        })
+        self.assertEqual(t, {})
 
     def test_absence_of_research_does_not_certify_health(self):
         for x in self.audit["configurations"]:
