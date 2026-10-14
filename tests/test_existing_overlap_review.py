@@ -124,6 +124,38 @@ class SaabExistingPartGapOverlapTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,"unrestricted interchange"):
             build(self.datasets,mutated)
 
+    def test_curated_ambiguous_issue_routes_resolve_real_components_only(self):
+        policy=read("data/audits/system-evidence-routing-policy-20261014.json")
+        overrides=policy["explicit_issue_routes"]
+        self.assertEqual(len(overrides),32)
+        self.assertEqual(
+            {id_ for id_,systems in overrides.items() if not systems},
+            {"gate5-issue-001","gateac-issue-001","usparts-issue-001",
+             "vinfit-issue-001","wp7-issue-001"}
+        )
+        self.assertEqual(overrides["corrections-issue-003"],["engine_core_oil_pcv"])
+        self.assertEqual(overrides["prebuy-issue-003"],["transmission_driveline"])
+        self.assertEqual(overrides["ogex-issue-001"],["charging_starting_wiring"])
+        self.assertEqual(overrides["wp7-issue-002"],
+                         ["maintenance_consumables","interior_ergonomics"])
+        self.assertEqual(set(overrides["corrections-issue-006"]),
+                         {"transmission_driveline","cooling_heat"})
+        self.assertNotIn("steering_suspension",overrides["corrections-issue-010"])
+        index=build_system(
+            self.datasets,policy,
+            read("data/tier-research/methodology.json"),
+            read("data/audits/legacy-issue-taxonomy-20261014.json"),
+            read("data/tier-research/observations.json"),
+            read("data/phase0-coverage-snapshot.json")
+        )
+        rows={r["id"]:r for r in index["records"]}
+        self.assertEqual(index["reviewed_ambiguous_issue_navigation_routes"],32)
+        for id_,systems in overrides.items():
+            row=rows[id_]
+            self.assertEqual(row["system_ids_for_discovery"],systems)
+            self.assertEqual(row["routing_basis"],"curated_explicit_issue_navigation")
+            self.assertFalse(row["eligible_for_model_rating_from_this_index"])
+
     def test_system_index_exposes_part_and_gap_aliases_without_using_them_to_rank(self):
         index=build_system(
             self.datasets,
