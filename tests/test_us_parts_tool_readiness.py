@@ -75,7 +75,7 @@ class USPartsToolReadinessTests(unittest.TestCase):
         self.assertIn("does not approve 9-3 AF40 donor interchange",
                       " ".join(byid["part-ready-007"]["vin_rpo_case_gates"]))
         self.assertIn("73514478/73514479",
-                      byid["part-ready-006"]["source_specific_fact"])
+                      " ".join(byid["part-ready-006"]["vin_rpo_case_gates"]))
         self.assertIn("83 94 850",
                       " ".join(byid["part-ready-006"]["required_tools_or_capabilities"]))
 
