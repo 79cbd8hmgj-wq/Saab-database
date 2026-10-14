@@ -108,7 +108,18 @@
       "\\bb204\\b",
       "\\ba20nft\\b",
       "lower.end",
-      "bearing.damage"
+      "bearing.damage",
+      "\\bb207[a-z]?\\b",
+      "\\bb235[a-z]?\\b",
+      "\\bb205[a-z]?\\b",
+      "compression",
+      "oil.circuit",
+      "oil.flow",
+      "cylinder.bore",
+      "firing.order",
+      "displacement",
+      "reinforced.block",
+      "casting"
     ],
     "engine_timing_valvetrain": [
       "timing.chain",
@@ -122,7 +133,11 @@
       "camshaft",
       "valve.spring",
       "compression.loss",
-      "cold.compression"
+      "cold.compression",
+      "valve.cover",
+      "valve.wear",
+      "valve.sealing",
+      "cold.start.advisory"
     ],
     "turbo_intake_boost": [
       "turbocharger",
@@ -134,7 +149,11 @@
       "charge.air",
       "intercool",
       "oil.feed",
-      "oil.return"
+      "oil.return",
+      "\\bintake.pipe",
+      "intake.hose",
+      "\\bbypass.pipe",
+      "charge.pressure"
     ],
     "transmission_driveline": [
       "transmission",
@@ -150,7 +169,17 @@
       "torque.converter",
       "\\btcm\\b",
       "clutch",
-      "differential"
+      "differential",
+      "(?:^|[_\\W])atf(?:$|[_\\W])",
+      "\\bautomatic\\b",
+      "\\bauto\\b",
+      "(?:^|[_\\W])tcm(?:$|[_\\W])",
+      "(?:^|[_\\W])tcc(?:$|[_\\W])",
+      "p0705",
+      "p0722",
+      "p0218",
+      "shift.mode",
+      "\\bfifth.gear"
     ],
     "body_corrosion_mounts": [
       "subframe",
@@ -170,7 +199,11 @@
       "floor.reinforce",
       "frame.reinforce",
       "body.repair",
-      "structural"
+      "structural",
+      "front.floor",
+      "\\bframe.list",
+      "jack.support",
+      "body.attach"
     ],
     "brakes_hydraulics": [
       "\\bbrake",
@@ -184,7 +217,9 @@
       "hydraulic.bleed",
       "master.cylinder",
       "brake.pipe",
-      "brake.hose"
+      "brake.hose",
+      "\\bbrake.level",
+      "\\bbraking\\b"
     ],
     "cooling_heat": [
       "coolant",
@@ -199,7 +234,9 @@
       "fan.relay",
       "cooler.nipple",
       "water.pump",
-      "fan.motor"
+      "fan.motor",
+      "\\bheater\\b",
+      "\\bcooling.fan"
     ],
     "fuel_emissions_exhaust": [
       "\\bfuel",
@@ -213,7 +250,8 @@
       "\\bo2s\\b",
       "injector",
       "purge.valve",
-      "converter"
+      "converter",
+      "\\bcarbon.canister"
     ],
     "ecu_immobilizer_security": [
       "\\becu\\b",
@@ -233,7 +271,12 @@
       "steering.lock",
       "software.clone",
       "programming",
-      "\\btech2\\b"
+      "\\btech2\\b",
+      "(?:^|[_\\W])ism(?:$|[_\\W])",
+      "(?:^|[_\\W])cim(?:$|[_\\W])",
+      "\\bignition.switch",
+      "\\bt8\\b",
+      "\\bkey\\b"
     ],
     "charging_starting_wiring": [
       "alternator",
@@ -249,7 +292,9 @@
       "relay",
       "power.distribution",
       "electrical.supply",
-      "electrical.connector"
+      "electrical.connector",
+      "\\bvoltage\\b",
+      "\\bfuse\\b"
     ],
     "steering_suspension": [
       "steering",
@@ -266,7 +311,10 @@
       "suspension.link",
       "wheel.alignment",
       "axle.stay",
-      "suspension.geometry"
+      "suspension.geometry",
+      "\\balignment\\b",
+      "chassis.angular",
+      "\\bspring\\b"
     ],
     "hvac_defrost_water": [
       "\\bhvac\\b",
@@ -279,7 +327,9 @@
       "recirculat",
       "water.ingress",
       "carpet.water",
-      "drain.leak"
+      "drain.leak",
+      "cabin.air",
+      "carpet.water"
     ],
     "restraints_safety": [
       "airbag",
@@ -291,7 +341,8 @@
       "occupant.protection",
       "fmvss",
       "restraint",
-      "\\bats.cable\\b"
+      "\\bats.cable\\b",
+      "\\bbelt.retractor"
     ],
     "interior_ergonomics": [
       "instrument.cluster",
@@ -321,7 +372,10 @@
       "vehicle.width",
       "roof.panel",
       "rear.hatch",
-      "exterior"
+      "exterior",
+      "vehicle.dimension",
+      "\\bdimension",
+      "\\btrack\\b"
     ],
     "maintenance_consumables": [
       "maintenance",
@@ -339,7 +393,11 @@
       "torque.spec",
       "tightening.torque",
       "\\btyre\\b",
-      "\\btire\\b"
+      "\\btire\\b",
+      "service_oil",
+      "oil_requirement",
+      "fluid.capacity",
+      "filter_procedure"
     ]
   },
   "ignore_generic_subject_patterns": [
