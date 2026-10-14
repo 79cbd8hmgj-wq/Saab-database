@@ -351,6 +351,110 @@
       "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
       "notes": "MY2000 9-5 four-speed factory level +80 C D/R/P idling sequence and DEXRON III, subject to exact actual car/installed box and fluid evidence.",
       "origin": "original Saab WIS, mirrored; source model year restricted by notes"
+    },
+    {
+      "id": "us-next-wis-b284-compression-2007",
+      "title": "Saab MY2007 9-3 B284 V6 six-cylinder compression test",
+      "url": "https://saabwisonline.com/9-3-9440/2007/2-engine/v6-petrol/basic-engine/adjustment-replacement/engine-compression-test",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "MY2007 B284 petrol WIS: cranking compression after safe mechanical clearance, removing ignition relay, Motometer; refers to piston specification. It is NOT a starting authorization for seized or hydrolocked nonrunning car.",
+      "origin": "Saab factory Workshop Information System mirror; exact model-year and installed gearbox/VIN verification required"
+    },
+    {
+      "id": "us-next-wis-b284-oil-2007",
+      "title": "Saab MY2007 9-3 B284 V6 original engine oil pressure procedure",
+      "url": "https://saabwisonline.com/9-3-9440/2007/2-engine/v6-petrol/basic-engine/adjustment-replacement/check-the-engine-oil-pressure",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "Requires correct pressure equipment attached to turbo oil feed banjo and hot-turbo caution. Reference WIS MY2007 lubrication pressure specification; never infer arbitrary numeric threshold.",
+      "origin": "Saab factory Workshop Information System mirror; exact model-year and installed gearbox/VIN verification required"
+    },
+    {
+      "id": "us-next-wis-b284-chain-2007",
+      "title": "Saab MY2007 B284 new camshaft drive version timing service",
+      "url": "https://saabwisonline.com/9-3-9440/2007/2-engine/v6-petrol/basic-engine/adjustment-replacement/camshaft-drive-b284-new-version",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "Factory manual distinguishes OLD/NEW B284 cam drive, with EN-48383 and EN-46111 special tool constraints, cams/piston contact risk. Not evidence every B284 has chain defect or which version belongs to a car.",
+      "origin": "Saab factory Workshop Information System mirror; exact model-year and installed gearbox/VIN verification required"
+    },
+    {
+      "id": "us-next-wis-b284-old-chain-2007",
+      "title": "Saab MY2007 B284 old camshaft drive timing service",
+      "url": "https://saabwisonline.com/9-3-9440/2007/2-engine/v6-petrol/basic-engine/adjustment-replacement/camshaft-drive-b284-old-version",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "Original WIS separate old cam-drive variant procedure. Exact engine number and build required to select new versus old parts/procedure.",
+      "origin": "Saab factory Workshop Information System mirror; exact model-year and installed gearbox/VIN verification required"
+    },
+    {
+      "id": "us-next-wis-lhu-oil-2011",
+      "title": "Saab MY2011 new-generation 9-5 LDK/LHU oil pressure diagnosis",
+      "url": "https://saabwisonline.com/9-5-9650/2011/2-engine/basic-engine-2-0-l-petrol/fault-diagnosis-general/oil-pressure-diagnosis-and-testing",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "Factory distinguishes filter, sensor, O-ring, pump/pickup/bypass issues versus bearing clearance. Test assumes safely runnable motor and correct gauge setup. Do not crank suspected damaged engine to obtain hot pressure.",
+      "origin": "Saab factory Workshop Information System mirror; exact model-year and installed gearbox/VIN verification required"
+    },
+    {
+      "id": "us-next-wis-lhu-chain-2011",
+      "title": "Saab MY2011 new 9-5 2.0T LDK/LHU timing chain inspection",
+      "url": "https://saabwisonline.com/9-5-9650/2011/2-engine/basic-engine-2-0-l-petrol/fault-diagnosis-fault-symptoms/timing-chain-check",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "EN-49212 camshaft fixer alignment test; does not assert chain issues are common or safe in any nonrunner. Model-year original manufacturer source.",
+      "origin": "Saab factory Workshop Information System mirror; exact model-year and installed gearbox/VIN verification required"
+    },
+    {
+      "id": "us-next-wis-lhu-mechanical-2011",
+      "title": "Saab MY2011 new 9-5 LDK/LHU engine mechanical symptom fault trees",
+      "url": "https://saabwisonline.com/9-5-9650/2011/2-engine/basic-engine-2-0-l-petrol/fault-diagnosis-fault-symptoms/",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "Separate misfire/valve noise, lower knock, oil/coolant consumption, chain, compression, crank nonrotation; no measured incident rate.",
+      "origin": "Saab factory Workshop Information System mirror; exact model-year and installed gearbox/VIN verification required"
+    },
+    {
+      "id": "us-next-wis-9440-fa57-symptoms-2009",
+      "title": "Saab MY2009 9-3 FA57 original gearbox diagnosis and report",
+      "url": "https://saabwisonline.com/9-3-9440/2009/4-transmission/automatic-transmission/5-speed-fa-57/fault-diagnosis-general/diagnosis-and-test-report",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "Saab WIS records VIN and transmission ID, warm fluid, DTC pre/post, forward/reverse engagement, slipping, lock-up and shifting symptoms. It is not a diagnosis without actual test.",
+      "origin": "Saab factory Workshop Information System mirror; exact model-year and installed gearbox/VIN verification required"
+    },
+    {
+      "id": "us-next-wis-9440-fa57-repair-2009",
+      "title": "Saab MY2009 9-3 FA57 service alternatives and complete replacement demands",
+      "url": "https://saabwisonline.com/9-3-9440/2009/4-transmission/automatic-transmission/5-speed-fa-57/adjustment-replacement/",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "Factory service choices include selector-range/speed sensors, valve housing, TCM adaptation and fluid/cooler, plus whole gearbox removal requiring engine support beam/subframe/lift. List does not guarantee external repair suffices.",
+      "origin": "Saab factory Workshop Information System mirror; exact model-year and installed gearbox/VIN verification required"
+    },
+    {
+      "id": "us-next-wis-9440-fa57-control-2010",
+      "title": "Saab MY2010 9-3 FA57 Tech2 control-module removal programming precautions",
+      "url": "https://saabwisonline.com/9-3-9440/2010/4-transmission/automatic-transmission/5-speed-fa-57/fault-diagnosis-general/procedures-before-dismantling-the-control-module",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "WIS mandates Tech2 Add/Remove remove operation before replacing TCM and possible TIS2000. Do NOT unplug and swap controller expecting plug-and-play immobilizer.",
+      "origin": "Saab factory Workshop Information System mirror; exact model-year and installed gearbox/VIN verification required"
+    },
+    {
+      "id": "us-next-wis-9650-at-p0748-2011",
+      "title": "Saab MY2011 9-5 AF40/6AT line-pressure solenoid P0748 P0961–63 diagnosis",
+      "url": "https://saabwisonline.com/9-5-9650/2011/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/dtc-p0748-or-p0961-p0963",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "Factory 2011 generic gearbox diagnostics separates harness shorts, TCM and SLT line-pressure solenoid with component and valve-body test; must verify actual Turbo4 VIN/RPO and installed gearbox. Electrical fault not complete mechanical failure.",
+      "origin": "Saab factory Workshop Information System mirror; exact model-year and installed gearbox/VIN verification required"
+    },
+    {
+      "id": "us-next-wis-9650-at-p0733-2011",
+      "title": "Saab MY2011 9-5 6AT incorrect gear ratio P0733 hydraulic and mechanical differential",
+      "url": "https://saabwisonline.com/9-5-9650/2011/4-transmission/automatic-transmission/fault-diagnosis-diagnostic-trouble-codes/dtc-p0733",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "Factory differential includes gear ratio plausibility, incorrect ATF level, hydraulic pressure/solenoid and internal pump/clutch/gear damage. Scope requires 2011 9-5 exact vehicle RPO before use.",
+      "origin": "Saab factory Workshop Information System mirror; exact model-year and installed gearbox/VIN verification required"
+    },
+    {
+      "id": "us-next-wis-9650-at-vin-2011",
+      "title": "Saab MY2011 9-5 factory 6AT FWD identity and 2.0T VIN code",
+      "url": "https://saabwisonline.com/9-5-9650/2011/0-general/general/technical-description/vehicle-engine-and-transmission-id-and-vin-location-derivative-and-usage",
+      "source_file": "data/vehicle-catalogue/us-repair-replace-feasibility.json",
+      "notes": "Model-year 2011 Saab original identity chart describes position 7 A = 6AT FWD. VIN position8 engine identification needs actual complete VIN. Third-party production row Turbo4 is only an unspecific candidate.",
+      "origin": "Saab factory Workshop Information System mirror; exact model-year and installed gearbox/VIN verification required"
     }
   ],
   "scenarios": [
@@ -1613,6 +1717,300 @@
       ],
       "unknowns": [
         "exact original year and case-code identification, hydraulic pressure and parts quote"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-019",
+      "name": "Second-generation 9-3 B284L V6 internal-mechanical and cam-drive triage",
+      "system": "engine",
+      "applicability": {
+        "platforms": [
+          "9440"
+        ],
+        "engine_codes": [
+          "B284L"
+        ],
+        "model_year_range_by_platform": {
+          "9440": [
+            2006,
+            2008
+          ]
+        }
+      },
+      "evidence_source_ids": [
+        "us-next-wis-b284-compression-2007",
+        "us-next-wis-b284-oil-2007",
+        "us-next-wis-b284-chain-2007",
+        "us-next-wis-b284-old-chain-2007"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "knock/no start",
+          "camshaft timing fault or significant chain rattle",
+          "suspected low oil pressure",
+          "suspected compression loss"
+        ],
+        "next_evidence": [
+          "Identify exact B284L engine number/build to distinguish old vs new cam-drive WIS procedure and genuine US FWD vehicle",
+          "Before cranking, have competent assessor clear mechanical seizure, oil-starvation, timing loss or coolant ingress risks",
+          "If safe, perform year-matched controlled compression, actual oil-pressure diagnosis and applicable cam drive checks; do not infer chain failure from sound alone"
+        ],
+        "safe_to_operate_if_suspected": null
+      },
+      "repair_options": [
+        {
+          "level": "advanced_DIY_or_qualified_specialist",
+          "work": "Confirmed isolated oil-pressure sensor/feed or accessible peripheral fault may be repairable; WIS documents compression and oil-pressure procedures with specific equipment",
+          "requires": [
+            "original-year WIS, safe engine clearance, gauge and lift/heat protection"
+          ]
+        },
+        {
+          "level": "specialist_timing_or_major_engine_replacement",
+          "work": "B284 cam drive differs between versions; complex chain/tensioner work needs special tools and precise timing. Proven piston/valve contact or lower bearing damage is beyond a simple DIY project",
+          "requires": [
+            "year/version WIS, EN-48383/EN-46111 equipment, assessment of engine health, actual quote"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_only_after_specific_peripheral_fault_is_proven",
+        "when_damage_confirmed": "walk_away_or_complete_engine_replacement_budget_if_major_internal_damage",
+        "when_testing_unavailable": "hold_unverified_internal_engine_and_timing_health"
+      },
+      "evidence_limits": [
+        "MY2007 Saab WIS includes old/new B284 versions; not every 2006–08 US car uses the same kit or procedure",
+        "No failure-frequency evidence, actual VIN, oil-pressure/compression measurement or labor-price evidence",
+        "Do not infer universal B284 chain defect or use B207 parts/procedures"
+      ],
+      "unknowns": [
+        "Exact V6 build-break/engine-code variant, original-year compression and oil-pressure criteria",
+        "Current replacement timing parts/tool availability and shop quote"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-020",
+      "name": "2011 NG 9-5 Turbo4 A20NFT/LHU candidate mechanical oil pressure and timing triage",
+      "system": "engine",
+      "applicability": {
+        "platforms": [
+          "650"
+        ],
+        "model_year_range_by_platform": {
+          "650": [
+            2011
+          ]
+        },
+        "factory_engine_VIN_required": "Source production row 2.0T only; verify actual Saab MY2011 engine VIN code and installed LHU/LDK variant before applying instructions"
+      },
+      "evidence_source_ids": [
+        "us-next-wis-lhu-oil-2011",
+        "us-next-wis-lhu-chain-2011",
+        "us-next-wis-lhu-mechanical-2011",
+        "us-next-wis-9650-at-vin-2011"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "oil pressure lamp or deep knock",
+          "no crank, misfire and valve train rattle",
+          "coolant loss/oil contamination",
+          "timing mismatch"
+        ],
+        "next_evidence": [
+          "Confirm original 2011 US Turbo4 VIN and physical engine ID; production source abbreviation does not prove variant or aftermarket cross fit",
+          "If safely runnable, Saab MY2011 diagnostic path distinguishes oil sender/filter, drainback O-ring, pump/strainer or bypass from excessive bearing clearance",
+          "If suspected cam timing loss, use original MY2011 EN-49212 camshaft locking tool check and controlled leakdown/compression only after safe mechanical clearance"
+        ],
+        "safe_to_operate_if_suspected": null
+      },
+      "repair_options": [
+        {
+          "level": "advanced_DIY_or_specialist_diagnose_first",
+          "work": "A confirmed sender/filter/bypass or independently isolated accessible peripheral issue can be considered separately from internal engine wear",
+          "requires": [
+            "factory MY2011 diagnostic equipment, actual engine code, pressure measurement"
+          ]
+        },
+        {
+          "level": "specialist_engine_work_or_complete_engine_swap",
+          "work": "Severe bearing damage, seized engine, valve/piston contact or uncontrolled compression loss outside DIY no-rebuild target; get complete compatible unit quote or reject",
+          "requires": [
+            "original VIN engine variant, safe confirmation and written price"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_only_for_verified_peripheral_or_maintainable_fault",
+        "when_damage_confirmed": "walk_away_if_internal_damage_with_no_verified_swap_budget",
+        "when_testing_unavailable": "high_risk_unknown_do_not_crank_for_pressure_test"
+      },
+      "evidence_limits": [
+        "WIS LDK/LHU manufacturer generic pages not automatically authorization for every VIN/RPO US Turbo4",
+        "Does not establish timing-chain failure frequency or worn bearing incidence",
+        "No personal car VIN, physical stamping or live compression/oil pressure"
+      ],
+      "unknowns": [
+        "2011 US option/RPO VIN and special-tool availability",
+        "price and provenance of complete engine vs internal repair"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-021",
+      "name": "2006–2011 U.S. FWD 9-3 B207 FA57 five-speed control versus internal failure",
+      "system": "transmission",
+      "applicability": {
+        "platforms": [
+          "9440"
+        ],
+        "automatic_gears": [
+          5
+        ],
+        "model_year_range_by_platform": {
+          "9440": [
+            2006,
+            2011
+          ]
+        },
+        "engine_codes": [
+          "B207L",
+          "B207R"
+        ]
+      },
+      "evidence_source_ids": [
+        "us-next-wis-9440-fa57-symptoms-2009",
+        "us-next-wis-9440-fa57-repair-2009",
+        "us-next-wis-9440-fa57-control-2010"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "harsh or slipping shifts",
+          "no drive forward/reverse",
+          "limp-home or absent shift selection",
+          "unspecified gear control fault"
+        ],
+        "next_evidence": [
+          "Identify actual FA57 case and TCM hardware/calibration and confirm year and FWD; obtain DTCs/freeze frames before resets or replacing a controller",
+          "For safe running vehicle and qualified professional, distinguish selector/range switch, input/output speed sensor, fluid/cooler and TCM adaptation from confirmed clutch/valve-body/mechanical failure",
+          "After verified correct-level/test and repairable cause investigation, request a complete transmission swap quote if internal slip/gear ratio mismatch persists"
+        ],
+        "safe_to_operate_if_suspected": null
+      },
+      "repair_options": [
+        {
+          "level": "advanced_DIY_or_Saab_automatic_specialist",
+          "work": "Saab WIS identifies selector cable/range switch, speed sensors, cooler lines, TCM adaptation as separately diagnosable; unit-specific tools/Tech2 programming required",
+          "requires": [
+            "Tech2/TIS2000 access for TCM operations, specific MY/gearbox WIS, safe test"
+          ]
+        },
+        {
+          "level": "specialist_gearbox_swap_outside_simple_DIY",
+          "work": "Full FA57 assembly replacement requires engine support and extensive driveline/subframe lowering, transmission lifting tools and adaptation",
+          "requires": [
+            "qualified lift, original VIN family/case label, donor fitment and quote"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_when_external_or_control_fault_is_verified",
+        "when_damage_confirmed": "walk_away_or_cost_verified_complete_swap_for_internal_slip",
+        "when_testing_unavailable": "hold_do_not_presume_adaptation_resets_hard_failure"
+      },
+      "evidence_limits": [
+        "2009 WIS diagnosis and 2010 TCM procedure used as bounded research across 2006–11; *not* an assertion all years have identical electronics/software or failure patterns",
+        "FA57 application label does not authorize 9-3/9-5 donor interchange",
+        "Never do unsafe stall or test drive on nonrunning/uninspected Saab"
+      ],
+      "unknowns": [
+        "Original year- and VIN-specific calibration and repair authorization",
+        "Current Tech2, fluid/parts costs, actual gearbox shift/mechanical state"
+      ],
+      "price_estimate_usd": null,
+      "labor_hours_estimate": null,
+      "part_interchange_approved": false,
+      "rate_of_failure_established": false,
+      "individual_vehicle_inspected": false
+    },
+    {
+      "id": "us-feas-022",
+      "name": "2011 NG 9-5 Turbo4 AF40 FWD six-speed solenoid versus hydraulic failure",
+      "system": "transmission",
+      "applicability": {
+        "platforms": [
+          "650"
+        ],
+        "automatic_gears": [
+          6
+        ],
+        "model_year_range_by_platform": {
+          "650": [
+            2011
+          ]
+        },
+        "factory_vin_gate": "Verify MY2011 9-5 VIN gearbox code A for FWD 6AT and case/RPO before using generic M36/MXE procedures"
+      },
+      "evidence_source_ids": [
+        "us-next-wis-9650-at-p0748-2011",
+        "us-next-wis-9650-at-p0733-2011",
+        "us-next-wis-9650-at-vin-2011"
+      ],
+      "inspection_and_diagnosis": {
+        "symptoms": [
+          "CHECK GEARBOX with pressure control codes P0748/P0961–63",
+          "ratio mismatch/slip P0733",
+          "delayed or severe shifting/no engagement"
+        ],
+        "next_evidence": [
+          "Confirm actual FWD automatic VIN coding and installed AF40 case; read full TCM DTCs and preserve freeze frames, do not clear",
+          "Saab MY2011 diagnostic chart distinguishes wiring shorts/open SLT solenoid, control-module signals and valve body from real clutch/pump/hydraulic damage",
+          "Pressure/ratio tests require original MY2011 matching RPO/scan tool, appropriate operating conditions and safe vehicle; do not assume electrical code proves or rules out gearbox failure"
+        ],
+        "safe_to_operate_if_suspected": null
+      },
+      "repair_options": [
+        {
+          "level": "advanced_DIY_or_Saab_transmission_specialist",
+          "work": "When cause is demonstrated as external wiring or control-solenoid/valve-body subassembly, Saab WIS lists circuit and subassembly tests ahead of complete gearbox replacement",
+          "requires": [
+            "matching 2011 RPO/module/scan tool, electronics competence, correct AF40 fluid method and controlled test"
+          ]
+        },
+        {
+          "level": "major_transmission_work_or_complete_swap",
+          "work": "Proven repeated hydraulic pressure loss, internal mechanical slipping or damage beyond subassembly service requires a full gearbox-swap quotation or exclusion under no-rebuild goal",
+          "requires": [
+            "exact AF40 variant/torque converter/TCM programming and lift estimate"
+          ]
+        }
+      ],
+      "conditional_purchase_decision": {
+        "when_tests_point_to_external_repair": "conditional_only_when_electrical_or_valve_body_fault_is_proven",
+        "when_damage_confirmed": "walk_away_or_complete_swap_budget_for_proven_internal_failure",
+        "when_testing_unavailable": "unverified_FWD_RPO_and_gears_keep_hazard_uncertainty"
+      },
+      "evidence_limits": [
+        "2011 9-5 WIS P0748/P0733 procedures encompass gearbox/engine RPO choices; manufacturer exact Turbo4 FWD applicability and calibration needs actual case/VIN",
+        "Do not transfer 9-3 AF40 fluid specification/TCM into 2011 9-5",
+        "Electrical codes and gear-ratio issues alone do not establish a replacement unit or fault prevalence"
+      ],
+      "unknowns": [
+        "MY2011 FWD Turbo4 exact case/model options and module part IDs",
+        "repair and complete-transmission replacement costs"
       ],
       "price_estimate_usd": null,
       "labor_hours_estimate": null,
