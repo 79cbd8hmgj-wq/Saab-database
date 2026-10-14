@@ -16,6 +16,7 @@ from urllib.parse import urlparse
 
 from database import ROOT, load_datasets, validate_datasets
 from build_legacy_issue_index import validate_taxonomy
+from check_part_gap_reconciliation import build as build_overlap_relationships
 
 POLICY_PATH = ROOT / "data/audits/system-evidence-routing-policy-20261014.json"
 ISSUE_TAXONOMY_PATH = ROOT / "data/audits/legacy-issue-taxonomy-20261014.json"
@@ -195,6 +196,10 @@ def build(datasets: list[dict], policy: dict, method: dict,
     }
     if known_counts != census["counts"]:
         raise ValueError("Original dataset count drift from reproducible census")
+    overlap = build_overlap_relationships(
+        datasets,
+        json.loads((ROOT / "data/audits/part-gap-overlap-review-20261014.json").read_text(encoding="utf-8"))
+    )
     source = {s["id"]: s for d in datasets for s in d["sources"]}
     evidence_urls: dict[str, set[str]] = defaultdict(set)
     shared_url_issue_ids: dict[str, set[str]] = defaultdict(set)
@@ -237,6 +242,10 @@ def build(datasets: list[dict], policy: dict, method: dict,
                     "source_overlap_proves_same_root_cause": False,
                     "source_overlap_proves_same_vehicle_scope": False,
                     "eligible_for_model_rating_from_this_index": False,
+                    "reviewed_same_number_part_claims":
+                        overlap["parts_by_original_id"].get(record_id),
+                    "reviewed_shared_open_gap_blocker":
+                        overlap["gaps_by_original_id"].get(record_id),
                 }
                 if kind == "facts":
                     out.update({
@@ -297,6 +306,10 @@ def build(datasets: list[dict], policy: dict, method: dict,
         "input_dataset_count": len(datasets),
         "input_technical_counts": {k: known_counts[k] for k in KINDS},
         "tracked_systems": len(by_system),
+        "manually_reconciled_exact_part_groups":
+            overlap["stats"]["repeated_part_number_groups_reviewed"],
+        "manually_reconciled_shared_gap_blockers":
+            overlap["stats"]["repeated_gap_title_groups_reviewed"],
         "record_routes": dict(sorted(routing.items())),
         "unrouted_cross_cutting_records": sum(r["cross_cutting_or_unresolved_system"]
                                               for r in records),
@@ -340,6 +353,8 @@ def main() -> int:
             "dataset_count": index["input_dataset_count"],
             "record_counts": index["input_technical_counts"],
             "systems": index["tracked_systems"],
+            "manually_reconciled_part_number_groups":index["manually_reconciled_exact_part_groups"],
+            "still_open_shared_gap_blockers":index["manually_reconciled_shared_gap_blockers"],
             "routes": index["record_routes"],
             "cross_cutting_or_unrouted": index["unrouted_cross_cutting_records"],
             "multi_system_records": index["records_with_multiple_candidate_systems"],
