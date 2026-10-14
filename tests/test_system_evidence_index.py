@@ -131,6 +131,14 @@ class SystemResearchIndexTests(unittest.TestCase):
         p["match_rules"]["fuel_emissions_exhaust"]=["[bad"]
         with self.assertRaisesRegex(ValueError,"Invalid route"):
             check_policy(p,self.method,self.datasets)
+        p=copy.deepcopy(self.policy)
+        p["explicit_record_routes"].pop("corrections-part-001")
+        with self.assertRaisesRegex(ValueError,"new or unreviewed parts"):
+            check_policy(p,self.method,self.datasets)
+        p=copy.deepcopy(self.policy)
+        p["explicit_record_routes"]["corrections-issue-001"]=["engine_core_oil_pcv"]
+        with self.assertRaisesRegex(ValueError,"non-part overrides"):
+            check_policy(p,self.method,self.datasets)
 
     def test_source_id_aliases_are_context_only_not_new_faults(self):
         fa=self.by_id["corrections-issue-006"]
