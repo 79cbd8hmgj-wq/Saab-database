@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "as_of": "2026-10-14",
   "status": "initial_source_scoped_component_observations_not_comparable_or_rankable",
-  "interpretation": "Initial factory/regulator observations; incomplete coverage. Empty frequency, market-offer and repair-total arrays mean not yet established, not_a_zero_failure_assertion. No tier, VIN fitment or current supply approval.",
+  "interpretation": "Initial factory/regulator observations: three scoped failure case records link to two engineering mechanisms; incomplete coverage. Empty frequency, market-offer and repair-total arrays mean not yet established, not_a_zero_failure_assertion. No tier, VIN fitment or current supply approval.",
   "original_part_revisions": [
     {
       "id": "tier-revision-idm-four-cylinder",
@@ -156,7 +156,8 @@
       "claim_limitations": [
         "Campaign scope does not prove an individual failure or completion.",
         "No at-risk denominator, current fitment, price or supply confirmation."
-      ]
+      ],
+      "mechanism_id": "mechanism-idm-igbt-overload"
     },
     {
       "id": "tier-failure-idm-b308",
@@ -208,7 +209,8 @@
       "claim_limitations": [
         "Campaign scope does not prove an individual failure or completion.",
         "No at-risk denominator, current fitment, price or supply confirmation."
-      ]
+      ],
+      "mechanism_id": "mechanism-idm-igbt-overload"
     },
     {
       "id": "tier-failure-ng93-coolant-in-atf",
@@ -237,18 +239,116 @@
         "vin_ranges": [
           {
             "end": "51002378",
+            "upper_bound_exclusive": true,
             "body_style": "SS",
-            "format": "8-character suffix; bulletin upper boundary"
+            "source_line": "9-3SS"
           },
           {
             "end": "51000001",
-            "body_style": "SS TiD",
-            "format": "8-character suffix; separate diesel boundary"
+            "upper_bound_exclusive": true,
+            "body_style": "SS",
+            "source_line": "9-3SS TiD"
           },
           {
             "end": "56001058",
+            "upper_bound_exclusive": true,
             "body_style": "CV",
-            "format": "8-character suffix; bulletin upper boundary"
+            "source_line": "9-3CV"
+          }
+        ],
+        "groups": [
+          {
+            "group_id": "ta440-0702-ss",
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2003,
+              2004,
+              2005
+            ],
+            "markets": [
+              "all"
+            ],
+            "transmission_codes": [
+              "FA57"
+            ],
+            "body_styles": [
+              "SS"
+            ],
+            "variant_qualifier": "Factory line '9-3SS'; an additional dedicated SS TiD cutoff is listed separately. Bulletin does not enumerate engine codes for this line.",
+            "engine_codes": [],
+            "vin_ranges": [
+              {
+                "end": "51002378",
+                "upper_bound_exclusive": true,
+                "body_style": "SS",
+                "source_line": "9-3SS",
+                "format": "8-character chassis suffix; STRICTLY BELOW upper bound"
+              }
+            ]
+          },
+          {
+            "group_id": "ta440-0702-ss-tid",
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2003,
+              2004,
+              2005
+            ],
+            "markets": [
+              "all"
+            ],
+            "transmission_codes": [
+              "FA57"
+            ],
+            "body_styles": [
+              "SS"
+            ],
+            "variant_qualifier": "Factory line '9-3SS TiD' (diesel); separate from the ordinary SS line; exact diesel engine code not stated. Not evidence for a US-market petrol configuration.",
+            "engine_codes": [],
+            "vin_ranges": [
+              {
+                "end": "51000001",
+                "upper_bound_exclusive": true,
+                "body_style": "SS TiD",
+                "source_line": "9-3SS TiD",
+                "format": "8-character chassis suffix; STRICTLY BELOW upper bound"
+              }
+            ]
+          },
+          {
+            "group_id": "ta440-0702-cv",
+            "platforms": [
+              "9-3-9440"
+            ],
+            "model_years": [
+              2003,
+              2004,
+              2005
+            ],
+            "markets": [
+              "all"
+            ],
+            "transmission_codes": [
+              "FA57"
+            ],
+            "body_styles": [
+              "CV"
+            ],
+            "variant_qualifier": "Factory line '9-3CV'; no engine code stated by this technical advice.",
+            "engine_codes": [],
+            "vin_ranges": [
+              {
+                "end": "56001058",
+                "upper_bound_exclusive": true,
+                "body_style": "CV",
+                "source_line": "9-3CV",
+                "format": "8-character chassis suffix; STRICTLY BELOW upper bound"
+              }
+            ]
           }
         ]
       },
@@ -271,9 +371,13 @@
       "claim_limitations": [
         "Diagnostic bulletin scope is not campaign eligibility.",
         "No donor gearbox approval or DIY cost claim.",
-        "Body/engine and suffix require interpretation, not Cartesian-product eligibility."
+        "Body/engine and suffix require interpretation, not Cartesian-product eligibility.",
+        "Three TA440-0702 body/variant VIN upper bounds are STRICTLY BELOW (exclusive), not inclusive.",
+        "Group SS TiD is a separately cited diesel line and may not be mapped to US petrol B207 cohorts; no engine code inferred for any group.",
+        "VIN/case suffix checks still require factory VIN identity and operator review; flat union fields are indexing only, not a Cartesian-product application."
       ],
-      "reviewed_at": "2026-10-14"
+      "reviewed_at": "2026-10-14",
+      "mechanism_id": "mechanism-fa57-cooler-connection-seal"
     }
   ],
   "fleet_failure_frequency_studies": [],
@@ -305,7 +409,8 @@
       "factory_correction",
       "prevention_evidence_or_unknown",
       "population_frequency_status",
-      "claim_limitations"
+      "claim_limitations",
+      "mechanism_id"
     ],
     "fleet_failure_frequency_studies": [
       "id",
@@ -351,7 +456,50 @@
       "location",
       "total_range_or_unknown",
       "uncertainty"
+    ],
+    "failure_mechanisms": [
+      "id",
+      "description",
+      "category",
+      "factory_failure_mechanism",
+      "source_ids",
+      "related_case_ids",
+      "scope_note",
+      "frequency_status"
     ]
   },
-  "component_evidence_intake_template": "data/tier-research/component-evidence-template.json"
+  "component_evidence_intake_template": "data/tier-research/component-evidence-template.json",
+  "failure_mechanisms": [
+    {
+      "id": "mechanism-idm-igbt-overload",
+      "description": "Saab/GM documents ignition discharge module failure from electrical overload; original report describes heat-related IGBT damage. This is ONE engineering failure mechanism with distinct 4-cylinder and B308 cohort cases.",
+      "category": "ignition_discharge_electronics",
+      "factory_failure_mechanism": "IDM electrical overload / heat-sensitive IGBT failure",
+      "source_ids": [
+        "tier-src-001",
+        "corrections-src-005",
+        "corrections-src-006"
+      ],
+      "related_case_ids": [
+        "tier-failure-idm-four-cylinder",
+        "tier-failure-idm-b308"
+      ],
+      "scope_note": "Do not pool or equate original module hardware, actual application, case consequences, recall populations, part replacements, incidence or severity between four-cylinder and B308 cases.",
+      "frequency_status": "unknown"
+    },
+    {
+      "id": "mechanism-fa57-cooler-connection-seal",
+      "description": "Insufficient sealing at 9-3 (9440) FA57 oil cooler pipe nipples permits coolant contamination of automatic transmission fluid in bulletin-scoped vehicles.",
+      "category": "automatic_transmission_fluid_cooling_interface",
+      "factory_failure_mechanism": "FA57 oil cooler line nipple sealing inadequacy",
+      "source_ids": [
+        "corrections-src-004"
+      ],
+      "related_case_ids": [
+        "tier-failure-ng93-coolant-in-atf"
+      ],
+      "scope_note": "Technical advice applies to separate SS, SS TiD and CV VIN cutoff lines; no engine code inferred; not the scope of a separate campaign and not proof any given gearbox is contaminated.",
+      "frequency_status": "unknown"
+    }
+  ]
 }
