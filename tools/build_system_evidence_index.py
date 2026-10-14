@@ -347,17 +347,6 @@ def main() -> int:
             "cross_cutting_by_domain": dict(Counter(
                 x["domain"] for x in index["records"]
                 if x["cross_cutting_or_unresolved_system"])),
-            "cross_cutting_examples": [
-                {k: x.get(k) for k in ("id", "kind", "domain", "title",
-                                      "subject", "predicate")}
-                for x in index["records"]
-                if x["cross_cutting_or_unresolved_system"]
-            ][:72],
-            "part_routes_review": [
-                {k: x.get(k) for k in ("id", "part_number", "title",
-                     "domain", "system_ids_for_discovery", "routing_basis")}
-                for x in index["records"] if x["kind"] == "parts"
-            ],
         }, indent=2, ensure_ascii=False))
     if args.review:
         print(json.dumps({
