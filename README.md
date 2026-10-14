@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- [Whole-repository evidence reuse audit (2026-10-14)](docs/research-reuse-audit-20261014.md): 42 datasets, 92 existing issue records, 53 repeatedly cited source URLs, recurring facts/parts/gaps and direct links to previously known faults. **Search/reconcile before new factory-defect research; no model tiers.**
+
 - [First component evidence ledger](docs/research/component-defects-first-ledger-20261014.md): two original ignition-module revisions, three cohort-specific failure cases representing two engineering mechanisms; regulator/factory boundaries, unknown frequency and costs, no rankings.
 
 - [Evidence standard before any Saab tier list](docs/tier-evidence-standard.md): independent original-component reliability, known failure burden, verified 2026 replacement supply and repair economics; 16 systems, 110 unranked US configuration groups, no inferred failure percentages or model preferences. The current tier comparison universe remains unapproved beyond the existing shopping-screen scope.
