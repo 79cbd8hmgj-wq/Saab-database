@@ -8,6 +8,7 @@ incidence, or a vehicle recommendation.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 from collections import Counter, defaultdict
@@ -32,6 +33,12 @@ GENERIC_SUBJECTS = (
 
 def load(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def record_digest(record: dict) -> str:
+    """Detect edits to a reviewed original; hash is not engineering validation."""
+    return hashlib.sha256(json.dumps(record, sort_keys=True, ensure_ascii=False,
+                                    separators=(",", ":")).encode("utf-8")).hexdigest()
 
 
 def check_policy(policy: dict, methodology: dict, datasets: list[dict]) -> None:
@@ -75,6 +82,25 @@ def check_policy(policy: dict, methodology: dict, datasets: list[dict]) -> None:
         if (id_ not in issue_ids or not isinstance(routes, list)
             or len(routes) != len(set(routes)) or set(routes) - systems):
             raise ValueError("Invalid reviewed issue navigation route: " + id_)
+
+    reviews = policy.get("explicit_fact_gap_routes", {})
+    if not isinstance(reviews, dict):
+        raise ValueError("Fact/gap navigation review must map original IDs to decisions")
+    fact_gaps = {r["id"]: (kind, r) for d in datasets
+                 for kind in ("facts", "gaps") for r in d[kind]}
+    for id_, decision in reviews.items():
+        if id_ not in fact_gaps or not isinstance(decision, dict):
+            raise ValueError("Invalid reviewed fact/gap navigation record: " + id_)
+        kind, original = fact_gaps[id_]
+        routes = decision.get("system_ids")
+        reason = decision.get("reason")
+        if (decision.get("kind") != kind or not isinstance(routes, list)
+            or any(not isinstance(s, str) for s in routes)
+            or len(routes) != len(set(routes)) or set(routes) - systems
+            or not isinstance(reason, str) or not reason.strip()):
+            raise ValueError("Invalid reviewed fact/gap navigation decision: " + id_)
+        if decision.get("original_record_sha256") != record_digest(original):
+            raise ValueError("Stale fact/gap navigation review: " + id_)
 
 
 
@@ -121,7 +147,12 @@ def route(kind: str, record: dict, domain: str, policy: dict) -> dict:
 
     overrides = policy.get("explicit_record_routes", {})
     issue_overrides = policy.get("explicit_issue_routes", {})
-    if kind == "issues" and record["id"] in issue_overrides:
+    fact_gap_reviews = policy.get("explicit_fact_gap_routes", {})
+    if kind in {"facts", "gaps"} and record["id"] in fact_gap_reviews:
+        candidates = list(fact_gap_reviews[record["id"]]["system_ids"])
+        route_basis = "curated_explicit_fact_gap_navigation"
+        review = "source_scope_and_engineering_still_required"
+    elif kind == "issues" and record["id"] in issue_overrides:
         candidates = list(issue_overrides[record["id"]])
         route_basis = "curated_explicit_issue_navigation"
         review = "source_scope_and_engineering_still_required"
@@ -152,7 +183,9 @@ def route(kind: str, record: dict, domain: str, policy: dict) -> dict:
         # Show actual matched fields, so the reviewer can correct an ambiguous route.
         "matched_topic_fields": sorted(
             {token.split(":", 1)[0] for s in candidates for token in matched.get(s, ())}
-        ) if route_basis not in {"curated_explicit_record", "curated_explicit_issue_navigation"} else [],
+        ) if review == "not_manually_adjudicated" else [],
+        "manual_navigation_review": fact_gap_reviews.get(record["id"])
+                                    if kind in {"facts", "gaps"} else None,
     }
 
 
@@ -332,6 +365,12 @@ def build(datasets: list[dict], policy: dict, method: dict,
             r["routing_basis"] == "curated_explicit_record" for r in records),
         "reviewed_ambiguous_issue_navigation_routes": sum(
             r["routing_basis"] == "curated_explicit_issue_navigation" for r in records),
+        "reviewed_fact_gap_navigation_routes": dict(Counter(
+            r["kind"] for r in records
+            if r["routing_basis"] == "curated_explicit_fact_gap_navigation")),
+        "unreviewed_cross_cutting_by_kind": dict(Counter(
+            r["kind"] for r in records if r["cross_cutting_or_unresolved_system"]
+            and r["review_status"] == "not_manually_adjudicated")),
         "systems": by_system,
         "records": sorted(records, key=lambda r: (r["kind"], r["id"])),
         "all_records_reconciled_to_a_traceable_entry": True,
@@ -355,7 +394,11 @@ def main() -> int:
                         default="all", help="Filter the review queue by original record type")
     parser.add_argument("--review-limit", type=int, default=250,
                         help="Maximum review records printed; 0 exports ALL review candidates")
+    parser.add_argument("--review-unreviewed-only", action="store_true",
+                        help="With --review, omit already manually adjudicated routes")
     args = parser.parse_args()
+    if args.review_unreviewed_only and not args.review:
+        parser.error("--review-unreviewed-only requires --review")
     index = build(
         load_datasets(), load(POLICY_PATH), load(METHOD_PATH),
         load(ISSUE_TAXONOMY_PATH), load(LEDGER_PATH), load(CENSUS_PATH))
@@ -370,6 +413,8 @@ def main() -> int:
             "systems": index["tracked_systems"],
             "manually_reconciled_part_number_groups":index["manually_reconciled_exact_part_groups"],
             "reviewed_ambiguous_issue_routes":index["reviewed_ambiguous_issue_navigation_routes"],
+            "reviewed_fact_gap_routes": index["reviewed_fact_gap_navigation_routes"],
+            "unreviewed_cross_cutting_by_kind": index["unreviewed_cross_cutting_by_kind"],
             "still_open_shared_gap_blockers":index["manually_reconciled_shared_gap_blockers"],
             "routes": index["record_routes"],
             "cross_cutting_or_unrouted": index["unrouted_cross_cutting_records"],
@@ -406,9 +451,12 @@ def main() -> int:
             for x in index["records"]
             if (x["cross_cutting_or_unresolved_system"] or x["possible_multiple_systems"])
             and (args.review_kind == "all" or x["kind"] == args.review_kind)
+            and (not args.review_unreviewed_only
+                 or x["review_status"] == "not_manually_adjudicated")
         ]
         print(json.dumps({
             "review_kind": args.review_kind,
+            "unreviewed_only": args.review_unreviewed_only,
             "review_candidates_total": len(rows),
             "review_records": rows[:args.review_limit] if args.review_limit else rows,
             "review_records_printed": min(len(rows), args.review_limit)

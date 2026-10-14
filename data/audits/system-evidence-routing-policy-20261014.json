@@ -810,5 +810,1392 @@
       "interior_ergonomics"
     ]
   },
-  "explicit_issue_routes_purpose": "32 existing issue narratives with ambiguous automatic routes are reviewed for search/navigation only. Five source-quality, VIN-table, stock provenance and regulator lookup cases have [] because they are deliberately cross-cutting and do not represent a specific broken physical system. This classification does not replace the human-reviewed defect/diagnosis taxonomy or original applicability."
+  "explicit_issue_routes_purpose": "32 existing issue narratives with ambiguous automatic routes are reviewed for search/navigation only. Five source-quality, VIN-table, stock provenance and regulator lookup cases have [] because they are deliberately cross-cutting and do not represent a specific broken physical system. This classification does not replace the human-reviewed defect/diagnosis taxonomy or original applicability.",
+  "explicit_fact_gap_routes": {
+    "afdiag-gap-003": {
+      "kind": "gaps",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Named wastegate clip/O-ring chain concerns turbo hardware; current directed OE chain remains missing.",
+      "original_record_sha256": "73bd40b9fbea6359507aada25ebc67ac8f0ebd3492f945275a399ed093d7556a"
+    },
+    "corrections-fact-003": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "CSP15433 additional PCV hose condition; preserve manual-gearbox and engine-serial restrictions, including the reviewed supplier conflict.",
+      "original_record_sha256": "170782a7e29e1212647fa74a25f5ee978f668a3235175f5c45578a8cc6336047"
+    },
+    "corrections-gap-001": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Mixed-campaign/part or whole-vehicle verification remains an open cross-system task, not an individual physical-system defect.",
+      "original_record_sha256": "9fbf5409c5692b588ccb73aa899a67d28f282246da1e96f066cfd85fb1dbd2e7"
+    },
+    "corrections-gap-003": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Mixed-campaign/part or whole-vehicle verification remains an open cross-system task, not an individual physical-system defect.",
+      "original_record_sha256": "e004cac73f8a4fd0538278f7a5c5ef9faaf965a7fc15ccbac74f9465529ca0d7"
+    },
+    "corrections-gap-004": {
+      "kind": "gaps",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "CSP15433 oil-trap campaign market list belongs to PCV research; eligibility remains unknown.",
+      "original_record_sha256": "6d81c68fca710931f08603a1ec2809a2a8035351f8526c3c4177c1a832f94c50"
+    },
+    "corrections-gap-006": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Mixed-campaign/part or whole-vehicle verification remains an open cross-system task, not an individual physical-system defect.",
+      "original_record_sha256": "f67a50aa57771cdc1adb83954d44199d22adebbeca4b141a885eed28f8566bc9"
+    },
+    "corrections-gap-007": {
+      "kind": "gaps",
+      "system_ids": [
+        "restraints_safety"
+      ],
+      "reason": "Specific belt/A-pillar occupant-safety campaign scope/completion question; original VIN and remedy verification still required.",
+      "original_record_sha256": "9c712aff9016924c07e2f713631701db2395366a9965285e41f53f35026d59e7"
+    },
+    "early9three-gap-003": {
+      "kind": "gaps",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Named frame/stay or engine-mount chassis applicability question identifies structural attachments; no supersession or chassis meaning is resolved.",
+      "original_record_sha256": "b7f27077655403b6113b52545a3910cd35b5e08651efa0cf4dea2319bce3c55e"
+    },
+    "early9three-gap-005": {
+      "kind": "gaps",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Named frame/stay or engine-mount chassis applicability question identifies structural attachments; no supersession or chassis meaning is resolved.",
+      "original_record_sha256": "d3b0ba12222f4fa60dff09b936f31bbbb56d058b15dd70ff508e73b70637d539"
+    },
+    "epcverify-fact-001": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "WebEPC access/features concern catalogue provenance across systems, not a completed part lookup or physical component.",
+      "original_record_sha256": "034134db0d8ef6d8798793ee54029a27b36982cec5f47f6c6ffe192ef37e82ab"
+    },
+    "epcverify-fact-002": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "WebEPC access/features concern catalogue provenance across systems, not a completed part lookup or physical component.",
+      "original_record_sha256": "0fd1611736e7e405f381308652084bccdbba2c26af4b6e360f07a0a9dd8babaa"
+    },
+    "epcverify-fact-003": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "WebEPC access/features concern catalogue provenance across systems, not a completed part lookup or physical component.",
+      "original_record_sha256": "9b755c8e948d93dff90eb5ea1b1a9b593d43be77fea646718e3e8971ed11ddce"
+    },
+    "epcverify-fact-004": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "WebEPC access/features concern catalogue provenance across systems, not a completed part lookup or physical component.",
+      "original_record_sha256": "ae8b786e7fa8745fd02a1ef4fe2a7aa41aff4a158bc92a2bf00eae008ebdad2e"
+    },
+    "epcverify-fact-006": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Stored frame/bushing cross-reference context identifies structural mount research; original retailer claims are not approved OE supersessions.",
+      "original_record_sha256": "07a62fb1b08420882d296dbf962d21e6498fed45cda53630883668005c84f732"
+    },
+    "epcverify-fact-009": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Stored frame/bushing cross-reference context identifies structural mount research; original retailer claims are not approved OE supersessions.",
+      "original_record_sha256": "e47c8b8be9626aa6fb99b9beb13eb73aab36ee35b4deaba40c339a6dc3ceeaf6"
+    },
+    "epcverify-fact-010": {
+      "kind": "facts",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Stored frame/bushing cross-reference context identifies structural mount research; original retailer claims are not approved OE supersessions.",
+      "original_record_sha256": "3cad3b8c2bf3982096d3abd0c7df105ab99336c57b7f2f419bd2b4497a225aca"
+    },
+    "epcverify-gap-003": {
+      "kind": "gaps",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Named frame/stay or engine-mount chassis applicability question identifies structural attachments; no supersession or chassis meaning is resolved.",
+      "original_record_sha256": "d9d7ec792b877d496e28a991064edd8fadc01fdac9c1ff99095d8f6a0db71e4a"
+    },
+    "epcverify-gap-005": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Catalogue licensing/update/reuse requirements concern source governance, not physical vehicle systems.",
+      "original_record_sha256": "4037bb39ad0835a5a724b6e97112568c30f68397bd19bfe495906732669b1cda"
+    },
+    "gate5-fact-001": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "3b925ec16fcc2a9095dcf1f342359494e2eb0058cd1b40fa661d88211132c1c3"
+    },
+    "gate5-fact-002": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "1236e1031f4e316c4ff88058b88c2a9921bd24a30ee0c8938699cdb3444813ec"
+    },
+    "gate5-fact-003": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "d9a43a631e16409cb425a6db8e80620810e4de4c450735e972b1a5c887beafa0"
+    },
+    "gate5-fact-004": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "577b0d1df2ed6d27fb2666c5fc6c5ab27f5f95d3ce1d0012d924149aa0f71a28"
+    },
+    "gate5-fact-005": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "ec734ba4ad5d8e04e0fcec15a8d9869189d330c014dc41bd7ca13c8ba85b7833"
+    },
+    "gate5-fact-006": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "97c0519b4679d2e527322b3a2ec26521655501f22699aaa686de7f9852811b1a"
+    },
+    "gate5-fact-007": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "60e4d6e9e67a4e102e970d388144fda5d7789d9af47798e2c2ff2a1bc5c50cb0"
+    },
+    "gate5-fact-010": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Key/TWICE learning and all-keys-lost prerequisites concern immobilizer/security; historical guidance does not prove current programming access.",
+      "original_record_sha256": "d76ec89bdbe0af5099b84a0890dd7db8afa41b9215f683a40efe6b41925b730e"
+    },
+    "gate5-fact-011": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Key/TWICE learning and all-keys-lost prerequisites concern immobilizer/security; historical guidance does not prove current programming access.",
+      "original_record_sha256": "2993f524ba2658efe5a7561e1eb7449d7c5b8f414f5a0fa6f86a6fc12193ea1e"
+    },
+    "gate5-fact-014": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "WebEPC access/features concern catalogue provenance across systems, not a completed part lookup or physical component.",
+      "original_record_sha256": "3cf60534cccf7466a522bec5ed5ef02179185d1d58d420df2d8b66dd8a8b8112"
+    },
+    "gate5-fact-015": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "5c6edc0eac3c02b76952b3d9fbe98bf7c7b671f26d05d99e347cb6f090f5c690"
+    },
+    "gate5-gap-001": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Incomplete VIN/build interpretation, manual revision or general OEM lookup remains a cross-system provenance task; source scope is not filled in by routing.",
+      "original_record_sha256": "268ddaa216f833eadca5ef1a4c80b8f6001646f56948f4d7c167283964cfbf5b"
+    },
+    "gateac-fact-001": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "2426b6f265d66476c885955594a9ad7cb575e10a3b82875b60c43c1ca0399354"
+    },
+    "gateac-fact-014": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "f77ed285f7f2d7bf64db845868a057bb51b6bd332178eb93a9bade0b43570e1a"
+    },
+    "gateac-fact-015": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "WebEPC access/features concern catalogue provenance across systems, not a completed part lookup or physical component.",
+      "original_record_sha256": "2c1bcaa1510028918f1e50e159df12c3f2d89d71c5b93846f74328369e38d8b2"
+    },
+    "gateac-gap-001": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Incomplete VIN/build interpretation, manual revision or general OEM lookup remains a cross-system provenance task; source scope is not filled in by routing.",
+      "original_record_sha256": "e6b0e86599211042ebeb384970767ebb373df519cce0b2ba3f8ca959b60c4000"
+    },
+    "ng93-fact-025": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Engine output/geometry specification under engine-core navigation; preserve original power convention, marketing grade and year/market scope. No engine-health or durability claim.",
+      "original_record_sha256": "ab3653e7eaaa95a9bdf3a620700c3813c2f49fa3f09c9f0d7d1ab3e9764b8569"
+    },
+    "ng93-fact-057": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring"
+      ],
+      "reason": "Stored battery, starter and alternator electrical ratings identify charging/starting, not all electronic control systems.",
+      "original_record_sha256": "79225816765b1a1910cd40b305620048e384e094dd53397ed32390c65ea2a689"
+    },
+    "ng93-fact-058": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "210bd4e61bfa580e16a2752bcaad424ce082528838015e79078f4a156c156973"
+    },
+    "ng93-fact-059": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "1a625cf846551aad95491ff8e368c6232d19871c661f3ff198c106d0224c286d"
+    },
+    "ng93-fact-060": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "83aafa33f48128e7dffd76bb47147cbdf4d425f4ee80d087753ea33a73218dbb"
+    },
+    "ng93-fact-062": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "cb5685357951ce79b7e09e28bfc140b38530369071920eb94d32d9b62ceb88f6"
+    },
+    "ng93-fact-063": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "2dda209c42526489f06cde6de1f5801a1bfcbe75948ffbd82acd146d316855ba"
+    },
+    "ng93-fact-064": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "5304d69d5660498defe770763cb55c52fd3448b5b4905efa8b289d0d898965a7"
+    },
+    "ng93-fact-066": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Engine output/geometry specification under engine-core navigation; preserve original power convention, marketing grade and year/market scope. No engine-health or durability claim.",
+      "original_record_sha256": "345c2f4d993a8342edb4fda0b684127205f4a91a6df402ad86c8c1814fd82c01"
+    },
+    "ng93-fact-069": {
+      "kind": "facts",
+      "system_ids": [
+        "steering_suspension"
+      ],
+      "reason": "Wheel/tyre dimensions or conditional pressures identify wheel-system navigation; do not infer brake clearance, universal pressure or replacement fitment.",
+      "original_record_sha256": "1f3a03fafec9c8839c6ee9cbedcc45d2cc878145bcdaabb2c94bdbca75987eb7"
+    },
+    "ng93-fact-070": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "e5b03fe998d2ba5f5abdc4626e4a4768c9e890fbfa1625133c25c4e9509497e1"
+    },
+    "ng93-gap-004": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Incomplete VIN/build interpretation, manual revision or general OEM lookup remains a cross-system provenance task; source scope is not filled in by routing.",
+      "original_record_sha256": "8f79ec02bad08e0d86f9dacb5b80401450b1b42aa1e96b6250c34bec5492c300"
+    },
+    "ng93-gap-006": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Incomplete VIN/build interpretation, manual revision or general OEM lookup remains a cross-system provenance task; source scope is not filled in by routing.",
+      "original_record_sha256": "017d36eaeaf1bb5491d633202dfa51c7afb0e5798b5739933d74058719cc13a6"
+    },
+    "nrscreen-fact-007": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security",
+        "charging_starting_wiring"
+      ],
+      "reason": "Ignition/immobilizer communication depends on supply/ground; security/control and wiring navigation are both relevant, without proving internal module failure.",
+      "original_record_sha256": "ce57f27b50c49882e3644b3d50631381411207a4301c22d7fdd64373da4b5484"
+    },
+    "nrscreen-fact-009": {
+      "kind": "facts",
+      "system_ids": [
+        "fuel_emissions_exhaust",
+        "turbo_intake_boost",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Saved no-DTC differential lists fuel flow, intake leakage and software/adaptation; multiple diagnostic routes remain, not three documented defects.",
+      "original_record_sha256": "6cdf596827a0879911179f35b86337ee0f2120e1827264e58817dec4d8d31a2a"
+    },
+    "nrscreen-fact-018": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Ignition spark-plug or IDM software-specific diagnostic reference; preserve plug/model and diagnostic-feature limitations.",
+      "original_record_sha256": "4a2a4097d71e41e56a51d881a559bd2df61f8ad826024044408fe42327b4d8b0"
+    },
+    "og95-fact-018": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Oil quantity, pressure or lubricant specification identifies lubrication; service refill, cooler-inclusive volume and warning thresholds remain separate definitions.",
+      "original_record_sha256": "0a97d65eb200feaadd587b2f8872c4f355fc8745e9c5e6927837fdaed8b287fe"
+    },
+    "og95-fact-019": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Oil quantity, pressure or lubricant specification identifies lubrication; service refill, cooler-inclusive volume and warning thresholds remain separate definitions.",
+      "original_record_sha256": "346b3e6eeca57a9f3acc6e908b46740df3eb3e6a107d285897ee996971c206ee"
+    },
+    "og95-fact-020": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Oil quantity, pressure or lubricant specification identifies lubrication; service refill, cooler-inclusive volume and warning thresholds remain separate definitions.",
+      "original_record_sha256": "0fc726ad91c8e4087e17ea98b1e1205fc027a8f53acd0dfc84cc8918d587e610"
+    },
+    "og95-fact-021": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Oil quantity, pressure or lubricant specification identifies lubrication; service refill, cooler-inclusive volume and warning thresholds remain separate definitions.",
+      "original_record_sha256": "31d2457eee066367260b6015785ec7928f0f98c9020b6d2a66adb5d24170a0d2"
+    },
+    "og95-fact-022": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Oil quantity, pressure or lubricant specification identifies lubrication; service refill, cooler-inclusive volume and warning thresholds remain separate definitions.",
+      "original_record_sha256": "760a61e8260271c7d509da6f2887d168c0fdb3b8be168f87443353e906ed38c0"
+    },
+    "og95-fact-076": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Ignition spark-plug or IDM software-specific diagnostic reference; preserve plug/model and diagnostic-feature limitations.",
+      "original_record_sha256": "f1ad656799cdcfec9cf58b3f0f45eac5d0fd5cbf55d085a62b348430e9a96726"
+    },
+    "og95-fact-077": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Ignition spark-plug or IDM software-specific diagnostic reference; preserve plug/model and diagnostic-feature limitations.",
+      "original_record_sha256": "8653f01bb1b679857e652132adb59583a50c66015bee9c37769d5834fc8c2864"
+    },
+    "og95-fact-079": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Oil quantity, pressure or lubricant specification identifies lubrication; service refill, cooler-inclusive volume and warning thresholds remain separate definitions.",
+      "original_record_sha256": "c0712c55e26f93439e3e19349ef021084a1d9f1f9e201701ec46e515b273ac31"
+    },
+    "og95-fact-081": {
+      "kind": "facts",
+      "system_ids": [
+        "steering_suspension"
+      ],
+      "reason": "Wheel/tyre dimensions or conditional pressures identify wheel-system navigation; do not infer brake clearance, universal pressure or replacement fitment.",
+      "original_record_sha256": "0a6091e8f6f24f50c4b07d09696463bbf2555d7ce05a4fdebf2198458ba657c8"
+    },
+    "og95-fact-082": {
+      "kind": "facts",
+      "system_ids": [
+        "steering_suspension"
+      ],
+      "reason": "Wheel/tyre dimensions or conditional pressures identify wheel-system navigation; do not infer brake clearance, universal pressure or replacement fitment.",
+      "original_record_sha256": "4c2d0c3519ecdaeab191137c5ccb3a6a18cfb8d878e255d1a1645f94284c8ed0"
+    },
+    "og95-fact-083": {
+      "kind": "facts",
+      "system_ids": [
+        "steering_suspension"
+      ],
+      "reason": "Wheel/tyre dimensions or conditional pressures identify wheel-system navigation; do not infer brake clearance, universal pressure or replacement fitment.",
+      "original_record_sha256": "647bcb1c2fa9ec2f008b53bd018b10b635f9c9b8df5e82155349a545452e958d"
+    },
+    "og95-fact-084": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Engine output/geometry specification under engine-core navigation; preserve original power convention, marketing grade and year/market scope. No engine-health or durability claim.",
+      "original_record_sha256": "99e6f92a99398bab765c50cdba2523bdffdcee112f2f1b750542587e1bf7967d"
+    },
+    "og95-fact-085": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Engine output/geometry specification under engine-core navigation; preserve original power convention, marketing grade and year/market scope. No engine-health or durability claim.",
+      "original_record_sha256": "65322cb2e12316fa67a2db706299d3f56df746b0ba66bbac347b54f95bc689af"
+    },
+    "og95-fact-086": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Engine output/geometry specification under engine-core navigation; preserve original power convention, marketing grade and year/market scope. No engine-health or durability claim.",
+      "original_record_sha256": "114064d211b3fc98075f127a6f5fb3394aa824f2fa503c3e2cad62011a3a4703"
+    },
+    "og95-gap-005": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Incomplete VIN/build interpretation, manual revision or general OEM lookup remains a cross-system provenance task; source scope is not filled in by routing.",
+      "original_record_sha256": "07801e3b984d3883e702b5ada6321d65be57ab23ac956c4452d7db5857e3b216"
+    },
+    "og95years-fact-001": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Engine output/geometry specification under engine-core navigation; preserve original power convention, marketing grade and year/market scope. No engine-health or durability claim.",
+      "original_record_sha256": "8aca971d510c1b2af620437db5a6ed10bd359a223f8ec4bf43c4ef4202dbf6d1"
+    },
+    "og95years-fact-002": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Engine output/geometry specification under engine-core navigation; preserve original power convention, marketing grade and year/market scope. No engine-health or durability claim.",
+      "original_record_sha256": "9bc15bd0a2a31a68ed2a8555bf44f869889c3473c67e27b447c1c27a8ee103ab"
+    },
+    "og95years-fact-004": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Oil quantity, pressure or lubricant specification identifies lubrication; service refill, cooler-inclusive volume and warning thresholds remain separate definitions.",
+      "original_record_sha256": "c650f0d38f582064c12f6be789a948e10ba02e2bb60dc5b37fea60317bfbe88f"
+    },
+    "og95years-fact-005": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Engine output/geometry specification under engine-core navigation; preserve original power convention, marketing grade and year/market scope. No engine-health or durability claim.",
+      "original_record_sha256": "90b759ae7117e80abc37684716217bddab5ea28c429a38b2a8df5261ae089822"
+    },
+    "og95years-fact-006": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Engine output/geometry specification under engine-core navigation; preserve original power convention, marketing grade and year/market scope. No engine-health or durability claim.",
+      "original_record_sha256": "1ac82eced814520d8c9986e021dc3766c3a4defeb7400b6449b73cf9b9b47ac7"
+    },
+    "og95years-fact-007": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Engine output/geometry specification under engine-core navigation; preserve original power convention, marketing grade and year/market scope. No engine-health or durability claim.",
+      "original_record_sha256": "c0ec5e350f5ded22c6036d9c7ac0996d6c1fa92ffefa08afd3f72d004e0bb2a0"
+    },
+    "og95years-fact-008": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Engine output/geometry specification under engine-core navigation; preserve original power convention, marketing grade and year/market scope. No engine-health or durability claim.",
+      "original_record_sha256": "5007799508609396c2bbadb185c23c6b9f6bb8274b70ae7df0b0cbdc93a09ff3"
+    },
+    "og95years-fact-009": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Oil quantity, pressure or lubricant specification identifies lubrication; service refill, cooler-inclusive volume and warning thresholds remain separate definitions.",
+      "original_record_sha256": "fb5ea0b3027a8de82975dea0e826c5a4ec4d41bc114d8606782f60d61a018350"
+    },
+    "og95years-fact-012": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Engine output/geometry specification under engine-core navigation; preserve original power convention, marketing grade and year/market scope. No engine-health or durability claim.",
+      "original_record_sha256": "d37b3beab35a662c1176a2dd5a0e89c3443e2be1bf5825221d1bbb8a5c2bfb11"
+    },
+    "og95years-fact-013": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Engine output/geometry specification under engine-core navigation; preserve original power convention, marketing grade and year/market scope. No engine-health or durability claim.",
+      "original_record_sha256": "0c1784b8f679b9019ce3cfe867da4ddd9248733de4efdfc75ab1a0e9c015ea72"
+    },
+    "og95years-fact-014": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Oil quantity, pressure or lubricant specification identifies lubrication; service refill, cooler-inclusive volume and warning thresholds remain separate definitions.",
+      "original_record_sha256": "122255dbb379c4c37ac4cbc1c45bee46fee5e4ccfa0e97f7536edb267b196b67"
+    },
+    "og95years-fact-021": {
+      "kind": "facts",
+      "system_ids": [
+        "steering_suspension"
+      ],
+      "reason": "Wheel/tyre dimensions or conditional pressures identify wheel-system navigation; do not infer brake clearance, universal pressure or replacement fitment.",
+      "original_record_sha256": "11c4fef498e89523944dd4aa70fbe1e3fd7c33542bf7bed55eccd36a8b84c748"
+    },
+    "og95years-gap-004": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Incomplete VIN/build interpretation, manual revision or general OEM lookup remains a cross-system provenance task; source scope is not filled in by routing.",
+      "original_record_sha256": "0ed9deb193365abb46524f4c4b0aa97648ed4bf5fab9a794b9651457f744eaae"
+    },
+    "parts95-fact-024": {
+      "kind": "facts",
+      "system_ids": [
+        "engine_core_oil_pcv",
+        "turbo_intake_boost"
+      ],
+      "reason": "Saved T7 diagram includes oil trap/check valves and throttle/turbo callouts. Both navigation routes are legitimate; no part number or new durability revision follows.",
+      "original_record_sha256": "c1f821166e948ae8a9a6754eb82ca76f6f7ee2fff920d3af2b73146789dedc7b"
+    },
+    "parts95-fact-029": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "WebEPC access/features concern catalogue provenance across systems, not a completed part lookup or physical component.",
+      "original_record_sha256": "d600763d0529f0efe60cccf059d16a723d6ba411d50e4ad680ba7480c8ab422b"
+    },
+    "parts95-gap-006": {
+      "kind": "gaps",
+      "system_ids": [
+        "body_corrosion_mounts"
+      ],
+      "reason": "Named frame/stay or engine-mount chassis applicability question identifies structural attachments; no supersession or chassis meaning is resolved.",
+      "original_record_sha256": "6eaf3fc697e5f06705d23eeaaebf24e0d07cdd8810d3fb8ac14e624ce19a1015"
+    },
+    "prebuy-fact-001": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Stored turbo installation/diagnostic or source-limit context identifies boost-system navigation. Ambiguous/unretrieved shaft tolerances stay unusable; not evidence of a failed turbo.",
+      "original_record_sha256": "e8e548690fdc69bfb33e1cfc8bbcc95adf4e4df64ede0ec9109a87332feb3f4f"
+    },
+    "prebuy-fact-002": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Stored turbo installation/diagnostic or source-limit context identifies boost-system navigation. Ambiguous/unretrieved shaft tolerances stay unusable; not evidence of a failed turbo.",
+      "original_record_sha256": "b4c778139f01f4c77e1eafaf324cfe3bb9debb99eba5472ab1ba1ee752f78350"
+    },
+    "prebuy-fact-003": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Stored turbo installation/diagnostic or source-limit context identifies boost-system navigation. Ambiguous/unretrieved shaft tolerances stay unusable; not evidence of a failed turbo.",
+      "original_record_sha256": "5ba9a767a6cb019c5dda74f61264e282f5ff30f60674ee1a6d7e710c4fa84814"
+    },
+    "prebuy-fact-005": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Stored turbo installation/diagnostic or source-limit context identifies boost-system navigation. Ambiguous/unretrieved shaft tolerances stay unusable; not evidence of a failed turbo.",
+      "original_record_sha256": "a65de182e55a6fefefaaf43173ed239a0c56f6dd73ad52a628f06bc778bb2508"
+    },
+    "prebuy-fact-007": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Stored turbo installation/diagnostic or source-limit context identifies boost-system navigation. Ambiguous/unretrieved shaft tolerances stay unusable; not evidence of a failed turbo.",
+      "original_record_sha256": "7f67c43aa87b7218e02667614039866f450186189df3e19dc8d1564c578cf66b"
+    },
+    "prebuy-fact-008": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Stored turbo installation/diagnostic or source-limit context identifies boost-system navigation. Ambiguous/unretrieved shaft tolerances stay unusable; not evidence of a failed turbo.",
+      "original_record_sha256": "ef14219275456d51f6b532f32a21c422b9f9800446a1b1141442e68cd17f2a9b"
+    },
+    "prebuy-fact-009": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Stored turbo installation/diagnostic or source-limit context identifies boost-system navigation. Ambiguous/unretrieved shaft tolerances stay unusable; not evidence of a failed turbo.",
+      "original_record_sha256": "e22684144391e5e901b61155fef784b59b0247a079e3a5092ec69894d41ac05b"
+    },
+    "prebuy-fact-012": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline"
+      ],
+      "reason": "Original automatic-gearbox diagnostic/service scope identifies transmission navigation. Earlier Dexron bulletin scope, safety limits and distinct test years remain unchanged.",
+      "original_record_sha256": "93f770145eae74ccb620bd317bf341377144927113bb621940e8d04dae9fc3fc"
+    },
+    "prebuy-fact-016": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline"
+      ],
+      "reason": "Original automatic-gearbox diagnostic/service scope identifies transmission navigation. Earlier Dexron bulletin scope, safety limits and distinct test years remain unchanged.",
+      "original_record_sha256": "274230c84f2d4fa5cdad1063a16cc990b4e66c53035772fee3dab5b46593b155"
+    },
+    "prebuy-fact-020": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline",
+        "charging_starting_wiring"
+      ],
+      "reason": "Gearbox input-speed sensing has both transmission and electrical diagnostic context; missing signal is not uniquely internal gearbox failure.",
+      "original_record_sha256": "27b23b609788aab9fe0f0298d71df2e7878ea94b18bb1eae04b9795bfedbcea4"
+    },
+    "prebuy-fact-021": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline",
+        "charging_starting_wiring"
+      ],
+      "reason": "Gearbox input-speed sensing has both transmission and electrical diagnostic context; missing signal is not uniquely internal gearbox failure.",
+      "original_record_sha256": "ff69a8abcca9f11a37e49548ba271615b8215d0d47bbaa1246d3c8928d072330"
+    },
+    "prebuy-fact-022": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline"
+      ],
+      "reason": "Original automatic-gearbox diagnostic/service scope identifies transmission navigation. Earlier Dexron bulletin scope, safety limits and distinct test years remain unchanged.",
+      "original_record_sha256": "4ee354421f76bc4d0a5c3b0a3835df7cfff6e8472e896b5bce265f6e3da424ad"
+    },
+    "prebuy-fact-023": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline"
+      ],
+      "reason": "Original automatic-gearbox diagnostic/service scope identifies transmission navigation. Earlier Dexron bulletin scope, safety limits and distinct test years remain unchanged.",
+      "original_record_sha256": "89f10edffccaf7226b56bd4b0438c66bee29c39f69f1fadbbe7ceb8dcc7b7a50"
+    },
+    "prebuy-fact-024": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline",
+        "engine_core_oil_pcv"
+      ],
+      "reason": "Stored stall-result differential includes engine output and gearbox hydraulics/clutches. Neither is a confirmed failure or a DIY lot test.",
+      "original_record_sha256": "75883b52281a3d619ed12450b3d0a3e785e4d5a652bcc140ca3f8d5b8ff26bda"
+    },
+    "prebuy-fact-025": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Recorded drivetrain protection/gear-change torque communication links TCM and engine control; distinguish commanded reduction from engine or gearbox damage.",
+      "original_record_sha256": "2e31fd8100d01850c9896b3af635f2bbedfb4ea9138dd0ab0d00b639e53e2bdd"
+    },
+    "prebuy-fact-026": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Recorded drivetrain protection/gear-change torque communication links TCM and engine control; distinguish commanded reduction from engine or gearbox damage.",
+      "original_record_sha256": "c11198eaf8a7017d42b7f70fec09a3d619aa39c37d9f3e8a92da65b9b679eb72"
+    },
+    "prebuy-fact-028": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline"
+      ],
+      "reason": "Original automatic-gearbox diagnostic/service scope identifies transmission navigation. Earlier Dexron bulletin scope, safety limits and distinct test years remain unchanged.",
+      "original_record_sha256": "4e413ac627591d1735d3fb1b1fb978d35bd4312be651fa24fe71e277f3b1c0e9"
+    },
+    "prebuy-fact-029": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Stored turbo installation/diagnostic or source-limit context identifies boost-system navigation. Ambiguous/unretrieved shaft tolerances stay unusable; not evidence of a failed turbo.",
+      "original_record_sha256": "2ac95ea16fd30adc09fde8bf9248ad1292e92bbe3146cf5ec9a0b6c7896d269f"
+    },
+    "prebuy-fact-030": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline"
+      ],
+      "reason": "Original automatic-gearbox diagnostic/service scope identifies transmission navigation. Earlier Dexron bulletin scope, safety limits and distinct test years remain unchanged.",
+      "original_record_sha256": "41e8453f1d83cc43d6be70df19212c269a1e020a8691c20420facd6cae89b2de"
+    },
+    "prebuy-fact-031": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline",
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Recorded drivetrain protection/gear-change torque communication links TCM and engine control; distinguish commanded reduction from engine or gearbox damage.",
+      "original_record_sha256": "b234895577fc41cb90abd60dd09e586200c92190465edd556de6cc9fedd61382"
+    },
+    "prebuy-gap-007": {
+      "kind": "gaps",
+      "system_ids": [
+        "transmission_driveline"
+      ],
+      "reason": "Named stall diagnostic or solenoid/valve-body identity/resistance question belongs to transmission research; unsafe testing and unresolved values remain unchanged.",
+      "original_record_sha256": "a6841af64a1d8a79962360379aa78a7b0b22acccc9cec78c56cf970ee31ab9b8"
+    },
+    "repl-fact-002": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Supplier kit temperatures/hardware refer to ECM relocation. Thermal context does not make it a vehicle-cooling component or validate durability improvement.",
+      "original_record_sha256": "c7926be4bad41703762187b4a1d41ef1a5bd100012bec57f8e3f3c0f7fc1f206"
+    },
+    "repl-fact-003": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Supplier kit temperatures/hardware refer to ECM relocation. Thermal context does not make it a vehicle-cooling component or validate durability improvement.",
+      "original_record_sha256": "45601e9a3377a65f41253004200dbb56a77ceef2e092ef07fe3e2e58a96e74aa"
+    },
+    "repl-fact-010": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security",
+        "charging_starting_wiring"
+      ],
+      "reason": "Ignition/immobilizer communication depends on supply/ground; security/control and wiring navigation are both relevant, without proving internal module failure.",
+      "original_record_sha256": "49bdba2a3d381a19186a3c34c593090641d61e4d561c6fd408b648193ecd2e40"
+    },
+    "repl-gap-003": {
+      "kind": "gaps",
+      "system_ids": [
+        "ecu_immobilizer_security",
+        "charging_starting_wiring"
+      ],
+      "reason": "Module bus/replacement documentation needs security/software plus electrical diagrams; no pairing or hardware swap is approved.",
+      "original_record_sha256": "2a51c31c4c6308013ae07e1f6bdc01b091efea16d8b67efaaa137cdf54325402"
+    },
+    "rrtriage-fact-018": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline"
+      ],
+      "reason": "Original automatic-gearbox diagnostic/service scope identifies transmission navigation. Earlier Dexron bulletin scope, safety limits and distinct test years remain unchanged.",
+      "original_record_sha256": "543238ca8adbe805d8aa072c07421063a82defc16cd78c4bd0b821041689b349"
+    },
+    "rrtriage-fact-028": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "General multisystem diagnostic method; no single physical subsystem is identified by the method.",
+      "original_record_sha256": "219b40fa88656b25f0c43633e072ddfece3850174de1d8de63520f7a2dd1cf40"
+    },
+    "simulation-fact-001": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "f0d5a4cd9346a2ba8bc28c7ae5e041295e37a9ecb6665b69eaf847959adeed92"
+    },
+    "simulation-fact-002": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "b99701cccc8535b8e58009d55e431df726d71969f9d4f46e06800268925bd79d"
+    },
+    "simulation-fact-003": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "34da9a09765f4f423d514bf519ac1e5e0d09592c27a9cc24a767a5f4e57133dc"
+    },
+    "simulation-fact-004": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "60f7c705604281e1816f8c10b40e8ad04d7d6fc44ee18084b2351108344ff548"
+    },
+    "simulation-fact-009": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "f89816e3e1cfdaeef6bd79e58c4da73e9c9bdb5107227ef7b9dc5556e8dbc1ee"
+    },
+    "simulation-fact-010": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "cc70c53994a5bd8e53756c80215cf3edff270acc12dead7bd7d41ef99dad5476"
+    },
+    "simulation-fact-011": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security"
+      ],
+      "reason": "T7 read-value origin/damping is an engine-control measurement-semantics reference; estimates are not independent torque or dyno observations.",
+      "original_record_sha256": "914712dbda570ecb6da2a6f58dbedf32e777c6b4c25b2cef3df5fa305f935514"
+    },
+    "simulation-fact-012": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security"
+      ],
+      "reason": "T7 read-value origin/damping is an engine-control measurement-semantics reference; estimates are not independent torque or dyno observations.",
+      "original_record_sha256": "9fd1ebe8b5b34eef8766b8204b32d1944b254a5c5aa902c9562544bd3b9d8fad"
+    },
+    "simulation-fact-013": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security"
+      ],
+      "reason": "T7 read-value origin/damping is an engine-control measurement-semantics reference; estimates are not independent torque or dyno observations.",
+      "original_record_sha256": "1b0138a69c12bdbceb63a20318e30651928308cf16b65336fd0e76767d67c75c"
+    },
+    "simulation-fact-015": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "df24d44779465e470ce07531028826ca5c130f0764b7f256a5e849d4b344ecbd"
+    },
+    "simulation-fact-016": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "35b3949c9a7d7011438ba8725415d42d6b899f61834362b41e8365cc0abbc301"
+    },
+    "simulation-fact-017": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "238eae94593fcb939c4f44351f7c0ae954318f287c16babdf00dea6afe019474"
+    },
+    "simulation-fact-018": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "4832c5ecda8475b24ec6cbc6159cb9713ad51717b5fc3242e1a63455a3b88285"
+    },
+    "simulation-fact-019": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "a161f25e1886980d77e9c490bc17172b1ae04a74c967d6d4c9c0e105643f191b"
+    },
+    "simulation-fact-020": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "a1017be1691c5e22817fde783b861fb8a78549b7a75049291624c4289b9bfa2f"
+    },
+    "simulation-fact-021": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "f6e789e1ba61b82ebc0935a6d61afb7ee6713cf69ae0c39b0a96362459209e12"
+    },
+    "simulation-fact-022": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "992f4e144966bff3589b8a7ce4cfbe02275cd1dc0ea8528404becc71c4a51b48"
+    },
+    "simulation-fact-030": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "064b74e3ea73743f5795faf2d21a20a30af4ceda3e5fab207ca89e02be879753"
+    },
+    "simulation-fact-031": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "e95b108a58f4b2ea85456438d4f94c05098eab522f7e005602013836d0407f92"
+    },
+    "simulation-fact-032": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "9dbdee9ded55ac9ff196e036fbee20ea9e61f9937b9010afc2e0b5a3359162c8"
+    },
+    "simulation-fact-033": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "926c98b9b65b0766c7d78c4734d0fc1b634a89d377e9e71b12a479cf65dc1672"
+    },
+    "simulation-fact-037": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "9004138d5f6d755546559fd66cbda3ec4e83e1650b297b1276fd4670d7aad7ff"
+    },
+    "simulation-fact-038": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "1d49f79975fc0a75dd586b84cb46cb764ec77a060cf88051dbe8012756fc461a"
+    },
+    "simulation-fact-039": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "b1e5787864da5249f426492e4cac1aa60e91cd76bae1eb089f29f37741415d5e"
+    },
+    "simulation-fact-040": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Software provenance, generic test-adapter envelope, measurement examples or simulation method; not an installed Saab part specification or independently calibrated component model.",
+      "original_record_sha256": "2c4113b23bcf3c17d09969a40d3dc59acafc575cd957c2d768861b0c3ab8d41f"
+    },
+    "simulation-gap-004": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Detailed engine-model calibration or unspecified multi-fluid hose suitability needs broader engineering evidence; no single installed component application established.",
+      "original_record_sha256": "4586c998565c5fccf384c335786936b0f23b3a62e1d86e3ecd479eb40ad7ee42"
+    },
+    "simulation-gap-010": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Detailed engine-model calibration or unspecified multi-fluid hose suitability needs broader engineering evidence; no single installed component application established.",
+      "original_record_sha256": "23972d6e28e44c3f36e75225adcb6e773ba2580df1f58849ca8114f7cb7928b3"
+    },
+    "t7cool-fact-037": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "DICE is named here specifically as petrol radiator-fan control; do not generalize this to diesel fan modules or every DICE function.",
+      "original_record_sha256": "96c03fd05505a89727e4c8e053a76285bfae679107b982abdcac5e066ca07fd4"
+    },
+    "t7cool-fact-043": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "DICE is named here specifically as petrol radiator-fan control; do not generalize this to diesel fan modules or every DICE function.",
+      "original_record_sha256": "da955f3eb322df24128d348296073746d270f0a09fe569799722a2be587c08ff"
+    },
+    "t7cool-fact-049": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "DICE is named here specifically as petrol radiator-fan control; do not generalize this to diesel fan modules or every DICE function.",
+      "original_record_sha256": "2d7f6c35935d9051ea16a7d34336ff716e490755858570cbe83ba7d8cb9074f1"
+    },
+    "t7cool-gap-002": {
+      "kind": "gaps",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Fan temperature/calibration disagreement identifies cooling; retain all original thresholds until source context resolves it.",
+      "original_record_sha256": "ada9fc5742b2d87775a787174dec23d53030c6c841010830fefb7e7761771577"
+    },
+    "turbsol-fact-006": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Stored turbo installation/diagnostic or source-limit context identifies boost-system navigation. Ambiguous/unretrieved shaft tolerances stay unusable; not evidence of a failed turbo.",
+      "original_record_sha256": "93db4b413283bb463ca337286d40b695ecdc25f98256360f30f5c28458fd8ce4"
+    },
+    "turbsol-fact-012": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Stored turbo installation/diagnostic or source-limit context identifies boost-system navigation. Ambiguous/unretrieved shaft tolerances stay unusable; not evidence of a failed turbo.",
+      "original_record_sha256": "b3692fcb93f9770e6224bcbaf8a06e4e0843dacba553e870f356a20206ea52af"
+    },
+    "turbsol-fact-018": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Stored turbo installation/diagnostic or source-limit context identifies boost-system navigation. Ambiguous/unretrieved shaft tolerances stay unusable; not evidence of a failed turbo.",
+      "original_record_sha256": "eabb8a8d634e411b4d3938e729cecc59ac4929f67f753c4bac5339abe66c752d"
+    },
+    "turbsol-fact-020": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Stored turbo installation/diagnostic or source-limit context identifies boost-system navigation. Ambiguous/unretrieved shaft tolerances stay unusable; not evidence of a failed turbo.",
+      "original_record_sha256": "76d44bfb34ac742d4f24714116a409b7c7173084d6125f9f47aa7f26e5a98808"
+    },
+    "turbsol-fact-035": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline"
+      ],
+      "reason": "Original automatic-gearbox diagnostic/service scope identifies transmission navigation. Earlier Dexron bulletin scope, safety limits and distinct test years remain unchanged.",
+      "original_record_sha256": "48c4c5d61b99c59149b2f7cdc2b7690c8b8416e7295b6c1a2dd530b51c6350c8"
+    },
+    "turbsol-fact-036": {
+      "kind": "facts",
+      "system_ids": [
+        "transmission_driveline"
+      ],
+      "reason": "Original automatic-gearbox diagnostic/service scope identifies transmission navigation. Earlier Dexron bulletin scope, safety limits and distinct test years remain unchanged.",
+      "original_record_sha256": "4a80b8154c2d7b09ec8213225d91fee30e0200628d4fdde195cbb6135fcb2877"
+    },
+    "turbsol-fact-038": {
+      "kind": "facts",
+      "system_ids": [
+        "turbo_intake_boost"
+      ],
+      "reason": "Stored turbo installation/diagnostic or source-limit context identifies boost-system navigation. Ambiguous/unretrieved shaft tolerances stay unusable; not evidence of a failed turbo.",
+      "original_record_sha256": "72dd2211bdebc9f565a09ab114fa4be341ed6d7e5bbce66b2be7f4fc3fb9a238"
+    },
+    "turbsol-gap-006": {
+      "kind": "gaps",
+      "system_ids": [
+        "transmission_driveline"
+      ],
+      "reason": "Named stall diagnostic or solenoid/valve-body identity/resistance question belongs to transmission research; unsafe testing and unresolved values remain unchanged.",
+      "original_record_sha256": "f7a84e760f8aa5b2d0c294ff8bbbb35b7ea6ff674ebe9d9324f17215e8b217b7"
+    },
+    "turbsol-gap-007": {
+      "kind": "gaps",
+      "system_ids": [
+        "transmission_driveline"
+      ],
+      "reason": "Named stall diagnostic or solenoid/valve-body identity/resistance question belongs to transmission research; unsafe testing and unresolved values remain unchanged.",
+      "original_record_sha256": "b1ce2bfefc2817a6cfd1f497952aeb2c33d168a409d86dd63b01545230376174"
+    },
+    "usparts-fact-001": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Historical retailer water-pump/radiator price or inventory snapshot; cooling navigation does not confirm present stock, delivery, fitment or installed costs.",
+      "original_record_sha256": "b78bbdec43520a3cca475683e4e9be9425e13f85b4102507f7bd9d4375ccfa3f"
+    },
+    "usparts-fact-002": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Historical retailer water-pump/radiator price or inventory snapshot; cooling navigation does not confirm present stock, delivery, fitment or installed costs.",
+      "original_record_sha256": "0d2d10ea8b3cd4a96e2f21d3a53404f46456b8df93c027ce294bdb072b02992a"
+    },
+    "usparts-fact-003": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Historical retailer water-pump/radiator price or inventory snapshot; cooling navigation does not confirm present stock, delivery, fitment or installed costs.",
+      "original_record_sha256": "184cc103f057f22a2de315c5c3a1ad63f0438b8d2bf0cd523f9aa12151d89f2c"
+    },
+    "usparts-fact-004": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Historical retailer water-pump/radiator price or inventory snapshot; cooling navigation does not confirm present stock, delivery, fitment or installed costs.",
+      "original_record_sha256": "1f18959255f1a13aa9505af3d0b927bf46b4c90cf52f0058e7443327bfa6087d"
+    },
+    "usparts-fact-005": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Historical T7 ignition-cassette retailer snapshot; control/ignition navigation does not certify inventory or compare it to a T8 cloning service.",
+      "original_record_sha256": "3b7f04a55a56b0bb551bbdaf81b03ca3c8e6c6309db4d0b9129669f28d1dfb68"
+    },
+    "usparts-fact-006": {
+      "kind": "facts",
+      "system_ids": [
+        "ecu_immobilizer_security"
+      ],
+      "reason": "Historical T7 ignition-cassette retailer snapshot; control/ignition navigation does not certify inventory or compare it to a T8 cloning service.",
+      "original_record_sha256": "2cf2206c1267fe9d50892cda7d4fd20585c7a2fa5bd1d4b515a8fc0eccdb85d5"
+    },
+    "usparts-fact-007": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Historical retailer water-pump/radiator price or inventory snapshot; cooling navigation does not confirm present stock, delivery, fitment or installed costs.",
+      "original_record_sha256": "e126d3ecb4d863f47859d433fd9a53571faa6c23855094d31b40ef28c25d81f6"
+    },
+    "usparts-fact-008": {
+      "kind": "facts",
+      "system_ids": [
+        "cooling_heat"
+      ],
+      "reason": "Historical retailer water-pump/radiator price or inventory snapshot; cooling navigation does not confirm present stock, delivery, fitment or installed costs.",
+      "original_record_sha256": "03d4812b0433f90b3bb0aab914b8b082b9984fd61f74a58b2e669350da68ea6b"
+    },
+    "usparts-fact-009": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring"
+      ],
+      "reason": "Historical starter listing/snapshot identifies starting; original item unavailability does not rule out other repair paths.",
+      "original_record_sha256": "9d83358fa589ea670c9336aa127ac5b447237f4df835b73c6f2906f64114f678"
+    },
+    "usparts-fact-010": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring"
+      ],
+      "reason": "Historical starter listing/snapshot identifies starting; original item unavailability does not rule out other repair paths.",
+      "original_record_sha256": "ac5b1216edbd8824029c3013829b3752fb8be32b928b1cf450de35015e430243"
+    },
+    "usparts-fact-011": {
+      "kind": "facts",
+      "system_ids": [
+        "charging_starting_wiring"
+      ],
+      "reason": "Historical starter listing/snapshot identifies starting; original item unavailability does not rule out other repair paths.",
+      "original_record_sha256": "4f641d78d3fda9ca5bf42d0293b049bb741006d1794f25e613de08c90e3a3617"
+    },
+    "usparts-fact-012": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Retail-channel or conditional service-warranty information applies across parts; no particular component stock or DIY warranty approval follows.",
+      "original_record_sha256": "775d13212f5c92e8bcc098e5722c7a21677263dab9a20c0fb323e0ae779dbb9b"
+    },
+    "usparts-fact-013": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Retail-channel or conditional service-warranty information applies across parts; no particular component stock or DIY warranty approval follows.",
+      "original_record_sha256": "19a75bc5eecc575c3b528a9d52b89cb11d84ee3fd753d5bfd299e98fc4092d09"
+    },
+    "usparts-gap-002": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Mixed-SKU market fulfilment/pricing task remains cross-cutting; no single part is selected and no current supply is verified.",
+      "original_record_sha256": "c6bd7dde9a19ac26bfb4b5adc0a7fdd698c4f68edb24c8b79b2c80c54c2952c4"
+    },
+    "vinfit-fact-001": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "cf0d759a23b0429014a35164763a6e523eda85dfe03982a547c9015a525e50b5"
+    },
+    "vinfit-fact-002": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "864504edeb5f59c78951fdf9b8ffefe02631d8f621f35c5f0ace88280dbad343"
+    },
+    "vinfit-fact-004": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "64954293a444970851bd6941df17ffce641c19111e8789f59382cf67bc901343"
+    },
+    "vinfit-fact-005": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "7696a8c534abdeec27915b957db0f02520bce06d36d2bf63a8704447f62a8bb9"
+    },
+    "vinfit-fact-006": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "5346f6db44175bc4bc438c03bfafdf2775be8922d090caab099db516e83fdb84"
+    },
+    "vinfit-fact-007": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "1d0fa614253fa35202d18740e52b5c78879cf0768daa84bafa0e5b01f355924f"
+    },
+    "vinfit-fact-009": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "6b9d957161e14eebb7671b34ac59890d3946e613bbc22a81f85a858a5dfa5761"
+    },
+    "vinfit-fact-010": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "8d7fe4e5bf4f120813708ed68b05b29a8e909c5b4faf7fff8e59073cd537fc4c"
+    },
+    "vinfit-fact-011": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "97198bdc5a2e337049d466fad4b2666c0bb6e37a9e8943653de98eb152782f56"
+    },
+    "vinfit-fact-012": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "d938dde7560954e44fda376038ea6007e878654e75511e4d5de9d46231322723"
+    },
+    "vinfit-fact-013": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "167d78f0c5947da69d98d8c6a837bc98eeda19dd16bb8c64e19ae683365320dd"
+    },
+    "vinfit-fact-014": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "e966a9123739e6ce0c771bc72afef0ff083bb1d122db15998988b62e5f2bbda8"
+    },
+    "vinfit-fact-015": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "cca1fbdb5dd30e0c39666057230409e733a62ac07e24091d40d0f8885015eeb5"
+    },
+    "vinfit-fact-016": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "Vehicle identity, lineup/build boundary or VIN source-quality record; engine/body code labels do not establish a physical-system defect or installed replacement.",
+      "original_record_sha256": "ec9e930dfa23deb977e2d3ab3bc60a36d2d922c94d3a2a56c37664b75075619d"
+    },
+    "vinfit-fact-028": {
+      "kind": "facts",
+      "system_ids": [],
+      "reason": "WebEPC access/features concern catalogue provenance across systems, not a completed part lookup or physical component.",
+      "original_record_sha256": "60cd901f7622731db6c93a14471a0c54d0e959e6d10503787723259e46f09a4f"
+    },
+    "vinfit-gap-001": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Incomplete VIN/build interpretation, manual revision or general OEM lookup remains a cross-system provenance task; source scope is not filled in by routing.",
+      "original_record_sha256": "7415b99f60251b978d494306a7bff7146995f457611a529182e295e5916efc8c"
+    },
+    "vinfit-gap-002": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Incomplete VIN/build interpretation, manual revision or general OEM lookup remains a cross-system provenance task; source scope is not filled in by routing.",
+      "original_record_sha256": "686124fa81796a44ae7bdcc38bdc9519cf7d8fb34a550f987b130e0ea89510c8"
+    },
+    "vinfit-gap-006": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Incomplete VIN/build interpretation, manual revision or general OEM lookup remains a cross-system provenance task; source scope is not filled in by routing.",
+      "original_record_sha256": "0d24942c5ce529c3843442b4c6b89a0bff863ac3ece6319bf24858ae5a336576"
+    },
+    "wp7-fact-018": {
+      "kind": "facts",
+      "system_ids": [
+        "restraints_safety"
+      ],
+      "reason": "Source-scoped occupant-protection trim, airbag or belt campaign record; safety navigation does not confirm VIN involvement, repair completion or present campaign coverage.",
+      "original_record_sha256": "7a0fda885edee71aadeb2feb1b86597b403820ad6090c756403e712f4b0987fd"
+    },
+    "wp7-fact-019": {
+      "kind": "facts",
+      "system_ids": [
+        "restraints_safety"
+      ],
+      "reason": "Source-scoped occupant-protection trim, airbag or belt campaign record; safety navigation does not confirm VIN involvement, repair completion or present campaign coverage.",
+      "original_record_sha256": "19782b68e59417e0c38bb295be6a835dd06df208c0b4d84196c1db5a13d7f408"
+    },
+    "wp7-fact-020": {
+      "kind": "facts",
+      "system_ids": [
+        "restraints_safety"
+      ],
+      "reason": "Source-scoped occupant-protection trim, airbag or belt campaign record; safety navigation does not confirm VIN involvement, repair completion or present campaign coverage.",
+      "original_record_sha256": "5e659363a6fd0350567315bf7966f4c4d8874140aa97dfe60466c96c22e65477"
+    },
+    "wp7-fact-021": {
+      "kind": "facts",
+      "system_ids": [
+        "restraints_safety"
+      ],
+      "reason": "Source-scoped occupant-protection trim, airbag or belt campaign record; safety navigation does not confirm VIN involvement, repair completion or present campaign coverage.",
+      "original_record_sha256": "15fbc9e75984e0de25d4679a970753aba15ca8b2c4ddc033bb2957daa93b59c6"
+    },
+    "wp7-fact-022": {
+      "kind": "facts",
+      "system_ids": [
+        "restraints_safety"
+      ],
+      "reason": "Source-scoped occupant-protection trim, airbag or belt campaign record; safety navigation does not confirm VIN involvement, repair completion or present campaign coverage.",
+      "original_record_sha256": "a9b23feb60bc39990c7b5a7a623c6bb9ec41411bd8c0af2c5b4146b968a8e479"
+    },
+    "wp7-fact-023": {
+      "kind": "facts",
+      "system_ids": [
+        "restraints_safety"
+      ],
+      "reason": "Source-scoped occupant-protection trim, airbag or belt campaign record; safety navigation does not confirm VIN involvement, repair completion or present campaign coverage.",
+      "original_record_sha256": "f99665a6de0612c5be41698a4bc86c579c880bfbd0975df43cb4cc559ec7e6e7"
+    },
+    "wp7-fact-024": {
+      "kind": "facts",
+      "system_ids": [
+        "restraints_safety"
+      ],
+      "reason": "Source-scoped occupant-protection trim, airbag or belt campaign record; safety navigation does not confirm VIN involvement, repair completion or present campaign coverage.",
+      "original_record_sha256": "7cf409362b105a0aa6c4800490fa98402c616864bdc8c5c1939609e86d68eaac"
+    },
+    "wp7-fact-025": {
+      "kind": "facts",
+      "system_ids": [
+        "restraints_safety"
+      ],
+      "reason": "Source-scoped occupant-protection trim, airbag or belt campaign record; safety navigation does not confirm VIN involvement, repair completion or present campaign coverage.",
+      "original_record_sha256": "c7e4573ecea633252354d4490a0732e33e3941eb1002fc052ab56093b224fd88"
+    },
+    "wp7-fact-026": {
+      "kind": "facts",
+      "system_ids": [
+        "restraints_safety"
+      ],
+      "reason": "Source-scoped occupant-protection trim, airbag or belt campaign record; safety navigation does not confirm VIN involvement, repair completion or present campaign coverage.",
+      "original_record_sha256": "e24c98e958d7e93746de032327d866d20ec4bf07d60c02ee90b283fe5cda7fdc"
+    },
+    "wp7-gap-001": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Mixed-campaign/part or whole-vehicle verification remains an open cross-system task, not an individual physical-system defect.",
+      "original_record_sha256": "c9ae07eee7a96ad3c2472bf93af9f584ef629928a2db42a20db4ae1effabc719"
+    },
+    "wp7-gap-005": {
+      "kind": "gaps",
+      "system_ids": [
+        "restraints_safety"
+      ],
+      "reason": "Specific belt/A-pillar occupant-safety campaign scope/completion question; original VIN and remedy verification still required.",
+      "original_record_sha256": "97f6432b600b257314d15855d445af01f294771116487525fd747413c735ef04"
+    },
+    "xint-gap-004": {
+      "kind": "gaps",
+      "system_ids": [],
+      "reason": "Mixed-SKU market fulfilment/pricing task remains cross-cutting; no single part is selected and no current supply is verified.",
+      "original_record_sha256": "24da9493833666331ec8c21f1b65ff643f07e9202a8df07f25dd2582af8592c4"
+    }
+  },
+  "explicit_fact_gap_routes_purpose": "Manual navigation review of all 161 facts and 31 gaps cross-cutting at PR #72. Empty system lists deliberately preserve cross-system identity, provenance and methodology. Record digests require review refresh on source-record edits; no technical datasets, evidence status, fitment or gap-completion claims changed."
 }

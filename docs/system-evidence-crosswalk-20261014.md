@@ -95,6 +95,8 @@ The [October 14 follow-up review](part-gap-overlap-adjudication-20261014.md) has
 
 ## What still needs source-level reconciliation
 
-This completes the **initial full-inventory and source-preserving system crosswalk**, not factory-defect research completeness. The necessary follow-up is to examine the 199 cross-cutting records and 250 multi-system candidates, and then reconcile actual part number/version/applicability links and meaningful gap closures against the existing 19 mechanism groups and sixteen systems. That review must distinguish system specs, original manufacturer defect mechanisms, factory corrective revisions, observed failure events, parts supply and complete repair economics.
+The [fact/gap follow-up](fact-gap-navigation-adjudication-20261014.md) now reviews all 161 facts and 31 gaps that were cross-cutting after PR #72. The current index contains 87 deliberately reviewed cross-cutting entries and 255 multi-system entries. Of the latter, 225 remain unreviewed proposals (176 facts and 49 gaps). The earlier counts above are historical baselines, not the current work queue. Use `--review --review-unreviewed-only --review-limit 0` to inspect remaining work without rediscovering already reviewed cross-cutting cases.
+
+This completes additional **source-preserving navigation review**, not factory-defect research completeness. Follow up on the unreviewed multi-system candidates, then reconcile actual part number/version/applicability links and meaningful gap closures against existing evidence. That review must distinguish system specs, original manufacturer defect mechanisms, factory corrective revisions, observed failure events, parts supply and complete repair economics.
 
 Only after validating what evidence is **truly missing**, should future PRs retrieve newly found original Saab/regulator bulletins or new market data. **No tier ranking or model preference is justified by these topic counts.**

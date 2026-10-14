@@ -106,6 +106,17 @@ applicability representation. Passing validation does not prove the underlying
 engineering claim. Source review, vehicle identification, and appropriate testing
 remain separate checks.
 
+### Reviewed fact/gap search routes
+
+The system-routing policy's `explicit_fact_gap_routes` maps existing fact/gap IDs
+to `kind`, `system_ids`, `reason` and `original_record_sha256`. An empty system
+list is a deliberate cross-cutting navigation decision, not evidence of missing
+or failed parts. The SHA-256 uses UTF-8 canonical JSON (sorted keys, compact
+separators, unescaped Unicode) of the complete original record. Changed record
+content requires refreshing the review; serialization whitespace does not.
+These routes do not change original applicability, evidence status, source
+provenance or gap resolution. The hash does not verify an engineering claim.
+
 ## Cross-manufacturer interchange candidates (research-only)
 
 The separate `data/interchange-candidates/phase0.json` matrix preserves manufacturer,
