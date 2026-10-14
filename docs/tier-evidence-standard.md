@@ -29,6 +29,12 @@ The baseline [U.S. feasibility audit](../data/vehicle-catalogue/us-feasibility-c
 
 [Reproducible 110-row tier readiness audit](../data/audits/tier-research-readiness.json) records existing scenario and job-plan **link counts only for tracking**. The counts are not failures, successes or scoring variables. Every cohort's original factory part lifespan, exact 2026 supplier delivery and installed repair economics are unestablished. Source-rich years must not be given preferred status by research density.
 
+## Failure case IDs versus shared engineering mechanism IDs
+
+The [first observation ledger](../data/tier-research/observations.json) uses separate `failure_modes` records for different Saab production cohorts while linking related cases to a canonical `failure_mechanisms` identity. This prevents an ignition-module overload mechanism affecting both four-cylinder and B308 from becoming two unrelated engineering failure types. **Do not sum case counts or recall populations into measured failure events.** A future quantified rate must use independently verified vehicles and exposure.
+
+Factory [TA440-0702](https://saabwisonline.com/9-3-9440/2005/4-transmission/automatic-transmission/5-speed-fa-57/bulletins-si-mi/ta440-0702-coolant-in-atf-oil) defines distinct 9-3SS, 9-3SS TiD and 9-3CV upper VIN suffixes, all **strictly below** their stated values. Those ranges must be stored as separate groups with exclusive upper bounds. Engine codes not present in that advice are unknown; the TiD line is diesel and must not silently map to the U.S. B207 petrol research population. Applicability remains manual-review-only until exact vehicle identity is established.
+
 ## Standard system inventory for equal comparison
 
 The methodology lists **16 systems**, including **13 designated critical** for catastrophic cost, safety, immobilization or essential service. The same template applies to each eligible cohort:
