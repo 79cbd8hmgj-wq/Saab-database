@@ -166,6 +166,43 @@ class USFeasibilityMatrixTests(unittest.TestCase):
         self.assertTrue(all(not x["individual_vehicle_inspection_completed"]
                             for x in self.coverage["production_group_reviews"]))
 
+    def test_new_B284_LHU_and_later_FA57_AF40_are_scoped(self):
+        counts = self.coverage["counts"]["matching_links_by_scenario"]
+        self.assertEqual(
+            [counts[f"us-feas-{i:03d}"] for i in (19, 20, 21, 22)],
+            [6, 1, 18, 1])
+        scenario_by_id = {x["id"]: x for x in self.data["scenarios"]}
+        original = {x["id"]: x for x in self.prod["configurations"]}
+        for id_number, platform, expected_system, expected_years in [
+            (19, "9440", "engine", set(range(2006, 2009))),
+            (20, "650", "engine", {2011}),
+            (21, "9440", "transmission", set(range(2006, 2012))),
+            (22, "650", "transmission", {2011}),
+        ]:
+            sid = f"us-feas-{id_number:03d}"
+            case = scenario_by_id[sid]
+            self.assertEqual(case["system"], expected_system)
+            matches = [original[x["production_id"]]
+                       for x in self.coverage["production_group_reviews"]
+                       if sid in [y["scenario_id"] for y in x["scenario_links"]]]
+            self.assertTrue(matches)
+            self.assertEqual({v["platform"] for v in matches}, {platform})
+            self.assertEqual({v["model_year"] for v in matches}, expected_years)
+            self.assertFalse(case["part_interchange_approved"])
+            self.assertFalse(case["rate_of_failure_established"])
+            self.assertIsNone(case["price_estimate_usd"])
+        b284 = [original[x["production_id"]]
+                for x in self.coverage["production_group_reviews"]
+                if "us-feas-019" in [y["scenario_id"] for y in x["scenario_links"]]]
+        self.assertTrue(all(x["engine_code"] == "B284L" for x in b284))
+        fa57 = [original[x["production_id"]]
+                for x in self.coverage["production_group_reviews"]
+                if "us-feas-021" in [y["scenario_id"] for y in x["scenario_links"]]]
+        self.assertTrue(all(x["automatic_gears"] == 5 and
+                            x["engine_code"] in ("B207L", "B207R") for x in fa57))
+        self.assertIn("factory_engine_VIN_required", scenario_by_id["us-feas-020"]["applicability"])
+        self.assertIn("factory_vin_gate", scenario_by_id["us-feas-022"]["applicability"])
+
     def test_refuse_source_free_or_price_populated_claim(self):
         bad = json.loads(json.dumps(self.data))
         bad["scenarios"][0]["price_estimate_usd"] = 500
