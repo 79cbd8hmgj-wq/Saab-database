@@ -2,12 +2,14 @@
 
 **Purpose:** Extend the [24 conditional repair scenarios](us-repair-vs-replace-feasibility.md) and [110 source-derived U.S. automatic/FWD configurations](../data/vehicle-catalogue/us-production-normalized.json) to the practical question: **What physical identity, part evidence, special tools and quotes would we need to undertake a repair without an engine or gearbox rebuild?**
 
-Nine [VIN/tool/parts job packets](../data/vehicle-catalogue/us-parts-tool-readiness.json) use **14 specific manufacturer/dated-retailer source URLs**. The [reproducible 110-row crosswalk](../data/audits/us-parts-tool-readiness-coverage.json) distinguishes **exact workshop-example model-year matches** from **other-year research leads**. Neither type approves individual-car repairs, donor interchange, current stock, a reliable used vehicle or installed job prices. Canadian records remain unchanged.
+Eleven [VIN/tool/parts job packets](../data/vehicle-catalogue/us-parts-tool-readiness.json) use **18 source-scoped workshop/bulletin/dated-retailer records**. The [reproducible 110-row crosswalk](../data/audits/us-parts-tool-readiness-coverage.json) distinguishes **exact workshop-example model-year matches** from **other-year research leads**. Neither type approves individual-car repairs, donor interchange, current stock, a reliable used vehicle or installed job prices. Canadian records remain unchanged.
 
 ## Verified procedural and identification distinctions
 
 | Repair category | Factory or dated-supplier finding | Part/order boundary |
 | --- | --- | --- |
+| **Early original 9-5 B235 MY1999–03 PCV** | Saab [U.S./Canada bulletin 210-2554 ed.3](https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2554-ed-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine) identifies **55 561 200** ventilation renovation kit; [210-2417 ed.4](https://saabwisonline.com/9-5-9600/2001/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2417-utg-4-oil-leakage-from-engine) gives an oil-leakage-specific ventilation repair and **30 14 883** check-valve pressure/vacuum test | **21 qualifying production groups** are in this engine/year research scope, not confirmed sludge cases or installed retrofit kits. TSB describes a **symptom-conditioned** procedure, no blanket disassembly of asymptomatic cars, and no guarantee PCV work reverses bearing wear. Complete kit current availability and VIN fitment unverified. |
+| **Early original 9-3 B205 MY2000–02 PCV** | Same U.S./Canada [210-2554 ed.3](https://saabwisonline.com/9-5-9600/2000/2-engine/basic-engine-4-cylinder-petrol/bulletins-si-mi/210-2554-ed-3-noise-from-the-timing-chain-and-oil-sludge-in-the-engine) explicitly provides a **separate 9-3 9400 installation procedure**, while original [2001 9-3 B205 oil-trap diagram](https://saabwisonline.com/9-3-9400/2001/2-engine/exhaust-emission-control-system-petrol/technical-description/system-overview-b235r-b205l-r) grounds its platform routing | **7 source-derived 9-3 B205 automatic hatch groups** potentially in bulletin scope; **1999 B204L is excluded**. The bulletin's URL is hosted in the 9-5 workshop mirror, **not** a false 9-3 model-year source. 55 561 200 is a factory-listed kit, not verified present/current stock. |
 | Original 9-3 **AF20/AF22** (four-speed) | Saab MY2001 [gearbox code](https://saabwisonline.com/9-3-9400/2001/4-transmission/automatic-transmission/technical-data/type-designation-gearbox) describes AF20/AF22 and an illustrative **FA44** serialized adaptation code. Its [automatic gearbox removal](https://saabwisonline.com/9-3-9400/2001/4-transmission/automatic-transmission/adjustment-replacement/automatic-gearbox-assembly) requires **83 94 850 lifting beam**, **83 94 793 subframe trolley**, **87 92 608 gearbox holder** and **87 92 277 converter restraint**. | This is substantial lift/subframe work, not a basic driveway swap; MY2001 FA44 example must not be assigned to all MY1999–02 B204/B205 automatics without the real case label |
 | Original 9-5 **AF30** (four-speed) | MY2000 [Saab AF30/FA47 type designation](https://saabwisonline.com/9-5-9600/2000/4-transmission/automatic-transmission/technical-data/type-designation) contains engine-adaptation and serialized type details | Family name/four speeds alone cannot certify a donor gearbox, torque converter or TCM |
 | Original 9-5 **FA57** (five-speed) | MY2008 [FA57 C01-type tag](https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-data/type-designation) contains engine adaptation, revision and production serial | The second-generation 9-3 FA57 uses different adaptation identifiers |
@@ -25,6 +27,8 @@ Nine [VIN/tool/parts job packets](../data/vehicle-catalogue/us-parts-tool-readin
 | Job packet | Matching source-derived U.S. groups | Same model-year as factory/supplier example |
 | --- | ---: | ---: |
 | Original 9-3 AF20/AF22 gearbox tag + removal tooling | 11 | 3 |
+| Early original 9-5 MY1999–03 B235 PCV/kit/diagnostics | 21 | 4 |
+| Early original 9-3 MY2000–02 B205 PCV/kit/diagnostics | 7 | 3 |
 | Original 9-5 AF30 gearbox tag | 22 | 7 |
 | Original 9-5 FA57 gearbox tag | 42 | 4 |
 | Second-generation 9-3 FA57 gearbox/TCM | 28 | 2 |
@@ -34,7 +38,7 @@ Nine [VIN/tool/parts job packets](../data/vehicle-catalogue/us-parts-tool-readin
 | 2011 9-5 Turbo4 factory engine/AF40 identity | 1 | 1 |
 | 2008 9-5 automatic radiator source | 4 | 4 |
 
-The groups overlap across job types. **All 110 of 110** source-derived U.S. production groups now have at least one job-planning *research lead*, including **11 original 9-3 four-speed groups** with a dedicated AF20/AF22 case-label and removal-tool packet. Their individual AF20 versus AF22 identity, parts interchange and actual repair cost remain unresolved. This is *not* a replacement for the already complete baseline engine/transmission/structural diagnostic coverage.
+The groups overlap across job types. **All 110 of 110** source-derived U.S. production groups now have at least one job-planning *research lead*, including **11 original 9-3 four-speed groups** with a dedicated AF20/AF22 case-label and removal-tool packet. **28 early B205/B235 U.S. groups** now also have manufacturer bulletin and renovation-kit research leads; this does **not** prove any one has sludge or requires preventive part replacement. Their individual AF20 versus AF22 identity, parts interchange and actual repair cost remain unresolved. This is *not* a replacement for the already complete baseline engine/transmission/structural diagnostic coverage.
 
 ## Required proof before any parts purchase
 
@@ -47,7 +51,7 @@ The groups overlap across job types. **All 110 of 110** source-derived U.S. prod
 
 ## Integrity and limits
 
-Data: [nine job plans](../data/vehicle-catalogue/us-parts-tool-readiness.json), [110-group research crosswalk](../data/audits/us-parts-tool-readiness-coverage.json), and generator [`tools/build_us_parts_tool_readiness.py`](../tools/build_us_parts_tool_readiness.py). Run:
+Data: [eleven job plans](../data/vehicle-catalogue/us-parts-tool-readiness.json), [110-group research crosswalk](../data/audits/us-parts-tool-readiness-coverage.json), and generator [`tools/build_us_parts_tool_readiness.py`](../tools/build_us_parts_tool_readiness.py). Run:
 
 ```sh
 python3 tools/build_us_parts_tool_readiness.py --check
