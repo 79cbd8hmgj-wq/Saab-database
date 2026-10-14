@@ -6,6 +6,8 @@ This is an **entire-dataset structural and research-overlap audit**, not a page-
 
 **Subsequent consolidation:** [October 14 legacy issue crosswalk](legacy-issue-consolidation-20261014.md) has now classified and linked **all 92 preexisting issue records**, producing 19 conservative factory/campaign/suspected mechanism identities and a searchable original-source URL/part/fact/gap navigator. This preserves all existing technical datasets, does not rank Saab cars and is **not** an external completeness audit.
 
+**Further integration:** [The 16-system evidence crosswalk](system-evidence-crosswalk-20261014.md) now makes every previously stored fact, issue, part and gap searchable by probable component system, keeping the 199 cross-cutting/unrouted research records visible and declining to treat keyword matches as engineering confirmation or failure rates.
+
 ## 1. Existing material
 
 | Database quantity | Count | Interpretation |
