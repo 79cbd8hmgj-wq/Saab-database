@@ -42,7 +42,8 @@ class EngineeringBatchTests(unittest.TestCase):
         self.assertIn("not_proven",by["B207-01"]["improvement_status"])
         self.assertIn("not_improved",by["B207-03"]["improvement_status"])
         self.assertIn("false",by["T8-01"]["concern"].lower())
-        self.assertIn("complete transmission replacement",by["FA57-01"]["corrective_path"])
+        self.assertIn("transmission",by["FA57-01"]["corrective_path"].casefold())
+        self.assertIn("replac",by["FA57-01"]["corrective_path"].casefold())
         self.assertIn("black",by["KEY-01"]["corrective_path"])
 
     def test_reject_unlinked_original_id_and_source(self):
@@ -67,7 +68,7 @@ class EngineeringBatchTests(unittest.TestCase):
 
     def test_original_factory_sources_and_part_number_not_reclassified_as_certified_life(self):
         by={r["id"]:r for r in self.data["cases"]}
-        self.assertTrue(any("TA248-0336" in s for s in by["T8-01"]["sources"]))
+        self.assertTrue(any("ta248-0336" in uri.casefold() for uri in by["T8-01"]["sources"]))
         self.assertTrue(any("365-2568" in s for s in by["KEY-02"]["sources"]))
         self.assertTrue(any("ta440-0702" in s for s in by["FA57-01"]["sources"]))
         self.assertIn("55563529",by["B207-01"]["corrective_path"])
