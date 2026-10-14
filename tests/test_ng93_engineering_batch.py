@@ -20,7 +20,7 @@ class EngineeringBatchTests(unittest.TestCase):
         cls.result=check(cls.data,cls.datasets,cls.tier)
 
     def test_batch_covers_thirteen_high_value_questions(self):
-        self.assertEqual(self.result["cases"],13)
+        self.assertEqual(self.result["cases"],17)
         self.assertGreaterEqual(self.result["source_URL_references"],20)
         self.assertTrue(self.result["not_a_failure_rate_or_model_ranking"])
         self.assertIn("transmission_driveline",self.result["by_system"])
@@ -58,7 +58,7 @@ class EngineeringBatchTests(unittest.TestCase):
     def test_reject_missing_buyer_case_and_weakened_safety_gate(self):
         trial=copy.deepcopy(self.data)
         trial["cases"].pop()
-        with self.assertRaisesRegex(ValueError,"complete fixed 13-case"):
+        with self.assertRaisesRegex(ValueError,"complete fixed 17-case"):
             check(trial,self.datasets,self.tier)
         trial=copy.deepcopy(self.data)
         next(x for x in trial["cases"] if x["id"]=="FA57-01")["purchase_decision"]="repair_if_confirmed"
