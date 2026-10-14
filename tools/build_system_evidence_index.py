@@ -323,6 +323,10 @@ def main() -> int:
     parser.add_argument("--output", type=Path, help="Export source-linked full research index")
     parser.add_argument("--review", action="store_true",
                         help="Print navigation-only cross-cutting and multi-system routing candidates")
+    parser.add_argument("--review-kind", choices=["facts", "issues", "parts", "gaps", "all"],
+                        default="all", help="Filter the review queue by original record type")
+    parser.add_argument("--review-limit", type=int, default=250,
+                        help="Maximum review records printed; 0 exports ALL review candidates")
     args = parser.parse_args()
     index = build(
         load_datasets(), load(POLICY_PATH), load(METHOD_PATH),
@@ -349,16 +353,24 @@ def main() -> int:
                 if x["cross_cutting_or_unresolved_system"])),
         }, indent=2, ensure_ascii=False))
     if args.review:
+        if args.review_limit < 0:
+            parser.error("--review-limit cannot be negative")
+        rows = [
+            {k: x.get(k) for k in ("id", "kind", "domain", "title", "subject",
+                    "predicate", "primary_navigation_system",
+                    "system_ids_for_discovery", "routing_basis",
+                    "cross_cutting_or_unresolved_system", "possible_multiple_systems")}
+            for x in index["records"]
+            if (x["cross_cutting_or_unresolved_system"] or x["possible_multiple_systems"])
+            and (args.review_kind == "all" or x["kind"] == args.review_kind)
+        ]
         print(json.dumps({
-            "review_records": [
-                {k: x.get(k) for k in ("id", "kind", "domain",
-                    "title", "subject", "predicate", "primary_navigation_system",
-                    "system_ids_for_discovery", "routing_basis")}
-                for x in index["records"]
-                if x["cross_cutting_or_unresolved_system"]
-                    or x["possible_multiple_systems"]
-            ][:250],
-            "showing_first_250": True,
+            "review_kind": args.review_kind,
+            "review_candidates_total": len(rows),
+            "review_records": rows[:args.review_limit] if args.review_limit else rows,
+            "review_records_printed": min(len(rows), args.review_limit)
+                                      if args.review_limit else len(rows),
+            "truncated": bool(args.review_limit and len(rows) > args.review_limit),
         }, indent=2, ensure_ascii=False))
     if args.find or args.system:
         if args.system and args.system not in index["systems"]:
