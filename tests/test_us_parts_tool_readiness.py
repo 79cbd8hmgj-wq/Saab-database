@@ -20,21 +20,21 @@ class USPartsToolReadinessTests(unittest.TestCase):
         self.assertEqual(build(self.prod, self.plans), self.cover)
         self.assertEqual(self.cover["denominator_source_compiled_us_automatic_fwd_groups"], 110)
         self.assertEqual(len(self.cover["production_groups"]), 110)
-        self.assertEqual(len(self.plans["job_packets"]), 8)
-        self.assertEqual(len(self.plans["source_records"]), 11)
-        self.assertEqual(len({x["id"] for x in self.plans["source_records"]}), 11)
+        self.assertEqual(len(self.plans["job_packets"]), 9)
+        self.assertEqual(len(self.plans["source_records"]), 14)
+        self.assertEqual(len({x["id"] for x in self.plans["source_records"]}), 14)
         self.assertEqual(
             [j["matching_production_configuration_groups"]
              for j in self.cover["job_coverage"]],
-            [22, 42, 28, 28, 6, 4, 1, 4]
+            [22, 42, 28, 28, 6, 4, 1, 4, 11]
         )
         self.assertEqual(
             [j["matching_model_year_source_examples"]
              for j in self.cover["job_coverage"]],
-            [7, 4, 2, 2, 2, 4, 1, 4]
+            [7, 4, 2, 2, 2, 4, 1, 4, 3]
         )
         self.assertEqual(sum(bool(r["job_readiness_leads"]) for r in
-                             self.cover["production_groups"]), 99)
+                             self.cover["production_groups"]), 110)
         ids = {x["id"] for x in self.prod["configurations"]}
         self.assertEqual({r["production_configuration_id"] for r
                           in self.cover["production_groups"]}, ids)
@@ -78,6 +78,25 @@ class USPartsToolReadinessTests(unittest.TestCase):
                       " ".join(byid["part-ready-006"]["vin_rpo_case_gates"]))
         self.assertIn("83 94 850",
                       " ".join(byid["part-ready-006"]["required_tools_or_capabilities"]))
+
+    def test_original_9400_4at_has_tooling_only_not_fitment(self):
+        packet = next(x for x in self.plans["job_packets"]
+                      if x["id"] == "part-ready-009")
+        self.assertEqual(packet["match"]["platform"], "9400")
+        self.assertEqual(packet["match"]["automatic_gears"], [4])
+        self.assertEqual(packet["match"]["model_year_range"], [1999, 2002])
+        self.assertEqual(len(packet["evidence_source_ids"]), 3)
+        joined = " ".join(packet["required_tools_or_capabilities"])
+        for tool_number in ("83 94 850", "83 94 793", "87 92 608", "87 92 277"):
+            self.assertIn(tool_number, joined)
+        self.assertTrue(any("AF20 and AF22" in x
+                            for x in packet["vin_rpo_case_gates"]))
+        matching = [x for x in self.cover["production_groups"]
+                    if any(y["job_id"] == packet["id"]
+                           for y in x["job_readiness_leads"])]
+        self.assertEqual(len(matching), 11)
+        self.assertEqual({x["platform"] for x in matching}, {"9400"})
+        self.assertTrue(all(not x["repair_authorized"] for x in matching))
 
     def test_historical_retail_price_is_not_a_live_quote(self):
         p = next(x for x in self.plans["job_packets"] if x["id"] == "part-ready-008")

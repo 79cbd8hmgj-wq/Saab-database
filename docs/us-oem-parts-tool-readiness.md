@@ -2,12 +2,13 @@
 
 **Purpose:** Extend the [24 conditional repair scenarios](us-repair-vs-replace-feasibility.md) and [110 source-derived U.S. automatic/FWD configurations](../data/vehicle-catalogue/us-production-normalized.json) to the practical question: **What physical identity, part evidence, special tools and quotes would we need to undertake a repair without an engine or gearbox rebuild?**
 
-Eight [VIN/tool/parts job packets](../data/vehicle-catalogue/us-parts-tool-readiness.json) use **11 specific manufacturer/dated-retailer source URLs**. The [reproducible 110-row crosswalk](../data/audits/us-parts-tool-readiness-coverage.json) distinguishes **exact workshop-example model-year matches** from **other-year research leads**. Neither type approves individual-car repairs, donor interchange, current stock, a reliable used vehicle or installed job prices. Canadian records remain unchanged.
+Nine [VIN/tool/parts job packets](../data/vehicle-catalogue/us-parts-tool-readiness.json) use **14 specific manufacturer/dated-retailer source URLs**. The [reproducible 110-row crosswalk](../data/audits/us-parts-tool-readiness-coverage.json) distinguishes **exact workshop-example model-year matches** from **other-year research leads**. Neither type approves individual-car repairs, donor interchange, current stock, a reliable used vehicle or installed job prices. Canadian records remain unchanged.
 
 ## Verified procedural and identification distinctions
 
 | Repair category | Factory or dated-supplier finding | Part/order boundary |
 | --- | --- | --- |
+| Original 9-3 **AF20/AF22** (four-speed) | Saab MY2001 [gearbox code](https://saabwisonline.com/9-3-9400/2001/4-transmission/automatic-transmission/technical-data/type-designation-gearbox) describes AF20/AF22 and an illustrative **FA44** serialized adaptation code. Its [automatic gearbox removal](https://saabwisonline.com/9-3-9400/2001/4-transmission/automatic-transmission/adjustment-replacement/automatic-gearbox-assembly) requires **83 94 850 lifting beam**, **83 94 793 subframe trolley**, **87 92 608 gearbox holder** and **87 92 277 converter restraint**. | This is substantial lift/subframe work, not a basic driveway swap; MY2001 FA44 example must not be assigned to all MY1999–02 B204/B205 automatics without the real case label |
 | Original 9-5 **AF30** (four-speed) | MY2000 [Saab AF30/FA47 type designation](https://saabwisonline.com/9-5-9600/2000/4-transmission/automatic-transmission/technical-data/type-designation) contains engine-adaptation and serialized type details | Family name/four speeds alone cannot certify a donor gearbox, torque converter or TCM |
 | Original 9-5 **FA57** (five-speed) | MY2008 [FA57 C01-type tag](https://saabwisonline.com/9-5-9600/2008/4-transmission/automatic-transmission/technical-data/type-designation) contains engine adaptation, revision and production serial | The second-generation 9-3 FA57 uses different adaptation identifiers |
 | Second-generation 9-3 **FA57** | MY2006 [FA57 1 01 and TCM letter table](https://saabwisonline.com/9-3-9440/2006/4-transmission/automatic-transmission/5-speed-fa-57/technical-data/type-designations) describes B207E/L/R engine adaptations | Full actual case and TCM identification, original EPC fitment and programming are needed before donor selection |
@@ -23,6 +24,7 @@ Eight [VIN/tool/parts job packets](../data/vehicle-catalogue/us-parts-tool-readi
 
 | Job packet | Matching source-derived U.S. groups | Same model-year as factory/supplier example |
 | --- | ---: | ---: |
+| Original 9-3 AF20/AF22 gearbox tag + removal tooling | 11 | 3 |
 | Original 9-5 AF30 gearbox tag | 22 | 7 |
 | Original 9-5 FA57 gearbox tag | 42 | 4 |
 | Second-generation 9-3 FA57 gearbox/TCM | 28 | 2 |
@@ -32,7 +34,7 @@ Eight [VIN/tool/parts job packets](../data/vehicle-catalogue/us-parts-tool-readi
 | 2011 9-5 Turbo4 factory engine/AF40 identity | 1 | 1 |
 | 2008 9-5 automatic radiator source | 4 | 4 |
 
-The groups overlap across job types. **99 of 110** production groups have at least one job-planning lead, while **11 original 9-3 four-speed groups** need a dedicated tooling/parts-identification research packet. This is *not* a replacement for the already complete baseline engine/transmission/structural diagnostic coverage.
+The groups overlap across job types. **All 110 of 110** source-derived U.S. production groups now have at least one job-planning *research lead*, including **11 original 9-3 four-speed groups** with a dedicated AF20/AF22 case-label and removal-tool packet. Their individual AF20 versus AF22 identity, parts interchange and actual repair cost remain unresolved. This is *not* a replacement for the already complete baseline engine/transmission/structural diagnostic coverage.
 
 ## Required proof before any parts purchase
 
@@ -45,7 +47,7 @@ The groups overlap across job types. **99 of 110** production groups have at lea
 
 ## Integrity and limits
 
-Data: [eight job plans](../data/vehicle-catalogue/us-parts-tool-readiness.json), [110-group research crosswalk](../data/audits/us-parts-tool-readiness-coverage.json), and generator [`tools/build_us_parts_tool_readiness.py`](../tools/build_us_parts_tool_readiness.py). Run:
+Data: [nine job plans](../data/vehicle-catalogue/us-parts-tool-readiness.json), [110-group research crosswalk](../data/audits/us-parts-tool-readiness-coverage.json), and generator [`tools/build_us_parts_tool_readiness.py`](../tools/build_us_parts_tool_readiness.py). Run:
 
 ```sh
 python3 tools/build_us_parts_tool_readiness.py --check

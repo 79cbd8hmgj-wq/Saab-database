@@ -108,6 +108,30 @@
       "url": "https://www.esaabparts.com/saab/parts/32019620",
       "title": "eSaabParts dated 2026-10-13 aftermarket Nissens radiator 32019620 retail listing",
       "fact": "Existing data/datasets/us-retail-parts-supply-snapshot.json recorded a $211.98 quote on 2026-10-13 and variable inventory. Supplier is not manufacturer fitment certification or a current stock quote."
+    },
+    {
+      "id": "ready-wis-9400-2001-4at-code",
+      "year": 2001,
+      "platform": "9400",
+      "url": "https://saabwisonline.com/9-3-9400/2001/4-transmission/automatic-transmission/technical-data/type-designation-gearbox",
+      "title": "Original Saab 9-3 MY2001 AF20/AF22 serialized type and engine adaptation",
+      "fact": "WIS factory 9-3 9400 automatic AF20/AF22 shows example FA44 707 98BW-00301 and variation by engine and model; not proof all B205 installed units have B204 example code."
+    },
+    {
+      "id": "ready-wis-9400-2001-4at-level",
+      "year": 2001,
+      "platform": "9400",
+      "url": "https://saabwisonline.com/9-3-9400/2001/4-transmission/automatic-transmission/fault-diagnosis-fault-symptoms/checking-the-transmission-fluid-level",
+      "title": "Original Saab 9-3 MY2001 AF20/AF22 hot fluid level/diagnostic procedure",
+      "fact": "MY2001 WIS recommends specified 80C dipstick method, diagnostic tool ATF temperature, and year-specific mineral Dexron III. It is not permitted to project the 2001 level and fluid specification to every 1999–2002 case before checking original year/case."
+    },
+    {
+      "id": "ready-wis-9400-2001-4at-remove",
+      "year": 2001,
+      "platform": "9400",
+      "url": "https://saabwisonline.com/9-3-9400/2001/4-transmission/automatic-transmission/adjustment-replacement/automatic-gearbox-assembly",
+      "title": "Original Saab 9-3 MY2001 automatic complete gearbox removal/refit tools",
+      "fact": "Factory MY2001 procedure requires 83 94 850 engine lifting beam, 83 94 793 subframe lifting trolley with supporting fixtures, 87 92 608 gearbox lift/holder, and 87 92 277 torque-converter restraint; also needs safe lift access, driveshaft and subframe operations."
     }
   ],
   "job_packets": [
@@ -426,6 +450,51 @@
       "historical_observed_date": "2026-10-13",
       "estimate_usd": null,
       "required_shop_labor_hours": null
+    },
+    {
+      "id": "part-ready-009",
+      "name": "Original 9-3 AF20/AF22 four-speed gearbox identification and complete-swap tool audit",
+      "match": {
+        "platform": "9400",
+        "automatic_gears": [
+          4
+        ],
+        "model_year_range": [
+          1999,
+          2002
+        ]
+      },
+      "factory_example_year": 2001,
+      "evidence_source_ids": [
+        "ready-wis-9400-2001-4at-code",
+        "ready-wis-9400-2001-4at-level",
+        "ready-wis-9400-2001-4at-remove"
+      ],
+      "inspection_evidence": [
+        "Privately capture VIN, exact 1999–2002 model year, body and original engine B204L/B205L/B205R from engine stamping",
+        "Photograph COMPLETE original automatic gearbox stamped type/serial and engine-adaptation code (MY2001 FA44 is illustrative, not always installed)",
+        "If bad shift or no engagement, obtain Saab-compatible TCM fault codes and fluid condition before gearbox replacement claim",
+        "Obtain true MY/VIN-specific OEM EPC complete assembly, torque converter, mountings, TCM and cooler part supersession evidence"
+      ],
+      "required_tools_or_capabilities": [
+        "Manufacturer MY2001 automatic-assembly procedure calls 83 94 850 lifting beam supporting engine and gearbox",
+        "83 94 793 lifting trolley with manufacturer subframe fixtures, as well as 87 92 608 gearbox lifting holder/jack",
+        "87 92 277 torque converter restraint on gearbox removal; actual case variant may change access",
+        "Safe approved lift and structurally sound support points; qualified technician required for heavy gearbox/subframe removal",
+        "MY2001 WIS 80C hot ATF level with compatible diagnostic temperature readout and correct original-year dipstick/fluid protocol only on safely operable car"
+      ],
+      "vin_rpo_case_gates": [
+        "AF20 and AF22 are distinct workshop families; a generic '4-speed Saab automatic' label is not a donor approval",
+        "2001 WIS FA44 707 engine-adaptation table includes B204 example; do not assign a B204L case-code example to 2000–02 B205 cars without actual gearbox tag",
+        "Different MY1999–2002 transmissions, final ratios, axle seals, mounts, controllers and converter assemblies require original VIN/case/EPC verification",
+        "MY2001 mineral DEXRON III and dipstick procedure must not be projected to FA57/AF40 or to adjacent original 9-3 years without current model-specific data",
+        "Do not attempt gearbox stall test, unsafe cranking or loaded road test of nonrunning Saab"
+      ],
+      "source_specific_fact": "Original 9-3 MY2001 factory identifies AF20/AF22 and sample FA44 serial tag; removal/refit requires engine support beam 83 94 850, lift trolley 83 94 793, holder 87 92 608, torque-converter restraint 87 92 277.",
+      "candidate_parts_or_numbers": [],
+      "retail_source_ids": [],
+      "estimate_usd": null,
+      "required_shop_labor_hours": null
     }
   ],
   "guardrails": {
@@ -442,7 +511,8 @@
     "OEM part code, supersession chain, engine and transmission case tag, mechanical and software fit before parts order",
     "Exact special tools or documented safe alternative, shop access and Tech2/programming access",
     "Dated part list in stock at reliable US retailer, shipping/core/tax included, and separate qualified labor quote",
-    "Original model-year fault-specific repair procedure and physical condition evidence; no running unsafe nonrunners"
+    "Original model-year fault-specific repair procedure and physical condition evidence; no running unsafe nonrunners",
+    "For original 9-3 AF20/AF22 4AT: photograph complete gearbox tag and obtain model-year/VIN-correct OEM case/TCM/torque-converter replacement part numbers; verify local lifting equipment and costs before declaring swap DIY-feasible."
   ],
   "link_existing_sources": [
     "docs/research/vin-gearbox-provenance.md",

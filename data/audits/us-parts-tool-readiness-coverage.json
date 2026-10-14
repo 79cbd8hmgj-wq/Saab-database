@@ -68,6 +68,14 @@
       "physical_vins_verified": 0,
       "part_fitment_approved": 0,
       "current_install_cost_quotes": 0
+    },
+    {
+      "job_id": "part-ready-009",
+      "matching_production_configuration_groups": 11,
+      "matching_model_year_source_examples": 3,
+      "physical_vins_verified": 0,
+      "part_fitment_approved": 0,
+      "current_install_cost_quotes": 0
     }
   ],
   "production_groups": [
@@ -78,7 +86,16 @@
       "body_style": "3-door hatchback",
       "engine_code": "B204L",
       "automatic_gears": 4,
-      "job_readiness_leads": [],
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-009",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
       "actual_vehicle_inspected": false,
       "repair_authorized": false
     },
@@ -89,7 +106,16 @@
       "body_style": "5-door hatchback",
       "engine_code": "B204L",
       "automatic_gears": 4,
-      "job_readiness_leads": [],
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-009",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
       "actual_vehicle_inspected": false,
       "repair_authorized": false
     },
@@ -100,7 +126,16 @@
       "body_style": "3-door hatchback",
       "engine_code": "B204L",
       "automatic_gears": 4,
-      "job_readiness_leads": [],
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-009",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
       "actual_vehicle_inspected": false,
       "repair_authorized": false
     },
@@ -111,7 +146,16 @@
       "body_style": "5-door hatchback",
       "engine_code": "B204L",
       "automatic_gears": 4,
-      "job_readiness_leads": [],
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-009",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
       "actual_vehicle_inspected": false,
       "repair_authorized": false
     },
@@ -122,7 +166,16 @@
       "body_style": "3-door hatchback",
       "engine_code": "B205L",
       "automatic_gears": 4,
-      "job_readiness_leads": [],
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-009",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
       "actual_vehicle_inspected": false,
       "repair_authorized": false
     },
@@ -133,7 +186,16 @@
       "body_style": "5-door hatchback",
       "engine_code": "B205L",
       "automatic_gears": 4,
-      "job_readiness_leads": [],
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-009",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
       "actual_vehicle_inspected": false,
       "repair_authorized": false
     },
@@ -144,7 +206,16 @@
       "body_style": "5-door hatchback",
       "engine_code": "B205R",
       "automatic_gears": 4,
-      "job_readiness_leads": [],
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-009",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
       "actual_vehicle_inspected": false,
       "repair_authorized": false
     },
@@ -155,7 +226,16 @@
       "body_style": "3-door hatchback",
       "engine_code": "B205L",
       "automatic_gears": 4,
-      "job_readiness_leads": [],
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-009",
+          "evidence_year": 2001,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
       "actual_vehicle_inspected": false,
       "repair_authorized": false
     },
@@ -166,7 +246,16 @@
       "body_style": "5-door hatchback",
       "engine_code": "B205L",
       "automatic_gears": 4,
-      "job_readiness_leads": [],
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-009",
+          "evidence_year": 2001,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
       "actual_vehicle_inspected": false,
       "repair_authorized": false
     },
@@ -177,7 +266,16 @@
       "body_style": "5-door hatchback",
       "engine_code": "B205R",
       "automatic_gears": 4,
-      "job_readiness_leads": [],
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-009",
+          "evidence_year": 2001,
+          "source_applicability_state": "source_model_year_matched_still_VIN_unverified",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
       "actual_vehicle_inspected": false,
       "repair_authorized": false
     },
@@ -188,7 +286,16 @@
       "body_style": "5-door hatchback",
       "engine_code": "B205R",
       "automatic_gears": 4,
-      "job_readiness_leads": [],
+      "job_readiness_leads": [
+        {
+          "job_id": "part-ready-009",
+          "evidence_year": 2001,
+          "source_applicability_state": "adjacent_year_research_lead_not_repair_approval",
+          "vin_and_part_fitment_confirmed": false,
+          "special_tool_access_confirmed": false,
+          "shop_quote_obtained": false
+        }
+      ],
       "actual_vehicle_inspected": false,
       "repair_authorized": false
     },
