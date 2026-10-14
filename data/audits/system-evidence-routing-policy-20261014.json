@@ -3106,11 +3106,8 @@
     },
     "og95-fact-065": {
       "kind": "facts",
-      "system_ids": [
-        "brakes_hydraulics",
-        "engine_core_oil_pcv"
-      ],
-      "reason": "Reviewed original value for 'engine:B235R US / MY2005_US_configuration': brakes_hydraulics + engine_core_oil_pcv are related within the saved topic or interface; preserve separate engineering and scope restrictions. Source co-location is not proof of independent failure events.",
+      "system_ids": [],
+      "reason": "US market B235R marketing/configuration code 'B3' is vehicle variant identification, not a brake defect or original engine reliability measurement; retain cross-cutting source/identity context.",
       "original_record_sha256": "30dc7a8d84b0a518e251ab4e91ff1b6d66be26be4910557c13882ed3c1cad808"
     },
     "og95t7-fact-003": {
@@ -3761,10 +3758,9 @@
     "gate5-gap-003": {
       "kind": "gaps",
       "system_ids": [
-        "ecu_immobilizer_security",
-        "maintenance_consumables"
+        "ecu_immobilizer_security"
       ],
-      "reason": "Reviewed original missing inputs for 'WebEPC exact OE 9-3 2003–11 ignition switch service-kit VIN exclusions': ecu_immobilizer_security + maintenance_consumables are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "reason": "Missing exact ignition-switch module service-kit VIN exclusions concern the ISM electronic security part and conditional housing; word 'service' does not imply routine maintenance coverage.",
       "original_record_sha256": "c01ec019b2ebdede842dfb6c008921f6b4c1dc40d9012f8e4ea636a027446dba"
     },
     "gate5-gap-004": {
@@ -3951,9 +3947,10 @@
       "kind": "gaps",
       "system_ids": [
         "cooling_heat",
+        "body_corrosion_mounts",
         "engine_core_oil_pcv"
       ],
-      "reason": "Reviewed original missing inputs for 'Reliability impact of radiator, mount or PCV aftermarket alternatives': cooling_heat + engine_core_oil_pcv are related within the saved topic or interface; preserve separate engineering and scope restrictions. Gap remains open.",
+      "reason": "Open aftermarket replacement durability comparison involves radiator, engine mount, and PCV hardware in three distinct systems; neither interchange nor controlled service-life benefit has been proven.",
       "original_record_sha256": "7f6b2ed0eb17946b208bc724693684ab1029fa4b57d62078e39fd7a15bec6028"
     },
     "parts95-gap-009": {
