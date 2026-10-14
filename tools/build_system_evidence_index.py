@@ -330,6 +330,23 @@ def main() -> int:
             "multi_system_records": index["records_with_multiple_candidate_systems"],
             "system_rollup": {k: v["candidate_records_by_type"]
                               for k, v in index["systems"].items()},
+            "cross_cutting_by_kind": dict(Counter(
+                x["kind"] for x in index["records"]
+                if x["cross_cutting_or_unresolved_system"])),
+            "cross_cutting_by_domain": dict(Counter(
+                x["domain"] for x in index["records"]
+                if x["cross_cutting_or_unresolved_system"])),
+            "cross_cutting_examples": [
+                {k: x.get(k) for k in ("id", "kind", "domain", "title",
+                                      "subject", "predicate")}
+                for x in index["records"]
+                if x["cross_cutting_or_unresolved_system"]
+            ][:72],
+            "part_routes_review": [
+                {k: x.get(k) for k in ("id", "part_number", "title",
+                     "domain", "system_ids_for_discovery", "routing_basis")}
+                for x in index["records"] if x["kind"] == "parts"
+            ],
         }, indent=2, ensure_ascii=False))
     if args.review:
         print(json.dumps({
