@@ -73,7 +73,7 @@ class USPartsToolReadinessTests(unittest.TestCase):
         self.assertIn("not drop-in proof",
                       byid["part-ready-002"]["source_specific_fact"])
         self.assertIn("does not approve 9-3 AF40 donor interchange",
-                      byid["part-ready-007"]["source_specific_fact"])
+                      " ".join(byid["part-ready-007"]["vin_rpo_case_gates"]))
         self.assertIn("73514478/73514479",
                       byid["part-ready-006"]["source_specific_fact"])
         self.assertIn("83 94 850",
