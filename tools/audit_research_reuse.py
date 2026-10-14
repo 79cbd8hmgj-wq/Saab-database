@@ -115,12 +115,17 @@ def build(datasets: list[dict], ledger: dict, census: dict) -> dict[str, Any]:
             source_match = sorted(
                 set(record["source_ids"]) & set(issue["source_ids"])
             )
-            if not source_match:
-                raise ValueError("Expected literal shared source missing: " + case + "/" + original)
+            shared_urls = sorted(
+                {source_url_by_id[s] for s in record["source_ids"]}
+                & {source_url_by_id[s] for s in issue["source_ids"]}
+            )
+            if not shared_urls:
+                raise ValueError("Expected shared original document URL missing: " + case + "/" + original)
             bridge_rows.append({
                 "tier_case_id": case, "preexisting_issue_id": original,
                 "preexisting_dataset": issue["_domain"], "relationship": "same_mechanism_family",
                 "supporting_shared_source_ids": source_match,
+                "supporting_shared_original_urls": shared_urls,
                 "mechanism_id": record["mechanism_id"],
                 "note": "Reuse candidate; does not prove same vehicle application, incidence or repair."
             })
