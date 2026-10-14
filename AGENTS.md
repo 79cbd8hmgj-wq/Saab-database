@@ -49,3 +49,16 @@ or similarly worded gap titles. Different populations, factory corrections, test
 conditions and campaign/TSB scopes can legitimately cite one document.
 Keep existing source IDs stable and correct references rather than discarding provenance.
 Update audit tests if the original ledger cohort list changes; no premature ranking.
+
+## Sixteen-system evidence retrieval
+
+Run `python3 tools/build_system_evidence_index.py --check --summary` before
+beginning a new subsystem investigation. For a known part, source URL or issue,
+use `--find 'part or subject'` or `--system engine_core_oil_pcv`.
+Read the [system crosswalk](docs/system-evidence-crosswalk-20261014.md).
+Every existing part record is assigned explicitly to a *navigation system* in
+`data/audits/system-evidence-routing-policy-20261014.json`, and CI refuses new
+unrouted parts. That assignment is **not** OEM approval or proof of stock.
+Keyword/domain matches remain tentative; cross-cutting facts and gaps may have no
+system ID without being research errors. Reuse sources and original applicability;
+never count same-document references as independent evidence or model reliability.
