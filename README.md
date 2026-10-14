@@ -10,6 +10,8 @@ engines, and platforms.
 
 ## Start here
 
+- **[Complete 9-3 B207 / early FA57 buy–repair–improve engineering batch (2026-10-14)](docs/engineering/ng93-b207-fa57-buy-repair-improve-20261014.md):** fifteen source-linked decision areas, factory fault and VIN scopes, major repair triggers, genuine replacement paths, available parts-only price evidence and prioritized pre-purchase tests. Not a model tier, in-stock parts guarantee or installed repair quotation. [Machine-readable buyer decision matrix](data/engineering-batches/ng93-b207-fa57-buyer-decision-matrix-20261014.json).
+
 - **[Full first vehicle engineering batch: US/Canada B207 Saab 9-3, 2003–11](docs/research/ng93-b207-powertrain-engineering-batch-20261014.md)**: 13 engine, turbo, cooling, electronics, FA57 automatic and chassis purchase/repair decisions, actual factory corrections, non-equivalent replacement parts, DIY seriousness and buy/no-buy boundaries. Includes [used-car inspection worksheet](docs/research/ng93-b207-2003-2011-buyer-inspection-worksheet.md) and [machine-readable engineering decisions](data/engineering-dossiers/ng93-b207-purchase-engineering-20261014.json). This is a scoped investigation **not a model tier or verified failure rate**.
 
 - [B207 intake-valve engineering and repair sourcing](docs/research/b207-intake-valve-repair-path-20261014.md): existing failure research plus newly retrieved factory head-service requirements, GM 55563529 offering and genuine/TRW valve-only price observations. Practical buying and repair implications; no assumed later-year cure or installed-cost claim.
