@@ -52,9 +52,17 @@ def check_policy(policy: dict, methodology: dict, datasets: list[dict]) -> None:
                 re.compile(expression, re.I)
             except re.error as error:
                 raise ValueError(f"Invalid route rule for {system}: {expression}") from error
-    for id_, value in policy.get("explicit_record_routes", {}).items():
-        if not isinstance(value, list) or (set(value) - systems):
+    originals = {r["id"]: kind for d in datasets for kind in KINDS for r in d[kind]}
+    curated = policy.get("explicit_record_routes", {})
+    for id_, value in curated.items():
+        if id_ not in originals or not isinstance(value, list) or not value or (
+            set(value) - systems
+        ):
             raise ValueError("Invalid curated system override: " + id_)
+    expected_parts = {id_ for id_, kind in originals.items() if kind == "parts"}
+    if not expected_parts.issubset(curated):
+        raise ValueError("New or unreviewed part identities require explicit system navigation; missing="
+                         + str(sorted(expected_parts - set(curated))))
 
 
 def topic_fields(kind: str, record: dict) -> list[tuple[str, str, int]]:
