@@ -351,6 +351,18 @@ def main() -> int:
             "cross_cutting_by_domain": dict(Counter(
                 x["domain"] for x in index["records"]
                 if x["cross_cutting_or_unresolved_system"])),
+            "cross_cutting_issue_records": [
+                {"id": x["id"], "title": x.get("title"),
+                 "claim_type": x.get("claim_type"), "domain": x["domain"]}
+                for x in index["records"]
+                if x["kind"] == "issues" and x["cross_cutting_or_unresolved_system"]
+            ],
+            "multi_system_issue_records": [
+                {"id": x["id"], "title": x.get("title"),
+                 "candidate_systems": x["system_ids_for_discovery"]}
+                for x in index["records"]
+                if x["kind"] == "issues" and x["possible_multiple_systems"]
+            ],
         }, indent=2, ensure_ascii=False))
     if args.review:
         if args.review_limit < 0:
