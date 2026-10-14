@@ -10,7 +10,7 @@ engines, and platforms.
 
 ## Start here
 
-- [First component evidence ledger](docs/research/component-defects-first-ledger-20261014.md): two original ignition-module revisions and three distinct failure mechanisms; regulator/factory boundaries, unknown frequency and costs, no rankings.
+- [First component evidence ledger](docs/research/component-defects-first-ledger-20261014.md): two original ignition-module revisions, three cohort-specific failure cases representing two engineering mechanisms; regulator/factory boundaries, unknown frequency and costs, no rankings.
 
 - [Evidence standard before any Saab tier list](docs/tier-evidence-standard.md): independent original-component reliability, known failure burden, verified 2026 replacement supply and repair economics; 16 systems, 110 unranked US configuration groups, no inferred failure percentages or model preferences. The current tier comparison universe remains unapproved beyond the existing shopping-screen scope.
 
