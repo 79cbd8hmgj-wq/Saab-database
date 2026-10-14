@@ -286,7 +286,9 @@
                 "source_line": "9-3SS",
                 "format": "8-character chassis suffix; STRICTLY BELOW upper bound"
               }
-            ]
+            ],
+            "manual_scope_resolution_required": true,
+            "engine_variant_category": "SS_factory_line_unspecified_engine_non_TiD_must_be_checked"
           },
           {
             "group_id": "ta440-0702-ss-tid",
@@ -317,7 +319,9 @@
                 "source_line": "9-3SS TiD",
                 "format": "8-character chassis suffix; STRICTLY BELOW upper bound"
               }
-            ]
+            ],
+            "manual_scope_resolution_required": true,
+            "engine_variant_category": "TiD_diesel_original_bulletin_line"
           },
           {
             "group_id": "ta440-0702-cv",
@@ -348,9 +352,13 @@
                 "source_line": "9-3CV",
                 "format": "8-character chassis suffix; STRICTLY BELOW upper bound"
               }
-            ]
+            ],
+            "manual_scope_resolution_required": true,
+            "engine_variant_category": "CV_factory_line_engine_unspecified"
           }
-        ]
+        ],
+        "manual_scope_resolution_required": true,
+        "manual_scope_resolution_reason": "VIN bounds apply to three distinct SS/SS TiD/CV factory lines; exact engine codes are absent. Do not run automatic US-cohort eligibility from the top-level index unions, engine name, or upper bounds."
       },
       "system_id": "cooling_heat",
       "affected_original_revision_if_known": "Insufficient cooler-nipple sealing; original part/revision unidentified.",
