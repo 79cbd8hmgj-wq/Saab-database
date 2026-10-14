@@ -56,10 +56,12 @@ def check(dossier: dict, datasets: list[dict], tier: dict) -> dict:
             raise ValueError("Missing/extra decision field "+c["id"])
         if c["purchase_decision"] not in VALID_DISPOSITIONS:
             raise ValueError("Unknown repair/buying decision "+c["id"])
-        for field in ("system","concern","applies","failure","corrective_path",
+        for field in ("concern","applies","failure","corrective_path",
                       "repair_class","improvement_status","cost_basis"):
             if not isinstance(c[field],str) or len(c[field].strip())<15:
                 raise ValueError("Empty substantive case text "+c["id"]+" "+field)
+        if not c["system"] or not isinstance(c["system"],str):
+            raise ValueError("No valid vehicle system "+c["id"])
         for field in ("buyer_checks","unresolved","sources"):
             if not isinstance(c[field],list) or len(c[field]) < (2 if field!="sources" else 1):
                 raise ValueError("Missing buyer/uncertainty/source evidence "+c["id"]+" "+field)
