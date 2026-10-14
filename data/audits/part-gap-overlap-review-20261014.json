@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-10-14",
+  "status": "reviewed_source_claim_relationships_no_part_fitment_or_gap_closure",
+  "interpretation": "The same catalogue part number may have separate factory/supplier claims and vehicle cohorts; the same gap title may represent one unresolved task referenced from multiple datasets. Source-scope comparisons are recorded without deleting or rewriting original records.",
+  "parts": [
+    {
+      "part_number": "55561200",
+      "record_ids": [
+        "corrections-part-001",
+        "pcv-supply-part-001"
+      ],
+      "relationship": "same_Saab_kit_number_distinct_original_bulletin_applications",
+      "claim_review": "corrections-part-001 cites original Saab 9-5 MY1998-2003 B205/B235 sludge bulletin 210-2554 ed.3, while pcv-supply-part-001 cites early 9-3 (9400) MY1999-2003 B205/B235 oil-leak/ventilation bulletin 210-2418 ed.4. The number identifies a factory renovation kit used in distinct installation and eligibility contexts; it is not two independent PCV repairs observed and no full-hose-package equivalence or inventory is established.",
+      "keep_distinct_reason": "Different original platforms, Saab campaigns, MY/applicability, conditional additional hoses and inspection instructions.",
+      "unresolved": [
+        "Exact vehicle VIN and PCV configuration",
+        "Required model-specific hoses and current included components",
+        "Manufacturer-directed replacement chain and current supply"
+      ],
+      "confirmed_same_factory_part_number": true,
+      "factory_proof_of_cross_platform_VIN_fitment": false,
+      "source_scope_conflict": false,
+      "nonmergeable": true
+    },
+    {
+      "part_number": "21341200",
+      "record_ids": [
+        "corrections-part-022",
+        "pcv-supply-part-002"
+      ],
+      "relationship": "same_supplier_product_number_overlapping_catalogue_applications",
+      "claim_review": "Both records refer to Professional Parts Sweden aftermarket PCV kit 21341200 and catalogue reference 55561200. corrections-part-022 lists 9-5 MY1998-2003, while pcv-supply-part-002 includes 9-3 9400 and 9-5 9600 with a tighter 9-3 manufacturer-catalogue subgroup. Similar SKU is not Saab OEM-directed supersession. Part 21341200C is a different complete kit SKU, not an alias.",
+      "keep_distinct_reason": "Supplier source dates, advertised application groups, stock/kit contents and source authority differ.",
+      "unresolved": [
+        "Original model/engine-specific application",
+        "Exact partial versus complete kit contents and auxiliary hoses",
+        "Current seller fulfillment and durability"
+      ],
+      "confirmed_same_factory_part_number": false,
+      "factory_proof_of_cross_platform_VIN_fitment": false,
+      "source_scope_conflict": false,
+      "nonmergeable": true
+    },
+    {
+      "part_number": "32021815",
+      "record_ids": [
+        "corrections-part-016",
+        "gate5-part-002"
+      ],
+      "relationship": "same_conditional_Saab_ignition_switch_service_kit",
+      "claim_review": "Both cite Saab Parts manufacturer's repair instructions for ISM kit 32021815 formerly 12801010. This is NOT a complete drop-in switch: reusable original black lower sliding mechanism must be serviceable; if it is damaged, source requires a suitable intact donor mechanism. Factory/support terminology for kit-for-prior-switch must not imply an equivalent full part or confirmed VIN fitment.",
+      "keep_distinct_reason": "corrections-part-016 has B207-oriented broad case applicability; gate5-part-002 specifies US and the manufacturer's 2003-2011 kit instructions. Retain original limitations and distinct source references.",
+      "unresolved": [
+        "Per-VIN installed switch applicability and exclusions",
+        "Condition of original sliding mechanism or suitable donor",
+        "Actual package contents, current seller delivery and installation cost"
+      ],
+      "confirmed_same_factory_part_number": true,
+      "factory_proof_of_cross_platform_VIN_fitment": false,
+      "source_scope_conflict": false,
+      "nonmergeable": true
+    },
+    {
+      "part_number": "55558696",
+      "record_ids": [
+        "b235rev-part-001",
+        "corrections-part-007"
+      ],
+      "relationship": "factory_campaign_component_with_broader_supplier_catalogue_caveats",
+      "claim_review": "Saab original CSP15433 service correction lists 55558696 oil trap in specific 9-5 B235 MY2004-2005 manual/VIN/engine-number context; the other record is a supplier-reported 2004-2005 oil-trap listing citing possible 12755243 predecessor/supersession language. Retailer cross-references cannot independently approve manufacturer-directed OE supersession or automatic gearbox usage.",
+      "keep_distinct_reason": "Saab campaign's manually geared selective scope and seller's catalogue field do not carry the same authority or explicit model restriction.",
+      "unresolved": [
+        "VIN/engine serial-specific 2004-05 trap identity",
+        "Official WebEPC validation of 12755243 versus 55558696 chain",
+        "Other gearbox and production revision differences"
+      ],
+      "confirmed_same_factory_part_number": true,
+      "factory_proof_of_cross_platform_VIN_fitment": false,
+      "source_scope_conflict": true,
+      "nonmergeable": true
+    },
+    {
+      "part_number": "5961610",
+      "record_ids": [
+        "b235rev-part-005",
+        "corrections-part-008"
+      ],
+      "relationship": "same_number_explicitly_conflicting_engine_serial_qualifier",
+      "claim_review": "Important unresolved conflict: Saab factory CSP15433 lists 5961610 as an additional hose for engines 4000000 through 4017590 within its selective B235 manual MY2004-05 campaign; independent eSaabParts catalogue record says 5961610 applies from engine number 4017591 onward and extends its displayed years to 2009. These cannot be merged into an unrestricted or universal hose fitment. They may reflect different installation conditions or a seller coding problem; neither explanation is proven.",
+      "keep_distinct_reason": "Engine-number boundary 4017590 versus 4017591, factory conditional additional hose versus broader seller application and gearbox constraints differ.",
+      "unresolved": [
+        "Original complete factory engine serial and hose fitment diagram",
+        "Official WebEPC directed chain and conditional alternate hose mapping",
+        "Exact selected car engine number and installed ventilation routing"
+      ],
+      "confirmed_same_factory_part_number": true,
+      "factory_proof_of_cross_platform_VIN_fitment": false,
+      "source_scope_conflict": true,
+      "nonmergeable": true
+    }
+  ],
+  "research_blockers": [
+    {
+      "id": "blocker-us-my2008-09-og95-vin-tables",
+      "record_ids": [
+        "gateac-gap-001",
+        "vinfit-gap-001"
+      ],
+      "relationship": "same_open_primary_source_gap_two_domains",
+      "scope": "Original Saab Automobile USA MY2008 and MY2009 Saab 9-5 full VIN code mapping plus Canadian source comparison, actual installed equipment and manufacturer WebEPC physical identity.",
+      "state": "open_not_resolved",
+      "claim_review": "The two records share a title and essentially the same outstanding original MY2008-09 Saab US factory year-table and Canadian mapping problem; the MY2004-07 Saab original pages recovered elsewhere are background only and do not close MY2008-09.",
+      "remaining_work": [
+        "Retrieve authenticated original MY2008 and MY2009 US/CA factory table documents",
+        "Check gearbox/engine/VIN code positions against dated original manuals",
+        "Verify actual vehicle full VIN/build and WebEPC instead of copying a 2010 WIS-folder table"
+      ],
+      "do_not_close_until": "Original MY2008-09 manufacturer source and market-specific application are verified; records remain open in both domains."
+    },
+    {
+      "id": "blocker-ca-my2006-ng93-vin-physical-build",
+      "record_ids": [
+        "gateac-gap-002",
+        "vinfit-gap-003"
+      ],
+      "relationship": "same_open_CA_VIN_validation_gap_two_domains",
+      "scope": "Canadian MY2006 9-3 (9440) original VIN/option mapping and physical VIN, installed engine and gearbox confirmation.",
+      "state": "open_not_resolved",
+      "claim_review": "Both describe an open Canada-specific gap following recovery of original MY2006 Saab Automobile USA VIN tables; recovering USA tables does not establish Canadian build/option equipment or an actual individual's installed parts.",
+      "remaining_work": [
+        "Obtain original MY2006 Canadian Saab VIN equipment/option evidence",
+        "Cross-check body/engine/gearbox and option code interpretation",
+        "Check actual candidate VIN, installed gearbox/engine and official EPC records"
+      ],
+      "do_not_close_until": "Canadian original fitment mapping and an actual candidate car's identity are supported; both records remain open."
+    }
+  ],
+  "policy": {
+    "all_original_part_and_gap_records_remain": true,
+    "source_specific_applicability_not_collapsed": true,
+    "same_number_not_live_stock": true,
+    "same_number_not_global_OE_supersession": true,
+    "same_gap_title_not_closed": true,
+    "model_ranking_and_failure_rates": "not_inferred",
+    "scope": "Only five exact duplicate part-number groups and two exact duplicate gap-title groups from prior 42-dataset research reuse audit; other semantic duplications remain possible."
+  }
+}
