@@ -1,0 +1,433 @@
+{
+  "schema_version": "1.0.0",
+  "research_date": "2026-10-15",
+  "title": "2011 second-generation 9-5 purchase and repair baseline",
+  "research_state": "first_source_scoped_2011_baseline_incomplete_not_rankable",
+  "platform": "650",
+  "wis_platform": "9650",
+  "market": "US",
+  "target_scope": {
+    "model_years": [
+      2011
+    ],
+    "preferred_trim": [
+      "Turbo4",
+      "Turbo4 Premium"
+    ],
+    "engine": "A20NFT/LHU gasoline 2.0T",
+    "drive": "FWD",
+    "transmission": "AF40 six-speed automatic",
+    "body": "sedan"
+  },
+  "other_2011_us_variants_not_covered_by_turbo4_diagnostics": [
+    "Turbo6 XWD 2.8 V6",
+    "Aero XWD 2.8 V6"
+  ],
+  "known_failure_rates": null,
+  "confirmed_candidate_inspections": 0,
+  "confirmed_vin_approved_replacements": 0,
+  "verified_all_in_repair_quotes": 0,
+  "source_records": [
+    {
+      "id": "ng95-2011-src-01",
+      "kind": "factory_brochure",
+      "url": "https://www.auto-brochures.com/makes/Saab/Saab_US%202011.pdf",
+      "description": "Saab USA MY2011 range: Turbo4, Turbo4 Premium, Turbo6 XWD and Aero XWD"
+    },
+    {
+      "id": "ng95-2011-src-02",
+      "kind": "saab_wis_original_mirrored",
+      "url": "https://saabwisonline.com/9-5-9650/2011/0-general/general/technical-description/vehicle-engine-and-transmission-id-and-vin-location-derivative-and-usage",
+      "description": "2011 VIN engine, drivetrain and gearbox identity"
+    },
+    {
+      "id": "ng95-2011-src-03",
+      "kind": "saab_parts_technical_advisory",
+      "url": "https://saabparts.com/us/wp-content/uploads/sites/10/2023/05/Hard-Starting-Cold-With-Engine-Stall-Misfire-and-Low-Compression-Starts-and-Runs-Normally-When-Hot-07-11-9-3-11-9-5.pdf",
+      "description": "Cold starting / intake-valve wear advisory includes 2011 9-5 A20NFT"
+    },
+    {
+      "id": "ng95-2011-src-04",
+      "kind": "saab_wis_original_mirrored",
+      "url": "https://saabwisonline.com/9-5-9650/2011/2-engine/basic-engine-2-0-l-petrol/technical-data/engine-mechanical-specifications-ldk-lhu",
+      "description": "LHU engine specifications and oil pressure"
+    },
+    {
+      "id": "ng95-2011-src-05",
+      "kind": "saab_wis_original_mirrored",
+      "url": "https://saabwisonline.com/9-5-9650/2011/2-engine/basic-engine-2-0-l-petrol/fault-diagnosis-general/oil-pressure-diagnosis-and-testing",
+      "description": "LHU oil-pressure diagnostic branches"
+    },
+    {
+      "id": "ng95-2011-src-06",
+      "kind": "saab_wis_original_mirrored",
+      "url": "https://saabwisonline.com/9-5-9650/2011/2-engine/basic-engine-2-0-l-petrol/adjustment-replacement/camshaft-timing-chain-and-sprocket-cleaning-and-inspection-ldk-lhu",
+      "description": "Chain guide and sprocket inspection"
+    },
+    {
+      "id": "ng95-2011-src-07",
+      "kind": "saab_wis_original_mirrored",
+      "url": "https://saabwisonline.com/9-5-9650/2011/2-engine/engine-management-and-fuel-system-2-0-l-petrol/technical-description/fuel-system-description",
+      "description": "Direct-injection returnless fueling architecture"
+    },
+    {
+      "id": "ng95-2011-src-08",
+      "kind": "saab_wis_original_mirrored",
+      "url": "https://saabwisonline.com/9-5-9650/2011/2-engine/cooling-system/technical-description/cooling-system-description-and-operation",
+      "description": "Coolant level BCM messaging and radiator ATF cooler; contains generic drive wording"
+    },
+    {
+      "id": "ng95-2011-src-09",
+      "kind": "saab_wis_original_mirrored",
+      "url": "https://saabwisonline.com/9-5-9650/2011/2-engine/cooling-system/fault-diagnosis-fault-symptoms/cooling-fan-inoperative-ldk-lhu-lbw-or-lau",
+      "description": "LHU fan relays, resistor, G106 and codes"
+    },
+    {
+      "id": "ng95-2011-src-10",
+      "kind": "saab_wis_original_mirrored",
+      "url": "https://saabwisonline.com/9-5-9650/2011/4-transmission/automatic-transmission/technical-description/transmission-identification-information",
+      "description": "AF40 plate and case IDs"
+    },
+    {
+      "id": "ng95-2011-src-11",
+      "kind": "saab_wis_original_mirrored",
+      "url": "https://saabwisonline.com/9-5-9650/2011/4-transmission/automatic-transmission/fault-diagnosis-fault-symptoms/transmission-fluid-level-and-condition-check",
+      "description": "AF40 transmission fluid temperature/level procedure"
+    },
+    {
+      "id": "ng95-2011-src-12",
+      "kind": "saab_wis_original_mirrored",
+      "url": "https://saabwisonline.com/9-5-9650/2011/8-body/body/adjustment-replacement/rear-suspension-support-replacement-gnefwd",
+      "description": "FWD rear suspension support replacement"
+    },
+    {
+      "id": "ng95-2011-src-13",
+      "kind": "supplier_catalogue_observation",
+      "url": "https://www.esaabparts.com/saab/parts/12775748",
+      "description": "US/CA LH halogen headlamp catalogue status"
+    },
+    {
+      "id": "ng95-2011-src-14",
+      "kind": "supplier_catalogue_observation",
+      "url": "https://www.esaabparts.com/saab/parts/32021828",
+      "description": "Aero bumper-cover version catalogue status"
+    },
+    {
+      "id": "ng95-2011-src-15",
+      "kind": "supplier_catalogue_observation",
+      "url": "https://www.esaabparts.com/getpn.php?id=12783332",
+      "description": "LH rear fog light catalogue status"
+    },
+    {
+      "id": "ng95-2011-src-16",
+      "kind": "saab_wis_original_mirrored",
+      "url": "https://saabwisonline.com/9-5-9650/2011/2-engine/basic-engine-2-0-l-petrol/adjustment-replacement/",
+      "description": "Separate water pump and balance shaft chain service index"
+    },
+    {
+      "id": "ng95-2011-src-17",
+      "kind": "saab_wis_original_mirrored",
+      "url": "https://saabwisonline.com/9-5-9650/2011/2-engine/cooling-system/adjustment-replacement/engine-coolant-thermostat-replacement-lhu-a20nft",
+      "description": "LHU-specific thermostat procedure"
+    },
+    {
+      "id": "ng95-2011-src-18",
+      "kind": "saab_wis_original_mirrored",
+      "url": "https://saabwisonline.com/9-5-9650/2011/4-transmission/automatic-transmission/technical-description/transmission-system-description-and-operation-m36-and-mxe",
+      "description": "AF40 transmission hardware and oil cooling"
+    },
+    {
+      "id": "ng95-2011-src-19",
+      "kind": "supplier_compiled_production",
+      "url": "https://www.esaabparts.com/saab/production/data/9-5_2010_2011.php",
+      "description": "Compiled U.S. 650 production groups; not VIN or fleet survival verification"
+    }
+  ],
+  "facts": [
+    {
+      "id": "ng95-2011-identity",
+      "scope": {
+        "model": "9-5",
+        "platform": "650/9650",
+        "market": "US",
+        "model_years": [
+          2011
+        ],
+        "priority": "2.0T FWD automatic"
+      },
+      "claim": "Factory VIN position 7 A identifies 6AT FWD, position 8 Z identifies 2.0T A20NFT/LHU, position 10 B identifies model year 2011.",
+      "evidence_source_ids": [
+        "ng95-2011-src-02"
+      ],
+      "confidence": "factory_year_document_identity_not_individual_car"
+    },
+    {
+      "id": "ng95-2011-coldvalve",
+      "scope": {
+        "model": "9-5",
+        "platform": "650/9650",
+        "market": "US",
+        "model_years": [
+          2011
+        ],
+        "engine_codes": [
+          "A20NFT"
+        ]
+      },
+      "claim": "Saab Parts advisory extends cold-intake-valve face-wear symptom to 2011 NG9-5 A20NFT; true cold compression/leakdown is specified; failure frequency unknown.",
+      "evidence_source_ids": [
+        "ng95-2011-src-03"
+      ],
+      "confidence": "manufacturer_advisory_possible_mechanism"
+    },
+    {
+      "id": "ng95-2011-transfluid",
+      "scope": {
+        "model": "9-5",
+        "platform": "650/9650",
+        "model_years": [
+          2011
+        ],
+        "transmissions": [
+          "AF40"
+        ]
+      },
+      "claim": "Factory AF40 level checking requires scan-tool-observed ATF temperature 70–80 C and engine running under specified procedures.",
+      "evidence_source_ids": [
+        "ng95-2011-src-11"
+      ],
+      "confidence": "factory_procedure_year_scoped"
+    },
+    {
+      "id": "ng95-2011-cooling",
+      "scope": {
+        "model": "9-5",
+        "platform": "650/9650",
+        "model_years": [
+          2011
+        ]
+      },
+      "claim": "Factory generic cooling description includes coolant level reporting via BCM and an ATF-to-coolant radiator-integrated heat exchanger; exact VIN/engine variant must be checked.",
+      "evidence_source_ids": [
+        "ng95-2011-src-08"
+      ],
+      "confidence": "factory_description_with_variant_caveat"
+    },
+    {
+      "id": "ng95-2011-conflict-pump",
+      "scope": {
+        "model": "9-5",
+        "platform": "650/9650",
+        "model_years": [
+          2011
+        ],
+        "engine_codes": [
+          "A20NFT"
+        ]
+      },
+      "claim": "Generic WIS cooling prose describes belt-driven water pump while specific 2.0L service index documents water-pump/balance-shaft chain; exact LHU procedure/hardware governs.",
+      "evidence_source_ids": [
+        "ng95-2011-src-08",
+        "ng95-2011-src-16"
+      ],
+      "confidence": "documented_source_conflict_unresolved"
+    },
+    {
+      "id": "ng95-2011-structure",
+      "scope": {
+        "model": "9-5",
+        "platform": "650/9650",
+        "model_years": [
+          2011
+        ],
+        "drivetrain": [
+          "FWD"
+        ]
+      },
+      "claim": "GNE FWD rear support can be disassembled/replaced by factory procedure; body mounting integrity and GNC versus GNE identity not proved by that alone.",
+      "evidence_source_ids": [
+        "ng95-2011-src-12"
+      ],
+      "confidence": "factory_procedure_no_vehicle_condition"
+    }
+  ],
+  "investigation_cases": [
+    {
+      "id": "ng95-2011-case-01",
+      "title": "cold intake valve sealing",
+      "system": "engine",
+      "evidence_class": "manufacturer_advisory_possible_mechanism",
+      "evidence_source_ids": [
+        "ng95-2011-src-03"
+      ],
+      "lead_symptoms": "Overnight cold no-start, starts/stalls, P0300-P0304; normal hot operation does not clear risk",
+      "required_tests": "Professionally measured truly cold compression and leak-down; retain raw per-cylinder values",
+      "caution": "Do not mislabel ignition fault or approve internal head work from codes alone",
+      "incidence_established": false,
+      "case_specific_automobile_verified": false
+    },
+    {
+      "id": "ng95-2011-case-02",
+      "title": "oil pressure / bearings / pump / pickup",
+      "system": "engine",
+      "evidence_class": "factory_diagnostic_path_no_population_frequency",
+      "evidence_source_ids": [
+        "ng95-2011-src-04",
+        "ng95-2011-src-05"
+      ],
+      "lead_symptoms": "Oil-pressure warning, knock, noise; poor service history",
+      "required_tests": "Safe qualified mechanical pressure test at documented temp/RPM; inspect pickup/pump/filter/sender",
+      "caution": "No cranking when suspected oil-starved or seized",
+      "incidence_established": false,
+      "case_specific_automobile_verified": false
+    },
+    {
+      "id": "ng95-2011-case-03",
+      "title": "timing and balance-shaft chain",
+      "system": "engine",
+      "evidence_class": "factory_service_inspection_no_incidence",
+      "evidence_source_ids": [
+        "ng95-2011-src-06",
+        "ng95-2011-src-16"
+      ],
+      "lead_symptoms": "Mechanical rattle, persistent timing/correlation problems",
+      "required_tests": "Inspect with WIS method; verify mechanical health before running",
+      "caution": "Separate water-pump/balance chain and primary chain; no blanket replacement interval",
+      "incidence_established": false,
+      "case_specific_automobile_verified": false
+    },
+    {
+      "id": "ng95-2011-case-04",
+      "title": "returnless fuel control / direct injection",
+      "system": "fuel",
+      "evidence_class": "factory_architecture_no_incidence",
+      "evidence_source_ids": [
+        "ng95-2011-src-07"
+      ],
+      "lead_symptoms": "No start, fuel pressure error, misfire",
+      "required_tests": "Get ECM and pump-module data; test low-pressure vs high-pressure sides with approved instruments",
+      "caution": "Do not condemn HP fuel pump or work on pressurized lines from symptom alone",
+      "incidence_established": false,
+      "case_specific_automobile_verified": false
+    },
+    {
+      "id": "ng95-2011-case-05",
+      "title": "cooling system fan and coolant level",
+      "system": "cooling",
+      "evidence_class": "factory_control_and_diagnostic_path",
+      "evidence_source_ids": [
+        "ng95-2011-src-08",
+        "ng95-2011-src-09",
+        "ng95-2011-src-17"
+      ],
+      "lead_symptoms": "Overheating, coolant warning, nonrunning fans",
+      "required_tests": "Inspect level/pressure/leaks, fan relays/resistors/G106 and codes before replacement",
+      "caution": "LHU water-pump drive conflict in generic page remains unresolved",
+      "incidence_established": false,
+      "case_specific_automobile_verified": false
+    },
+    {
+      "id": "ng95-2011-case-06",
+      "title": "AF40 gearbox and integrated cooling",
+      "system": "transmission",
+      "evidence_class": "factory_design_and_service_path",
+      "evidence_source_ids": [
+        "ng95-2011-src-10",
+        "ng95-2011-src-11",
+        "ng95-2011-src-18"
+      ],
+      "lead_symptoms": "Slipping, delayed engagement, coolant/ATF mixing, fluid leak",
+      "required_tests": "Verify case label/TCM faults and fluid/coolant condition; qualified temperature-controlled 70–80°C level service if safe",
+      "caution": "No unsupervised stall test or flushing unknown damaged gearbox",
+      "incidence_established": false,
+      "case_specific_automobile_verified": false
+    },
+    {
+      "id": "ng95-2011-case-07",
+      "title": "rear support vs body mount rust",
+      "system": "body_structure",
+      "evidence_class": "factory_removal_procedure_not_rust_prevalence",
+      "evidence_source_ids": [
+        "ng95-2011-src-12"
+      ],
+      "lead_symptoms": "Flaking/perforated rear support; suspected anchor, sill or floor damage",
+      "required_tests": "Professional inspection of metal integrity and rear support BODY mounts",
+      "caution": "Reject unsupported assumptions that removable subframe solves rusted structure",
+      "incidence_established": false,
+      "case_specific_automobile_verified": false
+    },
+    {
+      "id": "ng95-2011-case-08",
+      "title": "scarce option-dependent body lighting and trim",
+      "system": "parts_supply",
+      "evidence_class": "merchant_listing_snapshot_only",
+      "evidence_source_ids": [
+        "ng95-2011-src-13",
+        "ng95-2011-src-14",
+        "ng95-2011-src-15"
+      ],
+      "lead_symptoms": "Missing/cracked headlamps, bumper and rear lamp",
+      "required_tests": "Verify exact VIN and options plus real deliverable quote or lawful used donor before purchase",
+      "caution": "Do not call a part universally extinct from one unavailable retail listing",
+      "incidence_established": false,
+      "case_specific_automobile_verified": false
+    }
+  ],
+  "supplier_observations": [
+    {
+      "part_number": "12775748",
+      "description": "LH halogen US/CA headlamp assembly",
+      "observed_at": "2026-10-15",
+      "merchant": "eSaabParts",
+      "listing_price_usd": 301.82,
+      "listing_status": "currently_unavailable",
+      "source_id": "ng95-2011-src-13",
+      "vin_fitment_approved": false,
+      "live_delivery_confirmed": false
+    },
+    {
+      "part_number": "32021828",
+      "description": "Aero front bumper cover, specific park-assist/washers option",
+      "observed_at": "2026-10-15",
+      "merchant": "eSaabParts",
+      "listing_price_usd": 1604.76,
+      "listing_status": "discontinued",
+      "source_id": "ng95-2011-src-14",
+      "vin_fitment_approved": false,
+      "live_delivery_confirmed": false
+    },
+    {
+      "part_number": "12824080",
+      "description": "LH rear fog lamp, seller states replaces 12783332",
+      "observed_at": "2026-10-15",
+      "merchant": "eSaabParts",
+      "listing_price_usd": 90.81,
+      "listing_status": "discontinued",
+      "source_id": "ng95-2011-src-15",
+      "vin_fitment_approved": false,
+      "live_delivery_confirmed": false
+    }
+  ],
+  "open_evidence_gaps": [
+    "MY2011 exact VIN and installed options for real seller cars",
+    "U.S. 2011 comprehensive original assembly inventory with option/VIN boundaries",
+    "A20NFT valve advisory repair details, warranty/lifespan, qualified cold compression",
+    "LHU actual water-pump drive wording conflict and correct replacements",
+    "AF40 individual case, exact ATF, approved service kit, cooling interface and current prices",
+    "2011 chassis structural/geometry matrix and new body mount corrosion thresholds",
+    "ECM/BCM/security/keys/HVAC/lighting modules and programming/service support",
+    "NHTSA historic recall and VIN-specific campaign completion",
+    "U.S. delivery verified original and cross-brand hardware sourcing",
+    "2011 Turbo6/Aero V6 XWD separate engine/AWD/gearbox dossier",
+    "Actual candidate all-in repair and towing costs",
+    "Representative vehicle exposure and failure outcome denominator"
+  ],
+  "do_not_infer": [
+    "A WIS procedure or advisory establishes failures per vehicle",
+    "Factory part fits a physical car based only on model-year or apparent common GM component",
+    "Retailer unavailable means no used/rebuilt alternative exists",
+    "A 2011 V6 XWD shares 2011 Turbo4 FWD engine/chassis service procedure",
+    "Reading supplier prices establishes installed repair cost"
+  ],
+  "research_document": "docs/research/ng95-2011-purchase-reliability-baseline-20261015.md"
+}
