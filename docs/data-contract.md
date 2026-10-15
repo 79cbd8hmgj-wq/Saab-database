@@ -101,6 +101,38 @@ it cannot be used to support a claimed technical specification.
 
 ## Validation limits
 
+### MY2011 9650 Turbo4 derived dossier extension
+
+`data/engineering-dossiers/ng95-2011-purchase-reliability-20261015.json`
+continues the PR #82 register; it does not create another original-dataset cohort.
+`active_research_scope` governs the new work. Historical excluded-variant text is
+retained for provenance and is not a current research request or coverage credit.
+`component_inventory` records one identity per known service number, routed once
+through `inventory_systems`. An unidentified factory assembly may have a null
+number and its own descriptive ID. Kit contents reference existing numbers;
+they do not create duplicate component identities or instructions to buy twice.
+
+`catalogue_service_part_number` is distinct from `factory_installed_part_number`.
+Original supplier/revision, official supersessions and as-built VIN applicability
+stay null until independently supported. Directed `retailer_supersession_claims`
+carry their source and do not establish manufacturer approval. Interchange A/B
+claims need explicit manufacturer evidence; C/D/E cannot silently approve a
+drop-in. Durability requires separate test evidence.
+
+`current_supply_observations` preserve exact-product displayed prices, date,
+stock wording, warranty provenance, container-size unknowns and retrieval basis.
+No seller response is a confirmed delivery. Prior `supplier_observations` and
+conflicting indexed displays remain intact. `repair_economics` line arithmetic
+uses those observations; a part subtotal is never an all-in repair quote. Unknown
+shipping, tax, core, tools, labor and programming costs remain null.
+
+`service_findings` retain factory repair requirements without labelling each
+procedure a new factory defect. Existing case/issue IDs remain linked.
+`coverage_assessment` tracks eleven independent evidence dimensions and a
+prioritized backlog; record counts are not completeness percentages.
+Run `python3 tools/check_ng95_components.py --check --summary`; the normal
+unittest suite also checks the extension and rejects unsupported promotions.
+
 The validator checks structure, identifiers, references, dates, units, and
 applicability representation. Passing validation does not prove the underlying
 engineering claim. Source review, vehicle identification, and appropriate testing
