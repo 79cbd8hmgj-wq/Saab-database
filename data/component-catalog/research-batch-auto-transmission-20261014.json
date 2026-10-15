@@ -1,0 +1,6053 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-14",
+  "purpose": "AT component service identities and cooling; no scoring or universal donor approval",
+  "sources": [
+    {
+      "id": "at-src-9440-assembly",
+      "url": "https://www.esaabparts.com/viewparts.php?searchpart=1&section=541127375",
+      "title": "FA57 service tags/chassis",
+      "publisher": "eSaabParts",
+      "source_type": "retailer_catalogue",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Retail fitment claim, not authenticated historical EPC; dynamic availability not checkout verified."
+    },
+    {
+      "id": "at-src-9440-valves",
+      "url": "https://www.esaabparts.com/viewparts.php?searchpart=1&section=541126522",
+      "title": "9440 valve housing/S1-S5",
+      "publisher": "eSaabParts",
+      "source_type": "retailer_catalogue",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Retail fitment claim, not authenticated historical EPC; dynamic availability not checkout verified."
+    },
+    {
+      "id": "at-src-9600-af30",
+      "url": "https://www.esaabparts.com/viewparts.php?searchpart=1&section=343915005",
+      "title": "AF30 assembly engine variants",
+      "publisher": "eSaabParts",
+      "source_type": "retailer_catalogue",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Retail fitment claim, not authenticated historical EPC; dynamic availability not checkout verified."
+    },
+    {
+      "id": "at-src-9600-af30-converters",
+      "url": "https://www.esaabparts.com/viewparts.php?searchpart=1&section=343915268",
+      "title": "AF30 converters and seals",
+      "publisher": "eSaabParts",
+      "source_type": "retailer_catalogue",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Retail fitment claim, not authenticated historical EPC; dynamic availability not checkout verified."
+    },
+    {
+      "id": "at-src-9440-cooler-lines",
+      "url": "https://www.esaabparts.com/viewparts.php?searchpart=1&section=514556767",
+      "title": "9440 cooler connections",
+      "publisher": "eSaabParts",
+      "source_type": "retailer_catalogue",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Retail fitment claim, not authenticated historical EPC; dynamic availability not checkout verified."
+    },
+    {
+      "id": "at-src-9440-converter-case",
+      "url": "https://www.esaabparts.com/viewparts.php?searchpart=1&section=541126384",
+      "title": "Converter housing serial boundary",
+      "publisher": "eSaabParts",
+      "source_type": "retailer_catalogue",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Retail fitment claim, not authenticated historical EPC; dynamic availability not checkout verified."
+    },
+    {
+      "id": "at-src-shared-converter",
+      "url": "https://www.esaabparts.com/saab/parts/55352466",
+      "title": "Shared service converter candidate",
+      "publisher": "eSaabParts",
+      "source_type": "retailer_catalogue",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Retail fitment claim, not authenticated historical EPC; dynamic availability not checkout verified."
+    },
+    {
+      "id": "at-src-9600-corrective-parts",
+      "url": "https://saabwisonline.com/9-5-9600/2003/4-transmission/automatic-transmission/fault-diagnosis-fault-symptoms/noise-and-shifting-problems",
+      "title": "9600 conditional repair parts",
+      "publisher": "Saab WIS via independent mirror",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Application-specific manufacturer documentation."
+    },
+    {
+      "id": "at-src-9600-valve-procedure",
+      "url": "https://saabwisonline.com/9-5-9600/2003/4-transmission/automatic-transmission/adjustment-replacement/valve-housing",
+      "title": "Harness replacement boundary",
+      "publisher": "Saab WIS via independent mirror",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Application-specific manufacturer documentation."
+    },
+    {
+      "id": "at-src-9600-replacement",
+      "url": "https://saabwisonline.com/9-5-9600/2003/4-transmission/automatic-transmission/adjustment-replacement/complete-automatic-transmission",
+      "title": "Gearbox replacement requirements",
+      "publisher": "Saab WIS via independent mirror",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Application-specific manufacturer documentation."
+    },
+    {
+      "id": "at-src-9600-flush",
+      "url": "https://saabwisonline.com/9-5-9600/2003/4-transmission/automatic-transmission/adjustment-replacement/cleaning-the-cooling-circuit",
+      "title": "Contaminated cooling circuit",
+      "publisher": "Saab WIS via independent mirror",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Application-specific manufacturer documentation."
+    },
+    {
+      "id": "at-src-9600-cooling",
+      "url": "https://saabwisonline.com/9-5-9600/2000/4-transmission/automatic-transmission/technical-description/cooling-system",
+      "title": "AF30 radiator cooling",
+      "publisher": "Saab WIS via independent mirror",
+      "source_type": "factory_manual",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Application-specific manufacturer documentation."
+    },
+    {
+      "id": "at-src-gm-seal",
+      "url": "https://parts.chevrolet.com/product/gm-genuine-parts-automatic-transmission-fluid-cooler-pipe-seal-93183012",
+      "title": "GM seal specifications and Chevrolet applications",
+      "publisher": "General Motors",
+      "source_type": "manufacturer_catalogue",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Application-specific manufacturer documentation."
+    },
+    {
+      "id": "at-src-gm-retainer",
+      "url": "https://parts.gmparts.com/product/gm-genuine-parts-multi-purpose-retainer-24205103",
+      "title": "GM clip specifications",
+      "publisher": "General Motors",
+      "source_type": "manufacturer_catalogue",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Application-specific manufacturer documentation."
+    },
+    {
+      "id": "at-src-sonnax-kit",
+      "url": "https://www.sonnax.com/parts/3527-zip-kit",
+      "title": "AW55 internal hydraulic repair kit",
+      "publisher": "Sonnax",
+      "source_type": "manufacturer_catalogue",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Application-specific manufacturer documentation."
+    },
+    {
+      "id": "at-src-sonnax-internals",
+      "url": "https://www.sonnax.com/units/491-55-50sn",
+      "title": "AW55 internal candidates/tooling",
+      "publisher": "Sonnax",
+      "source_type": "manufacturer_catalogue",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Application-specific manufacturer documentation."
+    },
+    {
+      "id": "at-src-9600-valve-offer",
+      "url": "https://www.esaabparts.com/saab/parts/5449780",
+      "title": "Discontinued modified valve housing",
+      "publisher": "eSaabParts",
+      "source_type": "retailer_catalogue",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Retail fitment claim, not authenticated historical EPC; dynamic availability not checkout verified."
+    },
+    {
+      "id": "at-src-4576260",
+      "url": "https://www.esaabparts.com/saab/parts/4576260",
+      "title": "AF30 lower cooler line",
+      "publisher": "eSaabParts",
+      "source_type": "retailer_catalogue",
+      "accessed_at": "2026-10-14",
+      "retrieval": "search_index_excerpt",
+      "notes": "Direct product retrieval timed out. Search-index price/backorder claim is not current physical stock or authenticated EPC."
+    },
+    {
+      "id": "at-src-12775717",
+      "url": "https://www.esaabparts.com/saab/parts/12775717",
+      "title": "FA57 lower four-cylinder line",
+      "publisher": "eSaabParts",
+      "source_type": "retailer_catalogue",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Retail fitment claim, not authenticated historical EPC; dynamic availability not checkout verified."
+    },
+    {
+      "id": "at-src-12775718",
+      "url": "https://www.esaabparts.com/saab/parts/12775718",
+      "title": "FA57 upper line",
+      "publisher": "eSaabParts",
+      "source_type": "retailer_catalogue",
+      "accessed_at": "2026-10-14",
+      "retrieval": "web_text",
+      "notes": "Retail fitment claim, not authenticated historical EPC; dynamic availability not checkout verified."
+    }
+  ],
+  "components": [
+    {
+      "id": "cmp:saab_service_reference:12785050:automatic_gearbox_5",
+      "assembly_id": "automatic_gearbox_5",
+      "name": "FA57 complete service assembly",
+      "number_namespace": "saab_service_reference",
+      "part_number": "12785050",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-assembly"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:55353746:automatic_gearbox_5",
+      "assembly_id": "automatic_gearbox_5",
+      "name": "FA57 complete service assembly",
+      "number_namespace": "saab_service_reference",
+      "part_number": "55353746",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-assembly"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:55353747:automatic_gearbox_5",
+      "assembly_id": "automatic_gearbox_5",
+      "name": "FA57 complete service assembly",
+      "number_namespace": "saab_service_reference",
+      "part_number": "55353747",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-assembly"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:12788546:automatic_gearbox_5",
+      "assembly_id": "automatic_gearbox_5",
+      "name": "FA57 complete service assembly",
+      "number_namespace": "saab_service_reference",
+      "part_number": "12788546",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-assembly"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:4777892:automatic_gearbox_4",
+      "assembly_id": "automatic_gearbox_4",
+      "name": "AF30 service assembly",
+      "number_namespace": "saab_service_reference",
+      "part_number": "4777892",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9600-af30"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:5163894:automatic_gearbox_4",
+      "assembly_id": "automatic_gearbox_4",
+      "name": "AF30 service assembly",
+      "number_namespace": "saab_service_reference",
+      "part_number": "5163894",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9600-af30"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:4611240:automatic_gearbox_4",
+      "assembly_id": "automatic_gearbox_4",
+      "name": "AF30 service assembly",
+      "number_namespace": "saab_service_reference",
+      "part_number": "4611240",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9600-af30"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:5161088:automatic_gearbox_4",
+      "assembly_id": "automatic_gearbox_4",
+      "name": "AF30 service assembly",
+      "number_namespace": "saab_service_reference",
+      "part_number": "5161088",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9600-af30"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:4926986:automatic_gearbox_4",
+      "assembly_id": "automatic_gearbox_4",
+      "name": "AF30 service assembly",
+      "number_namespace": "saab_service_reference",
+      "part_number": "4926986",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9600-af30"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:5160148:torque_converter",
+      "assembly_id": "torque_converter",
+      "name": "AF30 engine-specific converter",
+      "number_namespace": "saab_service_reference",
+      "part_number": "5160148",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:5160072:torque_converter",
+      "assembly_id": "torque_converter",
+      "name": "AF30 engine-specific converter",
+      "number_namespace": "saab_service_reference",
+      "part_number": "5160072",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:5255773:torque_converter",
+      "assembly_id": "torque_converter",
+      "name": "AF30 engine-specific converter",
+      "number_namespace": "saab_service_reference",
+      "part_number": "5255773",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:55354950:valve_body",
+      "assembly_id": "valve_body",
+      "name": "Valve housing",
+      "number_namespace": "saab_service_reference",
+      "part_number": "55354950",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:93185091:valve_body",
+      "assembly_id": "valve_body",
+      "name": "Later valve housing",
+      "number_namespace": "saab_service_reference",
+      "part_number": "93185091",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:93177232:shift_solenoids",
+      "assembly_id": "shift_solenoids",
+      "name": "S2",
+      "number_namespace": "saab_service_reference",
+      "part_number": "93177232",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:5448840:shift_solenoids",
+      "assembly_id": "shift_solenoids",
+      "name": "Early S1 black",
+      "number_namespace": "saab_service_reference",
+      "part_number": "5448840",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:93177240:shift_solenoids",
+      "assembly_id": "shift_solenoids",
+      "name": "Later S1 black",
+      "number_namespace": "saab_service_reference",
+      "part_number": "93177240",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:93177233:shift_solenoids",
+      "assembly_id": "shift_solenoids",
+      "name": "S3 grey",
+      "number_namespace": "saab_service_reference",
+      "part_number": "93177233",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:93177235:shift_solenoids",
+      "assembly_id": "shift_solenoids",
+      "name": "S4",
+      "number_namespace": "saab_service_reference",
+      "part_number": "93177235",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:93177237:shift_solenoids",
+      "assembly_id": "shift_solenoids",
+      "name": "S5",
+      "number_namespace": "saab_service_reference",
+      "part_number": "93177237",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:90542059:gearbox_seals",
+      "assembly_id": "gearbox_seals",
+      "name": "Valve cover gasket",
+      "number_namespace": "saab_service_reference",
+      "part_number": "90542059",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:12796746:atf_cooler_lines",
+      "assembly_id": "atf_cooler_lines",
+      "name": "FWD B207 4D/5D cooler hose",
+      "number_namespace": "saab_service_reference",
+      "part_number": "12796746",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-cooler-lines"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:24205103:atf_cooler_connections",
+      "assembly_id": "atf_cooler_connections",
+      "name": "Retaining clip",
+      "number_namespace": "saab_service_reference",
+      "part_number": "24205103",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-cooler-lines"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:93183012:atf_cooler_connections",
+      "assembly_id": "atf_cooler_connections",
+      "name": "Pipe seal",
+      "number_namespace": "saab_service_reference",
+      "part_number": "93183012",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-cooler-lines"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:24221233:atf_cooler_connections",
+      "assembly_id": "atf_cooler_connections",
+      "name": "Previous pipe seal",
+      "number_namespace": "saab_service_reference",
+      "part_number": "24221233",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-cooler-lines"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:55352385:gearbox_case",
+      "assembly_id": "gearbox_case",
+      "name": "Converter housing",
+      "number_namespace": "saab_service_reference",
+      "part_number": "55352385",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-converter-case"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:93167064:gearbox_case",
+      "assembly_id": "gearbox_case",
+      "name": "Converter housing",
+      "number_namespace": "saab_service_reference",
+      "part_number": "93167064",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9440-converter-case"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:90348707:gearbox_seals",
+      "assembly_id": "gearbox_seals",
+      "name": "Converter housing O-ring",
+      "number_namespace": "saab_service_reference",
+      "part_number": "90348707",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:90348710:gearbox_seals",
+      "assembly_id": "gearbox_seals",
+      "name": "Drain gasket",
+      "number_namespace": "saab_service_reference",
+      "part_number": "90348710",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:90348711:gearbox_seals",
+      "assembly_id": "gearbox_seals",
+      "name": "Drain plug",
+      "number_namespace": "saab_service_reference",
+      "part_number": "90348711",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service:5449780:valve_body",
+      "assembly_id": "valve_body",
+      "name": "Modified 9600 valve housing kit",
+      "number_namespace": "saab_service",
+      "part_number": "5449780",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "factory_corrective_service_identity",
+      "source_ids": [
+        "at-src-9600-corrective-parts"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service:5590500:gearbox_case",
+      "assembly_id": "gearbox_case",
+      "name": "Conditional B4 servo cover",
+      "number_namespace": "saab_service",
+      "part_number": "5590500",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "factory_corrective_service_identity",
+      "source_ids": [
+        "at-src-9600-corrective-parts"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:55352466:torque_converter",
+      "assembly_id": "torque_converter",
+      "name": "Shared current service converter candidate",
+      "number_namespace": "saab_service_reference",
+      "part_number": "55352466",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-shared-converter"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:4576260:atf_cooler_lines",
+      "assembly_id": "atf_cooler_lines",
+      "name": "AF30 lower cooler line",
+      "number_namespace": "saab_service_reference",
+      "part_number": "4576260",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-4576260"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:12775717:atf_cooler_lines",
+      "assembly_id": "atf_cooler_lines",
+      "name": "FA57 lower four-cylinder line",
+      "number_namespace": "saab_service_reference",
+      "part_number": "12775717",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-12775717"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:saab_service_reference:12775718:atf_cooler_lines",
+      "assembly_id": "atf_cooler_lines",
+      "name": "FA57 upper line",
+      "number_namespace": "saab_service_reference",
+      "part_number": "12775718",
+      "marketed_brand": null,
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "retailer_service_reference",
+      "source_ids": [
+        "at-src-12775718"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:gm_service:93183012:atf_cooler_connections",
+      "assembly_id": "atf_cooler_connections",
+      "name": "GM Genuine connection service SKU",
+      "number_namespace": "gm_service",
+      "part_number": "93183012",
+      "marketed_brand": "GM Genuine",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "manufacturer_service_identity",
+      "source_ids": [
+        "at-src-gm-seal"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:gm_service:24205103:atf_cooler_connections",
+      "assembly_id": "atf_cooler_connections",
+      "name": "GM Genuine connection service SKU",
+      "number_namespace": "gm_service",
+      "part_number": "24205103",
+      "marketed_brand": "GM Genuine",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "manufacturer_service_identity",
+      "source_ids": [
+        "at-src-gm-retainer"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:sonnax:aw55-50sn-zip:valve_body",
+      "assembly_id": "valve_body",
+      "name": "Pressure-loss kit",
+      "number_namespace": "sonnax",
+      "part_number": "AW55-50SN-ZIP",
+      "marketed_brand": "Sonnax",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "manufacturer_family_service_candidate",
+      "source_ids": [
+        "at-src-sonnax-kit"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:sonnax:59947-33:valve_body",
+      "assembly_id": "valve_body",
+      "name": "B5 control spring",
+      "number_namespace": "sonnax",
+      "part_number": "59947-33",
+      "marketed_brand": "Sonnax",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "manufacturer_family_service_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:sonnax:59947-lpc:valve_body",
+      "assembly_id": "valve_body",
+      "name": "LPC accumulator piston",
+      "number_namespace": "sonnax",
+      "part_number": "59947-LPC",
+      "marketed_brand": "Sonnax",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "manufacturer_family_service_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:sonnax:59947-03k:valve_body",
+      "assembly_id": "valve_body",
+      "name": "Lockup control valve",
+      "number_namespace": "sonnax",
+      "part_number": "59947-03K",
+      "marketed_brand": "Sonnax",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "manufacturer_family_service_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:sonnax:59947-01k:valve_body",
+      "assembly_id": "valve_body",
+      "name": "Lockup relay control",
+      "number_namespace": "sonnax",
+      "part_number": "59947-01K",
+      "marketed_brand": "Sonnax",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "manufacturer_family_service_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:sonnax:59947-21k:valve_body",
+      "assembly_id": "valve_body",
+      "name": "O-ring end plugs",
+      "number_namespace": "sonnax",
+      "part_number": "59947-21K",
+      "marketed_brand": "Sonnax",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "manufacturer_family_service_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:sonnax:59947-26k:valve_body",
+      "assembly_id": "valve_body",
+      "name": "Oversized B4 release valve",
+      "number_namespace": "sonnax",
+      "part_number": "59947-26K",
+      "marketed_brand": "Sonnax",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "manufacturer_family_service_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    },
+    {
+      "id": "cmp:sonnax:59947-05k:valve_body",
+      "assembly_id": "valve_body",
+      "name": "Solenoid relay valve",
+      "number_namespace": "sonnax",
+      "part_number": "59947-05K",
+      "marketed_brand": "Sonnax",
+      "original_oem_manufacturer": null,
+      "original_installed_identity_verified": false,
+      "service_identity_status": "manufacturer_family_service_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "legacy_record_ids": [],
+      "notes": []
+    }
+  ],
+  "applications": [
+    {
+      "id": "app:at:0",
+      "component_id": "cmp:saab_service_reference:12785050:automatic_gearbox_5",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix",
+            "operator": "through",
+            "minimum": null,
+            "maximum": "31058309"
+          }
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-assembly"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Tag FA57201; converter contents, ratios and calibration unverified."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:1",
+      "component_id": "cmp:saab_service_reference:55353746:automatic_gearbox_5",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix",
+            "operator": "inclusive_range",
+            "minimum": "31058310",
+            "maximum": "81007760"
+          }
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-assembly"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Tag FA57203; converter contents, ratios and calibration unverified."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:2",
+      "component_id": "cmp:saab_service_reference:55353747:automatic_gearbox_5",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix",
+            "operator": "from",
+            "minimum": "81007761",
+            "maximum": null
+          }
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-assembly"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Tag FA57203; converter contents, ratios and calibration unverified."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:3",
+      "component_id": "cmp:saab_service_reference:12788546:automatic_gearbox_5",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003
+        ],
+        "engine_codes": [
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix",
+            "operator": "through",
+            "minimum": null,
+            "maximum": "31058309"
+          }
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003
+        ],
+        "engine_codes": [
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-assembly"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Tag FA57202; converter contents, ratios and calibration unverified."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:4",
+      "component_id": "cmp:saab_service_reference:55353747:automatic_gearbox_5",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "production_restrictions": [
+          {
+            "kind": "chassis_suffix",
+            "operator": "from",
+            "minimum": "31058310",
+            "maximum": null
+          }
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-assembly"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Tag FA57204; converter contents, ratios and calibration unverified."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:5",
+      "component_id": "cmp:saab_service_reference:4777892:automatic_gearbox_4",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999
+        ],
+        "engine_codes": [
+          "B205E"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999
+        ],
+        "engine_codes": [
+          "B205E"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9600-af30"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Seller lower year 1998; tag FA47A03. US MY1998 and B205 production not established."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:6",
+      "component_id": "cmp:saab_service_reference:5163894:automatic_gearbox_4",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B205E"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B205E"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9600-af30"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Seller lower year 2000; tag FA47A06. US MY1998 and B205 production not established."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:7",
+      "component_id": "cmp:saab_service_reference:4611240:automatic_gearbox_4",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999
+        ],
+        "engine_codes": [
+          "B235E"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999
+        ],
+        "engine_codes": [
+          "B235E"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9600-af30"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Seller lower year 1998; tag FA47A01. US MY1998 and B205 production not established."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:8",
+      "component_id": "cmp:saab_service_reference:5161088:automatic_gearbox_4",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B235E"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B235E"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9600-af30"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Seller lower year 2000; tag unknown. US MY1998 and B205 production not established."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:9",
+      "component_id": "cmp:saab_service_reference:4926986:automatic_gearbox_4",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9600-af30"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Seller lower year 2000; tag FA47C03. US MY1998 and B205 production not established."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:10",
+      "component_id": "cmp:saab_service_reference:5160148:torque_converter",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B205E"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B205E"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Raw seller lower year 1998; stall/lockup specification unknown."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:11",
+      "component_id": "cmp:saab_service_reference:5160072:torque_converter",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B235E"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B235E"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Raw seller lower year 1998; stall/lockup specification unknown."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:12",
+      "component_id": "cmp:saab_service_reference:5255773:torque_converter",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B235R"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Raw seller lower year 2000; stall/lockup specification unknown."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:13",
+      "component_id": "cmp:saab_service_reference:55354950:valve_body",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:14",
+      "component_id": "cmp:saab_service_reference:93185091:valve_body",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:15",
+      "component_id": "cmp:saab_service_reference:93177232:shift_solenoids",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:16",
+      "component_id": "cmp:saab_service_reference:5448840:shift_solenoids",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "production_restrictions": [
+          {
+            "kind": "gearbox_serial",
+            "operator": "through",
+            "value": "02GV06896"
+          }
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:17",
+      "component_id": "cmp:saab_service_reference:93177240:shift_solenoids",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "production_restrictions": [
+          {
+            "kind": "gearbox_serial",
+            "operator": "from",
+            "value": "02GV06897"
+          }
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:18",
+      "component_id": "cmp:saab_service_reference:93177233:shift_solenoids",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:19",
+      "component_id": "cmp:saab_service_reference:93177235:shift_solenoids",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:20",
+      "component_id": "cmp:saab_service_reference:93177237:shift_solenoids",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:21",
+      "component_id": "cmp:saab_service_reference:90542059:gearbox_seals",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-valves"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:22",
+      "component_id": "cmp:saab_service_reference:12796746:atf_cooler_lines",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-cooler-lines"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Catalog body range is not proof of a 2003 wagon."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:23",
+      "component_id": "cmp:saab_service_reference:24205103:atf_cooler_connections",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-cooler-lines"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Diagram quantity two; retailer lists 24221233 to 93183012 supersession."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:24",
+      "component_id": "cmp:saab_service_reference:93183012:atf_cooler_connections",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-cooler-lines"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Diagram quantity two; retailer lists 24221233 to 93183012 supersession."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:25",
+      "component_id": "cmp:saab_service_reference:24221233:atf_cooler_connections",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "body_styles": [
+          "4D",
+          "5D"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-cooler-lines"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Diagram quantity two; retailer lists 24221233 to 93183012 supersession."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:26",
+      "component_id": "cmp:saab_service_reference:55352385:gearbox_case",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "production_restrictions": [
+          {
+            "kind": "gearbox_serial",
+            "operator": "through",
+            "value": "05GV39275"
+          }
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-converter-case"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:27",
+      "component_id": "cmp:saab_service_reference:93167064:gearbox_case",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ],
+        "production_restrictions": [
+          {
+            "kind": "gearbox_serial",
+            "operator": "from",
+            "value": "05GV39276"
+          }
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-converter-case"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:28",
+      "component_id": "cmp:saab_service_reference:90348707:gearbox_seals",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:29",
+      "component_id": "cmp:saab_service_reference:90348707:gearbox_seals",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-converter-case"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:30",
+      "component_id": "cmp:saab_service_reference:90348710:gearbox_seals",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "QUARANTINE: AF30 diagram vs five-speed title."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:31",
+      "component_id": "cmp:saab_service_reference:90348710:gearbox_seals",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-converter-case"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:32",
+      "component_id": "cmp:saab_service_reference:90348711:gearbox_seals",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:33",
+      "component_id": "cmp:saab_service_reference:90348711:gearbox_seals",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-9440-converter-case"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:34",
+      "component_id": "cmp:saab_service:5449780:valve_body",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "factory_conditional_repair",
+      "source_ids": [
+        "at-src-9600-corrective-parts"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Conditional diagnosed valve/control fault; software and adaptation branches separate."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:35",
+      "component_id": "cmp:saab_service:5590500:gearbox_case",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "factory_conditional_repair",
+      "source_ids": [
+        "at-src-9600-corrective-parts"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Inspect cover and replace if incorrect; not universal cure."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:36",
+      "component_id": "cmp:saab_service_reference:55352466:torque_converter",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-shared-converter"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Service predecessor 5440805 claim; original converter/calibration unknown."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:37",
+      "component_id": "cmp:saab_service_reference:55352466:torque_converter",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-shared-converter"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Shared diagram reference is not universal converter approval."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:38",
+      "component_id": "cmp:saab_service_reference:4576260:atf_cooler_lines",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          1999,
+          2000,
+          2001
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "AF30"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-4576260"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:39",
+      "component_id": "cmp:saab_service_reference:12775717:atf_cooler_lines",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-12775717"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Exact VIN, installed tag and specification must be checked."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:40",
+      "component_id": "cmp:saab_service_reference:12775718:atf_cooler_lines",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "retailer_application_claim",
+      "source_ids": [
+        "at-src-12775718"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "QUARANTINE: title 2002–09 vs linked diagram 1998–01."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:41",
+      "component_id": "cmp:sonnax:aw55-50sn-zip:valve_body",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "unverified_candidate",
+      "source_ids": [
+        "at-src-sonnax-kit"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Drop-in parts; removal and hydraulic diagnosis still specialist work. AW55 family listing is not Saab variant/VIN proof."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:42",
+      "component_id": "cmp:sonnax:aw55-50sn-zip:valve_body",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "unverified_candidate",
+      "source_ids": [
+        "at-src-sonnax-kit"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Drop-in parts; removal and hydraulic diagnosis still specialist work. AW55 family listing is not Saab variant/VIN proof."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:43",
+      "component_id": "cmp:sonnax:59947-33:valve_body",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "unverified_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Only some 2005-later family units had spring; check calibration. AW55 family listing is not Saab variant/VIN proof."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:44",
+      "component_id": "cmp:sonnax:59947-33:valve_body",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "unverified_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Only some 2005-later family units had spring; check calibration. AW55 family listing is not Saab variant/VIN proof."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:45",
+      "component_id": "cmp:sonnax:59947-lpc:valve_body",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "unverified_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Verify casting/hydraulic specification. AW55 family listing is not Saab variant/VIN proof."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:46",
+      "component_id": "cmp:sonnax:59947-lpc:valve_body",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "unverified_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Verify casting/hydraulic specification. AW55 family listing is not Saab variant/VIN proof."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:47",
+      "component_id": "cmp:sonnax:59947-03k:valve_body",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "unverified_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Verify casting/hydraulic specification. AW55 family listing is not Saab variant/VIN proof."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:48",
+      "component_id": "cmp:sonnax:59947-03k:valve_body",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "unverified_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Verify casting/hydraulic specification. AW55 family listing is not Saab variant/VIN proof."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:49",
+      "component_id": "cmp:sonnax:59947-01k:valve_body",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "unverified_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Verify casting/hydraulic specification. AW55 family listing is not Saab variant/VIN proof."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:50",
+      "component_id": "cmp:sonnax:59947-01k:valve_body",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "unverified_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Verify casting/hydraulic specification. AW55 family listing is not Saab variant/VIN proof."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:51",
+      "component_id": "cmp:sonnax:59947-21k:valve_body",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "unverified_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Verify casting/hydraulic specification. AW55 family listing is not Saab variant/VIN proof."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:52",
+      "component_id": "cmp:sonnax:59947-21k:valve_body",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "unverified_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Verify casting/hydraulic specification. AW55 family listing is not Saab variant/VIN proof."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:53",
+      "component_id": "cmp:sonnax:59947-26k:valve_body",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "unverified_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Bore machining: F-59947-TL26 and VB-FIX. AW55 family listing is not Saab variant/VIN proof."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:54",
+      "component_id": "cmp:sonnax:59947-26k:valve_body",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "unverified_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Bore machining: F-59947-TL26 and VB-FIX. AW55 family listing is not Saab variant/VIN proof."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:55",
+      "component_id": "cmp:sonnax:59947-05k:valve_body",
+      "scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-3-9440"
+        ],
+        "model_years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ],
+        "engine_codes": [
+          "B207E",
+          "B207L",
+          "B207R"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "unverified_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Verify casting/hydraulic specification. AW55 family listing is not Saab variant/VIN proof."
+      ],
+      "vin_approved": false
+    },
+    {
+      "id": "app:at:56",
+      "component_id": "cmp:sonnax:59947-05k:valve_body",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "raw_scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ],
+        "drivetrain": "FWD",
+        "markets": [
+          "US"
+        ]
+      },
+      "status": "unverified_candidate",
+      "source_ids": [
+        "at-src-sonnax-internals"
+      ],
+      "conditions": [
+        "Application claim does not establish every US engine/year/body production combination.",
+        "Verify casting/hydraulic specification. AW55 family listing is not Saab variant/VIN proof."
+      ],
+      "vin_approved": false
+    }
+  ],
+  "interchanges": [
+    {
+      "id": "int:at:gm:93183012",
+      "from_component_id": "cmp:saab_service_reference:93183012:atf_cooler_connections",
+      "to_component_id": "cmp:gm_service:93183012:atf_cooler_connections",
+      "category": "E",
+      "relationship": "same_number_cross_channel_candidate",
+      "identity_basis": "GM_authenticated_identity_Saab_retail_fitment_only",
+      "source_ids": [
+        "at-src-9440-cooler-lines",
+        "at-src-gm-seal"
+      ],
+      "conditions": [
+        "GM current product verified; Saab application only retailer-supported. Obtain Saab EPC or manufacturer proof before category A.",
+        "No complete gearbox donor approval."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:at:gm:24205103",
+      "from_component_id": "cmp:saab_service_reference:24205103:atf_cooler_connections",
+      "to_component_id": "cmp:gm_service:24205103:atf_cooler_connections",
+      "category": "E",
+      "relationship": "same_number_cross_channel_candidate",
+      "identity_basis": "GM_authenticated_identity_Saab_retail_fitment_only",
+      "source_ids": [
+        "at-src-9440-cooler-lines",
+        "at-src-gm-retainer"
+      ],
+      "conditions": [
+        "GM current product verified; Saab application only retailer-supported. Obtain Saab EPC or manufacturer proof before category A.",
+        "No complete gearbox donor approval."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:at:sonnax:AW55-50SN-ZIP",
+      "from_component_id": "cmp:saab_service:5449780:valve_body",
+      "to_component_id": "cmp:sonnax:aw55-50sn-zip:valve_body",
+      "category": "E",
+      "relationship": "internal_repair_candidate_not_assembly_substitution",
+      "identity_basis": "manufacturer_family_catalogue",
+      "source_ids": [
+        "at-src-sonnax-kit",
+        "at-src-9600-corrective-parts"
+      ],
+      "conditions": [
+        "Drop-in parts; removal and hydraulic diagnosis still specialist work.",
+        "Not complete replacement housing or donor approval. No comparative Saab durability proof."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:at:sonnax:59947-33",
+      "from_component_id": "cmp:saab_service:5449780:valve_body",
+      "to_component_id": "cmp:sonnax:59947-33:valve_body",
+      "category": "E",
+      "relationship": "internal_repair_candidate_not_assembly_substitution",
+      "identity_basis": "manufacturer_family_catalogue",
+      "source_ids": [
+        "at-src-sonnax-internals",
+        "at-src-9600-corrective-parts"
+      ],
+      "conditions": [
+        "Only some 2005-later family units had spring; check calibration.",
+        "Not complete replacement housing or donor approval. No comparative Saab durability proof."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:at:sonnax:59947-LPC",
+      "from_component_id": "cmp:saab_service:5449780:valve_body",
+      "to_component_id": "cmp:sonnax:59947-lpc:valve_body",
+      "category": "E",
+      "relationship": "internal_repair_candidate_not_assembly_substitution",
+      "identity_basis": "manufacturer_family_catalogue",
+      "source_ids": [
+        "at-src-sonnax-internals",
+        "at-src-9600-corrective-parts"
+      ],
+      "conditions": [
+        "Verify casting/hydraulic specification.",
+        "Not complete replacement housing or donor approval. No comparative Saab durability proof."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:at:sonnax:59947-03K",
+      "from_component_id": "cmp:saab_service:5449780:valve_body",
+      "to_component_id": "cmp:sonnax:59947-03k:valve_body",
+      "category": "E",
+      "relationship": "internal_repair_candidate_not_assembly_substitution",
+      "identity_basis": "manufacturer_family_catalogue",
+      "source_ids": [
+        "at-src-sonnax-internals",
+        "at-src-9600-corrective-parts"
+      ],
+      "conditions": [
+        "Verify casting/hydraulic specification.",
+        "Not complete replacement housing or donor approval. No comparative Saab durability proof."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:at:sonnax:59947-01K",
+      "from_component_id": "cmp:saab_service:5449780:valve_body",
+      "to_component_id": "cmp:sonnax:59947-01k:valve_body",
+      "category": "E",
+      "relationship": "internal_repair_candidate_not_assembly_substitution",
+      "identity_basis": "manufacturer_family_catalogue",
+      "source_ids": [
+        "at-src-sonnax-internals",
+        "at-src-9600-corrective-parts"
+      ],
+      "conditions": [
+        "Verify casting/hydraulic specification.",
+        "Not complete replacement housing or donor approval. No comparative Saab durability proof."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:at:sonnax:59947-21K",
+      "from_component_id": "cmp:saab_service:5449780:valve_body",
+      "to_component_id": "cmp:sonnax:59947-21k:valve_body",
+      "category": "E",
+      "relationship": "internal_repair_candidate_not_assembly_substitution",
+      "identity_basis": "manufacturer_family_catalogue",
+      "source_ids": [
+        "at-src-sonnax-internals",
+        "at-src-9600-corrective-parts"
+      ],
+      "conditions": [
+        "Verify casting/hydraulic specification.",
+        "Not complete replacement housing or donor approval. No comparative Saab durability proof."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:at:sonnax:59947-26K",
+      "from_component_id": "cmp:saab_service:5449780:valve_body",
+      "to_component_id": "cmp:sonnax:59947-26k:valve_body",
+      "category": "E",
+      "relationship": "internal_repair_candidate_not_assembly_substitution",
+      "identity_basis": "manufacturer_family_catalogue",
+      "source_ids": [
+        "at-src-sonnax-internals",
+        "at-src-9600-corrective-parts"
+      ],
+      "conditions": [
+        "Bore machining: F-59947-TL26 and VB-FIX.",
+        "Not complete replacement housing or donor approval. No comparative Saab durability proof."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    },
+    {
+      "id": "int:at:sonnax:59947-05K",
+      "from_component_id": "cmp:saab_service:5449780:valve_body",
+      "to_component_id": "cmp:sonnax:59947-05k:valve_body",
+      "category": "E",
+      "relationship": "internal_repair_candidate_not_assembly_substitution",
+      "identity_basis": "manufacturer_family_catalogue",
+      "source_ids": [
+        "at-src-sonnax-internals",
+        "at-src-9600-corrective-parts"
+      ],
+      "conditions": [
+        "Verify casting/hydraulic specification.",
+        "Not complete replacement housing or donor approval. No comparative Saab durability proof."
+      ],
+      "fitment_approved": false,
+      "donor_approved": false,
+      "reliability_improvement_proven": false
+    }
+  ],
+  "specifications": [
+    {
+      "id": "spec:at:cmp:gm_service:93183012:atf_cooler_connections:inside_diameter",
+      "component_id": "cmp:gm_service:93183012:atf_cooler_connections",
+      "property": "inside_diameter",
+      "value": 10.51,
+      "unit": "mm",
+      "status": "manufacturer_specification",
+      "source_ids": [
+        "at-src-gm-seal"
+      ]
+    },
+    {
+      "id": "spec:at:cmp:gm_service:93183012:atf_cooler_connections:outside_diameter",
+      "component_id": "cmp:gm_service:93183012:atf_cooler_connections",
+      "property": "outside_diameter",
+      "value": 23.05,
+      "unit": "mm",
+      "status": "manufacturer_specification",
+      "source_ids": [
+        "at-src-gm-seal"
+      ]
+    },
+    {
+      "id": "spec:at:cmp:gm_service:93183012:atf_cooler_connections:thickness",
+      "component_id": "cmp:gm_service:93183012:atf_cooler_connections",
+      "property": "thickness",
+      "value": 17.09,
+      "unit": "mm",
+      "status": "manufacturer_specification",
+      "source_ids": [
+        "at-src-gm-seal"
+      ]
+    },
+    {
+      "id": "spec:at:cmp:gm_service:93183012:atf_cooler_connections:material",
+      "component_id": "cmp:gm_service:93183012:atf_cooler_connections",
+      "property": "material",
+      "value": "steel/rubber",
+      "unit": null,
+      "status": "manufacturer_specification",
+      "source_ids": [
+        "at-src-gm-seal"
+      ]
+    },
+    {
+      "id": "spec:at:cmp:gm_service:24205103:atf_cooler_connections:thickness",
+      "component_id": "cmp:gm_service:24205103:atf_cooler_connections",
+      "property": "thickness",
+      "value": 0.965,
+      "unit": "mm",
+      "status": "manufacturer_specification",
+      "source_ids": [
+        "at-src-gm-retainer"
+      ]
+    },
+    {
+      "id": "spec:at:cmp:gm_service:24205103:atf_cooler_connections:material",
+      "component_id": "cmp:gm_service:24205103:atf_cooler_connections",
+      "property": "material",
+      "value": "stainless steel",
+      "unit": null,
+      "status": "manufacturer_specification",
+      "source_ids": [
+        "at-src-gm-retainer"
+      ]
+    }
+  ],
+  "supplier_offerings": [
+    {
+      "id": "offer:at:0",
+      "component_id": "cmp:saab_service_reference:12785050:automatic_gearbox_5",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 2113.69,
+      "currency": "USD",
+      "stock_text": "Currently unavailable",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": 450,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-assembly"
+      ]
+    },
+    {
+      "id": "offer:at:1",
+      "component_id": "cmp:saab_service_reference:55353746:automatic_gearbox_5",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": null,
+      "currency": "USD",
+      "stock_text": "No longer available",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": 450,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-assembly"
+      ]
+    },
+    {
+      "id": "offer:at:2",
+      "component_id": "cmp:saab_service_reference:55353747:automatic_gearbox_5",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 2361.32,
+      "currency": "USD",
+      "stock_text": "Currently unavailable",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": 450,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-assembly"
+      ]
+    },
+    {
+      "id": "offer:at:3",
+      "component_id": "cmp:saab_service_reference:12788546:automatic_gearbox_5",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": null,
+      "currency": "USD",
+      "stock_text": "No longer available",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": 450,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-assembly"
+      ]
+    },
+    {
+      "id": "offer:at:4",
+      "component_id": "cmp:saab_service_reference:4777892:automatic_gearbox_4",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 3609.35,
+      "currency": "USD",
+      "stock_text": "Currently unavailable",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9600-af30"
+      ]
+    },
+    {
+      "id": "offer:at:5",
+      "component_id": "cmp:saab_service_reference:5163894:automatic_gearbox_4",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": null,
+      "currency": "USD",
+      "stock_text": "No longer available",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9600-af30"
+      ]
+    },
+    {
+      "id": "offer:at:6",
+      "component_id": "cmp:saab_service_reference:4611240:automatic_gearbox_4",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": null,
+      "currency": "USD",
+      "stock_text": "No longer available",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": 450,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9600-af30"
+      ]
+    },
+    {
+      "id": "offer:at:7",
+      "component_id": "cmp:saab_service_reference:5161088:automatic_gearbox_4",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 2030.6,
+      "currency": "USD",
+      "stock_text": "Currently unavailable",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": 450,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9600-af30"
+      ]
+    },
+    {
+      "id": "offer:at:8",
+      "component_id": "cmp:saab_service_reference:4926986:automatic_gearbox_4",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": null,
+      "currency": "USD",
+      "stock_text": "No longer available",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": 450,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9600-af30"
+      ]
+    },
+    {
+      "id": "offer:at:9",
+      "component_id": "cmp:saab_service_reference:5160148:torque_converter",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 2184.41,
+      "currency": "USD",
+      "stock_text": "Currently unavailable",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ]
+    },
+    {
+      "id": "offer:at:10",
+      "component_id": "cmp:saab_service_reference:5160072:torque_converter",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 1691.72,
+      "currency": "USD",
+      "stock_text": "Currently unavailable",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ]
+    },
+    {
+      "id": "offer:at:11",
+      "component_id": "cmp:saab_service_reference:5255773:torque_converter",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 2826.83,
+      "currency": "USD",
+      "stock_text": "Currently unavailable",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ]
+    },
+    {
+      "id": "offer:at:12",
+      "component_id": "cmp:saab_service_reference:55354950:valve_body",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 721.83,
+      "currency": "USD",
+      "stock_text": "Back ordered",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-valves"
+      ]
+    },
+    {
+      "id": "offer:at:13",
+      "component_id": "cmp:saab_service_reference:93185091:valve_body",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": null,
+      "currency": "USD",
+      "stock_text": "Currently unavailable",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-valves"
+      ]
+    },
+    {
+      "id": "offer:at:14",
+      "component_id": "cmp:saab_service_reference:93177232:shift_solenoids",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 225.36,
+      "currency": "USD",
+      "stock_text": "Back ordered",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-valves"
+      ]
+    },
+    {
+      "id": "offer:at:15",
+      "component_id": "cmp:saab_service_reference:5448840:shift_solenoids",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": null,
+      "currency": "USD",
+      "stock_text": "Currently unavailable",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-valves"
+      ]
+    },
+    {
+      "id": "offer:at:16",
+      "component_id": "cmp:saab_service_reference:93177240:shift_solenoids",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 215.8,
+      "currency": "USD",
+      "stock_text": "Sweden stock; US delivery not confirmed",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-valves"
+      ]
+    },
+    {
+      "id": "offer:at:17",
+      "component_id": "cmp:saab_service_reference:93177233:shift_solenoids",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 237.31,
+      "currency": "USD",
+      "stock_text": "Back ordered",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-valves"
+      ]
+    },
+    {
+      "id": "offer:at:18",
+      "component_id": "cmp:saab_service_reference:93177235:shift_solenoids",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 236.62,
+      "currency": "USD",
+      "stock_text": "Back ordered",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-valves"
+      ]
+    },
+    {
+      "id": "offer:at:19",
+      "component_id": "cmp:saab_service_reference:93177237:shift_solenoids",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 243.72,
+      "currency": "USD",
+      "stock_text": "Sweden stock; US delivery not confirmed",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-valves"
+      ]
+    },
+    {
+      "id": "offer:at:20",
+      "component_id": "cmp:saab_service_reference:90542059:gearbox_seals",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 7.72,
+      "currency": "USD",
+      "stock_text": "Sweden stock; US delivery not confirmed",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-valves"
+      ]
+    },
+    {
+      "id": "offer:at:21",
+      "component_id": "cmp:saab_service_reference:12796746:atf_cooler_lines",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 83.35,
+      "currency": "USD",
+      "stock_text": "Discontinued",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-cooler-lines"
+      ]
+    },
+    {
+      "id": "offer:at:22",
+      "component_id": "cmp:saab_service_reference:24205103:atf_cooler_connections",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 8.41,
+      "currency": "USD",
+      "stock_text": "US 13 advertised",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-cooler-lines"
+      ]
+    },
+    {
+      "id": "offer:at:23",
+      "component_id": "cmp:saab_service_reference:93183012:atf_cooler_connections",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 24.52,
+      "currency": "USD",
+      "stock_text": "US 10 advertised",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-cooler-lines"
+      ]
+    },
+    {
+      "id": "offer:at:24",
+      "component_id": "cmp:saab_service_reference:24221233:atf_cooler_connections",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 10.75,
+      "currency": "USD",
+      "stock_text": "Back ordered",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-cooler-lines"
+      ]
+    },
+    {
+      "id": "offer:at:25",
+      "component_id": "cmp:saab_service_reference:55352385:gearbox_case",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 580.9,
+      "currency": "USD",
+      "stock_text": "Back ordered",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-converter-case"
+      ]
+    },
+    {
+      "id": "offer:at:26",
+      "component_id": "cmp:saab_service_reference:93167064:gearbox_case",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 325.26,
+      "currency": "USD",
+      "stock_text": "Back ordered",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9440-converter-case"
+      ]
+    },
+    {
+      "id": "offer:at:27",
+      "component_id": "cmp:saab_service_reference:90348707:gearbox_seals",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 28.65,
+      "currency": "USD",
+      "stock_text": "Sweden stock",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ]
+    },
+    {
+      "id": "offer:at:28",
+      "component_id": "cmp:saab_service_reference:90348710:gearbox_seals",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 3.12,
+      "currency": "USD",
+      "stock_text": "US 20+ advertised",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ]
+    },
+    {
+      "id": "offer:at:29",
+      "component_id": "cmp:saab_service_reference:90348711:gearbox_seals",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 18.94,
+      "currency": "USD",
+      "stock_text": "Back ordered",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9600-af30-converters"
+      ]
+    },
+    {
+      "id": "offer:at:30",
+      "component_id": "cmp:saab_service:5449780:valve_body",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "historical_cached_page_not_current_stock",
+      "price": 1430.97,
+      "currency": "USD",
+      "stock_text": "Discontinued",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-9600-valve-offer"
+      ]
+    },
+    {
+      "id": "offer:at:31",
+      "component_id": "cmp:saab_service_reference:55352466:torque_converter",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "rendered_page_observation_not_checkout",
+      "price": 2208.62,
+      "currency": "USD",
+      "stock_text": "Back ordered",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-shared-converter"
+      ]
+    },
+    {
+      "id": "offer:at:32",
+      "component_id": "cmp:saab_service_reference:4576260:atf_cooler_lines",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "search_index_not_live_stock",
+      "price": 86.89,
+      "currency": "USD",
+      "stock_text": "Back ordered (search snapshot)",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-4576260"
+      ]
+    },
+    {
+      "id": "offer:at:33",
+      "component_id": "cmp:saab_service_reference:12775717:atf_cooler_lines",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "cached_product_page_not_checkout",
+      "price": 365.33,
+      "currency": "USD",
+      "stock_text": "US 15 advertised",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-12775717"
+      ]
+    },
+    {
+      "id": "offer:at:34",
+      "component_id": "cmp:saab_service_reference:12775718:atf_cooler_lines",
+      "supplier": "eSaabParts",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "cached_product_page_not_checkout",
+      "price": 516.05,
+      "currency": "USD",
+      "stock_text": "US 14 advertised",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": null,
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-12775718"
+      ]
+    },
+    {
+      "id": "offer:at:35",
+      "component_id": "cmp:gm_service:93183012:atf_cooler_connections",
+      "supplier": "GM official portal",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "manufacturer_msrp_not_sale_quote",
+      "price": 17.33,
+      "currency": "USD",
+      "stock_text": "Dealer not selected; stock unverified",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": "24 months/unlimited miles limited parts warranty; full eligibility terms apply.",
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-gm-seal"
+      ]
+    },
+    {
+      "id": "offer:at:36",
+      "component_id": "cmp:gm_service:24205103:atf_cooler_connections",
+      "supplier": "GM official portal",
+      "condition": "not_established",
+      "region": "US",
+      "observed_at": "2026-10-14",
+      "observation_status": "manufacturer_msrp_not_sale_quote",
+      "price": 9.71,
+      "currency": "USD",
+      "stock_text": "Dealer not selected; stock unverified",
+      "price_basis": "displayed_each_not_installed",
+      "shipping": null,
+      "core_charge": null,
+      "warranty": "24 months/unlimited miles limited parts warranty; full eligibility terms apply.",
+      "tax": null,
+      "checkout_verified": false,
+      "source_ids": [
+        "at-src-gm-retainer"
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "conflict:at:55353747-tags",
+      "status": "unresolved",
+      "component_ids": [
+        "cmp:saab_service_reference:55353747:automatic_gearbox_5"
+      ],
+      "source_ids": [
+        "at-src-9440-assembly"
+      ],
+      "claim": "One service number listed for FA57203 and FA57204.",
+      "counterevidence": "No unconditional fitment approved.",
+      "blocked_relationships": [
+        "unconditional_55353747-tags"
+      ],
+      "resolution_needed": [
+        "Authenticate service contents/ratios/software by tag and chassis."
+      ]
+    },
+    {
+      "id": "conflict:at:90348710-title",
+      "status": "unresolved",
+      "component_ids": [
+        "cmp:saab_service_reference:90348710:gearbox_seals"
+      ],
+      "source_ids": [
+        "at-src-9600-af30-converters",
+        "at-src-9440-converter-case"
+      ],
+      "claim": "AF30 diagram lists gasket named five-speed.",
+      "counterevidence": "No unconditional fitment approved.",
+      "blocked_relationships": [
+        "unconditional_90348710-title"
+      ],
+      "resolution_needed": [
+        "AF30 drain joint dimensions and EPC proof."
+      ]
+    },
+    {
+      "id": "conflict:at:12775718-diagram",
+      "status": "unresolved",
+      "component_ids": [
+        "cmp:saab_service_reference:12775718:atf_cooler_lines"
+      ],
+      "source_ids": [
+        "at-src-12775718"
+      ],
+      "claim": "2002–09 title vs linked 1998–01 diagram.",
+      "counterevidence": "No unconditional fitment approved.",
+      "blocked_relationships": [
+        "unconditional_12775718-diagram"
+      ],
+      "resolution_needed": [
+        "Factory routing and supersession cohort."
+      ]
+    }
+  ],
+  "reliability_improvements": [
+    {
+      "id": "improvement:at:9600:5449780",
+      "component_ids": [
+        "cmp:saab_service:5449780:valve_body"
+      ],
+      "source_ids": [
+        "at-src-9600-corrective-parts",
+        "at-src-9600-valve-procedure"
+      ],
+      "prior_issue_ids": [
+        "O95-11"
+      ],
+      "classification": "factory_corrective_service_action",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "mechanism": "Conditional SLS/SLT valve sluggishness and shift quality",
+      "corrective_action": "Modified housing; match harness through 02GV706486, software and adaptation.",
+      "comparative_durability_verified": false,
+      "failure_rate": null,
+      "production_immunity_established": false
+    },
+    {
+      "id": "improvement:at:9600:5590500",
+      "component_ids": [
+        "cmp:saab_service:5590500:gearbox_case"
+      ],
+      "source_ids": [
+        "at-src-9600-corrective-parts"
+      ],
+      "prior_issue_ids": [
+        "O95-11"
+      ],
+      "classification": "factory_conditional_service_correction",
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2002,
+          2003
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "mechanism": "Incorrect B4 servo cover implicated in diagnosed 2-3 complaint",
+      "corrective_action": "Inspect cover, replace if needed and reset/adapt.",
+      "comparative_durability_verified": false,
+      "failure_rate": null,
+      "production_immunity_established": false
+    }
+  ],
+  "procedures": [
+    {
+      "id": "procedure:at:9600-valve-harness",
+      "assembly_ids": [
+        "valve_body"
+      ],
+      "component_ids": [
+        "cmp:saab_service:5449780:valve_body"
+      ],
+      "source_ids": [
+        "at-src-9600-valve-procedure",
+        "at-src-9600-corrective-parts"
+      ],
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "documentation_model_year": 2003,
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "procedure_context_only": true,
+      "summary": "Through gearbox serial 02GV706486, replacement valve housing requires matching harness; preserve internal O-rings and reset adaptation.",
+      "special_tools": [],
+      "required_consumables": [
+        "Matched replacement harness (number unresolved)",
+        "Two internal O-rings",
+        "Correct ATF",
+        "Valve cover sealing parts"
+      ],
+      "programming_required": "Match TCM software and perform required adaptation",
+      "labor_hours": null,
+      "operations": [],
+      "diy_feasibility": "specialist_work",
+      "professional_feasibility": "equipped_workshop",
+      "collateral_damage": [
+        "Repair does not establish absence of existing friction/lockup or contamination damage."
+      ],
+      "production_restrictions": [
+        {
+          "kind": "gearbox_serial",
+          "operator": "through",
+          "value": "02GV706486",
+          "required_action": "replace_harness_to_match_replacement_valve_housing"
+        }
+      ]
+    },
+    {
+      "id": "procedure:at:9600-assembly-replacement",
+      "assembly_ids": [
+        "automatic_gearbox_5",
+        "atf_cooler_lines"
+      ],
+      "component_ids": [],
+      "source_ids": [
+        "at-src-9600-replacement",
+        "at-src-9600-flush"
+      ],
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "documentation_model_year": 2003,
+        "engine_codes": [
+          "B205",
+          "B235"
+        ],
+        "transmission_codes": [
+          "FA57"
+        ]
+      },
+      "procedure_context_only": true,
+      "summary": "Support powertrain; remove subframe and lower transmission. Replace axle/cooler seals. Clean contaminated cooler circuit before start and adapt.",
+      "special_tools": [
+        {
+          "number": "8394850",
+          "name": "Engine support beam"
+        },
+        {
+          "number": "8792574",
+          "name": "Converter holder"
+        },
+        {
+          "number": "8791657",
+          "name": "Axle seal drift"
+        },
+        {
+          "number": "8791824",
+          "name": "Cooling circuit cleaning equipment"
+        }
+      ],
+      "required_consumables": [
+        "Matched gearbox/converter",
+        "Axle and cooler seals",
+        "ATF",
+        "Threadlocker",
+        "Hardware requirements to verify"
+      ],
+      "programming_required": "Match TCM software and perform required adaptation",
+      "labor_hours": null,
+      "operations": [],
+      "diy_feasibility": "advanced_powertrain_removal_not_routine_home_service",
+      "professional_feasibility": "equipped_workshop",
+      "collateral_damage": [
+        "Repair does not establish absence of existing friction/lockup or contamination damage.",
+        "Incorrect flushing connection blocks circulation through non-return valve. Tool filter is not a vehicle external filter."
+      ]
+    },
+    {
+      "id": "procedure:at:9600-af30-cooling",
+      "assembly_ids": [
+        "atf_cooler",
+        "radiator_automatic"
+      ],
+      "component_ids": [],
+      "source_ids": [
+        "at-src-9600-cooling"
+      ],
+      "scope": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "documentation_model_year": 2000,
+        "transmission_codes": [
+          "AF30"
+        ]
+      },
+      "procedure_context_only": true,
+      "summary": "Factory description places ATF heat exchanger inside radiator, with hydraulic hoses and transmission-pump circulation.",
+      "special_tools": [],
+      "required_consumables": [],
+      "programming_required": false,
+      "labor_hours": null,
+      "operations": [],
+      "diy_feasibility": "description_not_repair_instruction",
+      "professional_feasibility": "equipped_workshop",
+      "collateral_damage": [
+        "Repair does not establish absence of existing friction/lockup or contamination damage."
+      ]
+    }
+  ],
+  "repair_scenarios": [
+    {
+      "id": "repair:at:9600-two-cooler-lines",
+      "assembly_ids": [
+        "atf_cooler_lines"
+      ],
+      "component_ids": [
+        "cmp:saab_service_reference:12775717:atf_cooler_lines",
+        "cmp:saab_service_reference:12775718:atf_cooler_lines"
+      ],
+      "source_ids": [
+        "at-src-12775717",
+        "at-src-12775718",
+        "at-src-9600-replacement"
+      ],
+      "parts_bill": [
+        {
+          "role": "Lower hose",
+          "component_ids": [
+            "cmp:saab_service_reference:12775717:atf_cooler_lines"
+          ],
+          "quantity": 1,
+          "unit_price": 365.33,
+          "currency": "USD"
+        },
+        {
+          "role": "Upper hose pending fitment conflict resolution",
+          "component_ids": [
+            "cmp:saab_service_reference:12775718:atf_cooler_lines"
+          ],
+          "quantity": 1,
+          "unit_price": 516.05,
+          "currency": "USD"
+        }
+      ],
+      "currency": "USD",
+      "priced_parts_subtotal": 881.38,
+      "complete_parts_total": null,
+      "complete_diy_total": null,
+      "complete_professional_total": null,
+      "labor_hours": null,
+      "labor_rate": null,
+      "estimate_status": "partial_bill_not_complete_repair_cost",
+      "missing_cost_inputs": [
+        "Resolve upper-line conflict",
+        "Union seal identity/count/cost",
+        "Lost ATF",
+        "Shipping/tax",
+        "Diagnosis, tools and labor quote"
+      ],
+      "diy_feasibility": "safe_lifting_and_fitment_required",
+      "exceeds_no_engine_transmission_rebuild_goal": false
+    },
+    {
+      "id": "repair:at:9440-gm-connection-candidates",
+      "assembly_ids": [
+        "atf_cooler_connections"
+      ],
+      "component_ids": [
+        "cmp:gm_service:93183012:atf_cooler_connections",
+        "cmp:gm_service:24205103:atf_cooler_connections"
+      ],
+      "source_ids": [
+        "at-src-gm-seal",
+        "at-src-gm-retainer",
+        "at-src-9440-cooler-lines"
+      ],
+      "parts_bill": [
+        {
+          "role": "Two seal candidates at MSRP",
+          "component_ids": [
+            "cmp:gm_service:93183012:atf_cooler_connections"
+          ],
+          "quantity": 2,
+          "unit_price": 17.33,
+          "currency": "USD"
+        },
+        {
+          "role": "Two clip candidates at MSRP",
+          "component_ids": [
+            "cmp:gm_service:24205103:atf_cooler_connections"
+          ],
+          "quantity": 2,
+          "unit_price": 9.71,
+          "currency": "USD"
+        }
+      ],
+      "currency": "USD",
+      "priced_parts_subtotal": 54.08,
+      "complete_parts_total": null,
+      "complete_diy_total": null,
+      "complete_professional_total": null,
+      "labor_hours": null,
+      "labor_rate": null,
+      "estimate_status": "partial_bill_not_complete_repair_cost",
+      "missing_cost_inputs": [
+        "Manufacturer Saab/EPC application proof",
+        "Actual dealer price/stock",
+        "Hose/radiator condition",
+        "Lost ATF",
+        "Shipping/tax",
+        "Diagnosis, labor and tools",
+        "Coolant ingress entails separate damage assessment"
+      ],
+      "diy_feasibility": "fitment_and_safe_lifting_required",
+      "exceeds_no_engine_transmission_rebuild_goal": false
+    }
+  ],
+  "continuation": {
+    "completed_groups": [
+      "46 service-product identities",
+      "57 source-scoped application claims",
+      "NG9440 FA57 assembly and S1-S5/valve/housing cutoffs",
+      "OG9600 AF30 converters/assemblies",
+      "OG9600 factory conditional 5449780 and 5590500 repairs",
+      "US cooling-line offers and GM connection candidates"
+    ],
+    "remaining_groups": [
+      "OG9600 FA57 whole assembly part/tag/calibration cohorts",
+      "Authenticate US 1998 9600 existence and US B205 availability",
+      "AW55-50 versus 55-51 exact variants; converter stall/lockup and ratios",
+      "TCM hardware, wiring and calibration identities",
+      "Filter access, internal component numbers and overhaul-only boundaries",
+      "Exact cooler line fitting/seal packages and radiator heat-exchanger supplier identities",
+      "US used/reman availability, warranty and full installed quotes",
+      "Independent EPC proof of retailer chassis/serial restrictions"
+    ],
+    "unresolved_conflict_ids": [
+      "conflict:at:55353747-tags",
+      "conflict:at:90348710-title",
+      "conflict:at:12775718-diagram"
+    ],
+    "existing_faults_reused_not_reinvestigated": [
+      "FA57-01",
+      "FA57-02",
+      "O95-11",
+      "O95-12",
+      "O95-13",
+      "corrections-issue-005",
+      "corrections-issue-006"
+    ],
+    "unmerged_work_reviewed": "PR80 draft: research/reliability-improvements-batch3-20261014; not assumed merged",
+    "next_batch": "Engine/timing component service identities; use existing engineering dossiers before external research."
+  }
+}

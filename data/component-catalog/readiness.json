@@ -1428,8 +1428,58 @@
   "excluded_from_current_enumeration": [
     "Canadian configurations",
     "Manual gearbox configurations",
-    "9440 convertibles",
-    "MY1998 US 9600 production rows"
+    "9440 convertibles"
   ],
-  "enumeration_is_not_brandwide_vehicle_universe": true
+  "enumeration_is_not_brandwide_vehicle_universe": true,
+  "target_scope": {
+    "schema_version": "1.0",
+    "decision_date": "2026-10-14",
+    "markets": [
+      "US"
+    ],
+    "drivetrain": "FWD",
+    "transmissions": "automatic_only",
+    "families": {
+      "9-3-9440": {
+        "model_years": [
+          2003,
+          2011
+        ],
+        "engine_families": [
+          "B207"
+        ],
+        "bodies": [
+          "sedan",
+          "wagon"
+        ]
+      },
+      "9-5-9600": {
+        "model_years": [
+          1998,
+          2009
+        ],
+        "engine_families": [
+          "B205",
+          "B235"
+        ],
+        "bodies": [
+          "sedan",
+          "wagon"
+        ]
+      }
+    },
+    "excluded": [
+      "Canada-only target applications",
+      "manual target applications",
+      "convertible target applications",
+      "V6",
+      "diesel",
+      "XWD",
+      "9400",
+      "9650"
+    ],
+    "reference_policy": "Preserve prior excluded-source records for provenance and donor research; do not count them as target coverage or outstanding target work.",
+    "unknown_scope_policy": "Missing market/body/gearbox dimensions remain unknown. A target research filter does not certify factory U.S. fitment."
+  },
+  "remaining_target_enumeration_question": "Whether any MY1998 US 9600 configurations existed; absence from existing register is not factory proof."
 }

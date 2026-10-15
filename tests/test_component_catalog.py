@@ -37,6 +37,25 @@ class ComponentCatalogGuards(unittest.TestCase):
         edge["donor_approved"] = True
         self.assertTrue(any("marked approved" in e for e in catalog.validate(c)))
 
+    def test_narrowed_scope_excludes_canada_manual_and_convertible(self):
+        for extra in ({"markets": ["CA"]}, {"transmission_codes": ["manual"]},
+                      {"body_styles": ["CV"]}):
+            self.assertEqual(catalog.project_scope(dict(platforms=["9-3-9440"], **extra)), [])
+        raw = dict(platforms=["9-3-9440"], body_styles=["4D", "5D", "CV"],
+                   transmission_codes=["FA57", "F40"], markets=["US", "CA"])
+        saved = copy.deepcopy(raw)
+        projected = catalog.project_scope(raw)[0]
+        self.assertEqual(projected["body_styles"], ["4D", "5D"])
+        self.assertEqual(projected["transmission_codes"], ["FA57"])
+        self.assertEqual(raw, saved)
+
+    def test_manual_inventory_and_v6_gearboxes_are_reference_only(self):
+        for a in self.catalog["assembly_inventory"]:
+            if a["subsystem_id"].endswith((".manual", ".convertible")):
+                self.assertFalse(a["target_eligible"])
+        self.assertEqual({g["id"] for g in self.catalog["gearbox_families"]},
+                         {"gb:9600:af30", "gb:9600:fa57", "gb:9440:fa57"})
+
     def test_pump_screw_quarantine(self):
         c = copy.deepcopy(self.catalog)
         edge = copy.deepcopy(c["interchanges"][0])
@@ -49,6 +68,20 @@ class ComponentCatalogGuards(unittest.TestCase):
         c = copy.deepcopy(self.catalog)
         c["repair_scenarios"][0]["complete_professional_total"] = 59.96
         self.assertTrue(any("Incomplete repair" in e for e in catalog.validate(c)))
+
+    def test_partial_bills_must_add_up(self):
+        c = copy.deepcopy(self.catalog)
+        repair = next(r for r in c["repair_scenarios"] if r.get("priced_parts_subtotal"))
+        repair["priced_parts_subtotal"] += 1
+        self.assertTrue(any("arithmetic" in e for e in catalog.validate(c)))
+
+    def test_early_9600_valve_body_requires_harness_not_ng93_inference(self):
+        p = next(p for p in self.catalog["repair_procedures"] if p["id"] == "procedure:at:9600-valve-harness")
+        self.assertEqual(p["scope"]["platforms"], ["9-5-9600"])
+        self.assertEqual(p["production_restrictions"][0]["value"], "02GV706486")
+        gm = [r for r in self.catalog["interchanges"] if r["id"].startswith("int:at:gm:")]
+        self.assertEqual(len(gm), 2)
+        self.assertTrue(all(r["category"] == "E" and not r["fitment_approved"] for r in gm))
 
     def test_missing_provenance_and_currency_rejected(self):
         c = copy.deepcopy(self.catalog)

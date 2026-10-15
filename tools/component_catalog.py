@@ -47,6 +47,10 @@ def project_scope(scope):
     """
     result = []
     for group in scope.get("groups", [scope]):
+        if group.get("markets") and not set(group["markets"]) & {"US", "USA", "all", "global", "US/CA"}:
+            continue
+        if group.get("transmission_codes") and all(t.lower() in {"manual", "5mt", "6mt", "f40", "fm55", "fm57"} for t in group["transmission_codes"]):
+            continue
         for platform in group.get("platforms", []):
             if platform not in FAMILIES:
                 continue
@@ -55,6 +59,16 @@ def project_scope(scope):
                 continue
             selected = copy.deepcopy(group)
             selected["platforms"] = [platform]
+            if selected.get("markets") and set(selected["markets"]) & {"US", "USA", "US/CA"}:
+                selected["markets"] = ["US"]
+            if "body_styles" in selected:
+                selected["body_styles"] = [b for b in selected["body_styles"] if b.lower() not in {"cv", "convertible", "cabriolet"}]
+                if not selected["body_styles"]:
+                    continue
+            if "vin_ranges" in selected:
+                selected["vin_ranges"] = [v for v in selected["vin_ranges"] if str(v.get("body_style", "")).lower() not in {"cv", "convertible"}]
+            if "transmission_codes" in selected:
+                selected["transmission_codes"] = [t for t in selected["transmission_codes"] if t.lower() not in {"manual", "5mt", "6mt", "f40", "fm55", "fm57"}]
             if "model_years" in group:
                 selected["model_years"] = [y for y in group["model_years"] if lo <= y <= hi]
                 if not selected["model_years"]:
@@ -124,7 +138,7 @@ def build():
                 claim=rel, source_ids=p["source_ids"], status="unadjudicated_source_claim",
                 approved=False, legacy_record_id=id_))
     batches = [read(p) for p in sorted(DIR.glob("research-batch-*.json"))]
-    interchanges, specifications, offerings, conflicts, procedures, repairs, gearboxes = [], [], [], [], [], [], []
+    interchanges, specifications, offerings, conflicts, procedures, repairs, gearboxes, improvements = [], [], [], [], [], [], [], []
     for batch in batches:
         for s in batch["sources"]:
             if s["id"] in sources:
@@ -134,7 +148,15 @@ def build():
             if c["id"] in components:
                 raise ValueError("Duplicate new product identity: " + c["id"])
             components[c["id"]] = c
-        applications.extend(batch["applications"])
+        for app in batch["applications"]:
+            if app.get("application_role") == "donor_research_context":
+                applications.append(app)
+            else:
+                projected = project_scope(app["scope"])
+                for n, group in enumerate(projected):
+                    applications.append(dict(app, scope=group, raw_scope=app.get("raw_scope") or app["scope"],
+                                             factory_specification_verified=app.get("factory_specification_verified", app.get("status") == "factory_conditional_repair"),
+                                             id=app["id"] if len(projected) == 1 else app["id"] + ":" + str(n)))
         interchanges.extend(batch["interchanges"])
         specifications.extend(batch["specifications"])
         offerings.extend(batch["supplier_offerings"])
@@ -142,6 +164,7 @@ def build():
         procedures.extend(batch["procedures"])
         repairs.extend(batch["repair_scenarios"])
         gearboxes.extend(batch.get("gearbox_families", []))
+        improvements.extend(batch.get("reliability_improvements", []))
     # Explicitly verified dual-channel SERVICE SKU, not an original installed donor.
     pump = part_component.get("gmwp-part-001")
     if pump:
@@ -279,18 +302,33 @@ def build():
         manufacturers.append(dict(id="maker:" + re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-"),
             name=name, role="marketed_product_brand_not_original_vehicle_supplier_certification",
             component_ids=[c["id"] for c in members], source_ids=sorted({s for c in members for s in c["source_ids"]})))
+    reference_gearboxes = [g for g in gearboxes if g["kind"] == "manual" or g["id"] == "gb:9440:af40"]
+    gearboxes = [g for g in gearboxes if g not in reference_gearboxes]
+    for g in reference_gearboxes:
+        g["target_status"] = "excluded_from_current_target_coverage"
+    target_inventory = []
+    excluded_assembly_ids = {"manual_gearbox_5", "manual_gearbox_6", "synchros", "reverse_switch", "radiator_manual"}
+    for a in inventory["assemblies"]:
+        a = dict(a)
+        a["target_eligible"] = a["id"] not in excluded_assembly_ids and not a["subsystem_id"].endswith((".manual", ".convertible"))
+        if a["id"] == "automatic_gearbox_6":
+            a["target_eligible"] = False
+            a["target_scope_note"] = "Existing US AF40 production groups are excluded V6 applications; no eligible B207 application established."
+        target_inventory.append(a)
     catalogue = dict(schema_version="1.0", as_of=DATE, exhaustive=False, scoring_allowed=False,
+        target_scope=read(DIR / "target-scope.json"),
         systems=read(ROOT / "data/tier-research/methodology.json")["system_inventory"],
         subsystems=[dict(id=s, system_id=s.split(".")[0]) for s in sorted({a["subsystem_id"] for a in inventory["assemblies"]})],
-        assembly_inventory=inventory["assemblies"], components=sorted(components.values(), key=lambda c: c["id"]),
+        assembly_inventory=target_inventory, components=sorted(components.values(), key=lambda c: c["id"]),
         applications=applications, part_numbers=numbers, part_number_relationships=relations,
         interchanges=interchanges, specifications=specifications, evidence_claims=claims,
-        gearbox_families=gearboxes, manufacturers=manufacturers,
+        gearbox_families=gearboxes, reference_gearbox_families=reference_gearboxes, manufacturers=manufacturers,
         fastener_specification_contract=inventory["fastener_specification_contract"],
         reliability_register=failures, supplier_offerings=offerings, repair_procedures=procedures,
+        reliability_improvement_register=improvements,
         repair_scenarios=repairs, evidence_sources=sorted(sources.values(), key=lambda s: s["id"]),
         verification_gaps=gaps, unresolved_contradictions=conflicts, research_reuse_index=reuse,
-        vehicle_configurations=configurations, configuration_limits="US automatic nonconvertible subset only; manual, convertible, MY1998 US and Canada enumeration incomplete. No fitment certified by trim/year alone.",
+        vehicle_configurations=configurations, configuration_limits="US automatic FWD sedan/wagon target subset; MY1998 US 9600 existence not established. Manuals, Canada and convertibles are excluded, not outstanding target work. No fitment certified by trim/year alone.",
         excluded_part_claims=excluded)
     return catalogue
 
@@ -333,6 +371,12 @@ def validate(catalogue):
                 errors.append("Donor context promoted to target fitment")
             continue
         for g in a["scope"].get("groups", [a["scope"]]):
+            if g.get("markets") and not set(g["markets"]) & {"US", "USA", "all", "global", "US/CA"}:
+                errors.append("Excluded market application: " + a["id"])
+            if any(b.lower() in {"cv", "convertible", "cabriolet"} for b in g.get("body_styles", [])):
+                errors.append("Excluded convertible application: " + a["id"])
+            if any(t.lower() in {"manual", "5mt", "6mt", "f40", "fm55", "fm57"} for t in g.get("transmission_codes", [])):
+                errors.append("Excluded manual application: " + a["id"])
             for p in g.get("platforms", []):
                 if p not in FAMILIES:
                     errors.append("Excluded platform application: " + a["id"])
@@ -426,6 +470,11 @@ def validate(catalogue):
         currencies = {p["currency"] for p in r["parts_bill"] if p.get("currency")}
         if currencies and currencies != {r["currency"]}:
             errors.append("Mixed repair currencies without conversion: " + r["id"])
+        bill = r["parts_bill"]
+        if bill and all(type(p.get("unit_price")) in (int, float) and type(p.get("quantity")) in (int, float) for p in bill):
+            subtotal = round(sum(p["unit_price"] * p["quantity"] for p in bill), 2)
+            if r.get("priced_parts_subtotal") is not None and abs(subtotal - r["priced_parts_subtotal"]) > 0.005:
+                errors.append("Repair priced subtotal arithmetic mismatch: " + r["id"])
     # Conflicting measured/specification claims cannot be hidden by selecting one.
     specs = defaultdict(list)
     for s in catalogue["specifications"]:
@@ -445,7 +494,7 @@ def coverage(c):
     rows = []
     for p in FAMILIES:
         for system in c["systems"]:
-            assemblies = {a["id"] for a in c["assembly_inventory"] if a["system_id"] == system["id"] and p[-4:] in a["research_targets"]}
+            assemblies = {a["id"] for a in c["assembly_inventory"] if a["system_id"] == system["id"] and p[-4:] in a["research_targets"] and a.get("target_eligible", True)}
             parts = [x for x in c["components"] if x["assembly_id"] in assemblies and p in apps[x["id"]]]
             known = {x["assembly_id"] for x in parts}
             part_ids = {x["id"] for x in parts}
@@ -464,7 +513,8 @@ def coverage(c):
                 remaining_assembly_groups=sorted(assemblies-known)))
     return dict(as_of=DATE, whole_vehicle_universe_established=False, completeness_percentage=None,
         denominator_policy="Inventory serviceable groups are research slots; products count namespace/number/category identities. A group can contain many products. Neither is an exhaustive factory component universe.",
-        counts={k:len(c[k]) for k in ("assembly_inventory", "components", "applications", "interchanges", "supplier_offerings", "repair_scenarios", "gearbox_families", "vehicle_configurations", "research_reuse_index")},
+        counts={**{k:len(c[k]) for k in ("assembly_inventory", "components", "applications", "interchanges", "supplier_offerings", "repair_scenarios", "gearbox_families", "vehicle_configurations", "research_reuse_index")},
+                "target_eligible_serviceable_groups": sum(a.get("target_eligible", True) for a in c["assembly_inventory"])},
         platform_system_rows=rows, scoring_allowed=False,
         readiness_reason="No configuration has a fully verified original BOM, regional replacement package and complete repair economics. Failure rates and comparative upgrade durability are not established.")
 
@@ -482,8 +532,10 @@ def readiness(c):
                   "No validated population failure incidence or comparative durability"])
         for x in c["vehicle_configurations"]], excluded_from_current_enumeration=[
             "Canadian configurations", "Manual gearbox configurations",
-            "9440 convertibles", "MY1998 US 9600 production rows"],
-        enumeration_is_not_brandwide_vehicle_universe=True)
+            "9440 convertibles"],
+        enumeration_is_not_brandwide_vehicle_universe=True,
+        target_scope=c["target_scope"],
+        remaining_target_enumeration_question="Whether any MY1998 US 9600 configurations existed; absence from existing register is not factory proof.")
 
 
 def main():
