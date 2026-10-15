@@ -1,0 +1,5414 @@
+{
+  "schema_version": "1.0",
+  "universe_exhaustive": false,
+  "meaning": "Research inventory denominator only; slots are not confirmed part identities or factory presence assertions. Conditional/optional systems remain to verify.",
+  "assemblies": [
+    {
+      "id": "block",
+      "name": "block",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.short_block",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "crankshaft",
+      "name": "crankshaft",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.short_block",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "connecting_rods",
+      "name": "connecting rods",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.short_block",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "pistons",
+      "name": "pistons",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.short_block",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "piston_rings",
+      "name": "piston rings",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.short_block",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "main_bearings",
+      "name": "main bearings",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.short_block",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rod_bearings",
+      "name": "rod bearings",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.short_block",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "thrust_bearings",
+      "name": "thrust bearings",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.short_block",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "core_plugs",
+      "name": "core plugs",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.short_block",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rear_main_seal",
+      "name": "rear main seal",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.short_block",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "front_crank_seal",
+      "name": "front crank seal",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.short_block",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "oil_pump",
+      "name": "oil pump",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.lubrication",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "oil_pickup",
+      "name": "oil pickup",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.lubrication",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "oil_sump",
+      "name": "oil sump",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.lubrication",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "oil_filter_housing",
+      "name": "oil filter housing",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.lubrication",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "oil_filter",
+      "name": "oil filter",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.lubrication",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "oil_pressure_sensor",
+      "name": "oil pressure sensor",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.lubrication",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "oil_cooler",
+      "name": "oil cooler",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.lubrication",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "oil_cooler_lines",
+      "name": "oil cooler lines",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.lubrication",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "dipstick",
+      "name": "dipstick",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.lubrication",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "oil_drain_plug",
+      "name": "oil drain plug",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.lubrication",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "pcv_kit",
+      "name": "pcv kit",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.pcv",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "oil_separator",
+      "name": "oil separator",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.pcv",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "pcv_hoses",
+      "name": "pcv hoses",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.pcv",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "pcv_check_valve",
+      "name": "pcv check valve",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.pcv",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "pcv_retention_hardware",
+      "name": "pcv retention hardware",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.pcv",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "engine_mounts",
+      "name": "engine mounts",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.mounts",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "engine_mount_brackets",
+      "name": "engine mount brackets",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.mounts",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "torque_arms",
+      "name": "torque arms",
+      "system_id": "engine_core_oil_pcv",
+      "subsystem_id": "engine_core_oil_pcv.mounts",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "cylinder_head",
+      "name": "cylinder head",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.head",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "head_gasket",
+      "name": "head gasket",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.head",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "head_bolts",
+      "name": "head bolts",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.head",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "inlet_valves",
+      "name": "inlet valves",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.head",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "exhaust_valves",
+      "name": "exhaust valves",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.head",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "valve_guides",
+      "name": "valve guides",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.head",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "valve_seats",
+      "name": "valve seats",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.head",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "valve_springs",
+      "name": "valve springs",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.head",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "valve_retainers",
+      "name": "valve retainers",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.head",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "valve_stem_seals",
+      "name": "valve stem seals",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.head",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "camshafts",
+      "name": "camshafts",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.head",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "cam_bearings",
+      "name": "cam bearings",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.head",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rocker_arms",
+      "name": "rocker arms",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.head",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "hydraulic_lifters",
+      "name": "hydraulic lifters",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.head",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "cam_cover",
+      "name": "cam cover",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.head",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "cam_cover_gasket",
+      "name": "cam cover gasket",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.head",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "timing_chain",
+      "name": "timing chain",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.timing",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "timing_sprockets",
+      "name": "timing sprockets",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.timing",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "timing_guides",
+      "name": "timing guides",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.timing",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "timing_tensioner",
+      "name": "timing tensioner",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.timing",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "balance_chain",
+      "name": "balance chain",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.timing",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "balance_sprockets",
+      "name": "balance sprockets",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.timing",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "balance_guides",
+      "name": "balance guides",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.timing",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "balance_tensioner",
+      "name": "balance tensioner",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.timing",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "balance_shafts",
+      "name": "balance shafts",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.timing",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "timing_cover",
+      "name": "timing cover",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.timing",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "timing_cover_seals",
+      "name": "timing cover seals",
+      "system_id": "engine_timing_valvetrain",
+      "subsystem_id": "engine_timing_valvetrain.timing",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "turbocharger",
+      "name": "turbocharger",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "turbo_oil_feed",
+      "name": "turbo oil feed",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "turbo_oil_return",
+      "name": "turbo oil return",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "turbo_coolant_lines",
+      "name": "turbo coolant lines",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "wastegate_actuator",
+      "name": "wastegate actuator",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "wastegate_clip",
+      "name": "wastegate clip",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "boost_control_solenoid",
+      "name": "boost control solenoid",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "bypass_valve",
+      "name": "bypass valve",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "intercooler",
+      "name": "intercooler",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "charge_air_pipes",
+      "name": "charge air pipes",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "charge_air_hoses",
+      "name": "charge air hoses",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "air_filter",
+      "name": "air filter",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "airbox",
+      "name": "airbox",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "inlet_pipe",
+      "name": "inlet pipe",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "intake_manifold",
+      "name": "intake manifold",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "intake_manifold_gasket",
+      "name": "intake manifold gasket",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "throttle_body",
+      "name": "throttle body",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "throttle_body_gasket",
+      "name": "throttle body gasket",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "maf_sensor",
+      "name": "maf sensor",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "map_sensor",
+      "name": "map sensor",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "iat_sensor",
+      "name": "iat sensor",
+      "system_id": "turbo_intake_boost",
+      "subsystem_id": "turbo_intake_boost.boost",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "water_pump",
+      "name": "water pump",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "water_pump_housing",
+      "name": "water pump housing",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "water_pump_gasket",
+      "name": "water pump gasket",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "water_pump_inlet_seal",
+      "name": "water pump inlet seal",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "water_pump_outlet_seals",
+      "name": "water pump outlet seals",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "water_pump_pipe",
+      "name": "water pump pipe",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "engine_coolant_pipe",
+      "name": "engine coolant pipe",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "thermostat",
+      "name": "thermostat",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "thermostat_housing",
+      "name": "thermostat housing",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "coolant_reservoir",
+      "name": "coolant reservoir",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "reservoir_cap",
+      "name": "reservoir cap",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "coolant_level_sensor",
+      "name": "coolant level sensor",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "coolant_temperature_sensor",
+      "name": "coolant temperature sensor",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "radiator_manual",
+      "name": "radiator manual",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "radiator_automatic",
+      "name": "radiator automatic",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "radiator_hoses",
+      "name": "radiator hoses",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "radiator_mounts",
+      "name": "radiator mounts",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "cooling_fans",
+      "name": "cooling fans",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fan_controller",
+      "name": "fan controller",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fan_relays",
+      "name": "fan relays",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "heater_hoses",
+      "name": "heater hoses",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.coolant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "atf_cooler",
+      "name": "atf cooler",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.atf",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "atf_cooler_connections",
+      "name": "atf cooler connections",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.atf",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "atf_cooler_lines",
+      "name": "atf cooler lines",
+      "system_id": "cooling_heat",
+      "subsystem_id": "cooling_heat.atf",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fuel_tank",
+      "name": "fuel tank",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.fuel",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fuel_tank_straps",
+      "name": "fuel tank straps",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.fuel",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fuel_filler_pipe",
+      "name": "fuel filler pipe",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.fuel",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fuel_cap",
+      "name": "fuel cap",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.fuel",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fuel_pump",
+      "name": "fuel pump",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.fuel",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fuel_pump_control",
+      "name": "fuel pump control",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.fuel",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fuel_pump_seal",
+      "name": "fuel pump seal",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.fuel",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fuel_level_sender",
+      "name": "fuel level sender",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.fuel",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fuel_filter",
+      "name": "fuel filter",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.fuel",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fuel_lines",
+      "name": "fuel lines",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.fuel",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fuel_rail",
+      "name": "fuel rail",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.fuel",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "injectors",
+      "name": "injectors",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.fuel",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "injector_seals",
+      "name": "injector seals",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.fuel",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fuel_pressure_regulator",
+      "name": "fuel pressure regulator",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.fuel",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fuel_pressure_sensor",
+      "name": "fuel pressure sensor",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.fuel",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "evap_canister",
+      "name": "evap canister",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.evap",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "evap_purge_valve",
+      "name": "evap purge valve",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.evap",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "evap_vent_valve",
+      "name": "evap vent valve",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.evap",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "evap_lines",
+      "name": "evap lines",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.evap",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "exhaust_manifold",
+      "name": "exhaust manifold",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.exhaust",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "exhaust_manifold_gasket",
+      "name": "exhaust manifold gasket",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.exhaust",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "primary_catalyst",
+      "name": "primary catalyst",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.exhaust",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "main_catalyst",
+      "name": "main catalyst",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.exhaust",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "front_oxygen_sensor",
+      "name": "front oxygen sensor",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.exhaust",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rear_oxygen_sensor",
+      "name": "rear oxygen sensor",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.exhaust",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "exhaust_pipes",
+      "name": "exhaust pipes",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.exhaust",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "mufflers",
+      "name": "mufflers",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.exhaust",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "exhaust_hangers",
+      "name": "exhaust hangers",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.exhaust",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "exhaust_heat_shields",
+      "name": "exhaust heat shields",
+      "system_id": "fuel_emissions_exhaust",
+      "subsystem_id": "fuel_emissions_exhaust.exhaust",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "manual_gearbox_5",
+      "name": "manual gearbox 5",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "manual_gearbox_6",
+      "name": "manual gearbox 6",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "automatic_gearbox_4",
+      "name": "automatic gearbox 4",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "automatic_gearbox_5",
+      "name": "automatic gearbox 5",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "automatic_gearbox_6",
+      "name": "automatic gearbox 6",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "gearbox_case",
+      "name": "gearbox case",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "gearbox_input_shaft",
+      "name": "gearbox input shaft",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "gearbox_output_shafts",
+      "name": "gearbox output shafts",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "gearbox_gears",
+      "name": "gearbox gears",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "synchros",
+      "name": "synchros",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "gearbox_bearings",
+      "name": "gearbox bearings",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "gearbox_seals",
+      "name": "gearbox seals",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "gearbox_mounts",
+      "name": "gearbox mounts",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "differential",
+      "name": "differential",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "differential_bearings",
+      "name": "differential bearings",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "differential_seals",
+      "name": "differential seals",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "shift_linkage",
+      "name": "shift linkage",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "shift_cables",
+      "name": "shift cables",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "shift_selector",
+      "name": "shift selector",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "reverse_switch",
+      "name": "reverse switch",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "gearbox_speed_sensors",
+      "name": "gearbox speed sensors",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.gearboxes",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "clutch_disc",
+      "name": "clutch disc",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.manual",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "clutch_pressure_plate",
+      "name": "clutch pressure plate",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.manual",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "clutch_release_bearing",
+      "name": "clutch release bearing",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.manual",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "clutch_slave_cylinder",
+      "name": "clutch slave cylinder",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.manual",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "clutch_master_cylinder",
+      "name": "clutch master cylinder",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.manual",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "clutch_hydraulic_lines",
+      "name": "clutch hydraulic lines",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.manual",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "flywheel",
+      "name": "flywheel",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.manual",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "torque_converter",
+      "name": "torque converter",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.automatic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "valve_body",
+      "name": "valve body",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.automatic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "shift_solenoids",
+      "name": "shift solenoids",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.automatic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "pressure_solenoids",
+      "name": "pressure solenoids",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.automatic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "transmission_filter",
+      "name": "transmission filter",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.automatic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "transmission_pump",
+      "name": "transmission pump",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.automatic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "atf_temperature_sensor",
+      "name": "atf temperature sensor",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.automatic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "range_switch",
+      "name": "range switch",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.automatic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "transmission_controller",
+      "name": "transmission controller",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.automatic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "left_driveshaft",
+      "name": "left driveshaft",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.axles",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "right_driveshaft",
+      "name": "right driveshaft",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.axles",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "intermediate_shaft",
+      "name": "intermediate shaft",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.axles",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "inner_cv_joints",
+      "name": "inner cv joints",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.axles",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "outer_cv_joints",
+      "name": "outer cv joints",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.axles",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "cv_boots",
+      "name": "cv boots",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.axles",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "axle_hardware",
+      "name": "axle hardware",
+      "system_id": "transmission_driveline",
+      "subsystem_id": "transmission_driveline.axles",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "engine_ecu",
+      "name": "engine ecu",
+      "system_id": "ecu_immobilizer_security",
+      "subsystem_id": "ecu_immobilizer_security.engine_controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "ignition_cassette",
+      "name": "ignition cassette",
+      "system_id": "ecu_immobilizer_security",
+      "subsystem_id": "ecu_immobilizer_security.engine_controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "ignition_coils",
+      "name": "ignition coils",
+      "system_id": "ecu_immobilizer_security",
+      "subsystem_id": "ecu_immobilizer_security.engine_controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "spark_plugs",
+      "name": "spark plugs",
+      "system_id": "ecu_immobilizer_security",
+      "subsystem_id": "ecu_immobilizer_security.engine_controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "crank_sensor",
+      "name": "crank sensor",
+      "system_id": "ecu_immobilizer_security",
+      "subsystem_id": "ecu_immobilizer_security.engine_controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "cam_sensor",
+      "name": "cam sensor",
+      "system_id": "ecu_immobilizer_security",
+      "subsystem_id": "ecu_immobilizer_security.engine_controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "knock_sensor",
+      "name": "knock sensor",
+      "system_id": "ecu_immobilizer_security",
+      "subsystem_id": "ecu_immobilizer_security.engine_controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "twice_module",
+      "name": "twice module",
+      "system_id": "ecu_immobilizer_security",
+      "subsystem_id": "ecu_immobilizer_security.security",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "cim",
+      "name": "cim",
+      "system_id": "ecu_immobilizer_security",
+      "subsystem_id": "ecu_immobilizer_security.security",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "ism",
+      "name": "ism",
+      "system_id": "ecu_immobilizer_security",
+      "subsystem_id": "ecu_immobilizer_security.security",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "ism_service_kit",
+      "name": "ism service kit",
+      "system_id": "ecu_immobilizer_security",
+      "subsystem_id": "ecu_immobilizer_security.security",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "steering_column_lock",
+      "name": "steering column lock",
+      "system_id": "ecu_immobilizer_security",
+      "subsystem_id": "ecu_immobilizer_security.security",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "keys",
+      "name": "keys",
+      "system_id": "ecu_immobilizer_security",
+      "subsystem_id": "ecu_immobilizer_security.security",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "key_transponder",
+      "name": "key transponder",
+      "system_id": "ecu_immobilizer_security",
+      "subsystem_id": "ecu_immobilizer_security.security",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "key_remote",
+      "name": "key remote",
+      "system_id": "ecu_immobilizer_security",
+      "subsystem_id": "ecu_immobilizer_security.security",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "alternator",
+      "name": "alternator",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.power",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "starter",
+      "name": "starter",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.power",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "battery",
+      "name": "battery",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.power",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "battery_cables",
+      "name": "battery cables",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.power",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "ground_straps",
+      "name": "ground straps",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.power",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "alternator_pulley",
+      "name": "alternator pulley",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.power",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "accessory_belt",
+      "name": "accessory belt",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.power",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "belt_tensioner",
+      "name": "belt tensioner",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.power",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "idler_pulleys",
+      "name": "idler pulleys",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.power",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fuse_boxes",
+      "name": "fuse boxes",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.distribution",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "relays",
+      "name": "relays",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.distribution",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "body_control_module",
+      "name": "body control module",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.distribution",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "dice_module",
+      "name": "dice module",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.distribution",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "electrical_connectors",
+      "name": "electrical connectors",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.distribution",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "engine_harness",
+      "name": "engine harness",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.distribution",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "body_harness",
+      "name": "body harness",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.distribution",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "door_harness",
+      "name": "door harness",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.distribution",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "gearbox_harness",
+      "name": "gearbox harness",
+      "system_id": "charging_starting_wiring",
+      "subsystem_id": "charging_starting_wiring.distribution",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "front_subframe",
+      "name": "front subframe",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rear_subframe",
+      "name": "rear subframe",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "subframe_bushes",
+      "name": "subframe bushes",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "front_axle_stays",
+      "name": "front axle stays",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "structural_fasteners",
+      "name": "structural fasteners",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "floor_access_plugs",
+      "name": "floor access plugs",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "structural_adhesive",
+      "name": "structural adhesive",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rails",
+      "name": "rails",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "sills",
+      "name": "sills",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "floor",
+      "name": "floor",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rear_floor",
+      "name": "rear floor",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "crossmembers",
+      "name": "crossmembers",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "body_mounting_anchors",
+      "name": "body mounting anchors",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "jacking_supports",
+      "name": "jacking supports",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "firewall",
+      "name": "firewall",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "wheelhouses",
+      "name": "wheelhouses",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "roof_structure",
+      "name": "roof structure",
+      "system_id": "body_corrosion_mounts",
+      "subsystem_id": "body_corrosion_mounts.chassis",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "front_calipers",
+      "name": "front calipers",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.friction",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rear_calipers",
+      "name": "rear calipers",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.friction",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "caliper_carriers",
+      "name": "caliper carriers",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.friction",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "caliper_seals",
+      "name": "caliper seals",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.friction",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "front_rotors",
+      "name": "front rotors",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.friction",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rear_rotors",
+      "name": "rear rotors",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.friction",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "front_pads",
+      "name": "front pads",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.friction",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rear_pads",
+      "name": "rear pads",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.friction",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "pad_hardware",
+      "name": "pad hardware",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.friction",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "brake_master_cylinder",
+      "name": "brake master cylinder",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.hydraulic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "brake_booster",
+      "name": "brake booster",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.hydraulic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "brake_vacuum_lines",
+      "name": "brake vacuum lines",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.hydraulic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "abs_hydraulic_unit",
+      "name": "abs hydraulic unit",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.hydraulic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "abs_controller",
+      "name": "abs controller",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.hydraulic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "abs_sensors",
+      "name": "abs sensors",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.hydraulic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "brake_pipes",
+      "name": "brake pipes",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.hydraulic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "brake_hoses",
+      "name": "brake hoses",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.hydraulic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "brake_fluid_reservoir",
+      "name": "brake fluid reservoir",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.hydraulic",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "parking_brake_shoes",
+      "name": "parking brake shoes",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.parking",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "parking_brake_cables",
+      "name": "parking brake cables",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.parking",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "parking_brake_lever",
+      "name": "parking brake lever",
+      "system_id": "brakes_hydraulics",
+      "subsystem_id": "brakes_hydraulics.parking",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "front_control_arms",
+      "name": "front control arms",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rear_control_arms",
+      "name": "rear control arms",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "trailing_arms",
+      "name": "trailing arms",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "suspension_bushes",
+      "name": "suspension bushes",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "ball_joints",
+      "name": "ball joints",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "front_springs",
+      "name": "front springs",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rear_springs",
+      "name": "rear springs",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "front_struts",
+      "name": "front struts",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rear_dampers",
+      "name": "rear dampers",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "top_mounts",
+      "name": "top mounts",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "bump_stops",
+      "name": "bump stops",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "dust_boots",
+      "name": "dust boots",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "stabilizer_bars",
+      "name": "stabilizer bars",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "stabilizer_links",
+      "name": "stabilizer links",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "stabilizer_bushes",
+      "name": "stabilizer bushes",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "front_hub",
+      "name": "front hub",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rear_hub",
+      "name": "rear hub",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "front_wheel_bearings",
+      "name": "front wheel bearings",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rear_wheel_bearings",
+      "name": "rear wheel bearings",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "wheels",
+      "name": "wheels",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "tyres",
+      "name": "tyres",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.suspension",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "steering_rack",
+      "name": "steering rack",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.steering",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "steering_column",
+      "name": "steering column",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.steering",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "tie_rods",
+      "name": "tie rods",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.steering",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "tie_rod_ends",
+      "name": "tie rod ends",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.steering",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "power_steering_pump",
+      "name": "power steering pump",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.steering",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "steering_reservoir",
+      "name": "steering reservoir",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.steering",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "steering_hoses",
+      "name": "steering hoses",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.steering",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "steering_rack_boots",
+      "name": "steering rack boots",
+      "system_id": "steering_suspension",
+      "subsystem_id": "steering_suspension.steering",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "heater_core",
+      "name": "heater core",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.hvac",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "blower_motor",
+      "name": "blower motor",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.hvac",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "blower_controller",
+      "name": "blower controller",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.hvac",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "blend_actuators",
+      "name": "blend actuators",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.hvac",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "heater_control_unit",
+      "name": "heater control unit",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.hvac",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "cabin_filter",
+      "name": "cabin filter",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.hvac",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "hvac_housing",
+      "name": "hvac housing",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.hvac",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "hvac_drains",
+      "name": "hvac drains",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.hvac",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "ac_compressor",
+      "name": "ac compressor",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.ac",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "ac_condenser",
+      "name": "ac condenser",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.ac",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "ac_evaporator",
+      "name": "ac evaporator",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.ac",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "ac_expansion_valve",
+      "name": "ac expansion valve",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.ac",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "ac_receiver_drier",
+      "name": "ac receiver drier",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.ac",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "ac_pressure_sensor",
+      "name": "ac pressure sensor",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.ac",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "ac_lines",
+      "name": "ac lines",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.ac",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "ac_seals",
+      "name": "ac seals",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.ac",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "driver_airbag",
+      "name": "driver airbag",
+      "system_id": "restraints_safety",
+      "subsystem_id": "restraints_safety.safety",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "passenger_airbag",
+      "name": "passenger airbag",
+      "system_id": "restraints_safety",
+      "subsystem_id": "restraints_safety.safety",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "side_airbags",
+      "name": "side airbags",
+      "system_id": "restraints_safety",
+      "subsystem_id": "restraints_safety.safety",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "curtain_airbags",
+      "name": "curtain airbags",
+      "system_id": "restraints_safety",
+      "subsystem_id": "restraints_safety.safety",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "airbag_controller",
+      "name": "airbag controller",
+      "system_id": "restraints_safety",
+      "subsystem_id": "restraints_safety.safety",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "crash_sensors",
+      "name": "crash sensors",
+      "system_id": "restraints_safety",
+      "subsystem_id": "restraints_safety.safety",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "clock_spring",
+      "name": "clock spring",
+      "system_id": "restraints_safety",
+      "subsystem_id": "restraints_safety.safety",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "front_seatbelts",
+      "name": "front seatbelts",
+      "system_id": "restraints_safety",
+      "subsystem_id": "restraints_safety.safety",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rear_seatbelts",
+      "name": "rear seatbelts",
+      "system_id": "restraints_safety",
+      "subsystem_id": "restraints_safety.safety",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "pretensioners",
+      "name": "pretensioners",
+      "system_id": "restraints_safety",
+      "subsystem_id": "restraints_safety.safety",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "seat_occupancy_sensor",
+      "name": "seat occupancy sensor",
+      "system_id": "restraints_safety",
+      "subsystem_id": "restraints_safety.safety",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "occupant_protection_trim",
+      "name": "occupant protection trim",
+      "system_id": "restraints_safety",
+      "subsystem_id": "restraints_safety.safety",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "instrument_cluster",
+      "name": "instrument cluster",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "sid_display",
+      "name": "sid display",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "audio_head_unit",
+      "name": "audio head unit",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "amplifier",
+      "name": "amplifier",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "speakers",
+      "name": "speakers",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "navigation",
+      "name": "navigation",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "switches",
+      "name": "switches",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "pedal_assembly",
+      "name": "pedal assembly",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "hand_controls",
+      "name": "hand controls",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "seat_frames",
+      "name": "seat frames",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "seat_tracks",
+      "name": "seat tracks",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "seat_motors",
+      "name": "seat motors",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "seat_heaters",
+      "name": "seat heaters",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "door_locks",
+      "name": "door locks",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "lock_actuators",
+      "name": "lock actuators",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "window_regulators",
+      "name": "window regulators",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "window_motors",
+      "name": "window motors",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "interior_trim",
+      "name": "interior trim",
+      "system_id": "interior_ergonomics",
+      "subsystem_id": "interior_ergonomics.controls",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "doors",
+      "name": "doors",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "door_hinges",
+      "name": "door hinges",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "mirrors",
+      "name": "mirrors",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "mirror_motors",
+      "name": "mirror motors",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "hood",
+      "name": "hood",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "hood_latch",
+      "name": "hood latch",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "trunk_tailgate",
+      "name": "trunk tailgate",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "trunk_latch",
+      "name": "trunk latch",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "bumpers",
+      "name": "bumpers",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "grilles",
+      "name": "grilles",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "headlamps",
+      "name": "headlamps",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "headlamp_ballasts",
+      "name": "headlamp ballasts",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "fog_lamps",
+      "name": "fog lamps",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "tail_lamps",
+      "name": "tail lamps",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "indicator_lamps",
+      "name": "indicator lamps",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "lamp_leveling",
+      "name": "lamp leveling",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "wiper_motor",
+      "name": "wiper motor",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "wiper_linkage",
+      "name": "wiper linkage",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "washer_pump",
+      "name": "washer pump",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "washer_reservoir",
+      "name": "washer reservoir",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "washer_nozzles",
+      "name": "washer nozzles",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "windshield",
+      "name": "windshield",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "side_glass",
+      "name": "side glass",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "rear_glass",
+      "name": "rear glass",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "weather_seals",
+      "name": "weather seals",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.exterior",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "convertible_roof",
+      "name": "convertible roof",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.convertible",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "roof_hydraulic_pump",
+      "name": "roof hydraulic pump",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.convertible",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "roof_hydraulic_cylinders",
+      "name": "roof hydraulic cylinders",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.convertible",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "roof_hydraulic_lines",
+      "name": "roof hydraulic lines",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.convertible",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "roof_sensors",
+      "name": "roof sensors",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.convertible",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "roof_controller",
+      "name": "roof controller",
+      "system_id": "body_exterior_glazing",
+      "subsystem_id": "body_exterior_glazing.convertible",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "engine_oil",
+      "name": "engine oil",
+      "system_id": "maintenance_consumables",
+      "subsystem_id": "maintenance_consumables.service",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "coolant",
+      "name": "coolant",
+      "system_id": "maintenance_consumables",
+      "subsystem_id": "maintenance_consumables.service",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "atf",
+      "name": "atf",
+      "system_id": "maintenance_consumables",
+      "subsystem_id": "maintenance_consumables.service",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "manual_gear_oil",
+      "name": "manual gear oil",
+      "system_id": "maintenance_consumables",
+      "subsystem_id": "maintenance_consumables.service",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "power_steering_fluid",
+      "name": "power steering fluid",
+      "system_id": "maintenance_consumables",
+      "subsystem_id": "maintenance_consumables.service",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "brake_fluid",
+      "name": "brake fluid",
+      "system_id": "maintenance_consumables",
+      "subsystem_id": "maintenance_consumables.service",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "filters_service_kit",
+      "name": "filters service kit",
+      "system_id": "maintenance_consumables",
+      "subsystem_id": "maintenance_consumables.service",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "service_fasteners",
+      "name": "service fasteners",
+      "system_id": "maintenance_consumables",
+      "subsystem_id": "maintenance_consumables.service",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Body, engine, gearbox, options and part-revision verification required."
+      ],
+      "factory_presence_verified": false
+    },
+    {
+      "id": "ac_compressor_clutch",
+      "name": "A/C compressor clutch, pulley and coil service assembly",
+      "system_id": "hvac_defrost_water",
+      "subsystem_id": "hvac_defrost_water.refrigerant",
+      "inventory_status": "serviceable_group_to_verify",
+      "research_targets": [
+        "9440",
+        "9600"
+      ],
+      "conditions": [
+        "Exact compressor type, chassis cutoff and kit contents required."
+      ],
+      "factory_presence_verified": false
+    }
+  ],
+  "fastener_specification_contract": [
+    "diameter_mm",
+    "thread_pitch_mm",
+    "length_mm",
+    "head_type",
+    "strength_class",
+    "coating",
+    "torque",
+    "angle",
+    "reuse_rule",
+    "joint_application",
+    "source_ids"
+  ]
+}

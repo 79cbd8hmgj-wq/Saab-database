@@ -1,0 +1,1485 @@
+{
+  "as_of": "2026-10-14",
+  "scoring_allowed": false,
+  "configurations": [
+    {
+      "id": "readiness:usprod-9440-2003-7ad77133f287",
+      "configuration_id": "usprod-9440-2003-7ad77133f287",
+      "platform": "9440",
+      "model_year": 2003,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2003-00c7717ee322",
+      "configuration_id": "usprod-9440-2003-00c7717ee322",
+      "platform": "9440",
+      "model_year": 2003,
+      "engine_code": "B207L",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2003-6d6530debf2c",
+      "configuration_id": "usprod-9440-2003-6d6530debf2c",
+      "platform": "9440",
+      "model_year": 2003,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2004-2553135925d7",
+      "configuration_id": "usprod-9440-2004-2553135925d7",
+      "platform": "9440",
+      "model_year": 2004,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2004-c9c6db70f1a3",
+      "configuration_id": "usprod-9440-2004-c9c6db70f1a3",
+      "platform": "9440",
+      "model_year": 2004,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2004-eca7d0654a6a",
+      "configuration_id": "usprod-9440-2004-eca7d0654a6a",
+      "platform": "9440",
+      "model_year": 2004,
+      "engine_code": "B207L",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2005-ca7c8d0fad7d",
+      "configuration_id": "usprod-9440-2005-ca7c8d0fad7d",
+      "platform": "9440",
+      "model_year": 2005,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2005-35a04ffcaa6e",
+      "configuration_id": "usprod-9440-2005-35a04ffcaa6e",
+      "platform": "9440",
+      "model_year": 2005,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2005-b853ad709829",
+      "configuration_id": "usprod-9440-2005-b853ad709829",
+      "platform": "9440",
+      "model_year": 2005,
+      "engine_code": "B207L",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2005-d2b111c98c63",
+      "configuration_id": "usprod-9440-2005-d2b111c98c63",
+      "platform": "9440",
+      "model_year": 2005,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2006-66a0bba1ffb4",
+      "configuration_id": "usprod-9440-2006-66a0bba1ffb4",
+      "platform": "9440",
+      "model_year": 2006,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2006-3f82ebaa461c",
+      "configuration_id": "usprod-9440-2006-3f82ebaa461c",
+      "platform": "9440",
+      "model_year": 2006,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2007-47153ed320be",
+      "configuration_id": "usprod-9440-2007-47153ed320be",
+      "platform": "9440",
+      "model_year": 2007,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2007-3b3b7d6492e4",
+      "configuration_id": "usprod-9440-2007-3b3b7d6492e4",
+      "platform": "9440",
+      "model_year": 2007,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2007-f300939418b8",
+      "configuration_id": "usprod-9440-2007-f300939418b8",
+      "platform": "9440",
+      "model_year": 2007,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2007-d6e18d73fb49",
+      "configuration_id": "usprod-9440-2007-d6e18d73fb49",
+      "platform": "9440",
+      "model_year": 2007,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2008-409da8b88751",
+      "configuration_id": "usprod-9440-2008-409da8b88751",
+      "platform": "9440",
+      "model_year": 2008,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2008-d6307a45a509",
+      "configuration_id": "usprod-9440-2008-d6307a45a509",
+      "platform": "9440",
+      "model_year": 2008,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2009-10888383c790",
+      "configuration_id": "usprod-9440-2009-10888383c790",
+      "platform": "9440",
+      "model_year": 2009,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2009-f167f5aa1a8c",
+      "configuration_id": "usprod-9440-2009-f167f5aa1a8c",
+      "platform": "9440",
+      "model_year": 2009,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2010-4bd123807bb5",
+      "configuration_id": "usprod-9440-2010-4bd123807bb5",
+      "platform": "9440",
+      "model_year": 2010,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2010-d37e00066c02",
+      "configuration_id": "usprod-9440-2010-d37e00066c02",
+      "platform": "9440",
+      "model_year": 2010,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2010-fefc85694efb",
+      "configuration_id": "usprod-9440-2010-fefc85694efb",
+      "platform": "9440",
+      "model_year": 2010,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2010-9bad9e9b8daf",
+      "configuration_id": "usprod-9440-2010-9bad9e9b8daf",
+      "platform": "9440",
+      "model_year": 2010,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2011-6d71a632955b",
+      "configuration_id": "usprod-9440-2011-6d71a632955b",
+      "platform": "9440",
+      "model_year": 2011,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2011-66a3c399ebfd",
+      "configuration_id": "usprod-9440-2011-66a3c399ebfd",
+      "platform": "9440",
+      "model_year": 2011,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2011-67b077eb5391",
+      "configuration_id": "usprod-9440-2011-67b077eb5391",
+      "platform": "9440",
+      "model_year": 2011,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9440-2011-6067b39794ec",
+      "configuration_id": "usprod-9440-2011-6067b39794ec",
+      "platform": "9440",
+      "model_year": 2011,
+      "engine_code": "B207R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-1999-80270f1fc57b",
+      "configuration_id": "usprod-9600-1999-80270f1fc57b",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B235E",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-1999-481bdb6b5cfc",
+      "configuration_id": "usprod-9600-1999-481bdb6b5cfc",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B235E",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-1999-19692af2405b",
+      "configuration_id": "usprod-9600-1999-19692af2405b",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B235E",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-1999-f749361fa49d",
+      "configuration_id": "usprod-9600-1999-f749361fa49d",
+      "platform": "9600",
+      "model_year": 1999,
+      "engine_code": "B235E",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2000-2048481de83b",
+      "configuration_id": "usprod-9600-2000-2048481de83b",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2000-5a801d274ac4",
+      "configuration_id": "usprod-9600-2000-5a801d274ac4",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2000-d8414d89a6b7",
+      "configuration_id": "usprod-9600-2000-d8414d89a6b7",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B235E",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2000-3208b53eab2b",
+      "configuration_id": "usprod-9600-2000-3208b53eab2b",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B235E",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2000-76e96e57f0ea",
+      "configuration_id": "usprod-9600-2000-76e96e57f0ea",
+      "platform": "9600",
+      "model_year": 2000,
+      "engine_code": "B235E",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2001-e588ecee2743",
+      "configuration_id": "usprod-9600-2001-e588ecee2743",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2001-d4e89c9ad0f9",
+      "configuration_id": "usprod-9600-2001-d4e89c9ad0f9",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2001-29a2d4ee6170",
+      "configuration_id": "usprod-9600-2001-29a2d4ee6170",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B235E",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2001-59d2d33c8ca4",
+      "configuration_id": "usprod-9600-2001-59d2d33c8ca4",
+      "platform": "9600",
+      "model_year": 2001,
+      "engine_code": "B235E",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2002-f3e877f40269",
+      "configuration_id": "usprod-9600-2002-f3e877f40269",
+      "platform": "9600",
+      "model_year": 2002,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2002-a6e3f4219fe1",
+      "configuration_id": "usprod-9600-2002-a6e3f4219fe1",
+      "platform": "9600",
+      "model_year": 2002,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2002-e84ffc126de4",
+      "configuration_id": "usprod-9600-2002-e84ffc126de4",
+      "platform": "9600",
+      "model_year": 2002,
+      "engine_code": "B235E",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2002-b7a8d2a5b366",
+      "configuration_id": "usprod-9600-2002-b7a8d2a5b366",
+      "platform": "9600",
+      "model_year": 2002,
+      "engine_code": "B235E",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2003-5fa449d61161",
+      "configuration_id": "usprod-9600-2003-5fa449d61161",
+      "platform": "9600",
+      "model_year": 2003,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2003-7cc94c616980",
+      "configuration_id": "usprod-9600-2003-7cc94c616980",
+      "platform": "9600",
+      "model_year": 2003,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2003-a792094bea10",
+      "configuration_id": "usprod-9600-2003-a792094bea10",
+      "platform": "9600",
+      "model_year": 2003,
+      "engine_code": "B235E",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2003-e2e98d51f64d",
+      "configuration_id": "usprod-9600-2003-e2e98d51f64d",
+      "platform": "9600",
+      "model_year": 2003,
+      "engine_code": "B235E",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2004-2ff32b6a65ee",
+      "configuration_id": "usprod-9600-2004-2ff32b6a65ee",
+      "platform": "9600",
+      "model_year": 2004,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2004-c6e52f7b5bb4",
+      "configuration_id": "usprod-9600-2004-c6e52f7b5bb4",
+      "platform": "9600",
+      "model_year": 2004,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2004-553a2f9acef2",
+      "configuration_id": "usprod-9600-2004-553a2f9acef2",
+      "platform": "9600",
+      "model_year": 2004,
+      "engine_code": "B235L",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2004-2153ecf4425d",
+      "configuration_id": "usprod-9600-2004-2153ecf4425d",
+      "platform": "9600",
+      "model_year": 2004,
+      "engine_code": "B235L",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2004-887c63b87b24",
+      "configuration_id": "usprod-9600-2004-887c63b87b24",
+      "platform": "9600",
+      "model_year": 2004,
+      "engine_code": "B235E",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2005-6a1094ac89d2",
+      "configuration_id": "usprod-9600-2005-6a1094ac89d2",
+      "platform": "9600",
+      "model_year": 2005,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2005-518673045c1a",
+      "configuration_id": "usprod-9600-2005-518673045c1a",
+      "platform": "9600",
+      "model_year": 2005,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2005-64bf8e34a0ff",
+      "configuration_id": "usprod-9600-2005-64bf8e34a0ff",
+      "platform": "9600",
+      "model_year": 2005,
+      "engine_code": "B235L",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2005-a15f61481caf",
+      "configuration_id": "usprod-9600-2005-a15f61481caf",
+      "platform": "9600",
+      "model_year": 2005,
+      "engine_code": "B235L",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2005-a1bfc0b97128",
+      "configuration_id": "usprod-9600-2005-a1bfc0b97128",
+      "platform": "9600",
+      "model_year": 2005,
+      "engine_code": "B235E",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2006-1476c9d19a82",
+      "configuration_id": "usprod-9600-2006-1476c9d19a82",
+      "platform": "9600",
+      "model_year": 2006,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2006-bd8089c1716b",
+      "configuration_id": "usprod-9600-2006-bd8089c1716b",
+      "platform": "9600",
+      "model_year": 2006,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2006-69f78cb8a8bf",
+      "configuration_id": "usprod-9600-2006-69f78cb8a8bf",
+      "platform": "9600",
+      "model_year": 2006,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2006-89c78a11d5ac",
+      "configuration_id": "usprod-9600-2006-89c78a11d5ac",
+      "platform": "9600",
+      "model_year": 2006,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2007-99896cc578b3",
+      "configuration_id": "usprod-9600-2007-99896cc578b3",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2007-b78c213b7398",
+      "configuration_id": "usprod-9600-2007-b78c213b7398",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2007-36a67a699872",
+      "configuration_id": "usprod-9600-2007-36a67a699872",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2007-213a3a33935c",
+      "configuration_id": "usprod-9600-2007-213a3a33935c",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2007-c327794cbfef",
+      "configuration_id": "usprod-9600-2007-c327794cbfef",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2007-9d930be2a7ce",
+      "configuration_id": "usprod-9600-2007-9d930be2a7ce",
+      "platform": "9600",
+      "model_year": 2007,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2008-66fcbe728e78",
+      "configuration_id": "usprod-9600-2008-66fcbe728e78",
+      "platform": "9600",
+      "model_year": 2008,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2008-90bc26f7f0ff",
+      "configuration_id": "usprod-9600-2008-90bc26f7f0ff",
+      "platform": "9600",
+      "model_year": 2008,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2008-3bc4ca7c49ed",
+      "configuration_id": "usprod-9600-2008-3bc4ca7c49ed",
+      "platform": "9600",
+      "model_year": 2008,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2008-a2c8b55ed518",
+      "configuration_id": "usprod-9600-2008-a2c8b55ed518",
+      "platform": "9600",
+      "model_year": 2008,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2009-75a3e290bc93",
+      "configuration_id": "usprod-9600-2009-75a3e290bc93",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2009-fb1c554efceb",
+      "configuration_id": "usprod-9600-2009-fb1c554efceb",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2009-a4211f0578ac",
+      "configuration_id": "usprod-9600-2009-a4211f0578ac",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2009-5e6ccee798f5",
+      "configuration_id": "usprod-9600-2009-5e6ccee798f5",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2009-d3204ec60adb",
+      "configuration_id": "usprod-9600-2009-d3204ec60adb",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    },
+    {
+      "id": "readiness:usprod-9600-2009-e1b331c94576",
+      "configuration_id": "usprod-9600-2009-e1b331c94576",
+      "platform": "9600",
+      "model_year": 2009,
+      "engine_code": "B235R",
+      "reliability": "insufficient_evidence",
+      "parts_availability": "insufficient_evidence",
+      "repair_economics": "insufficient_evidence",
+      "overall": "unranked",
+      "blockers": [
+        "Factory original-component and revision identities incomplete",
+        "Gearbox tag/application and software calibration not certified",
+        "Regional per-application replacement/stock packages incomplete",
+        "Complete DIY/shop repair costs absent",
+        "No validated population failure incidence or comparative durability"
+      ]
+    }
+  ],
+  "excluded_from_current_enumeration": [
+    "Canadian configurations",
+    "Manual gearbox configurations",
+    "9440 convertibles"
+  ],
+  "enumeration_is_not_brandwide_vehicle_universe": true,
+  "target_scope": {
+    "schema_version": "1.0",
+    "decision_date": "2026-10-14",
+    "markets": [
+      "US"
+    ],
+    "drivetrain": "FWD",
+    "transmissions": "automatic_only",
+    "families": {
+      "9-3-9440": {
+        "model_years": [
+          2003,
+          2011
+        ],
+        "engine_families": [
+          "B207"
+        ],
+        "bodies": [
+          "sedan",
+          "wagon"
+        ]
+      },
+      "9-5-9600": {
+        "model_years": [
+          1998,
+          2009
+        ],
+        "engine_families": [
+          "B205",
+          "B235"
+        ],
+        "bodies": [
+          "sedan",
+          "wagon"
+        ]
+      }
+    },
+    "excluded": [
+      "Canada-only target applications",
+      "manual target applications",
+      "convertible target applications",
+      "V6",
+      "diesel",
+      "XWD",
+      "9400",
+      "9650"
+    ],
+    "reference_policy": "Preserve prior excluded-source records for provenance and donor research; do not count them as target coverage or outstanding target work.",
+    "unknown_scope_policy": "Missing market/body/gearbox dimensions remain unknown. A target research filter does not certify factory U.S. fitment."
+  },
+  "remaining_target_enumeration_question": "Whether any MY1998 US 9600 configurations existed; absence from existing register is not factory proof."
+}

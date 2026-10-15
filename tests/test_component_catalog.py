@@ -1,0 +1,128 @@
+import copy
+import sys
+import unittest
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
+import component_catalog as catalog
+
+
+class ComponentCatalogGuards(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.catalog = catalog.build()
+
+    def test_source_groups_never_become_cross_product(self):
+        scope = {"platforms": ["9-3-9440", "9-5-9600"],
+                 "engine_codes": ["B207R", "B235R"],
+                 "groups": [{"platforms": ["9-3-9440"], "engine_codes": ["B207R"]},
+                            {"platforms": ["9-5-9600"], "engine_codes": ["B235R"]}]}
+        self.assertEqual([(x["platforms"], x["engine_codes"]) for x in catalog.project_scope(scope)],
+                         [(["9-3-9440"], ["B207R"]), (["9-5-9600"], ["B235R"])])
+
+    def test_unknown_does_not_become_all(self):
+        self.assertEqual(catalog.project_scope({}), [])
+        self.assertNotIn("model_years", catalog.project_scope({"platforms": ["9-3-9440"]})[0])
+
+    def test_exclusions_and_wrong_engines(self):
+        for scope in ({"platforms": ["9-3-9400"]},
+                      {"platforms": ["9-3-9440"], "engine_codes": ["B284"]},
+                      {"platforms": ["9-5-9600"], "model_years": [2010]},
+                      {"platforms": ["9-3-9440"], "drivetrain": "XWD"}):
+            self.assertEqual(catalog.project_scope(scope), [])
+
+    def test_candidate_cannot_be_promoted(self):
+        c = copy.deepcopy(self.catalog)
+        edge = next(r for r in c["interchanges"] if r["category"] == "E")
+        edge["donor_approved"] = True
+        self.assertTrue(any("marked approved" in e for e in catalog.validate(c)))
+
+    def test_narrowed_scope_excludes_canada_manual_and_convertible(self):
+        for extra in ({"markets": ["CA"]}, {"transmission_codes": ["manual"]},
+                      {"body_styles": ["CV"]}):
+            self.assertEqual(catalog.project_scope(dict(platforms=["9-3-9440"], **extra)), [])
+        raw = dict(platforms=["9-3-9440"], body_styles=["4D", "5D", "CV"],
+                   transmission_codes=["FA57", "F40"], markets=["US", "CA"])
+        saved = copy.deepcopy(raw)
+        projected = catalog.project_scope(raw)[0]
+        self.assertEqual(projected["body_styles"], ["4D", "5D"])
+        self.assertEqual(projected["transmission_codes"], ["FA57"])
+        self.assertEqual(raw, saved)
+
+    def test_manual_inventory_and_v6_gearboxes_are_reference_only(self):
+        for a in self.catalog["assembly_inventory"]:
+            if a["subsystem_id"].endswith((".manual", ".convertible")):
+                self.assertFalse(a["target_eligible"])
+        self.assertEqual({g["id"] for g in self.catalog["gearbox_families"]},
+                         {"gb:9600:af30", "gb:9600:fa57", "gb:9440:fa57"})
+
+    def test_pump_screw_quarantine(self):
+        c = copy.deepcopy(self.catalog)
+        edge = copy.deepcopy(c["interchanges"][0])
+        edge.update(id="int:bad:pump-screw", from_component_id="cmp:saab_service:93166829:water_pump",
+                    to_component_id="cmp:saab_service:92151823:structural_fasteners", category="E")
+        c["interchanges"].append(edge)
+        self.assertTrue(any("pump-to-screw" in e for e in catalog.validate(c)))
+
+    def test_unknown_complete_cost_is_not_zero_or_sticker_price(self):
+        c = copy.deepcopy(self.catalog)
+        c["repair_scenarios"][0]["complete_professional_total"] = 59.96
+        self.assertTrue(any("Incomplete repair" in e for e in catalog.validate(c)))
+
+    def test_partial_bills_must_add_up(self):
+        c = copy.deepcopy(self.catalog)
+        repair = next(r for r in c["repair_scenarios"] if r.get("priced_parts_subtotal"))
+        repair["priced_parts_subtotal"] += 1
+        self.assertTrue(any("arithmetic" in e for e in catalog.validate(c)))
+
+    def test_early_9600_valve_body_requires_harness_not_ng93_inference(self):
+        p = next(p for p in self.catalog["repair_procedures"] if p["id"] == "procedure:at:9600-valve-harness")
+        self.assertEqual(p["scope"]["platforms"], ["9-5-9600"])
+        self.assertEqual(p["production_restrictions"][0]["value"], "02GV706486")
+        gm = [r for r in self.catalog["interchanges"] if r["id"].startswith("int:at:gm:")]
+        self.assertEqual(len(gm), 2)
+        self.assertTrue(all(r["category"] == "E" and not r["fitment_approved"] for r in gm))
+
+    def test_missing_provenance_and_currency_rejected(self):
+        c = copy.deepcopy(self.catalog)
+        c["supplier_offerings"][0]["currency"] = "dollars"
+        c["components"][0]["source_ids"] = ["nonexistent-source"]
+        errors = catalog.validate(c)
+        self.assertTrue(any("currency" in e for e in errors))
+        self.assertTrue(any("provenance" in e for e in errors))
+
+    def test_reviewed_evidence_change_requires_reconciliation(self):
+        c = copy.deepcopy(self.catalog)
+        c["research_reuse_index"][0]["original_sha256"] = "unreviewed"
+        self.assertTrue(any("Unexplained change" in e for e in catalog.validate(c)))
+
+    def test_supersession_cycles_and_conflicts_are_rejected(self):
+        c = copy.deepcopy(self.catalog)
+        left, right = "cmp:saab_service:55571391:spark_plugs", "cmp:saab_service_reference:12787099:spark_plugs"
+        c["part_number_relationships"].extend([
+            dict(id="bad:sup:a", component_id=left, from_component_id=left, to_component_id=right,
+                 approved=True, application_ids=["app:hedin:55571391:petrol"], source_ids=["cat-src-hedin-plug"]),
+            dict(id="bad:sup:b", component_id=right, from_component_id=right, to_component_id=left,
+                 approved=True, application_ids=["app:hedin:55571391:petrol"], source_ids=["cat-src-hedin-plug"])])
+        self.assertTrue(any("Cyclic" in e for e in catalog.validate(c)))
+
+    def test_gearbox_example_does_not_prove_engine_application(self):
+        c = copy.deepcopy(self.catalog)
+        c["gearbox_families"][0]["production_application_verified"] = True
+        self.assertTrue(any("Gearbox example" in e for e in catalog.validate(c)))
+
+    def test_mixed_repair_currency_is_rejected(self):
+        c = copy.deepcopy(self.catalog)
+        repair = next(r for r in c["repair_scenarios"] if r.get("priced_parts_subtotal"))
+        repair["parts_bill"][0]["currency"] = "EUR"
+        self.assertTrue(any("Mixed repair currencies" in e for e in catalog.validate(c)))
+
+    def test_og95_cannot_gain_an_af40_factory_application(self):
+        c = copy.deepcopy(self.catalog)
+        app = next(a for a in c["applications"] if a["scope"].get("platforms") == ["9-5-9600"])
+        app["scope"]["transmission_codes"] = ["AF40"]
+        self.assertTrue(any("platform/gearbox" in e for e in catalog.validate(c)))
+
+
+if __name__ == "__main__":
+    unittest.main()

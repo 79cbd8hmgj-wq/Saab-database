@@ -1,0 +1,110 @@
+{
+  "schema_version": "0.1",
+  "status": "evidence_mapping_not_scored",
+  "weights": {
+    "reliability": 0.4,
+    "parts_availability": 0.3,
+    "repair_economics": 0.3
+  },
+  "score_policy": {
+    "unknown_value": null,
+    "require_complete_critical_systems": true,
+    "no_imputed_failure_rates": true
+  },
+  "configurations": [
+    {
+      "id": "ng93-b207-fwd",
+      "generation": "9440",
+      "engine": "B207",
+      "drive": "FWD",
+      "transmission": "variant_required",
+      "scores": {
+        "reliability": null,
+        "parts_availability": null,
+        "repair_economics": null,
+        "overall": null
+      },
+      "scenarios": [
+        {
+          "id": "intake-valves",
+          "cost_parts_eight_genuine_usd_range": [
+            314.48,
+            363.92
+          ],
+          "total_installed_cost_usd": null,
+          "frequency": null
+        },
+        {
+          "id": "water-pump",
+          "part_number": "12630084",
+          "observed_part_price_usd": 159.5,
+          "installed_cost_usd": null
+        },
+        {
+          "id": "t8-ecm",
+          "programming_only_usd_range": [
+            75,
+            89.99
+          ],
+          "donor_cost_usd": null,
+          "installed_cost_usd": null
+        },
+        {
+          "id": "fa57-cooler",
+          "only_if": "early FA57 chassis scope",
+          "installed_cost_usd": null
+        }
+      ]
+    },
+    {
+      "id": "og95-b235-fwd",
+      "generation": "9600",
+      "engine": "B235",
+      "drive": "FWD",
+      "transmission": "variant_required",
+      "scores": {
+        "reliability": null,
+        "parts_availability": null,
+        "repair_economics": null,
+        "overall": null
+      },
+      "scenarios": [
+        {
+          "id": "t7-cassette",
+          "part_number": "32022255",
+          "observed_part_price_usd": 316.1,
+          "installed_cost_usd": null
+        },
+        {
+          "id": "automatic-radiator",
+          "only_if": "compatible automatic gearbox",
+          "part_number": "32019620",
+          "observed_part_price_usd": 211.98,
+          "installed_cost_usd": null
+        },
+        {
+          "id": "starter",
+          "part_number": "32101497",
+          "observed_part_price_usd": 194.99,
+          "installed_cost_usd": null
+        },
+        {
+          "id": "sportcombi-structural-rust",
+          "only_if": "5D",
+          "installed_cost_usd": null
+        },
+        {
+          "id": "early-pcv",
+          "only_if": "applicable early MY",
+          "part_number": "55561200",
+          "installed_cost_usd": null
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "docs/research/ng93-b207-complete-purchase-dossier-20261014.md",
+    "docs/research/og95-b205-b235-complete-purchase-dossier-20261014.md",
+    "docs/research/us-retail-parts-supply-snapshot.md"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "schema_version": "0.1",
+  "purpose": "Component-by-component verification before scoring",
+  "scope": [
+    "9-3 9440 B207 FWD",
+    "9-5 9600 B205/B235 FWD"
+  ],
+  "exclude": [
+    "9-5 9650"
+  ],
+  "verification_fields": [
+    "system",
+    "subsystem",
+    "factory_part_number",
+    "factory_revision",
+    "vehicle_application",
+    "vin_chassis_limits",
+    "gearbox_body_variants",
+    "saab_wis_reference",
+    "saab_epc_reference",
+    "original_failure_mechanism",
+    "replacement_sku",
+    "replacement_brand",
+    "cross_brand_oem_identity",
+    "donor_interchange",
+    "fitment_proof",
+    "current_supplier_stock",
+    "price_observed_date",
+    "part_price",
+    "required_tools",
+    "fluids_gaskets",
+    "labor_hours_source",
+    "total_diy_cost",
+    "total_professional_cost",
+    "reliability_upgrade_evidence",
+    "verification_status"
+  ],
+  "status_values": [
+    "verified_factory",
+    "verified_oem_identity",
+    "supplier_claim",
+    "hypothesis",
+    "unknown"
+  ],
+  "systems": [
+    {
+      "id": "engine",
+      "components": [
+        "block",
+        "head",
+        "intake valves",
+        "exhaust valves",
+        "timing and balance chains",
+        "tensioners",
+        "oil pump",
+        "oil pickup",
+        "PCV",
+        "turbocharger",
+        "intercooler",
+        "intake",
+        "exhaust manifold",
+        "catalyst",
+        "engine mounts"
+      ]
+    },
+    {
+      "id": "fuel_ignition",
+      "components": [
+        "fuel pump",
+        "fuel pressure regulation",
+        "injectors",
+        "ignition cassette or coils",
+        "spark plugs",
+        "throttle",
+        "oxygen sensors",
+        "MAF or MAP"
+      ]
+    },
+    {
+      "id": "cooling",
+      "components": [
+        "radiator manual",
+        "radiator automatic",
+        "water pump",
+        "thermostat",
+        "fans",
+        "coolant reservoir",
+        "hoses",
+        "heater core",
+        "oil and ATF coolers"
+      ]
+    },
+    {
+      "id": "transmission",
+      "components": [
+        "manual gearbox by code",
+        "automatic gearbox by code",
+        "clutch",
+        "flywheel",
+        "torque converter",
+        "valve body",
+        "TCM",
+        "driveshafts",
+        "CV joints",
+        "differential",
+        "gearbox mounts"
+      ]
+    },
+    {
+      "id": "electrical_security",
+      "components": [
+        "engine ECU",
+        "immobilizer",
+        "CIM if applicable",
+        "ISM if applicable",
+        "steering column lock if applicable",
+        "ABS or ESP controller",
+        "alternator",
+        "starter",
+        "battery cables",
+        "ground straps",
+        "fuse and relay modules",
+        "wiring harnesses",
+        "instrument cluster"
+      ]
+    },
+    {
+      "id": "steering_suspension",
+      "components": [
+        "front subframe",
+        "rear subframe",
+        "body attachment points",
+        "control arms",
+        "bushings",
+        "ball joints",
+        "struts",
+        "springs",
+        "shocks",
+        "wheel bearings",
+        "tie rods",
+        "steering rack",
+        "power steering pump and lines"
+      ]
+    },
+    {
+      "id": "brakes",
+      "components": [
+        "ABS hydraulics",
+        "master cylinder",
+        "booster",
+        "calipers by option",
+        "rotors by option",
+        "brake pipes",
+        "flex hoses",
+        "parking brake"
+      ]
+    },
+    {
+      "id": "body_climate",
+      "components": [
+        "structural rails",
+        "sills",
+        "floor",
+        "jacking points",
+        "door locks",
+        "window regulators",
+        "wipers",
+        "HVAC blower",
+        "blend actuators",
+        "A/C compressor",
+        "condenser",
+        "evaporator",
+        "lighting",
+        "airbags and restraints"
+      ]
+    }
+  ],
+  "completion_policy": "No whole-vehicle score until critical assemblies have variant-specific factory identities and documented replacement/repair pathway; unknown entries remain null."
+}
