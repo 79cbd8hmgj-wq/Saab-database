@@ -188,3 +188,7 @@ Two independently published **official parts-channel catalogues** displaying the
 ## Qualitative model-selection evidence map
 
 The independent `data/model-selection/interchange-evidence-20261013.json` maps two candidate configurations to source-backed individual replacement leads, unknowns and a blocked model recommendation. Its data is qualitative and **not a vehicle purchasing, engineering reliability or total ownership cost score**. An unverified catalogue-level common part does not prove affordability or improved lifespan. Year and engine entries identify research targets and must not be broadened to all drivetrains, body styles or original donor assemblies.
+
+### Derived generation comparison
+
+`data/engineering-dossiers/ng95-vs-og95-2006-2009-comparison-20261015.json` links existing OG cases and NG source IDs instead of duplicating component identities. New WIS sources carry explicit year applicability. Repair implications are engineering inferences, not measured failure rates. Retail observations retain unit prices, observation times, displayed status and unknown installed costs. Run `python3 tools/check_generation_comparison.py` to validate references and generated report parity; regression tests reject source drift and unsupported delivery/cost promotion.

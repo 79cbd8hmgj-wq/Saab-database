@@ -29,6 +29,8 @@ jobs:
         run: python3 tools/check_ng93_engineering_batch.py --check --summary
       - name: Verify scoped NG95 Turbo4 component and repair evidence
         run: python3 tools/check_ng95_components.py --check --summary
+      - name: Validate bounded generation comparison
+        run: python3 tools/check_generation_comparison.py
       - name: Validate unranked tier evidence baseline
         run: python3 tools/build_tier_readiness.py --check
       - name: Generate repeatable coverage census

@@ -878,3 +878,5 @@ Dataset: [B207 valve repair supplement](../data/datasets/b207-intake-valve-repai
 | `b207valve-src-003` | [eSaabParts 55563529 intake-valve price and advertised inventory](https://www.esaabparts.com/saab/parts/55563529) | `full_text` |
 | `b207valve-src-004` | [FCP Euro genuine Saab 55563529 intake-valve price and dispatch claim](https://www.fcpeuro.com/products/saab-engine-intake-valve-genuine-saab-55563529) | `full_text` |
 | `b207valve-src-005` | [RM European TRW 291109 / 55563529-80 intake-valve offer](https://www.rmeuropean.com/saab-intake-valve-trw-55563529) | `full_text` |
+
+The [2006–2009 versus 2011 comparison](research/ng95-vs-og95-2006-2009-comparison-20261015.md) reuses both generation dossiers and adds bounded year-specific WIS fuel/pump/handbrake sources and dated retailer observations. Its [structured record](../data/engineering-dossiers/ng95-vs-og95-2006-2009-comparison-20261015.json) preserves source classifications and unresolved applicability.

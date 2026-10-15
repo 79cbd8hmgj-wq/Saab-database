@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-10-15",
+  "status": "partial evidence; purchase comparison, not reliability ranking",
+  "scope": {
+    "older": "Original U.S.-market 2006–2009 Saab 9-5 B235 four-cylinder, FWD, factory FA57 automatic; sedan comparison. Equipment and VIN restrictions remain necessary.",
+    "newer": "Original U.S.-market 2011 second-generation 9-5 Turbo4/Turbo4 Premium sedan, A20NFT/LHU, FWD, AF40 automatic.",
+    "excluded": "Manual, diesel, BioPower-specific, V6, AWD/XWD; no generic donor interchange approval."
+  },
+  "linked_dossiers": {
+    "og": "og95-b205-b235-purchase-engineering-20261014.json",
+    "ng": "ng95-2011-purchase-reliability-20261015.json"
+  },
+  "sources": [
+    {
+      "id": "og-port-2006",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/fuel-system-petrol/technical-description/components",
+      "description": "Injectors in intake ports before intake valves",
+      "applicable_model_years": [
+        2006
+      ],
+      "classification": "factory service literature, third-party WIS mirror",
+      "accessed_at": "2026-10-15"
+    },
+    {
+      "id": "og-port-2008",
+      "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/fuel-system-petrol/technical-description/components",
+      "description": "Port fuel-system components",
+      "applicable_model_years": [
+        2008
+      ],
+      "classification": "factory service literature, third-party WIS mirror",
+      "accessed_at": "2026-10-15"
+    },
+    {
+      "id": "og-port-2009",
+      "url": "https://saabwisonline.com/9-5-9600/2009/2-engine/fuel-system-petrol/technical-description/components",
+      "description": "Port fuel-system components",
+      "applicable_model_years": [
+        2009
+      ],
+      "classification": "factory service literature, third-party WIS mirror",
+      "accessed_at": "2026-10-15"
+    },
+    {
+      "id": "og-pump-2006",
+      "url": "https://saabwisonline.com/9-5-9600/2006/2-engine/cooling-system/adjustment-replacement/coolant-pump-4-cyl",
+      "description": "Poly-V belt removal and coolant-pump access",
+      "applicable_model_years": [
+        2006
+      ],
+      "classification": "factory service literature, third-party WIS mirror",
+      "accessed_at": "2026-10-15"
+    },
+    {
+      "id": "og-pump-2007",
+      "url": "https://saabwisonline.com/9-5-9600/2007/2-engine/cooling-system/adjustment-replacement/coolant-pump-4-cyl",
+      "description": "Belt-driven pump; intake, steering-pump and coolant-pipe access still required",
+      "applicable_model_years": [
+        2007
+      ],
+      "classification": "factory service literature, third-party WIS mirror",
+      "accessed_at": "2026-10-15"
+    },
+    {
+      "id": "og-handbrake-2007",
+      "url": "https://saabwisonline.com/9-5-9600/2007/5-brakes/handbrake/adjustment-replacement/handbrake-shoes",
+      "description": "Mechanical handbrake shoes, cable and actuating lever",
+      "applicable_model_years": [
+        2007
+      ],
+      "classification": "factory service literature, third-party WIS mirror",
+      "accessed_at": "2026-10-15"
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "CMP-01",
+      "system": "Fuel injection",
+      "older": "B235 port injection; injectors discharge before intake valves.",
+      "newer": "LHU direct injection adds a mechanical high-pressure pump and high-pressure rail. Rail service requires a new high-pressure pipe.",
+      "practical_implication": "The B235 avoids this particular high-pressure pump/pipe repair dependency. Diagnose both tank supply and high-pressure side on the LHU.",
+      "evidence_refs": [
+        "og-port-2006",
+        "og-port-2008",
+        "og-port-2009",
+        "ng:ng95-2011-src-07",
+        "ng:ng95-component-src-rail-service"
+      ],
+      "classification": "source-supported comparison; ownership implication is engineering inference",
+      "remaining_unknown": "Matched injector and pump repair quotes; comparative frequency unknown."
+    },
+    {
+      "id": "CMP-02",
+      "system": "Water pump",
+      "older": "2006/2007 four-cylinder WIS removes the accessory Poly-V belt from the pump. Access still involves intake, steering-pump and pipe work.",
+      "newer": "LHU pump is driven by the balance-shaft chain. EN-44602 holds the sprocket during pump replacement.",
+      "practical_implication": "The LHU adds chain-retention tooling and risk from incorrect sprocket handling. Neither job should be priced as a bare pump alone.",
+      "evidence_refs": [
+        "og-pump-2006",
+        "og-pump-2007",
+        "ng:ng95-component-src-pump-service"
+      ],
+      "classification": "source-supported comparison; ownership implication is engineering inference",
+      "remaining_unknown": "2008/2009 pump procedure not separately verified here; matched labor and complete materials unknown."
+    },
+    {
+      "id": "CMP-03",
+      "system": "Cold compression / cylinder head",
+      "older": "The LHU intake-valve advisory does not establish the same defect in B235. A cold-running B235 still needs diagnosis on its own evidence.",
+      "newer": "Saab Parts advisory explicitly includes 2011 A20NFT: hard cold start, stall/misfire and low compression, improving hot.",
+      "practical_implication": "Require a genuine cold start; a warmed-up demonstration cannot resolve the LHU concern. Cold compression/leakdown can expose work beyond an external-assembly restoration.",
+      "evidence_refs": [
+        "ng:ng95-2011-src-03",
+        "og:O95-01"
+      ],
+      "classification": "source-supported comparison; ownership implication is engineering inference",
+      "remaining_unknown": "Frequency, comparative incidence and proven revised-valve durability remain unknown."
+    },
+    {
+      "id": "CMP-04",
+      "system": "Oil / sludge scope",
+      "older": "The cited B205/B235 sludge bulletin concerns 1998–2003; do not assign that bulletin automatically to 2006–2009. Later PCV/oil-trap hardware requires its own inspection.",
+      "newer": "LHU has factory mechanical oil-pressure diagnosis; oil condition and turbo oil supply matter.",
+      "practical_implication": "Investigate history, pressure and actual contamination on both. Early B235 sludge reputation alone is not evidence against a late car.",
+      "evidence_refs": [
+        "og:O95-01",
+        "og:O95-03",
+        "ng:ng95-2011-src-05",
+        "ng:ng95-component-src-turbo-description"
+      ],
+      "classification": "source-supported comparison; ownership implication is engineering inference",
+      "remaining_unknown": "No comparable sludge/oil-pressure failure rates; unknown histories stay unresolved."
+    },
+    {
+      "id": "CMP-05",
+      "system": "Timing and balance drives",
+      "older": "B235 timing/balance-drive concerns need correct year-specific inspection; early sludge-related instructions are not universal late-car thresholds.",
+      "newer": "LHU primary timing kit is separate from balance chain, tensioner and associated service materials.",
+      "practical_implication": "Neither a chain-kit listing nor lack of noise establishes healthy drives. Price the diagnosed scope, tools and hardware.",
+      "evidence_refs": [
+        "og:O95-02",
+        "ng:ng95-2011-src-06",
+        "ng:ng95-component-src-kit"
+      ],
+      "classification": "source-supported comparison; ownership implication is engineering inference",
+      "remaining_unknown": "Matched late-B235 chain parts and labor coverage; no universal preventive replacement interval established."
+    },
+    {
+      "id": "CMP-06",
+      "system": "Ignition",
+      "older": "T7 uses a black ignition-discharge cassette; red T5 cassette is not an approved substitute.",
+      "newer": "LHU uses four separate ignition coils.",
+      "practical_implication": "Compare one cassette with the relevant number of individual coils, and diagnose plugs, wiring and power supply before buying assemblies.",
+      "evidence_refs": [
+        "og:O95-06",
+        "ng:ng95-component-src-coil"
+      ],
+      "classification": "source-supported comparison; ownership implication is engineering inference",
+      "remaining_unknown": "Comparative service life and current original-installed supplier/revisions unknown."
+    },
+    {
+      "id": "CMP-07",
+      "system": "Automatic transmission",
+      "older": "FA57 five-speed: retain correct 3309 fluid and year-specific level procedure; 2008 no-dipstick service is documented. Early 2002–2004 bulletin is not proof of a 2006–2009 defect.",
+      "newer": "AF40-family six-speed: AW1 service and temperature-based level procedure; controller replacement includes programming and learning. GM 6T40/6T45 control parts are not a substitute.",
+      "practical_implication": "Both require cold/hot operation, engagement, scan and fluid-condition evidence. A nonrunner leaves a potentially expensive transmission unresolved.",
+      "evidence_refs": [
+        "og:O95-11",
+        "og:O95-12",
+        "og:O95-13",
+        "ng:ng95-2011-src-10",
+        "ng:ng95-2011-src-11",
+        "ng:ng95-component-src-tcm-service"
+      ],
+      "classification": "source-supported comparison; ownership implication is engineering inference",
+      "remaining_unknown": "No validated comparison of failure rates, rebuild prices or donor assembly equivalence."
+    },
+    {
+      "id": "CMP-08",
+      "system": "Security and diagnostics",
+      "older": "TWICE/T7 security matching and Tech 2 procedures can make a missing-key/module fault specialist work.",
+      "newer": "Module-specific SPS/setup, security and network dependencies also require planned access to suitable tools.",
+      "practical_implication": "Prove working keys and module communication before assuming a no-start needs an engine part. Check local programming access before purchasing either.",
+      "evidence_refs": [
+        "og:O95-08",
+        "og:O95-09",
+        "ng:ng95-component-src-module-reference",
+        "ng:ng95-component-src-sps"
+      ],
+      "classification": "source-supported comparison; ownership implication is engineering inference",
+      "remaining_unknown": "Present-day subscriptions, used-module eligibility and local costs are unverified."
+    },
+    {
+      "id": "CMP-09",
+      "system": "Parking brake",
+      "older": "2007 WIS documents cable-operated shoes and adjustment.",
+      "newer": "2011 catalogue identifies an electronic parking-brake controller and configuration-dependent cables.",
+      "practical_implication": "The newer system adds controller/electrical diagnosis; the older system still needs cable, shoe and corrosion inspection.",
+      "evidence_refs": [
+        "og-handbrake-2007",
+        "ng:ng95-component-src-epb"
+      ],
+      "classification": "source-supported comparison; ownership implication is engineering inference",
+      "remaining_unknown": "Matched actuator/cable availability and repair quotes; verify each candidate equipment."
+    },
+    {
+      "id": "CMP-10",
+      "system": "Cooling / supply exposure",
+      "older": "A Nissens automatic radiator seller SKU 32019620 is advertised for 2002–2009; manufacturer interchange and candidate VIN still need checking.",
+      "newer": "Target automatic radiator 13241729 was advertised unavailable at the observed retailer.",
+      "practical_implication": "An unavailable major assembly can delay an otherwise straightforward repair. Check alternate suppliers and used condition before treating a listing as a restoration blocker.",
+      "evidence_refs": [
+        "og:O95-14",
+        "ng:ng95-supply-src-13241729"
+      ],
+      "classification": "source-supported comparison; ownership implication is engineering inference",
+      "remaining_unknown": "This is one aftermarket-versus-OEM example, not equal-quality pricing or proof all older parts are easier to obtain."
+    },
+    {
+      "id": "CMP-11",
+      "system": "Structure and rare body parts",
+      "older": "Body/subframe mounting corrosion can turn a replaceable suspension component into structural work. Sedan/wagon body differences must remain separate.",
+      "newer": "FWD subframe service exists, while Saab-specific lamps/body equipment need exact-market availability checks.",
+      "practical_implication": "Inspect load-bearing structure, mounting points, brake lines and accident repairs on both. Condition can outweigh the service-design differences.",
+      "evidence_refs": [
+        "og:O95-16",
+        "og:O95-17",
+        "ng:ng95-2011-src-12",
+        "ng:ng95-2011-src-13"
+      ],
+      "classification": "source-supported comparison; ownership implication is engineering inference",
+      "remaining_unknown": "No matched structural repair quotes or complete body-parts supply survey."
+    },
+    {
+      "id": "CMP-12",
+      "system": "GM-family replacements",
+      "older": "Actual part, revision and interface evidence is required for a donor or replacement.",
+      "newer": "GM architecture/shared service numbers do not approve an entire donor assembly, ECU, ABS or transmission.",
+      "practical_implication": "Evaluate each replacement independently; category C supplier fitment and category D candidates remain below identical-OE or approved-supersession evidence.",
+      "evidence_refs": [
+        "ng:ng95-component-src-gm-pump",
+        "ng:ng95-component-src-gm-hpfp",
+        "ng:ng95-component-src-tcm"
+      ],
+      "classification": "source-supported comparison; ownership implication is engineering inference",
+      "remaining_unknown": "No new category A/B cross-brand approvals arise from this comparison."
+    }
+  ],
+  "supply_observations": [
+    {
+      "seller": "eSaabParts",
+      "seller_sku": "32022255",
+      "description": "Genuine black T7 ignition cassette",
+      "application": "2006–2009 B235",
+      "url": "https://www.esaabparts.com/saab/parts/32022255",
+      "observed_at_utc": "2026-10-15T17:34:49.541838+00:00",
+      "currency": "USD",
+      "advertised_unit_price": 316.1,
+      "displayed_status": "In Stock: 20+ Available",
+      "deliverable_inventory_confirmed": false,
+      "warranty": "General retailer policy; exact product eligibility not independently confirmed",
+      "shipping_tax_core_and_materials": null,
+      "installed_cost": null,
+      "classification": "dated retailer page and public storefront response; not factory identification"
+    },
+    {
+      "seller": "eSaabParts",
+      "seller_sku": "32019620",
+      "description": "Nissens automatic radiator; seller reference 5193388",
+      "application": "2006–2009 B235; confirm application",
+      "url": "https://www.esaabparts.com/saab/parts/32019620",
+      "observed_at_utc": "2026-10-15T17:34:49.886173+00:00",
+      "currency": "USD",
+      "advertised_unit_price": 211.98,
+      "displayed_status": "In Stock: 4 Available",
+      "deliverable_inventory_confirmed": false,
+      "warranty": "General retailer policy; exact product eligibility not independently confirmed",
+      "shipping_tax_core_and_materials": null,
+      "installed_cost": null,
+      "classification": "dated retailer page and public storefront response; not factory identification"
+    },
+    {
+      "seller": "eSaabParts",
+      "seller_sku": "32101497",
+      "description": "Bosch remanufactured starter; seller reference 5194758",
+      "application": "2006–2009 B235; confirm application",
+      "url": "https://www.esaabparts.com/saab/parts/32101497",
+      "observed_at_utc": "2026-10-15T17:34:49.880252+00:00",
+      "currency": "USD",
+      "advertised_unit_price": 194.99,
+      "displayed_status": "In Stock: 4 Available",
+      "deliverable_inventory_confirmed": false,
+      "warranty": "General retailer policy; exact product eligibility not independently confirmed",
+      "shipping_tax_core_and_materials": null,
+      "installed_cost": null,
+      "classification": "dated retailer page and public storefront response; not factory identification"
+    },
+    {
+      "seller": "eSaabParts",
+      "seller_sku": "12638824",
+      "description": "Individual ignition coil; four used on engine",
+      "application": "2011 LHU",
+      "url": "https://www.esaabparts.com/saab/parts/12638824",
+      "observed_at_utc": "2026-10-15T17:35:00.861119+00:00",
+      "currency": "USD",
+      "advertised_unit_price": 56.59,
+      "displayed_status": "In Stock: 9 Available",
+      "deliverable_inventory_confirmed": false,
+      "warranty": "General retailer policy; exact product eligibility not independently confirmed",
+      "shipping_tax_core_and_materials": null,
+      "installed_cost": null,
+      "classification": "dated retailer page and public storefront response; not factory identification"
+    }
+  ],
+  "limits": [
+    "No measured comparative failure frequency, expected lifespan, reliability score or model-year winner has been established.",
+    "Observed prices are parts-only advertised USD offers, not delivered stock or installed repair quotes. Tax, shipping, cores, seals, fluids, tools, programming and labor remain unpriced unless separately documented.",
+    "A simpler service design can reduce the work in a particular repair; it does not establish a lower fleet failure rate.",
+    "Evidence for one WIS year or equipment version is not blanket verification of every 2006–2009 build. Confirm VIN, engine, gearbox and options.",
+    "Historical WIS programming procedures do not verify present-day tool subscriptions or local specialist access."
+  ],
+  "critical_gaps": [
+    "Matched VIN-specific parts inventories and official supersessions for both generations.",
+    "Comparable U.S. labor quotes for cold-valve/head work, timing drives, transmission faults and security-module replacement.",
+    "Matched body, lighting, HVAC and electronic-module availability including used and remanufactured options.",
+    "Current security/programming service availability and cost for a real candidate.",
+    "Year-by-year 2006–2009 equipment, safety-campaign applicability and VIN-level recall completion.",
+    "True cold compression/leakdown, mechanical oil pressure, all-module scans, structural inspection and transmission testing on actual candidates."
+  ],
+  "cost_comparison_notes": [
+    "One black cassette: $316.10; one LHU coil: $56.59; four coils arithmetic subtotal: $226.36. These are different replacement units, not equivalent diagnosed repair baskets. No recommendation to replace four coils for a single-coil fault.",
+    "Older Nissens radiator $211.98 advertised in stock versus newer Saab radiator $613.70 advertised unavailable. Different brands and supply states; neither is an installed quote.",
+    "LHU Bosch 66814 pump alternative $288.29 at RM European is supported aftermarket interchange (C), not proof of an identical original pump or a durability upgrade. B235 avoids this particular direct-injection high-pressure pump; it still has a tank fuel pump."
+  ],
+  "purchase_protocol": {
+    "STOP": "Confirmed major engine/transmission rebuild need outside the stated objective; unsafe structural damage; unresolved critical safety defect that cannot be responsibly repaired within scope.",
+    "HOLD": "No true cold test, missing keys, missing module communication, unverified gearbox operation, unknown structural condition, or missing rare part without a credible supply path.",
+    "FINALIST": "Configuration and ownership verified, structure inspected, cold engine and transmission evidence obtained, security functional, and a written repair/parts/programming budget is feasible. This is not a safety or purchase approval."
+  }
+}

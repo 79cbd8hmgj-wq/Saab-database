@@ -10,6 +10,7 @@ engines, and platforms.
 
 ## Start here
 
+- **[2006–2009 versus 2011 automatic comparison](docs/research/ng95-vs-og95-2006-2009-comparison-20261015.md)**: source-linked repair architecture, inspection priorities, dated parts observations and explicit cost/failure-rate gaps; no ranking.
 - **[2011 Turbo4 component and repair expansion](docs/research/ng95-2011-component-repair-expansion-20261015.md)**: expands the existing PR #82 dossier with 19-system inventory requirements, component service identities, AF40-II restrictions, factory repair dependencies, dated US supply observations and separate unknown repair costs. Original installed numbers, VIN-approved supersessions and complete donor equivalence remain unverified; no scoring.
 
 - **[Second-generation MY2011 9-5 Turbo4 — factory purchase and reliability baseline](docs/research/ng95-2011-purchase-reliability-baseline-20261015.md)**: US Turbo4 and Turbo4 Premium FWD AF40 research, factory cold-intake-valve advisory, oil/timing/cooling/fuel, real parts-supply risks and separate 2.8 V6/XWD limits. See the [structured evidence register](data/engineering-dossiers/ng95-2011-purchase-reliability-20261015.json) and [2011 9-5 buyer's pocket card](docs/research/ng95-2011-buyer-pocket-intake-20261015.md). **No year rating or VIN-approved replacement claims.**
