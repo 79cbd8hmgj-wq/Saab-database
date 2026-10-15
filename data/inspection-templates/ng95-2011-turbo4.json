@@ -1,0 +1,252 @@
+{
+  "schema_version": "1.0.0",
+  "template_id": "ng95-2011-turbo4",
+  "research_register": "data/engineering-dossiers/ng95-2011-purchase-reliability-20261015.json",
+  "scope": {
+    "model": "9-5",
+    "platform": "650",
+    "wis_platform": "9650",
+    "model_years": [
+      2011
+    ],
+    "markets": [
+      "US"
+    ],
+    "trims": [
+      "Turbo4",
+      "Turbo4 Premium"
+    ],
+    "engine_codes": [
+      "A20NFT",
+      "LHU"
+    ],
+    "drive": "FWD",
+    "transmission_family": "AF40",
+    "transmission": "factory six-speed automatic",
+    "body": "production sedan",
+    "exclusions": [
+      "V6",
+      "XWD/AWD",
+      "manual",
+      "diesel",
+      "BioPower-specific",
+      "European-only target vehicles",
+      "9600 target components",
+      "9440 except specific sourced common part"
+    ]
+  },
+  "candidate_id": null,
+  "inspection_date": null,
+  "private_vin_record_reference": null,
+  "title_verified": null,
+  "engine_id_verified": null,
+  "gearbox_id_verified": null,
+  "seller_claims": [],
+  "visual_observations": [],
+  "documented_records": [],
+  "measured_tests": [],
+  "unresolved_questions": [],
+  "disposition": "HOLD",
+  "disposition_reason": "Unfilled intake; not inspected",
+  "stages": [
+    {
+      "id": "01",
+      "title": "Identity and legal documents",
+      "capture": [
+        "privately match full VIN on title, body and manufacturer labels; seller authority and liens",
+        "verify original US 2011 Turbo4/Premium sedan, FWD and automatic; verify factory options rather than trim badge",
+        "photograph engine and transmission identifiers, case tags and prior swap invoices privately"
+      ],
+      "stop_when": "Title/VIN tampering or unlawful transaction; confirmed excluded configuration is outside this project",
+      "hold_when": "missing title/ownership proof, mismatched VIN, uncertain engine/transmission identity",
+      "evidence_source_ids": [
+        "ng95-2011-src-01",
+        "ng95-2011-src-02",
+        "ng95-2011-src-10"
+      ],
+      "result": null,
+      "evidence_label": "unresolved"
+    },
+    {
+      "id": "02",
+      "title": "Storage history and safe access",
+      "capture": [
+        "last ran/moved dates, reason parked, exact seller fault description and invoices",
+        "battery swelling/leakage, rodent wiring, fuel odor/leaks, fluids and signs of flood/fire",
+        "confirm competent person approves any lifting/cranking; no unsupported structure access"
+      ],
+      "stop_when": "unsafe fuel leak, fire/flood damage to safety systems or structure, unsafe support points",
+      "hold_when": "history or underside cannot be inspected; suspected seizure/hydrolock/oil starvation means no cranking until assessed",
+      "evidence_source_ids": [
+        "ng95-2011-src-05",
+        "ng95-2011-src-12"
+      ],
+      "result": null,
+      "evidence_label": "unresolved"
+    },
+    {
+      "id": "03",
+      "title": "Structure, accident damage and chassis",
+      "capture": [
+        "subframes AND body attachment metal, sills, floor, suspension/steering anchors, brake/fuel line corrosion",
+        "crash repairs, buckling, missing bolts, seam separation and alignment evidence",
+        "distinguish flaking coating from confirmed section loss; qualified structural inspection"
+      ],
+      "stop_when": "confirmed unsafe load-bearing corrosion/accident damage or required structural restoration beyond objective",
+      "hold_when": "hidden mounts, substantial scaling or accident repairs not evaluated",
+      "evidence_source_ids": [
+        "ng95-2011-src-12",
+        "ng95-component-src-rear",
+        "ng95-component-src-abs"
+      ],
+      "result": null,
+      "evidence_label": "unresolved"
+    },
+    {
+      "id": "04",
+      "title": "Cold engine health before start",
+      "capture": [
+        "overnight ambient/ECT/IAT and whether seller pre-warmed engine",
+        "qualified cold compression and leakdown per cylinder with exact conditions/units when indicated",
+        "crank authorization, plugs/fluid inspection and diagnostic sequence; preserve raw readings"
+      ],
+      "stop_when": "confirmed internal head/valve, bearing, piston or timing damage requiring work outside accepted no-rebuild goal",
+      "hold_when": "warm demonstration only, unmeasured suspicious cold no-start, timing noise or unknown pressure; codes alone do not identify cause",
+      "evidence_source_ids": [
+        "ng95-2011-src-03",
+        "ng95-2011-src-04",
+        "ng95-2011-src-05",
+        "ng95-2011-src-06"
+      ],
+      "result": null,
+      "evidence_label": "unresolved"
+    },
+    {
+      "id": "05",
+      "title": "Lubrication, timing, turbo and cooling",
+      "capture": [
+        "oil condition/filter debris, coolant contamination, leak locations and documented service",
+        "qualified mechanical oil pressure at factory temperature/RPM and timing inspection if warranted",
+        "pump/thermostat/fan/pressure tests and turbo feed/return/charge-air condition only after safe running approval"
+      ],
+      "stop_when": "confirmed destructive low oil pressure, metal/bearing damage, serious overheat/internal damage or unsafe active leak",
+      "hold_when": "unexplained rattle/pressure warning, untested cooling/fan system, seller only says turbo or sensor",
+      "evidence_source_ids": [
+        "ng95-2011-src-04",
+        "ng95-2011-src-05",
+        "ng95-component-src-pump-service",
+        "ng95-component-src-chain-install",
+        "ng95-component-src-turbo-description"
+      ],
+      "result": null,
+      "evidence_label": "unresolved"
+    },
+    {
+      "id": "06",
+      "title": "Fuel and emissions",
+      "capture": [
+        "fuel age, contamination and leaks; vehicle emission label",
+        "separate low-pressure pump/control from DI rail/pump actual-versus-commanded values",
+        "use approved pressure-relief and fuel tools; retain codes/freeze frames, no casual pressurized-line opening"
+      ],
+      "stop_when": "unsafe leak; confirmed damage beyond project objective",
+      "hold_when": "unresolved no-start, missing catalytic hardware or unknown legal replacement; do not purchase pump from codes alone",
+      "evidence_source_ids": [
+        "ng95-2011-src-07",
+        "ng95-component-src-injection",
+        "ng95-component-src-rail-service",
+        "ng95-component-src-tank"
+      ],
+      "result": null,
+      "evidence_label": "unresolved"
+    },
+    {
+      "id": "07",
+      "title": "AF40-II and axles",
+      "capture": [
+        "case tag, controller ID, fluid history, leak and coolant-contamination evidence",
+        "scan codes/freeze frames before clearing; authorized fluid check at factory 70-80 C only when safe",
+        "qualified cold/hot engagement and road behavior only after structure/brakes/tires legal-roadworthiness assessment; no stall test",
+        "confirm installed shaft/strut and mount variants"
+      ],
+      "stop_when": "confirmed internal slipping/contamination/damage requiring rebuild or unpriced complete transmission replacement outside objective",
+      "hold_when": "nonrunner cannot demonstrate loaded transmission; unproven gearbox claim, case/controller mismatch",
+      "evidence_source_ids": [
+        "ng95-2011-src-10",
+        "ng95-2011-src-11",
+        "ng95-component-src-transmission",
+        "ng95-component-src-tcm-service",
+        "ng95-component-src-axles"
+      ],
+      "result": null,
+      "evidence_label": "unresolved"
+    },
+    {
+      "id": "08",
+      "title": "Module communication, keys and power",
+      "capture": [
+        "test each available key and authorization; complete module scan including ECM/TCM/BCM/ABS/SDM/keyless/cluster/HVAC where fitted",
+        "save VIN/calibration/part IDs, network faults and battery voltage before resets",
+        "prove power/grounds/network before condemning modules; written current programming/key support quote"
+      ],
+      "stop_when": "confirmed irreparable safety/security/network damage outside objective",
+      "hold_when": "missing keys, unavailable modules, incomplete scan, no current security/programming repair route",
+      "evidence_source_ids": [
+        "ng95-component-src-module-reference",
+        "ng95-component-src-ecm-service",
+        "ng95-component-src-tcm-service",
+        "ng95-component-src-sps"
+      ],
+      "result": null,
+      "evidence_label": "unresolved"
+    },
+    {
+      "id": "09",
+      "title": "Brakes, restraints, HVAC and unique equipment",
+      "capture": [
+        "brake codes/hydraulic integrity/parking brake operation; ABS bleed and learning requirements",
+        "SRS warning/self-test, airbags/belts/PPS labels and crash history; current VIN campaign documentation",
+        "defrost/fan/compressor and every unique US lamp, glass/HUD, cluster, radio and body control",
+        "photograph missing connectors, broken tabs, moisture/corrosion and option labels"
+      ],
+      "stop_when": "unsafe brake/restraint condition for driving; unrepairable missing safety equipment",
+      "hold_when": "unknown SRS history, incomplete recall evidence, missing scarce parts without lawful deliverable source; no SRS bypass",
+      "evidence_source_ids": [
+        "ng95-component-src-front-brake",
+        "ng95-component-src-rear-brake",
+        "ng95-component-src-srs",
+        "ng95-component-src-pps",
+        "ng95-component-src-lamps",
+        "ng95-component-src-glass",
+        "ng95-component-src-recall-revised"
+      ],
+      "result": null,
+      "evidence_label": "unresolved"
+    },
+    {
+      "id": "10",
+      "title": "Evidence-led feasibility and disposition",
+      "capture": [
+        "itemize confirmed essential repair, suspected fault and unknown diagnosis separately",
+        "obtain exact part/condition/warranty/delivery and programming/tool/shop/towing/title/inspection quotes",
+        "owner budget ceiling and explicit acceptance of any major assembly work; unknown costs never zero"
+      ],
+      "stop_when": "all earlier STOP conditions override; confirmed work beyond repair objective",
+      "hold_when": "any unresolved identity, structure, engine/gearbox/safety fault, rare-part supply or total essential-cost blocker",
+      "evidence_source_ids": [
+        "ng95-component-src-transmission",
+        "ng95-component-src-kit",
+        "ng95-supply-src-12658478",
+        "ng95-supply-src-55574324"
+      ],
+      "result": null,
+      "evidence_label": "unresolved"
+    }
+  ],
+  "confirmed_repairs": [],
+  "suspected_repairs": [],
+  "unknown_repairs": [],
+  "essential_repair_total_usd": null,
+  "published_personal_data": false,
+  "public_repository_rule": "Keep full VIN, titles, faces, seller identity/messages/address and private photographs out of this public repository."
+}

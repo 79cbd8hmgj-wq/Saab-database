@@ -103,5 +103,37 @@ class NG95ComponentEvidenceTests(unittest.TestCase):
         self.assertTrue(any('factory-installed identity' in e for e in errors))
 
 
+    def test_bosch_alternative_is_manufacturer_reference_not_original_supplier_proof(self):
+        a = next(x for x in self.data['interchange_assessments'] if x['id'] == 'ng95-interchange-bosch-pump')
+        self.assertEqual(a['category'], 'C')
+        self.assertEqual(a['manufacturer_sku'], '66814')
+        self.assertFalse(a['approved_drop_in'])
+        self.assertIsNone(self.parts['12658478']['original_supplier'])
+        o = next(x for x in self.data['current_supply_observations'] if x['id'] == 'ng95-supply-bosch66814')
+        self.assertEqual(o['displayed_unit_price'], 288.29)
+        self.assertEqual(o['seller_sku'], '12658478-14')
+        self.assertEqual(o['price_basis'], 'retrieved_retail_page_no_checkout')
+        self.assertFalse(o['deliverable_inventory_confirmed'])
+
+    def test_inspection_template_preserves_unknowns_and_evidence_classes(self):
+        path = ROOT / self.data['inspection_framework']['template_path']
+        t = json.loads(path.read_text(encoding='utf-8'))
+        self.assertEqual(t['scope'], self.data['active_research_scope'])
+        self.assertEqual(t['stages'], self.data['inspection_framework']['stages'])
+        self.assertEqual(t['disposition'], 'HOLD')
+        self.assertIsNone(t['essential_repair_total_usd'])
+        self.assertIsNone(t['private_vin_record_reference'])
+        self.assertEqual(t['measured_tests'], [])
+        self.assertEqual(t['seller_claims'], [])
+        self.assertFalse(t['published_personal_data'])
+        self.assertEqual(len(t['stages']), 10)
+        self.assertTrue(all(x['result'] is None for x in t['stages']))
+
+    def test_invented_inspection_result_is_rejected(self):
+        d = copy.deepcopy(self.data)
+        d['inspection_framework']['stages'][0]['result'] = 'healthy'
+        self.assertTrue(any('invented inspection result' in e for e in checker.validate(d)))
+
+
 if __name__ == '__main__':
     unittest.main()

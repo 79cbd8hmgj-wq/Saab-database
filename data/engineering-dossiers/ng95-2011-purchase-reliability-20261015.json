@@ -851,6 +851,36 @@
       "accessed_at": "2026-10-15",
       "retrieval": "full_text",
       "notes": "Product page and its public, unauthenticated storefront pricing response read for this exact part. Displayed stock is a seller assertion; no order, stock reservation, delivery confirmation or VIN approval. No session tokens retained."
+    },
+    {
+      "id": "ng95-component-src-bosch66814",
+      "url": "https://www.boschautoparts.com/p/high-pressure-pumps-66814-",
+      "description": "Bosch high-pressure pump 66814 and OE-number reference",
+      "publisher": "Robert Bosch LLC",
+      "kind": "manufacturer_catalogue",
+      "accessed_at": "2026-10-15",
+      "retrieval": "search_excerpt",
+      "notes": "Indexed manufacturer excerpt lists OE 12658478. Full page retrieval shows dynamic product widget without the detailed specification/application rows. Manufacturer exact vehicle table remains to retrieve; do not upgrade to identical original supplier/revision."
+    },
+    {
+      "id": "ng95-supply-src-rm-bosch",
+      "url": "https://www.rmeuropean.com/saab-fuel-pump-bosch-12658478",
+      "description": "RM European Bosch 66814, seller SKU 12658478-14, exact Turbo4 fitment and displayed offer",
+      "publisher": "RM European Auto Parts",
+      "kind": "supplier_catalogue_observation",
+      "accessed_at": "2026-10-15",
+      "retrieval": "full_text",
+      "notes": "Search renderer retrieved full page; direct raw fetch did not expose product text. Lists 2011 Saab 9-5 Turbo4 sedan 2.0L L4, Bosch 66814, $288.29, in stock. No destination shipping options/arrival, no order or physical stock confirmation. Seller OEM status is a claim, not proof of original fitted supplier."
+    },
+    {
+      "id": "ng95-component-src-gm-hpfp",
+      "url": "https://parts.gmparts.com/product/gm-genuine-parts-mechanical-fuel-pump-with-gasket-and-bolts-12658478",
+      "description": "GM Genuine 12658478 / ACDelco HPM1005 service offering",
+      "publisher": "General Motors",
+      "kind": "manufacturer_catalogue",
+      "accessed_at": "2026-10-15",
+      "retrieval": "full_text",
+      "notes": "Official service alias and kit label, Buick Regal 2011-2013 / Verano 2013-2016 table. Includes seal and mounting hardware per GM description; not automatically contents of Bosch box. Displayed MSRP is not a seller transaction price and is not used as a repair quote."
     }
   ],
   "facts": [
@@ -3769,7 +3799,7 @@
       "catalogue_service_part_number": "12658478",
       "factory_installed_part_number": null,
       "original_supplier": null,
-      "replacement_manufacturer": null,
+      "replacement_manufacturer": "Bosch (66814 aftermarket service option); GM Genuine/ACDelco marketed service offering",
       "factory_revision": null,
       "production_applicability": {
         "research_scope_ref": "active_research_scope",
@@ -3804,18 +3834,23 @@
         "documented_component_specific_mechanism": null,
         "failure_frequency": null
       },
-      "replacement_option_ids": [],
+      "replacement_option_ids": [
+        "ng95-interchange-bosch-pump",
+        "ng95-interchange-gm-hpfp"
+      ],
       "repair_procedure_source_ids": [],
       "specialist_tools": [],
       "evidence_source_ids": [
-        "ng95-component-src-injection"
+        "ng95-component-src-injection",
+        "ng95-component-src-gm-hpfp"
       ],
       "evidence_status": "supplier_claim",
       "identification_confidence": "catalogue_service_identity_not_verified_as_built",
       "vin_fitment_approved": false,
       "physical_vehicle_verified": false,
       "observation_ids": [
-        "ng95-supply-12658478"
+        "ng95-supply-12658478",
+        "ng95-supply-bosch66814"
       ]
     },
     {
@@ -8037,6 +8072,61 @@
       ],
       "approved_drop_in": false,
       "durability_validated": false
+    },
+    {
+      "id": "ng95-interchange-bosch-pump",
+      "component_ids": [
+        "ng95-component-12658478"
+      ],
+      "category": "C",
+      "strategy": "manufacturer_OE_number_reference_plus_exact_vehicle_retailer_application",
+      "candidate_brands": [
+        "Bosch",
+        "Buick",
+        "Chevrolet"
+      ],
+      "manufacturer_sku": "66814",
+      "evidence_source_ids": [
+        "ng95-component-src-bosch66814",
+        "ng95-supply-src-rm-bosch",
+        "ng95-component-src-injection"
+      ],
+      "finding": "Bosch indexed OE table cross-references 12658478; US retailer explicitly lists Bosch 66814 for 2011 Turbo4 2.0L sedan. Original installed supplier/revision is not established by seller OEM wording.",
+      "unresolved": [
+        "Bosch full original application/revision data",
+        "vehicle VIN/emissions match",
+        "boxed gasket/bolt contents and pump interfaces",
+        "destination delivery and product warranty"
+      ],
+      "approved_drop_in": false,
+      "durability_validated": false
+    },
+    {
+      "id": "ng95-interchange-gm-hpfp",
+      "component_ids": [
+        "ng95-component-12658478"
+      ],
+      "category": "D",
+      "strategy": "official_GM_current_service_alias_and_Saab_number",
+      "candidate_brands": [
+        "GM Genuine",
+        "ACDelco",
+        "Buick"
+      ],
+      "manufacturer_sku": "HPM1005",
+      "candidate_number": "12658478",
+      "evidence_source_ids": [
+        "ng95-component-src-gm-hpfp",
+        "ng95-component-src-injection"
+      ],
+      "finding": "GM officially markets 12658478 as ACDelco HPM1005, with gasket/bolts and listed Buick applications. This is a service-number sourcing path, not proof of an identical original donor pump revision.",
+      "unresolved": [
+        "directed Saab OEM VIN application/supersession",
+        "old/new assembly revision",
+        "dealer deliverable quote and exact kit contents"
+      ],
+      "approved_drop_in": false,
+      "durability_validated": false
     }
   ],
   "modernization_candidates": [
@@ -9032,6 +9122,42 @@
       "evidence_source_ids": [
         "ng95-component-src-kit"
       ]
+    },
+    {
+      "id": "ng95-supply-bosch66814",
+      "part_number": "12658478",
+      "manufacturer_sku": "66814",
+      "seller_sku": "12658478-14",
+      "description": "Bosch 66814 high-pressure pump alternative",
+      "supplier": "RM European Auto Parts",
+      "advertised_brand": "Bosch",
+      "observed_at": "2026-10-15",
+      "currency": "USD",
+      "displayed_unit_price": 288.29,
+      "price_basis": "retrieved_retail_page_no_checkout",
+      "stock_statement": "In stock (page display; not warehouse-confirmed)",
+      "stock_status_code": "page_in_stock",
+      "seller_orderable": null,
+      "inventory_physically_confirmed": false,
+      "deliverable_inventory_confirmed": false,
+      "vin_fitment_approved": false,
+      "shipping_usd": null,
+      "tax_usd": null,
+      "core_charge_usd": null,
+      "shipping_constraints": "No destination shipping options were quoted; arrival and shipping cost unknown",
+      "pack_size": {
+        "quantity": 1,
+        "unit": "pump"
+      },
+      "pack_size_status": "retailer quantity needed one; boxed accessories not verified",
+      "warranty": {
+        "seller_general_policy": null,
+        "exception": "Product-specific Bosch/RM coverage not retrieved; do not borrow GM or eSaab warranty terms",
+        "source_id": "ng95-supply-src-rm-bosch"
+      },
+      "evidence_source_ids": [
+        "ng95-supply-src-rm-bosch"
+      ]
     }
   ],
   "supply_conflicts": [
@@ -9551,6 +9677,58 @@
       "evidence_source_ids": [
         "ng95-2011-src-13"
       ]
+    },
+    {
+      "id": "ng95-cost-di-pump-bosch",
+      "title": "DI pump: Bosch alternative, conditional catalogue fitment",
+      "research_scope_ref": "active_research_scope",
+      "known_part_lines": [
+        {
+          "observation_id": "ng95-supply-bosch66814",
+          "quantity": 1,
+          "unit_price_usd": 288.29,
+          "extended_price_usd": 288.29,
+          "note": "Alternative to the Saab-channel pump, not an additional pump to purchase"
+        }
+      ],
+      "observed_part_subtotal_usd": 288.29,
+      "subtotal_meaning": "only listed observed parts; not a quote or complete minimum to finish job",
+      "required_additional_parts": [
+        "verify tappet, seals, fasteners and actual pressure diagnosis",
+        "new high-pressure pipe where factory removal procedure discards it",
+        "Verify Bosch box contents; GM service pack seal/bolts cannot be assumed"
+      ],
+      "additional_parts_usd": null,
+      "fluids_and_consumables": [
+        "clean fuel-system service materials"
+      ],
+      "fluids_and_consumables_usd": null,
+      "shipping_usd": null,
+      "tax_usd": null,
+      "core_charges_usd": null,
+      "specialized_tools": [
+        "approved low/high-pressure diagnostic tools",
+        "job-specific tools"
+      ],
+      "specialized_tools_usd": null,
+      "programming_or_calibration": null,
+      "programming_or_calibration_usd": null,
+      "diy_labor_hours": null,
+      "diy_difficulty_project_judgment": "advanced DIY; pressure-relief and contamination control; full pump procedure remains to verify",
+      "published_labor_time_hours": null,
+      "independent_specialist_labor_usd": null,
+      "towing_or_transportation_usd": null,
+      "contingency_allowance_usd": null,
+      "contingency_basis": "set from candidate diagnosis and written quote; none invented here",
+      "all_in_repair_cost_usd": null,
+      "complete_deliverable_parts_basket_verified": false,
+      "no_rebuild_feasibility": "External pump is replaceable; no promise that pump alone fixes no-start",
+      "evidence_source_ids": [
+        "ng95-component-src-injection",
+        "ng95-component-src-rail-service",
+        "ng95-component-src-bosch66814",
+        "ng95-supply-src-rm-bosch"
+      ]
     }
   ],
   "atf_purchase_options": {
@@ -9607,13 +9785,13 @@
     {
       "area": "cross_brand_interchange_validation",
       "status": "partial",
-      "basis": "Official common service SKU and AISIN fluid cross-reference; no category A/B donor approval",
+      "basis": "Official common service SKUs, GM HPM1005 alias, AISIN fluid and Bosch manufacturer OE reference; no category A/B original-donor approval",
       "search_exhausted": false
     },
     {
       "area": "current_US_replacement_availability",
       "status": "partial",
-      "basis": "15 exact-product displayed observations; no physical stock/delivery confirmations",
+      "basis": "15 exact-product storefront responses plus one retrieved US retailer offer; no physical stock/delivery confirmations",
       "search_exhausted": false
     },
     {
@@ -9738,5 +9916,214 @@
       "state": "open",
       "search_exhausted": false
     }
-  ]
+  ],
+  "inspection_framework": {
+    "id": "ng95-inspection-2011-turbo4",
+    "template_path": "data/inspection-templates/ng95-2011-turbo4.json",
+    "worksheet_path": "docs/research/ng95-2011-turbo4-lot-inspection-worksheet-20261015.md",
+    "evidence_labels": [
+      "seller_claim",
+      "visual_observation",
+      "measured_test",
+      "documented_record",
+      "unresolved"
+    ],
+    "disposition": "HOLD",
+    "disposition_basis": "Blank research intake; no real candidate inspected. STOP overrides HOLD/FINALIST. FINALIST is further inspection/pricing, not purchase approval.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Identity and legal documents",
+        "capture": [
+          "privately match full VIN on title, body and manufacturer labels; seller authority and liens",
+          "verify original US 2011 Turbo4/Premium sedan, FWD and automatic; verify factory options rather than trim badge",
+          "photograph engine and transmission identifiers, case tags and prior swap invoices privately"
+        ],
+        "stop_when": "Title/VIN tampering or unlawful transaction; confirmed excluded configuration is outside this project",
+        "hold_when": "missing title/ownership proof, mismatched VIN, uncertain engine/transmission identity",
+        "evidence_source_ids": [
+          "ng95-2011-src-01",
+          "ng95-2011-src-02",
+          "ng95-2011-src-10"
+        ],
+        "result": null,
+        "evidence_label": "unresolved"
+      },
+      {
+        "id": "02",
+        "title": "Storage history and safe access",
+        "capture": [
+          "last ran/moved dates, reason parked, exact seller fault description and invoices",
+          "battery swelling/leakage, rodent wiring, fuel odor/leaks, fluids and signs of flood/fire",
+          "confirm competent person approves any lifting/cranking; no unsupported structure access"
+        ],
+        "stop_when": "unsafe fuel leak, fire/flood damage to safety systems or structure, unsafe support points",
+        "hold_when": "history or underside cannot be inspected; suspected seizure/hydrolock/oil starvation means no cranking until assessed",
+        "evidence_source_ids": [
+          "ng95-2011-src-05",
+          "ng95-2011-src-12"
+        ],
+        "result": null,
+        "evidence_label": "unresolved"
+      },
+      {
+        "id": "03",
+        "title": "Structure, accident damage and chassis",
+        "capture": [
+          "subframes AND body attachment metal, sills, floor, suspension/steering anchors, brake/fuel line corrosion",
+          "crash repairs, buckling, missing bolts, seam separation and alignment evidence",
+          "distinguish flaking coating from confirmed section loss; qualified structural inspection"
+        ],
+        "stop_when": "confirmed unsafe load-bearing corrosion/accident damage or required structural restoration beyond objective",
+        "hold_when": "hidden mounts, substantial scaling or accident repairs not evaluated",
+        "evidence_source_ids": [
+          "ng95-2011-src-12",
+          "ng95-component-src-rear",
+          "ng95-component-src-abs"
+        ],
+        "result": null,
+        "evidence_label": "unresolved"
+      },
+      {
+        "id": "04",
+        "title": "Cold engine health before start",
+        "capture": [
+          "overnight ambient/ECT/IAT and whether seller pre-warmed engine",
+          "qualified cold compression and leakdown per cylinder with exact conditions/units when indicated",
+          "crank authorization, plugs/fluid inspection and diagnostic sequence; preserve raw readings"
+        ],
+        "stop_when": "confirmed internal head/valve, bearing, piston or timing damage requiring work outside accepted no-rebuild goal",
+        "hold_when": "warm demonstration only, unmeasured suspicious cold no-start, timing noise or unknown pressure; codes alone do not identify cause",
+        "evidence_source_ids": [
+          "ng95-2011-src-03",
+          "ng95-2011-src-04",
+          "ng95-2011-src-05",
+          "ng95-2011-src-06"
+        ],
+        "result": null,
+        "evidence_label": "unresolved"
+      },
+      {
+        "id": "05",
+        "title": "Lubrication, timing, turbo and cooling",
+        "capture": [
+          "oil condition/filter debris, coolant contamination, leak locations and documented service",
+          "qualified mechanical oil pressure at factory temperature/RPM and timing inspection if warranted",
+          "pump/thermostat/fan/pressure tests and turbo feed/return/charge-air condition only after safe running approval"
+        ],
+        "stop_when": "confirmed destructive low oil pressure, metal/bearing damage, serious overheat/internal damage or unsafe active leak",
+        "hold_when": "unexplained rattle/pressure warning, untested cooling/fan system, seller only says turbo or sensor",
+        "evidence_source_ids": [
+          "ng95-2011-src-04",
+          "ng95-2011-src-05",
+          "ng95-component-src-pump-service",
+          "ng95-component-src-chain-install",
+          "ng95-component-src-turbo-description"
+        ],
+        "result": null,
+        "evidence_label": "unresolved"
+      },
+      {
+        "id": "06",
+        "title": "Fuel and emissions",
+        "capture": [
+          "fuel age, contamination and leaks; vehicle emission label",
+          "separate low-pressure pump/control from DI rail/pump actual-versus-commanded values",
+          "use approved pressure-relief and fuel tools; retain codes/freeze frames, no casual pressurized-line opening"
+        ],
+        "stop_when": "unsafe leak; confirmed damage beyond project objective",
+        "hold_when": "unresolved no-start, missing catalytic hardware or unknown legal replacement; do not purchase pump from codes alone",
+        "evidence_source_ids": [
+          "ng95-2011-src-07",
+          "ng95-component-src-injection",
+          "ng95-component-src-rail-service",
+          "ng95-component-src-tank"
+        ],
+        "result": null,
+        "evidence_label": "unresolved"
+      },
+      {
+        "id": "07",
+        "title": "AF40-II and axles",
+        "capture": [
+          "case tag, controller ID, fluid history, leak and coolant-contamination evidence",
+          "scan codes/freeze frames before clearing; authorized fluid check at factory 70-80 C only when safe",
+          "qualified cold/hot engagement and road behavior only after structure/brakes/tires legal-roadworthiness assessment; no stall test",
+          "confirm installed shaft/strut and mount variants"
+        ],
+        "stop_when": "confirmed internal slipping/contamination/damage requiring rebuild or unpriced complete transmission replacement outside objective",
+        "hold_when": "nonrunner cannot demonstrate loaded transmission; unproven gearbox claim, case/controller mismatch",
+        "evidence_source_ids": [
+          "ng95-2011-src-10",
+          "ng95-2011-src-11",
+          "ng95-component-src-transmission",
+          "ng95-component-src-tcm-service",
+          "ng95-component-src-axles"
+        ],
+        "result": null,
+        "evidence_label": "unresolved"
+      },
+      {
+        "id": "08",
+        "title": "Module communication, keys and power",
+        "capture": [
+          "test each available key and authorization; complete module scan including ECM/TCM/BCM/ABS/SDM/keyless/cluster/HVAC where fitted",
+          "save VIN/calibration/part IDs, network faults and battery voltage before resets",
+          "prove power/grounds/network before condemning modules; written current programming/key support quote"
+        ],
+        "stop_when": "confirmed irreparable safety/security/network damage outside objective",
+        "hold_when": "missing keys, unavailable modules, incomplete scan, no current security/programming repair route",
+        "evidence_source_ids": [
+          "ng95-component-src-module-reference",
+          "ng95-component-src-ecm-service",
+          "ng95-component-src-tcm-service",
+          "ng95-component-src-sps"
+        ],
+        "result": null,
+        "evidence_label": "unresolved"
+      },
+      {
+        "id": "09",
+        "title": "Brakes, restraints, HVAC and unique equipment",
+        "capture": [
+          "brake codes/hydraulic integrity/parking brake operation; ABS bleed and learning requirements",
+          "SRS warning/self-test, airbags/belts/PPS labels and crash history; current VIN campaign documentation",
+          "defrost/fan/compressor and every unique US lamp, glass/HUD, cluster, radio and body control",
+          "photograph missing connectors, broken tabs, moisture/corrosion and option labels"
+        ],
+        "stop_when": "unsafe brake/restraint condition for driving; unrepairable missing safety equipment",
+        "hold_when": "unknown SRS history, incomplete recall evidence, missing scarce parts without lawful deliverable source; no SRS bypass",
+        "evidence_source_ids": [
+          "ng95-component-src-front-brake",
+          "ng95-component-src-rear-brake",
+          "ng95-component-src-srs",
+          "ng95-component-src-pps",
+          "ng95-component-src-lamps",
+          "ng95-component-src-glass",
+          "ng95-component-src-recall-revised"
+        ],
+        "result": null,
+        "evidence_label": "unresolved"
+      },
+      {
+        "id": "10",
+        "title": "Evidence-led feasibility and disposition",
+        "capture": [
+          "itemize confirmed essential repair, suspected fault and unknown diagnosis separately",
+          "obtain exact part/condition/warranty/delivery and programming/tool/shop/towing/title/inspection quotes",
+          "owner budget ceiling and explicit acceptance of any major assembly work; unknown costs never zero"
+        ],
+        "stop_when": "all earlier STOP conditions override; confirmed work beyond repair objective",
+        "hold_when": "any unresolved identity, structure, engine/gearbox/safety fault, rare-part supply or total essential-cost blocker",
+        "evidence_source_ids": [
+          "ng95-component-src-transmission",
+          "ng95-component-src-kit",
+          "ng95-supply-src-12658478",
+          "ng95-supply-src-55574324"
+        ],
+        "result": null,
+        "evidence_label": "unresolved"
+      }
+    ]
+  }
 }

@@ -90,7 +90,8 @@ def validate(d):
         except ValueError:
             errors.append('invalid observation date ' + o['id'])
         require(o['currency'] == 'USD' and o['displayed_unit_price'] >= 0, 'invalid observed price')
-        require(o['price_basis'] == 'seller_public_storefront_response_no_checkout', 'price basis changed without schema review')
+        require(o['price_basis'] in {'seller_public_storefront_response_no_checkout',
+                                     'retrieved_retail_page_no_checkout'}, 'unknown price observation method')
         if o['deliverable_inventory_confirmed']:
             refs(o.get('delivery_confirmation_source_ids', []), 'delivery claim ' + o['id'])
         require(o['warranty']['source_id'] in sources, 'missing warranty provenance')
@@ -117,6 +118,15 @@ def validate(d):
     require({x['area'] for x in d['coverage_assessment']} == AREAS, 'independent coverage dimension missing')
     for item in d['service_findings'] + d['modernization_candidates'] + d['source_conflict_resolutions']:
         refs(item['evidence_source_ids'], item['id'])
+    framework = d.get('inspection_framework')
+    if framework:
+        stage_ids = [x['id'] for x in framework['stages']]
+        require(len(stage_ids) == len(set(stage_ids)), 'duplicate inspection stage')
+        require(framework['disposition'] == 'HOLD', 'blank inspection must remain HOLD')
+        for stage in framework['stages']:
+            refs(stage['evidence_source_ids'], 'inspection ' + stage['id'])
+            require(stage['result'] is None and stage['evidence_label'] == 'unresolved',
+                    'research intake contains invented inspection result')
     return errors
 
 
@@ -161,13 +171,14 @@ def render(d):
               'C = named aftermarket manufacturer cross-reference; D = engineering/number candidate; E = rejected claimed mapping. '
               '**No A or B approval is established.** AISIN fluid is C, not proof that a Toyota-labelled bottle or any other Aisin transmission part fits.', '',
               '## US supply observations', '',
-              'Exact-product public storefront responses were read on 2026-10-15 without placing orders. '
+              'Fifteen exact-product public storefront responses and one additional retrieved retailer page were read on 2026-10-15 without placing orders. '
               'Stock and lead times are seller assertions. Destination shipping, tax, core charges and deliverability are unknown. '
               'The three earlier baseline observations are retained separately.', '',
               '| Service / seller SKU | Description | Displayed USD | Seller availability |', '| --- | --- | ---: | --- |']
     for o in d['current_supply_observations']:
         url=sources[o['evidence_source_ids'][0]]['url']
-        lines.append(f"| [{o['part_number']}]({url}) | {o['description']} | ${o['displayed_unit_price']:.2f} | {o['stock_statement']} |")
+        label = o['seller_sku'] if o['supplier'] != 'eSaabParts' else o['part_number']
+        lines.append(f"| [{label}]({url}) | {o['description']} | ${o['displayed_unit_price']:.2f} | {o['stock_statement']} |")
     lines += ['', 'The current kit response is $92.50 versus an indexed $99.99; controller 55574324 now displays one available '
               'versus the cached backorder; exhaust solenoid 12679100 now displays $63.60 versus cached $53.12. Both observations '
               'remain in the data. A catalog price on an unavailable radiator/headlamp is not a purchasable restoration budget.', '',
@@ -175,6 +186,7 @@ def render(d):
               '24 months/24,000 miles subject to conditions. Aftermarket parts have no warranty through the seller; manufacturer coverage '
               'needs verification. Socket 13320976 explicitly has no warranty. A/C warranty conditions require qualified installation, '
               'and compressor claims require additional component/service evidence. Verify exact eligibility and return exceptions before purchase.', '',
+              'The Bosch 66814 alternative is supported by a manufacturer indexed OE reference and exact Turbo4 retailer application. It remains category C: original supplier/revision, package contents, delivery and warranty are not verified. Its $288.29 pump-only offer is an alternative to the $901.17 Saab-channel pump, not an additional line item or guaranteed installed saving.', '',
               '## Repair economics and DIY boundaries', '',
               'Subtotals below include only the observed line items. **They are not complete repair estimates or guaranteed minimum costs.** '
               'Every job separately retains unknown additional parts, fluids, shipping, tax, core, tools, programming, specialist labor, towing '

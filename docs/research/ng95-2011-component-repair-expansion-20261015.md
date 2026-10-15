@@ -42,12 +42,14 @@ The revised airbag filing changes the documented population; it does not prove t
 | cap | D | 13502353 overlap retained; alleged GM successor is not established as Saab-approved. [radiator](https://www.esaabparts.com/viewparts.php?searchpart=1&section=61383145), [cap-gm](https://www.gmpartsgiant.com/parts/gm-cap-13502353.html) |
 | arm | E | 13219164 is the REAR lower arm in the target FWD diagram. The inherited front-arm paragraph cannot establish a front replacement using this reference. Rejection is of that claimed mapping; independent APCA8564 fitment remains unassessed. [rear](https://www.esaabparts.com/viewparts.php?searchpart=1&section=671529702) |
 | hub | D | Saab merchant diagrams use 13502785 at front and FWD rear and offer FAG under merchant SKU 102230. Original manufacturer SKU, ABS encoder interfaces and cross-brand donor identity remain unverified. [front-hub](https://www.esaabparts.com/viewparts.php?searchpart=1&section=673108713), [rear](https://www.esaabparts.com/viewparts.php?searchpart=1&section=671529702) |
+| bosch-pump | C | Bosch indexed OE table cross-references 12658478; US retailer explicitly lists Bosch 66814 for 2011 Turbo4 2.0L sedan. Original installed supplier/revision is not established by seller OEM wording. [bosch66814](https://www.boschautoparts.com/p/high-pressure-pumps-66814-), [ng95-supply-src-rm-bosch](https://www.rmeuropean.com/saab-fuel-pump-bosch-12658478), [injection](https://www.esaabparts.com/viewparts.php?searchpart=1&section=614174632) |
+| gm-hpfp | D | GM officially markets 12658478 as ACDelco HPM1005, with gasket/bolts and listed Buick applications. This is a service-number sourcing path, not proof of an identical original donor pump revision. [gm-hpfp](https://parts.gmparts.com/product/gm-genuine-parts-mechanical-fuel-pump-with-gasket-and-bolts-12658478), [injection](https://www.esaabparts.com/viewparts.php?searchpart=1&section=614174632) |
 
 A = identical original supplier/number/revision/interfaces; B = approved directed OEM supersession; C = named aftermarket manufacturer cross-reference; D = engineering/number candidate; E = rejected claimed mapping. **No A or B approval is established.** AISIN fluid is C, not proof that a Toyota-labelled bottle or any other Aisin transmission part fits.
 
 ## US supply observations
 
-Exact-product public storefront responses were read on 2026-10-15 without placing orders. Stock and lead times are seller assertions. Destination shipping, tax, core charges and deliverability are unknown. The three earlier baseline observations are retained separately.
+Fifteen exact-product public storefront responses and one additional retrieved retailer page were read on 2026-10-15 without placing orders. Stock and lead times are seller assertions. Destination shipping, tax, core charges and deliverability are unknown. The three earlier baseline observations are retained separately.
 
 | Service / seller SKU | Description | Displayed USD | Seller availability |
 | --- | --- | ---: | --- |
@@ -66,10 +68,13 @@ Exact-product public storefront responses were read on 2026-10-15 without placin
 | [9995147](https://www.esaabparts.com/saab/parts/9995147) | AISIN AW1 fluid alternative | $14.99 | In Stock: 7 Available |
 | [9997379](https://www.esaabparts.com/saab/parts/9997379) | Viton O-ring alternative | $4.49 | In Stock: 20+ Available |
 | [12635447](https://www.esaabparts.com/saab/parts/12635447) | Primary timing service kit | $92.50 | In Stock: 20+ Available |
+| [12658478-14](https://www.rmeuropean.com/saab-fuel-pump-bosch-12658478) | Bosch 66814 high-pressure pump alternative | $288.29 | In stock (page display; not warehouse-confirmed) |
 
 The current kit response is $92.50 versus an indexed $99.99; controller 55574324 now displays one available versus the cached backorder; exhaust solenoid 12679100 now displays $63.60 versus cached $53.12. Both observations remain in the data. A catalog price on an unavailable radiator/headlamp is not a purchasable restoration budget.
 
 General [seller warranty terms](https://www.esaabparts.com/warranty_and_returns.php) say most eligible OEM parts receive 24 months/24,000 miles subject to conditions. Aftermarket parts have no warranty through the seller; manufacturer coverage needs verification. Socket 13320976 explicitly has no warranty. A/C warranty conditions require qualified installation, and compressor claims require additional component/service evidence. Verify exact eligibility and return exceptions before purchase.
+
+The Bosch 66814 alternative is supported by a manufacturer indexed OE reference and exact Turbo4 retailer application. It remains category C: original supplier/revision, package contents, delivery and warranty are not verified. Its $288.29 pump-only offer is an alternative to the $901.17 Saab-channel pump, not an additional line item or guaranteed installed saving.
 
 ## Repair economics and DIY boundaries
 
@@ -87,6 +92,7 @@ Subtotals below include only the observed line items. **They are not complete re
 | Confirmed cold intake-valve sealing damage | Unknown | STOP for confirmed repair outside project objective; a priced complete head and labor route is needed before reconsidering |
 | Confirmed AF40-II internal failure | Unknown | Complete external assembly replacement may avoid rebuilding but delivered unit/labor/warranty unknown; economically unresolved |
 | Missing US LH halogen headlamp | $301.82 | Current unavailable listing is a restoration blocker until an actual lawful deliverable alternative is quoted |
+| DI pump: Bosch alternative, conditional catalogue fitment | $288.29 | External pump is replaceable; no promise that pump alone fixes no-start |
 
 The coolant-pump subtotal includes the pump and two standard pipe O-rings, conditional on renewing them. Verify boxed contents to avoid duplicate purchases. The primary timing kit omits the balance-chain/tensioner and gears; new actuator bolts and other disturbed seals/fluids/tools are not priced. AW1 service quantity is still unknown; the AISIN container volume has not been verified, so no per-litre saving or total ATF-service price is asserted.
 
@@ -190,7 +196,7 @@ All rows inherit the strict active research scope. Restrictions below are the so
 
 | Service number | Component | Source restriction / evidence |
 | --- | --- | --- |
-| 12658478 | High-pressure direct-injection pump | 650 four-cylinder catalogue; exact original US VIN/options not verified [injection](https://www.esaabparts.com/viewparts.php?searchpart=1&section=614174632) |
+| 12658478 | High-pressure direct-injection pump | 650 four-cylinder catalogue; exact original US VIN/options not verified [injection](https://www.esaabparts.com/viewparts.php?searchpart=1&section=614174632), [gm-hpfp](https://parts.gmparts.com/product/gm-genuine-parts-mechanical-fuel-pump-with-gasket-and-bolts-12658478) |
 | 12590679 | High-pressure pump tappet | 650 four-cylinder catalogue; exact original US VIN/options not verified [injection](https://www.esaabparts.com/viewparts.php?searchpart=1&section=614174632) |
 | 12615401 | High-pressure pump-to-rail pipe | 650 four-cylinder catalogue; exact original US VIN/options not verified [injection](https://www.esaabparts.com/viewparts.php?searchpart=1&section=614174632) |
 | 12621643 | Fuel rail assembly | 650 four-cylinder catalogue; exact original US VIN/options not verified [injection](https://www.esaabparts.com/viewparts.php?searchpart=1&section=614174632) |
@@ -386,8 +392,8 @@ All rows inherit the strict active research scope. Restrictions below are the so
 | failure_mechanism_research | partial | Existing cold-valve advisory reused; service checks do not prove fleet prevalence |
 | original_supplier_identification | partial | BorgWarner named by 2.0L factory description; most tier-one suppliers and fitted labels unknown |
 | factory_supersession_verification | unresolved | Directed retailer claims retained; no target VIN-directed official supersession chain retrieved |
-| cross_brand_interchange_validation | partial | Official common service SKU and AISIN fluid cross-reference; no category A/B donor approval |
-| current_US_replacement_availability | partial | 15 exact-product displayed observations; no physical stock/delivery confirmations |
+| cross_brand_interchange_validation | partial | Official common service SKUs, GM HPM1005 alias, AISIN fluid and Bosch manufacturer OE reference; no category A/B original-donor approval |
+| current_US_replacement_availability | partial | 15 exact-product storefront responses plus one retrieved US retailer offer; no physical stock/delivery confirmations |
 | repair_procedure_coverage | partial | Pump/timing/head/rail/TCM/hydraulic service evidence; complete job procedure trees still needed |
 | DIY_feasibility | partial | Tool/dependency-aware project judgments; no actual vehicle measurements or published labor times |
 | actual_repair_cost_evidence | partial | Observed part subtotals only; no verified installed quotes |
