@@ -38,7 +38,7 @@ class NG95BaselineTests(unittest.TestCase):
         self.assertEqual(d["target_scope"]["drive"], "FWD")
         self.assertIn("A20NFT", d["target_scope"]["engine"])
         self.assertIn("AF40", d["target_scope"]["transmission"])
-        self.assertTrue(any("V6 XWD" in x for x in d["other_2011_us_variants_not_covered_by_turbo4_diagnostics"]))
+        self.assertTrue(any("V6" in x and "XWD" in x for x in d["other_2011_us_variants_not_covered_by_turbo4_diagnostics"]))
 
     def test_no_unsourced_reliability_or_part_approval(self):
         d = self.data
