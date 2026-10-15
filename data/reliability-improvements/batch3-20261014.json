@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-10-14",
+  "scope": [
+    "9-5-9600 B205/B235",
+    "9-3-9440 B207 FWD"
+  ],
+  "excluded": [
+    "9-5-9650",
+    "9-5 B308E",
+    "9-3 B284/XWD"
+  ],
+  "durability_proven": false,
+  "candidates": [
+    {
+      "id": "RI-01",
+      "platform": "9-5",
+      "system": "early PCV",
+      "part": "55561200",
+      "evidence": "factory correction",
+      "unknown": "verify bulletin scope and bearing state",
+      "verified_upgrade": false
+    },
+    {
+      "id": "RI-02",
+      "platform": "9-5",
+      "system": "Trionic 7 ignition cassette",
+      "part": "32022255",
+      "evidence": "service part",
+      "unknown": "verify original fault, exact fitment and lifetime",
+      "verified_upgrade": false
+    },
+    {
+      "id": "RI-03",
+      "platform": "9-5",
+      "system": "automatic radiator",
+      "part": "32019620",
+      "evidence": "supplier alternative",
+      "unknown": "verify automatic cooler fittings and durability",
+      "verified_upgrade": false
+    },
+    {
+      "id": "RI-04",
+      "platform": "9-3",
+      "system": "B207 water pump",
+      "part": "12630084 / 32020290",
+      "evidence": "supplier alternatives",
+      "unknown": "verify complete kit, availability and life",
+      "verified_upgrade": false
+    },
+    {
+      "id": "RI-05",
+      "platform": "9-3",
+      "system": "early FA57 cooler",
+      "part": "TA440-0702",
+      "evidence": "factory correction",
+      "unknown": "verify chassis threshold and ATF contamination",
+      "verified_upgrade": false
+    },
+    {
+      "id": "RI-06",
+      "platform": "9-5",
+      "system": "starter",
+      "part": "32101497",
+      "evidence": "reman service alternative",
+      "unknown": "verify OE reference, fitment and warranty",
+      "verified_upgrade": false
+    }
+  ]
+}
