@@ -161,6 +161,36 @@
       "publisher": "Saab Automobile AB (factory document as rehosted)",
       "retrieval": "full_text",
       "notes": "Factory service procedure or model technical identity, not a physical inspection of the seller's car."
+    },
+    {
+      "id": "case04-src-017",
+      "title": "Saab 2004-2005 oil trap separator 55558696 engine-number boundary",
+      "url": "https://www.esaabparts.com/saab/parts/55558696",
+      "source_type": "supplier_catalog",
+      "publisher": "eSaabParts",
+      "retrieval": "full_text",
+      "notes": "Catalogue ties 55558696 to 2004 engines from serial 4017591; notes earlier MY2004 can use revised trap when accompanying hose 5961610 replaces 5961552. Engine serial must be inspected; VIN serial is NOT engine serial.",
+      "accessed_at": "2026-10-16"
+    },
+    {
+      "id": "case04-src-018",
+      "title": "eSaabParts PCV complete kit 2004–2009 ProParts 213452433",
+      "url": "https://www.esaabparts.com/saab/parts/213452433",
+      "source_type": "supplier_catalog",
+      "publisher": "eSaabParts",
+      "retrieval": "full_text",
+      "notes": "Complete aftermarket system listing includes component families; contained hose 21345330 is separately listed 2006–09, so full kit must be checked against specific 2004 engine.",
+      "accessed_at": "2026-10-16"
+    },
+    {
+      "id": "case04-src-019",
+      "title": "eSaabParts PCV check-valve breather hose 5955927 and ProParts 21345927",
+      "url": "https://www.esaabparts.com/saab/parts/21345927",
+      "source_type": "supplier_catalog",
+      "publisher": "eSaabParts",
+      "retrieval": "full_text",
+      "notes": "Retailer lists ProParts 21345927 as alternative to Saab 5955927 for 2004–2009 original 9-5 petrol PCV system.",
+      "accessed_at": "2026-10-16"
     }
   ],
   "facts": [
@@ -465,6 +495,53 @@
       "locator": "See cited model-year WIS page or supplier catalog",
       "notes": "Procedure exists; no evidence this high-mileage individual engine needs timing-chain replacement.",
       "review_status": "source_scoped"
+    },
+    {
+      "id": "case04-fact-014",
+      "subject": "engine:pcv",
+      "category": "component_research",
+      "predicate": "engine_serial_restriction",
+      "value": "Oil trap separator 55558696 applies to 2004-05 9-5 only from engine number 4017591 in supplier application; earlier 2004s may require revised 5961610 hose instead of 5961552.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "case04-src-017"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "Oil trap separator 55558696: catalogue description and application condition",
+      "notes": "Engine serial number is distinct from VIN sequence; inspect installed engine and routing before ordering."
+    },
+    {
+      "id": "case04-fact-015",
+      "subject": "engine:pcv",
+      "category": "component_research",
+      "predicate": "specific_2004_2009_options",
+      "value": "2004–2009 PCV aftermarket ProParts breather hose 21345927 is catalogued as reference to Saab 5955927; ProParts complete kit 213452433 is also listed but may contain later-specific routing parts.",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "case04-src-018",
+        "case04-src-019"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "locator": "2004-09 PCV oil trap parts in eSaabParts catalog",
+      "notes": "Not a recommendation for wholesale replacement without examination; kit's included 2006-2009 hose needs resolution."
     }
   ],
   "issues": [],
@@ -570,6 +647,66 @@
       "evidence_status": "supplier_claim",
       "review_status": "needs_vehicle_verification",
       "notes": "Explicit exclusion lead; old catalog lists earlier models."
+    },
+    {
+      "id": "case04-part-005",
+      "part_number": "55558696",
+      "title": "2004-2005 oil trap separator, engine-serial restricted catalogue",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "relationships": [
+        {
+          "type": "supplier_reference",
+          "part_number": "12755243",
+          "conditions": "Catalogue earlier Saab reference; assess revised hose 5961610 for earlier 2004 engine"
+        }
+      ],
+      "requirements": [
+        "Verify actual engine serial 4017591 or later versus earlier 2004 variant",
+        "Check if revised 5961610 is required with current breather routing"
+      ],
+      "source_ids": [
+        "case04-src-017"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Engine serial is not 17-character VIN serial; supplier claim only."
+    },
+    {
+      "id": "case04-part-006",
+      "part_number": "21345927",
+      "title": "ProParts 2004–2009 9-5 breather hose with metal check valve (Saab reference 5955927)",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "relationships": [
+        {
+          "type": "aftermarket_reference",
+          "part_number": "5955927",
+          "conditions": "Retailer shared original 2004–2009 breather hose family; verify installed hose before purchase"
+        }
+      ],
+      "requirements": [
+        "Confirm part's position and hose/valve connection",
+        "Inspect actual PCV arrangement, installed engine serial, leaks"
+      ],
+      "source_ids": [
+        "case04-src-019"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Low-cost Saab-specific aftermarket option rather than GM donor; actual 2004 build version unresolved."
     }
   ],
   "gaps": [
@@ -649,6 +786,21 @@
         "case04-src-002",
         "case04-src-005",
         "case04-src-007"
+      ]
+    },
+    {
+      "id": "case04-gap-007",
+      "title": "2004 PCV engine-serial branch",
+      "missing_inputs": [
+        "Installed B235L engine serial and existing hose part IDs",
+        "Factory EPC revision confirmation for 55558696, 5961552 and 5961610",
+        "Whether supplier 2004–2009 complete kit includes later-only hose 21345330 not compatible with early 2004"
+      ],
+      "reason": "Engine serial restriction and mixed-year complete kits can lead to wrong parts on July 2003-built 2004 MY car.",
+      "source_ids": [
+        "case04-src-017",
+        "case04-src-018",
+        "case04-src-019"
       ]
     }
   ]
