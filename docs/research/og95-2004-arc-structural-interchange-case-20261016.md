@@ -1,6 +1,6 @@
 # 2004 U.S. 9-5 Arc (B235L/5AT): rusted-car inspection and interchange dossier
 
-Evidence date: 2026-10-16. Companion dataset: [structured research](../../data/datasets/og95-2004-arc-prepurchase-interchange-20261016.json).
+Evidence date: 2026-10-16. Companion dataset: [structured research](../../data/engineering-dossiers/og95-2004-arc-prepurchase-interchange-20261016.json).
 
 ## Scope and privacy
 
