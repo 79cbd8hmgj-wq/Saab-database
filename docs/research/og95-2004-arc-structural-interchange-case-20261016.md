@@ -31,6 +31,16 @@ This is a **prepurchase case study**, not a certified roadworthiness finding, a 
 
 The **Toyota ATF** case is a shared consumable standard, **not** a factory-approved reuse of Toyota transmission hard parts. The 9-3 Viggen 308mm rotor is a cross-**Saab** catalogue lead, not an Opel swap. Every catalogue result has different strength from measured vehicle fit or independently tested reliability.
 
+## Extra MY2004 PCV production breakpoint (important)
+
+[eSaabParts 55558696 oil-trap separator](https://www.esaabparts.com/saab/parts/55558696) says its listed MY2004 application begins at **engine serial 4017591**; an earlier MY2004 engine may be retrofitted with **hose 5961610** in place of **5961552**. This is supplier catalogue evidence, not direct WIS approval. The manufacture-date label and VIN do **not** tell us the installed engine serial. Before ordering, visually read the engine and hose identities.
+
+A correct-generation, lower-cost Saab-specific alternative exists: [ProParts 21345927](https://www.esaabparts.com/saab/parts/21345927) is advertised as a 2004–2009 PCV check-valve/breather hose corresponding to Saab **5955927**. A [complete ProParts 213452433 kit](https://www.esaabparts.com/saab/parts/213452433) is also listed for 2004–2009, **but its component list includes a hose elsewhere marked 2006–2009**. Therefore a catalogue-wide kit should not be treated as automatically VIN/engine-serial correct. Compare individual components and the actual engine revision first.
+
+## Cost pitfall: cheap used subframe may still be unsuitable
+
+A [used 2002–2005 cradle listed at $150](https://www.go-parts.com/hl-product.php?sku=477-59230-628683) is explicitly described by the seller as **rusty**. The $150 is a listing snapshot, excluding freight and inspection. It is **not** a desirable savings path for a car already compromised by corrosion; an adequately inspected rust-free donor is the target.
+
 ## Inspection order and projected economic decision
 
 1. **Before spending on parts:** authenticate year, title and installed configuration; photograph measured front and rear structural sections and brake/fuel lines on a qualified lift (not using corroded jacking points). Inspect any previous underseal patches from both sides.
