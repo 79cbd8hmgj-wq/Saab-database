@@ -59,3 +59,41 @@ A [used 2002–2005 cradle listed at $150](https://www.go-parts.com/hl-product.p
 - Require repair quote for welded body metal before constructing a full mechanical repair price or declaring the vehicle economically repairable.
 
 **Research rule:** Supplier catalogue overlap, common corporate ownership, platform similarity, and matching JWS fluid specification are four different evidence types. None establishes a safe vehicle-level interchange or an improvement in durability.
+
+## Proposed strict $1,500–$3,000 roadworthy project budget (planning targets, NOT quotes)
+
+Prospective purchase: **$675**; seller claims engine and 5AT run well at 227,000 miles. Photos of underbody and rear doglegs show potentially multiple corroded areas. Do not promise inspection eligibility, rust repair availability or mechanical health from pictures.
+
+| Line | Ceiling-case allowance |
+|---|---:|
+| Purchase | $675 |
+| Flatbed towing | $200 |
+| Qualified structural pre-purchase/initial inspection | $150 |
+| Title and sales-tax **provisional** allowance | $110 |
+| Qualified structural restoration with proper joining/coatings and documented assessment | $1,100 |
+| Confirmed brake/hydraulic safety repair parts, mostly DIY labor | $250 |
+| Initial fluids/low-cost fixes | $150 |
+| Alignment + NY safety/emissions inspection | $140 |
+| Contingency | $225 |
+| **Total** | **$3,000** |
+
+This is an austerity allocation using invented *budget caps* and **must not be reported as shop estimates**. Title/tax amount excludes initial registration, plates and varying local fees; actual tax depends on address and acceptable purchase price, and additional fees must reduce other allowances. The scenario also assumes usable tyres, engine, transmission, cooling, exhaust/catalyst, electrical equipment, emissions readiness and most suspension parts. DIY mechanic labor, tools, fuel, towing mileage, delivery and any major fabrication costs are not established. Required tire replacement, catalytic converter, multiple corroded brake pipes, frame geometry repair or widespread structural corrosion likely defeats the ceiling.
+
+**Stop-loss economics:** With the above allowances, professional structural work cannot exceed **~$1,100**; at $1,200+ comprehensive repair, budget is essentially exhausted. If quote is $2,000+ for correct body-metal reconstruction, reject *this shell* for a $3,000 on-road objective, not the Saab model as a whole. These are **budget gates**, not estimates of realistic repair costs or unsafe limits on necessary restoration. A shop might refuse work, or find the repairs unworkable at any sensible price.
+
+### Order of operations to avoid stranded money
+
+**Gate A: BEFORE purchase if possible.** Check seller title, privately match original VIN to title/windshield, inspect cold startup, warning lights, idle/visible exhaust, coolant and oil, and transmission engagement *without driving unsound structural body on public road*. Conduct OBD-II scan and retrieve emissions readiness and fault codes. Require clean photo/video of both front subframe rear mounting zones, welded floor/frame reinforcements, rocker/inner sill, rear suspension attachments, brake/fuel lines. A qualified structural shop should identify exactly which **welded member(s)** perforated and quote factory-consistent repair, corrosion protection, geometry checks and disassembly/reassembly scope. Do not crawl beneath or jack at corroded support points. Seller's claim of healthy powertrain is not a mechanical test.
+
+**Gate B: Structural safety and financial feasibility.** Quote from professional Saab/structural body shop: corrosion extent and source of repair steel, acceptable factory joining methods, suspension pickup location and measurement, cavity protection, wheel alignment impact. A [Saab MY2004 forward frame-sectioning WIS method](https://saabwisonline.com/9-5-9600/2004/8-body/body/adjustment-replacement/section-of-front-frame-member) does **not** permit applying its front-end limits to holes located further back. [MY2004 complete wheelhouse/frame method](https://saabwisonline.com/9-5-9600/2004/8-body/body/adjustment-replacement/front-wheel-housing-and-front-frame-member-assembly) requires alignment equipment and appropriate brazing methods.
+
+**Gate C: Safety-critical systems.** Corroded hydraulic lines, hoses, rusty tanks/straps, subframe arm/suspension pickup parts, wheel bearings, tires, steering and brake calipers; verify actual 2004 B2 308-mm front / 300-mm rear brake equipment ([2004 Saab WIS](https://saabwisonline.com/9-5-9600/2004/5-brakes/brake-discs-and-pads/technical-data/brake-configurations)). Diagnose before replacing. A [parts catalog example](https://www.saabpartscounter.com/v-2004-saab-9-5--arc--2-3l-l4-gas/brakes--front-brakes) lists 9184405 single 308-mm disc at **$79.65**, meaning a pair would be $159.30 before pads/freight; the $250 safety budget is therefore easily consumed. The separate [rear brakes catalogue](https://www.saabpartscounter.com/v-2004-saab-9-5--arc--2-3l-l4-gas/brakes--rear-brakes) lists vented and unvented assemblies; physical identification remains required.
+
+**Gate D: Reliability maintenance, only if A–C pass.** Check oil pressure/pickup and timing-chain symptoms only if diagnostic evidence warrants. PCV identification requires installed **engine serial** (55558696 engine >= 4017591 or appropriate hose revision); buy only failing components. 2004 Saab 3309 ATF and JWS 3309-compatible alternatives are specification-based leads, not whole-transmission swaps. Test fans/cooling without presumptive radiator, water pump or thermostat replacements. No NG 9-3 B207 parts or 2006+ subframe automatically carry into this 2004 OG 9-5.
+
+**Gate E: Legal road use.** [New York DMV safety inspections](https://dmv.ny.gov/new-york-state-vehicle-safetyemissions-inspection-program) check suspension mount/chassis corrosion, brakes and tires. [15 NYCRR 79.21](https://nyrules.elaws.us/nycrr/title15_chapteri_subchapterf_part79_s79.21) specifically rejects severely rusted primary unibody attachment points and cracked/broken members. [NYVIP3](https://www.nyvip3.com/OBDII/Index) indicates 2004 non-historic gasoline passenger cars remain OBD-II emissions tested in 2026; scan codes/MIL/readiness before budgeting $0 for emissions. DMV [title-only guidance](https://dmv.ny.gov/titles/certificate-of-title) states 50-dollar title fee plus applicable sales tax; later registration/plates incur additional charges. Inspection passing alone is not a proof of proper crash-strength reconstruction.
+
+**Actual shopping priority:** Nothing structural before Gate B, then correct Saab 12765947 uncorroded cradle if truly necessary and salvageable mounts, Saab-specific body repair panels only for correctly identified outer skins, matched low-cost aftermarket brake/suspension/hydraulic wear parts, and correct B235L/5AT maintenance consumables. No proven cheap drop-in GM/Opel body rail/subframe; do not design dangerous unvalidated swaps under budget pressure.
+
+**Conclusion:** $3k target is **best-case planning, not probable given submitted pictures**. At least $1,500–$2,000 for professional front attachment corrosion combined with any tire/brake/emissions defects will exceed plan. Present recommendation: seek qualified written structure repair diagnosis and test OBD-II before committing to the purchase as a road car. A donor salvage exit route is a separate discretionary decision, not a reason to conceal the cost.
+
