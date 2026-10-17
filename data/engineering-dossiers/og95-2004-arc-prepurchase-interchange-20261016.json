@@ -1,0 +1,655 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "og95_2004_arc_case_interchange_preinspection",
+  "sources": [
+    {
+      "id": "case04-src-001",
+      "title": "Saab 2004 WIS VIN decoding",
+      "source_type": "factory_manual",
+      "url": "https://saabwisonline.com/9-5-9600/2004/0-general/general/technical-data/vin-vehicle-identification-number",
+      "accessed_at": "2026-10-16",
+      "publisher": "Saab Automobile AB (factory document as rehosted)",
+      "retrieval": "full_text",
+      "notes": "Factory service procedure or model technical identity, not a physical inspection of the seller's car."
+    },
+    {
+      "id": "case04-src-002",
+      "title": "Saab MY2004 front structural sectioning",
+      "source_type": "factory_manual",
+      "url": "https://saabwisonline.com/9-5-9600/2004/8-body/body/adjustment-replacement/section-of-front-frame-member",
+      "accessed_at": "2026-10-16",
+      "publisher": "Saab Automobile AB (factory document as rehosted)",
+      "retrieval": "full_text",
+      "notes": "Factory service procedure or model technical identity, not a physical inspection of the seller's car."
+    },
+    {
+      "id": "case04-src-003",
+      "title": "Saab MY2004 front wheel housing and frame member assembly repair",
+      "source_type": "factory_manual",
+      "url": "https://saabwisonline.com/9-5-9600/2004/8-body/body/adjustment-replacement/front-wheel-housing-and-front-frame-member-assembly",
+      "accessed_at": "2026-10-16",
+      "publisher": "Saab Automobile AB (factory document as rehosted)",
+      "retrieval": "full_text",
+      "notes": "Factory service procedure or model technical identity, not a physical inspection of the seller's car."
+    },
+    {
+      "id": "case04-src-004",
+      "title": "Saab MY2004 rear nut piece for front subframe",
+      "source_type": "factory_manual",
+      "url": "https://saabwisonline.com/9-5-9600/2004/8-body/body/adjustment-replacement/rear-nut-piece-front-subframe",
+      "accessed_at": "2026-10-16",
+      "publisher": "Saab Automobile AB (factory document as rehosted)",
+      "retrieval": "full_text",
+      "notes": "Factory service procedure or model technical identity, not a physical inspection of the seller's car."
+    },
+    {
+      "id": "case04-src-005",
+      "title": "Saab MY2004 front petrol subframe service",
+      "source_type": "factory_manual",
+      "url": "https://saabwisonline.com/9-5-9600/2004/7-suspension-wheels/front-suspension/adjustment-replacement/subframe-petrol-engines",
+      "accessed_at": "2026-10-16",
+      "publisher": "Saab Automobile AB (factory document as rehosted)",
+      "retrieval": "full_text",
+      "notes": "Factory service procedure or model technical identity, not a physical inspection of the seller's car."
+    },
+    {
+      "id": "case04-src-006",
+      "title": "Saab MY2004 brake configuration table",
+      "source_type": "factory_manual",
+      "url": "https://saabwisonline.com/9-5-9600/2004/5-brakes/brake-discs-and-pads/technical-data/brake-configurations",
+      "accessed_at": "2026-10-16",
+      "publisher": "Saab Automobile AB (factory document as rehosted)",
+      "retrieval": "full_text",
+      "notes": "Factory service procedure or model technical identity, not a physical inspection of the seller's car."
+    },
+    {
+      "id": "case04-src-007",
+      "title": "eSaabParts OG 9-5 front floor and subframe listing",
+      "source_type": "supplier_catalog",
+      "url": "https://www.esaabparts.com/viewparts.php?section=381404405",
+      "accessed_at": "2026-10-16",
+      "publisher": "eSaabParts",
+      "retrieval": "full_text",
+      "notes": "Supplier-origin fitment/parts claim requiring vehicle and year verification."
+    },
+    {
+      "id": "case04-src-008",
+      "title": "Saab MY2004 service lubricant",
+      "source_type": "factory_manual",
+      "url": "https://saabwisonline.com/9-5-9600/2004/1-service/saab-service-eu/adjustment-replacement/lubricant",
+      "accessed_at": "2026-10-16",
+      "publisher": "Saab Automobile AB (factory document as rehosted)",
+      "retrieval": "full_text",
+      "notes": "Factory service procedure or model technical identity, not a physical inspection of the seller's car."
+    },
+    {
+      "id": "case04-src-009",
+      "title": "Toyota Type T-IV service documentation",
+      "source_type": "factory_manual",
+      "url": "https://www.manualslib.com/manual/4556303/Toyota-Yaris-2004.html?page=223",
+      "accessed_at": "2026-10-16",
+      "publisher": "Toyota (owner manual via ManualsLib)",
+      "retrieval": "full_text",
+      "notes": "Type T-IV listed with JWS 3309 equivalence; Toyota fluid manual is not Saab whole-gearbox interchange documentation."
+    },
+    {
+      "id": "case04-src-010",
+      "title": "Klokkerholm 9-5 4-door rocker repair panel 6526012",
+      "source_type": "supplier_catalog",
+      "url": "https://shop.klokkerholm.com/en/6526012",
+      "accessed_at": "2026-10-16",
+      "publisher": "Klokkerholm",
+      "retrieval": "full_text",
+      "notes": "Manufacturer panel application for original 9-5, without US stock or installed-shell structural approval."
+    },
+    {
+      "id": "case04-src-011",
+      "title": "Key Parts 9-5 right rocker repair panel 65-26-01-2",
+      "source_type": "supplier_catalog",
+      "url": "https://www.jegs.com/i/Key-Parts/576/65-26-01-2/10002/-1",
+      "accessed_at": "2026-10-16",
+      "publisher": "JEGS / Key Parts",
+      "retrieval": "full_text",
+      "notes": "Supplier-origin fitment/parts claim requiring vehicle and year verification."
+    },
+    {
+      "id": "case04-src-012",
+      "title": "eSaabParts PCV kit 21341200, early 9-5 diagram",
+      "source_type": "supplier_catalog",
+      "url": "https://www.esaabparts.com/saab/parts/21341200?ss=55561200",
+      "accessed_at": "2026-10-16",
+      "publisher": "eSaabParts",
+      "retrieval": "full_text",
+      "notes": "Supplier-origin fitment/parts claim requiring vehicle and year verification."
+    },
+    {
+      "id": "case04-src-013",
+      "title": "eSaabParts later 9-5 PCV-system O-ring",
+      "source_type": "supplier_catalog",
+      "url": "https://www.esaabparts.com/saab/parts/8889651",
+      "accessed_at": "2026-10-16",
+      "publisher": "eSaabParts",
+      "retrieval": "full_text",
+      "notes": "Supplier-origin fitment/parts claim requiring vehicle and year verification."
+    },
+    {
+      "id": "case04-src-014",
+      "title": "eSaabParts 308mm front rotors 9-5 and 9-3 Viggen",
+      "source_type": "supplier_catalog",
+      "url": "https://www.esaabparts.com/saab/parts/5084769",
+      "accessed_at": "2026-10-16",
+      "publisher": "eSaabParts",
+      "retrieval": "full_text",
+      "notes": "Supplier-origin fitment/parts claim requiring vehicle and year verification."
+    },
+    {
+      "id": "case04-src-015",
+      "title": "Saab 2004 WIS lift points",
+      "source_type": "factory_manual",
+      "url": "https://saabwisonline.com/9-5-9600/2004/8-body/body/technical-data/lifting-and-attachment-points",
+      "accessed_at": "2026-10-16",
+      "publisher": "Saab Automobile AB (factory document as rehosted)",
+      "retrieval": "full_text",
+      "notes": "Factory service procedure or model technical identity, not a physical inspection of the seller's car."
+    },
+    {
+      "id": "case04-src-016",
+      "title": "Saab 2004 WIS petrol timing/balancer chain job",
+      "source_type": "factory_manual",
+      "url": "https://saabwisonline.com/9-5-9600/2004/2-engine/basic-engine-4-cylinder-petrol/adjustment-replacement/changing-balancer-shaft-chain-timing-chain-in-car",
+      "accessed_at": "2026-10-16",
+      "publisher": "Saab Automobile AB (factory document as rehosted)",
+      "retrieval": "full_text",
+      "notes": "Factory service procedure or model technical identity, not a physical inspection of the seller's car."
+    }
+  ],
+  "facts": [
+    {
+      "id": "case04-fact-001",
+      "subject": "vehicle:configuration",
+      "category": "component_research",
+      "predicate": "documented_applicability_or_service",
+      "value": "U.S. 2004 9-5 Arc four-door, factory B235L 2.3T and five-speed automatic, original configuration as decoded from user-provided plate VIN",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "case04-src-001"
+      ],
+      "evidence_status": "documented",
+      "locator": "See cited model-year WIS page or supplier catalog",
+      "notes": "Actual installed engine/transmission and title identity are unverified. Do not publish full VIN.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "case04-fact-002",
+      "subject": "body:front-structure",
+      "category": "component_research",
+      "predicate": "documented_applicability_or_service",
+      "value": "The 2004 WIS forward frame-member partial repair limits sectioning of inner member to max 330 mm and centre member to max 270 mm from front edge",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "case04-src-002"
+      ],
+      "evidence_status": "documented",
+      "locator": "See cited model-year WIS page or supplier catalog",
+      "notes": "NOT a general rust repair limit or automatically relevant to visible posterior frame damage.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "case04-fact-003",
+      "subject": "body:front-structure",
+      "category": "component_research",
+      "predicate": "documented_applicability_or_service",
+      "value": "Full front frame-member/wheelhouse repair requires alignment bench measurement; some joints require MIG brazing rather than conventional welding",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "case04-src-003"
+      ],
+      "evidence_status": "documented",
+      "locator": "See cited model-year WIS page or supplier catalog",
+      "notes": "Cannot approve specific corroded shell without physical assessment.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "case04-fact-004",
+      "subject": "body:front-structure",
+      "category": "component_research",
+      "predicate": "documented_applicability_or_service",
+      "value": "Factory documents repair of rear nut piece holding front subframe through a floor access plug",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "case04-src-004"
+      ],
+      "evidence_status": "documented",
+      "locator": "See cited model-year WIS page or supplier catalog",
+      "notes": "Nut repair does not restore perforated underlying structure.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "case04-fact-005",
+      "subject": "front:subframe",
+      "category": "component_research",
+      "predicate": "documented_applicability_or_service",
+      "value": "2004 petrol subframe service requires engine/radiator/steering support, subframe alignment; main fasteners 100 Nm plus 45 degrees; middle bolts have distinct heads and washers",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "case04-src-005"
+      ],
+      "evidence_status": "documented",
+      "locator": "See cited model-year WIS page or supplier catalog",
+      "notes": "Not an instruction to work under an unstable shell or reuse compromised fasteners.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "case04-fact-006",
+      "subject": "front:brakes",
+      "category": "component_research",
+      "predicate": "documented_applicability_or_service",
+      "value": "2004 MY B235L B2 brakes are listed with front disc diameter 308 mm and rear 300 mm",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "case04-src-006"
+      ],
+      "evidence_status": "documented",
+      "locator": "See cited model-year WIS page or supplier catalog",
+      "notes": "Verify actual rotor diameter/hardware because parts may have been changed.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "case04-fact-007",
+      "subject": "front:subframe",
+      "category": "component_research",
+      "predicate": "documented_applicability_or_service",
+      "value": "Saab subframe 12765947 is listed 2002–2005; 12765948 separately 2006–2009",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "case04-src-007"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "See cited model-year WIS page or supplier catalog",
+      "notes": "Correct old-year donor is a better lead, but no approval for a replacement before installed part, mounting condition, rust and geometry check.",
+      "review_status": "needs_vehicle_verification"
+    },
+    {
+      "id": "case04-fact-008",
+      "subject": "transmission:automatic",
+      "category": "component_research",
+      "predicate": "documented_applicability_or_service",
+      "value": "Saab MY2004 automatic specifies mineral-based Saab 3309 ATF; Toyota documentation identifies Toyota T-IV with JWS3309",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "case04-src-008",
+        "case04-src-009"
+      ],
+      "evidence_status": "documented",
+      "locator": "See cited model-year WIS page or supplier catalog",
+      "notes": "Specification cross-brand consumable candidate; check exact bottle and gearbox, not a permission to interchange complete transmissions.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "case04-fact-009",
+      "subject": "body:outer-rocker",
+      "category": "component_research",
+      "predicate": "documented_applicability_or_service",
+      "value": "Klokkerholm 6526012 markets 4-door right outer rocker repair panel for original 9-5 model family; Key Parts 65-26-01-2 likewise claims 1998–2009 fit",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "case04-src-010",
+        "case04-src-011"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "See cited model-year WIS page or supplier catalog",
+      "notes": "Outside rocker skins do not replace structural inner sill or mounting reinforcement; compare profiles before purchase.",
+      "review_status": "needs_vehicle_verification"
+    },
+    {
+      "id": "case04-fact-010",
+      "subject": "engine:pcv",
+      "category": "component_research",
+      "predicate": "documented_applicability_or_service",
+      "value": "The ProParts 21341200 / Saab 55561200 PCV kit is listed for 9-5 1998–2003 and old 9-3; the 2004–2009 9-5 has separately listed PCV-system parts",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "case04-src-012",
+        "case04-src-013"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "See cited model-year WIS page or supplier catalog",
+      "notes": "Do not buy early PCV upgrade kit for this 2004 B235L without routing and OE confirmation.",
+      "review_status": "needs_vehicle_verification"
+    },
+    {
+      "id": "case04-fact-011",
+      "subject": "front:brakes",
+      "category": "component_research",
+      "predicate": "documented_applicability_or_service",
+      "value": "Supplier advertises 308 mm EBC rotor alternatives against both 9-5 and original 9-3 Viggen; useful cross-Saab replacement lead",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "case04-src-014"
+      ],
+      "evidence_status": "supplier_claim",
+      "locator": "See cited model-year WIS page or supplier catalog",
+      "notes": "Verify physical rotor, axle and exact 2004 B2 installed configuration. Not a cross-GM donor claim.",
+      "review_status": "needs_vehicle_verification"
+    },
+    {
+      "id": "case04-fact-012",
+      "subject": "body:lifting",
+      "category": "component_research",
+      "predicate": "documented_applicability_or_service",
+      "value": "Factory lifting locations include front towing-eye/subframe area and rocker jack brackets and expressly exclude rear axle/spare wheel well",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "case04-src-015"
+      ],
+      "evidence_status": "documented",
+      "locator": "See cited model-year WIS page or supplier catalog",
+      "notes": "Heavily corroded actual lift/support points may be unsafe notwithstanding factory locations.",
+      "review_status": "source_scoped"
+    },
+    {
+      "id": "case04-fact-013",
+      "subject": "engine:timing-chain",
+      "category": "component_research",
+      "predicate": "documented_applicability_or_service",
+      "value": "Saab documents in-car timing/balancer chain work for the 2004 petrol four-cylinder",
+      "unit": null,
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "source_ids": [
+        "case04-src-016"
+      ],
+      "evidence_status": "documented",
+      "locator": "See cited model-year WIS page or supplier catalog",
+      "notes": "Procedure exists; no evidence this high-mileage individual engine needs timing-chain replacement.",
+      "review_status": "source_scoped"
+    }
+  ],
+  "issues": [],
+  "parts": [
+    {
+      "id": "case04-part-001",
+      "part_number": "12765947",
+      "title": "2002–2005 OG 9-5 front subframe catalogue assembly",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Confirm original assembly stamp, correct support and mounting geometry, actual body metal condition, freight and clean donor condition"
+      ],
+      "source_ids": [
+        "case04-src-007"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Retailer separately lists 12765948 for 2006–2009; no GM/Opel plug-and-play donor proven."
+    },
+    {
+      "id": "case04-part-002",
+      "part_number": "65-26-01-2",
+      "title": "Key Parts right outer rocker repair panel for original 9-5",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Confirm four-door external panel profile and availability",
+        "Inspect inner sill, reinforcements and attachment points before body repair"
+      ],
+      "source_ids": [
+        "case04-src-011",
+        "case04-src-010"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Outer cover replacement is not structural frame repair."
+    },
+    {
+      "id": "case04-part-003",
+      "part_number": "52301070",
+      "title": "EBC 308 mm front brake rotor set (seller's 9-5 / OG 9-3 Viggen catalogue)",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "relationships": [],
+      "requirements": [
+        "Measure installed rotor 308 mm and identify B2 calipers, hub details and correct left/right hardware"
+      ],
+      "source_ids": [
+        "case04-src-006",
+        "case04-src-014"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Shared Saab-family aftermarket catalogue, not an Opel/GM donor."
+    },
+    {
+      "id": "case04-part-004",
+      "part_number": "21341200",
+      "title": "Earlier Saab PCV kit (not approved for 2004 B235L)",
+      "applicability": {
+        "platforms": [
+          "9-5-9600"
+        ],
+        "model_years": [
+          2004
+        ]
+      },
+      "relationships": [
+        {
+          "type": "aftermarket_reference",
+          "part_number": "55561200",
+          "conditions": "Supplier early 1998–2003 9-5 PCV diagram; NOT a verified 2004 replacement"
+        }
+      ],
+      "requirements": [
+        "Do not purchase for 2004 based on B235 family alone; retrieve correct 2004 breather configuration and stamps"
+      ],
+      "source_ids": [
+        "case04-src-012",
+        "case04-src-013"
+      ],
+      "evidence_status": "supplier_claim",
+      "review_status": "needs_vehicle_verification",
+      "notes": "Explicit exclusion lead; old catalog lists earlier models."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "case04-gap-001",
+      "title": "structural attachment",
+      "missing_inputs": [
+        "Are observed front underbody holes in welded chassis rail, captive subframe mount support, attached reinforcement, removable subframe, or multiple members?"
+      ],
+      "reason": "Insufficient physical/cross-catalog proof for this specific car; structural and safety-critical items must not be approved by catalogue alone.",
+      "source_ids": [
+        "case04-src-002",
+        "case04-src-005",
+        "case04-src-007"
+      ]
+    },
+    {
+      "id": "case04-gap-002",
+      "title": "structural economics",
+      "missing_inputs": [
+        "Does Saab 2004 WIS provide approved repair boundary for actual corrosion location, and will a body shop quote and undertake it?"
+      ],
+      "reason": "Insufficient physical/cross-catalog proof for this specific car; structural and safety-critical items must not be approved by catalogue alone.",
+      "source_ids": [
+        "case04-src-002",
+        "case04-src-005",
+        "case04-src-007"
+      ]
+    },
+    {
+      "id": "case04-gap-003",
+      "title": "rear suspension",
+      "missing_inputs": [
+        "Do rear floor/rear member/body mounting surfaces have perforation, and are fuel/brake lines viable?"
+      ],
+      "reason": "Insufficient physical/cross-catalog proof for this specific car; structural and safety-critical items must not be approved by catalogue alone.",
+      "source_ids": [
+        "case04-src-002",
+        "case04-src-005",
+        "case04-src-007"
+      ]
+    },
+    {
+      "id": "case04-gap-004",
+      "title": "drivetrain",
+      "missing_inputs": [
+        "Does cold start, oil pressure, oil pickup condition, compression, transmission engagement and fluid verify seller's functional claims?"
+      ],
+      "reason": "Insufficient physical/cross-catalog proof for this specific car; structural and safety-critical items must not be approved by catalogue alone.",
+      "source_ids": [
+        "case04-src-002",
+        "case04-src-005",
+        "case04-src-007"
+      ]
+    },
+    {
+      "id": "case04-gap-005",
+      "title": "mechanical fitment",
+      "missing_inputs": [
+        "What is stamped installed subframe part and brake hardware? Are affordable U.S. sources in stock at acceptable shipping costs?"
+      ],
+      "reason": "Insufficient physical/cross-catalog proof for this specific car; structural and safety-critical items must not be approved by catalogue alone.",
+      "source_ids": [
+        "case04-src-002",
+        "case04-src-005",
+        "case04-src-007"
+      ]
+    },
+    {
+      "id": "case04-gap-006",
+      "title": "cross-brand",
+      "missing_inputs": [
+        "Obtain matching OE numbers/engineering drawings before claiming Opel/GM/Volvo whole assembly direct fit."
+      ],
+      "reason": "Insufficient physical/cross-catalog proof for this specific car; structural and safety-critical items must not be approved by catalogue alone.",
+      "source_ids": [
+        "case04-src-002",
+        "case04-src-005",
+        "case04-src-007"
+      ]
+    }
+  ]
+}
