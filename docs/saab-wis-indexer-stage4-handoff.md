@@ -31,6 +31,6 @@ Follow `docs/data-contract.md` and `docs/evidence-policy.md`. Existing `data/dat
 
 ## Integration note
 
-This handoff file records verified development scope; **the original Stage 4 code has not yet been transferred to this branch**. Do not represent this as a completed source-code import or ask Claude to recreate the code blindly. The user can supply the Stage 4 ZIP attachment from the ChatGPT conversation when working with Claude.
+This handoff file records verified development scope; **the three Stage 4 Python modules and all four original test files have been transferred to this branch**. The exact original ZIP remains available in the ChatGPT conversation. Real SaabWISOnline HTML and end-to-end website verification are still outstanding.
 
 The active research database remains on `main`.
