@@ -63,6 +63,14 @@ class RealShape(unittest.TestCase):
         r = reconcile({'candidates': [cand()]}, SRC, [])
         self.assertEqual(r['results'][0]['source_match'], 'exact_url')
 
+    def test_printed_tolerance_and_range_values_compare_against_object_facts(self):
+        facts = [fact('f1', 'Thermostat, opening temperature', {'nominal': 89, 'tolerance': 2}, '°C'),
+                 fact('f2', 'Expansion tank pressure valve, opening pressure', {'min': 140, 'max': 150}, 'kPa', subject='tank:x')]
+        r = reconcile({'candidates': [cand(value='89 ± 2'), cand('Expansion tank pressure valve, opening pressure', '140 - 150', 'kPa')]}, SRC, facts)
+        self.assertEqual([x['possible_fact_matches'] for x in r['results']], [['f1'], ['f2']])
+        r = reconcile({'candidates': [cand(value='91 ± 2')]}, SRC, facts[:1])
+        self.assertEqual(r['results'][0]['potential_conflicts'], ['f1'])
+
 
 if __name__ == '__main__':
     unittest.main()

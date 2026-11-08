@@ -76,6 +76,14 @@ def _leaf_numbers(value):
     return []
 
 
+def _candidate_numbers(raw):
+    """All numbers in a candidate's printed value ("89 ± 2" -> 89, 2; "140 - 150" -> 140, 150)."""
+    n = _number(raw)
+    if n is not None:
+        return [n]
+    return [float(x.replace(',', '.')) for x in re.findall(r'\d+(?:[.,]\d+)?', str(raw or ''))]
+
+
 def _label_strength(candidate_label, fact):
     """How closely the candidate's WIS row label matches the fact's own wording. Never proof of equivalence."""
     cand = _subject(candidate_label)
@@ -118,7 +126,7 @@ def reconcile(review, source_urls, facts):
         exact_url = any(s.get('url') == raw_url for s in sources) if any('url' in s for s in sources) else None
         same_source = {f['id']: f for sid in source_ids for f in by_source.get(sid, [])}
         matches, conflicts, details = [], [], []
-        cand_value = _number(candidate.get('raw_value'))
+        cand_numbers = _candidate_numbers(candidate.get('raw_value'))
         for fid, fact in same_source.items():
             legacy_subject = _subject(fact.get('subject', '')) == _subject(candidate.get('subject', ''))
             strength = 'exact' if legacy_subject else _label_strength(candidate.get('subject', ''), fact)
@@ -129,9 +137,9 @@ def reconcile(review, source_urls, facts):
             if fact_unit and fact_unit != cand_unit:
                 continue                                  # different stated unit: no numeric comparison
             leaves = _leaf_numbers(fact.get('value'))
-            if cand_value is None or not leaves:
+            if not cand_numbers or not leaves:
                 continue
-            equal = any(abs(n - cand_value) < 1e-9 for n in leaves)
+            equal = all(any(abs(n - c) < 1e-9 for n in leaves) for c in cand_numbers)
             (matches if equal else conflicts).append(fid)
             details.append({'fact_id': fid, 'outcome': 'possible_duplicate' if equal else 'potential_conflict',
                             'label_match': strength, 'basis': 'same_source_url_and_row_label',

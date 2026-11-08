@@ -193,7 +193,8 @@ def analyse(state_dir, repo_root):
         (contra if len(vals) > 1 else dup).append({'label': label, 'unit': unit, 'documents': urls, 'values': sorted(vals)})
     listings = [r for r in cp['records'] if r.get('page_kind') == 'listing']
     retrieved_docs = [r for r in cp['records'] if r.get('status') == 'ok' and r.get('page_kind') == 'document']
-    disc_docs = {k: v for k, v in cp['discovered'].items() if v['kind'] in ('document', 'start')}
+    start_is_doc = any(r.get('page_kind') == 'document' and r.get('requested_url') == cp['start_url'] for r in cp['records'])
+    disc_docs = {k: v for k, v in cp['discovered'].items() if v['kind'] == 'document' or (v['kind'] == 'start' and start_is_doc)}
     bad = [{'url': r['url'], 'status': r['status'], 'http_status': r.get('http_status'), 'error_type': r.get('error_type')}
            for r in cp['records'] if r.get('status') not in ('ok',)]
     recon_conflicts = sum(bool(r['potential_conflicts']) for r in recon['results'])
@@ -215,6 +216,8 @@ def analyse(state_dir, repo_root):
             'candidate_specifications_extracted': len(all_candidates),
             'existing_source_matches_documents': docs_matching_existing,
             'existing_source_matches_candidates': recon['counts']['indexed_sources'],
+            'candidates_unmatched_but_source_has_existing_facts': sum(
+                1 for x in recon['results'] if x['same_source_fact_count'] and not x['match_details']),
             'potential_duplicate_facts': recon['counts']['possible_matches'],
             'potential_contradictions': {'against_existing_facts': recon_conflicts, 'within_one_document': internal,
                                          'across_documents': len(contra)},
@@ -270,6 +273,7 @@ def main():
     ap.add_argument('--delay', type=float, default=3.0)
     ap.add_argument('--resume', action='store_true')
     ap.add_argument('--dry-run', action='store_true', help='Print the plan only: no network, no writes')
+    ap.add_argument('--run-name', help='Suffix for report files (default: run id); files are never overwritten')
     ap.add_argument('--analyse-only', action='store_true', help='Skip retrieval; analyse the existing cache offline')
     a = ap.parse_args()
     start, prefix, nav = plan(a.start)
@@ -282,7 +286,7 @@ def main():
     if not a.analyse_only:
         cp = collect(a.start, state, a.repo_root, a.max_pages, a.delay, resume=a.resume)
         print(f"collection {cp['status']}: {len(cp['records'])} pages, queue remaining {len(cp['queue'])}")
-    report, outs = finalize(state, a.repo_root)
+    report, outs = finalize(state, a.repo_root, a.run_name)
     print(json.dumps({'measured': {k: v for k, v in report['measured'].items() if not isinstance(v, (list, dict))},
                       'outputs': outs}, indent=2))
 

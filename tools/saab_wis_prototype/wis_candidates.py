@@ -66,7 +66,9 @@ class TableReader(HTMLParser):
     def _close_cell(self):
         t = self._stack[-1]
         if t['cell'] is not None:
-            t['row'].append({'text': ' '.join(''.join(t['cell']['buf']).split()),
+            raw = ''.join(t['cell']['buf'])
+            t['row'].append({'text': ' '.join(raw.split()),
+                             'lines': [' '.join(l.split()) for l in raw.split('\n') if l.strip()],
                              'colspan': t['cell']['cs'], 'rowspan': t['cell']['rs']})
             t['cell'] = None
 
@@ -113,7 +115,7 @@ class TableReader(HTMLParser):
                 self._close_cell()
                 t['cell'] = {'buf': [], 'cs': self._span(attrs.get('colspan')), 'rs': self._span(attrs.get('rowspan'))}
             elif tag == 'br' and t['cell'] is not None:
-                t['cell']['buf'].append(' ')
+                t['cell']['buf'].append('\n')
 
     def handle_data(self, data):
         if self._skip: return
@@ -160,10 +162,10 @@ def expand_grid(rows):
             while col in carried and carried[col][0] > 0:
                 col += 1
             c0, c1 = col, col + cell['colspan']
-            placed.append({'text': cell['text'], 'c0': c0, 'c1': c1, 'inherited': False})
+            placed.append({'text': cell['text'], 'lines': cell['lines'], 'c0': c0, 'c1': c1, 'inherited': False})
             if cell['rowspan'] > 1:
                 for cc in range(c0, c1):
-                    carried[cc] = (cell['rowspan'] - 1, {'text': cell['text'], 'c0': c0, 'c1': c1})
+                    carried[cc] = (cell['rowspan'] - 1, {'text': cell['text'], 'lines': cell['lines'], 'c0': c0, 'c1': c1})
                     created.add(cc)
             col = c1
         # rowspan carry-over cells covering this row (decrement after use)
@@ -192,6 +194,123 @@ def parse_restrictions(text):
         tok = f'{m.group(1)}-cyl' if m.group(1) else m.group(0).lower()
         if tok not in tokens: tokens.append(tok)
     return {'engine_number': eng, 'chassis_number': ch}, tokens
+
+
+
+UNIT_BASE = r'(?:°C|°F|kPa|MPa|bar|psi|Nm|N·m|lbf ft|mm|cm|in|L|mL|rpm|kW|hp|V|A|Ohm|Ω|%|km/h|ms|s|g|kg|W|Hz)'
+UNIT_CELL = re.compile(rf'^({UNIT_BASE})(?:\s*\(\s*({UNIT_BASE})\s*\))?((?:\s+{UNIT_BASE})*)$')
+_NUM = r'[+-]?\d+(?:[.,]\d+)?'
+_PRIMARY = rf'(?:{_NUM}\s*[-–—]\s*{_NUM}|{_NUM}(?:\s*(?:±|\+/-)\s*{_NUM}\s*%?)?)'
+VALUE_PRIMARY = re.compile(rf'^({_PRIMARY})$')
+VALUE_DUAL = re.compile(rf'^({_PRIMARY})\s*\(\s*({_PRIMARY})\s*\)$')
+DTC_ROW = re.compile(r'^[PBCU]\d{4}$')
+NOTE_WORDS = re.compile(r'^(note|warning|caution|important)$', re.I)
+
+
+def classify_table(grid):
+    """Structure class of one expanded table; 'unclassified' means we do not know how to read it."""
+    if not grid: return 'empty'
+    texts = [[p['text'] for p in r] for r in grid]
+    flat = ' '.join(t for r in texts for t in r)
+    if len(grid) == 1:
+        first = texts[0]
+        if len(first) <= 2 and not re.search(r'\d', flat) and first[0] == '': return 'banner'
+        if len(first) == 1 and NOTE_WORDS.match(first[0]): return 'note_box'
+        if first and re.fullmatch(r'\d+\.', first[0]): return 'procedure_step'
+        if first and first[0] == '•': return 'bullet_item'
+        if len(first) == 1 and not re.search(r'\d', first[0]): return 'text_block'
+    if len(grid) >= 1 and NOTE_WORDS.match(texts[0][0] if texts[0] else '') and len(texts[0]) == 1:
+        return 'note_box'
+    if texts and texts[0] and re.match(r'(?i)diagnostic trouble code', texts[0][0]) and all(DTC_ROW.match(r[0]) for r in texts[1:] if r and r[0]):
+        return 'dtc_table'
+    if len(grid) >= 2 and all(t == 'X' or t == '' for t in texts[-1]) and any(t == 'X' for t in texts[-1]):
+        return 'applicability_matrix'
+    if any(len(r) >= 3 and UNIT_CELL.fullmatch(r[-2]) and re.search(r'\d', r[-1]) for r in texts):
+        return 'label_unit_value'
+    return 'unclassified'
+
+
+def _unit_value_rows(canonical, path, reader, section, table_no, grid, found, seen, review):
+    """Interpret a label | [sub-label] | unit | value table. Returns number of rows not promoted."""
+    skipped = 0
+    group = None
+    prev_label = None
+    for row_no, placed in enumerate(grid, 1):
+        cells = [p['text'] for p in placed]
+        if not any(cells): skipped += 1; continue
+        if len(placed) < 2: skipped += 1; continue
+        unit_p, value_p = placed[-2], placed[-1]
+        label_ps = placed[:-2]
+        label_lines = (label_ps[0]['lines'] if label_ps else []) or ([label_ps[0]['text']] if label_ps and label_ps[0]['text'] else [])
+        label = label_lines[0] if label_lines else ''
+        conditions = label_lines[1:]
+        subs = label_ps[1:]
+        if not unit_p['text'] and not value_p['text'] and len(label_ps) <= 1 and label:
+            group = label; prev_label = None; skipped += 1; continue          # group header row
+        def rr(reason, cls='B'):
+            review.append(_review(table_no, row_no, section, reader.heading, reason, cells, cls))
+        if len(subs) > 1: skipped += 1; rr('too_many_label_columns'); continue
+        continued = False
+        if not label and prev_label and subs:
+            label, continued = prev_label, True
+        elif not label:
+            skipped += 1; rr('missing_label'); continue
+        else:
+            prev_label = label
+        if unit_p['inherited'] or value_p['inherited']: skipped += 1; rr('inherited_value_cell'); continue
+        um = UNIT_CELL.fullmatch(unit_p['text'])
+        if not um:
+            skipped += 1
+            if not unit_p['text']:
+                if value_p['text']: rr('text_value_no_unit', 'A')
+            elif re.search(r'\d', value_p['text']):
+                rr('unit_cell_not_recognised')
+            continue
+        if um.group(3).strip():
+            skipped += 1; rr('multi_measure_cell'); continue                     # e.g. "°C (°F) bar" + "131 (268) 1.4"
+        vlines = value_p['lines'] or [value_p['text']]
+        slines = subs[0]['lines'] if subs else []
+        if len(vlines) > 1:
+            if not subs or len(slines) != len(vlines): skipped += 1; rr('multiline_value_unpaired'); continue
+            pairs = list(zip(slines, vlines)); paired = True
+        else:
+            if subs and len(slines) > 1: skipped += 1; rr('multiline_value_unpaired'); continue
+            pairs = [((subs[0]['text'] if subs else ''), vlines[0])]; paired = False
+        has_alt_unit = um.group(2) is not None
+        ok = True
+        built = []
+        for sub, vtext in pairs:
+            d, sg = VALUE_DUAL.fullmatch(vtext), VALUE_PRIMARY.fullmatch(vtext)
+            if has_alt_unit and d: prim, alt = d.group(1).strip(), d.group(2).strip() + ' ' + um.group(2)
+            elif sg: prim, alt = sg.group(1).strip(), None
+            else: ok = False; break
+            built.append((sub, vtext, prim, alt))
+        if not ok:
+            skipped += 1; rr('multi_measure_cell' if re.search(r'\d.*\d', value_p['text']) else 'missing_or_non_numeric_value'); continue
+        for k, (sub, vtext, prim, alt) in enumerate(built):
+            subject = ' / '.join(x for x in (label, sub) if x)
+            ctx = ' | '.join(x for x in (group,) if x)
+            item = _build(canonical, path, reader, section, table_no, row_no, subject, prim, um.group(1), alt,
+                          False, prim + ' ' + um.group(1) + (' @' + ctx if ctx else ''))
+            if group:
+                gr, gt = parse_restrictions(group)
+                item['group_context'] = group
+                item['applicability_restrictions']['engine_number'] += gr['engine_number']
+                item['applicability_restrictions']['chassis_number'] += gr['chassis_number']
+                for t in gt:
+                    if t not in item['configuration_tokens']: item['configuration_tokens'].append(t)
+                item['warnings'].append('group_context_inferred_from_preceding_header_row')
+            item['source_value_text'], item['source_unit_text'] = vtext, unit_p['text']
+            if paired: item['locator'] += f' / line {k + 1}'; item['warnings'].append('paired_by_multiline_alignment')
+            if continued: item['warnings'].append('label_continued_from_previous_row')
+            if conditions:
+                item['explicit_conditions'] = conditions
+                item['warnings'].append('subject_has_explicit_condition_text')
+                item['candidate_id'] = 'wis-review-' + hashlib.sha256(json.dumps([item['candidate_id'], conditions], ensure_ascii=False).encode()).hexdigest()[:20]
+            if group or paired or continued or conditions: item['info_class'] = 'B'
+            if item['candidate_id'] in seen: continue
+            seen.add(item['candidate_id']); found.append(item)
+    return skipped
 
 
 def _covering(placed, col):
@@ -247,7 +366,7 @@ def extract_candidates(html, source_url, known_source_urls=None):
     reader = TableReader()
     reader.feed(html)
     reader.close()
-    found, review, unsupported = [], [], []
+    found, review, unsupported, diagnostic, table_classes = [], [], [], [], {}
     seen = set()
     skipped = 0
     for table in reader.tables:
@@ -258,6 +377,20 @@ def extract_candidates(html, source_url, known_source_urls=None):
         nm = next((p for p in header if TORQUE_HEADER_NM.fullmatch(p['text'])), None)
         lb = next((p for p in header if TORQUE_HEADER_LB.fullmatch(p['text'])), None)
         torque_table = bool(nm and lb and nm is not lb)
+        kind = 'torque_table' if torque_table else classify_table(grid)
+        table_classes[kind] = table_classes.get(kind, 0) + 1
+        if kind in ('banner', 'empty', 'note_box', 'procedure_step', 'bullet_item', 'text_block', 'applicability_matrix'):
+            skipped += len(rows); continue
+        if kind == 'dtc_table':
+            for row_no, placed in enumerate(grid, 1):
+                if row_no > 1 and placed and DTC_ROW.match(placed[0]['text']):
+                    diagnostic.append({'code': placed[0]['text'], 'description_verbatim': placed[1]['text'] if len(placed) > 1 else '',
+                                       'locator': f'{section or reader.heading} / table {table_no} / row {row_no}',
+                                       'promotion': 'review_only', 'info_class': 'A'})
+            skipped += len(rows); continue
+        if kind == 'label_unit_value':
+            skipped += _unit_value_rows(canonical, path, reader, section, table_no, grid, found, seen, review)
+            continue
         texts_all = ' '.join(p['text'] for r in grid for p in r)
         if not torque_table and not any(len(r) == 2 for r in grid) and not re.search(r'\d', texts_all):
             skipped += len(rows)
@@ -329,7 +462,10 @@ def extract_candidates(html, source_url, known_source_urls=None):
                                 'reason': 'no_recognized_specification_columns'})
     # same subject, different value inside ONE document: never pick a winner
     by_subject = {}
-    for it in found: by_subject.setdefault(it['subject'].casefold(), []).append(it)
+    for it in found:
+        key = (it['subject'].casefold(), it.get('group_context', ''), json.dumps(it.get('explicit_conditions', [])),
+               json.dumps(it['applicability_restrictions'], sort_keys=True))
+        by_subject.setdefault(key, []).append(it)
     internal = []
     for subj, items in by_subject.items():
         if len({(i['raw_value'], i['unit']) for i in items}) > 1:
@@ -345,6 +481,8 @@ def extract_candidates(html, source_url, known_source_urls=None):
         'skipped_rows': skipped,
         'candidates': found,
         'review_required': review,
+        'diagnostic_records': diagnostic,
+        'table_classes': table_classes,
         'unsupported_tables': unsupported,
         'internal_conflicts': internal,
         'note': 'Offline review-only extraction; not a factory-verified fact dataset or replacement approval',

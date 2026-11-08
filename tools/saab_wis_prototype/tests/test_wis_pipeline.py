@@ -85,6 +85,8 @@ class PipelineTests(unittest.TestCase):
         m = report['measured']
         self.assertEqual(cp['status'], 'complete')
         self.assertEqual(m['documents_retrieved'], 2)            # torque + prose; listing pages excluded
+        self.assertEqual(m['documents_discovered'], 3)           # torque, coolant (soft-404), prose; the start listing is not a document
+        self.assertEqual(m['candidates_unmatched_but_source_has_existing_facts'], 3)   # 5 rows - pump - fan
         self.assertEqual(m['listing_pages_retrieved'], 2)
         self.assertEqual(m['candidate_specifications_extracted'], 5)
         self.assertEqual(m['existing_source_matches_candidates'], 5)

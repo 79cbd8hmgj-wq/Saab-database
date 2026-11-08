@@ -1,0 +1,685 @@
+{
+ "coverage_claim": {
+  "claimed": false,
+  "reason": "A successful crawl is not a coverage claim: no independent document inventory, and candidate extraction covers only recognised tables."
+ },
+ "documents": [
+  {
+   "candidates": 8,
+   "html_sha256": "06c4589c67effda7ae90ac8e6d458b4adf7ceddd7d0141bfe44b8bee522d3503",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "specification_table",
+   "tables": 2,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-data/radiator-fan-motor"
+  },
+  {
+   "candidates": 1,
+   "html_sha256": "6385aab7b95bca664dea621fb29fdb8cd5368d346c4015286e81744cd528532d",
+   "review_required_reasons": [
+    "text_value_no_unit"
+   ],
+   "review_required_rows": 1,
+   "structure": "partially_unsupported",
+   "tables": 2,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-data/coolant"
+  },
+  {
+   "candidates": 7,
+   "html_sha256": "938f2ced4a3afc472acc7003262cd4066d6b086a77eabb9058448457c11e3f2a",
+   "review_required_reasons": [
+    "multi_measure_cell"
+   ],
+   "review_required_rows": 1,
+   "structure": "partially_unsupported",
+   "tables": 2,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-data/temperature-pressure-limits"
+  },
+  {
+   "candidates": 16,
+   "html_sha256": "ea3ddda0c3edfd24649b006d6aeb5735412df64d700db2d8ce06c0c594f7ee95",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "specification_table",
+   "tables": 2,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-data/tightening-torques"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "c14174424bd745c894582cf08a9721d6d9d40298eae2fa89592cf7c7f2cc09a5",
+   "review_required_reasons": [
+    "unsupported_table_shape"
+   ],
+   "review_required_rows": 2,
+   "structure": "partially_unsupported",
+   "tables": 3,
+   "unsupported_tables": 1,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-data/list-of-lubricants"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "428e1d655bdfd56f7b04530a97e2b571e81578c6d14bbd1e84c03c77782fe063",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 2,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/special-tools/30-05-477-cooling-system-tester"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "aa5fc49f6594bea0f5808eb49188ab015c54531d8a85bab8ee0fcba4f5600263",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 2,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/special-tools/30-07-739-hose-pinch-off-pliers"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "9c7b5d1fe9468bba95d320d78384275f76e20822d853c3580cf4b09486544057",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 2,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/special-tools/83-95-212-strap"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "d39f49022c21e7ada10c022a0341fd0a368d64377c2d38c10cc0161c1d57e827",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 2,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/special-tools/83-95-254-drawbar-handle-hydraulic-belt-tensioner"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "8fb5dfbf46ced9e1b25b383420113e72ea69f4db8e8edf54e3246a1d3d0caefa",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 2,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/special-tools/86-12-079-toolbox-wiring-harness"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "391ef97547f658e81efe74a9a12dab9f63d2006b7e626559009496604827f7bc",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 14,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-description/cooling-system-diagram-4-cyl"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "fc72c161ad986ab62923e48b31d430165fb4eed45de2a3027d1250942e5cff13",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 2,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-description/system-overview-4-cyl"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "02638f55a069808a416d469ce616a75d3316d2fa691d428126bde53a0b61048b",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 2,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-description/coolant-4-cyl"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "8a87a8b1228e64ea09f2303e8dc4ba439d7587f8d30d5f47a4bba7456a41f63d",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 51,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/technical-description/radiator-fans-4-cyl"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "aea70833b435e1e1e16062836107990755398d02500d4a38107cea691dc99232",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 20,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/fault-diagnosis-general/fault-diagnosis-strategy-for-electronic-systems"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "24ff5227096d046024ca0972a9c68c9a27e21257f5e11f773f32c94c85878e1f",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 7,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/fault-diagnosis-general/tech-2-menu-structure-dice"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "26cb210411d7e79bcb380503111915c17bb749c3db07d3b5ad01dfdacca20108",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 13,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/fault-diagnosis-general/before-changing-a-control-module"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "e5ee2c2419ddb9c73aed9dec511b5847cc29dc330f66191baba9a50a7937fbfa",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 17,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/fault-diagnosis-general/testing-for-open-short-circuits"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "82b4ea644e56c744135eccb066e98674f15ae1cf692185b6061b66af1602682c",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 2,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/fault-diagnosis-diagnostic-trouble-codes/diagnostic-trouble-code-table"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "dc8e22f611ec356ad98b3241ab09a69dae23590b21413022d2b02a46661e028e",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 7,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/fault-diagnosis-diagnostic-trouble-codes/b1100"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "0c805af8d290dd56244b1b766b3cc9b60becf027a95601aa6591517915631f67",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 7,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/fault-diagnosis-diagnostic-trouble-codes/b2190"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "49de01ba178b4eedfbde20199171e54655349da843a6895aaaa132f19a313126",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 5,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/fault-diagnosis-diagnostic-trouble-codes/b2195"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "2e95223a1d7090950f30794556d81a728440fb6769474ec4e37b830e93d8302b",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "partially_unsupported",
+   "tables": 2,
+   "unsupported_tables": 1,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/fault-diagnosis-fault-symptoms/table-of-fault-symptoms"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "1e9320720b02d4205502353d7e88204ebdaf0164c0914bb7dc9e5a27175a61bf",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/fault-diagnosis-fault-symptoms/coolant-leak-from-hoses"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "f38b7c5101b3f83da84e7bddcbf23cf057463a2acd35d0dc56502a14c3a7742a",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/fault-diagnosis-fault-symptoms/radiator-fan-operation-faulty"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "33c9d2f04811639bd6672aa47fa42ec8343f1dd30e0ffac6be1873a82a1f5e60",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 6,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/fault-diagnosis-fault-symptoms/before-changing-a-control-module"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "5b65bd046dc4a9f9a212a7cc0fabd6815aa2246352d78fc0a965b550153599f1",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 7,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/filling-and-bleeding-the-cooling-system"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "3da3e770367e17c986071b0e607bbe89e5edfe790c396f7079bf213e713d483a",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 43,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/radiator-4-cyl"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "aff166265dfd87caad742580406e9201a1ee660e34c5ff50217d3c94d8031a1f",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 17,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/engine-oil-cooler-4-cyl"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "94a8edb0f3d7bc22c5816e1d38362716630fa4643a0c2cd4d2f8127a63430dfd",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 28,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/charge-air-cooler-4-cyl"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "28c9f7f65a7de89e489b157ef83c8b80b458f060c5a29b1377fbef65c305d15a",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 28,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/thermostat-4-cyl"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "ecaa3851483dfda0b3ecdca3b0ffc437ac4391671b2ac3243c5f98eafb49b752",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 15,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/coolant-4-cyl"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "f1344833e43c6d1c97713f51af0c7e76485d48eee54960d0a91dd23ab987c757",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 33,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/expansion-tank"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "3acf8737a70aa5e7a1ef5ff6c1bdff9fabe462e7c9cf302a2543a89f31fbde81",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 15,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/radiator-fan-4-cyl"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "9fe445c00e8c4d8443172a31de3c21bb8dadca45c318ceb304ff394d4fca1185",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 13,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/fan-motor"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "bc5a07d2de5cd55d882e42a4e29f90e010fc74bc797387911eb81cac30ef2fd0",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 65,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/coolant-pump-4-cyl"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "81821926831a1d1f31e3629b8501d3c77b5bc97426e96cec31d05088391fb716",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 5,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/coolant-changing"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "92729f631527860f463118499bde1df083a03ac6762c5b1cddbc24fbd51bb9ea",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 14,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/cooling-system-pressure-testing"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "9a4fa17495013d9d757677a70f1c94c484d3262114aa6b9163fe105391160527",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 33,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/adjustment-replacement/coolant-level-sensor"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "2031b05e57f501ed0a5db8f4eb7c3b699097af235b04d6fbb63375d6710ea29e",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/motor-radiator-fan-left-37lh"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "f3397b668d7ec7002f2759824e1d94d1d71a4c73304ad80bfe1a54a2b41880a4",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/motor-rh-radiator-fan-37rh"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "d2dc916d6aaeb3b6ac66bf9319bdc8b02c48255696229fe17b42744d82d26d54",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/relay-high-speed-lh-fan-81"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "18edc006f61c8849405a7c3e071816f31446d60bcae4db944c6d030fee524654",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/relay-low-speed-2-radiator-fans-155"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "843c0a402861137a235a071cbe061393b8f583d4c8793b21550a993d31337d03",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/temperature-sensor-coolant-202"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "ba07088d90e29b9a3e6850b9e1ee066bf6e0d8700a2b7a130996b261fd83ba31",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/relay-high-speed-rh-radiator-fan-396"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "7e3e4c2364c5274d9c42e3f20e32e05c743d1af0b6fe87e9296c5ea7a994e38b",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/main-instrument-unit-540"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "3ecef8f9f3bb701d86d0ece15b87557b34d99584a3a7356db962024bf3961803",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/trionic-control-module-4-cyl-petrol-589"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "ccf94e80b9067859bbb6c2d5dfef467544507fc2934a871dff3f97100525c525",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/a-c-pressure-sensor-620"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "0e92b7d713d41b7664d727608ddd9acc3e4d7a719ca56eb098d28fcc94777ec8",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/dice-control-module-628"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "d465fea449a1645c266a4b154c34376e28f4b00c443ed9d84b9625eed7751743",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/connector-h43-1"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "f17248f49b64ca41d2bc76eadd17b7c246c02e28300def37ac2f72f7450c2c2e",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/crimp-connection-j3-front-harness"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "dd09e5103fdb9a535dcc430f3a509ea821718970c1db10d063401375ddbe3df0",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/crimp-j5-front-wiring-harness"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "b1fa6bb902882a5ae912a3feafb90bfc946788e57ea519cf5c2413de49b753ce",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/crimp-j17-petrol-engine-harness"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "2d09ec3e7568ff5f17345d17bd0aea1edbd7c3877f7054af51cac364e5c23a0d",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/crimp-connection-j150-front-wiring-harness"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "ab2441d24406579252664c3c184096289f1f0f5989d803f64a4c1eab8119fc87",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/crimp-j222-front-harness"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "9f73d1bc04fdbddc32079e4346c573a46a2c94a5175a671e5a484552ee656e48",
+   "review_required_reasons": [
+    "value_not_numeric_with_unit"
+   ],
+   "review_required_rows": 2,
+   "structure": "partially_unsupported",
+   "tables": 3,
+   "unsupported_tables": 1,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/grounding-point-g30"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "f9bb7ed709a02b8de91c32f1ded5505fcd8d8fc90793663f1b9454606999edf2",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "partially_unsupported",
+   "tables": 5,
+   "unsupported_tables": 2,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/grounding-point-g40"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "3a5df725420c776860c801d077d67e01fbca7473cd4acf216e29e718cd3de465",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "partially_unsupported",
+   "tables": 5,
+   "unsupported_tables": 2,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/location-of-components/grounding-point-g42"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "2563d40555970d0e3d3f8142245002d93e8ba7c2d8d1e59af267a2e0ee3408c3",
+   "review_required_reasons": [
+    "unsupported_table_shape"
+   ],
+   "review_required_rows": 6,
+   "structure": "partially_unsupported",
+   "tables": 3,
+   "unsupported_tables": 1,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/wiring-diagram/radiator-fans-petrol"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "5a824175159a56f6578708ac17749229513f6dca93150aa107e4598dcdbb4e60",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 2,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/service/coolant-level"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "e148334a40871c819e25285244c29e981b7843fb3fa75fa3d1e3b253088b9605",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 1,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/service/coolant-mixture-and-freezing-point"
+  },
+  {
+   "candidates": 0,
+   "html_sha256": "16a0a1b0781ae26b8d23421c3f60b2bb56c1eff432974baaa5d0e35ae50a6b02",
+   "review_required_reasons": [],
+   "review_required_rows": 0,
+   "structure": "tables_without_candidates",
+   "tables": 4,
+   "unsupported_tables": 0,
+   "url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/service/check-fluid-level"
+  }
+ ],
+ "inventory": {
+  "basis": "navigation listing pages under the subtree only",
+  "discovered_but_not_fetched": [],
+  "independent_inventory": false,
+  "note": "robots.txt names a sitemap on a different host (v2.saabwisonline.com); not collected",
+  "queue_remaining": 0
+ },
+ "measured": {
+  "candidate_specifications_extracted": 32,
+  "candidates_requiring_review": 32,
+  "candidates_unmatched_but_source_has_existing_facts": 5,
+  "documents_discovered": 62,
+  "documents_parsed": 62,
+  "documents_retrieved": 62,
+  "documents_with_unsupported_structures": 8,
+  "documents_without_structured_candidates": 58,
+  "existing_source_matches_candidates": 7,
+  "existing_source_matches_documents": 11,
+  "extraction_errors": [],
+  "listing_pages_retrieved": 11,
+  "missing_or_inaccessible_pages": [],
+  "pages_requested": 73,
+  "potential_contradictions": {
+   "across_documents": 0,
+   "against_existing_facts": 0,
+   "within_one_document": 0
+  },
+  "potential_duplicate_facts": 2,
+  "review_required_rows": 12
+ },
+ "measured_http": {
+  "redirect_chains_followed": 10,
+  "statuses": {
+   "ok": 73
+  }
+ },
+ "purpose": "Counts-only evidence from a controlled live run. Contains no page text and no extracted specification values.",
+ "run": {
+  "collection_status": "complete",
+  "request_delay_seconds": 3,
+  "retrieved_on": "2026-11-08",
+  "robots_txt": "fetched 200; User-agent * Disallow /docs2, Allow /; subtree permitted",
+  "start_url": "https://saabwisonline.com/9-5-9600/2008/2-engine/cooling-system/",
+  "subtree": "/9-5-9600/2008/2-engine/cooling-system/",
+  "user_agent": "SaabDatabaseResearchIndexer/0.2 (metadata-only; ...)"
+ },
+ "schema": "wis-pilot-summary-v0.1"
+}
