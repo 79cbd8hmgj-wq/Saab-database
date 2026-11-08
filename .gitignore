@@ -2,3 +2,8 @@ __pycache__/
 *.py[cod]
 .venv/
 .pytest_cache/
+
+# SaabWISOnline pilot state (raw cached pages must never be committed)
+.wis-state/
+wis-state/
+wis-manifest*.json

@@ -17,6 +17,8 @@ jobs:
         run: python3 tools/validate.py
       - name: Run regression tests
         run: python3 -m unittest discover -s tests -v
+      - name: Run offline SaabWISOnline prototype tests
+        run: python3 -m unittest discover -s tools/saab_wis_prototype/tests -v
       - name: Audit existing research reuse and overlap
         run: python3 tools/audit_research_reuse.py --summary
       - name: Verify legacy issue classification and mechanism crosswalk
